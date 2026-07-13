@@ -7,8 +7,8 @@ site:
   base_url: "https://example.github.io/black-hole-theory-daily"
 pipeline:
   since_days: 7
-  selection_threshold: 65
-  review_min_score: 60
+  selection_threshold: 50
+  review_min_score: 45
   max_llm_papers_per_run: 60
   min_abstract_chars: 300
   request_timeout_seconds: 30
