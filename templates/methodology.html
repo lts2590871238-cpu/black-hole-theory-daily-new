@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}筛选方法 · {{ settings.site.title_zh }}{% endblock %}
+{% block content %}
+<article class="methodology">
+  <header class="page-head"><p class="eyebrow">METHODOLOGY</p><h1>筛选方法与局限</h1><p>规则、模型输出和数据来源都保留版本，可供审查和复现。</p></header>
+  <section><h2>它能做什么</h2><p>自动流程估计论文与四个主题的相关性、摘要中体现的理论深度、方法信号、新联系和元数据完整度，目的是帮助研究者判断是否值得进一步点开阅读。</p></section>
+  <section class="caution"><h2>它不能做什么</h2><p>这不是同行评议，不代表论文结论正确，也不能保证论文重要。流程没有阅读全文，不依据作者名气、机构、国籍或声望评分。对发表不足 30 天的新论文，零引用不扣分；引用仅能提供最多 5 分的小幅社区信号。</p></section>
+  <section><h2>两阶段筛选</h2><ol><li><strong>确定性硬过滤：</strong>检查标题、作者、日期、摘要长度、规范链接、类别、主题关键词和公告/撤稿等排除条件。负面词主要降权，单个词不会机械删除。</li><li><strong>结构化模型评分：</strong>只输入标题、摘要和有限元数据。标题与摘要被视为不可信文本，其中的指令一律忽略。输出必须通过 JSON Schema、Pydantic 和翻译长度校验。</li></ol></section>
+  <section><h2>评分构成</h2><div class="rubric"><div><strong>30</strong><span>理论深度</span></div><div><strong>20</strong><span>方法信号</span></div><div><strong>15</strong><span>新颖性信号</span></div><div><strong>10</strong><span>摘要清晰度</span></div><div><strong>10</strong><span>元数据质量</span></div><div><strong>5</strong><span>社区信号</span></div><div><strong>10</strong><span>其他可解释项</span></div></div><p>默认 {{ settings.pipeline.selection_threshold }} 分及以上公开显示；{{ settings.pipeline.review_min_score }}–{{ settings.pipeline.selection_threshold - 1 }} 分进入人工抽查队列；其余仅保留简短拒绝记录。</p></section>
+  <section><h2>数据与翻译</h2><p>arXiv 提供当前英文摘要和版本信息；INSPIRE 补充引用数、文献记录和出版信息。两源指向同一论文时按 arXiv ID、DOI、再到严格规范化标题合并。中文摘要逐句覆盖英文摘要全文，完整保留研究问题、假设、方法、结果、限定条件、局限和不确定语气；它不是简短概述，也不扩写成论文解读。</p></section>
+  <section><h2>可审查配置</h2><p>主题词、负面词和阈值集中在仓库的 <code>config/</code>；公开结果可从 <a href="../papers.json">papers.json</a> 获取。</p></section>
+</article>
+{% endblock %}

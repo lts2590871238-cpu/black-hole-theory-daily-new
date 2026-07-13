@@ -1,0 +1,27 @@
+schema_version: "1.0"
+config_version: "2026-07-13.2"
+site:
+  title_en: "Black Hole & Gravity Theory Daily"
+  title_zh: "黑洞与引力理论每日精选"
+  timezone: "Asia/Shanghai"
+  base_url: "https://example.github.io/black-hole-theory-daily"
+pipeline:
+  since_days: 7
+  selection_threshold: 65
+  review_min_score: 60
+  max_llm_papers_per_run: 60
+  min_abstract_chars: 300
+  request_timeout_seconds: 30
+  retry_attempts: 4
+  backoff_seconds: 1.0
+  arxiv_page_size: 200
+  arxiv_max_pages: 5
+  arxiv_request_interval_seconds: 3.1
+  inspire_page_size: 100
+  max_inspire_pages: 8
+  user_agent: "BlackHoleTheoryDaily/0.1 (mailto:maintainer@example.invalid)"
+versions:
+  prompt: "curation-2026-07-13.2"
+  llm_schema: "curation-schema-1.0"
+  translation: "zh-translation-2.0"
+  filter: "deterministic-filter-2.0"
