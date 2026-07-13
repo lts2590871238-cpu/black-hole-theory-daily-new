@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}历史归档 · {{ settings.site.title_zh }}{% endblock %}
+{% block content %}
+<section class="page-head"><p class="eyebrow">ARCHIVE</p><h1>历史归档</h1><p>按首次提交日期浏览已入选论文；更新版本仍合并在同一张卡片。</p></section>
+{% if grouped %}{% for day, items in grouped.items() %}<section class="archive-day"><div class="section-heading"><h2>{{ day }}</h2><span>{{ items|length }} 篇</span></div>{% for item in items %}{% include "paper_card.html" %}{% endfor %}</section>{% endfor %}{% else %}<p class="empty">尚无正式历史。可先运行离线演示。</p>{% endif %}
+{% endblock %}
+

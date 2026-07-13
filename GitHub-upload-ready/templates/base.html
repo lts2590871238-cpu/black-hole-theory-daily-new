@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="可追溯、可审计的黑洞与引力理论每日论文精选。自动筛选，非同行评议。">
+  <title>{% block title %}{{ settings.site.title_zh }}{% endblock %}</title>
+  <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ page_prefix }}feed.xml">
+  <link rel="stylesheet" href="{{ asset_prefix }}static/styles.css">
+  <script src="{{ asset_prefix }}static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header">
+    <div class="shell header-row">
+      <a class="brand" href="{{ page_prefix }}index.html" aria-label="返回首页">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span><strong>{{ settings.site.title_zh }}</strong><small>{{ settings.site.title_en }}</small></span>
+      </a>
+      <nav aria-label="主要导航">
+        <a href="{{ page_prefix }}archive/">历史归档</a>
+        <a href="{{ page_prefix }}methodology/">筛选方法</a>
+        <a href="{{ page_prefix }}feed.xml">订阅</a>
+      </nav>
+    </div>
+  </header>
+  {% if demo %}<div class="demo-banner" role="status">离线演示站 · 全部论文均为虚构示例，不可引用</div>{% endif %}
+  <main id="main" class="shell">{% block content %}{% endblock %}</main>
+  <footer class="site-footer">
+    <div class="shell"><p>自动筛选只用于帮助发现论文，不是同行评议，也不保证论文正确或重要。</p><p>页面时区：北京时间（Asia/Shanghai） · 数据可在 <a href="{{ page_prefix }}papers.json">papers.json</a> 审查。</p></div>
+  </footer>
+</body>
+</html>

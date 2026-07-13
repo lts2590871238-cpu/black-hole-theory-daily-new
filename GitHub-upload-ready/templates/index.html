@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">CURATED THEORY · 每日自动更新</p>
+  <h1>少而精的引力理论<br>论文入口</h1>
+  <p class="lede">聚焦黑洞热力学、PTA、全息凝聚态与广义相对论基础。每条结果保留来源、入选理由和分项评分。</p>
+  <div class="snapshot" aria-label="今日概览">
+    <div><strong>{{ papers|length }}</strong><span>当前精选</span></div>
+    <div><strong>{{ generated.strftime('%Y-%m-%d') }}</strong><span>最近构建（北京）</span></div>
+    <div><strong>4</strong><span>研究主题</span></div>
+  </div>
+</section>
+
+<section class="filters" aria-labelledby="filter-title">
+  <div class="section-heading"><div><p class="eyebrow">BROWSE</p><h2 id="filter-title">筛选论文</h2></div><button id="reset-filters" type="button">重置</button></div>
+  <div class="filter-grid">
+    <label class="search-field">关键词搜索<input id="search" type="search" placeholder="标题、摘要、作者或关键词" autocomplete="off"></label>
+    <label>时间范围<select id="date-scope" aria-controls="day-field month-field year-field range-fields"><option value="all">全部时间</option><option value="day">某一天</option><option value="month">某个月</option><option value="year">某一年</option><option value="range">自定义范围</option></select></label>
+    <label id="day-field" class="date-control" hidden>选择日期<input id="day-filter" type="date"></label>
+    <label id="month-field" class="date-control" hidden>选择月份<input id="month-filter" type="month"></label>
+    <label id="year-field" class="date-control" hidden>输入年份<input id="year-filter" type="number" min="1900" max="2100" step="1" inputmode="numeric" placeholder="例如 2026"></label>
+    <div id="range-fields" class="range-fields" role="group" aria-label="自定义日期范围" hidden><label>开始日期<input id="date-from" type="date"></label><label>结束日期<input id="date-to" type="date"></label></div>
+    <label>最低分数<input id="score-filter" type="range" min="0" max="100" value="0"><output id="score-output">0</output></label>
+    <label>来源<select id="source-filter"><option value="">全部来源</option><option value="arxiv">arXiv</option><option value="inspire">INSPIRE</option><option value="demo">演示</option></select></label>
+  </div>
+  <div class="topic-filters" role="group" aria-label="主题筛选">
+    <button class="topic-chip active" type="button" data-topic="">全部</button>
+    {% for id, topic in topics.topics.items() %}<button class="topic-chip" type="button" data-topic="{{ id }}">{{ topic.label_zh }}</button>{% endfor %}
+  </div>
+</section>
+
+<section class="papers" aria-labelledby="papers-title">
+  <div class="section-heading"><div><p class="eyebrow">SELECTION</p><h2 id="papers-title">精选论文</h2></div><p><span id="visible-count">{{ papers|length }}</span> 篇</p></div>
+  <p id="no-results" class="empty" hidden>没有符合当前筛选条件的论文。</p>
+  <div id="paper-list">{% for item in papers %}{% include "paper_card.html" %}{% endfor %}</div>
+</section>
+{% endblock %}
