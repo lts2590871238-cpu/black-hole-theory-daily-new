@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 25,
+    "methodological_rigor": 18,
+    "novelty": 14,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 0
+  },
+  "total_score": 72,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文介绍了一种将物理信息神经网络(PINN)扩展到洛伦兹号差的新方法，用于数值求解黑洞度量，并验证了史瓦西几何的恢复。该方法具有理论深度和潜在的新颖性，属于广义相对论基础研究的范畴。",
+  "title_zh": "黑洞黑箱：通过AInstein神经网络实现数值黑洞度量",
+  "abstract_zh": "AInstein架构引入了一种无监督的神经方法，用于在任意流形上求解黎曼爱因斯坦方程。这种物理信息神经网络方法（PINN）在此被扩展到洛伦兹号差，通过恢复最大延拓的史瓦西几何得到验证，并作为一种新的任意黑洞解搜索方法进行测试。拓扑结构通过将其标准嵌入全局处理$S^{2}$而构建到架构中，使得网络学习流形$\\mathbb{R}^{2} \\times \\mathbb{R}^{3}$上的环境度量，其中$\\mathbb{R}^2$选择彭罗斯坐标，$S^{2}$上的度量通过拉回获得。该架构首先以恢复史瓦西度量为目标进行训练，通过编码真空爱因斯坦方程、二次外尔标量约束以及所得度量的$SO(3)$对称性的损失函数；这直接由Birkhoff-Jebsen定理所启发。随后，目标泛化为使用Petrov特殊指标、视界曲率锚和俘获面约束，以允许搜索代数一般Petrov I型解，从而发现可能新颖的一般型洛伦兹爱因斯坦度量，其内部具有真正的俘获区域。",
+  "keywords_en": [
+    "Neural Networks",
+    "Black Hole Metrics",
+    "Einstein Equations",
+    "Lorentzian Signature",
+    "Petrov Classification"
+  ],
+  "keywords_zh": [
+    "神经网络",
+    "黑洞度量",
+    "爱因斯坦方程",
+    "洛伦兹号差",
+    "Petrov分类"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-13T12:58:13.080569Z"
+}

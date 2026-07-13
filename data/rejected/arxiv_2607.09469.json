@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09469",
+    "arxiv_id": "2607.09469",
+    "arxiv_version": null,
+    "inspire_id": "3179794",
+    "doi": null,
+    "title_en": "A combinatorial framework for clustering graph states: Algorithms and hardness for rank-integrity",
+    "abstract_en": "We introduce a new notion of distance between two graph states $|G\\rangle$ and $|G'\\rangle$ on the same set of qubits. This distance is the minimum number of ancilla qubits in a graph state $|\\widehat{G}\\rangle$ from which both $|G\\rangle$ and $|G'\\rangle$ can be ``easily prepared''. (When preparing graph states, we are only allowed to use one-qubit Clifford gates, one-qubit Pauli measurements, and classical communication.) We give a graphical description of this distance through the lens of vertex-minors. We then show how this distance yields quantum network analogs of many graph edit-distance problems. Using this framework, we develop classical algorithms for identifying the ``highly entangled clusters'' of a graph state $|G\\rangle$. The ancilla integrity problem asks, given a graph $G$ and integer $k$, for the minimum -- over all graph states $|G'\\rangle$ with distance at most $k$ from $|G\\rangle$-- of the maximum component size of $G'$. Up to a factor of $2$ in the number of ancilla qubits, this problem is equivalent to rank integrity, where the distance between $G$ and $G'$ is instead the minimum rank of the sum of their adjacency matrices over $\\text{GF}(2)$. We prove that rank integrity is XP parameterized by $k$. We also prove the complementary hardness result that rank integrity is W[1]-hard in $k$. Finally, we give an explicit $\\mathcal{O}(n^6)$-time algorithm for ancilla integrity when $G$ has $n$ vertices and $k=1$.",
+    "authors": [
+      "Bourneuf, Romain",
+      "Claudet, Nathan",
+      "Kim, Sang Yoon",
+      "McCarty, Rose",
+      "Sullivan, Blair D.",
+      "Thomassé, Stéphan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-13T12:15:04.362906Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179794",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179794",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179794"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

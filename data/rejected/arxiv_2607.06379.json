@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06379",
+    "arxiv_id": "2607.06379",
+    "arxiv_version": 1,
+    "inspire_id": "3178086",
+    "doi": null,
+    "title_en": "Axioms for physical reasoning: codifying the Seiberg--Witten solution in Lean",
+    "abstract_en": "Mathematicians have embraced interactive theorem provers with growing enthusiasm -- building large shared libraries and machine-checking a string of landmark results. Theoretical physics is different: most of its results are not theorems but justified by arguments the community trusts without a rigorous proof. For many -- the one we treat here among them -- no rigorous proof is within reach. For 4d Yang--Mills theory, deriving exact rigorous results from first principles would first require constructing the interacting theory nonperturbatively, which is a sizable piece of one of the Clay Millennium prize problems. We argue here that an interactive theorem prover can be used to verify some non-rigorous physics arguments. The method is to postulate a short list of explicit, named physical postulates, which imply the physical results by virtue of a machine-checkable proof. The trust that remains then rests on that short, inspectable list, and the prover can report, for any downstream result, exactly which assumptions it used. We carry this out for the Seiberg--Witten solution of ${N}=2$ $SU(2)$ super-Yang--Mills -- the genus-one case -- formalized in Lean 4; the higher-genus $SU(N)$ generalization is developed in the same repository as an axiomatized skeleton and left to future work. We describe what is proved, what is assumed, how the assumptions are checked -- external review and an independent numerical oracle -- and why this discipline is a sound standard for validating AI-generated results in theoretical physics. What we offer is a discipline, reviewable on its own terms: a reader may take the Seiberg--Witten mathematics on trust and still assess the formalization method.",
+    "authors": [
+      "Michael R. Douglas"
+    ],
+    "categories": [
+      "hep-th",
+      "cs.LO"
+    ],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-09T04:10:34.055358Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.06379v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.06379v1",
+    "inspire_url": "https://inspirehep.net/literature/3178086",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.06379",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2607.06379v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3178086",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178086"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

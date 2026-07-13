@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.16165",
+    "arxiv_id": "2510.16165",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "AtomBench: A Benchmarking Framework for Generative Crystal Reconstruction Models in Conventional Superconductors",
+    "abstract_en": "A key question in benchmarking generative crystal reconstruction models is how the amount and type of crystallographic information provided to a generative model affects its ability to reconstruct atomic structures. Yet such comparisons often overlook the fact that models receive unequal information about the target during reconstruction, thereby confounding architectural conclusions. We present AtomBench, an extensible, model-agnostic framework for comparing generative models on a well-defined crystal reconstruction task (rather than \\textit{de novo} generation), which we here apply to conventional superconductors. We train and evaluate four models, AtomGPT, CDVAE, FlowMM, and MatterGen, on the JARVIS Supercon-3D and Alexandria DS-A/B datasets, grouping them by the information each accesses at inference. Reconstruction fidelity is measured by the Kullback-Leibler divergence (KLD) and mean absolute error (MAE) of lattice parameters and the root-mean-squared displacement (RMSD) of atomic coordinates. We further introduce the continuous corrected RMSD (ccRMSD), a continuous measure of local geometric fidelity defined for every structure in the test set. MatterGen achieves the best atomic-coordinate reconstruction, followed by AtomGPT, while CDVAE reconstructs lattices most accurately, and FlowMM is the least accurate but fastest overall. We find that conditioning on critical temperature T$_c$ does not consistently improve fidelity. We also release AtomBench as an open-source Python package that reproduces all reported reconstruction metrics, figures, and tables from one or more benchmark files and supports direct submission to the JARVIS-Leaderboard. Any inverse model emitting crystal reconstructions can be benchmarked with \\texttt{atombench}, and we encourage community use. https://github.com/atomgptlab/atombench",
+    "authors": [
+      "Charles Rhys Campbell",
+      "Aldo H. Romero",
+      "Kamal Choudhary"
+    ],
+    "categories": [
+      "cs.LG",
+      "cond-mat.supr-con"
+    ],
+    "submitted_at": "2025-10-17T19:07:37Z",
+    "updated_at": "2026-07-07T15:17:42Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.16165v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.16165v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.16165",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2510.16165v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

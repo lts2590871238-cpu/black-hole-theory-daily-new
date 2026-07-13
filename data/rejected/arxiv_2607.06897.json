@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06897",
+    "arxiv_id": "2607.06897",
+    "arxiv_version": null,
+    "inspire_id": "3178409",
+    "doi": "10.1103/tsbw-r6tj",
+    "title_en": "Machine learning the impact parameter in heavy-ion collisions at $\\sqrt{s_{\\rm NN}}$ = 4 and 11 GeV: a cross-check study with UrQMD, AMPT, and JAM",
+    "abstract_en": "By generating heavy-ion collision data with the ultrarelativistic quantum molecular dynamics (UrQMD) model, a multiphase transport (AMPT) model, and the JAM model, the impact parameter ($b$) in Au+Au collisions at $\\sqrt{s_{\\rm NN}}$ = 4 and 11 GeV is reconstructed using supervised learning and unsupervised learning in machine learning (ML). In supervised learning, the performance of ML algorithm is cross-checked by using data obtained from these three transport models. It is found that the typical mean absolute error (MAE) which measures the average magnitude of the absolute difference between the true and predicted $b$ is between 0.2-0.4 fm, even when training ML algorithm with data generated from one model but testing with data from others. While the conventional method (i.e., a polynomial fit to multiplicity as a function of $b$) only works for data generated from the same model. In the classification task, the present ML-based method also shows significantly superior results compared to the traditional approach. In unsupervised learning, the K-means clustering algorithm is used to partition collision events directly from experimental-style observables, showing that the algorithm autonomously identifies six clusters corresponding to different centrality classes without relying on predefined model-based binning. Our study demonstrates the strong robustness of using an ML algorithm trained on transport-model data for impact-parameter determination, and indicates that this method has the potential to be generalized to handle real experimental data.",
+    "authors": [
+      "Yue, Xiaoqing",
+      "Wei, Guojun",
+      "Wang, Yongjia",
+      "Li, Zhilong",
+      "Li, Pengcheng",
+      "Xu, Haojie",
+      "Zhu, Xiangrong",
+      "Li, Qingfeng",
+      "Liu, Fuhu",
+      "Nara, Yasushi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-08T00:00:00Z",
+    "updated_at": "2026-07-10T04:05:19.396633Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178409",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178409",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178409"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

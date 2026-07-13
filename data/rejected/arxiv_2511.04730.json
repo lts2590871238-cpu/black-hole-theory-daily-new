@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2511.04730",
+    "arxiv_id": "2511.04730",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "SGNL: Scalable Low-Latency Gravitational Wave Detection Pipeline for Compact Binary Mergers",
+    "abstract_en": "We present SGNL, a scalable, low-latency gravitational-wave search pipeline. It reimplements the core matched-filtering principles of the GstLAL pipeline within a modernized framework. The Stream Graph Navigator library, a lightweight Python streaming framework, replaces GstLAL's GStreamer infrastructure, simplifying pipeline construction and enabling flexible, modular graph design. The filtering core is reimplemented in PyTorch, allowing SGNL to leverage GPU acceleration for improved computational scalability. We describe the pipeline architecture and introduce a novel implementation of the Low-Latency Online Inspiral Detection algorithm in which components are pre-synchronized to reduce latency. Results from 40 days of data show that SGNL's event recovery and sensitivity are consistent with GstLAL's within statistical and systematic uncertainties. Notably, SGNL achieves a median latency of 4.7 seconds, compared to 9.0 seconds for GstLAL.",
+    "authors": [
+      "Yun-Jing Huang",
+      "Chad Hanna",
+      "Leo Tsukada",
+      "Amanda Baylor",
+      "Olivia Godwin",
+      "Prathamesh Joshi",
+      "James Kennington",
+      "Cody Messick",
+      "Surabhi Sachdev",
+      "Ron Tapia",
+      "Zach Yarbrough"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2025-11-06T18:20:54Z",
+    "updated_at": "2026-07-08T15:41:27Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2511.04730v3",
+    "pdf_url": "https://arxiv.org/pdf/2511.04730v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2511.04730",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2511.04730v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09534",
+    "arxiv_id": "2607.09534",
+    "arxiv_version": null,
+    "inspire_id": "3179771",
+    "doi": null,
+    "title_en": "Higher-Order Programs with Indefinite Causal Orders: a Linear Approach to Coherent Control of Quantum Processes",
+    "abstract_en": "Processes with indefinite causal orders (ICOs), such as the quantum switch, are higher-order quantum processes that superpose the order in which quantum operations are performed. Such coherent control yields computational advantages but is not faithfully captured by existing quantum programming languages: either they are restricted to the unitary case, and thus cannot combine ICOs with measurement, or they treat coherent control nonlinearly. In both cases, they do not realize the full computational power of ICOs. We introduce a higher-order quantum functional language that supports general quantum computation, not merely the permutation of channels, and whose linear type system allows quantum control to be well-defined beyond the unitary case, on arbitrary quantum channels. We equip this language with a small-step operational semantics that synchronizes measurement outcomes across superposed branches, using device references and a memory function. We also give a denotational semantics by means of completely positive maps. With linearity as the only constraint, some well-typed terms would denote unphysical maps. We therefore impose a typing discipline that goes beyond linearity, and interpret programs in the causal category Caus[CPM], under which every well-typed program is physically meaningful, a property that can be checked statically and efficiently. We prove soundness, and study the language's expressive power: it can express every quantum channel at first order, and at second order a large subclass of the so-called quantum circuits with quantum control (QC-QCs), containing the quantum switch. Last but not least, we show that this language is well-designed enough to be extended to the nonlinear setting with recursion.",
+    "authors": [
+      "Barsse, Kathleen",
+      "Péchoux, Romain",
+      "Perdrix, Simon"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-13T12:15:01.522877Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179771",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179771",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179771"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

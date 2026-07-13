@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2503.10273",
+    "arxiv_id": "2503.10273",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": "10.1051/0004-6361/202659605",
+    "title_en": "From particles to precision. Simulating subsonic turbulence with Smoothed Particle Hydrodynamics",
+    "abstract_en": "The numerical simulation of subsonic turbulence with smoothed particle hydrodynamics (SPH) has traditionally been hampered by zeroth-order (E0) errors, inaccurate gradient evaluations, and excessive numerical dissipation. We aim to investigate whether a modern SPH formulation can overcome these challenges by comparing its results to those obtained using moving-mesh and meshless finite-volume methods such as AREPO and GIZMO. For this purpose, we used SPH-EXA, a highly scalable, natively GPU-accelerated, state-of-the-art SPH code. Our results show that SPH-EXA accurately reproduces the Kolmogorov inertial range scaling in the subsonic regime with increasing resolution, closely matching the results of the reference methods. We also identify accurate grad-h terms as critical: a noisy standard implementation can imprint spurious granulation in the density field once dissipation is sufficiently reduced. These results demonstrate that, with appropriate methodological advances, SPH can achieve a level of fidelity in modeling subsonic turbulence comparable to the most advanced Eulerian and moving-mesh approaches.",
+    "authors": [
+      "Rubén M. Cabezón",
+      "Domingo García-Senz",
+      "Oliver Avril",
+      "Osman Seckin Simsek",
+      "Sebastian Keller",
+      "Axel S. Lechuga",
+      "Lucio Mayer",
+      "Ralf Klessen",
+      "Florina M. Ciorba"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-03-13T11:30:15Z",
+    "updated_at": "2026-07-06T13:34:03Z",
+    "document_types": [],
+    "journal_ref": "A&A 710, A284 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2503.10273v3",
+    "pdf_url": "https://arxiv.org/pdf/2503.10273v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2503.10273",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2503.10273v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

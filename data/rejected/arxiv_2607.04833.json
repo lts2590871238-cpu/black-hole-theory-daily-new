@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.04833",
+    "arxiv_id": "2607.04833",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Multivariate Bayesian P-spline estimation of spectral density matrices, with application to LISA TDI noise",
+    "abstract_en": "We present a Bayesian P-spline method for estimating the frequency-dependent cross-spectral density matrix of stationary multivariate time series. The inverse spectral matrix is parametrised through its frequency-varying Cholesky decomposition, which guarantees Hermitian positive definiteness at every frequency. Each real log-diagonal entry and each real and imaginary off-diagonal entry is given an independent penalised B-spline prior that controls smoothness. Inference uses a blocked, coarse-grained Whittle likelihood with safe-Bayes $η$-tempering to stabilise posterior calibration, sampled by the No-U-Turn Sampler from a variational initialisation. On synthetic VAR(2) benchmarks with known ground truth, the method recovers both diagonal and cross-spectral structure, attains near-nominal credible-interval coverage, and achieves a relative integrated squared (Frobenius) error (RISE) that decreases with sample size. We then apply the method to publicly released simulated LISA time-delay interferometry (TDI) data in two noise configurations. In the idealised symmetric case, the full multivariate model and a reduced model that assumes a diagonal AET noise covariance agree to within $\\sim10^{-3}$ in RISE. Under realistic noise that is asymmetric across the six Movable Optical Sub-Assemblies (MOSAs), the AET-diagonal assumption fails by more than an order of magnitude in RISE ($\\sim\\!3.3\\!\\times\\!10^{-2}$ versus $\\sim\\!10^{-3}$), whereas the full multivariate model recovers the cross-spectral structure.",
+    "authors": [
+      "Avi Vajpeyi",
+      "Renate Meyer",
+      "Patricio Maturana-Russel",
+      "Jianan Liu"
+    ],
+    "categories": [
+      "stat.ME",
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-07-06T09:08:00Z",
+    "updated_at": "2026-07-07T22:32:25Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.04833v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.04833v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.04833",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2607.04833v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.08517",
+    "arxiv_id": "2607.08517",
+    "arxiv_version": null,
+    "inspire_id": "3179041",
+    "doi": null,
+    "title_en": "Quantum Communication Lower Bounds for Search Problems via Matrix Discrepancy",
+    "abstract_en": "We study one-way quantum communication lower bounds for search problems. Unlike decision problems, search problems can have many valid outputs, which pose a fundamental barrier to standard quantum lower-bound techniques. We overcome this by developing a novel method based on matrix discrepancy, which allows us to bound the output measurements of a quantum protocol jointly. As applications of our method, we establish the first tight quantum lower bounds for two fundamental search problems in some natural parameter regimes: collision finding and triangle finding. For collision finding, we prove a tight $Ω(N^{1/4})$ one-way quantum communication lower bound. Previously, the best-known quantum communication lower bound for collision finding was $Ω(N^{1/12})$ due to Göös and Jain (RANDOM 2022), and no stronger bound was known even under the one-way restriction. For triangle finding in graph streams, we prove a one-pass quantum streaming space lower bound of $Ω\\left(\\sqrt{Δ_V}\\right)$ for graphs with $m$ edges, $Θ(m)$ triangles, and constant $Δ_E$, where $Δ_V$ and $Δ_E$ denote the maximum number of triangles sharing a common vertex and edge, respectively, under the condition that $1\\le Δ_V\\le m^{2/3}$. This constitutes the first nontrivial quantum space lower bound in this regime, matching the classical upper bound of Jayaram and Kallaugher (RANDOM 2021) up to logarithmic factors. Notably, our method also recovers the classical lower bound of Kallaugher and Price (SODA 2017) through an entirely different argument, avoiding their Boolean-Hidden-Matching reduction that breaks down for quantum protocols.",
+    "authors": [
+      "Gao, Minbo",
+      "Liu, Chenghua",
+      "Yang, Guangxu",
+      "Zhang, Tianyi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-09T00:00:00Z",
+    "updated_at": "2026-07-11T04:19:11.908991Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179041",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179041",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179041"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

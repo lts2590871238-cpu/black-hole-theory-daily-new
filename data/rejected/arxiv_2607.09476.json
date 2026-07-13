@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09476",
+    "arxiv_id": "2607.09476",
+    "arxiv_version": null,
+    "inspire_id": "3179776",
+    "doi": null,
+    "title_en": "Orthogonal Quantum Krylov Diagonalisation",
+    "abstract_en": "Quantum subspace-diagonalization methods, particularly Quantum Krylov Diagonalization (QKD), provide a promising route for computing low-energy spectra of quantum many-body Hamiltonians. However, existing quantum Krylov approaches rely on non-orthogonal Krylov bases, requiring overlap-matrix regularization that limits numerical stability and accuracy. In this work, we introduce an Orthogonal Quantum Krylov Diagonalization (OQKD) framework that reformulates the classical Lanczos recursion at the operator level, enabling an orthogonal quantum implementation of Krylov-subspace diagonalization. By expressing Lanczos vectors as polynomial transformations of the Hamiltonian, OQKD reproduces the orthogonality, tridiagonal structure, and convergence behavior of the classical Lanczos algorithm thus eliminating the need for overlap-matrix regularization. We further show that the required Lanczos polynomials can be implemented using block encoding and Generalized Quantum Signal Processing with the same asymptotic query complexity as Chebyshev-based QKD methods. Numerical simulations of the $J_1$--$J_2$ Heisenberg model confirm the classical Lanczos convergence and numerical stability of the proposed method, while the measurement-complexity scaling is established analytically. Building upon the OQKD framework, we then introduce a restarted state-preparation protocol that replaces a single high-degree polynomial transformation with a sequence of fixed low-degree transformations, maintaining an affordable block encoding success probability while retaining comparable convergence. These results establish OQKD as an orthogonal quantum analog of the classical Lanczos algorithm and identify the restarted protocol as a promising state-preparation strategy for Quantum Phase Estimation.",
+    "authors": [
+      "Rammal, Hadi",
+      "Perrin, Alexandre",
+      "Ladhari, Oumaya",
+      "Dutreix, Clément",
+      "Messud, Jérémie",
+      "Saubanere, Matthieu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-13T04:31:24.608686Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179776",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179776",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179776"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

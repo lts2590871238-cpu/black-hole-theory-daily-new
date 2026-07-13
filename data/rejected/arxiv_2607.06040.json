@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06040",
+    "arxiv_id": "2607.06040",
+    "arxiv_version": null,
+    "inspire_id": "3178182",
+    "doi": null,
+    "title_en": "Hybrid quantum floating-point method for sharp arithmetic",
+    "abstract_en": "There are several possible ways to encode random variables in a quantum state. The basis encoding of bit strings has paramount importance because it allows to load the values of a random variable through the superposition of corresponding basis states, and to then exploit quantum parallelism in processing algorithms. The basis encoding offers a natural way to represent an unsigned integer random variable, and extends to signed integers, as well as to fixed-point and floating-point variables. Each quantum representation of fractional numbers, however, involves a trade-off between accuracy and depth of manipulation circuits. Here, an efficient hybrid quantum-classical representation of quantum floating points is introduced. It combines a quantum register containing the values, with a classical register storing global information about the variable, namely the range and approximation tolerances. The sum and product operations are defined, in such a way as to ensure they are performed without overflow. By taking advantage of the stored classical information, the precision degradation that occurs due to rounding after repeated data manipulations, can be significantly reduced compared to known strategies. Ad hoc examples show up to around $90\\%$ reduction in approximation, compared to previous techniques, after repeated additions. The method finds application in many algorithms of practical relevance and constitutes a significant advance in the design of arithmetic circuits with low depth and high accuracy.",
+    "authors": [
+      "Agliardi, Gabriele",
+      "Prati, Enrico"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-09T04:17:07.059194Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178182",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178182",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178182"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

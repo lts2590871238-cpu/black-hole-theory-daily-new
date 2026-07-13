@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 15,
+    "methodological_rigor": 18,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 65,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文探讨了利用行星际闪烁模型改进脉冲星计时阵列中的太阳风建模，并评估其对引力波探测的影响。研究基于MeerKAT PTA数据集，提出了实际建模的洞察，与PTA领域高度相关。",
+  "title_zh": "基于行星际闪烁的日球层建模用于MeerKAT脉冲星计时阵列4.5年数据集",
+  "abstract_zh": "日球层密度变化会对毫秒脉冲星的脉冲到达时间造成延迟。对这些变化的不恰当建模可能会影响脉冲星计时阵列对引力波的探测和表征。目前，PTA通常采用时变、球对称的日球层模型，该模型无法捕捉日球层完整的空间和时间复杂性。相反，我们研究了是否可以采用基于行星际闪烁测量的三维时变内日球层模型——IPS-UCSD模型——来减轻PTA分析中的太阳风影响。我们将IPS-UCSD模型应用于MeerKAT PTA 4.5年数据集，以评估其是否能修正日球层密度变化，以及与球对称模型相比对引力波灵敏度的影响。我们发现该模型无法准确修正日球层引起的计时畸变，导致恢复的引力波参数存在偏差。通过模拟，我们表明球对称日球层模型也无法完全捕捉如IPS-UCSD模型中的日球层密度变化。然而，如果同时建模星际色散量变化，那么日球层模型误差会被部分吸收，减少对引力波信号的污染。因此，我们发现，在典型的PTA射电频率下，只要同时建模其他信号分量，时变球对称模型足以减轻日球层时间延迟对恢复的引力波结果的影响。我们提议，未来可以利用计时最精确的脉冲星来改进数据驱动的日球层密度模型。",
+  "keywords_en": [
+    "interplanetary scintillation",
+    "heliosphere",
+    "pulsar timing array",
+    "gravitational waves",
+    "solar wind"
+  ],
+  "keywords_zh": [
+    "行星际闪烁",
+    "日球层",
+    "脉冲星计时阵列",
+    "引力波",
+    "太阳风"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-13T12:54:30.211949Z"
+}

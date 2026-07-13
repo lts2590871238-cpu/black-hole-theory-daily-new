@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06604",
+    "arxiv_id": "2607.06604",
+    "arxiv_version": 1,
+    "inspire_id": "3178507",
+    "doi": null,
+    "title_en": "Fast Graph-based Higher-Order Clustering Statistics on the GPU",
+    "abstract_en": "We present a significant update to GRAMSCI (GRAph Made Statistics for Cosmological Information; Sabiu et.al 2019), an algorithm for the fast computation of the general $N$-point spatial correlation function of any discrete point set embedded in $\\mathbb{R}^n$. Utilizing the concepts of kd-trees and graph databases, we count all possible $N$-tuples in binned configurations within a given length scale. In this {\\em Version 2 update} we describe several additions to the original code. We replace the binary-search inner loop, which cost $O(m\\log m)$ per hub--spoke pair, where $m$ is the mean neighbor count, with a merge-walk algorithm that reduces the inner loop to $O(m)$. We implement a parity-decomposed 4pCF that separates the signal into even and odd channels, enabling direct tests of parity violation in the galaxy distribution. We estimate the disconnected 4pCF internally on the same graph to return the connected 4pCF. We provide a Python interface so the Fortran engine can be called directly from NumPy arrays. Finally, and principally, we present a GPU port of the full query engine (OpenACC): the 3pCF, 4pCF, and parity-decomposed 4pCF kernels run on a single consumer GPU with measured speedups of $2.6\\times$ (3pCF) to $9\\times$ (4pCF) over a 64-thread CPU node, and an out-of-core tiling scheme allows graphs far exceeding device memory. We measure a $9\\times10^9$-edge BAO-scale 3pCF on a 24\\,GB card with ${\\sim}20\\%$ overhead. We validate the code against its CPU reference, against analytic injection tests, and demonstrate BAO-scale applications on the DESI DR1 LRG sample compared against the EZmock ensemble.",
+    "authors": [
+      "Cristiano G. Sabiu"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-10T04:13:27.630622Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.06604v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.06604v1",
+    "inspire_url": "https://inspirehep.net/literature/3178507",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.06604",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2607.06604v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3178507",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178507"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

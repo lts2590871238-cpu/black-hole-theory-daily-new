@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.08928",
+    "arxiv_id": "2607.08928",
+    "arxiv_version": null,
+    "inspire_id": "3179686",
+    "doi": null,
+    "title_en": "A Novel Parallel QCNN Architecture with Efficient Classical Simulability",
+    "abstract_en": "This work presents a study of an implementation of a novel Quantum Convolutional Neural Network (QCNN) for binary classification of images from the Modified National Institute of Standards and Technology (MNIST) dataset. Using a novel architecture inspired by previous QCNN and classical convolutional neural network (CNN) implementations, we use a hierarchical partitioning approach to implement a QCNN circuit that can be approximated and simulated efficiently on a classical machine for a large problem. First, the original image is partitioned such that each process handles a smaller portion of the image, which is encoded into independent states. Then, these partitions merge and combine, resulting in states that contain information from both partitions while halving the number of processes. After repeating this until one process remains, we reduce the dimensionality of the state until a single qubit remains for measurement. Using this approach, we can use multiple processes in parallel to simulate a large QCNN program without the need for exponentially growing hardware requirements as the number of qubits increases. In our work, we use this scheme to train a 128-qubit model, which is impossible to run on any classical supercomputer without the novel architecture. We also explore the impact of this new model architecture on prediction accuracy by training it to perform binary classification on the MNIST dataset with a small number of qubits, and comparing it to a model without partitioning. Our initial findings show that partitioning images into smaller sub-images with this architecture does not degrade the model's performance and sometimes even improves it, likely because it reduces the Barren plateaus issue in the partitioning process.",
+    "authors": [
+      "Nguyen, Lawrence",
+      "Wong, Hiu Yung"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-09T00:00:00Z",
+    "updated_at": "2026-07-13T12:15:13.900968Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179686",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179686",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179686"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

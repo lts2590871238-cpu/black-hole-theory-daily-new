@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.20269",
+    "arxiv_id": "2606.20269",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "An explicit and differentiable Wilson-Daubechies-Meyer transform for gravitational-wave data analysis",
+    "abstract_en": "The Wilson-Daubechies-Meyer (WDM) time-frequency transform has been widely used in gravitational-wave astronomy, yet a self-contained, mathematically explicit reference for practitioners remains lacking. This is especially true for those wishing to adopt the transform in modern Python and JAX inference workflows. We present wdm_transform, an open-source Python package implementing the WDM wavelet-packet time-frequency transform, and document its mathematical foundations, statistical properties, and practical implementation for gravitational-wave data analysis. The package supplies NumPy and JAX backends, both transforms (forward and inverse) validated to floating-point precision, with the JAX backend enabling GPU-accelerated transforms of million-point data streams in tens of milliseconds. As a worked example, we verify that the WDM-domain likelihood reproduces frequency-domain posteriors for a resolved LISA galactic binary under a shared stationary noise model, confirming numerical equivalence of the two representations in that controlled setting. This work paves the way for systematic optimisation of WDM tilings, a particularly promising direction for the non-stationary noise, stochastic backgrounds, and data gaps anticipated in future detectors, and for direct comparisons with alternative time-frequency representations needed to meet the challenges of future gravitational-wave data analysis.",
+    "authors": [
+      "Avi Vajpeyi",
+      "Giorgio Mentasti",
+      "Quentin Baghi",
+      "Ollie Burke",
+      "Lorenzo Speri"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-06-18T14:15:57Z",
+    "updated_at": "2026-07-09T13:05:54Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.20269v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.20269v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.20269",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2606.20269v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

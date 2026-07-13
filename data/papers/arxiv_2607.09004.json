@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09004",
+    "arxiv_id": "2607.09004",
+    "arxiv_version": 1,
+    "inspire_id": "3179674",
+    "doi": null,
+    "title_en": "Interplanetary scintillation-informed heliospheric modelling for the MeerKAT Pulsar Timing Array 4.5 yr dataset",
+    "abstract_en": "Heliospheric density variations impart delays on pulse times of arrivals from millisecond pulsars. Improper modelling of these variations may affect gravitational wave detection and characterisation by pulsar timing arrays (PTAs). Currently, PTAs typically employ a time-varying, spherically symmetric heliosphere model, which does not capture the full spatial and temporal complexity of the heliosphere. Instead, we investigate whether a three-dimensional, time-dependent model of the inner heliosphere from interplanetary scintillation (IPS) measurements - the IPS-UCSD model - can be employed to mitigate the solar wind in PTA analyses. We applied the IPS-UCSD model to the MeerKAT PTA 4.5-year dataset to assess whether it could correct for heliospheric density variations, and the impact on GW sensitivity compared to a spherically-symmetric model. We find that the model does not accurately correct for heliosphere-induced timing distortions, leading to bias in recovered GW parameters. Using simulations, we show that the spherically symmetric heliosphere model also fails to fully capture heliospheric density variations like those in the IPS-UCSD model. However, if interstellar dispersion measure (DM) variations are also modelled, then the heliospheric model errors are partially absorbed by DM variations, reducing contamination of the GW signal. Therefore we find that a time-varying spherically symmetric model is sufficient to mitigate the effect of heliospheric time delays on recovered GW results at typical PTA radio frequencies, provided other signal components are also modelled. We propose that the most precisely timed pulsars may be used to improve data-driven heliospheric density models in the future.",
+    "authors": [
+      "Saurav Mishra",
+      "Daniel J. Reardon",
+      "Andrew Zic",
+      "Matthew Bailes",
+      "John Morgan",
+      "Atharva D. Kulkarni",
+      "Matthew T. Miles",
+      "Ryan M. Shannon",
+      "Caterina Tiburzi",
+      "Mark Cheung",
+      "Michael Kramer",
+      "Ruoyao Ni"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.SR",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-13T04:25:51.460274Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.09004v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.09004v1",
+    "inspire_url": "https://inspirehep.net/literature/3179674",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.09004",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2607.09004v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3179674",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179674"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "millisecond pulsar",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 70
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 15,
+      "methodological_rigor": 18,
+      "novelty": 12,
+      "clarity": 8,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 65,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文探讨了利用行星际闪烁模型改进脉冲星计时阵列中的太阳风建模，并评估其对引力波探测的影响。研究基于MeerKAT PTA数据集，提出了实际建模的洞察，与PTA领域高度相关。",
+    "title_zh": "基于行星际闪烁的日球层建模用于MeerKAT脉冲星计时阵列4.5年数据集",
+    "abstract_zh": "日球层密度变化会对毫秒脉冲星的脉冲到达时间造成延迟。对这些变化的不恰当建模可能会影响脉冲星计时阵列对引力波的探测和表征。目前，PTA通常采用时变、球对称的日球层模型，该模型无法捕捉日球层完整的空间和时间复杂性。相反，我们研究了是否可以采用基于行星际闪烁测量的三维时变内日球层模型——IPS-UCSD模型——来减轻PTA分析中的太阳风影响。我们将IPS-UCSD模型应用于MeerKAT PTA 4.5年数据集，以评估其是否能修正日球层密度变化，以及与球对称模型相比对引力波灵敏度的影响。我们发现该模型无法准确修正日球层引起的计时畸变，导致恢复的引力波参数存在偏差。通过模拟，我们表明球对称日球层模型也无法完全捕捉如IPS-UCSD模型中的日球层密度变化。然而，如果同时建模星际色散量变化，那么日球层模型误差会被部分吸收，减少对引力波信号的污染。因此，我们发现，在典型的PTA射电频率下，只要同时建模其他信号分量，时变球对称模型足以减轻日球层时间延迟对恢复的引力波结果的影响。我们提议，未来可以利用计时最精确的脉冲星来改进数据驱动的日球层密度模型。",
+    "keywords_en": [
+      "interplanetary scintillation",
+      "heliosphere",
+      "pulsar timing array",
+      "gravitational waves",
+      "solar wind"
+    ],
+    "keywords_zh": [
+      "行星际闪烁",
+      "日球层",
+      "脉冲星计时阵列",
+      "引力波",
+      "太阳风"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-07-13T12:54:30.211949Z"
+  },
+  "published_at": "2026-07-13T12:54:30.212421Z"
+}

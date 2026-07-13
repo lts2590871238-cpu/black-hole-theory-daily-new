@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 10,
+    "methodological_rigor": 15,
+    "novelty": 10,
+    "clarity": 8,
+    "metadata_quality": 9,
+    "community_signal": 0,
+    "other": 0
+  },
+  "total_score": 52,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文聚焦于引力波背景的观测搜索，属于脉冲星计时阵列（PTA）相关领域，但其主要关注点并非PTA，而是地面探测器数据。因此标记为不相关。不过其方法学价值较高，有参考意义。",
+  "title_zh": "来自先进LIGO和先进Virgo前三次观测运行的全天空、全频率持久引力波定向搜索",
+  "abstract_zh": "我们展示了利用先进LIGO和先进Virgo探测器前三次观测运行的数据，对各向异性随机引力波背景进行全天空全频率（ASAF）搜索的首次结果。LIGO-Virgo探测器所有观测运行都发布了持久随机背景宽带各向异性的上限图。然而，宽带分析可能会错过窄带信号，因为窄带信号的信噪比在与来自其他频率的探测器输出结合时会显著降低。数据折叠和计算高效的分析流程{\\tt PyStoch}使我们能够在每个频率分辨率元上进行辐射计制图。我们在3072个{\\tt{HEALPix}}等面积像素（均匀覆盖天空）和$1/32$~Hz宽度的每个频率分辨率元（范围20-1726~Hz）中进行搜索，但可能包含仪器伪影因此被切除的分辨率元除外。我们没有发现任何统计上显著的证据表明在分析的分辨率元中存在窄带引力波信号。因此，我们对每个像素-频率对放置了$95\\%$置信度的引力波应变上限，上限范围在$(0.030 - 9.6) \\times10^{-24}$。此外，我们概述了一种识别候选像素-频率对的方法，这些对可以通过更灵敏（且可能计算成本更高）的搜索（例如基于匹配滤波的分析）进行后续研究，以寻找更微弱的近乎单色的相干信号。ASAF分析本质上独立于描述任何功率谱或空间分布的模型。我们证明ASAF结果可以适当地在频率和天空方向上组合，以成功恢复宽带方向性和各向同性结果。",
+  "keywords_en": [
+    "gravitational waves",
+    "stochastic background",
+    "all-sky search",
+    "narrowband signals",
+    "radiometer"
+  ],
+  "keywords_zh": [
+    "引力波",
+    "随机背景",
+    "全天空搜索",
+    "窄带信号",
+    "辐射计"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-13T12:56:37.566560Z"
+}

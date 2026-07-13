@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1109/jssc.2025.3602751",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3179484",
+    "doi": "10.1109/jssc.2025.3602751",
+    "title_en": "A 0.5-/0.95-dB NF, 50-/25-$\\Omega$ Configurable CMOS Front-End ASIC for the Readout of Liquid Argon Calorimeter in the LHC",
+    "abstract_en": "This article presents the design of a four-channel front-end application specific integrated circuit (ASIC), ATLAS liquid argon front-end (ALFE), developed for the readout of the liquid-argon calorimeter (LAr) detector in the ATLAS experiment at the Large Hadron Collider (LHC). ALFE enables the readout of current signals induced in the LAr with a dynamic range (DR) exceeding 16 bits, while ensuring seamless operation in a system comprising nearly 200000 channels with detector capacitances ranging from 0.16 to 2 nF per channel. Each analog front-end (AFE) channel provides configurable and matched input impedance of either 50 or <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$25~\\Omega $ </tex-math></inline-formula>, measures an equivalent noise current (ENI) of <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\mathbf {47.5}$ </tex-math></inline-formula> or <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\mathbf {147.5~\\text {nA}}$ </tex-math></inline-formula>, achieves sub-<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\mathbf {0.2\\% }$ </tex-math></inline-formula> integral non-linearity (INL) for signal peak measurement, and maintains a power supply rejection (PSR) exceeding <bold xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">14 dB</b> up to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\mathbf {1~\\text {MHz}}$ </tex-math></inline-formula>. Each AFE channel incorporates a low-noise amplifier (LNA) with a noise figure (NF) of 0.5 or 0.95 dB and an input-referred voltage noise density of <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$ \\mathbf {0.28~\\text {nV}/(\\text {Hz})^{1/2} }$ </tex-math></inline-formula>. This LNA is implemented with a fully-differential amplifier (FDA) enclosed in an asymmetric differential feedback (ADF), followed by a two-gain fully differential <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">CR–RC<sup>2</sup></i> bandpass filter (BPF). ALFE can withstand a radiation-induced total ionizing dose (TID) exceeding 1.4 Mrad. Besides the four AFE channels, ALFE integrates an analog trigger-sum (ATS), an SEE/SEU-tolerant I<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>C interface, voltage and current references, and current digital-to-analog converters (DACs).",
+    "authors": [
+      "Dabrowski, Mietek",
+      "Tavernier, Filip",
+      "Leroux, Paul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-29T00:00:00Z",
+    "updated_at": "2026-07-13T09:57:16.491353Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "61, 2167, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214710'}, 2153, 5, IEEE J.Solid State Circuits"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179484",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179484",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179484"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

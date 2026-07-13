@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.08976",
+    "arxiv_id": "2607.08976",
+    "arxiv_version": null,
+    "inspire_id": "3179744",
+    "doi": null,
+    "title_en": "A Scalable Approach to Solve the Carleman Linearized Burgers' Equation on a Quantum Computer",
+    "abstract_en": "Efficiently solving nonlinear ordinary and partial differential equations using a quantum computer is a major challenge due its inherent linearity. To circumvent this challenge, the Carleman linearization method has been proposed to transform a nonlinear ordinary differential equation into a linear system of equations, the primary advantage being that existing quantum linear systems algorithms may then be applied to obtain a solution. However, this methodology also brings forth several major challenges that must be addressed to attain a quantum advantage. Herein, we address several of these challenges enabling us to solve the Carleman linearized one-dimensional Burgers' equation on real and simulated quantum hardware. All simulations were performed on BlueQubit's platform allowing for quantum circuits to be run on GPU or QPU's seamlessly. We first demonstrate that the Carleman linearized Burgers' equation can be efficiently loaded onto a quantum computer using the linear combination of non-unitaries method, an alternative to the linear combintaiton of unitaries approach. Once loaded, the linear system is then solved using the variational quantum linear solver. Since a naive implementation of this solver is hindered by the barren plateau phenomenon, we introduce a multigridding method to solve the problem in a series of stages with the solution of the previous stage acting as a warm start for the next stage. This approach is found to significantly improve the accuracy of the solution compared with a naive cold start. Finally, circuits with a combined number of spatial and temporal discretization points totaling up to $2^{80} \\approx 10^{24}$ are transpiled onto real quantum hardware demonstrating that the proposed methodology could feasibly produce a quantum advantage on future hardware.",
+    "authors": [
+      "Demirdjian, Reuben",
+      "Quinn, Yvan",
+      "Su, Vincent P.",
+      "Gharibyan, Hrant",
+      "Tepanyan, Hayk"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-09T00:00:00Z",
+    "updated_at": "2026-07-13T12:15:06.472070Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179744",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179744",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179744"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

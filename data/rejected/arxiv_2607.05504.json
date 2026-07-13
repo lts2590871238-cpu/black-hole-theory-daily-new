@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.05504",
+    "arxiv_id": "2607.05504",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Novel Implementation of Self-Interacting Dark Matter in AREPO",
+    "abstract_en": "Self-interacting dark matter (SIDM) influences halo structure through collisional heat transport and may solve several small-scale puzzles in structure formation. SIDM creates thermalized cores in low-mass haloes, which may account for the observed cored dwarf galaxies. During late-time gravothermal core collapse, SIDM can produce dense low-mass DM haloes and substructures detected through perturbations to cold stellar streams and strong gravitational lenses. In this work, we present a new Monte-Carlo SIDM implementation in the moving-mesh code AREPO-2, designed for efficiency, scalability, and extensibility. The central feature of the implementation is a dedicated DM-only neighbour-search tree that decouples the scattering solver from gravity. This preserves compatibility with the hierarchical time integration used by AREPO-2 while leaving the optimized gravity solver unconstrained. A pairwise communication scheme between MPI tasks allows tracking multiple scattering events in a single timestep while conserving momentum and energy and maintaining parallel consistency by construction. This is complemented by a per-pair timestep criterion that significantly reduces unnecessary timestep restrictions. The implementation natively supports velocity-dependent cross-sections and inelastic interactions, while a compact interface is designed for additional SIDM physics to be implemented without knowledge of the parallelization layer. We validate the implementation for isotropic, elastic scattering using a suite of idealized and cosmological tests. We assess performance and scalability in isolated core-collapse simulations and in cosmological boxes, both DM-only and with baryons. Except during the late stages of gravothermal collapse, SIDM simulations incur only modest overhead relative to the corresponding CDM runs and are substantially faster than the previous SIDM implementation in AREPO-1.",
+    "authors": [
+      "Oliver Zier",
+      "Xuejian Shen",
+      "Vinh Tran",
+      "Martin Rosenlyst",
+      "Mark Vogelsberger",
+      "Rongrong Liu"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.HE",
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-07-06T18:00:03Z",
+    "updated_at": "2026-07-06T18:00:03Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.05504v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.05504v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.05504",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2607.05504v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

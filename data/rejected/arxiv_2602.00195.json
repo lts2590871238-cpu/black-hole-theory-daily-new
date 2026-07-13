@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.00195",
+    "arxiv_id": "2602.00195",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Model-Agnostic Population Inference for Gravitational-Wave Astronomy: From LVK to LISA",
+    "abstract_en": "Inferring the intrinsic population of compact binary mergers is complicated by detector selection biases and measurement uncertainties. Traditional parametric methods are limited by the need to presuppose functional forms, introducing model-dependent biases. To overcome these limitations, we introduce an inference framework powered by deep generative modeling. We develop a flexible, data-driven population model using a Correlated Compound-Mixture Density Network. This architecture integrates mixture models to handle multimodality, Gaussian copulas for parameter dependencies, and a library of flexible marginal distributions. The network is trained to approximate the posterior distribution of the population's hyperparameters using amortized variational inference with Normalizing Flows on catalogs of gravitational-wave events. We demonstrate the framework's capabilities in two distinct regimes. First, using simulated catalogs of supermassive black hole binary mergers for the Laser Interferometer Space Antenna (LISA), we show that the method accurately recovers complex three-dimensional distributions and absolute merger rates from sparse datasets, effectively correcting for selection effects and measurement uncertainties. Second, we validate the framework on real observational data from the LIGO-Virgo-KAGRA GWTC-3 catalog, successfully inferring the population of stellar-mass binary black holes using an injection-based selection effect correction. Our results confirm that the method is robust, scalable, and applicable across different detector sensitivities and source populations.",
+    "authors": [
+      "Yi-kun Li",
+      "Cheng Cheng",
+      "Lang Cui",
+      "Yun Fang"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-01-30T10:24:40Z",
+    "updated_at": "2026-07-09T04:20:43Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.00195v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.00195v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.00195",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2602.00195v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

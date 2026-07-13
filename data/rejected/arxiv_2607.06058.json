@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06058",
+    "arxiv_id": "2607.06058",
+    "arxiv_version": null,
+    "inspire_id": "3178163",
+    "doi": null,
+    "title_en": "SQGen: Structured Quantum Image Generation with Latent-Modulated Quantized Tensor Trains",
+    "abstract_en": "Generating images directly from quantum systems is an attractive but unresolved goal on NISQ hardware. Existing quantum generators face several coupled obstacles: barren plateaus that block trainability, expensive quantum circuit preparation, and hardware noise that erodes quantum information with depth. A further difficulty is producing image-scale output without a classical decoder, whose use would otherwise break the end-to-end quantum advantage. We propose SQGen, a full quantum generator built on a quantized tensor train (QTT) with a latent modulation architecture. Specifically, SQGen promotes the QTT bond index of the target pixel distribution to ancilla bond qubits, so that each circuit site operates locally on a bond register plus the two physical qubits that carry the row- and column-bit of one image scale. We further introduce latent modulation: each re-uploading rotation is factorized at the angle level into a trainable main path plus an additive latent term, reducing to the trainable main path when the latent term is disabled. During training, we create a differentiable model in the classical system under gate-compatibility constraints, with a torus prior as the latent distribution. After training, every operator maps one-to-one to a native quantum gate, yielding a compact, deployable quantum circuit with no classical decoder in the inference path. Together, these design choices address the obstacles raised above. Extensive experiments on image datasets and synthetic data demonstrate that SQGen trains stably, generates images end-to-end from a shallow circuit with no classical decoder, and shows promising feasibility on real quantum hardware.",
+    "authors": [
+      "Lin, Guang",
+      "Zhao, Qibin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-09T04:17:48.231388Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178163",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178163",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178163"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

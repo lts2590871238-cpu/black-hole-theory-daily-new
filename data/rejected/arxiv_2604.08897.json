@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.08897",
+    "arxiv_id": "2604.08897",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "labrador: A domain-optimized machine-learning tool for gravitational wave inference",
+    "abstract_en": "Fast and reliable inference of gravitational-wave source parameters is crucial for analyzing large catalogs that are reaching the size of hundreds of detections, and for identifying short-lived electromagnetic counterparts. Neural posterior estimation has emerged as a powerful inference method, where the model is trained on simulated gravitational-wave data at considerable computational cost, but thereafter enables extremely fast and inexpensive inference at test time. Here, we extend this approach by incorporating domain-specific physical insights and methods in the model architecture. These include compressing the data by heterodyning against a reference waveform chosen via approximate likelihood maximization, removing parameter degeneracies through tailored coordinate systems, and eliminating known multimodalities by folding the parameter space. As a result, the network is approximately equivariant to changes in the source parameters, and achieves a reduced training cost and improved model interpretability. Our implementation, called labrador, can be trained end-to-end on a 1-day timescale on $\\sim 10^2$ CPU cores and a V100 GPU, achieving a median importance-sampling efficiency of 1% on quadrupolar, aligned-spin signals in a broad mass range (chirp mass $\\mathcal{M} \\in 1\\text{-}50\\,\\mathrm{M}_\\odot$, mass ratio $q > 0.1$). labrador is the first neural inference code to achieve extensive coverage of long-duration signals with secondary masses $m_2 < 10\\,\\mathrm{M}_\\odot$, rendered possible by its equivariance property. Among our novel contributions is a numerically stable procedure that enables neural posterior estimation when the simulation and inference priors differ.",
+    "authors": [
+      "Javier Roulet",
+      "Marco Crisostomi",
+      "Lucy M. Thomas",
+      "Katerina Chatziioannou"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-04-10T02:59:53Z",
+    "updated_at": "2026-07-09T18:53:02Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.08897v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.08897v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.08897",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2604.08897v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

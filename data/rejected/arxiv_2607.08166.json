@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.08166",
+    "arxiv_id": "2607.08166",
+    "arxiv_version": null,
+    "inspire_id": "3178973",
+    "doi": null,
+    "title_en": "Efficient Pauli-decomposition and multistage state-refinement for tensor network based differential equation solver",
+    "abstract_en": "Classical numerical techniques for solving partial differential equations (PDEs) become computationally expensive as the dimension of the discretized differential operator increases. For PDEs giving rise to Sturm--Liouville problems, tensor network (TN) methods can be highly productive: an operator of dimension $N\\times N$ can be represented as a matrix product operator (MPO) using only $n=\\log_2(N)$ qubits, enabling computation of eigenvalues and eigenvectors via imaginary time evolution (ITE). However, this remains computationally challenging. First, most methods for generating MPOs of large operators without explicit tensor-product structure require prohibitively large memory. Second, the number of Trotterization steps for convergence in conventional ITE increases rapidly with $n$. We present techniques to mitigate both challenges for certain sparse, structured differential operators. To address the first, we construct the MPO by expanding the operator in the Pauli-string basis, enabled by an analytical expression for the Pauli basis coefficients that reduces the memory requirement from $\\mathcal{O}(2^{n+1})$ to $\\mathcal{O}(2n)$. To address the second, we propose a multistage state-refinement heuristic that accelerates ITE convergence, reducing convergence time by up to two orders of magnitude. Using this TN framework, we compute the first 32 eigenstates of a Laplacian of dimension exceeding $10^6$ with fidelity above $0.95$ using a 20-qubit MPO. We further validate the method on the 2D anharmonic oscillator and investigate disordered systems, where increasing random potential strength degrades accuracy and limits the approach.",
+    "authors": [
+      "Gholap, Vishwabhushan Suresh",
+      "Dhar, Himadri Shekhar",
+      "Santra, Siddhartha"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-09T00:00:00Z",
+    "updated_at": "2026-07-11T04:18:44.012561Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178973",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178973",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178973"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

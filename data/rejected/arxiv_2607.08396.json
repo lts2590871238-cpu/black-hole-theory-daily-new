@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.08396",
+    "arxiv_id": "2607.08396",
+    "arxiv_version": null,
+    "inspire_id": "3179032",
+    "doi": null,
+    "title_en": "Efficiently simulable quantum circuits with large entanglement, magic, and non-Gaussianity via code-compiled tensor networks",
+    "abstract_en": "We introduce a family of quantum circuits that possess standard indicators of classical simulation hardness including high entanglement entropy, magic, and non-Gaussianity, yet admit efficient classical simulation via matrix product states (MPS). Our construction uses logical circuits of high-rate Calderbank-Shor-Steane (CSS) codes with enhanced symmetries. Using code automorphisms and transversal diagonal gates from higher levels of the Clifford hierarchy, we realize nonlocal logical Clifford and non-Clifford gates, showing how error-correcting codes can compile complex logical circuits into simple physical operations. Simulation efficiency rests on two properties: (i) diagonal transversal gates do not increase bond dimension, and (ii) permutations are tracked classically via on-the-fly relabeling, avoiding costly SWAP networks. Unlike Clifford or matchgate simulation, our method accepts a broad class of initial states, including dense entangled, magic, and non-Gaussian inputs, provided the encoded state retains an efficient MPS representation. We also release an exact phase-polynomial backend for monomial subfamilies, whose cost is set by higher-degree phase terms rather than entanglement growth. We demonstrate the method on an infinite polar CSS code family, showing bond dimension stays bounded by the encoding cost regardless of circuit depth. These results show that for some circuit families, standard resource measures are individually insufficient to indicate simulation hardness. As a near-term application, we use the compiled MPS as a classical reference for direct fidelity estimation of a quantum device running nontrivial logical circuits. Pauli sampling on the encoded reference, with a Clifford pushback through the known encoder, provides the ideal expectation values, so the logical output fidelity can be estimated from local Pauli readout alone, without costly state tomography.",
+    "authors": [
+      "Deger, Aydin",
+      "Koutsioumpas, Stergios",
+      "Webster, Mark",
+      "Sayginel, Hasan",
+      "Roffe, Joschka",
+      "Browne, Dan E."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-09T00:00:00Z",
+    "updated_at": "2026-07-11T04:19:00.021706Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179032",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179032",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179032"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

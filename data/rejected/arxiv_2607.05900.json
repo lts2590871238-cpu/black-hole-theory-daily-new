@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.05900",
+    "arxiv_id": "2607.05900",
+    "arxiv_version": null,
+    "inspire_id": "3178156",
+    "doi": null,
+    "title_en": "Machine learning prediction of the convergence criterion for a topological invariant of finite non-Hermitian chains",
+    "abstract_en": "A topological invariant based on polar-decomposition of matrices correctly captures the topology of finite non-Hermitian chains exhibiting the non-Hermitian skin effect, provided that an appropriate crop-length parameter is chosen. This parameter, which sets the cutoff used in the calculation of the invariant, is usually chosen empirically and becomes especially important near topological phase transitions, where finite-size effects are strongest. Here we show that the required crop-length is controlled by physical decay (localization) lengths. For nearest-neighbor and pure longer-range hopping Hatano-Nelson-type chains, the crop-length is set mainly by a single localization length and is well approximated by a scalar multiple of that length. For more general longer-range hopping models, it is governed instead by a multichannel root structure of the characteristic polynomial. Random-forest regression captures finite-size and near-boundary corrections while preserving this decay-length interpretation. Trained on one set of Hamiltonians, the predictor accurately generalizes to unseen Hamiltonians and complex base energies, reproducing crop-lengths across full phase diagrams. We further show that the predictions learned from clean nearest-neighbor hopping chains remain stable under moderate hopping disorder. These results provide a practical and physically interpretable way to choose the crop-length, which in turn determines when the real-space invariant can reliably capture the topology of finite non-Hermitian chains.",
+    "authors": [
+      "Chaturvedi, Raghav",
+      "Könye, Viktor",
+      "Hankiewicz, Ewelina M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-09T04:21:34.454173Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178156",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178156",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178156"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

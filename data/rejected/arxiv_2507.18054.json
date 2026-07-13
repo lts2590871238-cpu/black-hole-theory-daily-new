@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2507.18054",
+    "arxiv_id": "2507.18054",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/b6lj-rlff",
+    "title_en": "Variational autoencoder for generating realistic $N$-body simulations for dark matter halos",
+    "abstract_en": "In this paper, we present a deep-learning approach to generate synthetic cosmological images by training a convolutional variational autoencoder on two-dimensional dark matter density slices projected from $Λ$CDM $N$-body simulations. The model learns a compact latent representation that enables accurate reconstructions and fast generation of new synthetic realizations through a single forward pass through the decoder. We validate the generated fields using cosmology-based summary statistics, focusing on the matter power spectrum and related Fourier space diagnostics, and found good agreement with the reference simulation across the range of scales where the maps exhibit good resolution. Thanks to its low inference cost and stable training target, this variational-autoencoder approach provides a lightweight and reproducible basis for generative modeling of large-scale projected structures and can support downstream tasks such as fast simulation generation and data augmentation.",
+    "authors": [
+      "Jazhiel Chacón-Lavanderos",
+      "Isidro Gómez-Vargas",
+      "Ricardo Menchaca-Mendez",
+      "J. Alberto Vázquez"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-07-24T03:02:22Z",
+    "updated_at": "2026-07-09T09:45:29Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 113, 063520 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2507.18054v2",
+    "pdf_url": "https://arxiv.org/pdf/2507.18054v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2507.18054",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2507.18054v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

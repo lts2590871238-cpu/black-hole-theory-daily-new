@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2512.09359",
+    "arxiv_id": "2512.09359",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "CWTHF: Subhalo Identification with Continuous Wavelet Transform",
+    "abstract_en": "With advances in cosmology and computer science, cosmological simulations now resolve structures in increasingly fine detail. As key tracers of hierarchical structure formation, subhalos are among the most important objects within these simulations. In our previous work, we established that the continuous wavelet transform (CWT) can effectively extract clustering information and serve as a robust halo finder. Here, we extend the CWT framework to subhalo identification by adapting the Continuous Wavelet Transform Halo Finder (CWTHF) code. This extension extends the unbinding procedure, which enables the reliable identification of gravitationally bound substructures. The algorithm identifies density peaks within known halos or subhalos and segments the surrounding volume accordingly. Once a new subhalo is registered, its position is recorded to prevent duplicate detection. We validate our approach using the TNG50-2 and TNG100-1 simulations, as well as a single Friends-of-Friends (FOF) halo, by comparing the resulting CWT catalog against the reference SUBFIND catalog. Because the method inherits the original computational framework, our subhalo finder maintains a favorable linear time complexity of $\\mathcal{O}(N)$.",
+    "authors": [
+      "Minxing Li",
+      "Yun Wang",
+      "Ping He"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2025-12-10T06:44:12Z",
+    "updated_at": "2026-07-08T08:33:51Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2512.09359v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.09359v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2512.09359",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2512.09359v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06177",
+    "arxiv_id": "2607.06177",
+    "arxiv_version": null,
+    "inspire_id": "3178167",
+    "doi": null,
+    "title_en": "Using Tanner Spectral Reduction to Improve Multi-Layer Optical Lattice Routing for Hypergraph-Product and Bivariate Bicycle qLDPC Codes",
+    "abstract_en": "We characterize the Tanner graph spectrum of hypergraph-product (HGP) / lifted-product (LP) codes and bivariate-bicycle (BB) codes, informing qubit routing for three-dimensional reconfigurable qubit architectures. Syndrome-extraction routing depth on HGP/LP Tanner graphs reduces to a single SVD on the base parity-check matrix, using a spectral ratio $β_\\text{HGP} = (1 + β_\\text{base})/2$ where $β_\\text{base} = σ_2(H)/σ_1(H)$ for the base parity-check matrix, and a diameter identity $D_T = 2 D_\\text{base}$ where $D_\\text{base}$ is the base Tanner graph diameter. Fourier spectral reduction reveals that the BB Tanner graph spectrum equals the union, over the $l \\times m$ grid of characters of $\\mathbb{Z}_l \\times \\mathbb{Z}_m$, of the singular values of a single $2 \\times 2$ symbol matrix built from the two defining polynomials. This reduces spectral analysis from an $O((lm)^3)$ diagonalization of the $4lm$-node Tanner graph to $lm$ independent $2 \\times 2$ SVDs. These results compose into a multi-layer three-dimensional AOL routing protocol with one-time setup cost $T_\\text{Valiant} = O(\\log N)$ atom rearrangements amortizable over a memory experiment of $R$ rounds. For a Tanner graph chromatic index $χ'$ and $L_\\text{layers}$ stacked AOL planes, the per-syndrome-cycle depth is $\\lceil χ'/L_\\text{layers} \\rceil$ AOL pattern activations with no atom motion, an $8\\times$ step-count reduction at $L_\\text{layers} \\geq χ' = 8$. Contingent on multi-layer AOL hardware, this yields an estimated $\\sim50-300\\times$ per-cycle wall-clock advantage over a single-layer AOD baseline (degrading to $\\sim5-100\\times$ under AOD-crosstalk overhead), reducing to equality in the single-layer limit. This paper therefore presents a route toward practical routing improvement for future quantum hardware incorporating multi-layer reconfigurable qubit architectures.",
+    "authors": [
+      "Courtney, Joshua M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-09T04:18:55.970406Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178167",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178167",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178167"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

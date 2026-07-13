@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.07978",
+    "arxiv_id": "2607.07978",
+    "arxiv_version": null,
+    "inspire_id": "3178920",
+    "doi": null,
+    "title_en": "A Quantum Reservoir Architecture for Chaotic Forecasting and a Test of Whether Its High Dimension Helps",
+    "abstract_en": "Quantum reservoir computing uses a fixed quantum circuit as a feature generator and trains only a simple linear readout on top of it. This makes it cheap to train and free of the optimisation problems that affect many quantum machine-learning models. A natural worry is that the very large feature space the circuit produces might inflate apparent performance without adding anything real. This paper provides two things. First, it gives a complete, reproducible recipe for one such reservoir applied to forecasting chaotic systems, including how data is fed in, how the circuit is built, and how the readout is trained. Second, it gives a way to tell whether the reservoir's high dimension is actually doing useful work. We grow the size of the prediction problem and the size of the quantum reservoir together, so that extra capacity cannot be the explanation for any improvement, and we track a single stability number that measures how well behaved the readout fit is. On two chaotic test systems, a spatiotemporal chain and a shallow-water fluid model, the quantum reservoir keeps a flat, stable error as both sizes grow, while a matched classical reservoir does not. We report where the classical baseline is in fact stronger, so the comparison is honest. The result is a clean specification plus a diagnostic that other groups can apply to any reservoir whose features have a known scale.",
+    "authors": [
+      "Pandey, Tushar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-08T00:00:00Z",
+    "updated_at": "2026-07-11T04:17:40.252642Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178920",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178920",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178920"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

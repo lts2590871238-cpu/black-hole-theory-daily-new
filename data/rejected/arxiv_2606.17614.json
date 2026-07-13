@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.17614",
+    "arxiv_id": "2606.17614",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Joint reconstruction of $H(z)$ and $fσ_8(z)$ with physics informed neural networks",
+    "abstract_en": "We present a model-independent joint reconstruction of the Hubble parameter $H(z)$ and the growth rate $fσ_8(z)$ using a dual-head physics-informed neural network trained on four complementary late-universe datasets: Cosmic Chronometers, Redshift-Space Distortions, the DESI DR2 BAO mean vector and full covariance, and the Pantheon$+$SH0ES supernova compilation. The two output heads share a backbone and are coupled through the linear growth equation of general relativity, penalizing the ODE residual at 1000 collocation points per training step via automatic differentiation. Uncertainty is quantified by an ensemble of 100 networks, each trained on an independent parametric-bootstrap resample of the data and its own draw of the fiducial cosmological parameters from Planck 2018 priors, so that the ensemble spread captures data-noise, initialization, and fiducial-cosmology systematics simultaneously. The physics coupling weight $λ$ is selected via an L-curve analysis over six values; the curve is nearly flat in total data $χ^2$, indicating that the joint dataset is intrinsically consistent with the growth ODE. Without any $H_0$ prior, the free reconstruction yields $H_0 = 69.0 \\pm 4.7$\\,km\\,s$^{-1}$\\,Mpc$^{-1}$, consistent with the Planck 2018 CMB value and with the DESI DR2 inverse distance-ladder determination, and approximately $0.9σ$ below the SH0ES local measurement. The reconstructed $H(z)$ lies systematically below the flat $Λ$CDM prediction at $z \\sim 0.7$-$0.8$, consistent with the dark energy evolution suggested by DESI DR2. As conditional analyses, we also anchor $H_0$ to the SH0ES value $73.04 \\pm 1.04$\\,km\\,s$^{-1}$\\,Mpc$^{-1}$ and the Local Distance Network consensus $73.50 \\pm 0.81$\\,km\\,s$^{-1}$\\,Mpc$^{-1}$; both anchored reconstructions yield a suppressed $fσ_8$, illustrating the propagation of the $H_0$--$σ_8$ link through the ODE coupling.",
+    "authors": [
+      "Konstantinos F. Dialektopoulos"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-06-16T07:19:13Z",
+    "updated_at": "2026-07-09T17:10:18Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.17614v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.17614v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.17614",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2606.17614v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

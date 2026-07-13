@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 20,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 67,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文提出了一种利用精确脉冲星距离测量实现衍射极限角分辨率的相干PTA分析方法，并展示了其对于引力波源定位和多信使天文学的潜力。方法新颖，分析严谨，对于PTA领域具有重要价值。",
+  "title_zh": "使用相干脉冲星计时阵列达到衍射极限定位",
+  "abstract_zh": "目前的脉冲星计时阵列（PTA）分析是相位不相干的，因此没有充分利用脉冲星距离信息，从而错过了提高角分辨率以及对于单个引力波（GW）源在探测灵敏度上潜在的两倍增益。在这项工作中，我们研究了精确脉冲星距离测量对角分辨率的影响，作为对先前测量密集各向同性PTA角分辨率工作的扩展[D. L. Jow等人，极化脉冲星计时阵列图中有多少像素？，Phys. Rev. D 113, 043034 (2026)]。我们提出了一种相干绘图技术，利用精确的脉冲星距离测量来达到单个源的衍射极限分辨率：<math display=\"inline\"><mi>δ</mi><msub><mi>θ</mi><mrow><mi>diff</mi></mrow></msub><mo>×</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>/</mo><mi>SNR</mi><mo stretchy=\"false\">)</mo><mo>≈</mo><mn>1</mn><mtext> </mtext><mtext> </mtext><mi>arcmin</mi></math>，其中<math display=\"inline\"><mi>δ</mi><msub><mi>θ</mi><mrow><mi>diff</mi></mrow></msub><mo>=</mo><msub><mi>λ</mi><mi>GW</mi></msub><mo>/</mo><mi>r</mi></math>是衍射角，SNR指的是源的探测强度。在这个角分辨率水平下，识别电磁对应体可能变得可行，从而实现多信使后随观测。我们表明，对于SNR = 10（这可能是使用相干分析目前的灵敏度水平），使用大约十个距离约为300秒差距的等距脉冲星即可达到衍射极限。此外，角分辨率随着已知脉冲星距离数量的增加而急剧提高，为<math display=\"inline\"><mo>∼</mo><mo stretchy=\"false\">(</mo><mn>1</mn><mo>/</mo><mi>SNR</mi><msup><mo stretchy=\"false\">)</mo><mrow><msub><mi>N</mi><mrow><mi>dist</mi></mrow></msub><mo>/</mo><mn>2</mn></mrow></msup></math>。因此，每个额外具有高信噪比计时和精确距离测量的脉冲星都可以将PTA分辨率提高一个数量级。最佳计时毫秒脉冲星（PSR <math display=\"inline\"><mi mathvariant=\"normal\">J</mi><mn>0437</mn><mo>-</mo><mn>4715</mn></math>）的距离已被限制在亚秒差距水平。因此，我们认为，完全纳入脉冲星距离信息的PTA数据相干分析是及时的。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational waves",
+    "diffraction-limited resolution",
+    "coherent analysis",
+    "multimessenger astronomy"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波",
+    "衍射极限分辨率",
+    "相干分析",
+    "多信使天文学"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-13T12:58:47.837405Z"
+}

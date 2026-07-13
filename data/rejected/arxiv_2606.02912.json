@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.02912",
+    "arxiv_id": "2606.02912",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Data-Driven Forecasting of three-Component Seismograms Using Transformer Architectures",
+    "abstract_en": "Forecasting seismic waveforms beyond observed data remains challenging due to the nonlinear, dispersive, and multi-scale nature of seismic wave propagation. In this work, we introduce \\textsc{SeismoGPT}, a transformer-based autoregressive model designed to forecast three-component seismic waveforms directly in the time domain. Forecasting is formulated as a physically constrained continuation problem in which the model receives waveform context beginning at the P-wave arrival and extending a defined time beyond the S-wave arrival, after which future motion is generated recursively without access to ground-truth samples. Evaluation is performed on synthetic seismograms spanning source depths of 5--100\\,km, epicentral distances of 10--90$^\\circ$, and magnitudes $3 \\leq M_w \\leq 7$. To disentangle the effects of context length and prediction horizon, we define three evaluation configurations using a distance-normalized context ratio and fixed prediction horizons of 120 and 240\\,s. Across all configurations, the model achieves a median normalized cross correlation of 0.93 or higher. Analysis of representative forecasts shows that successful predictions preserve both phase coherence and spectral energy distribution. Where failure cases arise, this is primarily due to gradual phase drift during autoregressive rollout rather than unphysical signal generation. These results demonstrate that transformer-based sequence models can learn stable dynamical continuation of seismic wavefields, highlighting the potential of foundation-model approaches for physics-driven time-series forecasting. There are potential applications of this methodology in seismic warning and hazard mitigation, particularly for next-generation gravitational-wave observatories, such as the Einstein Telescope.",
+    "authors": [
+      "Waleed Esmail",
+      "Stuart Russell",
+      "Jana Klinge",
+      "Alexander Kappes",
+      "Christine Thomas"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "cs.LG",
+      "gr-qc",
+      "physics.geo-ph"
+    ],
+    "submitted_at": "2026-06-01T21:38:03Z",
+    "updated_at": "2026-07-08T17:23:59Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.02912v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.02912v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.02912",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2606.02912v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

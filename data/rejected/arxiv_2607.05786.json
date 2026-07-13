@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.05786",
+    "arxiv_id": "2607.05786",
+    "arxiv_version": null,
+    "inspire_id": "3178162",
+    "doi": null,
+    "title_en": "A Quantum-HPC Hybrid Workflow for Reaction-Center Electronic Dynamics: Application to a Cytochrome P450-Inspired Iron-Complex Model",
+    "abstract_en": "We introduce population-transfer dynamics as a practical validation observable for active-space-derived reduced Hamiltonians in multistate reaction-center chemistry. Using a cytochrome P450-inspired Fe-complex model, we construct a reaction-coordinate-dependent effective Hamiltonian from state-averaged complete active-space self-consistent field (SA-CASSCF) calculations, map it to a quantum-circuit representation suitable for current hardware, and propagate dynamics from the reactant-side ground state. The reduced Hamiltonian reproduces the SA-CASSCF reference with an RMS deviation of 0.030 eV and a maximum absolute deviation of 0.143 eV. As a dynamics-based diagnostic, the product-manifold population p_P(t) identifies a pronounced near-degeneracy region around x = 0.3, where state mixing is strongest. Classical exact time evolution yields a product population of 0.488 at x = 0.3 after 10 fs, compared with 7.26 x 10^-2 at x = 0.2 and 5.90 x 10^-3 at x = 0.0. To enable execution on current trapped-ion hardware, we examine the trade-off between dynamical fidelity and circuit resources through coupling pruning and first-order Trotterization. A coupling cutoff of 0.02 eV reduces the non-zero coupling set from 32 to 7 while preserving the dominant transfer pathways, and M = 30 provides the best practical operating point. Finally, we demonstrate the workflow on Quantinuum's trapped-ion quantum computer Reimei. The hardware reproduces the key reaction-coordinate trend identified by the classical model, including the maximum at x = 0.3, where the measured product population is 0.42 on hardware and 0.43 on the matched emulator. This work establishes a dynamics-based framework for assessing active-space-derived reduced Hamiltonians and demonstrates chemically interpretable multistate electronic dynamics on current trapped-ion hardware.",
+    "authors": [
+      "Maekawa, Shintaro",
+      "Otsuka, Takao",
+      "Masui, Riku",
+      "Pedersen, Juan W.",
+      "Ramo, David Muñoz",
+      "Okuno, Yasushi",
+      "Yamamoto, Kentaro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-07T00:00:00Z",
+    "updated_at": "2026-07-09T04:15:08.352251Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178162",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178162",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178162"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

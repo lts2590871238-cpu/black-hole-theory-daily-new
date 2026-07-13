@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.07691",
+    "arxiv_id": "2607.07691",
+    "arxiv_version": null,
+    "inspire_id": "3178622",
+    "doi": null,
+    "title_en": "Faster quantum linear system solver beyond the condition number",
+    "abstract_en": "The spectral condition number is a widely adopted measure of worst-case cost for quantum linear system solvers. Yet it can significantly overestimate the actual runtime for a typical problem instance. We present two quantum algorithms that produce the normalized solution $|x\\rangle$ of linear system $Ax=| b \\rangle$ to accuracy $ε$ with complexity independent of the condition number $κ=\\lVert A^{-1}\\rVert$. We focus on the standard input model where $A$ is accessed through a block encoding and $| b \\rangle$ is prepared by a unitary. But we also introduce an affine dilation model that encodes $A$ and $| b \\rangle$ jointly, allowing further refinements of the query complexity. Our truncation-based solver makes an optimal number of queries to $| b \\rangle$ and $\\operatorname{\\mathbf{O}}\\left(κ_{\\mathrm{eff}}\\operatorname{polylog}\\left(\\frac{κ_{\\mathrm{eff}}}ε\\right)\\right)$ queries to $A$. We prove a family of upper bounds on the effective condition number, including $κ_{\\mathrm{eff}}\\leq\\frac{\\lVert(A^\\dagger A)^{-t/2}|x\\rangle\\rVert^{1/t}}{ε^{1/t}}$ for positive even integer $t$ and $κ_{\\mathrm{eff}}\\leq\\frac{\\lVert A^{-1\\dagger}(A^\\dagger A)^{-(t-1)/2}|x\\rangle\\rVert^{1/t}}{ε^{1/t}}$ for positive odd $t$, overcoming the $κ$-barrier. Our filtering-based solver is extremely simple with a favorable runtime prefactor. In particular, the solver has query complexity $6\\frac{\\lVert A^{-1\\dagger}|x\\rangle\\rVert}ε\\ln\\left(\\frac{1}ε\\right)$ to leading order when the solution norm is known. We then present a similarly simple solution norm estimator with the same asymptotic cost up to logarithmic factors. Our quantum linear system solvers thus substantially improve a recent algorithm of Li, enabling faster quantum linear system solving beyond the condition number.",
+    "authors": [
+      "Dalzell, Alexander M.",
+      "Li, Jianqiang",
+      "Su, Yuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-08T00:00:00Z",
+    "updated_at": "2026-07-10T04:22:58.023228Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3178622",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3178622",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3178622"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

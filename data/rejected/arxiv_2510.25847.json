@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.25847",
+    "arxiv_id": "2510.25847",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1093/mnras/stag1182",
+    "title_en": "Braginskii Viscosity in Cosmological Simulations of Galaxy Clusters: Implementation, Validation, and First Application",
+    "abstract_en": "We present the implementation of an anisotropic viscosity solver within the magnetohydrodynamics (MHD) framework of the TreeSPH code OpenGadget3. The solver models anisotropic viscous transport along magnetic field lines following the Braginskii formulation and includes physically motivated limiters based on the mirror and firehose instability thresholds, which constrain the viscous stress in weakly collisional plasmas. To validate the implementation, we performed a suite of standard test problems -- including two variants of the sound wave test, circularly and linearly polarized Alfven waves, fast magnetosonic wave, and the Kelvin-Helmholtz instability -- both with and without the plasma-instability limiters. The results show excellent agreement with the AREPO implementation of a similar anisotropic viscosity model, confirming the accuracy and robustness of our method. Our formulation integrates seamlessly within the individual adaptive timestepping framework of OpenGadget3, avoiding the need for subcycling. This provides efficient and stable time integration while maintaining physical consistency. Finally, we applied the new solver to a cosmological zoom-in simulation of a galaxy cluster as a proof-of-concept application, demonstrating its capability to model anisotropic transport and plasma microphysics in realistic large-scale environments. Our implementation offers a versatile and computationally efficient tool for studying anisotropic viscosity in magnetized astrophysical systems.",
+    "authors": [
+      "Tirso Marin-Gilabert",
+      "Ulrich P. Steinwandel",
+      "Milena Valentini",
+      "John A. ZuHone",
+      "Klaus Dolag"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "physics.plasm-ph"
+    ],
+    "submitted_at": "2025-10-29T18:00:08Z",
+    "updated_at": "2026-07-08T18:00:11Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.25847v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.25847v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.25847",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://arxiv.org/abs/2510.25847v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

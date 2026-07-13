@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.08998",
+    "arxiv_id": "2607.08998",
+    "arxiv_version": null,
+    "inspire_id": "3179705",
+    "doi": null,
+    "title_en": "Shadow-Based Noise Fingerprinting of Simulated Quantum Noise Models",
+    "abstract_en": "Accurate noise classification is essential for operating near-term quantum processors, yet existing approaches, such as quantum process tomography, scale exponentially with system size, limiting their practicality for routine calibration. We propose a scalable noise fingerprinting pipeline that combines structured classical shadow tomography with physics-informed feature engineering to identify noise channels from a fixed set of 3-qubit probe circuits. Each sample is represented by a 279-dimensional feature vector constructed from randomized Pauli measurements and derived observables, designed to resolve physically similar noise channels that produce overlapping signatures under generic measurement sets. We evaluate three classifiers, i.e., random forest, extra trees, and a multilayer perceptron, on a dataset of 14,000 labeled samples spanning 10 noise types. The random forest classifier achieves the highest test accuracy of 0.8426 with a macro F1 score of 0.8437, outperforming both baselines. Confusion analysis reveals that many noise types are classified with high reliability, with the remaining confusions occurring between channels sharing similar physical decay mechanisms, motivating future work on richer probe states and noise parameter estimation.",
+    "authors": [
+      "Jain, Vridhi",
+      "Zhang, Lei"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-13T12:15:02.985303Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179705",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179705",
+        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "url": "https://inspirehep.net/literature/3179705"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
