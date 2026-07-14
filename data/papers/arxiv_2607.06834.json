@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06834",
+    "arxiv_id": "2607.06834",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A new framework for lightning-fast gravitational wave analysis of pulsar timing data",
+    "abstract_en": "Pulsar timing array data analysis is computationally expensive, limiting the complexity of models which can be studied. As pulsar timing datasets and their respective models grow in size and sophistication, faster and scalable inference methods are essential. In this paper, we accelerate pulsar timing analyses by sampling in the space of Fourier coefficients instead of analytically marginalizing over them. Previous studies have shown the Fourier space induces a complex, high-dimensional posterior geometry, from which it is generally difficult to sample. We show that under an appropriate coordinate transformation the Fourier coefficients approximately follow a standard normal distribution, and may be efficiently sampled using a Hamiltonian Monte Carlo scheme. Under this coordinate transformation, for datasets of size and complexity comparable to the NANOGrav 15-year release, the new method produces converged posterior distributions for a range of models which include inter-pulsar correlations, stochastic, and deterministic signals in approximately 15 minutes on an NVIDIA GeForce RTX 3090 GPU. By comparison, the legacy pulsar timing analysis software \\texttt{ENTERPRISE} would require months of computation on a CPU cluster to analyze comparable datasets under the same joint stochastic and deterministic models.",
+    "authors": [
+      "Aiden Gundersen",
+      "Rutger van Haasteren",
+      "Neil J. Cornish",
+      "Michele Vallisneri",
+      "Patrick M. Meyers"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-07-07T22:03:23Z",
+    "updated_at": "2026-07-07T22:03:23Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.06834v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.06834v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.06834",
+        "fetched_at": "2026-07-14T06:07:18.107481Z",
+        "url": "https://arxiv.org/abs/2607.06834v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 5,
+      "methodological_rigor": 18,
+      "novelty": 14,
+      "clarity": 8,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 57,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "提出了一种新颖的脉冲星计时阵列数据分析加速方法，通过坐标变换和HMC采样显著提升计算效率，适用于PTA领域。",
+    "title_zh": "用于脉冲星计时数据快速引力波分析的新框架",
+    "abstract_zh": "脉冲星计时阵列数据分析的计算成本很高，限制了可研究模型的复杂性。随着脉冲星计时数据集及其相应模型在规模和复杂度上的增长，更快且可扩展的推断方法至关重要。在本文中，我们通过在傅里叶系数空间采样而非对其进行解析边缘化来加速脉冲星计时分析。先前的研究表明，傅里叶空间会导致复杂的高维后验几何，通常难以从中采样。我们证明，在适当的坐标变换下，傅里叶系数近似服从标准正态分布，并且可以使用哈密顿蒙特卡洛方案高效采样。在此坐标变换下，对于规模和复杂度与NANOGrav 15年发布数据集相当的数据集，新方法在包含星际相关性、随机和确定性信号的一系列模型上，大约在15分钟内在NVIDIA GeForce RTX 3090 GPU上产生收敛的后验分布。相比之下，传统的脉冲星计时分析软件\\texttt{ENTERPRISE}在CPU集群上分析同等数据集，并在相同的联合随机和确定性模型下，需要数月计算时间。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational waves",
+      "Hamiltonian Monte Carlo",
+      "Fourier coefficients",
+      "scaling"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波",
+      "哈密顿蒙特卡洛",
+      "傅里叶系数",
+      "可扩展性"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-07-14T06:08:59.560476Z"
+  },
+  "published_at": "2026-07-14T06:08:59.560897Z"
+}

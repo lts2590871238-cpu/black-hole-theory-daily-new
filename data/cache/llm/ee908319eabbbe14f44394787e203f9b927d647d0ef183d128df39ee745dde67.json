@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 5,
+    "methodological_rigor": 18,
+    "novelty": 14,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 57,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "提出了一种新颖的脉冲星计时阵列数据分析加速方法，通过坐标变换和HMC采样显著提升计算效率，适用于PTA领域。",
+  "title_zh": "用于脉冲星计时数据快速引力波分析的新框架",
+  "abstract_zh": "脉冲星计时阵列数据分析的计算成本很高，限制了可研究模型的复杂性。随着脉冲星计时数据集及其相应模型在规模和复杂度上的增长，更快且可扩展的推断方法至关重要。在本文中，我们通过在傅里叶系数空间采样而非对其进行解析边缘化来加速脉冲星计时分析。先前的研究表明，傅里叶空间会导致复杂的高维后验几何，通常难以从中采样。我们证明，在适当的坐标变换下，傅里叶系数近似服从标准正态分布，并且可以使用哈密顿蒙特卡洛方案高效采样。在此坐标变换下，对于规模和复杂度与NANOGrav 15年发布数据集相当的数据集，新方法在包含星际相关性、随机和确定性信号的一系列模型上，大约在15分钟内在NVIDIA GeForce RTX 3090 GPU上产生收敛的后验分布。相比之下，传统的脉冲星计时分析软件\\texttt{ENTERPRISE}在CPU集群上分析同等数据集，并在相同的联合随机和确定性模型下，需要数月计算时间。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational waves",
+    "Hamiltonian Monte Carlo",
+    "Fourier coefficients",
+    "scaling"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波",
+    "哈密顿蒙特卡洛",
+    "傅里叶系数",
+    "可扩展性"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-14T06:08:59.560476Z"
+}
