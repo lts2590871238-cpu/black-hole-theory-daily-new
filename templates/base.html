@@ -7,9 +7,37 @@
   <title>{% block title %}{{ settings.site.title_zh }}{% endblock %}</title>
   <link rel="alternate" type="application/atom+xml" title="Atom feed" href="{{ page_prefix }}feed.xml">
   <link rel="stylesheet" href="{{ asset_prefix }}static/styles.css">
+  <script>
+    window.MathJax = {
+      loader: { load: ["ui/safe"] },
+      tex: {
+        inlineMath: { "[+]": [["$", "$"]] },
+        processEscapes: true,
+        processEnvironments: true,
+        processRefs: true,
+        tags: "ams"
+      },
+      svg: { fontCache: "global" },
+      options: {
+        ignoreHtmlClass: "mathjax_ignore",
+        processHtmlClass: "mathjax_process",
+        safeOptions: {
+          allow: { URLs: "safe", classes: "safe", cssIDs: "safe", styles: "safe" },
+          safeProtocols: {
+            http: true,
+            https: true,
+            file: false,
+            javascript: false,
+            data: false
+          }
+        }
+      }
+    };
+  </script>
   <script src="{{ asset_prefix }}static/app.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@4.0.0/tex-svg.js" defer crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="mathjax_ignore">
   <a class="skip-link" href="#main">跳到主要内容</a>
   <header class="site-header">
     <div class="shell header-row">

@@ -5,8 +5,8 @@
     <span class="status-label">{% if paper.is_demo %}演示{% elif paper.is_update %}更新版本{% else %}新提交{% endif %}</span>
     <span class="score" title="自动筛选分数，非同行评议">{{ decision.total_score }}<small>/100</small></span>
   </div>
-  <h3>{{ decision.title_zh }}</h3>
-  <p class="title-en" lang="en">{{ paper.title_en }}</p>
+  <h3 class="mathjax_process">{{ decision.title_zh }}</h3>
+  <p class="title-en mathjax_process" lang="en">{{ paper.title_en }}</p>
   <p class="identifiers">
     {% if paper.arxiv_id %}<span>arXiv ID：<strong>{{ paper.arxiv_id }}{% if paper.arxiv_version and not paper.is_demo %}v{{ paper.arxiv_version }}{% endif %}</strong>{% if paper.is_demo %}（虚构示例）{% endif %}</span>{% endif %}
     {% if paper.inspire_id %}<span>INSPIRE ID：<strong>{{ paper.inspire_id }}</strong></span>{% endif %}
@@ -16,9 +16,9 @@
     {% if paper.authors|length > 6 %}<details><summary>{{ paper.authors[:5]|join('、') }} 等 {{ paper.authors|length }} 位作者</summary><p>{{ paper.authors|join('、') }}</p></details>{% else %}<p>{{ paper.authors|join('、') }}</p>{% endif %}
     <p>提交 {{ paper.submitted_at|iso_date }} · 更新 {{ paper.updated_at|iso_date }}</p>
   </div>
-  <div class="reason"><strong>入选理由</strong><p>{{ decision.selection_reason_zh }}</p><small>自动筛选，非同行评议</small></div>
-  <section class="abstract"><h4>完整中文摘要 · 忠实翻译</h4><p>{{ decision.abstract_zh }}</p></section>
-  <details class="abstract-en"><summary>查看英文原摘要</summary><p lang="en">{{ paper.abstract_en }}</p></details>
+  <div class="reason"><strong>入选理由</strong><p class="mathjax_process">{{ decision.selection_reason_zh }}</p><small>自动筛选，非同行评议</small></div>
+  <section class="abstract"><h4>完整中文摘要 · 忠实翻译</h4><p class="mathjax_process">{{ decision.abstract_zh }}</p></section>
+  <details class="abstract-en"><summary>查看英文原摘要</summary><p class="mathjax_process" lang="en">{{ paper.abstract_en }}</p></details>
   {% if decision.translation_warning %}<p class="warning">翻译提示：{{ decision.translation_warning }}</p>{% endif %}
   <div class="keywords"><span>关键词</span>{% for keyword in decision.keywords_zh %}<span class="keyword">{{ keyword }}</span>{% endfor %}{% for keyword in decision.keywords_en %}<span class="keyword" lang="en">{{ keyword }}</span>{% endfor %}</div>
   <div class="card-footer">
