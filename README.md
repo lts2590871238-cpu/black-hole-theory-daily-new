@@ -12,7 +12,8 @@
 - OpenAI Responses Structured Outputs 或 DeepSeek Chat Completions JSON Output，并统一经过 Pydantic 严格校验；浏览器端不接触 API key；
 - 中文标题和完整摘要经过空值、中文字符、长度和结构校验；摘要要求逐句忠实翻译，不得缩写成概述；
 - 页面时间筛选支持某一天、某个月、某一年和自定义起止日期，不必再逐日点击查找；
-- 60–64 分进入 `data/review_queue/`，默认 65 分以上公开；
+- 论文标题和中英文摘要使用 MathJax 4 排版 LaTeX 公式，并把常见 `\\cite{...}` 标记显示为易读引用；
+- 45–49 分进入 `data/review_queue/`，默认 50 分以上公开；
 - 无密钥的 8 篇虚构演示数据与正式历史严格分开；
 - 每日 GitHub Actions 自动测试、更新、保存数据并部署 Pages。
 
@@ -115,6 +116,7 @@ pytest -q
 - 模型输入不包含作者姓名、机构、国籍或声望，只包含作者数量和有限元数据。
 - 新论文发表不足 30 天时，零引用明确视为中立；社区信号上限为 5 分。
 - 中文摘要必须覆盖英文摘要全文而不是只做概述；逐句忠实翻译并保留研究问题、假设、方法、结果、限定条件、局限、公式、变量、模型名和不确定语气。
+- 页面只在论文文本区域处理 LaTeX，MathJax 启用安全过滤并固定版本；外部文本仍先经 Jinja 自动转义，引用标记只用 DOM 文本节点转换，不使用 `innerHTML`。若公式 CDN 暂时不可用，页面仍保留已经转义的原始文本。
 - 所有外链均使用 `target="_blank"`、`rel="noopener noreferrer"`；静态验证会检查这一点。
 - 网络请求统一带 User-Agent、timeout、retry、指数退避，并尊重 `Retry-After`。
 
