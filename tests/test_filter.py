@@ -72,7 +72,7 @@ def test_pta_is_found_from_abstract_context_without_title_acronym(
 
 def test_recall_settings_are_broader(settings) -> None:
     assert settings.pipeline.since_days == 7
-    assert settings.pipeline.selection_threshold == 65
-    assert settings.pipeline.review_min_score == 60
+    assert settings.pipeline.selection_threshold == 50
+    assert settings.pipeline.review_min_score == 45
     assert settings.pipeline.arxiv_page_size == 200
     assert settings.pipeline.arxiv_max_pages == 5
