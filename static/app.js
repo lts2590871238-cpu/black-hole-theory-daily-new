@@ -1,5 +1,48 @@
 "use strict";
 
+const formatLatexCitations = () => {
+  const pattern = /\\(?:cite|citep|citet)\*?(?:\[[^\]\n]*\]){0,2}\{([^{}\n]+)\}/g;
+  document.querySelectorAll(".mathjax_process").forEach((root) => {
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) {
+      if (!walker.currentNode.parentElement?.closest("script, style, code, pre, mjx-container")) {
+        nodes.push(walker.currentNode);
+      }
+    }
+    nodes.forEach((node) => {
+      const text = node.nodeValue || "";
+      pattern.lastIndex = 0;
+      if (!pattern.test(text)) return;
+      pattern.lastIndex = 0;
+      const fragment = document.createDocumentFragment();
+      let cursor = 0;
+      for (const match of text.matchAll(pattern)) {
+        const index = match.index || 0;
+        fragment.append(document.createTextNode(text.slice(cursor, index)));
+        const keys = match[1].split(",").map((key) => key.trim()).filter(Boolean);
+        const citation = document.createElement("span");
+        citation.className = "citation-token";
+        citation.textContent = `[${keys.join(", ")}]`;
+        citation.setAttribute("aria-label", `引用 ${keys.join("、")}`);
+        fragment.append(citation);
+        cursor = index + match[0].length;
+      }
+      fragment.append(document.createTextNode(text.slice(cursor)));
+      node.replaceWith(fragment);
+    });
+  });
+};
+
+window.addEventListener("load", () => {
+  const startup = window.MathJax?.startup?.promise;
+  if (startup && typeof startup.then === "function") {
+    startup.then(formatLatexCitations).catch(formatLatexCitations);
+  } else {
+    formatLatexCitations();
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const cards = Array.from(document.querySelectorAll("[data-paper]"));
   const search = document.querySelector("#search");
