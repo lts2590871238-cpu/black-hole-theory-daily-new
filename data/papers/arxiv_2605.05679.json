@@ -32,7 +32,7 @@
       {
         "source": "arxiv",
         "record_id": "2605.05679",
-        "fetched_at": "2026-07-13T12:53:32.407803Z",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
         "url": "https://arxiv.org/abs/2605.05679v2"
       }
     ],
@@ -60,27 +60,29 @@
     "schema_version": "1.0",
     "relevant": true,
     "primary_topic": "pta",
-    "secondary_topics": [],
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
     "scores": {
       "theory_depth": 20,
       "methodological_rigor": 18,
-      "novelty": 12,
+      "novelty": 10,
       "clarity": 8,
       "metadata_quality": 7,
       "community_signal": 0,
       "other": 5
     },
-    "total_score": 70,
+    "total_score": 68,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文使用贝叶斯留一法交叉验证比较超轻暗物质实现与现象学模型对脉冲星计时阵列引力波背景数据的预测性能，方法严谨、主题契合PTA领域。",
-    "title_zh": "利用引力波背景数据进行天体物理模型比较的贝叶斯留一法交叉验证",
-    "abstract_zh": "先前的工作表明，超轻暗物质孤子可以为超大质量黑洞双星提供动力学摩擦，抑制脉冲星计时阵列引力波背景中的低频功率，并约束粒子质量和有效超轻暗物质分数。本文通过比较四种模型的预测性能来扩展该分析：简化和现实的超轻暗物质实现、一个现象学的环境硬化模型，以及一个仅引力波模型。我们对五个最低的脉冲星计时阵列频率区间使用贝叶斯留一法交叉验证。现象学模型给出了最大的期望对数预测密度，但其优势与估计的标准误差相比并不大。因此，当前的数据并没有明确地偏好某一个模型。在超轻暗物质框架内最清晰的成对结果是：在所有五个频率区间中，简化模型的表现优于现实实现。因此，当前的脉冲星计时阵列数据与超轻暗物质引起的低频抑制兼容，但尚不能将超轻暗物质与超大质量黑洞双星演化的更一般环境描述显著区分开来。",
+    "selection_reason_zh": "论文使用贝叶斯留一法交叉验证比较脉冲星计时阵列数据的四种模型，属于PTA核心主题，方法严谨，结论清晰，具有重要参考价值。",
+    "title_zh": "利用引力波背景数据的天体物理模型比较的贝叶斯留一法交叉验证",
+    "abstract_zh": "先前的工作表明，超轻暗物质孤子可以为超大质量黑洞双星提供动力学摩擦，抑制脉冲星计时阵列引力波背景中的低频功率，并约束粒子质量和有效超轻暗物质分数。在此，我们通过比较四个模型的预测性能来扩展该分析：简化和现实的超轻暗物质实现、一个现象学的环境硬化模型以及一个仅引力波模型。我们在五个最低的脉冲星计时阵列频率区间上使用贝叶斯留一法交叉验证。现象学模型给出了最大的期望对数预测密度，但其相对于其他模型的优势与估计的标准误差相比并不大。因此，当前的数据并没有决定性地偏好某一个模型。在超轻暗物质框架内最清晰的成对结果是：简化模型在所有五个频率区间上都优于现实实现。因此，当前的脉冲星计时阵列数据与超轻暗物质引起的低频抑制兼容，但尚未将超轻暗物质显著地区别于更通用的超大质量黑洞双星演化的环境描述。",
     "keywords_en": [
       "Bayesian leave-one-out cross-validation",
       "pulsar timing array",
       "gravitational-wave background",
       "ultralight dark matter",
-      "supermassive black-hole binaries"
+      "supermassive black hole binary"
     ],
     "keywords_zh": [
       "贝叶斯留一法交叉验证",
@@ -93,7 +95,7 @@
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-13T12:55:31.957200Z"
+    "created_at": "2026-07-14T05:24:13.555684Z"
   },
-  "published_at": "2026-07-13T12:55:31.957619Z"
+  "published_at": "2026-07-14T05:24:13.556148Z"
 }

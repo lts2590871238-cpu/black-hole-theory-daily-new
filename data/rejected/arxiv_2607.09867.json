@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09867",
+    "arxiv_id": "2607.09867",
+    "arxiv_version": 1,
+    "inspire_id": "3180085",
+    "doi": null,
+    "title_en": "Neural Posterior Estimation for Inferring Weak Lensing Shear",
+    "abstract_en": "The prevailing approach to inferring weak gravitational lensing shear from images involves detecting galaxies, estimating their ellipticities, and calibrating these estimates to correct for image noise, selection bias, and model misspecification. Characterizing the statistical model and assumptions underlying this pipeline is challenging, which makes it difficult to propagate uncertainty through its various stages. As an alternative, we propose to infer shear using neural posterior estimation (NPE), a type of simulation-based inference. We train a deep neural network to map a simulated multiband image to a variational distribution over the underlying shear field, thereby folding galaxy detection, deblending, measurement, and calibration into a single implicit inference step. Once trained, the network accounts for all features present in the simulated images, including potential sources of bias. In experiments on simulated constant-shear images with increasingly complex observational effects, NPE produces accurate and well-calibrated posterior approximations for both shear components in the presence of blended galaxies, spatially varying point spread functions, stars, and detector artifacts. These results demonstrate that NPE can be a viable shear estimation method in settings where all anticipated features and artifacts can be simulated, a requirement that will become increasingly feasible as simulation fidelity improves in the coming decades.",
+    "authors": [
+      "Tim White",
+      "Dingrui Tao",
+      "Camille Avestruz",
+      "Jeffrey Regier",
+      "the LSST Dark Energy Science Collaboration"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "cs.CV",
+      "stat.AP"
+    ],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-14T04:28:06.886018Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.09867v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.09867v1",
+    "inspire_url": "https://inspirehep.net/literature/3180085",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.09867",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://arxiv.org/abs/2607.09867v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3180085",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180085"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10057",
+    "arxiv_id": "2607.10057",
+    "arxiv_version": null,
+    "inspire_id": "3180099",
+    "doi": null,
+    "title_en": "Quantum Circuit Vision: Cost-Aware Evaluation of Visual AI Agents for Quantum Code Generation",
+    "abstract_en": "Can AI agents visually comprehend quantum circuit diagrams and generate verified executable code--and at what cost? We present Quantum Circuit Vision, a cost-aware evaluation framework for multimodal AI agents on quantum circuit visual understanding. We construct a 132-circuit benchmark spanning 13 categories ($1$--$10$ qubits) with executable Amazon Braket code and unitary-fidelity verification. Evaluating three frontier Claude-family models at different capability-cost tiers with $n=5$ repeated trials, we find that the mid-tier model (Sonnet 4.6, $1.30\\times$ credits) offers the most favorable balance on the cost-accuracy frontier: 91% pass rate on the core subset at 18% of the per-call cost of the strongest model (Opus 4.6), whose accuracy advantage is not statistically significant (paired $t$: $p=0.083$). Logistic regression confirms that circuit depth--not qubit count--is the primary predictor of failure ($p<0.001$). Chain-of-thought prompting shows no statistically significant effect (all $p>0.18$, $n=5$), suggesting that visual pattern recognition outweighs explicit reasoning strategy for structurally coupled diagrams. We propose a cascade routing strategy (cheap $\\rightarrow$ expensive models) that achieves 84% accuracy at 38% of single-model cost, demonstrating that model routing dominates prompt engineering as a cost lever. We release QCV-Dataset (132 circuits, 5 modalities, 1,931 files) on Hugging Face Hub as an open evaluation infrastructure with structured metadata for discoverability, interoperability, and responsible AI documentation, and all evaluation code, cost logs, and verification scripts on GitHub for full reproducibility.",
+    "authors": [
+      "Liu, Dongping",
+      "Zhang, Aoyu",
+      "Zhang, Luyao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:28:44.059132Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180099",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180099",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180099"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

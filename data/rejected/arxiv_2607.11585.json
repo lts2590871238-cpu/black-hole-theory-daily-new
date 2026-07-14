@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11585",
+    "arxiv_id": "2607.11585",
+    "arxiv_version": null,
+    "inspire_id": "3179866",
+    "doi": null,
+    "title_en": "Machine Learning-Based Reconstruction for Resistive Silicon Sensors",
+    "abstract_en": "Low-Gain Avalanche Diodes (LGADs) and AC-coupled Low-Gain Avalanche Diodes (AC-LGADs) are promising technologies for precision timing and four-dimensional tracking. In AC-LGADs, the AC pad is coupled to the resistive n$^{+}$ layer through a dielectric layer, while the gain layer remains unsegmented. This structure provides a 100% fill factor and enables good spatial resolution with a relaxed readout pitch. The same signal-sharing mechanism that makes interpolation possible complicates the readout: charge spreads across multiple pads, the useful information can approach the electronic-noise threshold, and matrix-inversion approaches can become computationally challenging and sensitive to off-diagonal noise. In this work, we study machine-learning-based reconstruction and compression for resistive silicon sensors. We use full-waveform information from correlated pads to regularise the reconstruction and extract spatial information beyond what is available from binary readouts or reduced-amplitude summaries. We first introduce recurrent neural network models based on LSTM layers, which provide a proof-of-concept implementation for full-waveform reconstruction and have been tested for FPGA deployment using \\hls. We also study routes towards bandwidth reduction with waveform rasterisation and window-selection methods, and extend the approach beyond the first model to topology-agnostic transformer-based architectures that use pad coordinates as part of the input. These models are designed to support arbitrary pad counts and geometries, mitigate edge distortions, preserve approximately $10~μ\\mathrm{m}$ position resolution for $500~μ\\mathrm{m}\\times500~μ\\mathrm{m}$ pitched sensors, and guide future resistive-silicon sensor designs",
+    "authors": [
+      "Aoki, Alexander",
+      "Barone, Gaetano",
+      "Diehl, Leena",
+      "Giacomini, Gabriele",
+      "Gkougkousis, Vagelis",
+      "Goyal, Hanshal",
+      "Kher, Rohan",
+      "Li, Daniel",
+      "Macchiolo, Anna",
+      "Padnuik, Yevhenii",
+      "Senina, Daria",
+      "Sunnarborg, Samantha",
+      "Tang, Jessica",
+      "Tricoli, Alessandro",
+      "Wang, Lixing",
+      "Wong, Don C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:09:47.364147Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179866",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179866",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3179866"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10360",
+    "arxiv_id": "2607.10360",
+    "arxiv_version": null,
+    "inspire_id": "3180095",
+    "doi": null,
+    "title_en": "Gram-Certified Resource Continuation for Structured Quantum Representation Audits",
+    "abstract_en": "Dense representation of an $n$-qubit pure state requires $2^n$ complex amplitudes, precluding dense classical materialization at large $n$. We develop Gram-certified resource continuation for structured quantum-representation workloads and ask when a solution obtained under a lower-cost resource model remains a justified initialization for a richer one. For coarse and fine state ensembles connected by a declared isometry, fine, coarse, and cross complex amplitude overlaps form a positive-semidefinite block Gram matrix. A signed operator of dimension at most twice the sample count has the nonzero signed spectrum of the fine density minus the lifted coarse density, yielding trace- and operator-norm diagnostics without constructing either density operator. We prove that a coarse weighted spectral flag with objective suboptimality $δ_c$ has fine-level suboptimality at most $δ_c+2\\varepsilon$, where $\\varepsilon$ is the empirical trace distance; the factor two is attainable. We distinguish encoder change from exact feasible-family prolongation, give a gap-dependent subspace-stability test, and show that continuation cannot overcome a final Schmidt-rank ceiling. In deterministic synthetic controls over an 8-to-40-qubit ladder, exact ancilla lifts agree to numerical precision. Transferred initialization reduces final-rung block updates from 30 to 20, but the complete cascade costs $4.80$--$5.43$ times a direct final-rung solve, without material objective improvement. Reordering eight Bell pairs reduces the maximum matrix-product-state bond from 256 to 2. Thus continuation is justified only when cross-rung mismatch, feasible-family inclusion, topology, and total work jointly satisfy prespecified audits. These noise-free classical results neither establish generic 40-qubit simulability nor claim hardware performance or quantum advantage.",
+    "authors": [
+      "Alavi, Azadeh",
+      "Kouchmeshki, Fatemeh",
+      "Akhoundi, Hossein",
+      "Alavi, Abdolrahman"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:28:21.831335Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180095",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

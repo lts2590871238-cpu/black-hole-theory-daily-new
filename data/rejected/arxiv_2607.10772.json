@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10772",
+    "arxiv_id": "2607.10772",
+    "arxiv_version": null,
+    "inspire_id": "3180161",
+    "doi": null,
+    "title_en": "Demonstrating Quadratic Monte Carlo Speedup via Quantum Amplitude Estimation: Nuclear Engineering Examples",
+    "abstract_en": "We demonstrate quantum amplitude estimation (QAE) as a route to quadratic speedup for Monte Carlo-type expectation values in nuclear engineering. Using QPE-based QAE, we study two examples: a discrete fission-neutron-yield expectation and a U-238 resonance integral under a $1/E$ slowing-down spectrum. The toy problem is implemented as a gate-level Qiskit circuit, while the resonance-integral example is simulated through an exact eigendecomposition of the Grover operator to avoid state-preparation decomposition bottlenecks. In both cases, the squared error scales as $O(1/T^2)$ with the number of oracle calls $T$, compared with the classical Monte Carlo scaling $O(1/N)$. For the U-238 example, QAE recovers the resonance integral to approximately $0.03%$ relative error with $m=14$ phase-estimation qubits.",
+    "authors": [
+      "Miao, Jilang",
+      "Jin, Miaomiao",
+      "Sone, Akira"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-12T00:00:00Z",
+    "updated_at": "2026-07-14T04:32:16.803839Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180161",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180161",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180161"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

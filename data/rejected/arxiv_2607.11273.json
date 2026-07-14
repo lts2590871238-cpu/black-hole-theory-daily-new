@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11273",
+    "arxiv_id": "2607.11273",
+    "arxiv_version": null,
+    "inspire_id": "3180211",
+    "doi": null,
+    "title_en": "Fixed-Protocol Amortized MPS Tomography with Conformalized Predictive Uncertainty",
+    "abstract_en": "Quantum state tomography is sample-starved, and the states one prepares live on a narrow, learnable manifold. A $k{=}0$ prior-only control shows that on concentrated families a prior estimate is already near-optimal, so ``high fidelity at few measurements'' can be family memorization rather than tomography; genuine measurement-efficiency needs a model that conditions on the measurements and demonstrably uses them. On a shared matrix-product-state (MPS) core parameterization we study two routes. Approach~A learns a generative prior over MPS cores with measurement-guided posterior inference (gold-standard-validated, but whose few-measurement accuracy the control shows is largely the prior). Approach~B, our main proposal, is a \\emph{fixed-protocol amortized} MPS estimator trained once with a gauge-invariant fidelity loss; we deliberately do not rest it on a permutation-invariant set encoder (a plain MLP matches it). The decisive lever is the measurement design: motivated by the fact that local reduced density matrices determine a $χ$-MPS, conditioning on an \\emph{informative local} Pauli set rather than random strings turns a modest, memorization-prone estimator into a high-fidelity one ($\\approx\\!0.95$, up to $+0.59$ over prior-only, decisively passing a shuffled-measurement control). A dropout ensemble, conformally recalibrated, gives $\\approx\\!90\\%$-coverage intervals -- including for observables never measured, where a shot-based interval does not exist. Quality holds as the system grows (fidelity $0.90$ at $n{=}10$, gain \\emph{growing} in $n$; $0.88$ at bond dimension $χ{=}4$), the parameterization is polynomial (native contraction to $20$ qubits), and we close the loop on IBM hardware ($5$ states at $0.97$ from hardware-measured Paulis).",
+    "authors": [
+      "Xu, Jian",
+      "Zeng, Delu",
+      "Paisley, John",
+      "Zhao, Qibin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:35:13.276917Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180211",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180211",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180211"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

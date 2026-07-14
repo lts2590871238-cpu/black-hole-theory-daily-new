@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10262",
+    "arxiv_id": "2607.10262",
+    "arxiv_version": null,
+    "inspire_id": "3180082",
+    "doi": null,
+    "title_en": "HSF-S: Speed-Optimized Compilation and Acceleration for Hybrid Schrodinger-Feynman Quantum Circuit Emulation",
+    "abstract_en": "Hybrid Schrodinger-Feynman (HSF) simulation offers an attractive memory-path tradeoff for exact quantum-circuit emulation, but its practical runtime is often dominated by exponential path growth from cross-boundary two-qubit gates. Existing GPU and FPGA quantum simulators are largely optimized for full-state Schrodinger execution and therefore do not align well with HSF's path-centric workflow. This paper presents HSF-S, a compiler-accelerator co-designed framework for exact HSF-based quantum circuit emulation. HSF-S lowers input circuits to an HSF-compatible basis, formulates a rank-aware effective path-cost model, and applies dependency-preserving reordering together with discounted-gain SWAP insertion to suppress recurring cross-boundary interactions while preserving exact circuit semantics. A regression-free selector guarantees that the compiled circuit never increases effective path cost relative to the naive lowered baseline. We further design a dedicated HSF-S accelerator and execution flow, and integrate them into a stand-alone processor for efficient per-path dual-slice evaluation and final accumulation without materializing the full state vector. Across 56 benchmark circuits, HSF-S matches reference amplitudes to within floating-point precision, reduces effective path cost by up to 90.0%, and substantially improves practical tractability, including representative timeout-to-sub-second reductions under a 1-hour budget. On the resulting compiled workloads, the HSF-S processor prototype delivers up to 4.34x additional speedup.",
+    "authors": [
+      "Park, Sechan",
+      "Lee, Kyeongwon",
+      "Jeong, Mundo",
+      "Jung, Chaebin",
+      "Lee, Woojoo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:27:46.902911Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180082",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180082",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180082"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

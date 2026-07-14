@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11401",
+    "arxiv_id": "2607.11401",
+    "arxiv_version": null,
+    "inspire_id": "3180186",
+    "doi": null,
+    "title_en": "From Leaves to Clusters: Depth-Efficient SAT-Oracle Synthesis Based on the HRSE Model",
+    "abstract_en": "Quantum oracles are a common building block of many quantum algorithms, where circuit depth is a primary cost that directly affects overall performance. Synthesizing oracles for SAT (CNF) formulas under a limited ancilla budget, however, tends to yield deep circuits, as existing methods underexploit clause-level parallelism. In this work, we present the Clustered Synthesis Tree (CST), a depth-oriented framework whose core idea is to group the individual clause leaves of a hierarchical synthesis tree into clusters, exposing instance-dependent clause-level parallelism under ancilla constraints. CST comprises three parts: the clause-grouping problem it induces, which we formulate as an ancilla-constrained scheduling problem and prove NP-complete in general, is addressed by SeedGrow, a polynomial-time $O(m^2 k)$ heuristic; ClausePack, a reversible oracle that evaluates a cluster's clauses in parallel at only a logarithmic-depth overhead; and CST-Map, which compiles the clustered tree into an executable SAT-oracle. On random $4$-CNF under the same ancilla budgets, CST reduces the oracle's circuit depth over the state-of-the-art (SOTA) baseline by $68\\%$--$94\\%$. On the standard SATLIB benchmarks, CST achieves about a $2.6\\times$--$43.2\\times$ reduction over the SOTA baseline, with the largest gains under dense variable sharing, and matches the baseline's maximum-budget depth using only $3.7\\%$--$20\\%$ of its ancilla qubits. A Grover-search resource estimate shows the advantage carries over to the full algorithm, reducing total circuit depth by $70\\%$--$89\\%$.",
+    "authors": [
+      "Li, Zhihang",
+      "Zi, Wei",
+      "Yang, Shuai",
+      "Zhou, Bei",
+      "Yi, Zongjiang",
+      "He, Woji",
+      "Lin, Yingjie",
+      "Ji, Kaixiang",
+      "Du, Heru",
+      "Xu, Jinchen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:33:45.334255Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180186",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180186",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180186"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

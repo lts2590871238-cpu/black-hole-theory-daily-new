@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10707",
+    "arxiv_id": "2607.10707",
+    "arxiv_version": null,
+    "inspire_id": "3180113",
+    "doi": null,
+    "title_en": "MDQEC-QAS: Meta-Decoding for Quantum Error Correction with Hardware-Aware VQC Search and Confidence-Gated Recovery",
+    "abstract_en": "We propose a unified meta-decoding framework for quantum error correction that learns syndrome-to-recovery mappings across multiple stabilizer codes and noise settings, without requiring separate decoders for each configuration. The benchmark includes FiveQubit, Steane, Planar3x3, and Planar5x5 codes, four noise families, and five evaluation regimes: interpolation, unseen-p transfer, unseen-noise transfer, few-shot unseen-code adaptation, and few-shot held-out-size adaptation. We compare a classical Meta-MLP teacher-trained baseline with variational quantum circuit (VQC) meta-decoders selected through hardware-aware quantum architecture search over qubit count, circuit depth, and entangling topology. The Meta-MLP achieves teacher-label accuracies of 0.9993, 0.9118, 0.9342, 0.6304, and 0.7548 across the five regimes, while the hardware-aware VQC achieves 0.9400, 0.8495, 0.8415, 0.5678, and 0.7143. However, logical-level evaluation shows that high teacher-label accuracy alone is insufficient in the most challenging Planar5x5 setting. During interpolation, the raw logical-failure ratios relative to the teacher are 12.08 and 25.91 for the Meta-MLP and VQC, respectively, whereas confidence-gated fallback reduces them to 1.71 and 1.11. These results support confidence-aware selective recovery rather than unconditional teacher replacement.",
+    "authors": [
+      "Choudhary, Prashant Kumar",
+      "Innan, Nouhaila",
+      "Shafique, Muhammad",
+      "Singh, Rajeev"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-12T00:00:00Z",
+    "updated_at": "2026-07-14T04:29:38.818831Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180113",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180113",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180113"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

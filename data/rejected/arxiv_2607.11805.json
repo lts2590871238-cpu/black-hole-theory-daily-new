@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11805",
+    "arxiv_id": "2607.11805",
+    "arxiv_version": 1,
+    "inspire_id": "3180233",
+    "doi": null,
+    "title_en": "HAMCOR: A physics-driven Hamiltonian framework for inferring AGN coronal geometry from X-ray reverberation lags",
+    "abstract_en": "We present HAMCOR (Hamiltonian-based AGN Multi-constraint CORonal inference framework), a geometry-agnostic method for inferring the X-ray coronal structure of accreting black holes using reverberation-lag measurements. Unlike conventional template-fitting approaches, HAMCOR reframes coronal geometry inference as the ground-state selection of a physical Hamiltonian. The corona is represented as a discrete emissivity distribution over a cylindrical grid, and its geometry emerges from five competing physical constraints: magnetic coherence, lag consistency, illumination consistency, pair-production stability, and energy budget feasibility. Minimisation is performed via projected gradient descent with Armijo backtracking line search on the probability simplex. We validate HAMCOR on three synthetic geometries (lamppost, column, ring) using the same grid as the real-data fits, recovering spatial correlations rho = 0.24, 0.50, 0.12 and fractional lag errors below 24 per cent. A hyperparameter sensitivity analysis confirms robustness over more than one order of magnitude in the coupling constants. We apply HAMCOR to five sources spanning seven orders of magnitude in black hole mass: four AGN observed with XMM-Newton (Mrk 335, 1H 0707-495, IRAS 13224-3809, MCG-6-30-15) and the stellar-mass black hole binary Cyg X-1 (M_bh = 14.8 M_sun), recovering consistent extended disc-corona geometries across the full mass range. We further present a multi-epoch analysis of Mrk 335 across five XMM-Newton observations (2006-2019), revealing that the coronal centroid remains stable at (R_c, z_c) ~ (6.3, 0.5) r_g across flux states spanning a factor of ~15 in reverberation lag amplitude, arguing against a collapsing or expanding lamppost. Schwarzschild-Shapiro delay corrections amount to ~79 per cent of the flat-spacetime lag on average; the recovered spatial morphology is robust to this correction.",
+    "authors": [
+      "Buffoli Fabio"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:36:12.130826Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.11805v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.11805v1",
+    "inspire_url": "https://inspirehep.net/literature/3180233",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.11805",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://arxiv.org/abs/2607.11805v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3180233",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180233"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

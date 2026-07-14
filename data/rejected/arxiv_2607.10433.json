@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10433",
+    "arxiv_id": "2607.10433",
+    "arxiv_version": null,
+    "inspire_id": "3179915",
+    "doi": null,
+    "title_en": "Emulating Density Functional Theory Calculations via Empirical Interpolation",
+    "abstract_en": "Nuclear density functional theory (DFT) is a suitable tool for predicting nuclear ground-state and fission properties. Statistical uncertainty quantification is desirable to make those predictions reliable, especially for nuclei far from stability. However, the computational cost associated with describing deformed nuclei in DFT makes such uncertainty quantification a challenge. In many solvers, the main computational bottleneck is the transformation of the wavefunction-dependent operators from coordinate to configuration space. We explore the use of the empirical interpolation method (EIM) to speed up the coordinate-configuration transformations, effectively constructing DFT emulators for ground-state and fission properties. To train and test the emulator we vary the model parameters across their realistic posterior distribution. We consider both a simplified one-dimensional model, and realistic axially-deformed nuclei at the Hartree-Fock-Boguliubov (HFB) level. For realistic calculations, we consider sample nuclei from across the chart, from $A=60$ up to $A=254$, as well as a highly-deformed fission isomer. We construct one emulator for each case, and study the binding energy, quadrupole deformation, and excitation energy of the fission isomer. In all nuclei, for all observables considered, the EIM emulator agrees with the DFT value to the precision of the original DFT calculations, using as few as 100 HFB calculations to build the emulator. For a given nuclear ground state or isomer, the emulator is able to predict all observables simultaneously. The emulator provides an order-of-magnitude speedup over the original solver, making EIM a suitable emulation scheme for DFT, especially when high precision is desired as in model calibration and fission. Thus, the EIM helps make statistical uncertainty feasible, improving the reliability of future predictions.",
+    "authors": [
+      "Lay, Daniel",
+      "Giuliani, Pablo",
+      "Godbey, Kyle"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:15:09.019492Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3179915",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3179915",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3179915"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

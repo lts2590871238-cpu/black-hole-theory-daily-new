@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11217",
+    "arxiv_id": "2607.11217",
+    "arxiv_version": null,
+    "inspire_id": "3180257",
+    "doi": null,
+    "title_en": "Quantum Multiscale Modeling: A Hierarchy of Algorithms for Complex Chemical Systems",
+    "abstract_en": "Multiscale modeling of complex chemical systems requires algorithms that operate coherently across electronic, atomistic, mesoscopic, and continuum scales. While quantum algorithms have been proposed for each regime, no systematic framework exists to compose them across scale boundaries. Here, we identify the conditions under which fault-tolerant quantum algorithms might preserve scale-specific quantum advantages. We map quantum phase estimation, Hamiltonian simulation with Gibbs state preparation, quantum random walks, and quantum partial differential equation solvers onto electronic structure, molecular dynamics, mesoscopic kinetics, and continuum reactor physics, respectively. Crucially, these correspondences do not imply unconditional end-to-end quantum advantage; speedups depend heavily on state preparation, memory architectures, matrix conditioning, and classical readout costs. Six unresolved questions define this composition problem, illustrated via a quantum hierarchy for \\ce{CO} oxidation over \\ce{Pt(111)}. We propose viewing inter-scale transfer as a quantum channel composition problem at the interface of algorithm design and non-equilibrium statistical mechanics, and ask whether information loss at scale boundaries is intrinsic to multiscale modeling or merely a consequence of lossy classical transduction between algorithmic layers. The resulting roadmap suggests that multiscale quantum advantage is governed primarily by the structure of information transfer between algorithmic layers, rather than by performance at individual scales alone.",
+    "authors": [
+      "Hariharan, Seenivasan",
+      "Schoutens, Kareljan",
+      "Kinge, Sachin",
+      "Visscher, Lucas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:37:59.342833Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180257",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180257",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180257"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

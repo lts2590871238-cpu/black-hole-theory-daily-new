@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10284",
+    "arxiv_id": "2607.10284",
+    "arxiv_version": null,
+    "inspire_id": "3180096",
+    "doi": null,
+    "title_en": "Rank-Refined Quantum-Behaved Particle Swarm Optimization for Quantum Molecular Generation",
+    "abstract_en": "This work proposes Rank-Refined Quantum-Behaved Particle Swarm Optimization (RR-QPSO) for high-dimensional parameter search in Quantum Molecular Generation (QMG). RR-QPSO targets the optimization bottleneck caused by expensive objective evaluations, where each candidate parameter vector requires stochastic circuit sampling, bitstring decoding, and molecular evaluation. The method provides a population-based alternative to Bayesian optimization (BO), combining Sobol-based initialization, a rank-refined mean-best update, and fitness-guided refinement based on validity and uniqueness. Experiments use the 9-heavy-atom QMG benchmark with a 134-parameter, 20-qubit CUDA-Q circuit and particle evaluations parallelized across 8 NVIDIA V100 GPUs. With M=64 particles and T=150 iterations, RR-QPSO reaches VxU = 0.930; increasing the swarm size to M=128 further improves the product to 0.942, compared with 0.902 for BO under the same protocol. A multi-objective extension targeting HBA=4 and HBD=3 further shows that RR-QPSO can guide molecular properties while preserving a higher validity--uniqueness product than BO. These results suggest that optimizer-level design can improve QMG without modifying the chemistry-inspired circuit or molecular decoding pipeline.",
+    "authors": [
+      "Wu, Sing-Yun",
+      "Wu, Sheng Yun",
+      "Chiang, I-Min",
+      "Li, Tai-Yue"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:28:31.307385Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180096",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180096",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180096"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

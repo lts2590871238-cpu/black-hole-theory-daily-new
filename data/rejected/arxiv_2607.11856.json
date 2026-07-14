@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11856",
+    "arxiv_id": "2607.11856",
+    "arxiv_version": null,
+    "inspire_id": "3180247",
+    "doi": null,
+    "title_en": "Trotter error compensation with polylogarithmic precision and nested-commutator scaling without ancillas",
+    "abstract_en": "Product formulas are among the most practical approaches to Hamiltonian simulation, requiring no ancillary qubits and exhibiting error bounds governed by nested commutators rather than only by Hamiltonian norms. Their circuit size, however, scales polynomially with the inverse precision. We develop a high-order nested-commutator compensation (HNCC) algorithm that preserves the main advantages of product formulas while achieving polylogarithmic precision dependence in the circuit size and the standard $\\mathcal{O}(\\varepsilon^{-2})$ sampling cost. HNCC uses a truncated Baker--Campbell--Hausdorff expansion to represent high-order Trotter errors by products of nested commutators and compensates these errors at the superoperator level through randomly sampled Pauli-rotation channels, avoiding Hadamard tests and ancillary qubits. For a fixed $K$-th order product formula applied to a $k$-local Hamiltonian on $N$ qubits with $Γ$ Pauli terms and local interaction strength $g_0$, HNCC estimates $\\operatorname{tr}[Oe^{-\\mathrm{i} tH}ρe^{\\mathrm{i} tH}]$ to additive precision $\\varepsilon\\|O\\|$ using $\\mathcal{O}(\\varepsilon^{-2})$ repetitions and a maximum gate count per circuit of $\\mathcal{O}(N^{\\frac{2}{2K+1}} (k g_0 t \\log(1/\\varepsilon))^{1+\\frac{1}{2K+1}} k(Γ+\\log(1/\\varepsilon)))$. The resulting time dependence matches that of a product formula of order $2K+1$. Finite-size resource estimates for the periodic Heisenberg chain indicate that HNCC achieves the lowest CNOT and $T$-gate counts per circuit among the product-formula-based methods considered.",
+    "authors": [
+      "Wang, Xinzhao",
+      "Zhou, Shuo",
+      "Wang, Ziruo",
+      "Zeng, Pei",
+      "Sun, Jinzhao",
+      "Zhao, Qi",
+      "Gur, Tom",
+      "Li, Tongyang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:37:12.770342Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180247",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180247",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180247"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

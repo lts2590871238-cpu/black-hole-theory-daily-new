@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10055",
+    "arxiv_id": "2607.10055",
+    "arxiv_version": null,
+    "inspire_id": "3180081",
+    "doi": null,
+    "title_en": "Measurement-induced overconcentration in quantum generative models",
+    "abstract_en": "Quantum measurement is a key resource for quantum generative learning, providing intrinsic stochasticity for generating diverse quantum samples. However, in measurement-assisted state-ensemble resampling, repeated measurements can also induce overconcentration: under a fixed measurement trajectory, distinct input states progressively converge toward similar output states, suppressing input-dependent diversity. To diagnose this effect, we introduce three complementary metrics: accuracy, generative power, and input sensitivity. For Haar-random monitored circuits, we prove that one-step models retain input sensitivity up to dimension-suppressed corrections, whereas sequential monitored circuits exhibit a depth-dependent loss of input sensitivity. Motivated by this diagnosis, we propose a truncated quantum denoising diffusion probabilistic model (QuDDPM), which restricts the temporal depth of both the forward diffusion and reverse denoising processes. Numerical benchmarks show that truncated QuDDPM preserves stronger input sensitivity while maintaining accuracy and generative power comparable to the original model. These results identify measurement-induced overconcentration as a dynamical limitation of deep monitored quantum generative models and establish temporal depth as a design parameter for balancing measurement-induced randomness with input-dependent diversity.",
+    "authors": [
+      "Mo, Runzhe",
+      "Zhang, Bingzhi",
+      "Zhuang, Quntao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:27:41.965125Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180081",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180081",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180081"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.26233",
+    "arxiv_id": "2606.26233",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A fidelity metric for quantum annealing benchmarked by extreme scaling quantum Monte-Carlo simulations",
+    "abstract_en": "Quantum annealers are supposed to follow adiabatically the ground state of a system as its Hamiltonian slowly interpolates between a trivial phase and a non-trivial one; the non-trivial ground state being the solution to an optimization problem. Overwhelmingly, their performances are measured in terms of how well or fast the optimization problem is solved. While pragmatic, this approach is inherently brittle as it strongly depends on the problem considered and the classical algorithm used as the reference benchmark. Here, we propose a quantity that not only measures the end result but also the quality of the actual quantum annealing process itself. Our metric is the quantum annealing counterpart of the fidelity-per gate of gate-based quantum computers. It takes the form of an accuracy $ε$ for the equation of state of the annealer. We calculate benchmark values of $ε$ using two variants of the simulated quantum annealing technique for Rydberg atoms systems. Our first approach uses variational quantum Monte-Carlo with an ansatz inspired by thermal annealing. It suggests that within $ε\\sim 10^{-2}-10^{-3}$, a quantum annealer is indistinguishable from its thermal classical counterpart. Critically, we could reach this precision up to $100,000,000$ atoms on a single CPU. Our second approach (based on Green function quantum Monte-Carlo) reaches accuracies around $ε\\sim 10^{-4}$ and we have run it up to $100,000$ atoms. These results outperform current Rydberg atom quantum annealing experimental platforms in both precision and size by orders of magnitude and put severe constraints for future hardware.",
+    "authors": [
+      "Gabriel Gouraud",
+      "Miha Srdinsek",
+      "Xavier Waintal"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-06-24T18:00:02Z",
+    "updated_at": "2026-07-11T11:57:53Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.26233v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.26233v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.26233",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://arxiv.org/abs/2606.26233v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

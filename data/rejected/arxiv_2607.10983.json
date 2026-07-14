@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10983",
+    "arxiv_id": "2607.10983",
+    "arxiv_version": 1,
+    "inspire_id": "3180202",
+    "doi": null,
+    "title_en": "Fast(er)PM and Moving Mesh: JAX-native Geometric Multigrid Methods",
+    "abstract_en": "Efficient, differentiable Poisson solvers are a key component of modern particle--mesh simulations and field-level inference pipelines. FFT-based solvers are extremely effective on fixed Cartesian meshes, but they impose global all-to-all communication and rely on symmetries that are lost in adaptive or non-Cartesian coordinates. In this work, we present a JAX-native geometric multigrid framework for particle--mesh gravity and argue that multigrid plays two complementary roles: on fixed meshes it can be a competitive, communication-avoiding alternative to FFTs, while on moving meshes it becomes the enabling solver. For static FastPM evolution, warm-started Chebyshev multigrid acts as a defect-correction method, exploiting temporal coherence between time steps to reduce the number of V-cycles required for field-level accuracy. At large mesh sizes this reduces memory pressure and yields comparable or faster wall-clock performance than distributed FFTs, with up to a factor of two reduction in total GPU time at fixed final mesh size. We then embed the same solver in a differentiable moving-mesh particle--mesh method, where adaptive coordinate deformation produces a variable-coefficient curvilinear Poisson equation that cannot be solved by ordinary FFT diagonalization. The resulting method concentrates force resolution in nonlinear structures while retaining a regular, JAX-compilable, automatically differentiable array workflow. These results suggest geometric multigrid can be a practical bridge between fast fixed-grid PM methods and differentiable adaptive-force cosmological simulations.",
+    "authors": [
+      "Benjamin Horowitz"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:34:46.756590Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.10983v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.10983v1",
+    "inspire_url": "https://inspirehep.net/literature/3180202",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.10983",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://arxiv.org/abs/2607.10983v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3180202",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180202"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

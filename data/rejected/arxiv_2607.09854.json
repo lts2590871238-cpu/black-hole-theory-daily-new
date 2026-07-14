@@ -1,0 +1,68 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09854",
+    "arxiv_id": "2607.09854",
+    "arxiv_version": 1,
+    "inspire_id": "3179986",
+    "doi": null,
+    "title_en": "GRACE: An Open-Source Framework for GPU-Accelerated Numerical Relativity",
+    "abstract_en": "We present GRACE, a new GPU-accelerated numerical-relativity framework designed to run efficiently on heterogeneous high-performance computing platforms. Developed from scratch and built exclusively on open-source libraries, GRACE employs Kokkos for performance portability across CPU and GPU architectures and p4est for adaptive mesh refinement. The code evolves the equations of ideal GRMHD -- with divergence-free magnetic fields maintained by constrained transport -- self-consistently coupled to the Einstein equations in the Z4c formulation, on fixed or adaptively refined grids. We validate the implementation against a suite of standard tests, ranging from magnetized shock tubes and the magnetic rotor in flat spacetime, through (magnetized) Bondi accretion onto a Schwarzschild black hole and the ringdown of a perturbed spinning puncture, to neutron-star oscillation spectra in fixed and dynamical spacetimes and the merger of binary black holes. As more demanding applications, we evolve two binary neutron-star mergers -- an equal-mass, unmagnetized system with an ideal-gas equation of state and an unequal-mass, magnetized system with a finite-temperature tabulated equation of state -- finding the inspiral dynamics to agree well with the FIL code. We also report single-device throughput together with strong- and weak-scaling results on multiple GPU and CPU architectures. GRACE is publicly released together with GRACEpy, a basic post-processing and data-analysis environment.",
+    "authors": [
+      "Carlo Musolino",
+      "Christian Ecker",
+      "Konrad Topolski",
+      "Marie Cassing",
+      "Keneth Miler",
+      "Harry Ho-Yin Ng",
+      "Khalil Pierre",
+      "Elias R. Most",
+      "Luciano Rezzolla"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-14T05:01:58.037472Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.09854v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.09854v1",
+    "inspire_url": "https://inspirehep.net/literature/3179986",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.09854",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://arxiv.org/abs/2607.09854v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3179986",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3179986"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

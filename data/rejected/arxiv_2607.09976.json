@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09976",
+    "arxiv_id": "2607.09976",
+    "arxiv_version": null,
+    "inspire_id": "3180075",
+    "doi": null,
+    "title_en": "GPU-Accelerated Host-Aware Dead-Measurement Detection in Hybrid Quantum--Classical Programs: Full Version",
+    "abstract_en": "Hybrid programs combine a quantum circuit with a classical host program that consumes measurement outcomes. In such programs, an outcome may be syntactically read by the host but semantically non-contributory: changing the outcome cannot change the returned value. Such outcomes obscure gates that are dead only relative to the host semantics, and are therefore invisible to circuit-local optimizers. We present a semantics-aware host-side static analysis that identifies non-contributory measurement outcomes by abstract interpretation, and prove its soundness. We implement the analysis and evaluate it on $24$ application-faithful hybrid workloads across quantum chemistry, optimization, quantum machine learning, and quantum finance. Compared with a syntactic liveness baseline, our analysis identifies more than $4\\times$ as many non-contributory measurements, and it standalone enables the removal of $37.98\\%$ of total gates on average. Even after the state-of-the-art optimizers like Qiskit, t|ket$\\rangle$, and PyZX have already optimized the circuits, our analysis still enables removal of more than $30\\%$ of the post-optimized gates, showing that the host-semantic opportunities exposed by our analysis are not subsumed by circuit-local optimization. To scale our analysis, we further lower host programs to an SSA-style levelized intermediate representation that exposes level-wise parallelism for GPU execution, and implement a CUDA backend. We prove that this lowering preserves the analysis result, and the evaluation shows speedups of up to $6.53\\times$ over a sequential baseline as structural parallelism increases.",
+    "authors": [
+      "Chen, Yanbin",
+      "Liu, Qunyou",
+      "Wang, Yu",
+      "Mendl, Christian B.",
+      "Seidl, Helmut"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-14T04:27:18.420605Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180075",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180075",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180075"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

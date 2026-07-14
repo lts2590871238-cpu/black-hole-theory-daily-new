@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10419",
+    "arxiv_id": "2607.10419",
+    "arxiv_version": 1,
+    "inspire_id": "3180101",
+    "doi": null,
+    "title_en": "Diffhalos: A Generative Model of Cosmological Lightcones of Dark Matter Halos",
+    "abstract_en": "We present a generative model of cosmological lightcones of dark matter halos, Diffhalos. In our model, we draw Monte Carlo samples of the halo mass function in a lightcone with a JAX-based implementation of the halo model, Halox, and we generate samples of subhalos by drawing from a model for the conditional subhalo mass function. We generate mass assembly histories (MAHs) using a normalizing flow trained on merger trees in cosmological N-body simulations. We show that Diffhalos can generate samples of halos, subhalos, and their MAHs with a statistical distribution that accurately approximates populations in simulated lightcones. As an example application, we use Diffhalos to calculate gradients of the halo and subhalo mass functions with respect to cosmological parameters. We conclude with a discussion of ongoing work using Diffhalos together with models of the galaxy--halo connection to make theoretical predictions for cosmological populations of galaxies, and to generate mock galaxy catalogs.",
+    "authors": [
+      "Georgios Zacharegkas",
+      "Andrew P. Hearin",
+      "Alan Pearl",
+      "Matthew R. Becker",
+      "Florian Kéruzoré",
+      "Sara Ortega-Martinez"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:28:43.705108Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.10419v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.10419v1",
+    "inspire_url": "https://inspirehep.net/literature/3180101",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.10419",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://arxiv.org/abs/2607.10419v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3180101",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180101"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

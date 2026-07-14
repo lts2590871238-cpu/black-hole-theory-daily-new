@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09893",
+    "arxiv_id": "2607.09893",
+    "arxiv_version": null,
+    "inspire_id": "3180057",
+    "doi": null,
+    "title_en": "An End-to-End Hybrid Quantum--Classical Sampling Workflow for Discrete Markov Random Fields: A Reproducible Case Study",
+    "abstract_en": "Sampling from discrete Markov random fields (MRFs) is a hard problem. We study amplitude-encoded i.i.d. sampling for small MRFs where $2^n$ target probabilities are precomputed classically. This removes quantum exponential speedup but allows a clean comparison against classical MCMC based on independent circuit samples ($τ\\approx 1$). Across 60 instances spanning five graph families (1k-step burn-in, 3k retained samples), the mean ESS ratios of Quantum to Single-Site Gibbs, Block Gibbs, Tuned-Block, and Parallel Tempering are $16.35$, $7.29$, $1.82$, and $1.79$, showing modern classical samplers substantially close this gap. Amortizing $O(2^n)$ preprocessing into wall-clock time, exact inverse-CDF sampling yields $17.7\\text{M}$ ESS/s versus $488\\text{K}$ ESS/s for the quantum sampler ($36\\times$ mean rate, $153\\times$ per-instance), confirming no wall-clock advantage. We characterize MCMC autocorrelation costs and benchmark amplitude-encoded state preparation at $n \\in \\{8,10,12\\}$. An MPS scaling study ($n \\le 40$) shows bond dimension $χ=32$ achieves $F=0.721\\pm0.059$ at $n=40$. Finally, a matched-budget VQC vs. MPS comparison at $n \\in \\{8,10,12\\}$ shows VQC fidelities fall far below MPS: $(F_{\\mathrm{VQC}}, F_{\\mathrm{MPS}}) = (0.31, 0.99), (0.21, 0.96), (0.17, 0.88)$ at compressions $10.7\\times$, $34.1\\times$, and $113.8\\times$.",
+    "authors": [
+      "Mazumder, Arul Rhik"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-14T04:25:57.640287Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180057",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180057",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180057"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

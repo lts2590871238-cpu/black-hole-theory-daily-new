@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.09882",
+    "arxiv_id": "2607.09882",
+    "arxiv_version": null,
+    "inspire_id": "3180069",
+    "doi": null,
+    "title_en": "Benchmarking Zero-Setup Quantum Circuit Simulators",
+    "abstract_en": "Practitioners increasingly rely on hosted simulation environments, but their performance characteristics remain poorly documented. We present a systematic benchmarking study of GPU-accelerated approximate quantum simulation across two widely used methods: matrix product states (MPS) and Pauli path simulation (PPS), comparing BlueQubit (a hosted tool that handles hardware provisioning, simulator configuration, and job orchestration) against AWS Braket, Quantum Rings, PPS-Qiskit, and PauliPropagation.jl. For MPS, we find that GPU runtime yields sub-quadratic scaling with bond dimension, with a growing advantage over CPU at increasing scale. For Pauli path simulation on IBM's 127-qubit kicked Ising benchmark, GPUs deliver up to $1{,}400\\times$ speedup at fine truncation thresholds ($δ= 2.5 \\times 10^{-5}$, 27.6M Pauli terms), and are the only backends that reach accuracy regimes below $δ= 10^{-5}$, which remained inaccessible to the commodity CPU-based implementations and self-contained SDKs evaluated here. We also provide a reproducible characterization of these simulators across regimes, including tradeoffs that isolated evaluations do not show. To support transparency and reuse, we provide a public GitHub repository containing all benchmarking code and configurations.",
+    "authors": [
+      "Mazumder, Arul Rhik",
+      "Mullath, Mohammed Zuhair",
+      "Tepanyan, Hayk"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-10T00:00:00Z",
+    "updated_at": "2026-07-14T04:26:42.874622Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180069",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180069",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180069"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10280",
+    "arxiv_id": "2607.10280",
+    "arxiv_version": null,
+    "inspire_id": "3180083",
+    "doi": null,
+    "title_en": "Scaling Adaptive Non-Local Observable Quantum Super-Resolution via Matrix Product States",
+    "abstract_en": "This work presents a matrix product state (MPS) simulation framework for adaptive non-local observable variational quantum circuits (ANO-VQCs) in image super-resolution (SR) beyond the practical limits of statevector simulation. Runtime benchmarks on a single NVIDIA RTX 4070 GPU show that, under the tested shallow-circuit setting, MPS completes ANO-VQC forward feature extraction for individual inputs up to 16 x 16 pixels (256 qubits), whereas statevector simulation encounters a memory bottleneck at 6 x 6 inputs (36 qubits) and exact tensor-network (Exact TN) contraction becomes computationally impractical beyond 12 x 12 inputs (144 qubits). For a fixed 7 x 7 input (49 qubits), a bond-dimension sweep over depths L = 1 to L = 4 shows that the required MPS bond dimension increases with circuit depth. Using Exact TN contraction as the reference, the bond dimension required for near-exact agreement increases from chi = 2 at L = 1 to chi = 16 at L = 4. Finally, 7 x 7 to 28 x 28 Fashion-MNIST SR training with chi = 16 shows that the shallow L = 1 model achieves the lowest loss and best LPIPS, PSNR, and SSIM among the tested depths. These results highlight MPS as a scalable and controllable simulation backend for ANO-VQC image SR and as a practical tool for studying large-scale quantum algorithms.",
+    "authors": [
+      "Yu, Shih-Lung",
+      "Ho, Ming-Kang",
+      "Li, Tai-Yue",
+      "Wu, Sheng Yun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:27:55.464577Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180083",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180083",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180083"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

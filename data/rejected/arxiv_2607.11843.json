@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11843",
+    "arxiv_id": "2607.11843",
+    "arxiv_version": null,
+    "inspire_id": "3180249",
+    "doi": null,
+    "title_en": "Input-Aware Dynamic Backdoor Attack Against Quantum Neural Networks",
+    "abstract_en": "Quantum Neural Networks (QNNs) are a promising framework for quantum machine learning on near-term quantum devices, but their security risks remain insufficiently understood. Studies have shown that QNNs are vulnerable to backdoor attacks, yet existing quantum backdoors mostly rely on a fixed trigger shared by all poisoned inputs. This fixed-trigger design is a major weakness because many defenses detect or weaken the repeated patterns such triggers leave in data representations. Although input-aware dynamic backdoors have been studied in classical neural networks, transferring them to QNNs is difficult because quantum learning introduces new obstacles. In particular, measurement compresses the post-ansatz quantum state into a limited classical output, weakening supervision for a trigger generator, while individual density matrices fluctuate with the input and make per-sample contrastive learning unstable. To address these challenges, we propose Q-DIBA, the first input-aware dynamic backdoor attack for QNNs. Q-DIBA jointly trains a classical trigger generator and a victim QNN through a three-mode mini-batch strategy that supports clean behavior, attack activation, and trigger specificity. To provide stable quantum-level supervision, Q-DIBA introduces an ensemble density contrastive loss that operates on post-ansatz quantum states before measurement and contrasts mode-averaged density matrices rather than individual samples. Experiments on MNIST and Fashion-MNIST across multiple QNN architectures show that Q-DIBA achieves high clean accuracy, strong attack success, and high cross-trigger accuracy, demonstrating effectiveness, stealthiness, and input specificity. The attack also remains resilient against defenses including visual inspection, spectral-signature detection, and fine-tuning, suggesting that input-aware quantum backdoors are an important threat to secure QNN deployment.",
+    "authors": [
+      "Zhang, Junrui",
+      "Chen, Zemin",
+      "Li, Lusi",
+      "Ghasemigol, Mohammad",
+      "Takabi, Daniel",
+      "Ning, Rui"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:37:18.058211Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180249",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180249",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180249"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

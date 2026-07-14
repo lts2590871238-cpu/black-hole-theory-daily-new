@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11216",
+    "arxiv_id": "2607.11216",
+    "arxiv_version": null,
+    "inspire_id": "3180193",
+    "doi": null,
+    "title_en": "Distributed Semantics for Distributed Quantum Computing",
+    "abstract_en": "We present a quantum process calculus that can split the system state along process boundaries and follow the evolution of each process in isolation, without losing information about the joint state-a property we call spatial compositionality. Compositionality is the key to reasoning about any complex system, yet quantum process calculi have struggled to provide its spatial kind, which would enable analyzing a system one process at a time. Many a quantum process calculi have been proposed, but they invariably rely on a global state representation based on state vectors or density matrices, with no known way to split them without losing information about entanglement. We propose to model quantum states with Deutsch-Hayden descriptors instead, which provide a modular representation of qubit states and their evolution. We adapt these descriptors to allow arbitrary splitting and merging of the store of qubits, leading to an unusual process calculus in which qubit transfer messages carry the actual state of the qubit, where existing calculi transfer only a reference. The calculus gives localized views of system state visible to each process, which can be assembled back together into the joint state. We define a notion of process equivalence with extensive justification grounded in physics and show a bisimulation whose soundness proof is simplified by spatial compositionality. The calculus can model open systems entangled with external processes, and we demonstrate this capability on a fragment of the BB84 key distribution protocol. This exercise shows that Deutsch-Hayden descriptors can successfully track qubit movements across process and system boundaries, though it needs help from density matrices to reason about information flow.",
+    "authors": [
+      "Inoue, Jun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-14T04:33:49.083362Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180193",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180193",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180193"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

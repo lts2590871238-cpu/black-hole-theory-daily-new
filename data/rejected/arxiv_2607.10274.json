@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.10274",
+    "arxiv_id": "2607.10274",
+    "arxiv_version": null,
+    "inspire_id": "3180100",
+    "doi": null,
+    "title_en": "Efficient Circuit Transpilation of Commuting Gates on 2D Grids",
+    "abstract_en": "Combinatorial optimization problems are central to many applications but can be challenging to solve. Quantum approaches such as the Quantum Approximate Optimization Algorithm (QAOA) offer new tools with which to tackle such problems. However, QAOA circuits inherit the interaction structure of the target Hamiltonian, often resulting in deep circuits when compiled onto hardware with limited connectivity. Efficient transpilation is therefore critical to their practical performance. In this work, we propose a transpilation scheme for circuits consisting of blocks of commuting two-qubit gates on two-dimensional lattices. Unlike standard approaches based on random initial mappings and fixed routing, our method alternates between constructing problem-dependent SWAP-layer sequences and updating the qubit layout. By adapting the routing to the required interactions, this yields significantly shorter circuits for graphs with few edges. We benchmark our approach on QAOA instances for Maximum Cut (MC) on Random Regular graphs and Maximum Independent Set (MIS) on Erdős-Rényi graphs. Compared to standard methods, we reduce circuit depth and gate count by about a factor of two, enabling experiments with up to $80$ qubits and improving approximation ratios by up to $6.6\\%$ for MC and $9.3\\%$ for MIS.",
+    "authors": [
+      "Drăgoi, Sabina",
+      "Egger, Daniel J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-14T04:28:34.566058Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180100",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180100",
+        "fetched_at": "2026-07-14T05:21:02.416340Z",
+        "url": "https://inspirehep.net/literature/3180100"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
