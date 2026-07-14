@@ -11,6 +11,8 @@ def test_static_build_outputs_and_html_escaping(tmp_path: Path, settings, topics
     papers = demo_papers()
     papers[0].decision.title_zh = "危险 <script>alert(1)</script> 标题"
     papers[0].paper.authors[0] = '<img src=x onerror="alert(1)">'
+    papers[0].paper.abstract_en += r" We compare $S=A/(4G)$ with \cite{Demo:2026}."
+    papers[0].decision.abstract_zh += r" 并比较 $S=A/(4G)$，参见 \cite{Demo:2026}。"
     output = build_site(
         Path(__file__).parents[1],
         papers,
@@ -33,6 +35,15 @@ def test_static_build_outputs_and_html_escaping(tmp_path: Path, settings, topics
     assert 'value="range"' in html
     assert 'id="date-from"' in html
     assert 'id="date-to"' in html
+    assert 'class="mathjax_ignore"' in html
+    assert 'class="mathjax_process"' in html
+    assert "mathjax@4.0.0/tex-svg.js" in html
+    assert "ui/safe" in html
+    assert r"$S=A/(4G)$" in html
+    assert r"\cite{Demo:2026}" in html
+    app_js = (output / "static" / "app.js").read_text(encoding="utf-8")
+    assert "citation-token" in app_js
+    assert "innerHTML" not in app_js
     for relative in ("archive/index.html", "methodology/index.html", "feed.xml", "papers.json"):
         assert (output / relative).exists()
 
