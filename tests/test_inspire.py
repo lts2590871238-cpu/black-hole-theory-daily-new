@@ -1,9 +1,16 @@
 from __future__ import annotations
 
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from typing import Any
 
-from theory_daily.fetch_inspire import InspireClient, parse_record
+import pytest
+
+from theory_daily.fetch_inspire import (
+    InspireClient,
+    extract_inspire_authors,
+    parse_inspire_date,
+    parse_record,
+)
 
 
 def _hit() -> dict[str, Any]:
@@ -59,6 +66,48 @@ def test_inspire_normal_parse() -> None:
     assert record.arxiv_id == "2607.00001"
     assert record.citation_count_without_self_citations == 3
     assert "Example, Alice" in record.authors
+
+
+@pytest.mark.parametrize(
+    ("raw", "expected"),
+    [
+        ("2026-07-15", date(2026, 7, 15)),
+        ("2026-12", date(2026, 12, 1)),
+        ("2026", date(2026, 1, 1)),
+        ("2026-07-15T00:10:56.111Z", date(2026, 7, 15)),
+        ("not-a-date", None),
+    ],
+)
+def test_parse_inspire_date(raw: str, expected: date | None) -> None:
+    assert parse_inspire_date(raw) == expected
+
+
+def test_extract_inspire_authors_falls_back_to_collaboration() -> None:
+    metadata = {
+        "authors": [],
+        "collaborations": [{"value": "NANOGrav Collaboration"}],
+    }
+    assert extract_inspire_authors(metadata) == ["NANOGrav Collaboration"]
+
+
+def test_parse_record_accepts_partial_date_and_collaboration() -> None:
+    hit = _hit()
+    hit["metadata"]["earliest_date"] = "2026-12"
+    hit["metadata"]["authors"] = []
+    hit["metadata"]["collaborations"] = [{"value": "LIGO Collaboration"}]
+
+    record = parse_record(hit)
+
+    assert record.earliest_date == date(2026, 12, 1)
+    assert record.authors == ["LIGO Collaboration"]
+
+
+def test_parse_record_rejects_missing_authors_and_collaborations() -> None:
+    hit = _hit()
+    hit["metadata"]["authors"] = []
+
+    with pytest.raises(ValueError, match="no authors or collaborations"):
+        parse_record(hit)
 
 
 def test_inspire_429_is_retried(settings) -> None:

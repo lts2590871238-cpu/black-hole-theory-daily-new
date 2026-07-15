@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 from collections.abc import Callable
 from datetime import UTC, date, datetime
@@ -10,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from dateutil.parser import isoparse
-from pydantic import HttpUrl
+from pydantic import HttpUrl, ValidationError
 from requests import Response, Session
 
 from theory_daily.config import Settings
@@ -20,6 +21,8 @@ from theory_daily.storage import write_json
 
 LOGGER = logging.getLogger(__name__)
 API_URL = "https://inspirehep.net/api/literature"
+_YEAR = re.compile(r"^\d{4}$")
+_YEAR_MONTH = re.compile(r"^\d{4}-\d{2}$")
 
 
 def _first(items: list[dict[str, Any]] | None, field: str) -> str | None:
@@ -29,27 +32,86 @@ def _first(items: list[dict[str, Any]] | None, field: str) -> str | None:
     return str(value) if value else None
 
 
+def parse_inspire_date(value: Any) -> date | None:
+    """Parse full and reduced-precision INSPIRE dates.
+
+    INSPIRE sometimes supplies only a year or a year and month. The first day
+    is used solely as a deterministic normalization value for those records.
+    """
+    if value is None:
+        return None
+    if isinstance(value, datetime):
+        return value.date()
+    if isinstance(value, date):
+        return value
+
+    text = str(value).strip()
+    if not text:
+        return None
+    if _YEAR.fullmatch(text):
+        return date(int(text), 1, 1)
+    if _YEAR_MONTH.fullmatch(text):
+        try:
+            return date.fromisoformat(f"{text}-01")
+        except ValueError:
+            return None
+    try:
+        parsed: datetime = isoparse(text)
+        return parsed.date()
+    except (TypeError, ValueError, OverflowError):
+        return None
+
+
+def extract_inspire_authors(metadata: dict[str, Any]) -> list[str]:
+    """Extract people, falling back to a named collaboration when needed."""
+    names: list[str] = []
+    for author in metadata.get("authors") or []:
+        if not isinstance(author, dict):
+            continue
+        value = author.get("full_name") or author.get("raw_name")
+        if value and (name := str(value).strip()):
+            names.append(name)
+
+    if not names:
+        for collaboration in metadata.get("collaborations") or []:
+            if not isinstance(collaboration, dict):
+                continue
+            value = collaboration.get("value") or collaboration.get("name")
+            if value and (name := str(value).strip()):
+                names.append(name)
+
+    return list(dict.fromkeys(names))
+
+
 def parse_record(hit: dict[str, Any]) -> RawInspireRecord:
-    metadata = hit.get("metadata", {})
+    metadata = hit.get("metadata") or {}
+    if not isinstance(metadata, dict):
+        raise ValueError("INSPIRE metadata is not an object")
+    record_id = str(hit.get("id") or metadata.get("control_number") or "")
     titles = metadata.get("titles") or []
     abstracts = metadata.get("abstracts") or []
     arxiv_eprints = metadata.get("arxiv_eprints") or []
     dois = metadata.get("dois") or []
-    authors = [
-        str(item.get("full_name")) for item in metadata.get("authors", []) if item.get("full_name")
-    ]
+    authors = extract_inspire_authors(metadata)
+    if not authors:
+        raise ValueError(
+            f"INSPIRE record {record_id or 'unknown'} has no authors or collaborations"
+        )
     publication_info = [
         ", ".join(str(value) for value in item.values() if value)
         for item in metadata.get("publication_info", [])
     ]
     documents = [str(item.get("url")) for item in metadata.get("documents", []) if item.get("url")]
-    created = str(metadata.get("earliest_date") or hit.get("created") or "")[:10]
+    earliest_date = parse_inspire_date(
+        metadata.get("earliest_date") or metadata.get("preprint_date") or hit.get("created")
+    )
+    if earliest_date is None:
+        raise ValueError(f"INSPIRE record {record_id or 'unknown'} has no usable date")
     updated_raw = hit.get("updated")
     links = hit.get("links") or {}
-    record_id = str(hit.get("id") or metadata.get("control_number") or "")
     return RawInspireRecord(
         inspire_id=record_id,
-        earliest_date=date.fromisoformat(created),
+        earliest_date=earliest_date,
         updated_at=isoparse(updated_raw).astimezone(UTC) if updated_raw else None,
         title=_first(titles, "title") or "",
         abstract=_first(abstracts, "value") or "",
@@ -113,7 +175,7 @@ class InspireClient:
                     "size": self.settings.pipeline.inspire_page_size,
                     "page": page,
                     "fields": (
-                        "titles,abstracts,authors,document_type,arxiv_eprints,dois,"
+                        "titles,abstracts,authors,collaborations,document_type,arxiv_eprints,dois,"
                         "citation_count,citation_count_without_self_citations,earliest_date,"
                         "publication_info,documents"
                     ),
@@ -128,8 +190,19 @@ class InspireClient:
             for hit in hits:
                 try:
                     record = parse_record(hit)
-                except (TypeError, ValueError) as exc:
-                    LOGGER.warning("Skipping malformed INSPIRE record: %s", exc)
+                except ValidationError as exc:
+                    LOGGER.warning(
+                        "Skipping invalid INSPIRE record id=%s: %s",
+                        hit.get("id", "unknown"),
+                        exc,
+                    )
+                    continue
+                except (KeyError, TypeError, ValueError) as exc:
+                    LOGGER.warning(
+                        "Skipping malformed INSPIRE record id=%s: %s",
+                        hit.get("id", "unknown"),
+                        exc,
+                    )
                     continue
                 if record.earliest_date < cutoff:
                     stop = True

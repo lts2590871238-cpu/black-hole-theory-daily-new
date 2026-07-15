@@ -8,6 +8,8 @@ import shutil
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
+from pydantic import ValidationError
+
 from theory_daily.config import (
     Settings,
     TopicsConfig,
@@ -95,7 +97,17 @@ def update(
             report.errors.append(message)
 
         normalized = [from_arxiv(item, started) for item in arxiv_records]
-        normalized.extend(from_inspire(item, started) for item in inspire_records)
+        for item in inspire_records:
+            try:
+                normalized.append(from_inspire(item, started))
+            except ValidationError as exc:
+                message = f"Skipping invalid INSPIRE record id={item.inspire_id}: {exc}"
+                LOGGER.warning(message)
+                report.errors.append(message)
+            except (TypeError, ValueError) as exc:
+                message = f"Skipping malformed INSPIRE record id={item.inspire_id}: {exc}"
+                LOGGER.warning(message)
+                report.errors.append(message)
         report.normalized = len(normalized)
         merged = deduplicate(normalized)
         report.deduplicated = len(merged)
