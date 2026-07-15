@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.24654",
+    "arxiv_id": "2604.24654",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "SWIM: Stochastic Warm Inflation Module to generate and analyse Warm Inflationary power spectrum",
+    "abstract_en": "Numerical analysis to determine the form of the scalar power spectrum in Warm Inflationary paradigm is inevitable. One further needs numerical techniques to analyse any Warm Inflation model with the current observational data through the MCMC codes that are available publicly, like COSMOMC or Cobaya. We present SWIM (Stochastic Warm Inflation Module) written in C++ and Python, that not only helps generate the Warm Inflationary scalar power spectrum, either semi-analytically or fully numerically, but also is integrated with Cobaya enabling the user to constrain the model parameters with current CMB data and thus to put any Warm Inflation model to test. SWIM numerically solves the standard stochastic perturbation equations of Warm Inflation without any approximations, uses machine learning techniques to speed up the MCMC analysis while analysing the fully numerical power spectrum that significantly reduces the computational cost, and is able to accommodate any Warm Inflation model with any form of inflationary potential and dissipative coefficient for numerical analysis. We show that SWIM, in most of the cases, outperforms other numerical codes on Warm Inflation that are designed to yield only the semi-analytical power spectrum as far as the runtimes are concerned. We further point out that there can be situations where the semi-analytical way of determining the scalar power spectrum in Warm Inflation can fall short, and one needs the full numerical power spectrum for parameter estimation given the observational data. In such cases, SWIM is the only code available so far that is designed to perform the task. Hence, SWIM offers a complete numerical platform for thorough analysis of Warm Inflation models against the current cosmological data. SWIM has been made publicly available at https://github.com/umg-kmr/SWIM.",
+    "authors": [
+      "Umang Kumar",
+      "Suratna Das"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-04-27T16:21:46Z",
+    "updated_at": "2026-07-14T06:10:07Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.24654v3",
+    "pdf_url": "https://arxiv.org/pdf/2604.24654v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.24654",
+        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "url": "https://arxiv.org/abs/2604.24654v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1109/tasc.2026.3689478",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3163966",
+    "doi": "10.1109/tasc.2026.3689478",
+    "title_en": "Toward a 3D Thermal-Electrodynamic Simulation of Non-Insulated ReBCO Coils: The H-FoSTER Model",
+    "abstract_en": "Accurately modeling the transient behavior of non-\ninsulated (NI) ReBCO superconducting coils is crucial for fully as-\nsessing their potential for high-field magnet applications. 3D Finite\nElement (FE) models are among the most promising approaches\nfor capturing the thermal-electrodynamics of these coils. However,\nmost popular mathematical formulations of Maxwell’s equations\nfor superconductors, such as the well-known H-φ formulation, are\ncurrently too computationally expensive to simulate large-scale\nsystems like accelerator magnets. To address this challenge, we\npresent a novel mathematical formulation that couples a 3D FE\nmagnetic model with a 1D FE + 2D Finite Difference (FD) electric\nmodel, implemented in COMSOL Multiphysics. The formulation\nhas been used to develop a model that simulates the electrodynamics\nof large ReBCO NI pancake coils. Although still under develop-\nment, the model has been validated against other models across\nvarious test cases, and preliminary results demonstrate its ability\nto efficiently capture critical phenomena such as persistent current\neffects while significantly reducing the computational time. In this\npaper, we describe the electrodynamic model and present selected\nresults benchmarked against more established approaches (e.g., the\nH-φ formulation). Work is currently ongoing to integrate thermal\nbehavior into the model.",
+    "authors": [
+      "Davide, Rinaldoni",
+      "Bernardo, Bordini"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-01T00:00:00Z",
+    "updated_at": "2026-06-09T07:09:02.494875Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "36, 4903007, 2026, {'$ref': 'https://inspirehep.net/api/journals/1213547'}, 5, IEEE Trans.Appl.Supercond."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3163966",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3163966",
+        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "url": "https://inspirehep.net/literature/3163966"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

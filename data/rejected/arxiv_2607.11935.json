@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11935",
+    "arxiv_id": "2607.11935",
+    "arxiv_version": null,
+    "inspire_id": "3180304",
+    "doi": null,
+    "title_en": "Eigenvector rotation precedes eigenvalue-based early-warning signals: a TVP-Kalman approach to detecting critical transitions",
+    "abstract_en": "Early-warning signals (EWS) for critical transitions are predominantly based on changes in the dominant eigenvalue of the system's Jacobian-rising variance and lag-1 autocorrelation (AR(1)). However, eigenvalue-based EWS have $O(delta theta^2)$ sensitivity to perturbations, limiting their lead time. We introduce a complementary EWS based on eigenvector rotation, measured by the time-varying elasticity $beta(t) = d log y / d log x$ estimated via a TVP-Kalman filter in log-log space. Since eigenvector sensitivity is $O(delta theta)$, $beta$ is predicted to precede eigenvalue-based signals. We test this hypothesis on 24 years of monthly NASA AIRS data (2002--2026, 284 observations) across three climatically distinct regions (Arctic 65-90N, Tropics 10S-10N, Indian Monsoon), using temperature ($T$) and specific humidity ($q$) as the coupled variables. $beta$ is orthogonal to AR(1) in all regions (Pearson $r approx 0$, n.s.), confirming the distinct information content. Systematic lead-lag analysis reveals that $beta$ precedes AR(1) by 14--24 months, consistent with the $O(delta theta) > O(delta theta^2)$ mechanism. Six simulated systems with known tipping points (Stommel AMOC model, fold bifurcation, logistic map, critical slowing down) further validate that $beta$ leads AR(1) by 39-153 timesteps when the transition involves coupling degradation. The dimensionless nature of $beta$ (scale-free log-log exponent) suggests it may serve as a universal, cross-system EWS, analogous to scaling exponents in critical phenomena.",
+    "authors": [
+      "Ngueuleweu, Gildas Tiwang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-15T04:17:08.448393Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180304",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180304",
+        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "url": "https://inspirehep.net/literature/3180304"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

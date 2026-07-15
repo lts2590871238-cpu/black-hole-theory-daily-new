@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2511.06623",
+    "arxiv_id": "2511.06623",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/sdpn-s42c",
+    "title_en": "Quantum algorithm for one-quasiparticle excitations in the thermodynamic limit via cluster-additive block diagonalization",
+    "abstract_en": "We propose a quantum algorithm for computing one-quasiparticle excitation energies in the thermodynamic limit by combining numerical linked-cluster expansions (NLCEs) and the variational quantum eigensolver (VQE). Our approach uses VQE to block-diagonalize the cluster Hamiltonian through a single-unitary transformation. This unitary is then postprocessed using the projective cluster-additive transformation (PCAT) to ensure cluster additivity, a key requirement for NLCE convergence. We benchmark our method on the transverse-field Ising model (TFIM) in one and two dimensions, and with longitudinal field, computing one-quasiparticle dispersions in the high-field polarized phase. We compare two cost function classes, trace minimization and variance based, demonstrating their effectiveness with the Hamiltonian variational ansatz (HVA). For pure TFIM, $\\lceil N/2 \\rceil$ layers of HVA suffice: NLCE+VQE matches exact diagonalization. For TFIM with longitudinal field, where parity symmetry breaks and PCAT becomes essential, both $\\lceil N/2 \\rceil$ and $N$ layers of HVA converge with increasing cluster size, with $N$ layers providing improved accuracy. Our results establish PCAT as a cluster-additive framework that extends variational quantum algorithms to excited-state calculations in the thermodynamic limit via NLCE. While demonstrated with VQE, the PCAT postprocessing approach, which requires only low-energy eigenspace information, applies to any quantum eigenstate preparation method.",
+    "authors": [
+      "Sumeet",
+      "M. Hörmann",
+      "K. P. Schmidt"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2025-11-10T02:02:07Z",
+    "updated_at": "2026-07-13T20:05:50Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. Research 8, 023358 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2511.06623v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.06623v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2511.06623",
+        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "url": "https://arxiv.org/abs/2511.06623v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

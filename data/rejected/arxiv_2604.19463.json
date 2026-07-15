@@ -5,7 +5,7 @@
     "arxiv_id": "2604.19463",
     "arxiv_version": 2,
     "inspire_id": null,
-    "doi": null,
+    "doi": "10.33232/001c.165025",
     "title_en": "On combining estimated and analytic covariance matrices",
     "abstract_en": "The statistical analysis of cosmological data often assumes a Gaussian sampling distribution and relies on covariance matrices estimated from simulations. In this setting, the likelihood function of the data is not Gaussian but is instead a multivariate Student-t distribution, arising from marginalisation over an inverse-Wishart distribution for the true covariance matrix. This framework, introduced by Sellentin & Heavens (2016) and extended by Percival et al. (2022), provides a principled drop-in replacement to the Gaussian likelihood with Hartlap correction (Hartlap et al. 2007). The latter removes bias in the precision matrix; it is still widely used, despite failing to reproduce the heavy tails of the true distribution (thus yielding inaccurate probabilities, especially in the case of tensions between datasets). In practice, cosmological analyses frequently involve additional Gaussian error contributions, for example from instrumental noise, foregrounds, super-sample covariance, or emulator uncertainties. The resulting likelihood function is a convolution of the Sellentin-Heavens or Percival likelihoods with an extra Gaussian contribution, and does not have a simple expression. In this note, we derive an accurate approximation for the combined likelihood function, another multivariate Student-t distribution which inherits the heavy tails. The parameters of the Student-t distribution are determined by matching the covariance and multivariate kurtosis to those of the true distribution. We also include a slightly more expensive but fast sampling algorithm, based on the mixture representation of the Student-t distribution, which avoids the approximation altogether, but is not the drop-in replacement for the normal Gaussian or Hartlap likelihood function that the Student-t approximation in this paper provides. (Abridged)",
     "authors": [
@@ -32,7 +32,7 @@
       {
         "source": "arxiv",
         "record_id": "2604.19463",
-        "fetched_at": "2026-07-14T06:07:18.107481Z",
+        "fetched_at": "2026-07-15T07:36:07.934609Z",
         "url": "https://arxiv.org/abs/2604.19463v2"
       }
     ],

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 28,
+    "methodological_rigor": 18,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 9
+  },
+  "total_score": 82,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文计算了克尔时空中Teukolsky方程推迟格林函数的高阶晚期拖尾，提供了引力微扰的详细渐近展开，包括对数修正。理论深度高，方法严谨，内容新颖，属于广义相对论基础领域。",
+  "title_zh": "克尔时空中的高阶引力晚期拖尾",
+  "abstract_zh": "我们计算了（次极值）克尔时空中线性场扰动的Teukolsky方程推迟格林函数的高阶晚期拖尾。我们为固定球谐函数 $\\ell$ 和方位角数 $m$ 计算了这些拖尾，对于场点，最多到前三个阶：在有限半径处（远离事件视界），对于大的Boyer-Lindquist时间 $t$；沿着未来事件视界 $\\mathscr{H}^+$，对于大的入射Eddington-Finkelstein坐标 $v$；以及沿着未来零无穷远 $\\mathscr{I}^+$，对于大的出射Eddington-Finkelstein坐标 $u$。我们得到了通用整数场自旋 $s$ 的拖尾幂次，以及专门针对引力（$s=-2$）扰动的拖尾系数。我们的渐近结果包括已知的领先幂律（通用）拖尾，分别为 $t^{-2\\ell-3}$、$e^{imΩ_H v}v^{-2\\ell-3-b}$（其中对于 $s>0, m=0$ 有 $b=1$，否则 $b=0$，$Ω_H$ 是事件视界的角速度）和 $u^{-\\ell+s-2}$，以及它们的高阶对数修正：$t^{-2\\ell-5}\\ln t$、$e^{imΩ_H v}v^{-2\\ell-5-b}\\ln v$ 和 $u^{-\\ell+s-3}\\ln u$（以及 $u^{-\\ell+s-4}\\ln^2 u$）。由于我们获得了通用 $\\ell$ 和 $m$ 模式的高阶展开，我们可以直接推断出 $s=-2$ 的完整推迟格林函数的显式展开（以及通用整数 $s$ 的衰减幂次）。我们从频域中推迟格林函数的傅里叶模式的小频率展开中获得了晚期渐近结果。相应地，我们还提供了散射理论中各种感兴趣量的小频率展开。我们还附带了两个笔记本，它们提供了特定 $s$ 值的展开：一个笔记本提供了通用 $\\ell$ 的前三个领先阶展开，另一个提供了特定 $\\ell$ 值的任意阶展开。",
+  "keywords_en": [
+    "late-time tails",
+    "Kerr spacetime",
+    "Teukolsky equation",
+    "gravitational perturbations",
+    "Green function"
+  ],
+  "keywords_zh": [
+    "晚期拖尾",
+    "克尔时空",
+    "Teukolsky方程",
+    "引力扰动",
+    "格林函数"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-15T07:37:36.418531Z"
+}
