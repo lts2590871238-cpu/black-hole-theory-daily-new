@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.12587",
     "arxiv_id": "2607.12587",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3180565",
     "doi": null,
     "title_en": "Lattice Configuration Generation with a Self-Learning Diffusion Model",
     "abstract_en": "We show that a diffusion sampler for lattice-field configurations can be trained without preparing training data by an external Monte Carlo calculation. Starting from exactly sampled configurations at $β=0$, we construct a self-bootstrap sampler, SLDiffusion, in which periodic Gaussian proposals with a fixed learned score are Metropolis--Hastings corrected, at each $β$, against the same physical target at every noise level, and only replay configurations from the resulting chain are used to train the score at the next stage. In the two-dimensional compact XY model, self-training proceeds from $β=0.30$ to $0.50$ at $L=4$. At $β=0.5$, the energy and vortex densities for $L=4,6,8,12$ agree with independent Hybrid Monte Carlo calculations within $1.35σ$. Volume-native retraining at $L=8$ and $12$ improves both the proposal displacement and autocorrelation. The integrated autocorrelation times of the energy and vortex densities remain below two for all volumes studied. These results demonstrate that a Metropolis-corrected diffusion sampler can be self-trained without configurations drawn in advance from the target coupling.",
@@ -15,23 +15,31 @@
       "hep-lat",
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-07-14T09:58:51Z",
-    "updated_at": "2026-07-14T09:58:51Z",
-    "document_types": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T13:04:27.311257Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2607.12587v1",
     "pdf_url": "https://arxiv.org/pdf/2607.12587v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180565",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.12587",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
         "url": "https://arxiv.org/abs/2607.12587v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3180565",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180565"
       }
     ],
     "is_demo": false

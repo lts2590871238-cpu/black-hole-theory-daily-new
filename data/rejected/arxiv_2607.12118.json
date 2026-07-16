@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12118",
+    "arxiv_id": "2607.12118",
+    "arxiv_version": null,
+    "inspire_id": "3180564",
+    "doi": null,
+    "title_en": "Error correction on an array of superconducting qubits with defective components",
+    "abstract_en": "A solid-state quantum-computing architecture will require the fabrication of arrays of many coupled qubits. It is inevitable that this process will produce qubits and couplers with varying performance, with some components underperforming due to imperfect fabrication. Quantum error-correction requires high-performing components and hence these defects must be dealt with, either by adapting the code to exclude the defects, or by informing the decoder to accommodate defects in post-processing. Here we implement and compare strategies to operate distance-5 surface codes on a quantum processor consisting of a square-lattice array of 120 superconducting qubits. We demonstrate a dramatic reduction in the probability of a logical error in a memory experiment by excluding underperforming components, compared with both a standard approach of ignoring defects, and a defect-aware decoding approach. We observe up to 2.8X improvement in logical errors per round when excluding defects compared with the standard defect-ignorant approach (1.62% compared to 4.49%). In contrast, defect-aware decoding gives only modest gains. Defects are also expected to be particularly harmful for measurement-based logical operations. Using a stability experiment we show that excluding defects resurrects measurement-based logic gate performance, observing a 6.3% per-round suppression of failure rate when excluding defects, compared to zero suppression otherwise. Furthermore, we show a further substantial decrease in logical errors when using leakage post-selection in combination with our defect exclusion strategies, resulting in a distance-5 code outperforming the best distance-3 in one basis. Our experiments therefore give a proof-of-principle demonstration of the essential utility of defect exclusion methods in the scale-up of solid-state quantum computing approaches.",
+    "authors": [
+      "Drouet, Julien M.",
+      "Kolesnikow, Xanda C.",
+      "McLauchlan, Campbell K.",
+      "Nixon, Georgia M.",
+      "Lee, Seok-Hyung",
+      "Williamson, Dominic J.",
+      "Bartlett, Stephen D.",
+      "Brown, Benjamin J.",
+      "Harper, Robin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-13T00:00:00Z",
+    "updated_at": "2026-07-15T14:59:37.272806Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180564",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180564",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180564"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

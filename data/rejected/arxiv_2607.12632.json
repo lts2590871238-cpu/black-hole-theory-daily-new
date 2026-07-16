@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12632",
+    "arxiv_id": "2607.12632",
+    "arxiv_version": null,
+    "inspire_id": "3180407",
+    "doi": null,
+    "title_en": "Exploiting the latent space of deep AutoEncoders for the identification of signal pulses in noisy time-series",
+    "abstract_en": "We propose a data-driven procedure, based on convolutional variational autoencoders, to identify the presence of signal pulses in long time-series. The dataset consists of synthetic waveforms, each composed of non-gaussian noise and a log-normal shaped signal of variable intensity, with a length of 10,000 samples. The model heavily compresses the input waveforms, allowing a direct study of such a reduced representation. After training for 150 epochs on 7,500 waveforms, a region in the latent space where the network encodes time-series presenting only background noise emerges, allowing in turn to tag as candidates for containing a signal those falling outside. When applied on a test dataset of freshly generated waveforms, 100% of the events with a large pulses are correctly labelled, and this fraction only decreases for signal amplitudes comparable with accidental noise pulses. This approach was designed to fully exploit the measurements in dual-phase Liquid Argon Time Projection Chambers, as the one of the Recoil Directionality experiment, built in the context of the Darkside project. The goal is the identification of delayed electroluminescence signals, produced by low energy (~ a few keV) nuclear recoils, with a sensitivity at least comparable to the conventional reconstructions.",
+    "authors": [
+      "Anastasi, Gioacchino Alex",
+      "Albergo, Sebastiano Francesco",
+      "De Napoli, Marzio",
+      "Pino, Noemi",
+      "Puglia, Sebastiana Maria",
+      "Tricomi, Alessia Rita"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T15:01:33.183874Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180407",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180407",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180407"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

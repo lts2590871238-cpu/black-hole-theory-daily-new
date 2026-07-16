@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12821",
+    "arxiv_id": "2607.12821",
+    "arxiv_version": null,
+    "inspire_id": "3180494",
+    "doi": null,
+    "title_en": "A Quantum Computing Approach to Track Reconstruction in Strip-Type Detectors",
+    "abstract_en": "This study investigates the use of quantum annealing for particle track reconstruction in strip-type gaseous detectors. In such detectors, ghost hits and multiple hit combinations can turn pattern recognition into a combinatorial optimization problem. We formulate two reconstruction subproblems as quadratic unconstrained binary optimization problems. The first subproblem selects detector hits associated with a single photon track inside a localized candidate region. The second subproblem selects cluster triplets from different detector layers so that multiple track candidates can be handled within a single quantum processing unit(QPU) submission. The proposed formulations are tested using simulated DAMSA detector events. For the single track hit selection task, the QPU based reconstruction gives position and angular resolutions close to those obtained with a Kalman based reconstruction. In the simultaneous association task, valid cluster triplets are first extracted from the QPU samples and then connected using an association rule based on graph connectivity to construct track candidates. The DAMSA event topology studied here has low pileup and is dominated by the two photon signal from axion-like particle(ALP) decay. In this setting, the results show that the QUBO formulations can reproduce local reconstruction decisions. This provides a practical basis for further studies of reconstruction methods that combine quantum and classical computing in more complex tracking environments.",
+    "authors": [
+      "Jwa, Seungyeob",
+      "Kim, Hyunyong",
+      "Kim, Jangho",
+      "Oh, Minseok"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T14:59:22.630474Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180494",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180494",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180494"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

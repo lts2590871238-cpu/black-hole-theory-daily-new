@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12225",
+    "arxiv_id": "2607.12225",
+    "arxiv_version": null,
+    "inspire_id": "3180551",
+    "doi": null,
+    "title_en": "Constant-Depth Multi-Product Formula for Trotter Error Mitigation in Near-Term Digital Quantum Simulation",
+    "abstract_en": "Digital quantum simulation of many-body dynamics faces a tension between algorithmic Trotter error and physical noise that accumulates with circuit depth. Typical higher-order product formulas mitigate the algorithmic error at the cost of deeper circuits. Our benchmark shows that, within the limited physical error budget, the feasible advantage is confined to absolute errors well below the $10^{-2}$ scale, which vanishes under noise levels of current quantum hardware. In sharp contrast to the previous Trotter error mitigation methods, we introduce a constant-depth multi-product formula (cd-MPF) that suppresses the Trotter error by combining multiple circuits at fixed circuit depth. We identify an auxiliary parameter $α$, which reshapes the Trotter error terms while leaving the target evolution invariant. The classical linear combination of the measured expectation values cancels the leading $(Δt)^{2}$ algorithmic contribution and steepens the Trotter-error scaling with the two-qubit circuit depth $d$ from $d^{-2}$ to $d^{-4}$. Combined with physical-noise mitigation, our method can serve as a key ingredient for realizing long-time quantum dynamics simulation on near-term hardware.",
+    "authors": [
+      "Bark, Chan Bin",
+      "Lee, Sangjin",
+      "Ahn, Kwang Jun",
+      "Cheon, Sangmo",
+      "Park, Moon Jip",
+      "Kim, Youngseok"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T14:59:15.140317Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180551",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180551",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180551"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

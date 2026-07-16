@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12996",
+    "arxiv_id": "2607.12996",
+    "arxiv_version": null,
+    "inspire_id": "3180345",
+    "doi": null,
+    "title_en": "Expressibility and trainability of a two-dimensional pairwise quantum-circuit ansatz",
+    "abstract_en": "Parameterized quantum circuits~(PQCs) constitute a central building block of variational quantum algorithms~(VQAs) and quantum machine learning~(QML) methods. Existing ansatz designs often adopt hardware-agnostic or simplified 1D chain/ring entanglement patterns. However, as quantum hardware continues to develop, native 2D connectivity patterns, such as planar superconducting-qubit architectures, are becoming increasingly important. Inspired by this hardware structure, we construct a native 2D pairwise ansatz and compare its expressibility and trainability with representative 1D ansatze at identical layer depths, despite their different circuit depths. For the fixed 16-qubit system, the 2D ansatz has the smallest KL divergence at $L=1$ and $2$, and its second-order frame potential approaches the theoretical lower bound more rapidly at shallow layer counts than the frame potentials of the three 1D ansatze. We also evaluate the gradient variance of the Pauli-$Z$-string expectation value $\\langle Z_0\\otimes\\cdots\\otimes Z_{15}\\rangle$ with respect to the first $R_y$ angle. For this Pauli-$Z$ string and fixed parameter, the gradient variance is smaller for the 2D circuit at $L=1$--$4$. The differences narrow at $L=5$, and the four ansatze yield statistically compatible variances at $L=6$.",
+    "authors": [
+      "Zhang, Shuai",
+      "Liu, Wei",
+      "Yang, Ji-Chong"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T14:59:22.392053Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180345",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180345",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180345"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.08044",
     "arxiv_id": "2607.08044",
     "arxiv_version": 1,
-    "inspire_id": "3178942",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Catching Disguised Transients with ASTRANet: Anomaly-Aware Spectroscopic Classification and Conformal Calibration",
     "abstract_en": "Time-domain surveys discover thousands of transients per year, but the spectroscopic identification of rare and physically peculiar objects remains rate-limited by closed-set classifiers that confidently assign every input to a known class -- including spectra that genuinely belong to no known class. We present the \\texttt{ASTRANet} framework, a confidence-aware infrastructure for spectroscopic transient classification built around three coupled modules: a hierarchical spectral classifier that operates directly on observer-frame spectra without requiring host-galaxy redshift or spectral phase as inputs; an anomaly detection layer (\\texttt{ASTRANet-Sentinel}) that non-linearly combines $16$ embedding-space anomaly scores spanning four physically motivated families; and a conformal uncertainty quantification layer (\\texttt{ASTRANet-CP}). We validate the framework on a held-out evaluation set of $289$ rare and out-of-taxonomy transients spanning $11$ classes deliberately excluded from training, chosen to span the full physical diversity of the rare-anomaly population: AGN-related outliers, GRB-related events, gap transients, novae, and peculiar supernovae. Through five astrophysically distinct failure modes of closed-set classifiers, we show that classifier-internal uncertainty and embedding-based anomaly detection are structurally complementary axes of confidence rather than alternative implementations of the same estimator. We further introduce AD-stratified Mondrian conformal prediction (AD-MCP) within \\texttt{ASTRANet-CP}, achieving uniform conditional coverage across anomaly-score strata where vanilla Mondrian under-covers in the operational regime. This establishes the methodological infrastructure for confidence-aware spectroscopic discovery in the Vera C.\\ Rubin Observatory era.",
@@ -38,31 +38,23 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-07-09T00:00:00Z",
-    "updated_at": "2026-07-11T04:18:19.652112Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-09T01:40:10Z",
+    "updated_at": "2026-07-09T01:40:10Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.08044v1",
     "pdf_url": "https://arxiv.org/pdf/2607.08044v1",
-    "inspire_url": "https://inspirehep.net/literature/3178942",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.08044",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
         "url": "https://arxiv.org/abs/2607.08044v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3178942",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
-        "url": "https://inspirehep.net/literature/3178942"
       }
     ],
     "is_demo": false

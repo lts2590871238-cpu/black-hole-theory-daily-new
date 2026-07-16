@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.08743",
     "arxiv_id": "2607.08743",
     "arxiv_version": 1,
-    "inspire_id": "3178892",
+    "inspire_id": null,
     "doi": null,
     "title_en": "SACRA-K: A Performance-Portable Numerical Relativity Code with Kokkos",
     "abstract_en": "We present SACRA-K (SimulAtor for Compact objects in Relativistic Astrophysics with Kokkos), a performance-portable numerical relativity code ported from the Fortran code SACRA-MPI to C++ with the Kokkos library. SACRA-K retains the physics and numerical methods of SACRA-MPI, namely a Baumgarte-Shapiro-Shibata-Nakamura (BSSN) spacetime evolution with Z4c constraint propagation and a box-in-box Berger-Oliger adaptive mesh refinement, together with the high resolution shock capturing scheme for the general relativistic hydrodynamics from NANASI, while gaining cross vendor portability. We validate the port against SACRA-MPI across binary black hole, black hole neutron star, and binary neutron star configurations. Across these tests, the waveform discrepancies are well below both the scatter among independent numerical relativity codes and the resolution dependent variation within a given code, and remain at or below the distinguishability threshold of current gravitational-wave detectors; the $π$ symmetry is preserved exactly at the bitwise level; and the gravitational wave phase of the binary neutron star merger exhibits second order convergence. In the smallest test configuration, SACRA-K runs about an order of magnitude faster on the NVIDIA A100 GPU cluster or the AMD MI300A APU cluster than the Fortran SACRA-MPI on the CPU cluster, and we measure its scaling up to 256 accelerator devices.",
@@ -18,31 +18,23 @@
       "astro-ph.IM",
       "gr-qc"
     ],
-    "submitted_at": "2026-07-09T00:00:00Z",
-    "updated_at": "2026-07-11T04:15:37.835548Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-09T17:45:25Z",
+    "updated_at": "2026-07-09T17:45:25Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 1,
-    "citation_count_without_self_citations": 1,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.08743v1",
     "pdf_url": "https://arxiv.org/pdf/2607.08743v1",
-    "inspire_url": "https://inspirehep.net/literature/3178892",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.08743",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
         "url": "https://arxiv.org/abs/2607.08743v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3178892",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
-        "url": "https://inspirehep.net/literature/3178892"
       }
     ],
     "is_demo": false

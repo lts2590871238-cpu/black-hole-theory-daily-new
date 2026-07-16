@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11936",
+    "arxiv_id": "2607.11936",
+    "arxiv_version": null,
+    "inspire_id": "3180653",
+    "doi": null,
+    "title_en": "Qubit-Efficient Quantum Search for Hyperdimensional Decomposition via Logarithmic Encoding",
+    "abstract_en": "Hyperdimensional Computing (HDC) represents symbols using high-dimensional hypervectors of dimension $D$. In hypervector decomposition, the objective is to recover $F$ constituent hypervectors, each drawn from a codebook of size $N$, from a bound target hypervector. This requires searching over $N^F$ candidate tuples, making the task computationally prohibitive at scale. Recent quantum approach provides a quadratic search advantage, but typically rely on qubit-inefficient $O(D)$-qubit hypervector representations. We propose a qubit-efficient quantum framework for HDC decomposition that reduces the representation cost to $O(\\log D)$. The framework introduces logarithmic hypervector and binding encodings, together with a reversible hypervector lookup operator for circuit-level manipulation of dense hypervectors. Combined with a modified Dürr-Høyer search procedure, the method preserves $O(\\sqrt{N^F})$ search complexity while substantially reducing qubit usage. Experimental results validate correct similarity computation, accurate decomposition in executable regimes, and significantly improved qubit scaling over baselines based on explicit $D$-qubit hypervector encodings, achieving up to $2{,}000\\times$ fewer qubits.",
+    "authors": [
+      "Yun, Sanggeon",
+      "Oh, Hyunwoo",
+      "Masukawa, Ryozo",
+      "Hassan, Raheeb",
+      "Imani, Mohsen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-11T00:00:00Z",
+    "updated_at": "2026-07-15T16:35:15.092998Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180653",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180653",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180653"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

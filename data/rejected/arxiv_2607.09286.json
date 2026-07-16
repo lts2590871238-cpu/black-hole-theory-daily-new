@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.09286",
     "arxiv_id": "2607.09286",
     "arxiv_version": 1,
-    "inspire_id": "3179137",
+    "inspire_id": null,
     "doi": "10.1016/j.astropartphys.2026.103277",
     "title_en": "Enhancing the Cherenkov Telescope Array Observatory high-level performance through an event-type-based analysis",
     "abstract_en": "The analysis traditionally employed by Imaging Atmospheric Cherenkov Telescopes involves optimizing quality cuts to select a sub-sample of high-quality events. These events are used for the scientific interpretation of the data, employing a single set of Instrument Response Functions (IRFs). All selected events are treated equally and assumed to be well represented by these IRFs, while the rest are discarded. An alternative approach, successfully applied in experiments such as Fermi-LAT, is an event-type-based analysis. This method divides datasets into subsamples, each containing events of a given expected reconstruction quality. IRFs are computed for each subsample independently, improving the accuracy with which IRFs represent the reconstruction quality of each event. The high-level analysis of these subsamples is performed treating them as independent observations, each with their own set of IRFs, and analyzed jointly. In this work we present a proof-of-concept implementation of an event-type-based analysis for the future CTAO using simulated data. A neural network (specifically a multi-layer perceptron) is trained to predict the direction reconstruction error of each event, and the simulated dataset is divided into event types based on this predicted variable. We compute IRFs for each event type and compare them with those from the standard analysis (without event types). Finally, we simulate observations using these event-type-wise IRFs and analyze them with high-level analysis tools to test the performance of both approaches. This implementation demonstrates notable improvements: 25% to 50% boost in spatial resolving power and ~25% in sensitivity. This boost in performance will have strong implications in the scientific exploitation of the CTAO data, especially in crowded regions such as the Galactic Plane or searching for spectral signatures like Dark Matter annihilation lines.",
@@ -21,33 +21,23 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-07-09T00:00:00Z",
-    "updated_at": "2026-07-14T04:15:06.672873Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-10T10:54:41Z",
+    "updated_at": "2026-07-10T10:54:41Z",
+    "document_types": [],
     "journal_ref": "Astroparticle Physics, Volume 182, 2026, page 103227",
-    "publication_info": [
-      "182, 103277, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214446'}, Astropart.Phys."
-    ],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.09286v1",
     "pdf_url": "https://arxiv.org/pdf/2607.09286v1",
-    "inspire_url": "https://inspirehep.net/literature/3179137",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.09286",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
         "url": "https://arxiv.org/abs/2607.09286v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3179137",
-        "fetched_at": "2026-07-15T07:36:07.934609Z",
-        "url": "https://inspirehep.net/literature/3179137"
       }
     ],
     "is_demo": false

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12802",
+    "arxiv_id": "2607.12802",
+    "arxiv_version": null,
+    "inspire_id": "3180390",
+    "doi": null,
+    "title_en": "A Variational Surrogate Approach to Finite-Horizon Quantum Control via Hardware-Efficient Ansatz",
+    "abstract_en": "We present a variational quantum framework for finite-horizon quantum control based on hardware-efficient ansätze. The objective is to steer a quantum system from a given initial state to a desired target state over a fixed time horizon by minimizing a terminal cost defined in terms of state fidelity. Instead of explicitly synthesizing time-dependent control fields or enforcing Hamiltonian reachability constraints, the proposed method reformulates the control objective as a variational optimization problem in which a hardware-efficient parameterized quantum circuit provides a surrogate parameterization of the terminal evolution. The circuit consists of alternating layers of single-qubit rotations and entangling gates, whose parameters are optimized using classical routines to minimize the terminal infidelity. This formulation avoids reliance on problem-specific or physics-inspired ansätze, providing a flexible and implementation-friendly approach compatible with near-term quantum devices. Numerical experiments on multi-qubit state-transfer benchmarks demonstrate high-fidelity state transfer while highlighting the trade-off between ansatz expressivity, optimization complexity, and scalability with respect to system size and circuit depth.",
+    "authors": [
+      "Dehaghani, Nahid Binandeh",
+      "Wisniewski, Rafal",
+      "Aguiar, A. Pedro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T14:59:35.139316Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180390",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180390",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180390"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

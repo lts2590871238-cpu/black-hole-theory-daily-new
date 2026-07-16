@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.12688",
+    "arxiv_id": "2607.12688",
+    "arxiv_version": null,
+    "inspire_id": "3180401",
+    "doi": null,
+    "title_en": "Quantum PDE Solvers in Practice: Application-Driven Benchmarking of the Heat Equation",
+    "abstract_en": "Quantum PDE solvers are difficult to evaluate in practice because published studies use different discretizations, output models, reconstruction rules, and hardware assumptions. We present a reproducible, application-driven benchmark for the 1-D Dirichlet heat equation that compares eleven kernels under the same problem instances and readout contract. The benchmark covers coherent linear solvers (HHL, QSVT, and QLS-Fourier), VQLS, imaginary-time methods (QITE, var-QITE, and AVQDS), real-time Hamiltonian simulation and unitary dilations (Hamiltonian simulation, Schade-Hamiltonian, and Schr\"odingerisation), and the spectral quantum simulation method (QSM). We use three initial conditions, four grid sizes from $n=4$ to $7$ qubits ($N=16$ to $128$), a CFL-like ratio $r\\approx0.4$, and final time $T=1$. Statevector, ideal-shot ($10^5$ shots per step), and noisy Aer backends separate algorithmic, sampling, and device-noise errors. On statevector, QSM and Schade-Hamiltonian reproduce the semi-discrete reference to floating-point precision, Schr\"odingerisation reaches approximately $10^{-4}$ error, and QITE is the strongest non-transform method for smooth data. Under the fixed-shot setting, HHL degrades to approximately $0.79$ relative $\\ell_2$ error, while several low-depth or postselected methods become readout-limited. A norm-mismatch ablation attributes 23--29% of the $n=7$ smooth-initial-condition error of Hamiltonian simulation, AVQDS, and QLS-Fourier to reconstruction normalization. Compact observables, including total thermal energy and individual Fourier-mode weights, require 1--3 orders of magnitude fewer shots than full-field reconstruction. The resulting public benchmark provides a practical guide for selecting quantum PDE solvers.",
+    "authors": [
+      "Elkarargy, Mahmoud",
+      "Rahwan, Abdelaziz",
+      "Elsayed, Abdelrahman",
+      "Hatem, Forat"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-15T14:59:35.848930Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180401",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180401",
+        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "url": "https://inspirehep.net/literature/3180401"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
