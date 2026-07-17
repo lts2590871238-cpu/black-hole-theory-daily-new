@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13630",
+    "arxiv_id": "2607.13630",
+    "arxiv_version": null,
+    "inspire_id": "3180728",
+    "doi": null,
+    "title_en": "Separating Geometry From Interference in Constrained Quantum Optimization",
+    "abstract_en": "We study the separation of geometric effects from quantum interference in quantum optimization algorithms. Constrained optimization problems such as routing, assignment, and scheduling are often encoded as product spaces of local variables, together with global feasibility penalties. The central algorithmic question we address is how a constraint-preserving mixing operator transports quantum amplitude across an exponential search space in the presence of local and global constraints. We develop a framework that separates three effects that are usually intermixed: amplitude transport, coherent interference among transported amplitudes, and problem-dependent classical postprocessing. We show that the mixing operator alone does not have a target-seeking ability. Concretely, the normalized distribution induced by its amplitude transport moves toward the distance profile of a uniformly random configuration. Thus, quantum sampling advantage may only arise when the phases of the many computational paths reaching a target configuration are sufficiently aligned for their amplitudes to reinforce. We show that, when the cost phases are engineered so that these paths add coherently, a number of circuit alternations growing only logarithmically with problem size suffices to convert the sum of their absolute contributions into a lower bound on the target amplitude, yielding a certified success probability independent of the ambient Hilbert-space dimension, the search-space size, or the feasible-set cardinality. We develop applications to problem-specific transpilation diagnostics, scalable hardware probes, constraint-induced classical maps of quantum-generated samples, the attribution of solution quality between the quantum distribution and classical post-processing in hybrid quantum-classical workflows and connections to distance-partitioned product spaces from classical coding theory.",
+    "authors": [
+      "Onah, Chinonso",
+      "Hadfield, Stuart",
+      "Michielsen, Kristel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:33:28.788401Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180728",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180728",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180728"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

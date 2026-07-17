@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13105",
+    "arxiv_id": "2607.13105",
+    "arxiv_version": null,
+    "inspire_id": "3180791",
+    "doi": null,
+    "title_en": "Clifford-Only Quantum Reed-Solomon Codes and a Tornado Concatenation for Biased-Noise Cat Qubits",
+    "abstract_en": "Dissipative cat qubits exponentially suppress one Pauli error channel with the mean photon number, leaving the conjugate bit-flip error as the dominant failure mode. This strong noise bias makes the full machinery of general quantum error correction unnecessary: a code need only protect against a single error type, and any classical linear code can be promoted to a Clifford stabilizer code that does exactly this. We use this observation to build a Clifford-only quantum Reed-Solomon (RS) code. Starting from the [7,3,5] RS code over $GF(2^{3})$ which is maximum distance separable, we expand each field symbol into three bits to obtain the [21,9,6] linear code over $GF(2)$, realized as a [[21,9, $d_{X}=6$, $d_{Z}=1$]] bit-flip code whose stabilizers are products of Z operators. Because no phase-flip correction is attempted, the construction avoids the non-Clifford quantum Fourier transform required by the Grassl-Beth quantum RS codes and is fully simulable in Stim. Errors are decoded by a lookup table of minimum-weight corrections. We then introduce a Tornado architecture: a two-layer concatenation that wraps every position of the outer RS code in an inner distance-three repetition code, yielding a [[63, 9, 18]] code decoded in two stages, a majority vote within each repetition block followed by the outer lookup table. Monte Carlo simulations show that at a physical bit-flip rate $p=0.1$ the Tornado code reaches a logical error rate $p_{L}\\approx5.3\\times10^{-3}$, below both parent codes, and that its logical error rate scales as $p_{L}\\propto p^{6}$ at low p, in contrast to $p^{2}$ for the repetition code and $p^{3}$ for the standalone RS code. We give the exact construction, the error and circuit model, an asymptotic scaling analysis, and an account of the overhead cost and of the assumptions behind the noise model.",
+    "authors": [
+      "Ho, Cheng-You",
+      "Luo, Justin",
+      "Ng, Henry",
+      "Shi, Simba",
+      "Wang, Daniel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-14T00:00:00Z",
+    "updated_at": "2026-07-16T14:26:03.296514Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180791",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180791",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180791"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

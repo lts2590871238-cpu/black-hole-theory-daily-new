@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13476",
+    "arxiv_id": "2607.13476",
+    "arxiv_version": null,
+    "inspire_id": "3180727",
+    "doi": null,
+    "title_en": "Quantum memory advantage for quantum process tomography",
+    "abstract_en": "Quantum process tomography, the task of learning an unknown quantum channel from black-box access, is a central problem in quantum information. In this setting, protocols with quantum memory can coherently store and jointly process quantum information obtained from multiple channel uses, whereas protocols without quantum memory must measure after each use and retain only a classical transcript of the measurement outcomes. A fundamental open question is whether quantum memory provides a query-complexity advantage even when protocols without quantum memory may adapt their experiments based on all previous outcomes with unbounded classical computational power. In this work, we show that it does. We determine the optimal query complexity of quantum process tomography without quantum memory up to a constant factor to be $Θ(d_{\\mathrm{in}}^3 d_{\\mathrm{out}}^3/\\varepsilon^2)$, where $d_{\\mathrm{in}}$ and $d_{\\mathrm{out}}$ are the channel input and output dimensions, respectively, and $\\varepsilon$ is the target diamond-norm accuracy. More precisely, we prove that any incoherent protocol for this task, including adaptive protocols, requires $Ω(d_{\\mathrm{in}}^3 d_{\\mathrm{out}}^3/\\varepsilon^2)$ queries, even when each channel use may be assisted by arbitrary fresh ancilla, and we present a non-adaptive, ancilla-free incoherent protocol achieving the matching upper bound $O(d_{\\mathrm{in}}^3 d_{\\mathrm{out}}^3/\\varepsilon^2)$. Our results thereby generalize the optimal sample-complexity bounds for single-copy state tomography, recovered as the special case $d_{\\mathrm{in}}=1$. By contrast, coherent protocols with quantum memory achieve query complexity $Θ(d_{\\mathrm{in}}^2 d_{\\mathrm{out}}^2/\\varepsilon^2)$. Hence, our results establish a rigorous learning separation between quantum process tomography with and without quantum memory.",
+    "authors": [
+      "Bravo-Prieto, Carlos",
+      "Gong, Weiyuan",
+      "Mele, Antonio Anna"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:33:27.764863Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180727",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180727",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180727"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

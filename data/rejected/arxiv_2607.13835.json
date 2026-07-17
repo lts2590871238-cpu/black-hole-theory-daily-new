@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13835",
+    "arxiv_id": "2607.13835",
+    "arxiv_version": null,
+    "inspire_id": "3180877",
+    "doi": null,
+    "title_en": "Neural-network-based material identification in photon-counting computed tomography using region-of-interest spectral features",
+    "abstract_en": "This work investigates the feasibility of neural-network-based material identification based on photon-counting computed tomography (PCCT) data. The input data were spectral vectors extracted from regions of interest (ROIs) in reconstructed tomographic slices of a phantom containing La-, Nd-, and Gd-based samples, as well as air, water, bone, and polymethyl methacrylate (PMMA). The original tomographic slices were acquired at 12 detector threshold settings (THL = 45, 55, 65, 75, 85, 95, 105, 115, 125, 135, 145, 165). For model training, the spectra were interpolated onto a uniform grid from THL 45 to THL 165 with a step of one THL unit. Large ROIs, small ROIs, and their combined dataset were considered. To avoid an overestimated performance caused by correlated ROIs extracted from the same tomographic slice, the data were split into training, validation, and test subsets at the slice level.",
+    "authors": [
+      "Miadzvetski, A.",
+      "Rozhkov, V.",
+      "Sotenskii, R.",
+      "Shashurin, D.",
+      "Chelkov, G."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T04:24:13.157884Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180877",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180877",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180877"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

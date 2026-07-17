@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13756",
+    "arxiv_id": "2607.13756",
+    "arxiv_version": null,
+    "inspire_id": "3180855",
+    "doi": null,
+    "title_en": "Precoding-based protocols for entanglement assisted linear computation over a quantum many-to-one network",
+    "abstract_en": "In this work, we consider the problem of computing a linear combination over a noiseless quantum many-to-one network. There are $k$ senders, Alice$_1$, $\\ldots$, Alice$_k$, and a single receiver, Bob. Each Alice$_i$ has a data vector $W_i \\in \\mathbb{F}^{m_i}$, where $\\mathbb{F}$ is a finite field. Bob wants to compute the linear combination $Y = V_1 W_1 + V_2 W_2 + \\cdots + V_k W_k \\in \\mathbb{F}^m$, where $V_i$ is an $m \\times m_i$ matrix over $\\mathbb{F}$. The senders transmit quantum states to Bob through a noiseless many-to-one quantum network, but they are not allowed to communicate with each other. The senders share entanglement among themselves, while Bob does not share this entanglement. They encode their classical information $W_i$, $i=1,\\ldots,k$, into their local subsystems and transmit them to Bob so that he can recover $Y$ through a quantum measurement and subsequent post-processing. The N-Sum Box protocol proposed by Allaix et al. (2025) considers this problem under certain constraints on the linear combination and the distribution of the data vectors among the senders. We present protocols that support the computation of a more general class of linear transformations by giving the senders access to more qudits and allowing them to judiciously precode their input symbols. The communication cost of our schemes is at most that of the best-known prior results in this area and is strictly lower in certain cases. Finally, we demonstrate that the communication cost is subadditive across instances. Specifically, we identify two linear functions for which the total cost of computing them individually is strictly larger than the cost of computing them jointly.",
+    "authors": [
+      "Meng, Ruoyu",
+      "Ramamoorthy, Aditya"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:33:26.519034Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180855",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180855",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180855"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

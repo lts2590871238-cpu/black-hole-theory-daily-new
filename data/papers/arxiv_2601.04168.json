@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.04168",
+    "arxiv_id": "2601.04168",
+    "arxiv_version": 5,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A framework for LISA population inference",
+    "abstract_en": "The Laser Interferometer Space Antenna (LISA) is expected to have a source rich data stream containing signals from large numbers of many different types of source. This will include both individually resolvable signals and overlapping stochastic backgrounds, a regime intermediate between current ground-based detectors and pulsar timing arrays. The resolved sources and backgrounds will be fitted together in a high dimensional Global Fit. To extract information about the astrophysical populations to which the sources belong, we need to decode the information in the Global Fit, which requires new methodology that has not been required for the analysis of current gravitational wave detectors. Here, we start that development, presenting present a hierarchical Bayesian framework to infer the properties of astrophysical populations directly from the output of a LISA Global Fit, consistently accounting for information encoded in both the resolved sources and the unresolved background. Using a simplified model of the Global Fit, we illustrate how the interplay between resolved and unresolved components affects population inference and highlight the impact of data analysis choices, such as the signal-to-noise threshold for resolved sources, on the results. Our approach provides a practical foundation for population inference using LISA data.",
+    "authors": [
+      "Alexandre Toubiana",
+      "Jonathan Gair"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.GA",
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "astro-ph.SR"
+    ],
+    "submitted_at": "2026-01-07T18:35:53Z",
+    "updated_at": "2026-07-15T08:37:21Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.04168v5",
+    "pdf_url": "https://arxiv.org/pdf/2601.04168v5",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.04168",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://arxiv.org/abs/2601.04168v5"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 60
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 15,
+      "methodological_rigor": 15,
+      "novelty": 10,
+      "clarity": 8,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 60,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "论文提出LISA数据种群推断的贝叶斯框架，属于PTA相关方法，具有理论和方法论创新。",
+    "title_zh": "LISA总体推断框架",
+    "abstract_zh": "激光干涉空间天线（LISA）预计将有一个包含大量不同类型源信号的数据流。这将包括可单独解析的信号和重叠的随机背景，这是目前地面探测器和脉冲星计时阵列之间的一个中间状态。解析源和背景将被整合在一个高维的全局拟合中。为了提取源所属天体种群的信息，我们需要解码全局拟合中的信息，这需要当前引力波探测器分析中未曾要求的新方法。在这里，我们开始这一发展，提出了一个分层贝叶斯框架，直接从LISA全局拟合的输出推断天体种群的性质，并一致地考虑解析源和未解析背景中编码的信息。使用全局拟合的简化模型，我们说明了解析和未解析分量之间的相互作用如何影响种群推断，并突出了数据分析选择（如解析源的信噪比阈值）对结果的影响。我们的方法为使用LISA数据进行种群推断提供了实用基础。",
+    "keywords_en": [
+      "LISA",
+      "population inference",
+      "hierarchical Bayesian",
+      "global fit"
+    ],
+    "keywords_zh": [
+      "LISA",
+      "种群推断",
+      "分层贝叶斯",
+      "全局拟合"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-07-17T00:18:06.725906Z"
+  },
+  "published_at": "2026-07-17T00:18:06.726322Z"
+}

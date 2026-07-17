@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13404",
+    "arxiv_id": "2607.13404",
+    "arxiv_version": null,
+    "inspire_id": "3180861",
+    "doi": null,
+    "title_en": "Deterministic Quantum Phase Estimation with Linear Circuit Complexity in a Photonic System",
+    "abstract_en": "Quantum algorithms solve certain computational problems faster than the best known classical algorithms. Many algorithms, including Shor's for factoring, Grover's for unstructured search, and the HHL for solving linear systems, rely on quantum phase estimation (QPE) as a fundamental subroutine. The QPE protocol proceeds through the initialization of a control register in a uniform superposition, controlled unitary evolution encoding the eigenphase, and a final inverse quantum Fourier transform followed by measurement to extract the phase. Here, we address a special class of unitary operators that frequently appear in quantum Fourier transform-based protocols, cyclic group representations, and periodically evolving quantum systems. We introduce a QPE algorithm that successfully reduces the circuit complexity from $\\mathcal{O}(n^2)$ to $\\mathcal{O}(n)$ for a special class of unitary operators and implement it on a four-qubit photonic system. The four-qubit system is realised using a photon pair, with two qubits encoded in its polarization degree of freedom and the remaining two in its path modes. In contrast to previous photonic implementations of QPE based on dual-rail encoding and KLM protocol, where controlled operations are inherently probabilistic and thus reduce the overall success probability of phase estimation, our scheme is fully deterministic. Moreover, it is scalable to higher-dimensional unitaries, provided the underlying structure of the unitaries is preserved.",
+    "authors": [
+      "Midhuna, M.",
+      "Jayachandran, Ajay",
+      "Sengupta, Kanad",
+      "Krishnan, Akshai T.",
+      "Chandrashekar, C.M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:25:56.773732Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180861",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180861",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180861"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

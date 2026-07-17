@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13352",
+    "arxiv_id": "2607.13352",
+    "arxiv_version": null,
+    "inspire_id": "3180795",
+    "doi": null,
+    "title_en": "HybridQC: Hardware-Grounded Simulation of Tightly Integrated Hybrid Quantum-Classical Systems",
+    "abstract_en": "Hybrid quantum-classical application performance is increasingly limited by classical control, host-to-QPU communication, and scheduling rather than quantum execution. Existing simulators and runtime interfaces analyze individual kernels but fail to address system-topology questions, such as controller bottlenecks, diminishing returns of QPU capacity, or resource contention under heterogeneous workloads. We introduce HybridQC, a topology-aware discrete-event simulator for tightly coupled hybrid compute units (HCUs). HybridQC models HCUs as configurable graphs of classical processors, memory, controllers, quantum annealing (QA) and digital quantum computing (DQC) devices, and communication links. It decomposes jobs into typed, directed acyclic graphs of stages, ranging from input preparation to classical postprocessing, executed under interchangeable scheduling policies. Calibrated with live measurements from D-Wave (Advantage 1 and 2) and IBM (Kingston, Marrakesh, and Fez) processors, HybridQC distinguishes physical QPU occupancy from cloud wall-clock latency. The models achieve mean absolute percentage errors of 3.92%-8.04% for D-Wave QPU access time and 5.26%-19.01% for IBM quantum-seconds measurements. Workload experiments reveal that a balanced 10x HCU scaling improves makespan by only 2.19x-3.42x, while altering scheduling policies shifts makespan by up to 1.80x for a 20-job workload. Scalability varies heavily by workload dimension: a 100x input data increase yields a 306 s median runtime, whereas a 100x joint increase in circuit count, shot count, and circuit depth drives runtime to 4.806x10^7 s on an unchanged HCU. HybridQC offers a systematic framework for evaluating the topology, scheduling, and scaling limits of hybrid architectures prior to physical deployment.",
+    "authors": [
+      "Christou, Panayiotis",
+      "Kan, Shuwen",
+      "Mao, Ying"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:26:05.361161Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180795",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180795",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180795"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

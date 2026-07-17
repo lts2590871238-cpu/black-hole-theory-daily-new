@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13790",
+    "arxiv_id": "2607.13790",
+    "arxiv_version": null,
+    "inspire_id": "3180876",
+    "doi": null,
+    "title_en": "Bridging Frustration and Non-Hermiticity via COMPASS: An Adaptive Biorthogonal Neural Quantum State Framework",
+    "abstract_en": "In this work, we introduce a complementary optimization method for progressive and adaptive state search (COMPASS) based on biorthogonal adaptive recurrent neural quantum states. Our approach combines an adaptive autoregressive architecture with a biorthogonal variational Monte Carlo scheme as well as a complementary optimization scheme that alternates between energy and variance minimization. This enables the stable convergence to ground-state eigenpairs, while avoiding Markov chain sampling through exact autoregressive generation. We demonstrate that for parity-time(PT)-symmetric Hamiltonians, unconstrained complex ansatze can spontaneously break PT symmetry during optimization, even in the unbroken phase, leading to spurious imaginary energies. Real-valued ansatze, on the other hand, naturally constrain the optimization to the correct physical manifold. Conversely, for generic non-Hermitian (NH) Hamiltonians without symmetry protection and complex spectra, complex ansatze are essential for capturing complex ground-state properties. Our results establish that physically-informed ansatz selection is crucial for reliable NH simulations. By combining adaptive architectures, biorthogonal optimization, and symmetry-aware modeling, this framework enables a direct study of 1D and 2D NH many-body systems without Hermitian embeddings or adiabatic continuation. Applying this framework to systems with frustrated magnetism, we show that gap frustration provides a quantitative shield against NH spectral instability, with the frustration gap setting a critical threshold for PT-symmetry breaking. Also, complexifying the frustration coupling itself generates a new topologically nontrivial network of diabolic level crossings, controlled by the phase of the complex coupling, that has no Hermitian analog. We term this novel spectral topology in NH frustrated systems the diabolic ring.",
+    "authors": [
+      "Wah, Lavoisier",
+      "Kunst, Flore K.",
+      "Hibat-Allah, Mohamed"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T04:24:35.601509Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180876",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180876",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180876"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13570",
+    "arxiv_id": "2607.13570",
+    "arxiv_version": null,
+    "inspire_id": "3180833",
+    "doi": null,
+    "title_en": "Tensor Network decoding under inter-qubit correlated errors",
+    "abstract_en": "The maximum likelihood decoder based on tensor networks has proven highly successful for the 2D surface code, achieving the optimal decoding success rate. However, existing tensor network decoders are typically designed for independent single-qubit error models, and their performance under inter-qubit correlated error models remains unexplored. This is due to two major challenges. The first challenge lies in constructing the tensor network for correlated errors, since the same final Pauli error can arise from many different combinations of independent and correlated errors, preventing a direct factorization of the error probability. The second challenge is that even after a tensor network is constructed, it generally contains huge-dimensional tensors and is therefore not efficiently contractible. In this work, to address the first difficulty, we introduce additional binary indices and two transformations to construct a multi-index tensor network for maximum-likelihood decoding with correlated errors. To address the second difficulty, we use reparametrization, elimination, and index classification to decompose the huge-dimensional tensors into lower-dimensional tensors. This yields an efficiently contractible tensor network for error models satisfying the tractability conditions derived in this work. We perform numerical simulations for a representative correlated error model and show that the maximum-likelihood decoder implemented with our multi-index tensor network construction achieves a higher finite-size threshold than the widely used MWPM decoder.",
+    "authors": [
+      "Yan, Yue",
+      "Wang, SiYing",
+      "Xia, ZhiXin",
+      "Yuan, HanNuo",
+      "Shi, CanWei",
+      "Wang, Xiang-Bin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:26:03.560378Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180833",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180833",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180833"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

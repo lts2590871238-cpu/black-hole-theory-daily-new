@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.13374",
+    "arxiv_id": "2607.13374",
+    "arxiv_version": null,
+    "inspire_id": "3180814",
+    "doi": null,
+    "title_en": "A Physics-Grounded QUBO Encoding of Irrigation Scheduling for QAOA",
+    "abstract_en": "Rotational irrigation scheduling in water-scarce Central Asia is a densely coupled combinatorial problem: soil-moisture memory links each irrigation decision to all later days within a zone, field adjacency couples zones on overlapping window days, and rigid canal rotations quantize water delivery in time. We formulate it as a Quadratic Unconstrained Binary Optimization (QUBO) by linearizing the root-zone water balance, so the quadratic crop-stress objective generates the physical couplings as 2-local Ising interactions with no higher-order terms; only the water-budget constraint requires an artificial all-to-all penalty, which we certify with an instance-adaptive weight bound an order of magnitude tighter than generic prescriptions. Every instance is built from observed data for a cotton district in Khorezm, Uzbekistan: NASA POWER meteorology, FAO-56 Penman--Monteith evapotranspiration, SoilGrids~2.0 hydraulics, measured capillary fluxes, and documented canal-rotation windows that enter as qubit-count reductions. We benchmark four tiers -- exact solvers, matched-budget heuristics, ideal-statevector quantum approximate optimization algorithm (QAOA), and noise-model plus IBM Heron execution -- and add a scaling study on soil instances up to 584 variables. Exact branch-and-bound proves optimality in seconds through 150 variables, and heuristic degradation at fixed evaluation budget is repaired by scaling the budget, so no classical scalability wall appears at deployment-relevant sizes, and none is claimed. On hardware, the informative signal is optimum-sampling enrichment over uniform sampling. We claim no quantum advantage; we deliver a physically grounded, data-complete, reproducible encoding of a societally critical scheduling problem for the quantum-utility era.",
+    "authors": [
+      "Ortikov, Alisher",
+      "Ilhamov, Alisher"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-16T14:33:28.544988Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180814",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180814",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://inspirehep.net/literature/3180814"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

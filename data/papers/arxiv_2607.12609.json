@@ -4,7 +4,7 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.12609",
     "arxiv_id": "2607.12609",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": "3180378",
     "doi": null,
     "title_en": "PSRDISP: A novel approach to modeling dispersive processes in single-pulsar noise analysis using epoch-wise dispersion measures",
@@ -18,7 +18,7 @@
       "astro-ph.HE"
     ],
     "submitted_at": "2026-07-14T00:00:00Z",
-    "updated_at": "2026-07-15T12:56:59.009038Z",
+    "updated_at": "2026-07-16T04:20:30.599705Z",
     "document_types": [
       "article"
     ],
@@ -26,21 +26,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.12609v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.12609v1",
+    "abs_url": "https://arxiv.org/abs/2607.12609v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.12609v2",
     "inspire_url": "https://inspirehep.net/literature/3180378",
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.12609",
-        "fetched_at": "2026-07-16T00:14:49.985540Z",
-        "url": "https://arxiv.org/abs/2607.12609v1"
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://arxiv.org/abs/2607.12609v2"
       },
       {
         "source": "inspire",
         "record_id": "3180378",
-        "fetched_at": "2026-07-16T00:14:49.985540Z",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
         "url": "https://inspirehep.net/literature/3180378"
       }
     ],
@@ -69,38 +69,36 @@
     "primary_topic": "pta",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 10,
+      "theory_depth": 8,
       "methodological_rigor": 15,
-      "novelty": 10,
+      "novelty": 11,
       "clarity": 8,
-      "metadata_quality": 5,
+      "metadata_quality": 10,
       "community_signal": 0,
-      "other": 5
+      "other": 0
     },
-    "total_score": 53,
+    "total_score": 52,
     "reject_reason_zh": "",
-    "selection_reason_zh": "本文提出了一种新颖的PSRDISP方法，用于基于历元色散量的单脉冲噪声分析，对脉冲星计时阵研究有重要意义。",
+    "selection_reason_zh": "论文提出了一种用于脉冲星计时分析中色散过程建模的新方法PSRDISP，与脉冲星计时阵列（PTA）领域直接相关，且方法具有创新性和实用价值。",
     "title_zh": "PSRDISP：一种利用历元色散量建模单脉冲噪声分析中色散过程的新方法",
-    "abstract_zh": "我们提出了PSRDISP，一种利用基于高斯过程的高精度历元色散量估计来建模脉冲星计时数据集中确定性和随机性色散过程的新方法。与传统应用于脉冲频率分辨到达时间的单脉冲噪声分析方法不同，该技术应用于从这些到达时间导出的历元色散量。它也可以应用于与宽带到达时间同时测量的宽带色散量。因此，该框架提供了一种与范式无关的方法来表征单脉冲色散过程。预期该方法在表征这些色散效应的同时，能最大程度地减少非色散红噪声过程的影响。我们通过使用具有真实噪声注入的模拟窄带和宽带数据集，用代表性示例来证实所讨论的技术。我们发现恢复结果与注入非常接近，且与估计技术无关。我们的方法适用于能够获得精确历元色散量估计的脉冲星计时实验，例如印度脉冲星计时阵。该技术可以作为验证单脉冲噪声分析的有力诊断工具，这对于精度脉冲星计时实验（如脉冲星计时阵）至关重要。",
+    "abstract_zh": "我们提出了PSRDISP，这是一种利用高斯过程方法，通过高精度历元色散量（DM）估计来建模脉冲星计时数据集中确定性和随机色散过程的新方法。与传统的单脉冲噪声分析方法应用于脉冲的频域到达时间（ToAs）不同，该技术应用于从这些ToA导出的历元DM。它也可以应用于与宽带ToA同时测量的宽带DM。因此，该框架提供了一种范式无关的方法来表征单脉冲色散过程。预期该方法在表征这些色散效应的同时，能够最小化非色散红噪声过程的影响。我们通过使用模拟的窄带和宽带数据集，并注入实际噪声，用代表性例子证实了所讨论的技术。我们发现恢复结果与注入高度一致，且与估计技术无关。我们的方法适用于能够获得精确历元DM估计的脉冲星计时实验，例如印度脉冲星计时阵列。该技术可以作为验证单脉冲噪声分析的有力诊断工具，这对于高精度脉冲星计时实验（如脉冲星计时阵列）至关重要。",
     "keywords_en": [
       "pulsar timing",
-      "dispersive processes",
-      "Gaussian process",
-      "single-pulsar noise analysis",
-      "epoch-wise DM"
+      "dispersion measure",
+      "single-pulsar noise",
+      "Gaussian process"
     ],
     "keywords_zh": [
       "脉冲星计时",
-      "色散过程",
-      "高斯过程",
-      "单脉冲噪声分析",
-      "历元色散量"
+      "色散量",
+      "单脉冲噪声",
+      "高斯过程"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-16T00:15:43.603032Z"
+    "created_at": "2026-07-17T00:18:14.699752Z"
   },
-  "published_at": "2026-07-16T00:15:43.603489Z"
+  "published_at": "2026-07-17T00:18:14.700174Z"
 }

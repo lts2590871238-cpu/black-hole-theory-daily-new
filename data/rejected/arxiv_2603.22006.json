@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.22006",
+    "arxiv_id": "2603.22006",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1051/0004-6361/202557652",
+    "title_en": "A plug-and-play approach with fast uncertainty quantification for weak lensing mass mapping",
+    "abstract_en": "Upcoming stage-IV surveys such as Euclid and Rubin will deliver vast amounts of high-precision data, opening new opportunities to constrain cosmological models with unprecedented accuracy. A key step in this process is the reconstruction of the dark matter distribution from noisy weak-lensing shear measurements. Current deep-learning-based mass-mapping methods achieve high reconstruction accuracy, but either require retraining a model for each new observed sky region (limiting practicality) or rely on slow Markov chain Monte Carlo sampling. Efficient exploitation of future survey data therefore calls for a new method that is accurate, flexible, and fast at inference. In addition, an uncertainty quantification with coverage guarantees is essential for a reliable cosmological parameter estimation. We introduce PnPMass, a plug-and-play approach for weak-lensing mass mapping. The algorithm produces point estimates by alternating between a gradient descent step with a carefully chosen data fidelity term and a denoising step implemented with a single deep-learning model trained on simulated data corrupted by Gaussian white noise. We also propose a fast sampling-free uncertainty quantification scheme based on moment networks, with calibrated error bars obtained through conformal prediction to ensure coverage guarantees. Finally, we benchmark PnPMass against model-driven and data-driven mass-mapping techniques. PnPMass achieves a performance close to that of the currently best deep-learning methods while offering fast inference. It converges in just a few iterations, and it requires only a single training phase, regardless of the noise covariance of the observations. It therefore combines flexibility, efficiency, and reconstruction accuracy while delivering tighter error bars than existing approaches, making it well suited for upcoming weak-lensing surveys.",
+    "authors": [
+      "Hubert Leterme",
+      "Andreas Tersenov",
+      "Jalal Fadili",
+      "Jean-Luc Starck"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "cs.LG",
+      "stat.ME"
+    ],
+    "submitted_at": "2026-03-23T14:12:48Z",
+    "updated_at": "2026-07-15T08:20:20Z",
+    "document_types": [],
+    "journal_ref": "A&A 710, A292 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.22006v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.22006v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.22006",
+        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "url": "https://arxiv.org/abs/2603.22006v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
