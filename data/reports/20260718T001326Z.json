@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-07-18T00:13:26.462888Z",
+  "completed_at": "2026-07-18T00:15:14.867356Z",
+  "status": "degraded",
+  "fetched_arxiv": 849,
+  "fetched_inspire": 800,
+  "normalized": 1649,
+  "deduplicated": 1332,
+  "candidates": 70,
+  "selected": 47,
+  "review_queue": 11,
+  "rejected": 1263,
+  "llm_calls": 9,
+  "cached_decisions": 40,
+  "errors": [
+    "arxiv:2607.15150: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 303 个非空白字符",
+    "arxiv:2607.00133: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.15028: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: EOF while parsing a string at line 14 column 1159 [type=json_invalid, input_value='{\\n  \"relevant\": true,\\n...会导致更宽的质', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+    "arxiv:2607.14790: 评分或翻译失败：1 validation error for LLMDecisionPayload\ntranslanation_warning\n  Extra inputs are not permitted [type=extra_forbidden, input_value='', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",
+    "arxiv:2606.30507: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2605.12352: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2606.05505: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.13857: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: control character (\\u0000-\\u001F) found while parsing a string at line 14 column 0 [type=json_invalid, input_value='{\\n  \"relevant\": true,\\n...引力透镜）。\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+    "arxiv:2511.07726: 评分或翻译失败：1 validation error for LLMDecisionPayload\nmetadata_quality_score_original\n  Extra inputs are not permitted [type=extra_forbidden, input_value=9, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",
+    "arxiv:2603.24657: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.12708: 评分或翻译失败：入选论文缺少中文入选理由"
+  ]
+}

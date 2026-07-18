@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14786",
+    "arxiv_id": "2607.14786",
+    "arxiv_version": null,
+    "inspire_id": "3181005",
+    "doi": null,
+    "title_en": "Inferring Non-Normal Amplification Geometry from Multivariate Time Series",
+    "abstract_en": "Across hydrodynamics, ecology, neuroscience, network dynamics, non-Hermitian physics, and socio-economic systems, asymptotically stable dynamics can exhibit large transient amplifications that are invisible to eigenvalue-based analyses. The mechanism is geometric rather than spectral: perturbations entering along one direction may be expressed transiently along another, allowing asymptotic decay to coexist with strong transient or noise-driven amplification. We introduce non-normal directional response inference, a data-driven method for detecting this geometry from multivariate time series when the governing operator is unknown. A local linear operator is estimated from sliding windows and projected onto the dominant two-dimensional input-response subspace. The reduced dynamics are summarized by the eigenvalue splitting $Δ$, eigenvector non-orthogonality $K$, and the scale-free ratio $R=K/K_c(Δ)$, where $K_c(Δ)$ is the two-dimensional threshold for transient amplification. Controlled benchmarks show that the reduced geometry, particularly $R$, can be recovered from finite data even when the full high-dimensional operator is poorly estimated. Tests across sample size, dimension, training horizon, spectral structure, and non-stationarity confirm that the relevant response geometry requires far fewer observations than full-matrix recovery. Applied in moving windows to electrohysterogram, seizure EEG, freezing-of-gait, and unstable push-up inertial recordings, the method reveals systematic changes around known physiological or behavioral episodes through shifts in $R$, changes in $Δ$, or stronger projection of fluctuations onto the inferred response direction. It thus exposes interpretable changes in local response geometry without framing the problem as supervised event detection.",
+    "authors": [
+      "Saiprasad, V.R.",
+      "Troude, V.",
+      "Sornette, D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T04:10:50.405017Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181005",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181005",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181005"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

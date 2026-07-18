@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.20212",
+    "arxiv_id": "2602.20212",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Global Structure in Learned Latent Representations of Confusion-Limited LISA Data",
+    "abstract_en": "Machine learning methods in gravitational wave data analyses depend on the choice of representation and on how structure within that representation is used. Building on previous work using continuous wavelet transform (CWT) autoencoder representations for confusion-limited LISA simulation, we investigate whether source resolvability information is better characterized by local latent geometry or by global latent density. We study this question in a controlled benchmark with data generation and preprocessing held fixed. Using CWT representations of synthetic confusion-limited LISA segments, we compare geometry based one-class scoring with likelihood-based latent models along with their morphology augmented variants. Likelihood-based scoring consistently outperforms local manifold-distance methods across three independent seeds, achieving ROC-AUC \\(0.8555 \\pm 0.0181\\) and PR-AUC \\(0.9219\\pm 0.0118\\), compared with ROC-AUC \\(0.7663\\pm 0.0450\\) and PR-AUC \\(0.8667\\pm 0.0255\\) for the geometry baseline. These results suggest that resolvability information in learned latent representations is not fully captured by local latent geometry but instead reflects global properties of the latent distribution. More broadly, this work contributes to representation-aware methods for confusion-foreground characterization in LISA and motivates future studies of coordinate invariance and intrinsic geometry in learned latent spaces.",
+    "authors": [
+      "Jericho Cain"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-02-23T04:40:39Z",
+    "updated_at": "2026-07-16T15:50:12Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.20212v3",
+    "pdf_url": "https://arxiv.org/pdf/2602.20212v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.20212",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://arxiv.org/abs/2602.20212v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1088/1361-6382/ae0c50",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3181371",
+    "doi": "10.1088/1361-6382/ae0c50",
+    "title_en": "Adaptive scattered light noise subtraction in GW detectors",
+    "abstract_en": "Scattered light glitches are a major source of transient noise in gravitational wave (GW) detectors. During the third LIGO-Virgo-KAGRA observing run (O3), ∼20% of GW signals overlapped with such glitches, degrading source parameter estimation (PE). These glitches fall within the low-frequency band critical to early warning pipelines in the current observational campaign (O4), making their subtraction both essential and challenging. As scattered light is a non-stationary noise, adaptive decomposition can be used to quickly and precisely subtract it from relevant degrees of freedom of the detector. We present a time-domain subtraction methodology based on the time-varying filter empirical mode decomposition, an adaptive algorithm designed to extract narrow-band oscillatory modes with high time-frequency resolution. Applied to synthetic data, a high-SNR scattering glitch (SNR = 13.49) overlapping a binary black hole GW signal (SNR = 12.79) was effectively subtracted. The method achieves a mean absolute error of 7.69 $\\cdot 10^{-23}$ between the injected and recovered glitch waveform. PE performed on the cleaned data accurately recovers the injected source parameters, with the reconstructed waveform closely matching the true signal. The decomposition of 16 s of data at 512 Hz sampling rate with the pytvfemd algorithm currently requires ∼60 s. Computational time is expected to further decrease as its acceleration is ongoing. Testing different decomposition algorithms is also foreseen with the aim of further improve performances. The adopted methodology demonstrates that adaptive decomposition offers a fast and precise strategy to mitigate scattered light noise. Ongoing refinement is meant for the integration of the method in the low-latency pipeline and mitigation of residual artifacts.",
+    "authors": [
+      "Longo, Alessandro",
+      "Demasi, Gabriele",
+      "Di Renzo, Francesco",
+      "Bianchi, Stefano",
+      "Valdes, Guillermo",
+      "Arnaud, Nicolas",
+      "Inguglia, Gianluca",
+      "Cicone, Antonio",
+      "Lenti, Massimo",
+      "Bucci, Francesca",
+      "Settanta, Giulio",
+      "Montani, Matteo",
+      "Cavassi, Roberto"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-17T16:34:26.081666Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "43, 145002, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214779'}, 14, Class.Quant.Grav."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181371",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181371",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181371"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

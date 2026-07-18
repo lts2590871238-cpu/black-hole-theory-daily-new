@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14847",
+    "arxiv_id": "2607.14847",
+    "arxiv_version": null,
+    "inspire_id": "3180998",
+    "doi": null,
+    "title_en": "A flexible DAQ system for the Timepix4 ASIC in the 4DPHOTON project",
+    "abstract_en": "This paper presents the design and implementation of a flexible data acquisition system13 developed for the Timepix4 ASIC within the 4DPHOTON project. The system is based on a modular14 FPGA-centric architecture combining high-speed serial readout, Ethernet-based data transport,15 and deterministic multi-board synchronization. The hardware platform includes a scalable stack16 composed of commercial FPGA carrier boards, FMC-based interface electronics, detector-specific17 chipboards, and a dedicated Trigger Logic Unit for synchronized operation.18 The firmware architecture separates control and data paths, enabling independent configuration19 and high-throughput acquisition through UDP over 10 GbE links. The design supports zero-back-20 pressure operation toward the ASIC and allows adaptation of the readout bandwidth to different21 experimental conditions. Synchronization between multiple DAQ systems is achieved through22 a common clock and trigger distribution network, experimentally demonstrated with sub-100 ps23 precision.24 The system has been developed to support detector characterization, laboratory measurements,25 and beam-test campaigns for the 4DPHOTON detector concept. Hardware organization, firmware26 architecture, synchronization strategy, and performance measurements are presented.",
+    "authors": [
+      "Biesuz, N.V.",
+      "Alozy, J.",
+      "Bolzonella, R.",
+      "Cavallini, V.",
+      "Cotta Ramusino, A.",
+      "Fiorini, M.",
+      "Franzoso, E.",
+      "Llopart Cudie, X.",
+      "Saputi, A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T12:33:20.468793Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180998",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180998",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3180998"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

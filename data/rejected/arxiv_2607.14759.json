@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14759",
+    "arxiv_id": "2607.14759",
+    "arxiv_version": null,
+    "inspire_id": "3181180",
+    "doi": null,
+    "title_en": "Local Variance-Based Calibration of Programmable Photonic Interferometer Meshes",
+    "abstract_en": "Programmable photonic interferometer meshes enable reconfigurable linear optical transformations, but their performance depends critically on accurate calibration of Mach-Zehnder interferometers and phase shifters. Conventional methods often require node isolation, dedicated routing paths, orthogonal training states, reference channels, or prior phase-voltage characterization, which become increasingly difficult in large thermally tuned meshes. We introduce a local variance-based self-calibration method using intensity-only measurements. Controlled phase perturbations are applied, and calibration points are identified from minima of the measured output-power variance. For Mach-Zehnder interferometers, the variance follows a characteristic |sin(theta)| dependence, allowing bar and cross operating points to be found without conventional node isolation. For phase shifters, balanced interference produces a complementary |cos(phi)| variance signature, enabling quadrature calibration through the same statistical principle. We validate the method experimentally on an 8 x 8 silicon nitride programmable photonic processor using a fully automated two-stage procedure. Starting from random phase settings, all Mach-Zehnder interferometers are calibrated first, followed by phase-shifter calibration under balanced-interference conditions. As a system-level test, we implement an embedded 4 x 4 Hadamard transformation on the 8 x 8 processor using a Clements decomposition. These results establish local output variance as a simple calibration observable for programmable photonic meshes. The method is compatible with discrete random phase ensembles and requires neither conventional node isolation nor orthogonal training fields, making it a practical calibration primitive for scalable self-stabilizing photonic processors.",
+    "authors": [
+      "Elmas, Gökhan",
+      "Litvin, Igor A.",
+      "Nötzel, Janis"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T04:25:13.993065Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181180",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181180",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181180"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

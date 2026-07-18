@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14700",
+    "arxiv_id": "2607.14700",
+    "arxiv_version": null,
+    "inspire_id": "3181238",
+    "doi": null,
+    "title_en": "Efficient Quantum Algorithm for Phase Optimization of 1-Bit RIS-Assisted MIMO Communication System",
+    "abstract_en": "We propose a Quantum Approximate Optimization Algorithm with a deterministic linear ramp schedule (QAOA-LR) for phase optimization of a 1-bit RIS-assisted MIMO communication system. Each RIS element is restricted to a binary phase shift of 0 or π, turning the passive beamforming design problem with N elements into a combinatorial optimization problem over 2^N configurations. Instead of running a classical optimizer, QAOA-LR uses a fixed linear ramp to set the variational parameters across p layers and finds the best scale via a simple one-dimensional grid search over a single parameter. Monte Carlo simulations over Rayleigh-fading MIMO channels confirm that QAOA-LR closely tracks the optimum maximum-likelihood (ML) solution. Furthermore, the proposed algorithm reduces the computational complexity compared with classical optimization, and real hardware experiments on the IBM Quantum processor confirm near-ML capacity performance with polynomial scaling of quantum processing unit execution time as the number of RIS elements increases.",
+    "authors": [
+      "Paul, Soumyadip",
+      "Kundu, Neel Kanth"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T12:48:24.501281Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181238",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181238",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181238"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

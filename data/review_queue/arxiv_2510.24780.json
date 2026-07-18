@@ -1,5 +1,4 @@
 {
-  "schema_version": "1.0",
   "paper": {
     "schema_version": "1.0",
     "canonical_key": "arxiv:2510.24780",
@@ -38,7 +37,7 @@
       {
         "source": "arxiv",
         "record_id": "2510.24780",
-        "fetched_at": "2026-07-17T00:16:55.132478Z",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
         "url": "https://arxiv.org/abs/2510.24780v3"
       }
     ],
@@ -59,46 +58,6 @@
     "reasons": [],
     "deterministic_score": 50
   },
-  "decision": {
-    "schema_version": "1.0",
-    "relevant": false,
-    "primary_topic": "pta",
-    "secondary_topics": [],
-    "scores": {
-      "theory_depth": 12,
-      "methodological_rigor": 15,
-      "novelty": 10,
-      "clarity": 8,
-      "metadata_quality": 9,
-      "community_signal": 0,
-      "other": 7
-    },
-    "total_score": 61,
-    "reject_reason_zh": "论文主要关注引力波探测器的设计与灵敏度建模，属于实验仪器和探测技术范畴，与设定的四个主题（黑洞热力学、脉冲星计时阵、全息凝聚态物理、广义相对论基础）无直接关联。",
-    "selection_reason_zh": "",
-    "title_zh": "用于引力波探测的低温亚赫兹交叉扭转棒量子非破坏速度计（CHRONOS）",
-    "abstract_zh": "我们介绍了2.5米低温亚赫兹交叉扭转棒量子非破坏速度计（CHRONOS）的光学设计和灵敏度建模，这是一种带有功率和信号回收的三角形萨格纳克速度计干涉仪。利用ABCD矩阵分析和Finesse3模拟，我们优化了光学配置，并实现了高于99.5%的模式匹配效率。优化后的设计在1赫兹处达到的量子噪声限制的应变灵敏度为h≃3×10^{-18} Hz^{-1/2}，环腔精细度为F≃3.1×10^{4}。功率回收失谐主导了低频量子噪声，而最佳零差角ζ≃46°在1赫兹附近提供了最佳灵敏度。假设在10K低温下运行，端镜反射率为99.9999%，CHRONOS为未来的亚赫兹引力波探测器提供了量子噪声限制的低温干涉测量的实验室规模演示。预计的科学覆盖范围包括总质量为10^{2}–10^{5} M_⊙的中等质量黑洞双星，距离约271 Mpc；随机引力波背景低至Ω_GW≃4.7×10^{-4}；牛顿引力的汤川型偏差低至|α|∼2×10^{-5}；以及附近M5.2级地震在约90公里内的瞬态引力梯度信号。",
-    "keywords_en": [
-      "gravitational wave detector",
-      "torsion bar antenna",
-      "speed meter",
-      "quantum non-demolition",
-      "cryogenic interferometry",
-      "Sagnac interferometer"
-    ],
-    "keywords_zh": [
-      "引力波探测器",
-      "扭力棒天线",
-      "速度计",
-      "量子非破坏测量",
-      "低温干涉测量",
-      "萨格纳克干涉仪"
-    ],
-    "translation_warning": "",
-    "model": "deepseek:deepseek-v4-flash",
-    "prompt_version": "curation-2026-07-13.2",
-    "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-14T05:22:30.365174Z"
-  },
-  "published_at": "2026-07-17T00:18:39.446871Z"
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
 }

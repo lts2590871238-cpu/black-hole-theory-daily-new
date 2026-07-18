@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15158",
+    "arxiv_id": "2607.15158",
+    "arxiv_version": 1,
+    "inspire_id": "3181199",
+    "doi": null,
+    "title_en": "Fast two-dimensional tensor-network contraction via subspace iteration",
+    "abstract_en": "The corner transfer matrix renormalization group (CTMRG) is one of the standard contraction methods for infinite projected entangled-pair states (iPEPS), but its computational cost is dominated by repeated truncated singular value decompositions (SVDs). We introduce subspace-iteration CTMRG (SI-CTMRG), a QR-based projector construction that replaces each large-matrix SVD with an SVD of a much smaller matrix. The resulting algorithm shifts the dominant cost from decompositions to tensor contractions, making it highly suited to GPU acceleration and yielding speedups of up to two orders of magnitude over standard CTMRG. We demonstrate the efficiency and accuracy of the method for the triangular-lattice Heisenberg antiferromagnet, reaching state-of-the-art iPEPS results on a single H100 GPU in approximately 10 hours of computation.",
+    "authors": [
+      "Yining Zhang",
+      "Philippe Corboz"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T04:26:50.143687Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.15158v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.15158v1",
+    "inspire_url": "https://inspirehep.net/literature/3181199",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.15158",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://arxiv.org/abs/2607.15158v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3181199",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181199"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

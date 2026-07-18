@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14875",
+    "arxiv_id": "2607.14875",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Optimization dynamics of Transformer backflow neural quantum states for the two-dimensional Hubbard model",
+    "abstract_en": "Building on the multi-determinant Transformer backflow neural quantum state (NQS) ansatz and the associated multi-stage training workflow for the doped two-dimensional Hubbard model, we investigate how the optimization dynamics of the NQS depend on several key optimization and architectural hyperparameters. The workflow consists of neural-network backflow (NNB) initialization, supervised Transformer pre-training, and main energy optimization using the Moment-Adaptive ReConfiguration Heuristic (MARCH) within variational Monte Carlo. Using the doped $4\\times4$ periodic Hubbard model at $U=8$ as a baseline, we examine how the update-norm threshold, Transformer width, number of determinant channels, and Monte Carlo batch size affect convergence. We find that a moderate update constraint improves the efficiency of MARCH optimization, larger Transformer width and more determinant channels improve the expressive capacity of the ansatz, and larger Monte Carlo batches reduce sampling noise in the update direction. We further test the same workflow at half filling, weaker interaction strength, open boundary conditions, and on a larger $8\\times8$ doped lattice. These results identify practical optimization trends for Transformer backflow NQSs and highlight the balance between ansatz expressivity, MARCH update stability, and Monte Carlo sampling quality.",
+    "authors": [
+      "Zong-Yu Liao",
+      "Jia-Qi Wang",
+      "Rong-Qiang He",
+      "Zhong-Yi Lu"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.dis-nn",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-07-16T11:46:06Z",
+    "updated_at": "2026-07-16T11:46:06Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.14875v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.14875v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.14875",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://arxiv.org/abs/2607.14875v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

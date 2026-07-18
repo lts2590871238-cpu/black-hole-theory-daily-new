@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15184",
+    "arxiv_id": "2607.15184",
+    "arxiv_version": 1,
+    "inspire_id": "3181208",
+    "doi": null,
+    "title_en": "Backpropagating Pauli Propagation",
+    "abstract_en": "We develop a backpropagation algorithm for evaluating parameter gradients in quantum circuits using Pauli propagation simulation. The method has computational complexity comparable to that of standard sparse Pauli simulation techniques, while producing gradients whose accuracy is of the same order as the corresponding observable expectation values. By exploiting the reversibility of quantum circuits, the algorithm reduces the memory cost by a factor of $\\mathcal{O}(n_\\text{param})$ compared with conventional reverse-mode automatic differentiation, where $n_\\text{param}$ denotes the number of parameters in the circuit. Compared with finite difference methods, the algorithm is $\\mathcal{O}(n_\\text{param})$ more efficient in function evaluations. These features enable efficient and accurate classical optimization of quantum circuits for applications such as state preparation and time-evolution compression, while also allowing operator-complexity measures such as the operator stabilizer Rényi entropy to be monitored and regularized during optimization. We demonstrate the method by optimizing low-energy state-preparation circuits for transverse-field Ising models in one, two, and three dimensions and for the three-dimensional Heisenberg model, and by compressing two-dimensional time-evolution circuits.",
+    "authors": [
+      "Sheng-Hsuan Lin",
+      "Etienne Granet",
+      "Kevin Hémery",
+      "Henrik Dreyer"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T12:33:21.605520Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.15184v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.15184v1",
+    "inspire_url": "https://inspirehep.net/literature/3181208",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.15184",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://arxiv.org/abs/2607.15184v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3181208",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181208"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

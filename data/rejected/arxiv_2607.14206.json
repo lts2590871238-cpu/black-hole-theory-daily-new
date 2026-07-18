@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14206",
+    "arxiv_id": "2607.14206",
+    "arxiv_version": 1,
+    "inspire_id": "3181145",
+    "doi": null,
+    "title_en": "Simulation-Based Priors for HI Bias from Halo Occupation Physics",
+    "abstract_en": "Full-shape analyses of 21 cm intensity maps with the effective field theory of large-scale structure will require priors on HI bias parameters, and the standard choice of broad uninformative priors can lead to cosmological constraints that are unnecessarily conservative. We present a simulation-based framework that replaces these broad priors with informative priors based on learning the conditional distribution $p(\\bmθ_{\\rm EFT}\\mid\\bmθ_{\\rm HOD})$ between effective-field-theory-based bias parameters and the parameters of a model for HI clustering in the nonlinear regime. Specifically, we train a conditional normalizing flow on field-level measurements of the lowest-order local bias parameters $(b_1,b_2,b_3)$ and the tidal bias $b_{\\mathcal{G}_2}$ by applying a simple HI halo occupation distribution (HOD) to the Hidden Valley simulations. We find that the resulting HOD-to-bias mapping is highly structured, displaying a strong dependence on the power of halo mass in the HOD model. Propagating CHORD-like telescope sensitivity forecasts for the 21 cm power spectrum on nonlinear scales through this mapping produces non-Gaussian, correlated priors on the bias parameters that are substantially tighter than conventional flat priors across $z=1$--$3$, with the improvement most dramatic at high redshift. By repeating our analysis using halo catalogs from the IllustrisTNG simulations, we find non-negligible differences from the Hidden Valley results, indicating that future applications of simulation-based HI priors will need to carefully account for the dependence of these priors on the simulations used to construct them. Our framework provides an initial step toward informative EFT priors for current and forthcoming HI intensity mapping surveys, including CHIME, CHORD, and MeerKLASS.",
+    "authors": [
+      "Debanjan Sarkar",
+      "Simon Foreman"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-17T04:24:11.873623Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.14206v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.14206v1",
+    "inspire_url": "https://inspirehep.net/literature/3181145",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.14206",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://arxiv.org/abs/2607.14206v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3181145",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181145"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

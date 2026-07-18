@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15030",
+    "arxiv_id": "2607.15030",
+    "arxiv_version": 1,
+    "inspire_id": "3181195",
+    "doi": null,
+    "title_en": "Implicit differentiation of tensor network algorithms",
+    "abstract_en": "The current leading approach to the variational optimization of projected entangled-pair states (PEPS) is based on automatic differentiation, which allows for a convenient evaluation of the energy gradient with respect to the local variational degrees of freedom. However, evaluating the energy gradient not only remains a major computational bottleneck of the optimization procedure, but also suffers from frequent numerical instabilities. In this work, we adopt recent advances in implicit differentiation techniques to address these challenges in PEPS optimization. By reformulating the core step of the gradient computation in terms of a single characteristic equation for the contraction environment, we reduce the cost of the gradient computation and improve its scaling with the problem size. By choosing a suitable parametrization of this characteristic equation based on the intrinsic symmetries of the contraction environment, we can directly remove instabilities from the global gradient computation that would otherwise arise from the derivatives of subroutines of the contraction algorithm. Finally, we demonstrate how this approach drastically simplifies the practical implementation of stable gradient-based PEPS optimization.",
+    "authors": [
+      "Lander Burgelman",
+      "Anna Francuz",
+      "Paul Brehmer",
+      "Lukas Devos",
+      "Jutho Haegeman",
+      "Frank Verstraete",
+      "Bram Vanhecke"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T04:26:39.164594Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.15030v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.15030v1",
+    "inspire_url": "https://inspirehep.net/literature/3181195",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.15030",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://arxiv.org/abs/2607.15030v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3181195",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3181195"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

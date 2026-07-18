@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.14518",
+    "arxiv_id": "2607.14518",
+    "arxiv_version": null,
+    "inspire_id": "3180996",
+    "doi": null,
+    "title_en": "Structure-Aware Variational State Preparation for Quantum Basket Option Pricing",
+    "abstract_en": "Basket option pricing often relies on Monte Carlo estimation, for which quantum amplitude estimation (QAE) provides a quadratic speed-up. However, the practical benefit of QAE can be limited by the depth of the state-preparation circuit. We propose a structure-aware quantum state-preparation framework for QAE-based basket option pricing. The framework uses tensor-train (TT) rank information to design shallow variational state-preparation circuits. In the independent regime, TT ranks remove unnecessary entangling links from a hardware-efficient ansatz. In correlated basket settings, we instead prepare asset-wise marginals locally and train a compact latent block to match the basket cumulative distribution function. The Basket-CDF objective targets the basket pushforward distribution rather than the full joint state, directly aligning state preparation with basket-dependent payoffs. Numerical experiments show that the proposed circuits replace the exponential state-preparation depth scaling of exact amplitude loading with linear scaling, while maintaining low-percent basket-pricing errors. Additional sampling-based training experiments and an end-to-end QAE integration study support compatibility with sample-estimated training and standard QAE-based pricing workflows.",
+    "authors": [
+      "Kim, Dongwoo",
+      "Cui, Zhenyu",
+      "Park, Daniel K.",
+      "Lee, Chihoon"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-17T12:33:19.878621Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3180996",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3180996",
+        "fetched_at": "2026-07-18T00:13:26.462888Z",
+        "url": "https://inspirehep.net/literature/3180996"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
