@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 18,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 67,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文直接研究PTA可探测的随机引力波背景中MBHB偏心率散射的物理起源，包含高分辨率N体模拟和理论分析，与PTA和引力波背景高度相关。",
+  "title_zh": "星系合并中超大质量黑洞双星的微扰驱动动力学",
+  "abstract_zh": "大质量黑洞双星（MBHBs）在双星形成时的轨道偏心率塑造了脉冲星计时阵列（PTAs）可探测的随机引力波背景（GWB）。以往的$N$体模拟显示该量存在较大的逐次模拟散射，主要原因来自泊松噪声，从而引发物理子结构是否增加真正天体物理随机性的问题。我们利用IllustrisTNG100-1中一次主要合并的高分辨率重模拟对此进行检验，使用Griffin $N$体代码演化。将一个无微扰控制与两个匹配系列进行比较，其中主核球质量的$f_{\\mathrm{target}}=0.1$被重新分布为质量$10^7,M_\\odot$（$μ_{\\mathrm{p}}\\approx3.2\\times10^{-3}$）和$10^8,M_\\odot$（$μ_{\\mathrm{p}}\\approx3.2\\times10^{-2}$）的等质量微扰子，每个场景有四个实现。控制组给出$σ_e\\approx0.11$，与该分辨率下的泊松噪声本底一致。$10^7,M_\\odot$情形给出$σ_e\\approx0.115$，与控制组无法区分，而$10^8,M_\\odot$情形给出$σ_e\\approx0.26$，比本底高出$2.4$倍，尽管仅凭四个实现在统计上并不显著。这种额外的散射与轨道能量和角动量中更大的事件对齐残差以及更强的扭矩尖峰一致，对应于近乎脉冲式的微扰子-MBHB相遇。在双星-单星散射理论中，转变由微扰子-MBHB质量比$μ_{\\mathrm{p}}$设定：$10^7,M_\\odot$情形仍处于扩散状态，而$10^8,M_\\odot$情形接近脉冲状态。由于大质量椭圆星系中预期的微扰子群体大多处于该状态以下，微扰子驱动的偏心率随机化不太可能影响GWB相关的MBHB并合。",
+  "keywords_en": [
+    "supermassive black hole binaries",
+    "eccentricity",
+    "stochastic gravitational-wave background",
+    "pulsar timing arrays",
+    "N-body simulations",
+    "perturbers"
+  ],
+  "keywords_zh": [
+    "超大质量黑洞双星",
+    "偏心率",
+    "随机引力波背景",
+    "脉冲星计时阵列",
+    "N体模拟",
+    "微扰子"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-19T00:15:11.472799Z"
+}
