@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2505.10636",
+    "arxiv_id": "2505.10636",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1093/mnras/staf1802",
+    "title_en": "Searching optimal scales for reconstructing cosmological initial conditions using convolutional neural networks",
+    "abstract_en": "Reconstructing the initial density field of the Universe from the late-time matter distribution is a nontrivial task with implications for understanding structure formation in cosmology, offering insights into early Universe conditions. Convolutional neural networks (CNNs) have shown promise in tackling this problem by learning the complex mapping from nonlinear evolved fields back to initial conditions. Here we investigate the effect of varying input sub-box size in single-input CNNs. We find that intermediate scales ($L_\\mathrm{sub} \\sim 152\\,h^{-1}\\,\\mathrm{Mpc}$) strike the best balance between capturing local detail and global context, yielding the lowest validation loss and most accurate recovery across multiple statistical metrics. We then propose a dual-input model that combines two sub-boxes of different sizes from the same simulation volume. This model significantly improves reconstruction performance, especially on small scales over the best single-input case, despite utilizing the same parent simulation box. This demonstrates the advantage of explicitly incorporating multi-scale context into the network. Our results highlight the importance of input scale and network design in reconstruction tasks. The dual-input approach represents a simple yet powerful enhancement that leverages fixed input information more efficiently, paving the way for more accurate cosmological inference from large-scale structure surveys.",
+    "authors": [
+      "Koichiro Nakashima",
+      "Kiyotomo Ichiki",
+      "Atsushi J. Nishizawa",
+      "Kenji Hasegawa"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-05-15T18:17:32Z",
+    "updated_at": "2026-07-17T11:40:34Z",
+    "document_types": [],
+    "journal_ref": "Mon Not R Astron Soc (2025) 2586-2598",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2505.10636v2",
+    "pdf_url": "https://arxiv.org/pdf/2505.10636v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2505.10636",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://arxiv.org/abs/2505.10636v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

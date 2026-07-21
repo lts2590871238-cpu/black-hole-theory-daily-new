@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15873",
+    "arxiv_id": "2607.15873",
+    "arxiv_version": null,
+    "inspire_id": "3181666",
+    "doi": null,
+    "title_en": "Programming with Quantum-Controlled Quantum Channels",
+    "abstract_en": "In contrast to a classical bit, which can only take the value $0$ or $1$, its quantum counterpart -- a qubit -- can exist in a superposition of $0$ and $1$. This is a superposition of data values, naturally raising the question of whether one can superpose not only data but also programs. For example, a particular superposition of programs, known as the quantum SWITCH, has attracted much attention, and its implementations and computational advantages have been studied extensively within the physics community. A naive way to control a program by a qubit is by means of a controlled operation. Given an operation $F$, this amounts to considering an operation that behaves as $F$ when the control qubit is $|1\\rangle$, and as the identity operation when the control qubit is $|0\\rangle$. This idea works well when $F$ is a unitary operation, but it is not well-defined for a general quantum channel. By contrast, the quantum SWITCH is free from the well-definedness issue. This contrast leads to the key insight of this paper: controlled operations and the quantum SWITCH should be regarded as different kinds of quantum control mechanisms. Building on this insight, we develop a novel quantum programming language with quantum control and measurement that can express the quantum SWITCH over quantum channels. Using a semantic analysis based on program transformations, we identify the source of the ill-behavedness of controlled operations as the \\emph{correspondence problem}: a lack of coordination between the measurements performed in the then- and else-branches of quantum conditional branching. We address this problem with a linear type system that enforces alignment of the quantum operations used in the two branches, yielding a well-behaved language capable of expressing the quantum SWITCH.",
+    "authors": [
+      "Hirata, Kengo",
+      "Tsukada, Takeshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T15:46:46.964427Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181666",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181666",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181666"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15906",
+    "arxiv_id": "2607.15906",
+    "arxiv_version": null,
+    "inspire_id": "3181646",
+    "doi": null,
+    "title_en": "Alleviating the Sparse Matrix Scaling Bottleneck in Adaptive VQE via Greedy Operator Commutativity Partitioning and High-Order Taylor State Evolution",
+    "abstract_en": "The Variational Quantum Eigensolver (VQE) and its adaptive variants, such as ADAPT-VQE, are central to the study of strongly correlated quantum systems. However, the classical simulation of the ansatz growth process remains constrained by the exponential scaling of operator space and the associated computational cost of unitary evolution. We introduce the Greedy Operator Commutativity Partitioning (GOCP) framework, an analytical methodology designed to optimize both operator selection and state evolution. By reformulating complex unitary rotations as a chained sequence of fifth-order O(5) Taylor series expansions, GOCP bypasses the need for explicit matrix exponentiation, reducing the computational task to a sequence of sparse matrix-vector operations. We evaluate the performance of this framework across diverse molecular systems, including BeH2 and strongly correlated H2O geometries, utilizing both Jordan-Wigner and Bravyi-Kitaev mappings. Our results demonstrate that the GOCP framework maintains exceptional numerical fidelity-exceeding 1 - 10^-6 in state fidelity-while achieving sub-chemical accuracy in ground-state energy calculations. By enabling the simulation of operator manifolds exceeding 2.68 x 10^8 elements with high efficiency, this approach provides a scalable and rigorous pathway for exploring deep variational circuits in complex quantum many-body systems.",
+    "authors": [
+      "Dipojono, Hermawan Kresno"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T15:47:18.066968Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181646",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181646",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181646"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

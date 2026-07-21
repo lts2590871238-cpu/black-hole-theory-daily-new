@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15361",
+    "arxiv_id": "2607.15361",
+    "arxiv_version": null,
+    "inspire_id": "3181481",
+    "doi": null,
+    "title_en": "Mitigating Detector Ageing Effects with Graph-Based Multi-Modal Track Reconstruction at Belle II",
+    "abstract_en": "Large backgrounds that can lead to hardware failures and the degradation of detector gain impact the track finding in the Belle II central drift chamber. These conditions lead to spatially non-uniform and time-dependent inefficiencies, which results in inactive regions and missing hits which challenges conventional tracking algorithms and necessitate the development of new track finding algorithms. In this work, we evaluate the performance of our previously developed unified graph neural network (GNN) based track-finding algorithm under realistic long-term detector ageing conditions. Track finding is formulated as a global relational clustering problem using object condensation, which enables the reconstruction of an unknown and variable number of tracks per event. Using a realistic full detector simulation incorporating beam-induced backgrounds, detector noise, and measured detector ageing effects, we evaluate the tracking performance and compare it to the current Belle II baseline reconstruction. We show that detector degradation can be treated as a domain shift in the observed hit patterns, rather than requiring a fundamentally new reconstruction strategy. After retraining on degraded detector conditions, the GNN-based approach limits the absolute track efficiency loss for uniformly displaced muons to 14%, compared to 28% for the baseline tracking, while maintaining a track purity of 96%. Under the same conditions, the baseline reconstruction achieves only 90% track purity. These results demonstrate that the unified GNN-based reconstruction provides increased robustness to irregular hit patterns and extended inactive regions, enabling stable tracking performance under long-term detector ageing at Belle II.",
+    "authors": [
+      "Reuter, Lea",
+      "Brandes, Tristan",
+      "De Pietro, Giacomo",
+      "Ferber, Torben"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-20T08:38:33.792007Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/3115240'}, C25-11-10.7"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181481",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181481",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181481"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

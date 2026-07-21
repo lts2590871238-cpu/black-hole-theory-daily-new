@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.16166",
+    "arxiv_id": "2607.16166",
+    "arxiv_version": null,
+    "inspire_id": "3181684",
+    "doi": null,
+    "title_en": "Fast logical operations in quantum LDPC codes using simple resource states",
+    "abstract_en": "Quantum LPDC codes provide a substantial reduction in qubit overhead required for fault-tolerant quantum computation compared to surface code, thanks to their high encoding rate. However, operating simultaneously on multiple logical qubits encoded in the same block is more challenging and may slow down logical operations. Prior work addresses this problem by designing complex resource states to perform logical measurements in LDPC codes. Here, we propose an approach that only consumes cat states. Whereas previous work on cat-based measurements focuses on a single logical measurement, we design a protocol for the joint measurement of $\\ell$ commuting logical operators. The key ingredient is the design of a scheduler code determining the measurement sequence and allowing for the decoding of all logical measurement outcomes. Numerical simulations with the LDPC codes Q70 and Q102 of the walking cat architecture show a speed-up of nearly $3\\times$ over Viterbi measurements for the measurement of $\\ell=20$ commuting logical operators. Combining our fast logical measurements with a new variant of the CliNR partial error correction scheme, we achieve a speed up of up to up to $74\\times$ for random Clifford circuits. Our approach also applies to non-Clifford gates, producing a speed up of up to $5\\times$ for Toffoli gates.",
+    "authors": [
+      "Webster, Mark",
+      "Delfosse, Nicolas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T15:46:51.671300Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181684",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181684",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181684"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

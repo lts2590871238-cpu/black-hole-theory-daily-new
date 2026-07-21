@@ -1,0 +1,74 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2303.18039",
+    "arxiv_id": "2303.18039",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/physrevd.108.124035",
+    "title_en": "Laying the foundation of the effective-one-body waveform models SEOBNRv5: improved accuracy and efficiency for spinning non-precessing binary black holes",
+    "abstract_en": "We present SEOBNRv5HM, a more accurate and faster inspiral-merger-ringdown gravitational waveform model for quasi-circular, spinning, nonprecessing binary black holes within the effective-one-body (EOB) formalism. Compared to its predecessor, SEOBNRv4HM, the waveform model i) incorporates recent high-order post- Newtonian results in the inspiral, with improved resummations, ii) includes the gravitational modes (l, |m|) = (3, 2), (4, 3), in addition to the (2, 2), (3, 3), (2, 1), (4, 4), (5, 5) modes already implemented in SEOBNRv4HM, iii) is calibrated to larger mass-ratios and spins using a catalog of 442 numerical-relativity (NR) simulations and 13 additional waveforms from black-hole perturbation theory, iv) incorporates information from second-order gravitational self-force (2GSF) in the nonspinning modes and radiation-reaction force. Computing the unfaithfulness against NR simulations, we find that for the dominant (2, 2) mode the maximum unfaithfulness in the total mass range $10-300 M_{\\odot}$ is below $10^{-3}$ for 90% of the cases (38% for SEOBNRv4HM). When including all modes up to l = 5 we find 98% (49%) of the cases with unfaithfulness below $10^{-2} (10^{-3})$, while these numbers reduce to 88% (5%) when using SEOBNRv4HM. Furthermore, the model shows improved agreement with NR in other dynamical quantities (e.g., the angular momentum flux and binding energy), providing a powerful check of its physical robustness. We implemented the waveform model in a high-performance Python package (pySEOBNR), which leads to evaluation times faster than SEOBNRv4HM by a factor 10 to 50, depending on the configuration, and provides the flexibility to easily include spin-precession and eccentric effects, thus making it the starting point for a new generation of EOBNR waveform models (SEOBNRv5) to be employed for upcoming observing runs of the LIGO-Virgo-KAGRA detectors.",
+    "authors": [
+      "Lorenzo Pompili",
+      "Alessandra Buonanno",
+      "Héctor Estellés",
+      "Mohammed Khalil",
+      "Maarten van de Meent",
+      "Deyan P. Mihaylov",
+      "Serguei Ossokine",
+      "Michael Pürrer",
+      "Antoni Ramos-Buades",
+      "Ajit Kumar Mehta",
+      "Roberto Cotesta",
+      "Sylvain Marsat",
+      "Michael Boyle",
+      "Lawrence E. Kidder",
+      "Harald P. Pfeiffer",
+      "Mark A. Scheel",
+      "Hannes R. Rüter",
+      "Nils Vu",
+      "Reetika Dudi",
+      "Sizheng Ma",
+      "Keefe Mitman",
+      "Denyz Melchor",
+      "Sierra Thomas",
+      "Jennifer Sanchez"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2023-03-31T13:20:10Z",
+    "updated_at": "2026-07-17T16:05:47Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 108, 124035 (2023)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2303.18039v2",
+    "pdf_url": "https://arxiv.org/pdf/2303.18039v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2303.18039",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://arxiv.org/abs/2303.18039v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

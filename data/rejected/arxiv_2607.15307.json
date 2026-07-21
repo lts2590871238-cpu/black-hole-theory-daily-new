@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15307",
+    "arxiv_id": "2607.15307",
+    "arxiv_version": null,
+    "inspire_id": "3181571",
+    "doi": null,
+    "title_en": "Shielded RL for Route-Charged Parity-Term Ordering in QEDA Phase Components",
+    "abstract_en": "Commuting phase terms in quantum electronic design automation (QEDA) placement circuits are logically invariant under reordering, yet their routed cost varies substantially after hardware mapping, since term order affects CNOT cancellation, interaction locality, and routing pressure. We cast parity/support phase-term ordering within a QEDA phase component as a shielded reinforcement-learning problem: a feasibility shield restricts each step to unemitted terms, so every trajectory is a valid permutation by construction, and an elite (cross-entropy-method) policy is trained against a route-charged proxy combining support-transition size and heavy-hex topology-distance features. We validate by direct Qiskit routing of logically equivalent circuits to a synthetic IBM-style heavy-hex map. On 36-term parity-walk components (50 term seeds x 2 transpiler seeds, statistics at the term-seed level), the per-instance learned ordering reduces mean routed CX to 336.0, a 5.7-12.2% paired reduction over 2-opt and simulated-annealing search at equal or greater proxy budget and 22.3% over the default construction order; routed-CX and routed-depth gains are significant after Bonferroni correction. Honest transfer audits show the proxy is predictive for the parity-walk component but not for extraction-heavy or token/permutation circuits, which require architecture-aware rewards, scoping the contribution accordingly.",
+    "authors": [
+      "Friedewald, Owen",
+      "Sichani, Ali Shiri",
+      "Shyu, Chi-Ren"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-15T00:00:00Z",
+    "updated_at": "2026-07-20T15:49:28.270863Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181571",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181571",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181571"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

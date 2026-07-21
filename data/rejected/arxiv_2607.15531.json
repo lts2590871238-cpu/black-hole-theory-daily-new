@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15531",
+    "arxiv_id": "2607.15531",
+    "arxiv_version": null,
+    "inspire_id": "3181510",
+    "doi": null,
+    "title_en": "JetCoRD: Reliability-Aware Cross-Experiment Distillation of Jet Taggers with Adaptive Corrective Representation",
+    "abstract_en": "Modern jet taggers based on graph and transformer networks deliver state-of-the-art performance but are expensive to train and difficult to share across experiments. Knowledge distillation can in principle achieve model compression, but it rests on the assumption that the teacher model acts as a perfect tagger. This assumption fails to hold at high-purity working points, where the teacher itself exhibits a jet prediction error rate of approximately $10\\%$ to $30\\%$. We introduce JetCoRD, the first cross-experiment distillation in HEP: an 82 k-parameter unified student distilling jointly from ATLAS GN2 (5 M params, 3 classes) and CMS ParT (2 M params, 10 classes). The central innovation is a single per-sample reliability signal $r_i$ that simultaneously weights the distillation loss, controls prototype-based teacher repair, and anchors the inference-time gate $g_i$ that mixes teacher and student logits. With only 82 k trainable parameters (1.2% of the combined 7 M teacher parameters), the student matches both teachers in overall accuracy and exceeds them at physics-actionable working points: $+4.3\\%$ on $b$-vs-$c$ at $\\varepsilon=0.77$, $+1.5\\%$ on $c$-vs-$u$ at $\\varepsilon=0.30$, $+1.6\\%$ on $T\\!\\to\\!bqq$ at $\\varepsilon=0.5$ and $+1.4\\%$ on $H\\!\\to\\!bb$ at $\\varepsilon=0.5$. The reliability-coupled design is novel in HEP distillation and applicable wherever an imperfectly calibrated teacher must be compressed.",
+    "authors": [
+      "Gao, Liu-Long",
+      "Huang, Zheng-Kun",
+      "Jiang, Xiao-Wei",
+      "Li, Jia-Feng",
+      "Sun, Gong-Xing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T04:06:45.941539Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181510",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181510",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181510"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

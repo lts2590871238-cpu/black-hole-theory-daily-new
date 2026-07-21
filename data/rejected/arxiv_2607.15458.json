@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15458",
+    "arxiv_id": "2607.15458",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Data-efficient reconstruction of critical quantum dynamics via blind fractional-envelope extrapolation",
+    "abstract_en": "Simulating real-time dynamics of quantum systems is often limited to short times by entanglement growth. Finite-pole reconstructions such as linear prediction and related machineries extrapolate such data reliably when the spectrum is a finite set of excitations, but at criticality the low-energy spectrum is a power-law continuum $A(ω)\\sim|ω|^{α-1}$ -- a branch cut whose real-time tail $G(t)\\sim t^{-α}$ finitely many poles cannot represent. Here we develop a fractional-calculus-motivated envelope extrapolation for such data. Its structure is motivated by a fractional form of Schwinger--Dyson (fSD) equation, in which the Laplace symbol $s^α$ carries the branch cut analytically while the residual self-energy remains meromorphic. On real data we employ the corresponding operational alternative -- the exponent $α$ is selected blindly inside the fit window, the signal is detrended by $t^α$, the residual is fitted by a stabilized finite-pole model, and the algebraic envelope is restored. On the critical XXZ chain this blind fractional-envelope method (fSD for short) extrapolates short-time data typically several-fold more accurately than finite-pole methods, with the exponent $α$ identified blindly from the fit window alone and bracketing the closed-form Luttinger value at weak coupling. The same blind search finds the $z=2$ dilute-magnon exponent $α=1/2$ at the $Δ=1$ saturation transition, and the advantage persists in the gapped free-magnon phase with its sharp band edges. On noncritical dynamical mean-field spectra, whose low-frequency response is regular, fSD by contrast fails to select any stable fractional envelope and reduces to the standard pole result rather than manufacturing a spurious power law, making it an efficient and accurate route to quantum critical dynamics when only short simulation times are accessible.",
+    "authors": [
+      "Hyunju Kim",
+      "Hyun-Yong Lee",
+      "Heung-Sik Kim"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-07-16T21:02:19Z",
+    "updated_at": "2026-07-16T21:02:19Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.15458v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.15458v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.15458",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://arxiv.org/abs/2607.15458v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15850",
+    "arxiv_id": "2607.15850",
+    "arxiv_version": 1,
+    "inspire_id": "3181641",
+    "doi": null,
+    "title_en": "Standard Reconstruction Shifts the Optimal Input Scale for CNN-Based Density-Field Reconstruction",
+    "abstract_en": "We investigate convolutional neural network (CNN) methods for reconstructing the high-redshift density field from late-time large-scale structure, focusing on how the physical scale of the CNN input changes when standard first-order reconstruction is applied beforehand. Using dark-matter-only $N$-body simulations, we compare three approaches: a single-input CNN, a dual-input CNN combining two physical scales, and a single-input CNN applied to the density field after standard reconstruction. We vary the physical side length of the input sub-box over $L_\\mathrm{sub}\\sim38$-$380~h^{-1}\\mathrm{Mpc}$ while keeping its numerical size fixed at $39^3$ voxels, allowing us to examine the trade-off between spatial context and resolution. For the CNN applied directly to the evolved density field, the reconstruction performs best at $L_\\mathrm{sub}\\sim150$-$200~h^{-1}\\mathrm{Mpc}$. After standard reconstruction, however, the preferred scale shifts to $L_\\mathrm{sub}\\sim38$-$114~h^{-1}\\mathrm{Mpc}$. The single-input CNN after standard reconstruction consistently outperforms both the single- and dual-input CNNs without standard reconstruction according to the normalized loss, density probability distribution, Kullback-Leibler divergence, residual field, and Fourier-space correlation. These results indicate that coherent large-scale displacements are more efficiently recovered by perturbative reconstruction, while the CNN is better suited to modelling the remaining quasi-linear and non-linear evolution on smaller scales. The preferred post-reconstruction input range includes the effective receptive scale of approximately $60~h^{-1}\\mathrm{Mpc}$ adopted in previous hybrid reconstruction studies. Our findings therefore support a physically motivated separation of scales between analytic and data-driven reconstruction and demonstrate the advantage of combining the two approaches.",
+    "authors": [
+      "Koichiro Nakashima",
+      "Kiyotomo Ichiki",
+      "Atsushi J. Nishizawa"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T04:12:00.743960Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.15850v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.15850v1",
+    "inspire_url": "https://inspirehep.net/literature/3181641",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.15850",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://arxiv.org/abs/2607.15850v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3181641",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181641"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

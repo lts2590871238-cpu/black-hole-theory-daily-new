@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15425",
+    "arxiv_id": "2607.15425",
+    "arxiv_version": null,
+    "inspire_id": "3181721",
+    "doi": null,
+    "title_en": "Electronic Structure Calculations from Occupation Numbers on Quantum Computers",
+    "abstract_en": "We present a quantum-classical algorithm for electronic structure calculations that dramatically reduces the quantum measurement cost of variational quantum eigensolver (VQE) approaches. While conventional VQE methods require measurements scaling as O(M^4) with system size M, the proposed occupation-number VQE (ON-VQE) reduces this cost to O(M/2) by avoiding reduced density matrix (RDM) measurements and relying exclusively on ONs. The method exploits only the diagonal elements of the one-particle RDM in the natural orbital representation, where occupations are obtained directly from computational-basis measurement outcomes. By restricting the variational ansatz to double excitations within orbital subspaces associated with electron pairs, the required measurements can be grouped into a small number of qubit-wise commuting observables, yielding an efficient and scalable measurement strategy. The approach is validated through simulations and executions on quantum hardware for the cubic H$_8$ cluster, demonstrating the feasibility of extracting accurate ONs from quantum measurements and evaluating electronic energies within the natural orbital functional (NOF) framework. Across representative molecular systems, the extracted ONs enable accurate energy evaluation with state-of-the-art NOFs while maintaining a dramatically reduced measurement cost. These results establish a scalable route toward quantum simulation of strongly correlated electronic systems, demonstrating that accurate electronic energies can be obtained from quantum measurements of ONs alone.",
+    "authors": [
+      "Salazar, Edison X.",
+      "Lew-Yee, Juan Felipe Huan",
+      "Piris, and Mario"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-20T16:06:48.717058Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181721",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181721",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181721"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

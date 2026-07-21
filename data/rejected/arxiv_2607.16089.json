@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.16089",
+    "arxiv_id": "2607.16089",
+    "arxiv_version": null,
+    "inspire_id": "3181728",
+    "doi": null,
+    "title_en": "SQUIRO: A Framework for Security-Aware Quantum-Classical Scheduling on Kubernetes",
+    "abstract_en": "Distributed infrastructure schedulers traditionally optimise capacity, locality, and cost, but provide limited support for security posture and emerging quantum-classical workloads. As hybrid quantum-classical computing becomes increasingly practical and post-quantum security requirements begin to affect infrastructure deployment, schedulers must jointly reason about heterogeneous compute resources, security constraints, and quantum backend characteristics. We present SQUIRO, a framework for security-aware quantum-classical scheduling based on a platform-independent Unified Scheduling Model (USM) and a six-step Scheduler Design Methodology (SDM) that together enable the derivation of concrete schedulers for Kubernetes, high-performance computing (HPC), and federated environments. The framework combines multidimensional security posture enforcement through hard feasibility constraints with residual-risk optimisation, and introduces a circuit-aware quantum backend selector that accounts for coherence margin, calibration freshness, queue pressure, and hardware capabilities through a forward-compatible colocation hierarchy. Evaluation on synthetic Kubernetes clusters shows that the security model enforces complete compliance for regulated workloads by construction, while global optimisation reduces infrastructure cost by up to 51% and energy consumption by up to 63% compared with greedy placement in underloaded scenarios, without compromising admission priorities. Additional experiments characterise the solve-time growth of the current CP-SAT formulation and show that circuit-aware backend selection systematically diverges from naive error-rate ranking under coherence- and queue-limited conditions.",
+    "authors": [
+      "Pedone, Ignazio",
+      "Giusto, Edoardo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T16:07:11.609029Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181728",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181728",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181728"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

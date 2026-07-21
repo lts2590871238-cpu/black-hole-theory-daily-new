@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15559",
+    "arxiv_id": "2607.15559",
+    "arxiv_version": null,
+    "inspire_id": "3181627",
+    "doi": null,
+    "title_en": "Agnostic learning of qudit stabilizer states",
+    "abstract_en": "Learning a classical description of a quantum state is a fundamental task in quantum computation. Among the most important classes of quantum states are stabilizer states, which play a central role in quantum error correction and fault-tolerant computation. To mitigate the effects of realistic noise, agnostic learning of stabilizer states has emerged as a natural and well-motivated problem. Recently, Chen \\textit{et al.} [STOC'25, p. 429-438] resolved this problem for qubit systems by using a stabilizer bootstrapping framework. However, the agnostic learning of qudit stabilizer states remains largely unexplored, since the qudit setting introduces fundamental structural differences that prevent a direct generalization of existing qubit techniques. In this paper, we successfully generalize the stabilizer bootstrapping framework to qudit systems and present the first efficient quantum algorithm for agnostic learning of qudit stabilizer states. Specifically, given copies of an unknown $n$-qudit pure state $|ψ\\rangle$ that has fidelity $τ$ with some stabilizer state, our algorithm outputs a stabilizer state $|ϕ\\rangle$ such that $\\left| \\braket{ϕ|ψ} \\right|^2 \\geq τ- \\varepsilon$ with high probability. The algorithm uses only single-copy and four-copy measurements, and its sample and time complexity scale as $(d/τ)^{O(d^2 \\log(1/τ))} \\cdot \\mathrm{poly}(n, 1/\\varepsilon)$, where the dimension $d$ is an odd prime. As a direct corollary, our algorithm enables efficient estimation of the magic of a quantum state, as quantified by its stabilizer fidelity. Completing the picture, we also present a streamlined algorithm for the high-fidelity regime $τ> \\cos^2(π/8)$, establishing a qudit analogue of the threshold-based approach in prior qubit work.",
+    "authors": [
+      "Qi, Wentao",
+      "Xu, Boyan",
+      "Feng, Shiguang",
+      "Li, Lvzhou"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T15:46:56.641564Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181627",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181627",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181627"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

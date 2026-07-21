@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15537",
+    "arxiv_id": "2607.15537",
+    "arxiv_version": null,
+    "inspire_id": "3181629",
+    "doi": null,
+    "title_en": "Microscopic Side Information Controls Ordered Hayden--Preskill Recovery",
+    "abstract_en": "In the Hayden--Preskill protocol, the decoder is usually assumed to know the microscopic identity of the collected output qubits. We study what happens when these labels are unavailable and only the relative order of the received qubits is preserved. The resulting order-preserving deletion channel maps an $n$-qubit scrambled register to a subsequence of length $\\ell$. For a diary of fixed size $k$, we prove that the optimal entanglement fidelity converges to the no-output value $4^{-k}$ when $\\ell=o(n^{2/3})$, uniformly over the scrambling unitary. For a Haar-random scrambling unitary, it converges to one when $\\ell=ω(n^{2/3})$ and $\\ell=o(n)$. Monotonicity then gives the fixed-error recovery scale $\\ell_{\\mathrm{rec}}=Θ(n^{2/3})$. We also consider partial position information obtained by dividing the register into $B$ consecutive blocks and revealing the block of origin of each received qubit. The recovery scale becomes $\\ell_{\\mathrm{rec}}(n,B)\\asymp n^{2/3}B^{-1/3}$ for $B\\leq\\sqrt n$ and $\\ell_{\\mathrm{rec}}(n,B)\\asymp n/B$ for $B\\geq\\sqrt n$. The exponent $2/3$ is traced to rank-aligned coincidences between random subsequences, which control both the converse and the recovery argument. Thus, even purely classical information about the origin of the received subsystems can change the amount of quantum output required for Hayden--Preskill recovery.",
+    "authors": [
+      "Alencar, Joao V.R.",
+      "Moreira, Allan R.P.",
+      "Silva, Joao B.R."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-20T15:46:46.507473Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181629",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181629",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181629"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

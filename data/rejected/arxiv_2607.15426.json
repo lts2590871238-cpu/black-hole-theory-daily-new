@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.15426",
+    "arxiv_id": "2607.15426",
+    "arxiv_version": null,
+    "inspire_id": "3181583",
+    "doi": null,
+    "title_en": "Performance Model for Hybrid Quantum-Classical Workflows",
+    "abstract_en": "Hybrid quantum-classical workflows are expected to underpin practical quantum computing applications, yet the quantum and HPC communities lack a shared framework for reasoning about where and when their integration requirements matter most. Such a framework must separate two distinct levels of analysis: the application level, where communication overhead affects runtime performance, and the real-time level, where it determines feasibility. To address this, we introduce a runtime model that decomposes workflow execution into quantum compute, classical compute, and communication costs. At the application level, a communication-to-computation ratio from this decomposition quantifies whether a workflow is communication-bound or compute-bound; at the real-time level, a feasibility constraint determines whether timing requirements can be met at all, with the reaction time setting the logical clock speed of fault-tolerant computation once they are. Application of this model to representative workflows demonstrates that co-location of quantum processors with HPC infrastructure offers negligible performance benefit for compute-intensive applications today, while tight integration remains crucial for real-time tasks such as quantum error correction needed for large scale quantum computations. However, we discuss how even at the application level these assessments may shift with hardware evolution, illustrating how the model can identify specific crossover conditions, and how, under fault tolerance, the reaction time can set application-level performance.",
+    "authors": [
+      "Rao, Pooja",
+      "Trenev, Dimitar",
+      "Gonthier, Jerome",
+      "Patti, Taylor",
+      "Stern, Sebastian",
+      "Takeshita, Tyler",
+      "Alexeev, Yuri",
+      "Lin, Cedric",
+      "McArdle, Sam",
+      "Lietz, Justin",
+      "Klymko, Katherine",
+      "Rrapaj, Ermal",
+      "Tubman, Norm",
+      "Svore, Krysta",
+      "Komar, Peter",
+      "Kyoseva, Elica"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-16T00:00:00Z",
+    "updated_at": "2026-07-20T15:46:49.821570Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181583",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181583",
+        "fetched_at": "2026-07-21T00:16:08.085426Z",
+        "url": "https://inspirehep.net/literature/3181583"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
