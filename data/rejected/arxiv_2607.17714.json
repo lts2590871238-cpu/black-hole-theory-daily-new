@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17714",
+    "arxiv_id": "2607.17714",
+    "arxiv_version": null,
+    "inspire_id": "3182051",
+    "doi": null,
+    "title_en": "Formal Verification of Continuous-Variable Quantum Programs",
+    "abstract_en": "We provide a formal framework for Continuous-Variable Quantum Computing (CQC). While CQC is supported by photonic quantum hardware, we are not aware of a formal semantics for continuous-variable quantum programs nor of a unary Hoare logic for their verification. There are several technical obstacles to extending to CQC any of the formal frameworks available for Discrete-Variable Quantum Computing (DQC). Most importantly, continuous-variable quantum programs act on {\\em infinite-dimensional} Hilbert spaces; their measurement outcomes are often {\\em unbounded} and have expected values that are defined by an improper integral (or an infinite series), which may not converge. We overcome these challenges to give a formal semantics to a universal programming language for CQC and to provide the first Hoare logic for CQC. The assertions of our logic are built from polynomials over canonical observables. Besides proving relative completeness, we implement a symbolic weakest-precondition calculator for CQC based on our logic. Our tool has successfully verified CQC algorithms from textbooks and calculated their approximation errors for physically realizable implementations, proved the correctness (i.e., equivalence) of gate decompositions for CQC hardware, and computed the resource requirements (i.e., number of photon-number states) for achieving a desired accuracy in the classical simulation of continuous-variable quantum programs.",
+    "authors": [
+      "Muroya, Stefanie",
+      "Henzinger, Thomas A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T10:53:52.830699Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182051",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182051",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182051"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

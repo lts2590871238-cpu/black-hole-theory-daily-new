@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17327",
+    "arxiv_id": "2607.17327",
+    "arxiv_version": null,
+    "inspire_id": "3181993",
+    "doi": null,
+    "title_en": "Interpreting Quantum Learning Models via Stochastic Processes",
+    "abstract_en": "Quantum machine learning models define probabilistic input--output maps through coherent quantum evolution and measurement. While such models can exhibit computational advantages, their internal functioning and decision making generally resists interpretation in terms of stochastic trajectories through intermediate configurations. In contrast to classical (Markovian) stochastic processes, quantum dynamics generically violates the Chapman--Kolmogorov divisibility condition, preventing a decomposition into probabilistically meaningful intermediate transitions. We develop a probabilistic framework for representing quantum learning models as stochastic processes over configuration spaces where the dynamics are modeled as linear maps on probability distributions. Starting from a fixed POVM, arbitrary quantum channels induce transition kernels on the associated probability representation. For informationally complete POVMs, and in particular SIC-POVMs, these kernels are Markovian but generally quasi-stochastic, with non-classicality appearing as negativity. By contrast, projective spaces admit positive stochastic kernels but generally require non-Markovian dynamics due to the failure of Chapman--Kolmogorov divisibility. This yields a trade-off between negativity and dependence on past configurations, i.e. quantum dynamics can be represented either by Markovian quasi-stochastic maps or by positive stochastic processes with higher Markov order. We discuss how such representations of quantum dynamics can be interpreted as stochastic walks through a memory space in the spirit of Projective Simulation, a model of learning and agency in which decisions arise from random walks over an episodic memory network. We further outline how finite-order stochastic kernels can approximate such quantum deliberation processes and show in what regimes the classical machine learning model is recovered.",
+    "authors": [
+      "Fankhauser, Johannes",
+      "Fiderer, Lukas J.",
+      "Briegel, Hans J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-19T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:40.776987Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181993",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181993",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3181993"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17942",
+    "arxiv_id": "2607.17942",
+    "arxiv_version": 1,
+    "inspire_id": "3182074",
+    "doi": null,
+    "title_en": "Comparing explicit likelihood and likelihood-free simulation-based inference for weak lensing cosmic shear",
+    "abstract_en": "Simulation-based inference (SBI) has become a major tool for extracting cosmological information from weak-lensing (WL) surveys, particularly from non-Gaussian observables. We compare its two main paradigms: explicit likelihood inference (ELI), based on a Gaussian likelihood built from an emulator and covariance matrix, and likelihood-free inference (LFI), which learns the likelihood directly from simulations using neural density estimators. Using Gaussian random field mocks representative of the non-tomographic final Euclid data release, we analyse shear two-point correlation functions (shear-2PCFs), compressed with linear or non-linear methods, together with a fundamentally different map-level convolutional neural network (CNN) statistic, focusing on $Ω_{\\rm m}$ and $S_8$. We deploy posterior calibration diagnostics developed for LFI, including the test of accuracy with random points (TARP), showing that ELI becomes strongly miscalibrated under emulation inaccuracies or likelihood non-Gaussianity, whereas LFI remains well calibrated. These effects drive substantial disagreement between ELI and LFI, which largely vanishes once addressed. We further show that the compression scheme can significantly degrade ELI while leaving LFI largely unaffected. Although shear-2PCFs should capture all the information in Gaussian fields, finite compression and non-Gaussian likelihoods cause ELI constraints to differ by up to a factor of two from those inferred with the CNN, while the discrepancy drops to $\\approx 30\\%$ for LFI, underscoring the robustness of the deep-learning probe. Overall, our results indicate that in our simple setup, which neglects systematic biases, LFI provides a more robust and better-calibrated framework, while highlighting accurate non-Gaussian likelihood modelling and posterior calibration diagnostics as essential for future ELI analyses.",
+    "authors": [
+      "Simone Vinciguerra",
+      "Nicolas Martinet",
+      "Marco Gatti"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T04:36:34.465629Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.17942v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17942v1",
+    "inspire_url": "https://inspirehep.net/literature/3182074",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.17942",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://arxiv.org/abs/2607.17942v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3182074",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182074"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17498",
+    "arxiv_id": "2607.17498",
+    "arxiv_version": null,
+    "inspire_id": "3182016",
+    "doi": null,
+    "title_en": "LLM-Driven Cross-Paradigm Design for Quantum Optimal Control",
+    "abstract_en": "Quantum optimal control (QOC) underpins adiabatic quantum computation, quantum annealing, and quantum state engineering, yet practical deployment is fundamentally bottlenecked by strict hardware constraints and substantial expert effort required to design protocols for each problem instance. To overcome this, we introduce QOC-Workbench, an auditable, large language model (LLM)-driven workflow that acts as an automated quantum co-scientist for cross-paradigm protocol design. Going beyond traditional numerical optimizers that merely tune parameters within a fixed formula, the LLM autonomously parses physics literature, proposes structural hypotheses, and writes code to validate them by direct simulation. This workflow supports cross-paradigm design by accumulating control motifs across tasks. We demonstrate this approach across three distinct settings: Case 1, Rydberg-atom maximum-independent-set arrays; Case 2, interacting XXZ spin chains; and Case 3, random transverse-field Ising models. In Cases 1 and 2, the workflow autonomously discovers hardware-compliant auxiliary controls, target catalysts, and schedule deformations that outperform literature baselines. In Case 3, it addresses the computational bottleneck of variational counterdiabatic driving by escalating from per-instance optimization to an amortized graph-neural-network generator, successfully transferring learned coefficient paths to larger unseen systems. By actively bridging the gap between theoretical algorithms and experimental restrictions across distinct control paradigms and Hamiltonian families, QOC-Workbench establishes a continuously evolving, cross-paradigm methodology for autonomous quantum control.",
+    "authors": [
+      "Chen, Yu-Qin",
+      "Zhang, Shi-Xin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:42.193308Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182016",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182016",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182016"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

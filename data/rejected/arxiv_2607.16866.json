@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.16866",
+    "arxiv_id": "2607.16866",
+    "arxiv_version": null,
+    "inspire_id": "3181961",
+    "doi": null,
+    "title_en": "Certified Optimal Measurement Reduction over Quantum Context Landscapes",
+    "abstract_en": "Quantum-measurement reduction contains two distinct global-optimization layers: a continuous problem of splitting an observable and allocating shots within a fixed measurement dictionary, and a nonconvex outer problem of designing the dictionary and calibrating its data-driven uncertainty model. We solve the inner layer globally and certifiably as a second-order cone program (SOCP), and use RANGE, a robust adaptive nature-inspired global optimizer, for the combinatorial and statistical outer layer. For any declared set of contexts, per-shot costs, score functions, and covariance model, the SOCP returns the minimum leading shot cost among unbiased linear stratified estimators. The conic dual supplies an independently checkable lower-bound witness; after feasibility repair, an external verifier recomputes $L \\le Φ\\le U$ from stored data without trusting the optimizer. Pilot measurements yield simultaneous finite-sample covariance brackets, and the dual becomes a pricing oracle for omitted contexts. Discrete RANGE searches covering sub-dictionaries, Pareto compression fronts, and candidate contexts; continuous RANGE performs an explicitly empirical, coverage-constrained calibration of covariance-radius models, while rigorous certificates retain the proved finite-sample radius. RANGE compresses molecular context dictionaries by 4.3-6.1x at 0.2-2.1% certified-frontier excess. Standard strategies are exactly optimal for H2 yet leave factors of 2.1-7.7 in shots within their own settings by H2O. Adding fully commuting contexts lowers the certified optimum by up to 56%; on 29-35-qubit production f-element Hamiltonians under a declared Hartree-Fock-proxy covariance model, the capped-dictionary enlargement saves 31-70% of the shots, and transformations reducing block-encoding cost need not reduce sampling cost.",
+    "authors": [
+      "Zahariev, Federico",
+      "Glezakou, Vanda"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-18T00:00:00Z",
+    "updated_at": "2026-07-21T04:28:09.266375Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181961",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181961",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3181961"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

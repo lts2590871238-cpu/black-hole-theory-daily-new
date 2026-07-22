@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17488",
+    "arxiv_id": "2607.17488",
+    "arxiv_version": 1,
+    "inspire_id": "3182007",
+    "doi": "10.1103/hsms-7v8x36",
+    "title_en": "Surrogate models for type II supernovae: Probing low-energy explosions and interaction-free regimes",
+    "abstract_en": "To address the computational bottleneck of analyzing type II supernova samples from surveys such as the Legacy Survey of Space and Time, we present two STELLA-based neural-network surrogates: an interaction model for low-energy explosions with possible circumstellar-material (CSM) interaction and a photospheric model for standard interaction-free SNe IIP. Each uses an autoencoder to compress spectral energy distributions and an emulator to map physical parameters to the latent space. Latent-mixup regularization improves latent-space continuity, with ResNet blocks used for the interaction model and 2D CNNs for the photospheric model. Their normalized test-set reconstruction MSEs are approximately 9.1e-5 and 1.0e-4, respectively. Applied to SN 2005cs, the interaction model favors a low-mass progenitor, M_ZAMS = 10.40(+0.04/-0.05) M_sun, and confined dense CSM, providing a scenario consistent with direct imaging and helping resolve the historical mass discrepancy. For SN 2012aw, it recovers M_ZAMS = 11.05(+0.06/-0.06) M_sun, consistent with previous studies. For SN 1999em, the photospheric model gives M_ZAMS = 10.05(+0.07/-0.04) M_sun, broadly consistent with preexplosion imaging limits without explicit CSM modeling. These surrogates reduce full Bayesian inference from days to minutes and enable rapid physical characterization of large supernova samples.",
+    "authors": [
+      "Zhengyang Zhang",
+      "Shuai Zha",
+      "Nikhil Sarin",
+      "Takashi J. Moriya",
+      "Chengyuan Wu",
+      "Bo Wang"
+    ],
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T04:30:28.166294Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.17488v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17488v1",
+    "inspire_url": "https://inspirehep.net/literature/3182007",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.17488",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://arxiv.org/abs/2607.17488v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3182007",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182007"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17314",
+    "arxiv_id": "2607.17314",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Interpolative Separable Density-Fitting for Transcorrelated Hamiltonians",
+    "abstract_en": "The transcorrelated (TC) method dramatically accelerates the convergence of correlated calculations toward the complete-basis-set (CBS) limit by folding a Jastrow correlator into the Hamiltonian via a similarity transformation, incorporating the electron--electron cusp into the effective interaction. We make the TC framework practical for large systems and flexible, multi-center correlators by compressing the grid-evaluated TC integrals with the interpolative separable density-fitting (ISDF) approximation, combined with the effective two-body (xTC) treatment of the three-body operator. This low-rank representation reduces storage and integration costs by orders of magnitude, and a multi-GPU implementation with automatic differentiation of the correlator makes the construction routine for large basis sets. We demonstrate the resulting ISDF-xTC-CCSD method on the linear hydrogen chain, reaching the joint thermodynamic and CBS limits with basis sets up to cc-pV5Z in agreement with state-of-the-art many-body references to within about 1~mHa/atom, and on the benzene ground-state energy with up to 1200 orbitals (cc-pCV5Z), where the method attains state-of-the-art accuracy at the coupled cluster singles and doubles level and its CBS extrapolation is markedly more robust than that of conventional coupled-cluster methods.",
+    "authors": [
+      "Ke Liao",
+      "Yifan Cheng",
+      "Werner Dobrautz",
+      "Tianyu Zhu",
+      "Ali Alavi"
+    ],
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.str-el",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-07-19T15:59:47Z",
+    "updated_at": "2026-07-19T15:59:47Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.17314v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17314v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.17314",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://arxiv.org/abs/2607.17314v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

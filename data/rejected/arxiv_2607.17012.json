@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17012",
+    "arxiv_id": "2607.17012",
+    "arxiv_version": null,
+    "inspire_id": "3181956",
+    "doi": null,
+    "title_en": "Schema-Bound LLM Control of Scientific Instrumentation through Model Context Protocol Skills",
+    "abstract_en": "Large language models (LLMs) can plan tool-mediated scientific work, but scientific instruments remain difficult to connect to such agents: vendor APIs may load only inside acquisition host processes, facilities may prohibit cloud-hosted agents, and natural-language interfaces can emit physically unreasonable arguments. We present a method for connecting local LLMs to scientific instruments through the Model Context Protocol (MCP). It combines: (1) a schema-bound tool surface that validates requests against physical bounds before adapter dispatch; (2) a vendor-neutral, host-process adapter pattern separating language-side reasoning from instrument-side execution; (3) a persistent lifecycle for long-running live-processing jobs; and (4) MCP-prompt-registered skills that compose typed tools into reusable multi-step protocols. Our open-source reference server exposes 30 typed tools, 5 live-job types, and 6 skills through a physics-plausible simulator implementing the same protocol surface. Validation is software-only: all 120 hardware-independent tests pass deterministically, while 15 local-LLM integration tests pass 12-15 of 15 across runs because of model nondeterminism. A preliminary single-run probe across five open tool-calling LLMs indicates that the schema-bound interface can be driven locally by small open-weight models without cloud dependency; it is not a benchmark and has no confidence intervals. The method provides a bounded, testable, and reproducible foundation for closed-loop agentic instrumentation research.",
+    "authors": [
+      "Reis, Roberto dos",
+      "Dravid, Vinayak P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-19T00:00:00Z",
+    "updated_at": "2026-07-21T04:28:03.404210Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181956",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181956",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3181956"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

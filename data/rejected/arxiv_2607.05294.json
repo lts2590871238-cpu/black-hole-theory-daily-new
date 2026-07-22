@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.05294",
     "arxiv_id": "2607.05294",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": null,
     "doi": null,
     "title_en": "Polynomial Initial-State Jumps and Christoffel Transforms in Krylov Complexity",
-    "abstract_en": "State Krylov, or spread, complexity is a property of a pair $(H,\\ket{K_0})$ rather than of the Hamiltonian alone. Thus, changing the initial state at fixed $H$ generally changes the Lanczos coefficients and the ordered Krylov basis. We solve this relative initial-state problem for normalized polynomial filters, $\\ket{ψ_Q}=Q(H)\\ket{K_0}/\\sqrt{N_Q}$ with $N_Q=\\langle K_0|Q(H)^\\dagger Q(H)|K_0\\rangle$. The filtered spectral measure is the positive polynomial modification $|Q(E)|^2\\mathrm dμ(E)/N_Q$, and orthogonality turns this measure change into a finite-band transfer from reference Fourier-orthogonal-polynomial moments to shifted Krylov amplitudes. We derive exact finite sums for individual amplitudes and projected Christoffel-Darboux kernels for cumulative probabilities and spread complexity. The formulae cover confluent roots, complex seed coefficients, support loss, and terminal quotients in finite dimensions. We evaluate the construction in three canonical Jacobi families, the Heisenberg--Weyl/Charlier oscillator, the compact $SU(2)$/Krawtchouk spin, and the constant-coefficient tight-binding/Chebyshev chain, with a Hermite central-limit scaling of Charlier as a continuous-spectrum check of this Christoffel jump machinery. Finite seed families are organized by a matrix-valued parent measure whose scalar compressions recover the individual shifted problems. The fixed-inner-product construction carries over to operator Krylov complexity after the replacement \\(H\\mapsto\\mathcal L\\) and \\(\\ket{K_0}\\mapsto O\\); polynomial seeds then become nested-commutator descendants \\(Q(\\mathcal L)O\\). The result is an exact relative calculus in which a solved cyclic problem generates a family of polynomially related initial-state dynamics without repeating Lanczos in the original Hilbert space.",
+    "abstract_en": "State Krylov, or spread, complexity belongs to the cyclic pair $(H,|K_0\\rangle)$, so changing the initial state at fixed-$H$ reorganizes the Lanczos chain within the reference cyclic subspace. For normalized polynomial descendants $|ψ_Q\\rangle \\propto Q(H)|K_0\\rangle$, this reorganization is the positive Christoffel reweighting of the reference measure by $|Q|^2$. Orthogonality gives a finite-band transfer from reference Fourier-orthogonal-polynomial moments to shifted amplitudes, while a finite-rank projection of its Christoffel-Darboux kernel yields cumulative probabilities and spread complexity. Complex superpositions, confluent roots, deletion of spectral atoms and terminal closure enter the same construction. In the Heisenberg-Weyl/Charlier oscillator, root-free remainder recurrences govern arbitrary number-state jumps. Their large-index behavior distinguishes generic shifts from resonant deletion of Poisson atoms, determines the Jacobi asymptotics, and proves the finiteness of the complexity at finite time for every fixed jump. In finite $SU(2)$/Krawtchouk and tight-binding/Chebyshev chains, product identities and product-Gram factorizations in the terminal quotient determine all weight-state and localized-site connectors through the terminal edge, while Weyl reflection pairs opposite spin weights. The first-jump Charlier-Hermite scaling carries it to continuous spectral support. Finite seed families admit a matrix-valued parent measure, and the relative calculus extends to polynomial operator descendants whenever the Liouvillian has a self-adjoint realization for the chosen inner product. A solved cyclic problem determines a family of fixed-$H$ dynamics and separates preparation dependence from changes of the generator or Hilbert-space dimension.",
     "authors": [
       "Abhishek Chowdhury",
       "Ajit Prasad Mahapatra"
@@ -17,22 +17,22 @@
       "quant-ph"
     ],
     "submitted_at": "2026-07-06T16:37:39Z",
-    "updated_at": "2026-07-06T16:37:39Z",
+    "updated_at": "2026-07-19T16:08:57Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2607.05294v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.05294v1",
+    "abs_url": "https://arxiv.org/abs/2607.05294v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.05294v2",
     "inspire_url": null,
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.05294",
-        "fetched_at": "2026-07-13T12:53:32.407803Z",
-        "url": "https://arxiv.org/abs/2607.05294v1"
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://arxiv.org/abs/2607.05294v2"
       }
     ],
     "is_demo": false

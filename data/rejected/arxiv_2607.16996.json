@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.16996",
+    "arxiv_id": "2607.16996",
+    "arxiv_version": null,
+    "inspire_id": "3182010",
+    "doi": null,
+    "title_en": "Encoding Choices and Fault-Tolerant Resource Estimates for Digital Quantum Hamiltonian Descent",
+    "abstract_en": "Quantum Hamiltonian descent (QHD) formulates continuous optimization as time-dependent quantum dynamics, where a kinetic term drives exploration and a potential term encodes the objective function. Digital implementations of QHD require encoding the search space into qubits, and this choice can shift the dominant cost among logical qubits, circuit depth, non-Clifford rotations, and potential synthesis. In this work, we present an encoding-aware resource analysis comparing one-hot and binary amplitude encodings for QHD. We derive gate-count scalings, construct and validate circuits against classical \\Sch-equation solvers, and estimate Clifford+$R_z$ and fault-tolerant Clifford+$T$ resources on benchmark optimization problems. Binary encoding reduces the data register from $O(dN)$ to $O(d\\log N)$ qubits and gives comparable asymptotic scaling for both kinetic and potential evolutions. Across all benchmark problems studied, binary encoding also uses fewer $R_z$ rotations than one-hot encoding, making it the preferred option for fault-tolerant implementations where arbitrary rotations dominate the cost. Kinetic approximations based on low-momentum spectra and approximate QFTs can further reduce the binary kinetic cost to polylogarithmic scaling. However, for targets such as Ackley, potential synthesis can dominate the total cost and reduce the benefit of kinetic approximations. These results suggest that exploiting the analytic structure of the target function to compile the potential evolution in QHD more efficiently is needed for further resource reductions.",
+    "authors": [
+      "Liu, Chenxu",
+      "Wang, Meng",
+      "Li, Mingze",
+      "Zheng, Muqing",
+      "Stein, Samuel",
+      "Chen, Yousu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-18T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:45.542936Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182010",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182010",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182010"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

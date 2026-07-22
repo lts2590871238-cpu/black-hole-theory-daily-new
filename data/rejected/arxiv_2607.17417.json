@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17417",
+    "arxiv_id": "2607.17417",
+    "arxiv_version": null,
+    "inspire_id": "3182026",
+    "doi": null,
+    "title_en": "Grounded verification of chemical and materials reasoning: detection is the bottleneck",
+    "abstract_en": "Large language models confabulate chemical objects (molecular formulas, space groups, formation energies) in fluent reasoning traces, concentrated on long-tail entities where confidence is least trustworthy. Deterministic, database-grounded verification can catch and repair such errors without the coverage cost of blanket retrieval; the binding constraint, we find, is detection, not repair. Our tiered verifier extracts each checkable claim, checks it against authoritative databases and physics, and feeds the reference into a gated correction loop. Across four models and 528 condition-pinned prompts, gated correction cuts committed-formula error from 22% to 4% at $3.2\\times$ fewer retrievals than blanket augmentation, beating a conversational oracle. Repair succeeds wherever a flag fires (80--97%); the bottleneck is in-loop detection recall. Grounding improves the final answer only when the verifier's scope reaches the deliverable (83% to 90%), and the lift appears only where extractable long-tail error exists: absent on near-ceiling physical constants, large on isotope half-lives (11% to 0%).",
+    "authors": [
+      "Polat, Can",
+      "Kurban, Mustafa",
+      "Serpedin, Erchin",
+      "Kurban, Hasan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-19T00:00:00Z",
+    "updated_at": "2026-07-21T04:31:56.719598Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182026",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182026",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182026"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

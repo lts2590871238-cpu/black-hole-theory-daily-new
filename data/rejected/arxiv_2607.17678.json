@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17678",
+    "arxiv_id": "2607.17678",
+    "arxiv_version": null,
+    "inspire_id": "3182018",
+    "doi": null,
+    "title_en": "Variance-Reduced Trajectory Unravelings for GPU Noisy Quantum-Circuit Simulation: Characterization and a Qiskit-Aer Integration Gap",
+    "abstract_en": "Monte-Carlo trajectory (quantum-jump) methods are the practical route to simulating noisy quantum circuits once the exact density-matrix method is precluded by its $4^n$ memory cost. Their bottleneck is estimator variance: resolving one expectation value can demand thousands of trajectories. Recent tensor-network work shows that \\emph{variance-reduced unravelings}-- projector and analog sampling -- sharply cut this variance, but only on CPU matrix-product-state backends, with no path into production tooling. We implement both unravelings on a \\emph{GPU dense-statevector} trajectory engine and validate them against the exact density matrix (ideal-circuit fidelity $1-2.2\\times10^{-16}$; $1/\\sqrt{N}$ convergence; all unravelings unbiased to trace distance $<0.01$). On a single consumer GPU, projector unraveling reaches a target standard error with $20.8\\times$ fewer trajectories than Qiskit-Aer's \\texttt{batched\\_shots\\_gpu} at $n=10$, a factor that holds at $19$--$26\\times$ across $n=8$--$20$. A regime map places analog sampling optimal at weak noise and projector at strong noise, crossing near $γt\\approx0.35$. We further report a systems finding: Qiskit-Aer applies noise at the \\emph{channel} level and reconstructs a canonical Kraus decomposition at apply time, discarding any user-supplied unraveling, so variance-reduced unravelings cannot be delivered through its public API. Because Aer's Born-rule collapse machinery already exists, we specify a minimal change that would unlock the technique in production.",
+    "authors": [
+      "You, Chun-Yeol"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:45.966438Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182018",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182018",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182018"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

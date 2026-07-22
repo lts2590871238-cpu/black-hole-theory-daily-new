@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17081",
+    "arxiv_id": "2607.17081",
+    "arxiv_version": null,
+    "inspire_id": "3181980",
+    "doi": null,
+    "title_en": "quchip: A Differentiable Toolkit for Modeling Quantum Devices",
+    "abstract_en": "Predictive modeling of a superconducting quantum chip requires more than a Hamiltonian: the model must connect device physics, control-line transformations, chosen frames and approximations, dissipation, and measured observables. We present quchip, an open-source Python toolkit that represents these parts explicitly and assembles backend-independent simulations for QuTiP or dynamiqs; with dynamiqs, device and control parameters remain differentiable through the solve. We demonstrate the resulting experimental loop on a five-device model fitted to dressed observables. Simulated phase sweeps identify the complex crosstalk between two control lines, and inversion of the inferred response suppresses the effective leakage by more than two orders of magnitude. Over sixteen simultaneous $π$ pulses, the corrected pulse-end populations remain within $0.3$ percentage points of the crosstalk-free response. Adiabatically eliminating the bus and readout resonators reduces the Hilbert-space dimension from 576 to 16, after which gradients through simulated tomography recover the four injected crosstalk parameters with a maximum complex error of $1.5\\times10^{-5}$. A single explicit model can therefore support prediction, correction, and inverse parameter recovery.",
+    "authors": [
+      "AlYousef, Ibraheem"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-19T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:39.344374Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181980",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181980",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3181980"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

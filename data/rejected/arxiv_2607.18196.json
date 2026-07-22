@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.18196",
+    "arxiv_id": "2607.18196",
+    "arxiv_version": null,
+    "inspire_id": "3182052",
+    "doi": null,
+    "title_en": "Hardware Robustness of Sample-Based Quantum Diagonalization",
+    "abstract_en": "Sample-based Quantum Diagonalization (SQD) is a hybrid quantum-classical method that replaces variational optimization with a self-consistent recovery loop over QPU samples. Although SQD is considered robust to noisy samples and imperfect classical inputs, its robustness across practical deployment choices has not been systematically analyzed. As a result, shot budgets, qubit layouts, noise mitigation strategies, and the coupled-cluster singles and doubles (CCSD) amplitudes that initialize the ansatz are often chosen without clear empirical guidance. We analyze SQD robustness on IBM Heron hardware across these dimensions. Structured CCSD-amplitude perturbations, including complete zeroing, produce only modest energy shifts from the clean baseline. Differences across layouts and noise-mitigation settings are large in the first recovery iteration but narrow within a few iterations. Accuracy saturates at moderate shot budgets, while very large budgets slightly worsen recovered energies, likely because working-set selection limits the value of additional samples. These results identify where SQD provides genuine deployment robustness and where its limits remain.",
+    "authors": [
+      "Bhuiyan, Ahatesham",
+      "Chu, Cheng",
+      "Lou, Qian",
+      "Zheng, Mengxin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T10:53:29.867160Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182052",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182052",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182052"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

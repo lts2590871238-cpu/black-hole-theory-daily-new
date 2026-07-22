@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17804",
+    "arxiv_id": "2607.17804",
+    "arxiv_version": null,
+    "inspire_id": "3182037",
+    "doi": null,
+    "title_en": "Stochastic Pauli-path simulator for large-scale quantum optimization",
+    "abstract_en": "Pauli-based simulators offer a promising route to large-scale classical simulation of quantum circuits in the low-magic regime. Yet their applicability remains largely limited to forward simulation, making them inadequate for optimization-driven quantum tasks such as variational state preparation and parameter initialization. Existing approaches either lack native support for gradient-based optimization or suffer from severe gradient bias. Here we propose the stochastic Pauli-path simulator (SPPS), a computational framework for large-scale quantum optimization that enables unbiased stochastic gradient estimation via Pauli-path sampling across optimization iterations. Our theoretical analysis shows that the proposed simulator yields unbiased gradient estimates and admits provable convergence guarantees. We systematically evaluate our proposal, including quantum eigensolver benchmarks with up to 100 qubits and quantum neural network benchmarks with up to 40 qubits. Across these tasks, SPPS faithfully tracks optimization dynamics, converges within minutes, and broadens the role of Pauli-based simulation from forward estimation to large-scale quantum optimization.",
+    "authors": [
+      "Zhang, Kaining",
+      "Wang, Xinbiao",
+      "Li, Kunsheng",
+      "Zhang, Qixin",
+      "Du, Yuxuan",
+      "Hsieh, Min-Hsiu",
+      "Tao, Dacheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T10:53:42.797764Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182037",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182037",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182037"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

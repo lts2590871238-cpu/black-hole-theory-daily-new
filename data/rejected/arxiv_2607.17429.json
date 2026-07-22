@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17429",
+    "arxiv_id": "2607.17429",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "GPU-accelerated finite-temperature Lanczos method for Heisenberg spin systems with non-Abelian permutation symmetries",
+    "abstract_en": "We extend a recent GPU implementation of the finite-temperature Lanczos method (FTLM) for Heisenberg spin Hamiltonians, which uses only total-magnetization symmetry, to the full permutation symmetry, including non-Abelian point and space groups. For highly symmetric clusters such as icosahedral polyhedra, the multidimensional irreducible representations (irreps) of the permutation group reduce the block dimensions substantially further than any Abelian subgroup. Here, we provide a matrix-free formalism (avoiding explicit storage of the projected Hamiltonian) for using such symmetries. The implementation applies equally to Abelian groups, retaining the advantages of GPU acceleration. Several cluster topologies are built in; beyond these, symmetry groups can be supplied as site-permutation generators, with irrep matrices computed automatically, so that user-defined clusters run without any code changes. We demonstrate the approach in production runs on a single NVIDIA B200 accelerator for the s=3/2 Heisenberg antiferromagnet on the dodecahedron (Hilbert-space dimension 4^20 ~ 1.1x10^12) and for the s=1/2 square lattice of 5x8 sites (M=0 dimension 1.4x10^11). With R=24 random vectors per symmetry block and 60 Lanczos steps, the dodecahedron campaign (with the largest iterated symmetry block having a dimension of 3.6x10^9) requires about 50 GPU-hours. The code is openly available under the Apache-2.0 license at https://github.com/ghasdeke/ftlm-pg-gpu, archived at DOI: 10.5281/zenodo.21445872.",
+    "authors": [
+      "Shadan Ghassemi Tabrizi",
+      "Thomas D. Kühne"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-07-19T22:35:28Z",
+    "updated_at": "2026-07-19T22:35:28Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.17429v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.17429v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.17429",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://arxiv.org/abs/2607.17429v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.02861",
+    "arxiv_id": "2607.02861",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Holographic Learning from Fermionic Spectra: Application to Strange Metal Phenomenology",
+    "abstract_en": "We develop a data-driven framework based on Neural ODEs that learns the effective bulk metric functions and the charge-weighted gauge potential $qA_t$ of a static, planar-symmetric black hole from boundary fermionic spectral functions. After validating the framework on the Einstein--Maxwell and Gubser--Rocha models with high accuracy, we apply it to the nodal strange-metal phenomenology of the cuprate $\\mathrm{(Pb,Bi)_2Sr_{2-x}La_xCuO_{6+δ}}$ within a semi-holographic setting, taking as input the normalized target generated from the extended power-law liquid (PLL) model calibrated by angle-resolved photoemission measurements. A key structural observation is that our probe fermion is massless and therefore insensitive to the conformal factor, leading to a coordinate/Weyl redundancy, while spectral normalization introduces a degeneracy in the scaled Hawking temperature. After identifying these sources of nonuniqueness, we find that, at low temperatures and near-optimal doping, the normalized extended-PLL target can be well described by a family of effective geometries close to the conformal-to-$\\mathrm{AdS}_{2}\\times\\mathbb{R}^{2}$ black-hole class, with a nearly vanishing $qA_t$ ($\\sim10^{-4}\\,\\mathrm{eV}$). The conformal-factor ambiguity further implies that fixing macroscopic thermodynamics such as the electronic specific heat requires independent input beyond the fermionic spectra. We also examine the applicability of our framework across doping and temperature: at low temperatures, the learned effective model remains viable throughout the studied doping range, with only a mild increase in loss toward the overdoped side; at higher temperatures, however, both the loss and $qA_t$ increase substantially.",
+    "authors": [
+      "Hong-Zhi Xiao",
+      "Zhan-Zhi He",
+      "Zhuo-Yu Xian",
+      "Shao-Feng Wu"
+    ],
+    "categories": [
+      "hep-th",
+      "cond-mat.str-el",
+      "cond-mat.supr-con",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-07-03T01:50:42Z",
+    "updated_at": "2026-07-19T09:06:38Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.02861v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.02861v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.02861",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://arxiv.org/abs/2607.02861v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "holography_condensed_matter"
+    ],
+    "high_weight_hits": [
+      "strange metal"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "holography_condensed_matter",
+    "secondary_topics": [
+      "black_hole_thermodynamics",
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 28,
+      "methodological_rigor": 18,
+      "novelty": 14,
+      "clarity": 8,
+      "metadata_quality": 8,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 81,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "利用神经ODE和全息对偶从费米子谱学习有效黑洞几何，方法新颖，应用于铜氧化物奇异金属现象，理论深度高，验证充分。",
+    "title_zh": "来自费米子谱的全息学习：在奇异金属现象学中的应用",
+    "abstract_zh": "我们发展了一个基于神经ODE的数据驱动框架，该框架从边界费米子谱函数中学习静态平面对称黑洞的有效体度规函数和带权重的规范势$qA_t$。在爱因斯坦-麦克斯韦和Gubser-Rocha模型上以高精度验证该框架后，我们将其应用于半全息背景下的铜氧化物$\\mathrm{(Pb,Bi)_2Sr_{2-x}La_xCuO_{6+δ}}$的节点奇异金属现象学，输入由角度分辨光电子发射测量校准的扩展幂律液体(PLL)模型生成的归一化目标。一个关键的结构性观察是，我们的探针费米子是无质量的，因此对共形因子不敏感，导致了坐标/外尔冗余，而谱归一化引入了标度霍金温度的简并性。在确定了这些非唯一性来源后，我们发现，在低温和接近最佳掺杂时，归一化的扩展PLL目标可以由一簇接近共形到$\\mathrm{AdS}_{2}\\times\\mathbb{R}^{2}$黑洞类别的有效几何很好地描述，且$qA_t$几乎为零（$\\sim10^{-4}\\,\\mathrm{eV}$）。共形因子歧义进一步意味着固定宏观热力学（如电子比热）需要独立于费米子谱的额外输入。我们还检查了我们的框架在掺杂和温度上的适用性：在低温下，学习到的有效模型在所研究的掺杂范围内仍然可行，仅在过掺杂侧损失略有增加；然而，在更高温度下，损失和$qA_t$都显著增加。",
+    "keywords_en": [
+      "Holography",
+      "Neural ODE",
+      "Strange metal",
+      "Black hole",
+      "Fermionic spectral function",
+      "Semi-holography"
+    ],
+    "keywords_zh": [
+      "全息",
+      "神经ODE",
+      "奇异金属",
+      "黑洞",
+      "费米子谱函数",
+      "半全息"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-07-22T00:14:09.342435Z"
+  },
+  "published_at": "2026-07-22T00:14:09.342884Z"
+}

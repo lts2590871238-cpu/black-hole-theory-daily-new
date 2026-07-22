@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.17443",
+    "arxiv_id": "2607.17443",
+    "arxiv_version": null,
+    "inspire_id": "3182002",
+    "doi": null,
+    "title_en": "Operator-centric Clifford algebra for variational eigensolvers and finite-shot adaptive selection",
+    "abstract_en": "We develop a sparse operator-centric realization of $n$-qubit variational quantum algorithms in the complex Clifford algebra $\\mathrm{Cl}(2n,\\mathbb{C}) \\cong M(2^n,\\mathbb{C})$. Density operators, gates, observables, channels, fermionic modes, and adaptive-selection observables are represented in one Pauli-word algebra, with the Jordan--Wigner map providing the exact bridge to anticommuting Clifford generators. We distinguish general Pauli-word rotations from Spin-group rotors and derive an exact transpose-parity rule: for real Hamiltonians and real states, every candidate Pauli word containing an even number of $Y$ factors has zero ADAPT gradient, while odd-$Y$ rotations preserve the real sector. For the critical open transverse-field Ising chain, a depth-three Hamiltonian variational ansatz gives relative energy errors $4.84\\times10^{-5}$, $2.19\\times10^{-3}$, and $3.67\\times10^{-3}$ for $n=4,5,6$. A compact local ADAPT pool is exact at $n=4$ but leaves residual errors at larger sizes; a systematic contiguous three-local odd-$Y$ pool reaches relative errors below $1.3\\times10^{-12}$ for $n\\leq6$. In 100-seed finite-shot tests at $n=4$, fixed-shot selection succeeds in $0/100$ runs, whereas uniform escalation and confidence-bound racing each succeed in $84/100$ runs; racing lowers median shots by $34\\%$. We claim no asymptotic speedup over matrix methods. The contribution is a corrected algebraic formulation, an exact pool-pruning rule, and a reproducible study of measurement-limited adaptive selection.",
+    "authors": [
+      "Utama, Ginanjar",
+      "Dipojono, Hermawan Kresno"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:42.328621Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182002",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182002",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3182002"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.18022",
+    "arxiv_id": "2607.18022",
+    "arxiv_version": null,
+    "inspire_id": "3181857",
+    "doi": null,
+    "title_en": "Benchmarking Machine Learning Architectures for ttH Multilepton Signal Sensitivity",
+    "abstract_en": "Statistical testing for signal discovery and signal-strength estimation in high-energy physics increasingly relies on machine-learning models trained on simulated data. We present a synthetic dataset for $t\\bar t H$ multilepton signal--background classification and perform a systematic evaluation of machine-learning models ranging from the widely used XGBoost for tabular data to LorentzNet, which processes events with built-in Lorentz symmetry. Existing studies often differ in feature definitions, training procedures, and evaluation metrics, making it difficult to isolate the impact of model architecture on performance. To address this, we apply standardized training and hyperparameter-optimization procedures, construct a controlled hierarchy of feature sets, and perform a comprehensive comparison of the models. In addition to the analysis-driven metric of signal-strength uncertainty, we report the commonly used ROC AUC metric and show that under realistically weighted training, it correlates well with the uncertainty-based ranking of models. We further investigate model performance as a function of input feature set, training-set size, and the choice between channel-specific and unified multi-channel training. Our results establish the superiority of Particle Transformer and LorentzNet within the considered setup. We also identify potential avenues for further improvement, including more expressive architectures, joint training across additional analysis channels, and larger simulated datasets. Although this study focuses on a specific Higgs-boson analysis, we expect the main conclusions to generalize to a broader class of searches and measurements at the LHC and HL-LHC.",
+    "authors": [
+      "Viceník, Lukáš",
+      "Sopczak, André",
+      "Shekhovtsov, Oleksandr"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-21T04:20:08.193590Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181857",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181857",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3181857"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

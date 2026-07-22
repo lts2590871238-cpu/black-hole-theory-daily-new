@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-07-22T00:12:31.971466Z",
+  "completed_at": "2026-07-22T00:15:21.081570Z",
+  "status": "degraded",
+  "fetched_arxiv": 818,
+  "fetched_inspire": 800,
+  "normalized": 1618,
+  "deduplicated": 1289,
+  "candidates": 67,
+  "selected": 46,
+  "review_queue": 10,
+  "rejected": 1222,
+  "llm_calls": 21,
+  "cached_decisions": 28,
+  "errors": [
+    "arxiv:2607.17920: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.17874: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2605.06961: 评分或翻译失败：1 validation error for LLMDecisionPayload\nnew_paper_zero_citations_are_neutral\n  Extra inputs are not permitted [type=extra_forbidden, input_value=False, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",
+    "arxiv:2512.13252: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2510.12198: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.03800: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.16411: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.16150: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 260 个非空白字符",
+    "arxiv:2607.15827: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.15348: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.15150: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 303 个非空白字符"
+  ]
+}

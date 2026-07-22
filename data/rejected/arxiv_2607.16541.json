@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.16541",
+    "arxiv_id": "2607.16541",
+    "arxiv_version": null,
+    "inspire_id": "3181942",
+    "doi": null,
+    "title_en": "Efficient Exact Quantum Sampling from the Sun-Wootters Distribution for Optimal Polynomial Intersection",
+    "abstract_en": "Optimal Polynomial Intersection (OPI) is a structured optimization problem for which Decoded Quantum Interferometry (DQI) attains a satisfaction guarantee governed by the semicircle law. Sun and Wootters recently showed that, for balanced OPI over prime fields, a Fourier-defined distribution $P_u$ gives a strict worst-case improvement from limiting rate $0.6225$ onward and asymptotically perfect solutions from rate $0.7496$ onward, and asked whether $P_u$ can be sampled efficiently. We answer this question for Reed--Solomon OPI parameters satisfying their exponent condition strictly below the dual Johnson radius. Under coherent membership-oracle access, we give a bounded-error polynomial-time quantum sampler for $P_u$. The ideal circuit samples $P_u$ exactly conditioned on success, while a finite-precision implementation achieves any prescribed inverse-polynomial total-variation error. Consequently, every fixed limiting rate $0.6225\\le r<1$ admits a strict worst-case improvement over the DQI semicircle value, and every limiting rate $r\\ge 3/4$ admits solutions of satisfaction $1-o(1)$ with high probability. The algorithm coherently sums the amplitudes of all low-weight errors in each syndrome class using deterministic complete list decoding. Complete Reed--Solomon list decoding and the Sun--Wootters denominator estimate make the list size and postselection overhead polynomial. In concurrent and independent work, Horinaga and Yamakawa obtain worst-case OPI algorithms over prime-power fields and exact satisfaction at every fixed rate strictly above $3/4$.",
+    "authors": [
+      "Jo, Sunghyeon"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-17T00:00:00Z",
+    "updated_at": "2026-07-21T11:16:41.782931Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3181942",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3181942",
+        "fetched_at": "2026-07-22T00:12:31.971466Z",
+        "url": "https://inspirehep.net/literature/3181942"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
