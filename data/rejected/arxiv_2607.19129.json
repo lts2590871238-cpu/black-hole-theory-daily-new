@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19129",
+    "arxiv_id": "2607.19129",
+    "arxiv_version": null,
+    "inspire_id": "3182391",
+    "doi": null,
+    "title_en": "Single Link Removal Perturbation in Szegedy Quantum Walk: from Graph Completeness Testing to Integrity Monitoring",
+    "abstract_en": "We present a rigorous perturbative analysis of the Szegedy quantum walk search algorithm on the complete graph with marked nodes, when a specific anomaly is present in the graph. This is motivated by the problem of monitoring the integrity of dense trusted communication networks with a quantum-assisted procedure. The topology of these networks is modeled as a complete graph, and the anomaly of interest is the disappearance of a single communication link which represents the minimal and spectrally hardest structural defect to detect. Building on the graph-completeness testing algorithm framework, we quantify how the removal of a single unmarked-unmarked edge propagates through the relevant spectral quantities of the Szegedy quantum walk. Denoting by $n$ the total number of nodes of the graph and by $m$ the number of marked nodes, we prove that the perturbation to the transition matrix has spectral norm $Θ(1/n)$, and that the gap eigenvalue undergoes a strictly negative first-order shift for every $n$ and every number of marked nodes $m$, providing a formal proof of a conjecture from our completeness testing algorithm work; in the regime $m = Θ(n)$ relevant for the search algorithm, this shift has magnitude $Θ(1/n^2)$. The corresponding eigenphase shift satisfies $Δθ_\\star = Θ(1/n^2)$ in the same regime. We establish that the rotation angle of the effective subspace under this perturbation is $O(1/n)$ for $m = Θ(n)$. Finally, we bound the change in success probability to $O(1/\\sqrt{n})$ in this same regime of marked nodes, and show that this bound is dominated by the geometric misalignment of the effective subspace rather than by the spectral shift of the eigenphase. These results provide both the theoretical foundations and the fundamental scaling limits of quantum walk-based topology integrity monitoring under minimal structural perturbations.",
+    "authors": [
+      "Giordano, Sara",
+      "Martin-Delgado, Miguel A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-22T04:30:34.636876Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182391",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182391",
+        "fetched_at": "2026-07-23T00:16:56.820264Z",
+        "url": "https://inspirehep.net/literature/3182391"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

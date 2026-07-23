@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.18512",
+    "arxiv_id": "2607.18512",
+    "arxiv_version": null,
+    "inspire_id": "3182184",
+    "doi": null,
+    "title_en": "D$e^+e^-$ffusion: Capturing the Beam-Beam Physics of $e^+e^-$ Collisions with Diffusion Models",
+    "abstract_en": "Beam-induced backgrounds at high-luminosity $e^+e^-$ colliders, such as the FCC-ee, are dominated by incoherent pair creation (IPC), and require computationally expensive simulations with dedicated Monte Carlo (MC) event generators. Reliable detector and machine-detector interface studies necessitate event samples that are several orders of magnitude larger than what is practically attainable with existing MC. To alleviate this bottleneck, we present D$e^+e^-$ffusion, a denoising diffusion probabilistic model that operates as a permutation-equivariant, set-valued surrogate for fast IPC simulation. Trained on a small GuineaPig++ sample, D$e^+e^-$ffusion faithfully reproduces the marginal and joint kinematic, angular, and positional distributions of all three IPC production processes. In addition, we assess the fidelity at the detector level by propagating both Geant4 and D$e^+e^-$ffusion events through a Geant4 simulation of the CLD vertex detector and by training a transformer-based two-sample classifier; the classifier achieves an area under the ROC curve of $0.553 \\pm 0.016$. The trained model generates events nearly four orders of magnitude faster than Geant4, paving the way for a fast-simulation surrogate for FCC-ee design studies.",
+    "authors": [
+      "Chahine, Antonio",
+      "D'Alfonso, Mariarosaria",
+      "Eysermans, Jan",
+      "Forrestel, Emmett",
+      "Gouskos, Loukas",
+      "Gray, Lindsey",
+      "Kudela, Katie",
+      "Liu, Haoyun",
+      "Maier, Benedikt",
+      "Ntounis, Dimitrios",
+      "Paus, Christoph",
+      "Qureshi, Umar Sohail",
+      "Vernieri, Caterina"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-22T18:23:13.373746Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182184",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182184",
+        "fetched_at": "2026-07-23T00:16:56.820264Z",
+        "url": "https://inspirehep.net/literature/3182184"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

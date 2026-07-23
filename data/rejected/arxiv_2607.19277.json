@@ -1,0 +1,73 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19277",
+    "arxiv_id": "2607.19277",
+    "arxiv_version": 1,
+    "inspire_id": "3182412",
+    "doi": null,
+    "title_en": "Astrophysics on GPUs: introducing AGILE 1.0",
+    "abstract_en": "We present AGILE, a GPU-enabled adaptive mesh refinement (AMR) framework for the solution of (near-) conservation laws which occur in astro- and solar-physical applications. AGILE is written in modern fortran 2003, inherits a part of its modules and mesh handling from MPI-AMRVAC, and achieves excellent GPU performance via OpenACC offloading. We here discuss the design decisions which enable AGILE to perform cost-efficient and scalable deeply nested AMR simulations with moderate block sizes of e.g. $16^3$ cells. AGILE currently implements several physics modules, ie. hydrodynamics, frozen-field hydrodynamics, magnetohydrodynamics and special-relativistic hydrodynamics and can easily be extended further through its modular design. Besides strong scaling tests to up to 2048 GPUs and standard benchmarks which show consistent performance across a large range of devices and problem sizes, we demonstrate AGILE's capabilities by means of state-of-the art science applications with all currently available physics modules.",
+    "authors": [
+      "Oliver Porth",
+      "Adrian Kelly",
+      "Olaf Willocx",
+      "Hao Wu",
+      "Jesse Vos",
+      "Yuhao Zhou",
+      "Héctor R. Olivares Sánchez",
+      "Leon Oostrum",
+      "Johan Hidding",
+      "Victor Azizi",
+      "Chun Xia",
+      "Rony Keppens",
+      "Jannis Teunissen"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE",
+      "astro-ph.SR"
+    ],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-22T04:32:16.588126Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.19277v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.19277v1",
+    "inspire_url": "https://inspirehep.net/literature/3182412",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.19277",
+        "fetched_at": "2026-07-23T00:16:56.820264Z",
+        "url": "https://arxiv.org/abs/2607.19277v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3182412",
+        "fetched_at": "2026-07-23T00:16:56.820264Z",
+        "url": "https://inspirehep.net/literature/3182412"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

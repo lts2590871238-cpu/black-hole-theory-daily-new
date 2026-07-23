@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.18633",
+    "arxiv_id": "2607.18633",
+    "arxiv_version": 1,
+    "inspire_id": "3182290",
+    "doi": null,
+    "title_en": "Stochastic template banks for GW searches using low-discrepancy sequences",
+    "abstract_en": "Matched filtering remains the most sensitive method for detecting gravitational waves from compact binary coalescences. The efficiency of such searches depends on how well a discrete template bank covers the underlying parameter space. Conventional geometric, stochastic, and hybrid placement methods can lead to uneven coverage and redundant templates in higher dimensions. Hybrid methods are generally the most efficient among these, while stochastic methods are simpler to implement, particularly when the parameter-space metric is difficult to compute. In practice, both approaches rely on uniform random sampling, which often requires a large number of proposal points to achieve adequate coverage. We find that stochastic template banks constructed using low-discrepancy sequences achieve comparable recovery fractions while requiring 27.5\\% fewer proposal points in two dimensions and 12\\% fewer in three dimensions. The final template count changes only marginally ($\\sim 1\\%$), consistent with the metric-volume constraints of the covering problem. The primary benefit of low-discrepancy sampling is therefore a reduction in the size of the initial proposal set, leading to lower memory usage and reduced bookkeeping during bank generation. Since the final template count is governed mainly by the metric volume of the target parameter space, the wall-clock speed-up is more modest than the reduction in proposal count. Nevertheless, low-discrepancy sampling provides a simple and scalable improvement to stochastic template-bank generation for current and future gravitational-wave searches.",
+    "authors": [
+      "Tarun Kumar",
+      "Anand S. Sengupta"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-22T04:22:10.247381Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.18633v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18633v1",
+    "inspire_url": "https://inspirehep.net/literature/3182290",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.18633",
+        "fetched_at": "2026-07-23T00:16:56.820264Z",
+        "url": "https://arxiv.org/abs/2607.18633v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3182290",
+        "fetched_at": "2026-07-23T00:16:56.820264Z",
+        "url": "https://inspirehep.net/literature/3182290"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
