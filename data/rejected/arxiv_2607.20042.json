@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.20042",
+    "arxiv_id": "2607.20042",
+    "arxiv_version": null,
+    "inspire_id": "3182637",
+    "doi": null,
+    "title_en": "Slack-Free Deep-Unfolded Combinatorial Optimization Solver for Inequality Constraints",
+    "abstract_en": "Quantum annealing (QA) is used to solve combinatorial optimization problems (COPs). When COPs are implemented on quantum annealers, they are typically encoded as quadratic unconstrained binary optimization (QUBO) problems, but constraint encodings often increase the number of qubits and the embedding overhead. This issue is particularly important for COPs with inequality constraints, where standard slack-variable formulations introduce additional binary variables. Unbalanced penalization (UP) avoids slack variables, but the original UP formulation requires tuning two penalty coefficients and contains a squared residual term that can increase the number of quadratic couplings. In this paper, we propose the unbalanced penalization Ohzeki method (UPOM), which combines UP with the Ohzeki method for inequality-constrained COPs. UPOM replaces the two static penalty coefficients of original UP with an auxiliary-variable update and removes the squared residual term from the Hamiltonian used for sampling. We further propose the deep-unfolded unbalanced penalization Ohzeki method (DU-UPOM), which learns the step-size schedule of the UPOM update from training instances. Numerical experiments on random knapsack problems show that UPOM improves over original UP and that DU-UPOM reaches optimal solutions in fewer iterations than fixed-step UPOM and other baseline. These results demonstrate that the proposed framework reduces the tuning and embedding burdens of UP while making the Ohzeki method trainable for inequality constraints.",
+    "authors": [
+      "Hagiwara, Ryo",
+      "Arai, Shunta",
+      "Takabe, Satoshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-22T00:00:00Z",
+    "updated_at": "2026-07-23T04:28:05.350657Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182637",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182637",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://inspirehep.net/literature/3182637"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

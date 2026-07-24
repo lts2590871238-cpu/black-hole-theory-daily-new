@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19446",
+    "arxiv_id": "2607.19446",
+    "arxiv_version": null,
+    "inspire_id": "3182609",
+    "doi": null,
+    "title_en": "Decoder Comparability Across Quantum Software Stacks: Repeated-Round Surface and Digitized-GKP Syndrome Replay",
+    "abstract_en": "We present a contract-preserving, family-aware comparison of decoder behavior across four syndrome-generation stacks (PennyLane, Qiskit, Cirq, and a LiDMaS+ reference) under a fixed replay interface. Request streams from repeated-round surface-code and digitized-GKP circuits are replayed through BP, MWPM, and UF with matched controls. The unified matrix spans 24 cells and achieves line-level integrity: $24\\,000$ request lines, $24\\,000$ response lines, response ratio $=1.0$ in every cell, zero parse failures, and zero decoder-name mismatches. Fifteen warning-no-syndrome events occur only in GKP-Cirq rows. Within-family ordering is stable in both families ($\\mathrm{BP}<\\mathrm{MWPM}<\\mathrm{UF}$); source-averaged flip counts are 2.435, 4.768, and 5.870 for surface and 1.595, 2.908, and 3.681 for GKP. Relative to MWPM, BP reduces mean intervention volume by $48.9\\%$ in surface and $45.1\\%$ in GKP. Source-vs-reference effects are family dependent, with larger coherent shifts in GKP. Source-bootstrap ranks remain unchanged, and hidden-truth sidecars add an outer-code logical-parity error-rate check in which UF has the largest source-mean rate in both families. The comparison is stack-aware, contract-verified, and avoids raw cross-family threshold-equivalence claims.",
+    "authors": [
+      "Wayo, Dennis Delali Kwesi",
+      "Onah, Chinonso",
+      "Dias, Rodrigo Alves",
+      "Goliatt, Leonardo",
+      "Groppe, Zaher Mundher Yaseen Sven"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-23T04:26:26.539719Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182609",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182609",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://inspirehep.net/literature/3182609"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

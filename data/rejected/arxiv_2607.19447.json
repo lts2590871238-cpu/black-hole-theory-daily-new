@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19447",
+    "arxiv_id": "2607.19447",
+    "arxiv_version": null,
+    "inspire_id": "3182587",
+    "doi": null,
+    "title_en": "Hardware-in-the-Loop Syndrome-to-Decoder Validation for Repetition, Surface, CSS-LDPC, and Digitized-GKP Codes",
+    "abstract_en": "Quantum error-correction experiments increasingly require a verified interface between measured syndrome bits and decoder-native correction requests. We report a four-branch syndrome-to-decoder study spanning three IBM gate-model hardware circuits and one PennyLane-backed digitized-GKP model. The hardware branches implement a five-data-qubit repetition code, a distance-five rotated-surface-code Z-check extraction layer, and the Z-check half of the Steane CSS code as a compact CSS-LDPC benchmark. The GKP branch samples finite-squeezed Gaussian-CV q-readout and injected q-shifts, then bins wrapped quadrature coordinates into the same outer surface-code Z-check interface. All cases use 4096 shots per stream, clean and injected streams, LiDMaS+ request construction, and MWPM/minimum-weight correction as the plotted baseline, with union-find and hard-decision belief-propagation/min-sum policies replayed for interface validation. The correction-volume panels additionally report mean minimum-weight correction weight for each decoded stream. Repetition and CSS-LDPC hardware preserve the dominant expected syndrome and correction for every injected target. The routed 56-qubit surface circuit exhibits broad hardware-induced syndrome activation: exact localization drops to $0.003$--$0.108$, but target-containing localization remains $0.279$--$0.642$. The digitized-GKP study gives exact q-shift localization of $0.350$--$0.495$ and target-containing localization of $0.417$--$0.608$. The results support an auditable syndrome-to-decoder interface rather than a threshold claim.",
+    "authors": [
+      "Wayo, Dennis Delali Kwesi",
+      "Onah, Chinonso",
+      "Dias, Rodrigo Alves",
+      "Goliatt, Leonardo",
+      "Groppe, Sven"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-23T04:25:14.639389Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182587",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182587",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://inspirehep.net/literature/3182587"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

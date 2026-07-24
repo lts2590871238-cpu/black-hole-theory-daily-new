@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.20130",
+    "arxiv_id": "2607.20130",
+    "arxiv_version": null,
+    "inspire_id": "3182653",
+    "doi": null,
+    "title_en": "Learning to Decode Quantum LDPC Codes via Cluster-Based Sequential Belief Propagation",
+    "abstract_en": "Belief-propagation (BP) decoding for quantum low-density parity-check (QLDPC) codes is attractive due to its low complexity, but its performance is often limited by short cycles, degeneracy, and convergence failures. Recently, reinforcement-learning-based sequential variable-node (VN) scheduling (RL-S) was shown to improve BP decoding by learning state-dependent update orders. However, the VN-by-VN nature of that approach offers limited within-iteration parallelism, since only one VN is updated at a time. In this paper, we propose a cluster-based extension of RL-S for QLDPC codes. The VNs are partitioned into fixed clusters, and at each scheduling step the RL agent selects one cluster to update, after which all VNs in that cluster are updated in parallel using the same pre-update incoming messages. To keep the tabular state space practical for large cluster sizes, we introduce a permutation-invariant cluster state based on a normalized histogram of local mismatch weights, followed by quantization. This representation makes the number of cluster states depend on the quantization resolution rather than the cluster size. We also develop the corresponding cluster-level Markov decision process, reward function, and Q-learning update. Numerical results on representative QLDPC codes show that the proposed clustered learned scheduling preserves most of the error-rate benefit of VN-level learned sequential scheduling while substantially reducing the number of scheduling decisions per BP iteration, thereby providing an attractive latency-parallelism tradeoff.",
+    "authors": [
+      "Moradi, Mohsen",
+      "Kim, Taejoon",
+      "Chou, Rémi A.",
+      "Mitchell, David G.M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-22T00:00:00Z",
+    "updated_at": "2026-07-23T04:29:18.755688Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182653",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182653",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://inspirehep.net/literature/3182653"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

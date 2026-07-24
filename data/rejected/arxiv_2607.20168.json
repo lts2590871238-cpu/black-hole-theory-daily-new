@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.20168",
+    "arxiv_id": "2607.20168",
+    "arxiv_version": null,
+    "inspire_id": "3182494",
+    "doi": null,
+    "title_en": "Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a Vanishing Advantage",
+    "abstract_en": "Do quantum kernels improve cross-sectional stock return prediction? We run a controlled horse race on the Chinese A-share market in which a quantum fidelity kernel, a projected quantum kernel, and a classical RBF control share identical training subsamples, solver, and tuning budgets, so that only the kernel is exchanged. On the main evaluation -- a point-in-time universe and 170 walk-forward windows (2012-2025) -- no quantum advantage exists: the fidelity kernel is indistinguishable from its RBF control ($Δ$IC $=+0.005$, $p=0.42$), and a $2\\times2$ design crossing kernel type with training budget (a Nystrom extension to the full ~38,000-observation windows) shows quantum kernels matching, but never beating, equal-budget linear models; after family-wise correction no pairwise difference among eleven models is significant, with point estimates favoring penalized linear regressions throughout. We then document how the opposite conclusion arises: a 60-window evaluation on a universe screened with full-sample information makes the same quantum kernel appear dominant on stability criteria and significantly better than neural baselines. Interaction characteristics from the anomalies literature help nothing, quantum or classical; a widened bandwidth grid reveals an interior optimum rather than the near-classical endpoint a coarse grid suggests; and the geometric difference, while large throughout ($g \\gg 1$), does not predict out-of-sample gains ($ρ=-0.20$). We propose protocol standards -- kernel-swap controls, budget-equalized comparisons, point-in-time universes, and multiplicity-robust inference -- for empirical claims of quantum advantage in finance.",
+    "authors": [
+      "Shen, Junchi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-22T00:00:00Z",
+    "updated_at": "2026-07-23T04:12:09.943362Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182494",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182494",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://inspirehep.net/literature/3182494"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

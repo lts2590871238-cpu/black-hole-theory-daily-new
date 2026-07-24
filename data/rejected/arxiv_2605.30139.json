@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.30139",
+    "arxiv_id": "2605.30139",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Cosmo-PINN: A Physics-Informed Neural Network for Cosmological Reconstruction",
+    "abstract_en": "We introduce Cosmo-PINN, a Physics-Informed Neural Network for reconstruction of the cosmological theory. In this work we demonstrate the application of the Cosmo-PINN in the reconstruction of the dark energy equation of state parameter $w_{DE}\\left( z\\right) $ directly from late-time cosmological observations. This framework overcomes the main limitation shared by Gaussian Process and Artificial Neural Network reconstruction approaches, where the recovered solution is driven by the data and it is not necessarily true that it is physically consistent, by embedding the cosmological constraints directly into the loss function as hard constraints, ensuring that the reconstructed quantities satisfy the physical laws at every point during the training. For the training of the network, we employed background data, and specifically the Baryon Acoustic Oscillation from DESI DR2, the Cosmic Chronometers and three different Supernova compilations, while we simultaneously introduce the cosmological parameters $H_{0},~Ω_{m0}$ and $r_{\\mathrm{drag}}$ as trained parameters. The reconstruction shows that the trained $w_{DE}\\left( z\\right) $ crosses the phantom divide within the redshift range $z=0.27-0.42$ in agreement with the value obtained by the Chevallier-Polarski-Linder model. In the quintessence scenario, for large redshifts the dark energy $Ω_{DE}\\left( z\\right) $ provides a pressureless nonzero contribution to the cosmological fluid suggesting a unified scenario. Finally, we demonstrate the significance of imposing the physical constraints within the loss function by comparing the Cosmo-PINN reconstruction against a purely data-driven neural network with the same architecture.",
+    "authors": [
+      "Andronikos Paliathanasis"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-05-28T16:04:52Z",
+    "updated_at": "2026-07-22T06:23:48Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.30139v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.30139v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.30139",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://arxiv.org/abs/2605.30139v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

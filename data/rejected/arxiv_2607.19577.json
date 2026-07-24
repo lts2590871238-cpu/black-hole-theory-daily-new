@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19577",
+    "arxiv_id": "2607.19577",
+    "arxiv_version": null,
+    "inspire_id": "3182602",
+    "doi": null,
+    "title_en": "Rank-Adaptive Matrix-Free Atomic Quantum State Tomography",
+    "abstract_en": "Quantum state tomography estimates an unknown density operator from measurement data. Dense reconstruction however, can be impractical for many-qubit systems because the Hilbert-space dimension grows exponentially. This contribution develops a rank-adaptive matrix-free approach to low-rank quantum state tomography based on rank-one atomic coordinates. The density operator is represented as a convex combination of pure-state atoms, which preserves positivity and unit trace while avoiding dense density, measurement, and gradient matrices. The resultant algorithm combines atom updates, simplex-constrained coefficient reweighting, and periodic spectral refactorization using only predicted probability vectors, atom vectors, and descriptor-level measurement actions. These computations decompose across measurement outcomes, and admit a master--worker implementation with the measurements partitioned across workers. A rank penalty adapts the representation size during optimization. Provable feasibility, prediction consistency, monotone descent of the penalized objective, and an exact spectral proximal characterization of the refactorization step are established. Simulations with Pauli measurements show favorable accuracy--runtime--memory tradeoffs relative to competing alternatives.",
+    "authors": [
+      "Taherpour, Amirhossein",
+      "Sadeghi, Alireza",
+      "Giannakis, Georgios B."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-23T04:25:55.213066Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182602",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182602",
+        "fetched_at": "2026-07-24T00:15:37.724232Z",
+        "url": "https://inspirehep.net/literature/3182602"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
