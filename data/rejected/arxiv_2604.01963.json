@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.01963",
+    "arxiv_id": "2604.01963",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Hydrodynamic Backflow for Easing the Fermion Sign in Finite-Temperature Electron Path Integral Simulations",
+    "abstract_en": "Some notable technology systems, such as high-temperature superconductors and materials for controlled nuclear fusion, require an accurate description of finite-temperature quantum matter. Stochastic path integral methods are finite-temperature and numerically exact, but scale poorly with system size due the notorious Fermion sign problem. To somewhat mitigate this, we use a hydrodynamical backflow coordinate transformation. Our first approach was a continuous normalizing flow machine learning optimisation. We found this to roughly halve the statistical uncertainty at medium sign severity. Numerical issues challenged training effectively. Thus, a semi-analytic analogue was developed to estimate the optimal parameters. We do this by using a derived expression dependent on a Bosonic observable. Hence, the calculation of these values does not have a sign problem. The resulting backflow transformations reduce the problem by multiple orders of magnitude in the specific case of a harmonically trapped, two-dimensional, electron gas at finite-temperature. The total energy of the system agrees with previous, backflow untransformed, studies and we calculate energies for up to 32 electrons. The limiting factor is found to be, primarily, the $O(N^3)$ calculation of the Jacobian, stemming from the coordinate transformation of the backflow. A more thorough implementation may further improve this scaling. Even without this, a route for simulating electron systems at currently unreachable regimes is obtained.",
+    "authors": [
+      "Ingvars Vitenburgs",
+      "Jarvist Moore Frost"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.stat-mech"
+    ],
+    "submitted_at": "2026-04-02T12:26:22Z",
+    "updated_at": "2026-07-23T17:45:43Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.01963v3",
+    "pdf_url": "https://arxiv.org/pdf/2604.01963v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.01963",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://arxiv.org/abs/2604.01963v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

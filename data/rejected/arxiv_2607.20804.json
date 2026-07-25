@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.20804",
+    "arxiv_id": "2607.20804",
+    "arxiv_version": null,
+    "inspire_id": "3182868",
+    "doi": null,
+    "title_en": "Hardness and Complexity Transition of Noisy Random Circuit Sampling",
+    "abstract_en": "Random circuit sampling (RCS) is a leading candidate for demonstrating quantum advantage, supported by strong complexity-theoretic evidence of hardness in the ideal setting and by rapid experimental progress to date. In practice, however, noise is unavoidable, and a central problem is to identify the noise-strength boundary between classically simulable and classically hard regimes. In this work, we establish an architecture-general hardness bound for this boundary for the standard local depolarizing noise of strength $γ$. Assuming the standard average-case #P-hardness conjecture for ideal RCS, we show that, for any circuit architecture satisfying this conjecture, noisy RCS on the same architecture remains hard to simulate classically within any inverse-polynomial total variation distance whenever $γ=O(\\log n/(nd))$ for $n$-qubit circuits of depth $d$, unless the polynomial hierarchy collapses. Crucially, noisy-RCS hardness follows without any additional conjectural or architecture-specific assumption beyond those already entering the ideal-RCS hardness framework. Our proof combines a low-degree polynomial extrapolation with a monotonicity reduction showing that efficient classical simulation at one depolarizing noise strength implies efficient simulation at every larger strength. Together, these ingredients transfer the standard ideal-RCS hardness conjecture to sampling hardness at a prespecified noise strength. Finally, combining the convergence-to-uniformity result of Dalzell et al. [Commun. Math. Phys. 405, 78 (2024)] with our monotonicity reduction yields efficient classical simulation for $γ=ω(\\log n/(nd))$ on layered, regularly connected architectures. Thus, wherever the two architectural settings overlap, this identifies $γ=Θ(\\log n/(nd))$ as the asymptotic complexity-transition scale.",
+    "authors": [
+      "Go, Byeongseon",
+      "Oh, Changhun",
+      "Jeong, Hyunseok"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-23T00:00:00Z",
+    "updated_at": "2026-07-24T16:40:34.369193Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182868",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182868",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://inspirehep.net/literature/3182868"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.20616",
+    "arxiv_id": "2607.20616",
+    "arxiv_version": null,
+    "inspire_id": "3182867",
+    "doi": null,
+    "title_en": "Enabling Neutral Atom Integration: Redesigning Device Models for Universal Quantum Ecosystems",
+    "abstract_en": "Quantum computing is transitioning from an academic idea to a practical technology, driven by recent hardware advancements and clear paths toward real-world applications. Universal quantum ecosystems (e.g., Qiskit, Cirq, PennyLane) facilitate this transition by providing a consistent interface to diverse quantum devices, abstracting hardware-specific details through a device model that captures each device's computational capabilities. However, these device models have historically been shaped by superconducting hardware, assuming static qubit positions and fixed coupling maps. This prevents them from representing the unique computational capabilities of emerging technologies such as neutral atoms, which feature dynamic qubit rearrangement and zoned operations. As a result, although numerous specialized compilers for neutral atom devices already exist, they cannot retrieve the hardware information they need through these ecosystems - creating a technology lock that hinders or even prevents the integration of neutral atom devices. In this work, we demonstrate how this limitation leads to suboptimal compilation results and can exclude certain devices entirely. Motivated by this, we propose rethinking current device models to faithfully represent neutral atom devices, enabling their seamless integration into universal quantum ecosystems. Evaluations conducted within the Quantum Device Management Interface (QDMI) demonstrate that the proposed device model unlocks a routing overhead fidelity improvement by a factor of up to 100,000 on a circuit with 16 qubits and 600 gates.",
+    "authors": [
+      "Stade, Yannick",
+      "Burgholzer, Lukas",
+      "Schmid, Ludwig",
+      "Wille, Robert"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-22T00:00:00Z",
+    "updated_at": "2026-07-24T16:31:11.440387Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182867",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182867",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://inspirehep.net/literature/3182867"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

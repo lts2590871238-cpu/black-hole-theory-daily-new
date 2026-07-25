@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.18340",
+    "arxiv_id": "2607.18340",
+    "arxiv_version": null,
+    "inspire_id": "3183052",
+    "doi": null,
+    "title_en": "Quantum Cryptanalysis on IBM Quantum Hardware: Extending Even--Mansour Period Recovery from $N=4$ to $N=10$",
+    "abstract_en": "We report genuine-un-compiled, textbook-faithful-quantum cryptanalysis of symmetric-cipher structures executed on real IBM quantum hardware (ibm_kingston, Heron generation). Using Simon's algorithm we recover the hidden period of the Even-Mansour cipher up to security parameter N = 10 on real hardware, beyond the largest previously reported real-hardware key recovery of N = 4, and we cleanly recover the periods of a 3-round Feistel (DES-family) construction at block sizes 6 and 8; a 21-qubit block-10 instance is verified in simulation and submitted to hardware. We further provide a breadth-first benchmark of five genuine quantum attacks spanning four symmetric-cipher design paradigms -- Bernstein-Vazirani (linear structure, single query), Grover (SPN key search, quadratic), and Simon (Even-Mansour, CBC-MAC forgery, and Feistel; exponential-to-polynomial in query complexity) -- validated to the classical-simulation ceiling of 25 qubits. We are deliberately explicit about scope: these attacks target reduced or structured constructions in the Q2 (quantum-query) model, asymptotically follow the birthday bound and therefore do not constitute quantum advantage over classical collision-finding, do not break full AES/RSA or 16-round DES, and rely on error mitigation rather than fault-tolerant error correction. Our contribution is the real-hardware demonstration at record structure sizes, the breadth of genuine algorithmic coverage across four paradigms, and an honest, reproducible benchmark with public artifacts.",
+    "authors": [
+      "Kim, Taebong",
+      "Hong, Youngsik",
+      "Kim, Minsik",
+      "Choi, Sunyoung",
+      "Jang, Jaewon",
+      "Shin, Junghoon",
+      "Kim, Minseo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-20T00:00:00Z",
+    "updated_at": "2026-07-24T17:27:01.507284Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183052",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183052",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://inspirehep.net/literature/3183052"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

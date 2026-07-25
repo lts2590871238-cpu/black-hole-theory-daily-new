@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.21121",
+    "arxiv_id": "2607.21121",
+    "arxiv_version": null,
+    "inspire_id": "3182930",
+    "doi": null,
+    "title_en": "Approximate Quantum State Preparation Through Proximal Policy Optimization",
+    "abstract_en": "In this work, a quantum architecture search framework for approximate quantum state preparation (QSP) is proposed. QSP is a challenging task, since the search space grows exponentially with the number of qubits, making the identification of the optimal circuit non-trivial. To address this problem, deep reinforcement learning is employed through an agent based on proximal policy optimization. The objective of the agent is to identify the best possible approximation of the target state while simultaneously minimizing the number of gates used. At each step, the agent appends a new gate to the circuit and recomputes the fidelity between the approximated state and the target states. Various experiments have been performed from 2 to 5 qubits. Both predefined states, such as Bell, GHZ, W, and Dicke states, and completely random states are considered. The proposed framework is able to achieve approximation errors of $10^{-14}$.",
+    "authors": [
+      "Mordacci, Marco",
+      "Amoretti, Michele"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-23T00:00:00Z",
+    "updated_at": "2026-07-24T16:32:37.855687Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182930",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182930",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://inspirehep.net/literature/3182930"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

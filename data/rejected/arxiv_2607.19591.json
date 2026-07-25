@@ -1,0 +1,78 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19591",
+    "arxiv_id": "2607.19591",
+    "arxiv_version": null,
+    "inspire_id": "3183057",
+    "doi": null,
+    "title_en": "Examining QRMI as a Unified Interface for Quantum-HPC Integration",
+    "abstract_en": "The efficient and scalable integration of quantum resources into high-performance computing (HPC) environments requires standardized mechanisms for resource management, scheduling, and workflow orchestration across diverse and heterogeneous infrastructures. The Quantum Resource Management Interface (QRMI) addresses this challenge through a thin, vendor-agnostic middleware layer that provides standardized APIs for scheduling, executing, and monitoring quantum workloads while exposing quantum resources as first-class schedulable resources alongside CPUs and GPUs. Although previous work demonstrated QRMI integration with the Slurm workload manager, its applicability across other workload managers remained unexamined. This paper extends the validation of QRMI to a broad range of workload managers, including PBS, LSF, Grid Engine, Kubernetes, and the Flux Framework, encompassing traditional batch schedulers, a cloud-native orchestration platform, and a graph-based scheduler. We examine the integration patterns, implementation requirements, and scheduler-specific considerations associated with each environment and compare QRMI with alternative approaches to quantum resource integration. We demonstrate that QRMI provides a portable and flexible abstraction layer that minimizes scheduler-specific modifications while enabling consistent access to heterogeneous quantum resources across both on-premises and cloud environments.",
+    "authors": [
+      "Badts, Thomas",
+      "Boyle, Tim",
+      "Carvalho, Claudio",
+      "Córcoles, Antonio",
+      "Damin, Andrew",
+      "Elisseev, Vadim",
+      "Frassineti, Jonathan",
+      "Gruber, Daniel",
+      "Horii, Hiroshi",
+      "Lee, Eun-Kyung",
+      "Machin, James",
+      "Marzella, Sara",
+      "Meller, Mateusz",
+      "Milroy, Daniel",
+      "Moreau, Matthieu",
+      "Ohtani, Munetaka",
+      "Ortega-Carrasco, Elisabeth",
+      "Oucharek, Doug",
+      "Park, Yoonho",
+      "Patil, Adarsh",
+      "Sahin, Emre M.",
+      "Samu, Gábor",
+      "Seelam, Seetharami",
+      "Shehata, Amir",
+      "Sochat, Vanessa",
+      "Thorne, James",
+      "Wallis, Oscar",
+      "Wennersteen, Aleksander"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-21T00:00:00Z",
+    "updated_at": "2026-07-24T17:28:02.529937Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183057",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183057",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://inspirehep.net/literature/3183057"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.20585",
+    "arxiv_id": "2607.20585",
+    "arxiv_version": null,
+    "inspire_id": "3182781",
+    "doi": null,
+    "title_en": "Machine-Learned Compact Subspace Generation for Quantum Selected Configuration Interaction within Density Matrix Embedding Framework",
+    "abstract_en": "Sample-based Quantum Diagonalization (SQD), an extension of Quantum Selected Configuration Interaction (QSCI), has emerged as a promising hybrid quantum-classical paradigm for computing molecular ground state energies. By leveraging quantum sampling instead of variational optimization, QSCI avoids barren plateaus and enables direct reconstruction of correlated electronic wavefunctions. However, existing configuration recovery techniques primarily enforce symmetry constraints without guaranteeing optimal selection of the most physically relevant configurations, often leading to unnecessarily large subspaces and increased classical diagonalization costs. In this work, we introduce a machine-learned compact subspace generation protocol based on Restricted Boltzmann Machines (RBMs), termed QSCI-RBM, and integrate it within the Density Matrix Embedding Theory (DMET) framework. The RBM is trained on quantum-sampled configurations to learn the underlying probability distribution of dominant determinants, enabling the targeted generation of high-probability configurations. We apply this framework to the simulation of a protein-ligand complex involving the inhibitor Carmofur bound to the SARS-CoV-2 main protease ($M^{\\text{pro}}$). Our results demonstrate that DMET-QSCI-RBM achieves energies within the chemical accuracy threshold by accessing only approximately 4% of the configuration subspace. In contrast, standard DMET-SQD simulations failed to reach chemical accuracy while accessing up to 20% of the subspace, even as the chemical potential itself nearly converged. These findings highlight that RBM-assisted configuration generation produces significantly more compact subspaces while preserving physical accuracy, thereby reducing classical computational overhead and enabling the scalable quantum embedding simulation of complex biological systems.",
+    "authors": [
+      "Patra, Ashish Kumar",
+      "V., Anurag K.S.",
+      "Bhat, Ruchika",
+      "P., Sai Shankar",
+      "Maitra, Rahul",
+      "G, Jaiganesh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-22T00:00:00Z",
+    "updated_at": "2026-07-24T04:15:32.337114Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3182781",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3182781",
+        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "url": "https://inspirehep.net/literature/3182781"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
