@@ -1,5 +1,5 @@
 schema_version: "1.0"
-config_version: "2026-07-13.2"
+config_version: "2026-07-26.1"
 site:
   title_en: "Black Hole & Gravity Theory Daily"
   title_zh: "黑洞与引力理论每日精选"
@@ -11,11 +11,11 @@ pipeline:
   review_min_score: 45
   max_llm_papers_per_run: 60
   min_abstract_chars: 300
-  request_timeout_seconds: 30
+  request_timeout_seconds: 60
   retry_attempts: 4
   backoff_seconds: 1.0
-  arxiv_page_size: 200
-  arxiv_max_pages: 5
+  arxiv_page_size: 100
+  arxiv_max_pages: 10
   arxiv_request_interval_seconds: 3.1
   inspire_page_size: 100
   max_inspire_pages: 8
