@@ -26,7 +26,7 @@ from theory_daily.llm_curation import (
     build_curation_client,
     curate_with_cache,
 )
-from theory_daily.models import PublishedPaper, RawInspireRecord, RunReport
+from theory_daily.models import PublishedPaper, RawArxivRecord, RawInspireRecord, RunReport
 from theory_daily.normalize import from_arxiv, from_inspire
 from theory_daily.render import build_site, load_published_papers
 from theory_daily.storage import ensure_directories, load_state, write_json
@@ -83,18 +83,33 @@ def update(
     else:
         since = rolling_since
     try:
-        arxiv_records, arxiv_raw_pages = ArxivClient(settings).fetch(topics, since)
-        save_raw_responses(root, arxiv_raw_pages, started)
-        report.fetched_arxiv = len(arxiv_records)
+        available_sources = 0
+        arxiv_records: list[RawArxivRecord] = []
+        try:
+            arxiv_records, arxiv_raw_pages = ArxivClient(settings).fetch(topics, since)
+            save_raw_responses(root, arxiv_raw_pages, started)
+            report.fetched_arxiv = len(arxiv_records)
+            available_sources += 1
+        except Exception as exc:  # source degradation is intentional
+            message = f"arXiv data source temporarily unavailable: {exc}"
+            LOGGER.warning(message)
+            report.errors.append(message)
+
         inspire_records: list[RawInspireRecord] = []
         try:
             inspire_records, inspire_pages = InspireClient(settings).fetch(since)
             save_raw_pages(root, inspire_pages, started)
             report.fetched_inspire = len(inspire_records)
+            available_sources += 1
         except Exception as exc:  # source degradation is intentional
             message = f"INSPIRE 数据源暂时不可用：{exc}"
             LOGGER.warning(message)
             report.errors.append(message)
+
+        if available_sources == 0:
+            raise RuntimeError(
+                "arXiv and INSPIRE data sources are both unavailable; preserving previous site"
+            )
 
         normalized = [from_arxiv(item, started) for item in arxiv_records]
         for item in inspire_records:
