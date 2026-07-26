@@ -2,6 +2,9 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+import pytest
+from requests import ReadTimeout
+
 from theory_daily.fetch_arxiv import ArxivClient, parse_atom
 
 FIXTURES = Path(__file__).parent / "fixtures"
@@ -58,3 +61,49 @@ def test_arxiv_paginates_until_an_empty_page(settings, topics) -> None:
     assert len(session.calls) == 2
     assert session.calls[0]["params"]["start"] == 0
     assert session.calls[1]["params"]["start"] == 1
+    assert session.calls[0]["timeout"] == (10, settings.pipeline.request_timeout_seconds)
+
+
+class LaterPageTimeoutSession:
+    def __init__(self) -> None:
+        self.calls = 0
+
+    def get(self, *_args: object, **_kwargs: Any) -> Response:
+        self.calls += 1
+        if self.calls == 1:
+            return Response((FIXTURES / "arxiv.xml").read_bytes())
+        raise ReadTimeout("arXiv timed out")
+
+
+def test_arxiv_keeps_completed_pages_when_a_later_page_times_out(settings, topics) -> None:
+    settings.pipeline.arxiv_page_size = 1
+    settings.pipeline.arxiv_max_pages = 3
+    settings.pipeline.arxiv_request_interval_seconds = 0
+    session = LaterPageTimeoutSession()
+    client = ArxivClient(
+        settings,
+        session=session,  # type: ignore[arg-type]
+        sleeper=lambda _seconds: None,
+    )
+
+    records, raw_pages = client.fetch(topics, datetime(2026, 7, 10, tzinfo=UTC))
+
+    assert len(records) == 1
+    assert len(raw_pages) == 1
+    assert session.calls == 2
+
+
+class FirstPageTimeoutSession:
+    def get(self, *_args: object, **_kwargs: Any) -> Response:
+        raise ReadTimeout("arXiv timed out")
+
+
+def test_arxiv_first_page_timeout_is_reported_to_pipeline(settings, topics) -> None:
+    client = ArxivClient(
+        settings,
+        session=FirstPageTimeoutSession(),  # type: ignore[arg-type]
+        sleeper=lambda _seconds: None,
+    )
+
+    with pytest.raises(ReadTimeout, match="arXiv timed out"):
+        client.fetch(topics, datetime(2026, 7, 10, tzinfo=UTC))

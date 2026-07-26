@@ -74,5 +74,5 @@ def test_recall_settings_are_broader(settings) -> None:
     assert settings.pipeline.since_days == 7
     assert settings.pipeline.selection_threshold == 50
     assert settings.pipeline.review_min_score == 45
-    assert settings.pipeline.arxiv_page_size == 200
-    assert settings.pipeline.arxiv_max_pages == 5
+    assert settings.pipeline.arxiv_page_size == 100
+    assert settings.pipeline.arxiv_max_pages == 10
