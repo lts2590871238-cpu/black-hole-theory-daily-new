@@ -12,7 +12,7 @@ from time import struct_time
 
 import feedparser
 from pydantic import HttpUrl
-from requests import Session
+from requests import RequestException, Session
 
 from theory_daily.config import Settings, TopicsConfig
 from theory_daily.http_client import build_session
@@ -112,12 +112,23 @@ class ArxivClient:
                 "sortBy": "lastUpdatedDate",
                 "sortOrder": "descending",
             }
-            response = self.session.get(
-                API_URL,
-                params=params,
-                timeout=self.settings.pipeline.request_timeout_seconds,
-            )
-            response.raise_for_status()
+            try:
+                response = self.session.get(
+                    API_URL,
+                    params=params,
+                    timeout=(10, self.settings.pipeline.request_timeout_seconds),
+                )
+                response.raise_for_status()
+            except RequestException:
+                if not raw_pages:
+                    raise
+                LOGGER.warning(
+                    "arXiv page %s failed after retries; keeping %s records from earlier pages",
+                    page + 1,
+                    len(collected),
+                    exc_info=True,
+                )
+                break
             raw_pages.append(response.content)
             page_records = parse_atom(response.content)
             if not page_records:
