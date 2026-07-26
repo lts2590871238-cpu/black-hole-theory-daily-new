@@ -36,13 +36,13 @@
       {
         "source": "arxiv",
         "record_id": "2607.20112",
-        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "fetched_at": "2026-07-26T08:26:20.544161Z",
         "url": "https://arxiv.org/abs/2607.20112v1"
       },
       {
         "source": "inspire",
         "record_id": "3182570",
-        "fetched_at": "2026-07-25T00:58:06.446654Z",
+        "fetched_at": "2026-07-26T08:26:20.544161Z",
         "url": "https://inspirehep.net/literature/3182570"
       }
     ],
@@ -70,40 +70,42 @@
     "schema_version": "1.0",
     "relevant": true,
     "primary_topic": "black_hole_thermodynamics",
-    "secondary_topics": [],
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
     "scores": {
       "theory_depth": 25,
-      "methodological_rigor": 18,
+      "methodological_rigor": 15,
       "novelty": 10,
       "clarity": 8,
       "metadata_quality": 8,
-      "community_signal": 0,
-      "other": 6
+      "community_signal": 2,
+      "other": 5
     },
-    "total_score": 75,
+    "total_score": 73,
     "reject_reason_zh": "",
-    "selection_reason_zh": "论文研究了Gauss-Bonnet准膨胀大质量引力中的宇宙学视界热力学，推导了修正的Friedmann方程并分析了热力学第一、第二定律和全息熵界，主题与黑洞热力学高度相关，理论推导严谨。",
-    "title_zh": "Gauss-Bonnet准膨胀大质量引力中的宇宙学视界热力学",
-    "abstract_zh": "我们研究了Gauss-Bonnet准膨胀大质量引力中宇宙学表观视界的热力学性质。我们推导了修正的Friedmann方程，并将其重新表述为标准形式，从而得以研究表观视界的热力学第一定律和第二定律。考虑了平衡态和非平衡态两种情况。在平衡态描述中，第一定律保留了视界熵的Bekenstein-Hawking面积定律的传统形式，并且我们证明了在零能量条件下广义第二定律成立。在非平衡态描述中，Wald熵受到了Gauss-Bonnet耦合的修正，并且第一定律获得了一个与使用Gauss-Bonnet扇区的Wald熵表示相关的额外项。我们证明了如果同时满足零能量条件、正视界温度条件以及Gauss-Bonnet正定性约束$ξ(σ)\\ge0$，则总熵变非负。此外，我们研究了全息熵界$S_{\\text{inside}} \\le S_{\\text{horizon}}$。我们证明，虽然理想化的局域热平衡假设在尘埃主导时期导致形式上的饱和或明显破坏，但在所有宇宙学时期，当使用实际物理流体温度时，该界限被稳健地保持。条件$ξ(σ)\\ge0$被证明与我们先前工作中从张量扰动导出的稳定性约束兼容。我们的结果确立了Gauss-Bonnet准膨胀大质量引力从视界热力学和全息原理角度来看是一种一致的修改引力理论。",
+    "selection_reason_zh": "该论文探讨了Gauss-Bonnet拟膨胀巨引力中宇宙学视界的热力学性质，包括第一定律、第二定律及熵界，与黑洞热力学和一般相对论基础高度相关。理论推导严谨，方法清晰，具有一定新颖性。",
+    "title_zh": "Gauss-Bonnet拟膨胀巨引力中的宇宙学视界热力学",
+    "abstract_zh": "我们研究了Gauss-Bonnet拟膨胀巨引力中宇宙学表观视界的热力学性质。我们推导了修正的弗里德曼方程，并将其重新表述为标准形式，从而能够研究表观视界的第一热力学定律和第二热力学定律。考虑了平衡态和非平衡态两种情况。在平衡态描述中，第一定律保持传统形式，视界熵满足贝肯斯坦-霍金面积定律，并且我们证明在零能量条件下广义第二定律成立。在非平衡态描述中，沃尔德熵受到Gauss-Bonnet耦合的修正，第一定律获得一个与使用Gauss-Bonnet扇区的沃尔德熵表示相关的附加项。我们证明，只要零能量条件、正视界温度条件和Gauss-Bonnet正定性约束$ξ(σ)\\ge0$同时满足，总熵变非负。此外，我们研究了全息熵界$S_{\\text{inside}} \\le S_{\\text{horizon}}$。我们证明，虽然理想化的局部热平衡假设在尘埃主导时期会导致形式上的饱和或明显破坏，但当使用实际的物理流体温度时，该界在所有宇宙学时期都稳健地保持。条件$ξ(σ)\\ge0$被证明与我们先前工作中从张量扰动推导出的稳定性约束相容。我们的结果表明，从视界热力学和全息原理的角度来看，Gauss-Bonnet拟膨胀巨引力是一个一致的修正引力理论。",
     "keywords_en": [
-      "black hole thermodynamics",
-      "cosmological horizon",
+      "cosmological horizon thermodynamics",
       "Gauss-Bonnet gravity",
       "massive gravity",
-      "holographic principle"
+      "generalized second law",
+      "holographic entropy bound"
     ],
     "keywords_zh": [
-      "黑洞热力学",
-      "宇宙学视界",
+      "宇宙学视界热力学",
       "Gauss-Bonnet引力",
-      "大质量引力",
-      "全息原理"
+      "巨引力",
+      "广义第二定律",
+      "全息熵界"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-24T00:16:19.678222Z"
+    "created_at": "2026-07-26T08:27:56.545725Z"
   },
-  "published_at": "2026-07-25T00:59:12.753588Z"
+  "published_at": "2026-07-26T08:27:56.546217Z"
 }

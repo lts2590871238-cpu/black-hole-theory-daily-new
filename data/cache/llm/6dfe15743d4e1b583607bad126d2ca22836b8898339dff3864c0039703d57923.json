@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations",
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 28,
+    "methodological_rigor": 18,
+    "novelty": 14,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 0
+  },
+  "total_score": 77,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文建立了基于完整地球-脉冲星响应的引力波天空映射框架，推导了角分辨率极限，并通过Fisher信息和奇异值分析定量证明了现实PTA中脉冲星项的不可及性，理论深度高，方法严谨，对PTA数据处理有重要指导意义。",
+  "title_zh": "脉冲星计时阵列的引力波天空映射：完整的地球-脉冲星响应与基本分辨率极限",
+  "abstract_zh": "脉冲星计时阵列（PTAs）是观测纳赫兹引力波（GWs）的唯一手段。虽然当前分析主要利用地球项，但完整探测器响应在脉冲星项中编码了额外的方向信息。我们基于完整的地球-脉冲星响应和GW场的张量球谐分解，发展了一个GW天空映射框架。这为基础基线导出了闭式响应函数，并将PTA天空重建转化为一个线性逆问题。我们证明，PTA表现为一个衍射极限的GW天文台，其角灵敏度由无量纲参数$ωL$控制，其中$ω$是GW角频率，$L$是脉冲星距离。探测器响应呈现四个不同的阶段：地球项主导阶段、过渡阶段、脉冲星项主导阶段，以及在$l_{cut}\\simeqωL$处的指数灵敏度截止。该截止定义了PTA天空图的基本角分辨率极限。利用Fisher信息和奇异值分析，我们表明可实现的角分辨率不仅受限于内在的探测器响应，还受限于有限的脉冲星数量、其天空分布和计时噪声。特别地，我们发现仅当PTA包含约$N_{trans}\\sim10^{11}$颗精确计时的脉冲星时，相干脉冲星项信息才能改善全天引力波映射。该结果表明，尽管在数学上存在向脉冲星项敏感阶段的过渡，但对于现实PTA而言是不可达的，因此为当代观测中采用的地球项近似提供了定量依据。最后，我们将形式推广到随机引力波背景，为PTA天空映射和各向异性研究建立了一个统一的数学框架。",
+  "keywords_en": [
+    "pulsar timing arrays",
+    "gravitational waves",
+    "sky mapping",
+    "angular resolution",
+    "Earth term",
+    "pulsar term",
+    "tensor spherical harmonics",
+    "Fisher information"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波",
+    "天空映射",
+    "角分辨率",
+    "地球项",
+    "脉冲星项",
+    "张量球谐函数",
+    "Fisher信息"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-07-26T08:28:40.889986Z"
+}
