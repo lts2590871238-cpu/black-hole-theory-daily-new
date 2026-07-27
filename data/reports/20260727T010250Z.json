@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-07-27T01:02:50.229702Z",
+  "completed_at": "2026-07-27T01:06:54.466367Z",
+  "status": "degraded",
+  "fetched_arxiv": 0,
+  "fetched_inspire": 710,
+  "normalized": 710,
+  "deduplicated": 710,
+  "candidates": 30,
+  "selected": 25,
+  "review_queue": 0,
+  "rejected": 680,
+  "llm_calls": 21,
+  "cached_decisions": 4,
+  "errors": [
+    "arXiv data source temporarily unavailable: 429 Client Error: Unknown Error for url: https://export.arxiv.org/api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+    "arxiv:2607.20839: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.21283: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.18751: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.18107: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.17920: 评分或翻译失败：入选论文缺少中文入选理由"
+  ]
+}
