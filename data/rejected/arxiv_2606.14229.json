@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.14229",
+    "arxiv_id": "2606.14229",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fortifying gravitational-wave population inference with normalizing flows",
+    "abstract_en": "As the LIGO-Virgo-KAGRA collaboration's (LVK's) gravitational-wave transient catalog grows, we are learning a wealth of information from the population properties of binary black hole mergers. Events in the catalog are represented with posterior samples describing the astrophysical parameters for each event. Population studies combine these samples to measure the distribution of astrophysical parameters such as black hole masses and spins. However, the posterior-sample representation of each event is only approximate. We construct a mock population with masses drawn from an astrophysically-motivated distribution with sharp features. Using this, we demonstrate that when $\\gtrsim 300$ events are combined, even with each event's posterior represented by $1 \\times 10^4 {-} 2 \\times 10^4$ samples, the numerical error can become large enough that the resulting population inference is unreliable. We consider two solutions. In the short term, we show that nested samples (already produced by LVK analyses) can be used to more accurately describe each event in population studies. But this will only grant a temporary reprieve until the nested-sample representation becomes inadequate. In the longer term, we propose to represent each event with a normalizing flow. In order to represent each event with sufficient accuracy, each normalizing flow can be used to generate an arbitrarily large number of new posterior samples with a significantly reduced computational cost relative to traditional sampling methods. When compared to nested sampling, our normalizing flows produce posterior draws with a median of $\\approx 80\\%$ fewer likelihood evaluations per sample, while also providing greater opportunity for parallelization. We believe refinement of normalizing flow architectures and training techniques in future works could further reduce this per-sample cost significantly.",
+    "authors": [
+      "Christian Adamcewicz",
+      "Hugh McDougall",
+      "Paul D. Lasky",
+      "Eric Thrane"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-06-12T08:11:12Z",
+    "updated_at": "2026-07-24T07:15:23Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.14229v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.14229v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.14229",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
+        "url": "https://arxiv.org/abs/2606.14229v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

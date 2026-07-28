@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.22372",
+    "arxiv_id": "2607.22372",
+    "arxiv_version": null,
+    "inspire_id": "3183271",
+    "doi": null,
+    "title_en": "Quantum-informed surrogate sampling for combinatorial optimization",
+    "abstract_en": "We introduce Quantum-Informed Surrogate Sampling (QISS), a post-processing framework that generates candidate solutions to combinatorial optimization problems from low-weight correlations of shallow quantum circuits. The quantum device estimates local observables, which are directly accessible by repeated measurements and for which a wide range of error-mitigation tools are available, while candidate solutions are generated classically without explicit dependence on the combinatorial optimization problem itself. We evaluate QISS on Maximum Cut and Maximum Independent Set problems on $N$ variables and show that only $O(N)$ low-order correlators from shallow circuits suffice to produce competitive solutions that surpass vanilla QAOA. For MaxCut on 3-regular graphs, QISS from $p=3$ QAOA correlators outperforms vanilla QAOA at $p=17$ on average, with further improvements possible by warm-starting QAOA. We validate the procedure on the 54-qubit IQM Emerald quantum device and demonstrate its noise resilience. Our results support a regime for near-term optimization in which shallow circuits serve not as direct samplers but as generators of informative statistics for scalable classical sampling.",
+    "authors": [
+      "Wybo, Elisabeth",
+      "Finžgar, Jernej Rudi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-24T00:00:00Z",
+    "updated_at": "2026-07-27T09:18:28.908060Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183271",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183271",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
+        "url": "https://inspirehep.net/literature/3183271"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

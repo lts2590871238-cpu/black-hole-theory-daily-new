@@ -4,16 +4,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.20573",
     "arxiv_id": "2607.20573",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3182805",
     "doi": null,
     "title_en": "Eikonal Quality-Factor Parameterization of Model-Conditional Static Black-Hole Thermodynamics",
     "abstract_en": "We study how one complex quasinormal frequency can parameterize the geometry and model-conditional thermodynamics of a prescribed family of static, spherically symmetric black holes. For a minimally coupled massless test scalar in the eikonal limit, the ratio $χ=ω_Rτ=ω_R/ω_I=2Q$ removes the overall mass scale. If $χ$ is injective in one dimensionless parameter, that parameter and the geometric scale can be reconstructed within the chosen family. The normalized metric then fixes the horizon and Hawking temperature, whereas Wald entropy requires the gravitational action. For the RN-form family, $χ$ determines $u=q^2$ but not the sign of charge. The constant-coupling static MOG metric is exactly RN under $\\mathcal M=(1+α)m_{\\rm MOG}$ and $u=α/(1+α)$; consequently, the complete minimally coupled scalar spectrum is identical on mapped backgrounds for every multipole and overtone. The two assignments have equal temperature but different action-dependent entropy. Chebyshev and WKB--Padé calculations quantify the finite-multipole error, with a maximum eikonal ratio error of $2.1\\times10^{-3}$ on the tested $l=2$ RN grid. The construction is therefore a model-dependent inverse, not a theory selector. Applying it to gravitational-wave observations requires the appropriate tensor, vector, and scalar perturbation sectors beyond the test-field eikonal approximation.",
     "authors": [
-      "Lobos, Nikko John Leo S.",
-      "Rodulfo, Emmanuel T."
+      "Nikko John Leo S. Lobos",
+      "Emmanuel T. Rodulfo"
     ],
-    "categories": [],
+    "categories": [
+      "gr-qc"
+    ],
     "submitted_at": "2026-07-22T00:00:00Z",
     "updated_at": "2026-07-25T04:07:50.849895Z",
     "document_types": [
@@ -23,15 +25,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2607.20573v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.20573v1",
     "inspire_url": "https://inspirehep.net/literature/3182805",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2607.20573",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
+        "url": "https://arxiv.org/abs/2607.20573v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3182805",
-        "fetched_at": "2026-07-27T01:02:50.229702Z",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
         "url": "https://inspirehep.net/literature/3182805"
       }
     ],
@@ -58,39 +66,37 @@
     "secondary_topics": [],
     "scores": {
       "theory_depth": 25,
-      "methodological_rigor": 15,
-      "novelty": 10,
+      "methodological_rigor": 18,
+      "novelty": 12,
       "clarity": 8,
-      "metadata_quality": 5,
+      "metadata_quality": 7,
       "community_signal": 0,
-      "other": 2
+      "other": 5
     },
-    "total_score": 65,
+    "total_score": 75,
     "reject_reason_zh": "",
-    "selection_reason_zh": "论文提出了一种利用eikonal极限下单个复拟正规频率参数化静态球对称黑洞几何和热力学的新方法，理论深度较高，方法严谨，适合对黑洞热力学和拟正规模感兴趣的读者。",
-    "title_zh": "模型条件静态黑洞热力学的Eikonal品质因子参数化",
-    "abstract_zh": "我们研究了一个复拟正规频率如何参数化一族预设的静态球对称黑洞的几何和模型条件热力学。对于eikonal极限下最小耦合的无质量测试标量场，比值χ=ω_Rτ=ω_R/ω_I=2Q消除了整体质量标度。如果χ在一个无量纲参数上是单射的，那么该参数和几何标度可以在所选族内重建。归一化度规固定了视界和霍金温度，而Wald熵则需要引力作用。对于RN形式族，χ决定u=q²但不决定电荷符号。常耦合静态MOG度规在M=(1+α)m_MOG和u=α/(1+α)下恰好是RN；因此，对于每个多极和泛音，映射背景上的最小耦合标量谱完全相同。两种赋值具有相同的温度但不同的作用依赖熵。Chebyshev和WKB–Padé计算量化了有限多极误差，在测试的l=2 RN网格上最大eikonal比值误差为2.1×10⁻³。因此，该构造是一个模型依赖的反演，而非理论选择器。将其应用于引力波观测需要超越测试场eikonal近似的适当张量、矢量和标量扰动扇区。",
+    "selection_reason_zh": "提出了一种利用eikonal品质因子参数化静态球对称黑洞几何与模型条件热力学的方法，理论深刻且方法严谨，尽管依赖模型，但具有创新性。",
+    "title_zh": "Eikonal品质因子参数化模型条件静态黑洞热力学",
+    "abstract_zh": "我们研究了一个复准正态频率如何参数化一个预设的静态球对称黑洞族的几何和模型条件热力学。对于极端耦合的无质量测试标量场在eikonal极限下，比率 χ=ω_Rτ=ω_R/ω_I=2Q 消除了整体质量标度。如果 χ 在单一无量纲参数上是单射的，那么该参数和几何标度可以在所选族内重建。归一化度量随后固定了视界和霍金温度，而Wald熵需要引力作用。对于RN形式族，χ 确定 u=q^2 但不确定电荷符号。具有恒定耦合的静态MOG度量在 M=(1+α)m_MOG 和 u=α/(1+α) 下恰好是RN；因此，对于每个多极和泛音，完备的极小耦合标量谱在映射的背景上是相同的。两种分配具有相等的温度但不同的作用依赖熵。Chebyshev和WKB-Padé计算量化了有限多极误差，在测试的 l=2 RN网格上最大eikonal比率误差为 2.1×10^{-3}。因此，该构造是一个模型依赖的逆问题，而非理论选择器。将其应用于引力波观测需要合适的张量、矢量和标量扰动扇区，超出测试场eikonal近似。",
     "keywords_en": [
       "black hole thermodynamics",
-      "eikonal approximation",
       "quasinormal modes",
-      "black hole inverse problem",
-      "RN metric",
-      "MOG"
+      "eikonal approximation",
+      "MOG",
+      "Reissner-Nordström"
     ],
     "keywords_zh": [
       "黑洞热力学",
+      "准正则模",
       "eikonal近似",
-      "拟正规模",
-      "黑洞反问题",
-      "RN度规",
-      "MOG"
+      "MOG",
+      "Reissner-Nordström"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-27T01:05:24.905810Z"
+    "created_at": "2026-07-28T00:17:17.218771Z"
   },
-  "published_at": "2026-07-27T01:05:24.906248Z"
+  "published_at": "2026-07-28T00:17:17.219269Z"
 }

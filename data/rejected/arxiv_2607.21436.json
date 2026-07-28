@@ -3,15 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.21436",
     "arxiv_id": "2607.21436",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3182737",
     "doi": null,
     "title_en": "Stochastic Quantization as Optimal Control",
-    "abstract_en": "Stochastic quantization defines a Euclidean quantum field theory as the equilibrium of a fictitious-time Langevin dynamics, which reaches the Gibbs measure asymptotically. We show that this quantization can be formulated as a finite-time stochastic optimal control problem. A tractable reference process, naturally supplied by the free theory when available, provides an Ornstein--Uhlenbeck dynamics, while the full interaction enters as a reference-corrected terminal cost. The optimal control is a Doob-transform force that steers the path-reweighted terminal ensemble to the target at a prescribed time and for a given noise amplitude. A neural network learns the residual control, realizing this optimal stochastic quantization (OSQ). Because the path weights are exact, imperfect training increases the variance of estimators but does not introduce model bias. On multimodal potentials we recover all modes at finite time and find that the noise amplitude sets a practical diffusion-horizon window. In two-dimensional lattice scalar $ϕ^4$ theory we recover observables from hybrid Monte Carlo simulations near the critical point. Quantization is thereby formulated as control rather than equilibration.",
+    "abstract_en": "Stochastic quantization defines a Euclidean quantum field theory as the equilibrium of a fictitious-time Langevin dynamics, which reaches the Gibbs measure asymptotically. We show that this quantization can be formulated as a finite-time stochastic optimal control problem. A tractable reference process, naturally supplied by the free theory when available, provides an Ornstein--Uhlenbeck dynamics, while the full interaction enters as a reference-corrected terminal cost. The optimal control is a Doob-transform force that steers the path-reweighted terminal ensemble to the target at a prescribed time and for a given noise amplitude. A neural network learns the residual control, realizing this optimal stochastic quantization (OSQ). Because the path weights are exact, imperfect training increases the variance of estimators but does not introduce model bias. On multimodal potentials we recover all modes at finite time and find that the noise amplitude sets a practical diffusion-horizon window. In two-dimensional lattice scalar $φ^4$ theory we recover observables from hybrid Monte Carlo simulations near the critical point. Quantization is thereby formulated as control rather than equilibration.",
     "authors": [
-      "Wang, Lingxiao"
+      "Lingxiao Wang"
     ],
-    "categories": [],
+    "categories": [
+      "hep-lat",
+      "hep-th"
+    ],
     "submitted_at": "2026-07-23T00:00:00Z",
     "updated_at": "2026-07-25T04:04:19.510473Z",
     "document_types": [
@@ -21,15 +24,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2607.21436v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.21436v1",
     "inspire_url": "https://inspirehep.net/literature/3182737",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2607.21436",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
+        "url": "https://arxiv.org/abs/2607.21436v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3182737",
-        "fetched_at": "2026-07-27T01:02:50.229702Z",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
         "url": "https://inspirehep.net/literature/3182737"
       }
     ],

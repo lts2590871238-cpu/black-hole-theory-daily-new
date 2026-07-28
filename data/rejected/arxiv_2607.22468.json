@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.22468",
+    "arxiv_id": "2607.22468",
+    "arxiv_version": null,
+    "inspire_id": "3183310",
+    "doi": null,
+    "title_en": "Learning to Prepare Molecular Ground States with Transformer Models",
+    "abstract_en": "Quantum state preparation is a key component of many quantum algorithms. Performing this step efficiently is essential for realizing practical quantum advantage in quantum chemistry applications. Iterative algorithms like ADAPT-VQE can produce shallow ground-state preparation circuits, but become computationally prohibitive for the larger molecules relevant to materials science and pharmaceutical development. Here, we introduce ADAPT-GQE, a generative AI framework that learns to synthesize ground-state preparation circuits for electronic structure calculations. We first use ADAPT-VQE to generate high-quality reference circuits, which are then used as targets for training models for circuit generation. Once trained, the model can efficiently propose and score circuits, enabling reinforcement learning (RL) to drive circuit generation accuracy beyond the accuracy of the ADAPT-VQE training data. This pipeline achieves order-of-magnitude reductions in circuit generation time relative to ADAPT-VQE while maintaining comparable or improved state-preparation accuracy. We demonstrate ADAPT-GQE on imipramine, a well-established tricyclic antidepressant that serves as a representative, challenging target for computational modelling in drug stability protocols. We execute generated circuits on Quantinuum Helios-1, representing a milestone for AI-generated quantum chemistry circuits on state-of-the-art quantum hardware. These results establish a pathway toward automated quantum circuit synthesis for utility-scale quantum computational chemistry.",
+    "authors": [
+      "Koziell-Pipe, Alex",
+      "Brewer, Jasmine",
+      "Guhit, Jem",
+      "Farag, Marwa H.",
+      "Panchagnula, Kripa",
+      "Laude, Gabriel",
+      "Finger, Fabian",
+      "Gaggioli, Carlo",
+      "Szulakowska, Ludmila",
+      "Backhouse, Oliver J.",
+      "Papalitsas, Christos",
+      "Mustakis, Jason G.",
+      "Soini, Thomas",
+      "Ramo, David Munoz",
+      "Clark, Stephen",
+      "Kyoseva, Elica",
+      "Rinaldi, Enrico"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-24T00:00:00Z",
+    "updated_at": "2026-07-27T09:18:35.442901Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183310",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183310",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
+        "url": "https://inspirehep.net/literature/3183310"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

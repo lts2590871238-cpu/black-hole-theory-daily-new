@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.21675",
+    "arxiv_id": "2607.21675",
+    "arxiv_version": null,
+    "inspire_id": "3183207",
+    "doi": null,
+    "title_en": "Hash-QNeRF: Multiresolution Hash Encoding for Quantum Neural Radiance Fields",
+    "abstract_en": "Neural Radiance Fields (NeRF) have revolutionized novel view synthesis, yet their classical implementations remain computationally intensive for high-fidelity rendering. QNeRF recently demonstrated the feasibility of training NeRF on gate-based quantum computers by combining amplitude embedding, parameterized quantum circuits (PQCs), parity-based measurements, and volumetric rendering. However, QNeRF relies on classical sinusoidal positional encoding for spatial coordinates, which scales poorly with scene complexity and resolution. In this work, we replace the sinusoidal positional encoding for spatial coordinates with the multiresolution hash encoding from Instant-NGP while keeping the view-direction encoding, amplitude MLP, quantum circuit, parity measurement, output scaling, and volumetric rendering pipeline unchanged. This hybrid design, Hash-QNeRF, retains the quantum radiance prediction step while benefiting from the fast convergence and memory efficiency of learnable hash grids. On a synthetic Blender scene, we achieve a final training loss of 0.003534, corresponding to approximately 24.5 dB PSNR on the fitted batch. Noise resilience experiments using Qiskit FakeKyiv and FakeTorino backends yield state fidelities of 0.93 to 0.98, indicating that hash encoding does not degrade the quantum circuit's noise tolerance.",
+    "authors": [
+      "Biswas, Digonto",
+      "Ballove, Tana",
+      "Bandyopadhyay, Anjan",
+      "Mangal, Sutanu",
+      "Pati, Arun Kumar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-23T00:00:00Z",
+    "updated_at": "2026-07-27T09:18:19.549458Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183207",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183207",
+        "fetched_at": "2026-07-28T00:15:03.564166Z",
+        "url": "https://inspirehep.net/literature/3183207"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
