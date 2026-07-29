@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.22863",
+    "arxiv_id": "2607.22863",
+    "arxiv_version": 1,
+    "inspire_id": "3183469",
+    "doi": null,
+    "title_en": "Universal scaling framework for parameterized quantum evolutions at criticality",
+    "abstract_en": "Variational ansätze are a cornerstone of quantum many-body physics, providing compact approximations to complex ground states using finite resources. Recent quantum-technology advances have introduced a new class based on layered parameterized evolutions. Assessing whether they can represent critical ground states is challenging: correlations span all length scales, while finite circuit depth limits how far they extend. Building on finite-resource scaling from tensor networks, we assign each ansatz an emergent correlation length $ξ_D$, the longest range over which it faithfully captures critical correlations. Its growth with refinement parameter $D$, $ξ_D \\propto D^κ$, defines an exponent $κ$ measuring how efficiently an architecture converts resources into long-distance correlations. Applying this framework to the critical transverse-field Ising model, with $D$ the circuit depth of parameterized evolutions, we compare ansätze with nearest-neighbor and long-range generators, and layers where generators act separately or combined. All ansätze are compatible with algebraic growth, but fitted exponents range from $κ\\simeq1$ to $κ\\simeq3$. Exponential interactions give the largest exponents, while power-law interactions stay close to nearest-neighbor behavior, showing long-range support alone gives no scaling advantage. Combined-generator layers generally outperform separable ones, so layer organization matters alongside interaction range. Finally, a quasiparticle analysis shows finite depth leaves an unresolved window of width $ξ_D^{-1}$ around the low-energy modes responsible for long-distance correlations. The emergent correlation length thus acts as an infrared resolution scale, providing a benchmark for critical-state preparation and a guide for designing resource-efficient variational architectures.",
+    "authors": [
+      "Jan T. Schneider",
+      "Cristian Tabares",
+      "Alejandro González-Tudela",
+      "Luca Tagliacozzo"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.stat-mech",
+      "cond-mat.str-el",
+      "hep-th"
+    ],
+    "submitted_at": "2026-07-24T00:00:00Z",
+    "updated_at": "2026-07-28T04:17:42.753273Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.22863v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22863v1",
+    "inspire_url": "https://inspirehep.net/literature/3183469",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.22863",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2607.22863v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3183469",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183469"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

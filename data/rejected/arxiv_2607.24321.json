@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24321",
+    "arxiv_id": "2607.24321",
+    "arxiv_version": null,
+    "inspire_id": "3183687",
+    "doi": null,
+    "title_en": "Static compilation of Julia packages for integration with existing HEP codebases: a case study with JetReconstruction.jl",
+    "abstract_en": "The Julia programming language is considered a strong contender as a future language for high-energy physics (HEP) computing. However, transitioning to the Julia ecosystem will be a long process and interoperability between Julia and C++ is required. So far several successful attempts have been made to wrap HEP C++ packages for use in Julia. It is also important to explore the reverse direction, allowing Julia code to be called from existing HEP codebases, written primarily in C++ and Python, which would significantly improve potential adoption of Julia code. With recent developments in Julia enabling it to produce statically compiled code, this approach is becoming increasingly feasible, and investigating this potential for the benefit of HEP community is the focus of this work. This work presents a case study of statically compiling the JetReconstruction.jl package - a highly performant, native Julia implementation of sequential jet reconstruction algorithms. Two different backends for Julia code compilation are compared: the existing PackageCompiler.jl and the new static compilation feature of Julia language, which is one of the major improvements in the Julia v1.12 release. The performance of the statically compiled JetReconstruction.jl is compared with both native Julia code and C++ FastJet.",
+    "authors": [
+      "Fila, Mateusz Jakub",
+      "Stewart, Graeme A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T04:26:34.400059Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183687",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183687",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183687"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

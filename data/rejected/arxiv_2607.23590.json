@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23590",
+    "arxiv_id": "2607.23590",
+    "arxiv_version": null,
+    "inspire_id": "3183554",
+    "doi": null,
+    "title_en": "An Integrated DFT-Wannier-Quantum Embedding Pipeline for Strongly Correlated Materials: Scaling Benchmarks in Li-hBN",
+    "abstract_en": "The seamless integration of Density Functional Theory (DFT) with quantum variational algorithms is essential for the predictive simulation of strongly correlated materials. In this work, we present an end-to-end computational pipeline - comprising DFT geometry relaxation, non-self-consistent field (NSCF) calculations, and Wannier-based orbital localization - to prepare active-space Hamiltonians for quantum embedding. We utilize the Adaptive Variational Quantum Eigensolver (ADAPT-VQE) framework, significantly enhanced by a Greedy-Operator Commutativity Partitioning (GOCP) approach and a Taylor-expanded O(5) operator evolution strategy to efficiently manage the exponential scaling of the Hilbert space. We demonstrate this framework through a systematic benchmark study of Li-hBN, mapping the system onto qubit registers and investigating the convergence behavior as the active space is expanded from 8 to 14 spatial orbitals. Our results quantify the relationship between active-space size and computational demand, identifying a critical \"scaling wall\" where classical simulation costs transition from manageable to intractable. This study provides a rigorous performance baseline for the DFT-to-ADAPT-VQE workflow and offers empirical insights into the memory and processing limits currently facing hybrid quantum-classical architectures using advanced co-processing strategies.",
+    "authors": [
+      "Dipojono, Hermawan Kresno"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-28T04:20:33.002316Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183554",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183554",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183554"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

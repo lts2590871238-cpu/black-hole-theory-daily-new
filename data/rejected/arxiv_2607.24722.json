@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24722",
+    "arxiv_id": "2607.24722",
+    "arxiv_version": null,
+    "inspire_id": "3183725",
+    "doi": null,
+    "title_en": "Scalable Variational Quantum Optimization via Pauli Correlation Encoding: Application to Large-Scale Power Demand Portfolio Optimization",
+    "abstract_en": "Variational quantum algorithms offer a promising route to combinatorial optimization, but their applicability is limited by the challenge of encoding large-scale problems within restricted qubit resources. In this work, we introduce a scalable variational framework based on Pauli correlation encoding (PCE) and apply it to electric power demand portfolio optimization. Binary variables are represented through expectation values of Pauli correlation operators, which encode multi-body correlations of the quantum state and provide a continuous relaxation enabling compact representations with few qubits. We further propose a two-stage hybrid formulation, in which a time-averaged problem provides initialization for a time-resolved optimization. Numerical simulations demonstrate near-optimal performance across problem sizes ranging from $m$=18 to 10,296, with normalized cost gaps on the order of $10^{-4}$ relative to solutions with certified optimality. We show that the performance is governed by the interplay between continuous relaxation and discretization: the effective resolution of the correlator representation determines how reliably improvements in the continuous loss translate into better discrete solutions, with larger systems exhibiting more consistent behavior. Finally, we demonstrate robustness on a trapped-ion quantum processor, where high-quality solutions are obtained despite noise and finite sampling. These results establish PCE as a physically motivated and qubit-efficient framework for large-scale combinatorial optimization.",
+    "authors": [
+      "Yoshioka, Takuya",
+      "Sasada, Keita",
+      "Usuki, Riku",
+      "Nakano, Yuichiro",
+      "Fujii, Keisuke"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T04:29:48.468298Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183725",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183725",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183725"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

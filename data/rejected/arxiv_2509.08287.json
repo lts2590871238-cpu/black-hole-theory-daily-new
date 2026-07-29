@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2509.08287",
+    "arxiv_id": "2509.08287",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": "10.1007/jhep06(2026)198",
+    "title_en": "Thermodynamic Diagnostics for Complex Langevin Simulations: The Role of Configurational Temperature",
+    "abstract_en": "The complex Langevin method (CLM) offers a potential solution to the sign problem in quantum field theories with complex actions, but can converge to incorrect results even when simulations appear stable. Existing diagnostics monitor drift distributions or Langevin-time operators but do not explicitly test whether configurations are sampled with the correct Boltzmann statistical weight. We propose a complementary diagnostic based on configurational temperature, constructed from gradients and Hessians of the action. Testing in one-dimensional PT-symmetric models demonstrates 0.2-3\\% accuracy in reproducing the expected value for the configurational temperature. Crucially, configurational temperature detects algorithmic errors -- including noise mis-scaling, step-size artifacts, and incomplete thermalization -- significantly more sensitively than existing drift-based or operator-based criteria. The method relies on the derivatives of the local action, making it applicable to general lattice theories, though computational cost requires consideration in higher dimensions. Our results suggest configurational temperature as a valuable addition to CLM diagnostics, complementing existing tools with potential applications from supersymmetric matrix models to lattice QCD at finite density.",
+    "authors": [
+      "Anosh Joseph",
+      "Arpith Kumar"
+    ],
+    "categories": [
+      "hep-lat",
+      "hep-th"
+    ],
+    "submitted_at": "2025-09-10T05:05:05Z",
+    "updated_at": "2026-07-26T11:56:46Z",
+    "document_types": [],
+    "journal_ref": "JHEP 06 (2026) 198",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2509.08287v3",
+    "pdf_url": "https://arxiv.org/pdf/2509.08287v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2509.08287",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2509.08287v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

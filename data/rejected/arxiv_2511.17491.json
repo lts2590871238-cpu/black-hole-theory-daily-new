@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2511.17491",
+    "arxiv_id": "2511.17491",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/vl66-7flb",
+    "title_en": "Exploring fixed points and eigenstates of quantum systems with reinforcement learning",
+    "abstract_en": "We introduce a reinforcement learning algorithm designed to identify the fixed points of a given quantum operation. The method iteratively constructs the unitary transformation that maps the computational basis onto the basis of fixed points through a reward-penalty scheme based on quantum measurements. In cases where the operation corresponds to a Hamiltonian evolution, this task reduces to determining the Hamiltonian eigenstates. The algorithm is first benchmarked on random Hamiltonians acting on two and three qubits and then applied to many-body systems of up to six qubits, including the transverse-field Ising model and the all-to-all pairing Hamiltonian. In both cases, the algorithm is demonstrated to perform successfully; in the pairing model, it can also reveal hidden symmetries, which can be exploited to restrict learning to specific symmetry sectors. Finally, we discuss the possibility of post-selecting high-fidelity states even when full convergence has not been reached.",
+    "authors": [
+      "María Laura Olivera-Atencio",
+      "Jesús Casado-Pascual",
+      "Denis Lacroix"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el",
+      "nucl-th"
+    ],
+    "submitted_at": "2025-11-21T18:48:46Z",
+    "updated_at": "2026-07-26T12:27:57Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. Research 8, 033087 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2511.17491v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.17491v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2511.17491",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2511.17491v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

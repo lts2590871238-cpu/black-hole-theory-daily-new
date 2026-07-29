@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23604",
+    "arxiv_id": "2607.23604",
+    "arxiv_version": null,
+    "inspire_id": "3183521",
+    "doi": null,
+    "title_en": "Performance and Stability of Quantum Krylov Diagonalization for the Hubbard Model",
+    "abstract_en": "Quantum Krylov diagonalization (QKD) has emerged as a promising hybrid quantum-classical approach for estimating ground-state properties of many-body systems on near-term quantum devices. In this work, we investigate the convergence, stability, and hardware performance of QKD for the one-dimensional Hubbard model with periodic boundary conditions. Building upon our previously developed low-depth Jordan--Wigner implementation, which reduces the number of two-qubit (CNOT) gates required for quantum time evolution, we perform a systematic study of the influence of the Krylov dimension, Hamiltonian evolution parameters, system size, interaction strength, and singular-value truncation (SVT) on the convergence of the method. Our results show that the performance of QKD is governed by a delicate interplay between the low-energy spectral structure of the Hamiltonian and numerical stability. In particular, systems with near-closing energy gaps require longer evolution times to efficiently resolve nearby eigenstates, while the evolution time, Krylov dimension, Trotter number, and SVT threshold must be carefully balanced to avoid numerical instabilities and accumulated time-discretization errors. This analysis provides practical guidelines for selecting algorithmic parameters in QKD. Finally, we demonstrate the algorithm on IBM quantum hardware, where the experimental results reproduce the convergence trends predicted by ideal simulations using only lightweight readout-error mitigation and a modest measurement budget. Together, these results demonstrate that QKD is a practical and hardware-efficient approach for studying strongly correlated fermionic systems on current NISQ quantum processors.",
+    "authors": [
+      "Mirzakhani, Mohammad",
+      "Kwon, Hyukgun",
+      "Moon, Kyungsun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-28T04:19:48.841121Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183521",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183521",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183521"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,68 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23494",
+    "arxiv_id": "2607.23494",
+    "arxiv_version": 1,
+    "inspire_id": "3183534",
+    "doi": null,
+    "title_en": "Hermes - Towards an Optimal High-Performance Algorithm for Cosmic Statistics of Large Data Sets",
+    "abstract_en": "We present Hermes, an in situ multiresolution framework for efficient and flexible measurements of cosmic large-scale-structure statistics from discrete catalogues. Hermes reconstructs a catalogue as a continuous density field in a compact scaling-function basis and replaces explicit counting of particle tuples with algebraic operations among window-filtered fields. Standard binning schemes for counts-in-cells, two-point and higher-order correlation functions are thereby expressed through choices of window functions, while new statistics can be constructed by modifying the kernels without redesigning the estimator. We introduce PyHermes, an open-source Python implementation combining multiresolution reconstruction, FFT-based convolution, MPI/thread parallelism, and GPU acceleration. It supports isotropic and anisotropic two-point statistics, marked correlations, standard and multipole three-point functions, filtered statistics, and differential operators for derived physical fields. Tests with cosmological N-body halo catalogues demonstrate a range of clustering measurements and quantify the computational efficiency and scalability of the approach. By separating field representation from statistical windows, a single reconstructed field can be reused for many standard and customised measurements, making Hermes well suited to large data sets from current and future galaxy surveys.",
+    "authors": [
+      "Long-long Feng",
+      "Tengpeng Xu",
+      "Tian-Cheng Luan",
+      "Jiawei Li",
+      "Xin Sun",
+      "Wenjie Ju",
+      "Zhuoyang Li",
+      "Shiyu Yue",
+      "Weishan Zhu",
+      "Yan-Chuan Cai"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-28T04:20:10.696635Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.23494v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.23494v1",
+    "inspire_url": "https://inspirehep.net/literature/3183534",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.23494",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2607.23494v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3183534",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183534"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23683",
+    "arxiv_id": "2607.23683",
+    "arxiv_version": null,
+    "inspire_id": "3183590",
+    "doi": null,
+    "title_en": "Qutrit-Based Neural Quantum Kernels for Classification Tasks",
+    "abstract_en": "Neural quantum kernels (NQKs) construct quantum kernels by pretraining a quantum neural network (QNN) and subsequently reusing the trained circuit as a task-adapted embedding. Extending this framework to qudits, with local unitaries in $\\mathrm{SU}(d)$, provides a natural route to richer data embeddings through the increased local degrees of freedom and a direct interface for multiclass classification via intrinsically multi-level quantum systems. In this work, focusing on qutrits ($d=3$), we extend NQKs to the qudit setting and perform a systematic study of key design choices, including the number of encoded features, the number of qutrits, the kernel construction (1-to-$n$ and $n$-to-$n$), and the parameterization of $\\mathrm{SU}(3)$ unitaries. Across binary and three-class tasks on four benchmark datasets, qutrit NQKs improve over the corresponding QNN baselines in nearly all settings considered and can benefit from scaling both the feature budget and the system size, although the magnitude of these gains may saturate, is dataset-dependent, and depends on the chosen parameterization. In particular, an ablation over $\\mathrm{SU}(3)$ parameterizations shows that the unitary representation can substantially impact both optimization behaviour and classifier performance. These findings highlight the potential of qudit-based quantum models not only as a straightforward generalization of qubit-based architectures, but also as a promising means to better exploit complex data structures in quantum machine learning.",
+    "authors": [
+      "Cristiano-Romero, Camila",
+      "Rodriguez-Grasa, Pablo",
+      "Sanz, Mikel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-28T04:22:07.556228Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183590",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183590",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183590"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

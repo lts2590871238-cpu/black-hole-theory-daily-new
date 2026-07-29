@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24557",
+    "arxiv_id": "2607.24557",
+    "arxiv_version": null,
+    "inspire_id": "3183732",
+    "doi": null,
+    "title_en": "Entanglement Distillation and Swapping Scheduling in Quantum Repeaters with Noisy Memories",
+    "abstract_en": "Entanglement distillation and entanglement swapping have been extensively studied assuming perfect quantum memories. However, near-term quantum networks will be fundamentally limited by quantum memories with a finite coherence time, resulting in complex choices for the timing and ordering of these operations. In this work, we study entanglement distillation and entanglement swapping at the level of the elementary building blocks of noisy quantum repeater networks, with the goal of elucidating the fundamental tradeoffs induced by memory decoherence. First, we focus on a minimal one-hop setting, where we analytically compare ``distill-as-soon-as-possible'' and ``distill-as-late-as-possible'' strategies against a baseline strategy that simply discards the older entangled state. We find that in the low memory coherence time regime, discarding the older entangled state achieves higher expected output fidelity, while in the high coherence time regime, delaying distillation until the end achieves the highest expected output fidelity and, over most of the deadline range, the highest weighted coherent information, at the expense of a lower success probability. We then extend our analysis to two-hop repeater chains using Monte Carlo simulation. In this setting, we find that the highest weighted coherent information is achieved by strategies that defer distillation to the end of the time window, with \\textsf{Distill-ALAP-then-Swap-ALAP} and \\textsf{Swap-ASAP-then-Distill-ALAP} leading at different operating points, while \\textsf{Discard-Oldest-then-Swap} never reaches positive weighted coherent information in any regime tested. Together, these results clarify how decoherence reshapes the optimal operation timing in quantum networks and provide instructive insights into the link-level principles that govern larger-scale architectures.",
+    "authors": [
+      "Chander, Siddharth",
+      "Chen, Xinan",
+      "Zang, Allen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T04:30:32.122542Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183732",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183732",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183732"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23988",
+    "arxiv_id": "2607.23988",
+    "arxiv_version": null,
+    "inspire_id": "3183586",
+    "doi": null,
+    "title_en": "Scaling a CUDA-Q GQE + QSCI pipeline to 40 qubits for EUV photoresist chemistry",
+    "abstract_en": "We scale a CUDA-Q-native pipeline coupling a generative quantum eigensolver (GQE) to quantum-selected configuration interaction (QSCI) across active spaces of 14 to 44 qubits, applied to the extreme-ultraviolet (EUV) photoresist chemistry of monoalkyltin oxo-hydroxides. A GPT-2 policy emits UCCSD operator sequences; sampled bitstrings become determinants, diagonalised classically, and a cross-circuit generalised-eigenvalue refinement makes every reported GQE+QSCI energy a variational upper bound. Every rung from 14 to 40 qubits carries an exact CASCI or FCI reference, up to 166 million determinants for SnO at 32 qubits. The pipeline is chemically accurate, below 1.6 mHa, through 30 qubits on methyltin trihydroxide and through 32 on SnO, on the best seed at the top rungs. Circuit depth rather than training length is the scaling lever; the refined subspace grows near-linearly with the operator count while staying a vanishing fraction of the determinant space, 0.017% at the 32-qubit SnO rung. It also runs on the 54-qubit IQM Emerald processor, at the shallow depths its routed two-qubit gates allow, reaching +0.330 mHa for SnO at 14 qubits from a CCSD-amplitude-ordered pool prefix and +3.92 mHa for the industrial n-butyltin ligand at 22 qubits from depth-truncated trained circuits under per-circuit readout self-calibration, 81% of the active-space correlation; classical configuration recovery on those counts tightens the 22-qubit result to +0.18 to 0.21 mHa. For the methyl resist, ionisation collapses the classical UCCSD(T) Sn-C bond dissociation energy from 72.6 to 21.2 kcal/mol, the switch that flips solubility on exposure. Against that, the 40-qubit result is support-limited at 22.8 mHa, the full trained ansatz on hardware awaits better fidelities, and classical subspace expansion reaches the 32 to 40-qubit spaces with no quantum sampler, so that boundary is mapped, not beaten.",
+    "authors": [
+      "Elgammal, Karim",
+      "Maußner, Marc"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T04:21:23.430737Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183586",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183586",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183586"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

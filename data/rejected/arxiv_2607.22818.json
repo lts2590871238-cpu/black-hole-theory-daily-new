@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.22818",
+    "arxiv_id": "2607.22818",
+    "arxiv_version": null,
+    "inspire_id": "3183369",
+    "doi": null,
+    "title_en": "Practical advantage beyond the quadratic speedup limit with fully-quantum walks",
+    "abstract_en": "We introduce a new class of fully-quantum Metropolis walks in which both the proposal and acceptance steps are intrinsically quantum. Unlike standard quantum walks obtained by quantizing classically efficient Markov chains, our algorithm employs Hamiltonian simulation as a quantum-native proposal mechanism, enlarging the class of quantum walks beyond classical counterparts. We target the problem of sampling from the low-temperature Gibbs distribution of classical dense Ising models, within a fixed error in total variation distance. This approach achieves about a cubic polynomial asymptotic advantage over previous quantum-walks, resulting in a total sixth-degree polynomial queries speedup compared to the best classical walk. This shows that speedups beyond the widely assumed quadratic limit are possible within the quantum walk formalism. We perform a complete fault-tolerant compilation of all algorithmic primitives and benchmark against CPU, GPU, and FPGA implementations of the best classical Markov chain. Under identical hardware assumptions, the resulting advantage runtime crossover is reduced from approximately $10^3$ years for conventional quantum walks to less than one day. These results identify fully-quantum Markov chains as a promising route toward practical quantum advantage.",
+    "authors": [
+      "Incudini, Massimiliano",
+      "Mazzola, Guglielmo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-24T00:00:00Z",
+    "updated_at": "2026-07-28T02:43:28.474123Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183369",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183369",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183369"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

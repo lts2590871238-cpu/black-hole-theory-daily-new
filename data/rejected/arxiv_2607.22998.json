@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.22998",
+    "arxiv_id": "2607.22998",
+    "arxiv_version": null,
+    "inspire_id": "3183372",
+    "doi": null,
+    "title_en": "A Resource Estimation Model for the Hardware-Software Co-Design of Distributed Quantum Architectures",
+    "abstract_en": "In distributed quantum computing (DQC), executing monolithic quantum circuits across multiple interconnected quantum processing units (QPUs) requires dedicated communication qubits to generate and distribute entanglement. Because the number of physical qubits within a QPU is finite, a trade-off emerges where allocating more communication qubits increases the capacity of quantum channels for concurrent non-local operations, but reduces the number of computational qubits available for local gate operations. Distributed quantum compilation routinely ignores this channel capacity, while hardware architects lack a method to determine it prior to quantum circuit partitioning. Moreover, scheduling entanglement on demand introduces severe latency, whereas pre-fetching exposes stored pairs to decoherence. We propose an economic order quantity model from perishable inventory theory to optimize the trade-off between entanglement distribution latency and the time cost of decoherence. The resulting estimate is driven by algorithmic demand and physical constraints, offering a dual application for the hardware-software co-design of high-performance DQC: for hardware architects, it gives the optimal allocation of dedicated communication qubits in static heterogeneous architectures; for compiler developers, it gives the optimal number to reserve dynamically in homogeneous architectures.",
+    "authors": [
+      "Wu, Raymond P.H.",
+      "Ranaweera, Chathurika",
+      "Rajasegarar, Sutharshan",
+      "Joseph, Ria Rushin",
+      "Choi, Jinho",
+      "Loke, Seng W."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-25T00:00:00Z",
+    "updated_at": "2026-07-28T04:31:26.918231Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/3149223'}, C26-09-13.1"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183372",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183372",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183372"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

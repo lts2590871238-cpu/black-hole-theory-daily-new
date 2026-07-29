@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.00078",
+    "arxiv_id": "2607.00078",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Exploring Line Bundle Standard Models with Transformers",
+    "abstract_en": "We propose a Transformer-based Reinforcement Learning architecture, \"LB-Explorer\", to search for heterotic line bundle standard models arising from compactifications on smooth Calabi-Yau (CY) threefolds. We focus on $E_8\\times E_8$ heterotic string theory compactifications on CY with abelian line bundles to produce $\\text{SU}(5)\\times \\text{S}(\\text{U}(1)^5)$ symmetry, whose $\\text{SU}(5)$ can be further broken to an MSSM-like gauge group using appropriate discrete Wilson lines. We test the LB-Explorer environment on complete intersection Calabi-Yau (CICY) manifolds, though the neural network architecture naturally generalizes to any CY admitting a simplicial Mori cone and a freely-acting discrete symmetry. The LB-Explorer efficiently learns constraints on the line bundle sums, guaranteeing the $E_8$ gauge embedding, anomaly cancellation, poly-stability (supersymmetry), chirality of the spectrum, and the absence of exotic matter. Valid configurations can be subsequently filtered by imposing the missing constraints, such as the equivariant structure of the line bundle sum and further requirements on the particle spectrum. In this direction, we introduce a hybrid architecture incorporating CP-SAT solvers that aims to impose some of the conditions exactly by perturbing solutions found by the LB-Explorer. The versatility and scalability of the LB-Explorer make it a powerful tool for navigating the string landscape with a large number of moduli. The code and tools necessary to reproduce our findings are available at https://github.com/alexmininno/LB-Explorer",
+    "authors": [
+      "Jacky H. T. Yip",
+      "Alessandro Mininno",
+      "Gary Shiu"
+    ],
+    "categories": [
+      "hep-th"
+    ],
+    "submitted_at": "2026-06-30T18:00:01Z",
+    "updated_at": "2026-07-25T18:00:54Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.00078v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.00078v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.00078",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2607.00078v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

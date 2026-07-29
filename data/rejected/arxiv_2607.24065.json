@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24065",
+    "arxiv_id": "2607.24065",
+    "arxiv_version": null,
+    "inspire_id": "3183394",
+    "doi": null,
+    "title_en": "Variational Quantum Conditional Boltzmann Machines for Time-Series Forecasting: Architectures, Symmetric Hyperparameter Evaluation, and a Nonlinear Benchmark",
+    "abstract_en": "In this study, we developed and evaluated four conditional energy-based forecasting architectures: a classical Gaussian-Bernoulli CRBM, a hybrid quantum-classical QCRBM, a full-register QQRBM, and a lag-feature QFeatureQRBM with complete derivations of their conditional distributions, Contrastive-Divergence gradients, and hybrid training, bridging the energy-based formulation and the implementation-level quantum computation. Unlike prior comparisons, our evaluation enforces symmetric hyperparameter optimisation: classical and quantum-specific hyperparameters receive an equally thorough grid search across thirteen structured experiments. We test on two data classes, a Gaussian-process dataset (GP) generated with real financial data and the input-driven NARMA-10 nonlinear benchmark. Across both regimes we find no systematic evidence of a quantum advantage at the available sample size: no quantum architecture improves on the best classical baseline. The fully quantum QQRBM and QFeatureQRBM are significantly worse, whereas the hybrid QCRBM is statistically indistinguishable from the strongest classical CRBM on both datasets. A power analysis bounds this null result: at n = 12 only medium-to-large effects are detectable, so small advantages cannot be excluded. An iso-parameter (matched-budget) comparison reaches the same conclusion: the classical CRBM is lowest at three of the four budgets and no CRBM-vs-QCRBM difference is significant at any budget.",
+    "authors": [
+      "Hellstern, Gerhard",
+      "Maheshwari, Danyal",
+      "Zaefferer, Martin",
+      "Braun, Martin",
+      "Döhler, Tanja"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T03:27:59.791747Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183394",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183394",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183394"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

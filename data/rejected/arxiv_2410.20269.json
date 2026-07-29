@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2410.20269",
+    "arxiv_id": "2410.20269",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Machine Learning based Glitch Veto for inspiral binary merger signals using Linear Chirp Transform",
+    "abstract_en": "Transient non-Gaussian noise artifacts commonly known as glitches remain a major challenge in gravitational wave (GW) detection because they can mimic genuine compact binary coalescence signals and increase the false-alarm rate of detection pipelines. Accurate discrimination between astrophysical signals and instrumental glitches is therefore essential for improving the reliability of GW observations. In this work, we investigate the Linear Chirp Transform (LCT) as a feature extraction technique for glitch classification. Unlike the conventional Fourier transform, the LCT incorporates an additional chirp-rate parameter $γ$, enabling improved representation of signals with time-varying frequencies. Applying the LCT to GW strain time series produces three-dimensional chirp-volume spectrograms spanning time, frequency and chirp-rate dimensions, providing richer information than conventional time-frequency spectrograms. The dataset consists of confirmed compact binary coalescence events and glitch samples from the O1-O4 observing runs of the LIGO detectors at Hanford and Livingston. For classification, we employ a hybrid deep learning architecture combining convolutional neural networks (CNNs), gated recurrent units (GRUs) and an attention mechanism. The CNN layers extract local spectro-temporal features, the GRUs model correlations across chirp-rate slices and attention pooling highlights the most informative regions. The proposed framework achieves high classification performance on training and validation datasets, demonstrating that chirp-domain representations provide highly discriminative information for distinguishing merger signals from glitches. These results highlight the potential of combining chirp-based signal processing with deep learning to improve glitch mitigation in current and future GW observatories.",
+    "authors": [
+      "N. Arutkeerthi",
+      "Xiyuan Li",
+      "Cindy Cui",
+      "SR Valluri"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2024-10-26T20:45:55Z",
+    "updated_at": "2026-07-27T17:50:39Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2410.20269v2",
+    "pdf_url": "https://arxiv.org/pdf/2410.20269v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2410.20269",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2410.20269v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

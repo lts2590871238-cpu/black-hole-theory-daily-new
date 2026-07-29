@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23641",
+    "arxiv_id": "2607.23641",
+    "arxiv_version": null,
+    "inspire_id": "3183572",
+    "doi": null,
+    "title_en": "Optimal Dynamic Cooling of Multiple Qubits",
+    "abstract_en": "We solve the closed-system problem of cooling $M$ qubits, selected from $N$ identical thermal qubits, to the lowest common local temperature allowed by unitarity. The optimal protocol consists of two conceptually distinct steps. First, a passive rearrangement assigns the largest eigenvalues of the initial state to target sectors of lowest Hamming weight, thereby minimizing the total target energy. Second, a target-only complex-Hadamard transformation within each fixed-Hamming-weight subspace equalizes the one-qubit target marginals without changing any target-sector probability or the total energy. Consequently, imposing a common local temperature costs neither cooling depth nor additional work: the constrained optimum coincides with the unconstrained passive minimum for every $N>M$ and every initial temperature. The complex-Hadamard correction may nevertheless be costly at the circuit level. We therefore derive an exact arithmetic criterion for when the same optimum can be attained by a temperature-independent computational-basis permutation alone, and exhaustively classify the resulting finite-size islands of feasibility for $M+2\\leq N\\leq 128$. At isolated temperatures, further optimal permutations can arise through numerical cancellations between different thermal eigenvalue shells. These alternative realizations may reduce implementation complexity, but they cannot improve the cooling curve already attained by the universal protocol. We also derive the exact cooling curve, prove that at least two ancillary qubits are necessary and sufficient for nontrivial cooling, and show that joint many-target cooling can strictly outperform parallel single-target strategies.",
+    "authors": [
+      "Reda, Mattia",
+      "Sacchi, Massimiliano",
+      "Macchiavello, Chiara",
+      "Guarnieri, Giacomo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-28T04:21:02.557077Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183572",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183572",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183572"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

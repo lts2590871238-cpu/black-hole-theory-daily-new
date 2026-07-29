@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23407",
+    "arxiv_id": "2607.23407",
+    "arxiv_version": null,
+    "inspire_id": "3183506",
+    "doi": null,
+    "title_en": "Performance Analysis of QAOA Across Distributed Quantum Network Topologies Using SwitchQNet",
+    "abstract_en": "Quantum data-center (QDC) architectures aim to scale distributed quantum computing (DQC) by interconnecting multiple quantum processing units (QPUs), but their performance depends strongly on how algorithmic communication patterns interact with entanglement generation, switch reconfiguration, and network topology. This paper studies the Quantum Approximate Optimization Algorithm (QAOA) as a graph-structured optimization workload for QDC-based distributed quantum computing. We adapt QAOA to SwitchQNet, a distributed quantum compiler framework that schedules communication and entanglement generation over switch-based QDC networks, by adding a routing generator that converts graph-dependent two-qubit cost interactions into remote-CX communication requests across QPUs. Using this extension, we evaluate QAOA instances across Clos, fat-tree, and spine-leaf topologies, measuring communication latency, EPR-pair overhead, EPR wait time, retry overhead, and sensitivity to buffer size, look-ahead depth, communication-qubit count, EPR latency, and EPR fidelity assumptions. The results show that QAOA obtains modest but consistent latency reductions, highlighting its value as a diagnostic benchmark for studying the interaction between algorithm structure, entanglement management, and quantum-network architecture.",
+    "authors": [
+      "Sharma, Samanvay",
+      "Niu, Siyuan",
+      "Taherkhani, Amin",
+      "Hajdusek, Michal",
+      "Van Meter, Rodney"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-26T00:00:00Z",
+    "updated_at": "2026-07-28T04:19:09.948540Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183506",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183506",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183506"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

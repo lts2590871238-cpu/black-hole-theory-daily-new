@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24491",
+    "arxiv_id": "2607.24491",
+    "arxiv_version": null,
+    "inspire_id": "3183422",
+    "doi": null,
+    "title_en": "Optimal estimation of high-dimensional quantum states using locally gentle measurements",
+    "abstract_en": "We study the task of estimating a $d-$dimensional quantum state $ρ$ under the constraint that the measurement is $α-$gentle. Such measurements $M$ do not collapse the state; they issue both a random variable $R^M = ω$ containing statistical information and a post-measurement state $ρ_{M \\to ω}$ such that $\\|ρ_{M\\to ω} - ρ\\|_{Tr} \\leq α$. We describe gentle measurements and their connection to quantum differential privacy. Our results show that the optimal minimax estimation rate in Frobenius norm is of order $d^3/(n α^2)$, instead of $d^2/n$ for general measurements. Moreover, for rank $r$ states with $r\\leq d$ we prove that the optimal minimax rate is $rd^2/(n α^2)$, instead of $rd/n$. Very surprisingly, the loss for gentleness $d/α^2$ scales with the ambient dimension of the Hilbert space, rather than the number of parameters $rd$, typically seen in classical differential privacy. We propose optimal gentle measurements and indicate how they can be physically implemented using an ancillary state and a CNOT gate to entangle it with the initial state. We notice that the resulting random variable has a likelihood that satisfies local differential privacy. Lower bounds are proven through a new quantum information-theoretic inequality applied to well chosen families of states in the manifold of (small-rank) quantum states.",
+    "authors": [
+      "Butucea, Cristina",
+      "Johannes, Jan",
+      "Stein, Henning"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T03:51:38.274899Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183422",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183422",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183422"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

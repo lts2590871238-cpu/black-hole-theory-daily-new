@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24195",
+    "arxiv_id": "2607.24195",
+    "arxiv_version": null,
+    "inspire_id": "3183398",
+    "doi": null,
+    "title_en": "Parallelizable Exact Synthesis of Quantum Circuits via Semi-Tensor Product",
+    "abstract_en": "Exact synthesis is a useful tool in quantum compilation by providing optimal alternative implementations of small circuit shards and is widely used as a circuit re-synthesis optimization kernel. However, existing exact synthesis methods suffer from encoding overhead, poor parallel scalability, and memory bottlenecks. This paper introduces a parallel exact synthesis framework for CNOT and phase polynomial circuits, which is based on the semi-tensor product (STP) theory of matrices. By enumerating undirected partial-gate topologies and solving the missing gate directions separately, we are able to parallelize both stages and achieve a parallel speedup of up to $12.8\\times$ with 32 workers on this NP-hard problem. More specifically, for each topology, the circuit semantics are converted into canonical STP formulas, and feasibility is decided by a right-to-left factorization procedure that removes infeasible direction assignments. On randomly generated synthesis targets, STP is typically $100\\times-1000\\times$ faster than the SAT-based baseline on small instances, and remains competitive for more difficult instances. When integrated in a real-world circuit optimization workflow, our algorithm outperforms the SAT-based approach on 89% of cases in QASMBench, and achieves a median speedup of $1.91\\times$.",
+    "authors": [
+      "Li, Chenjian",
+      "Gao, Dingchao",
+      "Zhou, Xiangzhen",
+      "Guan, Ji",
+      "Zhu, Pengcheng",
+      "Chu, Zhufei"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T03:36:15.696126Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183398",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183398",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183398"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

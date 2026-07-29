@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24639",
+    "arxiv_id": "2607.24639",
+    "arxiv_version": null,
+    "inspire_id": "3183380",
+    "doi": null,
+    "title_en": "Experimental Side Channel Analysis of Protocol Stages in Quantum Identity Authentication",
+    "abstract_en": "Quantum networks can enable distributed computing and sensing. To realize these capabilities securely, quantum identity authentication is essential. Without authentication at the quantum layer, malicious repeaters may retain entanglement instead of performing swapping, enabling man-in-the-middle attacks (MitM) between communicating parties. Authentication mitigates this threat by embedding authentication qubits within data qubits at positions and bases based on a secret key shared a priori. While prior work analyzes security and MitM detection guarantees, physical layer side channel analysis remains unexplored. If an attacker infers protocol stages, it can avoid authentication qubits and extract data qubits, rendering authentication ineffective. To this end, we carry out experimental studies using a quantum communication testbed. A beam splitter is used to tap a portion of the optical signal, allowing the observer to collect side channel data without disrupting the quantum state. We evaluate two sampling settings, where 30% or 10% of the signal is diverted. The collected side channel data includes photon arrival timing and optical power data obtained using a single-photon detector and a power meter. Using this dataset, we extract and engineer features that capture both timing dynamics and signal intensity variations. We then train machine learning models to classify protocol stages based solely on side channel observations. Our results show that protocol-stage inference is feasible with high accuracy, reaching 98% (F1-score 97%) at 30% sampling and 96% (F1-score 94%) at 10% sampling. These findings reveal an overlooked vulnerability and highlight the need for robust designs against side channel inference attacks.",
+    "authors": [
+      "Elawady, Marwan",
+      "Young, Lance",
+      "Wilburn, Contessa",
+      "Keyton, Blaine",
+      "Houston, Carrie",
+      "Shaban, Mohamed",
+      "Ismail, Muhammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T03:16:17.547280Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183380",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183380",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183380"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

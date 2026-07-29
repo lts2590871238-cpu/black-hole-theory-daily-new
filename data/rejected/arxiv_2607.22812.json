@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.22812",
+    "arxiv_id": "2607.22812",
+    "arxiv_version": 1,
+    "inspire_id": "3183453",
+    "doi": null,
+    "title_en": "Speeding up Gravitational Lens Mass Models with Machine Learning: Applications in X-ray Astronomy",
+    "abstract_en": "Multi-wavelength observations of quadruply lensed quasars constitute a powerful probe of cosmology, dark matter substructure along the line of sight, and the structure of X-ray emitting regions in high-redshift quasars. These investigations are conditional on acquiring an accurate model for the surface mass density of matter lensing these quasars. We propose a simulation-based machine learning method to accelerate parameter inference in real quadruply lensed systems by several orders of magnitude. We simulate a grid of quadruply lensed sources with Singular Isothermal Ellipsoid (SIE) lenses and use the projected positions of the four lensed images to train two fully connected neural networks that predict the mass parameter and ellipticity. For a large fraction of simulated systems, the neural network-initialised mass models converge in time-scales of a few minutes and recover the source position at the <0.''005 level for a broad range of lens masses and ellipticities. We apply our neural networks to seven quadruply lensed quasars, lensed by isolated galaxies or a galaxy-perturber pair, which have archival Chandra observations. The final optimised mass models for each quasar predict the observed lensed image positions in Gaia Data Release 3. These mass models enable the caustic method, which locates the X-ray-to-optical emission regions to milliarcsecond precision in these otherwise unresolvable systems, improving the effective angular resolution of Chandra at high-z by up to two orders of magnitude. Our approach accelerates this mass modelling by supplying informed initial parameters, enabling application to the many new quadruply lensed systems expected from forthcoming surveys.",
+    "authors": [
+      "Alex Ostridge",
+      "Rafael Martínez-Galarza",
+      "Júlia M. Sisk-Reynés",
+      "Daniel A. Schwartz",
+      "Anna Barnacka"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-07-24T00:00:00Z",
+    "updated_at": "2026-07-28T04:16:37.673199Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.22812v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.22812v1",
+    "inspire_url": "https://inspirehep.net/literature/3183453",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.22812",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://arxiv.org/abs/2607.22812v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3183453",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183453"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

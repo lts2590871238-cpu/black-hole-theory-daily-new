@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23990",
+    "arxiv_id": "2607.23990",
+    "arxiv_version": null,
+    "inspire_id": "3183390",
+    "doi": null,
+    "title_en": "DeComp2: Description Complexity aware Decomposition",
+    "abstract_en": "Quantum compilers optimize execution-only proxies such as gate count, depth, and fidelity, treating the compiled circuit as the unit of cost. This conflates two distinct resources, how much the substrate has to do at run time, and how much has to be said to describe what to do. Unrolling a looped program leaves run-time cost unchanged while erasing the hierarchical structure on which downstream optimization and reuse rely. We propose lifting the compiler objective from execution to life cycle complexity by pairing the circuit complexity $\\mathcal{C}_{\\mathrm{circ}}$ with a Kolmogorov-style description complexity $\\mathcal{C}_{\\mathrm{Kol}}$ of the emitted circuit, and minimizing the additive total $\\mathcal{C}_{\\mathrm{tot}} = α\\,\\mathcal{C}_{\\mathrm{circ}} + β\\,\\mathcal{C}_{\\mathrm{Kol}}$. The mirrors the additive positional and kinetic entropy of the second law of quantum complexity, and reads as a minimum-description-length regularizer over the otherwise degenerate set of $\\mathcal{C}_{\\mathrm{circ}}$-minimizers. We instantiate the objective on $SU(2)$ through exhaustive HT-enumeration with compression-based surrogates upper-bounding $\\mathcal{C}_{\\mathrm{Kol}}$. Across a Haar-representative target grid the two surrogates correlate positively with $\\mathcal{C}_{\\mathrm{circ}}$ yet break its rank order on a non-trivial fraction of points, ruling out a tight functional dependence. With calibrated weights the joint cost selects, for a small but operationally meaningful fraction of targets, a candidate that is neither the shortest nor the most compressible HT-string in the $\\varepsilon$-ball, exhibiting the compilation choices a $\\mathcal{C}_{\\mathrm{circ}}$-only optimizer discards and motivating $\\mathcal{C}_{\\mathrm{Kol}}$ as an active optimization signal for hierarchical intermediate representation for compiler.",
+    "authors": [
+      "Sarkar, Aritra"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-28T03:20:30.652401Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183390",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183390",
+        "fetched_at": "2026-07-29T00:14:19.756883Z",
+        "url": "https://inspirehep.net/literature/3183390"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
