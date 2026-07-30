@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.24992",
+    "arxiv_id": "2607.24992",
+    "arxiv_version": null,
+    "inspire_id": "3183919",
+    "doi": null,
+    "title_en": "A Model Predictive Control-Inspired Quantum Algorithm",
+    "abstract_en": "We introduce a new hybrid quantum-classical algorithm inspired by an advanced control strategy known as model predictive control (MPC). This algorithm unifies the optimization-based design of variational quantum algorithms (VQAs) with the feedback-based design of feedback-based quantum algorithms (FQAs). Variational circuit parameters are optimized using a layer-wise receding horizon strategy, where observable measurements after every layer initialize a classically simulated dynamic model used to predict quantum state evolution and optimize over future parameterized gates. This hybrid algorithm can be used for applications such as ground state preparation and approximate combinatorial optimization, and presents an ideal use case for the integration of quantum computers with high-performance computing, where the latter resource can be used to increase the scale and efficiency of the predictions critical to MPC. We show through mathematical proof and numerical evidence that the MPC-based algorithm can be guaranteed to at least match the performance of FQAs. Through simulations on Max-Cut problems and a two-dimensional transverse-field Ising model, we demonstrate that relaxed implementations of the MPC-based algorithm can also provide improved performance in practice compared to an FQA.",
+    "authors": [
+      "Messina, Dominic",
+      "Magann, Alicia B.",
+      "Sarovar, Mohan",
+      "Durand, Helen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-27T00:00:00Z",
+    "updated_at": "2026-07-29T04:17:29.957913Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183919",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183919",
+        "fetched_at": "2026-07-30T00:16:22.241166Z",
+        "url": "https://inspirehep.net/literature/3183919"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

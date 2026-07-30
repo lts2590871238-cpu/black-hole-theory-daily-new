@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-07-30T00:16:22.241166Z",
+  "completed_at": "2026-07-30T00:18:36.447091Z",
+  "status": "degraded",
+  "fetched_arxiv": 805,
+  "fetched_inspire": 800,
+  "normalized": 1605,
+  "deduplicated": 1268,
+  "candidates": 54,
+  "selected": 43,
+  "review_queue": 1,
+  "rejected": 1214,
+  "llm_calls": 9,
+  "cached_decisions": 35,
+  "errors": [
+    "arxiv:2607.07715: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.25617: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2604.20170: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.25513: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: expected `,` or `}` at line 14 column 290 [type=json_invalid, input_value='{\\n  \"relevant\": true,\\n...nslated faithfully.\"\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+    "arxiv:2607.25349: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2109.09514: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2603.15572: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 277 个非空白字符",
+    "arxiv:2606.11157: 评分或翻译失败：中文翻译未包含中文字符",
+    "arxiv:2607.24883: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: invalid escape at line 14 column 705 [type=json_invalid, input_value='{\\n  \"relevant\": true,\\n...slation_warning\": \"\"\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+    "arxiv:2604.21166: 评分或翻译失败：入选论文缺少中文入选理由"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.25208",
+    "arxiv_id": "2607.25208",
+    "arxiv_version": 1,
+    "inspire_id": "3184063",
+    "doi": null,
+    "title_en": "GSpyNetTree-O4: an event validation tool used in the fourth LIGO-Virgo-KAGRA observing run",
+    "abstract_en": "The frequent presence of non-Gaussian transient noise, or glitches, in gravitational-wave detector data can affect gravitational-wave searches, parameter estimation, and downstream analyses. To identify and mitigate transient noise near gravitational-wave candidates in a timely manner, the LIGO-Virgo-KAGRA Collaboration employs the Data Quality Report. In the fourth observing run, GSpyNetTree-O4 was deployed within this framework as a tool for glitch classification and event validation. We describe GSpyNetTree-O4 and the main developments relative to its predecessor, GSpyNetTree. The most important update was a new architecture that allowed the simultaneous identification of glitches and gravitational-wave signals when both were present in the same input. We also expanded and augmented the training set with examples in which simulated gravitational-wave signals overlapped with real glitches, and applied $60\\,\\mathrm{Hz}$ calibration corrections to better match the data expected during the fourth observing run. On test data, the low-mass, high-mass, and extremely high-mass classifiers identified $97.9\\%$, $97.7\\%$, and $95.4\\%$ of glitches, respectively. Among samples without a glitch, including gravitational-wave-only and No Glitch samples, the classifiers correctly reported no data-quality issues in $97.1\\%$, $96.6\\%$, and $96.0\\%$ of cases, respectively. We further assessed the robustness of GSpyNetTree-O4 on unseen glitch morphologies, a small set of Virgo glitches from the fourth observing run, and different choices of the $Q$-value used to construct the time-frequency inputs. GSpyNetTree-O4 was successfully deployed as a Data Quality Report tool and increased automation in gravitational-wave event validation workflows.",
+    "authors": [
+      "Sofia Alvarez-Lopez",
+      "Man Leong Chan",
+      "Franz S. Herbst",
+      "Dhatri Raghunathan",
+      "Airene Ahuja",
+      "Annudesh Liyanage",
+      "Julian Ding",
+      "Alejandro Garcia-Varela",
+      "Raymond Ng",
+      "Jess McIver"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-29T14:00:45.661396Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.25208v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.25208v1",
+    "inspire_url": "https://inspirehep.net/literature/3184063",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.25208",
+        "fetched_at": "2026-07-30T00:16:22.241166Z",
+        "url": "https://arxiv.org/abs/2607.25208v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3184063",
+        "fetched_at": "2026-07-30T00:16:22.241166Z",
+        "url": "https://inspirehep.net/literature/3184063"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.25265",
+    "arxiv_id": "2607.25265",
+    "arxiv_version": null,
+    "inspire_id": "3183983",
+    "doi": null,
+    "title_en": "Bayesian Variational Method for Precision Few-Body Calculations",
+    "abstract_en": "Many variational descriptions of quantum many-body systems rest on an expansion over basis functions, and their practical limit is often set by the number of basis functions required. We propose the Bayesian variational method (BVM), in which the basis functions are selected by Bayesian optimization: a Gaussian-process surrogate model, conditioned on the candidates evaluated so far, predicts which candidates are most likely to lower the energy, and the candidate evaluations, being mutually independent, are distributed over many nodes. Two further ingredients make the method practical. An incremental diagonalization evaluates each candidate by reusing the previous diagonalization of the accepted basis instead of solving the full eigenvalue problem anew. A trimming procedure continually removes basis functions that have become nearly linearly dependent, keeping the accepted basis small while guiding it toward the optimal solution. The BVM applies broadly to energy variational problems based on basis-function expansions in quantum mechanics; here we apply it to the Gaussian expansion method (GEM), a standard approach in few-body physics. Because the GEM basis is nonorthogonal, its linear dependence is strong, so the basis reduction achieved by the BVM is large. The reduction both accelerates the computation and, more importantly, greatly reduces the memory requirement, one of the central bottlenecks of the variational method: the reference energy of the full 32,000-dimensional GEM diagonalization is reproduced to within 0.01 K with only 705 basis functions and to within 0.001 K with 2,127, corresponding to memory reductions of 99.95% and 99.56%, since the matrix storage grows as the square of the basis dimension. Within the GEM, this opens a path to the precision study of six- and seven-body systems, and beyond, that has so far been difficult to reach.",
+    "authors": [
+      "Aoyama, Shigeyoshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-29T04:20:41.372284Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183983",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183983",
+        "fetched_at": "2026-07-30T00:16:22.241166Z",
+        "url": "https://inspirehep.net/literature/3183983"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

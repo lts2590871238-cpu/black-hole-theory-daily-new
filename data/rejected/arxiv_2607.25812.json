@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.25812",
+    "arxiv_id": "2607.25812",
+    "arxiv_version": null,
+    "inspire_id": "3184026",
+    "doi": null,
+    "title_en": "Optimal Quantum Eigenvalue Transformation via Linear Combinations of Hermitian Matrices",
+    "abstract_en": "We discover two complementary linear-combination-of-Hermitian-matrices (LCHM) formulations to achieve a general non-normal matrix eigenvalue transformation $g(A)$. Firstly, for $A=L+\\mathrm{i} H$ with Hermitian $L$ and $H$, the vanilla LCHM formula represents $g(A)$ as a kernel integral of $g(\\mathrm{i}(H+kL))$, and it contains linear-combination-of-Hamiltonian-simulation (LCHS) [An, Liu, Lin, Phys. Rev. Lett. 2023] as the special case for matrix exponentials. Secondly, for the angular Hermitian $X_θ= \\cosθL+\\sinθH$, the Weyl LCHM formula expresses $g(A)$ via integrating $g(\\mathrm{e}^{\\mathrm{i}θ} (X_θ\\pm\\mathrm{i}(I-X_θ^2)^{1/2}))$. For the matrix power $g(A)=A^m$, the Fourier projection of Weyl LCHM gives \n\\[ A^m=\\frac{2}π\\int_0^π\\text{e}^{\\text{i} mθ}T_m(X_θ) \\text{d}θ= \\frac{2}{N}\\sum_{j=0}^{N-1} \\text{e}^{\\text{i} mθ_j}T_m(X_{θ_j}),\\quadθ_j=\\frac{πj}{N},\\quad \\text{for every } N>m \\]\n with Chebyshev polynomial of Hermitian $T_m(X_θ)$ and $N$ samples. The discrete formula is exact, introduces no truncation and angular quadrature error, and offers $\\mathcal{O}(1)$ post-selection weights. LCHM formulas lead to new quantum eigenvalue transformation (QET) algorithms. For a degree-$d$ polynomial $p_d(A)$ on $|ψ\\rangle$, our QET algorithm can achieve optimal $Θ(d)$ circuit depth and optimal $\\mathcal{O}(||p_d||_{\\infty}/||p_d(A)|ψ\\rangle||)$ post-selection repetitions. LCHM-based QETs unify various quantum linear algebraic problems with near-optimal $\\mathcal{\\widetilde O}(d\\log(d/ε))$ Clifford$+T$ gates, including driven ODEs (reduced to standard LCHS), iterative methods, resolvents, $\\log(I+A)$, $(λI+A)^ν$, Sign and ReLU transforms, and Faber approximation on noncircular domains.",
+    "authors": [
+      "Wang, Yanqiao",
+      "Liang, Yixuan",
+      "Chen, Hongjia",
+      "Liu, Jin-Peng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-29T04:21:56.203760Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184026",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184026",
+        "fetched_at": "2026-07-30T00:16:22.241166Z",
+        "url": "https://inspirehep.net/literature/3184026"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

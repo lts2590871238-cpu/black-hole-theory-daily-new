@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.25170",
+    "arxiv_id": "2607.25170",
+    "arxiv_version": null,
+    "inspire_id": "3183958",
+    "doi": null,
+    "title_en": "QUBO-Based Optimization of Social Indicator Configurations for Working-Age Population Growth",
+    "abstract_en": "The decline of the working-age population is a major challenge for regional sustainability, particularly in ageing societies such as Japan. We present a methodological demonstration of a quadratic unconstrained binary optimization (QUBO)-based framework for exploring social-indicator configurations associated with working-age population growth. Using Japanese municipal data, we regressed the 2010-2020 working-age population growth rate on ten discretized social indicators. The resulting quadratic surrogate model showed reasonable predictive performance, with a test-set correlation coefficient of 0.84 and an average R-squared value of 0.76. Its coefficient matrix provides an interpretable representation of individual indicator-level contributions and pairwise associations. We converted the fitted model into a QUBO formulation with one-hot constraints and optimized it using quantum annealing, simulated annealing, and Gurobi. All three methods identified the same optimal feasible configuration, while the annealing-based samplers also generated feasible suboptimal configurations with different predicted growth rates. Municipality-level single-indicator analyses showed that changing one indicator can increase or decrease the predicted growth rate depending on the other indicators. The framework provides an interpretable and optimization-ready approach for connecting municipal social statistics, nonlinear interactions, and model-based scenario generation. It should be regarded as an exploratory tool for policy discussion rather than as a causal estimate of policy interventions.",
+    "authors": [
+      "Wada, Hayate",
+      "Miyamoto, Seiya",
+      "Ogawa, Tatsumasa",
+      "Uehara, Kazuki",
+      "Hitomi, Masaru",
+      "Ohzeki, Masayuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-29T04:20:04.794934Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3183958",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3183958",
+        "fetched_at": "2026-07-30T00:16:22.241166Z",
+        "url": "https://inspirehep.net/literature/3183958"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
