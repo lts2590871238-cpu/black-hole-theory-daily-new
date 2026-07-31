@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26112",
+    "arxiv_id": "2607.26112",
+    "arxiv_version": null,
+    "inspire_id": "3184283",
+    "doi": null,
+    "title_en": "SET-ANUBIS: a modular pipeline for ANUBIS long-lived particle sensitivity studies",
+    "abstract_en": "SET-ANUBIS (Simulation, accEptance and sensiTivity studies framework for ANUBIS) is an open-source Python framework for end-to-end studies of long-lived particle signatures in the proposed ANUBIS detector. Starting from a Universal FeynRules Output model or user-supplied rates, it exposes model parameters and particle content, evaluates decay widths, branching ratios and lifetimes, prepares or runs event generation through Pythia8 or MadGraph, ingests HepMC event records, models the ATLAS cavern and ANUBIS tracking stations, and applies a configurable sequence of geometric, kinematic and isolation requirements. The implementation follows a ports-and-adapters architecture so that physics-domain logic remains separate from external generators, persistent storage and visualisation. A scan-aware SQLite catalogue and content-addressed store preserve cards, metadata and compact selection-ready event bundles while avoiding duplicate artefacts. Release v1.0.0 introduces a deterministic reproducibility suite with five independent scenarios (R1--R5) covering model access, branching-ratio interpolation, Pythia command generation, MadGraph card generation and the complete selection chain on a compact HepMC2 sample. The final scenario produces machine-readable JSON and a standalone HTML selection trace that records cumulative cutflows and event-level pass/fail transitions. Optional scientific dashboards provide event, geometry, campaign and provenance inspection without changing the physics results. The framework, documentation and reference inputs are distributed under the GNU GPL version 3 or later and are intended to support auditable ANUBIS sensitivity studies and direct comparison of alternative long-lived particle models.",
+    "authors": [
+      "Erner, Sofie Nordahl",
+      "Mullin, Anna",
+      "Reymermier, Théo",
+      "Swallow, Paul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-30T07:47:43.065256Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184283",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184283",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184283"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

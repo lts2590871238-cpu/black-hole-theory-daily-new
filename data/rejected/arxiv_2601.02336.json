@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.02336",
+    "arxiv_id": "2601.02336",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1140/epjc/s10052-026-15840-8",
+    "title_en": "The Sequential Monte Carlo goes NUTS: Boosting Gravitational-Wave Inference",
+    "abstract_en": "Sequential Monte Carlo (SMC) methods have recently been applied to gravitational-wave inference as a powerful alternative to standard sampling techniques, such as Nested Sampling. At the same time, gradient-based Markov Chain Monte Carlo algorithms, most notably the No-U-Turn Sampler (NUTS), provide an efficient way to explore high-dimensional parameter spaces. In this work we present SHARPy, a Bayesian inference framework that combines the parallelism and evidence-estimation capabilities of SMC with the state-of-the-art sampling performance of NUTS. Moreover, SHARPy exploits the local geometric structure of the posterior to further improve efficiency. Built on JAX, a high-performance computing framework that enables automatic differentiation and hardware acceleration, SHARPy performs gravitational-wave inference on binary black-hole events in around ten minutes, yielding posterior samples and Bayesian evidence estimates that are consistent with those obtained through Nested Sampling. This work sets a new milestone in Gravitational-Wave inference with likelihood-based methods and paves the way for model comparison tasks to be accomplished in minutes.",
+    "authors": [
+      "Gabriele Demasi",
+      "Giulia Capurri",
+      "Massimo Lenti",
+      "Angelo Ricciardone",
+      "Barbara Patricelli",
+      "Adriano Frattale Mascioli",
+      "Lorenzo Piccari",
+      "Saulo Albuquerque",
+      "Gianluca M. Guidi",
+      "Francesco Pannarale",
+      "Giulia Stratta",
+      "Walter Del Pozzo"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-01-05T18:31:26Z",
+    "updated_at": "2026-07-29T10:26:50Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.02336v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.02336v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.02336",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://arxiv.org/abs/2601.02336v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

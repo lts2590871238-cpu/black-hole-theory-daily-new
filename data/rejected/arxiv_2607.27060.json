@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.27060",
+    "arxiv_id": "2607.27060",
+    "arxiv_version": null,
+    "inspire_id": "3184469",
+    "doi": "10.1007/s11128-026-05267-1",
+    "title_en": "Optimising Trotter-Suzuki Simulations of Markovian Open Quantum Systems via Classical Search",
+    "abstract_en": "Simulating an open quantum system on a digital quantum computer often involves the use of Trotter-Suzuki (TS) Product Formulas (PF) to approximate the system's time evolution. Precise estimates for the required number of Trotter steps (and hence the overall gate count) can be crucial for minimising the computational cost of these methods. Building on established theoretical guarantees, we derive analytic bounds for the First- and Second-Order Deterministic and Randomised TS-PF, directly relating the number of Trotter steps to the model parameters, evolution time and precision. These bounds enable concrete resource estimation for each method. We then present a computationally efficient classical algorithm that uses diamond norm estimates of individual Liouvillian terms and a binary search to significantly reduce the Trotter steps required for a target precision. Our numerical results on two prototypical models - an XX-Spin Chain with boundary driving and local dephasing, and a Transverse-Field Ising Model - show that the theoretical (analytic) bounds are often overly conservative, whereas the empirical (optimised) bounds yield a significantly smaller number of Trotter steps for the same precision. Among the methods investigated, the Second-Order Randomised TS-PF typically achieves the lowest resource demands, especially for larger systems. These findings emphasise the significance of empirical bounding strategies in achieving more resource-efficient simulations of Markovian open quantum systems.",
+    "authors": [
+      "Pillay, S.M.",
+      "David, I.J.",
+      "Sinayskiy, I.",
+      "Petruccione, F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-30T03:49:06.538463Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, Quantum Inf Process 25, 267 (2026), 267, publication, 2026, 267, Quant.Inf.Comput."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184469",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184469",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184469"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

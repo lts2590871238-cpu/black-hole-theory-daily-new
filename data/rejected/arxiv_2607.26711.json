@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26711",
+    "arxiv_id": "2607.26711",
+    "arxiv_version": null,
+    "inspire_id": "3184410",
+    "doi": null,
+    "title_en": "Generative AI Beyond Tokens: Quantum Resource Consumption of IQP Circuits",
+    "abstract_en": "Quantum generative modelling casts sampling as a generative task: a parametrised quantum circuit is trained such that sampling reproduces a target probability distribution. Instantaneous Quantum Polynomial-time (IQP) circuits combine structural simplicity with complexity-theoretic evidence for quantum advantage. Yet their practical value depends not only on expressivity, but on how efficiently they consume genuinely quantum resources. We study this question through the lens of magic, or non-stabiliserness, as a resource for quantum generative modelling. We show that established fidelity- and geodesic-based notions of computational progress in a projective Hilbert space are ill-suited to generative models, since operational performance is determined by output probability distributions rather than quantum states themselves. We evaluate magic-consumption directly on the probability simplex, using changes in Jensen-Shannon divergence to quantify progress. Applying this framework to trained random γ-sparse IQP circuits shows signatures of efficient magic use, with the dominant contribution arising from two-qubit gates. As IQP circuits produce remarkably low intermediate magic relative to phase-randomised states with the same sampling distributions, this renders IQP-based quantum generative models as promising candidates for resource-efficient demonstrations of quantum advantage on early fault-tolerant architectures.",
+    "authors": [
+      "Krüger, Tom",
+      "Mauerer, Wolfgang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-30T03:47:53.693699Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184410",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184410",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184410"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

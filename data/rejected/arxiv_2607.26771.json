@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26771",
+    "arxiv_id": "2607.26771",
+    "arxiv_version": null,
+    "inspire_id": "3184409",
+    "doi": null,
+    "title_en": "Hybrid quantum-classical end-to-end pipeline for solving MILPs: a vehicle routing case study",
+    "abstract_en": "We demonstrate an end-to-end hybrid quantum-classical optimisation framework based on Benders decomposition, capable of solving mixed-integer linear programming (MILP) problems. The framework builds on a previously presented hybrid quantum-classical end-to-end pipeline based on Multiple Cuts via Multiple Solutions (MCMS) Benders decomposition where the cut selection step was performed on quantum annealing hardware. We extend this with gate-based QAOA implementations for both tensor network emulators and superconducting quantum hardware. The Vehicle Routing Problem (VRP) is used as a representative case study and we run the pipeline end-to-end on 10 permutations of a standardised benchmarking instance (20 customers and 4 vehicles from QOptLib) with a classical solver performing the cut selection step. We find that for our instances, only a small fraction of the compute in classical MCMS Benders decomposition is spent on the cut selection step. For a full hybrid end-to-end assessment, we run the pipeline for a toy problem with MPS-JuliQAOA, a powerful tensor network emulator, to execute QAOA. Here, the majority of the time is spent on the cut selection step, deeming quantum advantage of this framework unlikely at problems of this size. This highlights the need for more large-scale benchmarking research when more powerful (QPU) QUBO solvers are available.",
+    "authors": [
+      "de Valk, Camille",
+      "Reerink, Koen",
+      "Sebus, Siert",
+      "de Bon, Sébastian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-30T03:47:53.979251Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184409",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184409",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184409"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

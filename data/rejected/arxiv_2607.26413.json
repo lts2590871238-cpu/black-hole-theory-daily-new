@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26413",
+    "arxiv_id": "2607.26413",
+    "arxiv_version": null,
+    "inspire_id": "3184256",
+    "doi": null,
+    "title_en": "Machine-Checked Certificates for the Geometric Half of the Minimum Kochen-Specker Bound",
+    "abstract_en": "The best known lower bound for the minimum Kochen-Specker vector system in $\\mathbb{R}^3$-- 24 vectors -- rests on a computational proof whose combinatorial half emits DRAT proofs but whose geometric half does not: the non-embeddability of thousands of candidate graphs is established by Z3's nonlinear real arithmetic, which produces no checkable proof objects. We close this gap for the proof's blocking database. We introduce exact rational case-tree certificates of real non-embeddability, whose splits are polynomial factorizations and rational sum-of-squares decompositions and whose leaves are discharged by injectivity, ideal-membership, or Positivstellensatz-shaped positivity arguments, and we certify all 291 source lines (180 distinct graphs) of the published pipeline's order-10 to order-13 blocking lists. Certificates are replayed by two independent checkers that share no code with the generator: a pure-Python replay over exact fractions, and a total checker implemented and proved sound in Lean 4. The soundness theorem -- acceptance implies that no injective-on-rays, orthogonality-respecting assignment of nonzero real vectors realizes the graph -- is kernel-checked with axiom closure {propext, Classical.choice, Quot.sound}, and a gcd-free rational arithmetic layer makes the entire verdict computation kernel-reducible, so each per-graph non-embeddability result is a closed kernel theorem proved by decide. The formalization surfaced findings about the published pipeline, including a load-bearing injectivity side condition in its embeddability notion, hidden WLOG case obligations invisible to Z3-based workflows, and an unreproducible candidate count that we resolve against the published artifacts. All certificates, checkers, and proofs are available and replayable from a single build.",
+    "authors": [
+      "Siddique, Shayaan",
+      "Mian, Ibrahim"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-30T02:59:02.004050Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184256",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184256",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184256"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

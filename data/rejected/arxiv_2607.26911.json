@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26911",
+    "arxiv_id": "2607.26911",
+    "arxiv_version": 1,
+    "inspire_id": "3184441",
+    "doi": null,
+    "title_en": "Impact of numerical stability in Bayesian noise wave calibration on global 21-cm experiments",
+    "abstract_en": "Detecting the global 21-cm signal from the Cosmic Dawn and Epoch of Reionization requires calibration accuracy far below the level of astrophysical foregrounds. REACH models its receiver using the noise wave formalism, with five frequency-dependent low-noise amplifier parameters fitted jointly to multiple calibration sources. We identify a numerical instability in this Bayesian calibration pipeline: the condition number of the posterior covariance matrix reaches $κ(\\mathbf{V}^*) \\sim 10^{9}$--$10^{11}$, making solutions non-reproducible across computing environments. Singular value decomposition shows that the instability is driven by near-collinearity between the design-matrix columns associated with the excess noise source temperature, $X_\\mathrm{NS}$, and the load temperature, $X_\\mathrm{L}$. Using a Chebyshev basis, we develop a two-step mitigation. First, fixing $T_\\mathrm{NS}$ to a scalar removes the degeneracy and reduces $κ(\\mathbf{V}^*)$ to $\\sim 60$. Second, to retain frequency dependence, we recover $T_\\mathrm{NS}(ν)$ directly from the hot-load calibration measurement. On mock data, this method preserves the stability of the reduced model while achieving comparable calibration accuracy. Masking narrow channels around cable standing-wave degeneracies further removes local artefacts in the design matrix. These steps provide a stable, reproducible, and data-driven calibration procedure. Because the $X_\\mathrm{NS}$--$X_\\mathrm{L}$ degeneracy is inherent to the noise wave formalism, the method is relevant to other global 21-cm experiments.",
+    "authors": [
+      "Saswata Dasgupta",
+      "Adarsh Kumar Dash",
+      "Dominic Anstey",
+      "Harry T. J. Bevins",
+      "Christian Kirkham",
+      "Eloy de Lera Acedo"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-30T03:48:30.054849Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.26911v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.26911v1",
+    "inspire_url": "https://inspirehep.net/literature/3184441",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.26911",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://arxiv.org/abs/2607.26911v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3184441",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184441"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26349",
+    "arxiv_id": "2607.26349",
+    "arxiv_version": null,
+    "inspire_id": "3184266",
+    "doi": null,
+    "title_en": "Hardware-Aware QUBO Reformulation of Constrained Binary Optimization via the Walsh-Fourier Transform",
+    "abstract_en": "We present a novel slack-free, penalty-based framework for reformulating constrained binary optimization as Quadratic Unconstrained Binary Optimization (QUBO) on near-term quantum annealing hardware. Given a user-chosen penalty function that most naturally captures a constraint---typically non-quadratic, such as a Heaviside-function surrogate---and a target probability measure over the Boolean hypercube, our method returns the weighted least-squares projection of the chosen penalty function onto the subspace spanned by linear and quadratic Walsh--Fourier characters that correspond to physically realizable couplings on the target hardware graph. Within this restricted family, the resulting quadratic surrogate is uniquely and optimally determined by the normal equations: unlike state-of-the-art approaches, it introduces no per-constraint penalty coefficients to tune and avoids dense all-pairs couplings by construction. Two practical consequences follow. First, the projected penalty respects device connectivity, reducing chain lengths and physical-qubit overhead after minor embedding. Second, we show empirically that this hardware-native surrogate can outperform denser full-pairwise projections, despite being drawn from a strictly smaller approximation space. This advantage widens once the QUBO is embedded and sampled on quantum annealers, yielding samples with the lowest worst-case and mean objective gaps compared to unbalanced penalization and a hardware-blind projection onto all quadratic terms.",
+    "authors": [
+      "Lee, Loong Kuan",
+      "Nagarajan, Harsha",
+      "Gerlach, Thore",
+      "Mücke, Sascha",
+      "Krishnamoorthy, Ragavi",
+      "Piatkowski, Nico"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-30T03:18:32.349093Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184266",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184266",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184266"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

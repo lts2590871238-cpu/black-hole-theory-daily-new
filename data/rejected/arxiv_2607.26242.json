@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26242",
+    "arxiv_id": "2607.26242",
+    "arxiv_version": null,
+    "inspire_id": "3184333",
+    "doi": null,
+    "title_en": "Precise 2D electric field density simulations for superconducting quantum devices",
+    "abstract_en": "Dielectric loss due to two-level systems is a limiting factor for superconducting qubit relaxation times. These losses arise mostly from nanometer-scale interfacial defect regions in superconducting devices with planar dimensions of microns to millimeters, thus making it resource intensive to accurately simulate the electric field density in these regions with traditional electromagnetic solvers. In this work, we demonstrate a fast boundary integral equation solver that allows precise simulation of electric field density in these thin regions, showing a speedup of around two orders of magnitude over traditional solvers, with relative errors around $10^{-7}$ for a ten-minute solution runtime. By computing participation ratios through Green's first identity without squaring the electric field, our approach is less susceptible to the field singularities near conductor corners. We apply this solver to a basic untrenched coplanar waveguide cross-section, showing that the common assumption of participation ratio linearity with dielectric constant holds well for some interfaces and not others; in particular, while the metal-air (MA) top and corner follow this linear relationship strongly, the MA sidewall does not. We then compare isotropic and anisotropic etching, showing that the MA sidewall and the metal-air-substrate triple junction are the most strongly affected. We are currently leveraging this solver to explore geometries that will uniquely isolate the participation ratios of the different dielectrics. Finally, we are working to combine this solver framework with a full 3D microwave solver to accurately calculate participation ratios for the thin dielectrics that are known sources of loss in superconducting qubits.",
+    "authors": [
+      "Gimbutas, Z.",
+      "Syong, W.-R.",
+      "Nguyen, N.",
+      "Taylor, A.",
+      "Ullom, J.N.",
+      "Alpert, B.K.",
+      "Bennett, D.A.",
+      "McRae, C.R.H."
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-28T00:00:00Z",
+    "updated_at": "2026-07-30T18:58:13.539331Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184333",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184333",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184333"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

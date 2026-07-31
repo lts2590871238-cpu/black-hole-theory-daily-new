@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26478",
+    "arxiv_id": "2607.26478",
+    "arxiv_version": null,
+    "inspire_id": "3184254",
+    "doi": null,
+    "title_en": "Explicit Separations for One-Query Unitary Synthesis",
+    "abstract_en": "The unitary synthesis problem (Aaronson-Kuperberg, CCC 2007) asks whether every $n$-qubit unitary $U$ is computable by efficient quantum circuits relative to some classical oracle $f = f_U$ depending on $U$. Recently, Lombardi-Ma-Wright (STOC 2024) proved that Haar-random unitaries cannot be efficiently synthesized by algorithms that make 1 query (or poly$(n)$ parallel queries) to an arbitrary classical oracle. In this work, we prove several results about the hardness (and easiness!) of variants of unitary synthesis. Our results include: (1) 1-query vs. 2-query unitary synthesis: we prove 1-query lower bounds for synthesizing random permutation unitaries $P\\lvert x\\rangle = \\lvert π(x)\\rangle$, as well as random alternating-basis phase unitaries $F_2 \\cdot H^{\\otimes n} \\cdot F_1$. This gives 1-query lower bounds for \"explicit\" families of unitaries that have efficient (even 2-query) synthesis algorithms. (2) Upper bound for complex phase unitaries: we also consider complex phase unitaries $\\lvert x\\rangle\\mapsto α_x \\lvert x\\rangle$, which have a clean 2-query synthesis algorithm with no obvious 1-query algorithm. In this case, we prove an upper bound: there are 1-query algorithms (relative to binary phase oracles) that constant-approximate these unitaries in diamond distance. In order to prove our lower bounds, we introduce and analyze two new cryptographic games: the oracle state search game and the oracle Choi state game. Compared to prior work, our framework is mathematically simple, more flexible in what it can prove, and more accurately captures the hardness of synthesizing unitaries that are not \"fully random\". Finally, we also use the search game to prove a new hardness-of-approximation result for quantum programs (synthesizing unitaries relative to quantum advice) for phase unitaries, giving a sharper separation between 1-query unitary synthesis and quantum programs.",
+    "authors": [
+      "Dong, Fangqi",
+      "Lombardi, Alex",
+      "Ma, Fermi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-30T02:56:37.840122Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184254",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184254",
+        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "url": "https://inspirehep.net/literature/3184254"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
