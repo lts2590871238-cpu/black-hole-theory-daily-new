@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.26877",
+    "arxiv_id": "2607.26877",
+    "arxiv_version": null,
+    "inspire_id": "3185051",
+    "doi": null,
+    "title_en": "Hybrid Workflow Composition for Extreme-Scale Data Processing: A Case Study on the HL-LHC (Extended Version)",
+    "abstract_en": "High-Throughput Computing (HTC) environments tailored for high-concurrency resource efficiency require sophisticated orchestration to manage petabyte-scale data across heterogeneous resources. A critical but often overlooked challenge is workflow composition: the strategic grouping of tasksets within a Directed Acyclic Graph (DAG) to mitigate execution overhead while maximizing resource utilization. This paper presents a novel simulation framework for characterizing the interplay between taskset granularity and system-level constraints (e.g., job latency, failure rate, throughput, and I/O bandwidth). By exploring a high-dimensional parameter space, we quantify the performance sensitivity of diverse workflow topologies. Our results demonstrate that hybrid composition strategies, which dynamically balance taskset independence with execution grouping, can yield up to 3.8x throughput increase and a 14.9x reduction in network overhead. We further propose a multi-metric objective function that enables policy-driven optimization, allowing system architects to navigate the Pareto frontier between throughput, I/O cost, and CPU efficiency. These findings provide a rigorous foundation for automated workflow synthesis in distributed systems, offering a scalable model for next-generation scientific pipelines. All artifacts are publicly available.",
+    "authors": [
+      "Rodrigues, Alan Malta",
+      "Thain, Douglas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-31T16:21:07.479093Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3185051",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3185051",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3185051"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

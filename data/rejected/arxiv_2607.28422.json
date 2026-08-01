@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.28422",
+    "arxiv_id": "2607.28422",
+    "arxiv_version": null,
+    "inspire_id": "3185046",
+    "doi": null,
+    "title_en": "QAdapt: A Noise-Adaptive Neural Pre-Decoding Framework for Quantum Error Correction",
+    "abstract_en": "Fault-tolerant quantum computing (FTQC) relies on quantum error correction to suppress physical errors and preserve logical information at scale. In practice, however, performance is constrained not only by physical noise but also by the latency of classical decoders processing rapidly generated syndrome data. This challenge is exacerbated by hardware noise that is strong, heterogeneous, and nonstationary, as well as by the simulation-to-hardware distribution shift that can substantially degrade fixed neural decoders. We present QAdapt, a noise-adaptive neural pre-decoding framework for surface-code quantum error correction. QAdapt captures local spatiotemporal correlations in syndrome data, sequentially adapts to evolving noise conditions while mitigating catastrophic forgetting, and forwards the residual syndrome to a conventional global decoder. Across 110 synthetic out-of-distribution noise configurations for rotated surface-code memory circuits, QAdapt consistently reduces the logical error rate relative to the neural pre-decoding baseline. On Google's Willow benchmark data, without target-domain fine-tuning, it achieves reductions of up to 5.79 percent in logical error rate and 9.32 percent in backend decoding latency on the residual syndrome. These results demonstrate that QAdapt provides a practical and decoder-compatible approach to improving the robustness and backend decoding efficiency of quantum error correction under evolving hardware noise.",
+    "authors": [
+      "Miao, Ran",
+      "Luo, Rui",
+      "Shan, Xiaohan",
+      "Sun, Xiaoming"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T16:20:56.667679Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3185046",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3185046",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3185046"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

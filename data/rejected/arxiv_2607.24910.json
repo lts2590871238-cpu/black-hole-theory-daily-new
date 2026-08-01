@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.24910",
     "arxiv_id": "2607.24910",
     "arxiv_version": 1,
-    "inspire_id": "3183909",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Cosmological evolution with decaying dark matter: an integral-equation approach",
     "abstract_en": "We present CLASSIER-DDM, an extension of the Boltzmann solver CLASSIER that implements the decaying dark matter (DDM) model via its integral-equation approach. The code handles generic two-body decays of a dark matter particle into two lighter decay products with arbitrary masses, naturally encompassing both massless (dark radiation) and massive (warm) decay products, with their perturbations evaluated via integral equations solved iteratively. We describe the numerical implementation in detail, including the background evolution, the iterative perturbation evolution, and a small-scale analytic approximation. A modest number of iterations is sufficient to achieve sub-$0.1\\%$ convergence in the matter power spectrum and the CMB lensing power spectrum across the observationally relevant parameter space. We find that a hundred momentum bins for the decay product perturbations are sufficient to achieve $\\mathcal{O}(0.1\\%)$ accuracy in the matter power spectrum today up to $k \\sim 3\\,{\\rm Mpc}^{-1}$. The code achieves $\\mathcal{O}(1\\,{\\rm min})$ runtimes per evaluation, requiring neither a Boltzmann hierarchy nor any fluid approximation, making parameter estimation with the DDM model numerically tractable. We also discuss the impact of DDM on cosmological observables, focusing on the case of two massive decay products. This work further establishes the integral-equation approach as a versatile and efficient framework for modeling non-cold relics in cosmological perturbation theory.",
@@ -17,37 +17,23 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-07-27T00:00:00Z",
-    "updated_at": "2026-07-30T03:33:01.652451Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-27T18:00:00Z",
+    "updated_at": "2026-07-27T18:00:00Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.24910v1",
     "pdf_url": "https://arxiv.org/pdf/2607.24910v1",
-    "inspire_url": "https://inspirehep.net/literature/3183909",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.24910",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
         "url": "https://arxiv.org/abs/2607.24910v1"
-      },
-      {
-        "source": "arxiv",
-        "record_id": "2607.24910",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
-        "url": "https://arxiv.org/abs/2607.24910v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3183909",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
-        "url": "https://inspirehep.net/literature/3183909"
       }
     ],
     "is_demo": false

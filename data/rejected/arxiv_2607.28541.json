@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.28541",
+    "arxiv_id": "2607.28541",
+    "arxiv_version": null,
+    "inspire_id": "3184918",
+    "doi": null,
+    "title_en": "A Provable Oracle-Free Quantum Algorithm for Nonlinear Dynamics on Hybrid Oscillator-Qubit Processors",
+    "abstract_en": "We develop a hybrid qubit--qumode algorithm for nonlinear ordinary differential equations of the form $\\dot{\\mathbf{x}}=\\mathbf{f}(\\mathbf{x})$ with drift of polynomial degree~$L$. Following the Fokker--Planck route of Tennie and Magri, the algorithm propagates the state density and returns the deterministic trajectory as the peak of that density in the small-noise limit. The discretised generator is carried into a parametrised family of Schrödinger equations by the warped-phase transformation of Jin, Liu, and Yu, and the Fourier-mode parameter of that family is placed on a single continuous-variable qumode. Our central structural result is that the Hermitian parts $H_{1}$ and $H_{2}$ of the discretised generator admit a bipartite Pauli decomposition that sorts the non-zero Pauli strings into $\\mathcal{O}(\\log N)$ mutually commuting families and factorises each family into a diagonal of degree at most $L$ tensored with a fixed rank-two bond operator. The factorisation renders each family exponential an exact product of $\\mathcal{O}(n^{L})$ monomial-controlled momentum displacements, with no intra-family Trotter error. On a $d$-dimensional grid of $N=2^{n}$ points per axis the circuit costs $\\mathcal{O}(d^{L+1}n^{L+2})$ gates per Trotter step. No sparse-access oracle and no block encoding is invoked: every gate is fixed in closed form by the polynomial coefficients of the drift. We also prove a bound on the numerical abscissa $λ_{\\max}(H_{1})$ that fixes the recovery domain of the warped-phase transform and the post-selection cost. A classical simulation on two nonlinear benchmarks confirms the structural theorems, the shifted recovery, and the accuracy-per-resource advantage of the continuous-variable coupling over a discretised mode register.",
+    "authors": [
+      "Chandramouli, Kausthubh",
+      "Li, Yan",
+      "Liu, Yuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T15:42:42.812417Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184918",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184918",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3184918"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

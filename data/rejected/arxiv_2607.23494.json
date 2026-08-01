@@ -3,43 +3,43 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.23494",
     "arxiv_id": "2607.23494",
-    "arxiv_version": null,
-    "inspire_id": "3183534",
+    "arxiv_version": 1,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Hermes - Towards an Optimal High-Performance Algorithm for Cosmic Statistics of Large Data Sets",
     "abstract_en": "We present Hermes, an in situ multiresolution framework for efficient and flexible measurements of cosmic large-scale-structure statistics from discrete catalogues. Hermes reconstructs a catalogue as a continuous density field in a compact scaling-function basis and replaces explicit counting of particle tuples with algebraic operations among window-filtered fields. Standard binning schemes for counts-in-cells, two-point and higher-order correlation functions are thereby expressed through choices of window functions, while new statistics can be constructed by modifying the kernels without redesigning the estimator. We introduce PyHermes, an open-source Python implementation combining multiresolution reconstruction, FFT-based convolution, MPI/thread parallelism, and GPU acceleration. It supports isotropic and anisotropic two-point statistics, marked correlations, standard and multipole three-point functions, filtered statistics, and differential operators for derived physical fields. Tests with cosmological N-body halo catalogues demonstrate a range of clustering measurements and quantify the computational efficiency and scalability of the approach. By separating field representation from statistical windows, a single reconstructed field can be reused for many standard and customised measurements, making Hermes well suited to large data sets from current and future galaxy surveys.",
     "authors": [
-      "Feng, Long-long",
-      "Xu, Tengpeng",
-      "Luan, Tian-Cheng",
-      "Li, Jiawei",
-      "Sun, Xin",
-      "Ju, Wenjie",
-      "Li, Zhuoyang",
-      "Yue, Shiyu",
-      "Zhu, Weishan",
-      "Cai, Yan-Chuan"
+      "Long-long Feng",
+      "Tengpeng Xu",
+      "Tian-Cheng Luan",
+      "Jiawei Li",
+      "Xin Sun",
+      "Wenjie Ju",
+      "Zhuoyang Li",
+      "Shiyu Yue",
+      "Weishan Zhu",
+      "Yan-Chuan Cai"
     ],
-    "categories": [],
-    "submitted_at": "2026-07-26T00:00:00Z",
-    "updated_at": "2026-07-29T08:15:28.788546Z",
-    "document_types": [
-      "article"
+    "categories": [
+      "astro-ph.CO"
     ],
+    "submitted_at": "2026-07-26T06:49:56Z",
+    "updated_at": "2026-07-26T06:49:56Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
-    "inspire_url": "https://inspirehep.net/literature/3183534",
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.23494v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.23494v1",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
-        "source": "inspire",
-        "record_id": "3183534",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
-        "url": "https://inspirehep.net/literature/3183534"
+        "source": "arxiv",
+        "record_id": "2607.23494",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://arxiv.org/abs/2607.23494v1"
       }
     ],
     "is_demo": false

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.27342",
+    "arxiv_id": "2607.27342",
+    "arxiv_version": null,
+    "inspire_id": "3184747",
+    "doi": null,
+    "title_en": "Restrictions on non-Clifford fault tolerance and ruling out beyond-SQL quantum metrology",
+    "abstract_en": "Quantum metrology promises a quadratic speedup over the standard quantum limit (SQL), but signal-aligned noise is expected to preclude this advantage in realistic settings. A potential route around known no-go results is to encode the sensors in a quantum code where the physical signal acts transversally as a logical gate. Understanding restrictions on transversal non-Clifford gates is therefore central to both quantum metrology and fault-tolerant quantum computation. Here, we prove such restrictions and apply them to transversal sensing. For any stabilizer code of distance $d\\ge 3$ supporting a transversal logical action in level $D$ of the Clifford hierarchy, every stabilizer generating set must contain a check of weight at least $2^D$. Moreover, any $r$-level concatenated realization satisfies $r\\leq \\lfloor \\log_2 n/D\\rfloor$, forcing $r=1$ and ruling out concatenation when applied to beyond-SQL metrology. We then show that transversal single-qubit rotations by a small angle $θ$ can only induce a nontrivial logical action on an $n$-qubit code if its checks include irreducible stabilizers of weight $Ω(1/(n|θ|^2))$. Here, many single-qubit errors commute with every stabilizer or logical Pauli below this weight and are only detected by a high-weight check, so their syndromes cannot be fault-tolerantly reconstructed from low-weight normalizer measurements. Since beyond-SQL transversal sensing requires $|θ| = o(n^{-1/2})$, the weight of checks required for syndrome extraction diverges with $n$. Finally, we prove a broader metrological no-go theorem that avoids the assumptions of the quantum Cramér-Rao bound: constant-strength signal-aligned noise rules out any asymptotic advantage over the SQL in AC or DC sensing, even with biased estimators, nonstabilizer or approximate encodings, quantum memory, intermediate measurements, or adaptive control.",
+    "authors": [
+      "de Pradenne, Constantin Cedillo Vayson",
+      "Kannan, Ishaan",
+      "Putterman, Harald",
+      "Cotler, Jordan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-29T00:00:00Z",
+    "updated_at": "2026-07-31T15:41:43.665524Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184747",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184747",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3184747"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

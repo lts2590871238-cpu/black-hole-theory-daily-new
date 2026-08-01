@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.28610",
+    "arxiv_id": "2607.28610",
+    "arxiv_version": null,
+    "inspire_id": "3184677",
+    "doi": null,
+    "title_en": "Learning Arbitrary Lindbladians from Time Evolution",
+    "abstract_en": "We study the problem of learning an unknown Markovian open-system generator from access to its physical time evolution. This generator, called a Lindbladian, contains Hamiltonian and dissipative coefficients indexed by an exponentially large family of possible Pauli terms. We propose an efficient algorithm that learns arbitrary Lindbladians from time evolution under minimal assumptions. For a Lindbladian of dynamical strength at most $Λ$, the algorithm estimates every coefficient to error $ε$ using $\\widetilde O(Λ^2/ε^2)$ experiments and $\\widetilde O(Λ/ε^2)$ total evolution time, together with polynomial classical running time. The algorithm consists of two nonadaptive, ancilla-free, and control-free stages: 1. The support-learning stage outputs a candidate support of size $\\mathrm{poly}(Λ/η)$ that contains every Hamiltonian and dissipative coordinate of magnitude at least $η$, using $\\widetilde O(Λ^2/η^2)$ experiments with preparations of product Pauli eigenstates and single-qubit Pauli measurements. 2.The coefficient-learning stage estimates all coefficients in any candidate support of size $M$ to error $ε$, using $\\widetilde O(Λ^2\\log M/ε^{2})$ experiments with preparations of random stabilizer states and measurements in random Clifford bases. Composing the two stages identifies and estimates every coefficient of an arbitrary Lindbladian in polynomial time. The experiment-count and total-evolution-time scalings match the lower bounds up to logarithmic factors, so the algorithm is nearly optimal for learning arbitrary Lindbladians.",
+    "authors": [
+      "Chen, Zhili",
+      "Yu, Zhan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T16:09:06.143018Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184677",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184677",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3184677"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

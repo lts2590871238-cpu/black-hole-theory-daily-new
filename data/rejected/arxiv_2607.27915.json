@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.27915",
+    "arxiv_id": "2607.27915",
+    "arxiv_version": null,
+    "inspire_id": "3184834",
+    "doi": null,
+    "title_en": "Iterative quantum algorithms for the minimum vertex cover problem based on continuous-time quantum walks",
+    "abstract_en": "We introduce a constraint-preserving hybrid quantum-classical greedy framework for the minimum vertex cover problem, which extends directly to maximum independent set by bitwise complementation. The framework uses projected Pauli-X terms whose sum preserves the feasible subspace and acts within it exactly as the adjacency matrix of a layered graph of feasible covers. This graph is connected, so every feasible cover is linked to the configuration containing all vertices by a sequence of allowed single-vertex flips. Starting from this configuration, the corresponding continuous-time quantum walk propagates amplitude into layers containing progressively smaller covers. We rank vertices using either their marginal cover probabilities or the expected cover size obtained after fixing each candidate vertex in the cover, and use these rankings to guide recursive greedy reductions. Across several random-graph families, with walk times fixed using independent calibration ensembles, the quantum-informed algorithms achieve lower mean approximation ratios and solve a larger fraction of instances optimally than their corresponding classical greedy baselines. The conditioned-energy strategy performs best on the tested instances and retains algorithmic performance close to the exact continuous-time limit under low-depth Trotterisation. For bounded-degree graphs, each Trotter layer has circuit depth independent of system size, and the framework requires neither penalty terms nor variational training.",
+    "authors": [
+      "Bassa, Ruben Pariente",
+      "Quinton, Finley A.",
+      "Fuchs, Franz G.",
+      "Halffmann, Pascal"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T16:08:22.806980Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184834",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184834",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3184834"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

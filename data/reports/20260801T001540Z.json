@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-08-01T00:15:40.650494Z",
+  "completed_at": "2026-08-01T00:18:48.303335Z",
+  "status": "degraded",
+  "fetched_arxiv": 906,
+  "fetched_inspire": 800,
+  "normalized": 1706,
+  "deduplicated": 1371,
+  "candidates": 64,
+  "selected": 53,
+  "review_queue": 6,
+  "rejected": 1307,
+  "llm_calls": 25,
+  "cached_decisions": 30,
+  "errors": [
+    "arxiv:2607.28214: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.07715: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2607.25617: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: invalid escape at line 14 column 514 [type=json_invalid, input_value='{\\n  \"relevant\": true,\\n...eissner-Nordström\"]\\n}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+    "arxiv:2603.15572: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 277 个非空白字符",
+    "arxiv:2606.11157: 评分或翻译失败：中文翻译未包含中文字符"
+  ]
+}

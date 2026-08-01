@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.28499",
+    "arxiv_id": "2607.28499",
+    "arxiv_version": null,
+    "inspire_id": "3184957",
+    "doi": null,
+    "title_en": "Structure-Preserving Quantum Simulation of Wave Equations on a Trapped-Ion Processor",
+    "abstract_en": "Wave equations provide a natural testbed for near-term quantum simulation of partial differential equations, but hardware demonstrations have remained limited in spatial dimension, equation class, system size, and physically meaningful output. We develop and benchmark structure-preserving, Fourier-based quantum circuits for the one- and two dimensional acoustic wave equations and Dirac dynamics with variable mass on the Quantinuum H2-2 trapped-ion processor. The experiments include one-dimensional grids with up to \\(1024\\) points and \\(32\\times32\\) two-dimensional grids, corresponding to an encoded state-space dimension of up to \\(4096\\). Rather than reconstructing the full fields, we estimate subdomain kinetic energies directly from measurement samples. Across all tested acoustic and Dirac dynamics problems, the H2-2 results track the classical kinetic-energy dynamics with mean absolute errors between \\(5.9\\times10^{-3}\\) and \\(2.4\\times10^{-2}\\). At fixed retained bandwidth, the compiled gate counts grow approximately quadratically with the number of grid qubits; the acoustic circuit sizes are essentially independent of evolution time, whereas the cost also grows with the number of product-formula steps. These results provide hardware-level evidence that accurate observable dynamics can remain resolvable for structured wave problems with thousands of encoded degrees of freedom on a present-day trapped-ion processor.",
+    "authors": [
+      "Shringi, Abhishek",
+      "Wu, Hsuan-Cheng",
+      "Shokry, Ahmed",
+      "Li, Xiantao",
+      "Kandemir, Mahmut Taylan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T15:41:28.807006Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184957",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184957",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3184957"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

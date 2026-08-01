@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.27822",
+    "arxiv_id": "2607.27822",
+    "arxiv_version": null,
+    "inspire_id": "3184799",
+    "doi": null,
+    "title_en": "CLVisc Agent for autonomous relativistic hydrodynamics studies",
+    "abstract_en": "We enable large language model (LLM) agents to autonomously perform end-to-end hydrodynamic simulations of the quark-gluon plasma evolution and calculation of final hadron spectra in relativistic heavy-ion collisions. We design a meta skill that allows an agent to explore a project's source code, craft a specialized skill, and iteratively refine it. Applying this meta skill to the (3+1)D viscous hydrodynamic code CLVisc, the agent builds a CLVisc skill encoding its operational knowledge and then independently executes full scientific workflows: designing parameter scans, running simulations, comparing ensemble results, and producing publication-ready figures. Crucially, the agent draws on literature-informed heavy-ion physics to select physically meaningful observables and interpret outcomes without explicit instruction. We demonstrate the pipeline in two scenarios: temperature-dependent shear viscosity over entropy density $η/s$, and nuclear-structure effects in O+O collisions at $\\sqrt{s_{\\mathrm{NN}}} = 5.36$~TeV using four \\textit{ab initio} descriptions of $^{16}$O. In both, the agent plans, executes, and analyzes autonomously, devising new initial-state observables to explain final observations and extract qualitative knowledge. The meta skill is agnostic to code versions and Monte Carlo generators, promising future multi-agent systems in high-energy nuclear physics.",
+    "authors": [
+      "Wang, Qi",
+      "Pang, Long-Gang",
+      "Pu, Shi",
+      "Wang, Xin-Nian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T15:41:11.306752Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3184799",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3184799",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3184799"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

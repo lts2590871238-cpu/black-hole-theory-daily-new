@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.27679",
+    "arxiv_id": "2607.27679",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Iterative minimization in reduced density matrix functional theory for periodic systems",
+    "abstract_en": "Reduced density matrix functional theory (RDMFT) offers a route beyond Kohn-Sham density functional theory for strongly correlated systems, yet practical calculations for periodic solids are still out of reach. We formulate RDMFT for extended systems in a basis-independent way and present a planewave implementation using iterative minimization for periodic solids, evaluating nonlocal exchange-correlation functionals through the existing adaptive compressed exchange machinery. Natural occupations are optimized under N-representability constraints with a spectral projected gradient (SPG) method or an first-order explicit-by-implicit (EBI) map, while natural orbitals are updated by Riemannian optimization on the complex Stiefel manifolds. Benchmarks on typical systems of \\ce{H2}, silicon, and sodium with the Hartree-Fock functional show that SPG reproduces converged hybrid references, whereas EBI can stall when occupations approach $0$ or $1$. With the power and Müller functionals, SPG yields lower energies and more stable convergence than EBI. Applications to fractionally charged \\ce{LiH}, dissociating \\ce{H2} and \\ce{N2} molecules, and equation of state of silicon show that the algorithm presented in this implementation is reliable and robust.",
+    "authors": [
+      "Kai Luo",
+      "Jingang Han",
+      "Peize Lin",
+      "Daye Zheng",
+      "Mohan Chen",
+      "Xinguo Ren"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-07-30T04:52:54Z",
+    "updated_at": "2026-07-30T04:52:54Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.27679v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.27679v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.27679",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://arxiv.org/abs/2607.27679v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

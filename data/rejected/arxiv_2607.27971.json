@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.27971",
+    "arxiv_id": "2607.27971",
+    "arxiv_version": null,
+    "inspire_id": "3185058",
+    "doi": null,
+    "title_en": "Optimizing Memory Efficiency and Index Ordering to Simulate Quantum Circuits Using Tensor Decision Diagrams",
+    "abstract_en": "Combining Tensor Networks (TNs) and Decision Diagrams (DDs) provides a high-performance framework for the exact simulation of quantum circuits on classical computers by exploiting structural redundancies and topological entanglement. However, improving the scalability of hybrid tools such as the Fast Tensor Decision Diagram (FTDD) requires addressing strict memory growth constraints and complex node management during tensor contractions. In this paper, we propose a hardware-aware architectural optimization of the FTDD framework, with two main contributions: first, we overhaul the internal memory management through a fixed-footprint memory model, strict node lifecycle tracking, and a systematic evaluation of table-sizing policies (exponential, static, and hybrid) to reduce allocation overhead and control memory growth; second, we introduce Path, a new index-ordering heuristic guided by the contraction path, and conduct a comprehensive study of variable index-ordering strategies, an important factor for DD compression. By comparing the original alphanumeric ordering, RCM, and our Path heuristic across diverse circuit topologies, we show that index permutation strongly affects node sharing and diagram density. Experimental evaluation confirms that our optimized FTDD engine bounds memory consumption under structured quantum workloads, enabling stable execution of circuits such as QFT with up to 100 qubits. Furthermore, we systematically characterize execution time, memory footprint, and topological trade-offs across diverse quantum benchmarks.",
+    "authors": [
+      "Oliva, Vicente López",
+      "Contelles, José Manuel Badía",
+      "Catalán, Maria Isabel Castillo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-07-31T16:22:34.422521Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3185058",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3185058",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
+        "url": "https://inspirehep.net/literature/3185058"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

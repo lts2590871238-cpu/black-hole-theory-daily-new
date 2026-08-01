@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.24908",
     "arxiv_id": "2607.24908",
     "arxiv_version": 1,
-    "inspire_id": "3183879",
+    "inspire_id": null,
     "doi": null,
     "title_en": "TempLat: a versatile C++ engine for lattice field theories",
     "abstract_en": "We present TempLat, a C++ framework for lattice field theory simulations in arbitrary dimensions. Its symbolic language, built on expression templates, translates mathematical expressions almost verbatim into C++ while compiling to highly optimized kernels, in contexts ranging from classical-statistical to Monte Carlo simulations. TempLat is performance-portable: building on Kokkos, it supports large CPU clusters, as well as NVIDIA and AMD GPUs. Its abstraction of hardware into a device concept makes TempLat extensible to future architectures. We demonstrate excellent strong and weak scaling on both CPUs and GPUs. We also present ParaFaFT, a standalone parallel discrete Fourier transform library supporting arbitrary dimensions on all of the above hardware, and benchmark its scaling. Both are open source and available on GitHub, and power a new release of CosmoLattice, a widely used early-universe simulation library now available on GPUs.",
@@ -18,37 +18,23 @@
       "cond-mat.stat-mech",
       "hep-ph"
     ],
-    "submitted_at": "2026-07-27T00:00:00Z",
-    "updated_at": "2026-07-30T03:31:27.087112Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-27T18:00:00Z",
+    "updated_at": "2026-07-27T18:00:00Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 1,
-    "citation_count_without_self_citations": 1,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.24908v1",
     "pdf_url": "https://arxiv.org/pdf/2607.24908v1",
-    "inspire_url": "https://inspirehep.net/literature/3183879",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.24908",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
+        "fetched_at": "2026-08-01T00:15:40.650494Z",
         "url": "https://arxiv.org/abs/2607.24908v1"
-      },
-      {
-        "source": "arxiv",
-        "record_id": "2607.24908",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
-        "url": "https://arxiv.org/abs/2607.24908v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3183879",
-        "fetched_at": "2026-07-31T00:59:53.160462Z",
-        "url": "https://inspirehep.net/literature/3183879"
       }
     ],
     "is_demo": false
