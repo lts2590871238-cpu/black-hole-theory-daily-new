@@ -869,3 +869,12 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='export.arxiv.org'
 2026-08-01 00:18:33,995 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-08-01 00:18:38,087 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-08-01 00:18:42,705 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-08-02 01:03:12,881 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: arXiv timed out
+2026-08-02 01:03:12,934 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: source timed out
+2026-08-02 01:03:12,935 WARNING theory_daily.pipeline: INSPIRE 数据源暂时不可用：source timed out
+2026-08-02 01:04:14,400 WARNING urllib3.connectionpool: Retrying (Retry(total=3, connect=4, read=3, redirect=None, status=4)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=60)")': /api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending
+2026-08-02 01:08:11,184 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-08-02 01:08:16,046 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-08-02 01:08:20,136 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-08-02 01:08:24,293 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-08-02 01:08:28,227 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
