@@ -3,26 +3,21 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.26619",
     "arxiv_id": "2607.26619",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3184407",
     "doi": null,
     "title_en": "Bayesian nonparametric estimation of correlated gravitational wave detector network noise using matrix-gamma process priors",
     "abstract_en": "This paper addresses the important problem of estimating the noise spectral density of next-generation gravitational-wave detectors, such as LISA and the Einstein Telescope (ET), where cross-channel correlations must be accounted for to avoid biased parameter estimation of gravitational-wave signals. Unlike approaches that estimate test-mass and optical-metrology-system noise separately at the single-link level and then map them to the Time-Delay Interferometry (TDI) channels through known transfer functions, we develop a Bayesian nonparametric method that directly estimates the spectral density matrix of the XYZ channels, thereby accommodating additional sources of uncertainty. Our approach combines a flexible matrix-gamma process prior on the matrix-valued coefficients of a Bernstein polynomial basis expansion with a blocked multivariate Whittle likelihood. The prior guarantees Hermitian positive definiteness of the spectral estimate at every frequency. To avoid reversible-jump methods, we use an adaptive Markov chain Monte Carlo (MCMC) algorithm for posterior sampling. The proposed framework can also be used to correct misspecified parametric noise models. Results from a simulation study and simulated correlated-noise data for both LISA and ET demonstrate the effectiveness of the proposed method.",
     "authors": [
-      "Yixuan Liu",
-      "Renate Meyer",
-      "Nelson Christensen",
-      "Jeung Eun Lee",
-      "Jianan Liu",
-      "Patricio Maturana-Russel",
-      "Avi Vajpeyi"
+      "Liu, Yixuan",
+      "Meyer, Renate",
+      "Christensen, Nelson",
+      "Lee, Jeung Eun",
+      "Liu, Jianan",
+      "Maturana-Russel, Patricio",
+      "Vajpeyi, Avi"
     ],
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "astro-ph.IM",
-      "stat.AP"
-    ],
+    "categories": [],
     "submitted_at": "2026-07-29T00:00:00Z",
     "updated_at": "2026-07-31T03:41:04.078930Z",
     "document_types": [
@@ -32,21 +27,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.26619v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.26619v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3184407",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2607.26619",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
-        "url": "https://arxiv.org/abs/2607.26619v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3184407",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
+        "fetched_at": "2026-08-03T01:00:32.644743Z",
         "url": "https://inspirehep.net/literature/3184407"
       }
     ],

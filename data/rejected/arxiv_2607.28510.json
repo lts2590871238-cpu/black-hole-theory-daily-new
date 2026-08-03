@@ -3,21 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.28510",
     "arxiv_id": "2607.28510",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3184932",
     "doi": null,
     "title_en": "Uncertainty-Aware Tidal Disruption Event Classification : A Host-Agnostic Probabilistic Random Forest Approach",
     "abstract_en": "The classification of Tidal Disruption Events in large-scale photometric surveys is challenging because deterministic machine learning models produce overconfident misclassifications under varying data quality and low signal-to-noise conditions. Existing lightcurve-based approaches fail to incorporate measurement uncertainties, consequently generating brittle outputs. We present a host-agnostic, uncertainty-aware classification framework using a Probabilistic Random Forest (PRF). Our pipeline extracts 11 characteristic features from nuclear transients in the ZTF alert stream, including rise and decay timescales, blackbody temperature evolution, and pre-transient variability metrics. Relying exclusively on photometric data without host galaxy information ensures effectiveness for the faint transient population expected from the Rubin Observatory. The PRF, which treats feature measurements as distributions, was evaluated against XGBoost through Leave-One-Out Cross-Validation. It yields higher stability and robustness for ambiguous candidates than XGBoost. The two classifiers occupy complementary regimes. XGBoost achieves higher recall in balanced and high-precision scenarios, where its rigid decision boundaries efficiently isolate TDE-like sources, while PRF rejects more false positives by penalizing sources with large feature uncertainties. Applying this framework to archival data identified 11 new candidate TDEs from the unclassified population and 3 potential photometric TDEs within existing training labels previously misclassified as supernovae or active galactic nuclei. This work demonstrates that TDEs can be reliably identified using photometric lightcurve features, providing a host-independent framework. Uncertainty-aware, probabilistic classifiers are essential for the Rubin era to prevent the overconfident misclassifications inherent in deterministic models at low signal-to-noise.",
     "authors": [
-      "Vysakh Anilkumar",
-      "Sjoert van Velzen",
-      "Marek Kowalski",
-      "Simeon Reusch"
+      "Anilkumar, Vysakh",
+      "van Velzen, Sjoert",
+      "Kowalski, Marek",
+      "Reusch, Simeon"
     ],
-    "categories": [
-      "astro-ph.HE",
-      "astro-ph.IM"
-    ],
+    "categories": [],
     "submitted_at": "2026-07-30T00:00:00Z",
     "updated_at": "2026-08-01T02:55:49.972631Z",
     "document_types": [
@@ -27,21 +24,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.28510v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.28510v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3184932",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2607.28510",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
-        "url": "https://arxiv.org/abs/2607.28510v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3184932",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
+        "fetched_at": "2026-08-03T01:00:32.644743Z",
         "url": "https://inspirehep.net/literature/3184932"
       }
     ],

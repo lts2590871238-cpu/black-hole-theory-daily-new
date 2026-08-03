@@ -3,28 +3,26 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.28003",
     "arxiv_id": "2607.28003",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3184853",
     "doi": null,
     "title_en": "High-accuracy drivers to simulate black hole binaries beyond general relativity with the fixing-the-equations approach",
     "abstract_en": "We implement the \"fixing-the-equations\" approach [Phys.Rev.D 96 (2017) 8, 084043] in spectre, an NR code using a pseudo-spectral discontinuous Galerkin scheme, to produce long and accurate NR waveforms in the well-known shift-symmetric version of scalar Gauss-Bonnet (sGB) gravity. To achieve this, we introduce a new family of comoving driver equations that exploits the approximate symmetries of quasicircular binary systems and is designed to recover the exact (quasi-)stationary solutions of the fully-coupled theory. We validate our single black hole (BH) solutions against analytic predictions and show that, even for binary BHs in the early inspiral, the intrinsic BH quantities are relatively insensitive to the timescales entering the driver equation. Attention is given to the prescription of driver equations for tensors, for which we give an example of how treating tensor components as scalars can lead to undesired behaviour over long timescales, including spurious growth of the BH spins. A more appropriate generalization to the tensor case is given for the comoving driver, which is shown to avoid these issues. Overall, our implementation leverages state-of-the-art methods for eccentricity reduction and wave extraction with Cauchy Characteristic Evolution to simulate systems with eccentricity $\\lesssim 10^{-3}$. We obtain waveforms with phase errors $\\lesssim \\mathcal{O}(1) \\, \\mathrm{rad}$ over almost 40 GW-cycles, which naturally incorporate memory contributions.",
     "authors": [
-      "Guillermo Lara",
-      "Harald P. Pfeiffer",
-      "Nils Deppe",
-      "Lawrence E. Kidder",
-      "Geoffrey Lovelace",
-      "Sizheng Ma",
-      "Alexandra Macedo",
-      "Jordan Moxon",
-      "Kyle C. Nelli",
-      "Mark A. Scheel",
-      "William Throwe",
-      "Nils L. Vu"
+      "Lara, Guillermo",
+      "Pfeiffer, Harald P.",
+      "Deppe, Nils",
+      "Kidder, Lawrence E.",
+      "Lovelace, Geoffrey",
+      "Ma, Sizheng",
+      "Macedo, Alexandra",
+      "Moxon, Jordan",
+      "Nelli, Kyle C.",
+      "Scheel, Mark A.",
+      "Throwe, William",
+      "Vu, Nils L."
     ],
-    "categories": [
-      "gr-qc"
-    ],
+    "categories": [],
     "submitted_at": "2026-07-30T00:00:00Z",
     "updated_at": "2026-08-01T10:41:39.817131Z",
     "document_types": [
@@ -34,21 +32,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.28003v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.28003v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3184853",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2607.28003",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
-        "url": "https://arxiv.org/abs/2607.28003v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3184853",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
+        "fetched_at": "2026-08-03T01:00:32.644743Z",
         "url": "https://inspirehep.net/literature/3184853"
       }
     ],

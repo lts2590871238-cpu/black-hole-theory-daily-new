@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 15,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 63,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文提出了一种用于在脉冲星计时阵列数据中搜索偏心超大质量黑洞双星连续引力波的快速贝叶斯流水线，具有实用价值和创新性，符合PTA领域的研究方向。",
+  "title_zh": "QuickGWecc：用于在脉冲星计时阵列数据中搜索偏心双星的快速贝叶斯流水线",
+  "abstract_zh": "最近的脉冲星计时阵列（PTA）结果为纳米赫兹引力波（GW）背景的存在提供了证据，该背景很可能起源于一群超大质量黑洞双星（SMBHBs）。下一个重要里程碑是探测来自单个SMBHB的连续引力波（CGWs）并识别其电磁对应体。通常，在PTA数据中搜索CGWs假设双星处于圆轨道。然而，理论研究表明，在PTA频带内发射引力波的双星可能保留显著的偏心率。在本文中，我们提出了一种快速高效的贝叶斯流水线，用于在PTA数据集中搜索处于相对论偏心轨道上的单个SMBHBs的连续引力波。我们的方法扩展了用于圆双星的QuickCW框架，其中模型参数被分为投影参数和形状参数。计算效率通过针对固定的一组形状参数执行多次投影参数更新来实现，该操作比更新形状参数快几个数量级。我们通过对模拟PTA数据集的探测和上限分析来验证该流水线。该框架使搜索偏心SMBHBs在计算上变得可行，即使在具有更多脉冲星的下一代PTA数据集中也是如此。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational waves",
+    "eccentric binaries",
+    "Bayesian pipeline",
+    "supermassive black hole binaries"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波",
+    "偏心双星",
+    "贝叶斯流水线",
+    "超大质量黑洞双星"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-03T01:04:06.018145Z"
+}

@@ -3,19 +3,16 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.26822",
     "arxiv_id": "2607.26822",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3184543",
     "doi": null,
     "title_en": "Optimizing the extraction of information from redshift probability distribution functions",
     "abstract_en": "Photometric redshifts are essential for large-scale structure analyses, yet extracting optimal point estimates and reliability measures from the probability distribution functions (PDZs) delivered by photo-$z$ pipelines remains an open challenge. We introduce turboPDZ, a machine-learning framework that optimizes both quantities directly from the PDZ. We apply the framework to PDZs from the three independent HSC-SSP PDR3 pipelines (DEmP, DNNz, Mizuki) across Wide and DUD layers. Each PDZ is compressed via PCA and combined with summary descriptors; a multilayer perceptron, optimized with Optuna under a composite objective, produces the optimized point estimate $z_{\\rm ml}$. A second network, trained in log-space and calibrated, yields the uncertainty $σ_{\\rm ml}$, from which the reliability score $r_{\\rm ml}$ is derived via percentile ranking. $z_{\\rm ml}$ outperforms the catalog $z_{\\rm best}$ in $σ_{\\rm NMAD}$ and $η_{0.15}$ across all six pipeline-layer combinations. $r_{\\rm ml}$ filters galaxies more efficiently than the catalog risk and confidence indicators, as measured by the area under the $σ_{\\rm NMAD}$ and $η_{0.15}$ versus retained-fraction curves. For Mizuki, the template-fitting pipeline, the catalog indicators fail dramatically, with AUC values up to ten times larger than those of $r_{\\rm ml}$, whereas $r_{\\rm ml}$ correctly identifies unreliable objects across all redshift regimes. Feature-importance analysis reveals complementary patterns: point estimation is dominated by PCA components and location statistics, while reliability estimation depends on PCA components and peak statistics. The pipeline is survey-independent, publicly available at https://github.com/valerio-marra/turboPDZ, and trained models plus optimized quantities are released as a value-added catalog.",
     "authors": [
-      "Rodrigo Duarte",
-      "Valerio Marra"
+      "Duarte, Rodrigo",
+      "Marra, Valerio"
     ],
-    "categories": [
-      "astro-ph.IM",
-      "astro-ph.CO"
-    ],
+    "categories": [],
     "submitted_at": "2026-07-29T00:00:00Z",
     "updated_at": "2026-07-31T03:49:35.089493Z",
     "document_types": [
@@ -25,21 +22,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.26822v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.26822v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3184543",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2607.26822",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
-        "url": "https://arxiv.org/abs/2607.26822v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3184543",
-        "fetched_at": "2026-08-02T01:03:14.129155Z",
+        "fetched_at": "2026-08-03T01:00:32.644743Z",
         "url": "https://inspirehep.net/literature/3184543"
       }
     ],
