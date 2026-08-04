@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.29249",
+    "arxiv_id": "2607.29249",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Beyond Stoner-Wohlfarth: Machine-Learning Models and Symbolic Regression of Hard-Magnet Properties",
+    "abstract_en": "Predicting the extrinsic properties from hysteresis loops of a magnetic grain, namely the coercive field, remanent magnetisation, and maximum energy product, from its intrinsic micromagnetic parameters is a central problem in permanent-magnet modelling. Established analytical models provide useful estimates but often neglect nonuniform magnetisation processes, whereas direct micromagnetic simulations are computationally expensive. In this work, we train machine-learning models on 12012 micromagnetic simulations of an idealised cubic grain, spanning broad ranges of the saturation magnetisation, exchange constant, and uniaxial anisotropy constant. Benchmarked against the analytical models on identical held-out data, the machine-learning models predict all three extrinsic properties with substantially lower errors. Symbolic regression recovers the Kronmüller form of the coercive field, with an effective demagnetising factor that depends on the material, and finds new closed-form expressions for the remanence and maximum energy product. Each law contains at most two fitted constants yet approaches the accuracy of the machine-learning models. We also investigate the inverse problem of recovering the intrinsic parameters from the three extrinsic properties. The saturation magnetisation and anisotropy constant are recovered accurately, whereas the exchange constant is not, because it influences the extrinsic properties only weakly. The trained models are released through the mammos-ai Python package, enabling thousands of candidate parameter sets to be screened in seconds rather than the hours or days required by direct micromagnetic simulation.",
+    "authors": [
+      "Samuel J. R. Holt",
+      "Christina Winkler",
+      "Timoteo Colnaghi",
+      "Martin Lang",
+      "Swapneel A. Pathak",
+      "Andrea Petrocchi",
+      "Michael Adams",
+      "Thomas Schrefl",
+      "Andreas Marek",
+      "Hans Fangohr"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.mtrl-sci"
+    ],
+    "submitted_at": "2026-07-31T10:21:07Z",
+    "updated_at": "2026-07-31T10:21:07Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.29249v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.29249v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.29249",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.29249v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

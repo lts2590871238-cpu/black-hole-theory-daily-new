@@ -3,16 +3,19 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.27473",
     "arxiv_id": "2607.27473",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3184742",
     "doi": null,
     "title_en": "Closed Timelike Curve Decoding on Quantum Hardware",
     "abstract_en": "Deutsch closed timelike curves (D-CTCs) are described by a fixed-point condition for a chronology-violating register. We study a finite-dimensional circuit model that places a Hayden--Preskill/Yoshida--Kitaev recovery map inside such a consistency loop. A register-routing construction makes the Deutsch map explicit: an initial SWAP moves the incoming CTC state to an idle dump register, the scrambler and decoder act on the remaining active registers, and a final SWAP writes the recovered message back to the CTC register. When the active branch recovers the message, the induced map on the CTC register is the replacement channel \\(σ\\mapsto ρ_M\\), with the unique fixed point \\(ρ_M\\). We implement the associated Lloyd-type post-selected decoder circuits on quantum hardware and formulate a classical-feedback iteration for the experimentally estimated map. Qiskit simulations and IBM-hardware data for single-qubit instances quantify decoder fidelity, post-selection overhead, routing-dependent noise, and quantum-geometric susceptibility.",
     "authors": [
-      "Morapakula, Sai Nandan",
-      "Ikeda, Kazuki"
+      "Sai Nandan Morapakula",
+      "Kazuki Ikeda"
     ],
-    "categories": [],
+    "categories": [
+      "quant-ph",
+      "gr-qc"
+    ],
     "submitted_at": "2026-07-29T00:00:00Z",
     "updated_at": "2026-08-01T02:45:41.334755Z",
     "document_types": [
@@ -22,15 +25,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2607.27473v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.27473v1",
     "inspire_url": "https://inspirehep.net/literature/3184742",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2607.27473",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.27473v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3184742",
-        "fetched_at": "2026-08-03T01:00:32.644743Z",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
         "url": "https://inspirehep.net/literature/3184742"
       }
     ],

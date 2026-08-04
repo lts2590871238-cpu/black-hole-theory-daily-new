@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.28851",
+    "arxiv_id": "2607.28851",
+    "arxiv_version": null,
+    "inspire_id": "3185339",
+    "doi": null,
+    "title_en": "Model Predictive Path Integral Control as a Quantum Query Problem",
+    "abstract_en": "Model predictive path integral control computes its update from cost-weighted trajectory samples and may require many classical rollouts in rare-event or high-accuracy regimes. We reformulate each component of the finite-ensemble MPPI update as a ratio of bounded path expectations and construct reversible rollout oracles encoding them as success probabilities, making the update directly estimable by quantum amplitude estimation. This gives a quadratic improvement in the query dependence on accuracy and rare-event desirability over classical Monte Carlo sampling, matching known lower bounds for the underlying scalar problem below the exhaustive-evaluation threshold, while our coordinatewise construction incurs a linear dependence on the number of control inputs. For a fixed ensemble, the low-temperature weights concentrate on the minimum-cost trajectories, connecting the limiting control to quantum minimum finding when the minimizer is unique. A fully enumerable guidance example validates the predicted estimator scalings, and an illustrative operation-count model with a crossover condition separates query advantage from modeled implementation advantage.",
+    "authors": [
+      "Das, Goutam",
+      "Tanaka, Takashi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-30T00:00:00Z",
+    "updated_at": "2026-08-03T10:51:32.154729Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3185339",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3185339",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://inspirehep.net/literature/3185339"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

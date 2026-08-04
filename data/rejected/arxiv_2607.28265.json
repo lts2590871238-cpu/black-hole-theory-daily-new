@@ -3,23 +3,26 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.28265",
     "arxiv_id": "2607.28265",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3184890",
     "doi": null,
     "title_en": "Ab Initio Real-Time Gravitational-Wave Parameter Estimation",
     "abstract_en": "We present a specialised GPU-native nested sampling kernel targeting rapid parameter estimation for gravitational wave inference problems. Building upon a Slice-within-Gibbs (SwiG) structure for rapid mixing, we investigate how far we can push baseline stochastic sampling techniques on modern GPU hardware. We demonstrate that for typical long-duration binary neutron star signals observed by the LIGO and Virgo detectors, we can achieve well calibrated posterior inference on the full uncompressed data of a three detector network in a median of twelve minutes on a single GPU. This falls to five minutes when sharded across four devices. Utilising heterodyning to compress the data reduces the median wall time across an injection campaign to 89 seconds -- less than the length of the segment itself -- and enables inference with precessing spin, tidal waveforms on GW170817 in around two minutes. This pushes stochastic sampling techniques using full physical waveform calculations, launched from an uninformed prior state, towards real-time gravitational wave parameter estimation.",
     "authors": [
-      "Yallup, David",
-      "Prathaban, Metha",
-      "Alvey, James",
-      "Ng, Thomas C.K.",
-      "Wouters, Thibeau",
-      "Sarin, Nikhil",
-      "Handley, Will"
+      "David Yallup",
+      "Metha Prathaban",
+      "James Alvey",
+      "Thomas C. K. Ng",
+      "Thibeau Wouters",
+      "Nikhil Sarin",
+      "Will Handley"
     ],
-    "categories": [],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
     "submitted_at": "2026-07-30T00:00:00Z",
-    "updated_at": "2026-08-01T02:53:45.584831Z",
+    "updated_at": "2026-08-03T06:50:26.510224Z",
     "document_types": [
       "article"
     ],
@@ -27,15 +30,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2607.28265v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.28265v1",
     "inspire_url": "https://inspirehep.net/literature/3184890",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2607.28265",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.28265v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3184890",
-        "fetched_at": "2026-08-03T01:00:32.644743Z",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
         "url": "https://inspirehep.net/literature/3184890"
       }
     ],

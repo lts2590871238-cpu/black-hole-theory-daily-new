@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.29088",
+    "arxiv_id": "2607.29088",
+    "arxiv_version": null,
+    "inspire_id": "3185218",
+    "doi": null,
+    "title_en": "Learning transferable event representations for charmed baryon physics at BESIII",
+    "abstract_en": "Deep learning has become an essential tool in high-energy physics, where the ability to learn transferable event representations can significantly improve model generalization across related physics processes. In this work, we present a Particle Transformer-based framework for learning such representations for charmed baryon physics in the BESIII experiment. The framework is implemented through large-scale pre-training on Monte Carlo simulation samples and subsequent fine-tuning for downstream analyses. Using the production and decays of the charmed baryon $Λ_c^+$ as a benchmark, we develop pre-trained models for both event classification and momentum-direction regression. The classification model learns discriminative event representations for the dominant physics categories, rejecting 97.0% of background events at a signal efficiency of 90.0%. Across 12 benchmark $Λ_c^+$ decay channels, fine-tuning from the pre-trained model achieves performance comparable or better than training from scratch, with particularly clear improvements in low-statistics regimes. For the regression task, the pre-trained model improves the momentum-direction prediction across the same benchmark channels. Further improvement is obtained after fine-tuning in the representative semileptonic decay $Λ_c^+ \\to p K^- e^+ ν_e$. This strategy provides a scalable solution for a wide range of physics cases at BESIII and can be extended to other high energy experiments.",
+    "authors": [
+      "Huang, Kaixuan",
+      "Li, Yangu",
+      "Zhao, Junpeng",
+      "Li, Peilian",
+      "Li, Peirong",
+      "Lyu, Xiaorui",
+      "Song, Yunxuan",
+      "Sun, Shengsen",
+      "Zheng, Yangheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-08-03T10:15:28.291110Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3185218",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3185218",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://inspirehep.net/literature/3185218"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

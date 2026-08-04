@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.29683",
+    "arxiv_id": "2607.29683",
+    "arxiv_version": 1,
+    "inspire_id": "3185299",
+    "doi": null,
+    "title_en": "Emulating the nonlinear effects of modified gravity on the matter power spectrum for reconstruction",
+    "abstract_en": "Including nonlinear information from modified gravity (MG) brings more constraining power to the model-independent reconstruction of MG functions. However, the calculation of the nonlinear matter power spectrum with MGCAMB+ReACT is expensive in repeated likelihood evaluations, which limits the exploration of the high-dimensional parameter space. In this work, we construct a neural-network emulator for the nonlinear correction $R_{\\mathrm{MG}}(k,z)=P_{\\mathrm{MG}}^{\\mathrm{NL}}(k,z)/P_{\\mathrm{MG}}^{\\mathrm{L}}(k,z)$, which is trained with \\texttt{CosmoPower} on approximately $9\\times10^5$ samples and validated with representative spectra, an independent validation set, and MCMC tests with synthetic data. For $Λ$CDM and moderate MG nonlinear corrections, the emulated power spectra agree with the reference predictions to within $1.5\\%$ over the full scale range considered. For the extreme nonlinear case, the same accuracy is retained for $k<0.8\\,\\mathrm{Mpc}^{-1}$. Over the independent validation set, the mean residual is close to zero, with the $2σ$ scatter below $1\\%$ for $k<0.5\\,\\mathrm{Mpc}^{-1}$ and about $2\\%$ on smaller scales. The synthetic data MCMC analyses recover the input $Λ$CDM cosmology and the GR limits of the reconstructed MG functions within the posterior uncertainties, showing the accuracy and reliability of the emulator for Stage-IV-like surveys. We also demonstrate three applications: using $R_{\\mathrm{MG}}$ to distinguish models with nearly degenerate linear power spectra, using the emulator for theory predictions for current photometric-survey $3\\times2$pt likelihoods, and forecasting DESI+CSST constraints with principal component analysis.",
+    "authors": [
+      "Lanyang Yi",
+      "Kazuya Koyama",
+      "Qi Xiong",
+      "Gong-Bo Zhao"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-08-03T10:16:35.888972Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.29683v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.29683v1",
+    "inspire_url": "https://inspirehep.net/literature/3185299",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.29683",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.29683v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3185299",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://inspirehep.net/literature/3185299"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

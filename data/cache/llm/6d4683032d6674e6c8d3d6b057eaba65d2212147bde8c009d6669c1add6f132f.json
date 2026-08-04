@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 15,
+    "methodological_rigor": 18,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 66,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文提出了一种新的脉冲星计时噪声分析方法，与脉冲星计时阵列相关，方法新颖且具有实际应用价值。",
+  "title_zh": "PSRDISP：一种利用逐历元色散量对单脉冲星噪声分析中的色散过程进行建模的新方法",
+  "abstract_zh": "我们提出了PSRDISP，一种利用基于高斯过程的高精度逐历元色散量(DM)估计对脉冲星计时数据集中的确定性和随机色散过程进行建模的新方法。与传统的单脉冲星噪声分析方法（应用于脉冲的频率分辨到达时间(ToAs)）不同，该技术应用于从这些ToAs导出的逐历元DMs。它也可以应用于与宽带ToAs同时测量的宽带DMs。因此，该框架提供了一种范式无关的方法来表征单脉冲星色散过程。该方法有望在表征这些色散效应的同时，最大限度地减少无彩红噪声过程的影响。我们通过使用具有真实噪声注入的模拟窄带和宽带数据集来证实所讨论的技术。我们发现恢复结果与注入结果非常接近，并且与估计技术无关。我们的方法适用于能够获得精确逐历元DM估计的脉冲星计时实验，例如印度脉冲星计时阵列。该技术可以作为验证单脉冲星噪声分析的强大诊断工具，这对于精确脉冲星计时实验（如脉冲星计时阵列）至关重要。",
+  "keywords_en": [
+    "pulsar timing",
+    "dispersion measure",
+    "noise analysis",
+    "Gaussian process",
+    "pulsar timing array"
+  ],
+  "keywords_zh": [
+    "脉冲星计时",
+    "色散量",
+    "噪声分析",
+    "高斯过程",
+    "脉冲星计时阵列"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-04T00:58:37.921440Z"
+}

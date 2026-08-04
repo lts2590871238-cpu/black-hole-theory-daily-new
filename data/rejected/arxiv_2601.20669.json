@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.20669",
+    "arxiv_id": "2601.20669",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/lbb5-2kbt",
+    "title_en": "Replicating weak-lensing summary-statistic covariances with normalizing flows",
+    "abstract_en": "We explore the ability of normalizing flow (NF) generative models to reproduce weak-lensing summary statistics when trained on a set of cosmological simulations. Our analysis focuses on how accurately NF models recover the mean, standard deviation, and covariance of key statistics derived from convergence ($κ$) maps: The angular power spectrum $C_{\\ell}$, probability density function, and Minkowski functionals of weak lensing convergence $κ$-maps. We test two scenarios for training: (1) on the data vectors and (2) on the full $κ$-maps. In both cases, the NF models reproduce the mean and variance of the target statistics within percent-level accuracy. However, the accuracy of the off-diagonal elements of the covariance matrix is underestimated by up to $\\sim25\\%$. We study several mitigation strategies and find that data augmentation and training with noisy fields help improve covariance recovery to $\\mathcal{O}(5\\%)$ on power spectrum statistics. Our study demonstrates that while the means and variances of weak lensing statistics can be well modeled by NF, covariances can be significantly underestimated if mitigation strategies are not applied. We present this test as a rigorous diagnostic of generative-model fidelity.",
+    "authors": [
+      "Joaquin Armijo",
+      "Leander Thiele",
+      "Jia Liu"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-01-28T14:49:53Z",
+    "updated_at": "2026-07-31T13:32:44Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.20669v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.20669v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.20669",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2601.20669v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

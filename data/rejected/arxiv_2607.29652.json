@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.29652",
+    "arxiv_id": "2607.29652",
+    "arxiv_version": 1,
+    "inspire_id": "3185280",
+    "doi": null,
+    "title_en": "An optimal quadratic estimator for window-free cosmic shear power spectra",
+    "abstract_en": "The pseudo-$C_\\ell$ estimator recovers the true cosmic shear power spectrum by correcting for the survey window convolution while employing inverse-variance weighting based on intrinsic shape noise of source galaxies. However, this weighting scheme is optimal only on small angular scales where shape noise dominates. In this paper, we derive a quadratic estimator for the unwindowed cosmic shear power spectrum by maximizing the Gaussian likelihood of the pixelized galaxy-shape field using the full covariance matrix, which accounts for both sample variance and shape noise. By combining FFTs in the flat-sky approximation, the conjugate-gradient method, and Monte Carlo realizations of Gaussian ancillary fields, we substantially reduce the computational cost of estimating the Fisher matrix, a key ingredient of the estimator that requires repeated inverse-covariance matrix operations. Using Gaussian simulations of shape fields, we validate the method and demonstrate that it can recover the input $E$-mode power spectrum with statistically optimal precision across all angular scales. We then apply the method to shape fields generated from ray-tracing simulations for a $Λ$CDM cosmology and show that, compared with the pseudo-$C_\\ell$ method, it reduces the statistical uncertainties in the $E$-mode power spectrum by 5--15\\% at multipoles of $\\ell \\lesssim 500$. We further demonstrate that the method significantly suppresses $E$- to $B$-mode leakage across the full multipole range. Our estimator therefore provides a statistically optimal approach for measuring cosmic shear power spectra from wide-area galaxy survey data.",
+    "authors": [
+      "Taisei Terawaki",
+      "Masahiro Takada"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-08-03T10:16:42.091110Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2607.29652v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.29652v1",
+    "inspire_url": "https://inspirehep.net/literature/3185280",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.29652",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.29652v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3185280",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://inspirehep.net/literature/3185280"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

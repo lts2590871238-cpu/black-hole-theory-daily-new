@@ -4,18 +4,21 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.26051",
     "arxiv_id": "2607.26051",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3184091",
     "doi": null,
     "title_en": "QuickGWecc: Fast Bayesian pipeline for searching eccentric binaries in pulsar timing array data",
     "abstract_en": "Recent pulsar timing array (PTA) results have provided evidence for the presence of a nanohertz gravitational wave (GW) background, most likely originating from a population of supermassive black hole binaries (SMBHBs). The next major milestone is the detection of continuous GWs (CGWs) from an individual SMBHB and the identification of its electromagnetic counterpart. Typically, searches for CGWs in PTA data assume binaries in circular orbits. However, theoretical studies indicate that binaries emitting GWs in the PTA frequency band may retain significant eccentricity. In this paper, we present a fast and efficient Bayesian pipeline to search for CGWs from individual SMBHBs in relativistic eccentric orbits in PTA datasets. Our approach extends the QuickCW framework for circular binaries, in which model parameters are divided into projection and shape parameters. Computational efficiency is achieved by performing many updates of the projection parameters for a fixed set of shape parameters, an operation that is orders of magnitude faster than updating the shape parameters. We validate the pipeline through both detection and upper-limit analyses of simulated PTA datasets. This framework makes the search for eccentric SMBHBs computationally feasible, even in the next-generation PTA datasets with many more pulsars.",
     "authors": [
-      "Dey, Lankeswar",
-      "Bécsy, Bence",
-      "Susobhanan, Abhimanyu",
-      "Charisi, Maria"
+      "Lankeswar Dey",
+      "Bence Bécsy",
+      "Abhimanyu Susobhanan",
+      "Maria Charisi"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
     "submitted_at": "2026-07-28T00:00:00Z",
     "updated_at": "2026-07-30T03:44:16.714166Z",
     "document_types": [
@@ -25,15 +28,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2607.26051v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.26051v1",
     "inspire_url": "https://inspirehep.net/literature/3184091",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2607.26051",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.26051v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3184091",
-        "fetched_at": "2026-08-03T01:00:32.644743Z",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
         "url": "https://inspirehep.net/literature/3184091"
       }
     ],
@@ -61,42 +70,38 @@
     "schema_version": "1.0",
     "relevant": true,
     "primary_topic": "pta",
-    "secondary_topics": [
-      "general_relativity_foundations"
-    ],
+    "secondary_topics": [],
     "scores": {
-      "theory_depth": 15,
+      "theory_depth": 10,
       "methodological_rigor": 15,
-      "novelty": 12,
+      "novelty": 10,
       "clarity": 8,
-      "metadata_quality": 8,
+      "metadata_quality": 5,
       "community_signal": 0,
-      "other": 5
+      "other": 8
     },
-    "total_score": 63,
+    "total_score": 56,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文提出了一种用于在脉冲星计时阵列数据中搜索偏心超大质量黑洞双星连续引力波的快速贝叶斯流水线，具有实用价值和创新性，符合PTA领域的研究方向。",
-    "title_zh": "QuickGWecc：用于在脉冲星计时阵列数据中搜索偏心双星的快速贝叶斯流水线",
-    "abstract_zh": "最近的脉冲星计时阵列（PTA）结果为纳米赫兹引力波（GW）背景的存在提供了证据，该背景很可能起源于一群超大质量黑洞双星（SMBHBs）。下一个重要里程碑是探测来自单个SMBHB的连续引力波（CGWs）并识别其电磁对应体。通常，在PTA数据中搜索CGWs假设双星处于圆轨道。然而，理论研究表明，在PTA频带内发射引力波的双星可能保留显著的偏心率。在本文中，我们提出了一种快速高效的贝叶斯流水线，用于在PTA数据集中搜索处于相对论偏心轨道上的单个SMBHBs的连续引力波。我们的方法扩展了用于圆双星的QuickCW框架，其中模型参数被分为投影参数和形状参数。计算效率通过针对固定的一组形状参数执行多次投影参数更新来实现，该操作比更新形状参数快几个数量级。我们通过对模拟PTA数据集的探测和上限分析来验证该流水线。该框架使搜索偏心SMBHBs在计算上变得可行，即使在具有更多脉冲星的下一代PTA数据集中也是如此。",
+    "selection_reason_zh": "该论文提出了一个用于PTA数据中搜索偏心超大质量黑洞双星连续引力波的快速贝叶斯管道，扩展了现有方法，具有显著的方法学贡献和实用性。",
+    "title_zh": "QuickGWecc: 用于在脉冲星计时阵列数据中搜索偏心双星的快速贝叶斯管道",
+    "abstract_zh": "最近的脉冲星计时阵列（PTA）结果为纳赫兹引力波（GW）背景的存在提供了证据，该背景最有可能起源于一群超大质量黑洞双星（SMBHB）。下一个重要里程碑是检测来自单个SMBHB的连续引力波（CGW）并识别其电磁对应体。通常，PTA数据中对CGW的搜索假设双星处于圆轨道。然而，理论研究表明，在PTA频段发射引力波的双星可能保留显著的偏心率。在本文中，我们提出了一个快速高效的贝叶斯管道，用于在PTA数据集中搜索处于相对论偏心轨道的单个SMBHB的CGW。我们的方法扩展了用于圆双星的QuickCW框架，其中模型参数被分为投影参数和形状参数。计算效率是通过对一组固定的形状参数执行多次投影参数更新来实现的，这一操作比更新形状参数快数个数量级。我们通过对模拟PTA数据集的检测和上限分析验证了该管道。该框架使得搜索偏心SMBHB在计算上可行，即使在具有更多脉冲星的下一代PTA数据集中也是如此。",
     "keywords_en": [
       "pulsar timing array",
-      "gravitational waves",
       "eccentric binaries",
       "Bayesian pipeline",
-      "supermassive black hole binaries"
+      "continuous gravitational waves"
     ],
     "keywords_zh": [
       "脉冲星计时阵列",
-      "引力波",
       "偏心双星",
-      "贝叶斯流水线",
-      "超大质量黑洞双星"
+      "贝叶斯管道",
+      "连续引力波"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-03T01:04:06.018145Z"
+    "created_at": "2026-07-30T00:17:13.257494Z"
   },
-  "published_at": "2026-08-03T01:04:06.018529Z"
+  "published_at": "2026-08-04T00:59:01.058197Z"
 }

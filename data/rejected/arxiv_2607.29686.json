@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.29686",
+    "arxiv_id": "2607.29686",
+    "arxiv_version": null,
+    "inspire_id": "3185121",
+    "doi": null,
+    "title_en": "Online Shadow Tomography Matching the Classical Bounds",
+    "abstract_en": "In \\emph{Online Shadow Tomography}, we are given copies of an unknown $d$-dimensional quantum state $ρ$, an adversary (adaptively) proposes a sequence of bounded observables $A^{(1)},\\ldots,A^{(m)}$, and after each $A^{(t)}$ is given we must estimate $\\Tr(A^{(t)}ρ)$ to within $\\pm ε$. This is the direct quantum generalization of the classical problem of \\emph{Adaptive Data Analysis}. %The ``offline'' case, in which $A^{(1)}, \\ldots, A^{(m)}$ are given upfront, is also a well-studied problem. The main goal is to minimize the number of copies, $n$, required. Prior results for online Shadow Tomography were suboptimal in all three parameters $m, d, ε$, lagging behind the best known and classical rates~\\cite{bassily2021algorithmic}, for which there is some evidence of optimality. In this work, we finally close this gap, giving a pair of algorithms matching the classical rates. The bound on the left is the first to achieve $o(\\log^2 m)$-dependence together with $\\poly(\\log(d)/\\eps)$; moreover, it improves all three exponents even in the \\emph{Offline} Shadow Tomography setting. The bound on the right is known to be optimal among bounds independent of~$d$, and improves the best prior result by a $\\sqrt{m} \\log m$ factor. The key to our proof is a new framework for quantifying post-measurement damage, based on the quantum Efron--Stein decomposition.",
+    "authors": [
+      "Chen, Sitan",
+      "O'Donnell, Ryan",
+      "Pelecanos, Angelos",
+      "Wright, John"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-08-03T10:15:43.319036Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3185121",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3185121",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://inspirehep.net/literature/3185121"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

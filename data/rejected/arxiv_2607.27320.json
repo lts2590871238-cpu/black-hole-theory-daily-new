@@ -3,17 +3,21 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.27320",
     "arxiv_id": "2607.27320",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3184669",
     "doi": null,
     "title_en": "Emulating Cosmic Structure Formation with a Lagrangian Neural Cellular Automaton",
     "abstract_en": "Field-level inference of cosmological initial conditions from galaxy surveys requires a forward model that is simultaneously accurate in the non-linear regime, computationally efficient, and fully differentiable. Traditional N-body simulations are accurate but computationally prohibitive for iterative inference, while approximate solvers like Lagrangian Perturbation Theory (LPT) fail to capture the knotty halo-forming dynamics of the cosmic web at late times. We introduce the \\textit{Lagrangian Neural Cellular Automaton} (LNCA), a hybrid deep learning framework that can be applied to emulate structure formation as a local, iterative dynamical process on a comoving lattice. Unlike standard Eulerian Convolutional Neural Networks (CNNs) which map fixed density fields, the LNCA operates in the Lagrangian frame, advecting the computational graph itself to follow the flow of mass. By training the network to learn only the \\textit{residual} displacement corrections to the Zeldovich approximation, we achieve high-fidelity emulation of the non-linear physics while guaranteeing accuracy at large scales. We further constrain our model to produce complete trajectories, not just final states, by adopting an equivariant cellular automaton architecture, which recurrently iterates on its internal states to yield a dynamic history. The resulting model is strictly local, translationally and rotationally equivariant, and naturally supports continuous time integration, making it a reliable differentiable forward model for reconstructing the initial conditions of the universe from lightcone data. Our trained model supports percent-level precision in the power and cross spectra well into the non-linear regime ($k \\lesssim 0.5 \\, h \\text{Mpc}^{-1}$), while requiring $\\sim10^4$ times fewer learned parameters than comparable models which take the form of an interpretable internal dynamic rule set.",
     "authors": [
-      "Jacobus, Cooper",
-      "Tucci, Beatriz",
-      "Philcox, Oliver"
+      "Cooper Jacobus",
+      "Beatriz Tucci",
+      "Oliver Philcox"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "cs.LG"
+    ],
     "submitted_at": "2026-07-29T00:00:00Z",
     "updated_at": "2026-08-01T02:25:52.277350Z",
     "document_types": [
@@ -23,15 +27,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2607.27320v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.27320v1",
     "inspire_url": "https://inspirehep.net/literature/3184669",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2607.27320",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
+        "url": "https://arxiv.org/abs/2607.27320v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3184669",
-        "fetched_at": "2026-08-03T01:00:32.644743Z",
+        "fetched_at": "2026-08-04T00:57:40.351618Z",
         "url": "https://inspirehep.net/literature/3184669"
       }
     ],
