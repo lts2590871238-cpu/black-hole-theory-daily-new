@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.01111",
+    "arxiv_id": "2608.01111",
+    "arxiv_version": null,
+    "inspire_id": "3186827",
+    "doi": null,
+    "title_en": "Fault-tolerant quantum computing with a microwave Cat Bus",
+    "abstract_en": "The scalability of fault-tolerant neutral-atom quantum computers is constrained by the latency of shuttling with optical tweezers, imposing a stringent trade-off between qubit overhead and circuit depth in quantum algorithm compilation. Here we propose a hardware-efficient, shuttling-free architecture that achieves all-to-all connectivity. Remote Rydberg atoms are resonantly entangled through a microwave ``Cat Bus''---a cavity mode autonomously stabilized in a bosonic cat state. The Cat Bus natively supports the highly parallelized execution of one-to-many $\\mathrm{CZ}^n$ gates with exponentially suppressed crosstalk. We derive the resulting cat--atom error channel from the underlying interactions and physical constraints. For fault-tolerant operation, we develop a hardware-aware scheduling scheme that exploits the native cat--atom $\\mathrm{CZ}^{n}$ gate to construct a syndrome-extraction circuit with minimum depth. We benchmark the architecture using hypergraph-product (HGP) codes and estimate a 180-fold reduction in syndrome-extraction cycle time at $N=10^5$ data qubits compared with an atom-rearrangement-based architecture. Under matched two-qubit depolarizing noise, the corresponding error threshold increases from $0.55\\%$ to $0.72\\%$. Under the hardware-derived error model, we obtain a threshold of $0.80\\%$, corresponding to a threshold cooperativity of $C_{\\mathrm{th}}=7.8 \\times 10^4$, compatible with experimentally accessible parameters for Rydberg-coupled microwave-cavity systems. By avoiding atom transport, the Cat Bus provides a route towards high-speed, fault-tolerant neutral-atom quantum computation.",
+    "authors": [
+      "Chen, Yanyan",
+      "Yu, Xinyang",
+      "Min, Yueyang",
+      "Zhang, Zhihao",
+      "Cao, Shuaifan",
+      "Li, Xiaopeng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-02T00:00:00Z",
+    "updated_at": "2026-08-04T13:47:28.649672Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186827",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186827",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186827"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

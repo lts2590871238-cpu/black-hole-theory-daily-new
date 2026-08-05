@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.22137",
+    "arxiv_id": "2603.22137",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/hbjl-f5cw",
+    "title_en": "Tangent equations of motion for nonlinear response functions",
+    "abstract_en": "Nonlinear response functions, formulated as multipoint correlation functions or Volterra kernels, encode the dynamical and spectroscopic properties of physical systems and underpin a wide range of nonlinear transport and optical phenomena. However, their evaluation rapidly becomes prohibitive at high orders because of combinatorial (often factorial) scaling or severe numerical errors. Here, we establish a systematic and efficient framework to compute nonlinear response functions directly from real-time dynamics, without explicitly constructing multipoint correlators or relying on numerically unstable finite-difference methods for order-resolved extraction. Our approach is based on the Gateaux derivative with respect to the external field in function space, which yields a closed hierarchy of tangent equations of motion (TEOM). Propagating the TEOM alongside the original dynamics isolates each perturbative order with high accuracy, providing a term-by-term decomposition of physical contributions. The computational cost scales exponentially with response order in the fully general setting and reduces to polynomial complexity when all perturbation directions are identical; both regimes avoid the factorial scaling of explicit multipoint-correlator evaluations. We demonstrate the power of TEOM by computing frequency-resolved fifth-order response functions for a solid-state electron model and by obtaining nonlinear response functions up to the 49th order with controlled accuracy in a classical Duffing oscillator. We further show that our time-evolution formulation allows optical conductivities to be evaluated directly while remaining numerically stable even near zero frequency. TEOM can be incorporated seamlessly into existing real-time evolution methods, yielding a general framework for computing nonlinear response functions in quantum and classical dynamical systems.",
+    "authors": [
+      "Atsushi Ono"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.stat-mech",
+      "physics.comp-ph",
+      "physics.optics",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-03-23T16:00:00Z",
+    "updated_at": "2026-08-03T15:00:00Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. Research 8, 033131 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.22137v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.22137v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.22137",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://arxiv.org/abs/2603.22137v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

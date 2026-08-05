@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.19882",
+    "arxiv_id": "2603.19882",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Quasar photometric redshifts beyond the spectroscopic coverage: Uncertainty models and redshift distributions in the Kilo-Degree Survey DR5",
+    "abstract_en": "Photometric redshifts (photo-$z$) and their distributions underpin cosmology with photometric quasars, tracers in angular clustering and cross-correlations. Progress requires trustworthy uncertainties, especially beyond the spectroscopic training set. We compare how machine-learning frameworks estimate quasar photo-$z$ uncertainties and reconstruct the redshift distribution $n(z)$ under controlled data-quality shifts. Using Kilo-Degree Survey DR5 photometry and DESI DR1 spectroscopic quasars, we train artificial neural networks (ANNs), Mixture Density Networks (MDNs) and Bayesian Neural Networks (BNNs) with Gaussian-mixture outputs, plus a self-organizing map (SOM) as a direct $n(z)$ estimator. We evaluate them on four subsets, with and without magnitude extrapolation and missing bands, through the negative log-likelihood, probability integral transform, point-estimate accuracy and the bias of binned $n(z)$ moments; degeneracies are sought by clustering the predicted PDFs. At least two mixture components are essential: a single Gaussian is miscalibrated and produces more catastrophic outliers than the ANN. No model performs best everywhere. On well-covered data the five-component MDN, three-component BNN and SOM reconstruct $n(z)$ almost perfectly; under faint extrapolation the BNN gives the best likelihoods, while in the hardest faint-plus-missing regime the single Gaussian becomes the best-calibrated. For point estimates and tomographic binning, uncertainty models outperform the ANN, while the SOM fails out-of-distribution. PDF clustering exposes distinct colour-redshift degeneracies likely to grow for fainter samples. The best model is thus regime- and application-dependent: multi-component MDNs or BNNs are needed for clean binning and are the only intrinsically calibrated choice on a well-covered golden sample, a first step towards a full comparison of quasar photo-$z$ pipelines.",
+    "authors": [
+      "Kacper Drabicki",
+      "Szymon J. Nakoneczny",
+      "Maciej Bilicki"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-03-20T11:48:05Z",
+    "updated_at": "2026-08-03T16:05:48Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.19882v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.19882v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.19882",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://arxiv.org/abs/2603.19882v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

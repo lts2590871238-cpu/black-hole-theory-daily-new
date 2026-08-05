@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2407.20432",
+    "arxiv_id": "2407.20432",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Neural Surrogate HMC: On Using Neural Likelihoods for Hamiltonian Monte Carlo in Simulation-Based Inference",
+    "abstract_en": "Bayesian inference methods such as Markov Chain Monte Carlo (MCMC) typically require repeated computations of the likelihood function, but in some scenarios this is infeasible and alternative methods are needed. Simulation-based inference (SBI) methods address this problem by using machine learning to amortize computations. In this work, we highlight a particular synergy between the SBI method of neural likelihood estimation and the classic MCMC method of Hamiltonian Monte Carlo. We show that approximating the likelihood function with a neural network model can provide three distinct advantages: (1) amortizing the computations for MCMC; (2) providing gradients for Hamiltonian Monte Carlo, and (3) smoothing over noisy simulations resulting from numerical instabilities. We provide practical guidelines for defining a prior, sampling a training set, and evaluating convergence. The method is demonstrated in an application modeling the heliospheric transport of galactic cosmic rays, where it enables efficient inference of latent parameters in the Parker equation.",
+    "authors": [
+      "Linnea M Wolniewicz",
+      "Peter Sadowski",
+      "Claudio Corti"
+    ],
+    "categories": [
+      "cs.LG",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2024-07-29T21:54:57Z",
+    "updated_at": "2026-08-03T01:04:04Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2407.20432v3",
+    "pdf_url": "https://arxiv.org/pdf/2407.20432v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2407.20432",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://arxiv.org/abs/2407.20432v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

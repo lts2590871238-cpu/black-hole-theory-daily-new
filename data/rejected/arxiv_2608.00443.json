@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.00443",
+    "arxiv_id": "2608.00443",
+    "arxiv_version": null,
+    "inspire_id": "3186580",
+    "doi": null,
+    "title_en": "Trading Imaginary Time for Randomness in Ground State Preparation",
+    "abstract_en": "Imaginary-time evolution (ITE) is a foundational method for ground state preparation on quantum computers. However, because ITE is non-unitary, existing implementations incur a sample complexity and/or classical cost that scales exponentially with the target imaginary time $β$. Moreover, the state itself converges slower than the energy, making accurate estimation of arbitrary ground state observables even more expensive. In this work, we improve upon standard ITE by introducing twirled imaginary-time evolution (TITE), which pairs ITE with real-time evolution applied for a random duration drawn from a carefully designed distribution. We prove that this randomization quadratically suppresses the trace distance to the ground state, and thus also the error of arbitrary observables, which allows roughly half of the imaginary time to be replaced with real-time evolution ($β\\mapsto β/2$) while maintaining the same level of accuracy. Because real-time evolution is unitary and does not incur an overhead in sample complexity or classical computation, this affords a quadratic reduction in the cost of any black-box ITE implementation, including Trotterization and quantum imaginary-time evolution. We demonstrate the efficiency of our algorithm in noisy circuit-level simulations of a non-integrable Ising chain, showing substantial improvements over standard ITE.",
+    "authors": [
+      "Arulandu, Alvan",
+      "Martyn, John M.",
+      "Chuang, Isaac L."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-01T00:00:00Z",
+    "updated_at": "2026-08-04T10:35:00.563162Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186580",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186580",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186580"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

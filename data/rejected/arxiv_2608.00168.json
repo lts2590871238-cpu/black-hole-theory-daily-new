@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.00168",
+    "arxiv_id": "2608.00168",
+    "arxiv_version": null,
+    "inspire_id": "3186972",
+    "doi": null,
+    "title_en": "Lossless Compression Performance for PETRA III Datasets",
+    "abstract_en": "Large-scale research facilities increasingly face the challenge of managing rapidly growing data volumes while maintaining sustainable archival infrastructures. We present the first comprehensive study of data heterogeneity and lossless general-purpose compression performance for representative datasets from the PETRA III synchrotron radiation source. Our corpus comprises more than 212 TiB of raw and processed data from ten experiments spanning multiple beamlines, detector systems, and scientific workflows. We observe substantial heterogeneity both between and within experiments, resulting in compression ratios that vary by more than two orders of magnitude across datasets. Evaluating nine widely used lossless compression tools, we find that Zstandard and LZ4 consistently occupy the high-throughput region of the Pareto front, whereas ZPAQ achieves the highest compression ratios. Furthermore, heterogeneous compression strategies that adapt compressor choice to the underlying file category outperform uniform compression policies. Extrapolating from the benchmarked datasets to the full PETRA III non-tape storage system, we estimate achievable compression ratios ranging from approximately 1.6 at $\\sim$900 MiB/s throughput to 2.1 at $\\sim$2 MiB/s. These results provide a quantitative basis for future archival and storage decisions at PETRA III, its future successor, PETRA IV, and other large-scale scientific facilities.",
+    "authors": [
+      "Buschmann, Malte",
+      "Schumann, Yannis",
+      "Voss, Christian",
+      "Mkrtchyan, Tigran",
+      "Neumann, Philipp"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-08-04T13:50:04.821161Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186972",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186972",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186972"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

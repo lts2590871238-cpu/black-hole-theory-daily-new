@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.01003",
+    "arxiv_id": "2608.01003",
+    "arxiv_version": null,
+    "inspire_id": "3186426",
+    "doi": null,
+    "title_en": "An Integral-Based Framework for Preconditioning $f(A)b$",
+    "abstract_en": "The computation of the action of a matrix function on a vector, $f(A)b$, is a major computational bottleneck for large, sparse matrices, particularly when unfavorable spectral distributions cause standard Krylov subspace methods to stagnate. In this work, we propose a unified framework for preconditioning $f(A)b$ based on the Cauchy integral representation of the matrix function. By exploiting shift-invariance properties, we decouple the preconditioner evaluation from the Krylov subspace generation. We develop this framework in two distinct directions. First, for rational shift-and-invert preconditioning, we resolve a fundamental trade-off between optimal spectral compression and finite-precision instability. We achieve this by formulating a closed-form extraction stabilized via Double Modified Gram-Schmidt reorthogonalization, which eliminates the formation of spurious phantom poles. Second, we present a matrix-free polynomial approach. To ensure numerical stability, we isolate the continuous numerical quadrature step using a Schur decomposition of the projected Hessenberg matrix. To further stabilize the integration near contour singularities and accelerate overall convergence, we incorporate an exact LR-deflation scheme targeting the critical low modes of the preconditioned operator. We analyze the asymptotic stability and proximity to singularity of these methods, and present numerical experiments demonstrating their efficiency on the 2D Laplacian with $f=\\textrm{exp}$, and a highly ill-conditioned Wilson-Dirac operator from lattice quantum chromodynamics with $f=\\textrm{sign}$, although the framework can be in principle used with any $f$ and it is particularly beneficial when applying $f(A)b_{i}$ with many different vectors $b_{i}$.",
+    "authors": [
+      "Ramirez-Hidalgo, Gustavo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-02T00:00:00Z",
+    "updated_at": "2026-08-04T10:35:03.279098Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186426",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186426",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186426"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

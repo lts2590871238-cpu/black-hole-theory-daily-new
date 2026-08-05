@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.01467",
+    "arxiv_id": "2608.01467",
+    "arxiv_version": null,
+    "inspire_id": "3186678",
+    "doi": null,
+    "title_en": "Fewer Histories, Faster Paths: Distributed Quantum Circuit Feynman Simulation via History Reduction, Checkpointing, and Pruning",
+    "abstract_en": "We present a distributed method for exact sparse-output quantum circuit simulation based on the pure Feynman sum-over-histories formulation. The method computes selected computational-basis amplitudes exactly and addresses the exponential growth of the path sum through a reduced history formulation based on internal-wire assignments, determinism propagation, artificial sources, pruning, and checkpointed reuse. Boundary constraints are propagated through deterministic and wire-preserving gates, and explicit branching variables are introduced only where residual ambiguity remains. Shared work across related histories is captured via an autotuned checkpointed partition. The parallel execution model combines decomposition over requested outputs with concurrent history evaluation, while a dynamic server-worker architecture mitigates load imbalance from irregular branching and pruning. Across the circuit families studied, the method adapts to different structural regimes of the reduced history space: zero artificial sources for QFT under backward analysis, substantial speedups from checkpointing and autotuning for amplitude amplification, and a runtime-fidelity tradeoff from threshold pruning for QAOA. On quantum walk circuits, it reconstructs exact selected-output distributions up to 100 qubits and achieves 85% parallel efficiency on 8,192 CPU cores of a supercomputer.",
+    "authors": [
+      "Larssen, Frej",
+      "Pennati, Luca",
+      "Åsgrim, Erik M.",
+      "Peng, Ivy",
+      "Markidis, Stefano"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-02T00:00:00Z",
+    "updated_at": "2026-08-04T10:39:20.055977Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186678",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186678",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186678"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

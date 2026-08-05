@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.01434",
+    "arxiv_id": "2608.01434",
+    "arxiv_version": null,
+    "inspire_id": "3186680",
+    "doi": null,
+    "title_en": "Statistical Mechanics of Learning on Product Wasserstein Manifolds",
+    "abstract_en": "Normally the statistical mechanics of learning treats constraints on weight distributions as restrictions that shrink the space of possible solutions. Therefore, it reduces model capacity. In this paper we would like to take a contrary approach, which, however, is based on the earlier work on distribution-constrained perceptrons. Rather than treating a prescribed weight distribution as a mere restriction, we propose that it defines the intrinsic geometry upon which learning naturally unfolds. We formulate both deep neural networks and variational quantum circuits as gradient flows on a product of Wasserstein manifolds -- one classical Wasserstein space for each layer and one quantum Wasserstein space for the circuit parameters. Within this geometry, the capacity reduction, which was previously associated with distributional constraints, appears as the metric structure of the constraint manifold itself. We develop a hierarchical mean-field description for deep networks, extend the framework to the quantum setting using the quantum Wasserstein distance of order 1, and introduce two such practical algorithms, Hierarchical DisCo-SGD and Quantum DisCo, that follow approximate geodesics on the manifold of the product itself. Experiments on teacher-student problems, standard image classification tasks, and small variational quantum classifiers show that respecting these distributional geometries improves generalization, stabilizes training, and reduces the severity of barren plateaus compared with unconstrained and purely norm-based baselines. This approach firstly reframes structural constraints as geometric priors and suggests a route for incorporating biological, spectral, or hardware-derived distributional information into both learning systems, viz., classical and quantum learning.",
+    "authors": [
+      "Reddy, Srinivasa Rao P. Vangmayi P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-02T00:00:00Z",
+    "updated_at": "2026-08-04T10:39:42.689046Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186680",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186680",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186680"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

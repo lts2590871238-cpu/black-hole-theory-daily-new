@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.01841",
+    "arxiv_id": "2608.01841",
+    "arxiv_version": null,
+    "inspire_id": "3186681",
+    "doi": null,
+    "title_en": "Approximating the Trace Distance Between Product Quantum States",
+    "abstract_en": "We study the trace distance \n\\[D_{\\mathrm{tr}}(ρ,σ) =\\frac12\\|ρ-σ\\|_1, ρ=\\bigotimes_{i=1}^nρ_i,\\quad σ=\\bigotimes_{i=1}^nσ_i, \\]\n when the two exponentially large states are specified by their local factors. We give a deterministic approximation within a universal constant factor for rational product inputs. Its running time is polynomial in the number of factors, the local dimension, and the input bit length. In the opposite direction, exact computation is $\\#\\mathsf P$-hard even for diagonal qubit states, by the corresponding hardness of total variation distance between product distributions. The proof uses local Uhlmann-optimal purifications to reduce the problem to estimating the product-fidelity defect and the trace norm of a structured first-order operator. Although this operator acts on an exponentially large space, we approximate its trace norm by a local convex surrogate that admits a polynomial-size classical conic formulation. A square-function estimate shows that the surrogate upper-bounds this trace norm. Conversely, duality and local dephasing reduce the reverse comparison to a head--tail inequality for independent centered random variables, showing that the surrogate is at most a dimension-free constant times the same norm.",
+    "authors": [
+      "He, Kun",
+      "Myrisiotis, Dimitrios",
+      "Nie, Junhong",
+      "Wan, Zongqi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-04T10:39:39.374019Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3186681",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3186681",
+        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "url": "https://inspirehep.net/literature/3186681"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
