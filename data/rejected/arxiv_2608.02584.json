@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2608.02584",
     "arxiv_id": "2608.02584",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3187149",
     "doi": null,
     "title_en": "Generation of Correlated Time Series for X-ray Astronomy Applications",
     "abstract_en": "Cross-spectral methods have become essential for studying accretion physics in X-ray binaries and active galactic nuclei, where coherence and phase lag measurements constrain physical models and reveal variability components invisible in power spectra alone. Recent multi-Lorentzian fitting techniques have uncovered new quasi-periodic features through joint analysis of power spectra and cross-spectra, but testing these methods requires synthetic data with realistic statistical properties. We present an algorithm for generating pairs of time series with arbitrary power spectra, coherence functions, and phase lag profiles. The method extends existing methods by decomposing the dependent time series into coherent and incoherent components, where the coherent part is constructed through a complex transfer function applied to a reference series. We derive the transfer function and normalization required to preserve target spectral shapes while achieving specified cross-spectral properties. We obtain approximate analytic expressions for the variance of coherence and phase lag estimators and construct the approximate covariance matrix relating these quantities to the underlying power and cross-spectra. When fitting models jointly to power and cross-spectra, these correlations must be incorporated into the likelihood. We apply the method to a two-Lorentzian model with component-specific phase lags and demonstrate close agreement between input models and generated power spectra, coherence function, and phase lag profile across four decades in frequency.",
@@ -17,23 +17,31 @@
       "astro-ph.HE",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-08-03T17:54:38Z",
-    "updated_at": "2026-08-03T17:54:38Z",
-    "document_types": [],
+    "submitted_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-05T11:11:50.325146Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2608.02584v1",
     "pdf_url": "https://arxiv.org/pdf/2608.02584v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187149",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.02584",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
         "url": "https://arxiv.org/abs/2608.02584v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3187149",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187149"
       }
     ],
     "is_demo": false

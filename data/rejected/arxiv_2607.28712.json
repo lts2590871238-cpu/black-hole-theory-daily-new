@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.28712",
     "arxiv_id": "2607.28712",
     "arxiv_version": 1,
-    "inspire_id": "3185151",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Single Frequency CMB Foreground Removal with Inter-scale Machine Learning",
     "abstract_en": "Accurate measurements of Cosmic Microwave Background (CMB) B-mode polarization, a key probe of inflationary physics, are hindered by complex Galactic dust foregrounds. Traditional foreground removal with Internal Linear Combination (ILC) fully preserves the primordial signal but requires multi-frequency data and is limited to two-point statistics. We present a novel way to estimate and remove foregrounds at single frequency using signal-preserving machine learning that leverages inter-scale correlations. Using the DustFilaments simulations, we train CNNs to reconstruct large-scale foregrounds ($\\ell < 200$) from small-scales ($\\ell > 200$). We quantify the effectiveness of foreground removal with the residual foreground power, $f_{\\rm{resid}}$, which gives the fraction of foreground power remaining after removal. Predictions using only small-scale $B$-modes achieve $f_{\\rm{resid}}\\simeq 0.704$, while adding temperature and $E$-modes decreases it to $f_{\\rm{resid}} \\simeq 0.376$. These results are still higher than the spatial ILC, which leverages multi-frequency data at Simons-Observatory-like frequencies. However, a hybrid network that uses both multi-frequency and inter-scale correlations attains $f_{\\rm{resid}}=4.71\\times10^{-4}$ when using $B$-mode inputs alone, and $3.62\\times10^{-4}$ when using temperature and $E/B$-mode inputs. This network achieves a residual power of $\\sim 7\\times$ lower than ILC, while inheriting ILC's signal-preserving property. This is $\\sim 2$--$3\\times$ lower than a network that only uses multi-frequency inputs, demonstrating that correlations across scale are not redundant with correlations across frequency and that our techniques are complementary to multi-frequency foreground removal. However, this is achieved only for DustFilments and network generalization across simulations remains a key challenge for robust ML-based foreground removal. (abridged)",
@@ -18,31 +18,23 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-07-30T00:00:00Z",
-    "updated_at": "2026-08-04T11:24:29.611144Z",
-    "document_types": [
-      "conference paper"
-    ],
+    "submitted_at": "2026-07-30T17:59:02Z",
+    "updated_at": "2026-07-30T17:59:02Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.28712v1",
     "pdf_url": "https://arxiv.org/pdf/2607.28712v1",
-    "inspire_url": "https://inspirehep.net/literature/3185151",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.28712",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
         "url": "https://arxiv.org/abs/2607.28712v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3185151",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://inspirehep.net/literature/3185151"
       }
     ],
     "is_demo": false

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.03824",
+    "arxiv_id": "2608.03824",
+    "arxiv_version": null,
+    "inspire_id": "3187321",
+    "doi": null,
+    "title_en": "Impossibility of Perfectly Complete Many-Round Key Agreement in the QROM",
+    "abstract_en": "This paper proves that it is impossible to construct perfectly complete quantum key agreement protocols (QKA) from quantumly secure one-way functions (OWFs) in a black-box manner. Specifically, consider any protocol in which Alice and Bob exchange only classical messages, make at most $q_{\\mathsf{A}}$ and $q_{\\mathsf{B}}$ quantum queries, respectively, to a Boolean-valued random oracle, and agree on a shared key with certainty. This paper shows that there exists an eavesdropper, given the classical messages, that can recover the shared key with certainty using $O((q_{\\mathsf{A}}+q_{\\mathsf{B}})^5)$ classical oracle queries. The bound is independent of the number of rounds, transcript length, key length, and oracle-domain size. Previous results only applies to two-round key agreement (Li et al. CRYPTO 26) or relies on unproven conjectures (Austrin et al. CRYPTO 22). GPT-5.6 Sol Ultra found this proof in a one-shot conversation and drafted a preliminary version of this paper. The authors are fully responsible for the correctness, writing and discussions of this paper.",
+    "authors": [
+      "Li, Longcheng",
+      "Li, Qian",
+      "Li, Xingjian",
+      "Liu, Qipeng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-05T10:49:11.051840Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187321",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187321",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187321"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

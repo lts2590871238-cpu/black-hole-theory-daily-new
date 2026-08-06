@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.03515",
+    "arxiv_id": "2608.03515",
+    "arxiv_version": null,
+    "inspire_id": "3187288",
+    "doi": null,
+    "title_en": "A first look at Structured-Multiscale Algebraic Multigrid for Lattice Field Theory",
+    "abstract_en": "State-of-the-art solvers for the Dirac equation in Lattice QCD are based on adaptive multigrid methods. These require fine-tuning of many algorithmic parameters to achieve optimal performance. We apply a new multigrid approach to Lattice Field Theory adapted from oil-reservoir simulations: Structured-Multiscale Algebraic Multigrid (SM-AMG). This method builds compact aggregates with overlapping borders to coarsen the grid and yields accurate interpolation. A key advantage is that aggregate size is the primary tunable parameter. For our results, we used SM-AMG in an algebraic approach, called Aggregative-Multiscale AMG (AM-AMG). We benchmark the efficiency of AM-AMG against that of DD$α$AMG, a successful adaptive multigrid solver which alleviates critical slowing down. The two solvers are compared within the framework of the two-flavor Schwinger model using the Wilson discretization. On fine lattices, the operation count of both methods is similar near the critical point and for large volumes, reflecting a comparable computational cost. However, the number of fine-grid iterations is larger for AM-AMG. On coarse lattices, AM-AMG encounters difficulties to remove the low modes close to the critical mass.",
+    "authors": [
+      "Schauerte, Pauline",
+      "Castellanos, Jaime Fabian Nieto",
+      "Krechel, Arnold",
+      "Schweitzer, Marc Alexander",
+      "Krieg, Stefan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-05T08:34:31.168099Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187288",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187288",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187288"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

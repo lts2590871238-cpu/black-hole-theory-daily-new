@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.28349",
     "arxiv_id": "2607.28349",
     "arxiv_version": 1,
-    "inspire_id": "3184898",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Multi-branch classification of diffuse cluster radio emission",
     "abstract_en": "Context. Galaxy clusters sometimes host synchrotron radiation on scales of ~100 kpc to ~1 Mpc, with surface brightness only a few times the image noise. This diffuse cluster radio emission is a sensitive probe of magnetic fields and intracluster medium dynamics, but disentangling the underlying physical processes requires statistically large samples spanning a wide range of cluster masses, dynamical states, and redshifts, together with sufficient sensitivity to low-surface-brightness emission. Aims. We explore two techniques for improving detection of diffuse emission in galaxy cluster images, relative to a baseline classifier: the scattering transform (ST) and squeeze-excitation (SE) attention. Methods. We integrate an ST encoder into a dual-branch classifier (DualSSN) and a scattering network (ScatterNet). We incorporate SE attention into the DualSSN and dual-branch convolutional neural network (DualCSN). These classifiers are then benchmarked against a simple CNN, across ten image preprocessing configurations and three cropping strategies. Performance is evaluated on small labelled datasets from the second data release of the LOFAR two-metre sky survey overlapping with the second Planck catalogue of Sunyaev-Zel'dovich sources (LoTSS-DR2/PSZ2). Results. Alongside the multi-branch approach with SE and ST, cropping the image to a fixed number of telescope beams and uv- tapering (smoothing to a coarser angular resolution) improve classification performance, while stacking multiple preprocessed ver- sions of an image does not. Conclusions. Scattering-transform-based multi-branch architectures with beam-normalised cropping are a promising direction for diffuse emission classification in the SKA era.",
@@ -15,31 +15,23 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-07-30T00:00:00Z",
-    "updated_at": "2026-08-01T02:53:34.457590Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-30T15:20:39Z",
+    "updated_at": "2026-07-30T15:20:39Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.28349v1",
     "pdf_url": "https://arxiv.org/pdf/2607.28349v1",
-    "inspire_url": "https://inspirehep.net/literature/3184898",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.28349",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
         "url": "https://arxiv.org/abs/2607.28349v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3184898",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://inspirehep.net/literature/3184898"
       }
     ],
     "is_demo": false

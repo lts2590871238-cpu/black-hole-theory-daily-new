@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.03907",
+    "arxiv_id": "2608.03907",
+    "arxiv_version": null,
+    "inspire_id": "3187390",
+    "doi": null,
+    "title_en": "A variational hybrid continuous-variable discrete-variable quantum algorithm for adiabatic nuclear dynamics",
+    "abstract_en": "Gaussian wavepacket (GWP) methods are prevalent means of solving the nuclear time-dependent Schrodinger equation (TDSE) on classical computers. They consist of representing the nuclear wave function as a superposition of Gaussians. Here, we present a variational hybrid continuous-variable discrete-variable (CV-DV) algorithm for simulating adiabatic nuclear dynamics on qubit-oscillator quantum hardware. It encodes a superposition of frozen Gaussians (FGs) onto the qubit-oscillator register and evolves it according to the time-dependent variational principle (VP). We test two variants of the approach, one that evolves a single FG and another that evolves a superposition of FGs, on a set of prototypical 1D harmonic and anharmonic systems. We simulate the photoexcited state dynamics of SO2 using the single FG variant of the algorithm and compute its autocorrelation function on physical quantum hardware. For harmonic and Morse potentials, the variant evolving the superposition of FGs converges to the numerically exact solution as the number of Gaussians increases. In the case of the double-well potential, the algorithm simulates wavepacket bifurcation and recurrence correctly, and the ensuing irregular dynamics moderately well. Overall, this work establishes a pathway for simulating molecular dynamics on noisy intermediate-scale quantum devices.",
+    "authors": [
+      "Gherib, Rami",
+      "Radgohar, Roya",
+      "Pusenkova, Anastasiia",
+      "Jenab, Seyyed Mehdi Hosseini",
+      "Turcotte, Sara",
+      "Lachance-Quirion, Dany",
+      "Frattini, Nicholas E.",
+      "Genin, Scott N."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-05T11:20:44.389646Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187390",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187390",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187390"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

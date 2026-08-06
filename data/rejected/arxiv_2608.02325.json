@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.02325",
+    "arxiv_id": "2608.02325",
+    "arxiv_version": null,
+    "inspire_id": "3187132",
+    "doi": null,
+    "title_en": "Learnable yet not simulable: a quantum resource theory of learning models",
+    "abstract_en": "Quantum resource theory has sharpened our understanding of the intrinsic complexity of quantum systems, particularly their classical simulability. However, it remains unclear which quantum resource governs the classical learnability of quantum circuits, especially beyond the regime of efficient classical simulation. Here we close this knowledge gap by studying the expectation-value functions of families of tunable quantum circuits, with many applications in digital quantum simulation, quantum metrology, and quantum-system characterization. Specifically, we introduce a new resource measure, the dynamical stabilizer entropy (\\DSE), which quantifies how broadly an expectation-value function is distributed across its frequency modes. By relating \\DSE to operator stabilizer entropy, we establish a computational phase diagram that compares classical simulators with quantum-data-assisted classical surrogates. We first determine the \\DSE-dependent learnability boundary of this diagram by deriving bounds on the sample complexity and runtime of classical surrogates, and by developing a \\DSE-guided surrogate. We then complete the diagram by proving, under standard complexity-theoretic assumptions, the existence of circuit families that can be efficiently learned by this surrogate but cannot be efficiently emulated from their circuit descriptions alone. Numerical experiments on random and structured circuits with up to 80 qubits support the predicted \\DSE-dependent computational landscape. These results establish a quantitative resource-theoretic framework for delineating the boundary between classical simulation and learning, motivate resource measures linking quantum resources to learnability, and guide the design of learning-based algorithms for scalable quantum systems beyond the reach of direct classical simulation.",
+    "authors": [
+      "Wang, Xinbiao",
+      "Du, Yuxuan",
+      "Tao, Dacheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-05T10:49:06.530556Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187132",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187132",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187132"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

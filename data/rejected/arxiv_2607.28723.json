@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.28723",
     "arxiv_id": "2607.28723",
     "arxiv_version": 1,
-    "inspire_id": "3185134",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Deep Learning-Based Classification and Analysis of Pulsar Candidates in Fermi-LAT Unassociated Sources",
     "abstract_en": "The Large Area Telescope (LAT) has revolutionized our understanding of the high-energy sky, yet approximately one-third of the sources in the Fourth Fermi-LAT Source Catalog (4FGL) remain unassociated. Conventional machine learning, such as Decision Trees, often treat spectral features as independent tabular entries, neglecting the sequential topological information inherent in the Spectral Energy Distribution (SED). We aim to classify unassociated Fermi-LAT sources by exploiting the intrinsic shape of their spectra and variability features, avoiding the use of galactic coordinates as training features. Our primary objective is to generate a high-confidence list of PSRs candidates, further distinguishing between Young Pulsars (YPs) and Millisecond Pulsars (MSPs). We developed a hierarchical deep learning framework based on a 1D Convolutional Neural Network (1D-CNN), named TabularResCNN. This architecture treats the spectral data from the 4FGL catalog, allowing the model spectral shape. The classification is performed in two stages: first discriminating between AGNs and PSRs, and subsequently categorizing PSRs into YPs and MSPs. We implemented a cost-sensitive learning strategy to handle class imbalance and utilized Grad-CAM techniques to ensure the physical interpretability of the model's decisions. Applying this framework to 2563 unassociated sources, we identified 1136 AGNs and 202 high-confidence PSR candidates (166 YPs, 36 MSPs), increasing the pulsar population by more than 60%. They exhibit strong astrophysical consistency: YPs are confined to the Galactic plane, MSPs show a broader vertical distribution, and AGNs are isotropic. Furthermore, we identified 5 out of 5 PSRs recently confirmed by FAST. The proposed 1D-CNN framework isolates PSRs candidates based on intrinsic spectral and temporal properties, minimizing spatial bias.",
@@ -17,31 +17,23 @@
     "categories": [
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-07-30T00:00:00Z",
-    "updated_at": "2026-08-04T11:21:06.044712Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-30T18:00:01Z",
+    "updated_at": "2026-07-30T18:00:01Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.28723v1",
     "pdf_url": "https://arxiv.org/pdf/2607.28723v1",
-    "inspire_url": "https://inspirehep.net/literature/3185134",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.28723",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
         "url": "https://arxiv.org/abs/2607.28723v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3185134",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://inspirehep.net/literature/3185134"
       }
     ],
     "is_demo": false

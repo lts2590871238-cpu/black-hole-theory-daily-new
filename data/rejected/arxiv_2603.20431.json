@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.20431",
+    "arxiv_id": "2603.20431",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/mmyl-wdgq",
+    "title_en": "Accurate and efficient simulation-based inference for massive black-hole binaries with LISA",
+    "abstract_en": "We develop an accurate simulation-based inference framework for high-mass ($\\gtrsim\\!10^7 \\rm{M_\\odot}$) black-hole binaries observable by LISA. The method is implemented within the DINGO gravitational-wave parameter-estimation code, extending its application from ground-based detectors to the LISA band. We train a normalizing-flow model using aligned-spin higher-mode waveform models and a low-frequency approximation of the detector response at fixed reference time. After sampling, we importance-sample to the true posterior based on the underlying likelihood and prior. We validate performance on simulated signals spanning the signal-to-noise regimes relevant for LISA observations and benchmark our new DINGO implementation against standard methods. We report robust agreement in the inferred posterior distributions up to signal-to-noise ratios of $\\sim\\!500$. At higher signal-to-noise ratios of $\\sim\\!1000$, we observe a reduction in sampling efficiency, while still yielding unbiased and tightly localized posteriors that can be used as a starting point for follow-up with traditional methods. The trained flow can generate 20 thousand posterior samples in less than a minute, establishing DINGO as a promising neural inference framework for rapid full-parameter estimation of massive black-hole binaries in the LISA band. The proposed approach allows for straightforward generalizations, including a time-dependent detector response, non-stationary noise artifacts such as gaps and glitches, and low-latency parameter estimations.",
+    "authors": [
+      "Alice Spadaro",
+      "Jonathan Gair",
+      "Davide Gerosa",
+      "Stephen R. Green",
+      "Riccardo Buscicchio",
+      "Nihar Gupte",
+      "Rodrigo Tenorio",
+      "Samuel Clyne",
+      "Michael Pürrer",
+      "Natalia Korsakova"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-03-20T19:00:00Z",
+    "updated_at": "2026-08-03T20:48:38Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 114, 023038 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.20431v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.20431v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.20431",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://arxiv.org/abs/2603.20431v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

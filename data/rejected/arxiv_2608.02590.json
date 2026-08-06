@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.02590",
+    "arxiv_id": "2608.02590",
+    "arxiv_version": null,
+    "inspire_id": "3187073",
+    "doi": null,
+    "title_en": "Optimal Quantum de Finetti Theorems via Argmax Rounding",
+    "abstract_en": "We prove optimal finite quantum de Finetti upper bounds. Given a bosonic state $ρ_N\\in D(\\mathrm{Sym}^N(\\mathbb C^d))$, there is a probability measure $ν$ on the unit sphere such that \n\\[ \\left\\| ρ_N^{(2)}-\\int |u\\rangle\\langle u|^{\\otimes 2}\\,dν(u) \\right\\|_1 \\le \\frac{\\sqrt{d-1}}{N-1}. \\]\n By purification, the bosonic theorem also gives the optimal $O(d/N)$ upper bound for arbitrary exchangeable states. These results settle the dimension dependence left open by Christandl, König, Mitchison, and Renner (CMP 2007). The proof casts de Finetti approximation as sum-of-squares rounding and applies the argmax method of Jeronimo, Wu, and Xu (manuscript 2026). More generally, $t$-site marginals satisfy $O(t\\sqrt d/N)$ bosonic and $O(td/N)$ permutation-invariant bounds. Our proof formulates de Finetti approximation as the integrality gap of a symmetric-extension semidefinite program and rounds an optimum by the argmax principle. The sharp bounds have several consequences. For every fixed $\\varepsilon\\in(0,1)$, we construct a channel with input dimension $D=\\exp(O_\\varepsilon(\\sqrt d\\log d))=\\exp(o(d))$ whose outputs are $\\varepsilon$-close to separable states of local dimension $d$ and whose image contains every such separable state, thereby refuting Watrous's disentangler conjecture. We also obtain deterministic $\\exp(\\widetilde O(\\sqrt d/\\varepsilon))$-time algorithms for explicit Best Separable State without perfect completeness and for trace-distance separability testing. Finally, spectral truncation gives the first dimension-free bosonic de Finetti theorem in Hilbert--Schmidt distance, with the optimal rate $Θ(N^{-1/2})$ when the dimension may grow.",
+    "authors": [
+      "Jeronimo, Fernando Granha",
+      "Wu, Pei",
+      "Xu, Haochen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-05T10:53:16.424329Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187073",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187073",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187073"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

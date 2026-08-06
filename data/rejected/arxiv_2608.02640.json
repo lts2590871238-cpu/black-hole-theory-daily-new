@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.02640",
+    "arxiv_id": "2608.02640",
+    "arxiv_version": null,
+    "inspire_id": "3187144",
+    "doi": null,
+    "title_en": "SU3HOB-cgvcs: harmonic-oscillator brackets in the SU(3) basis with isofactors from an external SU(3)$\\,\\supset\\,$SO(3) Clebsch--Gordan library",
+    "abstract_en": "\\DeclareRobustCommand{\\Su}{\\code{Su3cgvcs}} We present SU3HOB-cgvcs, a Fortran~2008 package that computes the general Talmi--Moshinsky harmonic-oscillator transformation brackets, for an arbitrary mass-ratio parameter $d$. These brackets arte constructed in the $\\su{SU}(3)$ basis by the method of Kalinauskas et al. . The transformation is reduced to a single sum over Wigner $d$-functions of the reflection-containing Talmi--Moshinsky matrix weighted by products of $\\su{SU}(3)\\supset\\su{SO}(3)$ isofactors of the chain $\\su{U}(6)\\supset\\su{U}(3)\\times\\su{U}(2)$. SU3HOB-cgvcs obtains these isofactors from the established external Clebsch--Gordan library \\Su . In this library they are computed there by the vector-coherent-state (VCS) method. We bridge \\Su formalism to ours and this requires two fixes: reinserting a sign/phase factor that depends on each state's radial-quantum number and handling the trivial $(0,0)$ representation analytically. The package reproduces, bracket for bracket to machine precision ($\\sim\\!10^{-13}$), the general Talmi--Moshinsky bracket code of Kamuntavičius et al. , and demonstrates that a self-contained SU(3)-scheme HOB code can be built on top of a general-purpose SU(3) Clebsch--Gordan library.",
+    "authors": [
+      "Stepšys, Augustinas",
+      "Mickevičius, Saulius",
+      "Germanas, Darius"
+    ],
+    "categories": [],
+    "submitted_at": "2026-07-31T00:00:00Z",
+    "updated_at": "2026-08-05T10:53:26.834046Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187144",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187144",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187144"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

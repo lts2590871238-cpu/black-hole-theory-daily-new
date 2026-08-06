@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-08-06T00:14:36.440444Z",
+  "completed_at": "2026-08-06T00:16:28.350521Z",
+  "status": "degraded",
+  "fetched_arxiv": 834,
+  "fetched_inspire": 800,
+  "normalized": 1634,
+  "deduplicated": 1320,
+  "candidates": 51,
+  "selected": 43,
+  "review_queue": 2,
+  "rejected": 1271,
+  "llm_calls": 10,
+  "cached_decisions": 37,
+  "errors": [
+    "arxiv:2602.02097: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 166 个非空白字符",
+    "arxiv:2608.03538: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 465 个非空白字符",
+    "arxiv:2608.03066: 评分或翻译失败：入选论文缺少中文入选理由",
+    "doi:10.1016/j.dark.2026.102415: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 655 个非空白字符"
+  ]
+}

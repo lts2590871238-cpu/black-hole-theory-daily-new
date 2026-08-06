@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2607.28604",
     "arxiv_id": "2607.28604",
     "arxiv_version": 1,
-    "inspire_id": "3184953",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Cosmo-SPINN: Fuzzy Dark Matter Simulations with Physics-Informed Generative Networks",
     "abstract_en": "Generative machine learning models have recently emerged as powerful tools for producing cosmological simulations. However, many existing emulators do not explicitly enforce the underlying physical dynamics governing cosmological evolution, often leading to artifacts and poor adherence to the evolution equations. In this work, we present a physics-informed generative U-Net framework for fuzzy dark matter (FDM) that addresses two complementary tasks: (i) the evolution of cosmological fields from initial conditions to an arbitrary cosmological scale factor and (ii) the super-resolution of FDM simulations at a specified cosmological scale factor. Our model incorporates a physics-informed loss function that explicitly enforces consistency with the underlying Schrödinger-Poisson (SP) dynamics during training. For the evolution task, we find that the inclusion of this physics-based loss significantly improves the quality of the predicted simulations, even when only a small amount of training data is available. Using only 20% of the training data, the model accurately reproduces the target simulations in a 1 $h^{-1}$ Mpc box. Furthermore, the framework generalizes effectively across previously unseen realizations of the initial conditions. For the super-resolution task, we present, for the first time, a generative super-resolution model trained on FDM simulations obtained by solving the full SP equations, considering both single and multiple realizations of the initial conditions and analyzing the role of the physics-informed loss in each case. Our approach enables modern generative modeling of cosmological simulations while maintaining physical consistency and substantially reducing generative artifacts.",
@@ -16,31 +16,23 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-07-30T00:00:00Z",
-    "updated_at": "2026-08-01T02:55:19.233833Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-30T17:54:43Z",
+    "updated_at": "2026-07-30T17:54:43Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2607.28604v1",
     "pdf_url": "https://arxiv.org/pdf/2607.28604v1",
-    "inspire_url": "https://inspirehep.net/literature/3184953",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.28604",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
         "url": "https://arxiv.org/abs/2607.28604v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3184953",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://inspirehep.net/literature/3184953"
       }
     ],
     "is_demo": false

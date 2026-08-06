@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.03029",
+    "arxiv_id": "2608.03029",
+    "arxiv_version": null,
+    "inspire_id": "3187211",
+    "doi": null,
+    "title_en": "Physics-Informed Quantum Machine Learning with Hard Constraint Embedding for Nonlinear Differential Equations of the First Order",
+    "abstract_en": "Quantum algorithms based on linear-system approaches for solving differential equations demand qubit and precision resources beyond near-term capabilities. To address these challenges, this work proposes a physics-informed quantum machine learning (PIQML) framework with hard constraint embedding, specifically designed for NISQ era. Within this framework, parameterized quantum circuits serve as machine learning models, where the input variable is encoded into a high-dimensional feature space via a Fourier feature map. Subsequently, to eliminate approximation errors in critical physical conditions, the solution is constructed through a rigorously designed function mapper that analytically enforces initial conditions as hard constraints. Crucially, we compute derivatives with respect to the input variable using the parameter-shift rule---a quantum native gradient evaluation technique that avoids classical discretization. Unlike generic loss functions that target abstract data patterns, our loss function focuses on the differential equation residual and reference data. This design ensures that the trained model not only approximates the data but also intrinsically satisfies the physical constraint expressed by the DE itself. Our method is validated on several differential equations, including highly oscillatory ones, demonstrating its capability to tackle challenging nonlinear dynamics. Results demonstrate that our quantum model successfully learns the solution, showing close agreement with a high-precision classical numerical benchmark.",
+    "authors": [
+      "Xu, Mengke",
+      "Li, Xi",
+      "Chen, Xiao",
+      "Wang, Xunan",
+      "Huo, Wanli",
+      "Ma, Long",
+      "Yan, Weiqi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-05T10:45:12.986787Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187211",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187211",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187211"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

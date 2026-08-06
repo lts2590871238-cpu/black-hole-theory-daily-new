@@ -1,0 +1,87 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.nima.2026.171897",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3187469",
+    "doi": "10.1016/j.nima.2026.171897",
+    "title_en": "Robustness of the smartpixels classifier for different simulated sensor geometries and non-ideal detector conditions",
+    "abstract_en": "Pixel tracking detectors at upcoming collider experiments will see unprecedented charged-particle densities. Real-time data reduction on the detector will enable higher granularity and faster readout, possibly enabling the use of the pixel detector in high-rate online event selection, such as the ATLAS or CMS first-level trigger systems. This data reduction can be accomplished with a neural network (NN) in the readout chip bonded with the sensor that recognizes and rejects tracks with low transverse momentum (p<math altimg=\"si69.svg\" display=\"inline\" id=\"d1e1237\"><msub><mrow/><mrow><mi>T</mi></mrow></msub></math>) based on the geometrical shape of the charge deposition (“cluster”). To design viable detectors for deployment, the dependence of the NN as a function of the sensor geometry, external magnetic field, irradiation, and noise must be understood. In this paper, we present first studies of the efficiency and data reduction for planar pixel sensors exploring these parameters. For the CMS HL-LHC sensor geometry, we obtain a signal efficiency of (91.9 ± 0.7)% and a data reduction of (29.7 ± 1.0)%. A smaller sensor pitch in the bending direction improves the p<math altimg=\"si69.svg\" display=\"inline\" id=\"d1e1245\"><msub><mrow/><mrow><mi>T</mi></mrow></msub></math> discrimination, but a larger pitch can be partially compensated with detector thickness. Any accumulated radiation damage also changes the cluster shape, reducing the signal efficiency compared to the baseline by approximately 30–60% in absolute terms, but nearly all of the performance can be recovered through retraining of the network and updating the weights. Finally, the impact of noise was investigated, and retraining the network on noise-injected datasets was found to maintain performance within 6% of the baseline network trained and evaluated on noiseless data. •ASIC-compatible track-momentum classifier is robust in realistic detector conditions.•About 90% signal efficiency and 30% data reduction per layer for CMS HL-LHC geometry.•Single-layer signal efficiency increases for smaller pixel pitch or thicker sensors.•Performance with noise or after radiation damage mostly recovered by retraining.",
+    "authors": [
+      "Shekar, Danush",
+      "Weiss, Ben",
+      "Swartz, Morris",
+      "Mills, Corrinne",
+      "Dickinson, Jennet",
+      "Gray, Lindsey",
+      "Jiang, David",
+      "Wadud, Mohammad Abrar",
+      "Abadjiev, Daniel",
+      "Badea, Anthony",
+      "Berry, Douglas",
+      "Cauper, Alec",
+      "Das, Arghya Ranjan",
+      "DiPetrillo, Karri Folan",
+      "Fahim, Farah",
+      "Kovach Fuentes, Rachel",
+      "Gandrakota, Abhijith",
+      "Di Guglielmo, Giuseppe",
+      "Howard, Eliza",
+      "Kuang, Shiqi",
+      "Kumar, Carissa",
+      "Liu, Mia",
+      "Maksimovic, Petar",
+      "Manganelli, Nick",
+      "Neubauer, Mark S.",
+      "Nicholas, Aidan",
+      "Pan, Emily",
+      "Parpillon, Benjamin",
+      "Pearkes, Jannicke",
+      "Silvestre, Ricardo",
+      "Syal, Chinar",
+      "Trivedi, Amit",
+      "Ulmer, Keith",
+      "Yoo, Jieun",
+      "You, Eric"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-03T00:00:00Z",
+    "updated_at": "2026-08-05T13:30:13.945736Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "1092, 171897, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613981'}, Nucl.Instrum.Meth.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187469",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187469",
+        "fetched_at": "2026-08-06T00:14:36.440444Z",
+        "url": "https://inspirehep.net/literature/3187469"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
