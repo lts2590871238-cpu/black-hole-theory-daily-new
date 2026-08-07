@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05295",
+    "arxiv_id": "2608.05295",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Summary statistic for pulsar timing arrays",
+    "abstract_en": "The timing residuals produced by gravitational-wave signals can be described as an incoherent (pulsar term) contribution and a coherent (Earth term) map on the sky, which PTAs measure at the locations of the timed pulsars. The observed Earth term map and the variance induced by the pulsar term contain all of the information about any GW signal available to a PTA (assuming pulsar distances are unknown). Furthermore, any type of signal produces on average the same angular correlation function, the Hellings and Downs curve, which decays steeply with multipole as $C_\\ell \\propto 1/[(\\ell+2)(\\ell+1)\\ell(\\ell-1)]$. This suggests that the signal is inherently low-dimensional and therefore only a small number of parameters are needed to fully characterize it. We present an expression for the PTA likelihood that makes the dependence on the Earth term map and pulsar term variance explicit, and show that only a few spherical harmonic coefficients are needed to capture most of the information about the signal. To quantify this in a realistic setting, we compute the Fisher matrix of the amplitude of a stochastic background or a deterministic point source assuming the noise properties and sky locations of the pulsars in the NANOGrav 15yr dataset. We find that $\\ell_{\\rm max}=2$ of the Earth term map and the monopole of the pulsar term variance retain $\\sim 95\\%$ of the information about the signal. For a point source, including the dipole of the pulsar term variance is important to achieve a similar fraction.",
+    "authors": [
+      "Gabriela Sato-Polito",
+      "Matias Zaldarriaga",
+      "Barak Zackay"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-08-05T18:00:12Z",
+    "updated_at": "2026-08-05T18:00:12Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.05295v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.05295v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.05295",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://arxiv.org/abs/2608.05295v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays",
+      "timing residual",
+      "timing residuals"
+    ],
+    "medium_weight_hits": [
+      "angular correlation",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 100
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 20,
+      "methodological_rigor": 15,
+      "novelty": 10,
+      "clarity": 8,
+      "metadata_quality": 2,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 60,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文提出了一种用于脉冲星计时阵列的似然函数新表达式，并分析了地球项图和脉冲星项方差的信息含量，具有理论深度和新颖性。",
+    "title_zh": "脉冲星计时阵列的汇总统计量",
+    "abstract_zh": "引力波信号产生的计时残差可以描述为一个非相干（脉冲星项）贡献和一个相干（地球项）在天球上的映射，PTAs在计时脉冲星的位置测量它们。观测到的地球项图和脉冲星项引起的方差包含了PTA可获得的所有关于任何引力波信号的信息（假设脉冲星距离未知）。此外，任何类型的信号在平均上产生相同的角相关函数，即Hellings和Downs曲线，其随多极矩急剧衰减，满足$C_\\ell \\propto 1/[(\\ell+2)(\\ell+1)\\ell(\\ell-1)]$。这表明信号本质上是低维的，因此只需要少量参数即可完全描述它。我们给出了PTA似然函数的一个表达式，使对地球项图和脉冲星项方差的依赖明确，并表明只需要几个球谐系数即可捕获关于信号的大部分信息。为了在现实环境中量化这一点，我们计算了随机背景或确定性点源振幅的Fisher矩阵，假设NANOGrav 15年数据集中脉冲星的噪声特性和天空位置。我们发现地球项图的$\\ell_{\\rm max}=2$和脉冲星项方差的单极保留了约$95\\%$的信号信息。对于点源，包括脉冲星项方差的偶极对于达到类似的比例很重要。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational waves",
+      "likelihood",
+      "spherical harmonics"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波",
+      "似然函数",
+      "球谐函数"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-07T01:47:12.219123Z"
+  },
+  "published_at": "2026-08-07T01:47:12.219601Z"
+}

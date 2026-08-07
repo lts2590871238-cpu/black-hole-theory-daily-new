@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.04159",
+    "arxiv_id": "2608.04159",
+    "arxiv_version": null,
+    "inspire_id": "3188000",
+    "doi": null,
+    "title_en": "A Distributed Quantum Approximate Optimization Algorithm For Unit Commitment",
+    "abstract_en": "This paper presents a distributed quantum approximate optimization algorithm (DQAOA)-enabled three-block alternating direction method of multipliers (ADMM) framework for unit commitment (UC). The relaxed commitment and dispatch variables are solved in a continuous quadratic programming block, while the binary commitment block is formulated as a quadratic unconstrained binary optimization (QUBO) problem. The DQAOA interface allows this QUBO to be solved using brute-force enumeration, monolithic QAOA, or distributed QAOA, while the remaining ADMM updates are kept unchanged. In the distributed mode, the logical commitment qubits are allocated across multiple capacity-constrained quantum processing units (QPU), avoiding the requirement that the complete binary problem fits on a single device. The framework is evaluated on a five-unit UC instance containing 15 binary variables. All three solver modes reduce the ADMM primal residual below a certain tolerance and recover the same commitment schedule, dispatch, and operating cost. The results demonstrate solution consistency across the three solver modes and the multi-QPU capacity accommodation provided by the distributed QAOA method.",
+    "authors": [
+      "Rajabi, Ali",
+      "Hasanzadeh, Milad",
+      "Kargarian, Amin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-06T16:43:22.151012Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188000",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188000",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3188000"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

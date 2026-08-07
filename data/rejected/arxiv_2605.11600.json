@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.11600",
+    "arxiv_id": "2605.11600",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Reusable Hierarchical Framework for Joint Inference of Ultralight-Dark-Matter Mass and Core-Halo Scaling",
+    "abstract_en": "Ultralight-dark-matter rotation-curve analyses often infer the particle mass after fixing a relation between the central soliton and its host halo. The resulting mass constraint is then conditional on a population-level relation that the data may not independently support. We present a reusable hierarchical Bayesian framework that instead infers the ultralight particle mass and the core-halo scaling exponent jointly from a galaxy population. The differentiable forward model combines a Schive-normalized soliton with a smoothly matched, regularized NFW envelope and allows galaxy-level halo and stellar parameters to be inferred together with the global dark-matter parameters. We apply the framework to 106 SPARC galaxies, including 26 systems with bulges, and sample the resulting 346-dimensional posterior with JAX/NumPyro NUTS. The free-scaling run has zero divergences and $\\hat{R}\\simeq 1.000$ for the global parameters. The posterior moves to the high-mass, weak-scaling boundary, with $\\log_{10}(m_φ/\\mathrm{eV})=-19.20^{+0.12}_{-0.11}$ and $α=0.014^{+0.023}_{-0.011}$. In this regime, the solitonic cores lie below the radial scales probed by the rotation curves, while the baryonic terms and outer NFW envelope carry the visible fits. The same boundary behaviour remains after removing UGC06787 and after widening the high-mass stellar-to-halo-mass prior. The selected SPARC sample therefore does not give an interior joint constraint on the particle mass and core-halo scaling relation within the adopted model. The framework makes this unresolved-core limit explicit instead of interpreting the prior boundary as an interior mass constraint. Its modular structure also allows the same analysis to be applied to synthetic recovery tests, expanded or higher-resolution rotation-curve samples, and alternative halo models.",
+    "authors": [
+      "Prasun Panthi",
+      "Md Shahrier Islam Arham"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-05-12T06:27:33Z",
+    "updated_at": "2026-08-05T08:06:43Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.11600v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.11600v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.11600",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://arxiv.org/abs/2605.11600v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

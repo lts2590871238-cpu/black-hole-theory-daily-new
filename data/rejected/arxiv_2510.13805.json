@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.13805",
+    "arxiv_id": "2510.13805",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": "10.1088/1475-7516/2026/06/036",
+    "title_en": "$\\texttt{SBi3PCF:}$ Simulation-based inference with the integrated 3PCF",
+    "abstract_en": "We present $\\texttt{SBi3PCF}$, a simulation-based inference (SBI) framework for analysing a higher-order weak lensing statistic, the integrated 3-point correlation function (i3PCF). Our approach forward-models the cosmic shear field using the $\\texttt{CosmoGridV1}$ suite of N-body simulations, including a comprehensive set of systematic effects such as intrinsic alignment, baryonic feedback, photometric redshift uncertainty, shear calibration bias, and shape noise. Using this, we have produced a set of DES Y3-like synthetic measurements for 2-point shear correlation functions $ξ_{\\pm}$ (2PCFs) and i3PCFs $ζ_{\\pm}$ across 6 cosmological and 11 systematic parameters. Having validated these measurements against theoretical predictions and thoroughly examined for potential systematic biases, we have found that the impact of source galaxy clustering and reduced shear on the i3PCF is negligible for Stage-III surveys. Furthermore, we have tested the Gaussianity assumption for the likelihood of our data vector and found that while the sampling distribution of the 2PCF can be well approximated by a Gaussian function, the likelihood of the combined 2PCF + i3PCF data vector including filter sizes of $90'$ and larger can deviate from this assumption. Our SBI pipeline employs masked autoregressive flows to perform neural likelihood estimation and is validated to give statistically accurate posterior estimates. On mock data, we find that including the i3PCF yields a substantial $63.8\\%$ median improvement in the figure of merit for $Ω_m - σ_8 - w_0$. These findings are consistent with previous works on the i3PCF and demonstrate that our SBI framework can achieve the accuracy and realism needed to analyse the i3PCF in wide-area weak lensing surveys.",
+    "authors": [
+      "David Gebauer",
+      "Anik Halder",
+      "Stella Seitz",
+      "Dhayaa Anbajagane"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-10-15T17:59:25Z",
+    "updated_at": "2026-08-05T13:36:16Z",
+    "document_types": [],
+    "journal_ref": "JCAP06(2026)036",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.13805v3",
+    "pdf_url": "https://arxiv.org/pdf/2510.13805v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.13805",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://arxiv.org/abs/2510.13805v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

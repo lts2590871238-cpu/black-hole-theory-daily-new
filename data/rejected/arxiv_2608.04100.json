@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.04100",
+    "arxiv_id": "2608.04100",
+    "arxiv_version": 1,
+    "inspire_id": "3187765",
+    "doi": null,
+    "title_en": "Language-Guided Hypotheses Generation for Sparse SMEFT Analyses",
+    "abstract_en": "Global fits of the Standard Model Effective Field Theory are challenged by the large number of operators, while any given database constrains only a small subset. Selecting relevant operator hypotheses therefore requires theoretical insight into operator correlations and the sensitivity of observables. We present llm4smeft, an open source framework that addresses this problem by combining a language model, fine-tuned on the SMEFT literature, with retrieval augmented generation based on quantitative summaries of SMEFiT package global fits. Given a set of observables, the framework proposes candidate relevant operators together with their corresponding Fisher information, while retrieval ensures that model outputs are grounded in existing fit results whenever available. The framework runs in an interactive mode in which accepted hypotheses are stored in a growing knowledge base. We publicly release the llm4smeft package together with the fine-tuned language model, in which the entire framework runs locally, requiring neither internet access nor paid cloud services.",
+    "authors": [
+      "Ahmed Hammad",
+      "Veronica Sanz"
+    ],
+    "categories": [
+      "hep-ph",
+      "hep-ex",
+      "hep-th"
+    ],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-06T03:40:30.142860Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.04100v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.04100v1",
+    "inspire_url": "https://inspirehep.net/literature/3187765",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.04100",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://arxiv.org/abs/2608.04100v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3187765",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3187765"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

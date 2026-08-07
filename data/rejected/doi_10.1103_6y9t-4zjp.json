@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/6y9t-4zjp",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3188018",
+    "doi": "10.1103/6y9t-4zjp",
+    "title_en": "Overflow-safe polylog-time parallel minimum-weight perfect-matching decoder: Toward feasible implementation",
+    "abstract_en": "Fault-tolerant quantum computation (FTQC) requires fast and accurate decoding of quantum errors, which is often formulated as a minimum-weight perfect-matching (MWPM) problem. A determinant-based approach has been proposed as a novel method to surpass the conventional polynomial runtime of MWPM decoding via the blossom algorithm, asymptotically achieving polylogarithmic parallel runtime. However, the existing approach requires an impractically large bit length to represent intermediate values during the computation of the matrix determinant; moreover, when implemented on a finite-bit machine, the algorithm cannot detect overflow and, therefore, the mathematical correctness of such algorithms cannot be guaranteed. In this work, we address these issues by presenting a polylog-time MWPM decoder that treats finite-precision truncation naturally by employing an algebraic framework over a truncated polynomial ring. Within this framework, all arithmetic operations are implemented using bitwise XOR and shift operations. Furthermore, with algorithmic optimizations tailored to the structure of the determinant-based approach, we reduce the arithmetic bit length required to represent intermediate values in the determinant computation by more than <math><mrow><mn>99.9</mn><mo>%</mo></mrow></math>, reducing the required arithmetic bit length to the 512-bit scale while preserving the decoder's polylog runtime scaling. These results provide a theoretical and numerical basis for future proof-of-principle demonstrations of the polylog-time MWPM decoding in the early FTQC regime.",
+    "authors": [
+      "Mikami, Ryo",
+      "Yamasaki, Hayata"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-06T17:55:10.298754Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 022409, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 2, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188018",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188018",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3188018"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05009",
+    "arxiv_id": "2608.05009",
+    "arxiv_version": null,
+    "inspire_id": "3187910",
+    "doi": null,
+    "title_en": "Weak Form Recovery of Heston Type Stochastic Dynamics",
+    "abstract_en": "We study whether a spatial weak-form LASSO pipeline can recover the Heston stochastic-volatility model. Gaussian test functions convert local increment moments into weak targets for drift, diffusion, and return--variance covariance. Using 50 Gaussian kernels, the linear library ${1,v}$, column normalization, five-fold cross-validated LASSO, and contemporaneous indexing, 30 independent 100-year simulations recover $ξ$, $ρ$, and $ρξ$ with median relative errors of 0.90%, 0.53%, and 1.80%, while drift recovery is less accurate (12.29% for $κ$, 6.61% for $θ$). Under noisy variance observations, leverage estimates degrade gradually without a sharp phase transition. Applied to S&P 500 data (2007--2010), the method estimates $κ=2.361$, $θ=0.0360$, $ξ=0.530$, and $ρ=-0.329$. A quadratic-drift falsification selects spurious terms in 93% of null simulations, indicating the method is reliable for coefficient estimation within a specified Heston library but not unrestricted model discovery.",
+    "authors": [
+      "Gullipalli, Sai Sathvik",
+      "A, Eshwar R.",
+      "Honnavar, Gajanan, V."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-06T03:43:49.046791Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187910",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187910",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3187910"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

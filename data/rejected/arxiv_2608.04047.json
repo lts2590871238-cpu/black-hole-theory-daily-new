@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.04047",
+    "arxiv_id": "2608.04047",
+    "arxiv_version": null,
+    "inspire_id": "3188001",
+    "doi": null,
+    "title_en": "Beyond the QBER Threshold: A Temporal QBER Based Machine Learning Framework for Multi Attack Detection in BB84 QKD",
+    "abstract_en": "Conventional BB84 Quantum Key Distribution (QKD) systems rely on a fixed 11% Quantum Bit Error Rate (QBER) threshold to detect eavesdropping. However, stealthy attacks can remain below this threshold while still compromising channel security. This paper proposes a temporal QBER based machine learning framework for detecting and classifying eavesdropping attacks in BB84 QKD systems. Rather than relying on average session level QBER, the framework extracts 63 physics-informed temporal features capturing burst behavior, temporal instability, basis dependent asymmetry, and QBER loss interactions. Random Forest, XGBoost, and Support Vector Machine with a Radial Basis Function kernel (SVM-RBF) classifiers are evaluated on seven eavesdropping attacks and a normal channel scenario under noisy and lossy conditions. Averaged over ten independent runs, XGBoost achieves the best performance with 88.01% (0.47%) accuracy and a macro F1 score of 0.8803, while SVM-RBF performs comparably, confirming the robustness of the proposed features. Evaluated as a binary attack-versus-normal detector for comparison with conventional monitoring, a fixed 11% QBER threshold achieves only 25.82% accuracy with a False Negative Rate (FNR) of 0.8477, whereas the proposed framework reduces the FNR to 0.0198, substantially improving detection of stealthy attacks that evade threshold-based monitoring. SHapley Additive exPlanations based (SHAP) explainability shows that physics-informed temporal and channel derived features are highly discriminative for identifying eavesdropping strategies. These results demonstrate that temporal QBER driven machine learning provides an accurate, explainable, and practical framework for multi attack security monitoring in BB84 QKD systems.",
+    "authors": [
+      "Isha",
+      "Singh, Deepak",
+      "Kumar, Devesh",
+      "Pal, S.K.",
+      "Hambarde, Praful",
+      "Shukla, Amit"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-06T16:43:26.404492Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188001",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188001",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3188001"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

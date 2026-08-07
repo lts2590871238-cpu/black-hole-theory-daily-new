@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 25,
+    "methodological_rigor": 18,
+    "novelty": 10,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 75,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文涉及PTA中引力波背景各向异性的重建，比较不同基下的等价性，方法严谨，理论深度适中，对PTA数据分析有重要参考价值。",
+  "title_zh": "在相同信息内容下映射引力波背景各向异性跨基的等价性",
+  "abstract_zh": "绘制引力波背景（GWB）的各向异性需要选择一种基来表示天空强度，例如像素基和球谐基。每种基都引入了截断——例如，像素数目或最大多极子l_max——通常通过一个朴素的计数参数来设置，该参数将可测量模式数与脉冲星计时阵列（PTA）中的独立互相关数N_pair联系起来。然而，这样的截断可能导致重建伪影，因为它们并未反映PTA响应的真实信息内容。增加截断参数的值可以更好地覆盖可观测空间，但会揭示约束较差的模式，使反问题不适定，并需要正则化。一种自然的方法是通过主图（principal maps）将重建限制在一个良好测量的子空间内，主图由探测器响应（或Fisher）矩阵的主导本征模定义。然而，这些图并不是天空的基本参数化，而是源自于一个底层表示——例如像素化或球谐展开。虽然它们的显式形式依赖于基的选择，但当底层表示足够完整时，它们可以跨越相同的子空间。在这里，我们表明，通过不同基重建的各向异性图是等价的，前提是它们保留相同的信息内容，即跨越相同的主子空间。作为说明性案例，我们考虑了一个PTA配置的玩具模型以及几种GWB各向异性形状：点源、具有确定性各向异性的扩展源以及统计各向同性背景，连同其汇总统计量——角功率谱。尽管重建结果是等价的，但其计算成本可能不同。我们最后简要讨论了地面干涉仪主图的构建。",
+  "keywords_en": [
+    "gravitational wave background",
+    "anisotropy",
+    "basis equivalence",
+    "pulsar timing array",
+    "principal maps"
+  ],
+  "keywords_zh": [
+    "引力波背景",
+    "各向异性",
+    "基等价性",
+    "脉冲星计时阵列",
+    "主图"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-07T01:48:07.991925Z"
+}

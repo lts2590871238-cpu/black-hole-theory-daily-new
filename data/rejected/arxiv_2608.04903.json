@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.04903",
+    "arxiv_id": "2608.04903",
+    "arxiv_version": null,
+    "inspire_id": "3187738",
+    "doi": null,
+    "title_en": "A commutant gate for spectral fitting through symmetry forced degeneracy",
+    "abstract_en": "Learned spectral models fail at symmetry forced degenerate sectors for two distinct reasons. Where symmetry forces levels to coincide exactly, the per level observable one would normally fit is not well defined, since every unit vector of that shared space is an eigenvector; and near a symmetry protected crossing, the eigenvector observable gradient carries a factor 1/(lambda_i - lambda_j) that is genuinely singular as the gap closes. The usual response is to regularize the divergence or threshold the gap, and both carry a real cost: a fixed gap cannot both protect a forced multiplet and keep two genuinely distinct levels apart. We show a different fix, on synthetic operator families with a known symmetry answer key. A gate reads the symmetry structure directly from the observed operators, as the linear commutant of the family, one singular value decomposition nullspace, following the simultaneous block diagonalization of Maehara and Murota. Block identity is read from the centre of that commutant rather than from eigenvalue clustering, which makes the forced versus accidental distinction structural rather than metric, and the objective switches between a projector trace through forced blocks and a per level target elsewhere. Under operator estimation noise the gate classifies correctly to epsilon of about 0.3, where energy clustering already fails by 0.02. Gated fitting reaches the truth at machine precision in both the symmetric and the symmetry breaking regime, in the latter converging to a truth that is a singularity of the ungated objective, and observable bias sits at the noise floor. Validation off the regular representation, where multiplicity and dimension separate, eliminated two defective estimators that all regular representation tests had passed. The demonstrated object is a gated estimator; a full parametric matrix model, with the matrices learned, is the next experiment.",
+    "authors": [
+      "Savva, Stelios"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-06T15:52:23.095035Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187738",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187738",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3187738"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

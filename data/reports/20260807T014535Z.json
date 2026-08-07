@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-08-07T01:45:35.000528Z",
+  "completed_at": "2026-08-07T01:48:43.042106Z",
+  "status": "degraded",
+  "fetched_arxiv": 935,
+  "fetched_inspire": 800,
+  "normalized": 1735,
+  "deduplicated": 1436,
+  "candidates": 63,
+  "selected": 51,
+  "review_queue": 4,
+  "rejected": 1374,
+  "llm_calls": 21,
+  "cached_decisions": 32,
+  "errors": [
+    "arxiv:2608.05818: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2506.10808: 评分或翻译失败：1 validation error for CurationDecision\n  Value error, total_score must equal the score component sum [type=value_error, input_value={'relevant': True, 'prima...: 'curation-schema-1.0'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+    "arxiv:2605.03156: 评分或翻译失败：1 validation error for CurationDecision\n  Value error, total_score must equal the score component sum [type=value_error, input_value={'relevant': True, 'prima...: 'curation-schema-1.0'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+    "arxiv:2608.04961: 评分或翻译失败：中文标题或摘要为空",
+    "arxiv:2607.03749: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2608.04346: 评分或翻译失败：入选论文缺少中文入选理由",
+    "arxiv:2608.03066: 评分或翻译失败：1 validation error for CurationDecision\n  Value error, total_score must equal the score component sum [type=value_error, input_value={'relevant': True, 'prima...: 'curation-schema-1.0'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error"
+  ]
+}

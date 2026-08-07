@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1088/2058-9565/ae8b57",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3187611",
+    "doi": "10.1088/2058-9565/ae8b57",
+    "title_en": "Side-channel attacks on digital readout circuits for superconducting qubits",
+    "abstract_en": "Scalable superconducting quantum computing systems require ultrafast and low-latency readout architectures. A Josephson phase digital detector (JDPD) converts the phase of an incoming analog microwave signal into a constant digital current state, enabling ultrafast, fully cryogenic phase discrimination. Thus, a JDPD is a critical component for scalable single-flux quantum (SFQ)-based qubit readout architectures and quantum computation. The flux bias driver (FBD) is a key element of the JDPD system, as it dynamically adjusts the detector's operating point and enables the combined FBD-JDPD setup to function as a scalable SFQ-based qubit readout solution. Previous work has focused on detector operational and bias control, while information leakage through the shared bias infrastructure has received limited attention. Accordingly, this work investigates side-channel leakage due to the fluctuations in the bias current of an FBD-JDPD system. Extensive simulations demonstrate that phase-dependent switching events in a JDPD may cause bias current fluctuations that propagate backward through the inductively coupled bias network. When temporally aligned with the FBD set and reset operations, these fluctuations manifest as measurable perturbations on the shared bias line. The results show that the peak probabilities of 43.8 $\\mu$A for phase $\\theta_\\mathrm{r}$ = 0 and of 46.7 $\\mu$A for phase $\\theta_\\mathrm{r}$ = $\\pi$ appear due to the interface between the room temperature electronics and the device's bias network. This leakage presents a serious security and privacy concern, as the shared bias network, which interfaces with electronics operating at room temperature, can serve as an easy access point for a malicious adversary.",
+    "authors": [
+      "Kulzhanova, Gulnur",
+      "Mustafa, Yerzhan",
+      "Köse, Selçuk"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-04T00:00:00Z",
+    "updated_at": "2026-08-06T13:56:59.797942Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "11, 035062, 2026, {'$ref': 'https://inspirehep.net/api/journals/1831236'}, 3, Quantum Sci.Technol."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3187611",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3187611",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://inspirehep.net/literature/3187611"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

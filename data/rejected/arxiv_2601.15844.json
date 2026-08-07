@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.15844",
+    "arxiv_id": "2601.15844",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Radio-Interferometric Image Reconstruction with Denoising Diffusion Restoration Models",
+    "abstract_en": "Reconstructing images of the radio sky from incomplete Fourier information is a key challenge in radio astronomy. In this work, we present a method for radio interferometric image reconstruction using a data-driven prior for the radio sky based on denoising diffusion probabilistic models (DDPMs). We train a DDPM on radio galaxy observations from the VLA FIRST survey, then create simulated VLBA, EHT, and ALMA observations of radio galaxies. We use an unsupervised posterior sampling method called Denoising Diffusion Restoration Models (DDRM) to reconstruct the corresponding images using our DDPM as a prior. Our approach naturally incorporates the PSF of the instrument. We are able to reconstruct images with very high fidelity and demonstrate a marked improvement over CLEAN and MS CLEAN. While DDRM naturally produces multiple samples, these are not calibrated and do not constitute reliable uncertainty estimates in the current implementation. The code for training and inference of the model is available at https://github.com/epfl-radio-astro/diffusionRI.git",
+    "authors": [
+      "Michel Morales",
+      "Emma Tolley",
+      "Remi Poitevineau"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-01-22T10:51:33Z",
+    "updated_at": "2026-08-06T09:02:27Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.15844v3",
+    "pdf_url": "https://arxiv.org/pdf/2601.15844v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.15844",
+        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "url": "https://arxiv.org/abs/2601.15844v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
