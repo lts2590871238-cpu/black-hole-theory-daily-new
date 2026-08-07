@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05202",
+    "arxiv_id": "2608.05202",
+    "arxiv_version": null,
+    "inspire_id": "3188091",
+    "doi": null,
+    "title_en": "Quantum Error Management in Practice: A Cross-Stack Benchmark",
+    "abstract_en": "Quantum processors have crossed the one-hundred-qubit mark, but noise continues to limit circuit performance, while full quantum error correction remains too costly for routine use. Error suppression and mitigation therefore play an important role in extracting value from current hardware, yet independent comparisons of commercial solutions on identical workloads and devices remain scarce. We benchmark IBM Qiskit Runtime, Q-CTRL Performance Management, and Qedma QESEM on IBM Pittsburgh, a 156-qubit IBM Quantum Heron r3 processor. For Sampler workloads, we run Bernstein-Vazirani, quantum phase estimation, GHZ-state preparation, and randomized mirror circuits with up to 100 measured qubits, comparing raw execution, IBM measurement twirling, and Q-CTRL. For Estimator workloads, we measure chain-averaged magnetization and correlation observables of an eight-layer transverse-field Ising circuit at 25, 50, and 75 qubits against an exact matrix-product-state reference, comparing IBM raw execution, IBM TREX plus twirling, Q-CTRL, and QESEM. Q-CTRL produced the best results on the three structured Sampler workloads while keeping reported QPU times within the same order as the IBM configurations. Across six Ising observable and system-size cases, aggregate mean absolute error was 0.0883 for IBM raw execution, 0.0807 for IBM TREX plus twirling, 0.0285 for Q-CTRL, and 0.0188 for QESEM. Relative to raw execution, Q-CTRL and QESEM reduced aggregate error by factors of 3.10 and 4.70, respectively, while QESEM used 7.5 to 11.1 times the reported QPU time of Q-CTRL. These results show that managed error suppression and mitigation can substantially improve current hardware performance, but with distinct accuracy and execution-time tradeoffs.",
+    "authors": [
+      "Sierra-Sosa, Daniel",
+      "Garcia-Zapirain, Begonya",
+      "Marquez, Cristian",
+      "Garces, Kelly"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-07T11:37:46.173630Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188091",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188091",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188091"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

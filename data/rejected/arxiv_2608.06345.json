@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06345",
+    "arxiv_id": "2608.06345",
+    "arxiv_version": null,
+    "inspire_id": "3188276",
+    "doi": null,
+    "title_en": "Dimension-Free Polylogarithmic Quantum Shadow Tomography from Sequential Pretty-Good Measurements",
+    "abstract_en": "\\textit{Shadow tomography} is a fundamental problem in quantum information theory. Given multiple copies of an unknown $d$-dimensional quantum state $ρ$ and a known collection of observables ${E_1,\\ldots,E_m}$, the goal is to estimate all expectation values $\\{\\Tr(ρE_i)\\}_{i=1}^m$ to additive accuracy $\\varepsilon$ with probability at least $1-δ$. An elusive open question from the seminal shadow tomography work of Aaronson (STOC'18) is whether this task admits a dimension-independent sample complexity with only polylogarithmic dependence on $m$, as suggested by the best-known lower bounds. In this work, we give a quantum protocol for shadow tomography with sample complexity \n\\[ O\\left( \\frac{1}{\\varepsilon^2} \\frac{(\\log (m/δ))^4} {(\\log\\log (m/δ))^3} \\right), \\]\n which is polylogarithmic in the number of observables and independent of the dimension of the unknown state thereby answering Aaronson's original question while also providing an exponential improvement in the prior best dimension independent sample complexity of shadow tomography from Sinha (STOC'25). Our approach first reduces the general shadow-tomography problem to a finite-ensemble estimation problem via a minimax argument. We then develop an observable-independent protocol that repeatedly applies the pretty-good measurement and updates the priori distribution over the finite ensemble according to the measurement outcomes. A refined tail analysis of the resulting estimation error yields simultaneous accuracy guarantees for all observables.",
+    "authors": [
+      "Jeronimo, Fernando Granha",
+      "Huang, Qizhao",
+      "Liu, Lenny"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-07T11:42:01.132236Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188276",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188276",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188276"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

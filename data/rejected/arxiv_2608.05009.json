@@ -7,7 +7,7 @@
     "inspire_id": "3187910",
     "doi": null,
     "title_en": "Weak Form Recovery of Heston Type Stochastic Dynamics",
-    "abstract_en": "We study whether a spatial weak-form LASSO pipeline can recover the Heston stochastic-volatility model. Gaussian test functions convert local increment moments into weak targets for drift, diffusion, and return--variance covariance. Using 50 Gaussian kernels, the linear library ${1,v}$, column normalization, five-fold cross-validated LASSO, and contemporaneous indexing, 30 independent 100-year simulations recover $ξ$, $ρ$, and $ρξ$ with median relative errors of 0.90%, 0.53%, and 1.80%, while drift recovery is less accurate (12.29% for $κ$, 6.61% for $θ$). Under noisy variance observations, leverage estimates degrade gradually without a sharp phase transition. Applied to S&P 500 data (2007--2010), the method estimates $κ=2.361$, $θ=0.0360$, $ξ=0.530$, and $ρ=-0.329$. A quadratic-drift falsification selects spurious terms in 93% of null simulations, indicating the method is reliable for coefficient estimation within a specified Heston library but not unrestricted model discovery.",
+    "abstract_en": "Estimating the coupled drift, diffusion, and leverage structure of a stochastic-volatility model directly from a price path is an unresolved inverse problem: Kramers--Moyal increment estimators amplify sampling noise as the step shrinks, weak-form SINDy has not been extended to coupled two-dimensional diffusions or to the return--variance cross-variation producing leverage, and Heston calibration typically relies on option-implied surfaces rather than the physical-measure path. We extend the spatial weak-form Galerkin framework to the Heston model: variance increments, squared variance increments, squared price increments, and their cross-product are projected onto shared Gaussian kernels in variance space, giving one LASSO regression that jointly recovers mean reversion $κ$, long-run variance $θ$, vol-of-vol $ξ$, and leverage correlation $ρ$, with a drift-informed bias correction analogous to scalar-SDE diffusion debiasing. Across 30 daily-observed Heston simulations, $ξ$, $ρ$, and $ρξ$ are recovered with median errors under 2%. Applied to S&P 500 data spanning the 2007--2010 crisis, the method recovers negative leverage consistent with the documented equity leverage effect, and a 50-stock Indian panel shows the same sign under several independent variance proxies.",
     "authors": [
       "Gullipalli, Sai Sathvik",
       "A, Eshwar R.",
@@ -15,7 +15,7 @@
     ],
     "categories": [],
     "submitted_at": "2026-08-05T00:00:00Z",
-    "updated_at": "2026-08-06T03:43:49.046791Z",
+    "updated_at": "2026-08-07T03:38:40.983437Z",
     "document_types": [
       "article"
     ],
@@ -31,7 +31,7 @@
       {
         "source": "inspire",
         "record_id": "3187910",
-        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
         "url": "https://inspirehep.net/literature/3187910"
       }
     ],

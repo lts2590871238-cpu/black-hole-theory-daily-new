@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05836",
+    "arxiv_id": "2608.05836",
+    "arxiv_version": null,
+    "inspire_id": "3188370",
+    "doi": null,
+    "title_en": "An End-to-End Threat Model for the Quantum-as-a-Service Pipeline",
+    "abstract_en": "Cloud-based accessing of Quantum-as-a-Service (QaaS) platforms such as IBM Quantum, IonQ Cloud, and Amazon Braket is becoming popular day by day. Hybrid quantum-classical algorithms (VQE, QAOA, QML) transfer data via a long layered pipeline of orchestration, compilation, and execution. Recent works have demonstrated various critical attacks at individual stages: Calibration tampering, SWAP attacks, QubitHammer, and so on. However, these attacks remain separated because of their own terminology, and existing STRIDE-based threat modeling in the context of quantum lacks a structured view towards the QaaS stack itself. We address this concern by decomposing the workflow into six-stage model with STRIDE threat modeling. Our matrix demonstrated attack vectors in quantum-specific, inherited classical, and plausible tiers for each of the stages. We further investigate the underexplored sections (repudiation and elevation-of-privilege) and distinguish three different cross-stage attack chains with higher impacts.",
+    "authors": [
+      "Rahman, Badhon",
+      "Haghparast, Majid",
+      "Mikkonen, Tommi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-07T12:01:14.409399Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188370",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188370",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188370"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

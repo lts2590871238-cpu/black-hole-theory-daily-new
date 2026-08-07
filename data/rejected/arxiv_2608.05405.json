@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05405",
+    "arxiv_id": "2608.05405",
+    "arxiv_version": null,
+    "inspire_id": "3188174",
+    "doi": null,
+    "title_en": "Interferometric Quantum Polynomial Chaos Expansion as a Generative Model for Calorimeter Shower Simulation",
+    "abstract_en": "We present the quantum polynomial chaos expansion, a generative algorithm in which a single circuit is the entire model, and we use it to learn calorimeter images. In a classical chaos expansion the randomness is the input and the coefficients are fitted. Here the randomness is still the only input, entering the circuit as rotation angles and re-uploaded at every block, so that each measured observable is a chaos expansion of the latent variables whose order equals the circuit depth, and what is fitted are the gate angles themselves. Expressivity therefore grows with depth rather than with classical coefficients, correlations between outputs arise only from entangling gates, and a single latent wire read by all qubits carries the collective mode of the data. Nothing fitted stands between the circuit and the sample, so switching the entanglers off is a setting of the model itself and provably yields independent outputs, and attribution of the learned correlations to individual gates becomes a measurement. Choosing between two measurement bases shot by shot sharpens attribution into certification, and the trained model violates the Bell bound obeyed by every classical generative model with local response, whatever its size. We train the model on Geant4 shower data, execute the identical circuit on a superconducting processor with its accuracy loss predicted in advance, prove a no-go theorem for the tail dependence of every smooth generator read out through expectation values, and identify the circuit primitive that removes this limit.",
+    "authors": [
+      "Slim, Jamal",
+      "Monaco, Saverio",
+      "Rehm, Florian",
+      "Kruecker, Dirk",
+      "Gaede, Frank",
+      "Borras, Kerstin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-07T11:37:57.404010Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188174",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188174",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188174"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

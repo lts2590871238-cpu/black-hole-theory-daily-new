@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05740",
+    "arxiv_id": "2608.05740",
+    "arxiv_version": null,
+    "inspire_id": "3188155",
+    "doi": null,
+    "title_en": "Improved regret bounds for structured online learning of quantum states",
+    "abstract_en": "Quantum state tomography is fundamental to quantum information processing but becomes infeasible at scale due to the exponential growth of the state space. Shadow tomography alleviates this challenge by focusing on predicting measurement outcomes rather than reconstructing the full state. Its online variant models adaptive and potentially adversarial measurement scenarios, where a learner sequentially predicts outcomes while competing with the best fixed quantum state in hindsight. We show that exploiting additional structure in the measurements leads to significantly stronger regret guarantees. In particular, under the assumption that the adversarial measurements have bounded Frobenius norm, we analyze Projected Online Gradient Descent and derive regret bounds that depend on intrinsic structural properties, such as rank or sparsity, rather than the ambient Hilbert space dimension. As a complementary result, we show that one can achieve logarithmic regret, independent of both the number of qubits and measurement outcomes, for multi-outcome measurements under squared $L_2$ loss. These results demonstrate that incorporating realistic structural assumptions can substantially enhance the learnability of quantum states in online environments.",
+    "authors": [
+      "Bansal, Akshay",
+      "Liu, Jiahui"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-07T11:38:02.582858Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188155",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188155",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188155"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

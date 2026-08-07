@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/7rqh-fxvn",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3188488",
+    "doi": "10.1103/7rqh-fxvn",
+    "title_en": "Purely data-driven description for nuclear charge radii: Global trends and local fluctuations",
+    "abstract_en": "As a fundamental property of atomic nuclei, the nuclear charge radius reveals rich structural characteristics such as shell evolution and pairing correlation. Previously, machine learning strategies have been employed in this domain by typically utilizing the residuals between experimental measurements and theoretical predictions as training input to optimize calculations and significantly improve accuracy. In contrast, the present study focuses on the local variations in the nuclear charge radii to investigate the underlying shell structure. Specifically, we adopt a purely data-driven approach, directly utilizing raw radius data as training samples in an attempt to delineate the evolutionary trajectories of the shell structure. In general, the root mean square deviation of the entire dataset between the experimental and predicted values can be reduced to 0.0134 fm using the Extreme Gradient Boosting (XGBoost) algorithm. Encouraged by this, we partitioned the isotopic chains into various <math><mi>N</mi></math>, using the majority of the chains alongside the bulk data for training, and reserving the remainder for validation. This approach provides clear insights into shell evolution by successfully capturing structural kinks, specifically slope discontinuities at magic numbers <math><mrow><mi>N</mi><mo>=</mo><mn>28</mn><mo>,</mo><mspace width=\"0.16em\"/><mn>50</mn><mo>,</mo></mrow></math> and 82. Furthermore, the odd-even staggering, governed by the interplay of nuclear deformation and pairing correlations, is well reproduced, as exemplified in the barium isotopic chain. These findings highlight the capability of the machine learning algorithm to implicitly learn the microscopic mechanisms of the nuclear structure from the minimalist feature space. Ultimately, this establishes a novel and robust paradigm for investigating exotic nuclei far from the line of stability and constraining the nuclear equation of state.",
+    "authors": [
+      "Meng, Huan",
+      "Ji, Yi",
+      "Li, Ruibo",
+      "Qian, Yibin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-07T15:42:07.440423Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 024314, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613969'}, 2, Phys.Rev.C"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188488",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188488",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188488"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

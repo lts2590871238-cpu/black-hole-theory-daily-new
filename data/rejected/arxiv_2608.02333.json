@@ -6,14 +6,14 @@
     "arxiv_version": null,
     "inspire_id": "3187089",
     "doi": null,
-    "title_en": "Finite-Syndrome Compression of Quantum Fisher Information",
-    "abstract_en": "Readable error records can protect quantum sensing because they prevent physically distinct noise trajectories from being irreversibly mixed. A finite detector or ancilla, however, can retain only finitely many syndrome values, and a general criterion for deciding which records may be merged without losing metrological information is absent. We formulate the problem for a fixed fine-grained classical-quantum record and parameter-independent compression into at most $M$ flags. We prove an exact identity expressing the lost symmetric-logarithmic-derivative quantum Fisher information (SLD QFI) as a sum of state-weighted squared distances between fine and coarse SLD scores. Consequently, optimal finite-syndrome design is exactly an operator-valued clustering problem, and zero loss is characterized by a support-resolved common-SLD condition. We extend the identity to the full multiparameter SLD QFI matrix and distinguish local QFI preservation from recovery of an entire statistical model. For exact recovery of a quantum code, we separately show that, when each fine error is individually correctable, the minimum number of readable syndromes is the chromatic number of a Knill-Laflamme incompatibility graph. For qubit random-unitary noise we obtain a finite partition formula. A planar random-Pauli model admits a conditional-variance representation and, for a uniform error axis, the exact optimum $F_M^{\\star}=[M\\sin(π/M)/π]^2$, with deficit $π^2/(3M^2)+O(M^{-4})$. These results identify the information-theoretic cost of finite syndrome resolution while making explicit the side-information assumptions required for any passive noise-to-erasure interpretation.",
+    "title_en": "Task-Dependent Syndrome Memory in Quantum Sensing and State Recovery",
+    "abstract_en": "Preserving metrological information under noise is central to quantum sensing, yet finite detectors and memories impose an unavoidable limit on how finely noise trajectories can be resolved. Using exact symmetric-logarithmic-derivative geometry, we determine when a monitored trajectory can be compressed without losing quantum Fisher information. For an explicit faithful monitored qubit family, the complete joint signal-and-noise model is recoverable from only polynomially many type records, requiring $O(\\log n)$ terminal memory, whereas deferred recovery of arbitrary $n$-qubit states requires exponentially many trajectories, or $O(n)$ memory. Online correction replaces this terminal storage by an irreducible per-use readout and feedback alphabet. These results establish syndrome information as a task- and timing-dependent resource connecting quantum sensing, statistical sufficiency, and quantum error correction.",
     "authors": [
       "Sheng, Jianqi"
     ],
     "categories": [],
     "submitted_at": "2026-08-03T00:00:00Z",
-    "updated_at": "2026-08-05T10:49:05.509661Z",
+    "updated_at": "2026-08-07T03:11:11.307478Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3187089",
-        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
         "url": "https://inspirehep.net/literature/3187089"
       }
     ],

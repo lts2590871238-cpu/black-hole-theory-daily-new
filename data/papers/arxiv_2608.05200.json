@@ -5,7 +5,7 @@
     "canonical_key": "arxiv:2608.05200",
     "arxiv_id": "2608.05200",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3188193",
     "doi": null,
     "title_en": "Equivalence of mapping gravitational wave background anisotropy across bases at equal information content",
     "abstract_en": "Mapping anisotropies in the gravitational-wave background (GWB) requires choosing a basis to represent the sky intensity, such as pixel and spherical harmonic bases. Each introduces a truncation---e.g., a number of pixels or a maximum multipole l_max---often set by a naive counting argument that relate the number of measurable modes to the number of independent cross-correlations, N_pair, in a pulsar timing array (PTA). However, such truncations can lead to reconstruction artefacts, as they do not reflect the true information content of the PTA response. Increasing the value of truncation parameters spans the observable space better but reveals poorly constrained modes, making the inverse problem ill-conditioned and requiring regularization. A natural approach is to restrict the reconstruction to a well-measured subspace via principal maps, defined by the dominant eigenmodes of the detector response (or Fisher) matrix. However, these maps are not a fundamental parameterization of the sky, but rather, are derived from an underlying representation---such as a pixelization or a spherical harmonic expansion. While their explicit form depends on basis choice, they can span the \\textit{same subspace} when the underlying representation is sufficiently complete. Here, we show that reconstructed anisotropy maps via different bases are equivalent, provided they retain the same information content, i.e., span the same principal subspace. As illustrative cases, we consider a toy model for PTA configuration and several GWB anisotropy shapes: point source, an extended source with deterministic anisotropy, and a statistical isotropic background, along with its summary statistic---the angular power spectrum. Although the reconstructions are equivalent, their computational costs can differ. We conclude with brief comments on the construction of principal maps for ground-based interferometers.",
@@ -17,23 +17,31 @@
       "astro-ph.CO",
       "gr-qc"
     ],
-    "submitted_at": "2026-08-05T03:13:20Z",
-    "updated_at": "2026-08-05T03:13:20Z",
-    "document_types": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-07T11:42:04.982560Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2608.05200v1",
     "pdf_url": "https://arxiv.org/pdf/2608.05200v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188193",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.05200",
-        "fetched_at": "2026-08-07T01:45:35.000528Z",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
         "url": "https://arxiv.org/abs/2608.05200v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3188193",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188193"
       }
     ],
     "is_demo": false
@@ -93,5 +101,5 @@
     "schema_version_used": "curation-schema-1.0",
     "created_at": "2026-08-07T01:48:07.991925Z"
   },
-  "published_at": "2026-08-07T01:48:07.992430Z"
+  "published_at": "2026-08-07T23:53:53.224748Z"
 }

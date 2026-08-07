@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05807",
+    "arxiv_id": "2608.05807",
+    "arxiv_version": null,
+    "inspire_id": "3188360",
+    "doi": null,
+    "title_en": "Noise-aware Verification and Synthesis of Quantum Programs",
+    "abstract_en": "While most research on quantum programming considers an idealized, noise-free semantics for quantum programs, we reason about quantum programs that are executed on real, noisy hardware. We consider the error models published by quantum hardware vendors to give a hardware-dependent semantics to quantum programs. This work presents a comprehensive study of noise-aware quantum programming, ranging from logical foundations to automated verification and synthesis. We develop a noise-aware quantum Hoare logic, and use it to derive algorithmic methods for the bounded verification of quantum programs on specific hardware, and for the automatic synthesis of noise-optimal loop-free quantum programs. In this way, we synthesize hardware-dependent subroutines that commonly occur in quantum algorithms, such as parity checks, quantum state preparation, and quantum state discrimination. We evaluate our method on the hardware specifications provided by the IBM Qiskit toolkit. Besides finding different optimal subroutines for different noise models, our synthesis tool also shows that classical probabilistic branching is needed for optimality in quantum programming.",
+    "authors": [
+      "Muroya, Stefanie",
+      "Chatterjee, Krishnendu",
+      "Henzinger, Thomas A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-07T13:30:01.337452Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188360",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188360",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188360"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

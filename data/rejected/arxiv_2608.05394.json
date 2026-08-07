@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05394",
+    "arxiv_id": "2608.05394",
+    "arxiv_version": null,
+    "inspire_id": "3188167",
+    "doi": null,
+    "title_en": "Feasibility-Preserving Quantum Search for Constrained Transportation Routing",
+    "abstract_en": "Transportation routing problems such as the Traveling Salesperson Problem (TSP) and the Vehicle Routing Problem (VRP) are characterized by strict feasibility requirements involving customer assignment and visit rules, route sequencing, and depot-return logic alongside cost minimization. Most quantum routing formulations adopt Quadratic Unconstrained Binary Optimization (QUBO) encodings, where feasibility is incorporated indirectly via penalty terms in the cost Hamiltonian. While convenient for standard implementations of the Quantum Approximate Optimization Algorithm (QAOA), QUBO encodings allow the quantum search dynamics to allocate substantial probability to infeasible route configurations. This study develops a transportation-grounded constraint-aware Quantum Alternating Operator Ansatz (QAOA+) framework that embeds feasibility-preserving logic directly into the search operator. We introduce a custom mixer that functions as a quantum analogue of feasibility-preserving routing neighborhoods, using column-wise swap moves, it restricts evolution to feasible configurations while enabling structured exploration of valid routes. We compare three constraint-handling architectures: penalty-based QUBO QAOA, penalty free QAOA+ with the feasibility-preserving mixer, and a Hybrid QAOA+ combining mixer based feasibility with and penalty guidance. Results on small TSP and VRP instances show that constraint-handling architecture strongly influences feasible-route sampling, convergence behavior, and probability concentration over low-cost feasible routes. These findings position constraint-aware quantum search as a methodological extension of transportation routing search approaches, where feasibility is enforced through admissible quantum transitions rather than post-hoc penalties.",
+    "authors": [
+      "Kim, Dahye",
+      "Filipovska, Monika"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-07T11:37:56.464387Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188167",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188167",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188167"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

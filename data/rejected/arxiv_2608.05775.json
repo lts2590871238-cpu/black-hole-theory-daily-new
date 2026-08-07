@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.05775",
+    "arxiv_id": "2608.05775",
+    "arxiv_version": null,
+    "inspire_id": "3188157",
+    "doi": null,
+    "title_en": "Robust logarithmic lower bound on shared-resource cost for $f$-routing",
+    "abstract_en": "In one-round $f$-routing, Alice receives an $n$-bit string and an unknown qubit, while Bob receives another $n$-bit string. They exchange one simultaneous message each, and the value of $f$ determines which party must recover the qubit. Message lengths, local systems, and local operations are unrestricted. We charge only $E_{\\dim}(ρ_{LR})=\\log_2\\min\\{\\operatorname{rank}ρ_L,\\operatorname{rank}ρ_R\\}$, the logarithm of the smaller marginal support dimension of the shared state prepared before the inputs arrive. The state may be arbitrary and mixed. For the inner product modulo $2$, we prove that every protocol with worst-case error at most $0.09$ in both routing cases, measured in the full, unhalved diamond norm, satisfies $d\\log_2(2d)=Ω(n)$ for $d=\\min\\{\\operatorname{rank}ρ_L,\\operatorname{rank}ρ_R\\}$. Thus $d=Ω(n/\\log n)$ and $E_{\\dim}(ρ_{LR})\\ge\\log_2 n-\\log_2\\log_2 n-O(1)$. The closest earlier growing Schmidt-rank lower bound for an explicit routing function assumes zero error in one routing case. Our proof converts correctness into a matrix whose entries have a constant gap between the two routing cases. It approximates this matrix by one whose rank depends on $d$, but not on the dimensions of messages or local systems. A sign-rank lower bound for the matrix of the inner product modulo $2$ completes the argument. A lower bound polynomial in $n$ on $E_{\\dim}$ remains open.",
+    "authors": [
+      "Bogner, Kevin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-07T11:57:38.495873Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188157",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188157",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188157"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

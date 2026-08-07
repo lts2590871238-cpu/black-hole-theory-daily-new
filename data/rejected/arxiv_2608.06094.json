@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06094",
+    "arxiv_id": "2608.06094",
+    "arxiv_version": null,
+    "inspire_id": "3188059",
+    "doi": null,
+    "title_en": "Time-Dependent Hamiltonian Simulation with Optimal Query Complexity",
+    "abstract_en": "We give a query-optimal algorithm for simulating a general $n$-qubit time-dependent Hamiltonian $H(t)$ on $[0,T]$, assuming that $H$ is Lipschitz continuous and $\\|H(t)\\|\\leqα$. In the standard $\\mathrm{HAM\\mbox{-}T}$ access model, the algorithm approximates the time-ordered propagator $U_H(T)$ to error $\\varepsilon$ using \n$$ O\\left( αT+\\frac{\\log(1/\\varepsilon)} {\\log(e+\\log(1/\\varepsilon)/(αT))} \\right) $$\n$\\mathrm{HAM\\mbox{-}T}$ queries. This matches the known query lower bound for time-independent Hamiltonians, showing that time dependence incurs no asymptotic query overhead. Our method first constructs a one-query transducer that, given an auxiliary state, implements an approximation to $U_H(T)$ and returns the state unchanged. A weighted combination of circuits that apply the transducer different numbers of times makes the error caused by omitting this state decay factorially, yielding the stated optimal precision dependence. For time-independent Hamiltonians, the same method also gives a query-optimal alternative to qubitization.",
+    "authors": [
+      "Chen, Boyang",
+      "Gao, Minbo",
+      "Wang, Xinzhao",
+      "Zhou, Shuo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-07T11:42:06.450198Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188059",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188059",
+        "fetched_at": "2026-08-07T23:52:51.977103Z",
+        "url": "https://inspirehep.net/literature/3188059"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
