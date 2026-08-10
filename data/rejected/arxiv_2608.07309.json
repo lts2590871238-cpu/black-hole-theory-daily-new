@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.07309",
+    "arxiv_id": "2608.07309",
+    "arxiv_version": null,
+    "inspire_id": "3188742",
+    "doi": null,
+    "title_en": "Improved Quantum Algorithms for Subset Sum and $k$-SUM",
+    "abstract_en": "The Subset Sum problem asks whether, given $n$ integers and a target, some subset of the integers sums to the target. Its best known worst-case running time is $O^*(2^{n/2})$ (Horowitz and Sahni, 1974), whereas the best quantum upper bound is $O^*(2^{n/3})$ (Bernstein, Jeffery, Lange, and Meurer, 2013). The $k$-SUM problem is a parameterized version of Subset Sum asking whether there are $k$ integers that sum to the target. The best classical upper bound for it is $\\widetilde O(n^{\\lceil k/2\\rceil})$, whereas the best quantum running time is $\\widetilde O(n^{k/3})$ (Tani, 2009). For random instances, a quantum algorithm with running time $\\widetilde O(n^{Φ_k})$ is known, where \n$$ Φ_k=\\frac{2k-\\lfloor k/7\\rfloor-\\lfloor (k+3)/7\\rfloor}{6} $$\n (Schrottenloher, 2021). We present a new quantum algorithm solving worst-case $k$-SUM in time $\\widetilde O(n^{Ψ_k})$, where \n$$ Ψ_k=Φ_k-\\frac{[k\\equiv 3\\bmod 7]}{9}-\\frac{[k\\equiv 6\\bmod 7]}{18}. $$\n The algorithm is not only faster for all $k$ congruent to $3$ or $6$ modulo $7$, but also gives a worst-case guarantee rather than a guarantee restricted to single-solution random instances. Combining our algorithm for $7$-SUM with the standard block reduction technique yields an $O^*(2^{2n/7})$ quantum algorithm for Subset Sum, improving the previously known $O^*(2^{n/3})$ algorithm.",
+    "authors": [
+      "Chukhin, Nikolai",
+      "Kulikov, Alexander S.",
+      "Levitskii, Maksim",
+      "Mihajlin, Ivan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-10T10:44:28.009583Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188742",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188742",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188742"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

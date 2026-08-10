@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06703",
+    "arxiv_id": "2608.06703",
+    "arxiv_version": null,
+    "inspire_id": "3188536",
+    "doi": null,
+    "title_en": "Shor's algorithm requires Fanout",
+    "abstract_en": "Shor's algorithm is a canonical quantum supremacy target whose core operation relies on the Quantum Fourier Transform (QFT). We resolve an open question of Fang, Fenner, Green, Homer and Zhang from 2006 by showing that approximating QFT in constant depth, for any $n$-qubit modulus, necessarily requires the $n$-qubit Fanout operation. Formally, let $\\mathsf{QFT}_q$ be the gate acting on $n = \\lceil \\log q \\rceil$ qubits that computes the QFT under modulus $q$. It is known that any $n$-qubit $\\mathsf{QFT}_q$ can be implemented in constant depth using $\\mathsf{FANOUT}_n$, i.e. $\\mathsf{QFT}_q \\in \\mathsf{QAC}^0_f$. We prove the converse by using a $\\mathsf{QFT}_q$ gate to construct a state of ``non-negligible felinity\". Consequently, $\\mathsf{QFT}_q \\in \\mathsf{QAC}^0 \\iff \\mathsf{FANOUT}_n \\in \\mathsf{QAC^0}$. In the case of $q = 2^n$, such as in Shor's, we approximate $\\mathsf{FANOUT}_n$ using a single $\\mathsf{QFT}_{2^n}$ gate and $O(1)$ two-qubit local gates, thus tying the feasibility of realizing Shor's algorithm with NISQ circuits to that of Fanout.",
+    "authors": [
+      "Gretta, Lucas",
+      "Joshi, Malvika Raj"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-10T10:27:13.246410Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188536",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188536",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188536"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

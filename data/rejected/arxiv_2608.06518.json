@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06518",
+    "arxiv_id": "2608.06518",
+    "arxiv_version": null,
+    "inspire_id": "3188555",
+    "doi": null,
+    "title_en": "Gamma Neutron Radioactive Source Identification in Water Cherenkov Detectors",
+    "abstract_en": "Water Cherenkov Detectors (WCDs) are a robust technology widely used in astrophysics, high energy physics, and recently nuclear security applications. They detect high energy interactions through the Cherenkov light emitted by charged particles traveling faster than the speed of light in water. In this work, we demonstrate the feasibility of gamma-neutron discrimination in WCDs using a combined methodology that integrates statistical analysis with machine learning techniques. The experimental setup employs different shielding configurations to isolate gamma and neutron contributions from a \\textsuperscript{241}AmBe source, while \\textsuperscript{60}Co and \\textsuperscript{137}Cs sources are used to establish a signal to energy calibration. A statistical analysis based on a $3σ$ significance criterion is used to define energy thresholds, enabling a linear relationship between the measured charge spectrum and the deposited energy. Building on this calibration, pulse shape information is further exploited through machine learning methods to improve event classification. An ensemble model based on a soft-voting strategy combining a Bagging classifier, CatBoost, and a Multilayer Perceptron was trained on detector signals acquired under different shielding conditions, achieving an accuracy of 0.816 and an area under the Receiver Operating Characteristic (ROC) curve. The combined approach demonstrates that statistical thresholding provides a physically grounded discrimination baseline across the full energy range, while machine learning enhances classification performance at higher energies by leveraging pulse level information. This integrated strategy improves radiation identification capabilities in water Cherenkov detectors, with potential applications in nuclear security and radiation detection.",
+    "authors": [
+      "Selin, A. Núñez",
+      "Cano, C. Sarmiento",
+      "Asorey, H.",
+      "Sidelnik, I."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-10T10:27:40.339714Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188555",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188555",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188555"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06426",
+    "arxiv_id": "2608.06426",
+    "arxiv_version": null,
+    "inspire_id": "3188680",
+    "doi": null,
+    "title_en": "Quantum Noise Mitigation with Adaptive Zero-Noise Extrapolation: A Contextual Multi-Armed Bandits Approach",
+    "abstract_en": "Variational quantum circuits (VQCs) are central to near-term quantum computing, yet their practical deployment is severely hindered by noise. While existing error mitigation methods, such as zero-noise extrapolation (ZNE), typically assume static noise, real noisy intermediate-scale quantum (NISQ) systems exhibit dynamic, time-varying noise that remains largely unaddressed. To overcome this critical gap, our work introduces a novel adaptive noise mitigation framework for VQCs that integrates ZNE with contextual multi-armed bandits (CMAB), enabling dynamic, context-aware selection of circuit-folding levels based on ansatz parameters (e.g., depth, parameter count) and the evolving noise environment. Unlike fixed-fold or heuristic ZNE, our approach uses online adaptation to improve the accuracy of ZNE and reduce redundant quantum circuit executions. Our extensive simulations and experiments on real quantum hardware reveal the following important properties: (i) deeper VQCs accumulate noise, degrading accuracy and increasing the number of quantum circuit executions; (ii) ZNE restores estimator fidelity when the folding level is chosen appropriately; and (iii) CMAB-guided folding cuts quantum circuit execution round trips by up to 40%, bytes exchanged by up to 35%, and end-to-end cost by up to 30% under a 10~Mbps budget, with up to 6.9% higher estimator fidelity (CIFAR-10, depth 3, noise band $η=0.05$), versus fixed-fold and grid-search ZNE. These results demonstrate substantial performance gains over existing noise mitigation methods, underscoring the effectiveness of our design in supporting robust noise mitigation for VQCs. The source code is also publicly released to support reproducibility.",
+    "authors": [
+      "Rahman, Ratun",
+      "Nguyen, Dinh C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-10T10:27:18.426134Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188680",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188680",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188680"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

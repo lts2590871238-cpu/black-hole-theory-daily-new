@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06452",
+    "arxiv_id": "2608.06452",
+    "arxiv_version": null,
+    "inspire_id": "3188559",
+    "doi": null,
+    "title_en": "Logarithmic Wavelets for Dark Matter--Phonon Scattering",
+    "abstract_en": "Phonon excitations in crystals are a promising detection channel for sub-GeV dark matter (DM), and anisotropic targets add directional sensitivity through the daily modulation of the rate. Exploiting these capabilities requires evaluating six-dimensional rate integrals across DM models, target materials, detector orientations, and times of day. The vector space integration method factorizes the calculation into projections of the DM velocity distribution and of the material response -- each computed once and reused -- contracted with an analytic kinematic matrix, reducing such scans to fast matrix algebra. In the phonon channel, however, the relevant momentum transfers span six orders of magnitude, and the linearly spaced Haar wavelet basis of existing implementations falls short: light mediator models demand an impractically large basis, and a single projection reused across DM masses loses its effective resolution for light DM. We introduce a logarithmic Haar wavelet basis that resolves both obstacles, and present a package VectorPhonoDark that implements the approach. On an Al$_2$O$_3$ daily modulation benchmark, it reproduces results from PhonoDark's direct numerical integration while reducing the computational cost by orders of magnitude. Though developed here for phonons, the logarithmic wavelet basis generalizes to any DM detection channel spanning a wide range of momentum transfers, enabling efficient scans over DM models and detection strategies.",
+    "authors": [
+      "Li, Xu-Xiang",
+      "Zhang, Zhengkang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-10T11:16:55.339154Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188559",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188559",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188559"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

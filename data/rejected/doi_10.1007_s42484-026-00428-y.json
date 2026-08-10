@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00428-y",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3188809",
+    "doi": "10.1007/s42484-026-00428-y",
+    "title_en": "Adaptive quantum ansatz circuit design and optimization",
+    "abstract_en": "To address the challenges of poor adaptability in variational quantum algorithm ansatz templates and high noise sensitivity in deep structures on NISQ devices, an adaptive ansatz construction and optimization method is proposed. This approach dynamically adjusts circuit structures and optimizes performance according to varying datasets and task requirements. A full binary tree is used to represent the predefined ansatz structure, and a simulated annealing algorithm guides the qubit merging path to facilitate construction. By integrating hierarchical ansatz training with multi-objective particle swarm optimization, the method simultaneously optimizes expressibility, entanglement capability, and circuit depth. This ensures circuit depth compression while balancing these performance metrics, enabling task-oriented ansatz design and circuit optimization. On three binary classification tasks from the Iris dataset, the method achieved average accuracies of 98.3%, 96.7%, and 96.7% under 8-qubit conditions, outperforming random qubit selection. For three-class classification tasks on MNIST and CIFAR-10, average accuracy improved by 5.5% and 1.4%, respectively, under 12-qubit conditions. Furthermore, multi-objective particle swarm optimization reduced circuit depth by approximately 18.5% under 12-qubit conditions.",
+    "authors": [
+      "Cheng, Xueyun",
+      "Yang, Fan",
+      "Diao, Rong",
+      "Ding, Fei",
+      "Zhao, Shuxian",
+      "Guan, Zhijin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-05T00:00:00Z",
+    "updated_at": "2026-08-10T12:37:55.132790Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 86, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188809",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188809",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188809"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

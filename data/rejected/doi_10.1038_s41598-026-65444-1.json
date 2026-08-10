@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1038/s41598-026-65444-1",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3188802",
+    "doi": "10.1038/s41598-026-65444-1",
+    "title_en": "Coherence and fidelity aware routing in quantum networks",
+    "abstract_en": "In quantum networks, routing mechanisms designed to deliver successfully multiple simultaneous requests to the destination under limited channel capacity should simultaneously consider resource usage optimization, entanglement-generation performance, and the quality of the end-to-end delivered entangled states. The routing approaches developed for quantum networks in the literature mostly consider the change in fidelity during routing. However, it should be noted that quantum states with the same fidelity value may have different levels of coherence. In this study, for the first time, a novel routing and purification approach for quantum networks is presented, using the end-to-end (E2E) relative entropy of coherence (REC) together with E2E fidelity to determine the purification level and the feasibility of candidate paths. In our study, the coherence- and fidelity-aware routing algorithm (CAFARA) is proposed. In CAFARA, the BBPSSW purification levels are determined for each candidate path and ordered from the lowest to the highest. This information is stored in a lookup table. Then, the lowest BBPSSW purification level that simultaneously satisfies the requested fidelity, REC, latency, and capacity constraints is selected. The E2E fidelity, REC, and required number of raw Bell pairs mentioned here are all stored together in the previously mentioned lookup table. This lookup table was constructed using imperfect initial Werner states, one-sided amplitude damping, Werner-state twirling, BBPSSW purification, and density-matrix-based entanglement swapping, and all calculations were completed before the routing process. As the final step, CAFARA selects the best path with the highest entanglement generation rate (EGR) from the selected feasible paths. In our study, the FARA-PostREC and FARA-NoREC algorithms were developed for comparison with CAFARA. While the FARA-PostREC algorithm uses the REC constraint during the final validation stage of the request, FARA-NoREC does not use any REC constraint; it uses only fidelity as the quality parameter of the paths and as the parameter for determining the purification level. In our simulations under varying link distance, channel capacity, network size, and request load, CAFARA achieved a better average request success rate than FARA-PostREC by reducing late-stage request drops related to coherence because it also uses REC during the purification-level determination stage while maintaining the required E2E fidelity and REC values. Although FARA-NoREC often accepts more requests and assumes that they are successfully delivered, the average final fidelity (AFF) and average final coherence (AFC) values of the requests considered successful are lower than those of the other algorithms; the AFC does not even satisfy the REC threshold. Overall, CAFARA provides a balanced trade-off between the quality-guaranteed request success rate, latency, purification overhead, and resource consumption.",
+    "authors": [
+      "Tunc, Hilal Sultan Duranoglu",
+      "Halder, Joy",
+      "Hajizade, Azita",
+      "Voigt, Andreas",
+      "Arar, Bassem",
+      "Bassoli, Riccardo",
+      "Fettweis, Gerhard P.",
+      "Fitzek, Frank H. P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-06T00:00:00Z",
+    "updated_at": "2026-08-10T12:47:26.881820Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "16, 24346, 2026, {'$ref': 'https://inspirehep.net/api/journals/1211634'}, 1, Sci.Rep."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188802",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188802",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188802"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

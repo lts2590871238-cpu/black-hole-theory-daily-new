@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.06944",
+    "arxiv_id": "2608.06944",
+    "arxiv_version": 1,
+    "inspire_id": "3188590",
+    "doi": null,
+    "title_en": "Parameter Estimation for Eccentric Supermassive Black Hole Binaries with Pulsar Timing Arrays",
+    "abstract_en": "Pulsar timing array (PTA) experiments are searching for gravitational waves (GWs) in the nanohertz band. The primary GW sources targeted by PTAs include populations of inspiralling supermassive black hole binaries (SMBHBs) in the local Universe, some of which may emit detectable continuous gravitational-wave (CGW) signals. In this paper, we focus on the detection strategy for individual binaries on eccentric orbits. Using simulated datasets based on the EPTA DR2new configuration, we perform injection-recovery studies across the parameter space. We demonstrate that individual component masses can be measured when an eccentric SMBHB is detected at high GW frequencies. We further show a correlation between the CGW signal and the stochastic gravitational-wave background (SGWB) at low frequencies, which makes CGW identification challenging. Finally, the developed software is GPU-compatible, enabling efficient Bayesian inference. This work lays the groundwork for future applications to real PTA data.",
+    "authors": [
+      "Sara Manzini",
+      "Stanislav Babak"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-10T10:42:50.344168Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.06944v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.06944v1",
+    "inspire_url": "https://inspirehep.net/literature/3188590",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.06944",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://arxiv.org/abs/2608.06944v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3188590",
+        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "url": "https://inspirehep.net/literature/3188590"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays",
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [
+      "continuous gravitational wave",
+      "nanohertz",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 100
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 13,
+      "methodological_rigor": 16,
+      "novelty": 9,
+      "clarity": 9,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 60,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文针对脉冲星计时阵列对偏心超大质量双黑洞的参数估计进行了注入-恢复研究，主题明确，方法严谨，对PTA数据分析有实际意义。",
+    "title_zh": "脉冲星计时阵列对偏心超大质量双黑洞的参数估计",
+    "abstract_zh": "脉冲星计时阵列（PTA）实验正在搜索纳赫兹频段的引力波（GWs）。PTAs的主要引力波源包括本地宇宙中旋进的超大质量双黑洞（SMBHBs）的群体，其中一些可能发射可探测的连续引力波（CGW）信号。在本文中，我们专注于对偏心轨道上个别双星的探测策略。使用基于EPTA DR2new配置的模拟数据集，我们在参数空间中进行注入-恢复研究。我们证明了当在高频引力波频段探测到偏心SMBHB时，可以测量各组分的质量。我们进一步展示了CGW信号与低频随机引力波背景（SGWB）之间的相关性，这使得CGW识别具有挑战性。最后，所开发的软件兼容GPU，从而能够进行高效的贝叶斯推断。这项工作为未来应用于真实PTA数据奠定了基础。",
+    "keywords_en": [
+      "pulsar timing arrays",
+      "supermassive black hole binaries",
+      "gravitational waves",
+      "eccentric orbits",
+      "parameter estimation"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "超大质量双黑洞",
+      "引力波",
+      "偏心轨道",
+      "参数估计"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-10T23:56:29.679100Z"
+  },
+  "published_at": "2026-08-10T23:56:29.679516Z"
+}
