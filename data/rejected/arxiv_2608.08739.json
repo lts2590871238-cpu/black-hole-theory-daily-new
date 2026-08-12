@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.08739",
+    "arxiv_id": "2608.08739",
+    "arxiv_version": null,
+    "inspire_id": "3189160",
+    "doi": null,
+    "title_en": "DA-CASE: reusable measurements for adaptive quantum subspaces",
+    "abstract_en": "Quantum subspace methods are often compared by basis dimension or energyerror, although their dominant experimental costs arise from different statepreparations, measurement settings, and shot allocations. We present theDyadic Adaptive Clifford-Algebra Subspace Eigensolver (DA-CASE), whose basisstates are virtual directions $A_i|ψ\\rangle$ generated from one reference.Overlap, Hamiltonian, and observable matrices are reconstructed from onecached set of Pauli expectations on that reference. The method thereforetrades multiple prepared basis states for a potentially wide measurement bank.We make that trade explicit on a frozen eight-qubit H$_4$ Hamiltonian. Twogenerator resolutions reach the same nine-dimensional subspace and the sameenergy to machine precision, while the retained bank changes from 7371 to 2240Pauli words. A reference-conditioned symmetry test certifies the narrower spanwithout asserting that its individual Pauli words conserve the sector asabstract operators. Independently, a dyadic commuting hierarchy reduces thedeterminant bank from 913 qubit-wise-commuting settings to 64 fully commutingsettings, while exposing the added logical-CX cost. In a separate four-qubitfinite-shot diagnostic, covariance-aware allocation reduces theprojected-matrix variance target by 68.9%. Mode-wise overlap regularizationremoves the observed catastrophic energy estimates and lowers RMSE, butdoubles the median error relative to a fixed cutoff. These are small-instanceexact and Monte Carlo results, not a hardware demonstration, scaling result,or quantum advantage claim. The contribution is a single-referencemeasurement architecture and a resource ledger that keeps contexts, settings,shots, circuit depth, and post-selection retries in their proper units.",
+    "authors": [
+      "Utama, Ginanjar",
+      "Dipojono, Hermawan Kresno"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-09T00:00:00Z",
+    "updated_at": "2026-08-11T10:47:33.543554Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189160",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189160",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189160"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

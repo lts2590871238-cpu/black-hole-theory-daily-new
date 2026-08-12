@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.07986",
+    "arxiv_id": "2608.07986",
+    "arxiv_version": null,
+    "inspire_id": "3188951",
+    "doi": null,
+    "title_en": "Near-Optimal Gap Amplification for Nonnegative Unentangled Quantum Proofs",
+    "abstract_en": "We study gap amplification of the class $\\mathsf{QMA}^{+}(2)$ characterized by unentangled quantum proofs whose amplitudes are nonnegative in the computational basis. This class was recently introduced by Jeronimo and Wu (STOC 2023), and its behavior depends sharply on the completeness-soundness gap: although it captures the power of $\\mathsf{NEXP}$ for some small constant gap, it is equal to $\\mathsf{QMA}(2)$ for larger constant gap. This is in stark contrast to $\\mathsf{QMA}(2)$ where strong gap amplification is known due to the product test by Harrow and Montanaro (FOCS 2010, JACM 2013). In this paper, we prove for every completeness $c$ and soundness $s$ with $c-s=1/\\mathrm{poly}(n)$, \n\\[ \\mathsf{NEXP} = \\mathsf{QMA}^{+}(2,c,s) = \\mathsf{QMA}^{+}\\left(2,1-\\frac1{\\mathrm{poly}(n)},\\frac14+\\frac1{\\mathrm{poly}(n)}\\right). \\]\n Our result gives a clean complexity phase transition for $\\mathsf{QMA}^{+}(2)$ since we have \n\\[ \\mathsf{QMA}^{\\mathbb R}(2) = \\mathsf{QMA}^{+}\\left(2,1-\\frac1{\\mathrm{poly}(n)},\\frac14-\\frac1{\\mathrm{poly}(n)}\\right), \\]\n where $\\mathsf{QMA}^{\\mathbb R}(2)$ denotes $\\mathsf{QMA}(2)$ with witnesses restricted to real amplitudes. Our amplification is thus optimal in the sense that a slight improvement of our soundness would have the collapse \n\\[ \\mathsf{QMA}^{\\mathbb R}(2)=\\mathsf{NEXP}. \\]\n Our proof combines symmetric-subspace projections with the relation $\\mathsf{QMA}^{+}(1)=\\mathsf{NEXP}$ of Bassirian, Fefferman, and Marwaha (ITCS 2024). The main technical ingredient is a dimension-independent de Finetti theorem in Hilbert-Schmidt norm that applies when the number of registers under consideration grows logarithmically.",
+    "authors": [
+      "Miyamoto, Masayuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-08T00:00:00Z",
+    "updated_at": "2026-08-11T10:49:35.042781Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188951",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188951",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3188951"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

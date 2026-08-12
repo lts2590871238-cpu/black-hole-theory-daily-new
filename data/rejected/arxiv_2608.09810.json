@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.09810",
+    "arxiv_id": "2608.09810",
+    "arxiv_version": null,
+    "inspire_id": "3188988",
+    "doi": null,
+    "title_en": "From Barren Plateaus to SPSA Optimization in Variational Quantum Eigensolvers",
+    "abstract_en": "The barren plateau (BP) phenomenon poses a fundamental challenge to the trainability of variational quantum eigensolvers (VQEs) by causing exponentially vanishing gradients as the system size increases. While extensive studies have investigated the geometric origins of BP, its impact on the optimization dynamics and complexity of practical algorithms under finite-shot measurements remains poorly understood. In this paper, we develop a theoretical framework that characterizes how the BP affects the optimization dynamics of the Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm and quantifies the resulting iteration complexity and measurement budget. We derive non-asymptotic bias and variance characterizations of the SPSA gradient estimator, introduce a signal-to-noise ratio analysis to quantify gradient reliability, and establish convergence guarantees for SPSA under finite-shot measurements. Our results show that the exponentially decaying gradient energy associated with BP leads to an exponential increase in the number of iterations required to achieve a fixed relative optimization accuracy, which in turn results in an exponential increase in the total measurement budget.",
+    "authors": [
+      "Qin, Zhen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-11T10:43:34.005449Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188988",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188988",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3188988"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

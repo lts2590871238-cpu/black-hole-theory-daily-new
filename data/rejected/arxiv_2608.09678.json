@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.09678",
+    "arxiv_id": "2608.09678",
+    "arxiv_version": null,
+    "inspire_id": "3189247",
+    "doi": null,
+    "title_en": "A Gaussian Process framework for constraining the nuclear equation of state from microscopic calculations with correlated uncertainties",
+    "abstract_en": "We present constraints on the nuclear equation of state (EOS) from microscopic asymmetric matter calculations at zero temperature based on chiral nucleon-nucleon and three-nucleon interactions. The constraints include the saturation point, the isospin dependence of the incompressibility, and the symmetry energy, as well as the crust-core transition density of neutron-star matter. To quantify and propagate correlated uncertainties from noisy many-body calculations to derived observables, we introduce GPDiff, an efficient JAX-based Python package for multivariate Gaussian process (GP) regression with automatic differentiation. After training, GPDiff enables joint predictions of the EOS and derivatives of arbitrary order with respect to the input variables, including mixed partial derivatives. In this initial application, we analyze recent high-order many-body perturbation theory calculations of asymmetric matter up to about twice saturation density and explore nonstationary change-surface kernels, a class of input-dependent kernels, for modeling the EOS. GPDiff is broadly applicable to microscopic nuclear EOS calculations at zero and finite temperature and provides a versatile package for GP-based uncertainty quantification and inference of the nuclear EOS.",
+    "authors": [
+      "Lee, Y.G.",
+      "Kim, J.",
+      "Zhao, T.",
+      "Drischler, C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-11T10:55:07.773954Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189247",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189247",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189247"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

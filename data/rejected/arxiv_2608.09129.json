@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.09129",
+    "arxiv_id": "2608.09129",
+    "arxiv_version": 1,
+    "inspire_id": "3189214",
+    "doi": "10.3847/1538-4357/ae8773",
+    "title_en": "Foreground Subtraction with a Tensor-Based Oriented Singular Value Decomposition Method for HI Experiments",
+    "abstract_en": "We introduce a native tensor-based framework for foreground mitigation in 21\\,cm intensity mapping (IM), utilizing the Oriented Singular Value Decomposition (O-SVD) algorithm. While 21\\,cm IM is a powerful probe of the large-scale structure of the Universe, its efficacy is severely limited by astrophysical foregrounds that are orders of magnitude brighter than the cosmological signal. Traditional mitigation strategies often necessitate flattening multidimensional data cubes into two-dimensional matrices, a process that potentially compromises the intrinsic spatial-spectral correlations by treating distinct spatial pixels as independent samples. By treating multi-frequency sky maps and angular power spectra as third-order tensors, the O-SVD method performs decomposition directly on the multilinear manifold, preserving the underlying physical topology and leveraging the distinct coherence properties of astrophysical foregrounds across different dimensions. We demonstrate the performance and versatility of the O-SVD framework through its application to high-fidelity simulations from the SKA Science Data Challenge 3a (SDC3a) and real-world observational data from the Tianlai Cylinder Pathfinder Array. Our results indicate that O-SVD provides a robust and universal approach for foreground subtraction, achieving high-fidelity signal recovery while offering superior performance compared to conventional matrix-based Singular Value Decomposition (SVD) methods.",
+    "authors": [
+      "Shifan Zuo",
+      "Xuelei Chen",
+      "Yi Mao"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-11T11:00:20.061442Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.09129v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.09129v1",
+    "inspire_url": "https://inspirehep.net/literature/3189214",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.09129",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://arxiv.org/abs/2608.09129v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3189214",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189214"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

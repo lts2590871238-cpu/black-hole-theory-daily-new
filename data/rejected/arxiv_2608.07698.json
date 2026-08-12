@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.07698",
+    "arxiv_id": "2608.07698",
+    "arxiv_version": null,
+    "inspire_id": "3189044",
+    "doi": null,
+    "title_en": "Fast and Accurate Prediction of Neutron Star Structure with Deep Neural Networks",
+    "abstract_en": "Solving the Tolman--Oppenheimer--Volkoff (TOV) equations, together with the tidal perturbation equations, for large numbers of equation-of-state (EOS) samples is a major computational bottleneck in Bayesian inference of the dense-matter EOS, and this will become increasingly limiting as next-generation observatories deliver far larger and more precise datasets. We develop neural-network surrogates for the forward TOV mapping that predict neutron star mass, radius, and tidal deformability simultaneously and directly from the EOS parameters and central density. We train and compare two architectures: a conventional feedforward network and a residual network, the latter of which, to our knowledge, has not previously been explored for TOV surrogate modeling. Trained on a piecewise polytropic EOS parameter space, both networks reproduce the numerical solutions to high accuracy, with the coefficient of determination exceeding 0.999 for all three observables, while accelerating the evaluation of stellar observables by roughly two orders of magnitude relative to direct numerical integration. We find that both architectures achieve excellent predictive accuracy at the network sizes considered here, with the residual network providing a modest improvement in accuracy over the feedforward network at the expense of slightly longer inference times. The overall performance differences remain small, indicating that a feedforward network already has sufficient capacity for this mapping while residual connections offer only incremental gains. Nevertheless, the residual architecture provides a robust baseline for future extensions to richer EOS parameterizations or higher-dimensional regression tasks. The resulting surrogates are well-suited to large-scale Bayesian EOS inference and population studies, where repeated TOV evaluations would otherwise dominate the computational cost.",
+    "authors": [
+      "N, Kaushikk, V",
+      "Biswas, Bhaskar",
+      "Rosswog, Stephan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-11T10:54:48.726018Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189044",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189044",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189044"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 20,
+    "methodological_rigor": 15,
+    "novelty": 10,
+    "clarity": 8,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 66,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文聚焦于脉冲星计时阵列（PTA）的引力波背景各向异性，使用蒙特卡洛模拟研究散粒噪声的实现方差，对理解GWB和超大质量黑洞双星种群具有重要价值。",
+  "title_zh": "脉冲星计时阵列散粒噪声引起的引力波背景各向异性的实现方差",
+  "abstract_zh": "纳赫兹引力波背景（GWB）中的散粒噪声各向异性是脉冲星计时阵列（PTAs）的一个有前景的目标。如果纳赫兹GWB如当前证据所暗示的那样，由并合的超大质量黑洞双星（SMBHBs）产生，那么散粒噪声信号预计会很大，在观测频率$f \\sim 1 \\, \\mathrm{yr}^{-1}$处可能达到单位量级。在这个范围内，信号由罕见的明亮双星主导，离散SMBHB种群的泊松涨落产生显著的空间各向异性。在这里，我们使用蒙特卡洛模拟来模拟散粒噪声的实现之间的散布，从经验校准的SMBHB源种群模型中采样。我们发现散粒噪声振幅的概率分布很宽，在固定频率下跨越约50倍（95%区间），并带有向高振幅的长尾。最可能和中位振幅明显低于总体均值，低约2-3倍，这意味着典型实现中的散粒噪声小于平均值。总体平均的散粒噪声也不同于基于应变矩的简单估计，$\\langle h^4 \\rangle/\\langle h^2 \\rangle^2$，因为比值的平均值不等于平均值的比值（即，$\\langle X/Y \\rangle \\ne \\langle X \\rangle/\\langle Y \\rangle$）。在$f = 0.1 \\, \\rm{yr}^{-1}$处，这一差异约为3倍，到$f \\sim 1 \\, \\rm{yr}^{-1}$时增长到超过两个数量级，此时GWB由低丰度高应变的源主导。尽管如此，散粒噪声为理解GWB和SMBHB种群提供了强有力的诊断；然而，解释PTA测量需要对其完整概率分布进行建模。",
+  "keywords_en": [
+    "gravitational wave background",
+    "pulsar timing arrays",
+    "shot noise",
+    "anisotropy",
+    "supermassive black hole binaries",
+    "Monte Carlo simulations"
+  ],
+  "keywords_zh": [
+    "引力波背景",
+    "脉冲星计时阵列",
+    "散粒噪声",
+    "各向异性",
+    "超大质量黑洞双星",
+    "蒙特卡洛模拟"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-12T00:08:48.140683Z"
+}

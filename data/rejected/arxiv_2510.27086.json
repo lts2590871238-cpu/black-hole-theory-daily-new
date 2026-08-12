@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.27086",
+    "arxiv_id": "2510.27086",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Conditional variational autoencoders for cosmological model discrimination and anomaly detection in cosmic microwave background power spectra",
+    "abstract_en": "The cosmic microwave background power spectra are a primary window into the early universe. However, achieving interpretable compression and fast inference diagnostics under weak model assumptions remains challenging. We propose a parameter-conditioned variational autoencoder (CVAE) that aligns a data-driven latent representation with cosmological parameters while retaining an interface to likelihood-style diagnostic tests. The model achieves high directional reconstruction fidelity for the $D_\\ell^{TT}$, $D_\\ell^{EE}$, and $D_\\ell^{TE}$ spectra in just 5 latent dimensions. It reconstructs spectra for several beyond-$Λ$CDM test cases, including controlled parameter extrapolations, and enables an amortized surrogate diagnostic that reduces one representative post-training MCMC run from $\\sim$40 hours on CPU cores to $\\sim$2 minutes on a GPU in this demonstration. The learned latent space shows a distributed, partially structured organization that mirrors known cosmological parameters and their degeneracies. It also provides representation-space discrimination diagnostics for distinguishing tested cosmological spectra from a fiducial reference. Overall, this physics-informed CVAE supports interpretable compression, rapid diagnostic exploration, and anomaly-sensitive representation learning beyond $Λ$CDM.",
+    "authors": [
+      "Tian-Yang Sun",
+      "Tian-Nuo Li",
+      "He Wang",
+      "Jing-Fei Zhang",
+      "Xin Zhang"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2025-10-31T01:15:01Z",
+    "updated_at": "2026-08-10T03:05:08Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.27086v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.27086v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.27086",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://arxiv.org/abs/2510.27086v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

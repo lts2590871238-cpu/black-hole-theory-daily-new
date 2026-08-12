@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.07822",
+    "arxiv_id": "2608.07822",
+    "arxiv_version": null,
+    "inspire_id": "3189565",
+    "doi": null,
+    "title_en": "Classical $\\mathrm{SU}(2)$ Models Match or Exceed Shallow Variational Quantum Circuits on Vision Benchmarks",
+    "abstract_en": "Quaternion-valued neural networks and variational quantum circuits (VQCs) both derive local transformations from $\\mathrm{SU}(2)$ geometry, yet their performance on classical supervised learning remains poorly understood. We compare real-valued, quaternion-valued, and quantum classification heads on identical frozen features across MNIST, FashionMNIST, and CIFAR-10. CIFAR-10 uses a learned 16-dimensional bottleneck and frozen ImageNet-pretrained ResNet18 features to separate architecture from representation quality. Quaternion classifiers match or approach real-valued baselines while outperforming shallow VQCs. On MNIST and FashionMNIST, quaternion networks nearly equal real-valued MLPs, whereas product-state VQCs show lower accuracy and higher cost. On CIFAR-10, quaternion networks retain 94--97% of real-valued performance and remain stable under a 32-fold increase in dimensionality. Product-state circuits underperform quaternion classifiers, while entanglement gives modest grayscale gains but reverses under pretrained CNN features (9.25 pp degradation vs.\\ product-state). Fubini--Study/QFI natural gradients improve geometric alignment but not short-horizon loss reduction vs.\\ Adam. A Friedman test on five-seed MNIST detects model differences ($χ^2=12.796$, $p=0.0051$, $n=5$), with Wilcoxon tests yielding large effect sizes ($d>5$) for QuatNet vs.\\ quantum comparisons. For FashionMNIST and CIFAR-10, large effects ($d>2.0$) are the primary statistic given $n=3$. These results indicate that quaternion networks provide efficient, stable $\\mathrm{SU}(2)$ alternatives to shallow VQCs on tasks lacking intrinsic quantum structure. Shared local $\\mathrm{SU}(2)$ geometry and shallow entanglement are insufficient, within the regime studied, to confer practical quantum advantage. Conclusions are limited to shallow, measurement-limited circuits on such tasks.",
+    "authors": [
+      "Fulton, Christopher",
+      "Tsapara, Irene",
+      "Fulton, Lawrence"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-07T00:00:00Z",
+    "updated_at": "2026-08-11T11:35:43.803692Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189565",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189565",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189565"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

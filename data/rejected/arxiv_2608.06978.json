@@ -3,25 +3,21 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.06978",
     "arxiv_id": "2608.06978",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3188629",
     "doi": null,
     "title_en": "Smoothed particle magnetohydrodynamics for simulations of galaxy and cosmic structure formation",
     "abstract_en": "We introduce a novel formulation of cosmological smoothed particle magnetohydrodynamics (SPMHD), designed to model magnetic field physics in a vast array of nonlinear astrophysical systems, and which we have implemented in the highly-parallel, entirely modular, and open-source simulation code SWIFT. Our numerical scheme is designed to offer optimal performance at a minimal computational cost, keep a low memory footprint, and most notably couple robustly to effective sub-resolution recipes of galaxy formation. This is achieved through expressing our evolution equations in a density-energy conservative form, and augmenting them with discontinuity-capturing terms tailored to high dynamic range simulations, which are further modulated by adaptive switches that drastically improve coupling to sub-grid models and limit spurious dissipation. We moreover present novel suggestions for the two major regularisation techniques used in modern SPMHD, namely a tensile instability correction and mixed hyperbolic/parabolic divergence-cleaning scheme, to ensure code stability in highly dynamical scenarios. We evaluate the performance of our method on a series of problems of increasing complexity, culminating in three astrophysical applications which have historically proven challenging for mesh-less methods: we study jet launching from a forming proto-stellar core, dynamo amplification in a massive galaxy cluster and magnetic field evolution in a Milky Way-like disk galaxy; the latter constitutes the first reported coupling of the EAGLE galaxy formation model to a magnetohydrodynamics solver. Keeping model hyperparameters fixed across our test suite to provide a transparent picture of our method's capabilities in production, we demonstrate sound performance and convergence with resolution on standard `laboratory' numerical experiments, as well as competitive capabilities in realistic applications.",
     "authors": [
-      "Orestis A. Karapiperis",
-      "Matthieu Schaller",
-      "Nikyta Shchutskyi",
-      "Federico A. Stasyszyn",
-      "Maarten Elion"
+      "Karapiperis, Orestis A.",
+      "Schaller, Matthieu",
+      "Shchutskyi, Nikyta",
+      "Stasyszyn, Federico A.",
+      "Elion, Maarten"
     ],
-    "categories": [
-      "astro-ph.GA",
-      "astro-ph.CO",
-      "astro-ph.IM"
-    ],
+    "categories": [],
     "submitted_at": "2026-08-07T00:00:00Z",
-    "updated_at": "2026-08-10T10:44:03.400729Z",
+    "updated_at": "2026-08-11T04:17:37.308419Z",
     "document_types": [
       "article"
     ],
@@ -29,21 +25,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.06978v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.06978v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3188629",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2608.06978",
-        "fetched_at": "2026-08-10T23:55:14.694792Z",
-        "url": "https://arxiv.org/abs/2608.06978v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3188629",
-        "fetched_at": "2026-08-10T23:55:14.694792Z",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
         "url": "https://inspirehep.net/literature/3188629"
       }
     ],

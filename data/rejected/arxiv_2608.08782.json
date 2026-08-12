@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.08782",
+    "arxiv_id": "2608.08782",
+    "arxiv_version": null,
+    "inspire_id": "3189572",
+    "doi": null,
+    "title_en": "Quantum-Classical Physics-Informed Kolmogorov-Arnold Networks for Solving Fuzzy Differential Equations",
+    "abstract_en": "In this study, we propose a quantum-classical physics-informed Kolmogorov-Arnold network (QCPIKAN) dedicated to the solution of fuzzy differential equations. The network takes the spatiotemporal coordinates and membership level as joint inputs and employs ChebyKAN modules and a parameterized quantum circuit to construct a hybrid function approximator. It simultaneously approximates the lower and upper endpoint functions associated with the α-cuts and incorporates the governing equations, initial-boundary conditions, and fuzzy-structural constraints into the training objective. Theoretically, a unified error-analysis framework is established for QCPIKAN and PIKAN, in which the endpoint-solution error is decomposed into approximation, sampling, optimization, and fuzzy-structure constraint errors. Under the assumptions of well-posedness and residual stability, it is proved that QCPIKAN has a smaller a priori error bound when the representational gain introduced by quantum entanglement features exceeds the additional computational error. Numerical experiments are conducted for elliptic, parabolic, and hyperbolic equations in an ideal quantum-simulation environment. The results show that QCPIKAN captures the overall contraction of the solution interval as increases. At most tested membership levels, the mean relative L2 error of PIKAN is approximately 1.1-2.7 times that of QCPIKAN. In the fuzzy convection example, the mean wavefront-position error of PIKAN is approximately 1.77 times that of QCPIKAN. Nevertheless, both models still exhibit local fuzzy-structure violations near boundaries, in high-gradient regions, and around the wavefront. These results indicate that QCPIKAN provides a quantum-classical hybrid physics-informed computational framework with comparatively high predictive accuracy for solving fuzzy partial differential equations represented by α-cuts.",
+    "authors": [
+      "Rao, Xiang",
+      "Shen, Yuxuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-09T00:00:00Z",
+    "updated_at": "2026-08-11T11:36:10.036386Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189572",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189572",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189572"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

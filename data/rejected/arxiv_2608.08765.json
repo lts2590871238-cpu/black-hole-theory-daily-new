@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.08765",
+    "arxiv_id": "2608.08765",
+    "arxiv_version": null,
+    "inspire_id": "3188970",
+    "doi": null,
+    "title_en": "Bona: Automatic Management of Dirty Ancilla Borrowing in Quantum Circuits",
+    "abstract_en": "The management of ancilla qubits has become a critical technique for reducing quantum circuit width. Dirty ancillas, which may be borrowed from any temporarily idle qubit regardless of their initial states, offer substantial flexibility for width optimization, but their use has so far required manual and error-prone handling. We formalize the dirty-qubit borrowing problem and establish a fundamental computational limit by proving its NP-hardness. To support practical optimization, we present \\bona, the first scheduler for dirty-qubit borrowing, built on a novel depth-aware heuristic algorithm. We evaluate \\bona~ across a variety of benchmarks, including practical quantum circuits and randomly arranged compositions of real circuit modules, and find that it reduces nearly 99% of dirty ancillas on average with controlled depth overhead. In particular, for parallel quantum walk---an essential component of parallel Hamiltonian simulation---\\bona~ matches the circuit width achieved by the clean-qubit schemes of \\citeauthor{jiang2024recycling}~(\\citeyear{jiang2024recycling}) and \\citeauthor{quantinuum}~(\\citeyear{quantinuum}), but attains significantly smaller circuit depth, providing concrete evidence that dirty ancillas offer unique optimization advantages in circuits with certain parallelism.",
+    "authors": [
+      "Xu, Xiaoquan",
+      "Liu, Chenke",
+      "Meng, Boning",
+      "Shen, Zihao",
+      "Zhou, Li"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-09T00:00:00Z",
+    "updated_at": "2026-08-11T10:43:21.129540Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3188970",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3188970",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3188970"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

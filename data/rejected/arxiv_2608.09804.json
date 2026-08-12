@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.09804",
+    "arxiv_id": "2608.09804",
+    "arxiv_version": null,
+    "inspire_id": "3189570",
+    "doi": null,
+    "title_en": "SGNAX: a unified matched-filter and excess-power pipeline for gravitational-wave detector characterization",
+    "abstract_en": "We present SGNAX, an open-source pipeline for gravitational-wave detector characterization that delivers matched-filter and excess-power transient triggers from a single streaming dataflow graph. Built on the Stream Graph Navigator (sgn) framework, SGNAX unifies the multi-rate sine-Gaussian matched-filter search of snax and the multi-resolution Q-transform search of omicron in one Python-native package. Auxiliary channels from an interferometer are analyzed as parallel branches sharing data-read and whitening stages, reducing per-channel processing cost as channels are added. A full day of 16 kHz strain is analyzed in 14 minutes, and Q-transform processing is 2.8 times more efficient per channel at 32 channels than at one. Matched-filter correlations use PyTorch and run on CPU or GPU. Data sources include offline frame caches, shared-memory buffers, and the arrakis distribution service, with the same configuration supporting offline and online operation. The matched filter delivers triggers at about five seconds end-to-end latency, while the Q-transform operates at latencies of tens of seconds. Injection campaigns recover 99.4% of recoverable sine-Gaussian injections with parameters within the expected template mismatch and show broadband white-noise-burst recovery consistent with established event-trigger generators. On 24 hours of archival LIGO strain, SGNAX reproduces the omicron trigger population at 10--100 Hz, with trigger rates and SNRs agreeing to a few percent. On production auxiliary channels, it recovers the snax loud-feature population with 80% per-bin coincidence. The injection-calibrated reimplementation also reveals a multiband amplitude error in production snax that inflates reported SNRs below 25.6 Hz by factors of $\\sqrt{2}$--2, for which we identify the mechanism and correction.",
+    "authors": [
+      "Yarbrough, Zach",
+      "Godwin, Olivia",
+      "Davis, Derek",
+      "González, Gabriela"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-11T11:36:15.689986Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189570",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189570",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://inspirehep.net/literature/3189570"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

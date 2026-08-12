@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2511.17307",
+    "arxiv_id": "2511.17307",
+    "arxiv_version": 4,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Deep Investigation of Neutral Gas Origins (DINGO): Options for robust Deep Spectral Line Imaging in the SKA-Era",
+    "abstract_en": "The data storage requirements for deep spectral line observations with next-generation radio interferometers like the Australian Square Kilometre Array Pathfinder (ASKAP) and the Square Kilometre Array (SKA) are challenging. The default strategy is to reduce data after each daily observation and stack the resulting images. Although computationally efficient, this approach risks propagating systematic errors (e.g. RFI, continuum and deconvolution residuals) and degrades data quality. Imaging the entire deep dataset jointly, the traditional approach, is prohibitively expensive in storage and compute. We present an alternative \\textit{uv}-grid stacking method and compare its outcomes with both the traditional approach, our benchmark, and the default image-stacking method, using 200~h of the Deep Investigation of Neutral Gas Origins (DINGO) pilot and main survey data. Our method pauses the standard imaging pipeline after forming the daily residual visibility grids, which are then stacked and jointly deconvolved to combine many epochs of data. Relative to the traditional method, image-stacking recovers a median of 0.92$_{-0.02}^{+0.05}$ of the reference {\\HI} flux across our source sample, and \\textit{uv}-grid stacking recovers 0.99$_{-0.04}^{+0.01}$. For the brightest source, both methods show a similar, negligible flux offset of $\\sim$3 per~cent from the traditional flux. {\\HI} velocity widths ($W_{50}$, $W_{20}$) are recovered to within a few per~cent by both methods, with image-stacking showing somewhat larger deviations and scatter. Image-stacking further introduces non-physical artefacts, such as negative bowls around strong sources, indicating poor deconvolution and loss of physical information. Based on these findings, we intend to apply \\textit{uv}-grid stacking to the DINGO survey on ASKAP.",
+    "authors": [
+      "Jonghwan Rhee",
+      "Richard Dodson",
+      "Alexander Williamson",
+      "Martin Meyer",
+      "Kristóf Rozgony",
+      "Pascal J. Elahi",
+      "Matthew Whiting",
+      "Daniel Mitchell",
+      "Tobias Westmeier",
+      "Shinna Kim"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-11-21T15:23:36Z",
+    "updated_at": "2026-08-10T03:58:26Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2511.17307v4",
+    "pdf_url": "https://arxiv.org/pdf/2511.17307v4",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2511.17307",
+        "fetched_at": "2026-08-12T00:04:12.998528Z",
+        "url": "https://arxiv.org/abs/2511.17307v4"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
