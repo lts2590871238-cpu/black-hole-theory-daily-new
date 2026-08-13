@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.09134",
+    "arxiv_id": "2608.09134",
+    "arxiv_version": null,
+    "inspire_id": "3189993",
+    "doi": null,
+    "title_en": "Quantum Hashing Circuit Optimization for Arbitrary Qubit Connectivity Graphs Based on 1-Covering Path",
+    "abstract_en": "One of the obstacles to the widespread adoption of quantum computing is the problem of efficient circuit synthesis. Current quantum hardware has limited connections between qubits, with each qubit connected to only a few others. This means that the circuit has to be transformed to accommodate this. In this paper, we present an algorithm that converts a circuit containing a sequence of CNOT gates into a form that is suitable for arbitrary quantum computer architectures. Although we demonstrate the algorithm only in the context of quantum fingerprinting, similar gate sequences are prevalent in quantum algorithms; for instance, they are present in the textbook quantum Fourier transform. We present a quantum circuit implementation of the quantum hashing algorithm (quantum fingerprinting algorithm) for a quantum device with restrictions on the application of two-qubit gates that are expressed as a qubit connectivity graph. As an example of usage of the technique, we apply it to quantum finite automata recognizing the unary $MOD_p=\\{a^\\ell: \\ell \\bmod p=0\\}$ language, and the $EQ_p=\\{a^\\ell b^r: \\ell \\equiv r \\pmod p\\}$ language. Given the enhancements that our algorithm provides~-- for instance, in one case it achieves a 16%--17% decrease in CNOT circuit cost~-- we believe it could also be useful in a broader quantum compilation context.",
+    "authors": [
+      "Khadiev, Kamil",
+      "Khadieva, Aliya",
+      "Sagitov, Vadim",
+      "Khasanov, Kamil",
+      "Ziatdinov, Mansur"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-12T10:45:39.780701Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189993",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189993",
+        "fetched_at": "2026-08-13T00:02:59.721319Z",
+        "url": "https://inspirehep.net/literature/3189993"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

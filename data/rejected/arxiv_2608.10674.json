@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.10674",
+    "arxiv_id": "2608.10674",
+    "arxiv_version": null,
+    "inspire_id": "3189873",
+    "doi": null,
+    "title_en": "Optimal fidelity estimation when one state is pure via algorithmic Uhlmann transform",
+    "abstract_en": "The Uhlmann fidelity ${\\rm F}(ρ_0,ρ_1) = {\\rm tr}|\\sqrt{ρ_0}\\sqrt{ρ_1}|$ is one of the most fundamental quantities in quantum information theory for quantifying the closeness between two quantum states. Estimating the Uhlmann fidelity to within additive error $\\varepsilon$ requires a number of copies of the states, or queries to their state-preparation circuits, that depends at least linearly on the smaller of the ranks of $ρ_0$ and $ρ_1$. Consequently, this rank dependence disappears when either state is pure, in which case the query and sample complexities depend only polynomially on $1/\\varepsilon$. However, the known optimal estimator for ${\\rm F}(ρ,|ψ\\rangle\\!\\langleψ|)$ due to Fang and Wang (ESA 2025) requires prior knowledge of which state is pure. In this work, we remove this mathematically unnecessary prior-knowledge requirement and establish an optimal estimator for ${\\rm F}(ρ, |ψ\\rangle\\!\\langleψ|)$ under the sole promise that one of the two states is pure, without knowing which one. Our estimator is obtained by specializing the refined algorithmic Uhlmann transform of Utsumi, Nakata, Wang, and Takagi (2025) to the case where one state is pure. In this setting, the Uhlmann fidelity can be recovered as follows: apply a unitary dilation of ${\\rm tr}_{\\sf A}(|ψ_0\\rangle\\!\\langleψ_1|)$ (or its inverse) to the reference register $\\sf R$ of the purification $|ψ_1\\rangle$ (or $|ψ_0\\rangle$) on the registers $\\sf A$ and $\\sf R$, estimate the corresponding square-root amplitude in each case, and take the maximum of the resulting two estimates.",
+    "authors": [
+      "Liu, Yupan",
+      "Wang, Qisheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-11T00:00:00Z",
+    "updated_at": "2026-08-12T11:05:05.369652Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189873",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189873",
+        "fetched_at": "2026-08-13T00:02:59.721319Z",
+        "url": "https://inspirehep.net/literature/3189873"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.10464",
+    "arxiv_id": "2608.10464",
+    "arxiv_version": null,
+    "inspire_id": "3190137",
+    "doi": null,
+    "title_en": "Quantum Incremental Learning with Mixed State Prototypes",
+    "abstract_en": "Incremental learning models are required to learn new classes sequentially without catastrophic forgetting, while operating under parameter and memory constraints. In the Noisy Intermediate-Scale Quantum (NISQ) era, although quantum neural networks offer advantages in feature mapping, hardware limitations restrict circuit width. Furthermore, traditional quantum classifiers are constrained by the number of orthogonal basis states, limiting their capacity to accommodate a continually growing number of categories. Thus, we introduce a novel quantum incremental learning framework based on trainable mixed-state prototypes. Its original design incorporates new classes by adding class prototypes rather than increasing the circuit width of the shared quantum backbone. The use of mixed-state prototypes is another key contribution, since they have representation capabilities to represent information than a single pure-state prototype. And the decomposable mixed-state calculation provides lower production costs and a convenient Hilbert-Schmidt (HS) distance metric for classification. Simulation results show that our model achieves high-dimensional feature concentration using a minimal number of qubits, while demonstrating lower computational complexity and robust representation in incremental learning tasks compared with classical baselines.",
+    "authors": [
+      "Wu, Yu",
+      "Zhou, Qianli",
+      "Deng, Xinyang",
+      "Jiang, Wen",
+      "Cheong, Kang Hao",
+      "Pedrycz, Witold"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-11T00:00:00Z",
+    "updated_at": "2026-08-12T11:17:23.573068Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190137",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190137",
+        "fetched_at": "2026-08-13T00:02:59.721319Z",
+        "url": "https://inspirehep.net/literature/3190137"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

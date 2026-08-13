@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.nima.2026.171923",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3190163",
+    "doi": "10.1016/j.nima.2026.171923",
+    "title_en": "A differentiable neural-field forward model for cosmic-ray muon scattering tomography",
+    "abstract_en": "Cosmic-ray muon scattering tomography (MST) recovers the inverse radiation length <math altimg=\"si428.svg\" display=\"inline\" id=\"d1e1769\"><mrow><mi>λ</mi><mrow><mo>(</mo><mi mathvariant=\"bold-italic\">r</mi><mo>)</mo></mrow><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>1</mn><mo>/</mo><msub><mrow><mi>X</mi></mrow><mrow><mn>0</mn></mrow></msub><mrow><mo>(</mo><mi mathvariant=\"bold-italic\">r</mi><mo>)</mo></mrow></mrow></math> of dense or shielded objects, but classical algorithms (PoCA, MLEM) discretise the volume into a fixed voxel grid and become noise-limited at fine resolution. We introduce MINT (Muon Implicit Neural Tomography), a differentiable neural-field framework that represents <math altimg=\"si257.svg\" display=\"inline\" id=\"d1e1802\"><mi>λ</mi></math> by a coordinate-based network with multi-resolution hash encoding and optimises the per-track multiple Coulomb scattering log-likelihood end-to-end by stochastic gradient descent. Validated on two Geant4-based benchmarks spanning nuclear security and geophysical surveying, and on real detector data, MINT consistently outperforms MLEM in structural fidelity, dense-object segmentation, and background smoothness, while matching or exceeding its intensity accuracy in both the logarithmic and the linear domain. In a small-object detection study inside a full-scale ISO-like 20-foot container (twelve high-<math altimg=\"si286.svg\" display=\"inline\" id=\"d1e1811\"><mi>Z</mi></math> cubes of decreasing size, 10–1 cm, exposed in air and concealed inside 30-cm-side steel cubes), at a fixed 0.5% background-voxel exceedance fraction MINT detects 10 of 12 objects — down to a 1 cm tungsten cube hidden in steel — versus 4 of 12 for both PoCA and MLEM; and when the grid is refined at fixed track budget PoCA and MLEM lose the targets while MINT still localises them. In a mine-tunnel ore-body survey (<math altimg=\"si4.svg\" display=\"inline\" id=\"d1e1817\"><mrow><mn>1000</mn><mspace class=\"nbsp\" width=\"0.33em\"/><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">×</mo><mspace class=\"nbsp\" width=\"0.33em\"/><mn>800</mn><mspace class=\"nbsp\" width=\"0.33em\"/><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">×</mo><mspace class=\"nbsp\" width=\"0.33em\"/><mn>400</mn></mrow></math> cm, 12.5 cm voxels, <math altimg=\"si5.svg\" display=\"inline\" id=\"d1e1835\"><mrow><mn>1.6</mn><mspace class=\"nbsp\" width=\"0.33em\"/><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">×</mo><mspace class=\"nbsp\" width=\"0.33em\"/><mn>1</mn><msup><mrow><mn>0</mn></mrow><mrow><mn>6</mn></mrow></msup></mrow></math> tracks), MINT reduces the log-RMSE to 0.413 against 1.070 for MLEM and 1.895 for PoCA and the linear RMSE to 0.164 against 0.440 cm<sup loc=\"post\">−1</sup>; under grid refinement at a fixed track budget its structural-fidelity advantage over MLEM widens from <math altimg=\"si6.svg\" display=\"inline\" id=\"d1e1858\"><mrow><mo>×</mo><mn>1.3</mn></mrow></math> to <math altimg=\"si7.svg\" display=\"inline\" id=\"d1e1866\"><mrow><mo>×</mo><mn>10</mn></mrow></math> as PoCA and MLEM degrade to noise. Finally, on real data from the INFN Padova large-volume prototype (<math altimg=\"si8.svg\" display=\"inline\" id=\"d1e1875\"><mrow><mn>1.26</mn><mspace class=\"nbsp\" width=\"0.33em\"/><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">×</mo><mspace class=\"nbsp\" width=\"0.33em\"/><mn>1</mn><msup><mrow><mn>0</mn></mrow><mrow><mn>6</mn></mrow></msup></mrow></math> cosmic-ray tracks, six material samples from Al to W), MINT with a Gaussian single-<math altimg=\"si9.svg\" display=\"inline\" id=\"d1e1895\"><mi mathvariant=\"normal\">Φ</mi></math> likelihood locates all six samples over a markedly cleaner background than MLEM and with slightly better reconstructed scattering densities, confirming the simulation results under real detector conditions. •MINT recovers inverse radiation length via multi-resolution hash-grid neural fields.•Closed-form Gaussian Highland NLL yields differentiable muon-track line integrals.•20-ft scan: MINT detects 10/12 high-Z cubes, even a 1-cm tungsten cube inside steel.•Ore-body test: MINT gives 0.413 log-RMSE and retains structure on 3.125-cm grids.•Experimental data: MINT finds all six Al-to-W samples on cleaner background than MLEM.",
+    "authors": [
+      "Pagano, D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-12T12:47:35.935986Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "1093, 171923, publication, 2027, {'$ref': 'https://inspirehep.net/api/journals/1613981'}, Nucl.Instrum.Meth.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190163",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190163",
+        "fetched_at": "2026-08-13T00:02:59.721319Z",
+        "url": "https://inspirehep.net/literature/3190163"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

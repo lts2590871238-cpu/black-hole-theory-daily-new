@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.10787",
+    "arxiv_id": "2608.10787",
+    "arxiv_version": null,
+    "inspire_id": "3190138",
+    "doi": null,
+    "title_en": "Optimal Stratification of a Sampling Frame: A Comparative Study of Classical, Quantum, and Quantum-Inspired Approaches",
+    "abstract_en": "Optimal stratification aggregates strata into a small number of final strata to minimise total sample size required to meet target precision constraints. This combinatorial objective, reformulated as a within-cluster dispersion surrogate, can be expressed as a quadratic unconstrained binary optimisation (QUBO) problem. This paper reports a comparative case study of four solvers for that surrogate, run under heterogeneous free-tier constraints on an identical twenty-stratum frame from the swissmunicipalities dataset: a D-Wave-formulated QUBO, solved here by simulated annealing (QPU access unavailable); a gate-based quantum processor (IBM Quantum, running QAOA); a photonic entropy-quantum-computing device (QCi Dirac-3); and a classical GPU-based Ising machine as control (Fixstars Amplify AE). Solvers differ in hardware, computational budget, iteration count, and, for IBM, the encoding itself, so the comparison is a case study rather than a controlled experiment. Against a genetic-algorithm benchmark of 129 sample units, the best-known QUBO solution (objective 501.0) maps, after Bethel-Chromy evaluation, to a sample size of 160, a gap of roughly 24%, tied to the best solution found rather than a certified optimum. IBM and Dirac-3 fall further short, at 262 and 286; the IBM result is consistent with SWAP-routing degradation on a sparse qubit lattice, though not isolated from other causes, while Dirac-3, despite genuine optimisation, settles short of what a free GPU reaches in seconds. The paper concludes that a classical genetic algorithm remains, at the scale tested, the method of choice for optimal stratification, reflecting (a) limits of the dispersion surrogate versus the true Bethel-Chromy objective, not encodable as a low-degree polynomial, and (b) solver- and platform-specific limits in the IBM and Dirac-3 runs. These findings do not establish global optimality for either result.",
+    "authors": [
+      "Ballin, Marco",
+      "Barcaroli, Giulio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-11T00:00:00Z",
+    "updated_at": "2026-08-12T11:17:26.089232Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190138",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190138",
+        "fetched_at": "2026-08-13T00:02:59.721319Z",
+        "url": "https://inspirehep.net/literature/3190138"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

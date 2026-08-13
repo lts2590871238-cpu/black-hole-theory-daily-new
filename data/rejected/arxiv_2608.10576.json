@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.10576",
+    "arxiv_id": "2608.10576",
+    "arxiv_version": null,
+    "inspire_id": "3189867",
+    "doi": null,
+    "title_en": "Stream Decoding with Confidence Scores at Room and Cryogenic Temperatures",
+    "abstract_en": "In fault-tolerant quantum computing, fast and accurate decoding is crucial. Snowflake is a decoder for the surface code that runs in a streaming fashion. In this paper, we implement Snowflake on commercial FPGAs and validate them at room and cryogenic temperatures. Our results demonstrate high decoding throughput for small code distances that, when extrapolated, remains within acceptable limits for larger distances. Further, we incorporate the calculation of certain decoder confidence scores with negligible overhead both in terms of latency and physical resource utilisation. We note that implementing a large-scale system would require either a large FPGA beyond today's technology or clusters of FPGAs connected via a high-speed bus. Thus, we discuss an alternative architecture that exploits the locality of Snowflake by processing 2D slices of the 3D decoding window and offloading segments of the 3D structure to a high-speed memory.",
+    "authors": [
+      "Tahaab, Maries",
+      "Chan, Tim",
+      "Kirkman, James",
+      "Benjamin, Simon C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-11T00:00:00Z",
+    "updated_at": "2026-08-12T10:45:56.772297Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3189867",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3189867",
+        "fetched_at": "2026-08-13T00:02:59.721319Z",
+        "url": "https://inspirehep.net/literature/3189867"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
