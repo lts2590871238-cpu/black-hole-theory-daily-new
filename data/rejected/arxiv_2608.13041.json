@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13041",
+    "arxiv_id": "2608.13041",
+    "arxiv_version": null,
+    "inspire_id": "3190957",
+    "doi": null,
+    "title_en": "Time evolution of nonlinear dynamics on a quantum processor",
+    "abstract_en": "From fluid flow and transport to collective dynamics, numerical simulation of nonlinear partial differential equations underpins modern scientific computing. Extending this capability to quantum computers remains a longstanding challenge because nonlinear and non-Hermitian evolution is fundamentally incompatible with conventional Hamiltonian-based quantum simulation. Here we experimentally realize the time evolution of nonlinear fluid dynamics on a quantum processor using a hybrid variational framework for the viscous and inviscid Burgers equations. Our approach directly encodes the nonlinear dynamics into a variational optimization procedure, avoiding the enlarged linear embeddings and truncation overhead associated with Carleman linearization-based quantum algorithms. We further demonstrate convection-dominated dynamics corresponding to Reynolds numbers of order $10^2$. We encode the governing evolution into parametrized quantum circuits and iteratively reconstruct the time-dependent field through quantum-classical optimization. By introducing a zero-noise extrapolation method without additional circuit-folding overhead, we accurately execute deep error-circuits with entangling-gate counts beyond those typical of Hadamard test circuits. We accurately reconstruct the time evolution across multiple timesteps despite hardware noise and finite device coherence. Our results constitute, to our knowledge, the first experimental realization of nonlinear time propagation on a quantum processor, extending quantum simulation beyond predominantly linear settings and establishing a route toward quantum computation for nonlinear continuum dynamics.",
+    "authors": [
+      "Jesus, José Diogo da Costa",
+      "Setty, Abhishek",
+      "Calarco, Tommaso",
+      "Jaksch, Dieter",
+      "López, Francisco Cárdenas",
+      "Motzoi, Felix"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-14T10:34:56.260851Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190957",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190957",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190957"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

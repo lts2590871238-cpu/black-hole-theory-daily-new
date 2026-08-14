@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13533",
+    "arxiv_id": "2608.13533",
+    "arxiv_version": null,
+    "inspire_id": "3190961",
+    "doi": null,
+    "title_en": "Quantum simulation of non-Markovian dynamical systems",
+    "abstract_en": "Existing quantum algorithms for simulating dynamical systems -- from Hamiltonian simulation to linear and nonlinear differential equations solvers -- simulate Markovian dynamics, in which the system's future evolution depends solely on its current state. We turn our attention to developing quantum algorithms for non-Markovian dynamical systems where the system's future evolution depends on its past history and thus has memory. Specifically, we develop efficient algorithms for linear Volterra integro-differential equations (VIDEs) with a convolution memory kernel that output a quantum state encoding the state description over a time interval or at a particular time. Given efficient circuits for the problem inputs, our algorithms achieve an exponential speedup in system size over existing classical algorithms. We develop an algorithm for general kernels assuming that $\\textsf{M} < 1$, where $\\textsf{M}$ characterizes the strength of the memory term relative to the dissipation of the Markovian part of the dynamics. We complement this with lower bounds for general-kernel VIDEs when $\\textsf{M} \\geq 1$, showing that the problem becomes intractable for a family of systems. However, by specializing to structured kernels which admit concise decompositions over exponentials, we develop efficient quantum algorithms even when $\\textsf M \\geq 1$ by converting the VIDE into a larger set of ODEs, a procedure which we call Markovianization. As an application of the overall framework, we discuss the Mori-Zwanzig formalism used in open quantum systems and fluid dynamics. Overall, our results expand the range of dynamical systems that quantum computers can simulate efficiently.",
+    "authors": [
+      "Ameri, Abtin",
+      "Dutt, Arkopal",
+      "Krovi, Hari"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-14T10:35:07.205517Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190961",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190961",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190961"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

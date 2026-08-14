@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.19637",
+    "arxiv_id": "2602.19637",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1016/j.cpc.2026.110353",
+    "title_en": "Data-Driven Bath Fitting for Hamiltonian-Diagonalization Dynamical Mean-Field Theory",
+    "abstract_en": "We propose a machine-learning-based initialization method to overcome the nonlinear bath-fitting bottleneck in Hamiltonian-diagonalization-based dynamical mean-field theory (HD-DMFT). In HD-DMFT, the continuous hybridization function is approximated by a finite set of bath-site energies and hybridization amplitudes, determined by minimizing a highly non-convex multivariable cost function. As the number of bath sites increases, the optimization becomes more sensitive to the initial guess and more prone to suboptimal local minima, which can slow or destabilize the DMFT self-consistency loop. We reformulate bath fitting as a supervised regression problem and train a kernel ridge regression model to predict near-optimal discrete bath parameters directly from the target hybridization function on the Matsubara axis. To ensure physical relevance and data diversity, we construct the training dataset from tight-binding Hamiltonians of layered-perovskite-like ruthenate models across systematically deformed structures, instead of relying on naive random parameter sampling, and obtain high-quality labels through fully converged conventional bath fitting. Time-reversal symmetry is explicitly incorporated in both feature and target representations to reduce effective dimensionality and enforce physical consistency. Benchmarks in the non-interacting limit show that the learned initialization systematically reduces the initial fitting error, decreases the number of conjugate-gradient iterations, and improves robustness against local minima over a wide range of bath sizes. We further demonstrate transferability to interacting DMFT calculations for $\\mathrm{Sr_{2}RuO_{4}}$ solved with an adaptive-truncation impurity solver, where the ML initialization yields consistently faster convergence than a symmetry-preserving heuristic baseline while preserving the final fitted solution.",
+    "authors": [
+      "Taeung Kim",
+      "Jeongmoo Lee",
+      "Ara Go"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-02-23T09:30:08Z",
+    "updated_at": "2026-08-13T02:34:02Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.19637v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.19637v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.19637",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2602.19637v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

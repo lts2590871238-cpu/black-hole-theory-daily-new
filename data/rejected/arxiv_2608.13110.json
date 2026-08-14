@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13110",
+    "arxiv_id": "2608.13110",
+    "arxiv_version": null,
+    "inspire_id": "3190916",
+    "doi": null,
+    "title_en": "Classical Simulation and Design Frontiers for IBM's Doped Clifford Sampling Experiment",
+    "abstract_en": "We classically simulate the IBM doped Clifford random circuit sampling experiment, comprising $70$ qubits, $70$ entangling layers, and $468$ inserted $T$ gates. A deterministic temporal-boundary tensor network contraction approach is specifically designed to tackle such open-boundary one-dimensional brickwork circuits with operator-Schmidt-rank-$2$ entangling gates. For an $n$-qubit circuit of depth $d$, the resulting unsliced path evaluates an exact amplitude with contraction width $\\lceil d/2\\rceil$; Ratcatcher calculations certify that no smaller width is possible for the tested instances. Because one-qubit gates are absorbed without changing the network topology, the width and dense scheduled contraction cost are independent of their values and of the number and placement of $T$ gates. For the IBM instance, its largest intermediate tensor contains $2^{35}$ complex64 entries (256 times smaller than IBM's estimation), corresponding to a tensor payload of $256$ GiB, and is distributed across eight GPUs within a node. Using 32 nodes, with eight NVIDIA H100 GPUs per node, we completed all 2051 amplitude batches corresponding to IBM's published output bitstrings in 37.3 minutes. The resulting probabilities yield a log-XEB estimate of $0.35034$ with a 95% interval of $[0.29763,0.40305]$. Under the Porter--Thomas and scrambled-noise assumptions, this is numerically compatible with IBM's fidelity lower bound; separately, fidelity-weighted resource accounting projects a 583-contraction workload with a 10.6-minute makespan on the same 32 nodes. More broadly, the approach provides a practical diagnostic for experimental outputs and a quantitative tool for designing future doped Clifford sampling experiments.",
+    "authors": [
+      "Manabe, Hidetaka",
+      "Gu, Hanfeng",
+      "Pan, Feng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-14T10:34:39.132189Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190916",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190916",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190916"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

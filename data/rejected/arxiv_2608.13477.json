@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13477",
+    "arxiv_id": "2608.13477",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Imaginary-time correlations in time-sliced stochastic series expansion",
+    "abstract_en": "Combined with numerical analytic continuation techniques, quantum Monte Carlo (QMC) methods enable the extraction of real-frequency dynamical properties from imaginary-time correlation functions. However, the efficient computation of imaginary-time correlation functions by QMC simulations can (depending on the particular model used) be challenging, particularly for operators that are off-diagonal in the computational basis. In this work, we present an efficient and general algorithm within the stochastic series expansion (SSE) framework for evaluating imaginary-time correlation functions of both diagonal and off-diagonal operators. The algorithm builds on a discrete imaginary-time slicing of the SSE operator string, which provides correlation functions on a grid of well-defined imaginary-time points with no discretization error. For off-diagonal operators, we derive estimators that integrate directly into the existing SSE directed-loop or cluster updating schemes, introducing only minimal computational overhead. We benchmark the method on the one-dimensional transverse-field Ising model (sampling with cluster updates) and XXZ spin chain (using directed-loop sampling), demonstrating excellent agreement (with only statistical errors) with exact diagonalization of small systems. We also study larger systems to demonstrate efficiency.",
+    "authors": [
+      "Ryan Flynn",
+      "Adam Iaizzi",
+      "Sibin Yang",
+      "Ying-Jer Kao",
+      "Anders W. Sandvik"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-08-13T17:03:56Z",
+    "updated_at": "2026-08-13T17:03:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.13477v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.13477v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.13477",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.13477v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

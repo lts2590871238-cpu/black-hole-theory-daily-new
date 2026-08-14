@@ -4,18 +4,22 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.11119",
     "arxiv_id": "2608.11119",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3190063",
     "doi": null,
     "title_en": "All You Need is not $Ω_\\mathrm{gw}$: Beyond the Mean of the Cross-Correlation Estimator when Searching for an Astrophysical Gravitational-Wave Background",
-    "abstract_en": "Searches for the stochastic gravitational-wave background (SGWB) using ground-based detectors rely heavily on the cross-correlation estimator $\\bar C_f$, whose statistical properties determine the theoretical foundation for inference frameworks built on it. Past analyses usually assume Gaussianity of $\\bar C_f$, but this assumption has not been systematically tested for a background of astrophysical origin like the one produced by compact binary coalescences. In this work, we decompose $\\bar C_f$ into three physically motivated components: (1) the mean intensity, (2) the geometrical shot noise, and (3) the polarization leakage, and we compute 90% credible intervals for its cumulants up to fourth order for the binary black hole, binary neutron star, and neutron star-black hole populations by propagating local merger rate uncertainties. We find that for the upcoming LIGO O5 sensitivity, $\\bar C_f$ remains effectively Gaussian for all three populations, validating current Gaussian likelihood frameworks. For Cosmic Explorer (CE), however, the $\\bar C_f$ produced by binary black holes becomes non-Gaussian, with skewness and excess kurtosis of $0.31^{+0.04}_{-0.03}$ and $1.3^{+0.4}_{-0.3}$, respectively, in the most sensitive band over a one-year observation period. For binary neutron star and neutron star - black hole mergers, $\\bar C_f$ remains largely Gaussian even at CE. These results indicate that the Edgeworth expansion provides an adequate leading-order description of the non-Gaussianity expected in the next-generation era, while also motivating the development of more sophisticated statistical methods for a more accurate treatment.",
+    "abstract_en": "Searches for the stochastic gravitational-wave background (SGWB) using ground-based detectors rely heavily on the cross-correlation estimator $\\bar C_f$, whose statistical properties determine the theoretical foundation for inference frameworks built on it. Past analyses usually assume Gaussianity of $\\bar C_f$, but this assumption has not been systematically tested for a background of astrophysical origin like the one produced by compact binary coalescences. In this work, we decompose $\\bar C_f$ into three physically motivated components: (1) the mean intensity, (2) the geometrical shot noise, and (3) the polarization leakage, and we compute 90\\% credible intervals for its cumulants up to fourth order for the binary black hole, binary neutron star, and neutron star-black hole populations by propagating local merger rate uncertainties. We find that for the upcoming LIGO O5 sensitivity, $\\bar C_f$ remains effectively Gaussian for all three populations, validating current Gaussian likelihood frameworks. For Cosmic Explorer (CE), however, the $\\bar C_f$ produced by binary black holes becomes non-Gaussian, with skewness and excess kurtosis of $0.31^{+0.04}_{-0.03}$ and $1.3^{+0.4}_{-0.3}$, respectively, in the most sensitive band over a one-year observation period. For binary neutron star and neutron star - black hole mergers, $\\bar C_f$ remains largely Gaussian even at CE. These results indicate that the Edgeworth expansion provides an adequate leading-order description of the non-Gaussianity expected in the next-generation era, while also motivating the development of more sophisticated statistical methods for a more accurate treatment.",
     "authors": [
-      "Zhong, Haowen",
-      "Iacovelli, Francesco",
-      "Mandic, Vuk",
-      "Berti, Emanuele"
+      "Haowen Zhong",
+      "Francesco Iacovelli",
+      "Vuk Mandic",
+      "Emanuele Berti"
     ],
-    "categories": [],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
     "submitted_at": "2026-08-11T00:00:00Z",
     "updated_at": "2026-08-13T03:38:06.418009Z",
     "document_types": [
@@ -25,15 +29,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2608.11119v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11119v1",
     "inspire_url": "https://inspirehep.net/literature/3190063",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2608.11119",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.11119v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3190063",
-        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
         "url": "https://inspirehep.net/literature/3190063"
       }
     ],
@@ -65,35 +75,35 @@
       "theory_depth": 25,
       "methodological_rigor": 18,
       "novelty": 14,
-      "clarity": 8,
-      "metadata_quality": 7,
+      "clarity": 9,
+      "metadata_quality": 9,
       "community_signal": 0,
-      "other": 8
+      "other": 7
     },
-    "total_score": 80,
+    "total_score": 82,
     "reject_reason_zh": "",
-    "selection_reason_zh": "论文深入分析了引力波背景互相关估计量的统计性质，模型化分解并量化了非高斯性，对下一代探测器数据分析具有重要意义，方法严谨，结果清晰。",
-    "title_zh": "你所需要的不仅仅是$\\Omega_\\mathrm{gw}$：搜索天体物理引力波背景时超越互相关估计量的均值",
-    "abstract_zh": "使用地面探测器搜索随机引力波背景高度依赖于互相关估计量$\\bar C_f$，其统计特性决定了基于它的推断框架的理论基础。过去的分析通常假设$\\bar C_f$的高斯性，但这一假设尚未针对天体物理起源的背景（如紧凑双星并合产生的背景）进行系统性检验。在本工作中，我们将$\\bar C_f$分解为三个物理驱动的分量：（1）平均强度，（2）几何散粒噪声，以及（3）极化泄露，并通过传播局部并合率不确定性，计算了双黑洞、双中子星以及中子星-黑洞三个种群的累积量至四阶的90%置信区间。我们发现，对于即将到来的LIGO O5灵敏度，所有三个种群的$\\bar C_f$保持有效高斯性，验证了当前高斯似然框架的适用性。然而，对于宇宙学探索者（CE），双黑洞产生的$\\bar C_f$变得非高斯，在一年观测期的最灵敏频带内，其偏度和超额峰度分别为$0.31^{+0.04}_{-0.03}$和$1.3^{+0.4}_{-0.3}$。对于双中子星和中子星-黑洞并合，即使在CE灵敏度下，$\\bar C_f$也基本保持高斯性。这些结果表明，Edgeworth展开为下一代时代预期的非高斯性提供了足够的领头阶描述，同时也激励开发更精细的统计方法以进行更准确的处理。",
+    "selection_reason_zh": "该论文对随机引力波背景的互相关估计量的统计性质进行了深入分析，通过分解为三个物理分量并考虑非高斯性，为下一代地面探测器（如宇宙探索者）的数据分析提供了重要理论基础。方法严谨，结果具有新颖性和实际意义。",
+    "title_zh": "你所需要的不仅仅是$\\Omega_\\mathrm{gw}$：在搜寻天体物理引力波背景时超越互相关估计量的均值",
+    "abstract_zh": "使用地面探测器搜索随机引力波背景（SGWB）在很大程度上依赖于互相关估计量 $\\bar C_f$，其统计性质决定了基于它的推断框架的理论基础。过去的分析通常假设 $\\bar C_f$ 具有高斯性，但这一假设尚未对天体物理起源的背景（如致密双星并合产生的背景）进行系统检验。在这项工作中，我们将 $\\bar C_f$ 分解为三个物理动机明确的分量：（1）平均强度，（2）几何散粒噪声，以及（3）偏振泄漏，并通过传播局域并合率不确定性，计算其高达四阶累积量的90%可信区间，针对双黑洞、双中子星和中子星-黑洞三种星族。我们发现，对于即将到来的LIGO O5灵敏度，$\\bar C_f$ 对所有三种星族都保持有效高斯性，验证了当前的高斯似然框架。然而，对于宇宙探索者（CE），双黑洞产生的 $\\bar C_f$ 变得非高斯，在最灵敏频段、一年观测时间内，其偏度和超出峰度分别为 $0.31^{+0.04}_{-0.03}$ 和 $1.3^{+0.4}_{-0.3}$。对于双中子星和中子星-黑洞并合，$\\bar C_f$ 即使在CE下也基本保持高斯性。这些结果表明，埃奇沃思展开提供了对下一代时代预期非高斯性的充分领先阶描述，同时也促进了更复杂统计方法的发展，以实现更精确的处理。",
     "keywords_en": [
-      "gravitational waves",
-      "stochastic background",
-      "cross-correlation",
+      "gravitational wave background",
+      "cross-correlation estimator",
       "non-Gaussianity",
-      "cumulants"
+      "Edgeworth expansion",
+      "compact binary coalescences"
     ],
     "keywords_zh": [
-      "引力波",
-      "随机背景",
-      "互相关",
+      "引力波背景",
+      "互相关估计量",
       "非高斯性",
-      "累积量"
+      "埃奇沃思展开",
+      "致密双星并合"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-13T00:04:28.416030Z"
+    "created_at": "2026-08-14T23:44:51.133867Z"
   },
-  "published_at": "2026-08-14T00:08:08.303725Z"
+  "published_at": "2026-08-14T23:44:51.134212Z"
 }

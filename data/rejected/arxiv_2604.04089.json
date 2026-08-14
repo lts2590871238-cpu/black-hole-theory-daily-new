@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2604.04089",
     "arxiv_id": "2604.04089",
-    "arxiv_version": 5,
+    "arxiv_version": 6,
     "inspire_id": null,
     "doi": null,
     "title_en": "From Paper to Program: Knowledge Externalization and Bottleneck Diagnosis in AI-Assisted Quantum Many-Body Programming",
-    "abstract_en": "Large language models can write scientific code, but direct paper-to-program translation remains fragile when correctness depends on tacit conventions rather than explicit equations. We frame this as a knowledge-externalization problem: index choices, gauges, fermionic signs, contraction order, validation gates, and scaling constraints must be made explicit before code generation. We evaluate a multi-stage, human-in-the-loop workflow on two quantum many-body tasks. DMRG from Schollwoeck's pedagogical review serves as calibration: specification-guided implementations pass in all 16 model pairings, compared with 6/13 direct attempts, and a prose-specification ablation shows that externalized content, not LaTeX form, is the active ingredient. Pfaffian conversion of HFB states to MPS from the five-page Letter by Jin et al. serves as the stress test: the archived runs use a closed-world NumPy/SciPy/Matplotlib protocol, with no TeNPy, TeMFpy, or external implementation code supplied to the agents, so success depends on reconstructing tacit sign, gauge, ordering, and scalability conventions within a restricted dependency setting. Here the workflow yields 11/26 audited passes, while direct prompting yields none. Cross-specification transfer is asymmetric: non-GPT specifications implemented by GPT 5.5 pass 4/4, whereas GPT 5.5 specifications implemented by the tested non-GPT models fail 4/4. The contrast supports a two-bottleneck picture. Externalization resolves the first bottleneck -- paper-to-code ambiguity -- well enough to make DMRG reproducible and Pfaffian-MPS auditable. The remaining failures expose a second bottleneck in implementation-model capability. Iterative meta-specification moves this boundary but does not eliminate it. The resulting Paper-to-Program Many-Body skill is both a reusable implementation protocol and a diagnostic instrument for AI-assisted many-body programming.",
+    "abstract_en": "Implementing quantum many-body algorithms from the literature is fragile when executable correctness depends on tacit choices of index order, gauge, fermionic sign, contraction sequence, and scaling strategy. We formulate this as a knowledge-externalization problem and test a staged, human-in-the-loop workflow that converts source papers into reviewed technical specifications before code generation. DMRG from Schollw{ö}ck's review serves as calibration: specification-guided implementations pass all 16 model pairings, compared with 6/13 direct attempts, while a prose-specification ablation retains the improvement when externalized content is preserved without \\LaTeX{} form. Pfaffian conversion of HFB states to MPS from a five-page Letter provides a closed-world stress test using standalone NumPy/SciPy/Matplotlib implementations without supplied tensor-network code. The workflow yields 11/26 audited passes, versus none under direct prompting. Cross-specification transfer is asymmetric: GPT~5.5 implements four non-GPT specifications successfully, whereas the reverse direction fails in four tested cases. These results support two distinguishable bottlenecks: paper-to-code ambiguity, reduced by explicit specification, and residual implementation-agent capability. Iterative meta-specification shifts but does not remove the latter. The resulting \\emph{Paper-to-Program Many-Body} protocol couples expert review, provenance checks, production-scale gates, and physics oracles to provide an auditable pathway from published many-body theory to validated code.",
     "authors": [
       "Yi Zhou"
     ],
@@ -18,22 +18,22 @@
       "cs.HC"
     ],
     "submitted_at": "2026-04-05T12:12:54Z",
-    "updated_at": "2026-07-13T01:58:36Z",
+    "updated_at": "2026-08-11T03:28:12Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2604.04089v5",
-    "pdf_url": "https://arxiv.org/pdf/2604.04089v5",
+    "abs_url": "https://arxiv.org/abs/2604.04089v6",
+    "pdf_url": "https://arxiv.org/pdf/2604.04089v6",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2604.04089",
-        "fetched_at": "2026-07-20T00:17:04.949443Z",
-        "url": "https://arxiv.org/abs/2604.04089v5"
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2604.04089v6"
       }
     ],
     "is_demo": false

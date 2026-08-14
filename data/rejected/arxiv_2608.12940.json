@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12940",
+    "arxiv_id": "2608.12940",
+    "arxiv_version": null,
+    "inspire_id": "3190906",
+    "doi": null,
+    "title_en": "Newtrinos.jl: A Julia Package for Global Analysis of Neutrino Data",
+    "abstract_en": "Newtrinos.jl is an open-source Julia package for performing global analyses of neutrino data. It provides a modular, three-layer architecture that separates physics models, experiment descriptions, and statistical inference into independent modules. This allows researchers to freely combine experiments and test them against a variety of theoretical models. New experiments and physics models can be added without modifying core code. Full statistical forward models including all relevant systematic uncertainties are implemented for each experimental dataset, defining both the likelihood and the data-generating process and enabling modern statistical inference workflows. The framework is composable, making it straightforward to construct joint likelihoods over multiple datasets. Physics and nuisance parameters can be merged, correlated, or decorrelated across experiments to ensure consistency in the joint fit. The package supports Frequentist and Bayesian inference and is parallelizable across CPU threads or distributed workers. Written entirely in Julia, all models are automatically differentiable, enabling exact gradient computation.",
+    "authors": [
+      "Eller, Philipp",
+      "Schultheiß, David"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-14T05:13:47.497986Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190906",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190906",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190906"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

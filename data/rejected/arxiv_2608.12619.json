@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12619",
+    "arxiv_id": "2608.12619",
+    "arxiv_version": 1,
+    "inspire_id": "3190857",
+    "doi": null,
+    "title_en": "Gaia parallax bias via spherical harmonics: A Python tool and discussion of possible causes",
+    "abstract_en": "Parallaxes in Gaia DR3 are known to suffer from a complex set of sky-correlated and magnitude-dependent offsets or biases at the level of a few tens of $μ$as. Estimated from a sample of one million distant quasars and AGNs from the CRF catalog, the average offset is negative, but the actual distribution of this important parameter shows significant variations on the sky. We propose a practical method to evaluate the parallax correction as a function of sky position and, optionally, of $G$ magnitude using a spherical harmonic series, and supply a tested Python tool {\\tt varpi3.py} available on Zenodo\\footnote{ https://zenodo.org/records/21708614}. We find that only the constant $Y_{00}$ term is significantly dependent on magnitude, while the other 80 harmonic terms are either close to zero or flat with magnitude. The directions of the smallest and largest parallax offsets are $(l,b)\\simeq(220\\degr,+43\\degr)$ and $(l,b)\\simeq(45\\degr,-45\\degr)$, which are close to the orientation of the quasar density dipole reported in recent publications. Motivated by this curious coincidence, we review possible physical effects resulting in a negative bias of measured parallaxes, including an anisotropic universe with a positive curvature and an orbital aberration component. The proposed method of parallax correction is tested using independent asteroseismology data for four different areas on the sphere. Finally, we show that the parallax zero-point propagates into the CRF proper-motion field through the parallax--proper-motion covariance, biasing the vector spherical harmonic determination of the secular-aberration glide, and hence the Galactocentric acceleration, at the microarcsecond-per-year level.",
+    "authors": [
+      "Valeri V. Makarov",
+      "Ciprian T. Berghea"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO",
+      "astro-ph.SR"
+    ],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-14T03:36:03.112435Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.12619v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.12619v1",
+    "inspire_url": "https://inspirehep.net/literature/3190857",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.12619",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.12619v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3190857",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190857"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

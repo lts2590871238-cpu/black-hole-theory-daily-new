@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13429",
+    "arxiv_id": "2608.13429",
+    "arxiv_version": null,
+    "inspire_id": "3190982",
+    "doi": null,
+    "title_en": "MANGO: An Autodiff Neutrino Oscillation Engine for Differentiable Analysis Pipelines",
+    "abstract_en": "Computing neutrino oscillation probabilities is a solved problem; computing their derivatives is not. We present MANGO (MANGO: A Neutrino Gradient Oscillator), a composable oscillation engine in which every computed quantity is differentiable with respect to all inputs, including propagation geometry, detector depth, and individual Earth-shell densities. None of these quantities appear in traditional analytic probability formulas. The engine supports vacuum, constant-density, layered-PREM, arbitrary-profile, and adiabatic solar propagation, alongside front-ends for non-standard interactions, 3+N sterile states, decoherence, and non-unitary mixing. Because reverse-mode cost depends on output rather than input dimension, evaluating sensitivities incurs a constant 2.5-3x forward-pass overhead. As a result, calculating sensitivities for all 369 density, electron-fraction, and shell-radius parameters of a layered Earth costs no more than the 6 standard oscillation parameters. By maintaining exact sensitivity signals, MANGO allows gradients to flow continuously past the probability stage and through detector response, event weighting, binning, and likelihoods. We demonstrate this on a stylized Earth-tomography analysis. In a single pass, MANGO computes the marginalized uncertainty on a six-zone radial density model and, by differentiating through the inverse Fisher matrix, evaluates its sensitivity with respect to detector angular resolution. This provides an experimental-design metric unreachable using traditional analytic probability formulas. Three-flavor and layered-Earth probabilities match external benchmarks (OscProb, NuFast-Earth) to within 10^-9 to 10^-5, while all forward models, BSM limits, and differentiation paths are verified against exact analytic solutions and finite differences.",
+    "authors": [
+      "Granger, Pierre"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-14T15:37:23.819487Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190982",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190982",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190982"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

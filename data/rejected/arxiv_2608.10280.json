@@ -3,23 +3,26 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.10280",
     "arxiv_id": "2608.10280",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3189961",
     "doi": null,
     "title_en": "Tabular foundation models for the estimation of probabilistic quasar photometric redshifts in S-PLUS",
     "abstract_en": "We assess whether tabular foundation models can be used as off-the-shelf probabilistic photometric-redshift estimators for quasars in the 12-band S-PLUS DR6 survey, where colour-redshift degeneracies produce multi-modal posteriors and spectroscopic training sets are shifted relative to the photometric population. TabPFN 2.5, RealTabPFN 2.5, and TabICL are benchmarked against eight task-specific baselines, including linear conditional Gaussians, FlexZBoost, mixture-density networks, normalising flows, random forests, and gradient-boosted trees, with training sets from 500 to 121,626 quasars, using both density and point-prediction metrics, together with importance-weighted scores that approximate deployment on the photometric target sample. TabPFN 2.5 is best or statistically tied for best on all metrics except the unweighted CDE loss, on which the normalising flow is statistically tied and attains the lowest mean value; its largest gains occur for small training sets and in difficult regimes (very bright and faint sources, high redshift), while retaining near-nominal calibration under covariate shift. Its main practical cost is inference: with frozen weights, large support and target catalogues require substantial GPU/accelerator memory, and full-catalogue deployment may need support-set subsampling or distillation. SHAP attributions identify WISE W1/W2 as the strongest individual predictors, with UV and optical bands offering non-negligible refinements. We conclude that TabPFN 2.5 is a strong default for probabilistic quasar photo-z estimation, particularly when training data are limited or when calibration under covariate shift is critical.",
     "authors": [
-      "Valença, Raquel R.",
-      "Nakazono, Lilianne",
-      "Izbicki, Rafael",
-      "Inácio, Marco Henrique de Almeida",
-      "Resende, Bruno Marcondes e",
-      "da Silva, Maycon Jorge Deláqua",
-      "Lins, Kiana Coimbra Buin",
-      "Cardoso, Natanael M.",
-      "de Oliveira, Claudia Mendes"
+      "Raquel R. Valença",
+      "Lilianne Nakazono",
+      "Rafael Izbicki",
+      "Marco Henrique de Almeida Inácio",
+      "Bruno Marcondes e Resende",
+      "Maycon Jorge Deláqua da Silva",
+      "Kiana Coimbra Buin Lins",
+      "Natanael M. Cardoso",
+      "Claudia Mendes de Oliveira"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
     "submitted_at": "2026-08-10T00:00:00Z",
     "updated_at": "2026-08-13T03:32:17.686994Z",
     "document_types": [
@@ -29,15 +32,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2608.10280v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.10280v1",
     "inspire_url": "https://inspirehep.net/literature/3189961",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2608.10280",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.10280v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3189961",
-        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
         "url": "https://inspirehep.net/literature/3189961"
       }
     ],

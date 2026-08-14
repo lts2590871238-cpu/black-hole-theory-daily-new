@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12795",
+    "arxiv_id": "2608.12795",
+    "arxiv_version": null,
+    "inspire_id": "3190792",
+    "doi": null,
+    "title_en": "Fine-tuned Normalizing Flows for ALICE Zero Degree Calorimeter Fast Simulation",
+    "abstract_en": "Simulating the ALICE Zero Degree Calorimeter (ZDC) neutron detector responses at the LHC is computationally expensive, requiring complex Monte Carlo chains. We develop a generative surrogate, focusing on Normalizing Flows (NFs). Through transfer learning, we pre-train on the full imbalanced dataset and fine-tune specialized models for different particle types ($γ$, $n$, $Λ$, $K_S^0$, $Σ^+$) using two gradual-unfreezing schemes. As standard ZDC metrics like Wasserstein distance overlook conditional structure, we introduce refined metrics: conditional weighted MAE, dispersion ratio, and Jaccard co-activation error, that better capture physics-relevant input-output dependencies and response variability. Our ensemble of fine-tuned models achieves a Wasserstein distance of $1.61 \\pm 0.02$, outperforming baselines across all metrics. This work provides a generalizable NF-based framework for LHC detector simulation, combining NFs, conditional fine-tuning, and physics-motivated evaluation.",
+    "authors": [
+      "Majerz, Emilia",
+      "Otwinowski, Jacek",
+      "Dzwinel, Witold",
+      "Kitowski, Jacek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-14T10:33:00.370937Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190792",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190792",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190792"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12509",
+    "arxiv_id": "2608.12509",
+    "arxiv_version": null,
+    "inspire_id": "3190832",
+    "doi": null,
+    "title_en": "Quantum Tanner Codes at Moderate Blocklength",
+    "abstract_en": "We present explicit constructions of quantum Tanner (QT) codes with good rate and distance, obtained through two complementary approaches: the left-right Cayley complex (LRCC) description and the \"lifting\" perspective, in which a seed Calderbank-Shor-Steane (CSS) code is lifted by commuting left-right regular actions of a finite group $\\mathcal{G}$. Through an extensive search over non-abelian groups from GAP's SmallGrp library, we investigate the moderate-blocklength regime ($n \\in [500,1000]$) and identify several new code instances with distance upper bounds exceeding $20$. These include $[[480,8,(\\leq 21,\\leq 21)]]$, $[[504,4,(\\leq 36,\\leq 27)]]$, $[[672,4,(\\leq 48,\\leq 28)]]$, $[[720,6,(\\leq 30,\\leq 30)]]$, and $[[864,8,(\\leq 39,\\leq 31)]]$, with these bounds obtained using up to $350$ million trials of sQetch, a randomized distance estimator. The code instances presented have check weights ranging from $9$ to $20$. Using the Tesseract decoder, we estimate pseudo-thresholds of $3.6\\%$-$4.6\\%$ under phenomenological noise and $0.14\\%$-$0.27\\%$ under circuit-level noise, comparable to prior results at shorter code lengths. We also provide QuantumExpanders.jl, an open-source Julia library for constructing QT codes and explicit constructions of Ramanujan graphs.",
+    "authors": [
+      "Mian, Feroz Ahmed",
+      "Addala, Vaishnavi L.",
+      "Meraj, Arman",
+      "Chadha, Adhiraj",
+      "Krastanov, Stefan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-14T10:33:40.177497Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190832",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190832",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190832"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

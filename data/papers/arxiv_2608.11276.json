@@ -4,20 +4,24 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.11276",
     "arxiv_id": "2608.11276",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3190318",
     "doi": null,
     "title_en": "Full-Covariance Bayesian Inference of Stochastic Gravitational Wave Background with Time-Domain Simulations for Taiji-like Missions",
     "abstract_en": "For Taiji-like missions, we implement a Bayesian spectral inference framework that combines second-generation time-domain (TD) simulations of time-delay interferometry (TDI) with a frequency-domain (FD) spectral likelihood for stochastic gravitational-wave background (SGWB) analyses. The X, Y, Z Michelson streams generated with Triangle-Simulator are divided into finite segments, Fourier transformed, and modeled with a segment-dependent complex 3 x 3 covariance matrix. For each segment we evaluate the orbit-dependent response functions and noise transfer functions, allowing unequal-arm and time-evolving effects to enter through the full XYZ covariance. Controlled simulations performed with Triangle-Simulator show that the calculated functions reproduce the realization-averaged spectra at the few-percent level over the retained frequency band away from TDI nulls. We then compare parameter-estimation results for static equal-arm FD, equal-arm TD, and unequal-arm TD configurations, using in each case a full XYZ-covariance likelihood matched to the corresponding detector configuration. All three yield consistent uncertainty trends and Bayesian-evidence diagnostics for astrophysical-background recovery after marginalizing over instrumental noise and an effective Galactic double-white-dwarf foreground. Finally, we add a sound-wave spectrum from a first-order phase transition.",
     "authors": [
-      "Liang, Qingyuan",
-      "Chen, Ju",
-      "Du, Minghui",
-      "Guo, Huai-Ke"
+      "Qingyuan Liang",
+      "Ju Chen",
+      "Minghui Du",
+      "Huai-Ke Guo"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc",
+      "hep-ph"
+    ],
     "submitted_at": "2026-08-11T00:00:00Z",
-    "updated_at": "2026-08-13T10:54:26.103829Z",
+    "updated_at": "2026-08-14T03:26:08.667435Z",
     "document_types": [
       "article"
     ],
@@ -25,15 +29,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2608.11276v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.11276v1",
     "inspire_url": "https://inspirehep.net/literature/3190318",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2608.11276",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.11276v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3190318",
-        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
         "url": "https://inspirehep.net/literature/3190318"
       }
     ],
@@ -62,25 +72,25 @@
       "general_relativity_foundations"
     ],
     "scores": {
-      "theory_depth": 24,
+      "theory_depth": 20,
       "methodological_rigor": 18,
-      "novelty": 13,
-      "clarity": 9,
-      "metadata_quality": 10,
+      "novelty": 12,
+      "clarity": 8,
+      "metadata_quality": 9,
       "community_signal": 0,
-      "other": 8
+      "other": 7
     },
-    "total_score": 82,
+    "total_score": 74,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文提出了一种针对太极型任务的随机引力波背景的全协方差贝叶斯推断框架，结合时域模拟与频域谱似然，方法严谨，创新性强，对引力波天文学有重要价值。",
-    "title_zh": "基于时域模拟的全协方差贝叶斯推断太极型任务随机引力波背景",
-    "abstract_zh": "对于太极型任务，我们实现了一个贝叶斯谱推断框架，该框架将第二代时域（TD）的时间延迟干涉（TDI）模拟与频域（FD）的谱似然相结合，用于随机引力波背景（SGWB）分析。使用Triangle-Simulator生成的X、Y、Z迈克尔逊流被划分为有限段，进行傅里叶变换，并用依赖于段的复3x3协方差矩阵进行建模。对于每一段，我们评估依赖于轨道的响应函数和噪声传递函数，从而允许不等臂和时间演化效应通过完整的XYZ协方差进入。使用Triangle-Simulator进行的受控模拟表明，在远离TDI零点的保留频带内，计算出的函数以百分之几的水平重现了实现平均谱。然后，我们比较了静态等臂FD、等臂TD和不等臂TD配置的参数估计结果，每种情况都使用与相应探测器配置匹配的完整XYZ协方差似然。在边际化仪器噪声和有效银河双白矮星前景后，这三种配置都产生了一致的物理背景恢复不确定性趋势和贝叶斯证据诊断。最后，我们添加了一阶相变产生的声波谱。",
+    "selection_reason_zh": "该论文针对太极型任务，提出了一种全协方差贝叶斯推断框架，结合时域模拟和频域似然，用于随机引力波背景分析。方法新颖，模拟验证严谨，并为未来的空间引力波探测器提供了重要的数据分析工具。",
+    "title_zh": "基于时域模拟的太极型任务随机引力波背景全协方差贝叶斯推断",
+    "abstract_zh": "对于太极型任务，我们实现了一种贝叶斯谱推断框架，该框架将第二代时域（TD）时间延迟干涉（TDI）模拟与用于随机引力波背景（SGWB）分析的频域（FD）谱似然相结合。使用Triangle-Simulator生成的X、Y、Z迈克尔逊流被分成有限段，进行傅里叶变换，并使用依赖于段的复数3×3协方差矩阵进行建模。对于每一段，我们评估依赖于轨道的响应函数和噪声传递函数，从而允许不等臂和时变效应通过全XYZ协方差进入。使用Triangle-Simulator进行的受控模拟表明，在远离TDI零点的保留频带上，所计算的函数以百分之几的水平重现了实现平均谱。然后，我们比较了静态等臂FD、等臂TD和不等臂TD配置的参数估计结果，在每种情况下都使用与相应探测器配置匹配的全XYZ协方差似然。在边际化仪器噪声和有效银河双白矮星前景后，这三种配置在天体物理背景恢复方面产生了一致的不确定性趋势和贝叶斯证据诊断。最后，我们添加了一阶相变产生的声波谱。",
     "keywords_en": [
       "stochastic gravitational wave background",
       "Bayesian inference",
       "time-delay interferometry",
       "Taiji mission",
-      "time-domain simulations"
+      "time-domain simulation"
     ],
     "keywords_zh": [
       "随机引力波背景",
@@ -93,7 +103,7 @@
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-14T00:08:12.629729Z"
+    "created_at": "2026-08-14T23:45:07.851939Z"
   },
-  "published_at": "2026-08-14T00:08:12.630161Z"
+  "published_at": "2026-08-14T23:45:07.852378Z"
 }

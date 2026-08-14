@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12659",
+    "arxiv_id": "2608.12659",
+    "arxiv_version": null,
+    "inspire_id": "3190850",
+    "doi": null,
+    "title_en": "Topological State-Aware Simulation Framework for Inter-Satellite Twin-Field QKD Networks",
+    "abstract_en": "Inter-satellite links (ISLs) are the mandatory backbone for global quantum networks. While Twin-Field Quantum Key Distribution (TF-QKD) successfully surpasses linear rate-loss bounds, its extreme phase sensitivity makes it highly vulnerable to dynamic, non-IID (Independent and Identically Distributed) orbital environments. In composable finite-key analyses governed by the Generalized Entropy Accumulation Theorem (GEAT), traditional adaptive post-selection heuristics either violate strict independence conditions or incur massive second-order penalties that collapse the secret key rate. To overcome this, we introduce a reference-only topological post-selection oracle. By modeling the constellation as a Cellular Sheaf and applying Topological Data Analysis (TDA), our protocol derives a public acceptance event ($Ω$) exclusively from classical beacon telemetry. To rigorously validate this mechanism, we develop a modular simulation framework equipped with stochastic noise injection and an explicit GEAT security ledger. Simulations across 2,000-5,000 km ISL separations compare the same Hodge-Koopman gate with TDA disabled and enabled. At 2,000 km, the median conditional candidate rates are $2.14 \\times 10^{-6}$ and $5.87 \\times 10^{-7}$ bit per emitted pulse, respectively; both configurations return zero at 3,000-5,000 km. TDA is active in all 4,788 evaluated windows, but does not extend the positive-candidate range in this scenario. These exported rates are conditional numerical candidates: the full protocol-level composable-security proof remains incomplete and the certified composable rate is therefore zero throughout.",
+    "authors": [
+      "Vázquez-Pozo, Sergio",
+      "Murillo, Juan Manuel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-14T10:33:26.577115Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190850",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190850",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://inspirehep.net/literature/3190850"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "high_weight_hits": [
+      "generalized entropy"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": false,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 5,
+      "methodological_rigor": 5,
+      "novelty": 5,
+      "clarity": 5,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 0
+    },
+    "total_score": 25,
+    "reject_reason_zh": "论文涉及量子密钥分发网络和拓扑数据分析，与黑体热力学、脉冲星计时阵列、凝聚态全息或广义相对论基础等主题不符。",
+    "selection_reason_zh": "",
+    "title_zh": "星际双场量子密钥分发网络的拓扑状态感知仿真框架",
+    "abstract_zh": "星际链路（ISL）是全球量子网络强制性的骨干。虽然双场量子密钥分发（TF-QKD）成功超越了线性速率损失界限，但其极端的相位敏感性使其极易受到动态、非IID（独立同分布）轨道环境的影响。在由广义熵累积定理（GEAT）支配的可组合有限密钥分析中，传统的自适应后选择启发式方法要么违反严格的独立性条件，要么招致巨大的二阶惩罚，导致密钥率崩溃。为克服这一点，我们引入了一个仅参考拓扑后选择预言机。通过将星座建模为细胞层，并应用拓扑数据分析（TDA），我们的协议仅从经典信标遥测中派生出一个公开的接受事件（Ω）。为严格验证该机制，我们开发了一个模块化仿真框架，配备随机噪声注入和显式GEAT安全账本。在2,000-5,000公里星际链路距离上的仿真比较了相同Hodge-Koopman门在TDA禁用和启用下的情况。在2,000公里处，中位条件候选速率分别为每发射脉冲$2.14 \\times 10^{-6}$和$5.87 \\times 10^{-7}$比特；两种配置在3,000-5,000公里处均返回零。TDA在所有4,788个评估窗口中活跃，但在此场景中并未扩展正候选范围。这些导出的速率是有条件的数值候选：完整的协议级可组合安全证明仍未完成，因此经认证的可组合速率在整个过程中为零。",
+    "keywords_en": [
+      "quantum key distribution",
+      "twin-field QKD",
+      "topological data analysis",
+      "inter-satellite links",
+      "composable security"
+    ],
+    "keywords_zh": [
+      "量子密钥分发",
+      "双场QKD",
+      "拓扑数据分析",
+      "星际链路",
+      "可组合安全性"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-14T23:46:03.264989Z"
+  },
+  "published_at": "2026-08-14T23:46:03.265332Z"
+}

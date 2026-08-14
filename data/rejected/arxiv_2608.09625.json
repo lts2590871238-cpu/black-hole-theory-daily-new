@@ -7,13 +7,13 @@
     "inspire_id": "3188989",
     "doi": null,
     "title_en": "A Design Space Study of Density Matrix Parameterizations for Diffusion-Based Quantum State Tomography",
-    "abstract_en": "Diffusion-based quantum state tomography (QST) has shown promising results, but all existing methods implicitly adopt a single parameterization---typically Cholesky---without systematic evaluation. We present a design space study of density matrix parameterizations for diffusion QST, introducing a geometric framework based on the Jacobian Gram matrix $\\mathbf{J}^\\top\\mathbf{J}$ that quantifies two competing criteria: isometric conditioning and physical constraint satisfaction. Our calibration of seven parameterizations at 2- and 3-qubit scales reveals three key findings. First, isometry and constraints are orthogonal criteria---no single parameterization optimizes both. Second, theoretical elegance does not predict geometric quality: the exponential map exhibits a spectral range of $149\\times$ at 2 qubits and $75\\,658\\times$ at 3 qubits, while simpler parameterizations remain well-conditioned. Third, geometric conditioning alone does not fully predict end-to-end performance: without classifier-free guidance (CFG), Hermitian direct outperforms Bloch despite worse local isometry; under CFG, the ranking reverses due to amplified boundary effects. End-to-end training confirms that better-conditioned parameterizations converge faster and achieve higher fidelity in the absence of CFG. We provide actionable selection guidelines to guide future QST method design.",
+    "abstract_en": "Diffusion-based quantum state tomography (QST) has shown promising results, but all existing methods implicitly adopt a single parameterization (typically Cholesky) without systematic evaluation. We present the first design space study of density matrix parameterizations for diffusion QST, introducing a geometric framework based on the Jacobian Gram matrix $\\mathbf{J}^\\top\\mathbf{J}$. Our calibration of seven parameterizations at 2- and 3-qubit scales, validated by end-to-end training, reveals that \\emph{geometric conditioning alone does not predict end-to-end performance}: at 3-qubit scale, Hermitian direct ($κ= 2.0\\times$) performs worse than Cholesky ($κ= 27\\times$) at all shot levels---a $13.5\\times$ isotropy advantage that translates into a fidelity \\emph{disadvantage} of up to $+0.51$. The 2-qubit ranking (Hermitian $>$ Bloch) reverses at 3 qubits (Bloch 0.907 vs. Hermitian 0.394). We provide a geometric explanation: unbounded parameterizations suffer projection-induced information loss because the PSD constraint couples diagonal and off-diagonal coordinates in ways the unconstrained model cannot respect, whereas the Bloch representation places the maximally mixed state at the center of the valid region, minimizing projection loss.",
     "authors": [
-      "Chang, Shuangju"
+      "Chang, Shuangu"
     ],
     "categories": [],
     "submitted_at": "2026-08-10T00:00:00Z",
-    "updated_at": "2026-08-12T03:39:17.658510Z",
+    "updated_at": "2026-08-14T03:08:50.928496Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3188989",
-        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
         "url": "https://inspirehep.net/literature/3188989"
       }
     ],

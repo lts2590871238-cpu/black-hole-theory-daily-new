@@ -4,17 +4,21 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.08863",
     "arxiv_id": "2608.08863",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3188960",
     "doi": null,
     "title_en": "Semilinear wave equations in homothetic hyperboloidal coordinates and tail decay",
     "abstract_en": "Late-time wave tails decay at different rates along future null infinity and along timelike worldlines at finite radius. A compactified numerical evolution must represent both the slower decay at null infinity and the faster interior decay, producing an increasingly sharp transition between the two regimes. We address this difficulty for semilinear wave equations in Minkowski spacetime using homothetic hyperboloidal coordinates adapted to the scaling structure of the tail. In these coordinates, the tail approaches a smooth radial profile with the same decay rate at every compactified radius. The formulation therefore avoids the steepening of the radial profile seen in stationary hyperboloidal evolutions, and it reaches late times in a number of steps that grows only logarithmically with retarded time. We demonstrate this approach using pseudospectral simulations in 3+1 dimensions and reproduce the generic decay rates conjectured by Rinne. We also provide numerical evidence consistent with a nongeneric codimension-one cancellation of the leading tail coefficient at null infinity, resulting in a faster decay rate.",
     "authors": [
-      "Zenginoğlu, Anıl",
-      "Bernuzzi, Sebastiano",
-      "Nützi, Andrea"
+      "Anıl Zenginoğlu",
+      "Sebastiano Bernuzzi",
+      "Andrea Nützi"
     ],
-    "categories": [],
+    "categories": [
+      "gr-qc",
+      "math.AP",
+      "math.NA"
+    ],
     "submitted_at": "2026-08-09T00:00:00Z",
     "updated_at": "2026-08-12T02:36:10.322213Z",
     "document_types": [
@@ -24,15 +28,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2608.08863v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.08863v1",
     "inspire_url": "https://inspirehep.net/literature/3188960",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2608.08863",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.08863v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3188960",
-        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
         "url": "https://inspirehep.net/literature/3188960"
       }
     ],
@@ -58,38 +68,36 @@
     "primary_topic": "general_relativity_foundations",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 22,
-      "methodological_rigor": 17,
-      "novelty": 12,
+      "theory_depth": 20,
+      "methodological_rigor": 15,
+      "novelty": 10,
       "clarity": 8,
-      "metadata_quality": 7,
+      "metadata_quality": 8,
       "community_signal": 0,
-      "other": 6
+      "other": 4
     },
-    "total_score": 72,
+    "total_score": 65,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文引入了共形双曲坐标，解决了半线性波动方程晚期尾衰减的数值难题，并提供了对尾衰减率的数值证据，具有理论深度和新颖性，适合广义相对论基础领域。",
-    "title_zh": "共形双曲坐标中的半线性波动方程与尾衰减",
-    "abstract_zh": "晚期波尾沿着未来类光无穷远和有限半径的类时世界线以不同的速率衰减。一个紧致化的数值演化必须同时表示类光无穷远较慢的衰减和内部较快的衰减，从而在两个区域之间产生一个越来越尖锐的过渡。我们使用适应尾缩放结构的共形双曲坐标来解决闵可夫斯基时空中半线性波动方程的这一困难。在这些坐标中，尾趋于一个光滑的径向剖面，在每一个紧致化半径处具有相同的衰减速率。因此，该公式避免了在平稳双曲演化中看到的径向剖面变陡，并且它达到晚期所需的步骤数仅随延迟时间对数增长。我们使用3+1维的伪谱模拟来演示这种方法，并再现了Rinne推测的一般衰减速率。我们还提供了与类光无穷远处领先尾系数的非一般余维一抵消一致的数值证据，从而导致更快的衰减速率。",
+    "selection_reason_zh": "该论文讨论了广义相对论基础中的数值相对论和渐近结构。",
+    "title_zh": "同调双曲坐标中的半线性波动方程与尾衰减",
+    "abstract_zh": "晚期波尾在沿着未来零无穷远处和沿着有限半径的类时世界线处衰减速率不同。紧致化数值演化必须同时表示零无穷远处的较慢衰减和内部较快的衰减，从而在两个区域之间产生越来越急剧的转变。我们针对闵可夫斯基时空中的半线性波动方程，利用适应尾缩放结构的同调双曲坐标来解决这一困难。在这些坐标中，尾在每个紧致化半径处趋近于一个具有相同衰减速率的光滑径向剖面。因此，该公式避免了在静态双曲演化中观察到的径向剖面变陡的问题，并且它以仅随延迟时间对数增长的步数达到晚期时间。我们使用3+1维的伪谱模拟证明了这种方法，并再现了Rinne推测的通用衰减速率。我们还提供了数值证据，与在零无穷远处前导尾系数的非一般余维一抵消一致，从而导致更快的衰减速率。",
     "keywords_en": [
-      "wave tails",
-      "homothetic hyperboloidal coordinates",
       "semilinear wave equations",
-      "null infinity",
-      "numerical relativity"
+      "homothetic coordinates",
+      "tail decay",
+      "null infinity"
     ],
     "keywords_zh": [
-      "波尾",
-      "共形双曲坐标",
       "半线性波动方程",
-      "类光无穷远",
-      "数值相对论"
+      "同调坐标",
+      "尾衰减",
+      "零无穷远"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-13T00:05:03.102465Z"
+    "created_at": "2026-08-12T00:09:20.321376Z"
   },
-  "published_at": "2026-08-14T00:08:12.634316Z"
+  "published_at": "2026-08-14T23:45:36.075233Z"
 }

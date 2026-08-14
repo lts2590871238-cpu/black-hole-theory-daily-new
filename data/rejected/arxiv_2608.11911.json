@@ -3,20 +3,25 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.11911",
     "arxiv_id": "2608.11911",
-    "arxiv_version": null,
+    "arxiv_version": 2,
     "inspire_id": "3190285",
     "doi": null,
     "title_en": "Hamilton-Zero: A Neural Tensor-Network Foundation Model for Ground States of Arbitrary Quadratic Qubit Hamiltonians",
     "abstract_en": "A central promise of useful quantum advantage is the ability to compute ground states of Hamiltonian systems beyond the reach of classical simulation methods. Here we demonstrate that this problem can be effectively amortized across an arbitrary and universal set of Hamiltonians by a foundation model with $\\sim0.5$B variational parameters, trained with contemporary techniques from large language models and deep reinforcement learning. To do this, we formulate $\\text{spin-}1/2$ quantum ground-state learning as manifold variational optimisation over centrally odd scalar functions on $\\mathrm{SU}(2)^N$. This replaces explicit Hilbert-space vector amplitudes with manifold functions on which the Hamiltonian acts through Lie derivatives, evaluated by custom automatic differentiation primitives. We prove that the resulting variational principle on this manifold preserves the $\\text{spin-}1/2$ sector's ground-state upper bound using the Peter-Weyl theorem, then pre-train our foundation model on a dataset of hundreds of thousands of different Hamiltonian systems, varying the connection topology, system size, interaction types and strengths, bringing together a century of many-body literature. Using a novel $\\mathrm{SU}(2)$ replica-exchange Langevin sampler and sharded natural-gradient optimisation, we train our model with our own extension of the Kronecker-Factored Approximate Curvature (KFAC) optimiser on system sizes up to 64 qubits. On a held-out generalisation dataset, we fine-tune our model on system sizes of up to 1024 qubits, and evaluate on systems up to 8100 qubits.",
     "authors": [
-      "Heightman, Timothy",
-      "Orlova, Elena",
-      "Mantrov, Philip",
-      "Ustimenko, Aleksei"
+      "Timothy Heightman",
+      "Elena Orlova",
+      "Philip Mantrov",
+      "Aleksei Ustimenko"
     ],
-    "categories": [],
+    "categories": [
+      "quant-ph",
+      "cond-mat.dis-nn",
+      "cond-mat.str-el",
+      "cs.AI"
+    ],
     "submitted_at": "2026-08-12T00:00:00Z",
-    "updated_at": "2026-08-13T10:54:32.485339Z",
+    "updated_at": "2026-08-14T02:47:38.534662Z",
     "document_types": [
       "article"
     ],
@@ -24,15 +29,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2608.11911v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.11911v2",
     "inspire_url": "https://inspirehep.net/literature/3190285",
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.11911",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
+        "url": "https://arxiv.org/abs/2608.11911v2"
+      },
       {
         "source": "inspire",
         "record_id": "3190285",
-        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "fetched_at": "2026-08-14T23:42:47.064109Z",
         "url": "https://inspirehep.net/literature/3190285"
       }
     ],
