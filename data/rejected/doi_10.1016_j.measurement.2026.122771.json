@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.measurement.2026.122771",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3190628",
+    "doi": "10.1016/j.measurement.2026.122771",
+    "title_en": "Hybrid tree-based machine learning for calorimetric energy calibration using the Lorenzetti Showers framework",
+    "abstract_en": "Accurate and low-latency energy calibration is essential in high-energy physics calorimetry, especially in trigger-oriented environments with stringent timing constraints. Fast calorimetric measurements are affected by pile-up, electronic noise, detector nonlinearities, and shower fluctuations, degrading transverse-energy reconstruction and broadening threshold-based event selection. This work investigates hybrid tree-based machine-learning strategies for event-level calibration within a controlled Lorenzetti simulation benchmark. Datasets were generated with the Lorenzetti Showers framework configured as an ATLAS-inspired electromagnetic calorimeter, and ring-based shower observables were used as compact topological inputs. The proposed approach combines full-ring and dimensionality-reduced representations with Random Forest, Gradient Boosted Decision Tree, residual-learning, and stacked-ensemble regressors to estimate multiplicative calibration factors applied to the standard energy measurement. The best performance was achieved by a hybrid Random Forest model with Gradient Boosted Decision Tree residual correction using the full 100-ring representation. Under the considered benchmark conditions, this configuration reduced RMSE by 60.61%, IQR by 43.39%, relative energy resolution by 44.96%, and the threshold offset required to reach 90% event acceptance by 66.15%. The best compact configuration, a Gradient Boosted Decision Tree using five independent components, achieved reductions of 51.25% in RMSE, 25.45% in IQR, 31.98% in relative energy resolution, and 55.90% in the 90% acceptance threshold offset. The top-ranked configurations also showed low CPU-based trained-model prediction times. Overall, the results support ring-based hybrid tree calibration as a promising benchmark-level strategy for improving simulated fast calorimetric energy estimates, while validation with higher-fidelity simulations, experimental data, and target trigger hardware is required before deployment conclusions. Graphical abstract Image 1 •Machine-learning-based calibration improved fast energy measurement within the considered Lorenzetti simulation benchmark.•Hybrid tree-based machine-learning models achieved the best calibration performance.•Compact latent-space models retained competitive accuracy while reducing detector-signal dimensionality.•The proposed methods improved RMSE, IQR, energy resolution, and threshold-response behavior.•Top-ranked configurations showed low CPU-based prediction times for the trained-model inference stage.",
+    "authors": [
+      "da Silva, Paulo Roberto Araujo",
+      "de Simas Filho, Eduardo Furtado",
+      "Farias, Paulo C.M.A.",
+      "Souza, Edmar E.P.",
+      "Marin, Juan L.",
+      "de Seixas, José Manoel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-08T00:00:00Z",
+    "updated_at": "2026-08-13T14:13:59.007475Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "290, 122771, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214046'}, Measurement"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190628",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190628",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190628"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

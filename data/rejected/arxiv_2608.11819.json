@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.11819",
+    "arxiv_id": "2608.11819",
+    "arxiv_version": null,
+    "inspire_id": "3190385",
+    "doi": null,
+    "title_en": "Usage of GPUs for ALICE Run 3 Offline Reconstruction on the GRID",
+    "abstract_en": "ALICE, the dedicated heavy ion experiment at the LHC, records Pb-Pb collisions at an interaction rate of up to 50 kHz. It was the first LHC experiment to leverage GPUs for online data processing during LHC Runs 1 and 2, and its Run 3 online data processing is now fully based on GPUs with more than 90% of the compute load offloaded to the accelerator. In order to use its online processing server farm also for offline processing in an efficient way while the LHC is not operating, ALICE has been running the offline TPC tracking on GPUs since 2023. Since then, ALICE has been conducting an ongoing effort to offload more offline reconstruction steps to GPUs, and to use the GPUs at other GRID sites beyond the ALICE online computing farm for offline reconstruction. In particular, porting the track model decoding and ITS tracking to GPU has improved the throughput by 29%. In 2026, ALICE ran the first GPU reconstruction jobs on the NVIDIA GPUs of the NERSC Perlmutter cluster, marking the first use of GPUs for LHC offline reconstruction on the GRID. Users can submit GPU reconstruction jobs by specifying only the required GPU count and type, while the underlying infrastructure handles all remaining configurations transparently.",
+    "authors": [
+      "Rohr, David"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-13T10:53:52.908761Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190385",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190385",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190385"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

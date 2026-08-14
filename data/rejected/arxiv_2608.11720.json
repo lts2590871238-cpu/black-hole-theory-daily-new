@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.11720",
+    "arxiv_id": "2608.11720",
+    "arxiv_version": null,
+    "inspire_id": "3190513",
+    "doi": null,
+    "title_en": "Distributed Quantum Algorithms Cannot Color Cycles with Probability 1",
+    "abstract_en": "We prove that any distributed quantum algorithm that finds a $3$-coloring with probability $1$ in a cycle of anonymous identical computers has to be global, that is, it needs $Ω(n)$ communication rounds. It follows that quantum computation and communication does not help with this problem. All prior lower bounds on quantum advantage in distributed graph algorithms use arguments related to physical causality. However, it is known that such arguments cannot rule out fast quantum advantage for $3$-coloring cycles. In particular, any causality-based argument would rule out the existence of finitely dependent coloring, but Holroyd and Liggett (2016) showed that such colorings do exist. Hence to tackle this problem, we need a ``genuinely quantum'' lower-bound technique that can distinguish between (1) distributions that do not violate physical causality vs. (2) distributions that can be realized with a quantum strategy. We present the first such lower-bound technique in this context. First, we show that $1$-round quantum algorithms cannot break symmetry with probability $1$. Second, we present a wishful teleportation strategy that can be used to turn $T$-round quantum 3-coloring algorithms into $1$-round quantum algorithms breaking symmetry, while preserving success probability $1$. Put together, the lower bound follows.",
+    "authors": [
+      "Coiteux-Roy, Xavier",
+      "Flin, Maxime",
+      "de Gois, Carlos",
+      "Renou, Marc-Olivier",
+      "Suomela, Jukka",
+      "Veeren, Isadora"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-13T14:31:44.560825Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190513",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190513",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190513"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

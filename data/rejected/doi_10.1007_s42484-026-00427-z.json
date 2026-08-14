@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00427-z",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3190562",
+    "doi": "10.1007/s42484-026-00427-z",
+    "title_en": "Quantum-accelerated security analysis in quantum cryptography: semidefinite programming (SDP) from classical bottlenecks to quantum solutions - a comprehensive review",
+    "abstract_en": "Semidefinite programming (SDP) serves a dual role in quantum cryptography: it is both the primary mathematical tool for certifying the security of quantum key distribution (QKD) protocols and, simultaneously, a computational bottleneck that limits the scale of protocols amenable to rigorous analysis. From device-independent security proofs using the Navascués-Pironio-Acín (NPA) hierarchy to finite-key rate calculations, SDPs provide rigorous mathematical frameworks for certifying quantum cryptographic security. However, as quantum protocols become more sophisticated-incorporating higher-dimensional systems, multiple measurement settings, or device-independent assumptions-the computational complexity of solving these SDPs classically becomes a significant bottleneck, scaling as $O(n^{3.5})$ for interior-point methods where n denotes the SDP dimension. Concurrently, quantum algorithms for SDP solving have emerged, offering polynomial speedups over classical methods. The Brandão-Svore algorithm and its refinements achieve $\\tilde{O}(\\sqrt{mn})$ query complexity versus $\\tilde{O}(mn)$ classically, a quadratic speedup that is near-optimal as established by quantum lower bounds. This raises a fundamentally self-referential question: Can quantum computers accelerate the security analysis of quantum cryptographic protocols? This review examines the dual role of SDPs in quantum cryptography, surveys SDP-based security proofs in QKD, reviews recent advances in quantum SDP algorithms (from fault-tolerant approaches to NISQ-era variational methods), and analyzes the theoretical and practical implications of using quantum computation to bootstrap quantum cryptographic security. We identify the practical quantum advantage threshold at problem sizes $n \\cdot m > 10^{12}$, corresponding to high-dimensional QKD with $d > 50$, device-independent protocols with more than five measurement settings at NPA level $\\ge 3$, or quantum networks with $N \\ge 5$ nodes. We further establish that untrusted quantum SDP solving can be used safely under classical solution verification, preserving information-theoretic security guarantees. We identify this computational loop as a critical open question for the future of quantum cryptography and outline pathways toward practical quantum-accelerated security analysis.",
+    "authors": [
+      "Weinberg, Abraham Itzhak"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-10T00:00:00Z",
+    "updated_at": "2026-08-13T14:12:07.053572Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 90, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 90, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190562",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190562",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190562"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

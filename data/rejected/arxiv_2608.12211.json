@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12211",
+    "arxiv_id": "2608.12211",
+    "arxiv_version": null,
+    "inspire_id": "3190436",
+    "doi": null,
+    "title_en": "Finding black hole spins efficiently during a numerical binary evolution",
+    "abstract_en": "The dynamics of a binary black hole system depend on its masses and spins. For a binary at finite separation, it is not possible to define these quantities in an unambiguous way; however, there are several reasonable definitions that reduce to the expected values in the limit of infinite separation. Approximate Killing vector (AKV) spin is one of the spin definitions used in the numerical relativity code SpEC. AKV spin requires finding approximate Killing vectors on an apparent horizon, which reduces to a generalized eigenvalue problem of size $\\mathcal{O}(L^2)$, and a direct solve has time complexity $\\mathcal{O}(L^6)$, where $L$ is the highest spherical harmonic mode used to represent the apparent horizon. This scaling means that the cost of computing AKV spins increases rapidly as we simulate systems at higher resolutions, especially those with high spin or mass ratios. We describe a new algorithm for computing AKV spins that is much faster than the current algorithm.",
+    "authors": [
+      "Chaudhary, Himanshu",
+      "Owen, Rob",
+      "Scheel, Mark A.",
+      "Teukolsky, Saul A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-13T11:19:01.727750Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190436",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190436",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190436"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

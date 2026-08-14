@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/5z6j-y33z",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3190726",
+    "doi": "10.1103/5z6j-y33z",
+    "title_en": "Simulated-annealing decoder for the XZZX code with greedy-matching initialization",
+    "abstract_en": "The XZZX code is a variant of the surface code tailored to address biased noise in realistic quantum devices. We propose a simulated annealing (SA) decoder for the XZZX code. Our SA decoder is amenable to parallelization because its Markov chain Monte Carlo updates are simple and local. To initialize SA, we use a recovery configuration produced by our greedy-matching decoder. Although <math><mi>Z</mi></math>-biased noise is commonly assumed in realistic quantum devices, we instead focus on <math><mi>Y</mi></math>-biased noise. Under <math><mi>Y</mi></math>-biased noise, the minimum-weight perfect matching (MWPM) decoder becomes suboptimal because it cannot take into account the fact that a <math><mi>Y</mi></math> error contains both <math><mi>X</mi></math> and <math><mi>Z</mi></math> components on the same qubit. Our numerical simulations for the code capacity noise model, where only data qubits suffer errors, show that our SA decoder achieves higher accuracy than the MWPM decoder. They also show that, under moderately <math><mi>Y</mi></math>-biased noise, our SA decoder achieves accuracy comparable to that of a decoder based on IBM ILOG CPLEX Optimizer (CPLEX), which uses integer programming to find a minimum-energy error configuration consistent with the measured syndrome. In our greedy-matching decoder, we randomize the tie breaking among equal-weight pairs. This randomness generates a variety of initial configurations for SA, which improves the convergence of our SA decoder. These results suggest that combining SA with our greedy-matching initializer is a promising approach to decoding the XZZX code under <math><mi>Y</mi></math>-biased noise in the code capacity noise model.",
+    "authors": [
+      "Sakashita, Tatsuya"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-13T17:32:15.947842Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "1, 000090, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/3190519'}, APS Open Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190726",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190726",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190726"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

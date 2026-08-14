@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.12297",
+    "arxiv_id": "2608.12297",
+    "arxiv_version": null,
+    "inspire_id": "3190464",
+    "doi": null,
+    "title_en": "Eigenstate Preparation Through Near-Optimal Eigenprobability Filtering",
+    "abstract_en": "Quantum simulation is expected to be a main application of quantum computers with realistic utility in quantum chemistry, materials science and beyond. However, preparing excited or general eigenstates is a central challenge, particularly when the desired eigenvalue is not known in advance, or when the overlap with the initial state is insufficient. We introduce the Dominant Eigenstate Filtering via Eigenprobability Amplification and Thresholding (DEFEAT) algorithm that identifies and filters the eigenstate with the largest overlap with the supplied initial state. Our key observation is that we do not need prior knowledge of the target eigenvalue, as we construct efficient twirling superoperators that map initial states to eigenprobability density operators $ρ$, diagonal in the Hamiltonian eigenbasis and encoding its spectral weights, alongside its block-encoding implementation. Our crucial innovation is the quadratic amplification of probabilities via the factorisation $ρ=ρ_{\\rm sqrt}^\\daggerρ_{\\rm sqrt}$, analogous to the recently introduced sum-of-squares spectral amplification (SOSSA), which we use here to amplify the separation between dominant and subdominant components. Thresholding then yields the dominant-eigenstate projector. Compared with conventional phase estimation, DEFEAT improves the dependence on the overlap with the initial state while requiring substantially fewer ancillary qubits. We prove that the query complexity of the filtering step is optimal up to logarithmic factors and establish a complementary lower bound for eigenstate preparation under purified query access to $ρ$. We validate in numerical simulations that the convergence rate of DEFEAT matches our theoretical results. Our results provide a general eigenvalue-agnostic primitive for dominant eigenstate filtering and preparation, and for estimating properties of dominant eigenstates.",
+    "authors": [
+      "Huang, Po-Wei",
+      "Bakó, Bence",
+      "Koczor, Bálint"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-12T00:00:00Z",
+    "updated_at": "2026-08-13T13:38:37.763541Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3190464",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3190464",
+        "fetched_at": "2026-08-14T00:03:02.683022Z",
+        "url": "https://inspirehep.net/literature/3190464"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
