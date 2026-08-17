@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13852",
+    "arxiv_id": "2608.13852",
+    "arxiv_version": null,
+    "inspire_id": "3191223",
+    "doi": null,
+    "title_en": "CCAT: a two-octave 1.024 GHz KID readout featuring an overlap-channel polyphase synthesis filter bank on RFSoC",
+    "abstract_en": "Next-generation submillimeter instruments require gigahertz-scale readout bandwidths to support the growing detector counts of large microwave kinetic inductance detector (KID) arrays. Designed to meet the readout bandwidth and tone-capacity requirements of the CCAT Prime-Cam 850 GHz and 410 GHz instrument modules, we developed our second-generation (Gen2) KID readout system on a Xilinx ZCU111 radio frequency system-on-chip (RFSoC), based on a parallelized overlap-channel polyphase synthesis filter bank and a companion wideband receiving channelizer. This two-octave architecture reads out four independent RF networks, each with 1.024 GHz instantaneous bandwidth and up to 2048 detectors. The polyphase synthesis doubles the baseline channel count and bandwidth, and enables on-the-fly control of individual tone frequency, amplitude and phase, facilitating optimized KID biasing and providing a gateway to tone tracking. These capabilities may also be useful more broadly across Prime-Cam and in similar frequency-division multiplexed (FDM) readout systems. We present the design in DSP simulation, and measurements in RF loopback as well as with two KID test chips, one spanning the full two-octave band. Loopback measurements demonstrate comparable noise performance between the first-generation (Gen1) baseline and Gen2; preliminary on/off-resonance measurements indicate detector-noise-limited operation for the majority of channels; and the digital channel crosstalk is measured and discussed. We report FPGA resource and power utilization and assess scalability toward future large-format KID instruments.",
+    "authors": [
+      "Ruixuan",
+      "Xie",
+      "Sinclair, Adrian K.",
+      "Burgoyne, James",
+      "Chapman, Maxwell",
+      "Chapman, Scott",
+      "Choi, Steve K.",
+      "Huber, Anthony, I.",
+      "Keller, Ben",
+      "Niemack, Michael D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-17T08:01:39.323323Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191223",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191223",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191223"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

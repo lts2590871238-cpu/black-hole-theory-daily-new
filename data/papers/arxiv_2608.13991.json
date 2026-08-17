@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13991",
+    "arxiv_id": "2608.13991",
+    "arxiv_version": 1,
+    "inspire_id": "3191340",
+    "doi": null,
+    "title_en": "On the Acceleration of Pulsar Timing computations using Normalising Flows and Parallelisation",
+    "abstract_en": "Single-Pulsar Noise Analysis (SPNA) and Gravitational Wave (GW) searches done on Pulsar Timing Array (PTA) datasets have everlastingly suffered from the computational bottleneck arising due to high dimensionality and multi-modality of the PTA likelihood landscape, along with strong correlations amongst various single-pulsar noises and ensemble-level common noise processes. We addressed this outstanding issue by employing a Normalising Flow-based Preconditioned Monte-Carlo sampling technique implemented in the POCOMC package, for the first time on PTA-specific computations, and comparing the achieved acceleration with the widely used PTMCMCSAMPLER and DYNESTY packages. We further investigated the acceleration achieved via parallelisation over an increasing array of communicating nodes on a high-performance computing (HPC) resource, by employing the PARALLEL_BILBY architecture with DYNESTY. We tested the acceleration on realistic long baseline simulated datasets with SPNA and Common Red Noise (CRN) analysis. We found PARALLEL_BILBY to be the most efficient in parallelisation, achieving a runtime of ~10min and ~100min with 16 nodes for spatially uncorrelated and Hellings and Downs-correlated CRN searches, respectively. POCOMC outperforms in single node performance requiring only ~10h for correlated search. PTMCMCSAMPLER was found to be the least efficient. We envisage POCOMC to be of great importance for PTA analyses, without requiring any GPU or HPC support, while also performing ensemble-level GW searches within a manageable time span. These results have everlasting implications with increasing data volumes and need to incorporate more complicated models, which were otherwise beyond reach due to the associated computational costs.",
+    "authors": [
+      "Churchil Dwivedi",
+      "Hiya Shah",
+      "Hemanga Tahbildar"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-17T08:01:30.099264Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.13991v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.13991v1",
+    "inspire_url": "https://inspirehep.net/literature/3191340",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.13991",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://arxiv.org/abs/2608.13991v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3191340",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191340"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "common red noise",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 45
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 5,
+      "methodological_rigor": 15,
+      "novelty": 10,
+      "clarity": 8,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 50,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "本文提出将归一化流预条件蒙特卡洛采样应用于脉冲星计时阵列分析，与现有方法对比并展示了显著的加速效果，具有较高的实用价值和新颖性。",
+    "title_zh": "利用归一化流和并行化加速脉冲星计时计算",
+    "abstract_zh": "单脉冲星噪声分析（SPNA）和基于脉冲星计时阵列（PTA）数据集进行的引力波（GW）搜索，长久以来一直受到计算瓶颈的困扰，该瓶颈源于PTA似然函数空间的高维性和多模态性，以及各种单脉冲星噪声和系综级公共噪声过程之间的强相关性。我们通过采用基于归一化流预条件蒙特卡洛采样技术（在POCOMC包中实现）解决了这一突出问题，这是首次将该技术应用于PTA特定计算，并比较了其与广泛使用的PTMCMCSAMPLER和DYNESTY包所实现的加速效果。我们还通过在高性能计算（HPC）资源上使用PARALLEL_BILBY架构和DYNESTY，研究了在增加的通信节点阵列上进行并行化所实现的加速。我们在真实的长基线模拟数据集上进行了SPNA和公共红噪声（CRN）分析测试。我们发现PARALLEL_BILBY在并行化方面最为高效，对于空间不相关和Hellings-Downs相关的CRN搜索，使用16个节点分别实现了约10分钟和约100分钟的运行时间。POCOMC在单节点性能上表现出色，对于相关搜索仅需约10小时。PTMCMCSAMPLER被发现效率最低。我们预期POCOMC对PTA分析将非常重要，无需任何GPU或HPC支持，同时也能在可管理的时间范围内进行系综级GW搜索。随着数据量的增加和需要纳入更复杂模型（否则因相关计算成本而无法实现）的需求，这些结果具有长远意义。",
+    "keywords_en": [
+      "pulsar timing array",
+      "normalising flows",
+      "parallelisation",
+      "Bayesian inference",
+      "computational acceleration"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "归一化流",
+      "并行化",
+      "贝叶斯推断",
+      "计算加速"
+    ],
+    "translation_warning": "原摘要包含对未来影响的表述，在翻译中尽量保留但未过度强化。",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-17T23:43:23.486708Z"
+  },
+  "published_at": "2026-08-17T23:43:23.487175Z"
+}

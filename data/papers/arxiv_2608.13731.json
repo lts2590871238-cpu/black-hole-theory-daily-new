@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13731",
+    "arxiv_id": "2608.13731",
+    "arxiv_version": 1,
+    "inspire_id": "3191273",
+    "doi": null,
+    "title_en": "Properties of holographic superconductors from Machine Learning",
+    "abstract_en": "We investigate holographic superconductors using modern optimisation techniques inspired by machine learning. The critical temperature is obtained by minimising the variational functional for the eigenvalue $λ^2$ with two complementary trial functions: a simple cosine ansatz $F(z)=\\cos(a z)$ and a flexible exponential polynomial $F(z)=\\exp(\\sum_{n=2}^{N} a_n z^n)$, both of which automatically satisfy the standard boundary conditions. For the cosine ansatz, we perform a one-parameter minimisation and obtain $λ^2(Δ)$ and $T_c/\\sqrtρ$ over a wide range of $Δ$, including the exact values at $Δ=1$ and $Δ=2$ to high accuracy. The exponential polynomial ansatz, with up to 19 coefficients, is optimised using a multi-start L-BFGS-B algorithm with warm-starting, yielding even better agreement with known exact results. Our numerical data for $λ^2(Δ)$ and $T_c/\\sqrtρ$ match the analytical predictions from the literature, confirming the robustness of the variational approach. This work; therefore, demonstrates that a combination of analytic trial functions and modern numerical optimisation provides a powerful, flexible, and efficient tool for exploring holographic superconductors, and can be readily extended to include backreaction or other sectors in this field.",
+    "authors": [
+      "Aliou Togo",
+      "Yang Yu",
+      "Kaniba Mady Keita",
+      "Jian-Pin Wu",
+      "Younouss Ham`eye Dicko"
+    ],
+    "categories": [
+      "hep-th",
+      "cond-mat.supr-con"
+    ],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-17T02:51:22.036165Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.13731v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.13731v1",
+    "inspire_url": "https://inspirehep.net/literature/3191273",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.13731",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://arxiv.org/abs/2608.13731v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3191273",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191273"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "holography_condensed_matter"
+    ],
+    "high_weight_hits": [
+      "holographic superconductor"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "holography_condensed_matter",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 25,
+      "methodological_rigor": 18,
+      "novelty": 10,
+      "clarity": 9,
+      "metadata_quality": 8,
+      "community_signal": 0,
+      "other": 7
+    },
+    "total_score": 77,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文将机器学习优化技术应用于全息超导体的研究，通过变分方法获得临界温度和特征值，与已知解析结果吻合，方法新颖且具有扩展性。",
+    "title_zh": "基于机器学习研究全息超导体的性质",
+    "abstract_zh": "我们利用受机器学习启发的现代优化技术研究全息超导体。临界温度通过最小化特征值$λ^2$的变分泛函获得，采用两个互补的试探函数：简单的余弦拟设$F(z)=\\cos(a z)$和灵活的指数多项式$F(z)=\\exp(\\sum_{n=2}^{N} a_n z^n)$，两者均自动满足标准边界条件。对于余弦拟设，我们进行单参数最小化，在广泛的$Δ$范围内获得$λ^2(Δ)$和$T_c/\\sqrtρ$，包括在$Δ=1$和$Δ=2$处的高精度精确值。指数多项式拟设最多包含19个系数，使用带有热启动的多起点L-BFGS-B算法进行优化，与已知精确结果相比获得更佳的一致性。我们对$λ^2(Δ)$和$T_c/\\sqrtρ$的数值数据与文献中的解析预测相匹配，证实了变分方法的稳健性。因此，这项工作表明，解析试探函数与现代数值优化的结合为探索全息超导体提供了强大、灵活且高效的工具，并且可以轻松扩展到包括反作用或其他领域。",
+    "keywords_en": [
+      "holographic superconductors",
+      "machine learning",
+      "variational method",
+      "critical temperature",
+      "L-BFGS-B"
+    ],
+    "keywords_zh": [
+      "全息超导体",
+      "机器学习",
+      "变分方法",
+      "临界温度",
+      "L-BFGS-B"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-17T23:43:30.691095Z"
+  },
+  "published_at": "2026-08-17T23:43:30.691517Z"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.14208",
+    "arxiv_id": "2608.14208",
+    "arxiv_version": null,
+    "inspire_id": "3191216",
+    "doi": null,
+    "title_en": "Foundation Neural Effective Hamiltonian for Strongly Correlated Quantum Materials",
+    "abstract_en": "Simulating strongly correlated quantum materials often involves not a single Hamiltonian, but a family of Hamiltonians whose ground states evolve across experimentally tunable couplings. Foundation neural quantum states (FNQS) offer a promising route to amortizing many-body calculations across such families, but can lose accuracy near phase transitions and still incur non-negligible sampling costs that grow with the number of target couplings. We introduce the Foundation Neural Effective Hamiltonian (FNEH), which projects a Hamiltonian family onto a compact subspace spanned by FNQS sampled at selected couplings. By variationally combining FNQS across parameter space, FNEH systematically improves their ground-state approximation and can recover phase boundaries that the foundation model misidentifies. Once the required operator matrix elements are sampled, FNEH enables sweeps over couplings, observables, and phase boundaries at a cost governed by the small effective-Hamiltonian dimension, without repeated neural-network sampling at every target coupling. We demonstrate FNEH in strongly correlated moiré materials, where it accurately resolves competing phases, enables high-resolution multidimensional phase scans, and substantially reduces the computational cost of exploring many target Hamiltonians. The results open a new avenue for studying strongly correlated quantum materials with foundation models.",
+    "authors": [
+      "Zhang, Lixing",
+      "Jiang, Hongjie",
+      "Luo, Di"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-17T08:01:28.642301Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191216",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191216",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191216"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

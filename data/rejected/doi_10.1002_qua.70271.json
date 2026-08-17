@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1002/qua.70271",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191392",
+    "doi": "10.1002/qua.70271",
+    "title_en": "Quantum Computing and Artificial Neural Network Methods in Approximating the Quantum Many‐Body Fermion System for Modern Quantum Chemistry Applications",
+    "abstract_en": "<jats:title>ABSTRACT</jats:title> The field of quantum chemistry has long been defined by the central computational challenge of the quantum many‐body fermionic system problem—namely, the electronic Schrödinger equation. The exponential scaling of this equation makes it computationally intractable to solve exactly. As a result, various approximation methods have been developed, ranging from the widely used Density Functional Theory (DFT) to Coupled Cluster (CC) theory. While powerful, these conventional approaches often involve controlled truncations which cause a trade‐off between accuracy and computational cost, leaving many systems—particularly those with strong electron correlation—beyond the reach of ab initio simulation. Furthermore, the famous fermionic sign problem is particularly severe in stochastic methods like Quantum Monte Carlo (QMC). Traditional ansatz are also frequently engineered specifically for particular systems, which results in a fragmentation of methodologies and fundamentally limits their transferability. Recent research demonstrates that with carefully designed architectures, ANNs can not only represent ground states of model systems with high precision but also tackle the sign problem, offering a promising path forward for strongly correlated electronic structure calculations. This review charts the paradigm shift driven by Neural Network Quantum States (NNQS), which leverage the representational power of deep learning to overcome these barriers. We detail the architectural evolution from Restricted Boltzmann Machines to autoregressive models like RNNs and Transformers, which enable exact, uncorrelated sampling and bypass critical bottlenecks. The high‐efficiency optimization via neural networks was also explored, which decouples optimization cost from model complexity. Furthermore, the frontier of the field is marked by the integration of operator learning and hybrid quantum‐classical frameworks, such as Reinforcement Learning for contractive quantum eigen‐solvers to generate quantum circuits for simulating many‐body molecular systems, and Quantum‐Enhanced Neural Networks, which leverage quantum processors to enhance expressivity for hardware‐efficient ansatz. By framing the problem through the lens of computational resource allocation and quantum hardware integration—specifically, trading exponential memory demands for polynomial‐complexity optimization and sampling—this review elucidates how recent advances at the intersection of artificial neural networks and quantum computing have evolved. The emergence of these methods represents not merely progress toward powerful simulation tools, but also the creation of a hybrid computational interface. This convergence offers a versatile and systematically improvable framework for potentially addressing some of the most challenging problems in quantum physics and chemistry.",
+    "authors": [
+      "Yang, Chengze"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-15T00:00:00Z",
+    "updated_at": "2026-08-17T13:54:26.956038Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "126, e70271, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214711'}, 16, Int.J.Quant.Chem."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191392",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191392",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191392"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

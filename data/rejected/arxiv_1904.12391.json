@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:1904.12391",
+    "arxiv_id": "1904.12391",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "NuOscProbExact: a fast, general-purpose code to compute exact two-, three-, and four-flavor neutrino oscillation probabilities",
+    "abstract_en": "A neutrino created with one flavor can oscillate and be detected later with another. Ordinarily, the probability of this occurring---the oscillation probability---is obtained by diagonalizing the Hamiltonian that drives the neutrino evolution. We bypass the diagonalization: expanding the evolution operator in the generators of the groups SU(2), SU(3), and SU(4) yields exact closed-form probabilities for two, three, and four neutrino flavors that need the eigenvalues of the Hamiltonian and never its eigenvectors. As a result, every probability is then the same short run of arithmetic, whatever the Hamiltonian contains. We implement these expressions in NuOscProbExact, which we make publicly available. Any scenario with a time- or position-independent Hermitian Hamiltonian is in scope: oscillations in vacuum, matter of constant density, with non-standard interactions, in a Lorentz-violating background, with sterile states, combinations of them, or completely novel theory proposals. Matter of piecewise constant density, including the density profile of Earth, follows by composing the exact solutions for consecutive matter slabs. NuOscProbExact offers three properties that are seldom found in one program. It is flexible: computing probabilities for a new oscillation scenario needs no new solver, only a new Hamiltonian matrix. It is fast: among the surveyed existing public oscillation codes, it is the quickest to compute probabilities for neutrinos going through the Earth at every accuracy but the coarsest. It is accurate: for the Hamiltonian it is given, only machine round-off limits the probability; at constant density, no other surveyed code comes within four decades of it. Deriving only a Hamiltonian, and evaluating a million of them in one call, puts whole parameter spaces within reach in scenarios that no approximation covers.",
+    "authors": [
+      "Mauricio Bustamante"
+    ],
+    "categories": [
+      "hep-ph",
+      "astro-ph.HE",
+      "hep-ex"
+    ],
+    "submitted_at": "2019-04-28T22:25:34Z",
+    "updated_at": "2026-08-14T16:46:46Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/1904.12391v3",
+    "pdf_url": "https://arxiv.org/pdf/1904.12391v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "1904.12391",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://arxiv.org/abs/1904.12391v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2605.05019",
     "arxiv_id": "2605.05019",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
     "title_en": "Phase Transitions and Gravitational Waves",
@@ -18,22 +18,22 @@
       "astro-ph.CO"
     ],
     "submitted_at": "2026-05-06T15:18:38Z",
-    "updated_at": "2026-07-30T20:12:47Z",
+    "updated_at": "2026-08-13T18:27:11Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2605.05019v2",
-    "pdf_url": "https://arxiv.org/pdf/2605.05019v2",
+    "abs_url": "https://arxiv.org/abs/2605.05019v3",
+    "pdf_url": "https://arxiv.org/pdf/2605.05019v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2605.05019",
-        "fetched_at": "2026-08-06T00:14:36.440444Z",
-        "url": "https://arxiv.org/abs/2605.05019v2"
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://arxiv.org/abs/2605.05019v3"
       }
     ],
     "is_demo": false
@@ -59,31 +59,29 @@
     "primary_topic": "pta",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 20,
+      "theory_depth": 15,
       "methodological_rigor": 15,
       "novelty": 10,
       "clarity": 8,
-      "metadata_quality": 6,
+      "metadata_quality": 8,
       "community_signal": 0,
       "other": 5
     },
-    "total_score": 64,
+    "total_score": 61,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文针对早期宇宙一阶相变产生的随机引力波背景进行参数重建的Fisher矩阵预测，属于引力波背景研究，与PTA主题相关。方法严谨，结果明确，对探测器能力评估有参考价值。",
+    "selection_reason_zh": "该论文对原初引力波背景的参数重建进行了深入预测，聚焦于第一类相变产生的谱形，并与LISA和DECIGO探测器关联，紧密契合主题。",
     "title_zh": "相变与引力波",
-    "abstract_zh": "我们针对早期宇宙一阶相变产生的随机引力波背景，提出了一种谱参数重建的Fisher矩阵预测。我们使用LISA和DECIGO仪器作为参考，并用双破缺幂律模板对源频谱进行建模，参数为峰值振幅$\\Omega_p$、峰值频率$f_p$、破缺比$r_b$和中间斜率$b$。对于每个探测器，我们构建一个固定的基准模型，将峰值置于相应的灵敏度带内，对LISA取$f_p=3.0\\times10^{-3} \\ {\\rm Hz}$，对DECIGO取$f_p=1.0\\ {\\rm Hz}$。LISA基线包括未解析的银河系致密双星前景，而对于DECIGO，我们比较了以下前景情况：完整的致密双星前景、预计的减除后致密双星残差前景，以及仅仪器噪声前景。我们发现，两个探测器对峰值参数$\\ln\\Omega_p$和$\\ln f_p$的约束都比对详细形状参数$r_b$和$b$的约束更稳健。对于所选的DECIGO基准，预计的残差前景相对于仅仪器噪声情况产生的参数退化可忽略不计，而完整前景将信噪比从$\\rho=10$降至$\\rho\\simeq6.06$，并使$b$的边缘化不确定性增加约$51\\%$。这些结果强调，随机背景预测应区分可探测性与频谱可识别性。",
+    "abstract_zh": "我们提出了一种Fisher矩阵预测，用于重建早期宇宙中第一类相变产生的随机引力波背景的谱参数。我们以LISA和DECIGO仪器为参考，并使用双断裂幂律模板对源谱进行建模，该模板由峰值振幅$Ω_p$、峰值频率$f_p$、断裂比$r_b$和中间斜率$b$参数化。对于每个探测器，我们构建了一个固定的基准模型，将峰值置于相应的灵敏度带内，LISA使用$f_p=3.0\\times10^{-3} \\ {\\rm Hz}$，DECIGO使用$f_p=1.0\\ {\\rm Hz}$。LISA基线包括未解析的银河系致密双星前景，而对于DECIGO，我们比较了使用完整致密双星、投影的后减除致密双星残余以及仅仪器噪声前景的前景情况。我们发现，两个探测器对峰值参数$\\lnΩ_p$和$\\ln f_p$的约束都比对详细形状参数$r_b$和$b$的约束更稳健。对于所选的DECIGO基准，投影的残余前景相对于仅仪器噪声的情况产生的参数退化可忽略不计，而完整前景将信噪比从$ρ=10$降低到$ρ\\simeq6.06$，并使$b$的边际不确定性增加了约$51\\%$。这些结果强调，随机背景预测应区分可探测性和谱可识别性。",
     "keywords_en": [
-      "gravitational waves",
-      "phase transitions",
-      "stochastic background",
+      "stochastic gravitational wave background",
+      "phase transition",
       "Fisher matrix",
       "LISA",
       "DECIGO"
     ],
     "keywords_zh": [
-      "引力波",
+      "随机引力波背景",
       "相变",
-      "随机背景",
       "Fisher矩阵",
       "LISA",
       "DECIGO"
@@ -92,7 +90,7 @@
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-04T00:58:55.746069Z"
+    "created_at": "2026-08-17T23:43:34.934846Z"
   },
-  "published_at": "2026-08-06T00:16:11.628375Z"
+  "published_at": "2026-08-17T23:43:34.935317Z"
 }

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:f92940afacc9dfaa0ae35e20",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191485",
+    "doi": null,
+    "title_en": "A Graphical User Interface for the Deep Underground Neutrino Experiment Robotic Test Stand",
+    "abstract_en": "In preparation for DUNE, Fermilab along with six other institutions are testing cold electronics for quality control before components placed in the far detector. We test them by using a robotic arm that places these chips into sockets on a computer board that will test their functionality. Up until now, the chips have been tested using a command line script that drives a state machine to conduct tests step-by-step. In order to lower the skill barrier to conduct tests and to speed up the quality control process, I was tasked to create a graphical user interface that would allow users to use buttons, text boxes, and drop-down menus to input information and tell the testing state machine how to operate. I had to learn about the Python package Tkinter to start the process of widget placement. I further developed a pause feature unused in the previous command line script that would allow the user to shut down testing gracefully, bring the robotic arm to go back to ground state, and go forward or backward a step in the testing process. After completing the basic functionality of the GUI, I started testing production chips with the GUI to debug. Some issues were found, which required me to further develop parts of the inherited state machine code. The code for the GUI has now been pushed into the copy the DUNE/FD_CE git repository and will soon be merged with the official DUNE/FD_CE repository so that the other institutions testing DUNE cold electronics can use and expand upon it.",
+    "authors": [
+      "Gutierrez Villanueva, Jaziel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T20:43:49.286913Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191485",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191485",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191485"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

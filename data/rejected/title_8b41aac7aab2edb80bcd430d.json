@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:8b41aac7aab2edb80bcd430d",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191488",
+    "doi": null,
+    "title_en": "Graphical User Interface for a Biasing Board for the PSEC6",
+    "abstract_en": "The PSEC6 is an application-specific integrated circuit (ASIC) designed for a readout system for a large area picosecond photodetector (LAPPD). The PSEC6 is currently in fabrication and pending testing. The testing system for the PSEC5, the previous iteration of the ASIC, required expensive and non-portable equipment, because the ASIC needs twelve adjustable reference voltages. The new testing system consists of an low-cost, open-source, cross-platform graphical user interface (GUI), a digital system, and a biasing board. The digital system is the interface between the GUI and biasing board, and can be implemented on a microcontroller or field-programmable gate array (FPGA). The biasing board contains twelve digital-to-analog converters (DACs) that are configurable via the GUI, which gives users the ability to write voltage values to all or specific DACs. The GUI was developed in C on Linux using the widget library GTK4 and cross-compiled for Windows compatibility. I2C and SPI protocols were implemented on an Adafruit Feather ESP32-S3 microcontroller to write commands to the DACs and PSEC6. A hardware implementation of the I2C protocol is in development on an FPGA. Since LAPPDs will be used by the Accelerator Neutrino Neutron Interaction Experiment (ANNIE) at Fermilab, the PSEC6 testing system in this internship project can potentially benefit future neutrino research. The project is relevant to the Department of Energy’s microelectronics mission, because the PSEC6 is an ASIC that will handle fast time signals arriving from the detector for readout. It also provided experience with building a cross-platform user interface, practicing digital design and implementation in hardware description language (HDL), and using simulations to inform new design iterations.",
+    "authors": [
+      "Guerrero, Sasha Camila"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-17T21:36:49.863042Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191488",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191488",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191488"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

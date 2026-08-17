@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13652",
+    "arxiv_id": "2608.13652",
+    "arxiv_version": null,
+    "inspire_id": "3191155",
+    "doi": null,
+    "title_en": "Contrastive Learning for Interpretable Anomaly Detection at Collider Experiments",
+    "abstract_en": "Generic event-level anomaly detection for collider physics has two recurring problems: anomaly scores are hard to interpret, and they correlate strongly with energy scale and object multiplicity. We present Organized Representation via Contrastive learning for Anomaly detection (ORCA), a two-stage framework that first learns an embedding space via supervised contrastive learning across a diverse set of physics processes, then runs a standard autoencoder in that space to generate event-level anomaly scores. On a simulated dataset consistent with conditions at the High-Luminosity Large Hadron Collider, ORCA delivers significant gains in both breadth and depth of sensitivity to new physics signals with respect to a baseline autoencoder architecture. Beyond improved sensitivity, the contrastive embedding makes the anomalous sample interpretable: because known processes occupy distinct regions of the space, a maximum-likelihood template fit to the embedding distributions can attribute events in an anomalous sample to template physics processes with quantified uncertainties. We demonstrate that the fit accurately recovers injected signal yields, including for signals excluded from the training of the embedding, and characterizes signals absent from the template library through the known processes they most resemble. These results establish ORCA as a route to interpretable anomaly detection-based searches at colliders, where the embedding geometry carries higher dimensional physics information compared to standard one-dimensional output fits, enhancing downstream statistical analysis.",
+    "authors": [
+      "Jia, Haoyi",
+      "Addepalli, Sagar",
+      "Gonski, Julia"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-13T00:00:00Z",
+    "updated_at": "2026-08-17T07:56:32.268739Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191155",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191155",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191155"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

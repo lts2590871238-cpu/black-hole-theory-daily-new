@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.13907",
+    "arxiv_id": "2608.13907",
+    "arxiv_version": null,
+    "inspire_id": "3191199",
+    "doi": null,
+    "title_en": "Robust Quantum Extremal Numbers",
+    "abstract_en": "Absolutely maximally entangled states require every reduction of at most half of the parties to be maximally mixed, a condition that is both rigid and often impossible for qubit systems. Previous work introduced the quantum extremal number, which maximizes the number of exactly maximally mixed half-body marginals, and determined the exact value Qex(8,4)=56. The present work develops a robust extension of this extremal problem. For a subsystem $A$, the marginal maximal-mixing defect is defined by \n\\[ D_A=2^{|A|}\\operatorname{Tr}(ρ_A^2)-1 =2^{|A|}\\left\\|ρ_A-\\frac{I_A}{2^{|A|}}\\right\\|_2^2, \\]\n and $Q_{\\mathrm{ex},\\varepsilon}^{D}(n,k)$ is defined as the maximum number of $k$-body marginals satisfying $D_A\\leq\\varepsilon$ in an $n$-qubit pure state. This counting problem differs from approximate $k$-uniformity, which requires all $k$-body marginals to obey a common error bound. For pure states on $4m$ qubits, the following local stability inequality is established: \n\\[ \\sum_{i\\in T}D_{T\\setminus\\{i\\}}\\geq1 \\qquad (|T|=2m+1). \\]\n It follows that, whenever $\\varepsilon<1/(2m+1)$, the hypergraph of $\\varepsilon$-good $2m$-subsets is $K_{2m+1}^{(2m)}$-free. Combined with the known exact eight-qubit construction, this yields the stability plateau \n\\[ Q_{\\mathrm{ex},\\varepsilon}^{D}(8,4)=56, \\qquad 0\\leq\\varepsilon<\\frac15. \\]\n For odd systems of $2k+1$ qubits, the exact forbidden hypergraph $H_k$ is used to derive explicit finite-error stability radii. In particular, $Q_{\\mathrm{ex},\\varepsilon}^{D}(9,4)\\leq120$ for $0\\leq\\varepsilon<1/17$. These results turn exact quantum Turán obstructions into quantitative robustness statements and identify intervals on which quantum extremal numbers are stable under imperfect marginal mixedness.",
+    "authors": [
+      "Zhang, Wanchen",
+      "Han, Zicheng",
+      "Zhang, Xiande"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-17T07:56:50.616187Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191199",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191199",
+        "fetched_at": "2026-08-17T23:42:31.079903Z",
+        "url": "https://inspirehep.net/literature/3191199"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
