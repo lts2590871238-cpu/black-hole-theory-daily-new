@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.14827",
+    "arxiv_id": "2608.14827",
+    "arxiv_version": null,
+    "inspire_id": "3191499",
+    "doi": null,
+    "title_en": "Enabling Hybrid HPCQC Workflows with a Heterogeneous Software Stack",
+    "abstract_en": "In this work, we demonstrate hybrid High Performance Computing-Quantum Computing (HPCQC) workflows on a production petascale system. The demonstration combines three components: the SuperMUC-NG supercomputer at the Leibniz Supercomputing Centre (LRZ), a 20-qubit superconducting quantum processor provided by IQM Quantum Computers (IQM), and Munich Quantum Valley (MQV)'s Munich Quantum Software Stack (MQSS). Integrating quantum processors into High Performance Computing (HPC) systems requires a heterogeneous software stack capable of orchestrating classical and quantum resources within established supercomputing workflows. MQSS treats Quantum Processing Units (QPUs) as scheduler-managed accelerators and it performs resource coordination following a two-level scheduling scheme. Slurm performs system-level allocation by exposing QPUs as Generic RESources (GRES), while the MQSS Quantum Resource Manager & Compiler Infrastructure (QRM&CI) performs just-in-time compilation and subsequent dispatch of quantum circuits. To integrate with existing HPC operations without modifying the scheduler core, MQSS introduces an open-source SLURM Plugin Suite based on Prolog/Epilog scripts and SPANK modules. Experimental results show that hybrid HPCQC workflows can be executed without significant latency overhead compared to conventional workloads. The presented architecture provides a portable integration model for quantum accelerators on large-scale HPC systems and is directly applicable to next-generation Hewlett Packard Enterprise (HPE) Cray platforms, including LRZ's upcoming 'Blue Lion' supercomputer.",
+    "authors": [
+      "Farooqi, Muhammad Nufail",
+      "Chung, Minh",
+      "Mete, Burak",
+      "Mansfield, Eric",
+      "Hoffmann, Bernd",
+      "Mattsson, Teemu",
+      "Schulz, Laura",
+      "Echavarria, Jorge"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-18T13:38:10.344981Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191499",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191499",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191499"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

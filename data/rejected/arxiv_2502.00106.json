@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2502.00106",
+    "arxiv_id": "2502.00106",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1051/0004-6361/202554596",
+    "title_en": "TABASCAL: Removing multi-satellite interference from radio interferometry observations",
+    "abstract_en": "In the first trajectory-based radio frequency interference (RFI) subtraction and calibration (TABASCAL) paper, we showed how to calibrate radio interferometers in the presence of RFI sources by simultaneously isolating the trajectories and signals of the RFI sources. In this paper, we show that we can accurately remove RFI (i.e. recover the astronomical signal) from simulated MeerKAT radio interferometry target data. We are able to do so for a single frequency channel, corrupted by up to nine simultaneous satellites, with average RFI amplitudes varying from weak to very strong (1-1000 Jy). Additionally, TABASCAL also manages to leverage the signal-to-noise ratio (S/N) of the RFI to phase-calibrate the astronomical signal. TABASCAL, effectively performs a suitably phased up fringe filter for each RFI source, which essentially allows for an ideal removal of RFI across all RFI strengths. As a result, TABASCAL is able to reach image noises equivalent to the uncorrupted, no-RFI, case. For larger RFI amplitudes, the resulting image noise is 10x - 100x smaller than those from traditional RFI flagging methods such as AOFLAGGER. As a specific application, we show that point-source science with TABASCAL almost matches the no-RFI case with near perfect completeness for all RFI amplitudes. In contrast, the completeness of AOFLAGGER and idealised $3σ$ flagging drops below 40% for strong RFI amplitudes, where recovered flux errors are approximately 10x - 100x worse than those from TABASCAL. Finally, we note that TABASCAL works for astronomical sources with both static and varying fluxes.",
+    "authors": [
+      "Chris Finlay",
+      "Bruce A. Bassett",
+      "Martin Kunz",
+      "Nadeem Oozeer"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "physics.data-an"
+    ],
+    "submitted_at": "2025-01-31T19:00:16Z",
+    "updated_at": "2026-08-17T12:50:12Z",
+    "document_types": [],
+    "journal_ref": "A&A 701, A286 (2025)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2502.00106v2",
+    "pdf_url": "https://arxiv.org/pdf/2502.00106v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2502.00106",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://arxiv.org/abs/2502.00106v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

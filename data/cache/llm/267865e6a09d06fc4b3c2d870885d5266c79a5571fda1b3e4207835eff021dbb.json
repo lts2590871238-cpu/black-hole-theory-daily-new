@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 15,
+    "methodological_rigor": 18,
+    "novelty": 14,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 4,
+    "other": 5
+  },
+  "total_score": 73,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文在NANOGrav 15年数据中首次将外部星系巡天模板嵌入PTA似然分析，检验纳赫兹引力波背景与近邻大尺度结构的相关性，方法新颖且结果重要。",
+  "title_zh": "利用公开的NANOGrav 15年数据集搜索与大规模结构相关的纳赫兹引力波背景各向异性：一种基于模板的方法",
+  "abstract_zh": "近期PTA分析报告了纳赫兹共同谱过程的证据，这促使我们针对性地测试随机引力波背景（SGWB）的任何各向异性分量是否与近邻大尺度结构（LSS）相关，正如以超大质量黑洞双星为主导的天体物理背景所预期的那样。我们提出了第一个贝叶斯PTA似然分析，该分析将外部观测到的全天星系巡天LSS模板直接嵌入作为重叠减少函数（ORF）的一个分量。利用2MASS光度红移（2MPZ）星系目录，我们在两个红移切片（$0<z\\le0.1$和$0.1<z\\le0.2$）中构建了低多极LSS相关的ORF模板，并将PTA互相关建模为$Γ_{ab}=Γ^{\\rm HD}_{ab}+\\sum_i ε_i\\,Γ^{\\rm LSS(i)}_{ab}$，其中$ε_i$量化了其角相关性投影到固定2MPZ LSS模板上的SGWB分量的振幅。将此框架应用于NANOGrav 15年数据集，我们没有发现LSS相关分量的证据：在单箱和双箱分析中，推断的$ε_i$值均与零一致（例如，$ε_1=0.20^{+1.68}_{-1.66}$和$ε_2=-0.11^{+2.04}_{-1.83}$；68%可信区间），贝叶斯因子支持各向同性的Hellings--Downs假设（$\\mathcal{B}_{{\\rm HD+LSS}_1,{\\rm HD}}=0.40$，$\\mathcal{B}_{{\\rm HD+LSS}_2,{\\rm HD}}=0.43$，$\\mathcal{B}_{{\\rm HD+LSS}_{1+2},{\\rm HD}}=0.11$）。因此，我们对$z<0.2$处任何由2MPZ追踪的、与LSS相关的SGWB贡献设置了上限。更广泛地说，我们的框架为将观测到的LSS信息纳入PTA各向异性搜索提供了一条可复现的途径，并自然地推动了向更精细红移层析成像和下一代PTA数据集的扩展。",
+  "keywords_en": [
+    "gravitational waves",
+    "pulsar timing arrays",
+    "large-scale structure",
+    "Bayesian analysis",
+    "NANOGrav"
+  ],
+  "keywords_zh": [
+    "引力波",
+    "脉冲星计时阵列",
+    "大尺度结构",
+    "贝叶斯分析",
+    "NANOGrav"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-18T23:43:22.854812Z"
+}

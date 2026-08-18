@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16512",
+    "arxiv_id": "2608.16512",
+    "arxiv_version": null,
+    "inspire_id": "3191801",
+    "doi": null,
+    "title_en": "MoMPy: automated construction of moment matrices for semidefinite programming relaxations",
+    "abstract_en": "We present MoMPy, an open-source Python package that provides a unified, declarative construction of moment matrices for semidefinite programming (SDP) hierarchies. The user declares operator labels together with a small set of structural relations, and MoMPy returns a matrix of SDP variable indices in which every implied identification has already been made, ready for CVXPY or any other modelling layer. Internally, the identification problem is recast as a word-rewriting problem on tuples of integers and solved with a memoised breadth-first closure coupled to a disjoint-set forest, so that each distinct monomial is processed exactly once per build, however many matrix entries it eventually labels. The central abstraction is independent of the physical scenario: the same construction handles tracial, state (NPA), and block-valued moments, with no notion of parties, settings or preparations. We demonstrate this generality on a tripartite Mermin inequality, the bipartite CHSH inequality, measurement compatibility in a steering scenario, state discrimination and dimension witnessing in prepare-and-measure scenarios, device-independent randomness certification, and certification of deterministic correlations from known ensembles. The construction is validated against an independent brute-force implementation and benchmarked across eight structurally distinct scenarios, spanning bipartite and tripartite Bell tests, heterogeneous-outcome, steering-type, jointly-measurable and network configurations.",
+    "authors": [
+      "I Carceller, Carles Roch"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T13:39:36.198800Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191801",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191801",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191801"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16051",
+    "arxiv_id": "2608.16051",
+    "arxiv_version": 1,
+    "inspire_id": "3191722",
+    "doi": null,
+    "title_en": "Deep-learning classification of physically admissible nuclear-matter equations of state",
+    "abstract_en": "Thermodynamic stability and causality impose fundamental constraints on the equation of state (EoS) of nuclear matter. Verifying these constraints conventionally requires calculating quantities such as the specific heat, baryon-number susceptibility, and speed of sound, which can become computationally expensive when many candidate EoSs must be examined. We investigate whether the normalized pressure surface, $Q(T,μ_B)=P(T,μ_B)/T^4$, alone contains sufficient information to determine the physical admissibility of an EoS. We develop a supervised convolutional neural network (CNN) that uses only this pressure representation to classify EoSs as physically admissible or inadmissible. The network is provided with training labels obtained from direct thermodynmaic stability and causality check and its does not get any information about the parameters of the underlying EoS framework. For EoSs generated within an Ising-mapping framework, the model achieves $97.65%$ accuracy on unseen test data. Applied independently to EoSs from a distinct holographic framework, it achieves perfect classification of the test set. These results show that pressure surfaces contain geometric signatures of thermodynamic stability and causality violations that can be learned directly by a CNN. Because the classifier relies only on the pressure surface, it avoids evaluating higher-order thermodynamic observables during inference and is largely independent of the EoS-generation framework. When the pressure surface is supplied as a two-dimensional array, the machine-learning validation is approximately 20 times faster than direct validation. Our results establish a fast, framework-independent approach for identifying physically admissible EoSs directly from their pressure surfaces.",
+    "authors": [
+      "Ahmed Abuali",
+      "Micheal Kahangirwe",
+      "Francesco Di Clemente",
+      "Vianney E Diaz-Barraza",
+      "Jorge A Munoz",
+      "Claudia Ratti"
+    ],
+    "categories": [
+      "nucl-th",
+      "cond-mat.stat-mech",
+      "hep-th",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T13:39:46.685979Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.16051v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16051v1",
+    "inspire_url": "https://inspirehep.net/literature/3191722",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.16051",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://arxiv.org/abs/2608.16051v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3191722",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191722"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

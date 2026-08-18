@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:c0268d87923f417891c53d41",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191854",
+    "doi": null,
+    "title_en": "Reconstruction of Six-Dimensional Phase Space",
+    "abstract_en": "A phase space is a mathematical representation of all possible physical states of a system. Particle beams at Fermilab exist within a six-dimensional (6D) phase space defined by three positional components, (x, y, z) and three momentum components, (px, py, pz). To reconstruct this space implies taking measurement data from detectors and mapping out particle behavior using computational methods. The beam detectors, however, are only able to detect spatial distribution among the events of the beam, therefore being limited to positional data. Also, due to the vast number of events in a particle beam, it is extremely difficult to analyze and differentiate every single one’s behavior. However, with Machine Learning (ML), which can distinguish between patterns and map out particle behavior more efficiently. We first used the particle beam software, G4beamline, to simulate a 10,000-event muon beam, adjusting parameters such as initial momentum magnitude (p¬0) and virtual detector position. Using ten virtual detectors, we analyzed p0 values such that minimum 9,990 events were analyzed by every detector. We then input the data from these beam simulations to a C++ program, that randomly selects 100 events, and creates a 2D histogram based on spatial distribution, detector position, and event intensity. This process is repeated 100 times to create 100 histograms per p0 value. These images were then input to a modified ResNet18 Convolutional Neural Network (CNN) for training, and to predict p0 from some unseen set of histograms. The model was accurate when trained on momentum increments of 5 MeV/c and provided with denser training samples around highly variable test values. These results displayed machine learning being able to accurately predict p0 from being trained on different particle behaviors.",
+    "authors": [
+      "Shirlee, Jermain"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-18T11:40:55.180183Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191854",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191854",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191854"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

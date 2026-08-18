@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16783",
+    "arxiv_id": "2608.16783",
+    "arxiv_version": 1,
+    "inspire_id": "3191799",
+    "doi": null,
+    "title_en": "Quantum Simulation of QCD in Axial Gauge",
+    "abstract_en": "We study quantum simulation of SU(3) non-Abelian gauge theory dynamically coupled with fundamental fermions in $3+1$ dimensions by employing the lattice Hamiltonian in axial gauge that avoids Gauss's law constraints. The temporal component of the gauge field is analytically solved in terms of independent field degrees of freedom and a lattice regulated Green's function. The axial gauge condition is trivially maintained in time evolution, even under Trotterization. The gauge field degrees of freedom are expressed in the local field basis and can be efficiently transformed into the canonical conjugate momentum basis by local quantum Fourier transforms. We prove the number of qubits needed for describing all states up to an energy $E$ with an accuracy $ε$ on a lattice of volume $V$ at bare coupling $g$ is bounded as $16n_A V + 12n_f V$, where $n_A \\approx \\log_2 (\\frac{64 E' V^{4/3}}{π^2ε} + \\frac{32\\sqrt{2}g n_f E'^{1/2} V^{7/6}}{\\sqrt{3}π^3ε^{1/2}} ) $ is the number of qubits needed for each independent gauge field per site with a shifted energy $E'$, and $n_f$ denotes the number of fermion flavors. We then analyze a quantum algorithm for time evolution that is based on Trotterization, quantum Fourier transform, and Jordan-Wigner transformation, for which quantum circuits can be explicitly constructed under arbitrary gauge field truncation and digitization. We find the numbers of CNOT and single-qubit rotation gates both scale as $O(n_A^4 V^{4/3}) + O(V^{5/3})$ per Trotter step for fixed $n_f\\leq 6$. We conclude that quantum resources needed for simulating real-time dynamics of lattice QCD scale polynomially with volume, energy, time, accuracy, and bare Hamiltonian parameters.",
+    "authors": [
+      "Xiaojun Yao"
+    ],
+    "categories": [
+      "hep-lat",
+      "hep-ph",
+      "hep-th",
+      "nucl-th",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T04:26:54.154261Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.16783v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16783v1",
+    "inspire_url": "https://inspirehep.net/literature/3191799",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.16783",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://arxiv.org/abs/2608.16783v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3191799",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191799"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

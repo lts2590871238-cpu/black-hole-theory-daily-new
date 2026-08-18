@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16083",
+    "arxiv_id": "2608.16083",
+    "arxiv_version": 1,
+    "inspire_id": "3191721",
+    "doi": null,
+    "title_en": "Positive Tensor-Network Kähler Metrics on gCICY Threefolds",
+    "abstract_en": "We develop and implement a positive tensor-network parameterization for computing Ricci-flat Kähler metrics on Calabi-Yau manifolds. It replaces the large Hermitian coefficient matrix of a high-degree algebraic metric by a matrix-product factorization. For the immersed source spaces used here, the resulting metric is globally positive for every parameter value and, at fixed local and bond dimensions, its number of parameters grows only linearly with the algebraic degree. We test the construction on three generalized complete-intersection Calabi-Yau (gCICY) threefolds, constructing chart by chart the generalized sections, holomorphic volume forms and sampling measures that define and train the metric there. From a common low-degree metric, the tensor network outperforms a parameter-matched neural potential using the same section data, reducing both bulk errors and the one-percent tail conditional mean in every paired run. It also reaches a substantially lower error than direct optimization of an unrestricted Hermitian metric of the same degree from the same start, with both methods optimized to validation convergence under their respective schedules. On a second geometry, a higher-degree network with fewer parameters than a lower-degree unrestricted Hermitian baseline substantially reduces the same-sample errors. We further observe saturation within the tested calculations: at fixed bond dimension, increasing the degree eventually plateaus; increasing the bond dimension at fixed optimization effort gives no resolved gain; and the outcome depends strongly on initialization and optimization path.",
+    "authors": [
+      "Juntao Wang"
+    ],
+    "categories": [
+      "hep-th"
+    ],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T12:43:44.694389Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.16083v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.16083v1",
+    "inspire_url": "https://inspirehep.net/literature/3191721",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.16083",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://arxiv.org/abs/2608.16083v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3191721",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191721"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-08-18T23:42:35.779629Z",
+  "completed_at": "2026-08-18T23:44:35.130374Z",
+  "status": "degraded",
+  "fetched_arxiv": 698,
+  "fetched_inspire": 800,
+  "normalized": 1498,
+  "deduplicated": 1180,
+  "candidates": 48,
+  "selected": 40,
+  "review_queue": 3,
+  "rejected": 1135,
+  "llm_calls": 17,
+  "cached_decisions": 29,
+  "errors": [
+    "arxiv:2608.16283: 评分或翻译失败：1 validation error for CurationDecision\n  Value error, total_score must equal the score component sum [type=value_error, input_value={'relevant': True, 'prima...: 'curation-schema-1.0'}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/value_error",
+    "arxiv:2608.15049: 评分或翻译失败：入选论文缺少中文入选理由"
+  ]
+}

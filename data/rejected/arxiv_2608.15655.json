@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.15655",
+    "arxiv_id": "2608.15655",
+    "arxiv_version": null,
+    "inspire_id": "3191505",
+    "doi": null,
+    "title_en": "Rand-SEMI-QAOA: Finite-Budget Depth-One MaxCut Ensembles on Compressed Quantum Registers",
+    "abstract_en": "We introduce Rand-SEMI-QAOA, a finite-budget QRAO--QAOA ensemble for MaxCut based on a $(3,1)$-QRAC relaxation. The method samples labels uniformly without replacement from the product-$X$ family of an implemented Galois stabilizer mutually unbiased basis (MUB) system. Each selected state--mixer pair is optimized independently for relaxed QRAO energy and then evaluated by deterministic Pauli-sign decoding. Exhaustive scans of the implemented noncomputational MUB catalog place the product-$X$ family first in 18 of 20 validated family-mean cells and in every tested cell for $r=5,6,7$. On a complete cohort of $2{,}400$ random connected 3-regular MaxCut instances with $n\\in\\{18,20,22\\}$, the capped matched-cardinality schedule attains a graph-mean decoded best-of-set approximation ratio of $0.9421$ with one QAOA layer, while the $K=r^2$ schedule attains $0.9319$. These statistics are conditional on the disclosed frozen selector pools and do not estimate variability over selector seeds. An exact gauge identity shows that product-family labels generate the orbit of the QRAO Hamiltonian under an $r$-dimensional sign-gauge group. For common angles and relaxed energy, deterministic syndrome analysis proves branchwise dephasing, while an anisotropic Gaussian surrogate controls the coherent label-averaged response on the scale $β=b/r$. The theory does not order independently optimized decoded maxima. The results are finite-size and resource-explicit and do not establish quantum advantage.",
+    "authors": [
+      "Semre, Emilio",
+      "Frankel, Steven"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-18T13:38:15.939397Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191505",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191505",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191505"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

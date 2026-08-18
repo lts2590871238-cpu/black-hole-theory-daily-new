@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16857",
+    "arxiv_id": "2608.16857",
+    "arxiv_version": null,
+    "inspire_id": "3191517",
+    "doi": null,
+    "title_en": "Fault-Tolerant Quantum Computation with Adversarial Errors",
+    "abstract_en": "We prove a fault-tolerance theorem for quantum computation against adversarial noise. For every quantum circuit on $\\bar{N}$ logical qudits of depth $\\bar{T}$, we construct a fault-tolerant circuit on $N=\\text{poly}(\\bar{N})$ physical qudits of depth $\\bar{T}\\cdot\\bar{N}^{o(1)}$, which is robust against an adversary who may arbitrarily choose and corrupt an almost-linear number $N^{1-o(1)}$ of physical qudits at each time step. This robustness significantly improves upon prior fault-tolerance theorems, which assumed corruptions were either local and stochastic, or else only act on a polynomially vanishing fraction of qudits. Our fault-tolerance scheme addresses a key bottleneck towards constructing quantum PCPs via the circuit-to-Hamiltonian mapping of Anshu, Breuckmann, and Nguyen (STOC'24). More fundamentally, our result demonstrates that fault-tolerant quantum computation remains possible under noise models that are global, worst-case, and non-Markovian over the full duration of the computation, directly countering concerns that correlated noise could fundamentally undermine quantum fault tolerance. Our construction is based on a new family of subsystem product codes we develop, which have large dimension and distance along with low-weight parity-checks, and which support transversal non-Clifford gates. We show how to perform single-shot fault-tolerant error correction on these codes using a Floquet-like procedure based on the local testability of classical tensor codes. We then obtain a universal fault-tolerance scheme using repeated code switching in a hypercubic qudit architecture. Finally, we recursively compose our scheme with itself to reduce an initially exponential qudit dimension down to a constant.",
+    "authors": [
+      "Breuckmann, Nikolas P.",
+      "Golowich, Louis",
+      "Vazirani, Umesh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T13:37:50.796724Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191517",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191517",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191517"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

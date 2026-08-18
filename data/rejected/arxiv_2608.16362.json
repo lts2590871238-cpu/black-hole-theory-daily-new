@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16362",
+    "arxiv_id": "2608.16362",
+    "arxiv_version": null,
+    "inspire_id": "3191744",
+    "doi": null,
+    "title_en": "Optimizing Subspace Expansion in Quantum Chemistry through Operator Selection and Reference State Choice",
+    "abstract_en": "The Virtual Quantum Subspace Expansion (VQSE) extends the Variational Quantum Eigensolver (VQE) by leveraging additional measurements on the reference state to capture the influence of excluded virtual orbitals. This makes VQSE attractive for chemical applications where accurate energy differences along potential energy surfaces are crucial for modeling reaction rates and kinetics. In this work, we analyze VQSE performance on H$_2$ dissociation including references that use Hartree--Fock molecular orbitals with broken spin symmetry. We identify two mechanisms which affect accuracy: overlap of the reference state with the exact full configuration interaction (FCI) wavefunction and operator pool expressivity. We show these mechanisms are strongly co-dependent. When operators are restricted to act only from the active to the virtual space, results become highly sensitive to the reference, and enlarging the active space does not guarantee improved accuracy. In this case, prioritizing reference overlap over energy minimization is therefore essential. Adding single excitations and number operators within the active space recovers the accuracy of MR-CISD (multi-reference configuration interaction singles and doubles) regardless of the reference. In our noisy hardware experiments, we achieve chemical accuracy by adding additional operators and using strict regularization. These findings motivate careful co-design of reference fidelity, pool expressivity, and hardware constraints for practical VQSE deployment.",
+    "authors": [
+      "Lamp, Konstantin",
+      "Somoza, Alejandro D.",
+      "Walter, Elias",
+      "Walt, Marina",
+      "Marthaler, Michael",
+      "Juarez, Maria Fernanda",
+      "Horstmann, Birger"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T13:39:25.544989Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191744",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191744",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191744"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

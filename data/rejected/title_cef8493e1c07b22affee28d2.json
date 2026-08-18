@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:cef8493e1c07b22affee28d2",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191938",
+    "doi": null,
+    "title_en": "In-Situ Magnetic Field Reconstruction in the MAGIS-100 Experiment",
+    "abstract_en": "Long-baseline atom interferometers such as the Matter-wave Atomic Gradiometer Interferometric Sensor (MAGIS-100) require stringent control and continuous characterization of background magnetic fields and spatial gradients to prevent systemic phase shifts that mimic ultralight dark matter or gravitational wave signatures. Because direct sensor placement within the ultra-high vacuum beam pipe is infeasible, in-situ magnetic field monitoring relies on external sensor arrays situated in the surrounding annular region. This work demonstrates a field reconstruction framework for a 5.3-meter MAGIS-100 modular section using finite-element Opera simulations. Transverse magnetic fields are expanded using a cylindrical multipole framework as informed by Fermilab’s Muon g-2 experiment, with magnetometer array configurations optimized via Fisher information matrix D-optimality. Inverting external sensor readings through a Gauss-Newton scheme recovers interior tube fields across distinct axial positions. In the discontinuity-averse uniform region (slice pair P4), the model achieves sub-noise-floor performance with a cross-validated root-mean-square error (RMSE) of $6.7227 \\times 10^{-4}\\text{ A/m}$ ($0.845\\times$ sensor noise floor) and an interior field coefficient of variation of $1.71\\%$. An elbow criterion in the Fisher bounds establishes $n_{\\text{max}} = 2$ as the optimal multipole truncation order to prevent noise amplification from over-parameterization, with $n_{\\text{max}} = 3$ (sextupole) order chosen for analysis to demonstrate further complexity and cross-pair comparison. Furthermore, analytical differentiation of the fitted multipole coefficients yields dense spatial maps of the transverse Jacobian gradient matrix $\\nabla \\mathbf{H}$ along with propagated $1\\sigma$ uncertainty bounds across the beam region ($r \\le 2.75\\text{ in}$). This operational framework confirms that external magnetometer arrays can reliably monitor magnetic field uniformity and spatial gradients along the 100-meter flight path given appropriate sampling for any complexity order.",
+    "authors": [
+      "Appleby, Darwin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-18T19:40:14.468567Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191938",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191938",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191938"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16061",
+    "arxiv_id": "2608.16061",
+    "arxiv_version": null,
+    "inspire_id": "3191715",
+    "doi": null,
+    "title_en": "Assessing Parameter Redundancy in Transformers for Jet Tagging",
+    "abstract_en": "Transformer-based jet taggers, such as the Particle Transformer (ParT) and the More-Interaction Particle Transformer (MIParT), achieve excellent discrimination by exploiting correlations among jet constituents, but often require more trainable parameters than earlier deep-learning taggers. In this paper, we investigate whether comparable discriminating power can be achieved with substantially fewer parameters. We introduce an hourglass structure that replaces the feed-forward networks (FFNs) in the attention blocks while leaving the particle-interaction attention unchanged. We also introduce a lightweight particle-embedding layer to replace the original dense embedding network. Applying both modifications to ParT and MIParT yields the hourglass (HG) variants ParT-HG and MIParT-HG, respectively. We evaluate both models on benchmark datasets for top tagging and quark-gluon discrimination. Both variants retain comparable tagging performance, including background rejection at fixed signal efficiencies, while using only approximately 48% and 39.7% of the parameters of their respective baselines. On the larger JetClass dataset, accuracy and AUC decrease by less than 1%, and background rejection also decreases for several signal classes. Overall, our approach provides an alternative way to reduce the parameter count of Transformer jet taggers while largely retaining their tagging performance.",
+    "authors": [
+      "Cheng, Huitong",
+      "Dong, Yabo",
+      "Fan, Jun",
+      "Wang, Kun",
+      "Yang, Haijun",
+      "Zhu, Jingya",
+      "Zhu, Yifan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T12:40:04.832584Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191715",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191715",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191715"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

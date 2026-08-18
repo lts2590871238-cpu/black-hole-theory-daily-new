@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16151",
+    "arxiv_id": "2608.16151",
+    "arxiv_version": null,
+    "inspire_id": "3191724",
+    "doi": null,
+    "title_en": "Highly Efficient 3-in-1 FPGA-Based Unit Combining an ADC, DAC, and Multichannel Pulse Generator for Pulsed EPR Spectroscopy",
+    "abstract_en": "A hardware and software system for pulsed electron paramagnetic resonance (EPR) spectroscopy is presented, built around a single PCI Express (PCIe) card that combines a 16-bit digital-to-analog converter (DAC) with a 10 GS/s effective sample rate, a 2.5 GS/s 14-bit analog-to-digital converter (ADC), and an 11-channel pulse generator on board. Custom firmware reloads the pulse-generator and DAC buffers and streams the digitized data in parallel with a running experiment, so that no time is lost on data input or output. The unit is integrated into the open-source Atomize software and controlled at the level of pulse sequences through a high-level Python application programming interface (API). Benchmarking with a four-pulse double electron-electron resonance (DEER) sequence shows that the card reaches close to 100% time efficiency for accumulation times of a few milliseconds per pulse sequence, even for demanding arbitrary waveform generator (AWG) protocols. Although demonstrated for a single sequence, the efficiency proved insensitive to the number of pulses, the number of measurement points, or the phase-cycling depth, so that comparable performance is expected for any protocol whose shot repetition time exceeds the ~2 ms reprogramming time of the card. The on-the-fly reprogramming, which makes every successive sequence fully independent, also enables nonuniform sampling and acquisition. The system design, its firmware, the Python API, and its performance in pulsed EPR applications are described.",
+    "authors": [
+      "Isaev, N.P.",
+      "Melnikov, A.R.",
+      "Vedkal, A., V.",
+      "Ishchenko, A.S.",
+      "Sokolov, A.M.",
+      "Voronkov, E.A.",
+      "Veber, S.L."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-18T13:44:36.434390Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191724",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191724",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191724"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

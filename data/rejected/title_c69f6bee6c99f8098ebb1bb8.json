@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:c69f6bee6c99f8098ebb1bb8",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191856",
+    "doi": null,
+    "title_en": "Real-Time Anomaly Detection for Searches Beyond the Standard Model in the ProtoDUNE Horizontal Drift Detector",
+    "abstract_en": "This paper summarizes work conducted throughout a SULI internship at Fermi National Accelerator Laboratory focused on building an unsupervised machine learning model for real-time anomaly detection in ProtoDUNE Horizontal Drift. Using simulated data, we trained an autoencoder model on a pure cosmic\ndataset, and evaluated it on both cosmic and neutrino events—making the model an anomaly detector. The goal was to make a model which matches or exceeds the current ADC Simple Window trigger algorithm so that our model can perform at the same rate but provide sensitivity to potential beyond-the-Standard-Model (BSM) signatures. In the end, we were able to construct a model which slightly exceeds the capabilities of the ADC Simple Window while remaining completely unsupervised, achieving 31.9 ± 0.2% (26.6 ± 0.2%) ν efficiency at 5 Hz (2 Hz), a 3.6 (3.2) percentage point increase. Additionally, 17.5 ± 0.3% (18.3 ± 0.3%) of the events that passed the autoencoder at 5 Hz (2 Hz) were missed by the current trigger algorithm. Future work will investigate alternative normalization methods, including quantile transformation, and evaluate the model on ProtoDUNE-HD detector-glitch data if that data becomes available.",
+    "authors": [
+      "Wilson, C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-18T11:46:19.378120Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191856",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191856",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191856"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

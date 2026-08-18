@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:2433c85203ab3a4e9d639b9d",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3191940",
+    "doi": null,
+    "title_en": "Modular Accelerator Robotics Framework Implementation For Accelerator Inspection",
+    "abstract_en": "Accelerator tunnels, such as the ones at Fermilab, remain highly radioactive after beam shutoff due to induced radiation from the beam. This residual radiation creates a hazardous environment for manual inspection and repair of beamline components. To minimize worker radiation dose and reduce beam downtime, the AD Robotics Initiative previously built a fleet of low-cost custom mobile robots. However, the custom Python sockets server-client architecture lacked standardization, causing development delays and complicating the integration of new sensors and actuators. Here, we developed a modular system using ROS2 and Docker to standardize the teleoperation and control interfaces. This system was validated by implementing a teleoperation controller with real-time, low-latency, and high-definition video feedback. The aim of this framework is for a new feature or even a robot to be integrated into the system simply by documenting the hardware configuration. Current integration of LiDAR, Odometry, and Depth Cameras provides the foundation for Simultaneous Localization and Mapping (SLAM) tasks. Finally, future work involves integration into the accelerator control system and the attachment of a 6 degree-of-freedom robotic arm for telemanipulation.",
+    "authors": [
+      "Rayyan Khana, M.",
+      "Galante, Megan",
+      "Watts, Adam"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-18T21:37:34.334586Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191940",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191940",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191940"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

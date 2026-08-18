@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.15601",
+    "arxiv_id": "2608.15601",
+    "arxiv_version": null,
+    "inspire_id": "3191895",
+    "doi": null,
+    "title_en": "Quantum Models with Multi-Stage Training for Compositional Concept Generalization",
+    "abstract_en": "Compositional Concept Generalization (CoCoGen), the ability to systematically recombine learned primitives in novel contexts, is a key challenge for multimodal learning. In this work, we provide a solution using a compositional model of meaning that separates nouns from relations and uses tensors and variational quantum circuits to train them on data. This model enables us to employ a multi stage training paradigm, one that first learns object representations from single-object image-caption pairs, then subsequently transfers these to the relational stage where object parameters are frozen and optimisation is only applied to relational components. This design explicitly enforces compositional factorisation at the circuit, ensuring that relations are learned as transformations over stable primitives. The training paradigm is tested on the CLEVR dataset developed specificially for CoCoGen. For text, we work with vector representations of nouns and higher order tensor representations of relations using a set of different ansatz. For images, we work with quantum encodings of image embeddings dervied from Open AI's Vision Language tool CLIP and contrast amplitude encoding, which preserves the original embedding geometry, with angle encoding, which introduces nonlinear feature transformations. Our results show that multi-staged training combined with structured encodings significantly improves out of distribution relational generalisation, while using orders of magnitude fewer trainable parameters than classical baselines. We find that performance gains arise from the interaction between representation and encoding, with nonlinear quantum encodings enhancing the separability of compositional structure. These findings demonstrate that structured quantum representations and staged learning provide an effective framework for compositional generalisation in multimodal quantum machine learning.",
+    "authors": [
+      "Abbaszadeh, Mina",
+      "Moore, Matilda Karabina",
+      "Sadrzadeh, Mehrnoosh",
+      "Lewis, Martha"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-16T00:00:00Z",
+    "updated_at": "2026-08-18T14:13:37.986615Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191895",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191895",
+        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "url": "https://inspirehep.net/literature/3191895"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
