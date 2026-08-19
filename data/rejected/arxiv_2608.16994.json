@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.16994",
+    "arxiv_id": "2608.16994",
+    "arxiv_version": null,
+    "inspire_id": "3191996",
+    "doi": null,
+    "title_en": "Basis-update and Galerkin time integration in canonical matrix-product-state form",
+    "abstract_en": "Matrix product state algorithms must enlarge their bond spaces as entanglement grows and compress them to control cost. We formulate basis-update and Galerkin (BUG) time integration as a sequence of canonical MPS sweeps for Hamiltonians represented as matrix product operators. We show when two natural basis updates produce the same trial space and when transporting coefficients between successive bases preserves the represented state. Under these conditions, the existing first-order error bound for uncompressed tree-tensor-network BUG also applies to the alternating-endpoint MPS schedule. We verify the uncompressed implementation against an independent six-site calculation. We then compare BUG with two-site TDVP for 16-site transverse-field Ising and Haldane-Shastry dynamics. At matched timestep and truncation settings, BUG performs fewer local exponential actions and has lower runtime. These settings do not produce equal accuracy. The runtime versus accuracy curves cross for the Ising model and are close for the Haldane-Shastry model. The comparison therefore identifies model-dependent trade-offs rather than a general advantage for either method.",
+    "authors": [
+      "Fröhlich, Maximilian",
+      "Milbradt, Richard M.",
+      "Eigel, Martin",
+      "Sander, Aaron",
+      "Wille, Robert",
+      "Mendl, Christian B."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-19T09:21:49.605803Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191996",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191996",
+        "fetched_at": "2026-08-19T23:42:48.796034Z",
+        "url": "https://inspirehep.net/literature/3191996"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

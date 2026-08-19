@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 20,
+    "methodological_rigor": 20,
+    "novelty": 15,
+    "clarity": 10,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 10
+  },
+  "total_score": 83,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文讨论了随机引力波背景的贝叶斯推断，属于PTA主题，具有高相关性和新颖性，方法严谨，值得阅读。",
+  "title_zh": "基于时域模拟的太极类似任务随机引力波背景全协方差贝叶斯推断",
+  "abstract_zh": "对于太极类似任务，我们实现了一个贝叶斯谱推断框架，该框架将第二代时域(TD)模拟的时间延迟干涉(TDI)与随机引力波背景(SGWB)分析的频域(FD)谱似然相结合。使用trianglesim生成的\\(X,Y,Z\\)迈克尔逊流被分割成有限段，进行傅里叶变换，并使用依赖于段的复数\\(3\\times3\\)协方差矩阵进行建模。对于每一段，我们评估依赖于轨道的响应函数和噪声传递函数，允许不等臂和时变效应通过完整的\\(XYZ\\)协方差进入。使用trianglesim进行的受控模拟表明，在保留频带内，远离TDI零点，计算出的函数以几个百分点的水平重现了实现平均谱。然后，我们比较了静态等臂FD、等臂TD和不等臂TD配置的参数估计结果，每种情况都使用与相应探测器配置匹配的完整\\(XYZ\\)协方差似然。在边缘化仪器噪声和有效的银河系双白矮星前景之后，三种配置在天体物理背景恢复中均产生一致的不确定性趋势和贝叶斯证据诊断。最后，在一个包含仪器噪声、有效的银河系双白矮星前景、随机天体物理背景和来自宇宙学一级相变的声波谱的十参数模型中，我们恢复了其峰值振幅和频率，并发现贝叶斯证据支持在所有三种匹配配置中纳入该模型。",
+  "keywords_en": [
+    "stochastic gravitational wave background",
+    "Bayesian inference",
+    "time-delay interferometry",
+    "Taiji",
+    "space-based detector",
+    "full covariance"
+  ],
+  "keywords_zh": [
+    "随机引力波背景",
+    "贝叶斯推断",
+    "时间延迟干涉",
+    "太极",
+    "天基探测器",
+    "全协方差"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-19T23:43:32.612452Z"
+}

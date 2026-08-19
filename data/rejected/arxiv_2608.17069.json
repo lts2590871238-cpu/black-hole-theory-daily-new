@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.17069",
+    "arxiv_id": "2608.17069",
+    "arxiv_version": null,
+    "inspire_id": "3191958",
+    "doi": null,
+    "title_en": "Dynamic Entanglement-Weighted Pruning for Quantum Federated Unlearning in Supply-Chain Risk Prediction",
+    "abstract_en": "Federated deployments of variational quantum classifiers are attractive for cross-organisation risk prediction in supply chains, because raw data never leaves the client, yet data-protection regulations such as the GDPR grant clients a right to request that their contribution be removed from a trained model after the fact. Retraining a federated model from scratch to honour such a request is correct but wasteful, and it is not obvious which quantum circuit parameters actually carry a given client's influence. We introduce Entanglement-Weighted Pruning (EWP), an unlearning procedure for quantum federated learning that scores every trainable circuit parameter with the product of two signals: the diagonal entry of the quantum Fisher information matrix estimated on the target client's data via the parameter-shift rule, and a structural entanglement weight associated with the parameter's gate. Parameters with the lowest scores are pruned, optionally followed by a short fine-tuning pass on the retained clients. We implement the full pipeline in Qiskit for a four-qubit data-re-uploading ansatz trained with FedAvg across five simulated supply-chain-risk clients, and benchmark EWP against full retraining, fine-tuning alone, random pruning, Fisher-only pruning, and entanglement-only pruning, over three random seeds. EWP attains a mean post-unlearning accuracy statistically indistinguishable from the full-retraining oracle, while producing a lower forgetting score and requiring roughly 16 times less wall-clock time. Ablations over pruning threshold, client count, and non-IID strength show that combining the two signals is necessary, as entanglement-only and Fisher-only pruning each substantially degrade accuracy relative to EWP.",
+    "authors": [
+      "Kumar, Aditya",
+      "Chongder, Sumit"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-19T09:20:08.048300Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191958",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191958",
+        "fetched_at": "2026-08-19T23:42:48.796034Z",
+        "url": "https://inspirehep.net/literature/3191958"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

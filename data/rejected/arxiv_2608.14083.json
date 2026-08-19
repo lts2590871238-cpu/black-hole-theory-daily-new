@@ -7,14 +7,14 @@
     "inspire_id": "3191323",
     "doi": null,
     "title_en": "Information-Calibrated Quantum Diffusion: Aligning Forward Noise with Reverse Recoverability",
-    "abstract_en": "Quantum diffusion models typically parameterize forward corruption by raw channel strength, even though equal parameter increments need not erase equal information or induce comparable inverse problems. We introduce the classical--quantum information decrement $Δ_t=I(X{:}Q_{t-1})-I(X{:}Q_t)$ as an intrinsic diffusion coordinate for labeled quantum ensembles. Along depolarization, equalizing $Δ_t$ yields the unique minimax discretization of the forward path, while universal recoverability gives the same quantity an operational reverse interpretation as an attainable expected log-fidelity budget for a label-independent CPTP recovery channel. Complementary continuity and pairwise-geometric converses lower-bound the optimal common-channel recovery error. We further show that local calibration is fundamentally insufficient for stochastic generation: even in a fixed noncommuting two-qubit system, identical local-fidelity laws and budget-feasible risks can coexist with macroscopically different output distributions. This motivates a stochastic learner combining theorem-scaled recovery constraints with distribution matching, for which we establish finite-sample calibration and compositional trace-Wasserstein control. On four-qubit TFIM, a controlled capacity extension reduces endpoint $\\Wtr$ from $.622$ to $.424$ on all ten matched seeds and achieves lower $\\Wtr$ than official QuDDPM ($.498$) with fewer trainable parameters.",
+    "abstract_en": "Quantum diffusion models typically parameterize forward corruption by raw channel strength, even though this parameter does not directly quantify how much ensemble information is erased or how difficult the corresponding reverse problem is. We introduce the classical--quantum information decrement $Δ_t=I(X{:}Q_{t-1})-I(X{:}Q_t)$ as an intrinsic diffusion coordinate that links forward noise allocation to reverse recoverability. Along depolarization, equalizing $Δ_t$ yields the unique minimax discretization of the forward information loss, while universal recoverability gives the same quantity an operational interpretation as a physically attainable local recovery budget. We further show that such local calibration is not sufficient for stochastic generation: models can satisfy the same recovery criterion while producing substantially different state distributions. This motivates a stochastic learner that combines information-calibrated recovery constraints with distribution matching. We establish finite-sample calibration and compositional trace-Wasserstein control for the resulting learner. Controlled quantum experiments validate the predicted information--recovery alignment, show that the recovery constraints improve local inversion, and confirm the complementary role of distribution matching in endpoint generation. The resulting framework also achieves stronger endpoint trace-Wasserstein performance than an official QuDDPM implementation with fewer trainable parameters. Overall, our work provides a unified information-theoretic principle for designing forward schedules, calibrating reverse steps, and separating physical recovery from generative coverage in quantum diffusion.",
     "authors": [
       "Qian, Qipeng",
       "Qian, Yuntao"
     ],
     "categories": [],
     "submitted_at": "2026-08-14T00:00:00Z",
-    "updated_at": "2026-08-18T13:02:22.957698Z",
+    "updated_at": "2026-08-19T04:14:04.438983Z",
     "document_types": [
       "article"
     ],
@@ -30,7 +30,7 @@
       {
         "source": "inspire",
         "record_id": "3191323",
-        "fetched_at": "2026-08-18T23:42:35.779629Z",
+        "fetched_at": "2026-08-19T23:42:48.796034Z",
         "url": "https://inspirehep.net/literature/3191323"
       }
     ],

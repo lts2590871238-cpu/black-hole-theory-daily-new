@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.17136",
+    "arxiv_id": "2608.17136",
+    "arxiv_version": null,
+    "inspire_id": "3191947",
+    "doi": null,
+    "title_en": "Gate-level Implementation and Resource Analysis of Lackadaisical Quantum Walk Search",
+    "abstract_en": "Lackadaisical quantum walks (LQW) extend discrete-time quantum walks (DTQW) by introducing weighted self-loops, enabling improved spatial-search performance through controlled localization of the walker. Although their theoretical properties and algorithmic advantages have been studied extensively, practical gate-level realizations suitable for execution on quantum hardware remain largely unexplored. This gap limits the assessment of lackadaisical quantum walk search under realistic architectural constraints, noise processes, and resource requirements. In this work, we present a gate-level implementation framework for lackadaisical quantum walk search. The proposed construction encodes the position and coin spaces into qubit registers, and realizes the walk dynamics through oracle, coin, and flip-flop shift operations. We validate the circuit by reproducing the expected search behavior for single and multiple marked vertices and by analyzing the effect of the self-loop weight on the success probability. We further evaluate the implementation under realistic noisy settings using superconducting hardware's noise models and apply noise-mitigation techniques to improve the measured search performance. Logical-resource analysis shows that, for grids ranging from $8\\times8$ to $64\\times64$, the algorithmic register increases from 9 to 15 qubits, while the transpiled gate count increases from $3.63\\times10^{5}$ to $4.38\\times10^{6}$ and the circuit depth from $2.13\\times10^{5}$ to $2.56\\times10^{6}$. Finally, fault-tolerant resource estimates based on a surface-code model using the Microsoft Quantum Resource Estimator demonstrate the substantial space-time trade-off associated with magic-state production.",
+    "authors": [
+      "Saha, Amit",
+      "Kola, Debanjan",
+      "Das, Nishanka",
+      "Chakrabarti, Amlan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-19T09:20:50.866306Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3191947",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3191947",
+        "fetched_at": "2026-08-19T23:42:48.796034Z",
+        "url": "https://inspirehep.net/literature/3191947"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

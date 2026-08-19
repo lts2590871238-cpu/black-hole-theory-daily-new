@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.17249",
+    "arxiv_id": "2608.17249",
+    "arxiv_version": null,
+    "inspire_id": "3192055",
+    "doi": null,
+    "title_en": "Low-Depth and Noise-Resilient Quantum State Preparation for Partial Differential Equations via Virtual Rz",
+    "abstract_en": "Preparing smooth real-amplitude quantum states is a key subroutine in quantum solvers for dissipative PDEs, such as LCHS, where discretized positive weights must be encoded into amplitudes. Exact state-preparation decompositions can reach unit fidelity ideally, but their two-qubit depth grows quickly and causes severe fidelity loss on NISQ hardware. We propose a low-depth, hardware-aware variational ansatz tailored to smooth, weakly entangled, near-real target distributions typical of damped PDE dynamics. The circuit uses one layer of local Ry rotations to generate real amplitudes, a nearest-neighbor CZ entangling layer to introduce limited entanglement, and additional Rz rotations implemented virtually as frame updates. Virtual Rz operations add no physical pulses and do not increase circuit duration, providing extra degrees of freedom without enlarging the gate footprint; in simulation they are treated as ideal to isolate their benefit. From a tensor-network viewpoint, the alternating structure restricts the state to a low-bond-dimension MPS, matching the target smoothness (for 3 qubits, bond dimension <= 2). We optimize parameters with COBYLA to minimize infidelity and benchmark against exact state preparation (Qiskit) and a RealAmplitudes (CZ) baseline. Under depolarizing noise representative of NISQ and early fault-tolerant regimes, the proposed single-layer circuit achieves high ideal fidelity with O(n) depth and substantially higher noisy fidelity than deeper exact constructions. In coherent-noise sweeps, virtual Rz parameters absorb systematic phase errors and axis mismatch, maintaining near-unity fidelity over a wide error range. These results indicate that virtual-Rz-enabled, low-depth circuits provide a practical, noise-resilient state-preparation primitive for PDE solvers on NISQ and early FTQC hardware.",
+    "authors": [
+      "Fujii, Toru"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-19T09:19:58.162366Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192055",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192055",
+        "fetched_at": "2026-08-19T23:42:48.796034Z",
+        "url": "https://inspirehep.net/literature/3192055"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

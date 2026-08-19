@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1140/epjqt/s40507-026-00496-w",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3192346",
+    "doi": "10.1140/epjqt/s40507-026-00496-w",
+    "title_en": "Traversing Gaussian and non-Gaussian regimes in photonic quantum simulators: a review",
+    "abstract_en": "Quantum photonic simulators are pivotal for designing and analyzing quantum photonic circuits that utilize both continuous-variable (CV) and discrete-variable (DV) encodings. This review critically examines the transition from Gaussian to non-Gaussian photonic models and the computational overhead that emerges from simulating systems with more than 20 modes or photon numbers exceeding 10 per mode. Gaussian states; such as coherent and squeezed states, are modeled efficiently using first-moment vectors and covariance matrices of dimension 2n \\times 2n, where n is the number of modes. Non-Gaussian elements like the cubic phase gate U = \\exp (i \\gamma \\hat{x}^{3}) and photon-subtracted states demand full Fock space representations and scale exponentially with photon number d^{2}, where d is the Hilbert space dimension. We analyze simulators including Strawberry Fields , Piquasso , and Perceval , benchmarking their support for tensor networks (bond dimension D >100), GPU acceleration, thus NVIDIA A100 with 1555 GB/s bandwidth, and SoC implementations such as Edge TPU with 8 TFLOPS. Special focus is given to noise models such as photon loss with transmissivity η, thermal noise modeled with \\bar{n} = 1.5, and dark count Poisson distributions (\\lambda = 0.1). The review underscores scalable techniques and hybrid quantum-classical workflows vital for near-term photonic quantum computing.",
+    "authors": [
+      "Delali Kwesi Wayo, Dennis",
+      "Dias, Rodrigo Alves",
+      "Ganji, Masoud Darvish",
+      "Saporetti, Camila Martins",
+      "Goliatt, Leonardo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-14T00:00:00Z",
+    "updated_at": "2026-08-19T11:36:11.245437Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "13, 85, 2026, {'$ref': 'https://inspirehep.net/api/journals/1389229'}, 85, 1, EPJ Quant.Technol."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192346",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192346",
+        "fetched_at": "2026-08-19T23:42:48.796034Z",
+        "url": "https://inspirehep.net/literature/3192346"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
