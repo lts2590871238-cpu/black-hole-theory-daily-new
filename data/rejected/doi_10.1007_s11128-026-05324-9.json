@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05324-9",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3192855",
+    "doi": "10.1007/s11128-026-05324-9",
+    "title_en": "Rate-compatible QC-LDPC reconciliation via channel-confidence estimation in QKD systems",
+    "abstract_en": "The efficiency of information reconciliation in quantum key distribution (QKD) is significantly constrained by the dynamic, time-varying nature of quantum channels. Conventional post-processing schemes relying on fixed parameters suffer from bandwidth inefficiency during periods of low error rates and face a high risk of link outages when error rates spike. To address these issues, we propose a dual-adaptive post-processing framework utilizing IEEE 802.11n standard QC-LDPC codes. First, we introduce a dynamic parameter-estimation strategy based on channel confidence. This approach adapts the check ratio while maintaining a fixed statistical confidence target. Second, we implement a rate-compatible error correction scheme employing puncturing and shortening techniques to accommodate substantial channel fluctuations. The check-ratio, QBER-threshold, and rate selections are validated through a constrained policy-grid search, realistic-channel LDPC-level decoding experiments and a separate QBER-anomaly-detection test. In the stable low-QBER scenario, the safety-constrained policy with check ratios $\\{8\\%,12\\%,32\\%\\}$ and rates $\\{0.56,0.52,0.33\\}$ achieves a total normalized SKR of $146.360\\pm 2.951$, corresponding to an $11.34\\%\\pm 0.21\\%$ gain over the fixed benchmark, while maintaining $99.59\\%\\pm 0.10\\%$ decoding availability. With $n_{\\textrm{sift}}=10^5$, the security-anomaly test gives zero no-attack false alarms, $100\\%$ detection for tested sustained attacks with QBER at least $8\\%$, and $100\\%$ abort probability for tested attacks with QBER at least $11\\%$. These results show that the proposed architecture provides a controllable trade-off between efficiency, robustness, and security-aware parameter estimation in dynamic quantum channels.",
+    "authors": [
+      "Liu, Xinyu",
+      "Wang, Yan",
+      "Wang, Tong",
+      "Zhang, Yue",
+      "Tai, Yingying"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-17T00:00:00Z",
+    "updated_at": "2026-08-20T09:51:05.925855Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 294, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 294, 9, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192855",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192855",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192855"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

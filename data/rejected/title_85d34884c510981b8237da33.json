@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:85d34884c510981b8237da33",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3193150",
+    "doi": null,
+    "title_en": "A Single-Board Fermilab Timing Pipeline on the Xilinx KR260: Decode, Timestamp, Publish, Mirror",
+    "abstract_en": "Full-width abstract \\renewcommand{\\maketitlehookd}{% \\begin{abstract} \\noindent Fermilab's accelerator timing links broadcast short event codes to thousands of devices at once, but the links themselves carry no absolute notion of time; that comes separately from a White Rabbit reference. This work builds the piece that ties the two together on a single board. On a Xilinx Kria KR260 (Zynq UltraScale+), the programmable logic decodes a real Fermilab TCLK link, stamps every event with an absolute White-Rabbit \\{sec, ns\\} UTC time, and reads the timestamped stream out over AXI4-Lite; a thin Linux process on the same die publishes each event into a Redis stream on the control network. To exercise the full chain on one board, the decoded events are re-encoded as gigabit ACLK, transmitted out an SFP+ optical port, looped back over a short fiber jumper, and decoded again on the same timeline, and are additionally mirrored as an ACLK-Lite Manchester waveform for benchtop probing. Across sustained, multi-day testing against real Fermilab TCLK, the pipeline has decoded, timestamped, and published hundreds of millions of events with practically zero loss, and folding the timestamped stream on the 60-second accelerator supercycle recovers the machine's periodic structure directly from the published data.",
+    "authors": [
+      "Rossel, Jacob",
+      "Milton, Evan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-20T14:25:08.662765Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193150",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193150",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3193150"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

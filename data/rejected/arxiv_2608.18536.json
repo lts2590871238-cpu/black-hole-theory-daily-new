@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.18536",
+    "arxiv_id": "2608.18536",
+    "arxiv_version": 1,
+    "inspire_id": "3192540",
+    "doi": null,
+    "title_en": "Good Stabilizer Codes from Shallow Clifford Circuits with Random Matchings",
+    "abstract_en": "Encoding quantum information with low circuit overhead is a fundamental challenge in fault-tolerant quantum computation. Random circuits provide a natural mechanism for rapidly spreading logical information through simple gates applied in parallel. Brown and Fawzi showed that random Clifford circuits on two-qubit Clifford gates provide such encoders that achieve the quantum Gilbert-Varshamov rate-distance tradeoff with depth $O(\\log^3 n)$. We show that the same asymptotic tradeoff is attained in optimal $O(\\log n)$ depth under a gate distribution with a more restricted support. For every fixed $δ>0$ and sufficiently large $n$, if $\\frac kn < 1 - H(\\frac{d}{n}) - \\frac{d}{n}\\log_2 3 - δ$, we can construct random circuits of depth $O(\\log n)$ which define, with high probability, an $[n,k]$ stabilizer code of distance at least $d+1$, which matches the $Ω(\\log n)$ light-cone lower bound for linear distance encoders. Our ensemble employs a random matching circuit architecture consisting of $T$ independent permutation-invariant layers. In each layer, the qubits are paired up by a uniformly random perfect matching, and a random independent two-qubit Clifford gate is applied to each pair. The gate distribution need not be uniform over, or even have full support on, the two-qubit Clifford group; rather, we allow for very general distributions on Clifford gates satisfying three regularity conditions. In particular, the construction can be implemented using $n/2$ CNOT gates on randomly matched pairs in each layer, with parallel one-qubit Clifford twirls. These regularity conditions allow us to reduce the second-moment dynamics of our random circuits to a reversible Markov chain on binary support strings. We establish logarithmic hitting-time bounds for this Markov chain and comparisons of its stationary distribution to prove the coding properties of the circuits.",
+    "authors": [
+      "Emile Anand",
+      "Elia Gorokhovsky",
+      "Jennifer Hritz",
+      "Jingtong Sun"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el",
+      "cs.CC",
+      "cs.IT"
+    ],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-20T02:51:38.791216Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.18536v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18536v1",
+    "inspire_url": "https://inspirehep.net/literature/3192540",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.18536",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://arxiv.org/abs/2608.18536v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3192540",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192540"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "black_hole_thermodynamics",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 73,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文通过模型无关的重建方法研究宇宙热力学，直接关联视界的热力学诊断量，验证广义第二定律，具备理论深度和方法严谨性。",
+  "title_zh": "宇宙热力学和暗能量动力学的模型无关重建",
+  "abstract_zh": "我们通过使用高斯过程回归从观测数据重建膨胀历史，对宇宙的热力学演化进行了模型无关的研究。我们考虑了三个独立的数据集组合，即CC32+DESI DR2+Pantheon+、CC32+DESI DR2+Union3和CC32+DESI DR2+DES Y5，从而能够评估不同超新星样本对重建的影响。从重建的哈勃参数及其在红移0到2范围内的导数，我们评估了与视界相关的关键热力学量，包括诊断函数$P(z)$、熵产生率$\\dot{S}_{\\mathrm{tot}}$及其二阶导数$\\ddot{S}_{\\mathrm{tot}}$。我们发现$P(z)$在所有红移下保持为正，确保了广义热力学第二定律的有效性。相应地，$\\dot{S}_{\\mathrm{tot}} > 0$始终成立，而$\\ddot{S}_{\\mathrm{tot}} < 0$在低红移时成立，表明宇宙正在向稳定的热力学平衡演化。为了评估方法的稳健性，我们使用多个协方差核进行了重建，包括平方指数核和Matérn核（$\\nu=5/2, 7/2$和$9/2$），所有核在不确定性范围内都产生了一致的结果。我们还以完全模型无关的方式重建了暗能量状态方程，并发现它在当前时代与宇宙学常数一致，没有统计显著的偏离$\\Lambda$CDM。",
+  "keywords_en": [
+    "cosmic thermodynamics",
+    "Gaussian process regression",
+    "dark energy",
+    "generalized second law",
+    "apparent horizon"
+  ],
+  "keywords_zh": [
+    "宇宙热力学",
+    "高斯过程回归",
+    "暗能量",
+    "广义第二定律",
+    "视界"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-20T23:46:54.325934Z"
+}

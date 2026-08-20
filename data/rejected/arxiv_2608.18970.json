@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.18970",
+    "arxiv_id": "2608.18970",
+    "arxiv_version": null,
+    "inspire_id": "3192707",
+    "doi": null,
+    "title_en": "On-chip Bragg peak extraction from MHz frame rate X-ray detectors using a cellular automaton architecture",
+    "abstract_en": "High-frame rate pixel detectors can produce data volumes that exceed available off-chip bandwidth, yet in many applications only a sparse subset of each frame carries relevant information. Spatially localized events, including diffraction peaks in crystallography, particle hits in tracking detectors, fluorescence spots in biological imaging, and other applications, all require that clusters of above-threshold pixels be identified and extracted from an otherwise featureless background. Conventionally this is performed in software algorithms such as connected-component labeling on full frames, but at MHz frame rates the resulting throughput becomes prohibitive. We present a lightweight hardware architecture that performs peak localization and patch extraction directly in the sensor silicon, transmitting only small pixel patches rather than complete frames. FPGA-based testing on an AMD Alveo V80 validated the synthesizability and timing closure of the peak-finding module in real hardware. The design replaces global connected-component labeling with a cellular automaton that uses purely local, fixed-iteration neighborhood operations, eliminating the label storage and equivalence-resolution logic that make conventional approaches impractical on-chip. We validate the architecture on X-ray Bragg peak detection for far-field high-energy diffraction microscopy and show that every peak found by a software reference is recovered, with equivalent downstream reconstructions. The architecture sustains several-hundred-kHz frame rates in 130nm CMOS and exceeds 1MHz in 28nm.",
+    "authors": [
+      "Fowler, S.",
+      "Strempfer, S.",
+      "Beniwal, D.",
+      "Hammer, M.",
+      "Shi, H.",
+      "Gnanasekaran, S.",
+      "Contini, N.",
+      "Guruswamy, T.",
+      "Chen, Y.",
+      "Rota, L.",
+      "Doering, D.",
+      "Dragone, A.",
+      "Zhou, T.",
+      "Cherukara, M.",
+      "Yoshii, K.",
+      "Miceli, A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-20T03:39:56.679834Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192707",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192707",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192707"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

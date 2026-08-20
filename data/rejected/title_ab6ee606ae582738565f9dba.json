@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:ab6ee606ae582738565f9dba",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3193146",
+    "doi": null,
+    "title_en": "Wasserstein Normalized Autoencoder for Anomaly Detection in ProtoDUNE Vertical-Drift Detector",
+    "abstract_en": "ProtoDUNE Vertical Drift needs a selective triggering algorithm. The detector sits on Earth's surface, so cosmic activity dominates its data. Our goal in this paper is to trigger on neutrino events more robustly than the current deployed Analog-to-Digital Converter Simple Window (ADCSW) model and, eventually, search for signals of Beyond Standard Model (BSM) physics at DUNE as our ultimate North Star objective. As a step towards this goal, we evaluate a Wasserstein Normalized Autoencoder (WNAE) on simulated collection-plane only windows of shape $1\\times10\\times10$ where Neutrinos act as our BSM-proxy and Cosmic-ray Muons serve as our learned background. The network parameters are fitted using only cosmic-ray muon events as background in order to maintain an unsupervised pipeline. Training uses finite-step Langevin $x^-$ samples, positive-sample reconstruction energy, and an empirical sliced $2$-Wasserstein objective to learn a normalized Boltzmann energy model. We then calibrate on a nominal $5\\,\\mathrm{Hz}$ operating threshold calculated from cosmic validation data. Both WNAE and ADCSW accept 311 of 194,083 held-out cosmic background events at this $5\\,\\mathrm{Hz}$ threshold. We found that WNAE accepts 9,677 of 34,634 neutrino-proxy events $(27.9\\pm0.24)\\%$, compared with 10,076 $(29.1\\pm0.24)\\%$ for ADCSW, an observed WNAE-minus-ADCSW difference of $-1.15\\%$. At another nominal $2\\,\\mathrm{Hz}$ target threshold, the corresponding efficiencies are $(20.5\\pm0.22)\\%$ and $(22.6\\pm0.22)\\%$, respectively. Of the WNAE-selected neutrino proxies at $5\\,\\mathrm{Hz}$, $(20.8\\pm0.4)\\%$ of the classified neutrino-proxy events are unique to WNAE, where the uncertainty is an absolute binomial standard error of $0.4\\%$.",
+    "authors": [
+      "Zheng, Jake"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-20T14:31:50.543174Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193146",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193146",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3193146"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

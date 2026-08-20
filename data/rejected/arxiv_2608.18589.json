@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.18589",
+    "arxiv_id": "2608.18589",
+    "arxiv_version": null,
+    "inspire_id": "3192635",
+    "doi": null,
+    "title_en": "Fourier Transforms of Color Glass Condensate Multi-Wilson-Line Correlators via Filon Quadrature",
+    "abstract_en": "Calculating cross sections in the Color Glass Condensate effective theory requires Fourier transforms of multi-Wilson-line correlators from transverse coordinate space to transverse momentum space. Under the common assumption of impact-parameter independence, each transform reduces to a set of Hankel transforms whose Bessel-function kernels oscillate rapidly at phenomenologically relevant momenta, making direct quadrature prohibitively expensive. We present a Filon-type quadrature, applicable to any integrand, that integrates these oscillatory factors in closed form on the stored coordinate grid, reducing each Hankel transform to a precomputed weight vector and the full nested transform chain to a sequence of matrix products. We develop and validate the method on the deep inelastic scattering dijet cross section beyond the correlation-limit approximation, where an exprel-based reformulation of the quadrupole Wilson-line correlator removes a numerical $0/0$ instability inherent to its standard parametrization. Porting the calculation to the Graphics Processing Unit (GPU), with custom CUDA kernels that fuse the momentum-space contraction directly into the correlator evaluation, brings the runtime for one dipole input down to about two minutes on a single NVIDIA A800, from several hours on a multi-core Central Processing Unit (CPU). We further generalize the algorithm to three sequential Hankel transforms and validate the resulting six-dimensional transform against an analytic Gaussian integrand family with closed-form results at every stage. This general, process-independent algorithm is directly applicable to next-to-leading-order proton-nucleus and electron-ion scattering cross-section calculations performed without the correlation-limit approximation. The code is publicly available at https://github.com/CCNU-CGC-py/FFT_filon.",
+    "authors": [
+      "Duan, Haowu",
+      "Dai, Si-Wei",
+      "Yi, Cong",
+      "Zhao, Wenbin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-20T04:17:39.345087Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192635",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192635",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192635"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.18233",
+    "arxiv_id": "2608.18233",
+    "arxiv_version": null,
+    "inspire_id": "3192605",
+    "doi": null,
+    "title_en": "Transferable Fast Calorimeter Shower Generation via Multi-Geometry Pre-training",
+    "abstract_en": "Detailed Geant4 simulation of calorimeter showers dominates the computing budget of high-energy physics experiments. Deep generative surrogates reduce this cost, but they have remained tied to the detector they were trained on, so each new geometry needs a large in-domain dataset. We study whether a single point cloud shower generator can be pre-trained on multiple detectors and transferred to unseen calorimeters. The pre-training geometries come from synthetic geometric variation rather than real-detector data. We introduce SimpleBox, a family of $10^4$ box calorimeters spanning the plane of sampling fraction and longitudinal segmentation, and benchmark it against pre-training on realistic detectors. On a calorimeter unseen in pre-training, with $10^3$ target showers for fine-tuning, the two priors reduce the aggregated sliced Wasserstein distance to Geant4 by factors of 5.2 (synthetic) and 8.0 (realistic) relative to training from scratch. At larger target sizes the synthetic prior performs better than the realistic one. Geometric diversity alone is therefore a practical way to pre-train a transferable shower generator.",
+    "authors": [
+      "Buss, Thorsten",
+      "Day-Hall, Henry",
+      "Gaede, Frank",
+      "Kasieczka, Gregor",
+      "Krüger, Katja",
+      "McKeown, Peter",
+      "Valente, Lorenzo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-20T05:42:16.430071Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192605",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192605",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192605"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

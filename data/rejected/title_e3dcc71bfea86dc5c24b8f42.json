@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:e3dcc71bfea86dc5c24b8f42",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3193148",
+    "doi": null,
+    "title_en": "An Autonomous MCP Bridge to Rucio: Enhancing Data Management Accessibility for High Energy Physics",
+    "abstract_en": "The Rucio Data Management System [1] is an important tool used by High Energy Physics experiments, including those at Fermi National Accelerator Laboratory, to store and manage exabyte-scale scientific datasets. Despite its central role in coordinating data across globally distributed storage sites, Rucio's command line interface (CLI) presents a steep learning curve, and makes it difficult for scientists to navigate through. To solve this issue, a containerized Model Context Protocol (MCP) [2] server was built that connects Large Language Models directly to Rucio, allowing AI agents to handle data tasks by using simple, natural language rather than memorized terminal commands. The core engineering focus of this project was moving the server away from slow terminal commands that require text parsing and replacing them with a native Python Client API toolset and a planned REST API framework. Moving to the Python API handles data operations directly in memory, which helps clear up formatting errors, provides the AI with clean, structured JSON data and speeds up tool execution. To prove that the system actually works, a benchmarking pipeline was also built with various questions to test the AI across four different model configurations. The questions included finding data scopes, tracking down specific datasets, and checking replication rules. Through benchmarking, early runs showed that with raw terminal text, the model would get confused and stuck, whereas switching to the Python API to feed the AI clean, structured data yielded massive improvement. By creating an intelligent and autonomous bridge to a storage network, this project shows how AI can be implemented in scientific data management, which ultimately helps scientists at Fermilab spend less time sorting through data and more time focusing on their experiments and analysis.",
+    "authors": [
+      "Akella, Kashyap",
+      "Voetberg, Maggie"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-20T14:37:29.444365Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193148",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193148",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3193148"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

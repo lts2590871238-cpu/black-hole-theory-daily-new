@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.18745",
+    "arxiv_id": "2608.18745",
+    "arxiv_version": null,
+    "inspire_id": "3192650",
+    "doi": null,
+    "title_en": "FAST-HEP: Compiling Declarative Analysis Workflows for High-Energy Physics and Beyond",
+    "abstract_en": "High-energy physics analyses increasingly rely on complex software workflows whose scientific lifetime often exceeds that of the underlying software ecosystem. Maintaining reproducibility while accommodating evolving analysis software, data formats, and execution environments therefore remains a significant challenge. These challenges are not unique to high-energy physics and are shared by many data-intensive scientific analyses. We present FAST-HEP and its workflow engine, Flow, which combines a declarative workflow language, compiler, and runtime. Flow separates the scientific description of a workflow from its implementation and execution, and compiles workflows into backend-independent execution plans through normalization, graph construction, dependency analysis, and execution planning. A common runtime then orchestrates the resulting plan using replaceable capabilities. This architecture enables static validation and modular replacement of analysis operations, execution backends, and storage technologies, while recording provenance throughout compilation and execution. Although developed for the requirements of high-energy physics analysis, Flow's workflow model and orchestration layer are domain-independent. By applying compiler techniques to scientific analysis workflows, FAST-HEP provides a foundation for workflows that are transparent, extensible, portable, and reproducible, allowing scientific analyses and their supporting software ecosystems to evolve independently.",
+    "authors": [
+      "Kreczko, Luke"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-20T12:47:05.984483Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192650",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192650",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192650"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

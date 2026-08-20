@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.18281",
+    "arxiv_id": "2608.18281",
+    "arxiv_version": 1,
+    "inspire_id": "3192597",
+    "doi": null,
+    "title_en": "CosmoPyro: Gradients for Gravitational-Wave Cosmology",
+    "abstract_en": "Gravitational-wave (GW) observations of stellar-mass compact binary coalescences directly measure the source luminosity distance. Combined with the source redshift, these measurements constrain the current expansion rate of the Universe, the Hubble constant, $H_0$, or $h=H_0 / [100 \\,{\\rm km \\,s^{-1} \\, Mpc^{-1}}]$. For most GW signals no electromagnetic redshift measurement is expected, but the GW signal itself depends on the redshifted (detector-frame) masses. Assuming a source-frame mass distribution therefore enables a redshift estimate for each source. Combining the redshift estimates with the distance measurements provides a weak constraint on $H_0$ for each individual source that tightens with the number of sources in the catalog. However, the shape of the source-frame mass distribution is not known a priori, and previous work has relied on parametric models (piecewise power-laws with Gaussian components), and one-dimensional Gaussian processes. Here, we introduce CosmoPyro, a fully differentiable hierarchical Bayesian inference code that models the mass distribution using either one- or two-dimensional Gaussian processes. With the latest GW transient catalog (GWTC-5) we find $h = 0.66^{+0.17}_{-0.20}$ and $h = 0.57^{+0.20}_{-0.15}$ (median with $1σ$ uncertainty), for the one- and two-dimensional case, respectively. Despite the noticeably different inferred mass distributions, both models yield $H_0$ values consistent with the latest LVK measurements within $1 σ$. While our main results marginalize over the Gaussian-process power-spectrum hyperparameters, the measurement is also robust against fixing these hyperparameters over a range comparable to their measured uncertainty.",
+    "authors": [
+      "Konstantin Leyde",
+      "Elena Colangeli"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-20T03:36:12.411618Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.18281v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.18281v1",
+    "inspire_url": "https://inspirehep.net/literature/3192597",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.18281",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://arxiv.org/abs/2608.18281v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3192597",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192597"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

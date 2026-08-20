@@ -1,0 +1,72 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.19102",
+    "arxiv_id": "2608.19102",
+    "arxiv_version": 1,
+    "inspire_id": "3192712",
+    "doi": null,
+    "title_en": "Real-Time RFI Mitigation in SPOTLIGHT: A Two-Stage Approach for Transient Searches",
+    "abstract_en": "Radio Frequency Interference (RFI) remains one of the primary challenges limiting the sensitivity and reliability of modern radio transient surveys, particularly for real-time searches of fast radio transients. The SPOTLIGHT system is a commensal real-time transient search backend operating at the upgraded Giant Metrewave Radio Telescope (uGMRT), where robust and computationally efficient RFI mitigation is essential for sustained operations. We present the real-time two-stage RFI mitigation framework developed for SPOTLIGHT, comprising an antenna-level voltage-filtering module (VOLT) operating prior to correlation beamforming and the SPOTLIGHT Time-domain RFI Processing Engine (STRIPE), a statistical RFI-filtering framework applied to beamformed data. Together, these complementary techniques mitigate a broad spectrum of RFI, ranging from broadband impulsive interference mitigated by VOLT to narrowband spectrally confined spurious signals mitigated by STRIPE, while remaining computationally efficient enough to satisfy the stringent requirements of real-time processing. The framework is evaluated using routine commensal GMRT observations, controlled 76 pulsar observations, and benchmarking against PRESTO's rfifind. The deployed system reduced the false detection rate by 98%. The recovered astrophysical pulses exhibit a 2.7x improvement in S/N after the two-stage filtering compared with the unfiltered data. These improvements enhance SPOTLIGHT's detection efficiency, sensitivity, and operational reliability, strengthening its capability to discover radio transients with the uGMRT.",
+    "authors": [
+      "Raghav Wani",
+      "Jayanta Roy",
+      "Harshavardhan Reddy",
+      "Sanjay Kudale",
+      "Ujjwal Panda",
+      "Karel Adamek",
+      "Wesley Armour",
+      "Kshitij Bane",
+      "Kaushal Buch",
+      "Jayaram Chengalur",
+      "Jyotirmoy Das",
+      "Sridhar Gajendran",
+      "SPOTLIGHT Collaboration"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-20T03:40:10.084164Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.19102v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.19102v1",
+    "inspire_url": "https://inspirehep.net/literature/3192712",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.19102",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://arxiv.org/abs/2608.19102v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3192712",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192712"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.21630",
+    "arxiv_id": "2601.21630",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Leveraging rapid parameter estimates for efficient gravitational-wave Bayesian inference via posterior repartitioning",
+    "abstract_en": "Gravitational-wave astronomy typically relies on rigorous, computationally expensive Bayesian analyses. Several methods have also been developed to perform rapid, approximate Bayesian inference. We present a novel approach to leverage the results of these low-latency analyses to accelerate the final inference, whilst ensuring that the Bayesian prior remains independent of the data. By combining the fast constraints from the \\texttt{simple-pe} algorithm with the nested sampling acceleration technique of posterior repartitioning, we demonstrate that our method can guide the nested sampler towards the most probable regions of parameter space more efficiently for signal-to-noise ratios (SNR) greater than 20, while mathematically guaranteeing that the final inference is identical to that of a standard, uninformed analysis. We validate the method through an injection study on signals with SNR $<$ 150, demonstrating that it produces statistically robust and unbiased results whilst providing speedups of up to 210\\%, with a mean speedup of 34\\% for SNRs $>$ 20. Importantly, we show that the performance gain provided by our method scales with SNR, establishing it as a powerful technique to mitigate the cost of analysing signals from current and future gravitational-wave observatories.",
+    "authors": [
+      "Metha Prathaban",
+      "Charlie Hoy",
+      "Michael J. Williams"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-01-29T12:29:12Z",
+    "updated_at": "2026-08-19T15:53:13Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.21630v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.21630v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.21630",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://arxiv.org/abs/2601.21630v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

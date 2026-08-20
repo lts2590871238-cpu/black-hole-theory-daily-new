@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/cvhq-kvhx",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3192777",
+    "doi": "10.1103/cvhq-kvhx",
+    "title_en": "Sub-Riemannian lift advantage in quantum control",
+    "abstract_en": "We present an extended-algebra (EA) control workflow for fixed-horizon, bounded-amplitude quantum control. The method optimizes a state-transfer trajectory in a polynomial EA, projects the optimized lifted trajectory to native physical controls using a budgeted dictionary of product-formula approximants, and then refines the resulting waveform on the original idealized physical model with gradient ascent pulse engineering (GRAPE). The sub-Riemannian gradient ascent pulse engineering (SR-GRAPE) method and the direct-GRAPE baseline use the same physical Hamiltonian, amplitude bounds, time horizon, discretization, and terminal physical optimizer; the difference is the initialization supplied to the final physical-space optimization. For Greenberger-Horne-Zeilinger (GHZ) preparation with Ising-coupled qubits and local <math><mrow><mi>x</mi><mspace width=\"0.28em\"/><mi>and</mi><mspace width=\"0.28em\"/><mi>y</mi></mrow></math> drives, SR-GRAPE changes which basin is reached. In the five-qubit state-growing benchmark, SR-GRAPE reaches <math><mrow><mi mathvariant=\"script\">F</mi><mo>≥</mo><mn>0.99</mn></mrow></math> in <math><mrow><mn>25</mn><mo>/</mo><mn>25</mn></mrow></math> trials with mean fidelity 0.9917, whereas direct physical-space GRAPE from random feasible initialization remains near the <math><mrow><mi mathvariant=\"script\">F</mi><mo>=</mo><mn>0.5</mn></mrow></math> GHZ plateau in all 25 trials. Six-qubit state-growing also gives <math><mrow><mn>25</mn><mo>/</mo><mn>25</mn></mrow></math> successes at <math><mrow><mi mathvariant=\"script\">F</mi><mo>≥</mo><mn>0.99</mn></mrow></math>, while direct GRAPE remains at mean fidelity 0.4998 with <math><mrow><mn>0</mn><mo>/</mo><mn>25</mn></mrow></math> successes. In a seven-qubit resource-extended setting with <math><mrow><msub><mi>u</mi><mo movablelimits=\"true\" form=\"prefix\">max</mo></msub><mo>=</mo><mn>3</mn></mrow></math>, SR-GRAPE again reaches <math><mrow><mi mathvariant=\"script\">F</mi><mo>≥</mo><mn>0.99</mn></mrow></math> in <math><mrow><mn>25</mn><mo>/</mo><mn>25</mn></mrow></math> seeds with mean fidelity 0.9901, whereas the corresponding direct-GRAPE baseline remains at mean fidelity 0.5000 with <math><mrow><mn>0</mn><mo>/</mo><mn>25</mn></mrow></math> successes. For the GHZ task, <math><mrow><mi mathvariant=\"script\">F</mi><mo>&gt;</mo><mn>0.5</mn></mrow></math> certifies genuine multipartite entanglement; the <math><mrow><mi mathvariant=\"script\">F</mi><mo>=</mo><mn>0.5</mn></mrow></math> plateau does not cross this witness threshold.",
+    "authors": [
+      "Choi, Ryan",
+      "Roychowdhury, Vwani",
+      "Bouchard, Louis-S."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-20T15:08:50.960179Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 022441, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 2, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3192777",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3192777",
+        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "url": "https://inspirehep.net/literature/3192777"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
