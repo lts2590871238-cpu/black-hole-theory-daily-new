@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.19707",
+    "arxiv_id": "2608.19707",
+    "arxiv_version": null,
+    "inspire_id": "3193548",
+    "doi": null,
+    "title_en": "ChatGPT Solves All Tested Qiskit Homework Assignments",
+    "abstract_en": "Generative AI creates an assessment challenge in quantum software education: a student can provide a homework notebook to ChatGPT and request a completed submission. This study examined whether introductory Qiskit homework could remain autogradable while requiring students to run, review, and discuss results rather than banning AI. Three packages were tested: seeded basis-state circuits with bit flips and customized measurement mappings; Quantum Fourier Transform followed by inverse-transform recovery; and seeded Deutsch-Jozsa with customized oracle masks. The designs used personalization, simulator execution, JSON submissions, hidden references, circuit metrics, reflections, and optional IBM Quantum execution. For each package, one student-visible instance was tested in 50 separate ChatGPT sessions, yielding 150 sessions overall. Every final artifact was executed and passed its grader. Nine sessions were fully archived; none required operator code changes or correction of quantum logic. Under the study's operational definition, each tested instance had zero observed ChatGPT-resiliency. Seeds changed parameters rather than task structure, expected results remained derivable from visible assignment logic, scaffolding exposed key solution steps, and hidden grading verified output consistency without establishing independent authorship or understanding. Because one instance was repeated for each package, the results do not establish solvability for every seed or possible Qiskit assessment. The tested personalized, execution-oriented take-home designs therefore did not prevent successful completion under a minimally engaged-student workflow. Correct artifacts should be complemented by direct assessment through supervised modification, oral defense, prediction, and transfer tasks.",
+    "authors": [
+      "Kaltchenko, Alexei",
+      "Tiwana, Gurnivaj"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T12:22:19.160561Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193548",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193548",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193548"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

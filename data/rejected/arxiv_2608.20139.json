@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20139",
+    "arxiv_id": "2608.20139",
+    "arxiv_version": 1,
+    "inspire_id": "3193707",
+    "doi": null,
+    "title_en": "Reinforcement LearningtoHarness Approximation Errors for Long-Time QuantumSimulation",
+    "abstract_en": "Accurate digital quantum simulation at long times is limited by the accumulation of errors inherent to approximate simulation. Here we introduce RL-Trotter, a reinforcement-learning framework that treats unavoidable approximation errors as resources for error correction rather than merely imperfections to suppress. We show that low-dimensional information from conservation laws, such as the energy and energy variance, provides a sufficient learning signal to guide the agent, which learns to adapt a single scalar---the next Trotter step size---without access to the target wave function. By optimizing the entire long-time evolution rather than individual steps, RL-Trotter discovers self-correcting sequences in which later errors compensate for those accumulated earlier, increasing the accuracy of the long-time dynamics. The learned policies are intrinsically robust to measurement noise, substantially reducing measurement overhead. They also generalize to previously unseen, physically similar initial states and transfer from small, classically simulable systems to systems an order of magnitude larger. This enables a practical protocol based on classical pretraining followed by direct deployment or limited fine-tuning on quantum hardware. Our results establish a broader perspective for quantum algorithms: errors in approximate evolution can be orchestrated into resources for accurate and resource-efficient quantum dynamics.",
+    "authors": [
+      "Yu-Bo Shi",
+      "Markus Heyl",
+      "Roderich Moessner",
+      "Marin Bukov",
+      "Hongzheng Zhao"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.dis-nn",
+      "cond-mat.stat-mech",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T12:22:19.339790Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.20139v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.20139v1",
+    "inspire_url": "https://inspirehep.net/literature/3193707",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.20139",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://arxiv.org/abs/2608.20139v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3193707",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193707"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

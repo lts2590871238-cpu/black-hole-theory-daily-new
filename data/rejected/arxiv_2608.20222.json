@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20222",
+    "arxiv_id": "2608.20222",
+    "arxiv_version": 1,
+    "inspire_id": "3193551",
+    "doi": null,
+    "title_en": "Gravitational-wave parameter estimation with machine-learning generated surrogate waveforms",
+    "abstract_en": "The worldwide network of gravitational-wave detectors have detected more than 350 binary coalescence events till date. Future third-generation detectors, like Einstein telescope, are expected to detect orders-of-magnitude more signals from sources with more complicated characteristics, including eccentric orbits and high-mass ratio binaries. It is well-established that the computational cost of parameter estimation for signals from these kinds of sources will be extremely high. In particular, the process could be sped-up if generating theoretical waveform predictions, used for likelihood calculation becomes faster. Recently, various machine-learning techniques has been proposed to this end. In this work, we propose a two-stage deterministic conditional-autoencoder model for generating four-parameter SEOBNRv4 waveforms. The first-stage of the model generates amplitude and phase series of the waveform, while the second-stage calibrates the residual error in the predictions. Our model achieves a median mismatch of around $10^{-2}$ with the target polarization waveforms, while the calibrated amplitude/phase series achieve $10^{-6}$ level cosine distance error. We then propose a waveform conditioning step to enable use of these surrogate waveforms for downstream parameter estimation tasks. Finally, we perform extensive parameter estimation tests, with ML and EOB waveform injections and try to recover posterior estimates for the source parameters. We find that when ML waveforms are used to recover EOB target parameter estimates, the inferred posterior have some systematic bias. This inherent bias can be estimated and corrected for, and then importance reweighting of posterior samples can enable use of low-accuracy surrogate waveforms at low SNRs.",
+    "authors": [
+      "Suyog Garg",
+      "Kipp Cannon"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM",
+      "cs.LG"
+    ],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T12:17:09.616469Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.20222v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.20222v1",
+    "inspire_url": "https://inspirehep.net/literature/3193551",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.20222",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://arxiv.org/abs/2608.20222v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3193551",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193551"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

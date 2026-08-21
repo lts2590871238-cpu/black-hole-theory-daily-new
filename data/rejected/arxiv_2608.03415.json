@@ -3,8 +3,8 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.03415",
     "arxiv_id": "2608.03415",
-    "arxiv_version": 1,
-    "inspire_id": "3187289",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Tomographer: End-to-end Redshift Distribution Estimation for Source Catalogs and Intensity Maps",
     "abstract_en": "Redshift information is central to nearly every extragalactic and cosmological application of sky surveys, yet only a small fraction of cataloged sources, and none of the photons forming diffuse backgrounds, have spectroscopic redshifts. Clustering-based redshift inference estimates the redshift distribution of an arbitrary dataset through spatial cross-correlation with a reference sample of known redshifts. It relies only on positional information, making it applicable to any tracer of large-scale structure, including source populations and diffuse intensity maps. Its broader adoption, however, has been limited by technical barriers: assembling and characterizing spectroscopic references, expensive pair-counting computations, theoretical corrections, and systematic control. To remove these barriers, we introduce Tomographer, an end-to-end clustering-redshift framework. The key design feature is a set of precomputed \"activation maps\" encoding the spatial pair information of 3 million SDSS spectroscopic galaxies and quasars up to $z\\sim4$ over $10{,}000\\,{\\rm deg}^2$. This eliminates user-end pair counting, reducing computational scaling from $O(N\\log N)$ to $O(1)$ map multiplications. Given a source catalog or intensity map, Tomographer returns the bias-weighted redshift distribution, $b(z)\\,{\\rm d}N/{\\rm d}z(z)$ or $b(z)\\,{\\rm d}I/{\\rm d}z(z)$. We validate the framework against samples with known redshifts, demonstrate accurate uncertainty estimates, and show robustness to survey footprint, spatially varying selection functions, beam smoothing, and foreground contamination. We showcase applications to source catalogs selected by flux, color, photometric redshift, morphology, or variability, and to intensity maps from radio to X-rays. Future Tomographer releases will incorporate additional wide-field spectroscopic reference samples as they become available.",
@@ -19,31 +19,23 @@
       "astro-ph.CO",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-08-04T00:00:00Z",
-    "updated_at": "2026-08-06T03:30:58.627181Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-04T10:07:10Z",
+    "updated_at": "2026-08-20T10:18:30Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.03415v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.03415v1",
-    "inspire_url": "https://inspirehep.net/literature/3187289",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.03415v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.03415v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.03415",
-        "fetched_at": "2026-08-10T23:55:14.694792Z",
-        "url": "https://arxiv.org/abs/2608.03415v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3187289",
-        "fetched_at": "2026-08-10T23:55:14.694792Z",
-        "url": "https://inspirehep.net/literature/3187289"
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://arxiv.org/abs/2608.03415v2"
       }
     ],
     "is_demo": false

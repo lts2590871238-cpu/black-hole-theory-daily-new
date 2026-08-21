@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.26581",
+    "arxiv_id": "2604.26581",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Normalizing flows for density estimation in multi-detector gravitational-wave searches",
+    "abstract_en": "Identifying compact binary coalescences buried within the non-Gaussian and non-stationary data taken by gravitational-wave interferometers requires sophisticated search pipelines, such as the PyCBC analysis. A critical task for these pipelines is determining the statistical significance of candidate events by comparing a \"ranking statistic\" against a large background set. Currently, PyCBC's ranking statistic incorporates the joint probability of the relative arrival times, phase delays and amplitude ratios of the signals seen in different detectors. These parameters are tightly constrained for physical signals but are more broadly distributed for noise. PyCBC currently relies on precomputed binned histogram-based density estimators using Monte-Carlo simulations to obtain these probabilities. However, the storage requirements for these histograms scale prohibitively with the size of the detector network, preventing PyCBC from effectively analyzing four or more detectors. In this paper, we demonstrate that these histograms can be replaced with normalizing flows, a machine learning approach to density estimation. Applying this method to data from the third observing run of Advanced LIGO and Virgo, we demonstrate that normalizing flows reduce storage requirements by over three orders of magnitude. Furthermore, our approach maintains high sensitivity, with less than a 0.05% drop in the recovery of simulated signals at a fixed false-alarm rate. By relaxing several simplifying assumptions previously required by Monte-Carlo methods, we also achieved up to a 6.55% increase in recovered signals for specific detector combinations. These results suggest that normalizing flows provide a scalable, flexible framework for the PyCBC pipeline as it expands to include four or more detectors, or to extend to searches for precessing or higher-mode signals, in future observing runs.",
+    "authors": [
+      "Sam Insley",
+      "Michael J. Williams",
+      "Rahul Dhurkunde",
+      "Ian Harry"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "gr-qc",
+      "hep-ex"
+    ],
+    "submitted_at": "2026-04-29T12:01:29Z",
+    "updated_at": "2026-08-20T12:28:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.26581v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.26581v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.26581",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://arxiv.org/abs/2604.26581v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

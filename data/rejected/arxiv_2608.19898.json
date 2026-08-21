@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.19898",
+    "arxiv_id": "2608.19898",
+    "arxiv_version": null,
+    "inspire_id": "3193994",
+    "doi": null,
+    "title_en": "A dual-polarization whitened-template trigger for real-time radio detection of extensive air showers",
+    "abstract_en": "Autonomous radio stations require a first-stage trigger that rejects measured background while preserving weak extensive-air-shower pulses under tight hardware constraints. We present a dual-polarization trigger based on a 16-sample whitened pulse template evaluated continuously on the orthogonal north-south and east-west channels of an Auger Engineering Radio Array station. The template is derived from detector-folded air-shower pulses and whitened using the covariance of measured background. Responses from both polarizations are combined within a fixed timing radius and compared with a calibrated threshold. On an independent test set, the trigger reaches an efficiency of 0.97, with a 95 percent confidence interval of 0.96 to 0.98, at a frame-equivalent candidate rate of 3.39 kHz. At the same operating point, an unwhitened dual-polarization template reaches 0.41 efficiency and an amplitude trigger reaches 0.16. Efficiency remains at least 0.94 in every populated signal-to-noise bin. Replay of 159.29 ms of continuous measured background yields a score-cluster rate of 6.64 kHz, below the 71.4 kHz capacity of the downstream module. The FPGA implementation accepts one dual-polarization sample per clock, closes timing at 200 MHz, and uses 2377 lookup tables, 5330 registers, and 32 digital signal-processing blocks. Register-transfer-level simulation agrees bit for bit with the reference implementation for 400 traces. These results show that background covariance, pulse morphology, and dual-polarization consistency can be combined in a compact real-time radio trigger.",
+    "authors": [
+      "Dorosti, Qader",
+      "Aksoy, Alperen",
+      "Bekman, Ilja",
+      "Cristinziani, Markus",
+      "de Boone, Eric-Teunis",
+      "Dimitrov, Vesselin",
+      "Eguzo, Chimezie",
+      "Heidbrink, Stefan",
+      "van Waasen, Stefan",
+      "Zambanini, Andre"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T12:46:49.743081Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193994",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193994",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193994"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20132",
+    "arxiv_id": "2608.20132",
+    "arxiv_version": null,
+    "inspire_id": "3193796",
+    "doi": null,
+    "title_en": "SAKE: Spectral Autodiff Kernel Expansion for Geometric Liouvillian Transport. A Differential-Geometric Framework for Response Transport in Quantum Dynamical Systems",
+    "abstract_en": "We introduce the Spectral Autodiff Kernel Expansion (SAKE), a differentiable computational framework for transporting nonlinear spectroscopic response between neighboring quantum dynamical models. Rather than recomputing multidimensional spectra independently for each Hamiltonian or Liouvillian, SAKE constructs local transport expansions about a reference model by combining forward-mode automatic differentiation with Duhamel transport theory. Automatic differentiation generates first-, second-, and third-order derivatives of the parameter-dependent Liouvillian, which are assembled into a pathway transport operator that maps the nonlinear response of a reference model onto neighboring systems. The framework is validated for a four-level excitonic dimer possessing an $su(2)\\times su(2)$ symmetry by comparing second- and third-order transported pathway operators with exact projected transport matrices obtained from direct calculations. The third-order expansion accurately reproduces the projected transport operator and its associated pathway mixing. Beyond providing an efficient computational strategy, the transport operator reveals how coherent and dissipative perturbations redistribute amplitude among double-sided Feynman pathways, exposing mechanistic information that is not directly apparent from the nonlinear spectrum. SAKE thereby establishes a differentiable computational framework for nonlinear spectroscopy that supports efficient local parameter exploration, sensitivity analysis, and future inverse-design applications.",
+    "authors": [
+      "Bittner, Eric R.",
+      "Silva-Acuna, Carlos",
+      "Li, Hao",
+      "Paiva-Ortega, Simon"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T12:23:14.590704Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193796",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193796",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193796"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

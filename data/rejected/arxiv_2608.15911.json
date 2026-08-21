@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2608.15911",
     "arxiv_id": "2608.15911",
     "arxiv_version": 1,
-    "inspire_id": "3191691",
+    "inspire_id": null,
     "doi": null,
     "title_en": "External identification and electrothermal modeling of persistent-current-switch operating states in a Siemens MRI magnet",
     "abstract_en": "A persistent current switch (PCS) closes the superconducting loop of an MRI magnet; a heater makes it resistive so an external supply can change the magnet current. PCS control is usually treated as binary: heater on--resistive, heater off--superconducting. External current and voltage logs from an MPS2 service power supply (Digit Systems) show for a Siemens MAGNETOM Avanto magnet that the command does not uniquely determine the PCS state: after heater switch-off, Joule self-heating can sustain the resistive state. Purpose-designed maneuvers separate two resistive regimes. With the heater energized, the branch resistance is nearly constant at 1.86--2.19 $Ω$ below 0.5 V. After switch-off, the self-sustained regime follows $R_{sw}=0.65|V_{node}|^{1.5}$ ($R_{sw}$ in ohms, $V_{node}$ in volts) and is 12-fold below the heater-on resistance at 0.4 V. Both regimes obey one electrothermal relation, $R_{sw}=C(P_h h+V_{node}^2/R_{sw})^a$, with $h$ the binary heater command, over a 690-fold resistance range. First, branch resistance and coil inductance set the redistribution time constant, $τ=L/R_{sw}$; final-hold duration therefore controls persistent-current accuracy. Across 18 service sessions on other Siemens magnets, analyzed without transferring the Avanto coefficients, the median hold was $13τ$ and the median residual branch current was 8 ppm of coil current. Second, the intersection of the PCS characteristic and external-circuit load line sets the self-sustainment boundary. The cross-session estimate of 0.062 V lies between observed retrapping at 0.06 V and retention at 0.07 V. In dynamic simulation, the two fixed-coefficient characteristics $R(V,h)$ reduce current RMSE from 1.449 to 0.154 A (9.4-fold); omitting explicit heater input gives no improvement over the inductance-only model.",
@@ -15,31 +15,23 @@
       "cond-mat.supr-con",
       "physics.ins-det"
     ],
-    "submitted_at": "2026-08-16T00:00:00Z",
-    "updated_at": "2026-08-19T04:03:52.227436Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-16T19:57:42Z",
+    "updated_at": "2026-08-16T19:57:42Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2608.15911v1",
     "pdf_url": "https://arxiv.org/pdf/2608.15911v1",
-    "inspire_url": "https://inspirehep.net/literature/3191691",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.15911",
-        "fetched_at": "2026-08-20T23:45:45.017837Z",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
         "url": "https://arxiv.org/abs/2608.15911v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3191691",
-        "fetched_at": "2026-08-20T23:45:45.017837Z",
-        "url": "https://inspirehep.net/literature/3191691"
       }
     ],
     "is_demo": false

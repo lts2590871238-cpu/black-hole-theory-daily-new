@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:f89958ac9316e59136045580",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3194163",
+    "doi": null,
+    "title_en": "Seeing values for LSST strategy simulations",
+    "abstract_en": "The opsim4 operations simulation program for the LSST astronomical survey uses a\ndatabase of seeing values covering the range of times to besimulated. Idescribethe\ncreation of such a database using Dual Image Motion Monitor(DIMM)datacollected\nat Cerro Pachon from 2004-03-17 to 2019-10-07. In times during which the data\noverlap, I compare the distribution of DIMM seeing values to the seeing measured\nin DECamimages,takenatasite 10kmaway. Becauseinstrumentalproblemsinthe\nDIMMmay indicate unreliablemeasurements,cutsonimagequality(asindicatedby\nthe measured Strehlratio)wereexplored. TheDIMMhassignificantgaps,soImodel\nthedata(withandwithoutcutsonStrehlratio)andgenerateartificialdatainthegaps\naccording to the model. The model consists of a sinusoidal variation with a period\nof one year, an autoregressive (AR1) model for variations in mean seeing from one\nnight to the next, and another AR1 model for variations on a 5 minute timescale. I\ncreate four databases according to thisprocedure, twobasedonDIMMdatastarting\n2006-01-01 (with and without a Strehl ratio cut), and two starting 2009-01-01. I then\nrun opsim simulations using each, and an otherwise identical simulation using the\ndefault seeing database, and explore the differences",
+    "authors": [
+      "Neilsen, Eric H."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-21T00:00:00Z",
+    "updated_at": "2026-08-21T15:24:00.661194Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194163",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194163",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3194163"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

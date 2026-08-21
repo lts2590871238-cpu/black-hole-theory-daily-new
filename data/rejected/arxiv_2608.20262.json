@@ -1,0 +1,72 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20262",
+    "arxiv_id": "2608.20262",
+    "arxiv_version": 1,
+    "inspire_id": "3193730",
+    "doi": null,
+    "title_en": "Probabilistic kilonova prediction from gravitational wave inferred binary neutron star parameters",
+    "abstract_en": "Kilonovae provide a key electromagnetic window into binary neutron star mergers, revealing the properties of the merging system while probing r-process nucleosynthesis of the Universe. However, only a few kilonova candidates have been detected to date, with AT2017gfo being the only one associated with a gravitational wave event, GW170817. In this work, we present \\textsc{Genova}, a probabilistic framework for predicting kilonova spectra and light curves directly from gravitational wave posterior samples of binary neutron star mergers. This method uses a conditional normalising flow to learn the distribution of rest-frame spectra conditioned on the source-frame component masses, tidal deformabilities, viewing angle and time since merger. Other kilonova model parameters, such as ejecta opacities, are marginalised over during training, so that their effects are propagated into the predicted spectra as predictive uncertainty. In the self-consistency test, the flow model reproduces the median light curves with residuals typically below $\\sim 0.1$ mag, and the ratio of the predicted central 68\\% interval widths remains predominantly between $0.8$ and $1.4$ over $\\sim 0.4$--$8.0$ days. Comparisons with a physically distinct kilonova model show that the probabilistic prediction can remain informative beyond the model used for training. We apply \\textsc{Genova} to GW170817/AT2017gfo using multi-band observations, including newly re-reduced $Y$-, $J$-, $K_s$-band photometry from the Visible and Infrared Survey Telescope for Astronomy, which we present in this work. The resulting predictive intervals broadly encompass the observations while capturing both gravitational wave posterior uncertainty and the variation induced by marginalised kilonova model parameters.",
+    "authors": [
+      "Xiao-Fei Dong",
+      "Ik Siong Heng",
+      "Gavin P. Lamb",
+      "Chris Messenger",
+      "Nikhil Sarin",
+      "Benjamin Rayson",
+      "Nial R. Tanvir",
+      "Jessica Irwin",
+      "Thomas Wallace",
+      "Skye Rosetti",
+      "Bo Milvang-Jensen",
+      "Andrew J. Levan",
+      "Jens Hjorth"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T12:18:38.607550Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.20262v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.20262v1",
+    "inspire_url": "https://inspirehep.net/literature/3193730",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.20262",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://arxiv.org/abs/2608.20262v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3193730",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193730"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

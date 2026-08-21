@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.19448",
+    "arxiv_id": "2608.19448",
+    "arxiv_version": null,
+    "inspire_id": "3193535",
+    "doi": null,
+    "title_en": "Efficient Classical Simulation of Weakly Interacting Fermion Dynamics",
+    "abstract_en": "We consider the task of simulating the real-time dynamics of weakly interacting fermionic systems. In particular, we focus on computing the expectation value of a local observable $A$ at time $t$. By analyzing the convergence of the perturbative expansion in the interaction strength $λ$ for the Heisenberg-picture observable, we propose a polynomial-time algorithm for estimating this expectation value in the weakly interacting regime $λ|t|^{2D+1}=\\mathcal{O}(1)$, when the Hamiltonian is geometrically local on a $D$-dimensional lattice. Importantly, this condition is independent of the system size. If the goal is instead to approximate the time-evolved observable in normalized Frobenius norm, we extend the convergence regime to $λ|t|=\\mathcal{O}(1)$ with quasi-polynomial runtime. When the non-interacting part exhibits Anderson localization, our polynomial-time algorithm can be extended up to $λ|t|=\\mathcal{O}(1)$, modulo polylogarithmic factors. Our algorithm brings together ideas from continuous-time QMC, diagrammatic QMC, and Majorana Propagation, but with a new Heisenberg-picture operator-growth analysis that makes the sampling complexity rigorously controllable. This leads to provably efficient classical algorithms in regimes where the interaction is weak enough that the sampling variance remains bounded independently of system size. Together, these results identify broad regimes in which weak interactions, locality, and localization can be leveraged to make real-time fermionic dynamics classically tractable.",
+    "authors": [
+      "Zhao, Chu",
+      "Marvian, Iman",
+      "Tong, Yu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-21T12:38:54.556953Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193535",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193535",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193535"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

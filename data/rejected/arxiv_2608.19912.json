@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.19912",
+    "arxiv_id": "2608.19912",
+    "arxiv_version": null,
+    "inspire_id": "3193684",
+    "doi": null,
+    "title_en": "Distilling Normalizing Flows for Real-Time Anomaly Detection at the LHC",
+    "abstract_en": "Normalizing flows are principled anomaly detectors, selecting anomalies using a probabilistic per-event likelihood. Extreme latency and resource constraints have prevented the deployment of flow likelihoods within the hardware triggers at the Large Hadron Collider. We bypass these limitations by distilling the likelihood from a large normalizing flow into lightweight student estimators suitable for deployment on a field-programmable gate array. Our use of a conditional normalizing flow enables precise likelihood estimation in the presence of missing input features. Both decision tree and neural network students are considered, the latter optimized under advanced quantization techniques. By simultaneously improving likelihood quality and lowering inference cost, we demonstrate both state-of-the-art physics performance and latency compared with existing flow-based approaches.",
+    "authors": [
+      "Tahseen, Tara P.A.",
+      "Clarke Hall, Noah",
+      "Konstantinidis, Nikolaos",
+      "Suárez, Paula Martínez"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-21T03:32:51.396505Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193684",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193684",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193684"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

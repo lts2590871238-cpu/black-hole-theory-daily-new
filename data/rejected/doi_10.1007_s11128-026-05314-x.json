@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05314-x",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3193907",
+    "doi": "10.1007/s11128-026-05314-x",
+    "title_en": "An optimal hybrid quantum-classical representation for robust photonic image processing on NISQ devices",
+    "abstract_en": "Quantum image processing (QIP) promises significant advantages for computer vision, but its realization on Noisy Intermediate-Scale Quantum (NISQ) devices is hampered by a fundamental trade-off between qubit efficiency and measurement robustness. This work introduces a novel hybrid quantum-classical representation that optimizes this trade-off for discrete-variable photonic quantum hardware using path-encoded qubits. Through a dual optimization approach combining simulation-based ablation study and mathematical optimization with bootstrap validation (1000 resamples), we derive an optimal operating point of $\\alpha = 0.393 \\pm 0.019$ (95% CI: 0.355−0.424). This value is universal: it balances qubit count against measurement fidelity under the assumed NISQ hardware characteristics and is independent of the specific image content. Our architecture requires only $Q = \\lceil \\log _2(N^2) \\rceil + 4$ qubits for an $N \\times N$ image, achieving logarithmic scaling while maintaining measurement fidelity between 0.92−0.97 on simulated NISQ hardware. We provide complete photonic circuit designs utilizing path encoding, including resource estimates for optical components. Comprehensive performance analysis demonstrates a 38% improvement in error resilience over FRQI, while using only one additional control qubit compared to NEQR under equivalent color depth (3 bits, 8 levels). For applications where 8-level color is sufficient, this modest overhead is offset by superior measurement robustness and noise tolerance. Measurement distribution analysis confirms well-separated operational modes with minimal overlap, indicating excellent discrimination capability. This work establishes a practical and scalable framework for implementing QIP on imminent discrete-variable photonic quantum processors.",
+    "authors": [
+      "Tarek, Nouioua"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-18T00:00:00Z",
+    "updated_at": "2026-08-21T08:13:55.059141Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 295, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 295, 9, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193907",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193907",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193907"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

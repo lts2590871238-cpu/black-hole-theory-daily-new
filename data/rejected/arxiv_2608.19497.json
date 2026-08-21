@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.19497",
+    "arxiv_id": "2608.19497",
+    "arxiv_version": null,
+    "inspire_id": "3193992",
+    "doi": null,
+    "title_en": "Empirical Characterization of Learning Geometry in Hybrid Quantum Forecasting Models",
+    "abstract_en": "We characterize the learning dynamics of a compact hybrid quantum forecasting model through comparison with a structurally aligned classical baseline. Using stationary harmonic-mixture and nonstationary chirp benchmarks with controlled spectral complexity and data availability, we analyze empirical Neural Tangent Kernel dynamics through kernel-target alignment, kernel drift, spectral concentration, and training loss. The classical model exhibits stronger early target alignment, whereas the hybrid model generally develops a less concentrated kernel spectrum and smaller kernel drift. Despite these distinct optimization geometries, both architectures attain similar held-out performance across the evaluated regimes. Notably, the hybrid model uses 125 trainable parameters compared with 281 for the classical baseline and reaches its validation-selected checkpoint earlier in 15 of 18 frequency conditions. A Fourier-augmented classical baseline does not reproduce the observed training behavior, while a controlled re-uploading ablation shows that repeated encoding systematically modifies both optimization and kernel geometry. These results demonstrate that comparable generalization can emerge from substantially different learning trajectories and that individual NTK diagnostics do not provide monotonic predictors of validation convergence. Rather than claiming a general quantum advantage, the study identifies architecture-dependent learning behavior that is masked by endpoint accuracy alone.",
+    "authors": [
+      "Juárez-Osorio, Sandra Leticia",
+      "Hernandez-Martinez, Jorge, I.",
+      "Ruiz-Martinez, Jesus Ivan",
+      "Mendez-Vazquez, Andres",
+      "Rodriguez-Tello, Eduardo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-19T00:00:00Z",
+    "updated_at": "2026-08-21T12:46:35.170235Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3193992",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3193992",
+        "fetched_at": "2026-08-21T23:43:56.534055Z",
+        "url": "https://inspirehep.net/literature/3193992"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
