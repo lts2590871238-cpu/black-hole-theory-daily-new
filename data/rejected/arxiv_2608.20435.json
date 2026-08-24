@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20435",
+    "arxiv_id": "2608.20435",
+    "arxiv_version": null,
+    "inspire_id": "3194636",
+    "doi": null,
+    "title_en": "Comment on \"Scalable Quantum Machine Learning: Trainability, Expressivity and Efficiency\": Polynomial Evaluation of the Triplet-Block Readout",
+    "abstract_en": "We examine the classical-cost claim for the triplet-block two-body readout in arXiv:2607.24014v1. The Gaussian-state expansion used there gives an $O(2^{2k/3}\\mathrm{poly}(n))$ classical algorithm, but it is not necessary for fixed-body observables. The triplet-block input has an explicitly computable diagonal two-particle reduced density matrix, which passive fermionic linear optics propagates through $\\bigwedge^2 W$. This gives a deterministic $O(n^4)$ algorithm for the complete correlator vector $(\\langle n_i n_j\\rangle)_{i<j}$, independently of $k$ and the fermionic-linear-optics extent. More generally, every number-conserving fixed-$r$-body expectation is polynomially computable whenever the input $r$-particle reduced density matrix is classically available; if that matrix is diagonal, all diagonal correlators are computable in $O(n^{2r})$ time. This invalidates the algorithm-relative exponential-cost conclusion for the supervised two-body readout, without affecting the gradient-variance, barren-plateau, parameter-shift, or sampling-hardness results.",
+    "authors": [
+      "Amidi, Erfan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-24T07:46:56.999804Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194636",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194636",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://inspirehep.net/literature/3194636"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

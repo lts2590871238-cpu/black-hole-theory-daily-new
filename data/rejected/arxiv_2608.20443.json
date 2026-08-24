@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20443",
+    "arxiv_id": "2608.20443",
+    "arxiv_version": null,
+    "inspire_id": "3194505",
+    "doi": null,
+    "title_en": "Granthi: Higher-Order Quantum Programming via Unitary Wiring",
+    "abstract_en": "Existing quantum programming languages confine higher order structure to a classical host while restricting the quantum layer to first order operations on qubits. This paper presents Granthi, a purely unitary higher-order quantum programming language built on three design commitments: quantum programs are first class values that may be passed, returned, and coherently composed; additive structure is tag-preserving routing rather than observational branching, so control may remain in superposition; and programmer-facing finite label types with named reversible operations provide domain-level control spaces without exposing tag management. Every well-typed term, including at function type, denotes a unitary on its boundary interface, and the compiler realizes exactly its wiring as a quantum circuit on the physical qubit layout (assuming correctness of the pytket backend). Granthi is implemented end-to-end: an OCaml DSL elaborates surface programs through a binder-free core IR to executable quantum circuits via pytket. The language directly supports the quantum switch, compiled to a static circuit, as well as interference on control-flow history and structured finite control, all within the purely unitary fragment.",
+    "authors": [
+      "Abramsky, Samson",
+      "Jagadeesan, Radha"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-24T07:07:33.535234Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194505",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194505",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://inspirehep.net/literature/3194505"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

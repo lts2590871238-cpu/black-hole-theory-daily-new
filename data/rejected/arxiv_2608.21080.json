@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21080",
+    "arxiv_id": "2608.21080",
+    "arxiv_version": null,
+    "inspire_id": "3194596",
+    "doi": null,
+    "title_en": "Flow-based surrogate models for particle tracking",
+    "abstract_en": "Particle tracking is a fundamental tool for particle-accelerator design and optimisation. Conventional tracking routines provide high accuracy but are computationally demanding, especially when simulating large particle ensembles or long time spans. As a result, optimising moderate- to high-dimensional parameter spaces is challenging, and real-time surrogate models remain out of reach for many applications. This contribution introduces a surrogate-modelling approach based on conditional flow matching (CFM). A CFM model is trained on tracking simulations of CERN's Proton Synchrotron (PS) over a 10-dimensional parameter space. The trained model reproduces final phase-space distributions with a median squared maximum mean discrepancy MMD$^2$ of $3\\times 10^{-4}$ and mean inference time of 0.04 s, a speed-up of three orders of magnitude over conventional tracking. To capture distribution-dependent dynamics that vanilla CFM cannot represent, we extend the model with cross-attention over the initial particle ensemble (Cross-Attention-CFM) and demonstrate that this extension recovers performance on a space-charge benchmark in the PS, where vanilla CFM degrades. Finally, we introduce Hybrid-CFM, in which a small number of conventionally-tracked particles are used to inform the model. On the same 10-dimensional PS task, Hybrid-CFM with 100 auxiliary particles trained on 200 distributions matches the vanilla CFM trained on 1500, and improves the worst-case (90th-percentile) MMD$^2$ by roughly a factor of four, substantially reducing the upfront cost of building a surrogate.",
+    "authors": [
+      "Remta, Matthias",
+      "Dutheil, Yann",
+      "Velotti, Francesco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-21T00:00:00Z",
+    "updated_at": "2026-08-24T07:06:05.786517Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194596",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194596",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://inspirehep.net/literature/3194596"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

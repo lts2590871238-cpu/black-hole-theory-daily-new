@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.13687",
+    "arxiv_id": "2604.13687",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Automatic classification pipeline for glitches in the Virgo detector",
+    "abstract_en": "Glitches frequently contaminate data in gravitational-wave detectors, complicating the observation and analysis of astrophysical signals. This work introduces VIGILant, an automatic pipeline for classification and visualization of glitches in the Virgo detector. Using a curated dataset of Virgo O3b glitches, two machine learning approaches are evaluated: tree-based models (Decision Tree, Random Forest and XGBoost) using structured Omicron parameters, and Convolutional Neural Networks (ResNet) trained on spectrogram images. While tree-based models offer higher interpretability and fast training, the ResNet34 model achieved superior performance, reaching a F1 score of 0.9772 and accuracy of 0.9833 in the testing set, with inference times of tens of milliseconds per glitch. The pipeline has been deployed for daily operation at the Virgo site since observing run O4c, providing the Virgo collaboration with an interactive dashboard to monitor glitch populations and detector behavior. This allows to identify low-confidence predictions, highlighting glitches requiring further attention.",
+    "authors": [
+      "Tiago Fernandes",
+      "Francesco Di Renzo",
+      "Antonio Onofre",
+      "Alejandro Torres-Forné",
+      "José A. Font"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM",
+      "cs.LG"
+    ],
+    "submitted_at": "2026-04-15T10:09:24Z",
+    "updated_at": "2026-08-20T18:43:01Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.13687v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.13687v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.13687",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://arxiv.org/abs/2604.13687v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

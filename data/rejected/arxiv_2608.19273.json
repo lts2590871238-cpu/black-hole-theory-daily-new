@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2608.19273",
     "arxiv_id": "2608.19273",
     "arxiv_version": 1,
-    "inspire_id": "3193541",
+    "inspire_id": null,
     "doi": null,
     "title_en": "DSLHyPE-a DSL kernel language for the Exascale Hyperbolic PDE Engine ExaHyPE",
     "abstract_en": "We introduce a bilingual domain-specific language (DSL) for modelling compute kernels within a generic solver for hyperbolic partial differential equations (PDEs). Users express PDE terms, i.e.~the underlying physics, in a familiar native language such as C or C++, while the numerical scheme is specified in a Python-embedded DSL, DSLHyPE. DSLHyPE's compiler lowers the Python description to MLIR and introduces a translation pass that integrates it with native code likewise mapped to MLIR. Our approach keeps the numerical representation and the physics implementation separate for as long as possible, while delegating optimization to the compiler through existing MLIR optimization passes. This separation of concerns benefits researchers developing numerical schemes on top of existing PDE implementations or with applications involving nonlinear systems whose PDE terms must solve PDEs themselves. We demonstrate the feasibility of the approach using a gravitational-wave solver and a matter-evolution solver on x86 processors and H200 GPUs.",
@@ -21,31 +21,23 @@
       "gr-qc",
       "math.NA"
     ],
-    "submitted_at": "2026-08-18T00:00:00Z",
-    "updated_at": "2026-08-22T02:18:10.158260Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-18T18:11:56Z",
+    "updated_at": "2026-08-18T18:11:56Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2608.19273v1",
     "pdf_url": "https://arxiv.org/pdf/2608.19273v1",
-    "inspire_url": "https://inspirehep.net/literature/3193541",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.19273",
-        "fetched_at": "2026-08-23T23:40:52.679463Z",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
         "url": "https://arxiv.org/abs/2608.19273v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3193541",
-        "fetched_at": "2026-08-23T23:40:52.679463Z",
-        "url": "https://inspirehep.net/literature/3193541"
       }
     ],
     "is_demo": false

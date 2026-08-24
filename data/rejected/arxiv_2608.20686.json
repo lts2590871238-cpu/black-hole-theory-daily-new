@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20686",
+    "arxiv_id": "2608.20686",
+    "arxiv_version": null,
+    "inspire_id": "3194683",
+    "doi": null,
+    "title_en": "CDRL: Certification-Driven Reinforcement Learning for Neutrino Flavor Model Discovery",
+    "abstract_en": "Many scientific discovery problems require searching combinatorial hypothesis spaces under complex domain constraints. Reinforcement learning (RL) offers a promising approach, but existing methods rely on scalar rewards that provide limited information about why candidate solutions fail, leading agents to repeatedly explore invalid regions. We introduce Certification-Driven Reinforcement Learning (CDRL), a framework that leverages structured feedback from symbolic reasoning tools. When a candidate violates domain constraints, these tools produce certificates identifying the actions responsible for failure. CDRL converts these certificates into reusable constraints that eliminate classes of invalid solutions and guide exploration toward valid regions. We evaluate CDRL on neutrino flavor model discovery in theoretical particle physics, where the hypothesis space exceeds $10^{26}$ possible models, and compare it with the state-of-the-art RL approach previously used for this task. Across three theory spaces, CDRL achieves up to 1.95$\\times$ higher valid model rates and up to 6.33$\\times$ higher neutrino model rates while evaluating up to 4$\\times$ fewer candidates. We further extract 40 interpretable rules from search trajectories using a post-hoc decision-tree framework and show that reusing them as soft constraints yields gains of up to 2$\\times$ in valid model rates and 3$\\times$ in neutrino model discovery across all three theory spaces. These results suggest that CDRL uncovers reusable structure in combinatorial search spaces and provides a general framework for scientific model discovery.",
+    "authors": [
+      "Jha, Piyush",
+      "Rudolph, Jake",
+      "Knapp-Pérez, Victoria",
+      "Fieg, Max",
+      "Ghosh, Aishik",
+      "Ganesh, Vijay"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-21T00:00:00Z",
+    "updated_at": "2026-08-24T07:08:01.351141Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194683",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194683",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://inspirehep.net/literature/3194683"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

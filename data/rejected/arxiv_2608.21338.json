@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21338",
+    "arxiv_id": "2608.21338",
+    "arxiv_version": null,
+    "inspire_id": "3194642",
+    "doi": null,
+    "title_en": "Efficient Event Generation for High-Multiplicity LHC Processes: An End-to-End GPU Workflow with Normalizing Flows",
+    "abstract_en": "Producing very large unweighted event samples for high-multiplicity processes is limited by expensive matrix-element evaluations and low unweighting efficiencies. We present the first end-to-end GPU-resident event-generation workflow that integrates normalizing-flow proposals with the parton-level event generator Pepper. Helicity-conditioned coupling flows are trained using online updates supplemented by sample replay and deployed across all subprocesses of complete proton--proton collision processes with many final-state jets. In this workflow, a Python-based control layer and Pepper exchange flow-generated phase-space points and the corresponding target-density evaluations directly in device memory. The control layer performs flow sampling, proposal-density evaluation, and unweighting, while Pepper evaluates the matrix elements, PDFs, and phase-space factors defining the target density and writes the accepted events in standard formats. We compare subprocess-specific flows, with one flow per partonic subprocess, to grouped conditional flows that share parameters among subprocesses with related parton content. The workflow is benchmarked for $pp \\to e^+e^- + 4j$, $pp \\to e^+e^- + 5j$, $pp \\to t \\bar t + 4j$, $pp \\to 4j$, and $pp \\to 5j$ production. On four H100 GPUs, we generate $10^9$ unweighted events for each benchmark process. Including the cost of flow training, the workflow achieves end-to-end speedups of up to two orders of magnitude over standalone Pepper event generation and turns a multi-week task into a sub-day computation. It thereby makes billion-event production more practical and offers a pathway to alleviating the Monte Carlo statistics bottleneck in high-multiplicity collider physics.",
+    "authors": [
+      "Bothmann, Enrico",
+      "Isaacson, Joshua",
+      "Krause, Claudius",
+      "López-Zurita, Carla J.",
+      "Spannring, Maximilian",
+      "Wang, Daohan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-21T00:00:00Z",
+    "updated_at": "2026-08-24T02:55:40.425409Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194642",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194642",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://inspirehep.net/literature/3194642"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

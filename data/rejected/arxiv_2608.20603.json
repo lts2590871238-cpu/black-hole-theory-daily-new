@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.20603",
+    "arxiv_id": "2608.20603",
+    "arxiv_version": null,
+    "inspire_id": "3194665",
+    "doi": null,
+    "title_en": "Scaling Behavior of Parameterized Quantum Circuits from a Lie-Algebraic Perspective",
+    "abstract_en": "Understanding how the performance of parameterized quantum circuits scales with available resources is important for characterizing their trainability and effective model capacity. In this study, we numerically investigate data scaling, model scaling, and compute scaling in parameterized quantum circuits and examine Lie-algebraic quantities as alternative measures of model size. In addition to the number of circuit parameters, we consider the dimension of the dynamical Lie algebra, the observable-orbit dimension, and a Jacobian effective dimension defined as the rank of the Jacobian of the parameterized observable orbit. Using a regression task with randomly generated Pauli-string generators, we observe decreasing loss with increasing training dataset size, parameter size, and number of optimization iterations over the ranges investigated. For model scaling, the dynamical Lie algebra and observable orbit dimensions rapidly saturate as the parameter size increases, whereas the Jacobian effective dimension remains strongly correlated with the parameter size and exhibits comparable scaling behavior. These results suggest that the Jacobian effective dimension provides a geometry-aware measure of the locally accessible observable degrees of freedom of finite-depth parameterized quantum circuits and may serve as a useful scaling parameter beyond the nominal parameter size.",
+    "authors": [
+      "Ohno, Hiroshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-20T00:00:00Z",
+    "updated_at": "2026-08-24T07:46:45.955897Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3194665",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3194665",
+        "fetched_at": "2026-08-24T23:41:54.260170Z",
+        "url": "https://inspirehep.net/literature/3194665"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
