@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.22245",
+    "arxiv_id": "2608.22245",
+    "arxiv_version": 1,
+    "inspire_id": "3195275",
+    "doi": null,
+    "title_en": "Variational Bayesian Inference for the Spectral Structure of LISA Noise",
+    "abstract_en": "Estimating spectral density matrices for future space-based gravitational-wave detectors such as LISA is challenging due to the long duration of the data and the correlated instrumental noise across multiple time-delay interferometry channels. In this work, we investigate a specialized mean-field stochastic gradient variational Bayes (SGVB) procedure for fast posterior approximation in long-duration multivariate spectral density estimation. Based on the existing eigenbasis representation of the blocked Whittle likelihood approach, the posterior model applies a Cholesky factorization to represent the inverse spectral density matrix and models the resulting frequency-dependent entries with cosine basis functions, with a discounted regularized horseshoe prior assigned to the basis coefficients. We test mean-field SGVB as a stand-alone posterior approximation by comparing it with Hamiltonian Monte Carlo (HMC) targeting the same posterior model. In simulation studies based on autoregressive and moving average processes, SGVB produces posterior median spectral estimates close to those obtained from HMC at substantially lower computational cost. We then apply the method to two one-year, fixed-delay, stationary, noise-only LISA simulations and show that the SGVB spectral density estimates are consistent with HMC and Welch estimates across the LISA analysis band, while requiring substantially less computation. These results demonstrate that SGVB provides a scalable Bayesian approach to spectral density estimation for long-duration multivariate LISA noise analysis.",
+    "authors": [
+      "Jianan Liu",
+      "Avi Vajpeyi",
+      "Renate Meyer",
+      "Jeung Eun Lee",
+      "Patricio Maturana-Russel"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc",
+      "stat.AP"
+    ],
+    "submitted_at": "2026-08-23T00:00:00Z",
+    "updated_at": "2026-08-25T04:19:52.684597Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.22245v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.22245v1",
+    "inspire_url": "https://inspirehep.net/literature/3195275",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.22245",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2608.22245v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3195275",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195275"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

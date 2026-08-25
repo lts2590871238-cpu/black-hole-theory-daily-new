@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21982",
+    "arxiv_id": "2608.21982",
+    "arxiv_version": null,
+    "inspire_id": "3195272",
+    "doi": null,
+    "title_en": "Down-Type Jet Identification in Fully Hadronic $t\\bar t$ Events",
+    "abstract_en": "Fully hadronic $t\\bar t$ events carry the largest branching fraction and provide the down-type quark as a near-maximal spin analyzer ($β_d\\simeq1$), yet they are rarely used for spin-correlation and entanglement studies because the down-type jets must be extracted from a difficult jet-to-parton reconstruction in the presence of a large QCD multijet background. We develop a two-stage machine-learning reconstruction for this channel: a GNN+Transformer network assigns all reconstructed jets into a legal six-jet top-pair candidate, and a second hybrid classifier resolves the four down/up hypotheses inside the two hadronic $W$ decays. The second stage combines an assignment scorer with an auxiliary conditional diffusion head; we find that the diffusion assignment score can rank hypotheses only when trained with a margin ranking objective, while standard denoising objectives leave it at the random baseline, and the two objectives are largely decoupled. We evaluate the method against a calibrated QCD background and an unmatched $t\\bar t$ component using both reconstruction and spin observables. Compared with a ST1 only benchmark with random down/up labels, the learned ST2 classifier improves both the effective spin-analysis factor and the purity-weighted six-parton exact fraction at fixed event selection. A direct check of the standard spin-correlation coefficient $D$ further gives an ML-reconstructed value compatible with the truth-level value within the resampled spread. These results show that down/up identification can retain useful spin-correlation information in the all-hadronic channel.",
+    "authors": [
+      "Guo, Jinhui",
+      "Peng, Chenhao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-22T00:00:00Z",
+    "updated_at": "2026-08-25T04:19:48.807556Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195272",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195272",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195272"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

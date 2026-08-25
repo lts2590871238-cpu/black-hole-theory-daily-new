@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.26268",
+    "arxiv_id": "2606.26268",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A nonrelativistic radiative transfer module for Idefix",
+    "abstract_en": "Radiation magnetohydrodynamic (RMHD) simulations are essential for comparisons with observations, particularly in the regime where fluids and radiation are dynamically coupled. Although computationally expensive, RMHD is becoming increasingly accessible with the advent of exascale computing. However, only a few public RMHD codes are currently able to fully exploit the diversity of modern accelerated architectures. We present a nonrelativistic radiative transfer module for the public magnetohydrodynamic code IDEFIX; it is built on the Kokkos library to ensure performance portability. Our goal is to provide a user-friendly RMHD code capable of running efficiently on current and future exascale supercomputers. The radiative transfer module is based on the M1 approximation and implemented using a split explicit-implicit scheme. A reduced speed of light approximation is employed to alleviate the timestep constraint imposed by radiation. The module supports several radiation Riemann solvers and Cartesian, cylindrical, and spherical geometries in one, two, and three dimensions. The implicit step relies on a simple matrix inversion, ensuring both robustness and high performance. Users can choose between built-in opacity models or supply tabulated opacities and custom user-defined functions. The radiative module of IDEFIX demonstrates excellent performance on accelerated architectures, including the AMD MI250X and MI300 partitions of the AdAstra supercomputer. On MI250X nodes, it achieves up to $7.\\times 10^8$ cell updates per second per node, at a computational cost only 1.6 times higher than a pure magnetohydrodynamic simulation. These results establish IDEFIX as a fast, robust, and portable RMHD code suitable for the wider community.",
+    "authors": [
+      "Nicolas Scepi",
+      "Geoffroy Lesur"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.EP",
+      "astro-ph.GA",
+      "astro-ph.HE",
+      "astro-ph.SR"
+    ],
+    "submitted_at": "2026-06-24T18:10:32Z",
+    "updated_at": "2026-08-24T14:01:37Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.26268v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.26268v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.26268",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2606.26268v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:f187b34a19411d219b094158",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3195476",
+    "doi": null,
+    "title_en": "Exploration of Real Time Inference for MI-RR Deblending on GPU/TPU Systems",
+    "abstract_en": "The Fermilab Main Injector (MI) and Recycler Ring (RR) share a common beam loss monitor (BLM) system, making loss events difficult to attribute to their source machine when beam is present in both simultaneously. The Real-time Edge AI for Distributed Systems (READS) project addresses this by deblending BLM readings in real time using machine learning (ML). The current FPGA based implementation meets the sub-3 ms latency requirement but carries a resource intensive hls4ml development cycle, motivating exploration of GPU based deployment. This paper characterizes inference latency on an NVIDIA Jetson Orin Nano and introduces a packet organization scheme for assembling synchronized event frames from seven distributed BLM DAQ streams. Using a Python based DAQ simulation with injected timing jitter in place of unavailable live beam data, the pipeline achieved an average end to end latency of 0.456 ms (&#963; = 0.122 ms) across 167,000 test frames, comfortably meeting the timing constraint. Early outliers were attributed to TensorRT warm-up rather than steady state limitations, suggesting GPU based inference is a viable alternative to the existing FPGA implementation.",
+    "authors": [
+      "Yu, Kellen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-25T15:15:47.508281Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195476",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195476",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195476"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

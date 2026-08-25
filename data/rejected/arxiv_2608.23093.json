@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.23093",
+    "arxiv_id": "2608.23093",
+    "arxiv_version": null,
+    "inspire_id": "3195127",
+    "doi": null,
+    "title_en": "Partial-Moment PINNs for Caldeira--Leggett Parameter Learning in Quantum Brownian Motion",
+    "abstract_en": "We study parameter recovery in the Caldeira--Leggett (quantum Brownian) oscillator from partial moment traces. Our model is a moment-level PINN that predicts the five first/second moments and enforces the linear CL/HPZ ODEs by automatic differentiation. Physical structure is imposed through a PSD (Cholesky) covariance head, high-temperature CL assumptions with $D_{xp}\\approx0$, and fluctuation--dissipation ties between $D_{pp}$ and $γ$. On synthetic CL data with channels ${μ_x,σ_{xx},σ_{xp}}$, the constrained variant recovers $(ω,γ)$ accurately, stabilizes $D_{pp}$, and achieves low rollout error compared to finite differences and Kalman--EM (expectation--maximization) with exact Van Loan discretization. Fisher-style checks confirm that diffusion needs at least one variance observable, and sparse $σ_{pp}$``anchors'' restore conditioning. We also show that the same PINN can learn time-varying HPZ coefficients.",
+    "authors": [
+      "Bhatia, Krishna"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-24T00:00:00Z",
+    "updated_at": "2026-08-25T03:15:10.840753Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "2026 International Joint Conference on Neural Networks (IJCNN), IEEE World Congress on Computational Intelligence (WCCI 2026), 2026, publication"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195127",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195127",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195127"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

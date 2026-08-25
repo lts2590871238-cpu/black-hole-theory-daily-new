@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.23127",
+    "arxiv_id": "2608.23127",
+    "arxiv_version": null,
+    "inspire_id": "3195411",
+    "doi": null,
+    "title_en": "Efficient Quantum Simulation of Linearized Vlasov--Poisson Dynamics Using Trotter and THRIFT Hamiltonian Simulation Methods",
+    "abstract_en": "The Vlasov--Poisson system provides the fundamental kinetic description of plasma and plays a central role in understanding collective phenomena such as Landau damping and wave--particle interactions. Efficient numerical simulation of these dynamics remains challenging because of the high dimensionality of phase space. In this work, we studied magnetized and non-magnetized plasma using a quantum simulation framework for the linearized Vlasov-Poisson equation by reformulating the discretized system as a Hermitian Hamiltonian suitable for gate-based quantum computation. The time evolution is implemented using first, second and fourth-order Trotter--Suzuki product formulas and the recently proposed Time-Resolved Interaction Framework (THRIFT). The performance of the different simulation methods is systematically evaluated through electric field evolution, state fidelity, convergence behavior, energy conservation, entanglement entropy and quantum resource requirements, including circuit depth and two-qubit gate complexity, for both magnetized and non-magnetized plasma models. To further reduce finite time step errors without increasing circuit depth, Richardson extrapolation is incorporated as a error-mitigation technique. The results provide a comprehensive comparison of Trotter and THRIFT approaches and establish practical guidelines for accurate and resource-efficient quantum simulation of plasma dynamics on gate-based quantum computers.",
+    "authors": [
+      "Paul, Kartick",
+      "V, Rahul",
+      "Aravinda, S.",
+      "Gangwar, Reetesh K."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-24T00:00:00Z",
+    "updated_at": "2026-08-25T04:25:36.967704Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195411",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195411",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195411"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

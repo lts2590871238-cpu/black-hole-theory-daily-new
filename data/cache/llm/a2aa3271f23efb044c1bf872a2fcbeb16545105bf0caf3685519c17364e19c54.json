@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 20,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 67,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文提出了一种新颖的方法，利用脉冲星闪烁的相位恢复和差分法拉第旋转测量来探测AU尺度电流片中的磁场反转，直接与脉冲星计时阵列的噪声建模相关，并可能影响宇宙射线传播模型。尽管作为概念验证存在局限性，但研究方法和初步结果显示出明显的科学价值。",
+  "title_zh": "利用脉冲星闪烁探测星际介质中天文单位尺度的磁场反转",
+  "abstract_zh": "星际介质中天文单位尺度的结构已成为天体物理学多个领域的研究重点，从ISM微观物理到脉冲星计时阵列和宇宙射线传播。磁场反转处形成的电流片尤其受到关注，因为它们可以使占主导地位的GeV宇宙射线发生大角度偏转。脉冲星闪烁，作为一种出色的等离子体密度探针，能够分辨这些结构——但无法分辨其磁场结构。传统的法拉第旋转测量在AU尺度上仅仅是有微弱敏感性，并且进一步受到电离层系统误差的影响。我们提出了一种方法，通过对偏振数据进行相位恢复，来提取双折射引起的偏振——这是磁场反转的特征。脉冲星闪烁进一步分辨了间隔约1天文单位的射线路径，从而实现差分RM测量，在保留AU尺度磁场信号的同时抑制电离层共模。我们在对PSR B0834+06的一次归档观测上演示了该方法。相位恢复将1毫秒的散射特征在多普勒-延迟空间中分辨为两个分支。在波纹电流片的解释下，这些分支对应采样AU尺度电流片两侧的射线路径。我们在10 MHz带宽上测量到分支间的RM差为$(-9.3\\pm3.2)\\times 10^{-3}\\text{ rad m}^{-2}$，显著性为2.9$σ$。该信号与场反转$|\\Delta\\langle B_\\parallel \\rangle| \\simeq4.4\\pm2.1\\,μ\\rm G$一致，足以维持长寿命的电流片。由于只有六个独立的子带，我们将此作为概念验证而非确定性探测。如果该方法可扩展，其完整实现将能约束宇宙射线输运，并为脉冲星计时阵列中传播引起的噪声模型提供信息。",
+  "keywords_en": [
+    "pulsar scintillation",
+    "magnetic-field reversal",
+    "interstellar medium",
+    "Faraday rotation measure",
+    "phase retrieval"
+  ],
+  "keywords_zh": [
+    "脉冲星闪烁",
+    "磁场反转",
+    "星际介质",
+    "法拉第旋转测量",
+    "相位恢复"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-25T23:45:48.455821Z"
+}

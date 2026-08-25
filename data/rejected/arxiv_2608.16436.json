@@ -3,8 +3,8 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.16436",
     "arxiv_id": "2608.16436",
-    "arxiv_version": 1,
-    "inspire_id": "3191797",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Dynamical spectral functions from bitstring-sampled quantum subspaces: entanglement, not one-body magic, tracks the sampling cost",
     "abstract_en": "Sample-based quantum diagonalization (SQD) and quantum-selected configuration interaction (QSCI) are the electronic-structure methods with most hardware traction, yet their canonical target -- the ground-state energy -- is where classical methods have caught up. We move the target to dynamics and the resource question. From one bitstring-sampling primitive -- computational-basis measurements of a shallow real-time circuit, with no Hadamard or controlled unitaries -- we reconstruct, from sampled subspaces, the single-particle spectral functions $A(ω)$ and $A(k,ω)$ and the neutral-sector dynamical structure factors $S(q,ω)$ and $S^{zz}(q,ω)$, each built classically in the Lehmann representation from its own subspace. The reconstruction matches exact diagonalization on Hubbard chains and, for $A(ω)$, across nineteen molecules (FCI-verified to $<10^{-5}$ Ha), and runs on the IBM Heron processor. Second, we ask which resource controls the cost -- the determinant support $|\\mathcal{S}|$ the sampler must populate. On number-conserving states the fermionic AntiFlatness collapses to one 1-RDM invariant, $\\mathcal{F}_1 = 4\\,\\mathrm{tr}[γ(1-γ)] = 2N_u$. An orbital-rotation (Gaussian) invariant while $|\\mathcal{S}|$ is basis dependent, $\\mathcal{F}_1$ is provably decoupled from the cost; the cost is instead lower-bounded and tracked by the entanglement -- the minimal bond dimension $χ$ (Spearman $ρ= 0.90$). One-body magic is thus a faithful multireference diagnostic but an unreliable cost predictor; any genuine advantage lives in the non-Gaussianity of the higher-body cumulants. We prove moment exactness and a sampling bound polynomial in $|\\mathcal{S}|$, independent of Hilbert-space dimension. Self-consistent configuration recovery improves the subspace under device noise, while a learned generative model does not beat that classical baseline.",
@@ -15,31 +15,23 @@
       "quant-ph",
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-08-17T00:00:00Z",
-    "updated_at": "2026-08-19T04:05:47.586671Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-17T11:35:16Z",
+    "updated_at": "2026-08-22T18:12:46Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.16436v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.16436v1",
-    "inspire_url": "https://inspirehep.net/literature/3191797",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.16436v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.16436v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.16436",
-        "fetched_at": "2026-08-23T23:40:52.679463Z",
-        "url": "https://arxiv.org/abs/2608.16436v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3191797",
-        "fetched_at": "2026-08-23T23:40:52.679463Z",
-        "url": "https://inspirehep.net/literature/3191797"
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2608.16436v2"
       }
     ],
     "is_demo": false

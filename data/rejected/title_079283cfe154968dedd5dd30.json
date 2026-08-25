@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:079283cfe154968dedd5dd30",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3195473",
+    "doi": null,
+    "title_en": "Database Performance Monitoring for DUNE",
+    "abstract_en": "This report presents the research, design, and implementation of improved PostgreSQL monitoring for DUNE Rucio database services using Checkmk. The project began with a request to improve dashboard visibility for database performance metrics, including connection usage, configured connection limits, lock activity, wait behavior, storage trends, query performance, and saturation alerts. The initial implementation focused on the dune_rucio_prod database on the rucio_prod PostgreSQL instance because connection saturation and lock contention are direct reliability risks for database-backed services. Existing Checkmk PostgreSQL monitoring was investigated, and several gaps were identified. Built-in connection monitoring did not clearly separate active, idle, idle-in-transaction, total, and usage-percent metrics, while the built-in lock monitoring simplified PostgreSQL lock modes into shared and exclusive categories. To address these gaps, two DSG-specific Checkmk local checks were created: one for connection-state monitoring and one for lock-state monitoring. These checks supplement the built-in PostgreSQL checks and provide additional performance data for dashboard graphs, service states, and alerts.",
+    "authors": [
+      "Bowers, Elliot"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-25T15:15:26.863282Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195473",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195473",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195473"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

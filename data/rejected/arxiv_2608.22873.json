@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.22873",
+    "arxiv_id": "2608.22873",
+    "arxiv_version": null,
+    "inspire_id": "3195361",
+    "doi": null,
+    "title_en": "Differentiable Parametric Simulation and Reconstruction Models in Parnassus",
+    "abstract_en": "Parnassus is a framework for fast detector simulation and reconstruction, directly mapping truth-level particles onto reconstructed objects. Such models can be built from deep generative networks trained on paired samples, which are fit automatically to a target detector, or from parametric prescriptions of the kind used by Delphes, which are constructed by hand. We remove this asymmetry by making the parametric models fully differentiable so that their parameters can be fit to a target sample by gradient descent. We demonstrate closure by fitting a parametric model to samples from a known configuration of itself, recovering the generating parameters and characterizing the degeneracies among them, and we present a first fit to CMS full simulation. The resulting models are interpretable, inexpensive, and run in the standard Parnassus pipeline which is fully Python based and GPU enabled.",
+    "authors": [
+      "Elabd, Abdelrahman",
+      "Gross, Eilam",
+      "Kobylianskii, Dmitrii",
+      "Li, Runze",
+      "Nachman, Benjamin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-24T00:00:00Z",
+    "updated_at": "2026-08-25T04:23:49.272717Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195361",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195361",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195361"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

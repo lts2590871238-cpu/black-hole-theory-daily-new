@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:3638efebb6d72b5533d13e4c",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3195539",
+    "doi": null,
+    "title_en": "CAPTAN+X Data Converter Integration",
+    "abstract_en": "Fermi National Accelerator Laboratory's CAPTAN (Compact And Programmable daTa Acquisition Node) series provides a flexible hardware platform for data acquisition across a range of experiments and facilities. The latest iteration, CAPTAN+X, is built around a Kintex-7 FPGA supporting four FPGA Mezzanine Card (FMC) connections. As part of a broader laboratory effort to bring facility systems under a Model-Based Systems Engineering (MBSE) framework, CAPTAN+X is one of several systems slated to be incorporated into this modeling environment in the near term. A necessary step toward that goal is incorporating the platform's core functionality, which centers on integration with the LXD31K4 FMC, a data converter module combining dual AD9652 analog-to-digital converters and dual AD9142A digital-to-analog converters. Achieving compatibility required resolving pin-mapping conflicts between the LXD31K4's High Pin Count connector and the CAPTAN+X's available pin types, adapting a Board Support Project originally written for an UltraScale-class evaluation board to the Kintex-7 architecture, replacing incompatible primitives, restructuring clock distribution, and manually configuring chip initialization in place of an unsupported soft-processor-based approach. Functional verification of the ADC and DAC channels, followed by closed-loop testing combining both converters with real-time filtering, confirmed correct operation of the integrated system. These results establish a working hardware and firmware baseline for the CAPTAN+X platform, positioning it for future inclusion in the laboratory's growing MBSE modeling effort.",
+    "authors": [
+      "Espinoza, David"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-25T23:02:09.591032Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195539",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195539",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195539"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

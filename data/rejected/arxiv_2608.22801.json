@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.22801",
+    "arxiv_id": "2608.22801",
+    "arxiv_version": null,
+    "inspire_id": "3195352",
+    "doi": null,
+    "title_en": "An Exactness Barrier for ZX-Calculus Optimization of Synthesized Clifford+T Circuits",
+    "abstract_en": "Gate synthesis and circuit optimization are usually studied separately, and evidence on their interaction is contradictory: ZX-calculus rewriting removes a stable fraction of Solovay-Kitaev circuits, yet almost nothing from number-theoretically synthesized circuits. We show both behaviours follow from a single bound. For any optimizer that preserves the implemented element exactly--including all sound ZX rewriting with extraction--the achievable T-count is bounded below by the denominator exponent of the synthesized ring element. This exactness barrier is computable per instance and separates exact post-processing from approximation-aware resynthesis by a certified factor reaching 101x at recursion depth five. The two behaviours are then the barrier operating at different distances from the floor. For Solovay-Kitaev circuits we prove that the local ZX simplification layer (spider fusion and identity removal) computes exactly the free-product normal form of Z_2 * Z_8, giving exact per-instance compression and, under a calibrated ergodicity hypothesis, a depth-independent limit law confirmed on two independently constructed nets. For number-theoretically synthesized circuits the floor is already saturated: on single-qubit words automated ZX simplification attains it exactly, via a closed-form formula for minimal T-count in terms of phase linkage through the Z-axis normalizer. At two qubits and beyond the same valuation yields unconditional rigidity certificates, which on the quantum-Shannon-decomposition plus gridsynth pipeline certify 99.4-99.9% of the synthesized T-count as incompressible, with rigidity strengthening as accuracy tightens. This explains, and predicts the size of, the near-null optimization recently reported for that pipeline.",
+    "authors": [
+      "Kam, Chon-Fai",
+      "Mahasinghe, Anuradha",
+      "De Silva, Kaushika",
+      "Cadet, Frédéric",
+      "Wang, Jingbo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-24T00:00:00Z",
+    "updated_at": "2026-08-25T04:22:08.752150Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195352",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195352",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195352"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 15,
+    "methodological_rigor": 18,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 68,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文介绍了一种针对LISA随机引力波背景的贝叶斯框架，涵盖噪声建模和信号恢复，具有较强的相关性和方法学价值。",
+  "title_zh": "LISA中随机引力波背景的贝叶斯P样条恢复",
+  "abstract_zh": "随机引力波背景（SGWB）的探测是激光干涉空间天线（LISA）的主要科学目标。然而，提取这些信号是困难的，因为信号和仪器噪声都是随机的并且在毫赫兹频段重叠。在这项工作中，我们提出了一个用于联合估计LISA噪声和SGWB信号的贝叶斯框架。我们的方法使用灵活的log罚样条来模拟LISA仪器噪声，采用粗糙度惩罚以防止过拟合，同时保持计算效率。对于SGWB，我们比较了幂律模型和基于样条的模型，并研究了信号模型和噪声先验的选择如何影响信号恢复和检测。使用模拟的LISA数据，我们发现当信号遵循假设的形状时，幂律模型给出更紧的估计。然而，它无法恢复未由幂律描述的局部光谱特征，导致信号被仪器噪声样条吸收。全样条模型限制较少，成功恢复了此类特征。我们还发现，关于测试质量噪声的较强先验信息有助于减少低频下噪声和SGWB模型之间的简并性，提高信号检测。这些结果反映了一个权衡：当假设的信号形状正确时，增加的模型灵活性降低了灵敏度；而当假设不正确时，则防止了偏差。",
+  "keywords_en": [
+    "gravitational waves",
+    "stochastic background",
+    "LISA",
+    "Bayesian",
+    "splines"
+  ],
+  "keywords_zh": [
+    "引力波",
+    "随机背景",
+    "LISA",
+    "贝叶斯",
+    "样条"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-25T23:46:39.564243Z"
+}

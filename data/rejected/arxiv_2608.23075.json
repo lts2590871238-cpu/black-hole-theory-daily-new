@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.23075",
+    "arxiv_id": "2608.23075",
+    "arxiv_version": 1,
+    "inspire_id": "3195128",
+    "doi": null,
+    "title_en": "When a neural surrogate cannot accelerate a solver: runtime share, closed-loop drift, and the economics of uncertainty gating in a stiff coupled simulation",
+    "abstract_en": "Learned surrogates for expensive inner solver blocks are a widely pursued route to faster multiphysics simulation. We report a controlled, end-to-end negative result and identify three structural barriers, none of them a deficiency of the network we trained. The testbed is the implicit Newton solve coupling energy-dependent neutrino radiation to matter in a general-relativistic radiation-hydrodynamics code, its most expensive physics routine per call. First, per-call cost and share of runtime are different quantities, and only the second bounds acceleration. An exclusive self-time profile puts the target block at 16.9% of critical-rank wall clock, capping any surrogate at ~1.2x by Amdahl's law. A surrogate 5.8x cheaper per call merely ties the solver, and the configuration stable enough to run without fallback reaches only parity. Second, offline accuracy cannot rank surrogates for deployment: across fourteen networks the pooled Spearman error-versus-survival correlation (rho = +0.73) is a between-family confound that vanishes under control (rho = -0.04). Third, a correct out-of-distribution gate cannot accelerate a loop that leaves its training distribution. We give the break-even deferral fraction in closed form: because the visited states sit 73x off the data manifold, the gate defers 96.8 to 99.7% of cells, almost invariant to surrogate quality. Including its own cost, the gated loop is a 0.94 to 0.96x slowdown. We further separate stability from fidelity: a never-crashing gated run accumulates a linear -19.9% density bias over 6000 steps. The error is a directed, ballistically accumulating bias, not the variance-driven divergence the autoregressive literature targets.",
+    "authors": [
+      "L. Thümmler",
+      "T. Kuroda"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE",
+      "cs.LG",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-08-24T00:00:00Z",
+    "updated_at": "2026-08-25T03:15:34.689868Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.23075v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.23075v1",
+    "inspire_url": "https://inspirehep.net/literature/3195128",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.23075",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2608.23075v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3195128",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195128"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

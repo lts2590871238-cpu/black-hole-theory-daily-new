@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2508.02453",
+    "arxiv_id": "2508.02453",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": "10.1051/0004-6361/202556555",
+    "title_en": "Higher-order methods of radiative transfer in simulations of the epoch of reionisation: Pn versus M1",
+    "abstract_en": "In current cosmological simulations, the radiative transfer modules generally rely on the M1 approximation, which has some glaring flaws related to its fluid-like behaviour, such as spurious pseudo-sources and loss of directionality when radiation fronts from different directions collide. Pn, another moment-based model used in other fields of physics, may correct these issues. We aim at testing out Pn in an astrophysical setting and compare it to M1, in order to see if it can indeed correct M1's flaws. Also, we want to use Pn's solutions to better pinpoint M1 errors. We implement a Pn radiation transport method and couple it to a photo-thermo-chemistry module to account for the interaction of ionising radiation with the Hydrogen gas, and benchmark it using tests for radiative transfer models comparison in astrophysics as defined in arXiv:astro-ph/0603199. We find that high order P_n (e.g. P9) indeed correct M1's flaws, while faring as well or even better in some aspects in the tests, in particular when directionality is important or colliding radiation fronts occur. By comparing P9 and M1 radiation fields in an idealised and cosmological test case, we highlight a new, thus far unreported artefact of M_1, the 'dark sombrero'. A dark sombrero appears as a spherical photon-deficit shell around the source. The photon density in dark sombreros can be underestimated by a factor up to 2-3. They occur in regions where a source's radiation field connects with that of another source or group of sources. These basic properties (position and amplitude) of the dark sombreros may depend on the sources' relative intensities, positions, spatial resolution, although we have not been able to test this in detail in this study.",
+    "authors": [
+      "Mei Palanque",
+      "Pierre Ocvirk",
+      "Emmanuel Franck",
+      "Pierre Gerhard",
+      "Dominique Aubert",
+      "Olivier Marchal"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-08-04T14:17:31Z",
+    "updated_at": "2026-08-24T07:44:00Z",
+    "document_types": [],
+    "journal_ref": "A&A, 712, A186 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2508.02453v3",
+    "pdf_url": "https://arxiv.org/pdf/2508.02453v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2508.02453",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2508.02453v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

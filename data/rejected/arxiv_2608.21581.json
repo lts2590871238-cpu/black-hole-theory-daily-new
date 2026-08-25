@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21581",
+    "arxiv_id": "2608.21581",
+    "arxiv_version": null,
+    "inspire_id": "3195211",
+    "doi": null,
+    "title_en": "Reconstructing High-Fidelity Light Yield Maps for Surface LArTPCs Using Crossing Cosmic Muons",
+    "abstract_en": "Photon detection systems in liquid argon time projection chambers provide prompt scintillation light information that can improve triggering, timing, calorimetry, and interaction reconstruction. These applications require an understanding of the spatial dependence of the detected light yield (LY), which is not adequately described by a single detector-wide average. We present a method for reconstructing voxelized 3D light yield maps in surface LArTPCs using crossing cosmic muons. For each selected muon, the path length through every crossed voxel is converted to deposited energy using a minimum ionizing particle approximation, producing a linear system relating the unknown voxel light yields to the total detected photon signal. The resulting inverse problem is solved using nonnegative least squares, with an additional $L_2$ smoothness penalty used to stabilize weakly constrained voxel values. The method is studied in simulation using the ProtoDUNE-VD detector geometry and photon detection system. Reconstructed maps recover the dominant spatial structure of a visibility-based truth reference and respond as expected to changes in the photon detector configuration. Smoothness regularization reduces zero-valued voxels and localized fluctuations while leaving the detector-average light yield approximately unchanged at the selected regularization strengths. The voxel-wise RMSE relative to the truth reference is reduced by approximately 44% for the regularized reconstruction.",
+    "authors": [
+      "Heindel, Alex",
+      "Shi, Wei",
+      "Ralaikoto, Angelo",
+      "Zhang, Shuaixiang",
+      "Paulucci, Laura",
+      "Marinho, Franciole",
+      "Sampaio, Maressa Pimenta",
+      "Jain, Sanskar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-21T00:00:00Z",
+    "updated_at": "2026-08-25T04:17:47.602008Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195211",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195211",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195211"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

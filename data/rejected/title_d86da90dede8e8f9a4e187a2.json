@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:d86da90dede8e8f9a4e187a2",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3195552",
+    "doi": null,
+    "title_en": "Toward the Neutrino Discovery Platform: An Auditable, Uncertainty-Bearing Toolchain for MINERvA Open-Data Cross-Section Analysis",
+    "abstract_en": "The Neutrino Discovery Platform (NDP) aims to accelerate DUNE-era science by making the neutrino program's existing datasets analyzable through fast, reproducible, and auditable workflows. We report a working version of two of its layers, data curation and agentic orchestration, built and tested end to end on MINERvA open data. The guiding lesson throughout is that a cross section is a measurement, and not just a plotted shape, only if it carries a defensible systematic-uncertainty budget, a trustworthy unfolding, and a reproducible record. Using a single medium-energy playlist pair from the MINERvA open-data release (about $2.05\\times10^{17}$ protons on target of data), we first reproduced the shapes of two published charged-current inclusive $\\nu_\\mu$ measurements through a complete extraction ladder: selection, background subtraction, D'Agostini unfolding, efficiency correction, and flux normalization. These shape-level reproductions ran and tracked the published results, but they lacked the systematic-uncertainty machinery that defines a MINERvA cross section. To supply it, we vendored and built the MINERvA Analysis Toolkit and developed a many-universe systematic-uncertainty tool that produces a portable covariance artifact, a parallel event-loop runner, and a per-run auditability harness. Validated against a published covariance release, the toolchain reproduces the released statistical, flux, and muon-energy-scale terms and shows that they account for roughly 63\\% of the total variance, with the remainder unreleased. Using this same infrastructure, we then performed a measurement of our own design, the hadronic recoil-energy distribution of low-energy ($E_\\nu<2.5$~GeV) charged-current inclusive events, and found data/simulation shape agreement of $\\chi^2/\\mathrm{ndf}=1.26$. Together these results show that the platform supports original physics and not only reproductions.",
+    "authors": [
+      "Breaux, Auto"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-25T23:19:20.926845Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195552",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195552",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195552"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

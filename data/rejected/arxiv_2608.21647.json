@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21647",
+    "arxiv_id": "2608.21647",
+    "arxiv_version": null,
+    "inspire_id": "3195209",
+    "doi": null,
+    "title_en": "Measurement and reload costs in direct quantum simulation of nonlinear waves",
+    "abstract_en": "Quantum processors encode an N-point field in log_2(N) qubits, which renders nonlinear wave equations an important application for quantum simulation. Nonlinear evolution, however, requires the field values themselves, and these are not directly accessible without quantum measurement. Existing algorithms circumvent this measurement through linear embeddings and state copies, thereby obscuring its cost within the truncation order, the auxiliary dimensions, and the state preparation. In order to expose this cost, a hybrid split-step solver is proposed in which the field is measured, updated classically, and reloaded at every step, with all shots and gates accounted for in a single cost-and-error model. Since the entire field is available at every step, a property unavailable to linear approximations in strongly nonlinear regimes, the design of the solver reduces to a budgeting problem over the timestep, the polynomial degree, and the shot count. The coherent kernels of the solver are validated on superconducting hardware. An identical structure and bottleneck govern the viscous Burgers' equation in one and two dimensions. Because every step reads the full field, the quantum cost per step, measured as circuit depth multiplied by measurement shots, exceeds the classical cost with increasing grid size. The framework consequently identifies a coherent, measurement-free nonlinear update as the quantitative target that any end-to-end advantage must meet.",
+    "authors": [
+      "Guo, Ziqing",
+      "Dsouza, Viraj",
+      "Khan, Alex",
+      "Chopra, Abhishek",
+      "Lineswala, Rut",
+      "Pan, Ziwen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-21T00:00:00Z",
+    "updated_at": "2026-08-25T04:17:26.366268Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195209",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195209",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195209"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.14197",
+    "arxiv_id": "2606.14197",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Licence to Bin: Accurate and Scalable Inference for Binary Neutron Stars in Next-Generation Gravitational-Wave Detectors",
+    "abstract_en": "Next-generation gravitational-wave observatories will observe binary neutron-star mergers with much higher signal-to-noise ratios, over much longer durations and across broader frequency bands than current detectors. These long-duration signals present a major computational challenge for Bayesian parameter estimation. Reduced-order quadrature is a promising approach for accelerating inference, but in this regime its standard construction encounters severe memory and accuracy limitations. We present a practical reduced-order quadrature construction for long binary neutron-star signals with time-dependent detector response and full effects of the observatories' free-spectral range. Our approach combines improved adaptive frequency sampling, disk-backed streaming, and subbanded reduced-order quadrature construction, enabling efficient and accurate reduced-order models for signals that were previously intractable. We demonstrate for the first time reduced-order Bayesian inference on an approximately 2 h binary neutron-star signal extending down to 5 Hz and with signal-to-noise ratio 2090. We show the resulting reduced-order quadrature remains sufficiently accurate for practical inference. The full analysis is carried out in about 48 h using 128 CPU cores. We also find that, when time-dependent detector-response effects are included, a single Cosmic Explorer detector can localize such a signal to a 90% credible sky area of approximately $41~\\mathrm{deg}^2$, with important implications for multimessenger astronomy and cosmology. These results demonstrate that reduced-order methods can make next-generation binary neutron-star inference computationally feasible.",
+    "authors": [
+      "Nir Guttman",
+      "A. Makai Baker",
+      "Paul D. Lasky",
+      "Eric Thrane"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-06-12T07:30:42Z",
+    "updated_at": "2026-08-24T00:43:35Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.14197v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.14197v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.14197",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2606.14197v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

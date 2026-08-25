@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2507.03074",
+    "arxiv_id": "2507.03074",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Differentiable Halo Mass Prediction and the Cosmology-Dependence of Halo Mass Functions",
+    "abstract_en": "Modern cosmological inference increasingly relies on differentiable models to enable efficient, gradient-based parameter estimation and uncertainty quantification. Here, we present a novel approach for predicting the abundance of dark matter haloes and their cosmology dependence using a differentiable, field-level neural network (NN) model, and study how well the cosmology dependence is captured by common parametrisations of the halo mass function (HMF), and by our NN-based approach. By training a 3D U-Net on initial density fields from fast N-body simulations with varying cosmological parameters, we enable direct, differentiable mapping from the linear density field to protohalo patches and their mass bins. Our method achieves competitive accuracy in identifying protohalo regions and in capturing the dependence of the HMF on cosmological parameters. Our NN derivatives agree well with finite differences of both analytical and emulated HMFs, at the level of the disagreement among the different models. We further demonstrate how the NN model can additionally be used to investigate the response of the HMF to changes in the initial Gaussian random field. Finally, we also demonstrate that a differentiable model can be used to extrapolate existing models at very high precision.",
+    "authors": [
+      "Jim Buisman",
+      "Florian List",
+      "Oliver Hahn"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2025-07-03T18:00:02Z",
+    "updated_at": "2026-08-23T17:05:49Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2507.03074v2",
+    "pdf_url": "https://arxiv.org/pdf/2507.03074v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2507.03074",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://arxiv.org/abs/2507.03074v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

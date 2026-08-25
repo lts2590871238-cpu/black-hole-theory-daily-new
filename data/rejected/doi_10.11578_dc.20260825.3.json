@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.11578/dc.20260825.3",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3195505",
+    "doi": "10.11578/dc.20260825.3",
+    "title_en": "rust-pubsub-lib",
+    "abstract_en": "rust-pubsub-lib is a Rust library that provides an abstraction in front of some publish/subscribe resource. Consumers of the library provide the URL of the resource they want to interact with; this library simply abstracts the details of how an application connects to that resource. This limits the number of places an application must specify details about the kind of pub/sub resource being utilized. If the resource needs to be changed at any point, the number of code changes necessary is therefore reduced. In essence, this library facilitates relatively painless transitions from using something like Kafka to something like Redis, as the application does not need to implement the resource-specific connection logic. Instead, that logic is hidden inside the pubsub library, with applications only specifying at build time which \"flavor\" of resource they care about. The resource-specific connection code is then automatically provided.",
+    "authors": [
+      "Curley, Jacob Russell"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-25T17:03:11.933144Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195505",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195505",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195505"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

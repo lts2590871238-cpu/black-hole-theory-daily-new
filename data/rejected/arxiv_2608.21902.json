@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21902",
+    "arxiv_id": "2608.21902",
+    "arxiv_version": null,
+    "inspire_id": "3195253",
+    "doi": null,
+    "title_en": "Belief Propagation-based Disentanglers for Tensor Network State Preparation",
+    "abstract_en": "We develop a quantum circuit synthesis method for preparing a class of tensor network states. The scheme applies to states tractable with belief propagation (BP), a tensor network gauging scheme which recently allowed for classical simulations at large scales. The problem is reduced to independent, strictly local, classical variational optimizations: each nearest-neighbor two-qubit \"disentangler\" gate minimizes the entropy defined on an edge. Disentanglers drive the state to a product state and their Hermitian conjugate prepares the target. Each disentangling layer has depth at most $z+1$ (with $z$ the maximal number of nearest neighbors per site), the optimization has no barren plateaus, and the bond dimension stays bounded. As a demonstration, with only $3$-$5$ disentangling layers we prepare a $102$-qubit tree tensor network encoding a $17$-dimensional normal distribution and the transverse-field Ising model ground states on a $64$- to $127$-qubit heavy-hex lattice with fidelities of order $0.9-0.999$. The method opens new possibilities for quantum applications by transferring classical tensor network states onto hardware.",
+    "authors": [
+      "Szołdra, Tomasz",
+      "Schmelcher, Peter"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-22T00:00:00Z",
+    "updated_at": "2026-08-25T04:19:17.236765Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195253",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195253",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195253"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

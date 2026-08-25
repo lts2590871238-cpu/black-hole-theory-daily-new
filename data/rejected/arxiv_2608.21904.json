@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.21904",
+    "arxiv_id": "2608.21904",
+    "arxiv_version": null,
+    "inspire_id": "3195119",
+    "doi": null,
+    "title_en": "How Far Can You Do Nothing On a Quantum Computer?",
+    "abstract_en": "We present a route-resolved comparative assessment of Rigetti's Cepheus-1-108Q and IBM Heron-r2 processors using the established 'do-nothing' state-transfer protocol. Rather than proposing a new protocol, we use this deterministic, low-complexity task as a high-resolution spatial probe. For each evaluated initial qubit, we report two complementary quantities: the largest tested radius within which every evaluated shortest route satisfies the operational success rule, and the longest successful route identified within the evaluated route family. To achieve this, we address a deceptively simple yet foundational question: ``How far can you do-nothing on a quantum computer?'' Operationally, this do-nothing protocol serves as a fundamental state transfer protocol: we prepare an initial quantum state, route it across the physical qubits using SWAP gates, and measure the final state fidelity against the well-established classical fidelity limit for single-qubit state transfer. While this trivial state-transfer protocol serves as the most intuitive baseline, actively preserving a quantum state across a physical lattice proves to be a non-trivial task that exposes the information to cumulative relaxation, dephasing, and environmental cross-talk. In the highlighted IBM QPU case, we identify an isotropic radius of 10 and a successful path of swap distance 27, whereas the highlighted Rigetti Cepheus case exhibits an isotropic radius of 1 but selected above-threshold routes reaching swap distance 8. These results reveal a sharp distinction between uniform spatial reliability and best-route performance. The presented quantities are empirical and conditional on the evaluated route families, finite-shot decision rule, calibration state, and execution time; they are not architecture-wide constants.",
+    "authors": [
+      "Mayo, Nitay",
+      "Mor, Tal",
+      "Zabokritskiy, Aryeh Lev"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-22T00:00:00Z",
+    "updated_at": "2026-08-25T02:57:53.154668Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195119",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195119",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195119"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

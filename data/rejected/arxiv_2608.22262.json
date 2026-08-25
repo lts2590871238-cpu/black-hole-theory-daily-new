@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.22262",
+    "arxiv_id": "2608.22262",
+    "arxiv_version": null,
+    "inspire_id": "3195281",
+    "doi": null,
+    "title_en": "Scouting Super Resolution: from HLT-Level Reconstruction to Offline-like Quality",
+    "abstract_en": "Data scouting, introduced by the CMS collaboration in 2011, is a technique to extend the reach of the experiment beyond what full-event storage bandwidth allows: rather than the complete event record, only the physics objects already reconstructed by the High-Level Trigger (HLT) are persisted, which makes it affordable to record O(10) times more data than the standard physics stream. The price for this rate increase is in experimental resolution: online reconstruction has typically a lower resolution and a worse response, mostly due to shortcuts taken to speed up the reconstruction and to the use of suboptimal calibration constants. For this reason, scouting data has mostly been used when the resolution loss is negligible in absolute terms (muons) or with respect to the offline resolution (jets). In any case, the need to derive specific online-to-offline corrections has been a limiting factor. We show that a regression trained on a given object and the surrounding particle cloud can bring the gap between online and offline resolution within the typical uncertainty band of the offline data. This procedure could be applied to the scouting monitoring stream, the subset of scouting data also reconstructed offline. We demonstrate this on CMS Run-1 Open Data, reprocessed through paired HLT and offline passes over the same events. One architecture, applied unchanged to electrons and jets, suppresses residual biases by one to two orders of magnitude on various quantities (kinematics, isolation, energy composition) and achieves a resolution improvement. Measured differentially in p_T, the corrected objects fall inside the offline calibration uncertainties CMS quotes for this dataset, where the uncorrected HLT objects lie outside them: a corrected object can be treated with the standard, centrally provided calibration, bringing scouting data much closer to offline data for practical purposes.",
+    "authors": [
+      "Pierini, Maurizio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-23T00:00:00Z",
+    "updated_at": "2026-08-25T10:30:04.982485Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195281",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195281",
+        "fetched_at": "2026-08-25T23:44:23.764970Z",
+        "url": "https://inspirehep.net/literature/3195281"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
