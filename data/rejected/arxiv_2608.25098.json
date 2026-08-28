@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.25098",
+    "arxiv_id": "2608.25098",
+    "arxiv_version": null,
+    "inspire_id": "3196400",
+    "doi": null,
+    "title_en": "Parallelizable Gradient-Based Optimization For Multi-Objective MaxCut",
+    "abstract_en": "Multi-objective combinatorial optimization arises in a wide range of problems and applications, including the canonical multi-objective MaxCut problem. Differentiable single-instance quadratic methods have recently achieved remarkable performance in single-objective combinatorial optimization. In this paper, we develop a differentiable framework for multi-objective MaxCut by combining an adjacency-based quadratic formulation with linear scalarization, thereby reducing the problem to a preference-conditioned single-objective signed-weight MaxCut problem. Theoretically, we characterize the stationary points of the resulting signed-weight formulation and show how they induce preference-conditioned fixed points on the Pareto front. Computationally, unlike conventional heuristics and branch-and-bound methods, our approach is GPU-parallelizable and can therefore benefit from substantial performance speedups. We term our algorithm Multi-objective QUadratic Combinatorial Optimization (MO-QUCO) and its parallelized variant pMO-QUCO. Empirically, across different multi-layered (and weight distributions) graphs, we show that both our CPU-only and GPU-based algorithms outperform SOTA exact and heuristic methods in terms of wall-clock runtime and objective quality. Despite operating under different computational settings, MO-QUCO also outperforms the SOTA quantum method.",
+    "authors": [
+      "Huang, Jingjuan",
+      "Velasquez, Alvaro",
+      "Liu, Jia",
+      "Alkhouri, Ismail"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-28T02:24:52.191980Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196400",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196400",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196400"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

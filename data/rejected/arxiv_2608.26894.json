@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26894",
+    "arxiv_id": "2608.26894",
+    "arxiv_version": null,
+    "inspire_id": "3196722",
+    "doi": null,
+    "title_en": "Correcting Connectivity in Arc-Based QUBO Models for Fixed-Fleet Vehicle Routing",
+    "abstract_en": "We revisit a degree-only arc Hamiltonian for fixed-fleet, homogeneous, uncapacitated vehicle routing. Because its local penalties define only a cycle cover, ground states may contain customer cycles disconnected from the depot. We construct a polynomial-size quadratic unconstrained binary optimization (QUBO) repair using capped single-commodity flow and prove that every ground-state routing is connected and cost-optimal under explicit penalty assumptions. For $N-1$ customers and $K$ nonempty routes, the unreduced encoding uses exactly $|E|(1+\\lceil\\log_2(N-K+1)\\rceil)$ logical problem qubits. A reversible compute--phase--uncompute realization evaluates the flow penalties in $O(N^2\\log N+N\\log^2N)$ logical gates on a complete graph with $O(\\log N)$ reusable workspace and no product register. On complete loopless graphs, a depot-delimited single-sequence position encoding uses fewer problem qubits and fewer written terms when the flow-word length grows. Conversely, the flow model achieves a smaller structured logical-gate upper bound under a common reversible accounting model. Exact audits of the Hamiltonian and circuit implementation, combined with a $1{,}200$-matrix classical benchmark, verify the formulation and quantify the connectivity gap. Finally, a 32,000-shot Amazon Braket task on IQM Emerald characterizes depth-one termwise Ising circuits on a diagnostic $N = 4,\\, K = 1$ counterexample instance. In the degree-only circuit, $78.05\\%$ of selected $p=1$ shots realize the invalid disconnected ground state; the reduced 14-qubit flow-augmented circuit yields no fully feasible sample. These device results characterize mapped Hamiltonians and compilation rather than an asymptotic routing solution advantage.",
+    "authors": [
+      "Gurevich, Omer",
+      "Matityahu, Maor",
+      "Mor, Tal",
+      "Zabokritskiy, Aryeh Lev"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-28T03:06:22.906963Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196722",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196722",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196722"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.27306",
+    "arxiv_id": "2608.27306",
+    "arxiv_version": null,
+    "inspire_id": "3196917",
+    "doi": null,
+    "title_en": "Accelerating Optical Photon Simulation in DUNE with Opticks",
+    "abstract_en": "Optical photon simulation is among the most computationally demanding tasks in complex and large detector geometries. In the Deep Underground Neutrino Experiment (DUNE), the scale of the far-detector modules makes photon-by-photon transport with \\texttt{GEANT4} prohibitively expensive on CPUs. We present the first implementation and performance evaluation of GPU-accelerated optical photon simulation at the 10~kt scale, based on \\texttt{Opticks} and applied to the DUNE far-detector horizontal-drift (FD-HD) geometry. On the full FD-HD geometry, \\texttt{Opticks} propagates the same photons as \\texttt{GEANT4} with a speedup of $313 \\pm 3$ over single-threaded and $83 \\pm 1$ over four-thread \\texttt{GEANT4}, and is validated against the reference \\texttt{GEANT4} simulation across all metrics considered. We further integrate \\texttt{Opticks} into the \\texttt{LArSoft}-based DUNE software stack. Photons simulated on the GPU with \\texttt{GEANT4}-equivalent physics retain full Monte Carlo fidelity at a computational cost that makes high-statistics optical studies and the generation of labeled datasets for machine learning feasible at the kiloton scale.",
+    "authors": [
+      "Parmaksiz, Ilker",
+      "Higuera, Aaron",
+      "Paulucci, Laura",
+      "Pec, Viktor",
+      "Forino, Estanislao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-28T04:15:41.042417Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196917",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196917",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196917"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

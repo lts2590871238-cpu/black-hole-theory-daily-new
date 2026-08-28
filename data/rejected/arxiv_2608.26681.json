@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26681",
+    "arxiv_id": "2608.26681",
+    "arxiv_version": 1,
+    "inspire_id": "3196840",
+    "doi": null,
+    "title_en": "ANRe-M1: a GPU-accelerated numerical relativity code with multi-energy M1 neutrino transport",
+    "abstract_en": "We present ANRe-M1 (Accelerated Numerical Relativity code with multi-energy M1 neutrino transport), a performance-portable, GPU-accelerated code for multidimensional core-collapse supernova simulations in full general relativity. ANRe-M1 builds on our original CPU-based Fortran framework and is implemented in C++ using Kokkos. It retains the underlying general-relativistic neutrino-radiation-hydrodynamics algorithms while redesigning the data layout, parallel decomposition, and memory-access patterns for accelerator-resident execution. The spacetime sector employs the BSSN--Z4c formulation and is coupled to relativistic hydrodynamics and energy-dependent M1 neutrino transport. We validate the implementation through a suite of hydrodynamic, radiation-transport, and dynamical-spacetime tests, together with comparisons to results from an earlier code-comparison study. We further demonstrate its applicability with a representative three-dimensional stellar-collapse computation including multi-energy neutrino transport. For the benchmark and computing systems considered here, ANRe-M1 runs approximately an order of magnitude faster on a cluster of AMD MI300A accelerated processing units than the Fortran version on a CPU cluster. When the allocation is increased from 2 to 128 MI300A APUs, the aggregate throughput rises by a factor of 39.7, corresponding to a weak-scaling efficiency of 62 per cent relative to the two-APU case. These results establish ANRe-M1 as an efficient and portable framework for long-term, multidimensional supernova simulations on current and forthcoming accelerator-based supercomputers.",
+    "authors": [
+      "Takami Kuroda",
+      "Masaru Shibata"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-28T06:50:29.034282Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.26681v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26681v1",
+    "inspire_url": "https://inspirehep.net/literature/3196840",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.26681",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://arxiv.org/abs/2608.26681v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3196840",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196840"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.25896",
+    "arxiv_id": "2608.25896",
+    "arxiv_version": null,
+    "inspire_id": "3196303",
+    "doi": null,
+    "title_en": "Distributed Trotterization with optimal time-scaling entanglement cost",
+    "abstract_en": "Distributed architectures extend quantum simulation of many-body dynamics beyond the reach of any single processor, with shared entanglement mediating interactions between spatially separated devices. Conventional implementations rely on quantum teleportation, which provides a universal realization of nonlocal operations but incurs a fixed entanglement cost per gate, irrespective of its strength. This becomes increasingly inefficient in product formula simulation, where higher accuracy requires ever more numerous, yet progressively weaker, nonlocal rotations, causing the entanglement cost to diverge in the high-accuracy limit. Here we introduce a simple repeat-until-success protocol that makes entanglement consumption adaptive to interaction strength. Incorporating this primitive into distributed product formulas yields a total entanglement cost that scales linearly with evolution time and remains independent of Trotter error. A matching lower bound from quantum communication complexity proves this time scaling to be optimal, establishing a resource-efficient foundation for high-accuracy quantum simulation across networked processors.",
+    "authors": [
+      "Feng, Tianfeng",
+      "Sun, Jinzhao",
+      "Xiao, Yunlong",
+      "Zhao, Qi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-26T00:00:00Z",
+    "updated_at": "2026-08-28T03:59:38.114751Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196303",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196303",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196303"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

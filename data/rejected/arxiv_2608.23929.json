@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.23929",
+    "arxiv_id": "2608.23929",
+    "arxiv_version": null,
+    "inspire_id": "3195563",
+    "doi": null,
+    "title_en": "Quantum Algorithms and Hardness for Point-Count Approximation over Finite Fields",
+    "abstract_en": "We study the approximation of the number of solutions of Laurent polynomials over finite fields. For a Laurent polynomial \n\\[f(x)=\\sum_{j=1}^{s}a_jx^{u_j}\\in \\mathbb{F}_q[x_1^{\\pm1},\\ldots,x_n^{\\pm1}], \\]\n let $U$ be its augmented support matrix whose columns are $(1,u_j)$ with rank $ρ$ and $N(f) := \\# \\{x\\in (\\mathbb{F}_q^\\times)^n \\mid f(x)=0\\}$ be its torus point count. Our first main result is a quantum algorithm that outputs $\\widehat{N}(f)$ satisfying \n\\[ |\\widehat{N}(f) - N(f)| \\le \\varepsilon q^{n+s/2-ρ} \\]\n with success probability $1-δ$. Provided that $ρ$ and $\\|U\\|_\\infty$ are bounded, the algorithm runs in both classical bit and quantum gate complexity $\\mathrm{poly}(n, s, \\log q, 1/\\varepsilon, \\log(1/δ))$. It provides finer resolution than relative-error approximations in general settings. To the best of our knowledge, in the explicit finite-field input model considered here, no previous algorithm achieves this additive accuracy with running time polynomial in $\\log q$. Van Dam (arXiv:quant-ph/0405081) conjectured the existence of such an algorithm under the assumption of an oracle reflecting the algebraic properties of the polynomial. In contrast, by exploiting a point-counting formula derived from character sums over finite fields, we develop an alternative approach that efficiently approximates the number of points without assuming the existence of such an oracle. As a second main result, we prove that the same approximation problem becomes $\\#$P-hard under randomized polynomial-time Turing reductions when the support matrix $U$ varies freely as part of the input. Thus, taken together, our results clarify how the effectiveness of the quantum approach depends on the tradeoff between the accuracy scale and the support parameters of the input polynomial.",
+    "authors": [
+      "Maeda, Yota",
+      "Yano, Hiroshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-27T02:22:19.344781Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195563",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195563",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3195563"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

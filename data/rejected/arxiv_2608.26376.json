@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26376",
+    "arxiv_id": "2608.26376",
+    "arxiv_version": null,
+    "inspire_id": "3196798",
+    "doi": null,
+    "title_en": "Efficient binned profile likelihood minimization for precision measurements with RABBIT",
+    "abstract_en": "Precision measurements at the LHC increasingly rely on binned profile maximum likelihood fits with thousands of bins and nuisance parameters, and the High-Luminosity LHC will push these numbers further. Fast and robust minimization of such likelihoods is crucial for timely analysis development and accurate inference. We present Rabbit (Rapid Automatic Bin-Based Inference Tool), a Python framework that exploits differentiable programming in TensorFlow 2 to perform this task on CPUs and GPUs. Automatic differentiation provides exact gradients and Hessian-vector products for a trust-region minimizer operating in Krylov subspaces, and just-intime compilation yields near-C++ execution speed. Rabbit implements flexible statistical models with analytic treatments where possible, supports symmetrization options that establish Gaussian approximations and a linearized likelihood formulation with deterministic solutions, and focuses on measuring physical observables through differentiable transformations of the model, including unfolded differential cross sections. Benchmarks on synthetic models demonstrate excellent scaling with the number of bins and parameters, outperforming established tools in challenging regimes where these fail to converge within reasonable time.",
+    "authors": [
+      "Walter, David",
+      "Bendavid, Josh",
+      "Long, Kenneth"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-26T00:00:00Z",
+    "updated_at": "2026-08-28T04:10:49.947781Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196798",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196798",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196798"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.24806",
+    "arxiv_id": "2608.24806",
+    "arxiv_version": null,
+    "inspire_id": "3195577",
+    "doi": null,
+    "title_en": "Effects of Quantum Noise and Source Blurring on Dark-Field Signal Retrieval in X-ray Speckle-Based Imaging",
+    "abstract_en": "X-ray speckle-based dark-field imaging offers high sensitivity to sub-pixel structural features, yet its quantitative reliability in clinical and preclinical settings remains constrained by low photon flux and finite focal spot sizes. However, how hardware-induced noise and source blurring propagate through retrieval algorithms to degrade signal integrity is not fully understood. Here, we systematically evaluate algorithm robustness quantified by signal linearity, sensitivity, and bias under photon starvation and source blurring across two mathematically distinct frameworks: differential-based intrinsic tracking (Low-Coherence System, LCS) and patch-wise explicit tracking (X-ray Speckle-Tracking Speckle-Vector-Tracking, XST-XSVT). Our experimental results demonstrate that input speckle pattern distortions propagate through retrieval algorithms in fundamentally different ways depending on algorithm architecture. As an example, using our setup, under severe photon starvation, derivative noise amplification in LCS causes its dark-field signal linearity and sensitivity to drop precipitously, while sharply elevating baseline bias. In contrast, XST-XSVT restricts these losses for sensitivity while maintaining a stable baseline, as its patch-wise variance calculation inherently suppresses stochastic noise. Similarly, under blur-limited conditions , source blurring washes out the speckle pattern, directly reducing dark-field sensitivity for both LCS and XST-XSVT. This characterization establishes operational boundaries for low-power and low-coherence X-ray systems, guiding algorithm selection and framework optimization to realize quantitative dark-field imaging in preclinical and clinical applications.",
+    "authors": [
+      "Lee, Hunwoo",
+      "Yuan, Jingcheng",
+      "Das, Mini"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-27T03:17:09.813027Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195577",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195577",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3195577"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

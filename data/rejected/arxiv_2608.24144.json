@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.24144",
+    "arxiv_id": "2608.24144",
+    "arxiv_version": null,
+    "inspire_id": "3195564",
+    "doi": null,
+    "title_en": "StabQ: Quantum Program Analysis via Weighted Stabilizer Representations",
+    "abstract_en": "Quantum program analysis remains challenging due to the exponentially large state space of quantum programs and the difficulty of precisely characterizing their execution behavior. In particular, non-Clifford operations introduce additional complexity that limits the applicability of stabilizer-based techniques. Although stabilizer representations provide compact descriptions for Clifford circuits, their limited expressiveness prevents them from directly supporting general quantum program analysis. In this work, we propose StabQ, a symbolic execution framework for quantum program analysis based on stabilizer representations. StabQ extends stabilizer-based symbolic execution beyond Clifford-only programs by introducing a symbolic state representation that captures and propagates quantum state evolution while preserving execution semantics. Based on this representation, StabQ constructs a Tableau Chain that represents the evolution of intermediate symbolic states throughout program execution and enables reusable analysis of quantum program executions. Furthermore, StabQ incorporates tableau consolidation and global-phase recovery mechanisms to mitigate symbolic state growth during execution. Building upon the Tableau Chain, StabQ supports multiple quantum program analysis tasks, including quantum state reconstruction, entanglement analysis, and Clifford-property detection. We evaluate StabQ on three benchmark suites---Algorithms, MQT Bench, and QASMBench. The results demonstrate that StabQ constructs semantically consistent symbolic models, accurately preserves quantum state evolution, and effectively supports downstream analysis tasks across diverse quantum programs.",
+    "authors": [
+      "Xia, Shangzhou",
+      "Luo, Junjie",
+      "Zhao, Jianjun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-27T02:22:30.298887Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195564",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195564",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3195564"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

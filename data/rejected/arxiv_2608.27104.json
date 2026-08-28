@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.27104",
+    "arxiv_id": "2608.27104",
+    "arxiv_version": null,
+    "inspire_id": "3196915",
+    "doi": null,
+    "title_en": "Too good to go: Upcycling Phase-Space Points for Multijet Processes",
+    "abstract_en": "The efficient sampling of high-dimensional phase spaces is a major challenge for Monte Carlo event generators, as for high-multiplicity final states the evaluation of scattering matrix elements becomes computationally expensive. We here introduce a training strategy that significantly reduces the cost of adapting the samplers, while delivering samplers that outperform the current benchmarks. The method exploits the nested structure of phase spaces, where an $(N+1)$-particle phase space factorises into an $N$-particle and a one-particle phase space. We thereby assume that an efficient sampler for the corresponding $N$-particle phase space is already available, as is the case in stacks of QCD $X+n$-jets processes. By augmenting an $N$-particle to an $(N+1)$-particle dataset, we obtain a training sample that more closely resembles the integrand and is statistically larger than, for example, a uniformly sampled one. Starting the adaptation phase of the sampler with a well-sampled $N$-particle core accelerates learning of the full $(N+1)$-particle phase-space density. Since the augmented sample is only used as an initial proposal distribution, unbiased Monte Carlo estimates are still guaranteed by exact event weighting. The approach is agnostic to the trained sampler and can be applied to machine-learning-based methods as well as more traditional algorithms such as VEGAS. We demonstrate the reduction in matrix-element evaluations and final performance increase for jet-associated Drell--Yan and top-pair production at the LHC, using Continuous Normalising Flow samplers.",
+    "authors": [
+      "Helms, Konrad",
+      "Janßen, Timo",
+      "Schumann, Steffen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-28T04:15:28.873633Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196915",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196915",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196915"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

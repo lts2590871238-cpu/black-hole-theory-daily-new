@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.27298",
+    "arxiv_id": "2608.27298",
+    "arxiv_version": null,
+    "inspire_id": "3196943",
+    "doi": null,
+    "title_en": "Optimal cloning of mixed states",
+    "abstract_en": "We consider the problem of approximate cloning of quantum states: given $n$ copies of an unknown state $ρ\\in \\mathbb{C}^{d \\times d}$, prepare an $(n+k)$-copy state with high fidelity to $ρ^{\\otimes (n+k)}$. Werner's pure state cloner is the optimal channel for the pure state case, and shows that $n = Θ(kd/\\varepsilon)$ copies are necessary and sufficient to clone $k$ additional copies of an unknown pure state to fidelity $1-\\varepsilon$. The random purification channel gives a straightforward extension of Werner's cloner to mixed state inputs: given $n$ copies of a mixed state, randomly purify your input, apply Werner's channel in the larger Hilbert space, and then trace out the auxiliary registers. This gives a mixed state cloner using $n = O(krd/\\varepsilon)$ copies to clone rank-$r$ states. Can one do any better? We show that the answer is no: one must use $n = Ω(krd/\\varepsilon)$ copies. We prove our lower bound by studying the special case of projector cloning, in which the input state $ρ$ is promised to be of the form $P/r$, where $P$ is a rank-$r$ orthogonal projector. As a further application of our techniques, we consider the closely related problem of approximate transposition of quantum states, where one seeks to convert $ρ^{\\otimes n}$ to a $k$-copy state with high fidelity to $(ρ^T)^{\\otimes k}$. Here, we again show $n = Θ(krd/\\varepsilon)$ copies are necessary and sufficient for this task.",
+    "authors": [
+      "Fanizza, Marco",
+      "Grinko, Dmitry",
+      "Scharnhorst, Thilo",
+      "Spilecki, Jack"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-28T04:16:41.022988Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196943",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196943",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196943"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

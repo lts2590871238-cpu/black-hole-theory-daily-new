@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.24682",
+    "arxiv_id": "2608.24682",
+    "arxiv_version": 1,
+    "inspire_id": "3195711",
+    "doi": null,
+    "title_en": "Chebyshev interpolation in Einstein-Boltzmann codes",
+    "abstract_en": "Einstein-Boltzmann codes compute theoretical predictions of cosmological models and rely heavily on interpolation in their independent variables: time $τ$, wavenumber $k$ and multipole $\\ell$. We give a practical summary of interpolation with Chebyshev polynomials, which converges rapidly for smooth functions and thus pairs naturally with approximation-free Einstein-Boltzmann codes. By solving the perturbations and line-of-sight integrals at Chebyshev nodes in $k$ and $\\ell$, we show that Chebyshev polynomials interpolate to higher precision than traditional cubic splines from fewer explicit solutions. On a set of example spectra for matter and the cosmic microwave background (CMB), we find up to four orders of magnitude lower interpolation error using the same number of points. For a typical CMB temperature spectrum computed with interpolation in both $k$ and $\\ell$, Chebyshev polynomials converge to $10^{-4}$-$10^{-5}$ relative error with only 50-80 points per variable, while cubic splines approach $10^{-4}$ error with 200 points, translating to a $2.5\\times$-$4\\times$ speedup. The exact improvement depends on the target function and is generally more dramatic at high precision levels. Standard Chebyshev $\\ell$-interpolation needs line-of-sight integrals generalized to non-integer $\\ell$, but we show a way to avoid this by rounding the nodes to integers. Chebyshev interpolation is implemented in SymBoltz, which is available at https://github.com/hersle/SymBoltz.jl.",
+    "authors": [
+      "Herman Sletmoen"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-27T06:28:11.583174Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.24682v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.24682v1",
+    "inspire_url": "https://inspirehep.net/literature/3195711",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.24682",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://arxiv.org/abs/2608.24682v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3195711",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3195711"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

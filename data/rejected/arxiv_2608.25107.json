@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.25107",
+    "arxiv_id": "2608.25107",
+    "arxiv_version": null,
+    "inspire_id": "3196207",
+    "doi": null,
+    "title_en": "ADoNIS: A Differentiable generatOr of Neutrino Interaction Samples",
+    "abstract_en": "Neutrino interaction generators are central to precision oscillation analyses, but conventional implementations do not directly provide derivatives of their predictions with respect to physics parameters, leaving analyses to obtain this dependence through reweighting, finite differences or external response models. We present ADoNIS, a fully differentiable neutrino interaction event generator that makes event reweighting and its gradients directly available, propagating exact derivatives through the nuclear ground state, hard-scattering amplitudes and stochastic intranuclear cascade. Following the physics choices of ACHILLES, we demonstrate agreement with its predictions across neutrino, electron and hadron probes, showing that differentiability is achieved without loss of physical fidelity. We then show how the resulting Jacobian exposes which measurements and regions of phase space constrain each parameter and how different probes break degeneracies, providing a quantitative tool for fit design, model tuning, measurement design and experiment design. The same differentiable predictions can be used directly in frequentist and Bayesian inference and carried through detector response to reconstructed observables for unfolding, while also yielding computational gains. In sum, ADoNIS provides a practical recipe for constructing differentiable neutrino event generators, applicable beyond the particular physics models implemented here, and this paper demonstrates their use across a wide range of tasks relevant to both theory and experiment.",
+    "authors": [
+      "Jesús-Valls, César"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-28T03:56:48.125543Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196207",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196207",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196207"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

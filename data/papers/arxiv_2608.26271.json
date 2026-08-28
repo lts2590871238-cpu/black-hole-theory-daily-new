@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26271",
+    "arxiv_id": "2608.26271",
+    "arxiv_version": 1,
+    "inspire_id": "3196777",
+    "doi": null,
+    "title_en": "Validating Timing-Model Accuracy for Continuous Gravitational Waves: A Comparison of LALSuite and PINT",
+    "abstract_en": "We present results of a systematic validation of the \\lalsuite{} timing model for continuous gravitational waves against \\pint{}, a modern high-accuracy pulsar-timing package. An accurate timing model is essential for tracking the signal phase, and hence for detecting and accurately characterizing continuous gravitational waves. In order to quantify the impact of timing inaccuracies, we derive and validate the leading-order relation $μ\\approx (2πf)^2\\stddtau^2$, where $μ$ is the fractional loss of signal power, $f$ is the signal frequency, and $\\stddtau^2$ is the variance of the timing errors. We then compare the solar-system and binary components of the \\lalsuite{} timing model against the corresponding models in \\pint{}. With the original \\lalsuite{} Einstein-delay implementation, the total disagreement is dominated by that component and has $\\stddtau\\simeq\\SI{2.3}{\\micro\\second}$ (corresponding to $μ\\simeq\\SI{0.02}{\\percent}$ at $f=\\SI{1000}{\\hertz}$). With the newer Einstein-delay implementation, the total disagreement (over one year) drops to $\\stddtau\\lesssim\\SI{31}{\\nano\\second}$ (or $μ\\lesssim\\num{4e-8}$ at $f=\\SI{1000}{\\hertz}$) and is dominated by the observatory contribution to the \\Romer{} delay, owing to the approximate Earth-rotation model used by \\lalsuite{}. We additionally test binary delays using orbital parameters from \\num{474} catalogued binary pulsars and verify the self-consistency of the \\lalsuite{} source-time derivatives. Finally, we derive and discuss the \\lalsuite{} Shapiro delay for signals passing through the solar interior, a case only relevant to gravitational waves.",
+    "authors": [
+      "Kartikey Sharma",
+      "Reinhard Prix",
+      "Maria Alessandra Papa",
+      "Curt Cutler"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-08-26T00:00:00Z",
+    "updated_at": "2026-08-28T04:09:55.439107Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.26271v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.26271v1",
+    "inspire_url": "https://inspirehep.net/literature/3196777",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.26271",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://arxiv.org/abs/2608.26271v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3196777",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196777"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [],
+    "medium_weight_hits": [
+      "continuous gravitational wave",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 20
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 25,
+      "methodological_rigor": 18,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 8,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 78,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "对连续引力波定时模型进行系统性验证，与PINT对比并提供数量级关系，主题相关且方法严谨。",
+    "title_zh": "连续引力波定时模型精度验证：LALSuite与PINT的比较",
+    "abstract_zh": "我们展示了针对连续引力波的\\lalsuite{}定时模型与现代化高精度脉冲星定时软件包\\pint{}进行系统性验证的结果。准确的定时模型对于跟踪信号相位至关重要，因此对于探测和精确表征连续引力波也至关重要。为了量化定时不准确性的影响，我们推导并验证了领先阶关系$\\mu\\approx (2\\pi f)^2\\stddtau^2$，其中$\\mu$是信号功率的分数损失，$f$是信号频率，$\\stddtau^2$是定时误差的方差。然后，我们将\\lalsuite{}定时模型的太阳系和双星分量与\\pint{}中的相应模型进行比较。使用原始的\\lalsuite{}爱因斯坦延迟实现，总不一致性由该分量主导，且$\\stddtau\\simeq\\SI{2.3}{\\micro\\second}$（对应于在$f=\\SI{1000}{\\hertz}$时$\\mu\\simeq\\SI{0.02}{\\percent}$）。使用较新的爱因斯坦延迟实现，总不一致性（超过一年）降至$\\stddtau\\lesssim\\SI{31}{\\nano\\second}$（或在$f=\\SI{1000}{\\hertz}$时$\\mu\\lesssim\\num{4e-8}$），并且由\\Romer{}延迟的观测站贡献主导，这归因于\\lalsuite{}使用的近似地球自转模型。我们还使用来自\\num{474}个编录双星脉冲星的轨道参数额外测试了双星延迟，并验证了\\lalsuite{}源时间导数的自洽性。最后，我们推导并讨论了穿过太阳内部的信号（此情况仅与引力波相关）的\\lalsuite{}夏皮罗延迟。",
+    "keywords_en": [
+      "continuous gravitational waves",
+      "timing model",
+      "LALSuite",
+      "PINT",
+      "pulsar timing"
+    ],
+    "keywords_zh": [
+      "连续引力波",
+      "定时模型",
+      "LALSuite",
+      "PINT",
+      "脉冲星定时"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-28T07:00:02.241256Z"
+  },
+  "published_at": "2026-08-28T07:00:02.241720Z"
+}

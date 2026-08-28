@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1088/2058-9565/ae98ec",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3195980",
+    "doi": "10.1088/2058-9565/ae98ec",
+    "title_en": "Circumventing query complexity barriers in learning quantum dynamics via physics-informed kernels",
+    "abstract_en": "Learning continuous quantum dynamical trajectories-essential for understanding non-equilibrium phenomena in quantum chemistry and condensed matter physics-remains prohibitively expensive on quantum computers. Conventional data-driven surrogates treat observables as generic time series, ignoring the governing Schrödinger evolution, and consequently require an infeasible density of samples to resolve highly oscillatory dynamics. We first establish a fundamental information-theoretic lower bound: any incoherent learning protocol that measures independently prepared copies without quantum memory needs $\\Omega(T/\\epsilon^2)$ oracle queries, revealing a quadratic penalty in $1/\\epsilon$ that renders naive dense sampling impossible. To circumvent this barrier, we introduce physics-informed kernel ridge regression (PI-KRR), which encodes the Heisenberg equation as a differentiable constraint. By extracting time derivatives from Hamiltonian commutators at zero additional quantum cost, PI-KRR doubles the information density per simulation shot without violating quantum estimation limits. Furthermore, integrated with classical shadow tomography, our framework reconstructs trajectories for $M$ local observables simultaneously with measurement overhead scaling only as $O(\\log M)$. We establish robustness guarantees for NISQ devices: isolated measurement outliers are suppressed as $1/\\sqrt{m}$ with training size $m$, and systematic Hamiltonian miscalibrations yield only linearly bounded prediction errors. Numerical experiments on transverse-field Ising models demonstrate that PI-KRR resolves sharp features such as light-cone fronts with drastically fewer simulations than standard kernel methods, achieving up to two orders of magnitude lower mean absolute error. This establishes a practical protocol for compressing complex quantum dynamics into classical predictive models, bridging quantum simulation and machine learning for experimental quantum science.",
+    "authors": [
+      "Wang, Youle",
+      "Zhang, Lei"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-24T00:00:00Z",
+    "updated_at": "2026-08-26T13:04:46.440033Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "11, 045017, 2026, {'$ref': 'https://inspirehep.net/api/journals/1831236'}, 4, Quantum Sci.Technol."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3195980",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3195980",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3195980"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

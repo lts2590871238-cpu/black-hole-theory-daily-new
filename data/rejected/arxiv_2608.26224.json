@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26224",
+    "arxiv_id": "2608.26224",
+    "arxiv_version": null,
+    "inspire_id": "3196718",
+    "doi": null,
+    "title_en": "Classical and Hybrid Quantum Machine Learning for Trigger-Like Event Selection on CMS Open Data: An Eight-Qubit, PCA-Constrained Benchmark",
+    "abstract_en": "Event triggering sits at the heart of high-energy physics, where the rare events of interest must be retained while an overwhelming background is discarded under tight latency and bandwidth budgets. This work compares four classical machine learning models, namely a support vector machine, an artificial neural network, a convolutional network and a long short-term memory network, with four hybrid quantum counterparts, on a trigger-like binary classification task built from CMS open data. The label is defined by an invariant-mass window, and the inputs combine reconstructed kinematics with physics-motivated derived variables: the pseudorapidity difference, the wrapped azimuthal difference, the angular separation and the total transverse momentum. The quantum models run under a fixed resource budget of eight qubits, a principal-component compression to sixteen features and state-vector simulation. Every model shares the same stratified split, the same preprocessing and a common decision threshold, and performance is reported through accuracy, ROC-AUC, F1-score, precision and recall. The strongest classical model is the artificial neural network, at 93.53 percent accuracy and 0.9819 ROC-AUC, while the strongest quantum model is the quantum convolutional network, at 90.89 percent accuracy and 0.9731 ROC-AUC, with the quantum neural network close behind. The quantum-kernel and recurrent quantum approaches trail both, which places the trainable hybrid embeddings ahead within this budget. The study is meant as a controlled reference point rather than a claim of quantum advantage.",
+    "authors": [
+      "Mahmood, Tariq",
+      "Rafique, Muhammad Awais",
+      "Hussain, Talab",
+      "Aguilar, Juan Pablo Perez",
+      "Raya, Alfredo",
+      "Ahsan, Muhammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-26T00:00:00Z",
+    "updated_at": "2026-08-28T02:51:23.528960Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196718",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196718",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196718"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

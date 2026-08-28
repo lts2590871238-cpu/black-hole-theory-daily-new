@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.25376",
+    "arxiv_id": "2608.25376",
+    "arxiv_version": null,
+    "inspire_id": "3196367",
+    "doi": null,
+    "title_en": "GPU-Accelerated Quantum Annealing-Inspired UAV Path Planning for Smart Agriculture",
+    "abstract_en": "Traditional path planning methods are often constrained by local optima, limited scalability, and slow convergence, which significantly restrict their effectiveness in solving large-scale problems. To address these limitations, this paper shifts the problem-solving paradigm from algorithmic refinement to parallelization of computational architecture. We propose a novel optimization framework utilizing a Graphics Processing Unit (GPU)-parallelized Ising solver. Our method mimics the operational principles of quantum annealing on GPU hardware, enabling rapid search for the minimum-energy state of Ising models. Unlike physical quantum devices, which are often constrained by the number of qubits, our approach leverages the Fixstars Amplify (FA) platform to perform parallel annealing on highly parallelized GPUs. This enables the simultaneous evaluation of thousands of potential path candidates and vast state transitions. By leveraging large-scale parallel processing, the core strength of this framework lies in minimizing computation time even as the problem scale increases. Furthermore, to solve the path planning problem using the FA platform, we formulate the problem as a Quadratic Unconstrained Binary Optimization (QUBO) model. This formulation converts the objectives of flight constraints and operational time minimization into an energy state, enabling problem processing via the Ising-based architecture. Simulation results demonstrate that our proposed method consistently identifies superior flight paths while maintaining stable computational performance compared with the genetic algorithm and simulated annealing method. These findings highlight its potential as a robust, scalable real- time solution for next-generation large-scale smart agriculture.",
+    "authors": [
+      "Hirahara, Maho",
+      "Li, Aohan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-26T00:00:00Z",
+    "updated_at": "2026-08-28T02:26:32.128952Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196367",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196367",
+        "fetched_at": "2026-08-28T06:58:26.756835Z",
+        "url": "https://inspirehep.net/literature/3196367"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
