@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.optlastec.2026.116191",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3196983",
+    "doi": "10.1016/j.optlastec.2026.116191",
+    "title_en": "A quantum-generative AI-driven attention-guided image processing framework for leaf disease detection and severity estimation",
+    "abstract_en": "AI-based leaf disease detection enables the rapid and precise identification of leaf disease, resulting in increased production and timely treatment. However, its efficiency is restricted due to data reliance, environmental variability, and lack of generalizability across leaf and field conditions. To overcome these limitations, this research proposes a Quantum image processing using GenAI for leaf disease detection and classification (QIP-GAI-PDD). Initially, the input images are gathered from the New Plant Disease Dataset. This image undergoes preprocessing steps, including resizing, normalization, median filtering, and contrast enhancement using Contrast Limited Adaptive Histogram Equalization (CLAHE) to ensure high quality and standardized inputs. The preprocessed images are then transformed into the quantum domain using amplitude encoding, followed by Quantum Fourier Transform for frequency analysis, Quantum Haar Wavelet Transform for multi-resolution texture extraction, and a Quantum Gabor operator for directional edge enhancement. To improve data diversity and class balance, a GenAI-based Conditional GAN generates realistic synthetic leaf images guided by disease class conditioning and Quantum Feature Mask, with quality assurance ensured using Fréchet Inception Distance. High-level discriminative features are extracted from the synthetic images using a Transfer Learning-based Meter-Aware EfficientNet-B4, which leverages pretrained knowledge and integrates attention-guided region emphasis. Finally, quantum features and deep features are fused using a GenAI-Enhanced Attention Fusion Network with pyramidal multi-head attention and GenAI-guided bias to perform binary disease classification as healthy or unhealthy and simultaneously estimate continuous disease severity, which is further interpreted into discrete severity levels such as mild, moderate, and severe. Experimental results show that the proposed method attains 99.72% accuracy, 97.61% precision, 96.91% F1-score, significantly outperforming existing methods, respectively.",
+    "authors": [
+      "Jamal, Swapna",
+      "Judith, John Edwin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-28T07:38:23.491890Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "203, 116191, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1213364'}, Opt.Laser Tech."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196983",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196983",
+        "fetched_at": "2026-08-29T04:12:11.502934Z",
+        "url": "https://inspirehep.net/literature/3196983"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

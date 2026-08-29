@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s44443-026-01120-8",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3197076",
+    "doi": "10.1007/s44443-026-01120-8",
+    "title_en": "AIGI-NFT: A blockchain-based framework for AI-generated image trading with simulated BB84 key distribution",
+    "abstract_en": "In the era of artificial intelligence, the AI-generated image (AIGI) market is an emerging sector that faces significant challenges related to ownership, privacy, and security. These issues, especially prevalent in NFT markets, can be effectively addressed by the integration of advanced technologies such as blockchain, the InterPlanetary File System (IPFS), and Quantum Key Distribution (QKD). This study proposes a comprehensive trading framework that incorporates state-of-the-art methodologies and algorithms to simulate the entire AI image trading process. For image generation, the framework utilises diffusion models (LCM-LoRA + SDXL) and Generative Adversarial Networks (GANs), employing LCM-LoRA and LCMScheduler from Stable Diffusion XL Base 1.0 to accelerate image generation and reduce inference steps. Implementation is carried out using PyTorch and the Diffusers library, running on a CUDA-enabled GPU. The generated images are securely stored in the distributed IPFS storage system, while decentralised trading is facilitated through integration with the Hyperledger MiniFab tool. The framework supports multiple trading mechanisms, including Blind English Sealed-Bid Auctions (BESEA), fixed-price auctions with a first-come, first-served (FCFS) model, Dutch auctions with royalty redistribution, and fractionalized auction trading. To ensure secure communication between buyers and sellers, the BB84 QKD protocol is employed to generate a shared secret key with information-theoretic security. The generated key is processed through key sifting to derive a symmetric key, which is zero-padded to the 256-bit length required by AES-256-CBC. It is then directly used as the encryption key to encrypt AI-generated images and their associated metadata before storage on IPFS. Experimental evaluation across four auction mechanisms and up to 250 NFTs shows the Dutch auction achieving the highest sales volume (up to 211 NFTs sold) and the Fractionalized auction the highest revenue ( 98,270). The IPFS storage maintains sub-0.75-second upload latency with 100% file verification success. Blockchain-layer benchmarking across 100-500 participants records mean chaincode latency ranging from approximately 22 to 53 seconds and throughput of 0.018-0.045 TPS.",
+    "authors": [
+      "Samantray, Bhabani Sankar",
+      "Reddy, K.Hemant Kumar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-25T00:00:00Z",
+    "updated_at": "2026-08-28T10:48:41.792201Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "38, 767, 2026, {'$ref': 'https://inspirehep.net/api/journals/2742091'}, 767, 7, J.King Saud Univ.Comput.Inform.Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197076",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197076",
+        "fetched_at": "2026-08-29T04:12:11.502934Z",
+        "url": "https://inspirehep.net/literature/3197076"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

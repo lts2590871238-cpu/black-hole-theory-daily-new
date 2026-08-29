@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26777",
+    "arxiv_id": "2608.26777",
+    "arxiv_version": null,
+    "inspire_id": "3197032",
+    "doi": null,
+    "title_en": "A Hybrid Post-Quantum Encryption Architecture with Self-Hosted Key Management for SME Cloud Data Protection",
+    "abstract_en": "Harvesting ciphertext from cloud storage needs no quantum computer; decrypting it later does. That gap is the harvest-now-decrypt-later exposure: anything protected by RSA or ECDH today that must stay secret for decades is already compromised. Small and medium-sized enterprises are least able to respond: they neither run the infrastructure on which their data sits on nor employ a cryptographer. Bespoke migration suits firms with security budgets; a managed key service relocates trust rather than removing it. The obstacle is architectural, not cryptographic. We present Quantum Cloud Guard (QCG), a software-only three-layer architecture. No prior SME-oriented system combines its three elements: client-side hybrid post-quantum encryption, self-hosted key custody with client-verifiable ML-DSA-87 signatures on served keys, and an integrated application-layer abuse-prevention gateway. Files never leave the client: each is sealed under AES-256-GCM, its key wrapped to an ML-KEM-1024 public key from the enterprise's key service. The enterprise alone administers it; it signs every key with ML-DSA-87, so a client that pinned it detects substitution. Separating key custody from data custody is the point: a provider holding both can read the data. On a 24 MHz STM32F407, ML-KEM-1024 key generation takes 40.8 ms and decapsulation 44.0 ms; on the server every post-quantum operation stays sub-millisecond, signing adding 0.24 ms per request. The service runs on a 4.49 EUR/month virtual server. Under sustained flooding, the in-process gateway Sentinel Gate rejected 98.8% of attack traffic while a legitimate client's median latency moved from 621 to 625 ms. Being single-source, this shows filtering effectiveness, not DDoS resilience.",
+    "authors": [
+      "Junaid, Muhammad Shaheer Bin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-29T02:20:30.490973Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197032",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197032",
+        "fetched_at": "2026-08-29T04:12:11.502934Z",
+        "url": "https://inspirehep.net/literature/3197032"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

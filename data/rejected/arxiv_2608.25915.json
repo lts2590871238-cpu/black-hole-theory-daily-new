@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.25915",
+    "arxiv_id": "2608.25915",
+    "arxiv_version": null,
+    "inspire_id": "3196178",
+    "doi": null,
+    "title_en": "Computing key rates for one-sided device-independent quantum key distribution",
+    "abstract_en": "The defining feature of one-sided device-independent quantum key distribution is its asymmetric trust model in which only one party is characterized. This scenario sets an interesting middle ground between high key rates achievable by characterizing devices and the security of full device-independence. Here, we provide new tools, methods, and benchmarks for calculating key rates in this setting. To achieve this, we develop and compare two extensions of the NPA hierarchy and derive finite-size security bounds against general attacks with arbitrary device memory. The latter is based on the Generalized Entropy Accumulation Theorem. We then investigate the performance of various protocols: the BB84 protocol both with and without losses, a qutrit mutually unbiased bases protocol, and protocols based on Bell inequalties such as CHSH and $I_{3322}$. We find that the choice of which party is characterized can strongly affects the key rate, surprisingly without a universal ordering. Our work thus offers a general toolbox for calculating key rates for one-sided device-independent QKD protocols.",
+    "authors": [
+      "Bluhm, Andreas",
+      "Koßmann, Gereon",
+      "Sandfuchs, Martin",
+      "Schwonnek, René",
+      "Viola, Giuseppe",
+      "Wolf, Ramona"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-26T00:00:00Z",
+    "updated_at": "2026-08-28T03:24:48.944484Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3196178",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3196178",
+        "fetched_at": "2026-08-29T04:12:11.502934Z",
+        "url": "https://inspirehep.net/literature/3196178"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "high_weight_hits": [
+      "generalized entropy"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": false,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 5,
+      "methodological_rigor": 5,
+      "novelty": 3,
+      "clarity": 7,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 0
+    },
+    "total_score": 26,
+    "reject_reason_zh": "论文主题为量子密钥分发，与黑洞热力学、脉冲星计时阵列、凝聚态全息或广义相对论基础等主题不符。",
+    "selection_reason_zh": "",
+    "title_zh": "计算单边设备无关量子密钥分发的密钥率",
+    "abstract_zh": "单边设备无关量子密钥分发的定义特征是其不对称信任模型，其中只有一方被表征。这一场景在表征设备可实现的高密钥率与完全设备无关的安全性之间设定了一个有趣的中间地带。在这里，我们提供了计算此设置中密钥率的新工具、方法和基准。为实现这一点，我们开发并比较了NPA层次结构的两种扩展，并针对具有任意设备存储的通用攻击推导了有限尺寸安全界限。后者基于广义熵累积定理。然后，我们研究了各种协议的性能：有损耗和无损耗的BB84协议、一个qutrit互不偏置基协议，以及基于贝尔不等式（如CHSH和$I_{3322}$）的协议。我们发现，选择哪个方被表征可以强烈影响密钥率，令人惊讶的是没有通用的排序。因此，我们的工作为计算单边设备无关QKD协议的密钥率提供了一个通用工具箱。",
+    "keywords_en": [
+      "quantum key distribution",
+      "device-independent",
+      "NPA hierarchy",
+      "entropy accumulation theorem",
+      "key rates"
+    ],
+    "keywords_zh": [
+      "量子密钥分发",
+      "设备无关",
+      "NPA层次",
+      "熵累积定理",
+      "密钥率"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-08-29T04:13:02.656145Z"
+  },
+  "published_at": "2026-08-29T04:13:02.656609Z"
+}
