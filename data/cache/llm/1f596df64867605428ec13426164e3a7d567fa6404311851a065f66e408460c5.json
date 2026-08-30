@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 20,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 67,
+  "reject_reason_zh": "该论文主要讨论量子操作的维度瓶颈，属于量子信息论范畴，与黑洞热力学、脉冲星计时阵列、全息凝聚态或广义相对论基础等领域均不直接相关。",
+  "selection_reason_zh": "尽管论文提出了新的概念框架，但其主题与目标领域的相关性较低，因此不建议纳入本索引。",
+  "title_zh": "量子操作的瓶颈维度",
+  "abstract_zh": "可编程量子设备名义上作用于一个希尔伯特空间，其维度随组分数量的增加呈指数增长，但噪声的存在使得它们不太可能在这个巨大的希尔伯特空间中保持相干。那么，对于这种不完美的设备，应该关联的有效相干量子维度是多少？为了回答这个问题，我们在此引入一个基于操作的无框架框架，它对可编程变换施加维度瓶颈。具体来说，我们询问它们处理的量子信息可以被压缩到何种程度。将这一想法形式化，我们确定了三个不等价的概念，称为$d$-可压缩性、$d$-可模拟性和$d$-可嵌入性，它们在用于施加瓶颈的因果结构上有所不同，并形成一个严格的层级结构。该框架统一了几个现有概念：量子测量的联合可测性和可模拟性，以及态系综的绝对维度，作为特例被恢复。我们用互补基中的噪声量子比特测量来说明这一层级结构，并确定了白噪声阈值，在该阈值下，$n$维中所有噪声幺正通道的集合（即一个噪声通用量子处理器）变为$d$-可压缩、$d$-可模拟和$d$-可嵌入。这些阈值证实了预期——随着名义维度$n$的增加，在整个希尔伯特空间上保持相干变得越来越困难。",
+  "keywords_en": [
+    "quantum operations",
+    "dimension bottleneck",
+    "compressibility",
+    "simulability",
+    "embeddability"
+  ],
+  "keywords_zh": [
+    "量子操作",
+    "维度瓶颈",
+    "可压缩性",
+    "可模拟性",
+    "可嵌入性"
+  ],
+  "translation_warning": "论文标题和摘要涉及量子信息论，其中专业术语如'd-compressibility'等已准确翻译，但可能需领域专家进一步确认。",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-30T01:21:01.357649Z"
+}
