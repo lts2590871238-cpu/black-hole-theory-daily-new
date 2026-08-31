@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.15989",
     "arxiv_id": "2608.15989",
-    "arxiv_version": 1,
-    "inspire_id": "3191710",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
-    "title_en": "Exact spherical-wave forward model for radio reflection from stratified media",
-    "abstract_en": "Radio detection of ultra-high energy particles ($\\gtrsim10^{18}$ eV) depends on how broadband radio pulses reflect from natural media boundaries. We extend the spherical-wave (Sommerfeld--Weyl) treatment of a single homogeneous interface to stratified media by replacing the Fresnel coefficient of each plane-wave component with the characteristic-matrix reflection coefficient of a layered medium, evaluated in the local tangent plane on the spherical surface. The calculation reduces to the single-boundary result at machine precision when the layer contrast is removed and agrees with the published spherical-surface calculation to better than $1.1\\%$ at ten HiCal-2 elevation angles, with a mean deviation of $0.6\\%$. We apply the formalism to shallow firn stacks proposed as explanations for anomalous-polarity ANITA events. For realistic firn contrasts, layering changes the reflected amplitude but does not reverse the pulse polarity over $150$--$850$ MHz for the elevations studied. In a reference $s$-polarized two-layer model, a coefficient sign change requires buried refractive index $n_2\\simeq2.56$, $2.04$, and $1.79$ at local elevations of $8^\\circ$, $15^\\circ$, and $25^\\circ$, respectively. We also test the specular factorization used in fast propagation models, finding $0.2\\%$ agreement with the full angular integral for high-altitude balloon geometries, while near-boundary sources require the full integral. The calculated reflected pulses reproduce the expected polarity inversion in $101$ of $106$ HiCal-1 direct/reflected pulse pairs. Because the medium enters through its complex refractive index, the framework applies to ice, lunar regolith, and conducting media.",
+    "title_en": "Exact spherical-wave forward model for radio reflection from stratified media and implications for the anomalous-polarity events observed by ANITA",
+    "abstract_en": "Radio detection of ultra-high energy particles relies on the propagation and reflection of broadband radio pulses at boundaries between natural media. In the Sommerfeld--Weyl treatment, a spherical wave is decomposed into plane-wave components and their reflection from a single homogeneous interface is calculated exactly. We extend that treatment to an arbitrary number of laterally uniform spherical layers. Both the spherical-wave decomposition of the source and the spherical geometry of the boundary are retained, while the reflection and transmission coefficients of the plane-wave components are replaced by the exact characteristic-matrix coefficients of the layered medium, evaluated at the local incidence angle on the spherical boundary. When the layer contrast is removed, the formalism recovers the single-boundary result to machine precision, and it reproduces the published spherical-surface reflectivity calculation to better than $1.1\\%$ at ten HiCal-2 elevation angles, with a mean deviation of $0.6\\%$. We reproduce the measured HiCal-1 reflected pulses from their measured direct partners, with a best signed correlation of $0.83$ and a median of $0.70$ across $106$ pairs, of which $101$ show the expected polarity inversion. Applied to the six reported ANITA anomalous-polarity event geometries, the buried-layer refractive index required for a sign change of the reflection coefficient ranges from $1.68$ at the steepest event to $3.8$--$5.4$ at the four near-horizon events. The full waveform calculation gives no non-inverted reflected pulse at any of these angles, showing that shallow, laterally uniform firn layering does not account for the polarity of the anomalous ANITA events. Because the formalism depends only on the complex refractive index of the medium, it applies more generally to isotropic, nonmagnetic stratified media, including ice, lunar regolith, and conducting layers.",
     "authors": [
       "Paramita Dasgupta"
     ],
@@ -18,31 +18,23 @@
       "physics.class-ph",
       "physics.ins-det"
     ],
-    "submitted_at": "2026-08-17T00:00:00Z",
-    "updated_at": "2026-08-19T04:03:53.767334Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-17T00:57:32Z",
+    "updated_at": "2026-08-27T18:35:56Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.15989v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.15989v1",
-    "inspire_url": "https://inspirehep.net/literature/3191710",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.15989v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.15989v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.15989",
-        "fetched_at": "2026-08-23T23:40:52.679463Z",
-        "url": "https://arxiv.org/abs/2608.15989v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3191710",
-        "fetched_at": "2026-08-23T23:40:52.679463Z",
-        "url": "https://inspirehep.net/literature/3191710"
+        "fetched_at": "2026-08-31T01:24:49.989879Z",
+        "url": "https://arxiv.org/abs/2608.15989v2"
       }
     ],
     "is_demo": false

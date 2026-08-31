@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 10,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 58,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文介绍了用于脉冲星计时阵列分析的新型高速软件包，直接相关，并提供了详细的性能验证。",
+  "title_zh": "JUG：基于JAX的统一脉冲星计时",
+  "abstract_zh": "我们提出JUG（基于JAX的统一脉冲星计时），一个基于JAX的、完全独立的脉冲星计时软件包，强调速度和易用性，旨在可靠地处理脉冲星计时领域中正在创建的大规模和复杂的脉冲星计时阵列数据集。JUG自己实现了整个脉冲星计时流程，从数据处理和时钟校正到计时模型和拟合，不依赖于其他计时软件。它使Python风格的编程得以在编译代码的速度下运行，支持GPU，并可通过Python API或交互式GUI操作。JUG用户可以交互式探索数据，拟合带有复杂随机噪声的计时模型，建模如连续引力波等确定性信号，并准确获得存在的随机过程参数的点估计，从而弥合频率论计时和贝叶斯噪声分析之间的鸿沟。JUG比PINT快五十倍以上，与Tempo2速度相当，可以处理数百万个到达时间，在皮秒级别上与PINT一致，并能可靠恢复已知的计时模型和噪声参数值。在本文中，我们描述了其设计、性能和验证，并展示了其在脉冲星计时数据分析中的优势。",
+  "keywords_en": [
+    "pulsar timing",
+    "JAX",
+    "software",
+    "GPU"
+  ],
+  "keywords_zh": [
+    "脉冲星计时",
+    "JAX",
+    "软件",
+    "GPU"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-08-31T01:26:07.307494Z"
+}

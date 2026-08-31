@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2512.12513",
+    "arxiv_id": "2512.12513",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Practical Study of Lightweight Neural Gravitational-Wave Detection in Real LIGO Noise: Models, Ablations, and Open Software",
+    "abstract_en": "Machine-learning methods offer a computationally efficient complement to conventional gravitational-wave searches, but their performance depends strongly on training data, preprocessing, inference design, and robustness to nonstationary detector noise. We present a framework for developing and evaluating lightweight neural detectors using real LIGO data. The pipeline includes strain acquisition, waveform injection, training, inference, and trigger construction. Using O3a data, we compare twelve architectures and perform ablations of normalization, whitening, label width, glitch handling, SNR curricula, and inference triggers. We find that simple temporal convolutional networks match or outperform more complex architectures, including attention-based and graph models, within our implementation. We then train four independently initialized 116k-parameter TCNs on O3b noise and evaluate them on 22.7 days of coincident data containing 13 confident GWTC-3 events. At a threshold fixed using O3a data, the four models recover 8, 9, 9, and 9 events while producing 0, 0, 1, and 0 false-positive triggers, respectively, without post hoc vetoes or inter-model coincidence filtering. In injection studies, the models achieve a median sensitive volume of $5.4\\,\\mathrm{Gpc}^3$ at the preselected threshold, corresponding to a median false-alarm rate of $20.5\\,\\mathrm{yr}^{-1}$. At a stricter threshold, the median sensitive volume remains $4.6\\,\\mathrm{Gpc}^3$, with three models returning 0 false alarms and one model yielding 1 false alarm, observed across one year of background per model. These results show that, within the tested implementations and training setup, careful pipeline design can matter more than architectural complexity and provide a lightweight pipeline for future studies on real interferometer data.",
+    "authors": [
+      "Victoria Tiki",
+      "Eliu Huerta"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2025-12-14T01:35:25Z",
+    "updated_at": "2026-08-28T02:19:35Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2512.12513v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.12513v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2512.12513",
+        "fetched_at": "2026-08-31T01:24:49.989879Z",
+        "url": "https://arxiv.org/abs/2512.12513v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
