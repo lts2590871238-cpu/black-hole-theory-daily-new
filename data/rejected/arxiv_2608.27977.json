@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.27977",
+    "arxiv_id": "2608.27977",
+    "arxiv_version": null,
+    "inspire_id": "3197437",
+    "doi": null,
+    "title_en": "Compact Variational Neural Networks for Spectral Inference from a Single Nonlinear 2D Perovskite Photodetector",
+    "abstract_en": "Spectroscopy conventionally separates optical frequencies before detection, imposing persistent constraints on footprint, complexity and scalability. Here we establish an alternative paradigm in which the nonlinear optoelectronic dynamics of a single two-dimensional perovskite photodetector physically encode the incident optical field and machine learning performs the inverse spectral reconstruction. Using a planar fluorinated phenethylammonium lead iodide (F-PEAI) photodetector, we exploit wavelength- and irradiance-dependent current-voltage signatures arising from the coupled effects of photocarrier generation, trapping, interfacial transport and field-dependent carrier dynamics. A compact variational encoder-decoder preserves the functional and history-dependent structure of these responses by independently projecting forward and reverse voltage sweeps onto a truncated Legendre-polynomial basis before mapping them through a probabilistic latent representation to continuous spectral parameters. Trained on fewer than 400 experimental voltage sweeps, the model generalises to excitation wavelengths excluded from training, reconstructing wavelength with $R^2=0.958$ and a mean absolute error of 8.1 nm, while recovering log-normalised irradiance with $R^2=0.987$. Voltage-resolved analysis further reveals that wavelength and irradiance are encoded differently across the nonlinear device response, with distinct bias regions carrying complementary optical information. These results establish nonlinear material and interface dynamics as a computational resource for spectroscopy and point towards hardware-algorithm co-design in which materials, interfaces and inference architectures are engineered jointly to maximise information content, enabling compact spectroscopic systems without dispersive optics or detector arrays.",
+    "authors": [
+      "Riisnaes, Karl Jonas",
+      "Taylor, Ned Thaddeus",
+      "Lam, Hoi Tung",
+      "Mastria, Rosanna",
+      "Difeo, Francesco Saverio",
+      "Craciun, Monica Felicia",
+      "Russo, Saverio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-28T00:00:00Z",
+    "updated_at": "2026-08-31T08:24:54.331399Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197437",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197437",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://inspirehep.net/literature/3197437"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

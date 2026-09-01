@@ -5,7 +5,7 @@
     "canonical_key": "arxiv:2608.27786",
     "arxiv_id": "2608.27786",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3197379",
     "doi": null,
     "title_en": "JUG: JAX-based Unified pulsar timinG",
     "abstract_en": "We present JUG (JAX-based Unified pulsar timinG), a JAX-based, fully independent pulsar timing package emphasising speed and ease of use, designed to confidently handle the increasingly large and complex pulsar timing array datasets that are being created in the pulsar timing field. JUG implements the entire pulsar timing pipeline itself, from data handling and clock corrections through to the timing model and fitting, without relying on other timing software. It enables Pythonic programming at the speed of compiled code, is GPU-capable, and can be operated via a Python API or an interactive GUI. A user of JUG can interactively explore data, fit timing models with complex stochastic noise, model deterministic signals such as continuous gravitational waves, and obtain accurate point estimates of the parameters of the stochastic processes present, thereby bridging frequentist timing and Bayesian noise analysis. JUG is faster than PINT by more than fifty times and is comparably fast to Tempo2, can handle millions of arrival times, agrees with PINT at the picosecond level, and can reliably recover known timing model and noise parameter values. In this paper we describe its design, performance, and validation, and demonstrate its advantages for pulsar timing data analysis.",
@@ -32,23 +32,31 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-08-27T23:48:12Z",
-    "updated_at": "2026-08-27T23:48:12Z",
-    "document_types": [],
+    "submitted_at": "2026-08-27T00:00:00Z",
+    "updated_at": "2026-08-31T08:24:46.768375Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2608.27786v1",
     "pdf_url": "https://arxiv.org/pdf/2608.27786v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197379",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.27786",
-        "fetched_at": "2026-08-31T01:24:49.989879Z",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
         "url": "https://arxiv.org/abs/2608.27786v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3197379",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://inspirehep.net/literature/3197379"
       }
     ],
     "is_demo": false
@@ -107,5 +115,5 @@
     "schema_version_used": "curation-schema-1.0",
     "created_at": "2026-08-31T01:26:07.307494Z"
   },
-  "published_at": "2026-08-31T01:26:07.307942Z"
+  "published_at": "2026-09-01T01:54:53.627312Z"
 }

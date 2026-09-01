@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.28514",
+    "arxiv_id": "2608.28514",
+    "arxiv_version": 1,
+    "inspire_id": "3197535",
+    "doi": null,
+    "title_en": "Fast and efficient nested sampling with BEST",
+    "abstract_en": "Nested sampling is widely used for Bayesian evidence computation, but its intrinsically sequential structure limits how efficiently it can exploit modern vectorised likelihoods and emulators. We present a new nested-sampling implementation in \\textsc{best}, written entirely in TensorFlow and designed for efficient XLA compilation on both CPUs and GPUs. The sampler combines clustering and slice sampling with the possibility of updating several live points simultaneously. Since batching breaks the strict ordering of conventional nested sampling, we introduce sorting and history-based corrections to reduce the resulting bias in the evidence estimate. We test the sampler on Gaussian, Rosenbrock, and multimodal likelihoods and compare its performance with JAXNS and UltraNest. The results show that accurate evidence estimates can be retained for moderate batch sizes, with $m/N_{\\rm live}\\lesssim 0.1$ providing a useful practical regime. Finally, using a 27-dimensional cosmological likelihood emulator, we show that batched live-point updates can substantially reduce the wall-clock time while remaining consistent with sequential sampling within the reported uncertainties. The new implementation therefore extends \\textsc{best} with an efficient nested-sampling method tailored to fast, vectorised likelihoods and emulator-based inference.",
+    "authors": [
+      "Andreas Nygaard"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-08-28T00:00:00Z",
+    "updated_at": "2026-08-31T08:24:41.601568Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2608.28514v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.28514v1",
+    "inspire_url": "https://inspirehep.net/literature/3197535",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.28514",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://arxiv.org/abs/2608.28514v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3197535",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://inspirehep.net/literature/3197535"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

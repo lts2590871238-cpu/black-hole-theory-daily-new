@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.29229",
+    "arxiv_id": "2608.29229",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Entropy-Stable and Physical-Constraint-Preserving DGSEM for Symmetry-Reduced General-Relativistic Hydrodynamics on Stationary Spacetimes",
+    "abstract_en": "We develop an entropy-stable and physical-constraint-preserving discontinuous Galerkin spectral element method for symmetry-reduced general-relativistic hydrodynamics on prescribed stationary spacetimes. Using a local orthonormal transformation, the fluid variables are expressed in a form for which the relativistic hydrodynamic algebra and the admissible set are independent of the spatial metric, while the spacetime geometry enters through stationary coefficients. This separation allows entropy-conservative special-relativistic fluxes to be combined with a compatible discretization of the geometric source terms. On affine tensor-product meshes, the resulting DGSEM is conservative and satisfies a semidiscrete entropy inequality, while the transformed variables provide a convex framework for physical-constraint preservation. For practical stabilization, we use a geometry-only causal speed that is sufficient for both classical local Lax--Friedrichs entropy dissipation and the physical-constraint-preserving Lax--Friedrichs splitting. The fully discrete method combines this stabilization with SSP Runge--Kutta time stepping, oscillation elimination, and conservative local-orthonormal-state scaling. Numerical experiments cover smooth and strongly shocked special-relativistic flows, an axisymmetric jet, stationary Michel accretion, Schwarzschild Bondi--Hoyle flow, and four Kerr accretion cases. The results demonstrate the designed high-order accuracy in smooth regimes and robust performance for demanding relativistic flows on curved stationary backgrounds.",
+    "authors": [
+      "Guosheng Fu",
+      "Jian-Guo Liu"
+    ],
+    "categories": [
+      "math.NA",
+      "gr-qc",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-08-29T12:35:16Z",
+    "updated_at": "2026-08-29T12:35:16Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.29229v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.29229v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.29229",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://arxiv.org/abs/2608.29229v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

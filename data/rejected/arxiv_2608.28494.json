@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.28494",
+    "arxiv_id": "2608.28494",
+    "arxiv_version": null,
+    "inspire_id": "3197548",
+    "doi": null,
+    "title_en": "Casimir-electrostatic pull-in in nanoelectromechanical actuators: Differentiable design sensitivities and the damping-dependent collapse boundary",
+    "abstract_en": "Nanoelectromechanical actuators operating at sub-100-nm gaps collapse through a pull-in instability set by competing electrostatic and Casimir forces. The quasi-static fold that bounds their safe operating range has been known in closed form for three decades, together with the Casimir ceiling above which no static equilibrium survives, which fixes the smallest gap a given stiffness and area can hold open against the quantum vacuum. That fold does not give the threshold reached from rest, its dependence on damping, or the design sensitivities of either. We train a physics-informed neural network in a rapidity coordinate that maps the movable pull-in pole to infinity, which keeps the residual bounded across the collapse threshold where fixed-step Runge-Kutta integration steps into unphysical states. Differentiating the trained surrogate returns pull-in-voltage sensitivities that match the closed-form fold to a relative error of $3\\times10^{-6}$ and inverts a device specification to a gap of 97.036 nm at a target actuation voltage. Applied to the from-rest boundary, which carries no closed form once the damping is finite, it supplies the same sensitivities where no analytic root exists. We prove that this boundary is bracketed by two closed-form curves, that it is nondecreasing in the damping ratio, that it merges with the fold once the damping ratio exceeds $2^{-1/4}$, and that the gap closes as $(τ_*-τ)^{2/5}$. Numerically the merger already occurs at $0.396$, and the growth of the collapse time changes there from logarithmic to inverse square root. The classical-limit bound on the thermal Lifshitz derating is at the percent level, and the physical shift at these gaps lies orders of magnitude below it.",
+    "authors": [
+      "Akintsov, N.S.",
+      "Nevecheria, A.P.",
+      "Andreev, S.N.",
+      "Qin, Qing-Hua"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-28T00:00:00Z",
+    "updated_at": "2026-08-31T08:26:14.125817Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197548",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197548",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://inspirehep.net/literature/3197548"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.27814",
+    "arxiv_id": "2608.27814",
+    "arxiv_version": null,
+    "inspire_id": "3197376",
+    "doi": null,
+    "title_en": "Migration of Belle II TOP Feature Extraction from the Zynq Processing System to PCIe40 Readout PCs",
+    "abstract_en": "The Belle II Time-of-Propagation (TOP) detector is a key system for charged-particle identification (PID). Although TOP operated successfully during initial Belle II data taking, increasing luminosity and beam-induced background led to more frequent single-event upsets (SEUs) in the radiation-exposed Zynq systems-on-chip (SoCs). Resulting lockups of the embedded processing systems (PSs) interrupted data acquisition. To mitigate this limitation, waveform feature extraction, a critical task of the on-detector Zynq PS, was migrated to the off-detector PCIe40 readout PCs (ROPCs). The new architecture bypasses the PS in the event data path and performs feature extraction outside the detector radiation environment. This change removed SEU-induced PS lockups from the event data path and enabled stable operation of the TOP front-end electronics and the Belle II data-acquisition system under increased luminosity and background conditions. The typical TOP deadtime decreased from about 1% to a level consistent with zero after the final firmware patch, and stable operation was demonstrated at a Level-1 (L1) trigger rate of 30 kHz with a microchannel-plate photomultiplier-tube (MCP-PMT) hit rate of approximately 5 MHz per PMT. This paper describes the migrated architecture, its deployment and validation, and its operational and PID performance.",
+    "authors": [
+      "Purwar, Harsh",
+      "Kohani, Shahab",
+      "Shebalin, Vasily",
+      "Bessner, Martin",
+      "Andrew, Matt",
+      "Browder, Thomas",
+      "Lam, Tommy",
+      "Nishimura, Kurtis",
+      "Patra, Sourav",
+      "Savinov, Vladimir",
+      "Staric, Marko",
+      "Varner, Gary",
+      "Yamada, Satoru",
+      "Yoshihara, Keisuke"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-28T00:00:00Z",
+    "updated_at": "2026-08-31T08:24:25.885490Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197376",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197376",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://inspirehep.net/literature/3197376"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

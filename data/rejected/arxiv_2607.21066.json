@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.21066",
     "arxiv_id": "2607.21066",
-    "arxiv_version": 1,
-    "inspire_id": "3182830",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "The leading-soft cubic graviton self-interaction on the black-hole horizon",
-    "abstract_en": "We expand the Einstein-Hilbert action to cubic order about the Schwarzschild horizon, in the even Regge-Wheeler gauge of the Gaddam-Groenenboom-'t~Hooft (GGV) near-horizon framework, and derive the cubic graviton self-interaction. Our central result is a `vanishing theorem': at leading soft order the self-coupling of the purely traceless longitudinal polarizations is identically zero, because with the trace/transverse-scalar sector switched off the fluctuation reduces to a two-dimensional block whose $\\sqrt{-g}\\,R$ is a total (Euler) derivative at every order in $κ$. We prove this by an explicit closed-form reduction and exhibit the cancellation term by term. It is a `framework-specific' statement, even RW gauge, GGV sector, leading soft order, not a gauge-invariant theorem of general relativity. The theorem is exact, but the quantized vertex inherits a $\\sim\\!20\\%$ soft/scheme systematic at the only simulable multiplet ($\\ell=2$), which we state explicitly. We then simulate the real-time dynamics of the resulting Hamiltonian on IBM Qiskit/Aer with exact cross-checks. Two structural facts, a conserved charge that only the cubic vertex violates, opening $φφ\\to hh\\to4φ$, and a provably resonance-free boost spectrum (gap $\\to1/2$), already predict that the longitudinal channel is perturbatively rigid; the simulation confirms this quantitatively and measures the residual dressing ($d_{\\rm eff}=1.06$; multiplicity far from thermal, Poisson, and Haar references) rather than discovering it. A symmetry-exact total-occupation truncation yields the first sector-resolved level statistics, indicative of intermediate behaviour on Hilbert spaces too small to be decisive. All circuit results agree with exact diagonalization, every headline number carries a stated systematic, and hardware execution is deferred behind a quantified noise budget.",
+    "abstract_en": "We expand the Einstein--Hilbert action to cubic order about the Schwarzschild horizon, in the even Regge--Wheeler gauge of the Gaddam--Groenenboom--'t~Hooft near-horizon framework, and derive the cubic graviton self-interaction. Our central result is a vanishing theorem: at leading soft order the self-coupling of the purely traceless longitudinal polarizations is identically zero. This is a framework-specific statement: even RW gauge, GGV sector, leading soft order. The surviving interaction lives in the trace sector; its on-shell equal-$\\ell$ weight $W(λ,λ,λ)=-3λ(2λ^2+λ+3)/(λ+1)^2$, follows from two independent derivations agreeing to machine precision. We simulate the resulting Hamiltonian at two complementary scales. On IBM Qiskit/Aer, with exact cross-checks, the hardware-format circuits confirm quantitatively what two structural facts already predict, a conserved charge that only the cubic vertex violates (opening $φφ\\to hh\\to4φ$) and a resonance-free boost spectrum (gap $\\to1/2$): the longitudinal channel is perturbatively rigid, and the simulation measures the residual dressing ($d_{\\rm eff}=1.06$; multiplicity far from thermal, Poisson, and Haar). A symmetry-graded matrix-product-state evolution then climbs the multipole ladder to sixty modes, the $120$-qubit register, and settles the one question the multiplet cannot: on a late-time measure common to both engines the inelasticity converges to $\\barη_\\infty\\simeq0.16$ (understated by the single multiplet), the dressing stays area-law with peak entanglement $\\simeq0.45$ nats far below the Page value, and the result is cutoff-converged and robust to $96$ qubits at larger occupation. The rigidity therefore persists rather than scrambling as the register grows.",
     "authors": [
       "Ayanendu Dutta"
     ],
@@ -16,31 +16,23 @@
       "hep-th",
       "quant-ph"
     ],
-    "submitted_at": "2026-07-23T00:00:00Z",
-    "updated_at": "2026-07-25T04:08:57.841315Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-23T08:59:13Z",
+    "updated_at": "2026-08-30T06:55:17Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.21066v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.21066v1",
-    "inspire_url": "https://inspirehep.net/literature/3182830",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.21066v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.21066v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.21066",
-        "fetched_at": "2026-07-30T00:16:22.241166Z",
-        "url": "https://arxiv.org/abs/2607.21066v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3182830",
-        "fetched_at": "2026-07-30T00:16:22.241166Z",
-        "url": "https://inspirehep.net/literature/3182830"
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://arxiv.org/abs/2607.21066v2"
       }
     ],
     "is_demo": false

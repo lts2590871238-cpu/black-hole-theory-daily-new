@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.29295",
+    "arxiv_id": "2608.29295",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Automated identification and subtraction of gravitational-wave glitches using boundary refinement",
+    "abstract_en": "Transient noise artifacts, or glitches, in gravitational wave strain data elevate the false alarm rate of astrophysical searches and degrade parameter estimation when overlapping a signal. No method previously identified a glitch's time boundary: existing detection and classification tools flag and label glitches without resolving their extent, forcing subtraction to run over padded windows that cost time and erase signal beyond the glitch itself. We present three boundary identification methods, AMPS (Amplitude-based Multi-glitch Pulse Segmenter), FLARE (Fitness-based Localization And Refinement Extractor), and CRISP (connected-region identification via spectrogram power), paired with three subtraction techniques, adaptive spline fitting, wavelet shrinkage, and their combination, across five glitches from the GravitySpy database spanning Advanced LIGO's first three observing runs. AMPS sets a boundary from a robust amplitude threshold, FLARE from the best fitness of a segmented spline fit, and CRISP from spectrogram power. Injecting a chirp signal on four broadband glitches, the combined technique recovers 95 to 97 percent of the injected signal-to-noise ratio, against roughly 64 percent for wavelet shrinkage alone. CRISP gives the most uniform boundary width across glitches; AMPS and CRISP both identify a boundary in a fraction of a second, two to three orders of magnitude faster than FLARE. For the glitch overlapping GW170817, a low-frequency residual persists under the default boundary, a deliberate tradeoff against removing signal power. Scattered light glitches remain untested and are the primary direction for future work.",
+    "authors": [
+      "Mohammad Abu Thaher Chowdhury",
+      "Soumya D Mohanty"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-08-29T14:31:06Z",
+    "updated_at": "2026-08-29T14:31:06Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.29295v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.29295v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.29295",
+        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "url": "https://arxiv.org/abs/2608.29295v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
