@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.29756",
+    "arxiv_id": "2608.29756",
+    "arxiv_version": null,
+    "inspire_id": "3197934",
+    "doi": null,
+    "title_en": "Pathwise Random Hamiltonian Simulation",
+    "abstract_en": "Randomized product formulas such as qDrift offer a resource-efficient alternative to deterministic Trotter--Suzuki decompositions for Hamiltonian simulation, removing their polynomial dependence on the number of Hamiltonian terms. qDrift, however, is intrinsically limited to first order in the evolution time, so its query complexity remains linear in the inverse of the target accuracy, $1/ε$. We introduce Pathwise Random Hamiltonian Simulation (PRHS), which extends qDrift to arbitrary order by subdividing each time step into $M$ correlated slices, each evolving under a term sampled from a quasi-probability distribution that we construct in closed form and prove unique, with a bias decaying factorially in $M$. Optimizing jointly over the number of slices $M$ and the number of independent blocks $N$ interpolates between the standard qDrift protocol at long times and a high-precision regime where the query cost grows slower than any power of $1/ε$, without requiring ancillary qubits. Numerical simulations of five molecular Hamiltonians confirm this advantage, with PRHS achieving accuracies two to four orders of magnitude beyond qDrift at equal query cost.",
+    "authors": [
+      "Cugini, Davide"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-30T00:00:00Z",
+    "updated_at": "2026-09-01T07:39:31.186986Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197934",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197934",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3197934"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

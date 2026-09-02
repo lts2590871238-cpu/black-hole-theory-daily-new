@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30860",
+    "arxiv_id": "2608.30860",
+    "arxiv_version": null,
+    "inspire_id": "3198171",
+    "doi": null,
+    "title_en": "Well-conditioned iterative methods for large open quantum systems",
+    "abstract_en": "Markovian open quantum systems are well modeled by the Lindblad Master Equation (ME) $\\frac{\\mathrm{d}}{\\mathrm{d} t} ρ_t = \\mathcal{L} ρ_t$, where $\\mathcal{L}$ is a linear (super-)operator and $ρ_t$ is the system state, a positive matrix. When designing or characterizing a quantum system, one is usually interested in the steady state $ρ_\\infty$ (such that $\\mathcal{L} ρ_\\infty = 0$), the first few excited states, and trajectories $t\\mapsto ρ_t$. In finite dimension, $ρ_t$ is an $n\\times n$ matrix, $\\mathcal{L}$ thus typically costs $n^4$ to store explicitly as a dense matrix, and $O(n^6)$ to diagonalize or invert exactly, making standard linear algebraic techniques expensive for large systems. However, $\\mathcal{L}$ usually costs only $O(n^3)$ to apply. This makes iterative methods appealing, but they do not work without a good preconditioner. In this article, our main observation is that a part of the Lindblad equation, corresponding to the so-called no-jump evolution $\\mathcal{S}$, can be inverted efficiently. Using this inverse map, we introduce an auxiliary completely positive trace-preserving (CPTP) map $Φ$ whose fixed point is directly related to $ρ_\\infty$, all the other eigenvalues having smaller magnitude. The map $Φ$ is thus well suited to iterative methods, and $ρ_\\infty$ can be found in a few Arnoldi iterations. Using the same inverse map $\\mathcal{S}^{-1}$ as preconditioner, we compute the low-lying spectrum efficiently via shift-invert Arnoldi, and, as a proof of concept, build an implicit time integrator that is competitive on stiff systems in the low-precision regime. For the steady-state and low excited states problems, our methods scale like $O(n^3)$ per iteration and offer state-of-the-art performance on CPU and GPU.",
+    "authors": [
+      "Beugnot, Gaspard",
+      "Gregory, Paul",
+      "Robin, Rémi",
+      "Tilloy, Antoine"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T12:15:08.716572Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198171",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198171",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3198171"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

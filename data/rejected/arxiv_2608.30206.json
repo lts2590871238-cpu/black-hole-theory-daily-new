@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30206",
+    "arxiv_id": "2608.30206",
+    "arxiv_version": null,
+    "inspire_id": "3198047",
+    "doi": null,
+    "title_en": "Agentic Quantum Deep Reinforcement Learning for RAN Slicing",
+    "abstract_en": "Radio access network (RAN) slicing enables ultra-reliable low-latency communications (URLLC) and enhanced mobile broadband (eMBB) services to share radio resources, but their requirements create a challenging reliability--throughput tradeoff. URLLC requires low-latency and reliable packet delivery, whereas eMBB targets high sustained throughput. This paper considers downlink URLLC/eMBB RAN slicing and formulates it as a queue-aware long-term eMBB throughput maximization problem subject to URLLC delay-violation, physical resource block (PRB) exclusivity, and slice-budget constraints. To solve this problem, we propose agentic quantum deep reinforcement learning (Agentic-QDRL), a two-time-scale framework that combines agentic slice-level resource control with quantum-enhanced PRB scheduling. At the slow time scale, a perceive--memory--act--reflect (PMAR) controller adapts the resource shares of URLLC and eMBB slices. At the fast time scale, a compact variational quantum circuit (VQC)-based QDRL scheduler performs PRB allocation under the current slice configuration. A feasibility projection and a safety fallback mechanism is further introduced to satisfy scheduling constraints and reduce URLLC deadline violations. Simulation results under different eMBB traffic loads show that Agentic-QDRL improves eMBB throughput, reduces eMBB queue buildup, and maintains URLLC delay reliability compared with classical DRL and heuristic baselines.",
+    "authors": [
+      "Bao, Tingnan",
+      "Elsayed, Medhat",
+      "Iturria-Rivera, Pedro Enrique",
+      "Ozcan, Yigit",
+      "Bavand, Majid",
+      "Erol-Kantarci, Melike"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T06:48:59.988460Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198047",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198047",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3198047"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

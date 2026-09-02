@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30573",
+    "arxiv_id": "2608.30573",
+    "arxiv_version": null,
+    "inspire_id": "3198019",
+    "doi": null,
+    "title_en": "NS-UNO: Neutron Star EoS Inference from an Unconstrained Number of Observations",
+    "abstract_en": "Future multimessenger observations of neutron stars (NS) are expected to substantially increase both the number and precision of astrophysical constraints on the equation of state (EoS) of dense matter. This motivates inference frameworks capable of accommodating a variable, non fixed number of observations while preserving the posterior information associated with each measurement. In this work, we introduce NS-UNO, a Neural Posterior Estimation framework for NS EoS inference designed to accommodate an Unconstrained Number of Observations (UNO). NS-UNO combines a hierarchical DeepSets model with a conditional normalising flow, enabling a single trained model to perform inference from mass-radius observation sets of varying size, with each observation represented by a set of posterior samples. We demonstrate accurate and well calibrated posterior reconstructions using a model trained jointly on piecewise polytropic and non-parametric Gaussian process EoS ensembles. The reconstruction improves as observations probe a broader range of NS masses, while remaining robust to variations in the number and precision of the observations. The model also generalises to EoSs outside the families used during training. Finally, we qualitatively demonstrate the framework on current multimessenger constraints from NICER and GW170817. NS-UNO provides a flexible and scalable approach to NS EoS inference, naturally suited to the increasingly diverse observational datasets expected from next generation multimessenger astronomy.",
+    "authors": [
+      "Carvalho, Valéria",
+      "Ferreira, Márcio",
+      "Bejger, Michał",
+      "Providência, Constança"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T07:26:26.454787Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198019",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198019",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3198019"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30416",
+    "arxiv_id": "2608.30416",
+    "arxiv_version": null,
+    "inspire_id": "3197989",
+    "doi": null,
+    "title_en": "Bias-Corrected Machine-Learning Estimation of Chiral Condensate Cumulants: A Retrospective Lattice QCD Case Study",
+    "abstract_en": "We present a retrospective case study of bias-corrected machine learning (ML) estimates of traces of the inverse Dirac operator, $\\text{Tr}\\,M^{-n}$ ($n=1,2,3,4$), using a fixed lattice QCD dataset and examining how the results depend on the relative proportions of the labeled and training sets. Two supervised learning approaches are examined: one using $\\text{Tr}\\,M^{-1}$ as the input feature, and the other employing gauge observables such as the plaquette and rectangle. Beyond the direct estimation of $\\text{Tr}\\,M^{-n}$, we further investigate two derived applications of the ML estimations: the evaluation of the cumulants of the chiral condensate within a single ensemble and that obtained through multi-ensemble reweighting across ensembles with different quark masses. Within this fixed dataset, the bias-corrected estimates show close agreement with the full-data reference under the adopted evaluation criteria, while the uncorrected estimates can exhibit amplified deviations after the nonlinear cumulant and reweighting steps. For the approach using $\\text{Tr}\\,M^{-1}$ as the input feature, nominal solve-count accounting suggests that the Dirac-inversion cost could be reduced to approximately $25.75\\%$ of that of the conventional calculation in the present setup. This value is a cost projection rather than an end-to-end benchmark: it assumes comparable costs for successive inversions and excludes model-training and analysis overhead.",
+    "authors": [
+      "Choi, Benjamin J.",
+      "Ohno, Hiroshi",
+      "Tomiya, Akio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T06:13:01.242940Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197989",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197989",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3197989"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

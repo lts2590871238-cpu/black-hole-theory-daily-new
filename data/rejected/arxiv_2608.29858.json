@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.29858",
+    "arxiv_id": "2608.29858",
+    "arxiv_version": null,
+    "inspire_id": "3197955",
+    "doi": null,
+    "title_en": "Decay versus dephasing in Rydberg analog optimization: exchange rate, mechanism, and schedule design",
+    "abstract_en": "Numerical studies of noisy Rydberg-atom optimization almost universally compress decoherence into a single scalar, silently pricing spontaneous decay ($Γ$) and dephasing ($γ$) alike. We treat the two as independent axes, mapping a quantum-annealing heuristic for unit-disk maximum independent set on 20 random $N=10$ graphs across the $(Γ,γ)$ plane, with the annealing time re-optimized at every point. The mean approximation ratio does collapse onto one scalar, but onto $u=κΓ+γ$ with $κ=8.05\\pm0.5$ (stat) $\\pm1.1$ (syst); the isotropic $Γ+γ$ fails by a factor of 30 in residual. First-order perturbation theory reproduces $κ$ from noiseless propagation alone and gives the mechanism: the objective is diagonal in the basis of the dephasing operator, so dephasing cannot change the answer once the drive is off, and a single driven atom already has $κ\\simeq8.5$. The exchange rate is thus a property of the protocol as much as of the platform: the ramp-down fraction moves it between 2.3 and 16.3. At a fixed schedule it is stable across system sizes, interaction strengths, and estimators. Because the whole cost model is noiseless, a schedule can be tuned to a device's channel mixture without any noisy simulation: jointly tuning the drive ramp-down and the sweep's detuning ramp recovers about a third of the Markovian damage at no hardware cost, and the ramp the noise-aware objective selects is not the one noiseless optimization would choose. Per unit rate decay is eightfold the dearer channel, but the measured $T_1$ enters weighted by its branching ratio to the ground state ($b\\approx0.4$ for the calibrated device), which leaves the two Lindblad channels comparably costly at a present-day operating point. One-parameter noise models remain serviceable, provided the parameter is $u$.",
+    "authors": [
+      "Kim, Seunghyeon",
+      "Jung, Junwoo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-30T00:00:00Z",
+    "updated_at": "2026-09-01T07:40:38.638808Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197955",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197955",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3197955"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

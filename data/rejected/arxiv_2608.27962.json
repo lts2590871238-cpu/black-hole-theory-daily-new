@@ -3,20 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.27962",
     "arxiv_id": "2608.27962",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3197438",
     "doi": null,
     "title_en": "Learning the averaged history of an inhomogeneous universe from its present day density field",
     "abstract_en": "In this work, we investigate whether machine learning can be used to infer averaged cosmological quantities directly from the present day matter density distribution. Using an implementation of the simplified silent universe framework, we generate a dataset consisting of 92610 independent relativistic, simplified cosmological simulations spanning a range of initial conditions and average cosmological parameters. We train a convolutional neural network to take the present-time matter density field as input and predict the averaged matter, cosmological constant, curvature, and kinematical backreaction density parameters as well as the Hubble parameter, at both initial and present time. The network achieves coefficients of determination exceeding 0.9 for all predicted quantities, with error distributions showing that only a small fraction of predictions reach percent-level errors or above. Although our use of the simplified silent universe approximation precludes direct application of the trained model to observational data, the results provide a proof-of-principle that neural networks can successfully recover averaged cosmological properties, including backreaction, at different epochs, simply from the late-time matter distribution. More broadly, our findings demonstrate that information about the averaged cosmological history of a universe is encoded in its present-time density field and can be extracted using machine learning techniques. This opens the possibility of applying similar approaches to more realistic cosmological simulations and observational probes such as N-body simulations and weak-lensing maps, ultimately providing a new avenue for constraining the large-scale evolution of the Universe.",
     "authors": [
-      "Jonas Broe Bendtsen",
-      "Sofie Marie Koksbang"
+      "Bendtsen, Jonas Broe",
+      "Koksbang, Sofie Marie"
     ],
-    "categories": [
-      "astro-ph.CO"
-    ],
+    "categories": [],
     "submitted_at": "2026-08-28T00:00:00Z",
-    "updated_at": "2026-08-31T08:33:46.461826Z",
+    "updated_at": "2026-09-01T04:29:01.281312Z",
     "document_types": [
       "article"
     ],
@@ -24,21 +22,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.27962v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.27962v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3197438",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2608.27962",
-        "fetched_at": "2026-09-01T01:52:54.677573Z",
-        "url": "https://arxiv.org/abs/2608.27962v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3197438",
-        "fetched_at": "2026-09-01T01:52:54.677573Z",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
         "url": "https://inspirehep.net/literature/3197438"
       }
     ],

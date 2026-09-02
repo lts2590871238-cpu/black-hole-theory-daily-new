@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30228",
+    "arxiv_id": "2608.30228",
+    "arxiv_version": null,
+    "inspire_id": "3198032",
+    "doi": null,
+    "title_en": "SpiderLS: Leveraging Full ZX Reduction for Lattice Surgery Compilation",
+    "abstract_en": "Lattice surgery compilation plays a central role in translating fault-tolerant quantum programs into efficient surface code realizations, where both spatial and temporal resources directly determine the cost of execution. Recent work has demonstrated the benefits of using ZX-diagrams as an intermediate representation for lattice surgery compilation, enabling semantics-preserving transformations that reduce spacetime cost. However, existing compilation restricts ZX reduction to preserve diagram structures that can be directly embedded as lattice surgery junctions. We present SpiderLS, which extends prior approach by leveraging full ZX reduction. To translate the resulting diagram into executable lattice surgery operations, SpiderLS applies a sequence of compiler passes that derives an execution order, generates target code by grouping compatible interactions into multi-target operations, and lowers the target code to Pauli-product measurements. The resulting explicit patch and Pauli-boundary requirements guide logical scheduling and structure-aware spacetime routing. Across representative algorithmic and random workloads, SpiderLS achieves average reductions of 49.2% in spacetime volume and 99.8% in compilation time compared with the prior ZX-based compiler.",
+    "authors": [
+      "Kim, Hyungseok",
+      "Lee, Changheon",
+      "Kim, Seungjik",
+      "Jang, Enhyeok",
+      "Kim, Youngmin",
+      "Choi, Seungwoo",
+      "Lee, Hanbit",
+      "Pyun, Sungho",
+      "Ro, Won Woo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T07:27:56.266911Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198032",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198032",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3198032"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

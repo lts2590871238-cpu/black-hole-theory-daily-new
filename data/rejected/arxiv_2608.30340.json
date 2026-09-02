@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30340",
+    "arxiv_id": "2608.30340",
+    "arxiv_version": null,
+    "inspire_id": "3197794",
+    "doi": null,
+    "title_en": "Exact quantum splitting and the structure of finite algebras",
+    "abstract_en": "Berlekamp's algorithm factors a squarefree polynomial $f\\in\\mathbb{F}_q[x]$ by deterministic linear algebra, reducing the problem to splitting an explicit commutative algebra $B\\cong\\mathbb{F}_q^r$ into its $r$ simple factors. For large odd $q$, the standard efficient splitting step is randomized, while known derandomizations are conditional on the Extended Riemann Hypothesis. We give an unconditional exact quantum implementation in a circuit model permitting single-qubit rotations through efficiently computable angles. The construction uses an unconditional counting argument. For a block containing $s\\ge2$ irreducible factors, a quadratic-character test in odd characteristic and an absolute-trace test in characteristic $2$ yield a nonconstant test element with probability $p_{q,s}\\ge\\tfrac12$, known exactly in advance and depending only on $q$ and $s$, not on the unknown factorization. Exact amplitude amplification therefore converts each randomized test into a procedure succeeding with certainty after one amplification iteration. The resulting algorithm uses exactly $r-1$ quantum splitting rounds and $O(n^3\\log q)$ quantum $\\mathbb{F}_q$-operations and $O(n^3)$ classical operations, requiring no primitive root, quadratic non-residue, or distinct-degree preprocessing. The method also splits arbitrary finite-dimensional separable commutative $\\\\mathbb{F}_q$-algebras given by structure constants. Combined with R'onyai's classical structure theory, which computes the radical deterministically and reduces the remaining tasks deterministically to polynomial factorization, it yields the radical and the Wedderburn decomposition of $A/\\mathrm{Rad}(A)$ into minimal two-sided ideals, with certainty, for any $n$-dimensional associative $\\mathbb{F}_q$-algebra given by structure constants, using $O(n^4\\log q)$ quantum $\\mathbb{F}_q$-operations.",
+    "authors": [
+      "Imran, Muhammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T07:37:54.883658Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197794",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197794",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3197794"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

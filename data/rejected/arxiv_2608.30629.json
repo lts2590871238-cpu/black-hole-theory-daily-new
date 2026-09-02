@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30629",
+    "arxiv_id": "2608.30629",
+    "arxiv_version": null,
+    "inspire_id": "3197793",
+    "doi": null,
+    "title_en": "Gate-Efficient Implementation of the Query-Optimal Time-Dependent Hamiltonian Simulation",
+    "abstract_en": "The query-optimal algorithm of [CGWZ26] for general time-dependent Hamiltonian simulation uses \n$$ q = O\\left( αT + \\frac{\\log(1/\\varepsilon)}{\\log\\left(e + \\log(1/\\varepsilon)/(αT) \\right)} \\right) $$\n queries to $\\mathrm{HAM\\mbox{-}T}$ within $\\varepsilon$ error for a Lipschitz-continuous time-dependent Hamiltonian $H(t)$ on $[0,T]$ satisfying $\\left\\lVert H(t)\\right\\rVert\\leqα$. However, its direct circuit implementation incurs a substantially larger gate overhead. In this note, we give an implementation of the same algorithm that retains its optimal query complexity and uses \n$$ O\\left[ q \\left( a + \\log\\left(1 + \\frac{T(α+ βT)}{\\varepsilon} \\right) \\right) \\right] $$\n one- and two-qubit gates, where $a$ is the number of block-encoding ancilla qubits and $β$ is the Lipschitz constant of $H$. The main ingredient is an exact dyadic factorization of the ordered update product in the underlying one-query transducer.",
+    "authors": [
+      "Chen, Boyang",
+      "Gao, Minbo",
+      "Ji, Zhengfeng",
+      "Li, Tongyang",
+      "Wang, Xinzhao",
+      "Zhou, Shuo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T07:37:29.333124Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3197793",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3197793",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3197793"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

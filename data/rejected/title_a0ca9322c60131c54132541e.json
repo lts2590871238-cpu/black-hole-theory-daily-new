@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:a0ca9322c60131c54132541e",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3198242",
+    "doi": null,
+    "title_en": "Machine Learning-Based Anomaly Detection for PMT Data Quality Monitoring in the SBN and DUNE",
+    "abstract_en": "Maintaining high-quality detector data is essential for achieving the scientific objectives of the Short-Baseline Neutrino (SBN) Program at Fermilab. Current data quality monitoring (DQM) procedures rely primarily on threshold-based metrics and manual inspection of detector monitoring plots, making the detection of subtle or gradually developing anomalies both time-consuming and dependent on expert interpretation. This project developed and evaluated a machine-learning workflow for automatically identifying anomalous photomultiplier tube (PMT) channels in the Short-Baseline Near Detector (SBND) using optical-hit amplitude data. A Python-based analysis program was developed to process ROOT files, extract statistical features describing individual PMT amplitude distributions, and generate feature vectors for anomaly detection. These features were used to train an Isolation Forest model using data representing normal detector operation. The trained model was subsequently applied to independent detector runs to identify channels exhibiting statistically unusual behavior relative to the learned reference response. To support expert interpretation, the workflow generated complementary diagnostic products, including anomaly score distributions, normalized amplitude comparisons, decision-tree visualizations, and principal component analysis (PCA) projections. This project demonstrated the feasibility of integrating unsupervised machine learning into detector data-quality monitoring and developed a complete workflow for automated PMT performance assessment to aid expert-driven review. Beyond its technical contributions, the VFP appointment fostered a research collaboration between Aurora University and Fermilab and provided direct workforce development benefits by training the visiting faculty member in detector-scale machine-learning methods that are now being incorporated into undergraduate coursework and research. The methodology developed here provides a foundation for future applications to ProtoDUNE and other liquid argon time projection chamber (LArTPC) detectors, contributing to ongoing efforts to improve detector reliability, reduce manual monitoring requirements, and enable scalable data quality monitoring for future large-scale neutrino experiments, including the Deep Underground Neutrino Experiment (DUNE).",
+    "authors": [
+      "Colón Santana, Juan A.",
+      "Betancourt, Minerba",
+      "Carrigan, Michael"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-01T10:25:52.943641Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198242",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198242",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3198242"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

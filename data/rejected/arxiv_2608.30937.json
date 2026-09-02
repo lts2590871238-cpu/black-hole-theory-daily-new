@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.30937",
+    "arxiv_id": "2608.30937",
+    "arxiv_version": null,
+    "inspire_id": "3198195",
+    "doi": null,
+    "title_en": "Constrained minimax approximation for quantum signal processing",
+    "abstract_en": "Quantum signal processing (QSP) provides a simple and efficient framework for implementing polynomial transformations using quantum circuits. Its classical design stage leads to a constrained minimax approximation problem: find a polynomial of prescribed parity that approximates a target function uniformly on a fitting set while remaining bounded in magnitude by one on the domain $[0,1]$, which can be viewed as a semi-infinite constraint. Discretization converts the problem into a linear program, but feasibility at a set of finitely many sampled points does not ensure feasibility on the whole domain, especially when an optimal approximant reaches the boundary of the feasible set. We investigate two approaches to address this difficulty. A Remez exchange method combined with active-set constraint enforcement is efficient on many tested instances, but its stability depends on the target and problem geometry. We then introduce nonlinear Fourier retraction, which uses QSP completion and phase synthesis to turn a nearly feasible polynomial into phase factors for a feasible QSP polynomial without increasing the degree. Across representative problems, retraction largely preserves approximation accuracy and remains effective on instances where the Remez heuristic is unstable. The resulting workflow connects classical minimax approximation and semi-infinite optimization with nonlinear Fourier analysis, and is implemented in the qsppack software package.",
+    "authors": [
+      "Dong, Yulong",
+      "Larsen, James B.",
+      "Lin, Lin",
+      "Sarkar, Rahul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-01T12:14:54.955612Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198195",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198195",
+        "fetched_at": "2026-09-02T01:07:18.074811Z",
+        "url": "https://inspirehep.net/literature/3198195"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
