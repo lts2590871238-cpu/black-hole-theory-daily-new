@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01297",
+    "arxiv_id": "2609.01297",
+    "arxiv_version": null,
+    "inspire_id": "3198561",
+    "doi": null,
+    "title_en": "A Scalable Multi-Protocol Platform for Quantum Key Distribution Simulation with Rigorous Statistical Evaluation",
+    "abstract_en": "Quantum Key Distribution (QKD) offers information- theoretically secure key establishment grounded in the laws of quantum physics, yet its practical reach is limited by the prohibitive cost of photonic hardware and the fragmented nature of existing simulation tools. Most simulators support only a single protocol and report results from individual stochastic runs, making systematic protocol comparison and reproducible statistical inference difficult. This paper presents a unified QKD simulation platform that implements four foundational protocols BB84, B92, E91, and BBM92 within a single Python/Qiskit engine. A shared impairment model covers fiber attenuation, source and detector losses, po- larization drift, and configurable intercept-resend eavesdropping. The platform is accessible through two independent interfaces that share the same backend: a desktop application (Tkinter, Matplotlib) for local experimentation and a browser-based web client (React, Node.js/Express) for zero-install remote access. All reported results are drawn from repeated-run studies (20 independent runs, 10000 qubits each), with mean, standard deviation, and 95% confidence intervals stated throughout. At a 25 km fiber link, BB84 achieves the highest mean key-rate of 160,045 Hz, followed by BBM92 (80023 Hz), E91 (52815 Hz), and B92 (40011 Hz) ordering that tracks simulation-derived sifting efficiencies precisely. Under the E91 protocol, the CHSH S-statistic averages 2.12 at baseline and falls to 1.58 when an eavesdropper is activated, demonstrating Bell-inequality-based intrusion detection independent of QBER",
+    "authors": [
+      "Rathore, Anuj",
+      "Sutradhar, Kartick"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T09:05:49.908287Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198561",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198561",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198561"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01181",
+    "arxiv_id": "2609.01181",
+    "arxiv_version": null,
+    "inspire_id": "3198738",
+    "doi": null,
+    "title_en": "Quantum LDPC and High-Rate CSS Codes from Fair-Density Parity-Check Codes",
+    "abstract_en": "We construct quantum LDPC (qLDPC) and high-rate CSS codes from our recently introduced classical fair-density parity-check (FDPC) codes. To this end, we introduce a structured sparsification of FDPC parity-check matrices, which reduces their check weights while preserving the underlying combinatorial structure and distance guarantees. Combined with the hypergraph-product construction, this yields finite-length qLDPC codes with analytically controlled blocklength, dimension, certified distance, and stabilizer weight. For quantum blocklengths $N<10^5$, the constructions introduced here span guaranteed rates from approximately $0.35\\%$ to $25.8\\%$ and certified quantum distances from $12$ to $69$, with stabilizer weights between $8$ and $16$. In the large-blocklength regime, allowing the FDPC order and sparsified check weight to scale moderately with blocklength yields a family of high-rate CSS codes, which we refer to as quantum FDPC (qFDPC) codes, with rate $R_Q$ and minimum distance $D$ satisfying \n\\[ R_Q = 1-O\\left(\\frac{1}{\\log\\log N}\\right), \\ \\ D=Ω(N^{1/4}), \\]\n and stabilizer weight $O(\\log N\\log\\log N)$. Finally, the analytically available FDPC weight distribution provides explicit information about the logical operators of the resulting hypergraph-product codes. Over the quantum erasure channel, this structure yields rigorous first-order maximum likelihood (ML) expressions and a higher-order weight-distribution approximation to the ML logical block error probability. This enables estimation of finite-length operating points and the onset of the error-floor regime. To the best of our knowledge, beyond surface-code-type constructions, this is the first finite-rate qLDPC framework to provide both finite-length certified minimum-distance information and an analytical characterization of low-weight logical multiplicities.",
+    "authors": [
+      "Mahdavifar, Hessam"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T08:21:29.014724Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198738",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198738",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198738"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

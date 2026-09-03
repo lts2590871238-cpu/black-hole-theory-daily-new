@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.chaos.2026.119035",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3198845",
+    "doi": "10.1016/j.chaos.2026.119035",
+    "title_en": "Physics-informed quantum multi-task neural networks for Hamiltonian optimal control",
+    "abstract_en": "Optimal control of nonlinear dynamical systems remains computationally challenging when classical methods such as Pontryagin’s Maximum Principle (PMP) or dynamic programming are applied to high-dimensional problems. Recent learning-based approaches, including multi-task neural networks, have shown promise by simultaneously approximating the state, control, and adjoint dynamics governed by the PMP conditions. In this work, we extend the paradigm to the quantum domain and propose a physics-informed quantum multi-task neural networks (Q-MTNNs) framework for solving Hamiltonian optimal control problems. The architecture integrates a parameterized quantum circuit with a shared classical decoder that jointly learns the state, adjoint, and control variables within a unified hybrid optimization loop. Motivated by a structural analogy with the operator-valued Pontryagin principle for quantum systems, the Hamiltonian optimality condition is enforced through expectation values read out from the quantum circuit; this analogy is a modelling device rather than a new optimal-control theory for the classical SIR dynamics. The hybrid loss enforces the state dynamics, adjoint equations, stationarity conditions, and a trajectory-consistency term making the reported cost physically achievable. Numerical experiments on two SIR epidemic models show that the Q-MTNNs achieved cost lies within 0.1% of the forward–backward sweep optimum on the vaccination-treatment model and 18.8% above it on the single-control model, with far fewer parameters than deep classical networks and a comparable budget to Fourier- and random-feature baselines. The study establishes parameter efficiency and physical consistency; it does not claim a quantum-computational advantage, which would require hardware execution and is identified as future work.",
+    "authors": [
+      "Vijayaram, S.",
+      "Balasubramaniam, P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T14:03:55.741706Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "212, 119035, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212853'}, Chaos Solitons Fractals"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198845",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198845",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198845"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

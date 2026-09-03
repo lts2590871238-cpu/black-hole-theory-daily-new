@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01121",
+    "arxiv_id": "2609.01121",
+    "arxiv_version": null,
+    "inspire_id": "3198760",
+    "doi": null,
+    "title_en": "Sentinel-Based Failover for QKD-Augmented IPsec Tunnels",
+    "abstract_en": "Quantum-safe IPsec through hybrid key establishment is practical, but creates a critical operational challenge: how to maintain tunnel availability when the QKD infrastructure becomes unavailable. In this paper, we present the design, implementation, and experimental evaluation of a quantum-safe key establishment mechanism for an IPsec tunnel that combines X25519, ML-KEM, and ETSI GS QKD 014 keys through the RFC 9370 multiple key exchange mechanism, and that degrades gracefully when the QKD key delivery fails. Our open-source StrongSwan plugin uses a sentinel-based coordination protocol, thereby permitting us to complete the handshake even if the QKD leg fails, instead of aborting, restoring the QKD share at the next rekey. On a testbed connected to a metropolitan QKD link over 33 km of deployed fiber, we evaluated five configurations, from a classical X25519 with RSA baseline to a hybrid one that adds ML-KEM-1024 and a QKD key. The full hybrid authentication costs 103 ms against 61 ms for the baseline, the QKD retrieval itself adds only about 7 ms. Failure injection experiments confirm that the tunnel survives a complete KME outage without any interruption of the protected traffic.",
+    "authors": [
+      "Hernandez-Hernandez, Juan Carlos",
+      "Vista, Francesco",
+      "Abreha, Haftay Gebreslasie",
+      "Bedhief, Intidhar",
+      "Koudia, Seid",
+      "Chatzinotas, Symeon"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T09:01:57.382452Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198760",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198760",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198760"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

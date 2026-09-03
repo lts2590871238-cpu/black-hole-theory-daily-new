@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.00339",
+    "arxiv_id": "2609.00339",
+    "arxiv_version": null,
+    "inspire_id": "3198430",
+    "doi": null,
+    "title_en": "A Fast and Scalable Transformer Pipeline for Binary Black Hole Detection",
+    "abstract_en": "With the projected increase in the detection rate of compact-binary coalescences in the coming decade, there is critical need to develop fast, robust, and scalable alternatives to matched filtering for gravitational-wave searches. Transformer models have revolutionized natural language and audio processing but their application to gravitational-wave astronomy is still largely unexplored. In this work, we introduce \\castor, a transformer-based coincident search pipeline for detecting binary black hole gravitational-wave signals from Advanced LIGO detectors. One of the major features of our model is that it allows the false-alarm rate to be estimated via time slides cheaply without requiring repeated evaluations of the neural network. We evaluate \\castor on datasets from the Machine-Learning Gravitational-Wave Search Challenge (MLGWSC-1) and on approximately five months of real O3b observing strain. When tested on benchmark datasets, \\castor ranks among the most sensitive machine-learning pipelines and successfully recovers the majority of confident events from the GWTC-3 catalog that lie within its training range. We also benchmark \\castor against another transformer architecture, GW-Whisper, a domain-adaptation of OpenAI's audio foundation model. We find that \\castor substantially outperforms the repurposed audio model in sensitivity and also reduces the computational cost of background estimation by a factor of 20. Our results demonstrate a highly practical, scalable approach for deep-learning gravitational wave searches and empirical background estimation for future observing runs.",
+    "authors": [
+      "Chatterjee, Chayan",
+      "Petulante, Abigail",
+      "Fu, Haowei",
+      "Hu, Yang",
+      "Lau, Roy",
+      "Jani, Karan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-02T13:59:13.961904Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198430",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198430",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198430"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

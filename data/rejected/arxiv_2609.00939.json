@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.00939",
+    "arxiv_id": "2609.00939",
+    "arxiv_version": null,
+    "inspire_id": "3198504",
+    "doi": null,
+    "title_en": "Robust CZ gate against flux line memory",
+    "abstract_en": "High-fidelity CZ gates are central to superconducting quantum processors, but implementations based on flux tuning are still sensitive to pulse distortion. Conventional predistortion, typically used for an isolated gate, can recover the desired flux at the chip but it fails if the flux line memory exists, causing the fidelity of repeated CZ gates to drop rapidly. To address this issue, we model the flux line distortion as the dynamics of a stateful classical actuator coupled to a quantum system. Using a first-order Dyson expansion, we derive the error generators induced by variations in the initial flux-line state. We then design a robust CZ gate by optimizing the flux pulse to suppress these generators and minimize the residual flux line state at the gate exit. A one-pole flux line model shows the expected first-order robustness plateau. For a more practical three-pole model, the optimized CZ pulse achieves $F_{\\mathrm{avg}}=99.998\\%$, suppresses all first-order error generators, and brings the residual flux line state close to zero. With no additional waiting time between gates, our robust pulse achieves $F_{\\mathrm{avg}}=99.97\\%$ for the complete ten-gate sequence and reduces the sequence infidelity by a factor of about $2.3\\times10^{3}$ relative to the baseline under the same predistortion protocol. These results show that explicitly accounting for flux line memory maintains high-fidelity CZ operation across repeated gate sequences and addresses a key limitation of conventional predistortion.",
+    "authors": [
+      "Song, Yao",
+      "Deng, Xiu-Hao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T09:06:07.531102Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198504",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198504",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198504"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

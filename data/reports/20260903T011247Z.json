@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-09-03T01:12:47.632816Z",
+  "completed_at": "2026-09-03T01:17:20.800520Z",
+  "status": "degraded",
+  "fetched_arxiv": 0,
+  "fetched_inspire": 800,
+  "normalized": 800,
+  "deduplicated": 800,
+  "candidates": 26,
+  "selected": 23,
+  "review_queue": 2,
+  "rejected": 774,
+  "llm_calls": 10,
+  "cached_decisions": 15,
+  "errors": [
+    "arXiv data source temporarily unavailable: 503 Server Error: Service Unavailable for url: https://export.arxiv.org/api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+    "doi:10.1016/j.physa.2026.131964: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 211 个非空白字符"
+  ]
+}

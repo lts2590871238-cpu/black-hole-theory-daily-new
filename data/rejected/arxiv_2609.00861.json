@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.00861",
+    "arxiv_id": "2609.00861",
+    "arxiv_version": null,
+    "inspire_id": "3198858",
+    "doi": null,
+    "title_en": "Low-Thrust Trajectory Optimization with Quantum Computing and Sequential Convex Programming",
+    "abstract_en": "Low-thrust trajectory optimization is a central task in interplanetary mission design, but its nonlinear dynamics and operational constraints often lead to challenging non-convex optimal-control problems. Sequential convex programming has emerged as an effective approach to address these problems, while quantum annealing offers a complementary paradigm for solving quadratic unconstrained binary optimization problems. This paper introduces quSCP, a quantum-based sequential convex programming framework that reformulates each convex subproblem as a quadratic unconstrained binary optimization problem suitable for quantum and hybrid quantum--classical solvers. Equality, inequality, and trust-region constraints are embedded through quadratic penalty terms, while an iterative refinement strategy is used to reduce the accuracy loss introduced by binary discretization. The method is assessed on a fuel-optimal Earth--Mars low-thrust transfer by comparing standard sequential convex programming, a continuous quadratic unconstrained formulation, direct quantum processing unit sampling, and D-Wave hybrid solvers. Results show that quSCP produces physically consistent trajectories with propellant consumption and nonlinear constraint violations close to classical benchmarks. Direct quantum annealing is feasible only for small instances because of embedding overhead and hardware connectivity limits, whereas hybrid solvers scale to larger discretizations. Although no computational quantum advantage is demonstrated with current hardware, the results show that quantum and hybrid quantum--classical optimization can already provide competitive solutions for demanding trajectory design problems.",
+    "authors": [
+      "Giordano, Carmine"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T14:11:28.194256Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198858",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198858",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198858"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

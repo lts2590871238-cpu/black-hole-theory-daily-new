@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.00094",
+    "arxiv_id": "2609.00094",
+    "arxiv_version": null,
+    "inspire_id": "3198356",
+    "doi": null,
+    "title_en": "Modernization and Statistical Validation of a Multilayer TRIM.SP Code for Low-Energy Muon and Ion Implantation",
+    "abstract_en": "We describe the staged modernization of a local multilayer TRIM.SP implementation, denoted TRIM.SP-NL. The work included behavior-preserving refactoring, correction of localized bookkeeping and initialization defects, support for more than five elements per layer, reproducible build modes, and a runtime-selectable random-number-generator (RNG) interface. The RANLUX RNG remains the default reference backend, while PCG32 and xoshiro256** provide faster alternatives without changing the input-deck format. The code validation combined exact regression testing with statistical comparisons over 13 representative target multilayer configurations, comprising 143 energy-configuration points per backend and 429 simulations in total. Across the test suite, PCG32 and xoshiro256** reduced runtime by factors of 1.98 and 2.01, respectively. The implanted, backscattered, and transmitted fractions, as well as the mean implantation depths, range straggling, and representative depth profiles showed no systematic RNG dependence. Together with a Node.js-based graphical interface for setup, scans, and result collection, the Fortran engine forms the open-source TRIM.SP-NL Workbench.",
+    "authors": [
+      "Salman, Zaher",
+      "McFadden, Ryan M.L.",
+      "Prokscha, Thomas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-02T13:57:50.713786Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198356",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198356",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198356"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

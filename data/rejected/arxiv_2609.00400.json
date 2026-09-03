@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.00400",
+    "arxiv_id": "2609.00400",
+    "arxiv_version": null,
+    "inspire_id": "3198299",
+    "doi": null,
+    "title_en": "Client-side transparent caching for remote ROOT data analysis",
+    "abstract_en": "High-energy physics analyses often process the same data as physicists refine algorithms and test new ideas. With data increasingly read from remote storage, each iteration is subject to network latency and depends on network bandwidth and shared-storage throughput, which can vary substantially under load. We present uCache (xrd-ucache), a transparent client-side cache implemented as an XRootD client plugin that requires neither server-side deployment nor changes to analysis code. It uses local storage on the analysis machine as a cache layer between the network and memory. The cache stores only the data actually read by an analysis. It can also rebuild cached data into a branch-aligned, recompressed form, eliminating most of the input/output and decompression costs of subsequent passes. We benchmark the cache using the Analysis Grand Challenge top quark pair analysis on public CMS Open Data compressed with zlib and LZMA. Filling the cache adds essentially no overhead compared with a direct read. Subsequent passes are 1.6-8.8 times faster from the byte cache and 2.1-15.7 times faster from the recompressed cache. For a typical analysis, a 1 TB cache suffices for datasets of 10-20 TB. The largest improvements occur when the remote data source is heavily loaded or geographically distant.",
+    "authors": [
+      "Kovalskyi, Dmytro",
+      "Eysermans, Jan",
+      "D'Alfonso, Mariarosaria",
+      "Paus, Christoph"
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-02T09:03:53.289526Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198299",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198299",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198299"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

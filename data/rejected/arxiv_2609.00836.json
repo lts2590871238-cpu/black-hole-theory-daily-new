@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.00836",
+    "arxiv_id": "2609.00836",
+    "arxiv_version": null,
+    "inspire_id": "3198487",
+    "doi": null,
+    "title_en": "Neural-Network-Based Variational Method in Nuclear Density Functional Theory: Application to the Kohn--Sham method",
+    "abstract_en": "We extend the neural-network-based variational method for nuclear density functional theory to the Kohn--Sham scheme, representing the complex spinor components of the single-particle orbitals by multi-layer perceptrons. We show that neural-network optimization of a given energy density functional, combined with an orthonormalization post-processing step, is mathematically equivalent to the variational condition projected onto the tangent space of the wave-function manifold spanned by the network parameters, and that the training optimizes not only the expansion coefficients but also the basis functions themselves. We assess the method from three points of view. In the first place, we examine how the results depend on the number of units, the number of layers, and the arithmetic precision, and find that quantitative accuracy requires both a sufficient width and a sufficient depth, while single-precision arithmetic is sufficient to represent the nuclear density distribution. In the second place, the binding energies and charge radii of several closed-shell nuclei agree with conventional Skyrme--Hartree--Fock results, and the quadrupole deformations of open-shell nuclei are consistent with reference calculations that include pairing and with experiment. In the third place, we confirm that a neural-network single-particle basis can represent the three-dimensional configurations of the fundamental pasta phases: spheres, rods, and slabs. The framework offers a new perspective on computational nuclear theory, well suited to the forthcoming generation of GPU- and AI-oriented high-throughput supercomputers.",
+    "authors": [
+      "Yoshimura, Kenta",
+      "Sekizawa, Kazuyuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-02T09:05:16.952088Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198487",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198487",
+        "fetched_at": "2026-09-03T01:12:47.632816Z",
+        "url": "https://inspirehep.net/literature/3198487"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
