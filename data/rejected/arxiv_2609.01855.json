@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01855",
+    "arxiv_id": "2609.01855",
+    "arxiv_version": null,
+    "inspire_id": "3198971",
+    "doi": null,
+    "title_en": "Blast.jl: Differentiable Non-Limber Power Spectra for Joint Clustering, Shear, and CMB lensing Analyses",
+    "abstract_en": "Upcoming large-scale structure surveys require accurate theoretical predictions for angular power spectra on the largest angular scales, where the commonly used Limber approximation breaks down and multiple relativistic and observational effects become relevant. At the same time, modern cosmological analyses increasingly rely on gradient-based inference techniques, motivating the development of fast, fully differentiable algorithms. In this work, we present a major extension of Blast.jl, a numerical toolkit for the efficient computation of non-Limber angular power spectra. Building on the Chebyshev-polynomial decomposition of the original framework, the updated algorithm incorporates redshift-space distortions, magnification bias, primordial non-Gaussianity, intrinsic alignments, CMB lensing, and the integrated Sachs-Wolfe effect, while remaining fully differentiable through custom automatic differentiation rules. Despite the increased physical complexity, the algorithm retains favorable scaling by precomputing all cosmology-independent quantities. We validate the expanded framework against brute-force integration and established cosmological codes, and provide a detailed analysis of the trade-off between computational speed and precision as a function of the algorithm hyperparameters. We demonstrate the readiness of Blast.jl for gradient-based inference through a simulated likelihood analysis with LSST Y10-like mock data, recovering unbiased cosmological and nuisance parameter constraints from a 35-parameter model using gradient-based samplers.",
+    "authors": [
+      "Chiarenza, Sofia",
+      "Bonici, Marco",
+      "Camera, Stefano",
+      "Fabbian, Giulio",
+      "García-García, Carlos",
+      "Krolewski, Alex",
+      "Percival, Will J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-03T11:06:20.614167Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198971",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198971",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3198971"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

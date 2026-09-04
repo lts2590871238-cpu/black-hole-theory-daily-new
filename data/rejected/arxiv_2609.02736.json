@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.02736",
+    "arxiv_id": "2609.02736",
+    "arxiv_version": null,
+    "inspire_id": "3198899",
+    "doi": null,
+    "title_en": "QArray+: A physics-informed GPU-accelerated simulator for quantum dot arrays",
+    "abstract_en": "Semiconductor quantum-dot arrays are a compelling platform for scalable quantum technologies, yet their practical operation is hindered by the complexity of tuning large-scale devices. Existing automation tools rely on simplified physical models---such as constant-capacitance approximations and equilibrium Hubbard models---which assume instantaneous relaxation to a steady state. These frameworks fail in experimentally critical regimes where measurement rates exceed tunneling dynamics, necessitating more sophisticated non-equilibrium control strategies. To bridge this gap, we introduce QArray+, an extension of the QArray framework that incorporates gate-dependent tunnel coupling and a quantum open-system description of dissipative processes. This approach enables the unified simulation of coherent interdot charge-state hybridization and the non-equilibrium latching dynamics essential for training robust machine-learning models for automated device operation. Implemented in JAX with GPU acceleration, QArray+ scales across GPUs and multi-node systems. For example, a charge stability diagram for a 100X100 grid of gate voltages over 64 dots can be computed in $\\sim0.17\\,\\mathrm{s}$ on multiple GPUs. Since interdot interactions are short-ranged and the corresponding tuning corrections are local, simulations at these scales capture the physics relevant to even larger devices. These capabilities support high-throughput dataset generation for automated device tuning.",
+    "authors": [
+      "Vaidhyanathan, Pranav",
+      "van Straaten, Barnaby",
+      "Petrillo, Alice",
+      "Marchand, Rahul",
+      "De Nicolo, Edwin",
+      "Veldhorst, Menno",
+      "Khailany, Brucek",
+      "Patti, Taylor L.",
+      "Ares, Natalia"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-03T11:08:28.572454Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198899",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198899",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3198899"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

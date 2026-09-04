@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01771",
+    "arxiv_id": "2609.01771",
+    "arxiv_version": null,
+    "inspire_id": "3198897",
+    "doi": null,
+    "title_en": "GadIR: A Spatial-Topology Preserving Compiler for Quantum Many-Body Systems Simulation",
+    "abstract_en": "Simulating quantum many-body systems has been one of the most important applications of quantum computation. For simulation, the Hamiltonian of a physical system is compiled into quantum programs with native instructions for quantum hardware. In previous works, the Hamiltonian is represented as Pauli strings, then compiled and optimized based on the quantum circuit model. Such representation paradigm neglects the spatial topology of original physical models, which is vital information to reducing the overhead of compiling many-body systems Hamiltonians. To address such neglect, we introduce a spatial-topology preserving compiler for quantum many-body simulation. Using Pauli gadgets as the representations of the Hamiltonian, we introduce our intermediate representation -- GadIR, to preserve the spatial-topology information of original physical models. Our compiler frontend performs the group reduction algorithm based on Pauli gadget model, which is a hardware-independent optimization. Our compiler backend performs trotterization and scheduling on Pauli gadgets, then synthesizes the Pauli gadgets into hardware-native quantum programs. We evaluate our compiler on all the canonical quantum many-body system models, while achieving a significant reduction on compilation overhead regarding four major quantum architectures. Overall, our spatial-topology preserving IR exploits the compilation optimization space for quantum many-body systems Hamiltonian.",
+    "authors": [
+      "Ren, Xiangyu",
+      "Huang, Yuexun",
+      "Yang, Zhaohui",
+      "Zhu, Yuchen",
+      "Huang, Tsung-Wei",
+      "Ho, Tsung-Yi",
+      "Liang, Zhiding",
+      "Barbalace, Antonio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-03T11:08:40.427420Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198897",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198897",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3198897"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.02323",
+    "arxiv_id": "2609.02323",
+    "arxiv_version": null,
+    "inspire_id": "3199155",
+    "doi": null,
+    "title_en": "Quantum Workload Privacy Beyond Data Confidentiality",
+    "abstract_en": "Remote quantum computing exposes a confidentiality gap. Standard privacy mechanisms protect quantum states and outputs, but not the scientific structure of a workload. This work reveals that hardware-aware compilation leaves observable signatures, such as routing overhead, circuit depth, and gate composition, that correlate with hidden modelling choices like partial differential equation boundary conditions, discretisation scale, and molecular geometry. The leakage arises from the mismatch between logical topology and fixed hardware connectivity, forcing problem-dependent SWAP insertion. We formalise this threat as Scientific-Intent Indistinguishability and prove that passive security is asymptotically unachievable under routing-optimal compilation. Experiments on a 156-qubit IBM Heron processor achieve near-perfect classification of boundary regimes and molecular geometries, with leakage generalising across solver families via routing-scaling exponents. Conventional gate-padding fails as a defence, causing fidelity drops without reducing adversarial advantage. Our results show that protecting quantum data alone is insufficient; execution-level confidentiality must become a first-class design requirement.",
+    "authors": [
+      "Pawar, Shaunak Suresh",
+      "Punch, Samuel",
+      "Guha, Krishnendu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-03T06:36:33.452231Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199155",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199155",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3199155"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

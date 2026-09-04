@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.02361",
+    "arxiv_id": "2609.02361",
+    "arxiv_version": null,
+    "inspire_id": "3199018",
+    "doi": null,
+    "title_en": "DMRG using Belief Propagation",
+    "abstract_en": "Tensor networks have attracted much attention as a powerful tool for modeling quantum many-body systems. Their contraction is a significant challenge, however, especially in highly connected networks, as memory requirements become prohibitive and the optimal contraction order is increasingly hard to find. The belief propagation (BP) algorithm has emerged as an alternative to exact contraction. Being formulated in a graph-agnostic way, it offers great flexibility, but its accuracy suffers in the presence of loops. In this work, we combine BP with the DMRG algorithm to solve ground-state problems, thereby extending DMRG to higher dimensions and arbitrary lattices. We demonstrate the viability of BP-DMRG on the transverse-field Ising model on a $2\\times 2$ hexagonal lattice, finding that it produces states with a fidelity between $0.9$ and $0.99$ to the true ground state, and energy estimates with a relative error between $10^{-2}$ and $10^{-3}$. Additionally, BP-DMRG can find ground states on randomly generated lattices, with fidelity improving as the transverse field increases. We conclude with a discussion of the limitations we encounter when using belief propagation, highlighting that the TFI tensor network operators lead to larger errors during BP iterations in BP-DMRG.",
+    "authors": [
+      "Kühne, Hendrik",
+      "Mendl, Christian B."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-03T12:27:32.165286Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199018",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199018",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3199018"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

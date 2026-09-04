@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.02139",
+    "arxiv_id": "2609.02139",
+    "arxiv_version": null,
+    "inspire_id": "3198906",
+    "doi": null,
+    "title_en": "A variational quantum eigensolver-based cutting plane framework for semidefinite programming problems",
+    "abstract_en": "Semidefinite programming plays a key role in optimization, with broad impact across control theory, machine learning, and combinatorial optimization. Although semidefinite programs are polynomially solvable, several commonly used algorithms rest on a linear-algebraic step whose running time grows cubically with the matrix dimension and which requires the matrix itself to be held in memory, at quadratic cost. In this study, we propose replacing it with a variational quantum eigensolver, whose qubit requirement is logarithmic in the matrix dimension, and present the first end-to-end implementation of such an approach within a cutting-plane framework, together with an operator-derived ansatz whose entanglement structure is read directly from the Pauli support of the candidate matrix. Evaluated on the control family of SDPLIB against an identical scheme driven by an exact eigendecomposition, the variational oracle produces valid cuts throughout, closing 32 to 82% of the initial optimality gap against a near-constant 75 to 82% for the exact oracle. Implementing and measuring the method end to end surfaces several effects not visible from theoretical analyses alone: where memory is actually consumed, how the padding required to fit a matrix onto a quantum register can mislead the variational optimizer, and why the candidate matrices prove dense in the Pauli basis, reducing the operator-derived ansatz to full entanglement. We report these findings and discuss their implications for near-term hybrid quantum-classical approaches.",
+    "authors": [
+      "Ozbaygin, Gizem",
+      "Kocuk, Burak",
+      "R, Diego A. Moran"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-03T11:10:20.159131Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198906",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198906",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3198906"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

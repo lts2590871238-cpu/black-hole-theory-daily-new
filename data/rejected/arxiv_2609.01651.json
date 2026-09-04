@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01651",
+    "arxiv_id": "2609.01651",
+    "arxiv_version": null,
+    "inspire_id": "3198962",
+    "doi": null,
+    "title_en": "Parameter inference from a non-stationary unknown process using statistical feature-based slow feature analysis",
+    "abstract_en": "Non-stationary phenomena are ubiquitous, with examples to be found in climatological measurements, brain activity, and the behavior of financial markets. Starting with a time series from a non-stationary process, a key challenge is to infer the time-varying parameters that underlie the non-stationarity in these systems, without requiring a generative model of the dynamics to be learned. This problem is referred to as Parameter Inference from a Non-stationary Unknown Process (PINUP). Here we introduce a PINUP method called feature-based Slow Feature Analysis (f -SFA) comprising the computation of time-series features across sliding windows, followed by dimension reduction using slow feature analysis (SFA). This allows us to detect slow variation in a potentially wide range of statistical properties of the measured dynamics on a timescale determined by the window length. Crucially, using a comprehensive time-series feature set avoids the subjectivity of feature selection, while the SFA slowness constraint overcomes the bias towards irrelevant correlated features seen with variance-based dimension reduction. The performance of f -SFA surpasses that of four benchmark PINUP methods across a diverse range of non-stationary chaotic processes, and we explore the impact of various parameters on performance, including observation noise, parameter timescales, parameter amplitudes, and unseen parameter values. Further, applying f -SFA to sleep polysomnography data, we show that it is able to infer a time-varying parameter underlying the non-stationary sleep recordings that closely tracks depth of sleep. To our knowledge, this work presents the first comparative study of PINUP methods, and we demonstrate that f -SFA is a simple, effective, and noise-robust approach for quantifying non-stationarity from time series, that can be applied in a range of fields.",
+    "authors": [
+      "Owens, Kieran S.",
+      "Tamaki, Masako",
+      "Fulcher, Ben D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-08-31T00:00:00Z",
+    "updated_at": "2026-09-03T12:29:07.049966Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198962",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198962",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3198962"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

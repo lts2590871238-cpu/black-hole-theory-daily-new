@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01713",
+    "arxiv_id": "2609.01713",
+    "arxiv_version": null,
+    "inspire_id": "3198921",
+    "doi": null,
+    "title_en": "One-cycle radiation-reaction Magnusian for eccentric binaries through relative 1PN order",
+    "abstract_en": "We derive the one-cycle first Magnusian for nonspinning compact binaries on planar, bound eccentric orbits through relative first post-Newtonian (1PN) order and linear order in radiation reaction, and construct the associated first-order periastron return map. Combining the conservative 1PN dynamics and its Jacobi transport with the 2.5PN and 3.5PN radiation-reaction forces, we obtain all four components in closed form for \\(0<e<1\\), without expanding in eccentricity. The dependence on all eight Iyer--Will radiation-reaction gauge parameters reduces to periodic coboundaries and therefore cancels over a radial cycle. The result reproduces the averaged energy and angular-momentum losses, their circular limit, and the secular evolution of the 1PN radial orbital elements. The two remaining components encode the dissipative angle-sector information. Projecting the resulting phase-space update onto the perturbed periastron return section yields the corrections to the return time and apsidal phase. We then compare the strict first-order map with a partially exponentiated map built from the same Magnusian. The comparison is observable dependent: at fixed periastron index, the strict map gives smaller residuals for a representative evolution over 40 radial cycles, whereas partial exponentiation reduces the accumulated periastron-timing residual by about an order of magnitude. Across a representative one-cycle grid at equal masses, partial exponentiation improves the radial-action and energy updates at every sampled point.",
+    "authors": [
+      "Placidi, Andrea"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-03T11:04:20.617471Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3198921",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3198921",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3198921"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "timing residual"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 24,
+      "methodological_rigor": 15,
+      "novelty": 12,
+      "clarity": 7,
+      "metadata_quality": 8,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 72,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文与脉冲星计时阵列直接相关，因为它提出了对偏心双星系统近心点返回映射的精确计算方法，这对引力波和定时残差的建模至关重要。理论深度高，提供了闭式解和残差比较。",
+    "title_zh": "相对1PN阶偏心双星系统的单周期辐射反应Magnusian",
+    "abstract_zh": "我们推导了非自旋致密双星在平面、束缚偏心轨道上，通过相对一阶后牛顿(1PN)阶和辐射反应线性阶的单周期一阶Magnusian，并构建了相应的一阶近心点返回映射。结合1PN保守动力学及其Jacobi输运与2.5PN和3.5PN辐射反应力，我们在不展开偏心率的情况下，对所有0<e<1的情形获得了所有四个分量的闭式解。对所有八个Iyer–Will辐射反应规范参数的依赖简化为周期上边界，因此在一个径向周期内被消除。该结果重现了平均能量和角动量损失、它们的圆轨道极限以及1PN径向轨道要素的长期演化。剩余的两个分量编码了耗散角度扇区信息。将得到的相空间更新投影到受扰动的近心点返回截面，得到返回时间和近心点相位的修正。然后，我们将严格的一阶映射与由相同Magnusian构建的部分指数化映射进行比较。该比较是依赖观测量的：在固定近心点指数下，对于具有代表性的40个径向周期演化，严格映射给出较小的残差，而部分指数化将累积的近心点定时的残差减少了大约一个数量级。在等质量情况下具有代表性的一周期网格上，部分指数化在每个采样点都改善了径向作用和能量更新。",
+    "keywords_en": [
+      "radiation reaction",
+      "post-Newtonian",
+      "eccentric binaries",
+      "periastron return map"
+    ],
+    "keywords_zh": [
+      "辐射反应",
+      "后牛顿",
+      "偏心双星",
+      "近心点返回映射"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-04T01:08:22.436386Z"
+  },
+  "published_at": "2026-09-04T01:08:22.438148Z"
+}

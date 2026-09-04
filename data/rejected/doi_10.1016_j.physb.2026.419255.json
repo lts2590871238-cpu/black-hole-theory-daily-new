@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.physb.2026.419255",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3199230",
+    "doi": "10.1016/j.physb.2026.419255",
+    "title_en": "Accelerating materials discovery for room-temperature qubits via Generative Quantum Machine Learning",
+    "abstract_en": "The realization of stable, scalable room-temperature quantum computing is severely bottlenecked by the slow pace of materials discovery, which conventionally relies on classical Density Functional Theory (DFT) and trial-and-error synthesis. In this work, we introduce a Generative Quantum Machine Learning (GQML) framework to invert this paradigm, utilizing a 64-qubit parameterized quantum circuit to autonomously generate candidate material structures optimized for high-temperature quantum coherence. By mapping target properties directly into a quantum latent space, our model evaluated <math altimg=\"si190.svg\" display=\"inline\" id=\"d1e1144\"><mrow><mn>1.5</mn><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">×</mo><mn>1</mn><msup><mrow><mn>0</mn></mrow><mrow><mn>7</mn></mrow></msup></mrow></math> structural permutations in just 45 QPU-hours—a 99.8% reduction in screening time compared to the estimated 120,000 CPU-hours required by traditional classical methods. The GQML pipeline identified 42 highly promising solid-state spin defect candidates with predicted operational viability above 250 K. Experimental synthesis of the top-ranked candidate — a novel carbon-boron-nitride hybrid lattice — demonstrated stable qubit coherence (<math altimg=\"si2.svg\" display=\"inline\" id=\"d1e1162\"><mrow><msubsup><mrow><mi>T</mi></mrow><mrow><mn>2</mn></mrow><mrow><mo>∗</mo></mrow></msubsup><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">=</mo><mn>3.2</mn></mrow></math> ms) at 298 K (room temperature). Furthermore, the model predicted thermodynamic stability and topological invariants with an accuracy of 94.3%. This approach establishes a scalable, data-driven pathway for the rapid discovery and manufacturing of next-generation quantum hardware. •GQML framework rapidly identifies stable room-temperature qubit materials.•Evaluated 15 million candidate structures in 45 QPU-hours via 64-qubit PQC.•Quantum generative screening reduces computational time by 99.8% versus DFT.•Pipeline identified 42 highly viable solid-state defect candidates above 250 K.•Synthesized C-BN hybrid lattice demonstrates <math altimg=\"si107.svg\" display=\"inline\" id=\"d1e1212\"><msubsup><mrow><mi>T</mi></mrow><mrow><mn>2</mn></mrow><mrow><mo>∗</mo></mrow></msubsup></math> = 3.2 ms coherence at 298 K.",
+    "authors": [
+      "Delhibabu, Radhakrishnan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-03T13:11:27.191452Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "742, 419255, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613957'}, Physica B"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199230",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199230",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3199230"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

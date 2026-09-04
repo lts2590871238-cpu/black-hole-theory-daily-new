@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01930",
+    "arxiv_id": "2609.01930",
+    "arxiv_version": null,
+    "inspire_id": "3199172",
+    "doi": "10.1109/jiot.2026.3729685",
+    "title_en": "Quantum-Based k-Coverage Optimization for UAV-Aided Search and Rescue Missions",
+    "abstract_en": "In large-scale disaster scenarios, rapid localization of missing persons is a critical challenge for search-and-rescue (SAR) operations. Unmanned aerial vehicles (UAVs) equipped with radio frequency (RF) receivers can support RF-based localization by collecting signals emitted from mobile devices at spatially distributed sensing locations. This paper addresses the resulting waypoint-selection problem: determining a minimum set of UAV waypoints that provides at least threefold coverage of every potential target location. We formulate this task as an extended k-coverage problem that independently defines the UAV-navigable and target regions, and derive an exact-penalty quadratic unconstrained binary optimization (QUBO) formulation with a sufficient penalty condition that preserves feasibility and minimum waypoint cardinality. The QUBO is mapped to an Ising-form cost Hamiltonian and evaluated using the quantum approximate optimization algorithm (QAOA) on both a noise-free simulator and IBM's 127-qubit Eagle processor. On the tested simulator instances, QAOA recovers the known minimum-cardinality solutions. Across the rectangular hardware test cases, the mean 3-coverage ratio exceeded 95%. In the campus-scale evaluation, ten hardware executions achieved 99.3% mean 3-coverage with a 90% feasible-run rate, while the shortest feasible flight path was up to 37.0% shorter than those of the deterministic grid-based baselines. Additional comparisons with classical optimization and learning-based baselines are provided, together with computational and quantum-resource analyses for larger generated instances. These results establish an exact QUBO representation for RF-based SAR waypoint selection and characterize its implementation on current gate-based quantum hardware.",
+    "authors": [
+      "Lee, Halim",
+      "Jeong, Suhui",
+      "Kim, Na Young",
+      "Seo, Jiwon"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-01T00:00:00Z",
+    "updated_at": "2026-09-03T06:41:54.421970Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199172",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199172",
+        "fetched_at": "2026-09-04T01:05:30.830043Z",
+        "url": "https://inspirehep.net/literature/3199172"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
