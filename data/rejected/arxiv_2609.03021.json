@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03021",
+    "arxiv_id": "2609.03021",
+    "arxiv_version": null,
+    "inspire_id": "3199473",
+    "doi": null,
+    "title_en": "Quantum low-density lattice codes",
+    "abstract_en": "Gottesman-Kitaev-Preskill (GKP) codes provide a family of promising schemes for encoding discrete quantum information (qudits) into infinite-dimensional bosonic modes based on mathematical lattices. While such codes, when concatenated with discrete-variable codes, are relatively well studied, the construction and decoding of native GKP codes has largely remained open due to the computationally hard problems encountered. To address this challenge, we advocate a strategy of co-designing the decoder and the quantum error-correcting code itself by constructing lattices for which decoding is feasible: The requirement of efficient decoding effectively determines the quantum error-correcting code. This construction is built on classical low-density lattice codes (LDLCs), a lattice analogue of low-density parity-check codes, here lifted to families of GKP codes. Concretely, we introduce quantum versions of classical, randomly constructed LDLCs. We show that after suitable dimensionality reduction these codes have code properties comparable to or better than concatenated GKP-surface codes of equal number of modes. However, the GKP-LDLCs constructed here do not have a strictly sparse parity check matrix, which motivates our study of the performance of natively analog message-passing decoders originally developed for LDLCs when applied to concatenated GKP-LDPC codes. We show that the fully analog, linear-time decoder achieves performances close to state-of-the-art hybrid qubit-analog decoders. To facilitate future research on the structure and performance of general GKP codes, the relevant source code will be released in open-source Julia packages LatticeDecoder.jl and SymplecticGKP.jl.",
+    "authors": [
+      "Hillmann, Timo",
+      "Eisert, Jens",
+      "Arzani, Francesco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-04T05:59:03.221161Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199473",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199473",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199473"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

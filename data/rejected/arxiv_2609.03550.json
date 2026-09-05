@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03550",
+    "arxiv_id": "2609.03550",
+    "arxiv_version": null,
+    "inspire_id": "3199687",
+    "doi": null,
+    "title_en": "$X$-dispersionless solver for electromagnetic and axion fields in a cylindrical particle-in-cell code",
+    "abstract_en": "We develop a quasi-cylindrical direction-splitting (QDS) dispersionless Maxwell solver for the open-source EPOCH particle-in-cell framework. The method preserves the exact axial phase velocity for every retained azimuthal mode by advecting transverse transport variables with the $cΔt=Δx$ shift. Building on the same transport viewpoint, we formulate an axion solver that advances the Klein--Gordon equation and the axion-regenerated electromagnetic fields within the QDS solver, so that axion--photon coupling is handled self-consistently. Benchmarks demonstrate that the cylindrical QDS solver reproduces the standard Yee wakefield structure while removing the axial group-velocity error and reducing computational cost by orders of magnitude. In the resonant axion generation test via two-color laser mixing, the QDS solver eliminates the spurious vacuum source term and maintains phase matching, whereas the Yee solver suffers from rapid dephasing due to numerical dispersion. The proposed algorithm therefore enables quasi-3D simulations of axion--photon physics in laser-plasma interaction with dispersion-free laser transport.",
+    "authors": [
+      "An, Xiangyan",
+      "Chen, Min",
+      "Wu, Yipeng",
+      "Liu, Jianglai",
+      "Sheng, Zhengming",
+      "Zhang, Jie"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-03T00:00:00Z",
+    "updated_at": "2026-09-04T05:38:10.923241Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199687",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199687",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199687"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

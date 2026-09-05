@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03329",
+    "arxiv_id": "2609.03329",
+    "arxiv_version": null,
+    "inspire_id": "3199416",
+    "doi": null,
+    "title_en": "Introducing SINFONIA: Symplectic, slimplectic and Magnusian (Neural) Flows for Orbital Numerical Integration and Acceleration",
+    "abstract_en": "Long-duration gravitational-wave modelling must resolve fast orbital motion together with slow dissipative evolution while preventing small numerical errors from accumulating into secular phase drift. Here we ask whether the finite-time evolution map itself can be learned as an explicit, differentiable, structure-preserving object and then repeatedly composed through a complete inspiral. We construct three neural-flow architectures: a symplectic and slimplectic flow on Galley's doubled phase space, [SINFONIA-J0]; a Taylor-anchored flow, [SINFONIA-J1]; and a Magnusian flow that learns the finite-time dissipative correction in the interaction picture, [SINFONIA-J2]. Applied to a 2.5PN neutron-star inspiral, all three expose the same controlling mechanism: long-time accuracy is governed not by pointwise map error alone, but by its signed projection onto a single secular channel fixed by energy--angular-momentum balance. Encoding this structure allows the learned maps to remain accurate through $10^{2}$--$10^{5}$ window compositions to coalescence at timesteps of a full orbital period and beyond, reaching chained phase errors orders of magnitude below a benchmark slimplectic integrator at lower cost. The same secular structure can also be exploited for physics inference: when the channel is left unconstrained, the accumulated phase retains enough information to recover an un-modelled dynamical-friction-like force, both parametrically and as a learned function of separation. Network-off controls isolate the contribution of learning from the analytic structure already built into each map. These results establish a proof of concept for structure-preserving learned evolution maps as tools for fast long-duration integration and physics inference in gravitational-wave source modelling.",
+    "authors": [
+      "Da Silva, Lidia J. Gomes"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-03T00:00:00Z",
+    "updated_at": "2026-09-04T10:49:59.712815Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199416",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199416",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199416"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

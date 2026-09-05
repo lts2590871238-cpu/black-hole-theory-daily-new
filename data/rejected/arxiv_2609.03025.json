@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03025",
+    "arxiv_id": "2609.03025",
+    "arxiv_version": null,
+    "inspire_id": "3199468",
+    "doi": null,
+    "title_en": "DANSur_HM: Modularly incorporating higher modes in a deep learning based gravitational-wave surrogate",
+    "abstract_en": "Numerical relativity (NR) simulations provide the most faithful representation of the gravitational waves (GWs) emitted by binary black hole (BBH) systems during merger. In the context of GW astronomy, tasks such as parameter estimation can require vast numbers of waveform evaluations per second across the entire parameter space. Since performing full NR simulations for each evaluation is not computationally feasible, interpolating methods for existing NR waveforms, known as surrogate models, have been developed with marked success. In this paper, we build on our previous work to introduce methods to train a fast surrogate model based on neural networks in order to generate BBH merger waveforms, including the fundamental (2,2) mode, as well as the (3,3), (2,1), (4,4), (3,2), (4,3) and (5,5) higher-order modes. Applying a pretraining step on approximant data before fine-tuning on NR data allows us to smooth out the parameter space, and making use of the parallelization ability of GPUs to project the NR waveforms in the inclination-phase $(ι, ϕ)$ sphere during training allows the fitting of all the explored modes simultaneously. The developed surrogate model, \\texttt{DANSur\\_HM}, achieves average mismatches of the order of $10^{-4}$, with the worst mismatch at $2.5\\times10^{-3}$, and achieves throughput above $6\\times10^5$ waveforms/second on an NVIDIA V100 GPU. Parameter estimation tests confirm the usefulness of the inclusion of higher modes.",
+    "authors": [
+      "Gramaxo Freitas, Osvaldo",
+      "Theodoropoulos, Anastasios",
+      "Villanueva, Nino",
+      "Font, José A.",
+      "Onofre, Antonio",
+      "Torres-Forné, Alejandro",
+      "Martin-Guerrero, José D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-04T10:49:56.800403Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199468",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199468",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199468"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

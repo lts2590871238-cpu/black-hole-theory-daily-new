@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03628",
+    "arxiv_id": "2609.03628",
+    "arxiv_version": null,
+    "inspire_id": "3199690",
+    "doi": null,
+    "title_en": "Random Garbage Separates XOR from Forward-Only Queries",
+    "abstract_en": "We give exponential quantum query separations between the standard XOR interface and two forward-only interfaces that supply neither an adjoint nor an inverse oracle. Let $X=\\F_2^n$, $N=|X|$, and $f_{h,r}(x)=(h(x),x,r_x)$, where $h:X\\to X$ is promised to be either a permutation or a Simon two-to-one function, and $r$ is a fixed table of $n$-bit tags, unrestricted by the promise and reused on every query. The resulting problem is solvable with at most $n+2$ standard XOR queries, but has forward-erasing query complexity $Θ(\\sqrt N)$. This answers affirmatively open question 11 in [Scott Aaronson. Open problems related to quantum query complexity. ACM Transactions on Quantum Computing, 2(4):14:1-14:9, 2021] . We also embed these instances into permutations. The detailed construction retains the copy of $x$ in each prescribed output, but for these promises that copy can be replaced by one bit that distinguishes the two inputs in every Simon pair. This gives a permutation domain of size $L=4N^2$ and a permutation problem with the same standard-query upper bound and forward-only in-place query complexity $Θ(\\sqrt N)=Θ(L^{1/4})$. Both lower bounds remain valid with a clean coherent bypass. The common lower bound uses an analysis-only recording replacement. In the replacement computation, tracing out the fixed random tag table after $T$ calls gives a sum of positive-semidefinite operator contributions, each depending on $h$ at no more than $T$ addresses. On such a set, the restrictions induced by random permutations and random Simon functions differ only if the set contains a hidden Simon pair, an event of probability $O(T^2/N)$.",
+    "authors": [
+      "Elbassioni, Khaled",
+      "Gajjala, Rishikesh",
+      "Ray, Saurabh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-03T00:00:00Z",
+    "updated_at": "2026-09-04T05:38:27.098483Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199690",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199690",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199690"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.04076",
+    "arxiv_id": "2609.04076",
+    "arxiv_version": null,
+    "inspire_id": "3199652",
+    "doi": null,
+    "title_en": "Algebraic Operator Decomposition: A Partitioned Architecture for Noise-Resilient Quantum Computing",
+    "abstract_en": "We present an operator-decomposition architecture that mathematically maps a global operator into independently executable local operators, reducing the maximum quantum circuit depth at the cost of classical reconstruction and sampling overhead. By framing complex Quantum Circuits around an operator in a vector space that can be algebraically pre-decomposed, AOD complements quantum error correction and error-mitigation approaches by performing algebraic decomposition before quantum execution. Our approach leans in the computer science definition of a Monoid: a design pattern and mathematical concept consisting of a data type, a combining function that is associative, and a safe identity (neutral) element that does not change other values when combined. Simulation wise we define a MapReduce programming model where the addition (+) is the reducer, thus leveraging a naturally stable commutative monoid which carries zero \"negative-probability tax\" or phase conflicts. Furthermore, we define a Vector Space of Linear Operators over Additive Abelian Groups that benefit from this paradigm, including: Inner Products, Series expansions, Traces and Convolutions. Finally, we present the mathematical foundations and simulation results for this paradigm.",
+    "authors": [
+      "Silva, Wladimir"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-03T00:00:00Z",
+    "updated_at": "2026-09-04T10:42:42.123434Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199652",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199652",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199652"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

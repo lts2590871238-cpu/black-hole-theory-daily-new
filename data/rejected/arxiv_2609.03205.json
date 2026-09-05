@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03205",
+    "arxiv_id": "2609.03205",
+    "arxiv_version": null,
+    "inspire_id": "3199708",
+    "doi": null,
+    "title_en": "Variational Probabilistic Quantization for Secret Key Generation",
+    "abstract_en": "Secret key generation from correlated observations at Alice and Bob, in the presence of an eavesdropper Eve, underpins physical-layer security. Classical pipelines quantize by hand, amplify privacy afterwards, and optimize no objective tied to a key rate. We propose Variational Probabilistic Quantization (VPQ): neural encoders that map the correlated sources directly into a discrete key alphabet, trained by a variational adversarial objective whose entropy, mismatch, and leakage terms match the three terms of the one-way secret key rate. A linear code-offset secure sketch then reconciles the encoder outputs into an identical key without a separate privacy amplification step. We prove that the VPQ losses lower-bound the one-way secret key capacity of the induced source, and derive in closed form the optimal worst-case key rate over the source class of a given alphabet size and mismatch probability, attained by finite-field linear sketches. On Gaussian fading channels, VPQ leaks less to a correlated eavesdropper than one classical and two recent learning-based baselines, and Reed--Solomon reconciliation operates within the predicted finite-blocklength gap.",
+    "authors": [
+      "Li, Xinyang",
+      "Andrei, Vlad C.",
+      "Gu, Peter J.",
+      "Chen, Yiqi",
+      "Mönich, Ullrich J.",
+      "Boche, Holger"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-04T05:41:30.295502Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199708",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199708",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199708"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

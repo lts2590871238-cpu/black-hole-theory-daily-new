@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03903",
+    "arxiv_id": "2609.03903",
+    "arxiv_version": null,
+    "inspire_id": "3199661",
+    "doi": null,
+    "title_en": "Reduced-basis method for linear response within nuclear density functional theory",
+    "abstract_en": "Background: The quasiparticle random-phase approximation (QRPA) within nuclear density functional theory provides a powerful framework for describing collective excitations. Although the finite-amplitude method (FAM) efficiently solves the QRPA problem, repeated calculations for different external-field parameters remain computationally demanding. Purpose: We construct a reduced basis method (RBM)-based emulator for the FAM that treats the complex energy of the external field as a model parameter to efficiently reproduce FAM amplitudes and QRPA eigenmodes. Methods: High-fidelity FAM calculations are performed at a small set of training points in the complex-energy plane. The resulting FAM amplitudes form a non-orthogonal reduced basis. A variational equation yields an emulator that can predict the response at arbitrary complex energies and QRPA eigensolutions without additional full FAM calculations. Results: The RBM emulator accurately reproduces FAM strength distributions in both giant-resonance and low-energy regions when the relevant energy domain is covered by the training set. It also reproduces imaginary QRPA modes associated with shape instabilities of the HFB state. Applied to the $K^π=0^+$ mode of rare-earth Dy isotopes in a realistic model space, the emulator reproduces strength distributions and the lowest $0^+$ collective states with precision comparable to full FAM calculations, reducing the computational cost by more than an order of magnitude. Conclusions: The RBM provides an efficient and accurate FAM emulator. Its ability to reproduce giant-resonance, low-energy, and imaginary-energy modes at drastically reduced computational cost makes it promising for density-functional optimization, calculations of collective inertia, and large-scale surveys of nuclear collective excitations.",
+    "authors": [
+      "Hinohara, Nobuo",
+      "Zhang, Xilin",
+      "Engel, Jonathan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-03T00:00:00Z",
+    "updated_at": "2026-09-04T05:58:34.854985Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3199661",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3199661",
+        "fetched_at": "2026-09-05T01:06:42.265811Z",
+        "url": "https://inspirehep.net/literature/3199661"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
