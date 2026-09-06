@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.25702",
+    "arxiv_id": "2606.25702",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "DANTE: A Reference-Guided Unsupervised Pipeline for Extended-Transient Anomaly Characterization in LIGO O4a",
+    "abstract_en": "The analysis of gravitational-wave detector data during the fourth observing run (O4) requires robust methods to distinguish stationary instrumental noise from non-stationary transients (glitches). In this work, we present DANTE (Domain-Adaptive Network for Transient Evaluation), a pipeline designed to discover and triage novel non-stationary artifacts entirely without labels. We demonstrate that adapting a pre-trained Vision Transformer (DINOv2) to extract local patch embeddings from time-frequency spectrograms allows for high-resolution mapping of transient anomalies. We formalize the Signal Dilution Barrier via controlled injection tests, showing that while Multiple Instance Learning (MIL) Top-k pooling recovers extended topologies, it is blind to sub-second morphologies. To address small-sample taxonomy instability, we introduce an adaptive Dirichlet Process Mixture Model (DPMM) that dynamically selects covariance structures. Finally, by implementing a native O4a background recalibration, we resolve the domain-shift problem, demonstrating consistency with the hypothesis that pervasive O4a morphologies (initially flagged as novel by historical references) are stationary artifacts. We conclude that unsupervised anomaly detection strictly requires native recalibration to filter domain-shift artifacts, while definitive classification of remaining unmodeled singletons requires multi-channel validation.",
+    "authors": [
+      "Luca Cirfeta"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-06-24T11:16:30Z",
+    "updated_at": "2026-09-03T13:00:09Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.25702v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.25702v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.25702",
+        "fetched_at": "2026-09-06T01:05:59.500534Z",
+        "url": "https://arxiv.org/abs/2606.25702v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

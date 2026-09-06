@@ -3,8 +3,8 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.04100",
     "arxiv_id": "2608.04100",
-    "arxiv_version": 1,
-    "inspire_id": "3187765",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Language-Guided Hypotheses Generation for Sparse SMEFT Analyses",
     "abstract_en": "Global fits of the Standard Model Effective Field Theory are challenged by the large number of operators, while any given database constrains only a small subset. Selecting relevant operator hypotheses therefore requires theoretical insight into operator correlations and the sensitivity of observables. We present llm4smeft, an open source framework that addresses this problem by combining a language model, fine-tuned on the SMEFT literature, with retrieval augmented generation based on quantitative summaries of SMEFiT package global fits. Given a set of observables, the framework proposes candidate relevant operators together with their corresponding Fisher information, while retrieval ensures that model outputs are grounded in existing fit results whenever available. The framework runs in an interactive mode in which accepted hypotheses are stored in a growing knowledge base. We publicly release the llm4smeft package together with the fine-tuned language model, in which the entire framework runs locally, requiring neither internet access nor paid cloud services.",
@@ -17,31 +17,23 @@
       "hep-ex",
       "hep-th"
     ],
-    "submitted_at": "2026-08-04T00:00:00Z",
-    "updated_at": "2026-08-07T03:30:45.879738Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-04T18:00:07Z",
+    "updated_at": "2026-09-03T11:42:35Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.04100v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.04100v1",
-    "inspire_url": "https://inspirehep.net/literature/3187765",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.04100v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.04100v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.04100",
-        "fetched_at": "2026-08-10T23:55:14.694792Z",
-        "url": "https://arxiv.org/abs/2608.04100v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3187765",
-        "fetched_at": "2026-08-10T23:55:14.694792Z",
-        "url": "https://inspirehep.net/literature/3187765"
+        "fetched_at": "2026-09-06T01:05:59.500534Z",
+        "url": "https://arxiv.org/abs/2608.04100v2"
       }
     ],
     "is_demo": false

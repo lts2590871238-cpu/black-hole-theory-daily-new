@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.3389/fcomp.2026.1879448",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3200023",
+    "doi": "10.3389/fcomp.2026.1879448",
+    "title_en": "Hybrid VQA architectures for cloud-based quantum platforms: maximizing computational utility",
+    "abstract_en": "<jats:sec> <jats:title>Introduction</jats:title> Hybrid Variational Quantum Algorithms (VQAs) present a highly viable pathway to near-term quantum utility; however, their performance is fundamentally bottlenecked by classical-quantum communication latency in Quantumas-a-Service (QaaS) environments. </jats:sec> <jats:sec> <jats:title>Methods</jats:title> This paper proposes an optimized classical-quantum orchestration architecture designed to minimize cloud-induced latency and maximize Quantum Processing Unit (QPU) active compute time. By implementing edge-colocated classical optimizers alongside batched parameter-shift gradient evaluations, the system circumvents stateless cloud API barriers. </jats:sec> <jats:sec> <jats:title>Results</jats:title> Benchmarking across parameterized quantum circuits ranging from 15 to 50 qubits demonstrates an 84% reduction in network-induced QPU idle time. The framework yields a 3.2 × speedup in overall convergence time for the Quantum Approximate Optimization Algorithm (QAOA) and up to a 98% reduction in classical API call overhead compared to standard RESTful QaaS execution models. </jats:sec> <jats:sec> <jats:title>Discussion</jats:title> These quantitative findings demonstrate that tightly coupled hybrid co-processing, physically adjacent to the control electronics, is critical for extending the computational bound of Noisy Intermediate-Scale Quantum (NISQ) devices. </jats:sec>",
+    "authors": [
+      "Joseph, Akshay",
+      "Delhibabu, Radhakrishnan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-03T00:00:00Z",
+    "updated_at": "2026-09-05T16:04:28.686533Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 1879448, 2026, {'$ref': 'https://inspirehep.net/api/journals/2862215'}, Front.Comput.Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200023",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200023",
+        "fetched_at": "2026-09-06T01:05:59.500534Z",
+        "url": "https://inspirehep.net/literature/3200023"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
