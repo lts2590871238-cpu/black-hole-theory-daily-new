@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00434-0",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3200404",
+    "doi": "10.1007/s42484-026-00434-0",
+    "title_en": "Q-SCOPE: Towards characterizing quantum state geometry for out-of-distribution prediction and benchmark evaluation",
+    "abstract_en": "Hybrid classical-quantum neural network (HCQNN) models have recently emerged as a powerful approach for classification problems, due to their strong computational representation capabilities coming along with the integration of neural networks and quantum computing. However, these models are not free from the fundamental issue of poor separation between the in-distribution (ID) and Out-Of-Distribution (OOD) samples in the classification output space, which is observed in classical neural network classifiers too. Despite this, to the best of our knowledge, there is no current work that systematically studies the OOD detection problem in the context of the HCQNN models. Towards this end, we benchmark the existing approaches for OOD detection in the classical neural network literature domain on the HCQNN classifier models using the standard datasets and metrics and note their limitations. Thereby we propose a novel strategy suitable for OOD prediction in the HCQNN classifier models using the representational properties of the quantum features' space. Particularly, we find subspaces within the feature space based on their categorical label information, and make use of a metric called the fidelity score that is extensively used in the quantum computing literature for measuring the similarity between the quantum states. Finally, we substantiate our claims on the efficacy of the fidelity score for OOD detection by demonstrating empirically that we can separate the ID from OOD samples across many standard benchmarks using the class-wise boundary defined characterized by the fidelity scores.",
+    "authors": [
+      "Sultana, Shahreen",
+      "Sarker, Mutasim Fuad",
+      "Younus, Md Faiyaz Bin",
+      "Arefeen, Md Adnan",
+      "Nimi, Sumaiya Tabassum"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-04T00:00:00Z",
+    "updated_at": "2026-09-07T13:28:29.294196Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 97, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 97, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200404",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200404",
+        "fetched_at": "2026-09-08T01:15:27.616520Z",
+        "url": "https://inspirehep.net/literature/3200404"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

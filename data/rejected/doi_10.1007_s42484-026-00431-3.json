@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00431-3",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3200371",
+    "doi": "10.1007/s42484-026-00431-3",
+    "title_en": "Quantum-enhanced hybrid-model compression using knowledge distillation",
+    "abstract_en": "Quantum computing has emerged as a promising paradigm for addressing computational tasks intractable for classical systems, leveraging quantum mechanical principles such as superposition and entanglement to efficiently explore high-dimensional solution spaces. In recent years, hybrid quantum-classical approaches have gained increasing attention as a means to exploit the representational power of quantum systems while preserving the practicality of classical machine learning frameworks. This paper presents a study on quantum-enhanced model compression via feature-based knowledge distillation, in which a large classical neural network (the teacher) transfers knowledge to a substantially smaller hybrid student model. The proposed hybrid quantum-classical student architecture incorporates a parameterized quantum circuit (PQC) implemented in Qiskit, employing a linear $\\varvec{R_y}$ angle-encoding feature map followed by an EfficientSU2 variational ansatz, with features bounded through a $\\varvec{\\tanh (\\cdot )\\times \\frac{\\pi }{2}}$ scaling to ensure stable gradient propagation. Gradient computation is performed via Reverse-Mode (adjoint) differentiation through the StatevectorEstimator primitive, which provides exact, shot-noise-free gradients at the cost of a single forward-backward pass per optimization step. The hybrid student is compared against a parameter-matched purely classical student under strict 1:1 parameter parity across a six-task binary benchmark spanning MNIST and Fashion-MNIST, as well as a four-class multi-class benchmark, totaling eleven classification experiments. A hardware validation experiment is additionally conducted on the IQM Garnet 20-qubit quantum processor using the Parameter-Shift Rule. The results indicate that the hybrid student outperforms its classical counterpart in five of six binary tasks (83%) and in the two hardest multi-class configurations, with advantages most pronounced in high-confusion regimes where compact classical classifiers approach the limits of their expressive capacity. On real quantum hardware, accuracy decreases from 99.04% in noiseless simulation to 80.50%, reflecting the impact of gate noise, readout errors, and transpilation overhead. While the hybrid model demonstrates improved parameter efficiency and expressive capacity, it incurs higher computational overhead and exhibits greater epoch-to-epoch training variability relative to classical baselines. We discuss practical limitations related to noise, scalability, and current hardware constraints, and identify directions for future work including hardware-efficient gradient estimation and advanced error mitigation protocols. Overall, our findings suggest that variational quantum circuits can serve as compact yet expressive components within neural compression schemes, with their representational advantage most effectively realized in binary and high-ambiguity classification scenarios.",
+    "authors": [
+      "Barbato, Luigi",
+      "Esposito, Massimo",
+      "Gargiulo, Francesco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-04T00:00:00Z",
+    "updated_at": "2026-09-07T13:26:43.563584Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 96, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 96, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200371",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200371",
+        "fetched_at": "2026-09-08T01:15:27.616520Z",
+        "url": "https://inspirehep.net/literature/3200371"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
