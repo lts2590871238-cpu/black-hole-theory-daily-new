@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/x91t-v327",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3200616",
+    "doi": "10.1103/x91t-v327",
+    "title_en": "Quantum-ready formulation for uncompromised data assimilation with high-rank covariances",
+    "abstract_en": "Data assimilation (DA) optimally fuses observational data with mathematical models, serving as a core computational framework for forecasting complex dynamical systems like the weather. Because manipulating large-scale high-rank error covariances is classically intractable, conventional DA is forced into severe structural compromises such as artificial localization or static parametrizations that destroy genuine cross-variable correlations. Future fault-tolerant quantum computing (FTQC) could offer transformative advantages to overcome these classical computational limits. While quantum linear system solvers theoretically provide exponential speedups for matrix inversion, the practical mapping of large-scale, uncompromised DA onto quantum architectures remains largely unexplored. Our framework builds upon two emerging technologies: FTQC hardware and efficient block-encoded oracles of the error covariance and observation operators, which we envision being supplied by future artificial intelligence surrogate models. Under this premise, we identify a potential bottleneck in the quantum implementation. We show that a direct mapping of the DA equations leads to a quadratic increase in the subnormalization factor (<math><mi>α</mi></math>) associated with block encoding when typical nonlocal observations are utilized. To mitigate this algorithmic overhead, we propose a quantum-ready, combined state-observation space formulation. By reconfiguring the DA problem into an expanded saddle-point block-matrix system, our approach avoids the explicit multiplication of nonlocal observation operators. This maintains a linear scaling of <math><mi>α</mi></math> and confines the conditioning of the quantum solver to that of the observation error covariance, decoupled from the severely ill-conditioned prior. Numerical verification using the chaotic Lorenz-96 model demonstrates that our formulation achieves perfect fidelity with the uncompromised DA solution. Although reading out the full analysis state reduces the exponential speedup to a polynomial one, the framework retains a substantial advantage over the classical matrix inversion. This work bridges computational geosciences and quantum information science, providing the essential algorithmic foundation for large-scale DA to become a compelling application for FTQC.",
+    "authors": [
+      "Miyoshi, Takemasa"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-08T16:18:58.323667Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 033287, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1778162'}, 3, Phys.Rev.Res."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200616",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200616",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://inspirehep.net/literature/3200616"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

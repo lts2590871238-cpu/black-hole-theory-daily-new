@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.14503",
+    "arxiv_id": "2603.14503",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Mapping Dark-Matter Clusters via Physics-Guided Diffusion Models",
+    "abstract_en": "Galaxy clusters are powerful probes of astrophysics and cosmology through gravitational lensing: the clusters' mass, dominated by 85% dark matter, distorts background light. Yet, mass reconstruction lacks the scalability and large-scale benchmarks to process the hundreds of thousands of clusters expected from forthcoming wide-field surveys. We introduce a fully automated method to reconstruct cluster surface mass density from photometry and gravitational lensing observables. Central to our approach is DarkClusters-15k, our new dataset of 15,000 simulated clusters with paired mass and photometry maps, the largest benchmark to date, spanning multiple redshifts and simulation frameworks. We train a plug-and-play diffusion prior on DarkClusters-15k that learns the statistical relationship between mass and light, and draw posterior samples constrained by weak- and strong-lensing observables; this yields principled reconstructions driven by explicit physics, alongside well-calibrated uncertainties. Our approach requires no expert tuning, runs in minutes rather than hours, achieves higher accuracy, and matches expertly-tuned reconstructions of the MACS 1206 cluster. We release our method and DarkClusters-15k to support development and benchmarking for upcoming wide-field cosmological surveys.",
+    "authors": [
+      "Diego Royo",
+      "Brandon Zhao",
+      "Adolfo Muñoz",
+      "Diego Gutierrez",
+      "Katherine L. Bouman"
+    ],
+    "categories": [
+      "cs.CV",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-03-15T17:36:56Z",
+    "updated_at": "2026-09-03T21:30:16Z",
+    "document_types": [],
+    "journal_ref": "ECCV 2026",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.14503v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.14503v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.14503",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2603.14503v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

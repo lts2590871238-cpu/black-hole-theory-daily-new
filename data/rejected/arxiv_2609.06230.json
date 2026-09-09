@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06230",
+    "arxiv_id": "2609.06230",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Wigner Time: a data-oriented approach to experimental timeline creation for quantum science and technology",
+    "abstract_en": "Precisely timed, multi-device control in atomic, molecular and optical physics is provided by specialized real-time systems, which impose their own terms on the description of the experiment: a program over a global clock, in which every stage boundary is an absolute time computed from everything preceding it. Such descriptions are tightly coupled -- changing one stage affects all later ones -- and are correspondingly hard to reuse, inspect, or move elsewhere. We introduce Wigner Time, a Python package in which the experimental procedure is instead represented as data: a table of timed updates, assembled by composing functions and referred to named points in the experiment rather than to absolute instants. Hardware enters only at a final conversion step, leaving the description readable and back-end agnostic. Wigner Time has run two cold-atom setups for more than two years, where replacing a hand-written real-time program improved the achievable temporal resolution five-fold; the design applies to any domain requiring precise multi-device timing.",
+    "authors": [
+      "T. W. Clark",
+      "B. Sárközi",
+      "A. Dombi",
+      "Á. Kurkó",
+      "D. Nagy",
+      "A. Simon",
+      "D. Varga",
+      "P. Domokos",
+      "A. Vukics"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.quant-gas"
+    ],
+    "submitted_at": "2026-09-05T19:06:20Z",
+    "updated_at": "2026-09-05T19:06:20Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.06230v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.06230v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.06230",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2609.06230v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

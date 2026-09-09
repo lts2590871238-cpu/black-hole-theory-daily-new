@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.09250",
+    "arxiv_id": "2605.09250",
+    "arxiv_version": 4,
+    "inspire_id": null,
+    "doi": "10.1103/nngm-dhpl",
+    "title_en": "Efficient and stable computation of gravitational-wave fluxes from generic Kerr orbits via a unified Heun-function framework",
+    "abstract_en": "Modeling extreme-mass-ratio inspirals hinges on the accurate and efficient computation of gravitational-wave fluxes from generic Kerr orbits. Conventional frequency-domain techniques are often limited by costly auxiliary parameter searches and numerical instabilities in the strong-field or high-frequency regimes. We address these challenges by reformulating both the angular and radial Teukolsky equations in terms of confluent Heun functions. Employing a hybrid analytic continuation algorithm to compute the connection coefficients eliminates the dependence on auxiliary parameters, directly yielding globally convergent solutions and scattering amplitudes. To resolve the highly oscillatory source integrands for generic orbits, we implement an adaptive bi-power mapping quadrature. Comprehensive benchmarks under standard double-precision arithmetic demonstrate that, for the total radiative flux summed over 168 low-order modes, our method achieves relative errors of order $10^{-11}$, with computational costs typically reduced by factors of 3--13 compared to the state-of-the-art GeneralizedSasakiNakamura. jl and pybhpt packages. Notably, for highly oscillatory high-order modes, our framework achieves a speedup of up to 60 times compared to specialized oscillatory integrators like GeneralizedSasakiNakamura. jl. These demonstrated gains in precision and efficiency establish the framework as a robust tool for strong-field perturbation theory, providing the numerical foundation for high-order self-force calculations and rapid, high-precision waveform generation.",
+    "authors": [
+      "Changkai Chen",
+      "Zhoujian Cao",
+      "Jiliang Jing"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-05-10T01:28:01Z",
+    "updated_at": "2026-09-04T00:38:52Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 114, 063002 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.09250v4",
+    "pdf_url": "https://arxiv.org/pdf/2605.09250v4",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.09250",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2605.09250v4"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

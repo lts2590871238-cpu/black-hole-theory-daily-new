@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.03056",
+    "arxiv_id": "2609.03056",
+    "arxiv_version": 1,
+    "inspire_id": "3199489",
+    "doi": null,
+    "title_en": "Single-pulse reanalysis of the 2024 Vela glitch and new observations of PSR~J0437$-$4715 and PSR~J1644$-$4559",
+    "abstract_en": "The Pulsar Monitoring in Argentina (PuMA) collaboration systematically monitors southern glitching pulsars, maintaining high-cadence single-pulse records of the Vela pulsar. We present a pulse-per-pulse reanalysis of the 2024 major glitch of Vela (PSR~J0835$-$4510) with the 400~MHz-bandwidth ROACH backend of the Argentine Institute of Radioastronomy, and extend our machine-learning single-pulse pipeline---Isolation Forest outlier rejection, $β$-Variational-AutoEncoder denoising, and Self-Organizing-Map clustering---to new observations of PSR~J1644$-$4559 and the millisecond pulsar PSR~J0437$-$4715. For Vela, the 4- and 6-cluster decompositions of the eight days bracketing the glitch reproduce, with seven times the previous bandwidth, the behavior found with the narrow-band ETTUS receivers: higher-amplitude clusters peak earlier in phase, are narrower, more skewed, and less populated. With the glitch jump and its two exponential recovery terms included in the timing solution, the mean profile is stable to 1\\% across all eight days (width change $-0.5\\pm0.9$\\% from pre- to post-glitch); omitting the recovery terms would mimic a post-glitch broadening of up to 55\\% through a folding-frequency error at the $10^{-7}$ level. The clusters of PSR~J1644$-$4559 differ almost exclusively in amplitude, as expected for a scattering-dominated profile. For PSR~J0437$-$4715, retaining the 10\\% of pulses with the highest peak-dominance score doubles the signal-to-noise ratio, and a five-cluster decomposition yields narrow, phase-ordered groups a factor $3.6\\pm0.4$ narrower than the average profile, suggesting a $\\sim$3.5-fold improvement in cluster-based timing precision for this pulsar-timing-array target, to be confirmed in a follow-up paper.",
+    "authors": [
+      "Carlos O. Lousto",
+      "Ruby Shrestha",
+      "Ezequiel Zubieta",
+      "Susana B. Araujo Furlan",
+      "Guillermo Gancio",
+      "Federico García",
+      "Santiago del Palacio",
+      "Ryan Missel",
+      "Linwei Wang"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "astro-ph.SR"
+    ],
+    "submitted_at": "2026-09-02T00:00:00Z",
+    "updated_at": "2026-09-05T02:47:27.501268Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.03056v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.03056v1",
+    "inspire_url": "https://inspirehep.net/literature/3199489",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.03056",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2609.03056v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3199489",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://inspirehep.net/literature/3199489"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "millisecond pulsar",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 45
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": false,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 5,
+      "methodological_rigor": 15,
+      "novelty": 10,
+      "clarity": 8,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 50,
+    "reject_reason_zh": "论文关注脉冲星单脉冲分析，虽然提及脉冲星计时阵列目标，但核心不属于广义相对论基础、黑洞热力学、PTA或凝聚态全息等主题。",
+    "selection_reason_zh": "",
+    "title_zh": "2024年Vela脉冲星闪烁的单脉冲再分析与PSR~J0437$-$4715和PSR~J1644$-$4559的新观测",
+    "abstract_zh": "阿根廷脉冲星监测（PuMA）合作组织系统性地监测南天闪烁脉冲星，维持Vela脉冲星的高节奏单脉冲记录。我们使用阿根廷射电天文学研究所的400~MHz带宽ROACH后端对Vela（PSR~J0835$-$4510）的2024年大闪烁进行了逐脉冲再分析，并将我们的机器学习单脉冲管道——隔离森林异常值剔除、$β$-变分自编码器去噪、自组织映射聚类——扩展到PSR~J1644$-$4559和毫秒脉冲星PSR~J0437$-$4715的新观测。对于Vela，闪烁前后八天的4簇和6簇分解以先前带宽的七倍重现了窄带ETTUS接收器发现的行为：更高振幅的簇在相位上更早达到峰值，更窄、更偏斜、数量更少。在计时解中包含闪烁跳跃及其两个指数恢复项后，平均轮廓在所有八天内稳定在1\\%以内（从闪烁前到闪烁后的宽度变化为$-0.5\\pm0.9$\\%）；省略恢复项会通过$10^{-7}$水平的折叠频率误差模拟出高达55\\%的闪烁后展宽。PSR~J1644$-$4559的簇几乎仅振幅不同，这符合散射主导的轮廓预期。对于PSR~J0437$-$4715，保留峰值主导得分最高的10\\%脉冲使信噪比翻倍，五簇分解产生窄的、相位有序的组，平均比平均轮廓窄$3.6\\pm0.4$倍，表明该脉冲星计时阵列目标的基于簇的计时精度约提高3.5倍，这将在后续论文中确认。",
+    "keywords_en": [
+      "pulsar",
+      "glitch",
+      "single-pulse",
+      "machine learning",
+      "pulsar timing array"
+    ],
+    "keywords_zh": [
+      "脉冲星",
+      "闪烁",
+      "单脉冲",
+      "机器学习",
+      "脉冲星计时阵列"
+    ],
+    "translation_warning": "标题中LaTeX保持原样；翻译忠实于原文，但术语可能因语言习惯略有调整。",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-09T01:20:46.515807Z"
+  },
+  "published_at": "2026-09-09T01:20:46.516251Z"
+}

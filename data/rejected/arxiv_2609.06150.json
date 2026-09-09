@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06150",
+    "arxiv_id": "2609.06150",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "An HLLD Implementation for General Relativistic Magnetohydrodynamics in AthenaK",
+    "abstract_en": "We present an implementation of an HLLD approximate Riemann solver for the AthenaK astrophysics code with support for full general relativistic magnetohydrodynamics via a tetrad frame transformation. Our implementation uses an initial guess for the HLLD iterative solve which eliminates the need for an additional conserved-to-primitive inversion, which greatly accelerates performance without affecting accuracy. Additionally, by coupling the method with a first-order flux correction, we are able to use the method reliably even when the magnetization exceeds $10^4$, which we achieve in a SANE accretion disk. Our SANE disk shows that HLLD leads to a more strongly magnetized funnel and more accurate horizon fluxes when compared with HLLE. We further apply the new HLLD implementation to an equal-mass binary neutron star merger. For our long-lived remnant, HLLD enhances the magnetic shear stresses in the outer layers and leads to weaker differential rotation. However, due to weaker gravitational wave emissions in the post-merger phase, the remnant is consistently less compact while producing more dynamical ejecta and a more massive disk. The cost of this new solver is relatively modest thanks to the improved initial guess: our accretion disk tests are only ${\\sim}10-25\\%$ slower than HLLE, and for our binary neutron star runs with a microphysical equation of state, we find that HLLD is only ${\\sim}3\\%$ slower than HLLE across all runs.",
+    "authors": [
+      "Jacob Fields",
+      "George N. Wong",
+      "James M. Stone"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-05T15:50:46Z",
+    "updated_at": "2026-09-05T15:50:46Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.06150v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.06150v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.06150",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2609.06150v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

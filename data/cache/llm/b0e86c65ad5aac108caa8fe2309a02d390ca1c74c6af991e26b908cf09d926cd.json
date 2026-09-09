@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 25,
+    "methodological_rigor": 20,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 75,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文详细推导了脉冲星计时阵列对引力波源的角分辨率极限，提供了完整的解析表达式，考虑了脉冲星距离误差等关键因素，对PTA数据分析具有重要意义。",
+  "title_zh": "关于脉冲星计时阵列对引力波信号的角定位",
+  "abstract_zh": "我们提供了使用脉冲星计时阵列进行引力波信号定位的完整研究。我们推导了Cramér-Rao天区定位精度的解析表达式，这些表达式描述了脉冲星与引力波源之间的角距离$\\xi$，以及脉冲星距离已知的精度$\\sigma_L$的影响。地球项和脉冲星项之间的干涉产生了快速的角振荡，有助于定位，而这种振荡又得到了变化更广泛的天线响应梯度信息的补充。这些因素的相对重要性取决于脉冲星距离是精确已知的[即$\\sigma_L\\leq\\lambda_\\mathrm{GW}/(1-\\cos\\xi)$]还是不精确的。如果脉冲星距离精确已知，那么提高这种距离精度会根据$\\Delta\\Omega_\\mathrm{sky}\\propto(\\sigma_L/L)^2$改善信号定位，直到地球-脉冲星系统达到其衍射极限$\\Delta\\Omega_\\mathrm{sky}\\propto(\\lambda_\\mathrm{GW}/L)^2$。如果脉冲星距离不是很好已知，定位精度会降低，但在源附近有更多脉冲星是改进的最佳手段。用$\\alpha$索引脉冲星，在小角度极限下未边缘化的Fisher矩阵中，该比例缩放为$\\Delta\\Omega_\\mathrm{sky}~\\propto~(\\sum_\\alpha\\mathrm{SNR}_\\alpha^2/\\xi_\\alpha^2)^{-1}$，我们推导了任意脉冲星与源角度的一般解析推广。最后，我们研究了一种情景，其中脉冲星项相位被视为与双星或PTA性质无关的冗余变量。这种相位解耦情景，也就是目前所有PTA连续波搜索的方式，提供了与天线响应驱动情形相似的定位性能，并且随着脉冲星距离精度的提高，没有表现出显著的改善。",
+  "keywords_en": [
+    "gravitational waves",
+    "pulsar timing arrays",
+    "localization",
+    "Cramér-Rao bound",
+    "astrometry"
+  ],
+  "keywords_zh": [
+    "引力波",
+    "脉冲星计时阵列",
+    "定位",
+    "克拉美-罗界",
+    "天体测量"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-09T01:19:26.301099Z"
+}

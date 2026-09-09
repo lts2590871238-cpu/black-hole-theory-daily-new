@@ -3,21 +3,24 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.04312",
     "arxiv_id": "2609.04312",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3200130",
     "doi": null,
     "title_en": "ALPACA I: Controlling source and PSF systematics in JWST time-delay cosmography with differentiable lens modeling",
     "abstract_en": "Time-delay cosmography provides an independent probe of the Hubble constant ($H_0$), but exploiting the high-resolution imaging of the James Webb Space Telescope (JWST) requires strong-lens models that capture complex source-galaxy morphologies and the point spread function (PSF) with high fidelity. Flexible source and joint PSF reconstruction are computationally expensive, motivating more rigid parameterizations that can bias the inferred time-delay distance $D_{Δt}$. We present ALPACA, a semi-automatic, GPU-accelerated, differentiable strong-lens modeling pipeline built on Herculens, Starred, and JAX. ALPACA jointly reconstructs a pixelated correlated-field source, the lens mass, and the PSF within a single likelihood, reducing per-system runtimes from weeks to less than 15 hours. We validate the pipeline on realistic mock JWST/NIRCam observations built from morphologically complex COSMOS galaxy sources. Holding an imperfect PSF (RMSE = 12% from truth) fixed biases $D_{Δt}$ by up to 14%, whereas joint PSF reconstruction reduces this bias to the percent level. We further show that the reconstructed PSF core can be marginalized over jointly with the lens parameters during posterior sampling. Propagating the per-lens posteriors of a ten-lens mock sample through hierarchical inference, we recover the input cosmology without significant bias. ALPACA shows that rigorous control of source and PSF systematics is computationally affordable, supporting reliable percent-level precision in the JWST era.",
     "authors": [
-      "Krizic, Hrvoje",
-      "Millon, Martin",
-      "Galan, Aymeric",
-      "Erickson, Sydney",
-      "Marshall, Phil"
+      "Hrvoje Krizic",
+      "Martin Millon",
+      "Aymeric Galan",
+      "Sydney Erickson",
+      "Phil Marshall"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
     "submitted_at": "2026-09-03T00:00:00Z",
-    "updated_at": "2026-09-07T12:08:15.502035Z",
+    "updated_at": "2026-09-08T02:48:19.131500Z",
     "document_types": [
       "article"
     ],
@@ -25,15 +28,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2609.04312v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.04312v1",
     "inspire_url": "https://inspirehep.net/literature/3200130",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2609.04312",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2609.04312v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3200130",
-        "fetched_at": "2026-09-08T01:15:27.616520Z",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
         "url": "https://inspirehep.net/literature/3200130"
       }
     ],

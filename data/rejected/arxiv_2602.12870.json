@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.12870",
+    "arxiv_id": "2602.12870",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1088/1475-7516/2026/08/063",
+    "title_en": "GAME: Genetic Algorithms with Marginalised Ensembles for model-independent reconstruction of cosmological quantities",
+    "abstract_en": "Genetic Algorithms (GA) are a powerful tool for stochastic optimisation and non-parametric symbolic regression, already widely used in cosmology. They are capable of reconstructing analytical functions directly from data points without introducing new physical models. A limitation of this approach is that while the reconstructed function is very efficient at reproducing the behaviour of the data points, non-observable quantities involving derivatives are particularly sensitive to stochasticity, hyperparameters, and to the choice of the best-fit function obtained by the GA, which implies the risk of the algorithm getting stuck in a local minimum. In this work we propose an update to the GA methodology for the reconstruction of analytical functions that involves computing a weighted average of an ensemble of GA configurations (GAME). We define the weights via a quantity that accounts for both the goodness-of-fit of the points and the smoothness of the resulting function. We also present a practical method to analytically estimate and correct the errors on the averaged function by combining a path-integral approach with an ensemble variance. We demonstrate the improvement offered by GAME methodology on a generic test function. We then apply the new methodology to a non-parametric reconstruction of the Hubble rate $H(z)$ using Cosmic Chronometers data and, assuming a flat Friedmann-Lemaître-Robertson-Walker background and General Relativity, we infer the corresponding dark energy equation of state $w(z)$. Through consistency tests, we show that current data produces results compatible with $Λ$CDM, and that Stage IV cosmology surveys will allow GA reinforced with GAME methodology to become an even more competitive tool for discriminating between different models.",
+    "authors": [
+      "Matteo Peronaci",
+      "Matteo Martinelli",
+      "Savvas Nesseris"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-02-13T12:20:46Z",
+    "updated_at": "2026-09-03T20:18:01Z",
+    "document_types": [],
+    "journal_ref": "JCAP 08 (2026) 063",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.12870v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.12870v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.12870",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2602.12870v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

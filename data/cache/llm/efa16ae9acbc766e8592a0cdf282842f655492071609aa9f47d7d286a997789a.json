@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 5,
+    "methodological_rigor": 15,
+    "novelty": 10,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 50,
+  "reject_reason_zh": "论文关注脉冲星单脉冲分析，虽然提及脉冲星计时阵列目标，但核心不属于广义相对论基础、黑洞热力学、PTA或凝聚态全息等主题。",
+  "selection_reason_zh": "",
+  "title_zh": "2024年Vela脉冲星闪烁的单脉冲再分析与PSR~J0437$-$4715和PSR~J1644$-$4559的新观测",
+  "abstract_zh": "阿根廷脉冲星监测（PuMA）合作组织系统性地监测南天闪烁脉冲星，维持Vela脉冲星的高节奏单脉冲记录。我们使用阿根廷射电天文学研究所的400~MHz带宽ROACH后端对Vela（PSR~J0835$-$4510）的2024年大闪烁进行了逐脉冲再分析，并将我们的机器学习单脉冲管道——隔离森林异常值剔除、$β$-变分自编码器去噪、自组织映射聚类——扩展到PSR~J1644$-$4559和毫秒脉冲星PSR~J0437$-$4715的新观测。对于Vela，闪烁前后八天的4簇和6簇分解以先前带宽的七倍重现了窄带ETTUS接收器发现的行为：更高振幅的簇在相位上更早达到峰值，更窄、更偏斜、数量更少。在计时解中包含闪烁跳跃及其两个指数恢复项后，平均轮廓在所有八天内稳定在1\\%以内（从闪烁前到闪烁后的宽度变化为$-0.5\\pm0.9$\\%）；省略恢复项会通过$10^{-7}$水平的折叠频率误差模拟出高达55\\%的闪烁后展宽。PSR~J1644$-$4559的簇几乎仅振幅不同，这符合散射主导的轮廓预期。对于PSR~J0437$-$4715，保留峰值主导得分最高的10\\%脉冲使信噪比翻倍，五簇分解产生窄的、相位有序的组，平均比平均轮廓窄$3.6\\pm0.4$倍，表明该脉冲星计时阵列目标的基于簇的计时精度约提高3.5倍，这将在后续论文中确认。",
+  "keywords_en": [
+    "pulsar",
+    "glitch",
+    "single-pulse",
+    "machine learning",
+    "pulsar timing array"
+  ],
+  "keywords_zh": [
+    "脉冲星",
+    "闪烁",
+    "单脉冲",
+    "机器学习",
+    "脉冲星计时阵列"
+  ],
+  "translation_warning": "标题中LaTeX保持原样；翻译忠实于原文，但术语可能因语言习惯略有调整。",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-09T01:20:46.515807Z"
+}

@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2504.04054",
+    "arxiv_id": "2504.04054",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.3847/1538-4365/ade4c6",
+    "title_en": "SageNet: Fast Neural Network Emulation of the Stiff-amplified Gravitational Waves from Inflation",
+    "abstract_en": "Accurate modeling of the inflationary gravitational waves (GWs) requires time-consuming, iterative numerical integrations of differential equations to take into account their backreaction on the expansion history. To improve computational efficiency while preserving accuracy, we present SageNet (Stiff-Amplified Gravitational-wave Emulator Network), a deep learning framework designed to replace conventional numerical solvers. SageNet employs a Long Short-Term Memory architecture to emulate the present-day energy density spectrum of the inflationary GWs with possible stiff amplification, $Ω_\\mathrm{GW}(f)$. Trained on a data set of 25,689 numerically generated solutions, SageNet allows accurate reconstructions of $Ω_\\mathrm{GW}(f)$ and generalizes well to a wide range of cosmological parameters; 89.3% of the test emulations with randomly distributed parameters exhibit errors of under 4%. In addition, SageNet demonstrates its ability to learn and reproduce the artificial, adaptive sampling patterns in numerical calculations, which implement denser sampling of frequencies around changes of spectral indices in $Ω_\\mathrm{GW}(f)$. The dual capability of learning both physical and artificial features of the numerical GW spectra establishes SageNet as a robust alternative to exact numerical methods. Finally, our benchmark tests show that SageNet reduces the computation time from tens of seconds to milliseconds, achieving a speed-up of ~$10^4$ times over standard CPU-based numerical solvers with the potential for further acceleration on GPU hardware. These capabilities make SageNet a powerful tool for accelerating Bayesian inference procedures for extended cosmological models. In a broad sense, the SageNet framework offers a fast, accurate, and generalizable solution to modeling cosmological observables whose theoretical predictions demand costly differential equation solvers.",
+    "authors": [
+      "Fan Zhang",
+      "Yifang Luo",
+      "Bohua Li",
+      "Ruihan Cao",
+      "Wenjin Peng",
+      "Joel Meyers",
+      "Paul R. Shapiro"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2025-04-05T04:17:15Z",
+    "updated_at": "2026-09-05T03:00:01Z",
+    "document_types": [],
+    "journal_ref": "The Astrophysical Journal Supplement Series, 2025, Volume 279, Issue 2, id.44",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2504.04054v2",
+    "pdf_url": "https://arxiv.org/pdf/2504.04054v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2504.04054",
+        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "url": "https://arxiv.org/abs/2504.04054v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
