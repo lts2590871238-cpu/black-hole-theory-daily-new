@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06249",
+    "arxiv_id": "2609.06249",
+    "arxiv_version": null,
+    "inspire_id": "3200690",
+    "doi": null,
+    "title_en": "Effects of Trotter Error, Digitization Error, and Initial State Overlap on Tapered Quantum Phase Estimation for Minimum Eigenvalue Computation",
+    "abstract_en": "We numerically implement full quantum circuits of optimal tapered Quantum Phase Estimation (in the form of an implementable approximate bandwidth-limited DPSS taper) for the purpose of minimum eigenvalue computation, where the Hamiltonian time-evolution unitary is implemented using standard Trotterization, and the taper state is constructed using an optimized bandwidth-limited taper. We illustrate, on representative quantum Hamiltonians, with tractable exact classical numerical quantum circuit simulations, how tapered QPE performs with respect to optimal phase sampling rate, absolute error, Shannon entropy of the optimal phase distribution, when the tQPE algorithm parameters are changed. Those algorithm parameters are Trotter error, finite sampling, imperfect initial states, total evolution time, and digitization error (number of phase qubits). The reported numerical experiments include up to $\\ell=10$ phase qubits of precision with $m=3$ additional phase-register error suppression qubits, on a $4$-qubit Heisenberg quantum magnet model Hamiltonian, using up to 12th-order Trotterization. We numerically show i) the steady-state optimal phase sampling rate is determined by the initial state overlap with the ground-state, ii) with respect to phase sampling probability, or overall eigenvalue sampling error rate, there is no strong evolution time dependence for tQPE unless there is high Trotter error, iii) the approximated time-evolution unitaries in tQPE, like in standard QPE, can result in substantial ringing, which leads to non-physical eigenvalue estimates.",
+    "authors": [
+      "Pelofske, Elijah",
+      "Eidenbenz, Stephan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:29:10.936826Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200690",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200690",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200690"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

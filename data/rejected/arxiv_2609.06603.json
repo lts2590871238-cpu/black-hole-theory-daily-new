@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06603",
+    "arxiv_id": "2609.06603",
+    "arxiv_version": null,
+    "inspire_id": "3201209",
+    "doi": null,
+    "title_en": "Measurement-Device Placement in MDI-QKD Networks with Minimal Trusted Relays",
+    "abstract_en": "Measurement-Device-Independent Quantum Key Distribution (MDI-QKD) removes detector side-channel vulnerabilities by delegating measurements to an untrusted relay that, when shared by several user pairs, acts as a Bell-state measurement (BSM) hub. Channel loss still limits the reach of MDI-QKD links, so long-range services rely on trusted relays for key forwarding. As MDI-QKD moves toward metropolitan deployment, a key network-planning question arises: how should BSM hubs be placed on existing fiber infrastructure to minimize the use of trusted relays? In this work, we formalize this challenge as the MDI-QKD Hub Deployment (MHD) problem. We first prove that the MHD problem is NP-hard, and then formulate it as a Mixed-Integer Linear Programming (MILP). To the best of our knowledge, this is the first formulation for MDI-QKD network planning that captures the structural features specific to MDI-QKD, namely a shared BSM hub, two-link user-to-hub routing, and loss-balancing constraints, while jointly determining hub placement, user-to-hub assignment, and trusted-relay demand allocation. Our solution accounts for realistic budget and capacity constraints, including practical insights from real-world deployments of commercial MDI-QKD solutions. Numerical evaluations on three metropolitan topologies (12 to 50 nodes) at realistic geographic distances show that topology structure governs trusted-relay demand: hub placement alone eliminates all trusted relays in compact urban meshes, while in sparse topologies, relaxing the loss-balancing constraint removes the dominant source of trusted-relay usage at no additional infrastructure cost. The key-rate threshold at which trusted relays first appear shifts monotonically with the network diameter, i.e., the largest shortest-path distance between any node pair in fiber kilometers, delineating the feasibility boundary of pure MDI-QKD deployment.",
+    "authors": [
+      "Luo, Tianqu",
+      "Arslantas, Ibrahim",
+      "Ozturk, Sezin",
+      "Zhang, Qiaolun",
+      "Sebastián-Lombraña, Alberto",
+      "Bolourian, Mehdi",
+      "Xiong, Jiaheng",
+      "Musumeci, Francesco",
+      "Martín, Vicente",
+      "Boutaba, Raouf",
+      "Tornatore, Massimo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-06T00:00:00Z",
+    "updated_at": "2026-09-09T12:04:59.423815Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201209",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201209",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3201209"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

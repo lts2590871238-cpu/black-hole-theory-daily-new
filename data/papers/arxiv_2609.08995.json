@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08995",
+    "arxiv_id": "2609.08995",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Second-order Teukolsky calculations for nonspinning, quasicircular binaries",
+    "abstract_en": "Currently, the only second-order gravitational self-force calculations have been based on directly solving the perturbative Einstein equations in the Lorenz gauge. That method relied on the complete separability of the Einstein equations in a Schwarzschild background. In this paper, we present a new scheme based on the second-order Teukolsky equation. Crucially, this method promises to extend (reasonably straightforwardly) to the more realistic case of a Kerr background. Here we implement the scheme in the simplest setting of quasicircular orbits around a Schwarzschild black hole. In addition to working with the Teukolsky equation, our scheme incorporates several other advances over previous second-order self-force calculations: compactified hyperboloidal slicing, transformation to a Bondi-Sachs gauge, and a combination of spectral and variation-of-parameters methods. We also use these tools to re-examine the infrared divergences that arise in second-order Lorenz-gauge calculations, showing they are less pronounced in the Teukolsky case and completely eliminated in the Bondi-Sachs gauge. We conclude by calculating the asymptotic energy fluxes and benchmarking them against previous Lorenz-gauge calculations.",
+    "authors": [
+      "Benjamin Leather",
+      "Andrew Spiers",
+      "Adam Pound",
+      "Samuel D. Upton",
+      "Barry Wardell",
+      "Leanne Durkan",
+      "Niels Warburton"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-08T16:35:58Z",
+    "updated_at": "2026-09-08T16:35:58Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.08995v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.08995v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.08995",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.08995v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "bondi-sachs",
+      "bondi–sachs"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "scores": {
+      "theory_depth": 27,
+      "methodological_rigor": 17,
+      "novelty": 13,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 77,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "本文提出基于二阶 Teukolsky 方程的新方案，有望将二阶引力自作用计算推广至 Kerr 背景，并引入紧致化双曲切片、Bondi-Sachs 规范及谱方法与变分参数法结合等多项技术进展，同时重新审视红外发散问题并以渐近能量通量基准检验，理论深度与新颖性突出，方法描述清晰，值得跟进阅读。",
+    "title_zh": "非自旋、准圆双星系统的二阶 Teukolsky 计算",
+    "abstract_zh": "目前，唯一的二阶引力自作用计算是基于在 Lorenz 规范下直接求解微扰爱因斯坦方程。该方法依赖于 Schwarzschild 背景下爱因斯坦方程的完全可分离性。在本文中，我们提出了一种基于二阶 Teukolsky 方程的新方案。至关重要的是，该方法有望（相当直接地）推广到更现实的 Kerr 背景情形。在这里，我们在围绕 Schwarzschild 黑洞的准圆轨道这一最简单情形中实现了该方案。除了使用 Teukolsky 方程之外，我们的方案还纳入了相对于此前二阶自作用计算的若干其他进展：紧致化双曲切片、变换到 Bondi-Sachs 规范，以及谱方法与变分参数方法的结合。我们还使用这些工具重新审视了二阶 Lorenz 规范计算中出现的红外发散，表明它们在 Teukolsky 情形中不那么显著，并在 Bondi-Sachs 规范中被完全消除。最后，我们计算了渐近能量通量，并将其与先前的 Lorenz 规范计算进行了基准比较。",
+    "keywords_en": [
+      "second-order gravitational self-force",
+      "Teukolsky equation",
+      "Schwarzschild background",
+      "Kerr background",
+      "Bondi-Sachs gauge",
+      "hyperboloidal slicing",
+      "variation of parameters",
+      "infrared divergences",
+      "energy fluxes"
+    ],
+    "keywords_zh": [
+      "二阶引力自作用",
+      "Teukolsky 方程",
+      "Schwarzschild 背景",
+      "Kerr 背景",
+      "Bondi-Sachs 规范",
+      "双曲切片",
+      "变分参数法",
+      "红外发散",
+      "能量通量"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-10T01:13:55.721861Z"
+  },
+  "published_at": "2026-09-10T01:13:55.722283Z"
+}

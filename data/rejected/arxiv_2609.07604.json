@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07604",
+    "arxiv_id": "2609.07604",
+    "arxiv_version": null,
+    "inspire_id": "3201077",
+    "doi": null,
+    "title_en": "Quantum Approximate Counting with Bernoulli Oracles",
+    "abstract_en": "Quantum counting is a fundamental quantum algorithm that estimates the fraction of marked elements using a membership oracle, achieving a quadratic speedup over classical sampling. The membership oracle, however, assumes exact labeling of each element, but this assumption fails when the labels are inherently probabilistic. We study quantum counting with \\emph{Bernoulli oracles}, where given $m$ Bernoulli distributions with unknown biases $p_1,\\dots,p_m$ and a gap parameter $Δ$, the goal is to estimate the fraction $ρ$ of \\emph{positive} distributions ($p_i\\ge1/2+Δ$) to within additive error $ε$. We prove an upper bound of $\\tilde{O}\\!\\big(\\frac{\\sqrtρ}{Δε}+\\frac{1}{Δ\\sqrtε}\\big)$ queries, achieving a quadratic speedup over the classical sample complexity. % of $Θ(ρ/Δ^2ε^2)$. Our algorithm first uses the Quantum Singular Value Transformation (QSVT) to coherently amplify the bias gap without collapsing the superposition over distributions, and then applies two-stage adaptive amplitude estimation. We complement this upper bound with a near-matching lower bound of $Ω(\\sqrtρ/(Δε))$ via a new composition theorem for the quantum adversary method in the Boolean-over-average-case direction. For the special case of a constant gap $Δ=Θ(1)$, which corresponds to the bounded-error oracle where each query returns the correct label with constant probability, our bounds specialize to $\\tilde{O}\\big(\\frac{\\sqrtρ}ε+\\frac{1}{\\sqrtε}\\big)$ and $Ω(\\frac{\\sqrtρ}ε)$, thereby characterizing the query complexity of quantum counting with bounded-error oracles.",
+    "authors": [
+      "Gao, Chengshen",
+      "Xu, Yongzhen",
+      "Li, Lvzhou"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T10:32:32.302297Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201077",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201077",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3201077"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

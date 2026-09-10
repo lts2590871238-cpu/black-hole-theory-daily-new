@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09322",
+    "arxiv_id": "2609.09322",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "cuDART: a GPU-accelerated ray tracing code for generating synthetic observations of relativistic astrophysical sources",
+    "abstract_en": "The generation of synthetic observations is required to compare simulations of astrophysical phenomena with real sources. We present a new open-source toolkit cuDART which allows meshed simulation data to be rapidly rendered into synthetic observations of optically thin emission, automatically accounting for a range of relativistic and geometric effects such as Doppler boosting. Unlike previous visualisation schemes which generally consider a single snapshot in time, cuDART is capable of accounting for the finite time delay across astrophysical distances by rendering data from multiple simulation epochs simultaneously. We demonstrate how failing to account for a finite light time delay can result in synthetic observations with incorrect observed motion, morphologies and fluxes. The code does not require a static pattern frame for integration, relaxing standard assumptions required for analytical observational estimates. The rendering processes is accelerated through hardware (using GPUs) and software (using the 3D differential digital analyser algorithm), allowing for rapid generation of observations from a large number of viewing orientations. In this paper we describe the physical motivation, document the code operation and test the output against theoretical relativistic and geometric expectations. cuDART is publicly available via GitHub and documented using ReadTheDocs.",
+    "authors": [
+      "Henry Whitehead",
+      "Emma L. Elley",
+      "Christoper N. Everett"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-08T18:06:27Z",
+    "updated_at": "2026-09-08T18:06:27Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.09322v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09322v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.09322",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.09322v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

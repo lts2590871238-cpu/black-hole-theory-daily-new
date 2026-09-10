@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05813",
+    "arxiv_id": "2609.05813",
+    "arxiv_version": null,
+    "inspire_id": "3200691",
+    "doi": null,
+    "title_en": "Quantum Query Complexity of Persistence Statistics in Graph Zigzags",
+    "abstract_en": "We study the query complexity of estimating scalar summaries of zigzag bar lifetimes from snapshot-adjacency bits. For graphs $G_1,\\ldots,G_m$ on $n$ labeled vertices, let $\\ell_b$ be the snapshot lifetime of a degree-one bar $b$ of the intersection zigzag. For a probability generating function $ϕ(x)=\\mathbb{E}[x^R]$, the statistic $F_ϕ=\\sum_bϕ(\\ell_b/m)$ includes normalized degree-$r$ total persistence and the mean generalized rank over a uniform time window. An exact identity underlies our algorithm: sample $R$ uniform times; the expected generalized rank between their minimum and maximum equals $F_ϕ$. For graphs that rank is the circuit rank of an intersection graph, so a nonlinear barcode functional becomes an average of edge and component counts, and no barcode is computed. Without spectral-gap, homology-state, or QRAM assumptions, this gives a quantum estimator with additive error $\\varepsilon n$ and $\\widetilde O(\\sqrt{m(K+n)}/\\varepsilon)$ queries when a bound $K\\ge F_ϕ$ is supplied, against $\\widetilde O(m\\min\\{n^2,(K+n)/\\varepsilon^2\\})$ classically, and an adaptive quantum variant with the same instance dependence. These estimators are optimal in two regimes. For every fixed power weight $x^r$, $r\\ge2$, and for the uniform-window mean, the worst-case complexities are $\\widetildeΘ(n\\sqrt m/\\varepsilon)$ quantum and $Θ(n^2m)$ classical. On sparse instances, under an explicit split-leakage promise met by power and binomial weights of logarithmic degree and the promise $F_ϕ\\le K$, they are $\\widetildeΘ(\\sqrt{mK}/\\varepsilon)$ and $\\widetildeΘ(m\\min\\{n^2,K/\\varepsilon^2\\})$. The classical lower bounds hold against fully adaptive algorithms, and fewer than $m$ such statistics cannot determine the positive-lifetime histogram. All bounds concern snapshot access; with an explicit update stream, near-linear full-barcode algorithms are known.",
+    "authors": [
+      "Xin, Cheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:30:57.356655Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200691",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200691",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200691"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07776",
+    "arxiv_id": "2609.07776",
+    "arxiv_version": null,
+    "inspire_id": "3200713",
+    "doi": null,
+    "title_en": "QROB: Quantifying Realization Overhead in Quantum Compilation via Reverse Construction",
+    "abstract_en": "Quantum compilation reconciles a program's idealized interaction topology with hardware locality constraints, yet evaluations at scale lack calibrated references for realization overhead. We present QROB, a scalable reverse-construction methodology that generates compilation instances backward from directly realizable configurations, retaining the inverse paths as feasible, compiler-independent references. QROB provides a common evaluation substrate for NISQ SWAP routing and fault-tolerant lattice-surgery scheduling, while extending its reference-preserving principle to capacity-constrained quantum memory-access scheduling. Across systems ranging from 9 to 156 qubits, evaluations highlight QROB's utility as both a diagnostic benchmark and a data source. First, for compiler characterization, QROB reveals substantial realization gaps in existing tools, with NISQ compilers incurring up to 24.1x the reference SWAP cost and fault-tolerant compilers requiring up to 7.0x the reference makespan. Second, as a supervision source for data-driven compilation, a router trained on QROB references outperforms Qiskit SABRE on 84.8% of real-world application circuits. Finally, on real hardware, QROB reference realizations achieve a median mirror-circuit survival rate 1.65x that of full Qiskit O3 compilations across three 156-qubit IBM Heron-r2 processors, demonstrating that closing algorithmic compilation gaps translates directly into physical fidelity gains.",
+    "authors": [
+      "Li, Jintao",
+      "Li, Kaiqi",
+      "Wang, Rui",
+      "Zhao, Yilun",
+      "Huang, Kaixuan",
+      "Wang, Ying",
+      "Zhang, Jialin",
+      "Wang, Zheng-An",
+      "Sun, Xiaoming",
+      "Fan, Heng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T10:28:15.470722Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200713",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200713",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200713"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05625",
+    "arxiv_id": "2609.05625",
+    "arxiv_version": null,
+    "inspire_id": "3200780",
+    "doi": null,
+    "title_en": "Computing 256-bit elliptic curve discrete logarithms in 26 days on a fault-tolerant trapped-ion quantum computer with 20,000 qubits",
+    "abstract_en": "One of the strengths of our recently proposed Walking Cat Architecture for a trapped-ion quantum computer is that it is straightforward to extend and optimize for a specific application. As a proof-of-concept, here we present such optimizations for solving the $256$-bit elliptic curve discrete logarithm problem (ECDLP) on $\\mathtt{secp256k1}$, which is the elliptic curve used by blockchain technologies such as Bitcoin, using Shor's algorithm. We optimize the circuits from Schrottenloher's recent work and arrive at a logical quantum circuit for solving the ECDLP using about $1450$ qubits and $40\\cdot 10^6$ Toffoli gates, with a rigorous lower bound on the logical-level success probability that holds with confidence at least $1-2^{-128}$. Using our compilation toolchain with manual optimization of the logical layout and integrated routing, we produce estimates for the logical measurement depth and the required number of physical qubits by compiling all components to measurement schedules that obey the architectural constraints. A key ingredient is a fast CCZ magic-state factory and a depth-one CCZ state injection, reducing the execution time of CCZ gates by a factor of $31$. We increase the logical-measurement parallelism using non-overlapping cat-based measurements in parallel, and we leverage the recently proposed logical CliNR protocol to speed up Clifford operations. To reduce the qubit overhead, we introduce a more efficient loss correction protocol, design a layout that allows us to recycle the CliNR ancilla qubits, and provision reusable cat-state resources according to the circuit's peak measurement parallelism. All results and optimizations combined, we conclude that a trapped-ion quantum computer based on our architecture can solve the ECDLP on $\\mathtt{secp256k1}$ in approximately 25.7 days using 19,397 physical qubits with an estimated success probability of $63\\%$.",
+    "authors": [
+      "Häner, Thomas",
+      "Tripier, Felix",
+      "Young, Jacob",
+      "Naehrig, Michael",
+      "Maksymov, Andrii",
+      "Alam, Safwan",
+      "Maslov, Dmitri",
+      "Parrott, Matthew",
+      "de Sereville, Yvette",
+      "Sullivan, Jordan",
+      "Webster, Mark",
+      "Delfosse, Nicolas",
+      "Gamble, John",
+      "Roetteler, Martin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-04T00:00:00Z",
+    "updated_at": "2026-09-09T10:28:32.198182Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200780",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200780",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200780"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

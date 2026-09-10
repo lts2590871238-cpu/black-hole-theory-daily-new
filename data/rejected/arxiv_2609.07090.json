@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07090",
+    "arxiv_id": "2609.07090",
+    "arxiv_version": null,
+    "inspire_id": "3200704",
+    "doi": null,
+    "title_en": "Complexity Amplification from Compression in Quantum Random Access Optimization",
+    "abstract_en": "Compressed quantum encodings aim to overcome hardware limitations towards tackling challenging problems at scale, with many classical variables mapped onto noncommuting observables of fewer qubits. Classically, relaxations such as the semidefinite program formulation of MaxCut trade solution quality for computational efficiency. By contrast, quantum relaxations based on compression can amplify the worst-case complexity of the problem being solved. We study quantum random access optimization (QRAO), a special case of the Pauli correlation encoding (PCE) framework that assigns up to three binary variables to the Pauli $X$, $Y$, and $Z$ observables of each qubit, with the packing choices determining the compressed Hamiltonian to be optimized. We identify explicit QRAO optimal energy promise problems complete for NP, StoqMA, and QMA, with inverse-polynomial promise gaps for the latter two. Our problem reductions preserve inverse-polynomial promise gaps without requiring gadgets or ancillas. For any prescribed packing, we show that weighted MaxCut instances compress, up to a known shift and rescaling, to arbitrary nonnegative-weight pairwise Pauli couplings allowed by the packing. For QRAO, using one aligned axis gives an NP-complete energy problem. Using two or three positive aligned Pauli axes generally gives QMA-complete problems, while their bipartite restrictions lie in StoqMA. We show that this computational hardness survives compilation and is practically relevant. Notably, this result applies directly to the current QRAO compiler implementation in Qiskit Optimization 0.7.0, confirming our hardness results are not artifacts of artificial or contrived packing rules. Altogether our results identify worst-case complexity barriers arising from quantum compression, while making no broad claims about typical cases or the performance and trainability of algorithm pipelines that use it.",
+    "authors": [
+      "Hadfield, Stuart"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T10:30:33.523355Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200704",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200704",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200704"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

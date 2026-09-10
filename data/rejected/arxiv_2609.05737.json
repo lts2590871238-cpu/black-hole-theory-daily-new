@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05737",
+    "arxiv_id": "2609.05737",
+    "arxiv_version": null,
+    "inspire_id": "3200683",
+    "doi": null,
+    "title_en": "SAQC: A SAT-Aware Compilation Framework for QAOA-Based Quantum Optimization",
+    "abstract_en": "The Quantum Approximate Optimization Algorithm (QAOA) is a promising variational approach for solving Boolean satisfiability (SAT) problems. Existing SAT-to-QAOA workflows first translate Boolean formulas into penalty Hamiltonians before applying generic quantum compilation, thereby discarding SAT-specific information such as clause structure, logical operators, and variable dependencies. Consequently, subsequent compiler optimizations cannot exploit the underlying Boolean formulation. This paper presents SAQC, a SAT-aware compilation framework that introduces a SAT Intermediate Representation (SIR) to preserve Boolean structure during compilation. The proposed framework supports both CNF and XOR-extended CNF (eCNF) formulations and performs SAT-aware optimizations including clause rewriting, dependency analysis, and clause scheduling prior to quantum lowering. Building on the optimized SIR, SAQC provides a unified framework for both penalty Hamiltonian generation and direct clause-to-ansatz synthesis, together with ansatz optimizations based on relative-phase decomposition, ancilla-assisted synthesis, and dynamic uncomputation. Experimental results demonstrate significant reductions in circuit depth, two-qubit gate count, and compilation time compared with conventional Hamiltonian-based workflows while remaining compatible with existing quantum compilation frameworks.",
+    "authors": [
+      "Schnittka, Till",
+      "Raju, Julie Maria",
+      "Kole, Abhoy",
+      "Drechsler, Rolf"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-04T00:00:00Z",
+    "updated_at": "2026-09-09T10:28:21.223358Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200683",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200683",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200683"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07089",
+    "arxiv_id": "2609.07089",
+    "arxiv_version": null,
+    "inspire_id": "3200707",
+    "doi": null,
+    "title_en": "QCxSimulation: Scatter-Aware X-Ray Projection Radiography via Discrete-Time Quantum Walks",
+    "abstract_en": "X-ray projection radiography is a non-invasive imaging technique used in medical diagnostics and industrial inspection. The simulation of X-ray projections is commonly used to optimise acquisition protocols and improve image quality before performing costly scans. Classical photon transport simulations that include realistic X-ray scattering physics are computationally expensive because they require the sampling of a large number of distinct scattering paths. This limits the practical exploration of parameter spaces such as beam energy. Quantum computing offers the potential to solve high-dimensional problems faster by making use of quantum properties such as superposition. This work introduces a discrete-time quantum walk algorithm that simulates the transport of X-ray photons through heterogeneous volumes. It approximates the physics of X-ray projection radiography, including processes such as photoelectric absorption and higher-order scattering, including Compton and Rayleigh scattering. The quantum walk encodes all admissible photon paths into a single quantum state, enabling all scattering histories to be propagated simultaneously via the superposition principle. This quantum state representation enables flexible readout of various imaging modalities, including the primary, i.e., unscattered, image, or images exclusively containing Rayleigh and Compton scattering of specified orders. A quantitative comparison with classically computed reference simulations shows that the proposed quantum walk accurately reproduces radiographic projections, given the limitations of the underlying physical model. These results indicate that quantum circuits for X-ray transport can produce accurate radiographic images and imply that, as quantum hardware scales up, these algorithms could outperform classical Monte Carlo-based approaches in large-scale, scatter-aware virtual imaging studies.",
+    "authors": [
+      "Heim, Anja",
+      "Fuchs, Theobald",
+      "Lang, Thomas",
+      "Prjamkov, Dimitri",
+      "Dremel, Kilian",
+      "Kasperl, Stefan",
+      "Heinzl, Christoph"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T10:50:28.264697Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200707",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200707",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200707"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

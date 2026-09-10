@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.10173",
+    "arxiv_id": "2609.10173",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Differentiable Parametric Model of Binary-Black-Hole Initial Data: I. Conformally flat Bowen-York punctures",
+    "abstract_en": "Constraint-satisfying initial data for binary black holes require the repeated solution of a nonlinear elliptic boundary-value problem throughout the physical parameter space. We present a para\\-metric, differentiable initial-data model that combines sparse-grid spectral interpolation with Newton refinement over a family of binary configurations. Interpolation is used only to provide warm starts for the underlying elliptic solver, rather than to replace it. A small number of Newton iterations refines each interpolated solution to a discrete, row-equilibrated constraint residual $\\|R\\|_\\infty\\le10^{-10}$, independent of the interpolation error, so that every returned initial-data set satisfies the discretized constraint to that tolerance. Our JAX implementation provides analytic derivatives with respect to the physical parameters, enabling gradient-based parameter targeting, optimization, and sensitivity analysis. We demonstrate the method for quasi-circular binary-black-hole initial data using conformally flat Bowen--York punctures by constructing four-dimensional aligned-spin and eight-dimensional general-spin models. The resulting initial data are validated against TwoPunctures, and the method is applied to certified targeting of the physical Arnowitt--Deser--Misner mass and angular momentum and to effective-potential eccentricity reduction using a dedicated separation--tangential-momentum model.",
+    "authors": [
+      "Frederik De Ceuster",
+      "Tjonnie G. -F. Li"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-09T13:42:57Z",
+    "updated_at": "2026-09-09T13:42:57Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.10173v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10173v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.10173",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.10173v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

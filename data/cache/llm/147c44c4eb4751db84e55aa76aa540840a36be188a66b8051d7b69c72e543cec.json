@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 12,
+    "methodological_rigor": 15,
+    "novelty": 9,
+    "clarity": 9,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 57,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文介绍了TARTARUS，一个用于弯曲时空中光线追踪的高性能Python框架，直接支持黑洞阴影与吸积盘建模等广义相对论基础问题的数值研究。其模块化设计、多求解器支持、事件检测机制以及对解析与数值度规的兼容性，为强引力场中光传播的定量研究提供了可用工具。摘要清晰说明了方法、验证测试及物理应用场景，方法学信号较强，且与目标主题（广义相对论基础）相关。虽然理论深度并非前沿突破，但作为计算工具论文具有实用价值。",
+  "title_zh": "TARTARUS：用于弯曲时空中光线追踪的高性能Python代码",
+  "abstract_zh": "事件视界望远镜合作组（EHT）最近对超大质量黑洞M87*和人马座A*的观测表明，需要稳健、高效且易于使用的数值工具来模拟强弯曲时空中的光传播。将理论吸积模型与观测数据进行比较，在很大程度上依赖于光线追踪算法，这些算法计算光子从源等离子体传播到远处观测者的轨迹。在本文中，我们介绍了TARTARUS（Tracer for Astrophysical Ray Trajectories Around Relativistic Ultra-compact Sources），这是一个新的、高度模块化且可扩展的基于Python的框架，用于计算致密天体周围的零测地线。通过利用Numba的即时（JIT）编译，TARTARUS弥合了Python高层次可访问性与C++或FORTRAN等编译语言执行速度之间的差距。该代码支持多种原生求解器（包括自适应嵌入式Runge-Kutta对、Bulirsch-Stoer外推器和Verlet方案）、用于处理结构相交（例如事件视界和吸积盘）的事件检测机制，以及对解析和数值生成的背景度规的支持。我们通过一些测试展示了该代码的物理准确性和计算效率，包括评估Hamiltonian约束守恒以及围绕Kerr黑洞的阴影和Novikov-Thorne薄吸积盘的光线追踪。",
+  "keywords_en": [
+    "ray tracing",
+    "curved spacetime",
+    "null geodesics",
+    "black hole",
+    "Python",
+    "Numba",
+    "Kerr metric",
+    "accretion disk",
+    "Event Horizon Telescope"
+  ],
+  "keywords_zh": [
+    "光线追踪",
+    "弯曲时空",
+    "零测地线",
+    "黑洞",
+    "Python",
+    "Numba",
+    "Kerr度规",
+    "吸积盘",
+    "事件视界望远镜"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-10T01:13:58.969967Z"
+}

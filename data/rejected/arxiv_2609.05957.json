@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05957",
+    "arxiv_id": "2609.05957",
+    "arxiv_version": null,
+    "inspire_id": "3200808",
+    "doi": null,
+    "title_en": "Reducing quantum and classical resources for quantum-centric supercomputing workloads on near-term hardware",
+    "abstract_en": "Sample-based Krylov quantum diagonalization (SKQD) is a paradigmatic example of a quantum-centric supercomputing workflow that combines the convergence structure of Krylov quantum diagonalization with classical sampling-based post-processing. It provides convergence guarantees assuming that the important computational-basis configurations can be sampled from a set of Krylov states with sufficient probability. We analyze this assumption under depolarizing noise, deriving shot-count resource estimates that expose an exponential depth penalty, and perform experiments on current noisy hardware with the one-dimensional single-impurity Anderson model on a 20-site (40-qubit) instance. Device noise breaks the practical convergence predicted by the noiseless SKQD analysis, but approximate compilation techniques can compress the Krylov time-evolution circuits before execution. The compressed circuits accumulate less hardware noise, recover the expected energy convergence, and reduce both the quantum shot budget and the classical subspace dimension, remaining beneficial even when classical configuration recovery is applied.",
+    "authors": [
+      "Grandadam, Maxence",
+      "Bohun, Vladyslav",
+      "Dulal, Dikshant",
+      "Koch-Janusz, Maciej"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:32:04.255811Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200808",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200808",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200808"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

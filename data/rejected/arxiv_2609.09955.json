@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09955",
+    "arxiv_id": "2609.09955",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Milky Way Structure from Double White Dwarf Gravitational-Wave Sources",
+    "abstract_en": "The millihertz gravitational-wave sky will be dominated by $\\sim10^{4}$--$10^{7}$ resolved double white dwarf binaries in the Milky Way, whose three-dimensional spatial distribution traces the Galaxy's structural parameters. We present \\textsc{Galena}, a hierarchical Bayesian pipeline that recovers these parameters from a double white dwarf catalogue through an inhomogeneous Poisson-process likelihood. Each source's $3\\times3$ Galactic position covariance is computed from the waveform Fisher information matrix and propagated analytically through a $3\\times5$ Jacobian; the resulting measurement-error convolution is factored into a pre-computed sparse weight matrix, rendering the nested-sampling inference tractable. Applied to GBSIEVER-reported LISA Data Challenge sources ($N=2151$ after quality cuts), \\textsc{Galena} recovers the disk scale length $R_d=2175^{+51}_{-52}$~pc and scale height $z_d=282^{+7}_{-7}$~pc, consistent with a canonical thin disk, together with the bulge fraction $A=0.187^{+0.011}_{-0.012}$ and bulge scale radius $R_b=773^{+26}_{-25}$~pc; the bulge fraction, now recovered much closer to the literature value of $0.25$ than in our earlier exact-position fit, is measured at $\\sim6\\%$ statistical precision. An independent particle-swarm optimisation of the same likelihood reproduces these values to within a fraction of a percent, supporting the attribution of the improvement to the Fisher-matrix error propagation rather than to the sampler. The search-stage astrophysical prior improves per-source distance estimates but leaves the hierarchical inference essentially unchanged.",
+    "authors": [
+      "Shao-Dong Zhao",
+      "Xue-Hao Zhang",
+      "Qun-Ying Xie",
+      "Yu-Xiao Liu",
+      "Soumya D. Mohanty"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-09T09:44:52Z",
+    "updated_at": "2026-09-09T09:44:52Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.09955v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09955v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.09955",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.09955v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

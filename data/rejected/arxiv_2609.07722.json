@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07722",
+    "arxiv_id": "2609.07722",
+    "arxiv_version": null,
+    "inspire_id": "3201095",
+    "doi": null,
+    "title_en": "Real-time blind indexing by cross-frame consensus",
+    "abstract_en": "Classical crystallography determines orientation and unit-cell geometry from a rotation series collected from a single specimen, whereas serial crystallography acquires one still exposure from each of many randomly oriented microcrystals and must reconstruct a complete dataset by pooling partial measurements across the ensemble. In serial experiments, each frame typically contains only a subset of reflections, and frames with few reliable peaks (the small-N regime) are especially difficult to index blindly, because multiple incorrect lattices or orientations can explain sparse observations. The approach implemented in GLINT addresses this small-N regime by treating the dataset, rather than the individual frame, as the unit of inference. Candidate solutions are generated for many frames, weak but recurrent lattice hypotheses are pooled across the ensemble to identify a shared unit cell, and each frame is then registered against that consensus cell through a known-cell orientation search with lower dimensionality than blind indexing. In benchmark tests, GLINT matched the strongest blind indexer in the comparison on indexing yield at roughly 40x lower per-frame blind-indexing latency against XGANDALF's fastest configuration, and batched known-cell registration ran entirely on one GPU, allowing cell discovery on the fly during serial data collection. On experimental serial data, frames indexed blind by GLINT merged to crystallographic quality (CC* = 0.90), while the method rejected non-crystal images rather than forcing unsupported indexing assignments. These results demonstrate that indexing performance can be evaluated not only by indexing yield and throughput, but also by the quality of the resulting merged crystallographic data.",
+    "authors": [
+      "Marchesini, Stefano",
+      "Ni, Yuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T11:17:49.777133Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201095",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3201095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05857",
+    "arxiv_id": "2609.05857",
+    "arxiv_version": null,
+    "inspire_id": "3200689",
+    "doi": null,
+    "title_en": "Quantum Message Passing Convergence and Vanishing Block-Error Probability for Random LDPC Codes",
+    "abstract_en": "Belief propagation with quantum messages (BPQM) is a quantum algorithm that decodes classical codes transmitted over classical--quantum channels. It realizes optimal decoding on tree factor graphs over pure-state classical-quantum channels. However, this tree-based analysis does not ensure vanishing block-error probability for LDPC Tanner graphs with cycles. In this work, we construct a two-stage BPQM decoder for random $q$-ary LDPC codes over symmetric $q$-ary pure-state channels, where $q$ is prime, and prove that its ensemble-average block-error probability vanishes as the blocklength $N$ tends to infinity. For regular ensembles with $d_v\\geq3$, fidelity bounds yield double-exponential decay of the average symbol-error probability throughout the BPQM success region. We apply depth-$\\ell$ BPQM to coordinates with tree neighbourhoods and treat the remaining coordinates as erasures. With a suitable $\\ell=Θ(\\log\\log N)$, a noncommutative union bound controls the BPQM decoding errors, while the minimum-distance property guarantees erasure recovery. We also extend the analysis to finite-support irregular ensembles. These results are relevant to quantum algorithms based on Regev's reduction, where coherent decoding uncomputes a codeword register. Decoded quantum interferometry (DQI) uses a closely related Fourier-based framework that reduces sparse max-LINSAT optimization problems to LDPC decoding problems on pure-state channels. Our results justify the use of BPQM in the decoding step of DQI and of coding-theoretic algorithms based on Regev's reduction whenever the code is drawn from one of the random LDPC ensembles analyzed here and the induced memoryless symmetric pure-state channel lies in the BPQM success region.",
+    "authors": [
+      "Mandal, Avijit",
+      "Piveteau, Christophe",
+      "Renes, Joseph M.",
+      "Pfister, Henry D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:31:35.961092Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200689",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200689",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200689"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

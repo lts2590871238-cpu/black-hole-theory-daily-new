@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07833",
+    "arxiv_id": "2609.07833",
+    "arxiv_version": 1,
+    "inspire_id": "3200714",
+    "doi": null,
+    "title_en": "Neural Posterior Estimation for Tomographic Weak Lensing Mass Mapping",
+    "abstract_en": "Weak gravitational lensing shear and convergence trace the distribution of baryonic and dark matter across space, making them a powerful probe of cosmic structure. Inferring shear and convergence from images is a challenging inverse problem. The prevailing approach to this task estimates shear from weighted averages of galaxy ellipticities, calibrates these estimates to account for systematic biases, and transforms them to reconstruct convergence, a multistage procedure that requires substantial computational resources and meticulous handling of statistical uncertainties. As an alternative, we propose a probabilistic approach to field-level weak lensing inference in which we train a deep neural network to directly map a multiband image to a variational distribution over the underlying tomographic shear and convergence fields. This neural posterior estimation (NPE) procedure implicitly marginalizes over nuisance variables in the cosmological forward model and does not require evaluating the likelihood function. It is also amortized, so it enables rapid posterior inference for astronomical surveys once the neural network is trained. When evaluated on synthetic images from the LSST-DESC DC2 Simulated Sky Survey, NPE produces well-calibrated variational distributions for shear and convergence that are consistent with the ground truth. We describe how maps sampled from these variational distributions could be used in a subsequent simulation-based inference procedure to approximate the posterior distribution over cosmological parameters.",
+    "authors": [
+      "Tim White",
+      "Shreyas Chandrashekaran",
+      "Camille Avestruz",
+      "Jeffrey Regier",
+      "the LSST Dark Energy Science Collaboration"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "cs.CV",
+      "stat.AP"
+    ],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T11:16:14.076780Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.07833v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.07833v1",
+    "inspire_url": "https://inspirehep.net/literature/3200714",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.07833",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.07833v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3200714",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200714"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

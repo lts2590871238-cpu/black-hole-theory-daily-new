@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06285",
+    "arxiv_id": "2609.06285",
+    "arxiv_version": null,
+    "inspire_id": "3200860",
+    "doi": null,
+    "title_en": "Efficient Quantum Circuits for Electronic Hamiltonian Simulation without Pauli Expansion",
+    "abstract_en": "Electronic Hamiltonian simulation is commonly formulated by mapping fermionic operators to qubit operators and subsequently expanding the resulting ladder-operator products into Pauli strings. While general, this procedure obscures the higher-level fermionic structure and can hide opportunities for circuit optimization. Building on ladder-string-pair (Lasp) diagonalization originally developed for Hamiltonian simulation of partial differential equations, we construct time-evolution circuits for the second-quantized electronic Hamiltonian without performing a Pauli expansion. For the most general case of complex-valued coefficients, we present a time-evolution circuit for a two-body fermionic Lasp operator that corresponds to 16 Pauli strings in the Pauli-expansion approach but does not suffer from Trotter error at this stage. Expanding the optimization scope from a single operator to a triad of three fermionic Lasp operators sharing the same four spin-orbital indices enables systematic cancellation of CX gates, reducing the CX-gate count from 36 to 12 in the example considered, still without introducing Trotter error at this stage. For $n$ spin orbitals, further expanding the optimization scope to a sequence of $O(n)$ suitably ordered triads enables a cascade of CX-gate reductions across triad boundaries, reducing the CX-gate count from $O(n^2)$ to $O(n)$. The Lasp-based approach also naturally accommodates controlled time evolution and yields further optimizations for real-valued Hamiltonians. These results demonstrate that the Lasp-based approach enables more efficient time-evolution circuits by preserving high-level circuit structures and thereby expanding the scope of optimization, providing a systematic route toward more efficient electronic Hamiltonian simulation.",
+    "authors": [
+      "Onodera, Tamiya",
+      "Sato, Takeshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:29:04.224008Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200860",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200860",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200860"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

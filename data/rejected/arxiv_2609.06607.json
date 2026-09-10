@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06607",
+    "arxiv_id": "2609.06607",
+    "arxiv_version": 1,
+    "inspire_id": "3200942",
+    "doi": null,
+    "title_en": "CoportSL: A Contribution-constrained Hybrid Slow-light Framework for Time-dependent Polarized GRMHD Imaging",
+    "abstract_en": "Fast-light approximations neglect fluid evolution along rays, whereas slow-light modeling is indispensable for recovering the true magnetohydrodynamic state. However, full slow-light radiative transfer for extended general relativistic magnetohydrodynamic (GRMHD) sources requires simultaneous access to many fluid snapshots and is memory-intensive. We introduce CoportSL, the first contribution-constrained hybrid slow-light framework for time-dependent full-Stokes imaging. It uses emission, absorption, and Faraday contributions to identify where fluid evolution must be retained, applies fast light elsewhere, and loads only snapshots spanning the relevant delays. Tests with M87*-like magnetically arrested disk GRMHD data show that the contribution-based region and delay-based snapshot restrictions each keep normalized full-image Stokes differences below $4\\times10^{-3}$ relative to the corresponding complete calculation. At this accuracy, CoportSL requires 75.3% and 44.7% fewer snapshot layers for near-horizon and jet images, respectively; its per-frame slow-light transfer time remains comparable to fast light. For the two configurations, source-code estimates place the capacities of the principal data structures at 255-657 GiB for a fixed public ipole version and 20.2-37.3GiB for CoportSL, bringing both configurations within workstation-scale memory. Fast--slow comparisons further show close agreement in near-horizon variability, whereas jet variability follows similar overall trends but differs in local peaks and amplitudes; in both cases, fast light misses substantial full-Stokes spatial structure. As the next-generation Event Horizon Telescope (ngEHT) advances toward dynamical imaging and spatially resolved polarimetry, CoportSL provides a computationally practical way to model full-Stokes finite-light-travel-time signatures in extended black hole systems.",
+    "authors": [
+      "Fan Zhou",
+      "Jiewei Huang",
+      "Yuehang Li",
+      "Minyong Guo",
+      "Bin Chen"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-06T00:00:00Z",
+    "updated_at": "2026-09-09T11:16:27.505697Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.06607v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.06607v1",
+    "inspire_url": "https://inspirehep.net/literature/3200942",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.06607",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.06607v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3200942",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200942"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

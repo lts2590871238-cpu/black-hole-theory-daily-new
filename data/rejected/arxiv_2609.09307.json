@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09307",
+    "arxiv_id": "2609.09307",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "JZ-FMM: GPU-native differentiable N-body simulations with the Fast Multipole Method",
+    "abstract_en": "N-body simulations are an essential tool for modelling the evolution of gravitating systems. Differentiable N-body simulations allow solving complicated reconstruction problems by connecting observations of evolved systems to simple informative priors on their initial conditions. While so far most reconstruction efforts focus on mildly non-linear large scale dynamics, the internal dynamics of galaxies and clusters should exhibit rich information about their formation. The exploration of reconstruction possibilities in this highly non-linear regime naturally requires highly performant differentiable N-body simulations with small scale forces. Here, we present JZ-FMM, a GPU-native differentiable implementation of the fast multipole method for N-body simulations. We show that the GPU oriented design of tree structure, dual tree traversal and multipole translation operators improves performance over established CPU-native and hybrid N-body codes by notably more than an order of magnitude. Further, we show that gradients can be evaluated efficiently and accurately so that JZ-FMM can be used as an essential building block in future field-level reconstruction efforts. We apply the new code to the reconstruction problem of a tidally stripped satellite to show that deeply non-linear problems can indeed be solved efficiently with simulation gradients, although appropriate care must be taken to navigate the complicated optimization landscape.",
+    "authors": [
+      "Jens Stücker",
+      "Oskar Foldal"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-09-08T18:01:34Z",
+    "updated_at": "2026-09-08T18:01:34Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.09307v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09307v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.09307",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.09307v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

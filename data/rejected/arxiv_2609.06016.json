@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06016",
+    "arxiv_id": "2609.06016",
+    "arxiv_version": null,
+    "inspire_id": "3201202",
+    "doi": null,
+    "title_en": "Granular-Ball Quantum Clustering for Resource-Efficient and Robust Learning",
+    "abstract_en": "Quantum clustering aims to exploit quantum feature representations to uncover complex data structures beyond conventional Euclidean geometry. Yet this sample-level kernel construction requires O(n^2) quantum circuit executions for n data points, creating a major bottleneck under near-term quantum resource constraints. Prior solutions fail to resolve this efficiency-accuracy dilemma: classical granular-ball clustering reduces sample complexity but relies on Euclidean metrics that cannot capture quantum correlations, while existing quantum compression schemes prioritize efficiency over structural preservation, degrading performance on non-convex or noisy data. Here we propose Granular-Ball Quantum Clustering (GBQC), a framework that tightly couples granular-ball structural abstraction with quantum feature learning. GBQC first compresses raw data into compact, representative granular balls via a PCA-guided splitting strategy, reducing kernel evaluations by 80% compared to full-sample methods. A quantum cohesion mechanism then filters noisy granules in Hilbert space to improve clustering robustness. Extensive experiments on synthetic, noisy, overlapping, and real-world datasets demonstrate that GBQC consistently achieves superior clustering accuracy and robustness compared with representative classical and quantum clustering methods. Meanwhile, the proposed granular-ball compression significantly reduces quantum kernel evaluations and computational overhead, enabling quantum clustering experiments on larger datasets within parameterized quantum learning frameworks. These results suggest that granular-ball representations serve not only as a compression mechanism to reduce quantum computational costs but also as an effective structural abstraction mechanism that improves clustering quality by eliminating redundant and structurally ambiguous learning units.",
+    "authors": [
+      "Yuan, Suzhen",
+      "Xie, Qilin",
+      "Shen, Lifeng",
+      "Xia, Shuyin",
+      "Deng, Jermiah D.",
+      "Wang, Guoying"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T12:04:36.763800Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201202",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201202",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3201202"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

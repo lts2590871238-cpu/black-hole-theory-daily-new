@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06814",
+    "arxiv_id": "2609.06814",
+    "arxiv_version": null,
+    "inspire_id": "3200953",
+    "doi": null,
+    "title_en": "Quantum-Enhanced Learning Framework for Intelligent and AI-Native 6G Wireless Networks",
+    "abstract_en": "The recent convergence of 6G wireless systems and Tiny Machine Learning (TinyML) has driven the need for on-device intelligence in edge networks, where ultra-low latency, stringent energy budgets, and tight compute constraints demand novel architectures. Lightweight deep models efficiently extract local patterns but fail to capture global dependencies, while attention mechanisms do so at the expense of energy and computational cost. To bridge this gap, we introduce Quantumer, a hybrid TinyML--quantum framework that integrates multi-scale dilated convolutions and scaled dot-product attention within a lightweight transformer architecture, employing a two-stage transfer learning pipeline from Quantum Pre-Training (Quantumer-Q) to Classical Fine-Tuning (Quantumer-C). We also present QuantiblentLayer, a four-qubit variational circuit that maps compact traffic representations into measurement-based Hilbert-space features using trainable rotations and cyclic entangling operations. The circuit is used only during offline pre-training as a nonlinear embedding teacher and is removed before Quantumer-C deployment, leaving a fully classical inference model without runtime quantum execution. By transferring these quantum-assisted embeddings into an energy-efficient, lightweight transformer, Quantumer achieves strong detection performance with minimal compute and memory overhead on resource-constrained edge devices. The intrusion detection system (IDS) is used as a case study and evaluated on the Edge-IIoTset, TON IoT, and WUSTL-IIoT-2021 datasets. Quantumer-Q achieves competitive compact-model performance with 105.86K parameters, 0.4038 MB memory usage, 0.5525 MB model size, and 5.5646 MFLOPs; the INT8 Raspberry Pi 4 deployment obtains 16.8413 ms latency with a 0.6493 MB footprint. These results support training-time quantum-assisted representation learning for compact edge-deployable IDS.",
+    "authors": [
+      "Dastagir, Muhammad Bilal Akram",
+      "Saini, Rakesh",
+      "Tariq, Omer",
+      "Al-Kuwari, Saif",
+      "Mumtaz, Shahid",
+      "Al-Dulaimi, Anwer",
+      "Farouk, Ahmed"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-06T00:00:00Z",
+    "updated_at": "2026-09-09T10:31:33.757217Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200953",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200953",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200953"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

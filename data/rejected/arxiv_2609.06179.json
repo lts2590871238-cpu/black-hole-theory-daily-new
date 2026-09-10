@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06179",
+    "arxiv_id": "2609.06179",
+    "arxiv_version": null,
+    "inspire_id": "3200831",
+    "doi": null,
+    "title_en": "Quantum lattice Boltzmann method via density-matrix encoding for fluid simulation with wall boundary conditions",
+    "abstract_en": "The quantum lattice Boltzmann method (QLBM) holds promise for efficient fluid simulations, yet the treatment of realistic boundary conditions, particularly solid wall boundary with arbitrary geometry, remains a critical open challenge. We propose a QLBM algorithm that incorporates wall boundaries as well as inlet/outlet velocity conditions. Building upon the existing QLBM with ensemble transformations, we adopt a density-matrix encoding that offers greater flexibility in circuit design and enables the implementation of non-unitary operations through Kraus operators. For boundary enforcement, we design a quantum implementation of the half-way bounce-back scheme and introduce a component exchange step prior to the streaming step, which naturally enforces the no-slip condition without modifying the transport operation. Inlet and outlet conditions are imposed via controlled SWAP operations combined with ancilla registers prepared in the prescribed velocity states. Our QLBM is quantitatively validated through simulations of two-dimensional flows past a backward-facing step, a cylinder, and an obstacle with complex geometry, demonstrating both accuracy and extensibility of our boundary algorithm.",
+    "authors": [
+      "Su, Hao",
+      "Wang, Boyuan",
+      "Yang, Yue"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:50:27.976430Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200831",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200831",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200831"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09248",
+    "arxiv_id": "2609.09248",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Decoding the Imprints of Energy-Momentum Squared Gravity in Neutron Stars with Machine Learning Analysis",
+    "abstract_en": "Neutron stars (NSs) provide a unique laboratory for testing gravity in the strong-field regime and for searching for deviations from General Relativity (GR). In this work, we investigate the effects of Energy-Momentum Squared Gravity (EMSG) on NS structure and examine whether its signatures can be identified from observable stellar properties using supervised machine learning (ML). We solve the modified Tolman-Oppenheimer-Volkoff equations for approximately $10^{4}$ nuclear equations of state (EOSs) for EMSG coupling parameters $α=\\{-5.01,-2.50,0,+2.50,+5.01\\}\\times10^{-38}\\,\\mathrm{erg}^{-1}\\mathrm{cm}^{3}$, and calculate the gravitational mass $M$, radius $R$, dimensionless tidal deformability $Λ$, and fundamental $f$-mode oscillation frequency for each stellar configuration. Imposing observational constraints on $M$, $R$, and $Λ$, we split our datasets into train and test sets, and we employ Random Forest (RF), K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Logistic Regression (LR), and Gaussian Naive Bayes (GNB) to classify the representative sectors $α=\\{-5.01,0,+5.01\\}\\times10^{-38}\\,\\mathrm{erg}^{-1}\\mathrm{cm}^{3}$ using $(M, R,Λ,f)$. The RF classifier performs best, achieving an accuracy of approximately $99.85\\%$ with precision, recall, and F1-scores exceeding $99.8\\%$, while KNN also achieves accuracy above $99\\%$. The nearly diagonal confusion matrices demonstrate that the observationally viable NS configurations associated with different EMSG sectors remain highly separable in the multidimensional observable space. Our results show that NS observables retain robust signatures of EMSG even after observational filtering, establishing ML-assisted NS observations as a promising complementary approach for probing modified gravity with current and future multi-messenger observations.",
+    "authors": [
+      "Sayantan Ghosh",
+      "Premachand Mahapatra",
+      "Dipti Deb"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc",
+      "hep-ph",
+      "nucl-th"
+    ],
+    "submitted_at": "2026-09-08T11:47:55Z",
+    "updated_at": "2026-09-08T11:47:55Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.09248v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09248v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.09248",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.09248v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

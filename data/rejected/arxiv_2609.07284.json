@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07284",
+    "arxiv_id": "2609.07284",
+    "arxiv_version": null,
+    "inspire_id": "3201017",
+    "doi": null,
+    "title_en": "Implementing QESEM's High-Accuracy Error Mitigation on a Quantum Computer: a Water Potential Energy Surface Study",
+    "abstract_en": "Quantum error mitigation (QEM) is essential for extracting chemically accurate results from near-term quantum hardware. Many widely used QEM methods rely on uncontrolled heuristics whose bias depends on the specific circuit and noise realization. In this work, we employ QESEM---a characterization-based, unbiased quasi-probabilistic mitigation method---on IBM's Aachen quantum processor to compute the ground-state potential energy surface (PES) of the symmetrically-stretched water molecule. We consider a classically-optimized, single-layer perfect-pairing tiled unitary product state ansatz. We map this ansatz to an 8-qubit register corresponding to a (4,4) active space and the STO-3G basis set. Compared to the statevector reference, we find that raw QPU results typically overestimate the ground-state energy by around 500~mHa across the scanned geometries. On the other hand, QESEM-mitigated results fall approximately within 100~mHa, 30~mHa, or ``chemical accuracy'' ($\\sim$1.5~mHa), depending on the target precision. We benchmark QESEM at both loose (0.1~Ha) and tight (0.01~Ha) precision targets, evaluating both individual and merged batches of runs. As the precision target is tightened, the accuracy improves systematically, matching or exceeding results reported in the literature. We further quantify the sampling cost of these results, reporting the number of shots required at each precision level. Our results show how, with the current levels of hardware error, reaching the highest accuracies demands substantial QPU time. The results demonstrate that the characterization-based, unbiased error mitigation provided by QESEM allows to measure quantitatively meaningful potential energy surfaces on current quantum hardware. Concurrently, they highlight the sampling overhead associated with QEM, which remains a central bottleneck en route to larger chemical problems and higher precision.",
+    "authors": [
+      "Hernandez, Renato Olarte",
+      "Rossi, Emanuele",
+      "Coriani, Sonia",
+      "Ziems, Karl Michael",
+      "Kjellgren, Erik",
+      "Kongsted, Jacob",
+      "Shnaider, Tali",
+      "Sauer, Stephan P.A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T10:28:46.167038Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201017",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201017",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3201017"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

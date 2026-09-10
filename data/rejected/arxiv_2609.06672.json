@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06672",
+    "arxiv_id": "2609.06672",
+    "arxiv_version": null,
+    "inspire_id": "3200890",
+    "doi": null,
+    "title_en": "Efficient Representation of multicategorical local Hilbert spaces: nonlinear Restricted Boltzmann Machines to Kolmogorov-Arnold Networks",
+    "abstract_en": "Neural network quantum states (NQS) for representing spin-$\\frac{1}{2}$ systems are typically built from Multi-Layer Perceptrons (MLPs) with binary visible variables, in which the input spins are first combined through linear affine maps before more expressive nonlinear transformations are applied. The standard way for representing multi-categorical systems, namely spin-1 and spin-2, or the q-state quantum Potts systems with more than two local degrees of freedom, is a unary or one-hot encoded MLP architecture. Following a few similar studies, I observe that while the one-hot construction is the mathematically faithful encoding for systems with more than two local states such as spin-$S$ models with $S > 1/2$ or $q$-state Potts models, its parameter count grows with the number of local states, and the resulting optimization landscape can hinder convergence. I find numerically that allowing $\\log Ψ$ to be a nonlinear function of the raw multi-valued spin variable is a natural categorical generalization: it preserves the labelling freedom of the local basis and reproduces the one-hot model with strictly fewer parameters, often with improved trainability. I first benchmark this idea on shallow Restricted Boltzmann Machines (RBMs), equipping them with several distinct nonlinear connections, for spin-1, 2, and 3 Heisenberg chains. I then turn to Kolmogorov-Arnold Networks (KANs), where each edge carries a learnable univariate nonlinearity, and show that they provide a strictly more expressive realization of the same principle. Finally, I demonstrate that this framework captures the critical behaviour of the quantum Potts Hamiltonian, recovering its phase transition.",
+    "authors": [
+      "Lahiri, Abhiroop"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-06T00:00:00Z",
+    "updated_at": "2026-09-09T11:07:36.104750Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200890",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200890",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200890"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

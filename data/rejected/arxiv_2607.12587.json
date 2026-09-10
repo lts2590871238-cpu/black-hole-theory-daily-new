@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.12587",
     "arxiv_id": "2607.12587",
-    "arxiv_version": 1,
-    "inspire_id": "3180565",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Lattice Configuration Generation with a Self-Learning Diffusion Model",
-    "abstract_en": "We show that a diffusion sampler for lattice-field configurations can be trained without preparing training data by an external Monte Carlo calculation. Starting from exactly sampled configurations at $β=0$, we construct a self-bootstrap sampler, SLDiffusion, in which periodic Gaussian proposals with a fixed learned score are Metropolis--Hastings corrected, at each $β$, against the same physical target at every noise level, and only replay configurations from the resulting chain are used to train the score at the next stage. In the two-dimensional compact XY model, self-training proceeds from $β=0.30$ to $0.50$ at $L=4$. At $β=0.5$, the energy and vortex densities for $L=4,6,8,12$ agree with independent Hybrid Monte Carlo calculations within $1.35σ$. Volume-native retraining at $L=8$ and $12$ improves both the proposal displacement and autocorrelation. The integrated autocorrelation times of the energy and vortex densities remain below two for all volumes studied. These results demonstrate that a Metropolis-corrected diffusion sampler can be self-trained without configurations drawn in advance from the target coupling.",
+    "abstract_en": "We show that a diffusion sampler for lattice-field configurations can be self-trained without preparing target-ensemble training configurations using an external Monte Carlo calculation. Starting from exactly sampled configurations at $β=0$, we use action-difference weights to train the score at the next coupling. Proposals from a fixed model are Metropolis-Hastings corrected at every noise level, and the resulting chain supplies training configurations for the next stage. This procedure defines the self-learning diffusion sampler SLDiffusion. In the two-dimensional compact XY model, self-training proceeds from $β=0.30$ to $0.50$ at $L=4$ and extends to $L=6,8,12$ at $β=0.5$. The energy and vortex densities agree with independent Hybrid Monte Carlo calculations within $1.6$ combined standard errors. Their integrated autocorrelation times, measured in stored updates, remain below two at all volumes studied. These results demonstrate a diffusion sampler whose training can be initialized and continued without external target-coupling ensembles.",
     "authors": [
       "Akio Tomiya"
     ],
@@ -15,31 +15,23 @@
       "hep-lat",
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-07-14T00:00:00Z",
-    "updated_at": "2026-07-16T04:04:45.880435Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-14T09:58:51Z",
+    "updated_at": "2026-09-08T17:18:16Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.12587v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.12587v1",
-    "inspire_url": "https://inspirehep.net/literature/3180565",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.12587v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.12587v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.12587",
-        "fetched_at": "2026-07-21T00:16:08.085426Z",
-        "url": "https://arxiv.org/abs/2607.12587v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3180565",
-        "fetched_at": "2026-07-21T00:16:08.085426Z",
-        "url": "https://inspirehep.net/literature/3180565"
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2607.12587v2"
       }
     ],
     "is_demo": false

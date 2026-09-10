@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05812",
+    "arxiv_id": "2609.05812",
+    "arxiv_version": null,
+    "inspire_id": "3200688",
+    "doi": null,
+    "title_en": "Quantum Query Algorithms for the Constructive Diagonal Ramsey Theorem",
+    "abstract_en": "The constructive diagonal Ramsey problem asks, given adjacency-oracle access to an $N$-vertex graph, for a clique or independent set of the order guaranteed by Ramsey's theorem. We give a bounded-error quantum algorithm that, for every $K\\ge2$ and $N\\ge4^{K-1}$, finds and verifies a homogeneous $K$-set using $O\\!\\left(2^K K\\log\\frac Kη\\right)$ edge queries with failure probability at most $η$. At the Ramsey scale $N=2^n$, this yields a homogeneous set of order $\\lfloor n/2\\rfloor+1$ using $O(\\sqrt N\\log N\\log(\\log N/η))$ queries, improving on the $O(N)$ queries of the explicit classical recursion and giving, to our knowledge, the first sublinear worst-case algorithm for the Ramsey relation. We also derive an $Ω(N^{1/12})$ quantum lower bound by a reduction from collision finding. The algorithm runs the constructive recursion over implicit candidate sets. Each set is represented by a short conjunction of adjacency constraints and sampled using capped unknown-solution quantum search, and a scale-aware concentration schedule balances estimation accuracy against the increasing cost of sampling deeper sets. We complement the upper bound with an $Ω(N^{1-1/\\sqrt2})$ randomized lower bound, transported from the random-Painter analysis of online Ramsey numbers, which holds on the uniform distribution $G(N,1/2)$. On that distribution a greedy quantum search uses only $\\widetilde O(N^{1/4})$ queries, giving a provable polynomial quantum speedup for Ramsey search on random graphs. We also give an estimation-free size-biased recursion and extend it to every fixed number of edge colours.",
+    "authors": [
+      "Xin, Cheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:30:34.039176Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200688",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200688",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200688"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

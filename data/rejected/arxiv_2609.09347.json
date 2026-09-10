@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09347",
+    "arxiv_id": "2609.09347",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fixed-mesh based approach for modeling of superconducting magnetic bearings",
+    "abstract_en": "Numerical simulations of superconducting magnetic bearings (SMBs) are complicated by the relative motion between high temperature superconductors and the magnetic guideway, which commonly requires repeated updates of the geometry and mesh. We present a fixed-mesh based approach for modeling the motion induced effects in which a coordinate transformation is applied only to the air region between the moving regions. The transformation can be included in a time-dependent anisotropic material tensor, leaving the mesh during the simulation and the rest of the formulation unchanged. To provide numerical examples, the approach is implemented in 2D using the finite element method with the $j$-$a$ formulation and is combined with homogenization and circuit coupling for double-crossed loops of coated conductors. The open-source model implementations are made available. The proposed approach is verified and validated against existing modeling approaches and experimental results from the literature for SMBs. Two simulation examples are presented, and in both of them the levitation force predicted by the fixed-mesh model agrees with the experimental results, yielding $R^2$ values above 0.99. For a verification problem, it is shown that the fixed-mesh model converges towards the remeshed reference solution under mesh refinement as expected. For an SMB undergoing vertical and horizontal translations, the homogenized fixed-mesh model reproduces the lateral-force response of a fully resolved moving-geometry reference model. Additionally, the homogenized fixed-mesh model is computationally more efficient than the reference model, indicating a significant reduction in the number of degrees of freedom and the computation time. The results demonstrate accurate and computationally efficient simulation of translational motion with the fixed-mesh based approach.",
+    "authors": [
+      "Elias Paakkunainen",
+      "Bárbara Maria Oliveira Santos",
+      "Gabriel dos Santos",
+      "Timo Tarhasaari",
+      "Paavo Rasilo",
+      "Sebastian Schöps"
+    ],
+    "categories": [
+      "cs.CE",
+      "cond-mat.supr-con"
+    ],
+    "submitted_at": "2026-09-08T18:37:12Z",
+    "updated_at": "2026-09-08T18:37:12Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.09347v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.09347v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.09347",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://arxiv.org/abs/2609.09347v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 16,
+    "methodological_rigor": 17,
+    "novelty": 8,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 62,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文针对连续引力波探测中关键的定时模型精度问题，系统比较LALSuite与PINT的太阳系与双星延迟，推导并验证功率损失与定时误差的领头阶关系，并检验474颗双星脉冲星的轨道延迟及Shapiro延迟，属于脉冲星定时方法学的基础性工作，适合索引。",
+  "title_zh": "验证连续引力波定时模型的精度：LALSuite与PINT的比较",
+  "abstract_zh": "我们给出了将连续引力波的\\lalsuite{}定时模型与现代高精度脉冲星定时软件包\\pint{}进行系统验证的结果。准确的定时模型对于跟踪信号相位至关重要，因而对于探测和准确表征连续引力波也十分关键。为了量化定时不准确性的影响，我们推导并验证了领头阶关系$\\mu\\approx (2\\pi f)^2\\stddtau^2$，其中$\\mu$是信号功率的分数损失，$f$是信号频率，$\\stddtau^2$是定时误差的方差。随后我们将\\lalsuite{}定时模型的太阳系分量和双星分量与\\pint{}中相应的模型进行比较。使用原始的\\lalsuite{} Einstein延迟实现时，总分歧由该分量主导，且$\\stddtau\\simeq\\SI{2.3}{\\micro\\second}$（对应在$f=\\SI{1000}{\\hertz}$时$\\mu\\simeq\\SI{0.02}{\\percent}$）。使用较新的Einstein延迟实现时，总分歧（在一年内）降至$\\stddtau\\lesssim\\SI{31}{\\nano\\second}$（或在$f=\\SI{1000}{\\hertz}$时$\\mu\\lesssim\\num{4e-8}$），并且由\\Romer{}延迟中的天文台贡献主导，这是由于\\lalsuite{}所采用的近似地球自转模型所致。我们还使用\\num{474}颗已编目的双星脉冲星的轨道参数测试了双星延迟，并验证了\\lalsuite{}源时间导数的自洽性。最后，我们推导并讨论了信号穿过太阳内部时的\\lalsuite{} Shapiro延迟，这一情形仅与引力波相关。",
+  "keywords_en": [
+    "continuous gravitational waves",
+    "pulsar timing",
+    "LALSuite",
+    "PINT",
+    "timing model validation",
+    "Einstein delay",
+    "Romer delay",
+    "Shapiro delay",
+    "binary pulsars"
+  ],
+  "keywords_zh": [
+    "连续引力波",
+    "脉冲星定时",
+    "LALSuite",
+    "PINT",
+    "定时模型验证",
+    "Einstein延迟",
+    "Romer延迟",
+    "Shapiro延迟",
+    "双星脉冲星"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-10T01:13:00.295865Z"
+}

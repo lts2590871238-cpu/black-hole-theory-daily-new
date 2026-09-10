@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05814",
+    "arxiv_id": "2609.05814",
+    "arxiv_version": null,
+    "inspire_id": "3200692",
+    "doi": null,
+    "title_en": "Towards Continuous Profiling and Optimization of Quantum-Classical Pipelines",
+    "abstract_en": "Quantum applications increasingly execute as multi-stage quantum-classical pipelines, interleaving QPU computation with classical stages like circuit generation, transpilation, layout mapping, quantum error mitigation (QEM), and post-processing. These stages have diverse resource requirements and exhibit stochastic behavior under drifting hardware noises, yet existing workflow frameworks treat them as static, isolated components. We present LLQM (Low-Level Quantum Machine), a profiling-driven meta-framework for quantum-classical pipelines. LLQM decomposes pipelines into fine-grained tasks and continuously profiles their CPU/GPU, memory, QPU, and queue dependencies alongside real-time hardware states. This unified runtime abstraction captures cross-stage resource dependencies and reveals how classical and quantum decisions interact, enabling characterization of their impact on fidelity and resource consumption. We evaluate LLQM using QEM as a representative pipeline stage, on IBM 156-qubit Heron r2 processors with circuits up to 100 qubits and 1e7 transpiled gates. Our results show that continuous profiling exposes runtime bottlenecks and enables hardware-, fidelity-, and workload-aware optimizations.",
+    "authors": [
+      "Bansal, Ayush",
+      "Cochell, Owen",
+      "Núñez-Corrales, Santiago",
+      "Frenkel, Marcos",
+      "Seelam, Seetharami",
+      "Mohan, Apoorve",
+      "Xu, Tianyin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:29:01.363032Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200692",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200692",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200692"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.04510",
     "arxiv_id": "2609.04510",
     "arxiv_version": 1,
-    "inspire_id": "3200167",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Implementation of frequency-correlated noise in CMB component separation: Method, Validation, and Early Applications",
     "abstract_en": "Parametric component separation methods used in cosmic microwave background (CMB) analyses commonly assume instrumental noise to be uncorrelated between frequency channels. This approximation may become insufficient for experiments whose design naturally introduces cross-channel correlations, such as interferometric or multi-band bolometric systems. This work aims to provide a consistent framework to include frequency-correlated noise in Commander2 and to quantify its impact on component separation in controlled and instrument-motivated simulations. We generalized the amplitude sampling of the Commander2 framework to consistently handle dense frequency-frequency noise covariance matrices, modifying the likelihood evaluation and parallel architecture. The implementation is validated on low-resolution simulations of a simplified CMB-S4-like configuration. We applied the generalized framework to instrument-motivated simulations of the QUBIC bolometric interferometer, using representative noise models derived from end-to-end simulations. Validation tests show excellent convergence and agreement between sampled parameters and analytical maximum-likelihood estimates. Accounting for frequency correlations reduces the width of the maximum-likelihood residual distributions by up to 8% on average, and up to 11% for individual parameters, relative to the diagonal-noise approximation. In QUBIC-based simulations, accounting for an anti-correlated noise produces posterior widths reduced by about 60%, while a positive-correlation test increases them by about 40%. This shows that neglecting cross-channel correlations can lead to incorrect posterior estimates in either direction. The generalized implementation presented here enables the Commander2 software to consistently propagate such correlations into parameter estimation, providing a framework for assessing their impact in future CMB analyses.",
@@ -40,31 +40,23 @@
       "astro-ph.CO",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-09-03T00:00:00Z",
-    "updated_at": "2026-09-08T02:50:45.088952Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-09-03T21:58:47Z",
+    "updated_at": "2026-09-03T21:58:47Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2609.04510v1",
     "pdf_url": "https://arxiv.org/pdf/2609.04510v1",
-    "inspire_url": "https://inspirehep.net/literature/3200167",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.04510",
-        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
         "url": "https://arxiv.org/abs/2609.04510v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3200167",
-        "fetched_at": "2026-09-09T01:18:41.191104Z",
-        "url": "https://inspirehep.net/literature/3200167"
       }
     ],
     "is_demo": false

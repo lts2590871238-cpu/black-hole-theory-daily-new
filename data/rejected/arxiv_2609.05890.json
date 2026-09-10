@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.05890",
     "arxiv_id": "2609.05890",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3200787",
     "doi": null,
     "title_en": "Self-supervised reconstruction of transients in data from space-borne gravitational-wave detectors",
     "abstract_en": "Space-based gravitational-wave (GW) data may contain transient signals whose waveform morphologies are not known in advance. Extracting these signals is important for characterizing new sources and mitigating instrumental anomalies. However, existing deep neural network (DNN)-based extraction approaches rely on clean training targets and waveform-class-specific examples, which may limit their applicability when the transient morphology is not specified in advance. This work develops a Noise2Noise (N2N)-inspired self-supervised framework that learns from noisy observations without clean training targets and requires no transient-specific waveform templates at inference. A single model trained on noisy massive black-hole binary (MBHB) observations provides high-overlap MBHB recovery and recovers the dominant morphologies of instrumental glitches and other GW transient signals such as cosmic string bursts in source-confused test data. Beyond waveform recovery, when independent information identifies a candidate transient as instrumental, its extracted waveform can be subtracted from the data without an anomaly-specific template. In a simulated continuous data stream, this procedure substantially suppresses the injected-anomaly power within the glitch-dominated frequency band. These results support the use of self-supervised extraction for initial waveform estimation of candidate transients with unknown morphologies, enabling subsequent characterization and, where appropriate, conditional subtraction of instrumental anomalies.",
@@ -22,23 +22,31 @@
       "astro-ph.IM",
       "hep-ph"
     ],
-    "submitted_at": "2026-09-05T05:22:50Z",
-    "updated_at": "2026-09-05T05:22:50Z",
-    "document_types": [],
+    "submitted_at": "2026-09-05T00:00:00Z",
+    "updated_at": "2026-09-09T10:32:02.961350Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.05890v1",
     "pdf_url": "https://arxiv.org/pdf/2609.05890v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200787",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.05890",
-        "fetched_at": "2026-09-09T01:18:41.191104Z",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
         "url": "https://arxiv.org/abs/2609.05890v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3200787",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200787"
       }
     ],
     "is_demo": false

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.05645",
+    "arxiv_id": "2609.05645",
+    "arxiv_version": null,
+    "inspire_id": "3200682",
+    "doi": null,
+    "title_en": "Ordered-Angle Coding for Exact Multiuser Unanimity Testing",
+    "abstract_en": "We introduce ordered-angle coding for binary-unanimity testing among $n$ transformation-only users in a serial quantum architecture inherited from Loop-Back communication. User $B_i$ fixes one private sign across a logical word and applies $R(s_iα_j)$ in trial $j$. If $w$ users choose the negative sign, serial composition gives $R[(n-2w)α_j]$. We show that every fixed same-axis pulse that is deterministic for both unanimous inputs under the binary Bell readout has $α_j=q_jπ/(2n)$ with integer $q_j$. For a nonadaptive word $\\mathbf q=(q_1,\\ldots,q_m)$, a mixed Hamming weight imitates the unanimous signature with probability \n\\[ M_{\\mathbf q}(w)=\\prod_{j=1}^{m}\\cos^2\\!\\left(\\frac{πq_jw}{n}\\right). \\]\n Within this complete deterministic-unanimity pulse family, a finite perfect word exists if and only if $n$ is a power of two. For $n=2^r$, the dyadic word $(1,2,4,\\ldots,2^{r-1})$ is exact and pulse-minimal with $m_{\\min}=r=\\log_2n$ trials. It replaces the $O(n^2\\log(1/\\varepsilon))$ worst-case burden of repeated smallest-angle tests by exact $O(\\log n)$ verification. Odd primes instead admit balanced statistical words with uniform mixed-weight imitation $2^{-(p-1)}$. For actual operations $R(s_iα_j+δ_{ij})$, an ideal rejecting position is lifted to $\\sin^2Δ_j$, where $Δ_j=\\sum_iδ_{ij}$. This yields explicit robustness bounds with angular and binary-readout errors. Bell entanglement is not required for the additive algebra, but it keeps the traveler locally maximally mixed in every honest trial. We therefore present the result as a coded multiuser relation primitive with optional raw conference-key-candidate use, not as a composably secure conference-key protocol.",
+    "authors": [
+      "Lizama-Pérez, Luis Adrián"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-04T00:00:00Z",
+    "updated_at": "2026-09-09T13:37:29.464001Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200682",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200682",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200682"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

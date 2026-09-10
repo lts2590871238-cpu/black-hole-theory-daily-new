@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.06743",
+    "arxiv_id": "2609.06743",
+    "arxiv_version": null,
+    "inspire_id": "3201204",
+    "doi": null,
+    "title_en": "Staged Hybrid Quantum-Classical Programming",
+    "abstract_en": "Hybrid quantum-classical computing systems consist of a classical control system that sends quantum circuits and receives measurement results from a quantum co-processor. Such systems allow us to model algorithms that require the classical control system to generate quantum circuits on the fly, potentially based on prior measurement results. This is challenging, as the classical control system must generate quantum circuits that manipulate live quantum states. In this setting, the classical control system is generating further quantum circuits while the quantum co-processor is internally maintaining the state of the live qubits; this is not ideal, since this not only is costly but also introduces additional sources of noise to the live qubits. Thus, we want to minimize the latency between receiving measurement results and sending the next quantum circuit to be executed by pre-computing quantum circuits. We introduce HyQ (pronounced haiku), a multi-modal language based on adjoint logic that pre-generates quantum circuits before executing a hybrid quantum-classical program. We achieve this by separating our semantics into two distinct stages: 1) compile-time generation of quantum circuits and classical runtime code and 2) execution of the classical runtime code that instruments the quantum co-processor. This separation between stages allows us to formally guarantee that all circuit-generation logic occurs before the instrumentation logic, i.e., the actual runtime, and minimizes the idling of the quantum co-processor at runtime. We give a type system, a circuit-normalization semantics for the compile-time stage, which eagerly performs all circuit-generation logic, and a runtime semantics for HyQ that corresponds to the second stage. We prove type preservation and progress for both semantics.",
+    "authors": [
+      "Sano, Chuta",
+      "Fu, Peng",
+      "Kavanagh, Ryan",
+      "Paykin, Jennifer",
+      "Pientka, Brigitte"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-06T00:00:00Z",
+    "updated_at": "2026-09-09T12:04:51.547451Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201204",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201204",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3201204"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

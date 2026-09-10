@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07537",
+    "arxiv_id": "2609.07537",
+    "arxiv_version": null,
+    "inspire_id": "3200710",
+    "doi": null,
+    "title_en": "Toward Fault-Tolerant Variational Optimization: QAOA under [[4,2,2]] Error Detection",
+    "abstract_en": "We present a partially fault-tolerant implementation of QAOA based on the $[[4,2,2]]$ error-detection code, targeting the Max-Cut problem on a square graph. Our main contribution is a novel ancilla-mediated logical $R_{ZZ}$ gate enabling interactions between qubits in different $[[4,2,2]]$ blocks. We evaluate unencoded and encoded circuits under five noise models, with both all-to-all and grid-routed connectivity, using the Cirq and qsimcirq frameworks with parallel CPU execution. Post-selection on stabilizer measurements consistently improves the probability of sampling optimal bitstrings, with five measurements providing the strongest benefit. These results support error-detection as a practical near-term strategy for improving the quality of variational quantum algorithms.",
+    "authors": [
+      "Child, Matteo Robert",
+      "Dri, Emanuele",
+      "Vitali, Giacomo",
+      "Vercellino, Chiara",
+      "Leporati, Alberto"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-09T10:28:29.278418Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3200710",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3200710",
+        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "url": "https://inspirehep.net/literature/3200710"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

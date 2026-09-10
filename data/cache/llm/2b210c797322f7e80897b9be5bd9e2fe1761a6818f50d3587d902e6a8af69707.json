@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 18,
+    "novelty": 13,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 74,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文提出了一个分层贝叶斯框架，将超大质量黑洞双星合并率密度模型直接纳入脉冲星计时阵列似然函数中，方法具有理论深度与方法学严谨性，且对PTA相关研究具有直接相关性。",
+  "title_zh": "利用脉冲星计时阵列从联合搜索中分层推断超大质量黑洞双星合并率",
+  "abstract_zh": "引力波搜索不仅仅能识别单个源——它们还提供了一种推断产生这些源的潜在天体物理族群的方法。目前，脉冲星计时阵列（PTA）通过随机引力波背景（SGWB）和单个超大质量黑洞双星（SMBHB）信号的搜索来限制SMBHB合并率密度。后者意味着利用经验估计的探测效率将源上限转换为率上限。我们转而开发了一个分层贝叶斯框架，将SMBHB合并率密度模型直接置于PTA似然函数中。未知的单个SMBHB合并信号目录被建模为源参数空间上的泊松点过程，因此合并信号的数量是从数据中推断出来的，而不是由探测阈值强加的。我们描述了两种计算路径：基于固定数量候选源分析的目录边缘似然，以及一种显式的跨维采样方法，该方法联合采样族群超参数、潜在合并信号和噪声。我们用一个玩具合并-only族群模型验证了该方法，然后将其应用于一个天体物理SMBHB合并率密度模型，该模型联合预测SGWB幅度和预期的合并目录大小。在模拟中，单个合并信号为SGWB增加了补充信息，并可以收紧对合并率族群的约束。",
+  "keywords_en": [
+    "pulsar timing arrays",
+    "supermassive black hole binaries",
+    "stochastic gravitational-wave background",
+    "hierarchical Bayesian inference",
+    "merger-rate density",
+    "Poisson point process",
+    "transdimensional sampling"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "超大质量黑洞双星",
+    "随机引力波背景",
+    "分层贝叶斯推断",
+    "合并率密度",
+    "泊松点过程",
+    "跨维采样"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-10T01:13:52.631637Z"
+}
