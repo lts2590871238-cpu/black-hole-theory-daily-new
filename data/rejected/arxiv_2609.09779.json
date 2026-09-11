@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09779",
+    "arxiv_id": "2609.09779",
+    "arxiv_version": null,
+    "inspire_id": "3201954",
+    "doi": null,
+    "title_en": "Split-Step Dirac Cellular Automata for Continuous-Time Dirac Dynamics on Finite Spatial Lattices",
+    "abstract_en": "Dirac Cellular Automata (DCA) provide a framework for simulating Dirac dynamics, yet the rigid coupling between spatial and temporal resolutions can introduce artificial phase-matching symmetries on finite grids that suppress interference phenomena such as Zitterbewegung. In this work, we propose a Split-Step Dirac Cellular Automaton (SDCA) that enables continuous-time Dirac evolution at fixed spatial discretization. By employing a Trotterized fractional-step scheme in the momentum representation, SDCA breaks the phase-matching cancellation present in the standard DCA and recovers the interference dynamics of the continuous-time limit. We benchmark the SDCA through analytical and numerical studies and demonstrate its implementation on IBM Quantum processors. Despite the increased circuit depth required for finer temporal resolution, the NISQ implementation reproduces the characteristic velocity oscillations and entanglement-entropy dynamics of the continuous-time model. We further investigate hardware-topology trade-offs and dynamic circuit implementations of the Quantum Fourier Transform (QFT), highlighting the competing effects of gate errors, measurement, and feed-forward latency. These results demonstrate that SDCA provides a practical framework for improving temporal resolution while maintaining a fixed spatial quantum register, enabling the exploration of relativistic quantum dynamics on near-term quantum devices.",
+    "authors": [
+      "Wang, Wei-Ting",
+      "Ho, Pei-Ming",
+      "Chang, Ching-Ray"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-10T13:14:57.723312Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201954",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201954",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201954"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07972",
+    "arxiv_id": "2609.07972",
+    "arxiv_version": null,
+    "inspire_id": "3201674",
+    "doi": null,
+    "title_en": "Quantum Wavefunction Augmentation via Variational Autoencoders",
+    "abstract_en": "Sample-based quantum diagonalization (SQD) has emerged as a promising route for quantum-centric supercomputing, relying on classical diagonalization of the molecular Hamiltonian within a hardware-sampled determinant subspace. However, its accuracy degrades in strongly correlated regimes where the relevant determinant space exceeds what finite-shot sampling can capture. In this work, we introduce Quantum Wavefunction Augmentation via Variational Autoencoders (Q-WAVE), a hybrid method that combines determinants sampled via SqDRIFT Krylov circuits and configuration interaction singles and doubles (CISD) determinants with generative machine learning. Using a custom $β$-annealed variational autoencoder (VAE) model, Q-WAVE iteratively expands this basis toward the variational ground state. The VAE learns the wavefunction's primary support structure from the combined hardware and CISD seed in a continuous latent space, generating new dominant determinants beyond any fixed excitation hierarchy. The resulting compact wavefunction exceeds what can be extracted from raw hardware samples alone. We demonstrate sub-millihartree accuracy compared to full configuration interaction for $\\text{H}_2\\text{O}$ and $\\text{N}_2$ dissociation. Finally, we establish Q-WAVE's scalability on a 52-qubit ethylene system (achieving sub-millihartree accuracy versus CCSD(T)) and a highly correlated 60-qubit $\\text{Cr}_2$ stress test that attains chemical accuracy upon a final perturbative correction.",
+    "authors": [
+      "Halder, Sonaldeep",
+      "Patra, Chayan",
+      "Maitra, Rahul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-10T13:23:27.288903Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201674",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201674",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201674"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08233",
+    "arxiv_id": "2609.08233",
+    "arxiv_version": null,
+    "inspire_id": "3201569",
+    "doi": null,
+    "title_en": "Transversal Fanout for Fault Tolerant Distributed Quantum Computing: Analysis and Application",
+    "abstract_en": "We study a resource-efficient approach for implementing logical fanout operations in fault-tolerant distributed quantum computing using transversal operations on quantum error-correcting code blocks. Logical fanout, comprising multiple controlled-NOT operations from a common control qubit to target qubits located at remote nodes, is an important primitive for distributed quantum computation but can require substantial non-local communication when implemented directly between encoded blocks. We exploit the structure of encoded blocks and the availability of transversal logical operations to construct distributed fanout circuits that reduce the required non-local operations while preserving the logical action of the fanout operation. The construction is developed for encoded quantum information and illustrated using Bivariate Bicycle (BB)-code blocks. We analyze the resulting physical gate, entanglement, circuit-depth, and ancilla requirements. The approach provides a systematic method for implementing large logical fanout operations across distributed error-corrected quantum processors. Also, we study a distributed implementation of the global gate GCZ involving logical qubits (encoded using BB-code blocks), exploiting the concurrency in transversal distributed fanouts.",
+    "authors": [
+      "Loke, Seng W."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:12:32.856472Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201569",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201569",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201569"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

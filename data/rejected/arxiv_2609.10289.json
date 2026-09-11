@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.10289",
+    "arxiv_id": "2609.10289",
+    "arxiv_version": null,
+    "inspire_id": "3201614",
+    "doi": null,
+    "title_en": "On the Limits of Quantum Multiparty Simultaneous Communication",
+    "abstract_en": "The Simultaneous Message Passing (SMP) model provides a fundamental framework for comparing classical and quantum communication. For two players, Gavinsky et al. (STOC 2006) established a separation underlying the incomparability of shared randomness and quantum communication: \\textsc{Index Coordination} needs $O(\\log n)$ public-coin bits but $Ω(n^{1/3})$ bounded-error qubits. In this work, we establish a multiparty exponential separation through $\\operatorname{IC}_{k,n}$, a natural $k$-party generalization of \\textsc{Index Coordination}. Public-coin protocols solve it unambiguously with maximum message length $O(\\log n)$ bits. In contrast, quantum SMP protocols without shared entanglement or public coins require maximum message length $Ω(n^{1-1/k})$ qubits in the unambiguous regime and $Ω(n^{(k-1)/(k+1)})$ qubits in the bounded-error regime. A classical private-coin protocol matches the unambiguous bound, so quantum communication provides no asymptotic advantage over private randomness in this regime. For fixed error parameters, all constants are independent of $k$, establishing the exponential separation for every integer-valued function $k=k(n)\\ge2$, without restricting its growth. Both quantum lower bounds become $Ω(n)$ when $k\\ge c\\log n$ for any fixed $c>0$, matching the full-input protocol and yielding tight linear complexity in both regimes. Our results demonstrate that quantum superposition cannot efficiently simulate the coordination afforded by public randomness, extending this separation to arbitrary $k$. To bound success probabilities for multiparty product states, we prove an exact factorization theorem for unambiguous quantum state identification, which may be of independent mathematical interest.",
+    "authors": [
+      "Montealegre, Pedro",
+      "Rapaport, Ivan",
+      "Valenzuela, Jorge"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-10T13:15:16.872866Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201614",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201614",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201614"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

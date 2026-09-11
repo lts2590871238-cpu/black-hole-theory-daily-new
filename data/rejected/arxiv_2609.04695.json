@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.04695",
     "arxiv_id": "2609.04695",
     "arxiv_version": 1,
-    "inspire_id": "3200094",
+    "inspire_id": null,
     "doi": null,
     "title_en": "A Differentiable Neural Surrogate for Photon Propagation in Neutrino Telescopes",
     "abstract_en": "Large-volume neutrino telescopes infer neutrino properties from Cherenkov light, but simulating the transport of billions of photons through highly scattering ice or water is computationally costly. We introduce candela, a differentiable SIREN neural field that learns the photon Green's function of the IceCube Neutrino Observatory, a cubic-kilometer detector embedded in Antarctic glacial ice. Given a point-like energy deposit and sensor, it predicts the expected photon yield and full arrival-time distribution at the sensor. Complete events are simulated by decomposing charged-particle energy deposits into point-like sources and superposing their predicted sensor responses. Trained on Monte-Carlo simulations, candela generates events $50$--$100\\times$ faster than existing methods, with cost scaling only weakly with neutrino energy. It keeps median yields within $2\\%$ of the MC expectation and timing distributions at the MC statistical floor across six photon-count decades. The model also provides end-to-end gradients with respect to event parameters and opens a path toward optimizing scattering-medium properties, which often dominate systematic uncertainties in neutrino telescopes.",
@@ -19,31 +19,23 @@
       "cs.LG",
       "hep-ex"
     ],
-    "submitted_at": "2026-09-04T00:00:00Z",
-    "updated_at": "2026-09-08T02:21:05.769841Z",
-    "document_types": [
-      "conference paper"
-    ],
+    "submitted_at": "2026-09-04T03:54:28Z",
+    "updated_at": "2026-09-04T03:54:28Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2609.04695v1",
     "pdf_url": "https://arxiv.org/pdf/2609.04695v1",
-    "inspire_url": "https://inspirehep.net/literature/3200094",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.04695",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
         "url": "https://arxiv.org/abs/2609.04695v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3200094",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
-        "url": "https://inspirehep.net/literature/3200094"
       }
     ],
     "is_demo": false

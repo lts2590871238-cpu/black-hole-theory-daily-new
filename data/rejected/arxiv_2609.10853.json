@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.10853",
+    "arxiv_id": "2609.10853",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A new generation of effective core potentials: Selected heavy 5d and 6p elements",
+    "abstract_en": "We expand the correlation-consistent effective core potentials (ccECPs) library by developing semi-local pseudopotentials and matching basis sets by heavy-elements from $5d$ (Hf, Os, Hg) and $6p$ (Tl, Po, At, Rn) blocks. In order to accurately capture scalar relativistic effects, spin-orbit coupling, and electron-electron correlation, we implement a tiered core-valence partitioning strategy across three distinct resolutions. This includes a small 60-core (Hf, Os, Hg) that explicitly correlates subvalence shells, a large 78-core definition for the main-group elements that rigorously accounts for core polarization and relaxation effects in sparse valence environments, and an intermediate 68-core partition for Hg and Tl. This 68-core architecture represents a unique development in the ccECP library, optimizing the balance between accuracy and computational efficiency in a manner unexplored for ligther elements. Optimized against relativistic all-electron CCSD(T) references, the ccECPs deliver outstanding atomic precision, achieving a global average atomic low-lying states deviation of just 0.045 eV. This accuracy translates directly to robust molecular transferability, systematically restricting dissociation energy discrepancies to under 0.03 eV, equilibrium bond lengths to within 0.005 Å. By enforcing a regularized, finite potential at the origin for enhanced numerical stability in stochastic quantum Monte Carlo methods, this library removes a critical methodological bottleneck for predictive many-body simulations of heavy-element systems and materials.",
+    "authors": [
+      "Omar Madany",
+      "Lubos Mitas"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "cond-mat.mtrl-sci",
+      "cond-mat.str-el",
+      "physics.chem-ph"
+    ],
+    "submitted_at": "2026-09-09T21:42:43Z",
+    "updated_at": "2026-09-09T21:42:43Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.10853v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10853v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.10853",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://arxiv.org/abs/2609.10853v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

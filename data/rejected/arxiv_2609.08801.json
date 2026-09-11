@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.08801",
     "arxiv_id": "2609.08801",
     "arxiv_version": 2,
-    "inspire_id": null,
+    "inspire_id": "3202024",
     "doi": null,
     "title_en": "Enabling new sampling strategies for continuous-wave analyses by integrating Bilby into PyFstat",
     "abstract_en": "Continuous-wave searches for rotating neutron stars usually cover wide parameter spaces and produce a large number of candidate signals. Stochastic sampling methods therefore play an important role in candidate follow-up and parameter estimation. We present the integration of the Bayesian inference library BILBY into the open-source continuous-wave analysis package PyFstat, enabling access to the broad range of stochastic samplers available through BILBY while preserving the existing PyFstat analysis infrastructure. The implementation is validated through injection studies in Gaussian noise for two representative single-stage follow-up configurations: candidates from a directed search and candidates from an all-sky search. Using the nested sampler DYNESTY, we obtain detection efficiencies consistent with the theoretical sensitivity predictions. In this setup, DYNESTY performs comparably to the existing PTEMCEE-based implementation of PyFstat for the directed case, and also provides an effective single-stage approach for the all-sky candidate follow-up considered here, where we did not identify a PTEMCEE setup with similar recovery performance. Percentile-percentile tests for DYNESTY further show well-calibrated credible intervals, demonstrating reliable parameter estimation. While a full exploration of DYNESTY settings, multi-stage setups, and other samplers is left for future work, these results demonstrate that this flexible and publicly available framework opens useful new possibilities for Bayesian continuous-wave analyses.",
@@ -18,22 +18,30 @@
       "gr-qc"
     ],
     "submitted_at": "2026-09-08T14:29:01Z",
-    "updated_at": "2026-09-09T14:42:03Z",
-    "document_types": [],
+    "updated_at": "2026-09-10T13:24:29.286344Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.08801v2",
     "pdf_url": "https://arxiv.org/pdf/2609.08801v2",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202024",
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.08801",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
         "url": "https://arxiv.org/abs/2609.08801v2"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3202024",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3202024"
       }
     ],
     "is_demo": false

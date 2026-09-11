@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11401",
+    "arxiv_id": "2609.11401",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Improving the Sensitivity of Gravitational Wave Detection with Weighted Conformal Prediction",
+    "abstract_en": "In the last decade, kilometre-scale interferometric gravitational-wave detectors have observed hundreds of compact binary mergers, the majority of which are binary black holes. However, the data are noise-dominated, and multiple independent search algorithms (pipelines) are used to enhance sensitivity and improve robustness. Rather than the standard approach of selecting the most significant pipeline output, we combine the outputs from all pipelines using a conformal prediction-based framework to provide statistically rigorous confidence estimates for candidate events. While combining pipelines improves sensitivity and ranking robustness, it requires a principled statistical framework that remains valid as data properties evolve across observing runs. A key challenge is distribution shifts between simulated datasets used for training and calibration and the real, unlabelled, observations used for testing, which can invalidate coverage guarantees and bias confidence estimates. In this work, we address this challenge by incorporating likelihood-ratio reweighting into our conformal prediction framework to account for covariate shift. Using mock datasets containing simulated signals, we demonstrate that weighted conformal prediction restores well-calibrated coverage under covariate shift and increases the confidence of events near the detection threshold, recovering true signals that would otherwise be missed.",
+    "authors": [
+      "Ann-Kristin Malz",
+      "Gregory Ashton",
+      "Nicolo Colombo"
+    ],
+    "categories": [
+      "gr-qc",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "submitted_at": "2026-09-10T11:33:49Z",
+    "updated_at": "2026-09-10T11:33:49Z",
+    "document_types": [],
+    "journal_ref": "Proceedings of the Fifteenth Symposium on Conformal and Probabilistic Prediction with Applications, PMLR 329:937-957, 2026",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.11401v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11401v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.11401",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://arxiv.org/abs/2609.11401v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

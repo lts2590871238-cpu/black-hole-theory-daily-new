@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11181",
+    "arxiv_id": "2609.11181",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "SMART : Spherical Mass ApeRture Toolkit",
+    "abstract_en": "The aperture mass filter is a widely used tool in weak lensing studies. While previous surveys have typically relied on the flat-sky approximation, forthcoming Stage IV surveys such as Euclid will cover sufficiently large areas to require the construction of curved-sky aperture mass maps. In this paper, we extend the shear-based aperture mass formalism to the sphere and introduce a software package for a fast and precise computation of spherical aperture mass maps from the shear field, defined directly on the celestial sphere. Unlike existing approaches, our method does not rely on planar projections and does not require the reconstruction of convergence maps. The software provides four different implementations, all of which are independent of the choice of aperture mass filter function. Starting from the brute-force approach, whose computational cost renders it impractical for future surveys covering more than 10,000 deg2, we investigate alternative galaxy-grouping strategies to improve computational efficiency. We demonstrate speed-up factors of up to 40 at a resolution of NSIDE = 4096 while achieving significantly higher precision than existing state-of-the-art methods. In particular, we show that the spherical shear-based implementations using a pixel-based approach outperforms the existing methods in terms of both precision and computational time. Finally, we show that, for weak-lensing cluster detection, the cluster sample produced using the spherical shear-based aperture mass method consistently outperforms those obtained using projected shear-based approaches in the purity-completeness plane, while simplifying the resulting selection function. Our spherical mass aperture software, called SMART, is made available on GitHub.",
+    "authors": [
+      "Igor Bezmaternykh",
+      "Sandrine Pires",
+      "Nicolas Dagoneau",
+      "Gabriel W. Pratt",
+      "Loris Chappuis",
+      "Gavin Leroy"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-10T07:44:00Z",
+    "updated_at": "2026-09-10T07:44:00Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.11181v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11181v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.11181",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://arxiv.org/abs/2609.11181v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

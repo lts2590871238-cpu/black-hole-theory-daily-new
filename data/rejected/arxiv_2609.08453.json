@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08453",
+    "arxiv_id": "2609.08453",
+    "arxiv_version": null,
+    "inspire_id": "3201723",
+    "doi": null,
+    "title_en": "The Forgotten History of Wave Function Variance Optimization and its Relevance for Neural-Network VMC",
+    "abstract_en": "We revisit the almost century-old question of which functional of the local energy best optimizes a trial wave function, a problem of central importance in Variational Monte Carlo (VMC) and, more recently, in Neural-Network VMC (NN-VMC). While variance optimization dates back to the 1930s, the high statistical noise and heavy-tailed local energy distributions inherent to modern neural-network wave functions have renewed interest in this approach. We retrace its long and largely forgotten history here, showing its direct relevance to modern Neural Quantum States (NQS) frameworks. Minimizing the variance (an $L^2$ norm) implicitly assumes a Gaussian local energy distribution: an unjustified assumption. For Coulombic systems, the local energy distribution exhibits $E^{-4}$ power-law tails, causing the Central Limit Theorem to fail for the variance estimator. This instability can be mitigated by robust cost functions: the Mean Absolute Deviation (MAD, an $L^1$ norm), the Cauchy loss, or the $L_{-4}$ functional, which features a tail analytically designed to match the $E^{-4}$ exponent. We benchmark these functionals on $H_2^+$, an exactly solvable system at every internuclear distance, using the Guillemin-Zener wave function across the full potential energy curve. While energy minimization by construction yields the lowest energy, variance minimization is surpassed at every $R$ by alternative functionals: MAD proves superior in the bonding region, while $L_{-4}$ performs best in the dissociation regime.",
+    "authors": [
+      "Bressanini, Dario"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:40:34.128022Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201723",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201723",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201723"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

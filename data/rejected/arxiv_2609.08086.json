@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.08086",
     "arxiv_id": "2609.08086",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3201697",
     "doi": null,
     "title_en": "CTree: Branch-wise compatible merger tree builder",
     "abstract_en": "We introduce a merger tree builder, CTree. Its key feature is the identification of progenitors using the evolutionary information encoded in object branches, rather than relying solely on the instantaneous particle membership in a single snapshot. In this sense, CTree can be described as a branch-wise merger tree builder. Specifically, CTree extracts particles associated with objects over a defined timescale and uses this information to compute the merit functions employed in the progenitor search across multiple snapshots. During this process, CTree requires only the identifiers of particles and objects. This ensures high compatibility with different halo and galaxy catalogues and also with pre-existing merger trees. To identify `core' particles that remain bound to the host halo over extended physical timescales, CTree employs a simple and efficient algorithm that does not rely on explicit radial or binding-energy information. The timescale adopted for core particle extraction and the number of snapshots used in the progenitor search can be user-configured. Basic validation tests using suites of dark matter-only simulations demonstrate that CTree produces stable and physically consistent halo merger trees, particularly in high-density regions or in simulations with high output cadence. The code is written in C++ and employs a hybrid message passing interface and OpenMP parallelization, making it well-suited for high-resolution cosmological simulations. The code is publicly available and actively maintained to improve performance, reliability, and compatibility.",
@@ -17,23 +17,31 @@
       "astro-ph.IM",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-09-08T00:53:19Z",
-    "updated_at": "2026-09-08T00:53:19Z",
-    "document_types": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:40:33.277207Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.08086v1",
     "pdf_url": "https://arxiv.org/pdf/2609.08086v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201697",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.08086",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
         "url": "https://arxiv.org/abs/2609.08086v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3201697",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201697"
       }
     ],
     "is_demo": false

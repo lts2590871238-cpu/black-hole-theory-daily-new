@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09270",
+    "arxiv_id": "2609.09270",
+    "arxiv_version": null,
+    "inspire_id": "3201591",
+    "doi": null,
+    "title_en": "Python in the front, party in the Backline: compiling quantum workloads across CPUs, GPUs, and FPGAs",
+    "abstract_en": "Moving from quantum research and development to production-grade, fault-tolerant quantum workload execution remains one of the most significant challenges facing quantum platform builders. While Python frameworks have enabled an easy entry point for quantum algorithm design, the low-latency requirements for real-time quantum error correction (QEC) demand performance that traditional interpreted environments cannot provide. FPGAs and ASICs play a central role at these layers, but their specialized programming models make development rigid and time-consuming. CPUs, GPUs, and other accelerators introduce a different challenge: as infrastructure becomes increasingly heterogeneous, programming across different devices and their associated abstractions becomes more complex. Allowing researchers to write workloads in high-level languages that map to low-latency execution across diverse distributed target platforms will enable the development of key infrastructure for utility-scale quantum systems. For this, we introduce $\\textit{Backline}$, a heterogeneous compilation and runtime framework built within PennyLane and Catalyst. Backline allows us to design and build quantum-classical workloads for high-performance and low-latency devices, with compilation directly from a Python interface through MLIR. We demonstrate the compilation and execution of several quantum workloads with low-latency data movement across a mix of CPUs, GPUs, and FPGAs, for both local and distributed remote hardware targets, all from a vendor-agnostic Python frontend. With an AMD VPK120 FPGA board as the controller, issuing each round from its hardware-handshake engine, we measured median steady-state round-trip latencies over RoCE v2 of $2.305~μ$s to an AMD Ryzen Threadripper PRO CPU and $4.5~μ$s to an AMD Instinct MI210 GPU across $10^6-1$ rounds per path, demonstrating microsecond-scale synchronous co-processing.",
+    "authors": [
+      "Lee, Joseph K.L.",
+      "Malekmohammadi, Mehrdad",
+      "Zheng, Hong-Sheng",
+      "Shu, Shuli",
+      "Doumbia, Cheick",
+      "Szenes, Kalman",
+      "Abnili, Mehran Zamani",
+      "Ainsworth, Thomas",
+      "Seymour, Matthew",
+      "Germain, Thomas",
+      "Neuhaus, Leonhard",
+      "Izaac, Josh",
+      "O'Riordan, Lee J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:15:17.080819Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201591",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201591",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201591"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

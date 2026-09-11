@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.08604",
     "arxiv_id": "2609.08604",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3201749",
     "doi": null,
     "title_en": "A Missing Tool for Calculating Auto/Cross-correlation Function under Nonuniform Sampling Observations",
     "abstract_en": "Nonuniform sampling presents a long-standing challenge in astrophysical time-domain analysis, invalidating the standard autocorrelation and cross-correlation functions and forcing researchers to adopt ad-hoc methods like interpolation or binning, which introduce unquantified biases and lack rigorous error estimation. Here we introduce a new method for calculating the nonuniform autocorrelation function (NUACF) and nonuniform cross-correlation function (NUCCF) for irregularly sampled time series. Instead of relying on interpolation, it naturally evaluates the correlation function by incorporating time-interval weights and misalignment penalties. Monte Carlo simulations provide confidence bands for significance assessment and a complete error budget for the time delays that accounts for both flux uncertainties and sampling irregularity (essential but generally absent from existing methods). Through extensive simulations, we demonstrate our method outperforms traditional methods across various conditions, from strictly periodic to complex repeating variability patterns (e.g., intermittent but aperiodic). Its effectiveness is demonstrated via various real astrophysical data sets, revealing repetitive variability in stellar light curves, measuring time delays for multi-band disc reverberation in the AGN Fairall 9, and providing model-independent validation of time delays for the gravitationally lensed quasar HE 0435-1223. The method provides a rigorous and general solution to the ubiquitous problem of nonuniform sampling, positioning it as a useful tool for large-scale time-domain survey data analysis. The framework is also directly applicable to emerging time-domain phenomena such as fast radio bursts (FRBs), enabling, e.g., the study of correlations between persistent radio source luminosity and repeating FRB activity, or among the multi-parameter variability curves of FRB emission itself.",
@@ -29,23 +29,31 @@
       "astro-ph.HE",
       "astro-ph.SR"
     ],
-    "submitted_at": "2026-09-08T11:40:51Z",
-    "updated_at": "2026-09-08T11:40:51Z",
-    "document_types": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:40:06.396180Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.08604v1",
     "pdf_url": "https://arxiv.org/pdf/2609.08604v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201749",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.08604",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
         "url": "https://arxiv.org/abs/2609.08604v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3201749",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201749"
       }
     ],
     "is_demo": false

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00440-2",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3202213",
+    "doi": "10.1007/s42484-026-00440-2",
+    "title_en": "Ensembling personalized quantum models with local differential privacy",
+    "abstract_en": "We study collaborative training of personalized quantum classifiers in a label-private setting in which each user privatizes labels locally via randomized response before upload and may choose an individual privacy budget. User-specific variational quantum models are trained on disjoint datasets, and their predictions are combined through voting-based or learned aggregation rules. Under the strict privacy-consistent regime, in which every downstream supervision signal is itself privatized before use, the protected-label stream inherits record-level $\\varepsilon _i$-local differential privacy and the ensemble-level guarantee is bounded by $\\max _i \\varepsilon _i$ under parallel composition across disjoint users. A learned aggregation module may also be calibrated on a small clean validation set as an optional extension outside that strict formal privacy scope. Empirically, the method is competitive under strict local privacy, with the preferred aggregation rule depending on the supervision regime: voting is the most stable choice when the pipeline remains privacy-consistent end to end, whereas learned aggregation is most effective when reliable clean calibration labels are available. Additional experiments on multiclass tasks, partial participation, scalability, simulated noise, and a replicated IBM Quantum pilot study further characterize the operating envelope of the framework.",
+    "authors": [
+      "Xhelollari, Flavjo",
+      "Chen, Samuel Yen-Chi",
+      "Farooq, Junaid",
+      "Chen, Juntao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-10T15:45:44.524818Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 99, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 99, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202213",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202213",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3202213"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

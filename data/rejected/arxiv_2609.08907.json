@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08907",
+    "arxiv_id": "2609.08907",
+    "arxiv_version": null,
+    "inspire_id": "3201570",
+    "doi": null,
+    "title_en": "A Quantum-Inspired Approach to MaxCut Based on Sparse Walsh/Pauli-Correlation Encoding",
+    "abstract_en": "We present a quantum-inspired Walsh/PCE solver for MaxCut based on sparse Pauli-correlation encodings. Instead of assigning one qubit or one variable to each graph vertex directly, the method represents relaxed binary variables through expectation values of diagonal Pauli/Walsh observables. These correlators are computed classically from sparse Walsh autocorrelations, producing a compact differentiable relaxation of the MaxCut objective. We evaluate the method on selected Gset instances, G1, G6, G12, and G18, and compare it with random search and tabu search over 10 independent seeds. The proposed model uses $801$ active parameters, corresponding to only $0.306\\%$ of the full Walsh space over $18$ qubits. After a final bitflip local search, Walsh/PCE achieves approximation ratios of $0.99033 \\pm 0.00226$ on G1, $0.95647 \\pm 0.01604$ on G6, $0.96007 \\pm 0.00951$ on G12, and $0.92964 \\pm 0.02202$ on G18, outperforming both baselines on all tested instances. The method also yields the lowest average runtime in all cases. These results suggest that sparse Walsh/PCE representations provide an efficient quantum-inspired route for MaxCut and may be further extended to hardware-based estimation of Pauli/Walsh correlators.",
+    "authors": [
+      "Amaral, Cesar Augusto do",
+      "Reballo, Marcos Vinicius",
+      "Ritt, Marcus",
+      "Júnior, Alexsandro Santos da Rosa",
+      "de Barros, Fernando Augusto Caletti"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:15:24.057536Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201570",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201570",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201570"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

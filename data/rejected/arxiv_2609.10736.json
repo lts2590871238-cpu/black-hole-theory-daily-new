@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.10736",
+    "arxiv_id": "2609.10736",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Teglon: A Pixel-Level Pipeline for Galaxy-Informed Gravitational-Wave Follow-up Planning and Efficiency Analysis",
+    "abstract_en": "We describe Teglon, an open-source database and analysis pipeline engineered to optimize the search for electromagnetic (EM) counterparts to gravitational wave (GW) sources. Teglon constructs a 3D galaxy completeness metric from an input galaxy catalog and convolves it with the 3D localization volume of a GW event, producing an updated posterior map informed by known galaxy distributions. Using Teglon, users can ingest arbitrary instrument footprints --- or download them directly from the Treasure Map --- to generate dynamic observation plans that seamlessly interpolate between targeted galaxy pointing and region tiling. By focusing efforts on high-probability volumes, Teglon significantly reduces the predicted search area to find EM counterparts and increases observational efficiency, especially for small field-of-view (<= 1 deg^2) instruments like the Nancy Grace Roman Space Telescope. Furthermore, Teglon integrates with Redback to calculate pixel-level model detection efficiencies, enabling custom, event-specific observing strategies or retrospective detection efficiencies on an arbitrary grid of EM transient models. Teglon also supports custom science cases, such as prioritizing Active Galactic Nuclei searches for EM counterparts to binary black hole mergers. Having supported Gravity Collective and related programs from the LIGO-Virgo-KAGRA third observing run (O3) through O4, Teglon is being continuously developed to support O5 and beyond. We document the public repository lineage and packaging, and provide Version 2.0 as an open-source tool for the community.",
+    "authors": [
+      "D. A. Coulter",
+      "P. Darc",
+      "C. D. Kilpatrick",
+      "R. J. Foley",
+      "P. McGill",
+      "S. D. Wyatt",
+      "R. Hausen"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-09T18:31:56Z",
+    "updated_at": "2026-09-09T18:31:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.10736v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10736v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.10736",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://arxiv.org/abs/2609.10736v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

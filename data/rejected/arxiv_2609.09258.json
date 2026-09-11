@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09258",
+    "arxiv_id": "2609.09258",
+    "arxiv_version": null,
+    "inspire_id": "3201577",
+    "doi": null,
+    "title_en": "Tensor Network Moral Graph Recovery of Discrete Probability Distributions",
+    "abstract_en": "We present a method for recovering the moral graph of a causal DAG from a probability distribution over discrete variables, using fully connected tensor networks (FCTNs) with nuclear-norm-regularized bond corrections. Each bond matrix is parameterized as a baseline all-ones matrix plus a low-rank correction $C_{ij} = U_{ij}V_{ij}^\\top$, and the nuclear norm of the correction implemented via the variational Frobenius norm penalty on the factors drives unnecessary bonds to zero. We prove that under faithfulness, positivity, and a no-implicit-rerouting assumption on the local tensor architecture, \\textbf{every} optimal FCTN with zero reconstruction error $\\varepsilon = 0$ has effective graph exactly equal to the moral graph. For the approximate regime ($\\varepsilon > 0$), we provide explicit recovery bounds using the Fannes-Audenaert continuity of conditional mutual information, and derive a sufficient condition on the regularization parameter $β$. The effective graph is read directly from the optimized bond matrices.",
+    "authors": [
+      "Olivas, Á. Troyano",
+      "Fung, Chi-Hang Fred",
+      "Brunner, Hans H.",
+      "Peev, Momtchil",
+      "Martin, Vicente"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:55:25.800566Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201577",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201577",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201577"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07945",
+    "arxiv_id": "2609.07945",
+    "arxiv_version": null,
+    "inspire_id": "3201560",
+    "doi": null,
+    "title_en": "Promises should be taken seriously: On relativization with promise problems",
+    "abstract_en": "Relativization is concerned with comparing computational models with black-box access to an oracle. For promise problems, black-box access is not canonical due to inputs outside of the promise being unconstrained. We study two semantics for such access. Under robust queries, a machine must correctly answer regardless of the completion of the problem,, while loose access requires that the internal choices of a machine do not change based on off-promise queries. Our first result separates the language and promise settings. Namely, we construct an oracle $O$ such that $\\mathsf{P}^O = \\mathsf{BQP}^O = \\mathsf{AWPP}^O$, but $\\mathsf{PromiseBQP}^O\\not\\subseteq\\mathsf{PromiseP}^O_{\\mathsf{/poly}}$. In particular, $\\mathsf{BPP}^O = \\mathsf{BQP}^O$, but $\\mathsf{PromiseBQP}^O \\neq \\mathsf{PromiseBPP}^O$, showing that results for languages need not transfer to promises. Next, we use loose queries to strengthen the upper bound on the Quantum-Classical Polynomial Hierarchy from $\\mathsf{P}^{\\mathsf{PP}^{\\mathsf{PP}}}$ to $\\mathsf{QCPH} \\subseteq \\mathsf{BP\\cdot PP} \\subseteq \\mathsf{PromiseBPP}^{\\mathsf{PP}}$. The same proof also shows $\\mathsf{PP}^\\mathsf{PromiseBQP} = \\mathsf{PP}$. Additionally, we show that $\\mathsf{PromiseBQP}$, even when given quantum advice, is self-low under robust queries. Finally, we exhibit an obstruction to transferring language-level counting results to promise classes. Although $\\mathsf{AWPP}$ and $\\mathsf{APP}$ are low for $\\mathsf{PP}$, a corresponding promise analogue would collapse the counting hierarchy as $\\mathsf{GapP} \\subseteq \\mathsf{FP}^{\\mathsf{PromiseAWPP}}$. This motivates the introduction of $\\mathsf{PromisePostBQP^*}$, which restricts $\\mathsf{PostBQP}$ to input-indepencent postselection. By showing that it is low for \\PP, we obtain $\\mathsf{PP}^{\\mathsf{PromiseYQP^*}} = \\mathsf{PP}$.",
+    "authors": [
+      "Miloschewsky, David",
+      "Podder, Supartha",
+      "Rudolph, Dorian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-10T13:32:00.320810Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201560",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201560",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201560"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

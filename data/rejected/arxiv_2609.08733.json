@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08733",
+    "arxiv_id": "2609.08733",
+    "arxiv_version": null,
+    "inspire_id": "3201574",
+    "doi": null,
+    "title_en": "On the Power of Adaptivity in Testing Quantum States in Fidelity",
+    "abstract_en": "We study the problems of quantum state certification, equivalence testing and independence testing. In certification, given samples of an unknown quantum state $ρ$ and the description of a state $σ$, the goal is to test whether $ρ=σ$, or whether $ρ$ and $σ$ are far in a given distance measure. In equivalence testing, $σ$ is also unknown and only accessible via samples. Independence testing decides whether $ρ_{AC}=ρ_A\\otimesρ_C$, or is far from being a product. The sample complexities of these problems are now well-understood for a decision gap $\\varepsilon$ in trace distance: in the single-copy measurement setting with $d$-dimensional states, all three tasks can be solved using the same non-adaptive approach, which uses $Θ(d^{3/2}/\\varepsilon^2)$ samples and is optimal in general, even without adaptivity. In this work, we consider decision gaps expressed in fidelity and study possible separations between these problems and how adaptivity can help. We prove that certification with respect to fidelity for a state $σ$ of rank $r$ does not benefit from adaptivity and requires $\\widetildeΘ(r^{3/2}/\\varepsilon)$ samples. For equivalence testing and independence testing, we provide adaptive algorithms using $\\widetilde{O}(\\min\\{d^{3/2}/\\varepsilon^2,d^{9/4}/\\varepsilon\\})$ and $\\widetilde{O}(\\min\\{(d_Ad_C)^{3/2}/\\varepsilon^2,d_A^{9/4}d_C^{3/4}/\\varepsilon\\})$ samples, for $d_A\\geq d_C$, respectively. Our main technique is a framework that uses partial learning and a reduction to testing in $\\ell_2$-distance, adapted from the distribution testing literature. We show that adaptivity matters for equivalence testing in fidelity by proving that $\\widetildeΩ(1/\\varepsilon^2)$ samples are necessary in the non-adaptive case even for qubits, showing a separation from certification.",
+    "authors": [
+      "Seyfried, Jan",
+      "Sen, Sayantan",
+      "Tomamichel, Marco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:24:21.394052Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201574",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201574",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201574"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08075",
+    "arxiv_id": "2609.08075",
+    "arxiv_version": null,
+    "inspire_id": "3202184",
+    "doi": null,
+    "title_en": "Mapping Dynamic, Hierarchical Quantum Circuits",
+    "abstract_en": "Qubit mapping is a critical pass in quantum compilation. Despite various advances, dynamic circuits, those exhibiting data dependent control-flow, often resulting from qubit measurements, are not yet supported by the vast majority of available qubit mappers. The crucial limitation to overcome is the dependence on flat, one-dimensional representations of circuits. Further, qubit mappers currently lack compiler abstractions that capture the hierarchical nature of circuits, hindering the qubit mapping process. In this paper, 1 we introduce a new qubit mapping method and analyses to tackle hierarchical dynamic circuits. Our novelty resides in four key aspects: modeling (statically) sub-circuits in disjoint control-flow paths, introducing a novel Qubit Reconciliation pass to maintain consistency between sub-circuit and control-flow boundaries, a loop-entry remapping pass, and a refined cost function enhanced for SWAP count, circuit depth, circuit latency and error. We demonstrate the efficiency of our approach on a wide range of dynamic circuits on two monolithic Quantum Processing Units of 127 and 156 qubits, and on chiplet hexagon-based QPUs. On monolithic QPUs, our qubit mapper improves the SWAP count by up to 52%, depth by up to 18%, latency by up to 18.6%, and error by up to 40%. On chiplet architectures, we achieve improvements of up to 36% on SWAP count, 8.7% on depth, 15% on latency, and 15% of error.",
+    "authors": [
+      "Benbetka, Marouane",
+      "Bekkar, Merwan",
+      "Yoon, Bokyeong",
+      "Baghdadi, Riyadh",
+      "Kong, Martin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T14:59:09.965373Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202184",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202184",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3202184"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

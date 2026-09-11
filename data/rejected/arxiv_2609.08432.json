@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08432",
+    "arxiv_id": "2609.08432",
+    "arxiv_version": null,
+    "inspire_id": "3201715",
+    "doi": null,
+    "title_en": "Explicit block encodings of rate matrices for simulating polymerization kinetics on quantum computers",
+    "abstract_en": "Predicting how molecular weight distribution and monomer sequence evolve during polymerization is central to polymer science, yet classical approaches face a trade-off between molecular resolution and computational cost: for copolymers, the number of distinguishable species grows exponentially with chain length. Quantum computing offers a potential alternative, provided the non-unitary rate matrices governing the kinetics can be embedded into unitary quantum circuits, a task known as block encoding. Here we construct explicit block-encoding circuits for two kinetic models of living polymerization: Model A, single-monomer polymerization, whose lower-bidiagonal rate matrix is encoded via a sparse-oracle construction and a two-term linear combination of unitaries (LCU) decomposition; and Model B, two-monomer copolymerization, where a bijective labeling of polymer species by an integer index (the m-index) yields a structured sparse matrix encoded via either a five-term LCU or a sparse-oracle construction. Numerical simulations with the sparse-oracle encodings reproduce the classical time evolution for reactivity ratios drawn from reported olefin copolymerization systems spanning near-random ($r_1 r_2 \\simeq 1$) and blocky ($r_1 r_2 > 1$) microstructures, and the LCU encodings are verified by explicit reconstruction of the encoded matrix block. Resource estimation shows that both implementations require only $O(\\log N)$ qubits in the matrix dimension $N$ (an exponential memory saving over the classical state space), with gate counts growing gradually, reaching $10^4$ to $10^5$ gates at $10^3$ system qubits. These results establish a concrete quantum circuit foundation for simulating polymerization kinetics on fault-tolerant quantum hardware, and a first step toward exploiting exponential state-space compression for high-dimensional polymer reaction networks.",
+    "authors": [
+      "Ikeda, Yuhei",
+      "Iwakiri, Hokuto",
+      "Nishio, Soichiro",
+      "Matsumoto, Kentaro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:15:04.374930Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201715",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201715",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201715"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

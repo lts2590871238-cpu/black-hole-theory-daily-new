@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.08864",
+    "arxiv_id": "2609.08864",
+    "arxiv_version": null,
+    "inspire_id": "3201568",
+    "doi": null,
+    "title_en": "Distributed Quantum Property Testing with Quantum Carrier Pigeons",
+    "abstract_en": "We introduce a framework for distributed quantum inference under communication constraints. In our model, $m$ distributed nodes each receive one copy of an unknown $d$-dimensional quantum state $ρ$, before communicating via a constrained one-way communication channel with a central node, which aims to infer some property of $ρ$. This framework generalizes the classical distributed inference framework introduced by Acharya, Canonne, and Tyagi [COLT 2019], by allowing quantum resources such as quantum communication and shared entanglement. Within this setting, we focus on the fundamental problem of quantum state certification: Given a complete description of some state $σ$, decide whether $ρ=σ$ or $\\|ρ-σ\\|_1\\geq ε$. Additionally, we focus on the case of limited communication between distributed nodes and the central node: we assume each communication channel is limited to only $n_c$ bits and $n_q$ qubits with $n_c + n_q \\leq \\log d$. When all nodes can make use of a shared source of randomness, we show that the copy complexity of distributed state certification is $Θ(\\frac{d^2}{2^{n_q} 2^{n_c/2}ε^2})$. We further demonstrate that shared randomness is necessary to achieve the above complexity, by proving an $Ω(\\frac{d^3}{4^{n_q} 2^{n_c} ε^2})$ lower bound in the $\\textit{private-coin}$ setting. Moreover, we develop a private-coin algorithm that matches this bound up to a $\\sqrt{\\log d}$ factor, showing this complexity is near-optimal. Together, our work establishes a general framework for distributed quantum inference with communication constraints and characterizes the complexity of distributed state certification with limited communication.",
+    "authors": [
+      "Chen, Kenny",
+      "Doosti, Mina",
+      "Sweke, Ryan",
+      "Wadhwa, Chirag"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:15:28.409143Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201568",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201568",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201568"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

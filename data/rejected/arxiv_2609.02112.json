@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.02112",
     "arxiv_id": "2609.02112",
     "arxiv_version": 2,
-    "inspire_id": null,
+    "inspire_id": "3201640",
     "doi": null,
     "title_en": "Summing the reciprocal of the polynomial appearing in Fermat's Last Theorem",
     "abstract_en": "Consider the polynomial $f=x^N+y^N-z^N$ where $x,\\,y$ and $z$ are positive integers and $N \\ge 3$ is an integer. By Fermat's Last Theorem, $f$ is never zero so that its reciprocal, $1/f$, has no singularities. We therefore study the finite sum of the reciprocal: $S(m,N)=\\sum_{x=1}^m\\sum_{y=1}^m\\sum_{z=1}^{m}\\frac{1}{f}$. The terms $1/f$ can be positive, negative and their magnitude is less than unity. A key observation is that $S(m,N)$ can be split into two convenient parts: a dominant contribution $D(m,N)$ that has a simple analytical expression and a remainder $R(m,N)$ which is more complicated but negligible compared to $D(m,N)$. Therefore, $S(m,N)$ is almost identical to $D(m,N)$. The analytical expression for $D(m,N)$ is $(2\\,m-1)\\,H_m^{(N)}$ where $H_m^{(N)}=\\sum_{x=1}^m\\frac{1}{x^N}$ approaches quickly the Riemann zeta function $ζ(N)$ as $m$ increases. Therefore, the original sum $S(m,N)$ has a simple expression: it is basically linear in $m$ with slope equal to $2\\,ζ(N)$. Its linear behavior is not an asymptotic result; plots of $S(m,N)$ vs. $m$ for different $N$ show a straight line starting at $m=1$. $S(m,N)$ deviates slightly from a straight line over a small interval $8\\le m\\le 12$ for the case $N=3$. This slight deviation is due to Fermat near misses where $x^3+y^3-z^3=\\pm 1$ (for $z\\ne x$ and $z\\ne y$); these create a jump in the remainder $R(m,3)$ at $m=9$. We make a numerical and analytical study of the remainder $R(m,N)$. From the numerical analysis, $R(m,N)$ converges for $N\\ge 4$ but it was harder to tell whether $N=3$ converged. An analytical study based on a comparison of $R(m,N)$ to its Cauchy principal value integral, shows that $R(m,3)$ likely diverges logarithmically. It also shows that $R(m,N)$ converges for $N\\ge 4$ in agreement with the numerical analysis. We discuss in the conclusion some interesting questions for future investigation.",
@@ -17,22 +17,30 @@
       "math-ph"
     ],
     "submitted_at": "2026-09-02T05:04:51Z",
-    "updated_at": "2026-09-06T22:30:40Z",
-    "document_types": [],
+    "updated_at": "2026-09-10T13:29:46.073843Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.02112v2",
     "pdf_url": "https://arxiv.org/pdf/2609.02112v2",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201640",
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.02112",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
         "url": "https://arxiv.org/abs/2609.02112v2"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3201640",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201640"
       }
     ],
     "is_demo": false

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.07960",
+    "arxiv_id": "2609.07960",
+    "arxiv_version": null,
+    "inspire_id": "3201561",
+    "doi": null,
+    "title_en": "Accelerating Fourier--Motzkin elimination: redundancy removal and the choice of variable elimination order",
+    "abstract_en": "Fourier-Motzkin elimination computes an inequality description of the projection of a polyhedron onto a subset of its coordinates by eliminating one variable at a time. It is used in several areas of optimisation and computer science, and it is a standard way of obtaining the entropic constraints of a causal structure, where the marginalisation over the latent variables produces such a projection. Its limitation is the growth of the intermediate systems of inequalities, which can be doubly exponential in the number of eliminated variables even though the projection itself grows only as a single exponential. In practice the computational overload of the method therefore depends on two choices: how the redundant inequalities are removed after each step, and the order in which the variables are eliminated. We consider both. We first show, by an explicit example, that Imbert's redundancy test cannot be interleaved with redundancy removal by linear programming. We show that the two methods, however, can be combined soundly if the derivation records used by Imbert's test are re-initialised after every step at which linear programming is used. We then propose a rule for choosing the elimination order of the variables that gives a significant computational advantage, however, at the cost of increased resource usage. We demonstrate this advantage on some random polytopes, where the rule reduces the running time by factors of between 6 and 25 compared with the same elimination under a fixed order. For entropic descriptions of causal structures, with more than 250 inequalities and more than 100 variables to eliminate, our rule keeps the number of inequalities handled at each step one to two orders of magnitude lower than a fixed order.",
+    "authors": [
+      "Khanna, Shashaank"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-07T00:00:00Z",
+    "updated_at": "2026-09-10T13:55:28.524221Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201561",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201561",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201561"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "causal structure"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

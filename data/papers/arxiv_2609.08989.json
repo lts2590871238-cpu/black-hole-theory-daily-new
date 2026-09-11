@@ -5,7 +5,7 @@
     "canonical_key": "arxiv:2609.08989",
     "arxiv_id": "2609.08989",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3201801",
     "doi": null,
     "title_en": "TARTARUS: A High-Performance Python Code for Ray Tracing in Curved Spacetimes",
     "abstract_en": "The recent observations of the supermassive black holes M87* and Sagittarius A* by the Event Horizon Telescope collaboration (EHT) have shown the need for robust, efficient, and accessible numerical tools to model light propagation in strongly curved spacetimes. Comparing theoretical accretion models with observational data relies heavily on ray-tracing algorithms that calculate the trajectories of photons traveling from a source plasma to a distant observer. In this paper, we present TARTARUS (Tracer for Astrophysical Ray Trajectories Around Relativistic Ultra-compact Sources), a new, highly modular, and extensible Python-based framework for computing null geodesics around compact objects. By leveraging Just-In-Time (JIT) compilation via Numba, TARTARUS bridges the gap between Python's high-level accessibility and the execution speed of compiled languages like C++ or FORTRAN. The code supports multiple native solvers (including adaptive embedded Runge-Kutta pairs, a Bulirsch-Stoer extrapolator, and a Verlet scheme), event-detection mechanics for handling structural intersections (e.g. event horizons and accretion disks), and support for both analytical and numerically generated background metrics. We demonstrate the code's physical accuracy and computational efficiency through some tests, including the evaluation of the Hamiltonian constraint conservation and ray-tracing of the shadow and the Novikov-Thorne thin accretion disks around a Kerr black hole.",
@@ -17,23 +17,33 @@
       "gr-qc",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-09-08T16:32:16Z",
-    "updated_at": "2026-09-08T16:32:16Z",
-    "document_types": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-10T13:37:50.527635Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": "Published in Revista eSPECTRA 4(2), 2026",
-    "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "publication_info": [
+      "Published in Revista eSPECTRA 4(2), 2026, publication"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.08989v1",
     "pdf_url": "https://arxiv.org/pdf/2609.08989v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201801",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.08989",
-        "fetched_at": "2026-09-10T01:11:35.500409Z",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
         "url": "https://arxiv.org/abs/2609.08989v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3201801",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201801"
       }
     ],
     "is_demo": false
@@ -100,5 +110,5 @@
     "schema_version_used": "curation-schema-1.0",
     "created_at": "2026-09-10T01:13:58.969967Z"
   },
-  "published_at": "2026-09-10T01:13:58.970396Z"
+  "published_at": "2026-09-11T01:14:31.801719Z"
 }

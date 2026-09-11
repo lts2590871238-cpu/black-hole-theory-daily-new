@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.09804",
+    "arxiv_id": "2609.09804",
+    "arxiv_version": null,
+    "inspire_id": "3201587",
+    "doi": null,
+    "title_en": "Small-Bias Quantum Approximate Counting via the Multiplicative Adversary Method",
+    "abstract_en": "We study the two-weight decision version of quantum approximate counting: given oracle access to $x\\in\\{0,1\\}^N$, distinguish $|x|=M$ from $|x|=M+Δ$ with success probability $1/2+ζ$. Using the multiplicative adversary method, we prove $Ω\\left(\\max\\left\\{ζ\\sqrt{(N-M)(M+Δ)}/Δ,\\sqrt{ζN/Δ}\\right\\}\\right)$. The same parameter dependence follows from the polynomial-method characterization of the two-layer symmetric function by Podder, Yao, and Ye. Our contribution is a multiplicative-adversary derivation that tracks the progress produced by individual oracle queries. For the first term, after complementing the input if necessary, we assume $M+Δ\\le N-M$. We use the Hamming-layer subspaces from the eigenspace method of Ambainis, Spalek, and de Wolf and compose their adjacent-layer unitary maps to relate the two nonadjacent promise layers. After fixing the queried coordinate, the analysis block-diagonalizes into four-dimensional subspaces. An exact calculation of the one-query progress ratio gives the first lower bound. The same estimate also implies $\\left\\|(I-\\widehatΠ_{\\mathrm{bad}})\\lvertΨ^T\\rangle\\right\\|^2=O\\left(T^2Δ^2/((N-M)(M+Δ))\\right)$ for the coherent input superposition used in the adversary argument. For the second term, we prove directly using a three-eigenvalue multiplicative adversary that unique OR on $n$ bits with success probability $1/2+ζ$ requires $Ω(\\sqrt{ζn})$ queries, and then reduce unique OR to the two-weight counting problem.",
+    "authors": [
+      "Lin, Albert",
+      "Lin, Han-Hsuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-10T13:23:30.498373Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3201587",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3201587",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3201587"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

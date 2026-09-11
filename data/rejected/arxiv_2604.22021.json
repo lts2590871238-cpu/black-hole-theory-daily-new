@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.22021",
+    "arxiv_id": "2604.22021",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/1q92-j84n",
+    "title_en": "Data-Driven Acceleration of Eccentricity Reduction for Binary Black Hole Simulations",
+    "abstract_en": "Reducing orbital eccentricity in numerical relativity simulations of binary black holes is essential for producing astrophysically relevant gravitational wave models, as many of these systems are expected to be near-circular in nature. Standard eccentricity reduction procedures rely on iterative schemes, often requiring four or more trial simulations to achieve desired thresholds. This approach is computationally expensive because each trial simulation adds ~10% to the total simulation run time of multiple weeks to months. We introduce a data-driven approach that accelerates this process by learning the values of the initial orbital frequency, Omega_0, and radial velocity, adot_0, that yield an evolution with small eccentricity. This is done using a Gaussian Process Regression model trained on an archive of previously eccentricity-reduced numerical relativity simulations. For all configurations tested, using the trained model consistently reduces the number of required eccentricity reduction iterations to just zero or one, significantly lowering computational costs relative to post-Newtonian initial guesses. These results demonstrate the power of data-driven methods in accelerating expensive numerical relativity simulations.",
+    "authors": [
+      "Vittoria Tommasini",
+      "Nils L. Vu",
+      "Mark A. Scheel",
+      "Saul A. Teukolsky"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-04-23T19:28:23Z",
+    "updated_at": "2026-09-09T19:21:43Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 114, 044071 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.22021v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.22021v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.22021",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://arxiv.org/abs/2604.22021v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

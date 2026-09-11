@@ -3,15 +3,15 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.02488",
     "arxiv_id": "2609.02488",
-    "arxiv_version": 1,
-    "inspire_id": "3198912",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Precise spectral asymptotics, exponential localization, and spectral gap estimates for the three-boson lattice Schrödinger operator",
-    "abstract_en": "We study the three-boson Schrodinger operator on the two-dimensional integer lattice with pairwise contact interactions. First, we obtain precise asymptotics of the two bound states below the essential spectrum at zero total quasimomentum in the strong-coupling limit mu to infinity: the ground state energy is -3 mu + 6 + O(1/mu), and the first excited state energy is - mu + C + O(1/mu), where C = 4 - delta approximately 3.96458, with delta determined by the transcendental equation b0(delta) = 1/(1+delta) involving the lattice Green's function. The associated spectral gap is 2 mu + O(1). Second, using the discrete Agmon comparison method and the Paley-Wiener theorem, we establish exponential localization of the ground-state wavefunction with a logarithmic upper bound on the decay rate alpha(mu) at most ln(3 mu) + O(1/mu), reflecting the bounded nature of the lattice dispersion; the sharp asymptotic rate is conjectured. Third, at quasimomentum pi, the parity symmetry is preserved, but the odd quadratic form becomes positive definite with a unique eigenvalue of order 1/mu that never reaches the Birman-Schwinger threshold, so the odd subspace yields only a virtual level. The even subspace supports exactly one bound state with energy -2 mu + 6 + 8/mu + O(1/mu^2), and the spectral gap to the essential spectrum is mu - 2 - 8/mu + O(1/mu^2). The reduction from two bound states at zero to one at pi preserves the total spectral flow and is a lattice-specific phenomenon. Our approach uses an invariant subspace decomposition of the Birman-Schwinger operator and the Krein-Rutman theorem to guarantee uniqueness and strict positivity of the ground state. These results have direct implications for quantum simulation of few-boson systems in optical lattices.",
+    "abstract_en": "We present a corrected strong-coupling Birman-Schwinger analysis of the three-boson lattice Schroedinger operator on Z^2 at the exceptional quasimomentum K=pi. First, we give an exact closed-form benchmark for the fiber Fredholm determinant at a flat momentum, valid for every K, obtained via a uniform elliptic reduction. Second, we formulate and prove a general order-matching criterion that decides whether a leading-order Fredholm determinant asymptotic suffices to fix the constant-order additive energy correction. Third, applying the criterion to the formal branch z=-2mu+d at K=pi, we identify an algebraic crossing -2mu+6+8/mu+O(mu^{-2}) from the finite-rank principal part. However, we demonstrate that this crossing does not correspond to a true eigenvalue of the full Hamiltonian: the actual ground state obeys the rigorous variational bounds -3mu <= z_1^{pi,s}(mu) <= -3mu+6, and so lies in the same leading branch -3mu+O(1) as at K=0. Direct finite-volume diagonalisation of the full three-particle Hamiltonian confirms the refined asymptotic -3mu+6+O(mu^{-1}) and the spectral gap 2mu-2+O(mu^{-1}) to the two-particle threshold. The reduction from two bound states at K=0 to at least one at K=pi (the trimer) preserves the total spectral flow, and the binding is not weakened at the corner of the Brillouin zone. We independently confirm that the K=0 constant C approximately 3.96458 requires no analogous refinement.",
     "authors": [
-      "Abdikhurayra Toshturdiev",
-      "Abdumalik Eshniyozov",
       "Janikul Abdullaev",
+      "Abdumalik Eshniyozov",
+      "Abdikhurayra Toshturdiev",
       "Mikhail Dolgopolov"
     ],
     "categories": [
@@ -20,31 +20,23 @@
       "math.SP",
       "quant-ph"
     ],
-    "submitted_at": "2026-09-02T00:00:00Z",
-    "updated_at": "2026-09-04T03:24:00.022742Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-09-02T11:57:11Z",
+    "updated_at": "2026-09-10T12:34:00Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.02488v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.02488v1",
-    "inspire_url": "https://inspirehep.net/literature/3198912",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.02488v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.02488v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.02488",
-        "fetched_at": "2026-09-09T01:18:41.191104Z",
-        "url": "https://arxiv.org/abs/2609.02488v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3198912",
-        "fetched_at": "2026-09-09T01:18:41.191104Z",
-        "url": "https://inspirehep.net/literature/3198912"
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://arxiv.org/abs/2609.02488v2"
       }
     ],
     "is_demo": false

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.nima.2026.172051",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3202238",
+    "doi": "10.1016/j.nima.2026.172051",
+    "title_en": "Long-distance free-space optical clock synchronization system for the CEPC accelerator",
+    "abstract_en": "The Circular Electron Positron Collider (CEPC) requires a high-precision clock synchronization system covering 192 control nodes distributed along a 100 km underground tunnel. While fiber-based White Rabbit (WR) synchronization achieves excellent performance, the harsh radiation environment in the tunnel necessitates either expensive radiation-hardened fibers or extensive shielding along the entire ring. This paper presents an alternative approach using Free-Space Optical Communication (FSO) links to replace fiber segments in the clock synchronization network. The FSO transceiver operates at 1550 nm. Its Tx chain uses an Erbium-Doped Fiber Amplifier (EDFA) booster; the Rx chain combines a 50 mm aperture with an Avalanche Photodiode (APD). Alignment is assisted by an on-board camera. The paper examines how launch power, divergence, and aperture size shape timing jitter inside the WR DDMTD loop, using a simplified noise-propagation analysis from APD shot noise through the PLL response, and shows that Tx-side EDFA boost helps operate the receiver closer to a shot-noise-dominated regime. The CEPC tunnel geometry (100 km circumference, 6.5 m diameter) gives adjacent nodes — 520 m apart along the arc — a direct line of sight. Three experiments characterize the system: a 6-h BER test (<math altimg=\"si174.svg\" display=\"inline\" id=\"d1e1348\"><mrow><mo>&lt;</mo><mn>3.5</mn><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">×</mo><mn>1</mn><msup><mrow><mn>0</mn></mrow><mrow><mo>−</mo><mn>14</mn></mrow></msup></mrow></math>), an outdoor 500 m 3-level cascade (6.27 ps), and an indoor 25 m 7-level cascade (6.83 ps). Cascade noise analysis reveals an empirically observed scaling law <math altimg=\"si2.svg\" display=\"inline\" id=\"d1e1369\"><mrow><msup><mrow><mi>σ</mi></mrow><mrow><mn>2</mn></mrow></msup><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">∝</mo><msup><mrow><mi>N</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></math> consistent with a Random-Walk Frequency Modulation-like accumulation whose physical origin remains to be verified. A complete noise-type identification would require additional Allan-deviation characterization; the present data establish the scaling law phenomenologically. The enclosed, temperature-controlled CEPC tunnel strongly suppresses the outdoor atmospheric contributions, so performance should more closely approach the hardware-limited fiber regime. The radiation-tolerance problem is localized to compact transceiver nodes, whose component-level radiation assessment is discussed. FSO clock distribution localizes the radiation-hardening problem to individual transceiver nodes—avoiding 100 km of shielded fiber. •Hybrid WR-FSO clock distribution avoids 100 km of radiation-hardened fiber.•EDFA boost and large-core coupling decouple beam wander from WR DDMTD timing jitter.•Indoor 7-level FSO cascade: 6.83 ps; empirically observed <math altimg=\"si2.svg\" display=\"inline\" id=\"d1e1411\"><mrow><msup><mrow><mi>σ</mi></mrow><mrow><mn>2</mn></mrow></msup><mo linebreak=\"goodbreak\" linebreakstyle=\"after\">∝</mo><msup><mrow><mi>N</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></math> scaling, consistent with an RW-FM-like mechanism.•6-h BER <math altimg=\"si4.svg\" display=\"inline\" id=\"d1e1436\"><mrow><mo>&lt;</mo><mn>10</mn></mrow></math><sup loc=\"post\">−13</sup>, clean eye—confirms FSO link quality for clock distribution.",
+    "authors": [
+      "Zhou, Xing",
+      "Hu, Jun",
+      "Jiang, Xiaoshan",
+      "Jin, Dapeng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-06T00:00:00Z",
+    "updated_at": "2026-09-10T15:47:19.354523Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "1093, 172051, publication, 2027, {'$ref': 'https://inspirehep.net/api/journals/1613981'}, Nucl.Instrum.Meth.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202238",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202238",
+        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "url": "https://inspirehep.net/literature/3202238"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
