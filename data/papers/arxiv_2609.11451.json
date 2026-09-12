@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11451",
+    "arxiv_id": "2609.11451",
+    "arxiv_version": null,
+    "inspire_id": "3202440",
+    "doi": null,
+    "title_en": "Self-guided certification of nonlocality in quantum networks",
+    "abstract_en": "Bell's theorem shows that quantum theory is incompatible with local hidden-variable models. In recent years, research on nonlocality has moved beyond Bell's original scenario to quantum networks, where multiple independent sources distribute physical systems among distant parties, giving rise to correlations certified by nonlinear rather than standard Bell inequalities. Here, we introduce a self-guided protocol that variationally optimizes each party's measurement to maximize the violation of a network Bell inequality, with the violation evaluated efficiently at each step via local Pauli classical shadows and the search driven by the Complex Simultaneous Perturbation Stochastic Approximation (CSPSA) algorithm. Once converged, the measurement settings it returns are implemented directly and the inequality is re-evaluated without shadows. This two-stage structure separates a device-dependent search from a certificate that depends only on the observed statistics and on the causal structure of the network. We validate the protocol by numerically simulating it on the triangle network using the Wagon-Wheel inequality, recovering the violation achieved by the Fritz distribution, and extending the certification to non-maximally entangled and noisy states.",
+    "authors": [
+      "Cortés, Jean",
+      "Pereira, Luciano",
+      "Delgado, Aldo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-11T14:35:57.065169Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202440",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202440",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202440"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "causal structure"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 13,
+      "novelty": 11,
+      "clarity": 8,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 3
+    },
+    "total_score": 62,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文探讨量子网络中的非局域性认证，采用变分优化结合局部 Pauli 经典影子与 CSPSA 算法，提出将依赖设备的搜索与仅依赖观测统计和网络因果结构的证书相分离的两阶段协议，并以三角形网络上的 Wagon-Wheel 不等式进行数值验证。因果结构与基础性非局域性主题契合索引方向，方法描述具体且可验证，摘要清晰。",
+    "title_zh": "量子网络中非局域性的自引导认证",
+    "abstract_zh": "Bell 定理表明量子理论与局域隐变量模型不相容。近年来，关于非局域性的研究已超越 Bell 最初的场景，转向量子网络；在量子网络中，多个独立源在遥远各方之间分发物理系统，产生由非线性而非标准 Bell 不等式所认证的关联。在此，我们引入一种自引导协议，它变分地优化每一方的测量以最大化对某个网络 Bell 不等式的违反，其中每一步的违反量通过局部 Pauli 经典影子高效评估，搜索由 Complex Simultaneous Perturbation Stochastic Approximation（CSPSA）算法驱动。一旦收敛，它返回的测量设置被直接实施，并在不使用影子的情况下重新评估该不等式。这种两阶段结构将依赖设备的搜索与仅依赖观测统计和网络因果结构的证书分离开来。我们通过在三角形网络上使用 Wagon-Wheel 不等式对该协议进行数值模拟来验证它，复现了 Fritz 分布所达到的违反，并将认证扩展到非最大纠缠态和有噪声态。",
+    "keywords_en": [
+      "nonlocality",
+      "quantum networks",
+      "Bell inequalities",
+      "network Bell inequality",
+      "classical shadows",
+      "CSPSA",
+      "Wagon-Wheel inequality",
+      "self-testing",
+      "causal structure"
+    ],
+    "keywords_zh": [
+      "非局域性",
+      "量子网络",
+      "Bell 不等式",
+      "网络 Bell 不等式",
+      "经典影子",
+      "CSPSA",
+      "Wagon-Wheel 不等式",
+      "自测试",
+      "因果结构"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-12T01:16:42.001989Z"
+  },
+  "published_at": "2026-09-12T01:16:42.002433Z"
+}

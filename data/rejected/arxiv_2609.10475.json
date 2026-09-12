@@ -3,35 +3,34 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.10475",
     "arxiv_id": "2609.10475",
-    "arxiv_version": 1,
-    "inspire_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3202301",
     "doi": null,
     "title_en": "Beyond the BLUE I: the advantage ceiling - how much can any estimator beat the matched filter in mm/submm survey data?",
     "abstract_en": "Convolutional neural networks are increasingly used to measure source amplitudes in survey maps, often with claims of outperforming the matched filter. That filter is the best linear unbiased estimator (BLUE) for any noise of a given covariance, and minimum-variance unbiased outright when that noise is Gaussian and known, so an advantage requires a covariance that varies from image to image, or noise that is non-Gaussian. We introduce a single number, the advantage ceiling eta >= 1, that quantifies both: the Fisher information for the amplitude in units of the matched filter's, computable from noise-only simulations before any network is trained, and a bound on any marginally unbiased estimator's variance. We compute eta for a taxonomy of millimeter/submillimeter survey noise with a variational score-matching ladder whose rungs are estimator classes of increasing statistical order. With an instrumental white-noise floor, Gaussian noise gives eta = 1 to within +- 0.04; covariance mixtures give exact ceilings of 10.2 (spectral tilt, extended source), 2.1 (leaked components) and 1.1-1.8 otherwise, of which a 2000-parameter mixture matched filter attains 70-81%. Source confusion, whose non-Gaussian component is the noise itself, gives the largest advantage, eta >= 3.8 (extended) and >= 2.4 (compact), reachable only above the bispectrum rung and calibrated at ~ 0.9 against a known answer. Read as observing time, eta multiplies a survey's integration time wherever the noise integrates down, excluding confusion. Unmodelled numerical channels can manufacture spurious advantages of up to two orders of magnitude. A ResNet regressor is 6-15% less efficient than the matched filter on Gaussian noise once prior shrinkage is divided out, and realizes 1.8 of the 10.2 available on the spectral tilt; a companion paper tests such regressors against these ceilings.",
     "authors": [
-      "Kaustuv Basu"
+      "Basu, Kaustuv"
     ],
-    "categories": [
-      "astro-ph.IM",
-      "astro-ph.CO"
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-11T14:40:20.438117Z",
+    "document_types": [
+      "article"
     ],
-    "submitted_at": "2026-09-09T17:16:52Z",
-    "updated_at": "2026-09-09T17:16:52Z",
-    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2609.10475v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.10475v1",
-    "inspire_url": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202301",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.10475",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.10475v1"
+        "source": "inspire",
+        "record_id": "3202301",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202301"
       }
     ],
     "is_demo": false

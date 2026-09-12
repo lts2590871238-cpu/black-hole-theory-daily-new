@@ -3,19 +3,15 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.09088",
     "arxiv_id": "2609.09088",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3201821",
     "doi": null,
     "title_en": "NRHJSur3dq8: a spectral numerical-relativity surrogate family for non-eccentric aligned-spin binary-black-hole waveforms",
-    "abstract_en": "We present NRHJSur3dq8, a family of numerical-relativity (NR) surrogates for non-eccentric aligned-spin binary-black-hole waveforms inspired by an action-angle parameterization. The model provides both the dynamics: the Hamiltonian values, azimuthal action $J_φ(Φ)$, the orbital clock $τ(Φ)$ as functions of its phasing, and the radiative pieces: the waveforms, their near-analytic derivatives, and modeling errors associated with each. The surrogated variables are conditioned into pieces that vary slowly on the radiation-reaction timescale, represented on shared $hp$-adaptive Chebyshev elements, and regressed across the intrinsic parameters with a Gaussian-process model. A time-parameterized merger-ringdown set of elements is attached where the adiabatic description breaks down. Leave-one-out validation of the central NRHJSur3dq8_AA flavor against NR reaches a $(2,2)$ unweighted mismatch of $1.3^{+32}_{-1.2}\\times10^{-6}$ and an all-mode mismatch of $2.3^{+59}_{-2.2}\\times10^{-6}$ over the full inspiral-merger-ringdown span. Sky-averaged and SNR-weighted over $32$ orientations per simulation, the released model's full-IMR in-sample mismatch against the NR simulations used for training is $8.9\\times10^{-7}$ to $2.8\\times10^{-5}$ across total masses $40$-$120\\,M_\\odot$. Waveforms are hybridized using post-Newtonian waveforms. Beyond accuracy, NRHJSur3dq8 provides two capabilities uncommon in NR surrogates: nearly analytic derivatives of the strain with respect to the physical parameters, and a calibrated Gaussian-process predictive uncertainty of the model. A full non-hybridized inspiral-merger-ringdown waveform evaluates in $12$ ms on a single CPU call. Batched evaluation amortizes this to $0.39$ ms per waveform at a batch of $4096$, measured at a starting frequency of $20$ Hz.",
+    "abstract_en": "We present NRHJSur3dq8, a family of numerical-relativity (NR) surrogates for non-eccentric aligned-spin binary-black-hole waveforms inspired by an action-angle parameterization. The model provides both the dynamics: the Hamiltonian values, azimuthal action $J_ϕ(Φ)$, the orbital clock $τ(Φ)$ as functions of its phasing, and the radiative pieces: the waveforms, their near-analytic derivatives, and modeling errors associated with each. The surrogated variables are conditioned into pieces that vary slowly on the radiation-reaction timescale, represented on shared $hp$-adaptive Chebyshev elements, and regressed across the intrinsic parameters with a Gaussian-process model. A time-parameterized merger-ringdown set of elements is attached where the adiabatic description breaks down. Leave-one-out validation of the central NRHJSur3dq8_AA flavor against NR reaches a $(2,2)$ unweighted mismatch of $1.3^{+32}_{-1.2}\\times10^{-6}$ and an all-mode mismatch of $2.3^{+59}_{-2.2}\\times10^{-6}$ over the full inspiral-merger-ringdown span. Sky-averaged and SNR-weighted over $32$ orientations per simulation, the released model's full-IMR in-sample mismatch against the NR simulations used for training is $8.9\\times10^{-7}$ to $2.8\\times10^{-5}$ across total masses $40$-$120\\,M_\\odot$. Waveforms are hybridized using post-Newtonian waveforms. Beyond accuracy, NRHJSur3dq8 provides two capabilities uncommon in NR surrogates: nearly analytic derivatives of the strain with respect to the physical parameters, and a calibrated Gaussian-process predictive uncertainty of the model. A full non-hybridized inspiral-merger-ringdown waveform evaluates in $12$ ms on a single CPU call. Batched evaluation amortizes this to $0.39$ ms per waveform at a batch of $4096$, measured at a starting frequency of $20$ Hz.",
     "authors": [
-      "Vaishak Prasad"
+      "Prasad, Vaishak"
     ],
-    "categories": [
-      "gr-qc",
-      "astro-ph.HE",
-      "astro-ph.IM"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-08T00:00:00Z",
     "updated_at": "2026-09-10T13:31:37.385390Z",
     "document_types": [
@@ -25,21 +21,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.09088v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.09088v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3201821",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.09088",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.09088v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3201821",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201821"
       }
     ],

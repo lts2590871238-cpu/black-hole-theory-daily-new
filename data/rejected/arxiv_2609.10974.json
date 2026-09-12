@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.10974",
+    "arxiv_id": "2609.10974",
+    "arxiv_version": null,
+    "inspire_id": "3202362",
+    "doi": null,
+    "title_en": "Sample-optimal learning of stabilizer states",
+    "abstract_en": "It is well-known that learning a pure $n$-qubit stabilizer state $|ψ\\rangle$ both requires, and can be accomplished with, access to a number of copies of $|ψ\\rangle$ linear in $n$. However, the precise constant coefficient of this scaling does not appear to have been determined. Here we prove that $L_δ(n)$, the smallest number of copies from which a quantum procedure can identify any stabilizer state with failure probability at most $0<δ<1/8$, satisfies $n+\\lceil\\log_2(1/δ)\\rceil-3\\leq L_δ(n)\\leq n+\\left\\lceil\\log_2(1/δ)\\right\\rceil+4$. We present a polynomial-time quantum learning algorithm that saturates this bound, achieving a constant factor improvement in sample-complexity over previously known approaches. As an immediate corollary, we obtain via the Choi-Jamiolkowski isomorphism an algorithm for learning an unknown $n$-qubit Clifford unitary from $2n+\\left\\lceil\\log_2(1/δ)\\right\\rceil+4$ queries, the $n$-dependence of which we show to be optimal. Our proof technique, which involves Fourier analysis on the abelian group $\\mathbb{Z}_4^n \\times \\mathbb{F}_2^{n(n-1)/2}$, seems to be qualitatively different to previous approaches to stabilizer state learning, and may be of some independent interest; in particular, it admits natural generalisations to further problems in quantum learning theory.",
+    "authors": [
+      "Chang, Rebecca",
+      "Caro, Matthias C.",
+      "Larocca, Martin",
+      "West, Maxwell"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-11T14:25:01.039432Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202362",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202362",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202362"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

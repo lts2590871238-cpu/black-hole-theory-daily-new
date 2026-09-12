@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1038/s41598-026-70573-8",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3202609",
+    "doi": "10.1038/s41598-026-70573-8",
+    "title_en": "On the path-based entanglement purification model in online quantum networks",
+    "abstract_en": "In this study, we propose a resource allocation model for end-to-end (E2E) fidelity-guaranteed entanglement distribution considering novel path-based entanglement purification (PEP) model for online quantum networks. The proposed PEP model is developed by extending the existing link-based entanglement purification (LEP) model. A heuristic framework is designed for both the PEP and LEP models, consisting of two stages: (i) an E2E entanglement purification stage based on the PEP (or LEP) model, and (ii) a resource allocation stage. The resource allocation stage employs an integer linear programming (ILP) formulation for small-scale quantum networks with a limited number of requests, and a greedy-based heuristic for large-scale networks with higher request volumes. This heuristic algorithm incorporates entanglement distribution probability (EDP), entanglement swapping probability (ESP), and fidelity metrics to ensure feasibility under noisy intermediate-scale quantum (NISQ) constraints. An online traffic model is considered, where requests arrive according to a Poisson process, each with a fixed execution time and a variable deadline. A time-slotted operation framework is adopted for the quantum network. In each Bell-pair generation window, Bell pairs are generated and distributed between adjacent nodes. The duration of these windows is constrained by the decoherence time of the Bell pairs. Extensive simulations are conducted on the square-grid quantum networks of varying dimensions and parameter ranges, including different ranges of EDP, ESP, and fidelity values. The number of requests and capacity of edges (in terms of quantum channels) are also varied. Across all simulation setups, the proposed PEP model consistently outperforms the LEP model in terms of the blocking ratio (BR).",
+    "authors": [
+      "Halder, Joy",
+      "Ahmed, Nayeem",
+      "Tunc, Hilal Sultan Duranoglu",
+      "Bassoli, Riccardo",
+      "Fitzek, Frank H.P.",
+      "Fettweis, Gerhard P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-08T00:00:00Z",
+    "updated_at": "2026-09-11T15:49:59.890974Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "16, 28104, 2026, {'$ref': 'https://inspirehep.net/api/journals/1211634'}, 1, Sci.Rep."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202609",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202609",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202609"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

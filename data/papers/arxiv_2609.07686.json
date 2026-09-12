@@ -4,19 +4,15 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.07686",
     "arxiv_id": "2609.07686",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3201047",
     "doi": null,
     "title_en": "Approximating the statistics of a gravitational wave background",
     "abstract_en": "The astrophysical origin of the gravitational wave background (GWB) reported by pulsar timing array (PTA) collaborations has yet to be confirmed. A GWB signal made of the sum of individual gravitational wave (GW) from the population of supermassive black hole binaries (SMBHB) would show the imprint of a discrete Poissonian statistics in its spectral properties. In this work, we propose a tool based on the saddlepoint approximation method to estimate the distribution of characteristic strain for any given population model. This tool can be used for Bayesian inference or for a quick visualization of the statistics of the GWB from the output of more realistic semi-analytical models. We introduce the general family of variance mixture Gaussian distributions that models heavy-tailed behavior distributions that is expected for a non-Gaussian GWB signal. We show that setting the correct hierarchical priors to a Gaussian free spectrum PTA likelihood is effectively equivalent to a non-Gaussian likelihood. Using ideal simulations, we compare the performance of the saddlepoint approximation with a log-Normal distribution to infer the parameters of the astrophysical model from the statistics of the GWB and show that correctly modeling higher order moments is essential. Future PTA analyses should include the statistics of the GWB in their pipelines.",
     "authors": [
-      "Mikel Falxa"
+      "Falxa, Mikel"
     ],
-    "categories": [
-      "astro-ph.IM",
-      "astro-ph.GA",
-      "astro-ph.HE"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-07T00:00:00Z",
     "updated_at": "2026-09-10T05:35:20.443964Z",
     "document_types": [
@@ -26,21 +22,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.07686v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.07686v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3201047",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.07686",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.07686v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3201047",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201047"
       }
     ],
@@ -66,48 +56,42 @@
     "schema_version": "1.0",
     "relevant": true,
     "primary_topic": "pta",
-    "secondary_topics": [
-      "general_relativity_foundations"
-    ],
+    "secondary_topics": [],
     "scores": {
-      "theory_depth": 20,
-      "methodological_rigor": 15,
+      "theory_depth": 18,
+      "methodological_rigor": 14,
       "novelty": 11,
       "clarity": 8,
-      "metadata_quality": 8,
+      "metadata_quality": 6,
       "community_signal": 0,
-      "other": 5
+      "other": 4
     },
-    "total_score": 67,
+    "total_score": 61,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文直接针对脉冲星计时阵列（PTA）报告的引力波背景的统计特性，提出了基于鞍点近似的工具来估计特征应变分布，并引入方差混合高斯分布族刻画非高斯重尾行为，同时论证了层次先验与非高斯似然的关系。对PTA数据分析方法具有明确的实用价值，值得进一步阅读。",
-    "title_zh": "近似引力波背景的统计特性",
-    "abstract_zh": "脉冲星计时阵列（PTA）合作组报告的引力波背景（GWB）的天体物理起源尚未得到确认。由超大质量黑洞双星（SMBHB）群体中各个引力波（GW）叠加而成的GWB信号，会在其谱特性中显示出离散泊松统计的印记。在本工作中，我们提出了一种基于鞍点近似方法的工具，用于针对任意给定的群体模型估计特征应变的分布。该工具可用于贝叶斯推断，也可用于根据更现实的半解析模型的输出快速可视化GWB的统计特性。我们引入了方差混合高斯分布这一般族，用以建模非高斯GWB信号所预期的重尾行为分布。我们表明，对高斯自由谱PTA似然设置正确的层次先验，实际上等价于一个非高斯似然。利用理想模拟，我们比较了鞍点近似与对数正态分布在从GWB统计特性推断天体物理模型参数时的表现，并表明正确建模高阶矩至关重要。未来的PTA分析应在其流程中纳入GWB的统计特性。",
+    "selection_reason_zh": "该文直接面向脉冲星计时阵列（PTA）所报道的引力波背景（GWB）的统计建模问题，提出基于鞍点近似估计特征应变分布的方法，并讨论方差混合高斯分布与非高斯似然、层级先验的关系，属于PTA方向的核心方法学工作，值得进一步阅读。",
+    "title_zh": "近似引力波背景的统计性质",
+    "abstract_zh": "脉冲星计时阵列（PTA）合作组所报道的引力波背景（GWB）的天体物理起源尚未得到确认。由超大质量黑洞双星（SMBHB）族群中单个引力波（GW）叠加而成的GWB信号，会在其谱性质中显示出离散泊松统计的印记。在本工作中，我们提出一种基于鞍点近似方法的工具，用于对任意给定族群模型估计特征应变的分布。该工具可用于贝叶斯推断，或用于根据更现实的半解析模型的输出快速可视化GWB的统计性质。我们引入方差混合高斯分布这一般性分布族，用于建模非高斯GWB信号所预期具有的重尾行为分布。我们表明，对高斯自由谱PTA似然设置正确的层级先验，实际上等效于一个非高斯似然。使用理想模拟，我们将鞍点近似与对数正态分布在从GWB统计性质推断天体物理模型参数方面的表现进行比较，并表明正确建模高阶矩至关重要。未来的PTA分析应在其流程中纳入GWB的统计性质。",
     "keywords_en": [
-      "gravitational wave background",
       "pulsar timing array",
+      "gravitational wave background",
       "saddlepoint approximation",
-      "Poissonian statistics",
-      "super massive black hole binaries",
-      "variance mixture Gaussian distributions",
-      "Bayesian inference",
-      "non-Gaussian likelihood"
+      "non-Gaussian statistics",
+      "variance mixture Gaussian distribution",
+      "supermasive black hole binaries"
     ],
     "keywords_zh": [
-      "引力波背景",
       "脉冲星计时阵列",
+      "引力波背景",
       "鞍点近似",
-      "泊松统计",
-      "超大质量黑洞双星",
+      "非高斯统计",
       "方差混合高斯分布",
-      "贝叶斯推断",
-      "非高斯似然"
+      "超大质量黑洞双星"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-09-10T01:14:34.124998Z"
+    "created_at": "2026-09-12T01:17:59.520604Z"
   },
-  "published_at": "2026-09-11T01:14:31.806178Z"
+  "published_at": "2026-09-12T01:17:59.521001Z"
 }

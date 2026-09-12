@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11508",
+    "arxiv_id": "2609.11508",
+    "arxiv_version": null,
+    "inspire_id": "3202493",
+    "doi": null,
+    "title_en": "Joint Mitigation of Algorithmic and Physical Errors in Noisy Hamiltonian Simulation",
+    "abstract_en": "Product-formula Hamiltonian simulation is naturally suited to near-term quantum processors, but its accuracy is set by two competing errors: finite-step Trotter bias and physical hardware noise. We introduce a joint extrapolation strategy that ties the tunable per-layer noise strength to the Trotter step size, $λ(s)=c(sT)^{p+1}$ for a $p$-th order product formula. Along this one-dimensional path, the leading physical-noise and Trotter corrections over the full evolution both enter at order $s^p$ and can be canceled by a single Richardson extrapolation. Building on a previously established finite-order Baker--Campbell--Hausdorff truncation bound, we derive a provably commutator-scaling resource guarantee for the joint extrapolation. For local Hamiltonians with local Lindbladian noise, the protocol mitigates physical noise together with Trotter error with only a constant asymptotic overhead relative to noiseless Trotter extrapolation, provided the required noise strengths lie above the intrinsic device-noise floor. We experimentally demonstrate the protocol for Ising dynamics on a superconducting quantum computer using learned noise amplification. Complementary 100-qubit Sparse Pauli Dynamics (SPD) simulations achieve comparable accuracy to two-dimensional Richardson extrapolation with fewer circuit settings.",
+    "authors": [
+      "Zhou, Shuo",
+      "Wang, Xinzhao",
+      "Zhang, Ruiqi",
+      "Wang, Xiaoyang",
+      "Zheng, Yi-Cong",
+      "Li, Tongang",
+      "Zhang, Shengyu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-11T14:25:07.932826Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202493",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202493",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202493"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

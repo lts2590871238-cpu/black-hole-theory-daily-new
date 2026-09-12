@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11830",
+    "arxiv_id": "2609.11830",
+    "arxiv_version": null,
+    "inspire_id": "3202280",
+    "doi": null,
+    "title_en": "Oracle Separations in the Fourier Hierarchy",
+    "abstract_en": "The Fourier hierarchy $\\mathrm{FH}_0\\subseteq\\mathrm{FH}_1\\subseteq\\mathrm{FH}_2\\subseteq\\cdots$, introduced by Shi (TCS 2005), measures a quantum computation by the number of Hadamard layers it uses. Between two layers the circuit may permute basis states and attach phases, but it may not create superposition; the layers are its only source of interference. The first level is exactly $\\mathrm{BPP}$, while the second already solves Simon's problem and, through phase estimation, factors integers. Shi conjectured that every additional layer strictly increases computational power, and asked, as a first step, for oracle separations between consecutive levels. To our knowledge, the question was open at every level $k\\ge2$. We prove that for every constant $k\\ge2$ there is an oracle relative to which $\\mathrm{FH}_k\\subsetneq\\mathrm{FH}_{k+1}$. The separating problem is built from Forrelation (Aaronson and Ambainis, STOC 2015): the level above solves it with a constant number of queries, whereas at level $k$ it stays hard even for circuits making exponentially many queries. This holds for both of the usual ways of giving a circuit access to an oracle, the phase oracle and the standard oracle, which writes its answer into a register. The two are not interchangeable: relative to an oracle, the standard oracle is strictly more powerful at the same number of layers. We also separate the union of all the levels from $\\mathrm{BQP}$ relative to an oracle. The lower bounds rest on a structural property of the hierarchy: the number of Hadamard layers limits how adaptively a circuit can query its oracle. With a phase oracle, a circuit with $k$ layers is reproduced exactly by an algorithm making only $k-1$ rounds of parallel queries, which brings known lower bounds for such algorithms to bear. The standard oracle lets a circuit branch on earlier answers, and that case needs a separate argument.",
+    "authors": [
+      "Mantri, Atul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-11T14:25:19.345840Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202280",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202280",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202280"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

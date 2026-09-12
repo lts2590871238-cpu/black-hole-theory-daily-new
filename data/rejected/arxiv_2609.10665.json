@@ -3,37 +3,37 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.10665",
     "arxiv_id": "2609.10665",
-    "arxiv_version": 1,
-    "inspire_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3202323",
     "doi": null,
     "title_en": "Aletheia: Emulating the halo mass function with evolution mapping",
     "abstract_en": "We present an emulator of the halo mass function (HMF) based on Gaussian-process regression, that exploits the evolution mapping framework. This framework splits cosmological parameters into shape parameters ($\\mathbfΘ_\\mathrm{s}$), which set the shape of the linear power spectrum, and evolution parameters ($\\mathbfΘ_\\mathrm{e}$), which only rescale its amplitude, with their net effect entirely captured by the clustering amplitude, $σ_{12}$. The emulation acts in two steps: first, an emulator predicts the overall shape of the HMF given $\\mathbfΘ_\\mathrm{s}$ and $σ_{12}$; then, a second emulator applies a small correction accounting for the residual dependence on the integrated growth history of density fluctuations. The emulator is trained on a suite of 100 simulations of flat $Λ$CDM cosmologies but, owing to evolution mapping, can be applied to predict the abundance of haloes in cosmologies with any extended space of $\\mathbfΘ_\\mathrm{e}$, such as curvature, quintessence and dynamical dark energy. We test the emulator against independent $Λ$CDM runs and on an additional validation suite of dynamical dark energy simulations, achieving per cent-level accuracy over a wide range of masses and redshifts, with the performance only slightly degrading at early times, where the training data points are fewer. Compared to other state-of-the-art HMF emulators, its accuracy is higher in nearly all tested cases. Our results demonstrate the broad applicability of the evolution mapping framework to build very accurate emulators of statistics of the density field. The emulator is publicly available as part of the Aletheia emulator suite.",
     "authors": [
-      "Andrea Fiorilli",
-      "Ariel G. Sánchez",
-      "Andrés N. Ruiz",
-      "Facundo Rodriguez"
+      "Fiorilli, Andrea",
+      "Sánchez, Ariel G.",
+      "Ruiz, Andrés N.",
+      "Rodriguez, Facundo"
     ],
-    "categories": [
-      "astro-ph.CO"
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-11T14:39:03.390597Z",
+    "document_types": [
+      "article"
     ],
-    "submitted_at": "2026-09-09T18:00:00Z",
-    "updated_at": "2026-09-09T18:00:00Z",
-    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2609.10665v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.10665v1",
-    "inspire_url": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202323",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.10665",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.10665v1"
+        "source": "inspire",
+        "record_id": "3202323",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202323"
       }
     ],
     "is_demo": false

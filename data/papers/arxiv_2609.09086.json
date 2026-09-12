@@ -4,21 +4,17 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.09086",
     "arxiv_id": "2609.09086",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3201784",
     "doi": null,
     "title_en": "Hierarchical Inference of the Supermassive Black Hole Binary Merger Rates from Joint Searches using Pulsar Timing Arrays",
     "abstract_en": "Gravitational-wave searches do more than identify individual sources - they provide a way to infer the underlying astrophysical populations that produce them. Currently, Pulsar Timing Arrays (PTAs) constrain the supermassive black-hole binary (SMBHB) merger-rate density through both the stochastic gravitational-wave background (SGWB) and searches for individual SMBHB signals. The latter implies converting source upper limits into rate upper limits using detection efficiencies estimated empirically. We instead develop a hierarchical Bayesian framework that places the SMBHB merger-rate density model directly inside the PTA likelihood. The unknown catalog of individual SMBHB merger signals is modeled as a Poisson point process on source-parameter space, so that the number of merger signals is inferred from the data rather than imposed by a detection threshold. We describe two computational routes: a catalog-marginal likelihood based on analyses with fixed numbers of candidate sources, and an explicit transdimensional sampling approach that jointly samples population hyperparameters, latent merger signals, and noise. We validate the method with a toy merger-only population model and then apply it to an astrophysical SMBHB merger-rate density model that jointly predicts the SGWB amplitude and the expected merger-catalog size. In simulations, an individual merger signal adds complementary information to the SGWB and can tighten constraints on the merger-rate population.",
     "authors": [
-      "Sharon Mary Tomson",
-      "Rutger van Haasteren",
-      "Boris Goncharov"
+      "Tomson, Sharon Mary",
+      "van Haasteren, Rutger",
+      "Goncharov, Boris"
     ],
-    "categories": [
-      "astro-ph.HE",
-      "astro-ph.IM",
-      "gr-qc"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-08T00:00:00Z",
     "updated_at": "2026-09-10T13:37:34.053326Z",
     "document_types": [
@@ -28,21 +24,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.09086v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.09086v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3201784",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.09086",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.09086v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3201784",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201784"
       }
     ],
@@ -72,46 +62,46 @@
     "schema_version": "1.0",
     "relevant": true,
     "primary_topic": "pta",
-    "secondary_topics": [
-      "black_hole_thermodynamics"
-    ],
+    "secondary_topics": [],
     "scores": {
       "theory_depth": 22,
-      "methodological_rigor": 18,
-      "novelty": 13,
+      "methodological_rigor": 17,
+      "novelty": 12,
       "clarity": 9,
-      "metadata_quality": 6,
+      "metadata_quality": 5,
       "community_signal": 0,
-      "other": 6
+      "other": 5
     },
-    "total_score": 74,
+    "total_score": 70,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文提出了一个分层贝叶斯框架，将超大质量黑洞双星合并率密度模型直接纳入脉冲星计时阵列似然函数中，方法具有理论深度与方法学严谨性，且对PTA相关研究具有直接相关性。",
-    "title_zh": "利用脉冲星计时阵列从联合搜索中分层推断超大质量黑洞双星合并率",
-    "abstract_zh": "引力波搜索不仅仅能识别单个源——它们还提供了一种推断产生这些源的潜在天体物理族群的方法。目前，脉冲星计时阵列（PTA）通过随机引力波背景（SGWB）和单个超大质量黑洞双星（SMBHB）信号的搜索来限制SMBHB合并率密度。后者意味着利用经验估计的探测效率将源上限转换为率上限。我们转而开发了一个分层贝叶斯框架，将SMBHB合并率密度模型直接置于PTA似然函数中。未知的单个SMBHB合并信号目录被建模为源参数空间上的泊松点过程，因此合并信号的数量是从数据中推断出来的，而不是由探测阈值强加的。我们描述了两种计算路径：基于固定数量候选源分析的目录边缘似然，以及一种显式的跨维采样方法，该方法联合采样族群超参数、潜在合并信号和噪声。我们用一个玩具合并-only族群模型验证了该方法，然后将其应用于一个天体物理SMBHB合并率密度模型，该模型联合预测SGWB幅度和预期的合并目录大小。在模拟中，单个合并信号为SGWB增加了补充信息，并可以收紧对合并率族群的约束。",
+    "selection_reason_zh": "该文提出将SMBHB并合率密度模型直接嵌入PTA似然函数的分层贝叶斯框架，并用泊松点过程建模未知并合信号目录，避免了经验探测效率转换；同时给出两种计算路径并进行了模拟验证，对PTA族群推断具有直接参考价值。",
+    "title_zh": "利用脉冲星计时阵列联合搜索对超大质量黑洞双星并合率的分层推断",
+    "abstract_zh": "引力波搜索不仅仅识别单个源——它们提供了一种推断产生这些源的潜在天体物理族群的方法。目前，脉冲星计时阵列（PTA）通过随机引力波背景（SGWB）和单个超大质量黑洞双星（SMBHB）信号的搜索来约束SMBHB并合率密度。后者意味着使用经验估计的探测效率将源上限转换为速率上限。我们转而开发了一个分层贝叶斯框架，将SMBHB并合率密度模型直接置于PTA似然函数中。未知的单个SMBHB并合信号目录被建模为源参数空间上的泊松点过程，因此并合信号的数量是从数据中推断出来的，而不是由探测阈值强加的。我们描述了两种计算路径：一种是基于固定数量候选源分析的目录边缘化似然，另一种是显式的跨维采样方法，该方法联合采样族群超参数、潜在并合信号和噪声。我们用一个仅并合的玩具族群模型验证了该方法，然后将其应用于一个天体物理SMBHB并合率密度模型，该模型联合预测SGWB幅度和预期的并合目录大小。在模拟中，一个单个并合信号为SGWB增加了互补信息，并且可以收紧对并合率族群的约束。",
     "keywords_en": [
-      "pulsar timing arrays",
-      "supermassive black hole binaries",
-      "stochastic gravitational-wave background",
+      "pulsar timing array",
+      "supermassive black hole binary",
       "hierarchical Bayesian inference",
+      "stochastic gravitational-wave background",
       "merger-rate density",
       "Poisson point process",
-      "transdimensional sampling"
+      "transdimensional sampling",
+      "gravitational-wave population inference"
     ],
     "keywords_zh": [
       "脉冲星计时阵列",
       "超大质量黑洞双星",
-      "随机引力波背景",
       "分层贝叶斯推断",
-      "合并率密度",
+      "随机引力波背景",
+      "并合率密度",
       "泊松点过程",
-      "跨维采样"
+      "跨维采样",
+      "引力波族群推断"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-09-10T01:13:52.631637Z"
+    "created_at": "2026-09-12T01:17:31.303353Z"
   },
-  "published_at": "2026-09-11T01:14:31.800953Z"
+  "published_at": "2026-09-12T01:17:31.303757Z"
 }

@@ -4,45 +4,36 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.08989",
     "arxiv_id": "2609.08989",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3201801",
     "doi": null,
     "title_en": "TARTARUS: A High-Performance Python Code for Ray Tracing in Curved Spacetimes",
     "abstract_en": "The recent observations of the supermassive black holes M87* and Sagittarius A* by the Event Horizon Telescope collaboration (EHT) have shown the need for robust, efficient, and accessible numerical tools to model light propagation in strongly curved spacetimes. Comparing theoretical accretion models with observational data relies heavily on ray-tracing algorithms that calculate the trajectories of photons traveling from a source plasma to a distant observer. In this paper, we present TARTARUS (Tracer for Astrophysical Ray Trajectories Around Relativistic Ultra-compact Sources), a new, highly modular, and extensible Python-based framework for computing null geodesics around compact objects. By leveraging Just-In-Time (JIT) compilation via Numba, TARTARUS bridges the gap between Python's high-level accessibility and the execution speed of compiled languages like C++ or FORTRAN. The code supports multiple native solvers (including adaptive embedded Runge-Kutta pairs, a Bulirsch-Stoer extrapolator, and a Verlet scheme), event-detection mechanics for handling structural intersections (e.g. event horizons and accretion disks), and support for both analytical and numerically generated background metrics. We demonstrate the code's physical accuracy and computational efficiency through some tests, including the evaluation of the Hamiltonian constraint conservation and ray-tracing of the shadow and the Novikov-Thorne thin accretion disks around a Kerr black hole.",
     "authors": [
-      "David F. Bambague",
-      "Alexis Larrañaga"
+      "Bambague, David F.",
+      "Larrañaga, Alexis"
     ],
-    "categories": [
-      "gr-qc",
-      "astro-ph.IM"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-08T00:00:00Z",
     "updated_at": "2026-09-10T13:37:50.527635Z",
     "document_types": [
       "article"
     ],
-    "journal_ref": "Published in Revista eSPECTRA 4(2), 2026",
+    "journal_ref": null,
     "publication_info": [
       "Published in Revista eSPECTRA 4(2), 2026, publication"
     ],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.08989v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.08989v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3201801",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.08989",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.08989v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3201801",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201801"
       }
     ],
@@ -69,46 +60,44 @@
     "primary_topic": "general_relativity_foundations",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 12,
-      "methodological_rigor": 15,
-      "novelty": 9,
+      "theory_depth": 18,
+      "methodological_rigor": 16,
+      "novelty": 10,
       "clarity": 9,
-      "metadata_quality": 7,
+      "metadata_quality": 6,
       "community_signal": 0,
-      "other": 5
+      "other": 6
     },
-    "total_score": 57,
+    "total_score": 65,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该论文介绍了TARTARUS，一个用于弯曲时空中光线追踪的高性能Python框架，直接支持黑洞阴影与吸积盘建模等广义相对论基础问题的数值研究。其模块化设计、多求解器支持、事件检测机制以及对解析与数值度规的兼容性，为强引力场中光传播的定量研究提供了可用工具。摘要清晰说明了方法、验证测试及物理应用场景，方法学信号较强，且与目标主题（广义相对论基础）相关。虽然理论深度并非前沿突破，但作为计算工具论文具有实用价值。",
-    "title_zh": "TARTARUS：用于弯曲时空中光线追踪的高性能Python代码",
-    "abstract_zh": "事件视界望远镜合作组（EHT）最近对超大质量黑洞M87*和人马座A*的观测表明，需要稳健、高效且易于使用的数值工具来模拟强弯曲时空中的光传播。将理论吸积模型与观测数据进行比较，在很大程度上依赖于光线追踪算法，这些算法计算光子从源等离子体传播到远处观测者的轨迹。在本文中，我们介绍了TARTARUS（Tracer for Astrophysical Ray Trajectories Around Relativistic Ultra-compact Sources），这是一个新的、高度模块化且可扩展的基于Python的框架，用于计算致密天体周围的零测地线。通过利用Numba的即时（JIT）编译，TARTARUS弥合了Python高层次可访问性与C++或FORTRAN等编译语言执行速度之间的差距。该代码支持多种原生求解器（包括自适应嵌入式Runge-Kutta对、Bulirsch-Stoer外推器和Verlet方案）、用于处理结构相交（例如事件视界和吸积盘）的事件检测机制，以及对解析和数值生成的背景度规的支持。我们通过一些测试展示了该代码的物理准确性和计算效率，包括评估Hamiltonian约束守恒以及围绕Kerr黑洞的阴影和Novikov-Thorne薄吸积盘的光线追踪。",
+    "selection_reason_zh": "该论文介绍了在弯曲时空中进行光线追踪的数值工具 TARTARUS，涉及零测地线、事件视界与黑洞阴影等广义相对论基础问题的计算，具有较强的方法学与理论相关性；摘要对代码架构、求解器与测试的说明清晰，适合点击进一步阅读。",
+    "title_zh": "TARTARUS：用于弯曲时空中光线追踪的高性能 Python 代码",
+    "abstract_zh": "事件视界望远镜合作组（EHT）最近对超大质量黑洞 M87* 和人马座 A* 的观测表明，需要稳健、高效且易于使用的数值工具来模拟强弯曲时空中的光传播。将理论吸积模型与观测数据进行比较，在很大程度上依赖于光线追踪算法，这些算法计算光子从源等离子体传播到远处观测者的轨迹。在本文中，我们介绍 TARTARUS（Tracer for Astrophysical Ray Trajectories Around Relativistic Ultra-compact Sources，相对论性超致密源天体物理光线轨迹追踪器），这是一个新的、高度模块化且可扩展的、基于 Python 的框架，用于计算致密天体周围的零测地线。通过利用经由 Numba 的即时（JIT）编译，TARTARUS 弥合了 Python 高层可访问性与 C++ 或 FORTRAN 等编译语言执行速度之间的差距。该代码支持多种原生求解器（包括自适应嵌入式 Runge-Kutta 对、Bulirsch-Stoer 外推器和 Verlet 格式）、用于处理结构相交（例如事件视界和吸积盘）的事件检测机制，以及对解析和数值生成背景度规的支持。我们通过一些测试展示了该代码的物理准确性和计算效率，包括对 Hamiltonian 约束守恒的评估，以及对 Kerr 黑洞周围阴影和 Novikov-Thorne 薄吸积盘的光线追踪。",
     "keywords_en": [
       "ray tracing",
-      "curved spacetime",
       "null geodesics",
-      "black hole",
+      "curved spacetime",
+      "black hole shadow",
       "Python",
       "Numba",
-      "Kerr metric",
-      "accretion disk",
-      "Event Horizon Telescope"
+      "Kerr black hole",
+      "accretion disk"
     ],
     "keywords_zh": [
       "光线追踪",
-      "弯曲时空",
       "零测地线",
-      "黑洞",
+      "弯曲时空",
+      "黑洞阴影",
       "Python",
       "Numba",
-      "Kerr度规",
-      "吸积盘",
-      "事件视界望远镜"
+      "Kerr 黑洞",
+      "吸积盘"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-09-10T01:13:58.969967Z"
+    "created_at": "2026-09-12T01:17:40.549720Z"
   },
-  "published_at": "2026-09-11T01:14:31.801719Z"
+  "published_at": "2026-09-12T01:17:40.550201Z"
 }

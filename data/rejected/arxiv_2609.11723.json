@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11723",
+    "arxiv_id": "2609.11723",
+    "arxiv_version": null,
+    "inspire_id": "3202499",
+    "doi": null,
+    "title_en": "Lifted surgery: Fast processing with QLDPC codes",
+    "abstract_en": "Quantum low-density parity-check (QLDPC) codes are a leading candidate for achieving low-overhead fault-tolerant quantum computing. However, the time overhead of logical operations in QLDPC codes remains a key challenge. Code surgery, a space-efficient technique for fault-tolerant logical measurements, incurs this overhead through repeated rounds of syndrome measurement. We introduce lifted surgery, a method for fast and parallel surgery on Abelian group algebra codes that maintains the low physical overhead that makes QLDPC codes attractive. Lifted surgery preserves the symmetries of the underlying code, making searches for large instances tractable and offering a natural route towards efficient hardware implementations. We utilise block decompositions and techniques from commutative algebra to characterise lifted surgery, investigate well-behaved subfamilies, and construct explicit examples. In particular, we present quantum radial codes with parameters $[[90, 8, 10]]$ and $[[198, 8, 16 ]]$ for which surgery is fast, parallel, and addressable, allowing arbitrary sets of independent logical operators of the same Pauli type to be measured in a single round of syndrome extraction. We benchmark lifted surgery under circuit-level depolarising noise and, for the $[[ 90, 8, 10 ]]$ code, find logical performance comparable to standard code surgery while requiring ten times fewer rounds of syndrome measurement. By combining speed and parallelism, lifted surgery offers a practical route towards low-overhead fault-tolerant quantum computing.",
+    "authors": [
+      "Berent, Lucas",
+      "Cohen, Lawrence Z.",
+      "Quintavalle, Armanda O."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-11T14:24:40.550529Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202499",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202499",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202499"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

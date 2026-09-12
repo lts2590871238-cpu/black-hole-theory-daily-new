@@ -3,19 +3,17 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.08649",
     "arxiv_id": "2609.08649",
-    "arxiv_version": 2,
+    "arxiv_version": null,
     "inspire_id": "3201837",
     "doi": null,
     "title_en": "$\\texttt{LensFactory.jl}$: A general-purpose strong lens modeling package",
     "abstract_en": "We present LensFactory.jl, an efficient, open-source, general-purpose strong lens modeling package written in Julia. It supports single- and multi-plane lensing with a wide range of analytic lens profiles, and its modular design, built on Julia's multiple dispatch, makes it straightforward to add new profiles or inference methods, while native multi-threading parallelizes the computationally expensive steps, enabling full cluster-scale lens reconstructions within hours on a desktop-class machine. We validate the mass-reconstruction pipeline of LensFactory.jl on two simulated galaxy clusters (Ares and Hera), recovering the convergence and magnification maps well where the lensing constraints lie, and on the JWST-observed cluster SMACS J0723.3-7327, obtaining a strong lens model (image-plane RMS of 0.46'') consistent with previously published results. In addition, we introduce singularity maps as a complementary diagnostic for comparing lens models, probing differences in the higher-order derivatives of the lensing potential, which remain largely unconstrained by standard observables such as image positions, time delays, and flux ratios. LensFactory.jl is accompanied by a set of worked examples covering all core functionality.",
     "authors": [
-      "Ashish Kumar Meena"
+      "Meena, Ashish Kumar"
     ],
-    "categories": [
-      "astro-ph.CO"
-    ],
-    "submitted_at": "2026-09-08T12:20:07Z",
-    "updated_at": "2026-09-10T13:40:26.052635Z",
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-11T03:59:46.290399Z",
     "document_types": [
       "article"
     ],
@@ -23,21 +21,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.08649v2",
-    "pdf_url": "https://arxiv.org/pdf/2609.08649v2",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3201837",
-    "is_update": true,
+    "is_update": false,
     "source_provenance": [
-      {
-        "source": "arxiv",
-        "record_id": "2609.08649",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.08649v2"
-      },
       {
         "source": "inspire",
         "record_id": "3201837",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201837"
       }
     ],

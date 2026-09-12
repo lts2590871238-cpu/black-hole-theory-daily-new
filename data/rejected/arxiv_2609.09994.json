@@ -7,14 +7,14 @@
     "inspire_id": "3201975",
     "doi": null,
     "title_en": "Coded Clifford Measurements for Multiqubit Magic-State Cultivation",
-    "abstract_en": "Magic-state cultivation suppresses errors by measuring logical Clifford symmetries and discarding inconsistent outcomes. For an entangled resource several branches are accepted, so the retained branch carries a multibit classical record whose corruption produces a logical-frame error. We show that this record layer is exactly a binary linear code. For any third-level Clifford-hierarchy unitary $U \\in \\mathcal{C}_3$, the branches $UZ(a)|+\\rangle^{\\otimes k}$ are resolved by commuting Hermitian Clifford observables $C(v) = UX(v)U^{\\dagger}$, so a measurement schedule is a generator matrix and postselection on valid records gives $P_{\\mathrm{wv}} = O(q^{d})$ at record distance $d$. A Plotkin bound then limits every binary record, linear or not. The physically realizable Clifford family already saturates it: at distance four, six logical measurements suffice for $|CS\\rangle$ and seven for $|CCZ\\rangle$, against eight and twelve for independent repetition. Restricting to fault-tolerantly measurable parities therefore costs nothing in record length. The saving survives compilation: in a native-CZZ-assisted Steane realization the $[6,2,4]$ CS schedule is the unique minimum-cost distance-four solution, reducing the cultivation core by 26.6% in active locations, and exact state-vector simulation without a final ideal code-space projection confirms higher acceptance and roughly half the residual Steane-boundary weight. Coding thus reduces logical redundancy and compiled overhead together.",
+    "abstract_en": "Magic-state cultivation suppresses errors by measuring logical Clifford checks and discarding inconsistent outcomes. For an entangled resource, several measurement branches are usable, so their outcomes form a multibit classical record whose corruption can produce a logical-frame error. We show that this measurement record can be protected as a binary linear code. For any third-level Clifford-hierarchy unitary $U\\in\\mathcal C_3$, every parity of the branch bits can be measured by a commuting Hermitian Clifford check $C(v)=UX(v)U^\\dagger$. Choosing which parities to measure therefore defines a binary code $y(a)=aG$. If the valid records have minimum distance $d$, at least $d$ readout-bit flips are required to confuse one valid branch with another, giving $P_{\\rm wv}=O(q^d)$. A Plotkin bound limits the length of any binary branch record, and the Clifford schedules attain this limit: at distance four, six logical measurements suffice for $|CS\\rangle$ and seven for $|CCZ\\rangle$, compared with eight and twelve under independent repetition. Thus restricting the logical schedule to Clifford parities requires no additional measurements. In a native-CZZ-assisted Steane implementation, the $[6,2,4]$ CS schedule is also the unique minimum-cost distance-four solution within the compiled Clifford-check family, reducing the cultivation core by $26.6\\%$ in active locations. State-vector simulations without a final ideal code-space projection further show higher acceptance and approximately half the residual error weight on the two Steane blocks. Coding the logical measurement record therefore reduces both measurement redundancy and compiled fault-tolerant overhead.",
     "authors": [
       "Min, Gunsik",
       "Heo, Jun"
     ],
     "categories": [],
     "submitted_at": "2026-09-09T00:00:00Z",
-    "updated_at": "2026-09-10T13:15:03.863592Z",
+    "updated_at": "2026-09-11T04:09:34.847942Z",
     "document_types": [
       "article"
     ],
@@ -30,7 +30,7 @@
       {
         "source": "inspire",
         "record_id": "3201975",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201975"
       }
     ],

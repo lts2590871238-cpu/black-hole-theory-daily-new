@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.11736",
+    "arxiv_id": "2609.11736",
+    "arxiv_version": null,
+    "inspire_id": "3202278",
+    "doi": null,
+    "title_en": "Learning structural balance of graphs from quantum spectral features",
+    "abstract_en": "We develop a quantum approach to spectral feature extraction from the density of states (DOS) of a problem-dependent Hamiltonian, and apply it to machine learning on signed graphs. We propose to embed a signed graph as an Ising model instance with positive and negative interactions, and use the standardized moments of the Ising DOS as features for learning. We show that these moments count signed closed walks, are switching-invariant, and are size-free by construction. As a benchmark, we target learning the frustration index, an NP-hard measure of structural balance that can be labeled exactly at moderate size. At zero field, the models can be sampled classically, allowing the quantum extraction procedure to be certified against exact ground truth. We propose DOS-QPE, a phase estimation on a purified maximally mixed probe, which samples the spectral density with orders of magnitude fewer shots than Hadamard test-based trace sampling and feeds the resulting features directly into classically trained models. On $1.4\\times10^5$ labeled graphs the exact DOS determines the frustration index, and five moments recover it with a mean error of 0.4, well below one sign flip. Beyond zero field, the underlying trace-estimation problem is DQC1-complete, providing access to spectral features for which no efficient classical sampling method is known. Our work opens routes towards quantum applications in social network balance analysis, spin-glass studies, correlation clustering, and protein-interaction networks.",
+    "authors": [
+      "Scali, Stefano",
+      "Kyriienko, Oleksandr"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-11T14:36:20.419728Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202278",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202278",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202278"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

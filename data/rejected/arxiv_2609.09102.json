@@ -3,21 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.09102",
     "arxiv_id": "2609.09102",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3201811",
     "doi": null,
     "title_en": "TILING I: Field-level Bayesian reconstruction of cosmological initial conditions during the epoch of reionization",
     "abstract_en": "Reconstructing the initial conditions (ICs) of the matter field for an observed volume gives a complete picture of that region's temporal evolution. IC reconstruction is common at low redshifts but largely unexplored during the epoch of reionization (EoR; $z\\gtrsim 5$), partly due to difficulties modeling inhomogeneous cosmic radiation fields. Yet the EoR spans half the observable Universe, offering unmatched potential for astrophysics and cosmology. Here we quantify how well upcoming galaxy and 21cm observations can constrain ICs during the EoR. We develop $\\tt TILING$ ($\\bf T$omographic $\\bf I$nference of $\\bf L$inear $\\bf I$Cs via $\\bf N$etwork $\\bf G$rafting): a hybrid machine learning pipeline that first produces a point estimate of the ICs, which then improves a score-based diffusion network for generating posterior samples. We train $\\tt TILING$ on mock galaxy maps at varying UV magnitude limits, plus corresponding 21cm maps at varying noise levels and foreground \"wedge\" contamination. For fiducial survey choices, we achieve accurate IC reconstruction (posterior mean cross-correlation coefficients >0.8 and power spectrum errors under a few percent) down to $\\text{k}\\lesssim 0.2 \\text{cMpc}^{-1}$. While 21cm interferometry aids recovery of IC power spectra, most constraining power, especially for IC Fourier phases, comes from galaxy maps, underscoring the need for complementary observations when interpreting the 21cm signal. We show how $\\tt TILING$ can recover 21cm power spectrum modes excised by foreground contamination. Our framework can also: (i) guide follow-up observations of sub-volumes of interest; (ii) reconstruct galaxy evolution and reionization morphology for specific volumes; and (iii) isolate the contribution to reionization from the vast majority of galaxies unobservable by optical/IR telescopes like $\\it JWST$. Our code is publicly available.",
     "authors": [
-      "Nikolaos Triantafyllou",
-      "Andrei Mesinger",
-      "Steven Murray",
-      "Samuel Gagnon-Hartman"
+      "Triantafyllou, Nikolaos",
+      "Mesinger, Andrei",
+      "Murray, Steven",
+      "Gagnon-Hartman, Samuel"
     ],
-    "categories": [
-      "astro-ph.CO",
-      "astro-ph.GA"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-08T00:00:00Z",
     "updated_at": "2026-09-10T13:38:28.867231Z",
     "document_types": [
@@ -27,21 +24,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.09102v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.09102v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3201811",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.09102",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.09102v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3201811",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3201811"
       }
     ],

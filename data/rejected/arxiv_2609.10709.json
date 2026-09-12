@@ -3,40 +3,39 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.10709",
     "arxiv_id": "2609.10709",
-    "arxiv_version": 1,
-    "inspire_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3202347",
     "doi": null,
     "title_en": "BIND (Baryonic INpainting with Deep learning): A Field-level Emulator for Galaxy Groups and Clusters",
-    "abstract_en": "Baryonic feedback is a dominant source of systematic uncertainty for upcoming weak-lensing surveys, but current tools for modeling its effect rely on spherical approximations and density profiles calibrated almost entirely on two-point statistics. We introduce BIND (Baryonic INpainting with Deep learning), a conditional flow-matching model that learns a field-level mapping from dark-matter-only halos to their hydrodynamical counterparts. BIND is trained on halos from the 1024 paired hydrodynamical and dark-matter-only simulations of the CAMELS $50\\,h^{-1}\\,\\mathrm{Mpc}$ SB35 suite and samples dark matter, gas, and stellar mass fields over redshift across the full 35-dimensional $Λ$CDM and IllustrisTNG galaxy formation parameter space. BIND recovers dark matter, gas, and stellar masses at the percent level, reproduces azimuthally averaged profiles to $\\lesssim10\\%$ at all radii, and matches halo shape distributions with high fidelity. The learned parameter dependence captures the rank correlations between the generated fields and the subgrid parameters, and the field-level response to individual parameter variations is recovered in both sign and morphology. Halo mass is never supplied as conditioning, yet the baryon fraction, stellar-to-halo mass relation, inter-component scaling relations, and the joint covariance of their residuals are all reproduced. We finally show that, applied halo-by-halo to a $(50\\,h^{-1}\\,\\mathrm{Mpc})^3$ $N$-body volume with $512^3$ particles, BIND reproduces the projected matter power spectrum suppression to the accuracy ceiling set by pasting in the hydrodynamical halos themselves, in minutes on one GPU. We release the trained BIND models and all generated halos as open-source tools. A companion paper extends BIND to thermodynamic fields and non-Gaussian weak-lensing statistics.",
+    "abstract_en": "Baryonic feedback is a dominant source of systematic uncertainty for upcoming weak-lensing surveys, but current tools for modeling its effect rely on spherical approximations and density profiles calibrated almost entirely on two-point statistics. We introduce BIND (Baryonic INpainting with Deep learning), a conditional flow-matching model that learns a field-level mapping from dark-matter-only halos to their hydrodynamical counterparts. BIND is trained on halos from the 1024 paired hydrodynamical and dark-matter-only simulations of the CAMELS $50\\,h^{-1}\\,\\mathrm{Mpc}$ SB35 suite and samples dark matter, gas, and stellar mass fields over redshift across the full 35-dimensional $Λ$CDM and IllustrisTNG galaxy formation parameter space. BIND recovers dark matter, gas, and stellar masses at the percent level, reproduces azimuthally averaged profiles to $\\lesssim10\\%$ at all radii, and matches halo shape distributions with high fidelity. The learned parameter dependence captures the rank correlations between the generated fields and the subgrid parameters, and the field-level response to individual parameter variations is recovered in both sign and morphology. Halo mass is never supplied as conditioning, yet the baryon fraction, stellar-to-halo mass relation, inter-component scaling relations, and the joint covariance of their residuals are all reproduced. We finally show that, applied halo-by-halo to a $(50\\,h^{-1}\\,\\mathrm{Mpc})^3$$N$-body volume with $512^3$ particles, BIND reproduces the projected matter power spectrum suppression to the accuracy ceiling set by pasting in the hydrodynamical halos themselves, in minutes on one GPU. We release the trained BIND models and all generated halos as open-source tools. A companion paper extends BIND to thermodynamic fields and non-Gaussian weak-lensing statistics.",
     "authors": [
-      "Max E. Lee",
-      "Shy Genel",
-      "Zoltan Haiman",
-      "Greg L. Bryan",
-      "Christopher C. Lovell",
-      "Boryana Hadzhiyska"
+      "Lee, Max E.",
+      "Genel, Shy",
+      "Haiman, Zoltan",
+      "Bryan, Greg L.",
+      "Lovell, Christopher C.",
+      "Hadzhiyska, Boryana"
     ],
-    "categories": [
-      "astro-ph.GA",
-      "astro-ph.CO"
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-11T14:39:19.652622Z",
+    "document_types": [
+      "article"
     ],
-    "submitted_at": "2026-09-09T18:04:43Z",
-    "updated_at": "2026-09-09T18:04:43Z",
-    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2609.10709v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.10709v1",
-    "inspire_url": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202347",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.10709",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.10709v1"
+        "source": "inspire",
+        "record_id": "3202347",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
+        "url": "https://inspirehep.net/literature/3202347"
       }
     ],
     "is_demo": false

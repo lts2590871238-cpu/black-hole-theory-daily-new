@@ -3,21 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.10173",
     "arxiv_id": "2609.10173",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3202019",
     "doi": null,
     "title_en": "A Differentiable Parametric Model of Binary-Black-Hole Initial Data: I. Conformally flat Bowen-York punctures",
-    "abstract_en": "Constraint-satisfying initial data for binary black holes require the repeated solution of a nonlinear elliptic boundary-value problem throughout the physical parameter space. We present a para\\-metric, differentiable initial-data model that combines sparse-grid spectral interpolation with Newton refinement over a family of binary configurations. Interpolation is used only to provide warm starts for the underlying elliptic solver, rather than to replace it. A small number of Newton iterations refines each interpolated solution to a discrete, row-equilibrated constraint residual $\\|R\\|_\\infty\\le10^{-10}$, independent of the interpolation error, so that every returned initial-data set satisfies the discretized constraint to that tolerance. Our JAX implementation provides analytic derivatives with respect to the physical parameters, enabling gradient-based parameter targeting, optimization, and sensitivity analysis. We demonstrate the method for quasi-circular binary-black-hole initial data using conformally flat Bowen--York punctures by constructing four-dimensional aligned-spin and eight-dimensional general-spin models. The resulting initial data are validated against TwoPunctures, and the method is applied to certified targeting of the physical Arnowitt--Deser--Misner mass and angular momentum and to effective-potential eccentricity reduction using a dedicated separation--tangential-momentum model.",
+    "abstract_en": "Constraint-satisfying initial data for binary black holes require the repeated solution of a nonlinear elliptic boundary-value problem throughout the physical parameter space. We present a para­metric, differentiable initial-data model that combines sparse-grid spectral interpolation with Newton refinement over a family of binary configurations. Interpolation is used only to provide warm starts for the underlying elliptic solver, rather than to replace it. A small number of Newton iterations refines each interpolated solution to a discrete, row-equilibrated constraint residual $\\|R\\|_\\infty\\le10^{-10}$, independent of the interpolation error, so that every returned initial-data set satisfies the discretized constraint to that tolerance. Our JAX implementation provides analytic derivatives with respect to the physical parameters, enabling gradient-based parameter targeting, optimization, and sensitivity analysis. We demonstrate the method for quasi-circular binary-black-hole initial data using conformally flat Bowen--York punctures by constructing four-dimensional aligned-spin and eight-dimensional general-spin models. The resulting initial data are validated against TwoPunctures, and the method is applied to certified targeting of the physical Arnowitt--Deser--Misner mass and angular momentum and to effective-potential eccentricity reduction using a dedicated separation--tangential-momentum model.",
     "authors": [
-      "Frederik De Ceuster",
-      "Tjonnie G. -F. Li"
+      "De Ceuster, Frederik",
+      "Li, Tjonnie G.-F."
     ],
-    "categories": [
-      "gr-qc",
-      "astro-ph.IM"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-09T00:00:00Z",
-    "updated_at": "2026-09-10T13:37:42.756050Z",
+    "updated_at": "2026-09-11T03:58:54.356214Z",
     "document_types": [
       "article"
     ],
@@ -25,21 +22,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.10173v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.10173v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3202019",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.10173",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
-        "url": "https://arxiv.org/abs/2609.10173v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3202019",
-        "fetched_at": "2026-09-11T01:13:15.786997Z",
+        "fetched_at": "2026-09-12T01:15:08.781413Z",
         "url": "https://inspirehep.net/literature/3202019"
       }
     ],
