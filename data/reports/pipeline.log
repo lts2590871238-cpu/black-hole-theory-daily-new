@@ -1597,3 +1597,7 @@ requests.exceptions.HTTPError: 503 Server Error: Service Unavailable for url: ht
 2026-09-12 01:17:59,850 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-09-12 01:18:02,727 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-09-12 01:18:06,059 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-09-13 01:10:25,784 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: arXiv timed out
+2026-09-13 01:10:25,814 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: source timed out
+2026-09-13 01:10:25,815 WARNING theory_daily.pipeline: INSPIRE 数据源暂时不可用：source timed out
+2026-09-13 01:11:42,742 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: 429 Client Error: Too Many Requests for url: https://export.arxiv.org/api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending
