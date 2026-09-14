@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.10793",
+    "arxiv_id": "2609.10793",
+    "arxiv_version": null,
+    "inspire_id": "3202667",
+    "doi": null,
+    "title_en": "Henstock--Kurzweil Gauge Integral in the Non--Gaussian Regime: A Machine--Verified Construction",
+    "abstract_en": "We develop a machine-checked construction of non-Gaussian functional integrals using the Henstock--Kurzweil gauge integral and Chernoff product approximations. The central object is a finite family of bosonic modes with action S(phi) = (1/2) phi^T A phi + lambda * sum_i phi_i^4, where A is positive definite. We prove that the one-mode integral I(omega, j, lambda) is finite, strictly positive, monotone and infinitely differentiable in the coupling lambda on [0, infinity). Its derivatives are given by convergent integrals of phi^{4k} with the same weight, not by the divergent perturbative series. The M-mode influence functional factorises into one-mode integrals and is bounded by its Gaussian value. A Chernoff / Lie--Trotter splitting handles the non-commutativity of the free and non-Gaussian generators. All statements are formalised in Lean 4 with Mathlib; the accompanying file HkNonGaussian.lean is free of sorry and uses only the standard axioms propext, Classical.choice, Quot.sound. Four illustrative applications are worked out at the level of explicit formulas: the Duffing oscillator, local volatility (CEV) in finance, Wilson--Cowan neural fields, and non-Gaussian quantum reservoirs. The construction is completely direct and does not use Wick rotation, Wiener measure, zeta-regularisation or analytic continuation back from imaginary time.",
+    "authors": [
+      "Berdinsky, Yuri N."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-09T00:00:00Z",
+    "updated_at": "2026-09-13T18:39:51.146977Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202667",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202667",
+        "fetched_at": "2026-09-14T01:14:56.055303Z",
+        "url": "https://inspirehep.net/literature/3202667"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
