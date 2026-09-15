@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.12061",
+    "arxiv_id": "2609.12061",
+    "arxiv_version": null,
+    "inspire_id": "3202782",
+    "doi": null,
+    "title_en": "BAQARO: Tracing Stochastic Black Hole Growth Histories and Quasar Lightcurves in a Cosmological Context",
+    "abstract_en": "How supermassive black holes (BHs) assemble their mass and power the luminous quasars we observe across cosmic time remain central open questions in galaxy evolution. We present BAQARO, a semi-empirical framework for BH growth. Built on subhalo merger trees extracted from the FLAMINGO-10k simulation, the model links BH growth histories to those of their host subhalos through prescriptions that capture both average trends and stochastic variability. BAQARO is constrained by the bolometric quasar luminosity function, the clustering of UV-luminous quasars, and the conditional Eddington ratio distribution function. With six free parameters controlling BH seeding, the coupling between gas accretion and halo growth, and the stochasticity and temporal coherence of accretion, the model reproduces the available observational constraints over $0 \\lesssim z \\lesssim 7$. Using emulators, we perform Bayesian inference and quantify the constraining power of each observable. Our main findings are: (i) BH accretion is well described by the assembly of cold gas reservoirs in halos, without requiring an explicit dependence on cosmic time. (ii) BHs rapidly assemble their mass at high redshift through stochastic episodes of super-Eddington accretion. (iii) These episodes are radiatively inefficient and persist for timescales of $\\sim1\\,\\mathrm{Myr}$, imprinting observable signatures on quasar lightcurves, proximity zones, and clustering measurements. (iv) The merger growth channel is always subdominant, but becomes increasingly important at $z \\lesssim 1$, particularly for massive BHs. BAQARO growth histories and quasar lightcurves provide a flexible framework for interpreting the rapidly expanding landscape of quasar observations, from high-$z$ accretion probed by JWST to low-$z$ mergers constrained by pulsar timing arrays.",
+    "authors": [
+      "Pizzati, Elia",
+      "Hennawi, Joseph F.",
+      "Schaye, Joop"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-14T03:12:14.138977Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202782",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202782",
+        "fetched_at": "2026-09-15T01:35:22.085394Z",
+        "url": "https://inspirehep.net/literature/3202782"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 60
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "scores": {
+      "theory_depth": 21,
+      "methodological_rigor": 15,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 68,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文构建了半经验框架BAQARO，将黑洞生长历史与类星体光变曲线联系，并明确将其低红移合并通道约束与脉冲星计时阵列数据联系起来，与PTA主题直接相关。摘要清晰说明了方法（基于FLAMINGO-10k子晕合并树、六参数、贝叶斯推断与模拟器）与主要发现，并指出对JWST高红移吸积与PTA低红移合并的解释潜力，值得进一步阅读。",
+    "title_zh": "BAQARO：在宇宙学背景下追溯随机黑洞生长历史与类星体光变曲线",
+    "abstract_zh": "超大质量黑洞（BH）如何积聚其质量并驱动我们在宇宙时间尺度上观测到的明亮类星体，仍是星系演化中的核心开放问题。我们提出BAQARO，一个用于黑洞生长的半经验框架。该模型建立在从FLAMINGO-10k模拟中提取的子晕合并树之上，通过同时捕捉平均趋势和随机变率的处方，将黑洞生长历史与其宿主子晕的生长历史联系起来。BAQARO受到热辐射类星体光度函数、紫外明亮类星体的成团性以及条件爱丁顿比分布函数的约束。凭借控制黑洞种子、气体吸积与晕生长之间的耦合，以及吸积的随机性和时间相干性的六个自由参数，该模型在$0 \\lesssim z \\lesssim 7$范围内重现了可用的观测约束。利用模拟器，我们进行贝叶斯推断并量化每个观测量所提供的约束能力。我们的主要发现是：（i）黑洞吸积可以由晕中冷气体储库的组装很好地描述，而不需要显式依赖宇宙时间。（ii）黑洞在高红移通过随机的超爱丁顿吸积事件迅速积聚其质量。（iii）这些事件在辐射上效率低下，并持续约$\\sim1\\,\\mathrm{Myr}$的时间尺度，从而在类星体光变曲线、邻近区和成团性测量上留下可观测的印记。（iv）合并生长通道始终处于次要地位，但在$z \\lesssim 1$时变得越来越重要，特别是对高质量黑洞而言。BAQARO的生长历史和类星体光变曲线为解读迅速扩展的类星体观测图景提供了一个灵活框架，从JWST探测的高$z$吸积到脉冲星计时阵列约束的低$z$合并。",
+    "keywords_en": [
+      "black hole growth",
+      "quasar lightcurves",
+      "semi-empirical model",
+      "subhalo merger trees",
+      "Eddington ratio",
+      "pulsar timing arrays",
+      "JWST",
+      "cosmic time"
+    ],
+    "keywords_zh": [
+      "黑洞生长",
+      "类星体光变曲线",
+      "半经验模型",
+      "子晕合并树",
+      "爱丁顿比",
+      "脉冲星计时阵列",
+      "JWST",
+      "宇宙时间"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-15T01:38:47.752221Z"
+  },
+  "published_at": "2026-09-15T01:38:47.752640Z"
+}

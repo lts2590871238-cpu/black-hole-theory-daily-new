@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.12796",
+    "arxiv_id": "2609.12796",
+    "arxiv_version": null,
+    "inspire_id": "3202852",
+    "doi": null,
+    "title_en": "Agent-authored deposition recipes for X-ray multilayer mirrors: schema-bound LLM control of a magnetron sputtering system with reflectivity-verified outcomes",
+    "abstract_en": "Periodic multilayer mirrors for X-rays require a layer period held to about 0.02 nm, set by deposition rates held in the laboratory's own notebook. A large language model agent was given a target multilayer specification and read access to a laboratory archive. Deposition recipes were authored in the native recipe language of a magnetron sputtering system and submitted through a Model Context Protocol bridge of 17 tools in three tiers, with enforcement held in the control application. The target was a 30-bilayer Ru/C multilayer with a period of 6.85 nm, a pair chosen because each period is fitted as two layers. The agent could write only inside a working project of its own, so it could alter neither the calibration it read nor the measurements that scored it. Mirrors were scored against a human-authored reference by X-ray reflectivity, and the 3% acceptance threshold on relative period difference was fixed before deposition. Across four scored agent-authored depositions the relative period difference fell from 20% on the calibration as given to 2.26% after one measured-feedback iteration and 0.79% after a second. Sixteen failure modes of the agent-facing interface were identified. The result is bounded to the period, pair and chamber observed.",
+    "authors": [
+      "Penkov, Oleksiy V.",
+      "Fu, Haoyu",
+      "Zhan, Yueying",
+      "Wu, Pengyuan",
+      "Jin, Jiong"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-11T00:00:00Z",
+    "updated_at": "2026-09-14T03:13:44.695002Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202852",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202852",
+        "fetched_at": "2026-09-15T01:35:22.085394Z",
+        "url": "https://inspirehep.net/literature/3202852"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

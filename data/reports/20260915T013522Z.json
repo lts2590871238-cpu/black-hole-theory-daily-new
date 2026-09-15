@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-09-15T01:35:22.085394Z",
+  "completed_at": "2026-09-15T01:38:48.756453Z",
+  "status": "degraded",
+  "fetched_arxiv": 0,
+  "fetched_inspire": 800,
+  "normalized": 800,
+  "deduplicated": 800,
+  "candidates": 25,
+  "selected": 24,
+  "review_queue": 1,
+  "rejected": 775,
+  "llm_calls": 4,
+  "cached_decisions": 21,
+  "errors": [
+    "arXiv data source temporarily unavailable: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=60)\"))"
+  ]
+}

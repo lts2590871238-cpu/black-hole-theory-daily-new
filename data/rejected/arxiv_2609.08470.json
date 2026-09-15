@@ -7,13 +7,13 @@
     "inspire_id": "3201839",
     "doi": null,
     "title_en": "Nonperturbative functional renormalization group for Higgs-singlet models with physics-informed neural networks",
-    "abstract_en": "We develop a nonperturbative functional renormalization group framework within the LPA' to solve the Wetterich flow equation for the $Z_2$-symmetric real singlet extension of the Standard Model at zero and finite temperature, without a polynomial expansion of the scale-dependent effective potential, using a physics-informed neural network (PINN) representation. In contrast to conventional truncations based on low-order field expansions, our hybrid tree-level--plus--neural-network ansatz yields a continuous, mesh-free description of the effective potential over the full relevant field and scale range. As a proof of concept, we apply the framework to the finite-temperature effective potential relevant to the electroweak phase transition in this model: one-dimensional field-space slices at two benchmark temperatures, and a two-dimensional reconstruction at $T=100$ GeV from which a two-step bounce action is extracted. The renormalization group flow is implemented in a multi-domain setup in scale and field space with derivative matching conditions that ensure smoothness and numerical stability. Gauge and Yukawa sectors are incorporated via independently computed perturbative two-loop running couplings, and anomalous dimensions are included in the flow at the LPA' level. We benchmark the network against resummed perturbation theory and against a grid-based relaxation solver of the same equation. Finally, we introduce a soft consistency constraint that keeps the solution close, in sign and order of magnitude, to perturbation theory across the field-space domain; we find it necessary, rather than merely helpful, for selecting a physically sensible solution of the flow equation, and find that the converged result retains a residual dependence on this guidance -- through hand-tuned weights and an analytic thermal target -- which we identify as the central open problem.",
+    "abstract_en": "We develop a nonperturbative functional renormalization group framework within the LPA' to solve the Wetterich flow equation for the $Z_2$-symmetric real singlet extension of the Standard Model at finite temperature, without a low-order polynomial truncation of the loop corrections to the effective potential, using a physics-informed neural network (PINN) representation. In contrast to conventional truncations based on low-order field expansions, our hybrid tree-level-plus-neural-network ansatz yields a continuous, mesh-free description of the effective potential over the full field and scale range. As a proof of concept, we apply the framework to the finite-temperature effective potential relevant to the electroweak phase transition: one-dimensional field-space slices at two benchmark temperatures, and a two-dimensional reconstruction at T=100 GeV yielding a two-step bounce action. The flow is implemented in a multi-domain setup in scale and field space with derivative matching conditions ensuring smoothness and numerical stability. Gauge and Yukawa sectors are incorporated via independently computed perturbative two-loop running couplings, and anomalous dimensions are included in the flow at the LPA' level. We benchmark the network against resummed perturbation theory and against a grid-based relaxation solver of the same equation. Finally, we introduce a soft consistency constraint that keeps the solution close, in sign and order of magnitude, to perturbation theory across the field-space domain. We find this constraint necessary, rather than merely helpful, for selecting a physically sensible solution of the flow equation. The converged result nevertheless retains a residual dependence on this guidance -- through hand-tuned weights and an analytic thermal target -- which we identify as the central open problem for mesh-free FRG treatments of this kind.",
     "authors": [
       "Yokozaki, Norimi"
     ],
     "categories": [],
     "submitted_at": "2026-09-08T00:00:00Z",
-    "updated_at": "2026-09-11T03:53:50.207014Z",
+    "updated_at": "2026-09-14T03:09:54.485515Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3201839",
-        "fetched_at": "2026-09-14T01:14:56.055303Z",
+        "fetched_at": "2026-09-15T01:35:22.085394Z",
         "url": "https://inspirehep.net/literature/3201839"
       }
     ],

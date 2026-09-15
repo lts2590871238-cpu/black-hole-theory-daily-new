@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.12698",
+    "arxiv_id": "2609.12698",
+    "arxiv_version": null,
+    "inspire_id": "3202855",
+    "doi": null,
+    "title_en": "Extremely Low-Cost Magic State Preparation toward Fault-Tolerant Quantum Computing",
+    "abstract_en": "Fault-tolerant preparation of non-Clifford resource states is a major contributor to the overhead of quantum computation, motivating protocols that achieve high output fidelity with minimal qubit and circuit costs. We introduce a low-cost magic-state preparation protocol in which the choice of stabilizer generators is co-designed with the flag gadgets, allowing the syndrome-extraction circuit itself to filter correlated faults across a non-Clifford layer. The protocol prepares a logical plus state in the 15-qubit quantum Reed-Muller code, applies a transversal T gate, and gauge-fixes the same register into the seven-qubit Steane code. By reorganizing equivalent Z-type stabilizer generators into jointly flagged measurement groups, the protocol eliminates all accepted logical-error contributions arising from one or two circuit faults under destructive error detection. Under a uniform circuit-level depolarizing noise model, the postselected infidelity is $210.2p^3+O(p^4)$. At $p=10^{-3}$, exact low-order enumeration combined with stratified sampling bounds the infidelity by $2.2\\times10^{-7}$ at 99.9% joint confidence, while retaining an acceptance probability of 86.9%. The complete circuit requires only 19 qubits and 82 CNOT gates. These results demonstrate that stabilizer-generator design can substantially reduce the cost of postselected magic-state preparation, although corrected operation and the fidelity of an unmeasured output block require separate analysis.",
+    "authors": [
+      "Gao, Jianshuo",
+      "Yuan, Xiao",
+      "Yao, Yuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-11T00:00:00Z",
+    "updated_at": "2026-09-14T03:13:50.033602Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202855",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202855",
+        "fetched_at": "2026-09-15T01:35:22.085394Z",
+        "url": "https://inspirehep.net/literature/3202855"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
