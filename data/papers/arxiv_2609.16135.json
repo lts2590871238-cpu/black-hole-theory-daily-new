@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.16135",
+    "arxiv_id": "2609.16135",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Analog Gravity in Magneto-Viscous Fluids: Enhanced Analog Hawking Temperature in Accretion Disks",
+    "abstract_en": "We present a three-dimensional visco-magnetoacoustic framework for analog gravity in magnetohydrodynamic (MHD) flows. While standard fluid dissipation typically breaks the Lorentzian signature of acoustic metrics, we demonstrate that evaluating wave perturbations in the eikonal limit alongside the Shakura-Sunyaev $α$-viscosity prescription preserves a well-defined effective spacetime geometry for the fast magnetoacoustic mode. The slow-magnetoacoustic mode and Alfvén mode do not admit a non-degenerate metric. To investigate analog horizon thermodynamics, we utilize astrophysical accretion disks as background media, specifically modeling numerical magnetized advective accretion flows around rotating black holes and analytical advection-dominated inflow-outflow solutions (ADIOS). Standard self-similar ADIOS models strictly enforce a constant Mach number, precluding horizon formation. We therefore introduce a magnetic field perturbation that breaks self-similarity, generates a dynamic Mach number, and enables the formation of a visco-magnetoacoustic horizon. By evaluating the spontaneous phonon emission at these horizons, we reveal that the analog Hawking temperature is highly sensitive to the magnetic field topology; the spatial orientation of the background magnetic gradients dictates whether the Hawking radiation is amplified or suppressed. Furthermore, we find that increasing the viscosity parameter leads to a monotonic increase in the analog Hawking temperature.",
+    "authors": [
+      "Aliv Sahoo",
+      "Mayank Pathak",
+      "Banibrata Mukhopadhyay"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-14T18:00:04Z",
+    "updated_at": "2026-09-14T18:00:04Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.16135v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.16135v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.16135",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2609.16135v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "high_weight_hits": [
+      "hawking radiation"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "black_hole_thermodynamics",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 15,
+      "novelty": 12,
+      "clarity": 8,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 67,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "论文将类比引力框架推广至磁黏流体，推导了保持洛伦兹号差的有效声学度规，并以吸积盘为背景研究类比霍金辐射。选题与黑洞热力学及霍金辐射直接相关，理论构造有新意，且给出了磁场拓扑与黏性对类比霍金温度影响的明确结论，对相关方向的研究者有较强点击阅读价值。",
+    "title_zh": "磁黏流体中的类比引力：吸积盘中增强的类比霍金温度",
+    "abstract_zh": "我们提出了一个用于磁流体力学（MHD）流动中类比引力的三维黏磁声学框架。虽然标准流体耗散通常会破坏声学度规的洛伦兹号差，但我们证明，在程函极限下并结合Shakura-Sunyaev $\\alpha$黏性 prescription 评估波扰动时，可以保持快速磁声模式具有明确定义的有效时空几何。慢磁声模式和Alfven模式不允许非退化度规。为了研究类比视界热力学，我们利用天体物理吸积盘作为背景介质，具体建模了旋转黑洞周围的数值磁化平流吸积流以及解析的平流主导的流入-流出解（ADIOS）。标准自相似ADIOS模型严格强制马赫数为常数，从而阻止了视界的形成。因此，我们引入了一个打破自相似性的磁场扰动，产生动态马赫数，并使得黏磁声学视界的形成成为可能。通过评估这些视界处的自发声子发射，我们揭示出类比霍金温度对磁场拓扑高度敏感；背景磁场梯度的空间取向决定了霍金辐射是被放大还是被抑制。此外，我们发现增加黏性参数会导致类比霍金温度单调增加。",
+    "keywords_en": [
+      "analog gravity",
+      "magneto-viscous fluids",
+      "analog Hawking temperature",
+      "accretion disks",
+      "magnetohydrodynamics",
+      "ADIOS"
+    ],
+    "keywords_zh": [
+      "类比引力",
+      "磁黏流体",
+      "类比霍金温度",
+      "吸积盘",
+      "磁流体力学",
+      "ADIOS"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-16T01:31:44.002457Z"
+  },
+  "published_at": "2026-09-16T01:31:44.002888Z"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.18992",
+    "arxiv_id": "2604.18992",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Estimating galactic foreground with the population of resolved galactic binaries",
+    "abstract_en": "The stochastic gravitational wave background (SGWB) in the millihertz band constitutes a primary science target for future space-based interferometers. The detection of such a signal, however, poses substantial data-processing challenges, not least due to the overwhelming contribution from numerous compact binaries in our Galaxy. Only a fraction of these binaries are sufficiently bright to be resolved as individual sources. The superposition of gravitational waves from the inspiral phases of the unresolved majority gives rise to a confusion foreground that must be accurately estimated. In this work, we model this foreground as an anisotropic SGWB and derive the variation of detector response intensity by analyzing the spatial distribution of binary systems. We further examine the distribution of resolved systems to assess whether they are representative of the total population. Finally, we perform parameter estimation to an injected stochastic background using the modeled foreground within the Taiji Data Challenge II. Our results demonstrate that a foreground description based on the population properties of resolved Galactic binaries can yield preliminarily viable estimates.",
+    "authors": [
+      "Yang Jiang",
+      "Qing-Guo Huang"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-04-21T02:24:27Z",
+    "updated_at": "2026-09-12T14:43:13Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.18992v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.18992v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.18992",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2604.18992v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 16,
+      "methodological_rigor": 15,
+      "novelty": 10,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 60,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文针对毫赫兹频段随机引力波背景探测中的星系前景建模问题，提出将未分辨双星并合形成的混淆前景建模为各向异性随机引力波背景，并通过已分辨双星族群特征刻画探测器响应强度变化，属于空间引力波探测数据处理与前景扣除的核心议题。方法上结合族群空间分布分析与参数估计，并在Taiji Data Challenge II注入数据上验证，具有明确的方法路径和可检验结果。理论深度适中、方法信号较强，虽无引用记录但发表时间较短，不影响评价。",
+    "title_zh": "利用已分辨星系双星族群估计星系前景",
+    "abstract_zh": "毫赫兹频段的随机引力波背景（SGWB）是未来空间干涉仪的主要科学目标之一。然而，此类信号的探测面临巨大的数据处理挑战，尤其是来自银河系中众多致密双星的压倒性贡献。这些双星中只有一小部分足够明亮，可以作为单个源被分辨。未分辨的多数双星在旋近阶段产生的引力波叠加，形成了一种必须被准确估计的混淆前景。在本工作中，我们将该前景建模为各向异性SGWB，并通过分析双星系统的空间分布推导探测器响应强度的变化。我们进一步考察已分辨系统的分布，以评估它们是否能代表总体族群。最后，我们在Taiji Data Challenge II中，利用所建模的前景对注入的随机背景进行参数估计。结果表明，基于已分辨银河系双星族群性质的前景描述，可以给出初步可行的估计。",
+    "keywords_en": [
+      "stochastic gravitational wave background",
+      "galactic binaries",
+      "confusion foreground",
+      "anisotropic background",
+      "Taiji Data Challenge",
+      "parameter estimation"
+    ],
+    "keywords_zh": [
+      "随机引力波背景",
+      "银河系双星",
+      "混淆前景",
+      "各向异性背景",
+      "Taiji Data Challenge",
+      "参数估计"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-16T01:33:28.148295Z"
+  },
+  "published_at": "2026-09-16T01:33:28.148780Z"
+}

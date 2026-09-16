@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.14048",
+    "arxiv_id": "2609.14048",
+    "arxiv_version": 1,
+    "inspire_id": "3203095",
+    "doi": null,
+    "title_en": "Reliable Hybrid Neural Surrogates for Multidimensional Grids: Application to Double Parton Distributions",
+    "abstract_en": "The conventional grid-based approach used for storing and evaluating ordinary parton distribution functions (PDFs), as implemented for example in LHAPDF, becomes much more demanding for double parton distributions (DPDs). While a collinear PDF depends on one longitudinal momentum fraction and one factorization scale, an unequal-scale DPD depends on two momentum fractions and two independent factorization scales for every parton-flavor combination. Direct tabulation of this four-dimensional dependence therefore requires considerably more disk space and runtime memory. In this work, we develop a hybrid neural-network method for compact storage and fast evaluation of $y$-independent unequal-scale DPDs. The network compresses the reference grid by reproducing most of its values, while the original values are stored only at points where the neural prediction does not reach the required accuracy. In this way, the neural model captures the bulk of the grid, with a sparse table covering the remaining difficult points. For the GS09-based dense grid studied here, only $0.694\\%$ of the active flavor values need to be stored in the sparse table. Compared with the compressed dense grid, the hybrid method reduces the disk footprint by a factor of $10.6$, peak memory use by a factor of $31.6$, and initialization time by about a factor of $10.6$. At the same time, its evaluation throughput reaches about $85\\%$ of the dense-grid rate. The method is implemented natively in C++ within PDFxTMDLib and requires neither Python nor PyTorch at runtime. The hybrid scheme therefore offers much lower memory and startup costs, with only a modest reduction in evaluation speed.",
+    "authors": [
+      "R. Kord Valeshabadi",
+      "S. Rezaie"
+    ],
+    "categories": [
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-09-12T00:00:00Z",
+    "updated_at": "2026-09-15T05:00:07.379545Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.14048v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14048v1",
+    "inspire_url": "https://inspirehep.net/literature/3203095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.14048",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2609.14048v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3203095",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

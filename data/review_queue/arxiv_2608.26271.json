@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2608.26271",
+    "arxiv_id": "2608.26271",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Validating Timing-Model Accuracy for Continuous Gravitational Waves: A Comparison of LALSuite and PINT",
+    "abstract_en": "We present results of a systematic validation of the \\lalsuite{} timing model for continuous gravitational waves against \\pint{}, a modern high-accuracy pulsar-timing package. An accurate timing model is essential for tracking the signal phase, and hence for detecting and accurately characterizing continuous gravitational waves. In order to quantify the impact of timing inaccuracies, we derive and validate the leading-order relation $μ\\approx (2πf)^2\\stddtau^2$, where $μ$ is the fractional loss of signal power, $f$ is the signal frequency, and $\\stddtau^2$ is the variance of the timing errors. We then compare the solar-system and binary components of the \\lalsuite{} timing model against the corresponding models in \\pint{}. With the original \\lalsuite{} Einstein-delay implementation, the total disagreement is dominated by that component and has $\\stddtau\\simeq\\SI{2.3}{\\micro\\second}$ (corresponding to $μ\\simeq\\SI{0.02}{\\percent}$ at $f=\\SI{1000}{\\hertz}$). With the newer Einstein-delay implementation, the total disagreement (over one year) drops to $\\stddtau\\lesssim\\SI{31}{\\nano\\second}$ (or $μ\\lesssim\\num{4e-8}$ at $f=\\SI{1000}{\\hertz}$) and is dominated by the observatory contribution to the \\Romer{} delay, owing to the approximate Earth-rotation model used by \\lalsuite{}. We additionally test binary delays using orbital parameters from \\num{474} catalogued binary pulsars and verify the self-consistency of the \\lalsuite{} source-time derivatives. Finally, we derive and discuss the \\lalsuite{} Shapiro delay for signals passing through the solar interior, a case only relevant to gravitational waves.",
+    "authors": [
+      "Kartikey Sharma",
+      "Reinhard Prix",
+      "Maria Alessandra Papa",
+      "Curt Cutler"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-08-26T18:00:25Z",
+    "updated_at": "2026-09-09T14:59:52Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.26271v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.26271v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2608.26271",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2608.26271v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [],
+    "medium_weight_hits": [
+      "continuous gravitational wave",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 20
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

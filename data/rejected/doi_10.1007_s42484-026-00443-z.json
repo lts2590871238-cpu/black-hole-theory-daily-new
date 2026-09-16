@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00443-z",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3203465",
+    "doi": "10.1007/s42484-026-00443-z",
+    "title_en": "Harnessing quantum kernels for robust earthquake classification: a Mediterranean case study",
+    "abstract_en": "While classical machine learning has advanced earthquake classification, the potential of Quantum Machine Learning (QML) for real-world geophysical applications remains uncharted. This study provides a rigorous, large-scale benchmark of classical versus quantum classifiers for binary seismic event categorization ($M_L > 4.0$) across the Mediterranean's complex seismotectonic zones. Evaluating 261 experimental configurations using United States Geological Survey USGS catalog data, we systematically compare classical models (Logistic Regression, Random Forest, SVM) against quantum approaches (Variational Quantum Classifiers VQC and Quantum Kernel SVM QKSVM) across varying temporal windows and feature dimensionalities. We reveal a context-dependent quantum competitiveness: although classical Random Forest provides a robust global baseline (accuracy up to 0.833), QKSVM-Entangled achieves numerically higher accuracy in specific tectonic geometries-peaking at 0.947 (a 28.5% relative improvement over the best classical result in that same zone-history combination) using only 6 qubits-though this peak did not reach statistical significance in the pre-specified fixed-model comparison (Holm-Bonferroni adjusted $p = 1.0$), reflecting limited test sizes and the exploratory nature of post-hoc model selection. Conversely, VQC models exhibit severe training instability at higher qubit counts, though they demonstrate unexpected niche competitiveness in data-scarce regimes. These findings indicate that quantum kernel methods can achieve promising performance in geophysical classification when feature space geometry aligns with quantum Hilbert space, paving the way for targeted, hybrid quantum-classical early warning systems.",
+    "authors": [
+      "Essaddi, Nejla",
+      "Ziadi, Imen",
+      "Besbes, Mongi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-11T00:00:00Z",
+    "updated_at": "2026-09-15T12:34:48.354170Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 102, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 102, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203465",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203465",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203465"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

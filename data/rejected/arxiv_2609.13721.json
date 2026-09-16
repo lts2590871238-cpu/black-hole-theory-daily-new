@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.13721",
+    "arxiv_id": "2609.13721",
+    "arxiv_version": null,
+    "inspire_id": "3202951",
+    "doi": null,
+    "title_en": "Scaling Hindi Quantum Natural Language Processing through Automatic Pregroup Supertagging",
+    "abstract_en": "Quantum Natural Language Processing (QNLP) uses pregroup grammars to translate grammatical structure into diagrammatic representations and quantum circuits. Recent Hindi QNLP work has shown that Hindi-specific pregroup grammars can support grammar-sensitive compositional models, but grammatical type assignment is still largely manual, limiting scalability. This paper formulates automatic Hindi pregroup supertagging as a token-level classification task. Using a manually annotated corpus of 380 Hindi sentences, we evaluate lexical, contextual, prompting-based, lexical-repair, and suffix/morphology-aware methods. Results show that simple lexical and contextual models are strong in this low-resource setting: contextual backoff achieves the best completed accuracy of 64.56%, while raw Qwen2.5 prompting reaches only 11.65%. Lexical repair raises LLM-assisted prediction to 64.08%, demonstrating the value of constraining generative outputs with symbolic grammar knowledge. Diagnostic analysis further shows that seen and unambiguous tokens are much easier than unseen tokens, and suffix/morphology features improve karaka-token accuracy but not overall performance. These results show that automatic Hindi pregroup assignment is feasible and can reduce reliance on manual annotation in future multilingual QNLP pipelines.",
+    "authors": [
+      "Naik, Gautami Sanjay",
+      "Bhatia, Krishna",
+      "Saint-Germain, Mithun Paul",
+      "Babu, H. Aswath"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-12T00:00:00Z",
+    "updated_at": "2026-09-15T11:36:47.928908Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202951",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202951",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202951"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

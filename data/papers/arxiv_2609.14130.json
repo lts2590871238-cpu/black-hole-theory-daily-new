@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.14130",
+    "arxiv_id": "2609.14130",
+    "arxiv_version": 1,
+    "inspire_id": "3203096",
+    "doi": null,
+    "title_en": "A compact time-domain reduced order quadrature for gravitational wave inspirals with non-stationary noise",
+    "abstract_en": "We develop the first time-domain reduced order quadrature for gravitational waves in the early inspiral period, motivated by the need for dataset compression in the presence of gaps, uneven sampling, and dense covariance matrices. A single reduced basis with 1290 elements can represent inspirals from supermassive black hole binary sources with chirp masses between $10^7-10^{10}$ $M_\\odot$, but in the presence of non-stationary noise $\\sim 1290^2$ reduced order quadrature weights must be stored. We are able to reduce the stored weights by a factor of two by partitioning our parameter space by GW frequency, with relative waveform/likelihood accuracies remaining below $10^{-5}$/$10^{-3}$ after partition. Finally, we point out that heterodyning can be combined with reduced order methods with no loss in accuracy. Our reduced order quadrature makes inspiral searches in the time domain feasible for both pulsar timing arrays and relative stellar astrometry.",
+    "authors": [
+      "Benjamin Zhang",
+      "Kris Pardo",
+      "Bence Bécsy"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-12T00:00:00Z",
+    "updated_at": "2026-09-15T11:38:06.835876Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.14130v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.14130v1",
+    "inspire_url": "https://inspirehep.net/literature/3203096",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.14130",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2609.14130v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3203096",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203096"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing",
+      "supermassive black hole binary"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 70
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 12,
+      "methodological_rigor": 15,
+      "novelty": 10,
+      "clarity": 8,
+      "metadata_quality": 8,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 58,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文提出首个用于早期旋进的时域降阶求积方法，针对脉冲星计时阵列与相对恒星天体测量中的数据集压缩需求，方法具体、误差量化明确，对PTA数据分析具有直接参考价值。",
+    "title_zh": "面向非平稳噪声下引力波旋进的紧凑时域降阶求积",
+    "abstract_zh": "我们开发了首个用于早期旋进阶段引力波的时域降阶求积方法，其动机是在存在数据缺口、非均匀采样和稠密协方差矩阵的情况下进行数据集压缩的需要。一个包含1290个元素的单一降阶基可以表示来自啁啾质量在$10^7-10^{10}$ $M_\\odot$之间的超大质量黑洞双星源的旋进，但在非平稳噪声存在时，需要存储$\\sim 1290^2$个降阶求积权重。我们通过按引力波频率划分参数空间，能够将存储的权重减少一半，划分后相对波形/似然精度仍分别低于$10^{-5}$/$10^{-3}$。最后，我们指出外差法可以与降阶方法结合而不损失精度。我们的降阶求积使得时域旋进搜索对于脉冲星计时阵列和相对恒星天体测量都变得可行。",
+    "keywords_en": [
+      "reduced order quadrature",
+      "gravitational waves",
+      "inspiral",
+      "non-stationary noise",
+      "pulsar timing arrays",
+      "supermassive black hole binaries",
+      "time-domain",
+      "heterodyning"
+    ],
+    "keywords_zh": [
+      "降阶求积",
+      "引力波",
+      "旋进",
+      "非平稳噪声",
+      "脉冲星计时阵列",
+      "超大质量黑洞双星",
+      "时域",
+      "外差法"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-16T01:33:16.690689Z"
+  },
+  "published_at": "2026-09-16T01:33:16.691055Z"
+}

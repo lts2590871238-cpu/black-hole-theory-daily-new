@@ -6,15 +6,15 @@
     "arxiv_version": null,
     "inspire_id": "3202282",
     "doi": null,
-    "title_en": "Multi-Threshold Sampling: Signal Space, Sampling Operators, and Crossing-Time Distributions",
-    "abstract_en": "Multi-threshold (MT) sampling records crossing times at selected thresholds for parameter estimation and waveform reconstruction. For suitable high-speed signals, it can reduce data volume, hardware cost, and power consumption compared with high-rate uniform time-domain sampling. Applications in nuclear science include positron emission tomography, oil well logging, and photon-counting X-ray imaging. However, its theoretical foundations require further development to support performance evaluation and system design. A necessary first step is to rigorously define the signal space and sampling operators, but a general mathematical framework for this purpose is still needed. We propose a unified mathematical framework that maps the signal distribution to the distribution of recorded crossings through the sampling operators. It provides a common description of how mismatch and noise in signals and thresholds, time quantization, and selection shape the recorded data, enabling their individual and combined effects to be analyzed. For nonhomogeneous Poisson photon arrivals and deterministic MT sampling, the framework yields the exact distribution of the first recorded crossing time at a specified threshold within a given recorded-time interval. Predictions for a scintillation pulse model agree with independent Monte Carlo simulations, demonstrating the framework's predictive capability. The framework lays the groundwork for determining the fundamental performance limits of MT sampling and designing systems that approach those limits.",
+    "title_en": "Multi-Threshold Sampling: Signal Space, Sampling Operators, and First Recorded Crossing-Time Distributions",
+    "abstract_en": "Multi-threshold (MT) sampling records crossing times at selected thresholds for parameter estimation and waveform reconstruction. We develop a mathematical framework that defines the signal space and sampling operators and maps the signal distribution to the distribution of recorded crossings. The framework distinguishes model mismatch, signal noise, threshold mismatch, and threshold noise. Finite point measures accommodate variable crossing counts and preserve multiplicity after time quantization. Stochastic crossing, timing, and selection operators and their associated Markov kernels describe the sampling process. For nonhomogeneous Poisson photon arrivals and deterministic MT sampling, we derive the exact cumulative distribution function (CDF) of the first recorded crossing time at a specified threshold within a recorded-time interval. Under additional regularity and local monotonicity conditions, this CDF admits a one-dimensional Fourier representation. For a scintillation pulse model, numerical CDFs and standard deviations of the first recorded crossing time agree with independent Monte Carlo simulations, providing a quantitative basis for comparing threshold settings. The framework provides a foundation for MT performance evaluation, parameter estimation, waveform reconstruction, and sampler design.",
     "authors": [
       "Qiu, Ao",
       "Xie, Qingguo"
     ],
     "categories": [],
     "submitted_at": "2026-09-10T00:00:00Z",
-    "updated_at": "2026-09-12T02:45:11.605978Z",
+    "updated_at": "2026-09-15T03:42:22.734319Z",
     "document_types": [
       "article"
     ],
@@ -30,7 +30,7 @@
       {
         "source": "inspire",
         "record_id": "3202282",
-        "fetched_at": "2026-09-15T01:35:22.085394Z",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
         "url": "https://inspirehep.net/literature/3202282"
       }
     ],

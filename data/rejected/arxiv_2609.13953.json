@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.13953",
+    "arxiv_id": "2609.13953",
+    "arxiv_version": null,
+    "inspire_id": "3203088",
+    "doi": null,
+    "title_en": "Digital quantum lattice Boltzmann evolution by reversible compute and open-system reset",
+    "abstract_en": "Turbulent fluid simulation is computationally demanding because nonlinear interactions couple a wide range of scales. Quantum computing offers another computational model, but fluid evolution is nonlinear and dissipative whereas closed gate-based dynamics is linear and reversible. The lattice Boltzmann method (LBM) is an attractive discrete target because streaming is a local permutation, yet conventional collision reconstructs a nonlinear equilibrium and applies dissipative relaxation. We present a digital quantum lattice Boltzmann (QLBM) algorithm that keeps that nonlinear timestep in computational-basis registers. Each step writes the updated populations into a clean destination bank, uncomputes the workspace, and resets the obsolete source. The resulting channel is completely positive and trace preserving (CPTP), composes without intermediate measurement, and applies to any lattice Boltzmann stencil that can be evaluated reversibly into a clean bank. Forced D3Q19 homogeneous isotropic turbulence, in direct numerical simulation (DNS) and Smagorinsky large-eddy simulation (LES) at Reynolds number 15000 over one million lattice steps, shows statistical agreement in mass, energy budgets, spectra, and intermittency. The three-dimensional calculations use a digital-register emulator of the circuit. A separate D2Q9 implementation compiles the same contract to reversible gates and agrees bit-exactly with its integer twin. Two-bank storage and serial lattice depth limit near-term feasibility.",
+    "authors": [
+      "Khan, Muhammad Idrees"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-12T00:00:00Z",
+    "updated_at": "2026-09-15T11:38:41.935040Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203088",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203088",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203088"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

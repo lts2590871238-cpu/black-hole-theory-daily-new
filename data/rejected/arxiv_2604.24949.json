@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.24949",
+    "arxiv_id": "2604.24949",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Physics Informed Bayesian Neural Network for the Neutron Star Equation of State",
+    "abstract_en": "We present a physics-informed Bayesian neural-network framework for inferring neutron-star equations of state from theoretical priors and propagating the resulting uncertainty to stellar observables. Trained on a representative set of hadronic EoSs, the model learns the equation of state through stochastic variational inference by representing the squared speed of sound with a bounded network output and obtaining the pressure by integration, so that causality, thermodynamic stability, and monotonicity are guaranteed by construction, with low-density nuclear and perturbative-QCD normalization anchors. Core EoSs are matched to an SLy4 crust and propagated through a unified Tolman-Oppenheimer-Volkoff-plus-tidal solver to obtain posterior predictions in the mass-radius ($M$-$R$) and mass-tidal-deformability ($M$-$Λ$) planes. The physics-informed prior is then updated with current multi-messenger data: NICER radius measurements, the GW170817 tidal-deformability constraint, and the $2\\,M_\\odot$ maximum-mass bound; included directly in the variational objective. The observational update moves the canonical radius from $R_{1.4}=13.41\\,\\mathrm{km}$ in the prior to $R_{1.4}=12.74^{+0.97}_{-0.73}\\,\\mathrm{km}$ (nominal 90\\% variational CI), with $Λ_{1.4}=428^{+249}_{-130}$ and $M_{\\mathrm{max}}\\gtrsim 2.0\\,M_\\odot$. This framework provides a non-parametric route from microphysical EoS uncertainty to neutron-star observables.",
+    "authors": [
+      "J. D. Baker",
+      "C. A. Bertulani",
+      "R. V. Lobato"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "nucl-th"
+    ],
+    "submitted_at": "2026-04-27T19:48:11Z",
+    "updated_at": "2026-09-15T02:31:47Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.24949v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.24949v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.24949",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2604.24949v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

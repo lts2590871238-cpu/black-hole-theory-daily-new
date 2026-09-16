@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1109/lcn67947.2026.11660772",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3203475",
+    "doi": "10.1109/lcn67947.2026.11660772",
+    "title_en": "PQC-Secured Intrusion Detection for Quantum Networks: A Two-Layer Defense Architecture",
+    "abstract_en": "Quantum networked systems introduce a new class of threats that classical intrusion detection systems (IDS) were not designed to handle, as adversaries can manipulate quantum circuits at the gate, pulse, and measurement levels while also targeting the classical control plane by intercepting encrypted IDS communications for future decryption. This paper addresses this dual threat model by proposing a two-layer defense architecture that jointly secures both the quantum data plane and the IDS infrastructure. The first layer uses machine learning models trained on the Quantum Attack Dataset (QAD) to detect circuit-level attacks under both attack-balanced and heavily skewed class distributions. The second layer protects the IDS control plane with post-quantum cryptographic (PQC) primitives, specifically ML-KEM for key encapsulation and ML-DSA for authentication, mitigating exposure to future decryption attacks. Experimental results across multiple deployment conditions show that tree-based models achieve strong detection performance but degrade under class-prior shift, with pulse-level attacks remaining the most challenging to detect, highlighting limitations of current feature representations. To address this, a confidence-aware policy maps detections to monitoring, verification, and isolation actions, although the verification tier is rarely exercised under the evaluated distributions. The results show that detection and cryptographic protection must be designed together to achieve robust intrusion detection in quantum networked environments.",
+    "authors": [
+      "Aydeger, Abdullah",
+      "Zeydan, Engin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-09-15T12:36:19.644003Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "2026"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203475",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203475",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203475"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

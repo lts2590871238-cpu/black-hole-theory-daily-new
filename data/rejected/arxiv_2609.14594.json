@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.14594",
+    "arxiv_id": "2609.14594",
+    "arxiv_version": null,
+    "inspire_id": "3202963",
+    "doi": null,
+    "title_en": "When is global evolutionary search useful for variational quantum algorithms? A landscape-first study",
+    "abstract_en": "Variational quantum algorithms recast state preparation as classical nonconvex optimization, but it is often unclear when multistart local search suffices and when population-based global search justifies its evaluation cost. Using a landscape-first design, controlled QAOA experiments identify two mechanisms making local search unreliable: parameter reuse across circuit layers and competition between 2-local and 3-local cost terms. Increasing QAOA depth alone does not replicate this effect. We test these mechanisms across eight unseen spin glasses, fresh $N=10$ and $N=12$ instances, and standard MaxCut, transverse-field Ising, and Heisenberg models. On all eight unseen spin glasses, adaptive differential evolution (DE) achieves lower median error than both multistart BFGS and multistart Powell on the two difficult constructions, whereas the independent-depth control does not. The parameter-reuse effect transfers to MaxCut at both sizes, while standard VQE models remain favorable to local search. A pre-benchmark landscape score combining random-start local outcomes and 1D parameter slices is fixed from confirmation data before evaluating new optimizers. It predicts whether adaptive DE outperforms multistart BFGS by over one spectral-range percentage point on 50 new quantum objectives with 80--86% condition-level accuracy. The clearest indicator of global-search utility is that local search frequently traps in inferior basins, rather than circuit depth or curvature anisotropy. The findings motivate whether quantum circuit complexity can be traded for harder classical optimization when robust global search is available.",
+    "authors": [
+      "Novák, Vojtěch",
+      "Zelinka, Ivan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-13T00:00:00Z",
+    "updated_at": "2026-09-15T11:36:02.150380Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202963",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202963",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202963"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

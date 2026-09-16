@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.14131",
+    "arxiv_id": "2609.14131",
+    "arxiv_version": null,
+    "inspire_id": "3203101",
+    "doi": null,
+    "title_en": "Operator Learning with Variational Quantum Circuits",
+    "abstract_en": "A new methodology is developed for quantum machine learning which enables variational quantum circuits to learn linear and non-linear solution operators to differential equations. This is devised by extending the framework of the DeepONet, a technique for modeling differential equations. The branch and trunk neural networks are replaced by variational quantum circuits, leveraging the quantum universal approximation theorem. The methodology is tested on several differential equations and yields low approximation & generalization errors even with shallow circuit depths. In addition, it does not encounter barren plateaus during training. The model displays improved error and parameter scaling relative to the classical DeepONet. This is due to the intrinsic property that the approximation error depends on the dimension of the input function space, rather than the number of sensor locations. A theoretical framework is established in the form of explicit error bounds, which measure the contributions of the truncation, branch, and trunk circuit errors to the total operator approximation error. Full derivations for the error bounds are developed in the norms $L^2$, $L^p$, $C^0$, and Sobolev $H^k$, along with a classical-quantum comparative analysis (as Supplemental Materials).",
+    "authors": [
+      "Wu, Jorgen",
+      "Barati, Masoud",
+      "Givi, Peyman"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-12T00:00:00Z",
+    "updated_at": "2026-09-15T11:36:16.431642Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203101",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203101",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203101"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

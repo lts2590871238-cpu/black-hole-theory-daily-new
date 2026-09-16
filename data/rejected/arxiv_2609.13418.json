@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.13418",
+    "arxiv_id": "2609.13418",
+    "arxiv_version": null,
+    "inspire_id": "3202947",
+    "doi": null,
+    "title_en": "High quantum local differential privacy breaks entanglement",
+    "abstract_en": "Differential privacy provides a mathematical framework for guaranteeing privacy for sensitive data. In quantum information processing, the interaction of privacy constraints with quantum resources such as entanglement remains a question of interest. Given that the utility of many protocols, and often the presence of a quantum advantage, relies on quantum resources such as entanglement, it is crucial to understand when a privacy requirement for a quantum channel is compatible with the channel's ability to preserve entanglement. We study this question for quantum local differential privacy (QLDP). Our main result shows that every $\\varepsilon$-QLDP channel with a $d$-dimensional input is entanglement-breaking whenever $\\varepsilon\\leq\\log\\frac{d}{d-1}$. We also prove an approximate version for $(\\varepsilon,δ)$-QLDP, where channels in the same high-privacy regime are close in diamond norm to an entanglement-breaking channel. We further prove a composition result for a collection of private quantum channels having entangled inputs and global measurements in the high-privacy regime. Finally, we apply our results to private quantum learning theory. We prove that any learning protocol using arbitrary quantum memory on copies of the output of an entanglement-breaking channel can be simulated by a protocol that measures the corresponding unprocessed input copies one at a time while storing only classical information. Combining this result with our high-privacy entanglement-breaking theorem, we show that under sufficiently private local noise, a learning protocol with quantum memory for purity testing and bipartite product testing is subject to the sample complexity lower bounds for protocols with single-copy measurements on the noiseless tasks. We also obtain stronger sample complexity lower bounds when a single highly private channel acts on the entire multipartite input.",
+    "authors": [
+      "Bhalerao, Sujeet",
+      "Nuradha, Theshani",
+      "Leditzky, Felix"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-11T00:00:00Z",
+    "updated_at": "2026-09-15T11:36:11.137069Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202947",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202947",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202947"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

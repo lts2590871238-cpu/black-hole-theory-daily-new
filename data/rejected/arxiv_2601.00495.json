@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2601.00495",
     "arxiv_id": "2601.00495",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
     "title_en": "Late-Time Alleviation of the Hubble Tension in CPL Cosmology with Massive Neutrinos via Bayesian Physics-Informed Neural Networks",
-    "abstract_en": "We present a comprehensive Bayesian analysis of the Hubble constant within the framework of Physics-Informed Neural Networks (PINNs), focusing on the standard $Λ$CDM model and its dynamical dark energy extensions described by the Chevallier-Polarski-Linder (CPL) parametrization, both with and without massive neutrinos. By embedding the cosmological background equations directly into a Bayesian PINN architecture, we reconstruct the Hubble expansion history $H(z)$ in a data-driven yet physically consistent manner, while rigorously propagating epistemic uncertainties. Our analysis combines late-time observational probes, including Cosmic Chronometers, Baryon Acoustic Oscillations (BAO DESI DR2), and the Pantheon supernova sample, and quantifies the resulting tension in the inferred Hubble constant with respect to Planck 2018 Cosmic Microwave Background constraints and the SH0ES (R22) local distance ladder measurement. Within $Λ$CDM, we find that data combinations involving BAO tend to favor lower values of $H_0$, alleviating the tension with Planck at the expense of increased disagreement with SH0ES. Allowing for a time-evolving dark energy equation of state in the CPL framework systematically shifts the posterior of $H_0$ toward higher values, leading to a notable reduction of the SH0ES tension, particularly for combinations including supernova data. The most flexible scenario, CPL with a free total neutrino mass $Σm_ν$, yields a balanced reconciliation between early- and late-Universe determinations of $H_0$, with tension levels typically reduced to the $\\sim1$-$2σ$ range relative to both Planck and SH0ES. Our results highlight the nontrivial interplay between dark energy dynamics and neutrino mass in addressing the Hubble tension and demonstrate the efficacy of Bayesian PINNs as a robust and versatile tool for precision cosmology beyond the standard paradigm.",
+    "abstract_en": "We present a Bayesian analysis of the Hubble constant using Physics-Informed Neural Networks (PINNs), applied to the standard wCDM model and its dynamical extension via the Chevallier--Polarski--Linder (CPL) parametrization, with and without a free summed neutrino mass $Σm_ν$. Embedding the background Friedmann equation into a Bayesian PINN, we reconstruct $H(z)$ in a data-driven, physically consistent way while propagating epistemic uncertainty. Combining Cosmic Chronometers, DESI DR2 BAO, and Pantheon+ supernovae with Planck 2018 CMB distance priors, we quantify the Hubble tension against Planck and SH0ES (R22). For wCDM, BAO-dominated combinations favor lower $H_0$, easing the Planck tension at the cost of a larger SH0ES discrepancy. Letting the equation of state evolve within CPL shifts $H_0$ upward and consistently favors a mildly quintessence-like $w_0 \\gtrsim -1$ with negative $w_a$, pointing to a slowly evolving, non-phantom dark energy component. Adding a free $Σm_ν$ stabilizes $H_0$ between $69.7$ and $71.6~\\mathrm{km\\,s^{-1}\\,Mpc^{-1}}$, bounds $Σm_ν\\lesssim 0.16$--$0.28~\\mathrm{eV}$ ($2σ$), and reduces the SH0ES tension below $1.8σ$ (down to $0.83σ$) while the Planck tension persists at $1.6$--$2.8σ$. AIC and BIC both favor CPL+$Σm_ν$ despite its extra parameters, arguing against overfitting. A full-CMB MCMC cross-check via Cobaya, including CMB lensing, reproduces the BPINN posteriors -- including the neutrino-mass bound -- within 1--2$σ$ at a fraction of the cost. A mildly evolving dark energy component combined with sub-eV neutrino masses thus substantially eases, though does not fully resolve, the Hubble tension, supporting Bayesian PINNs as an efficient, physically consistent tool for precision cosmology beyond $Λ$CDM.",
     "authors": [
       "Muhammad Yarahmadi"
     ],
@@ -16,22 +16,22 @@
       "gr-qc"
     ],
     "submitted_at": "2026-01-01T22:28:11Z",
-    "updated_at": "2026-07-17T23:50:20Z",
+    "updated_at": "2026-09-13T14:34:29Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2601.00495v2",
-    "pdf_url": "https://arxiv.org/pdf/2601.00495v2",
+    "abs_url": "https://arxiv.org/abs/2601.00495v3",
+    "pdf_url": "https://arxiv.org/pdf/2601.00495v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2601.00495",
-        "fetched_at": "2026-07-24T00:15:37.724232Z",
-        "url": "https://arxiv.org/abs/2601.00495v2"
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2601.00495v3"
       }
     ],
     "is_demo": false

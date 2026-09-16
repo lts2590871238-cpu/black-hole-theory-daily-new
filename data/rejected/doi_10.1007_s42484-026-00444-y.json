@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00444-y",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3203474",
+    "doi": "10.1007/s42484-026-00444-y",
+    "title_en": "A cross-domain empirical benchmark of quantum-inspired and classical optimization algorithms for machine learning",
+    "abstract_en": "Quantum-inspired (QI) optimizers are increasingly proposed as alternatives to classical gradient-based training, yet are frequently benchmarked through classical stand-ins rather than themselves. Across tabular, vision, and language tasks we evaluate three classes: direct implementations of published update rules (Spall's SPSA; quantum-behaved particle swarm optimization, QPSO, adapted to stochastic minibatches), a documented classical analog of quantum natural gradient (an NGD-style diagonal second-moment preconditioner), and the hyperparameter-control configurations under which such methods are often reported. The gap between these classes is our central result: on the tabular benchmark the hyperparameter control trains with the classical baselines while the direct algorithms fall $\\approx $10-24 points below it, and on CIFAR-10/ResNet18, where v1's \"SPSA\" arm was a learning-rate-scaled Adam, Adam itself stands $\\approx $59 points above genuine SPSA. The QPSO adaptation stays at chance on LSTM tasks a legacy \"QPSO\" proxy solves at 79-81%, at 18-38$\\times $ Adam's cost there and up to 74$\\times $ on the small CV model. A seed-paired $2\\times 2$ factorial on RoBERTa identifies the smaller learning rate as the dominant observed component of the earlier \"QNG advantage\" ($+0.50$ points at the dataset level); with only three datasets, modified Hartung-Knapp uncertainty spans zero. The configured NGD arm shows no detectable advantage over a learning-rate-matched AdamW (descriptive pooled $p{=}0.23$) at 6-$7\\%$ extra cost, and on ResNet18 its trained endpoints have larger dominant-curvature estimates than the Adam family's. Headline comparisons use five seeds, paired tests, Holm correction, and stated detection limits. We conclude with an auditing taxonomy (direct algorithm / analog / hyperparameter control): within the arms, protocols, and scales evaluated, no advantage attributable to a QI mechanism is detected after these controls.",
+    "authors": [
+      "Yilmaz, Gorkem"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-11T00:00:00Z",
+    "updated_at": "2026-09-15T12:36:17.563136Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 103, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 103, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203474",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203474",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203474"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

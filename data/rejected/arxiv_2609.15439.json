@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.15439",
+    "arxiv_id": "2609.15439",
+    "arxiv_version": null,
+    "inspire_id": "3202969",
+    "doi": null,
+    "title_en": "Online local learning for generative thermodynamic computing",
+    "abstract_en": "Generative thermodynamic computers turn thermal noise into structured data through Langevin dynamics. We train these systems with a local update at each integration step. The reverse-path Onsager-Machlup objective yields a coupling gradient that is a symmetric sum of local residual-state correlations. We apply this gradient immediately rather than accumulating it over a full trajectory. In digital simulations using MNIST prototypes, online and trajectory-batch training reach similar validation losses on fixed noising paths. Models trained online release less heat on average in all five independently seeded pairs, with both models' parameters held fixed during sampling. Auxiliary classifier and nearest-prototype measures change modestly, while pairwise diversity decreases. The response to noise depends strongly on where the errors enter: independent zero-mean errors in the formed updates produce little heat change over a finite range of noise amplitudes, whereas residual offset and temporal correlation have much larger effects. Storing trained couplings requires substantially less precision than resolving deterministic updates during training. Together, these results establish a local online training method and show how update timing, noise structure, and precision affect generative thermodynamic computing.",
+    "authors": [
+      "Wang, Huilin",
+      "Deng, Weibing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-15T11:43:38.535565Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202969",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202969",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202969"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

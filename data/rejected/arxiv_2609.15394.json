@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.15394",
+    "arxiv_id": "2609.15394",
+    "arxiv_version": null,
+    "inspire_id": "3203259",
+    "doi": null,
+    "title_en": "Object Detection Using Quantum Transfer Learning",
+    "abstract_en": "Object detection requires the joint learning of semantic identity and continuous spatial geometry. Existing quantum transfer learning approaches have focused mainly on classification tasks and do not support regression. Here, we introduce a physics informed hybrid classical-quantum architecture for object detection in which a pre-trained MobileNetV2 maps visual features into an eight qubits variationally quantum Hilbert space. The Hilbert space is partitioned into two task specific subspaces for semantic classification and geometric localization. Local quantum expectation values are used to predict continuous bounding box coordinates, while circuit topology regulates the flow of quantum information between the two tasks. We compare linear and circular CNOT topologies and show that periodic boundary conditions suppress bipartite entanglement without degrading detection performance. The circular architecture reaches a bipartite von Neumann entropy of 0.1688 bits and a Meyer-Wallach entanglement measure of 0.0370, while achieving an mAP@0.5 of 0.9448 and an mAP@0.5:0.95 of 0.6558. A thermodynamic formulation further interprets the total learning loss as a variation in Helmholtz free energy. It interprets geometric localization as an effective internal energy contribution and semantic classification as an entropic contribution. These results indicate that high performance in the proposed object detection model does not require maximal entanglement. Instead, efficient learning can emerge through topology controlled information flow, targeted restriction of entanglement, and information renormalization within the Hilbert space.",
+    "authors": [
+      "Bahrami, Mohammad",
+      "Rafiee, Morteza",
+      "Norouzi, Mohsen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-15T11:38:15.260642Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203259",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203259",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203259"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.14529",
+    "arxiv_id": "2609.14529",
+    "arxiv_version": null,
+    "inspire_id": "3202959",
+    "doi": null,
+    "title_en": "Parameter-Efficient Quantum NLP for Paraphrase Detection: Performance, Robustness, and Entanglement",
+    "abstract_en": "Rigorous empirical validation of quantum machine learning on natural language tasks remains scarce. We evaluate a 10-qubit hybrid quantum-classical variational circuit (2,148 parameters) for paraphrase detection across three benchmarks: MRPC, Quora Question Pairs (QQP), and adversarial PAWS. On QQP (n = 10 seeds), the circuit achieves 75.53% +/- 0.75%. accuracy, statistically outperforming parameter-matched classical baselines (DeepMLP: p = 0.015, Cohen's d = 1.20; F1: p < 0.001, d = 2.32) and surpassing DistilBERT-4bit with 31,191 fewer parameters. On MRPC the optimal 2-layer variant reaches 92% of BERT-base accuracy at 54,000 lower parameter cost. Circuit depth analysis reveals a dataset-depth scaling effect; entanglement analysis via the Meyer-Wallach measure identifies multi-qubit entanglement as the primary performance driver (r = 0.85 across four variants). Adversarial evaluation on PAWS reveals emergent robustness: 98.2% recall versus 81.6% classical (+16.6 pp, d = 1.24, p < 0.001), without adversarial training. These results constitute the first systematic parameter-matched multi-benchmark empirical validation of hybrid variational circuits for NLP. All results are from classical simulation; hardware validation is future work.",
+    "authors": [
+      "Nausheen, Farha",
+      "Ahmed, Khandakar",
+      "Riaz, Farina"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-13T00:00:00Z",
+    "updated_at": "2026-09-15T11:35:59.463131Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202959",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202959",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202959"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

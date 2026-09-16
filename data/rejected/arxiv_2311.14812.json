@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2311.14812",
+    "arxiv_id": "2311.14812",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1051/0004-6361/202452826",
+    "title_en": "Robust Joint Estimation of Galaxy Redshift and Spectral Templates using Online Dictionary Learning",
+    "abstract_en": "We present a novel approach to analyzing astronomical spectral survey data using our non-linear extension of an online dictionary learning algorithm. Current and upcoming surveys such as SPHEREx will use spectral data to build a 3D map of the universe by estimating the redshifts of millions of galaxies. Existing algorithms rely on hand-curated external templates and have limited performance due to model mismatch error. We address these limitations by developing a new algorithm that jointly estimates both the underlying spectral features in common across the entire dataset, as well as the redshift of each galaxy. To do this, we significantly extend an existing online dictionary learning algorithm, and apply this approach to redshift estimation for the first time. Our new approach scales well to large datasets since we only process a single spectrum in memory at a time. Our algorithm performs better than a state-of-the-art existing algorithm when analyzing a mock SPHEREx dataset, achieving a normalized median absolute deviation (NMAD) of 0.18% and a catastrophic error rate of 0.40% when analyzing noiseless data. Our algorithm also performs well over a wide range of signal to noise ratios (S/N), delivering sub-percent NMAD and catastrophic error above median S/N of 20. We released our algorithm publicly and it is available on github.",
+    "authors": [
+      "Sean Bryan",
+      "Ayan Barekzai",
+      "Delondrae Carter",
+      "Philip Mauskopf",
+      "Julian Mena",
+      "Danielle Rivera",
+      "Abel S. Uriarte",
+      "Pao-Yu Wang"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "eess.SP"
+    ],
+    "submitted_at": "2023-11-24T19:09:26Z",
+    "updated_at": "2026-09-10T16:51:53Z",
+    "document_types": [],
+    "journal_ref": "Astronomy and Astrophysics, 713, September 2026",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2311.14812v2",
+    "pdf_url": "https://arxiv.org/pdf/2311.14812v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2311.14812",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2311.14812v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

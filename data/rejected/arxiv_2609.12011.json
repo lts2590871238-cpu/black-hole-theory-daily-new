@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.12011",
+    "arxiv_id": "2609.12011",
+    "arxiv_version": null,
+    "inspire_id": "3203432",
+    "doi": null,
+    "title_en": "QTrans: A Quantum Transformer for Sentiment Classification",
+    "abstract_en": "In small-scale binary sentiment classification scenarios, factors such as negation, contrastive shifts, and cross-word dependencies lead to the non-linear coupling of sentiment cues, making it difficult for conventional lightweight models to fully capture the contextual relationships between tokens. To address this issue, we propose a model named QTrans, which uses parameterized quantum circuits to construct query, key, and value features and derives attention coefficients from Gaussian distances between quantum measurements. By further integrating a quantum feed-forward neural network, residual connections, and layer normalization, the model establishes an end-to-end trainable quantum-classical hybrid framework for sentiment classification. Experimental results on the MR, CR, and MPQA datasets show that QTrans achieves test accuracies of 72.13%, 69.51%, and 63.45%, respectively, representing improvements of 2.88, 3.17, and 3.79 percentage points over the best-performing classical baselines for each dataset. Overall, QTrans expands the application of parameterized quantum circuits in lightweight sentiment analysis and lays an experimental foundation for further research into quantum multi-head self-attention for modeling textual relationships.",
+    "authors": [
+      "Zhao, Ren-Xin",
+      "Huang, Xinjie",
+      "Liu, Yahong",
+      "Ye, Maoyu",
+      "Shi, Jinjing",
+      "Wang, Shi",
+      "Wang, Yaonan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-15T11:53:13.498187Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203432",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203432",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203432"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

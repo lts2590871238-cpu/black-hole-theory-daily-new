@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.13546",
+    "arxiv_id": "2609.13546",
+    "arxiv_version": null,
+    "inspire_id": "3202948",
+    "doi": null,
+    "title_en": "WISER: Systematic Design-Space Exploration of Fault-Tolerant Global Control Trapped-Ions",
+    "abstract_en": "Trapped-ion quantum computers are a leading candidate for scalable fault-tolerant quantum computing, but conventional Quantum Charge-Coupled Device (QCCD) architectures face severe wiring and power constraints as systems scale. The recently proposed WISE promise orders-of-magnitude reductions in wiring complexity but fundamentally alter the hardware--software interface, making it unclear whether such restrictive architectures can feasibly execute quantum error correction (QEC) and eventually support fault-tolerant workloads. We present WISER, a cross-layer architectural design-space exploration framework for globally controlled trapped-ion systems, to determine whether WISE can support early FTQC, and what hardware/compiler/QEC choices are needed. WISER combines novel WISE-specific compilation, noise modelling, and simulation and integrated them into a unified framework. WISER provides comparative lower-bound estimates of logical clock speed and logical error rate, rather than absolute hardware prediction, enabling us to identify viable operating regions while ruling out infeasible ones. To our knowledge, it is the first systematic design space exploration study targeted at WISE and scalable architectures beyond QCCD. Using WISER, we identify a narrow feasible design space requiring two-ion traps, moderate control multiplexing, aggressive recooling, and high-rate bivariate-bicycle codes. Even under $\\sim 10\\times$ improvements in physical errors, the lower-bound cycle time to achieve $< 10^{-8}$ logical error is $\\approx 100\\,ms$, which is $3\\times$ slower than local control. These results expose a fundamental trade-off between wiring scalability and logical throughput, suggesting that practical early fault-tolerant operation requires complementary $> 10\\times$ physical error rate reductions along with substantial $> 100\\times$ reduction in fault-tolerant circuit-depth.",
+    "authors": [
+      "Jones, Scott",
+      "Yang, Song-qing-hao",
+      "Murali, Prakash"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-11T00:00:00Z",
+    "updated_at": "2026-09-15T11:36:18.038563Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202948",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202948",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202948"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

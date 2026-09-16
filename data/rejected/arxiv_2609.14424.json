@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.14424",
+    "arxiv_id": "2609.14424",
+    "arxiv_version": null,
+    "inspire_id": "3202957",
+    "doi": null,
+    "title_en": "Certification cost of quantum models: measurement correlation, not parameter count",
+    "abstract_en": "Reporting the Fisher geometry of a trained variational quantum model is routine; quoting the shot budget that would establish it is not. Certifying an empirical Fisher matrix to relative Frobenius error $\\varepsilon$ under coordinate-wise parameter shift costs $Θ(B p^{2} V/(\\varepsilon^{2} G))$ circuit executions, where $V$ is the measured readout variance and $G$ the measured squared gradient norm, with uniform allocation optimal in that class. One constant reproduces the cost of two circuit families whose exponents differ by a full power of $p$. The exponent is an identity in how $nV$ and $nG$ scale with the register, holding family by family to $0.001$ across 624 matrix-product-state cells once the finite-$p$ prefactor is removed. The cubic cost is therefore a finite-size window, set by whether the readout light cone grows with the register. A product family to 256 qubits gives $1.966$ (95% CI $1.934$--$1.997$); a brickwork entangler falls from $2.853$ below ten qubits to $1.715$ beyond sixty-four; a blocked entangler gives $1.984$ at a fixed cone width against $3.034$ at a proportional one. Fixed device connectivity fixes the cone, so a cubic budget from a small simulation overestimates a large machine, on top of hardware multipliers $2.07\\times$ ($1.41$--$3.02$), $2.38\\times$ and $1.91\\times$ on ibm_marrakesh, ibm_fez and ibm_kingston. Cost-optimal readout weights cut the measured shot budget by $2.67\\times$ ($1.33$--$4.00$) on hardware, flat from four to twelve qubits. A discrepancy model fitted on cheap circuits transfers its mean inside the calibration grid and, at six larger sizes named before the data, does not: nominal 90% intervals cover 36%, and split conformal is the only rung that stays near nominal.",
+    "authors": [
+      "Sulimov, Pavel",
+      "Lehmann, Claude"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-13T00:00:00Z",
+    "updated_at": "2026-09-15T11:38:06.506631Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3202957",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3202957",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3202957"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

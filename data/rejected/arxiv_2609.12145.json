@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.12145",
+    "arxiv_id": "2609.12145",
+    "arxiv_version": null,
+    "inspire_id": "3203430",
+    "doi": null,
+    "title_en": "Hardware Fingerprinting FTQC via Quantum Decoder Timing",
+    "abstract_en": "As the quantum computing field transitions toward Fault-Tolerant Quantum Computing (FTQC), intensive efforts are focused on scaling architectures and realizing active error correction. However, this shift introduces security surfaces that remain largely unexplored. Fault-tolerant quantum computers pair a quantum processor with a classical decoder that sits on the critical path of every syndrome-extraction round. For the first time, this work demonstrates that the wall-clock time each decoder takes to process a syndrome measurement and decoding round constitutes a novel, exploitable hardware side channel on physical quantum hardware. Using per-shot decoder timings from three IBM Heron processors collected over a 68-day window, the decode-time distribution alone allows a passive observer to (i) reconstruct the shot-by-shot detector-firing distribution and estimate the workload's logical error rate $p_L$, (ii) infer the code distance in use, and (iii) fingerprint the specific physical device with up to 89% accuracy (a random guess is 33%), with a pooled two-sample Kolmogorov-Smirnov test confirming the decode-time distributions are statistically distinct. In noisy simulation inspired by public data from Google's 105-qubit Willow processor, decoder timing further distinguishes 9 surface-code patches at different locations on the chip with 81% accuracy, showing the side channel persists on below-threshold fault-tolerant hardware from a different vendor and code family.",
+    "authors": [
+      "Doku, Friedrich",
+      "Szefer, Jakub",
+      "Smith, Kaitlin N."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-10T00:00:00Z",
+    "updated_at": "2026-09-15T11:52:53.774528Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203430",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203430",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203430"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

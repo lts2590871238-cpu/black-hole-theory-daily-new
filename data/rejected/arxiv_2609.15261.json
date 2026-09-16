@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.15261",
+    "arxiv_id": "2609.15261",
+    "arxiv_version": 1,
+    "inspire_id": "3203261",
+    "doi": null,
+    "title_en": "Physics-Informed Neural Networks and Data-Driven Models for GRB X-ray Light-Curve Gap Reconstruction",
+    "abstract_en": "Swift-XRT X-ray afterglows of gamma-ray bursts (GRBs) frequently contain temporal gaps that limit the precision with which the Willingale et al. 2007 (W07) plateau parameters measure plateau end time $T_a$, plateau flux $F_a$, and post-plateau decay index $α$. Because these parameters underpin the Dainotti relations (Dainotti et al. 2008, Dainotti et al. 2010, Dainotti et al. 2017), reducing their measurement uncertainty directly improves the cosmological statistical power of GRBs. As the fifth in a series of light-curve reconstruction studies (Dainotti et al. 2023, Manchanda et al. 2025, Kaushal et al. 2026, Gupta et al. 2026), this work benchmarks four models on 545 Swift-XRT GRBs: (i) a Physics-Informed Neural Network (PINN) under seven afterglow priors (Zhang et al. 2006, Nousek et al. 2006); (ii) ReFANN (Wang et al. 2020); (iii) a Siamese dual-branch network (Bromley et al. 1993, Gal et al. 2016); and (iv) Polynomial Quantile Regression (PQR; Koenker et al. 2005). All four methods reduce the fractional uncertainties in $\\log T_a$, $\\log F_a$, and $α$ relative to the original observations. The PINN broken power-law prior achieves the largest reductions ($\\sim41$--$49\\%$) at a higher outlier rate ($\\sim15$--$20\\%$), while ReFANN, the Siamese network, and PQR deliver consistent reductions ($\\sim19$--$27\\%$) with outlier fractions ($\\lesssim4\\%$) across a wider morphological range. A reduced-$χ^2$ prior-selection scheme recovers a morphological classification consistent with independent labelling, though without matching the best single-prior reduction. These results provide a systematic benchmark of physics-informed and data-driven reconstruction strategies for irregularly sampled GRB afterglows.",
+    "authors": [
+      "Ayush Garg",
+      "Ritik Kumar",
+      "Maria G. Dainotti",
+      "Vipul Sharma",
+      "Amit Shukla",
+      "Dieter H. Hartmann"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-15T11:43:32.749139Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.15261v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.15261v1",
+    "inspire_url": "https://inspirehep.net/literature/3203261",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.15261",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2609.15261v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3203261",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203261"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

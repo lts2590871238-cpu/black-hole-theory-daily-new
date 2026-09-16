@@ -3,18 +3,21 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.12377",
     "arxiv_id": "2609.12377",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3202783",
     "doi": null,
     "title_en": "A Localized Current-Sheet Magnetic-Diffusion and Heating Prescription for Ideal-GRMHD Simulations of M87*-like Accretion Flows",
     "abstract_en": "Ideal-GRMHD calculations provide the bulk accretion flows used in black-hole emission models. A localized dissipation prescription can add a resolved map of current-sheet activity while retaining that dynamical reference. We implement such a prescription in Athena++, using a smooth threshold on the dimensionless current proxy $α_J$ to select the magnetic-diffusion coefficient. The constrained-transport update is coupled to a conservative energy-flux correction. Gas heating follows from primitive recovery; $q_{Ohm}=ηJ^2$ is recorded as a diagnostic, without a second energy source. Static Fourier and traveling Alfvén tests measure the evolved thermal gain, and an open-boundary Schwarzschild test closes the Killing-energy ledger. The relative total-energy residual is below $2\\times10^{-15}$ in these tests. A two-resolution Harris matrix gives localized rate exponents $0.510\\pm0.027$ and $0.488\\pm0.028$, consistent with $1/2$ over the specified early interval. The $η=10^{-3}$ rate exceeds the same-resolution ideal control by a factor of 5.96. In matched axisymmetric M87*-like runs, localized diffusion changes the early mean magnetic flux, accretion rate, and normalized flux by less than $0.02\\%$, with a radial-density distance of $0.005\\%$. During the late active phase, a common-restart on/off comparison keeps these mean shifts below $1.6\\%$, within the intrinsic temporal variability, and gives a density distance of $0.29\\%$. Uniform diffusion at the tested coefficient reduces the raw flux and accretion rate by $85\\%$ and $99.8\\%$. These comparisons establish a spatially selective diffusion prescription with explicit energy accounting and a quantified, small bulk-flow response.",
     "authors": [
-      "Dai, Songyan",
-      "Cen, Renyue"
+      "Songyan Dai",
+      "Renyue Cen"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.GA"
+    ],
     "submitted_at": "2026-09-11T00:00:00Z",
-    "updated_at": "2026-09-14T03:12:04.268692Z",
+    "updated_at": "2026-09-15T04:39:19.248922Z",
     "document_types": [
       "article"
     ],
@@ -22,15 +25,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2609.12377v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.12377v1",
     "inspire_url": "https://inspirehep.net/literature/3202783",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2609.12377",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://arxiv.org/abs/2609.12377v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3202783",
-        "fetched_at": "2026-09-15T01:35:22.085394Z",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
         "url": "https://inspirehep.net/literature/3202783"
       }
     ],

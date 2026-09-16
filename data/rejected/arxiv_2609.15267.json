@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.15267",
+    "arxiv_id": "2609.15267",
+    "arxiv_version": null,
+    "inspire_id": "3203219",
+    "doi": null,
+    "title_en": "Feature-Adaptive Fusion in Hybrid Quantum-Classical Neural Networks for Robust Biomedical Image Classification",
+    "abstract_en": "Hybrid quantum-classical neural networks provide a promising approach for incorporating quantum circuits into machine learning in the noisy intermediate-scale quantum regime. However, existing hybrid models often rely on fixed or globally shared fusion strategies, which may limit their ability to exploit complementary information carried by quantum branches, especially under distribution shifts. In this work, we propose a Feature-Adaptive Fusion Hybrid Quantum-Classical Neural Network (FAF-HQNN) for biomedical image classification. The model combines a classical deep feature encoder with a variational quantum circuit (VQC) and introduces a feature-adaptive fusion mechanism to dynamically weight classical and quantum predictions. We evaluate FAF-HQNN on two MedMNIST benchmarks, PathMNIST and BloodMNIST, under clean and corrupted test conditions. FAF-HQNN achieves the strongest overall performance on clean data among the compared methods and shows improved robustness under Gaussian, salt-and-pepper, and Poisson corruptions. Further analysis of circuit layout, measurement basis, and depth shows that even shallow variational quantum circuits can provide useful complementary information. These results demonstrate that feature-adaptive fusion is an effective strategy for improving accuracy and robustness in hybrid quantum-classical models for biomedical image classification.",
+    "authors": [
+      "Hou, Yan-Yan",
+      "Li, Jian",
+      "Ye, Chongqiang",
+      "Li, Hengji",
+      "Wang, Zhuo",
+      "Liu, Qinghui"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-15T11:35:48.636285Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203219",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203219",
+        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "url": "https://inspirehep.net/literature/3203219"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

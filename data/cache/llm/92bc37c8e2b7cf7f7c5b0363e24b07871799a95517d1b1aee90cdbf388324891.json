@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "holography_condensed_matter",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 8,
+    "community_signal": 1,
+    "other": 4
+  },
+  "total_score": 72,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文用大规模量子蒙特卡洛模拟研究悬浮石墨烯，将数值结果与实验的费米速度重整化对比，并考察光学电导率的重整化，涉及非费米液体行为与长程相互作用，属于凝聚态全息关联方向，理论深度与方法严谨性较突出。",
+  "title_zh": "弥合自由悬浮石墨烯中数值计算与实验之间的差距",
+  "abstract_zh": "我们报告了石墨烯大规模量子蒙特卡洛（QMC）模拟的结果。借助前沿的算法改进，我们能够考虑对应 20808 个电子的空间体积，从而获得与实验直接相关的能量尺度。我们将受约束随机相近似（cRPA）对短程相互作用的估计与库仑尾部结合，得以成功地将费米速度重整化的数值估计与实验估计相对照，从而确定微观哈密顿量的参数，以精确再现实验数据。随后将 QMC 结果与微扰论进行比较，不仅显示了石墨烯的非费米液体特征，还证明了晶格尺度物理以及超出 RPA 的高阶微扰修正在定量描述悬浮石墨烯中费米速度重整化的实验数据方面的重要性。随后使用同样的蒙特卡洛技术，通过计算自由悬浮石墨烯中光学电导率的重整化来研究电输运。我们的 QMC 模拟可获得的大晶格尺寸和低温度，使得即使存在相互作用，也能清晰分辨谱函数中的狄拉克平台。我们证明，尽管单粒子色散发生了强烈重整化，光学电导率仍基本保持不变，这与当前实验观测一致。这一发现指向了将六角晶格上 Hubbard 模型不存在光学电导率重整化的定理推广到长程相互作用情形的可能性。",
+  "keywords_en": [
+    "graphene",
+    "quantum Monte Carlo",
+    "Fermi velocity renormalization",
+    "optical conductivity",
+    "non-Fermi liquid",
+    "constrained RPA"
+  ],
+  "keywords_zh": [
+    "石墨烯",
+    "量子蒙特卡洛",
+    "费米速度重整化",
+    "光学电导率",
+    "非费米液体",
+    "受约束随机相近似"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-16T01:31:39.884935Z"
+}
