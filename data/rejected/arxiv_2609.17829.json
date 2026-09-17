@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.17829",
+    "arxiv_id": "2609.17829",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Optimising instrument concepts with Machine Learning: Application to CMB spectral distortion experiments",
+    "abstract_en": "Understanding how instrumental and mission parameters affect the ability to measure faint astrophysical signals is a key challenge in the design of future experiments. This is particularly relevant for CMB spectral distortions, whose weak signals are affected by both instrumental effects and astrophysical foregrounds. We develop a method to explore and optimise the multidimensional parameter space of an astronomical instrument, and apply it to CMB spectral distortion measurements using the FOSSIL mission concept. We combine a dedicated sky model with a realistic instrument model and use Fisher forecasts to assess measurement capabilities of the simulated instrument. Decision-tree-based regression models are then used to learn the non-linear mapping between instrumental parameters and the predicted signal-to-noise ratios of the sky observables. Random Forest and gradient boosting models accurately reproduce the forecasted measurement performance. SHAP values are used to interpret the impact of instrumental parameters on the measurement. The temperature of the warmest instrumental component is found to be the dominant parameter for all three observables, highlighting the importance of limiting internal emission and operating the instrument at cryogenic temperatures. Frequency coverage is also highly influential, revealing a trade-off between spectral coverage and instrumental sensitivity. The proposed optimisation method provides a fast and interpretable approach to explore high-dimensional instrumental parameter spaces and identify parameters that most strongly influence the scientific performance of an experiment. To the best of our knowledge, this work represents the first application of machine-learning methods to the global optimisation of an astronomical instrument and can readily be extended to other astronomical instruments and mission concepts.",
+    "authors": [
+      "Xavier Coulon",
+      "Nabila Aghanim",
+      "Bruno Maffei"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-09-15T20:47:52Z",
+    "updated_at": "2026-09-15T20:47:52Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.17829v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17829v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.17829",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://arxiv.org/abs/2609.17829v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

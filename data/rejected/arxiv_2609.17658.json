@@ -1,0 +1,83 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.17658",
+    "arxiv_id": "2609.17658",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "The OpenGadget3 Code for Cosmological Simulations",
+    "abstract_en": "We present the public release of OpenGadget3 (OG3), a substantially extended and re-organised version of the widely used Gadget-2/3 family of cosmological simulation codes. Since G2 was made publicly available, the absence of continued official development led to the creation of numerous, mutually incompatible developer versions of G3 across the community. This made it effectively impossible to track bug fixes, reproduce published results, or consistently credit the many individual contributors. OG3 addresses this by consolidating these disparate developments into a single, documented, and continuously maintained code base, released under the GNU GPLv3 through a GitLab repository (with an accompanying wiki), regularly synchronised with the active developer branch, and supported by a dedicated continuous-integration (CI) pipeline. OG3 retains the core algorithmic backbone of its predecessors, a Barnes\\&Hut oct-tree combined with a Particle-Mesh method for gravity, and a choice of Smoothed Particle Hydrodynamics or Meshless-Finite-Mass solvers for gas dynamics, within a hybrid MPI/OpenMP parallelisation framework, extended with GPU offloading via OpenACC and OpenMP. The code integrates an extensive suite of sub-resolution and physical modules, including primordial chemistry, radiative cooling, star formation, stellar feedback and chemical enrichment, dust formation and evolution, black hole growth and AGN feedback, MHD, thermal conduction, physical viscosity, SIDM, and massive neutrinos. OG3 introduces new features improving robustness, reproducibility, and usability: a flexible mixed-precision framework spanning 16- to 128-bit representations; expert-level tagged parameters with restart-time change log; extensive consistency checks against invalid configurations; and FAIR-compliant reporting of all settings, parameters, and specific publications. (shortened and abridged)",
+    "authors": [
+      "Klaus Dolag",
+      "Geray S. Karademir",
+      "Luca Tornatore",
+      "Antonio Ragagnin",
+      "Milena Valentini",
+      "Ludwig M. Böss",
+      "Frederick Groth",
+      "Giuseppe Murante",
+      "Stefano Borgani",
+      "Volker Springel",
+      "Cenanda Arido",
+      "Javier Badía",
+      "Tiago Castro",
+      "Alice Damiano",
+      "Laura Di Federico",
+      "Moritz S. Fischer",
+      "Gian Luigi Granato",
+      "Nitya Hariharan",
+      "David Klemmer",
+      "Umberto Maio",
+      "Tirso Marin-Gilabert",
+      "Ilaria Marini",
+      "Yashraj Patil",
+      "Margarita Egelhofer",
+      "Cinthia Ragone-Figueroa",
+      "Luca Sala",
+      "Cecilia Scannapieco",
+      "Ludwig D. Schmidt",
+      "Ulrich P. Steinwandel",
+      "Giovanni Tedeschi-Prades",
+      "Marc Wiertel"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2026-09-15T18:00:00Z",
+    "updated_at": "2026-09-15T18:00:00Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.17658v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17658v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.17658",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://arxiv.org/abs/2609.17658v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

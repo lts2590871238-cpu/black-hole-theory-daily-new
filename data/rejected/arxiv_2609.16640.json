@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.16640",
+    "arxiv_id": "2609.16640",
+    "arxiv_version": null,
+    "inspire_id": "3204086",
+    "doi": null,
+    "title_en": "Graph construction in QUBO-based recursive phylogenetic tree reconstruction",
+    "abstract_en": "Molecular sequence data are used to reconstruct evolutionary relationships among taxa, but reconstruction accuracy depends not only on the tree-building method but also on how pairwise sequence relationships are represented. We evaluated sequence-to-affinity representations in a recursive normalized-cut (Ncut) framework whose graph-partitioning subproblems were formulated as quadratic unconstrained binary optimization (QUBO) models and solved using Simulated Bifurcation. Using simulated amino-acid and nucleotide datasets spanning multiple tree-generation settings and evolutionary divergence, we compared normalized bit-score affinities with representations derived from transformed sequence similarities and evolutionary distances, examined post-swap refinement, and used neighbor joining (NJ) as a distance-based comparator. Affinity representation substantially affected internal split recovery, particularly for nucleotide data. JC69-based local affinities maintained comparatively high accuracy as divergence increased, whereas normalized bit-score and BLAST-derived kernel representations declined more markedly. Post-swap refinement generally improved recovery, but not consistently across individual reconstructions. NJ achieved higher mean split recovery than corresponding recursive Ncut reconstructions for WAG and JC69 distances across all evaluated conditions, whereas recursive Ncut outperformed NJ for BLAST-derived logarithmic distances under some conditions. These results show that graph construction is an important determinant of recursive Ncut-based phylogenetic reconstruction. A representation that performs well within Ncut does not necessarily provide the most accurate use of the underlying pairwise distances. Pairwise representation, affinity transformation, optimization, and recursive tree construction should therefore be evaluated jointly.",
+    "authors": [
+      "Kanazawa, Yoshiki",
+      "Joshi, Ashish",
+      "Koyama, Takahiko"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-15T00:00:00Z",
+    "updated_at": "2026-09-16T11:20:22.709879Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204086",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204086",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3204086"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

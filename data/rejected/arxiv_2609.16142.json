@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.16142",
+    "arxiv_id": "2609.16142",
+    "arxiv_version": null,
+    "inspire_id": "3203851",
+    "doi": null,
+    "title_en": "Investigating Interacting Fermionic Models with Locality-Preserving Qubit Encodings",
+    "abstract_en": "We investigate the utility of the locality-preserving Derby-Klassen (DK) fermion-to-qubit mapping [arXiv:2003.06939] for variational quantum simulation of two-dimensional $t$-$V$ and Fermi-Hubbard models. The DK mapping preserves the locality of fermionic interactions with an enlarged Hilbert space, thereby requiring additional constraints that define the physical sector. We incorporate these constraints directly into a Hamiltonian Variational Ansätz (HVA) through Clifford-gate state preparation and use the Variational Quantum Eigensolver (VQE) to show that the low-energy properties of the resulting qubit Hamiltonian are accurately reproduced. We further exploit particle-number conservation inherent in the ansätz to resolve distinct symmetry sectors and reliably access degenerate states. Consequently, we benchmark the DK-HVA against Jordan-Wigner-based variational circuits at nonzero chemical potential, where particle-hole symmetry and the associated half-filled sign-free condition are absent. Finally, we demonstrate the advantage of locality-preserving mappings in higher-dimensional fermionic systems, where the conventional Jordan-Wigner (JW) transformation generates increasingly long Pauli strings and corresponding circuit overheads. We further extend the framework to the spinful Fermi-Hubbard model and identify a tradeoff between fermionic-mode placement and the locality of hopping and on-site interaction terms. These results establish a practical framework combining locality-preserving fermion-to-qubit mappings, constraint-preserving Clifford state preparation, and symmetry-preserving variational circuits, that trades auxiliary-qubit and stabilizer-preparation overhead for reduced operator nonlocality, providing a practical route toward resource-efficient quantum simulation of higher-dimensional interacting fermionic systems.",
+    "authors": [
+      "Tripathi, Ashutosh P.",
+      "Banerjee, Debasish",
+      "Maiti, Sandip",
+      "Mathur, Nilmani"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-16T08:23:41.137598Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203851",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203851",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203851"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

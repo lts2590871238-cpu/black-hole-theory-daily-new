@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.15728",
+    "arxiv_id": "2609.15728",
+    "arxiv_version": null,
+    "inspire_id": "3203804",
+    "doi": null,
+    "title_en": "A Modular, Topology-Aware Software Stack for Entanglement-Based Distributed Quantum Computing",
+    "abstract_en": "Distributed quantum computing (DQC) seeks to scale beyond the limits of monolithic processors by interconnecting multiple quantum processing units (QPUs) through entanglement-based links. Realizing this vision requires the co-design of hardware and software across the domains of quantum networking, compilation, and scheduling, yet existing tools remain fragmented between monolithic circuit compilers and long-distance quantum network simulators. We present an open-source, topology-informed framework for the compilation and scheduling of distributed quantum programs. Given an input circuit and a description of the target network, the framework partitions and reconstructs the circuit into a distributed program that respects the specified inter- and intra-QPU topology, covers cross-QPU operations through gate and state teleportation, and schedules the result under either deterministic or stochastic entanglement-generation models. By accepting and emitting standard OpenQASM, the framework interoperates with existing monolithic toolchains, and its standardized module interfaces allow partitioning and scheduling strategies to be interchanged and benchmarked. Using this framework, we show that the best-performing compilation strategy varies across the tested circuits and network configurations, and that both network topology and intra-QPU connectivity substantially affect the entanglement cost of execution. These findings underscore the need for a co-design approach to distributed quantum computing, which our framework is designed to support.",
+    "authors": [
+      "Andreesen, Luke",
+      "Gupta, Shobhit",
+      "Sullivan, Sean",
+      "Singh, Manish Kumar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-16T08:22:53.666781Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203804",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203804",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203804"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

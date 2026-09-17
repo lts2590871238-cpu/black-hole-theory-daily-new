@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.17674",
+    "arxiv_id": "2609.17674",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Massively parallel transdimensional sampling with data assimilation: an application to LISA galactic binaries",
+    "abstract_en": "Transdimensional Bayesian inference is becoming a key ingredient in gravitational-wave astronomy. In many relevant applications, the number of components needed to describe the data is not known a priori and must be inferred jointly with their parameters. We present a transdimensional Sequential Monte Carlo (SMC) framework designed to exploit massive parallelism. The method evolves a population of particles through a sequence of tempered distributions and uses the No-U-Turn Sampler for the exploration of fixed-dimensional parameter space while reversible-jump birth and death moves allow the number of components to vary. The same SMC construction also enables posterior samples obtained from a shorter data segment to be updated as additional data become available, enhancing the overall efficiency of the analysis. We validate the approach on two proof-of-concept problems: the recovery of a sequence of Gaussian pulses and a simplified LISA Galactic-binary inference problem. In both cases, the method recovers the injected number of components and produces consistent posterior estimates. These results indicate that the proposed method is a promising avenue toward scalable and parallel Bayesian transdimensional inference for current and future gravitational-wave astronomy.",
+    "authors": [
+      "Gabriele Demasi",
+      "Walter Del Pozzo"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-15T18:00:11Z",
+    "updated_at": "2026-09-15T18:00:11Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.17674v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.17674v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.17674",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://arxiv.org/abs/2609.17674v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

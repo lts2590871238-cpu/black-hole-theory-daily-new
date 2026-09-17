@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.27562",
+    "arxiv_id": "2605.27562",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1088/2632-2153/aea51c",
+    "title_en": "A Partially Supervised Latent-Space Variational Autoencoder for Generating Neutron Star Equations of State",
+    "abstract_en": "We develop a partially supervised latent-space variational autoencoder (PSL-VAE) framework to reconstruct and generate neutron star (NS) equations of state (EOS). The PSL-VAE consists of an encoder network that maps high-dimensional EOS data into a lower-dimensional latent space and a decoder network that reconstructs the full EOS from the latent representation. The latent space includes supervised NS observables derived from the training EOS data, as well as variational latent variables that capture additional EOS features learned automatically. Using a PSL-VAE trained on a Skyrme EOS dataset, we find that a latent space consisting of two supervised observables, the maximum mass $M_{\\max}$ and the canonical radius $R_{1.4}$, together with a single variational latent variable associated mainly with the EOS near the crust-core transition, is sufficient to reconstruct Skyrme EOSs with high fidelity. The decoder reconstructed EOSs reproduce $M_{\\max}$ and $R_{1.4}$ with mean absolute percentage errors within $0.08\\%$. Sampling the latent space generates new EOSs that are causal, thermodynamically stable, and consistent with imposed constraints on the supervised observables. The framework therefore provides a compact and physically interpretable parameterization of the NS EOS that is well suited for Bayesian inference with multimessenger observations, including pulsar mass-radius measurements and gravitational wave data.",
+    "authors": [
+      "Tianqi Zhao",
+      "Fanglida Yan",
+      "Alex Ross",
+      "James M. Lattimer"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-05-26T18:34:17Z",
+    "updated_at": "2026-09-15T18:56:11Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.27562v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.27562v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.27562",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://arxiv.org/abs/2605.27562v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

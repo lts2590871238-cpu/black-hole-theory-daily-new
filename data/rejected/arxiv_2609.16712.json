@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.16712",
+    "arxiv_id": "2609.16712",
+    "arxiv_version": null,
+    "inspire_id": "3203732",
+    "doi": null,
+    "title_en": "Phase Transition in Binary Compressed Sensing via Annealing with Adaptive Regularization",
+    "abstract_en": "Regularization choice changes the recovery phase diagrams of annealing-based binary compressed sensing. We develop a regularization-selection method that combines systematic parameter search with random forest regression. Under noiseless Gaussian measurements with known sparsity, reference parameters are selected from a candidate grid by minimizing mean squared reconstruction error over repeated simulated annealing (SA) trials. The fitted model predicts these reference values from signal dimension, sampling ratio, and sparsity. With predicted regularization, the SA recovery transition broadly follows the asymptotic reference boundary for box-constrained $\\ell_1$ recovery at the larger signal dimensions examined. Without retraining, the same predictor supplies identical regularization values to SA and a quantum--classical hybrid solver. On matched problem instances, the hybrid solver yields smaller mean squared reconstruction errors than SA in parts of the evaluated parameter space. The resulting rule reuses the searched information for subsequent reconstruction without repeating candidate searches at each setting. The results quantify empirical performance under the stated finite candidate grid and solver settings; they do not constitute a solver-independent recovery guarantee or a time-to-solution comparison.",
+    "authors": [
+      "Huang, Xiaoxin",
+      "Ohzeki, Masayuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-15T00:00:00Z",
+    "updated_at": "2026-09-16T11:18:50.098643Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203732",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203732",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203732"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

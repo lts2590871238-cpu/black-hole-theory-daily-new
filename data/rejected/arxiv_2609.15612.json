@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.15612",
+    "arxiv_id": "2609.15612",
+    "arxiv_version": null,
+    "inspire_id": "3203789",
+    "doi": null,
+    "title_en": "Reducing Decoding Latency in Quantum Error Correction by Early Starting Clustering",
+    "abstract_en": "In quantum error correction, fast low-latency decoding is essential for fault-tolerant quantum computation, as delays in processing syndrome data can lead to the backlog problem. Existing decoders, including parallelizable approaches such as Union-Find, begin decoding only after all stabilizer measurement outcomes from an error-correction cycle have been received, inherently introducing a delay before decoding begins. We introduce Cluster-As-You-Go (CAYG), a modification of the Union-Find decoder that processes syndrome information during stabilizer measurements by clustering and correcting errors as they appear. This approach reduces the size of the remaining decoding problem at the end of the quantum error correction cycle and, consequently, the time required to complete the decoding process. While this early start of clustering incurs a modest reduction in decoding accuracy, it preserves the decoder's scalability. Surface-code simulations show that the resulting reduction in post-measurement idling can outweigh the accuracy loss, yielding an improved speed-accuracy trade-off. These results demonstrate that real-time, early-starting decoding during QEC cycles is both feasible and can be advantageous for quantum error correction. Demonstrated here for the surface code, CAYG is broadly applicable to other quantum error-correcting codes, which allow for clustering-based decoding approaches, and is extensible to dedicated real-time decoding hardware.",
+    "authors": [
+      "Peduzzi, Tommaso",
+      "Bödeker, Lukas",
+      "Müller, Markus",
+      "Colmenarez, Luis"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-16T08:22:51.379155Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203789",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203789",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203789"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

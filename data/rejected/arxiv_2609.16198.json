@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.16198",
+    "arxiv_id": "2609.16198",
+    "arxiv_version": null,
+    "inspire_id": "3203734",
+    "doi": null,
+    "title_en": "Utility-Based Path Selection and Configuration in Quantum Networks via Layered Shortest Paths",
+    "abstract_en": "A path in a quantum network is a chain of repeaters that distributes entanglement between two users. Selecting a path requires balancing the rate and quality (e.g., fidelity) of the delivered entanglement, but these quantities, unlike standard routing metrics, compose non-additively. The problem is compounded by link-level configuration choices (e.g., distillation rounds or emitter brightness tuning), each trading rate against fidelity, so that a path's performance depends jointly on its route and its per-link settings. We cast this joint path selection and configuration problem as a shortest path computation on a layered graph whose layers track discretized end-to-end fidelity. A single run returns the full rate fidelity Pareto frontier, from which the path maximizing any nondecreasing utility function of rate and fidelity can be selected. We prove that for certain utility functions (including the secret key rate of BB84), the method is a fully polynomial time approximation scheme, returning a near-optimal path within a specified tolerance. We further characterize exactly when cheaper scalarization-based routing suffices: it is optimal for utility functions with convex fidelity profiles, but can be arbitrarily suboptimal otherwise (e.g., for step-like, sigmoidal utilities), whereas the layered method remains reliable in all cases.",
+    "authors": [
+      "Bacciottini, Leonardo",
+      "Maji, Subhransu",
+      "Towsley, Don",
+      "Vardoyan, Gayane"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-16T08:33:26.367668Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203734",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203734",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203734"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

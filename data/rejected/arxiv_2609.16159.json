@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.16159",
+    "arxiv_id": "2609.16159",
+    "arxiv_version": null,
+    "inspire_id": "3203731",
+    "doi": null,
+    "title_en": "Towards Block-Level Fault-Tolerant Quantum Simulation on Small High-Rate Non-CSS Codes",
+    "abstract_en": "Small high-rate non-CSS stabilizer codes provide compact platforms for encoded quantum computation, but mixed-Pauli checks and limited native transversal logical gates complicate fault-tolerant dynamics. Block-level constructions offer an alternative by mapping an entire logical block to a physical circuit rather than compiling separately protected logical gates. We investigate this approach using the high-rate [[8,3,3]] non-CSS code and logical Trotter circuits as a testbed. We construct flagged syndrome-extraction circuits and establish a circuit-level memory pseudo-threshold near \\(1.5\\times10^{-3}\\). We then apply our symplectic-transvection construction, which maps a logical Trotter circuit to a physical circuit with the same block pattern for any stabilizer code. Although this mapping preserves the intended unitary algebraically, encoded Trotter circuits exhibit asymmetry between logical-\\(X\\) and logical-\\(Z\\) failure channels. Single-fault analysis identifies the mechanism: a fault on the shared parity ancilla can propagate through the uncomputation network into an undetectable logical operator, reducing the effective circuit distance in the affected sector. We evaluate flag-conditioned recovery, biased-noise decoding, CliNR resource verification, flag postselection, and asymmetric gate-noise models. These methods suppress propagated faults but do not simultaneously suppress both logical sectors in the realistic configurations studied. A diagnostic protected limit removing the identified malignant first-order locations restores pseudo-threshold behavior in both sectors, approaching memory performance. These results demonstrate the potential of block-level logical constructions for non-CSS codes without rich native transversal gate sets and the joint protection of the parity network, analog rotation, and recovery required to preserve fault-tolerant distance.",
+    "authors": [
+      "Chen, Zhuangzhuang",
+      "Rengaswamy, Narayanan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-16T08:23:17.639612Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203731",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3203731",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203731"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

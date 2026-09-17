@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.18566",
+    "arxiv_id": "2609.18566",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Deep learning emergent spacetime from fermionic spectral functions in holography",
+    "abstract_en": "We present a physics-informed machine learning framework based on Neural Ordinary Differential Equations that solves the holographic inverse problem: reconstructing the bulk spacetime and gauge field of a charged AdS black hole directly from boundary fermionic spectral functions. Encoding the UV asymptotics, horizon regularity, and zero temperature extremality as hard constraints in the neural network architecture, our framework reliably reconstructs the extremal Reissner-Nordström AdS geometry across three quantum critical regimes set by the $U(1)$ probe charge---non-Fermi liquid, marginal Fermi liquid (strange metal), and Fermi-liquid-like states---and can jointly infer the probe charge itself to sub-percent accuracy. Relaxing the near-AdS boundary constraint uncovers a geometrical degeneracy: bulk profiles that differ throughout the radial direction but share the same near-horizon $AdS_2 \\times \\mathbb{R}^2$ data reproduce identical spectral functions near the Fermi surface. This isospectral non-uniqueness is precisely the bulk degeneracy expected on general holographic grounds at zero temperature, and its spontaneous emergence across independent training runs shows that the network isolates the IR CFT universality rather than overfitting a single UV completion.",
+    "authors": [
+      "Koji Hashimoto",
+      "Hyun-Sik Jeong",
+      "Keun-Young Kim",
+      "Daichi Takeda",
+      "Kwan Yun"
+    ],
+    "categories": [
+      "hep-th",
+      "cond-mat.str-el",
+      "cs.LG"
+    ],
+    "submitted_at": "2026-09-16T12:23:48Z",
+    "updated_at": "2026-09-16T12:23:48Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.18566v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.18566v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.18566",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://arxiv.org/abs/2609.18566v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "holography_condensed_matter"
+    ],
+    "high_weight_hits": [
+      "non-fermi liquid",
+      "strange metal"
+    ],
+    "medium_weight_hits": [
+      "quantum critical"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 60
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "holography_condensed_matter",
+    "secondary_topics": [
+      "black_hole_thermodynamics",
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 26,
+      "methodological_rigor": 16,
+      "novelty": 13,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 75,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文将物理约束神经ODE用于全息逆问题，从边界费米子谱函数重建带电AdS黑洞体时空，覆盖非费米液体、边缘费米液体与类费米液体三种量子临界区，并讨论了零温下的体简并性，属于全息凝聚态方向的高相关理论工作，值得点击阅读。",
+    "title_zh": "从全息中的费米子谱函数出发的深度学习涌现时空",
+    "abstract_zh": "我们提出一个基于神经常微分方程的物理信息机器学习框架，用于求解全息逆问题：直接从边界费米子谱函数重建带电AdS黑洞的体时空与规范场。通过将UV渐近行为、视界正则性与零温极端性作为硬约束编码进神经网络架构，我们的框架能够在由$U(1)$探针电荷设定的三种量子临界区——非费米液体、边缘费米液体（奇异金属）以及类费米液体态——中可靠地重建极端Reissner-Nordström AdS几何，并能够以亚百分比精度联合推断探针电荷本身。放松近AdS边界约束会揭示一种几何简并性：在整个径向方向上不同、但共享相同近视界$AdS_2 \\times \\mathbb{R}^2$数据的体轮廓，在费米面附近再现相同的谱函数。这种等谱非唯一性正是零温下基于一般全息论证所预期的体简并性，而它在独立训练运行中的自发出现表明，网络分离出的是IR CFT普适性，而不是对单一UV完成过度拟合。",
+    "keywords_en": [
+      "holography",
+      "emergent spacetime",
+      "fermionic spectral functions",
+      "neural ordinary differential equations",
+      "AdS black hole",
+      "quantum criticality",
+      "non-Fermi liquid",
+      "strange metal",
+      "inverse problem",
+      "isospectral degeneracy"
+    ],
+    "keywords_zh": [
+      "全息",
+      "涌现时空",
+      "费米子谱函数",
+      "神经常微分方程",
+      "AdS黑洞",
+      "量子临界性",
+      "非费米液体",
+      "奇异金属",
+      "逆问题",
+      "等谱简并"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-17T01:33:05.247816Z"
+  },
+  "published_at": "2026-09-17T01:33:05.248324Z"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.15959",
     "arxiv_id": "2609.15959",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3203839",
     "doi": null,
     "title_en": "Continuous Hasenbusch transport towards gauge diffusion with fermions",
     "abstract_en": "Incorporating dynamical fermions is a central challenge for diffusion samplers of lattice gauge theories. We propose an analytic pseudofermion sampler based on continuous Hasenbusch transport as a component for gauge diffusion. The construction uses shifted linear solves and a finite-path correction, requiring neither explicit fermion determinant evaluation nor a learned pseudofermion model. We demonstrate the coupling in the two-flavour Schwinger model without neural networks, obtaining corrected physical observables compatible with independent references. We also show why accurate covariance transport can leave large weight fluctuations, tracing them to the backward transition density. This analysis leads to a correction based on the Wilson operator trace that reduces log-weight variance without changing the generated fields or increasing the number of Dirac operator applications. The predicted improvement is verified on previously unused gauge backgrounds. These results provide an analytic option for incorporating fermions in gauge diffusion and a guide to controlling its correction weights.",
@@ -15,23 +15,31 @@
       "hep-lat",
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-09-14T17:51:33Z",
-    "updated_at": "2026-09-14T17:51:33Z",
-    "document_types": [],
+    "submitted_at": "2026-09-14T00:00:00Z",
+    "updated_at": "2026-09-16T05:16:15.429592Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.15959v1",
     "pdf_url": "https://arxiv.org/pdf/2609.15959v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3203839",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.15959",
-        "fetched_at": "2026-09-16T01:30:12.699704Z",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
         "url": "https://arxiv.org/abs/2609.15959v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3203839",
+        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "url": "https://inspirehep.net/literature/3203839"
       }
     ],
     "is_demo": false
