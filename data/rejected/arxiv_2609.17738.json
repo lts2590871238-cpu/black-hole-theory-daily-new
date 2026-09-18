@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.17738",
+    "arxiv_id": "2609.17738",
+    "arxiv_version": null,
+    "inspire_id": "3204332",
+    "doi": null,
+    "title_en": "Similarity Pairing with Energy Mover's Distance for Self-Supervised Pre-Training at the LHC",
+    "abstract_en": "Many self-supervised methods for training foundation models at the Large Hadron Collider (LHC) rely on data augmentations to encourage the model to embed events into a representation space invariant to certain physical or detector symmetries. A common challenge arises from the large freedom in choosing a proper set of augmentations on which downstream performance depends. The implementation of augmentations involves either modifying existing events, potentially breaking the event fidelity, or simulating more event variants, which is computationally intensive. In this work, we present a data-driven method of pairing events by their similarity via the energy mover's distance (EMD), which measures how similar two events are in terms of the work required to transform one into the other. With this approach, distinct events are sampled and matched by their similarity to serve as views for learning invariance, keeping the physics content of each event intact without handcrafted distortions. We demonstrate this augmentation-free pairing method by pre-training on QCD jets via self-distillation and show that it can yield semantic jet embeddings with downstream discrimination power comparable to or better than an augmentation-based baseline.",
+    "authors": [
+      "Tsoi, Ho Fung",
+      "Rankin, Dylan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-15T00:00:00Z",
+    "updated_at": "2026-09-17T03:01:13.082902Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204332",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204332",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://inspirehep.net/literature/3204332"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

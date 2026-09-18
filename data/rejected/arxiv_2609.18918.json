@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.18918",
+    "arxiv_id": "2609.18918",
+    "arxiv_version": 1,
+    "inspire_id": "3204348",
+    "doi": null,
+    "title_en": "Graph lattice sums and graph zeta functions for long-range interacting quantum lattice models",
+    "abstract_en": "Taming the exponential increase of the Hilbert space dimension with system size in the simulation of gapped quantum lattice models is of the highest relevance for understanding and designing exotic quantum materials, where nonlocal interactions are of particular interest. High-order linked-cluster expansions provide access the solution of the eigenvalue problem for the infinite system, yet rely on the computation of high-dimensional oscillatory lattice sums with a graph structure, only approachable with Monte Carlo methods so far. This work resolves this issue, rendering all required graph lattice sums, referred to as graph zeta functions for kernels involving power-laws, computable. The resulting method reduces the evaluation time for state-of-the art series expansions from tenthousands of core-hours to minutes. After factorizing the lattice sum over blocks, each block is evaluated by the cheapest available strategy depending on its treewidth $\\mathrm{tw}$. Basic blocks admit analytic forms in terms of generalized zeta functions. Series-parallel blocks with $\\mathrm{tw}\\le 2$ can be computed at linear cost in the number of graph nodes and in the size of the momentum grid using a semi-analytical algebra based on Epstein zeta functions and rapidly decaying Fourier series. Finally, for $\\mathrm{tw}>2$, the method is combined with tensor-network bucket elimination yielding polynomial scaling of numerical work and memory in momentum grid size with exponents only growing with $\\mathrm{tw}$ rather than with the number of vertices. Through use of FFT, the full momentum grid is recovered at the cost of a single momentum evaluation. We provide a detailed analysis of the precision and runtime of our method against analytic and numerical benchmarks. We further reproduce published Monte Carlo data for the transverse-field Ising model on different 1D, 2D, and 3D lattices, obtaining full agreement.",
+    "authors": [
+      "Andreas Alexander Buchheit",
+      "Andreas Rupp"
+    ],
+    "categories": [
+      "math.NA",
+      "cond-mat.str-el",
+      "math.NT",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-09-16T00:00:00Z",
+    "updated_at": "2026-09-17T08:18:10.449428Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.18918v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.18918v1",
+    "inspire_url": "https://inspirehep.net/literature/3204348",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.18918",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://arxiv.org/abs/2609.18918v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3204348",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://inspirehep.net/literature/3204348"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

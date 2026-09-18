@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.22925",
     "arxiv_id": "2608.22925",
-    "arxiv_version": 1,
-    "inspire_id": "3195369",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Importance-Reweighted Fock-Space Variational Monte Carlo",
-    "abstract_en": "Fock-space variational Monte Carlo (FS-VMC) evaluates variational quantities by stochastic sampling over discrete many-body configurations. For ab initio electronic Hamiltonians, Born distributions can differ markedly between systems, and a Markov chain that mixes well need not yield low-variance estimators. We introduce importance-reweighted FS-VMC (IR-FS-VMC), which leaves the variational objective unchanged while redesigning its Monte Carlo evaluation. An auxiliary distribution and Hamiltonian-guided proposal define the Markov chain, while an evaluation Markov kernel defines an analytically tractable evaluation distribution. Self-normalized importance reweighting then recovers the Born-distribution expectations entering the energy, gradient, and stochastic reconfiguration (SR) matrix. Controlled comparisons on equilibrium H2O and Fe2S2 separate Markov-chain acceptance from local-energy fluctuations and optimization behavior. Using one production protocol, calculations for H2O dissociation, 36-site hydrogen lattices, and Fe2S2 and Fe4S4 active spaces yield accurate variational energies across different Born distributions and electronic-correlation regimes. Together, these results show that the production protocol can support robust FS-VMC optimization across the electronic-structure regimes studied here.",
+    "abstract_en": "Fock-space variational Monte Carlo (FS-VMC) evaluates variational quantities by sampling discrete many-body configurations. In molecular applications, concentrated Born distributions can hinder Markov-chain mixing, while Monte Carlo estimators can also exhibit large variance. We introduce importance-reweighted FS-VMC (IR-FS-VMC), which combines Metropolis--Hastings sampling, an evaluation kernel, and self-normalized importance sampling to estimate the Born-distribution energy, gradient, and stochastic reconfiguration (SR) matrix. Controlled comparisons on equilibrium H2O and Fe2S2 show that the acceptance rate and local-energy variance can respond differently to the sampling and estimation procedure. A single production protocol yields accurate variational energies for H2O dissociation, 36-site hydrogen lattices, and Fe2S2 and Fe4S4 active spaces without system-specific sampling parameters.",
     "authors": [
       "Zheng Che"
     ],
@@ -16,31 +16,23 @@
       "cond-mat.str-el",
       "quant-ph"
     ],
-    "submitted_at": "2026-08-24T00:00:00Z",
-    "updated_at": "2026-08-26T04:23:26.634521Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-24T08:00:22Z",
+    "updated_at": "2026-09-16T16:40:29Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.22925v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.22925v1",
-    "inspire_url": "https://inspirehep.net/literature/3195369",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.22925v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.22925v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.22925",
-        "fetched_at": "2026-08-31T01:24:49.989879Z",
-        "url": "https://arxiv.org/abs/2608.22925v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3195369",
-        "fetched_at": "2026-08-31T01:24:49.989879Z",
-        "url": "https://inspirehep.net/literature/3195369"
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://arxiv.org/abs/2608.22925v2"
       }
     ],
     "is_demo": false

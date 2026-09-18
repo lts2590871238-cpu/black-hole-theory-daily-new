@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.17896",
+    "arxiv_id": "2609.17896",
+    "arxiv_version": null,
+    "inspire_id": "3204342",
+    "doi": null,
+    "title_en": "QEMScore: How Much Does the Measurement Add to Learned Quantum Error Mitigation?",
+    "abstract_en": "How much does the noisy measurement add to learned quantum error mitigation? An accuracy table cannot say, because a model handed circuit structure can score well without reading the measurement at all. QEMScore adds the comparison that can. Each simulated circuit carries an exact ideal answer. The learned mitigator is scored beside a capacity-matched control, a model just as flexible that reads the same circuit description but never the measurement. Each method's measurement spend is accounted and not equalized. We run a controlled campaign on simulated circuits and reanalyze two published learned mitigators, Q-LEAR and QRAFT, from their released hardware data. Three findings stand out. First, under familiar within-family conditions (S0) evaluated across two spin-chain families and three seeds, continuous couplings identify the target, and the control that never reads the measurement matches 87.7 to 100.5 percent of the mitigator's gain over an affine fit to the circuit description. A plain polynomial in the coupling parameters, fitted after the campaign, beats the mitigator on all six evaluations, reflecting the selected learners' capacity. Second, for these selected learners, matching most of the gain is not matching the accuracy: on five of six evaluations the mitigator removes 19.5 to 74.5 percent of the error the capacity-matched control leaves, a learner-specific gap rather than a measurement requirement. Third, on released hardware data where descriptors only partially identify queries, the findings differ: flexible models of the descriptors show negligible mean gain over affine fits in Q-LEAR, and measurement inputs carry predictive gains in both Q-LEAR and QRAFT. These comparisons reflect representation- and protocol-specific behavior rather than an isolated cross-regime difference. A learned mitigator's accuracy should therefore be reported beside such controls.",
+    "authors": [
+      "Zhao, Yue",
+      "Gu, Huayue",
+      "Dong, Yushun",
+      "Hu, Xiyang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-15T00:00:00Z",
+    "updated_at": "2026-09-17T07:22:05.054601Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204342",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204342",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://inspirehep.net/literature/3204342"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

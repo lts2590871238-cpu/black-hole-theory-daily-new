@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.12797",
     "arxiv_id": "2609.12797",
     "arxiv_version": 1,
-    "inspire_id": "3202800",
+    "inspire_id": null,
     "doi": null,
     "title_en": "The Wavelet Detection Filter: a real time unmodeled pipeline for gravitational wave transients, ranking coincidences with a graph neural network",
     "abstract_en": "Accurate waveform models are unavailable for many potential sources of gravitational wave transients, motivating searches that do not assume a predefined template family. The Wavelet Detection Filter (WDF) is an unmodeled pipeline that identifies excess energy in the wavelet coefficients of whitened detector data. Here, we develop WDF into a low latency pipeline for both detection and reconstruction and this paper describes and validates that pipeline. We use a zero phase streaming autoregressive whitening filter that preserves transient morphology with a fixed latency and we use the retained wavelet coefficients to provide both a detection statistic and a sparse representation of the signal. By combining coefficients across consecutive analysis windows, the pipeline reconstructs transients longer than a single window. We represent candidate coincidences between detectors with a trigger graph and rank them with supervised and unsupervised graph neural networks (GNNs). We estimate the significance of the ranked coincidences from time shifted data. We validate the pipeline on Gaussian noise colored according to the Advanced LIGO sensitivity curve and on real O4 strain containing compact binary and core collapse supernova injections. Applied to GW250114, WDF identifies the event as the loudest zero lag candidate in the analyzed segment without using waveform templates. We measure the computational cost of the pipeline and the latency it introduces. Both are compatible with a low latency search,so WDF can run on a stream in real time.",
@@ -15,31 +15,23 @@
       "gr-qc",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-09-11T00:00:00Z",
-    "updated_at": "2026-09-15T04:40:35.111645Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-09-11T12:56:38Z",
+    "updated_at": "2026-09-11T12:56:38Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2609.12797v1",
     "pdf_url": "https://arxiv.org/pdf/2609.12797v1",
-    "inspire_url": "https://inspirehep.net/literature/3202800",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.12797",
-        "fetched_at": "2026-09-17T01:32:17.813385Z",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
         "url": "https://arxiv.org/abs/2609.12797v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3202800",
-        "fetched_at": "2026-09-17T01:32:17.813385Z",
-        "url": "https://inspirehep.net/literature/3202800"
       }
     ],
     "is_demo": false

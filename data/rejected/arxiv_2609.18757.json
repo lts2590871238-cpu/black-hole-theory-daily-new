@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.18757",
+    "arxiv_id": "2609.18757",
+    "arxiv_version": null,
+    "inspire_id": "3204346",
+    "doi": null,
+    "title_en": "Query-Optimal and Gate-Efficient Lindbladian Simulation",
+    "abstract_en": "We give a quantum algorithm for Lindbladian simulation given a block encoding of the Hamiltonian $H$ and a projected unitary encoding of the stacked jump operator $B=\\sum_{k=1}^m \\lvert k\\rangle\\otimes L_k$, with normalization factors $α_H$ and $α_B$, respectively. For evolution time $t$, set $τ=(α_H+α_B^2)t$. The algorithm approximates the evolution channel to diamond-norm error $\\varepsilon$ using $O\\!\\left(τ+\\frac{\\log(1/\\varepsilon)}{\\log\\!\\left(e+\\log(1/\\varepsilon)/τ\\right)}\\right)$ oracle queries, matching the query lower bound for Hamiltonian simulation. The number of additional one- and two-qubit gates is linear in the query complexity up to polylogarithmic factors. The query- and gate-complexity bounds extend to Lipschitz-continuous time-dependent Lindbladians under coherent time-indexed oracle access. Our construction uses a one-query transducer that implements a product of rational approximations to short-time evolution when supplied with a catalyst. We bound the error from omitting the catalyst by exploiting orthogonality between different sequences of Kraus labels. The gate implementation combines a compressed Kraus-label representation, which stores only the positions and values of the nonzero labels, with the rotation factorization of Chen et al.",
+    "authors": [
+      "Chen, Boyang",
+      "Gao, Minbo",
+      "Wang, Xinzhao",
+      "Zhou, Shuo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-16T00:00:00Z",
+    "updated_at": "2026-09-17T07:22:13.395103Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204346",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204346",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://inspirehep.net/literature/3204346"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

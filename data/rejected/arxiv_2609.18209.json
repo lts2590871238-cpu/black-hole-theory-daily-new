@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.18209",
+    "arxiv_id": "2609.18209",
+    "arxiv_version": null,
+    "inspire_id": "3204500",
+    "doi": null,
+    "title_en": "The Expressive Power of Constrained QAOA: What You Might Have MISsed",
+    "abstract_en": "Feasibility-preserving mixer Hamiltonians offer an attractive alternative to penalty encodings for constrained quantum optimization, yet how enforcing constraints alters the state space reachable by the Quantum Approximate Optimization Algorithm (QAOA) remains largely unexplored. We address this question within the context of the Maximum Independent Set (MIS) problem. Alongside the standard controlled bit-flip mixer, we analyze the alternative $\\mathit{Flip\\text{-}or\\text{-}Stay}$ mixer, whose restriction to the feasible subspace $W_{\\mathcal{F}}$ corresponds precisely to the shifted negative Laplacian of the independent-set reconfiguration graph. Although both mixers induce identical transitions between independent sets, the diagonal modification changes the spectral structure and can substantially enlarge the set of reachable quantum states. For every connected input graph with at least two vertices, we prove that independently parameterized local controls associated with either mixer generate the full unitary Lie algebra on the feasible subspace. Standard QAOA exhibits a more nuanced algebraic structure. We prove that the dynamical Lie algebra associated with MIS-QAOA employing the conventional mixer embeds into its Flip-or-Stay counterpart. Furthermore, we construct an infinite family of graphs for which the corresponding vacuum-state dynamical group orbits exhibit strictly distinct dimensions, establishing a qualitative expressivity separation between the two architectures. For either mixer, we show that standard QAOA initialized in the empty set can prepare a state supported entirely on maximum independent sets at finite depth. For the free architectures, we also derive an exact loss-variance formula in the unitary-design limit, expressed through the number of feasible independent sets and the variance of their cardinalities.",
+    "authors": [
+      "Tsvelikhovskiy, Boris",
+      "Bach, Bao",
+      "Safro, Ilya"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-16T00:00:00Z",
+    "updated_at": "2026-09-17T07:22:13.215797Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204500",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204500",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://inspirehep.net/literature/3204500"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.18821",
+    "arxiv_id": "2609.18821",
+    "arxiv_version": 1,
+    "inspire_id": "3204586",
+    "doi": null,
+    "title_en": "CosmoDyn: a semi-analytic post-processing framework for the dynamical evolution of compact stellar systems and black holes in cosmological simulations",
+    "abstract_en": "Although a large number of cosmological simulations are now publicly available, their spatial and mass resolutions remain insufficient to accurately follow the dynamics of compact stellar systems and black holes. A complementary approach is therefore required to exploit the cosmological assembly histories encoded in these simulations without rerunning them. We present CosmoDyn, an open-source Python framework that reconstructs time-dependent galactic environments from any cosmological simulations and explicitly follows unresolved compact objects within them. A distinctive feature of CosmoDyn is that it models not only the main host galaxy but also its accreted satellites via moving gravitational potentials. The framework can therefore account simultaneously for the delivery of ex-situ populations and for the dynamical influence of satellites on in-situ population already present in the host. The modular pipeline comprises four main stages: reconstructing the evolving host and satellite potentials; generating in-situ and ex-situ populations of compact objects; integrating their orbits with configurable prescriptions for dynamical friction, and mass loss; and modeling tidal streams. Once reconstructed, the same cosmological environment can be reused to explore different objects, initial conditions, and physical prescriptions at low computational cost. CosmoDyn thus enables rapid parameter exploration and applications to statistically significant galaxy samples, while its modular architecture is designed to incorporate progressively more realistic potentials, and formation models.",
+    "authors": [
+      "Pierre Boldrini",
+      "Paola Di Matteo",
+      "David Katz",
+      "Laia Casamiquela",
+      "Chervin Laporte",
+      "Maxime Assuerus",
+      "Marco Montuori",
+      "Glenn van de Ven"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-09-16T00:00:00Z",
+    "updated_at": "2026-09-17T08:18:48.776702Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.18821v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.18821v1",
+    "inspire_url": "https://inspirehep.net/literature/3204586",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.18821",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://arxiv.org/abs/2609.18821v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3204586",
+        "fetched_at": "2026-09-18T01:20:04.534695Z",
+        "url": "https://inspirehep.net/literature/3204586"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
