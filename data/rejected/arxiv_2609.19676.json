@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.19676",
+    "arxiv_id": "2609.19676",
+    "arxiv_version": null,
+    "inspire_id": "3204811",
+    "doi": null,
+    "title_en": "Linear combination of Schrödingerization for quantum linear systems with optimal matrix-query complexity",
+    "abstract_en": "Quantum linear systems algorithms (QLSAs) aim to solve linear systems $A\\bb{x}=\\bb{b}$ exponentially faster than classical methods under certain conditions. In this work, we develop quantum algorithms for solving linear algebraic equations from an ODE-based perspective. Inspired by the linear combination of Hamiltonian simulation (LCHS) representation in the Fourier approach \\cite{Childs2017QLSA}, we express the solution $\\bb{x}$ as a linear combination of solutions to a system of linear convection equations, which become Schrödinger-type equations with unitary evolutions in the Fourier domain. We refer to this representation as LC-Schrödingerization. Based on this result, we construct an LCHS-based quantum algorithm with two LCHS instances: one for time-marching and one for numerical integration. The key construction uses the derivative of a Gaussian-smoothed hat function and recovers the solution over a fixed auxiliary interval. This permits a truncation time independent of the target accuracy and avoids the loss in success probability from selecting a single grid point. Periodization and explicit Fourier coefficients provide the corresponding projection error bounds. Under the stated oracle assumptions and given a constant-factor estimate of the solution norm, direct simulation of the select operators and block preconditioning achieve the optimal matrix-query complexity $\\mathcal{O}(κ_A\\log\\frac1\\varepsilon)$ without using variable-time amplitude amplification (VTAA). The same upper bound holds for queries to the right-hand-side preparation oracle.",
+    "authors": [
+      "Yang, Yin",
+      "Yu, Yue",
+      "Zhang, Long"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-17T00:00:00Z",
+    "updated_at": "2026-09-18T12:32:50.559590Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204811",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204811",
+        "fetched_at": "2026-09-19T01:18:06.053293Z",
+        "url": "https://inspirehep.net/literature/3204811"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

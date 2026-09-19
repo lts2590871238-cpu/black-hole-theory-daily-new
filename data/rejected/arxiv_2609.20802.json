@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.20802",
+    "arxiv_id": "2609.20802",
+    "arxiv_version": 1,
+    "inspire_id": "3204946",
+    "doi": null,
+    "title_en": "Locally optimized variational evolution for quantum many-body systems",
+    "abstract_en": "Conventional quantum advantage in many-body dynamics is based on avoiding the simulation cost on a classical computer that arises from the extensive exponential complexity of the global wavefunction. Local observables, however, do not inherit this extensive complexity and may instead be governed by an intrinsic local complexity that is independent of the total system size. This distinction is particularly relevant in thermalising systems, where local observables lose memory of microscopic details and relax towards equilibrium values determined by only a few parameters. Here we introduce a variational time-evolution principle that exploits this distinction by replacing global-state fidelity with a cost function defined on local reduced density matrices. The resulting evolution retains coherent short-time dynamics while exploiting the simplification produced by thermalisation at later times. The concrete algorithm we propose is based on locally optimising matrix-product states and admits closed-form equations of motion analogous to the time-dependent variational principle. We show that the same variational principle has a quantum-classical counterpart, combining quantum evaluation of the local cost with an optimisation strategy robust to both shot and hardware noise. Proof-of-principle implementations on Quantinuum H2 and IBM Heron processors recover the characteristic local dynamics.",
+    "authors": [
+      "Carolin Wille",
+      "Max Marvell",
+      "Lauren Stewart",
+      "Max Murphy",
+      "Vinul Wimalaweera",
+      "Lesley Gover",
+      "Andrew G. Green"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-09-17T00:00:00Z",
+    "updated_at": "2026-09-18T12:32:42.738139Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.20802v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.20802v1",
+    "inspire_url": "https://inspirehep.net/literature/3204946",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.20802",
+        "fetched_at": "2026-09-19T01:18:06.053293Z",
+        "url": "https://arxiv.org/abs/2609.20802v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3204946",
+        "fetched_at": "2026-09-19T01:18:06.053293Z",
+        "url": "https://inspirehep.net/literature/3204946"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

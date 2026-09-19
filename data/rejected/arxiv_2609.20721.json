@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.20721",
+    "arxiv_id": "2609.20721",
+    "arxiv_version": null,
+    "inspire_id": "3204959",
+    "doi": null,
+    "title_en": "Quantum Simulation of Dissipative Non-Markovian Coupled Classical Oscillators",
+    "abstract_en": "We present a quantum algorithm for simulating classical oscillator networks characterized by non-Markovian dissipation and time-varying material properties, extending recent speedups for undamped harmonic systems to viscoacoustic and viscoelastic media. We embed the history-dependent dynamics into a Markovian state space governed by a non-Hermitian operator by approximating memory kernels through a Prony series. We then use linear combination of Hamiltonian simulation to estimate the instantaneous kinetic and potential energy for a subset of oscillators at time $t$ within error $ε$ using a number of queries to the oscillator system that scales as $\\widetilde{\\mathcal{O}}(α_{\\rm tot} t/ε)$, where $α_{\\rm tot}$ is polynomial in the strength of the dissipation, spring constants, inverse masses, and sparsity of the connections in the network. We further show that this energy estimation task is in the worst-case classically hard (i.e., a corresponding decision problem is $\\mathsf{BQP}$-complete), even in the presence of strong dissipation. For time-dependent materials, we show that changes in material properties appear as effective dissipation or growth in the energy representation. Additionally, we prove the infeasibility of exponential quantum advantages in locally coupled topologies through a novel form of Lieb-Robinson-like bounds that apply to differential equations. This allows our quantum algorithms to provide quartic speedups for locally coupled damped oscillator systems in three dimensions, raising the possibility of practical quantum speedups for realistically damped oscillator networks and approximated wave equations.",
+    "authors": [
+      "Schade, Malte",
+      "Simon, Sophia",
+      "Wiebe, Nathan",
+      "Keating, Scott",
+      "Bösch, Cyrill",
+      "Fichtner, Andreas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-17T00:00:00Z",
+    "updated_at": "2026-09-18T12:32:29.596680Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204959",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204959",
+        "fetched_at": "2026-09-19T01:18:06.053293Z",
+        "url": "https://inspirehep.net/literature/3204959"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

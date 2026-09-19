@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.19561",
+    "arxiv_id": "2609.19561",
+    "arxiv_version": null,
+    "inspire_id": "3204685",
+    "doi": null,
+    "title_en": "A Bi-Objective Routing Framework for Hybrid Terrestrial-Satellite Quantum Networks",
+    "abstract_en": "Hybrid terrestrial-satellite quantum networks combine terrestrial fiber infrastructure with free-space links to enable long-distance entanglement distribution. Entanglement can be routed over different combinations of terrestrial and satellite links, resulting in paths with different entanglement generation rates (EGRs) and fidelities. Existing routing algorithms, however, typically reduce routing to a single-objective problem by optimizing either EGR or fidelity, or by optimizing one while constraining the other, and thus do not explicitly capture the trade-off between the two. In this paper, we present a bi-objective routing framework for hybrid quantum networks that jointly optimizes end-to-end EGR and fidelity. We formulate routing as a Pareto optimization problem and show that it possesses a special mathematical structure: the bottleneck nature of end-to-end EGR and the multiplicative nature of end-to-end fidelity allow the problem to be transformed into a MAXMIN-MINSUM bi-criterion path problem. This transformation enables the exact polynomial-time computation of a minimal complete Pareto set using Martins' bicriterion routing algorithm. Our results demonstrate that hybrid networks expose substantially richer Pareto frontiers than terrestrial-only networks and that the proposed framework outperforms representative single-objective routing policies by allowing applications to select paths based on their EGR and fidelity requirements.",
+    "authors": [
+      "Khambay, Yashpreet",
+      "Panigrahy, Nitish K."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-17T00:00:00Z",
+    "updated_at": "2026-09-18T12:30:33.937478Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204685",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204685",
+        "fetched_at": "2026-09-19T01:18:06.053293Z",
+        "url": "https://inspirehep.net/literature/3204685"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

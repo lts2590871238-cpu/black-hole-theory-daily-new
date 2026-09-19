@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.19642",
+    "arxiv_id": "2609.19642",
+    "arxiv_version": null,
+    "inspire_id": "3204833",
+    "doi": null,
+    "title_en": "Improving Sample Efficiency in Peptide-HLA Binding Prediction with Hybrid Quantum-Classical Neural Networks",
+    "abstract_en": "Peptide-HLA binding prediction is a critical step in neoantigen identification for personalized cancer immunotherapy and holds significant clinical value. However, the training data available for many HLA alleles are extremely limited, which severely constrains the performance of conventional methods on this task. Parameterized quantum circuits are hypothesized to induce inductive biases beneficial for learning from small datasets, yet their application to biological sequence prediction remains underexplored. To address this, we propose a hybrid quantum-classical neural network (HQNN) specifically designed for peptide-HLA binding prediction. HQNN integrates multi-source biological feature encoding with parallel quantum feature extractors and a quantum-enhanced classifier. On two HLA alleles (A*02:01 and B*07:02), HQNN outperforms a parameter-matched classical CNN baseline across all training sizes, with the performance gap widening as training data decreases. Ablation studies confirm the respective contributions of the quantum feature extraction module and the quantum classifier. In noise-aware simulations, performance degrades only mildly, and such degradation is reasonable and acceptable under realistic quantum hardware noise levels. These results suggest that hybrid quantum-classical architectures can provide practical sample-efficiency gains for immunoinformatics tasks in low-data regimes.",
+    "authors": [
+      "Jia, Chenyan",
+      "Guo, Cong",
+      "Chen, Siyue",
+      "Ye, Pengpeng",
+      "Chen, Xiaochun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-17T00:00:00Z",
+    "updated_at": "2026-09-18T12:30:40.141638Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3204833",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3204833",
+        "fetched_at": "2026-09-19T01:18:06.053293Z",
+        "url": "https://inspirehep.net/literature/3204833"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
