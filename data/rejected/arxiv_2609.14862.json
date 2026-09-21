@@ -3,22 +3,19 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.14862",
     "arxiv_id": "2609.14862",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3203175",
     "doi": null,
     "title_en": "Field-Level Baryon Acoustic Oscillation Reconstruction of the DESI DR1 Luminous Red Galaxies with Linear Field Transformer (LiFT)",
     "abstract_en": "We present the first application of neural field-level baryon-acoustic oscillation (BAO) reconstruction to real spectroscopic survey data. We develop Linear Field Transformer (LiFT), a 3D vision transformer that takes as input the observed galaxy field, its standard reconstruction, and a set of context channels encoding local line of sight, survey coverage, and redshift, and learns to correct standard reconstruction toward the linear density field. We construct a forward-modeling pipeline to produce mock lightcones similar to the DESI Data Release 1 (DR1) luminous red galaxy (LRG) sample, and train LiFT on these. We validate LiFT on held-out simulations, as well as on additional mocks which differ in gravity solver, halo finder, HOD, cosmology, and fiber-assignment history, as well as on mocks analyzed with a distorted distance-redshift relation; ultimately, we find unbiased dilation parameters with consistently tighter constraints than standard reconstruction. Applied to the DESI DR1 LRGs, LiFT improves errors on $α_{\\rm iso}$ by 13%, 24%, and 30% and on $α_{\\rm AP}$ by 5%, 22%, and 30% relative to the DESI DR1 standard reconstruction analysis in the LRG1, LRG2, and LRG3 bins respectively; meanwhile, our DR1 central values remain consistent with DR1 and DR2. This equates to a factor of 1.2, 1.7 and 2.0 increase in Figure of Merit (or effective survey volume) if one were to only use standard reconstruction. Ultimately, these results establish LiFT as a validated, survey-ready tool for current and upcoming galaxy surveys.",
     "authors": [
-      "Liam Parker",
-      "Uroš Seljak",
-      "Adrian E. Bayer",
-      "Richard Feder",
-      "David Valcin"
+      "Parker, Liam",
+      "Seljak, Uroš",
+      "Bayer, Adrian E.",
+      "Feder, Richard",
+      "Valcin, David"
     ],
-    "categories": [
-      "astro-ph.CO",
-      "astro-ph.IM"
-    ],
+    "categories": [],
     "submitted_at": "2026-09-14T00:00:00Z",
     "updated_at": "2026-09-16T04:57:33.527581Z",
     "document_types": [
@@ -28,21 +25,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2609.14862v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.14862v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3203175",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2609.14862",
-        "fetched_at": "2026-09-20T01:18:58.349454Z",
-        "url": "https://arxiv.org/abs/2609.14862v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3203175",
-        "fetched_at": "2026-09-20T01:18:58.349454Z",
+        "fetched_at": "2026-09-21T01:15:16.392499Z",
         "url": "https://inspirehep.net/literature/3203175"
       }
     ],

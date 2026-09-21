@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.21631",
+    "arxiv_id": "2609.21631",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Reformulating Pfaffian Quantum Monte Carlo with the Hybrid Monte Carlo formalism",
+    "abstract_en": "Pfaffian quantum Monte Carlo extends auxiliary field methods to anomalous fermionic Hamiltonians, opening access to pairing systems and Hubbard-Stratonovich decompositions that are unavailable in determinant formulations. We show that this flexibility can be combined with the global updates of Hybrid Monte Carlo (HMC), leading to an algorithm scaling as $\\mathcal{O}(N_τL^3)$, similar to its determinant quantum Monte Carlo (DQMC) counterpart without pseudofermions. The central observation is that the molecular dynamics force depends only on the magnitude of the Pfaffian weight, which admits a determinant representation and leads to a simplified force expression. This construction also yields unequal-time Majorana correlators at essentially no additional cost. For interaction kernels with no convenient analytic exponential derivative, we employ a truncated force expansion whose errors are removed by the exact Metropolis accept-reject step. Applied to the interacting Kitaev chain, the method agrees with exact diagonalization and resolves low-energy modes localized at opposite boundaries, together with their increasing overlap near the topological transition. These results establish HMC as an efficient sampling framework for Pfaffian auxiliary-field simulations.",
+    "authors": [
+      "Thomas Hauschild",
+      "Lin Wang",
+      "Finn L. Temmen",
+      "Thomas Luu"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-09-18T11:21:05Z",
+    "updated_at": "2026-09-18T11:21:05Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.21631v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.21631v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.21631",
+        "fetched_at": "2026-09-21T01:15:16.392499Z",
+        "url": "https://arxiv.org/abs/2609.21631v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

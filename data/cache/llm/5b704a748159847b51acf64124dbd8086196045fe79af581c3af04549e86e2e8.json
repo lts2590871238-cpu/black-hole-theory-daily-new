@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 16,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 3
+  },
+  "total_score": 59,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文首次将Gaia天体测量自行与脉冲星计时数据联合，用于搜寻和限制pHz至亚nHz频段的连续引力波，属于脉冲星计时阵列（PTA）相关研究；其贝叶斯模型选择与系统误差处理框架、以及未来Gaia DR4的预报，对研究者有明确参考价值。",
+  "title_zh": "结合天体测量与脉冲星计时：首次联合分析甚低频引力波",
+  "abstract_zh": "pHz至亚nHz引力波频段在很大程度上仍未被探索，但对于描绘超大质量双黑洞（SMBHB）早期旋进阶段以及探测早期宇宙物理至关重要。天体测量与脉冲星计时提供了正交且深度互补的长期观测量，可用于研究该频段。我们旨在首次结合真实天体测量自行与双脉冲星计时进行联合数据分析，以搜寻并限制由SMBHB在超低频段（$10^{-12} \\le f_{GW} \\le10^{-9} Hz$）产生的连续引力波（CWs）。我们采用贝叶斯模型选择与上限估计框架，将来自Gaia CRF3星表的约$\\sim 1.5 \\times 10^6$个类星体的视自行位移与11颗高精度双脉冲星的视线方向轨道周期导数（$\\dot{P}_b$）相结合。为防止虚假探测，我们对仪器和天体物理系统误差进行了大量建模：我们通过蒙特卡洛模拟传播脉冲星的银河系势不确定性，并对类星体进行直至八极阶（l=3）的矢量球谐（VSH）分解。我们在联合分析中未发现CW信号的统计显著证据（$\\ln B_{joint} = -0.42 \\pm 0.03$）。在未探测到信号的情况下，我们在pHz频段给出了迄今为止最严格的CW应变限制，在参考频率$f_{ref} = 4 \\times 10^{-10}$ Hz处得到95%上限$h_0\\le6.4x10^{-11}$。联合数据集实现了全天覆盖，并将单数据集上限改善了20%-30%。结合正交观测量成功打破了孤立搜寻中固有的空间简并。此外，注入-恢复（inj.-rec.）预报表明，借助即将到来的Gaia DR4扩展的时间基线和降低的不确定性，该联合框架有望打破亚nHz连续引力波$h_0 < 10^{-11}$的上限壁垒。",
+  "keywords_en": [
+    "pulsar timing",
+    "astrometry",
+    "continuous gravitational waves",
+    "supermassive black hole binaries",
+    "Bayesian model selection",
+    "Gaia"
+  ],
+  "keywords_zh": [
+    "脉冲星计时",
+    "天体测量",
+    "连续引力波",
+    "超大质量双黑洞",
+    "贝叶斯模型选择",
+    "Gaia"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-21T01:16:03.071147Z"
+}

@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.27320",
     "arxiv_id": "2607.27320",
-    "arxiv_version": 1,
-    "inspire_id": "3184669",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Emulating Cosmic Structure Formation with a Lagrangian Neural Cellular Automaton",
-    "abstract_en": "Field-level inference of cosmological initial conditions from galaxy surveys requires a forward model that is simultaneously accurate in the non-linear regime, computationally efficient, and fully differentiable. Traditional N-body simulations are accurate but computationally prohibitive for iterative inference, while approximate solvers like Lagrangian Perturbation Theory (LPT) fail to capture the knotty halo-forming dynamics of the cosmic web at late times. We introduce the \\textit{Lagrangian Neural Cellular Automaton} (LNCA), a hybrid deep learning framework that can be applied to emulate structure formation as a local, iterative dynamical process on a comoving lattice. Unlike standard Eulerian Convolutional Neural Networks (CNNs) which map fixed density fields, the LNCA operates in the Lagrangian frame, advecting the computational graph itself to follow the flow of mass. By training the network to learn only the \\textit{residual} displacement corrections to the Zeldovich approximation, we achieve high-fidelity emulation of the non-linear physics while guaranteeing accuracy at large scales. We further constrain our model to produce complete trajectories, not just final states, by adopting an equivariant cellular automaton architecture, which recurrently iterates on its internal states to yield a dynamic history. The resulting model is strictly local, translationally and rotationally equivariant, and naturally supports continuous time integration, making it a reliable differentiable forward model for reconstructing the initial conditions of the universe from lightcone data. Our trained model supports percent-level precision in the power and cross spectra well into the non-linear regime ($k \\lesssim 0.5 \\, h \\text{Mpc}^{-1}$), while requiring $\\sim10^4$ times fewer learned parameters than comparable models which take the form of an interpretable internal dynamic rule set.",
+    "abstract_en": "Field-level inference of cosmological initial conditions from galaxy surveys requires a forward model that is simultaneously accurate in the non-linear regime, computationally efficient, and fully differentiable. Traditional N-body simulations are accurate but computationally prohibitive for iterative inference, while approximate solvers like Lagrangian Perturbation Theory (LPT) fail to capture the knotty halo-forming dynamics of the cosmic web at late times. We introduce the \\textit{Lagrangian Neural Cellular Automaton} (LNCA), a hybrid deep learning framework that can be applied to emulate structure formation as a local, iterative dynamical process on a comoving lattice. Unlike convolutional emulators which map fixed grids in a single pass, the LNCA operates in the Lagrangian frame, iteratively advecting the computational graph itself to follow the flow of mass. By training the network to learn only the \\textit{residual} displacement corrections to the Zeldovich approximation, we achieve high-fidelity emulation of the non-linear physics while guaranteeing accuracy at large scales. We further constrain our model to produce complete trajectories, not just final states, by adopting an equivariant cellular automaton architecture, which recurrently iterates on its internal states to yield a dynamic history. The resulting update rule acts on a single fixed neighborhood, is translationally and rotationally equivariant, and is integrated over discrete substeps to yield trajectories, making it a differentiable forward model for reconstructing the initial conditions of the universe from lightcone data. We train our model to emulate the real-space matter distributions of a diverse set of N-body simulations from the Quijote suite, for a range of redshifts and cosmologies, given only the initial conditions.",
     "authors": [
       "Cooper Jacobus",
       "Beatriz Tucci",
@@ -18,31 +18,23 @@
       "astro-ph.CO",
       "cs.LG"
     ],
-    "submitted_at": "2026-07-29T00:00:00Z",
-    "updated_at": "2026-08-01T02:25:52.277350Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-29T18:00:01Z",
+    "updated_at": "2026-09-17T22:34:29Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.27320v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27320v1",
-    "inspire_url": "https://inspirehep.net/literature/3184669",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.27320v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.27320v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.27320",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://arxiv.org/abs/2607.27320v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3184669",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://inspirehep.net/literature/3184669"
+        "fetched_at": "2026-09-21T01:15:16.392499Z",
+        "url": "https://arxiv.org/abs/2607.27320v2"
       }
     ],
     "is_demo": false
