@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.22342",
+    "arxiv_id": "2609.22342",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Gradient-estimator design overcomes trainability barriers in neural-network-based variational optimization",
+    "abstract_en": "Neural networks provide expressive representations for scientific computing. However, even sufficiently expressive networks can suffer training failure in weak-gradient regimes, limiting their practical use in quantum many-body physics and ab initio quantum chemistry. Here we derive an unbiased direct gradient estimator and introduce the adaptive minimum-variance phase (AMVP) estimator for neural-network variational optimization. By improving the signal-to-noise ratio of weak gradients, these methods enable reliable scientific calculations where training previously failed, while substantially reducing computational cost. The framework enables compact networks to outperform larger and fine-tuned default standard-estimator models with over an order of magnitude less GPU time on correlated flux models, and ultimately exceed the density matrix renormalization group (DMRG) accuracy. It further achieves chemical accuracy in N$_2$ bond breaking and, for the first time, in heavy-element I$_2$ with explicit spin-orbit coupling. These results demonstrate that gradient-estimator design expands the capabilities of neural-network variational methods for accurate scientific computing.",
+    "authors": [
+      "Yi-Ran Xue",
+      "Rui Wang",
+      "Baigeng Wang",
+      "Chenan Wei"
+    ],
+    "categories": [
+      "cond-mat.dis-nn",
+      "cond-mat.str-el",
+      "cs.LG",
+      "physics.chem-ph",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-09-16T22:22:28Z",
+    "updated_at": "2026-09-16T22:22:28Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.22342v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.22342v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.22342",
+        "fetched_at": "2026-09-22T01:39:21.863787Z",
+        "url": "https://arxiv.org/abs/2609.22342v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

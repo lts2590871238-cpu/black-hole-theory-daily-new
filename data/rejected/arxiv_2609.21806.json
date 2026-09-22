@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2609.21806",
     "arxiv_id": "2609.21806",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3205230",
     "doi": null,
     "title_en": "FLUMEN: Neural Emulator of an Advanced Stochastic Weak Lensing Model",
     "abstract_en": "Weak gravitational lensing by intervening structure magnifies distant sources and induces scatter in their luminosity distances. We develop an improved stochastic model for the distribution of weak lensing magnifications, $\\textrm{d} P/\\textrm{d}μ$, that resolves individual lenses down to $10^7\\,M_\\odot$ and, besides field halos and filaments, includes subhalos and large-scale clustering of the lens population. Both extensions broaden the distribution, and the resulting scatter in the luminosity distances agrees with the halo-model prediction from the nonlinear matter power spectrum and exceeds that obtained from $N$-body ray tracing, which we attribute to the finite mass resolution and box size of the simulations. Building on this model, we develop \\texttt{FLUMEN}, a conditional normalizing-flow emulator that predicts $\\textrm{d} P/\\textrm{d}μ$ as a function of the source redshift up to $z_s=12$ and six cosmological parameters $\\{h,Ω_M,Ω_B,σ_8,n_s,z_{\\rm eq}\\}$. The emulator enforces the empty-beam cutoff and the fold-caustic power-law tail analytically, and reproduces the Monte Carlo distributions on held-out cosmologies with a median Kullback--Leibler divergence of $0.0048$ at negligible cost. Our results provide a fast and flexible framework for incorporating the full magnification distribution into cosmological analyses of standard sirens, supernovae, and other point sources.",
@@ -15,23 +15,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-09-18T14:18:25Z",
-    "updated_at": "2026-09-18T14:18:25Z",
-    "document_types": [],
+    "submitted_at": "2026-09-18T00:00:00Z",
+    "updated_at": "2026-09-21T12:24:41.297664Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2609.21806v1",
     "pdf_url": "https://arxiv.org/pdf/2609.21806v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205230",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.21806",
-        "fetched_at": "2026-09-21T01:15:16.392499Z",
+        "fetched_at": "2026-09-22T01:39:21.863787Z",
         "url": "https://arxiv.org/abs/2609.21806v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3205230",
+        "fetched_at": "2026-09-22T01:39:21.863787Z",
+        "url": "https://inspirehep.net/literature/3205230"
       }
     ],
     "is_demo": false

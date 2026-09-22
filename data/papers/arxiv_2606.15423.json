@@ -4,11 +4,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2606.15423",
     "arxiv_id": "2606.15423",
-    "arxiv_version": 3,
+    "arxiv_version": 4,
     "inspire_id": null,
     "doi": null,
-    "title_en": "The Quantum Boundary of Black Hole Interiors: Termination of the Sum over Geometries at Planck Curvature",
-    "abstract_en": "Classical general relativity predicts a singularity at the center of every black hole. We argue that this singularity is never reached. We propose that the gravitational functional integral loses support at the Planck curvature threshold ($\\mathcal{K} \\sim \\ell_P^{-4}$), forming a quantum boundary, $\\mathcal{B}_Q$, that truncates the spacetime manifold at a finite, positive radius. The mechanism relies on an ambiguity--definedness--support chain: at Planck scales, no unique metric is physically selected by the semiclassical action or Compton localization. This intrinsic ambiguity implies no definite spacetime geometry exists, assigning such configurations vanishing wavefunctional support ($Ψ= 0$). Geometrically, this acts as topological excision: regions lacking a definite metric behave as microscopic holes. As the rising curvature drives them to merge, no continuous configuration remains in the admissible domain of the Feynman-DeWitt measure. The location of $\\mathcal{B}_Q$ is set by accretion history. For a spinning black hole, mass inflation carries curvature to the threshold at the inner horizon $r_{-}$, placing $\\mathcal{B}_Q$ at a macroscopic radius and leaving the Cauchy horizon, ring, and deeper extensions outside the physical manifold. $\\mathcal{B}_Q$ thereby acts as a quantum-geometric cutoff for the mass-inflation instability, capping the internal mass parameter at a finite amplification $n_{\\rm qb} \\approx (r_{-}/r_g)^3 (r_g/\\ell_P)^2/\\sqrt{48}$. Evaluating the Gibbons-Hawking-York boundary term over this terminal slice yields a finite interior action, $S_{GHY}^{qb} \\approx \\frac{3}{2} n_{\\rm qb} Mc^2\\,Δt$. Without invoking trans-Planckian degrees of freedom, these results suggest the classical singularity is not a physical event but the terminal boundary of the geometry's domain of definition.",
+    "title_en": "The Quantum Boundary of Black Hole Interiors: Signature Failure and the Termination of Mass Inflation",
+    "abstract_en": "Classical general relativity predicts a singularity at the center of every black hole. We argue that it is never reached. We adopt the conjecture of Shaya (2026) that a metric element of non-Lorentzian signature is inadmissible: it cannot enter the Feynman sum over geometries, and so cannot belong to the physical manifold. Nothing beyond standard quantum mechanics is invoked. Signature is the only pointwise diffeomorphism-invariant content of the metric, so the criterion is local and coordinate independent. Transverse-traceless graviton vacuum fluctuations grow as $Δ_g = \\sqrt{8/π}\\,\\ell_P/q$ on a scale $q$, and any finite-scale metric stress driving an eigenvalue through zero removes that element. When the surviving elements can no longer sustain connected, differentiable, causally propagating support, the manifold terminates on a quantum boundary $\\mathcal{B}_Q$ at finite radius. For the vacuum Schwarzschild interior the tidal Weyl stress gives $r_{\\rm qb} \\simeq 1.0\\times10^{-22}(M/M_\\odot)^{1/3}$~m for the adopted curvature response $C_W=0.15$. For a spinning hole, the boundary forms much farther out: mass inflation at the inner horizon $r_{-}$ concentrates an exponentially growing interior mass into a thin layer whose thickness is set by the accretion rate and floored at one spatial quantum, and the counter-streaming null fluxes supply a trace-free Ricci stress along the radial axis alone. This caps the factor $n_{\\rm qb}$ by which mass inflation can amplify the interior mass function, at between $10^{38}$ and $10^{69}$ for a $10\\,M_\\odot$ hole depending on its accretion history, and leaves the Cauchy horizon, the ring, and all deeper extensions outside the physical manifold. The Gibbons--Hawking--York term over this terminal slice yields a finite interior action, $S_{GHY}^{qb} \\approx \\frac{3}{2} n_{\\rm qb} Mc^2\\,Δt$.",
     "authors": [
       "Edward J. Shaya"
     ],
@@ -16,22 +16,22 @@
       "gr-qc"
     ],
     "submitted_at": "2026-06-13T18:22:06Z",
-    "updated_at": "2026-07-29T16:43:10Z",
+    "updated_at": "2026-09-19T23:15:48Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2606.15423v3",
-    "pdf_url": "https://arxiv.org/pdf/2606.15423v3",
+    "abs_url": "https://arxiv.org/abs/2606.15423v4",
+    "pdf_url": "https://arxiv.org/pdf/2606.15423v4",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2606.15423",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://arxiv.org/abs/2606.15423v3"
+        "fetched_at": "2026-09-22T01:39:21.863787Z",
+        "url": "https://arxiv.org/abs/2606.15423v4"
       }
     ],
     "is_demo": false
@@ -60,40 +60,44 @@
       "black_hole_thermodynamics"
     ],
     "scores": {
-      "theory_depth": 25,
-      "methodological_rigor": 15,
+      "theory_depth": 26,
+      "methodological_rigor": 12,
       "novelty": 12,
       "clarity": 8,
       "metadata_quality": 5,
-      "community_signal": 0,
-      "other": 5
+      "community_signal": 2,
+      "other": 4
     },
-    "total_score": 70,
+    "total_score": 69,
     "reject_reason_zh": "",
-    "selection_reason_zh": "提出量子边界取代经典奇点，概念新颖，推理严密，与广义相对论基础高度相关。",
-    "title_zh": "黑洞内部的量子边界：普朗克曲率处几何求和的终止",
-    "abstract_zh": "经典广义相对论预言每个黑洞中心存在奇点。我们认为这个奇点永远不会达到。我们提出引力泛函积分在普朗克曲率阈值（$\\mathcal{K} \\sim \\ell_P^{-4}$）处失去支持，形成一个量子边界 $\\mathcal{B}_Q$，在有限的、正的半径处截断时空流形。该机制依赖于一个 ambiguity--definedness--support 链：在普朗克尺度下，没有唯一度规被半经典作用量或康普顿局域化物理地选择。这一内在模糊性意味着不存在确定的时空几何，从而赋予这些构型零波泛函支持（$Ψ= 0$）。几何上，这表现为拓扑切除：缺乏确定度规的区域表现为微观孔洞。随着上升的曲率驱动它们合并，在 Feynman-DeWitt 测度的容许域内不再存在连续构型。$\\mathcal{B}_Q$ 的位置由吸积历史决定。对于自旋黑洞，质量暴胀将曲率在内视界 $r_{-}$ 处带到阈值，将 $\\mathcal{B}_Q$ 置于一个宏观半径，并将柯西视界、环以及更深层延伸排除在物理流形之外。因此，$\\mathcal{B}_Q$ 充当了质量暴胀不稳定性的量子几何截断，将内部质量参数限制在有限放大倍数 $n_{\\rm qb} \\approx (r_{-}/r_g)^3 (r_g/\\ell_P)^2/\\sqrt{48}$。计算这一终端切片上的 Gibbons-Hawking-York 边界项给出了有限的内域作用量 $S_{GHY}^{qb} \\approx \\frac{3}{2} n_{\\rm qb} Mc^2\\,Δt$。无需借助超普朗克自由度，这些结果表明经典奇点并非物理事件，而是几何定义域的终端边界。",
+    "selection_reason_zh": "论文聚焦黑洞内部奇点是否实际形成这一广义相对论基础问题，提出用非洛伦兹签名不可容许性来终止流形的判据，并给出量子边界半径、质量膨胀放大因子上限与Gibbons-Hawking-York项作用量等定量结果，理论深度与新颖性均较高，值得进一步阅读。",
+    "title_zh": "黑洞内部结构的量子边界：签名失效与质量膨胀的终止",
+    "abstract_zh": "经典广义相对论预言每个黑洞中心都存在奇点。我们主张这一奇点永远不会被到达。我们采纳 Shaya（2026）的猜想：非洛伦兹签名的度规元素是不可容许的——它不能进入费曼几何求和，因此不能属于物理流形。这里没有引入任何超出标准量子力学的东西。签名是度规中唯一逐点的微分同胚不变内容，因此该判据是局域的且与坐标无关。横向无迹引力子真空涨落在尺度 $q$ 上按 $Δ_g = \\sqrt{8/π}\\,\\ell_P/q$ 增长，任何驱动本征值穿过零的有限尺度度规应力都会移除该元素。当幸存元素再也无法维持连通的、可微的、因果传播的支撑时，流形就在有限半径处的量子边界 $\\mathcal{B}_Q$ 上终止。对于真空 Schwarzschild 内部，潮汐 Weyl 应力给出，在所选曲率响应 $C_W=0.15$ 下，$r_{\\rm qb} \\simeq 1.0\\times10^{-22}(M/M_\\odot)^{1/3}$~m。对于旋转黑洞，边界形成的位置要远得多：内视界 $r_{-}$ 处的质量膨胀把指数增长的内禀质量集中到一个薄层中，该薄层的厚度由吸积率决定，并以一个空间量子为下限，而反向流动的零通量只沿径向轴提供无迹 Ricci 应力。这给质量膨胀放大内部质量函数的因子 $n_{\\rm qb}$ 设定了上限，对于 $10\\,M_\\odot$ 黑洞，该上限在 $10^{38}$ 到 $10^{69}$ 之间，取决于其吸积历史，并且使 Cauchy 视界、环以及所有更深的外延都处于物理流形之外。对这一终止切片上的 Gibbons--Hawking--York 项给出有限的内部作用量，$S_{GHY}^{qb} \\approx \\frac{3}{2} n_{\\rm qb} Mc^2\\,Δt$。",
     "keywords_en": [
-      "black hole",
-      "singularity",
-      "quantum gravity",
-      "Planck curvature",
+      "black hole interior",
+      "quantum boundary",
+      "signature",
       "mass inflation",
-      "Cauchy horizon"
+      "Cauchy horizon",
+      "Gibbons-Hawking-York term",
+      "non-Lorentzian signature",
+      "singularity"
     ],
     "keywords_zh": [
-      "黑洞",
-      "奇点",
-      "量子引力",
-      "普朗克曲率",
-      "质量暴胀",
-      "柯西视界"
+      "黑洞内部",
+      "量子边界",
+      "签名",
+      "质量膨胀",
+      "Cauchy 视界",
+      "Gibbons-Hawking-York 项",
+      "非洛伦兹签名",
+      "奇点"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-31T01:04:26.260674Z"
+    "created_at": "2026-09-22T01:40:42.612018Z"
   },
-  "published_at": "2026-08-05T00:53:50.666718Z"
+  "published_at": "2026-09-22T01:40:42.612479Z"
 }

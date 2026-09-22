@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 12,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 2,
+    "other": 4
+  },
+  "total_score": 69,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文聚焦黑洞内部奇点是否实际形成这一广义相对论基础问题，提出用非洛伦兹签名不可容许性来终止流形的判据，并给出量子边界半径、质量膨胀放大因子上限与Gibbons-Hawking-York项作用量等定量结果，理论深度与新颖性均较高，值得进一步阅读。",
+  "title_zh": "黑洞内部结构的量子边界：签名失效与质量膨胀的终止",
+  "abstract_zh": "经典广义相对论预言每个黑洞中心都存在奇点。我们主张这一奇点永远不会被到达。我们采纳 Shaya（2026）的猜想：非洛伦兹签名的度规元素是不可容许的——它不能进入费曼几何求和，因此不能属于物理流形。这里没有引入任何超出标准量子力学的东西。签名是度规中唯一逐点的微分同胚不变内容，因此该判据是局域的且与坐标无关。横向无迹引力子真空涨落在尺度 $q$ 上按 $Δ_g = \\sqrt{8/π}\\,\\ell_P/q$ 增长，任何驱动本征值穿过零的有限尺度度规应力都会移除该元素。当幸存元素再也无法维持连通的、可微的、因果传播的支撑时，流形就在有限半径处的量子边界 $\\mathcal{B}_Q$ 上终止。对于真空 Schwarzschild 内部，潮汐 Weyl 应力给出，在所选曲率响应 $C_W=0.15$ 下，$r_{\\rm qb} \\simeq 1.0\\times10^{-22}(M/M_\\odot)^{1/3}$~m。对于旋转黑洞，边界形成的位置要远得多：内视界 $r_{-}$ 处的质量膨胀把指数增长的内禀质量集中到一个薄层中，该薄层的厚度由吸积率决定，并以一个空间量子为下限，而反向流动的零通量只沿径向轴提供无迹 Ricci 应力。这给质量膨胀放大内部质量函数的因子 $n_{\\rm qb}$ 设定了上限，对于 $10\\,M_\\odot$ 黑洞，该上限在 $10^{38}$ 到 $10^{69}$ 之间，取决于其吸积历史，并且使 Cauchy 视界、环以及所有更深的外延都处于物理流形之外。对这一终止切片上的 Gibbons--Hawking--York 项给出有限的内部作用量，$S_{GHY}^{qb} \\approx \\frac{3}{2} n_{\\rm qb} Mc^2\\,Δt$。",
+  "keywords_en": [
+    "black hole interior",
+    "quantum boundary",
+    "signature",
+    "mass inflation",
+    "Cauchy horizon",
+    "Gibbons-Hawking-York term",
+    "non-Lorentzian signature",
+    "singularity"
+  ],
+  "keywords_zh": [
+    "黑洞内部",
+    "量子边界",
+    "签名",
+    "质量膨胀",
+    "Cauchy 视界",
+    "Gibbons-Hawking-York 项",
+    "非洛伦兹签名",
+    "奇点"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-22T01:40:42.612018Z"
+}

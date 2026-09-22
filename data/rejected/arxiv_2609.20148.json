@@ -6,14 +6,14 @@
     "arxiv_version": null,
     "inspire_id": "3204718",
     "doi": null,
-    "title_en": "Exceptional points and Jordan-chain signatures in quantum first-passage statistics",
-    "abstract_en": "Exceptional-point signatures in first-passage observables are governed by two independent survival mechanisms: nonlinear spectral defectivity must pass from the one-record or transfer description to the physical one-level first-passage ladder, and the resulting ladder Jordan mode must have nonzero overlap with the chosen preparation and terminal observation. For finite reset-form monitored quantum systems with upward-skip-free counting, we prove the exact threshold factorization $H_N(s)=R_s^N$, identify the physical Perron branch, and derive the transfer factorization $Q_s(r)=B_s(r)(R_s-rI)$. Invertibility of the cofactor gives local equality of Smith data, whereas a singular cofactor can contribute transfer multiplicity absent from the ladder. An order-two Keldysh formula yields an independent observation gate. We then prove a fixed-reset no-go theorem: even a defective full tilted generator cannot generate a cumulative-count Jordan polynomial when the post-count ladder is scalar. Finally, we construct a three-reset monitored-Lindblad witness, minimal within irreducible nonnegative ladders, with a genuine subleading $Nλ^N$ threshold term and a coherence-tuned model in which a binary terminal effect retains the exact polynomial signature at a transversal transform-domain exceptional point. The analysis is formulated at the level of exact transform-domain structure; time-domain asymptotics and perturbative robustness remain separate questions.",
+    "title_en": "An exact Jordan signature in cumulative-count first-passage statistics",
+    "abstract_en": "For cumulative-count first-passage problems, the Laplace transform of the time $\\mathcal T_N$ of the $N$th count is naturally expressed through powers of a one-count kernel. A Jordan defect of that kernel does not, however, automatically survive the complete sum over terminal phases. We give an exact three-state Markov-renewal example in which it does. At $s=1$, the one-count kernel has spectrum $\\{1/2,1/8,1/8\\}$, with a one-dimensional eigenspace at $1/8$, and for initial phase $1$, \n\\[ \\mathbb E_1[e^{-\\mathcal T_N}] =\\frac56\\,2^{-N}+\\frac{N+1}{6}\\,8^{-N}. \\]\n Thus the ordinary, unconditioned cumulative-count transform contains the explicit Jordan contribution $N/(6\\,8^N)$ at every threshold $N\\ge1$. For the same fixed stochastic process, the two eigenvalues meeting at $1/8$ unfold as \n\\[ λ_\\pm(s)=\\frac18\\pm\\frac1{96}\\sqrt{s-1} -\\frac{131}{2304}(s-1)+O((s-1)^{3/2}), \\]\n and the characteristic discriminant has a simple zero at $s=1$. We place the example beside two structures that suppress such a marginal signature: fixed post-count reset, which gives scalar renewal, and a common total holding rate, for which terminal summation scalarizes the matrix power. The model also admits a monitored-Lindblad realization, but the mechanism is entirely classical. The result provides a small exact benchmark for how generalized spectral modes can remain visible in finite-threshold first-passage statistics.",
     "authors": [
       "Bridges, Lachlan"
     ],
     "categories": [],
     "submitted_at": "2026-09-17T00:00:00Z",
-    "updated_at": "2026-09-19T02:43:54.992823Z",
+    "updated_at": "2026-09-21T02:58:17.447987Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3204718",
-        "fetched_at": "2026-09-21T01:15:16.392499Z",
+        "fetched_at": "2026-09-22T01:39:21.863787Z",
         "url": "https://inspirehep.net/literature/3204718"
       }
     ],
