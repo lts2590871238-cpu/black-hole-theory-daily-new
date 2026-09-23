@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2509.07090",
+    "arxiv_id": "2509.07090",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/d55k-75p9",
+    "title_en": "Mapping the Gravitational-wave Background Across the Spectrum with a Next-Generation Anisotropic Per-frequency Optimal Statistic",
+    "abstract_en": "With pulsar timing arrays (PTAs) having observed a gravitational wave background (GWB) at nanohertz frequencies, the focus of the field is shifting towards determining and characterizing its origin. While the primary candidate is a population of GW-emitting supermassive black hole binaries (SMBHBs), many other cosmological processes could produce a GWB with similar spectral properties as have been measured. One key argument to help differentiate an SMBHB GWB from a cosmologically sourced one is its level of anisotropy; a GWB sourced by a finite population will likely exhibit greater anisotropy than a cosmological GWB through finite source effects (``shot noise'') and potentially large-scale structure. Current PTA GWB anisotropy detection methods often use the frequentist PTA optimal statistic for its fast estimation of pulsar pair correlations and relatively low computational overhead compared to spatially-correlated Bayesian analyses. However, there are critical limitations with the status quo approach. In this paper, we improve this technique by incorporating three recent advancements: accounting for covariance between pulsar pairwise estimates of correlated GWB power; the per-frequency optimal statistic to dissect the GWB across the spectrum; and constructing null-hypothesis statistical distributions that include cosmic variance. By combining these methods, our new pipeline can localize GWB anisotropies to specific frequencies, through which anisotropy detection prospects -- while impacted by cosmic variance -- are shown to improve in our simulations from a $p$-value of $\\sim0.2$ in a broadband search to $\\sim0.01$ in the per-frequency search. Our methods are already incorporated in community-available code and ready to deploy on forthcoming PTA datasets.",
+    "authors": [
+      "Kyle A. Gersbach",
+      "Stephen R. Taylor",
+      "Bence Bécsy",
+      "Anna-Malin Lemke",
+      "Andrea Mitridate",
+      "Nihan Pol"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2025-09-08T18:00:04Z",
+    "updated_at": "2026-09-21T21:36:05Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2509.07090v2",
+    "pdf_url": "https://arxiv.org/pdf/2509.07090v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2509.07090",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2509.07090v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "nanohertz",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 70
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 20,
+      "methodological_rigor": 18,
+      "novelty": 13,
+      "clarity": 9,
+      "metadata_quality": 8,
+      "community_signal": 3,
+      "other": 5
+    },
+    "total_score": 76,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文针对脉冲星计时阵列（PTA）中引力波背景（GWB）各向异性的探测方法进行实质性改进，结合了协方差建模、逐频最优统计量以及包含宇宙方差的零假设分布，并在模拟中展示了探测前景的显著提升（p 值从约 0.2 改善到约 0.01）。方法已集成到社区可用代码中，可在即将到来的 PTA 数据集上部署，属于 PTA 领域理论深度与方法严谨性均较强的工作，值得点击阅读。",
+    "title_zh": "用下一代各向异性逐频最优统计量绘制跨频谱的引力波背景",
+    "abstract_zh": "随着脉冲星计时阵列（PTA）已在纳赫兹频率观测到引力波背景（GWB），该领域的焦点正转向确定并刻画其起源。虽然主要候选者是发射引力波的超大质量黑洞双星（SMBHB）族群，但许多其他宇宙学过程也可能产生具有与已测量光谱性质相似的 GWB。帮助区分 SMBHB 来源的 GWB 与宇宙学来源的 GWB 的一个关键论据是其各向异性程度；由有限族群产生的 GWB 可能由于有限源效应（“散粒噪声”）以及可能的大尺度结构而表现出比宇宙学 GWB 更大的各向异性。当前的 PTA GWB 各向异性探测方法常使用频率学派的 PTA 最优统计量，因为其能快速估计脉冲星对相关性，且与空间相关的贝叶斯分析相比计算开销相对较低。然而，现状方法存在关键局限。在本文中，我们通过纳入三项近期进展来改进该技术：考虑脉冲星成对相关 GWB 功率估计之间的协方差；使用逐频最优统计量来剖析跨频谱的 GWB；以及构建包含宇宙方差的零假设统计分布。通过结合这些方法，我们的新流程可以将 GWB 各向异性定位到特定频率，据此，在我们的模拟中，各向异性探测前景——尽管受到宇宙方差的影响——显示出从宽带搜索中约 0.2 的 $p$ 值改善到逐频搜索中约 0.01 的 $p$ 值。我们的方法已被纳入社区可用的代码中，并准备部署到即将到来的 PTA 数据集上。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational wave background",
+      "anisotropy",
+      "optimal statistic",
+      "per-frequency",
+      "cosmic variance",
+      "supermassive black hole binaries"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波背景",
+      "各向异性",
+      "最优统计量",
+      "逐频",
+      "宇宙方差",
+      "超大质量黑洞双星"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-23T01:35:24.827388Z"
+  },
+  "published_at": "2026-09-23T01:35:24.827796Z"
+}

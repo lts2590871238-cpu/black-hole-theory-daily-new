@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.22856",
+    "arxiv_id": "2609.22856",
+    "arxiv_version": null,
+    "inspire_id": "3205760",
+    "doi": null,
+    "title_en": "A Controlled Evaluation of Quantum Correlation Refinement for Few-Shot Semantic Segmentation: Resource Cost and IBM Quantum Hardware Validation",
+    "abstract_en": "PQCs are increasingly proposed as trainable components in classical ML pipelines, but rarely characterized alongside a controlled measurement of task-level benefit. We report such an evaluation, using few shot segmentation as testbed. We integrate a Quantum Correlation Refiner (QCR), a six-qubit variational circuit with amplitude embedding and a gated residual connection into a classical correlation-based architecture, under the four fold PASCAL 5i protocol, three seeds per fold, against an unrefined baseline and a matched MLP refiner. Across 12 fold-seed comparisons, QCR changes mIoU by only +0.0001 (t(11)=0.10, p=0.92, dz=0.03); the MLP control and an expanded Pauli-measurement variant show similarly no improvement. QCR adds just 473 parameters but roughly doubles per epoch training time. A trained circuit on IBM hardware (18 patches) agrees closely with the noiseless simulator (r=0.954, MAE=0.101), a fidelity check, not an accuracy gain. The module is functional, trainable, and hardware deployable, yet shows no task-level advantage over a matched classical alternative under this regime, a template for evaluating quantum components jointly via matched controls, repeated seeds, resource measurement, and hardware validation, rather than any one alone.",
+    "authors": [
+      "Shakir, Hina",
+      "Memon, Muhammad Irfan",
+      "Samreen, Asia",
+      "Hussain, Javeed",
+      "Ali, Syed Rizwan",
+      "Mohatram, Mohammad",
+      "Hussain, Muhammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-19T00:00:00Z",
+    "updated_at": "2026-09-22T13:49:55.994737Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205760",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205760",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205760"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

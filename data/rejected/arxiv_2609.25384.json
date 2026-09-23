@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25384",
+    "arxiv_id": "2609.25384",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Lattice in Line: Optimized DMRG ordering for complex lattice geometries",
+    "abstract_en": "The density-matrix renormalization group (DMRG) is a one-dimensional tensor-network technique, but it is not limited to one-dimensional systems: it can be applied to periodic 2D and 3D clusters and molecules, provided their sites are first enumerated along a line; a step one may call \"lattice compilation\". This paper discusses three proxy loss functions for finding this optimal enumeration: the graph bandwidth $B$ (maximum interaction range), the cutwidth $C$ (maximum number of bonds crossing a cut), and the average interaction range $R$. Constructing the Hamiltonian MPO (matrix-product operator) for a large set of clusters that are of interest in frustrated magnetism, I find that $C$ determines the peak SU(2) Heisenberg MPO bond dimension and $R$ the average one. Targeting $(C,R)$ lexicographically yields the best energies. Targeting $B$ indirectly reduces $C$, but not as efficiently as targeting $C$ directly. Otherwise, the value of $B$ itself is largely irrelevant in the sense that good DMRG energies can have large $B$. To perform the optimization, classic heuristics (e.g. reverse Cuthill--McKee) prove unreliable even for small clusters, and I find that a QUBO formulation improves them only marginally. Instead I propose a staged optimization built on Boolean satisfiability (SAT) and constraint-programming (CP) solvers, chiefly CP-SAT of Google's OR-Tools, a hybrid of CP propagation and SAT clause learning. This approach yields significantly better orderings together with rigorous bounds. The corresponding Lattice in Line code is available at https://github.com/spinflip/lattice_in_line and was designed with extensive use of the Fable 5 large language model.",
+    "authors": [
+      "Roman Rausch"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-09-21T20:27:48Z",
+    "updated_at": "2026-09-21T20:27:48Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.25384v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.25384v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.25384",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2609.25384v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

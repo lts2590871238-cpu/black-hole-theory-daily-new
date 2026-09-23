@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.22445",
+    "arxiv_id": "2609.22445",
+    "arxiv_version": null,
+    "inspire_id": "3205457",
+    "doi": null,
+    "title_en": "A Near-Optimal Joint Lower Bound for Sparse Quantum Linear System Solvers",
+    "abstract_en": "Quantum linear system solvers form one of the central algorithmic primitives in quantum computing, with applications ranging from differential equations and optimization to machine learning. Their cost is commonly measured through query complexity, which counts the number of oracle calls needed to access the input matrix. In the sparse-access model, this complexity is governed by three parameters: the condition number $κ$, the sparsity $s$ of the input matrix, and the target precision $\\varepsilon$. The dependence on $κ$ and $\\varepsilon$ is already well understood through the lower bound $Ω(κ\\log(1/\\varepsilon))$, which matches the best known scaling in these parameters. Once the sparsity $s$ is included, however, the expected lower bound has long been conjectured to be $Ω(κ\\sqrt{s}\\log(1/\\varepsilon))$. Recent work by Mori et al. [Quantum Sci. Tech. 11 035063 (2026)] made an important step towards this goal by establishing the lower bound $Ω(κ\\sqrt{s})$ for constant error $\\varepsilon$. In this work, we complete the picture and prove the full joint lower bound $Ω(κ\\sqrt{s}\\log(1/\\varepsilon))$ in the sparse-access model, thereby establishing the anticipated dependence on all three parameters simultaneously.",
+    "authors": [
+      "Patel, Dhrumil"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-18T00:00:00Z",
+    "updated_at": "2026-09-22T11:33:04.341611Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205457",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205457",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205457"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

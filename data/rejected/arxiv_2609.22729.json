@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.22729",
+    "arxiv_id": "2609.22729",
+    "arxiv_version": null,
+    "inspire_id": "3205484",
+    "doi": null,
+    "title_en": "Can Chemically Inspired Parameter Initialization Mitigate Barren Plateaus in Variational Quantum Eigensolvers?",
+    "abstract_en": "Recent advances in the variational quantum eigensolver (VQE) have strengthened its promise for molecular electronic-structure calculations on near-term noisy intermediate-scale quantum (NISQ) devices. However, barren plateaus (BPs) remain a major obstacle to scaling VQE, as vanishing gradients can severely obstruct optimization at large scale. While most BP studies focus on randomly initialized circuits and global gradient behavior, practical quantum chemistry VQE typically uses chemically motivated initializations and local optimization around HF- or MP2-derived states. Although chemically informed initializations are widely expected to improve VQE trainability, how they mitigate local barren plateaus remains unclear. We therefore study the occurrence of local barren plateaus in molecular UCCSD-VQE, considering both chemically motivated initialization points and iterates along the corresponding optimization trajectories. In the benchmarks considered here, chemically initialized starting points and variational trajectories show polynomial decay of local gradient variance with system size instead of the exponential BP-like decay observed for random controls, indicating that chemical initialization mitigates barren plateaus in the local optimization regions and highlights the trainability advantage of chemically motivated VQE strategies.",
+    "authors": [
+      "Yang, Zhangyu",
+      "Sun, Jinzhao",
+      "Chen, Jianpeng",
+      "Li, Weitang",
+      "Shuai, Zhigang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-19T00:00:00Z",
+    "updated_at": "2026-09-22T11:22:46.260845Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205484",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205484",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205484"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

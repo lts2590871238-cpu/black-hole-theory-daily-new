@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.23059",
+    "arxiv_id": "2609.23059",
+    "arxiv_version": null,
+    "inspire_id": "3205525",
+    "doi": null,
+    "title_en": "clifford qc: A Python Toolkit for Quantum Simulation",
+    "abstract_en": "clifford_qc is a Python research toolkit for constructing quantum models, comparing variational and subspace eigensolvers, and estimating measurement resources. A common sparse Pauli algebra connects Hamiltonians, density operators, gates, and candidate-selection observables, while dedicated interfaces handle circuit programs, execution, and statistical estimates. We introduce the representation with a worked gradient example and trace a molecular calculation through reusable model preparation, an independent solve, and optional reference validation. Shared measurement caches reuse outcomes across observables on the same reference state; packed coefficient storage and streaming expose a memory-recomputation tradeoff. Committed small-system benchmarks show how these interfaces support comparisons with explicit accuracy and cost assumptions. Fully commuting measurement reduces the shots needed to certify a fixed first-order energy functional, but entangling-gate time and connectivity can offset the saving or make the protocol inadmissible under illustrative device models. Other studies identify a subspace bias floor that more shots cannot remove, an indeterminate comparison of fermionic encodings across instances, and an approximate-restriction screen whose required comparison fails before sampling. Generated tables, provenance records, and manuscript checks connect the reported claims to their inputs, although evidence labels are not yet validated uniformly. The package supports reproducible method development; these results establish neither hardware performance nor a general simulation speedup.",
+    "authors": [
+      "Utama, Ginanjar",
+      "Dipojono, Hermawan Kresno"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-19T00:00:00Z",
+    "updated_at": "2026-09-22T11:22:51.660086Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205525",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205525",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205525"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

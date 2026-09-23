@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/h3f6-zr75",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3205824",
+    "doi": "10.1103/h3f6-zr75",
+    "title_en": "Deep-learning emulator for photonuclear reactions and a framework for Bayesian joint evaluations via Hamiltonian Monte Carlo",
+    "abstract_en": "Photonuclear data libraries provide a quantitative description of photon interaction physics for nuclear reaction modeling and underpin a broad range of applications. However, existing evaluations remain limited by persistent inconsistencies between experimental measurements and theoretical descriptions, particularly when multiple isotopes and reaction channels must be treated simultaneously. Correlations induced by shared reaction-model parameters across isotopes, observables, and reaction channels are difficult to rigorously propagate within traditional localized evaluation approaches, motivating joint inference methodologies for physically consistent photonuclear evaluation. In this article, we present a deep-neural network emulator of <math><msub><mi mathvariant=\"normal\" mathsize=\"small\">COH</mi><mn>3</mn></msub></math> reaction modeling code that accurately reproduces theoretical calculations with substantial speedup and enables a Markov Chain Monte Carlo inference. We show that a statistically consistent joint Bayesian treatment of <math><mmultiscripts><mi mathvariant=\"normal\">U</mi><mprescripts/><none/><mn>235</mn></mmultiscripts></math> and <math><mmultiscripts><mi>Pu</mi><mprescripts/><none/><mn>239</mn></mmultiscripts></math> photonuclear reaction cross sections, including photofission ratio data, exposes tensions between current nuclear models and the available experimental data. We present a joint photonuclear evaluation that rigorously incorporates these measurements and reports posterior distributions on the underlying reaction-model parameters. Validation studies show high predictive accuracy (root mean square error <math><mrow><mo>&lt;</mo><mn>0.008</mn></mrow></math> barns) and the ability to generalize to unseen nuclei, indicating that the emulator captures meaningful underlying physics relationships. The joint Bayesian inference reveals that the available experimental data cannot be simultaneously reproduced within the current theoretical description. The inferred posterior distributions identify the model parameters and correlated reaction mechanisms most strongly constrained by the data, exposing tensions across isotopes, observables, and reaction channels that remain hidden in traditional localized evaluations. The analysis also revisits a longstanding <math><mmultiscripts><mi mathvariant=\"normal\">U</mi><mprescripts/><none/><mn>235</mn></mmultiscripts></math> photofission cross section discrepancy and reaches conclusions that differ from previous interpretations based on isolated evaluations. More broadly, this work establishes machine-learning-enabled Bayesian inference as a framework for rigorously testing the consistency of photonuclear data and probing the limits of current reaction theory.",
+    "authors": [
+      "Walton, Noah",
+      "Khatiwada, Ajeeta",
+      "Kawano, Toshihiko"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-22T16:45:01.249664Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 034621, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613969'}, 3, Phys.Rev.C"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205824",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205824",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205824"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

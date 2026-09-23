@@ -3,34 +3,36 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.30723",
     "arxiv_id": "2608.30723",
-    "arxiv_version": null,
-    "inspire_id": "3198185",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "A Truncated Majorana",
-    "abstract_en": "We investigate the quantum field dynamics of truncating a Majorana wave packet via a time-dependent channel shutter. Modeling truncation as a controlled modification of chiral propagation rather than a literal spatial cut, we analyze a $1+1$D massless Majorana field subjected to a time-dependent rotation between its chiral components. We demonstrate that this protocol manifests two complementary physical limits. Globally, a mismatch between early- and late-time channel identifications induces a fermionic Bogoliubov transformation. We prove this asymptotic change universally generates an infrared soft-mode memory, $β(ω, ν) \\propto (ω+ν)^{-1}$, leading to a logarithmic divergence in the Hilbert--Schmidt norm. This orthogonality-catastrophe-like obstruction persists even under infinitely smooth switching in the massless limit. Conversely, in the number-conserving regime where pair production vanishes, the shutter acts as a purely causal filter. We establish exact local field identities showing that, restricted to the even local observable algebra, the retained sector is exactly equivalent to a single-particle state while the discarded sector reduces to the vacuum. Ultimately, we show that global infrared memory and local causal truncation are complementary diagnostics of the same dynamical operation. These results provide a rigorous field-theoretic foundation for time-dependent control in topological platforms, cleanly separating effective operational benchmarks from microscopic boundary dynamics.",
+    "abstract_en": "A Majorana field cannot be split into two spatial pieces, but a propagating Majorana can be truncated by a time-dependent shutter. We study this truncation for the two chiral components of a massless Majorana field in one spatial dimension, modeling the shutter as a smooth time-dependent $SO(2)$ rotation of the two components. Although orthogonal at the level of the real field algebra, this rotation does not preserve the positive- and negative-frequency splitting that defines the Fock vacuum, so the in-vacuum becomes a fermionic squeezed state in outgoing modes. At any finite infrared regulator, a single incident Majorana is then a single outgoing quasiparticle on top of this squeezed vacuum. The squeezed background carries a universal soft response: its anomalous Bogoliubov kernel falls as the inverse sum of the two frequencies at low energy, so the anomalous Hilbert--Schmidt norm grows logarithmically with the infrared cutoff, with a coefficient fixed by the asymptotic shutter mismatch. The vacuum overlap exhibits a Fermi-edge type orthogonality exponent which, for the rotation-angle lift $Δθ$ with $|Δθ|<π$, is exactly $(Δθ/2π)^2$, in analogy with the Fermi-edge singularity and the Kondo and Luttinger-liquid problems. We prove local equivalence non-perturbatively for the squeezed-vacuum factor under a compact-support hypothesis, and give an exact local pullback identity for the full one-quasiparticle state on the even CAR algebra; combined with wavepacket-localization assumptions, these yield the expected local vacuum and one-Majorana descriptions. We verify profile independence using a smooth switching family and contrast the temporal benchmark with a number-conserving beam-splitter benchmark whose entropy is bounded by $\\log 2$.",
     "authors": [
-      "Vahedi, Ali"
+      "Ali Vahedi"
     ],
-    "categories": [],
-    "submitted_at": "2026-08-31T00:00:00Z",
-    "updated_at": "2026-09-02T05:06:36.590799Z",
-    "document_types": [
-      "article"
+    "categories": [
+      "hep-th",
+      "cond-mat.other",
+      "quant-ph"
     ],
+    "submitted_at": "2026-08-31T12:58:47Z",
+    "updated_at": "2026-09-21T10:42:24Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
-    "inspire_url": "https://inspirehep.net/literature/3198185",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.30723v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.30723v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
-        "source": "inspire",
-        "record_id": "3198185",
-        "fetched_at": "2026-09-07T01:08:06.215764Z",
-        "url": "https://inspirehep.net/literature/3198185"
+        "source": "arxiv",
+        "record_id": "2608.30723",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2608.30723v2"
       }
     ],
     "is_demo": false

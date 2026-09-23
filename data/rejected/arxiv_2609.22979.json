@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.22979",
+    "arxiv_id": "2609.22979",
+    "arxiv_version": null,
+    "inspire_id": "3205532",
+    "doi": null,
+    "title_en": "Mixture Density Networks for Neutrino Reconstruction at Hadron Colliders",
+    "abstract_en": "Neutrino momentum reconstruction at hadron colliders is intrinsically ambiguous because the longitudinal momentum is not directly observed. We study this problem in semileptonic $t\\bar{t}$ events using \\monster (Mixture of Neutrino Solutions with Transformer Event Representation), a mixture density network that predicts a multivariate normal mixture for the conditional distribution of neutrino momentum from reconstructed event objects. The model uses a Transformer-based event encoder and yields a sampling-free point estimate of the neutrino momentum from the closed-form density. On the public benchmark introduced with \\nuflows, \\monster reduces the 68th percentile of the three-momentum residual by 5% and the 95th percentile by 6% relative to the empirical-mode \\nuflows baseline, with per-variable root-mean-square errors smaller by 2 to 9% at comparable bias, while running 2 to 8.5 times faster at inference, depending on the device and batch size. These results indicate that mixture density networks are a competitive alternative to normalizing flows for neutrino reconstruction.",
+    "authors": [
+      "Yang, Seungjin",
+      "Lee, Jason S.H.",
+      "Goh, Junghwan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-19T00:00:00Z",
+    "updated_at": "2026-09-22T05:09:46.459478Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205532",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205532",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205532"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

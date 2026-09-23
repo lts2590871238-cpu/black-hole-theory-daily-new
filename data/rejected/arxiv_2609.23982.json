@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.23982",
+    "arxiv_id": "2609.23982",
+    "arxiv_version": 1,
+    "inspire_id": "3205640",
+    "doi": null,
+    "title_en": "The CAMELS-CROCODILE Simulation Suite: A New Cosmology--Astrophysics Playground for Machine Learning",
+    "abstract_en": "We present CAMELS-CROCODILE, a suite of cosmological hydrodynamic simulations that extends the CAMELS framework with the \\gadget{} smoothed particle hydrodynamics code and the Osaka feedback model. As a companion to the IllustrisTNG-based second-generation CAMELS suite, it provides an independent implementation of the baryonic physics that shapes galaxies, the intergalactic medium, and large-scale structure, broadening the range of subgrid models over which machine-learning (ML) inference can be marginalized and tested. The suite comprises $25$ and $50Mpc/h$ boxes organized into one-parameter, cosmic-variance, and Sobol-sequence sets that vary $26$ cosmological and astrophysical parameters around a fiducial Osaka model. We describe the simulation design and validate the suite against benchmarks and other CAMELS suites. Compared with IllustrisTNG, the fiducial model suppresses the matter power spectrum by only a few per cent, against up to ${\\sim}27\\%$ at $z=0$, and forms stars with similar efficiency below $10^{12.2} M_\\odot/h$ but up to $2.5$ times more efficiently in group-scale halos, both consistent with weaker AGN feedback. We also present the stellar and black hole bias and the Ly$α$ absorption around galaxies. As a first ML application, we apply a graph neural network trained on IllustrisTNG galaxy catalogs, with frozen weights, to CAMELS-CROCODILE. It fails to recover $Ω_{\\rm m}$ and $σ_8$ and returns overconfident posteriors, mainly for simulations containing more galaxies than any in its training set; within that range $Ω_{\\rm m}$ is recovered with an error only $1.5$ times the in-distribution value. These results underline the need to train and test ML inference across physically distinct galaxy formation models.",
+    "authors": [
+      "Kentaro Nagamine",
+      "Yuri Oku",
+      "Atsushi J. Nishizawa",
+      "Jun-Young Lee",
+      "Francisco Villaescusa-Navarro",
+      "Shy Genel",
+      "Daniel Anglés-Alcázar"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-22T11:47:14.694708Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.23982v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.23982v1",
+    "inspire_url": "https://inspirehep.net/literature/3205640",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.23982",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2609.23982v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3205640",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205640"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.11269",
+    "arxiv_id": "2605.11269",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "gwBenchmarks: Stress-Testing LLM Agents on High-Precision Gravitational Wave Astronomy",
+    "abstract_en": "Modern gravitational wave astronomy relies on modeling tasks that often require months of graduate-level effort, including building fast waveform surrogates from expensive numerical relativity simulations, modeling orbital dynamics of black holes, fitting merger remnant properties and constructing template banks. These problems demand extreme precision to support detection and parameter inference, with state-of-the-art models achieving $\\lesssim 10^{-4}$ relative error. We study whether state-of-the-art LLM coding agents can perform such end-to-end scientific modeling, where success requires constructing models with stringent accuracy criteria and reasoning about physical systems. We introduce gwBenchmarks, a suite of eight tasks grounded in gravitational wave analytic calculations and numerical simulations collectively representing over $10^8$ core-hours of compute. The tasks span interpolation, regression, and high-dimensional time-series modeling, requiring a combination of numerical methods, machine learning, and physics-informed approaches. In preliminary experiments, agents frequently relied on proxy metrics, partial evaluation, or fabricated results to spuriously complete tasks. We therefore implement an external pre-defined framework to gauge agent progress. Evaluating twelve coding agents, we find no consistent winner. On the easiest task, multiple agents converge to the same cubic spline solution, with one rediscovering a coordinate transformation widely used in the literature. On harder tasks like analytic waveform modeling, all agents fall 1-2 orders of magnitude short of domain requirements and exhibit systematic failures, including metric misuse, constraint violations, and result fabrication. Our code, data, and website are publicly available.",
+    "authors": [
+      "Tousif Islam",
+      "Digvijay Wadekar",
+      "Zihan Zhou"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "cs.AI"
+    ],
+    "submitted_at": "2026-05-11T21:47:22Z",
+    "updated_at": "2026-09-20T23:31:29Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.11269v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.11269v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.11269",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2605.11269v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

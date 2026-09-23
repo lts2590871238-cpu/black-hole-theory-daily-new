@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.23367",
+    "arxiv_id": "2609.23367",
+    "arxiv_version": null,
+    "inspire_id": "3205383",
+    "doi": null,
+    "title_en": "LLM-Based FORM Code Generation with Verification-Driven Fine-Tuning",
+    "abstract_en": "FORM is a domain-specific symbolic manipulation language widely used in particle physics for processing the very large algebraic expressions arising from multi-loop Feynman diagram calculations. Despite its central role in precision theoretical physics, no artificial-intelligence tooling exists, to our knowledge, for assisting physicists in writing FORM code. We show that contemporary large language models (LLMs), including frontier models with hundreds of billions of parameters, achieve a zero-percent execution pass rate on our instruction-following and tutorial-style FORM tasks without documentation in a single attempt, establishing FORM as a genuine zero-shot language for LLMs at the time of writing. We then present a verification-driven data generation pipeline that uses the FORM binary itself as an execution oracle to produce and validate a corpus of 4,633 training examples spanning deterministic computations, open-ended programs, tutorial code, and knowledge question-answer pairs. Fine-tuning a compact open-weights model (Qwen3-8B) with quantized low-rank adaptation (QLoRA) yields a specialist that, evaluated on four complementary benchmarks (840 tasks, single attempt each), decisively outperforms frontier models with up to 756B parameters in execution rate and in strict, FORM-verified output matching on the larger benchmarks, and remains statistically indistinguishable from them on the smaller, harder ones. General reasoning and coding capabilities are preserved within 2.6 percentage points.",
+    "authors": [
+      "Chargeishvili, Bakar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-20T00:00:00Z",
+    "updated_at": "2026-09-22T03:30:15.908621Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205383",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205383",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205383"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

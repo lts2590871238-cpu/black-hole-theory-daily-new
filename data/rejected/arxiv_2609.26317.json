@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.26317",
+    "arxiv_id": "2609.26317",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Dense Dump Codec: Error-Controlled, Random-Access Compression of GRMHD Time Series for Slow-Light Radiative Transfer",
+    "abstract_en": "Black-hole movies provide a unique venue to study the time evolution of accreting plasma. Modeling this evolution with slow-light radiative transfer requires closely spaced simulation outputs, because the plasma changes as light propagates through it. Saving these outputs in full is costly, whereas sparse sampling introduces time-interpolation errors. We present the Dense Dump Codec (DDC), a compression method for dense GRMHD time series. DDC stores exact anchor states and compactly represents the intermediate evolution, while allowing direct access to selected times and variables. Applied to eight production sequences spanning SANE and MAD simulations at several black-hole spins with 0.1M output, DDC archives are about 10 times smaller than the original dense data and even about 50% smaller than the original 0.5M output in aggregate. We further integrate a native DDC reader into polarized slow-light radiative transfer. Tests at 86, 230, and 345 GHz show that DDC may reduce aggregate Stokes-image errors by 54-79% relative to slow-light calculations using original 0.5M input. These results indicate that DDC enables high-cadence slow-light calculations without the prohibitive cost of saving every dense GRMHD state in its original form.",
+    "authors": [
+      "Zelin Zhang",
+      "Zhenyu Zhang",
+      "Bin Chen"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-22T12:27:15Z",
+    "updated_at": "2026-09-22T12:27:15Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.26317v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.26317v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.26317",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2609.26317v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

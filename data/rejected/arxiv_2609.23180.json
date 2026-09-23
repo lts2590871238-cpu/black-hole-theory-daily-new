@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.23180",
+    "arxiv_id": "2609.23180",
+    "arxiv_version": null,
+    "inspire_id": "3205380",
+    "doi": null,
+    "title_en": "Adaptive Differential Evolution and Multistart Search for Noisy QAOA Optimization",
+    "abstract_en": "We benchmark classical optimization of a fixed low-depth Quantum Approximate Optimization Algorithm (QAOA) ansatz across four cost-Hamiltonian families at $N=12$, $p=3$, and $D=6$. Ten optimizers are compared over 25 independent runs under common ceilings of 10 000 and 30 000 function evaluations (FEs), first with exact statevector objectives and then with two additive observation-noise levels. Exact objectives favor multistart BFGS and multistart CMA-ES. Under noisy feedback, adaptive population methods become more competitive, but the ranking depends on whether performance is measured by the best exact point visited or by the point selected from noisy observations. A targeted extension over all three pre-screened instances per family confirms this regime change while showing that named adaptive-DE winners are instance dependent: jSO-lite leads low-noise oracle search, iL-SHADE high-noise oracle search, and L-SRTDE high-noise selected solutions in the equal-instance summaries. Bootstrap analysis quantifies a non-negligible high-noise search--selection gap, and a retrospective fixed-budget verification proxy shows that reserving a small measurement budget for final re-evaluation improves selected quality across all ten methods at 30 000 FEs. A supplementary structure-aware study further shows that QAOA cross-depth restriction and continuous basin refinement are more useful in these conditions than standalone Monte Carlo tree-search selection. Overall, optimizer choice depends jointly on landscape structure, observation noise, and final-point identification.",
+    "authors": [
+      "Novák, Vojtěch",
+      "Zelinka, Ivan",
+      "Das, Swagatam",
+      "Beseda, Martin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-19T00:00:00Z",
+    "updated_at": "2026-09-22T11:23:15.082652Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205380",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205380",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://inspirehep.net/literature/3205380"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

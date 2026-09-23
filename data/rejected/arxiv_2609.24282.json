@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.24282",
+    "arxiv_id": "2609.24282",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": "10.1140/epja/s10050-026-01957-7",
+    "title_en": "Quantum Computing Solution of the Bethe-Salpeter Equation for Relativistic Scalar Bound States via Tensor-Network VQE",
+    "abstract_en": "We present a gate-based quantum computing solution of the homogeneous Bethe-Salpeter equation (hBSE) for the bound state of two massive relativistic scalar particles interacting via ladder-approximation scalar exchange. After Wick rotation to Euclidean space and O(4) S-wave partial-wave projection, the hBSE is reduced to a symmetric matrix eigenvalue problem of dimension N = 2^n. We decompose the resulting Hamiltonian into a sum of n-qubit Pauli operators and solve it with the Variational Quantum Eigensolver (VQE) using a Matrix Product State (MPS) tensor-network ansatz. For N=16 (n=4 qubits), the VQE recovers the maximum eigenvalue - which encodes the minimum coupling constant for binding - to better than 1 % mean relative error compared to classical diagonalization. Entanglement analysis of the BSE amplitude shows low, area-law-like entanglement over the tested sizes, which motivates the MPS ansatz. A critical analysis of three independent barriers - exponential Pauli overhead, approximately size-independent low entanglement, and decreasing VQE gradient scales for the tested ansatz, consistent with generic barren-plateau concerns at larger n - reveals that the specific problem studied here lies in a classically tractable regime: over the tested range it is well described by low-bond-dimension tensor networks and efficiently handled by MPS/Lanczos methods. This negative result provides, to our knowledge, the first entanglement quantification of the BSE amplitude in qubit encoding, establishes the Pauli Hamiltonian framework for future BSE variants, and identifies 2D Minkowski-space BSE, N-body bound states, and non-ladder kernels as physically motivated extensions where genuine quantum advantage may become plausible.",
+    "authors": [
+      "Gerhard Hellstern"
+    ],
+    "categories": [
+      "quant-ph",
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-09-21T08:44:27Z",
+    "updated_at": "2026-09-21T08:44:27Z",
+    "document_types": [],
+    "journal_ref": "Eur. Phys. J. A 62, 192 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.24282v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.24282v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.24282",
+        "fetched_at": "2026-09-23T01:34:17.613093Z",
+        "url": "https://arxiv.org/abs/2609.24282v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
