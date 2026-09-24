@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s10686-026-10080-w",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3206350",
+    "doi": "10.1007/s10686-026-10080-w",
+    "title_en": "Efficient deep learning for single imaging cherenkov telescope event classification: improving over standard ML with minimal compute cost",
+    "abstract_en": "Gamma-hadron separation is a critical task in the analysis of data from imaging atmospheric Cherenkov telescopes (IACTs). The current standard approach in the field typically employs ensemble learning methods, such as random forests, trained on Hillas parameters of events derived from image moments. In this work, we present a lightweight deep learning model based on a simple two-layer convolutional neural network (CNN) followed by attention pooling, designed specifically for single-telescope IACT image classification. The attention pooling mechanism uses query vectors generated from Hillas parameters, providing global event-level context to guide feature aggregation from the convolution feature maps. Unlike several recent deep learning approaches that apply extensive image preprocessing-such as Gaussian kernel smoothing, oversampling to square grids, or custom hexagonal convolution kernels-our method directly uses a $\\varvec{\\textrm{25} \\times \\textrm{25}}$ pixel matrix extracted around the cleaned image, fed to the network without further spatial transformations. Comparison of the classification performance of proposed model with that of a standard random forest model on simulated IACT data, shows enhanced background suppression for the CNN model at all levels of signal acceptance. Application of the novel method to the real MACE data collected during observations of Crab nebula shows up to 25 % increase in detection significance relative to standard method. The deep learning model can be trained on a 16-core CPU machine in $\\sim $ 90 minutes, and achieves an inference rate of about 2.96 kHz on CPU, enabling rapid deployment without the need for GPUs. While the scope of the present work is restricted to the single-telescope case, the results demonstrate that lightweight architectures with minimal pre-processing can provide a practical and effective alternative to standard machine learning methods by offering higher classification performance, together with the computational efficiency and simplicity needed for large-scale analyses.",
+    "authors": [
+      "Borwankar, Chinmay",
+      "Pandey, Praduman",
+      "Sharma, Mradul",
+      "Yadav, Kuldeep"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-18T00:00:00Z",
+    "updated_at": "2026-09-23T16:05:00.067535Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "62, 20, 2026, {'$ref': 'https://inspirehep.net/api/journals/1213713'}, 20, 2, Exper.Astron."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206350",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206350",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206350"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25992",
+    "arxiv_id": "2609.25992",
+    "arxiv_version": null,
+    "inspire_id": "3206172",
+    "doi": null,
+    "title_en": "Maximum-Likelihood Amplitude Estimation for Quantum Monte Carlo Integration on Trapped-Ion Hardware: Convergence, Noise-Floor Saturation, Depth-Dependent Bias",
+    "abstract_en": "Quantum Amplitude Estimation promises to accelerate Monte Carlo integration by replacing the classical $\\varepsilon \\propto N^{-1/2}$ sampling law with the Heisenberg-limited $\\varepsilon \\propto N^{-1}$ scaling, but whether any part of that advantage survives on present-day hardware is an empirical question. We report a systematic experimental benchmark of a Maximum-Likelihood Amplitude Estimation QMC pipeline on IonQ trapped-ion processors, comprising 60 hardware trials on IonQ Forte-1 across five settings(5 & 9 qubits, 100-200 shots per depth, linear & exponential amplification schedules, ~113 device-hours), together with 100 trials on IonQ Aria-1 & Forte-1 noise models at 5, 9 & 19 qubits. The pipeline combines controlled-$R_y$ rotational state preparation, Grover-based amplitude amplification and maximum-likelihood inference and is benchmarked against $b_{\\max}^{-1}\\!\\int_0^{b_{\\max}}\\!\\sin^2\\!x\\,\\mathrm{d}x$ with $b_{\\max}=π/5$ ,given results emerge. First, the noiseless limit it attains $\\varepsilon \\propto N^{-0.88}$, close to the Heisenberg-scaling reference, reducing the error 54-74x over a 133x increase in oracle calls. Second, scaling does not survive on hardware. Every noisy backend saturates at an error floor of (2-5)x 10^{-2}, with fitted exponents of 0.04-0.15 on Forte-1 linear schedules and $α\\le\\!0$ on the vendor noise models: beyond the optimal shallow depth, however, deeper amplification provides no sustained accuracy gain and instead returns to the noise floor. Forte-1 hardware also outperformed IonQ's own Aria-1 noise model at every depth $m \\ge 2$, indicating that vendor noise models are bad predictors of MLAE accuracy. The practical implication for UQ is that on current devices the useful operating point is a shallow, schedule-tuned amplification depth chosen so that the deepest circuit lands near p~1/2 not the deepest schedule the coherence budget allows.",
+    "authors": [
+      "Lal, Aditi",
+      "Khan, Alex",
+      "Lineswala, Rut",
+      "Chopra, Abhishek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:26:16.004899Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206172",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206172",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206172"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

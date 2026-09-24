@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.26784",
+    "arxiv_id": "2609.26784",
+    "arxiv_version": null,
+    "inspire_id": "3206251",
+    "doi": null,
+    "title_en": "Error Suppression in Distributed Quantum Computing with Heterogeneous-Distance Lattice Surgery",
+    "abstract_en": "Distributed quantum computing requires fault-tolerant operations across inter-QPU links that can be substantially noisier than local gates. Uniformly increasing code distance provides additional protection but also enlarges data patches used for local storage and computation. Here, we introduce distributed heterogeneous-distance lattice surgery using an eight-data-patch ancilla-mediated (8-DAM) architecture, which will be useful for near-term quantum devices with less qubit overhead. In this architecture, the central ancilla spanning the inter-QPU boundary is enlarged while the data patches retain distance $d$. The protocol uses traveling stabilizers to suppress hook errors during merge and split operations between these unequal-distance patches. Circuit-level simulations of rotated surface codes at fixed local depolarizing noise show that logical-readout error rates depend only weakly on link noise. The resulting advantage over conventional lattice surgery grows as link errors increase. Comparisons with uniform distance implementations demonstrate comparable logical error suppression with reduced physical-qubit overhead. We also demonstrate how 8-DAM layouts support two simultaneous distributed logical CNOT operations between four logical data qubits using a single enlarged ancilla. At higher link noise, this construction yields lower logical error rates and more stability than two independent distributed logical CNOTs. These results support selective ancilla enlargement as a resource-efficient approach to fault-tolerant distributed quantum computing.",
+    "authors": [
+      "Dilley, Daniel",
+      "Jebraeilli, Anastashia",
+      "Roy, Rayat",
+      "Gupta, Shobhit",
+      "Gonzales, Alvin",
+      "Saleem, Zain"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:25:59.027098Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206251",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206251",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206251"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

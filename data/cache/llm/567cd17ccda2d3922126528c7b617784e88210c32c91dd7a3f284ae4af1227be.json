@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 16,
+    "novelty": 13,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 71,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文识别并修正了贝叶斯模板背景搜索（TBS）中一个此前未被报道的系统性偏差来源，该偏差源于分段嵌套采样证据估计的统计不确定性。论文提供了可解析处理的理论模型及频域模拟数据分析，并提出了简单高效的修正方法。其结论对随机引力波背景推断具有直接意义，随着TBS分析扩展至未来观测运行阶段尤为相关。",
+  "title_zh": "修正随机引力波背景模板化背景搜索中的证据不确定性",
+  "abstract_zh": "我们报告了贝叶斯模板化背景搜索（TBS）中用于天体物理随机引力波背景的一种新的系统性偏差来源。这种偏差源于分段层面嵌套采样证据估计的统计不确定性，即使似然模型准确地刻画了数据，该偏差仍然存在。利用一个可解析处理的模型以及基于天体物理动机的双黑洞种群进行的频域模拟数据分析，我们表明当累积数百万个分段时，这种不确定性会一致地将推断出的占空比膨胀高达一个数量级。我们提出了一种简单高效的修正方法，并证明其在所有测试配置中均有效。我们还发现，限制在高最优信噪比（SNR）的搜索先验会错误归因中等强度的信号，而将先验扩展到支持更弱信号则会放大证据不确定性。随着TBS分析扩展至即将到来的观测运行阶段，修正方法和仔细的搜索先验设计对于稳健推断都是必不可少的。",
+  "keywords_en": [
+    "stochastic gravitational-wave background",
+    "Templated Background Search",
+    "nested sampling",
+    "Bayesian evidence",
+    "systematic bias",
+    "duty cycle",
+    "prior design",
+    "signal-to-noise ratio"
+  ],
+  "keywords_zh": [
+    "随机引力波背景",
+    "模板化背景搜索",
+    "嵌套采样",
+    "贝叶斯证据",
+    "系统性偏差",
+    "占空比",
+    "先验设计",
+    "信噪比"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-09-24T01:31:41.084013Z"
+}

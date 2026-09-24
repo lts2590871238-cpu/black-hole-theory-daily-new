@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25947",
+    "arxiv_id": "2609.25947",
+    "arxiv_version": null,
+    "inspire_id": "3205881",
+    "doi": null,
+    "title_en": "Bridge of $Ψ$'s: Quantum Circuit Optimization with Schrödinger Bridges",
+    "abstract_en": "Quantum circuit optimization replaces a circuit with an equivalent one of fewer gates and lower depth, reducing execution cost and error rate. We ask whether a generative model can learn this transformation directly from examples, rather than selecting from a fixed rewrite library or rigid algebraic routines. We present Bridge of $Ψ$'s (BOPS), a generative model based on Schrödinger bridges, using a custom denoiser architecture, that learns a transformation from a source circuit into an equivalent optimized circuit. We train it on data constructed to be hard for existing optimizers, by applying rewrite rules backwards so that each input has a known lower-cost target. On held-out 8 qubits $\\times$ 64 depth Clifford+$T$ circuits, BOPS reduces gate count by $2.46\\times$ and depth by $2.45\\times$ in geometric mean, outperforming all nine baseline optimizers. This constitutes the first generative model bridging quantum circuits and frontier machine learning methods, opening up the quantum compilation stack to learned optimization along multiple axes.",
+    "authors": [
+      "Hofstetter, Lino S.",
+      "Yeh, Lia",
+      "Murali, Prakash"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:26:06.644153Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205881",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205881",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3205881"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

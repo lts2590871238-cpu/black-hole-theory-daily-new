@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25555",
+    "arxiv_id": "2609.25555",
+    "arxiv_version": null,
+    "inspire_id": "3206328",
+    "doi": null,
+    "title_en": "Weakly Supervised Quantum Error Mitigation",
+    "abstract_en": "Supervised approaches to quantum error mitigation learn a map from noisy circuit outputs to ideal ones, and therefore require the ideal outputs. Producing those ideal outputs demands noiseless classical simulation, whose cost grows exponentially with system size, so supervision is unavailable in exactly the regime where mitigation matters most. We ask whether cheap, individually unreliable signals drawn from circuit structure and hardware calibration can take the place of ideal labels. We assemble sixteen heuristic labeling functions (stabilizer and parity constraints, relaxation and readout characteristics, local depth, gate counts, and neighboring activity), reconcile their disagreements with a probabilistic label model, and read the resulting per-qubit error probabilities as a readout channel whose inverse mitigates the measured distribution. No ideal output enters the training path. On $147{,}000$ five-qubit circuits executed on two IBM devices, the method removes $24.3\\%$ (Algiers) and $28.8\\%$ (Hanoi) of the Kullback-Leibler divergence to the ideal distribution, against $15.4\\%$ and $21.5\\%$ for the strongest published analytical baseline, a margin that holds on both devices and lies far outside its bootstrap interval. Supervised neural models trained on ideal distributions remain stronger where such labels exist, and we quantify that gap rather than setting it aside; the method's claim is to the regime where they do not, since the labels they require cannot be computed for the circuits mitigation is needed for. The codes will be released shortly.",
+    "authors": [
+      "Tousi, Seyed Mohamad Ali",
+      "DeSouza, G.N."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:19:54.189285Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206328",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206328",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206328"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.20778",
+    "arxiv_id": "2510.20778",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.3847/1538-3881/ae9e2b",
+    "title_en": "Lens Model Accuracy in the Expected LSST Lensed AGN Sample",
+    "abstract_en": "Strong gravitational lensing of active galactic nuclei (AGN) enables measurements of cosmological parameters through time-delay cosmography (TDC). With data from the upcoming LSST survey, we anticipate using a sample of O(1000) lensed AGN for TDC. To prepare for this dataset and enable this measurement, we construct and analyze a realistic mock sample of 1300 systems drawn from the OM10 (Oguri & Marshall 2010) catalog of simulated lenses with AGN sources at $z<3.1$ in order to test a key aspect of the analysis pipeline, that of the lens modeling. We realize the lenses as power law elliptical mass distributions and simulate 5-year LSST i-band coadd images. From every image, we infer the lens mass model parameters using neural posterior estimation (NPE). Focusing on the key model parameters, $θ_E$ (the Einstein Radius) and $γ_{lens}$ (the projected mass density profile slope), with consistent mass-light ellipticity correlations in test and training data, we recover $θ_E$ with less than 1% bias per lens, 6.5% precision per lens and $γ_{lens}$ with less than 3% bias per lens, 8% precision per lens. We find that lens light subtraction prior to modeling is only useful when applied to data sampled from the training prior. If emulated deconvolution is applied to the data prior to modeling, precision improves across all parameters by a factor of 2. Finally, we combine the inferred lens mass models using Bayesian Hierarchical Inference to recover the global properties of the lens sample with less than 1% bias.",
+    "authors": [
+      "Padmavathi Venkatraman",
+      "Sydney Erickson",
+      "Phil Marshall",
+      "Martin Millon",
+      "Philip Holloway",
+      "Simon Birrer",
+      "Steven Dillmann",
+      "Xiangyu Huang",
+      "Sreevani Jaragula",
+      "Ralf Kaehler",
+      "Narayan Khadka",
+      "Grzegorz Madejski",
+      "Ayan Mitra",
+      "Kevin Reil",
+      "Aaron Roodman",
+      "the LSST Dark Energy Science Collaboration"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2025-10-23T17:48:11Z",
+    "updated_at": "2026-09-22T20:02:54Z",
+    "document_types": [],
+    "journal_ref": "Padmavathi Venkatraman et al 2026 AJ 172 223",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.20778v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.20778v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.20778",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://arxiv.org/abs/2510.20778v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

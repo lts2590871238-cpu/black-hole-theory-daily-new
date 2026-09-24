@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.26736",
+    "arxiv_id": "2609.26736",
+    "arxiv_version": null,
+    "inspire_id": "3206243",
+    "doi": null,
+    "title_en": "A Syndrome-Extraction Framework for Distributed Lattice Surgery on Arbitrary Rotated Surface-Code Layouts",
+    "abstract_en": "Modular quantum computing is a leading candidate for scalable fault tolerant quantum computation. Performing lattice surgery using surface code patches in different modules requires the use of inter-module gates that are noisier than the local gates. Furthermore, the merged layouts during lattice surgery expose multiple directions in which hook errors can propagate to reduce the fault distance. Existing hook-avoiding schedules either increase the syndrome extraction circuit depth, or let link faults propagate into the bulk. We introduce a seam construction that allows splitting arbitrary merged rotated surface code layout into smaller patches with uniform boundaries that could keep their own hook-avoiding N/Z shaped schedule. At the seam we split weight-4 stabilizers into pairs of weight-2 stabilizers that are mediated through a Bell pair and measured within a CNOT depth of 4. We also employ the use of three-qubit $\\texttt{CXX}$ gates for parity measurements at the seam to maintain the minimum CNOT depth. Through this seam construction, we confine the elevated link error at the seam, protecting the bulk from higher error rate. We also give a custom detector annotator for such seams that can find the detector space, annotate detectors in the Stim circuits, and ensure that they are suitable to use by matching decoders. We implement our construction for the logical Pauli-$XX$ measurement lattice surgery and a cross-shaped spatial junction and sweep the link error rate from $10$ times to $100$ times a fixed bulk error rate, and show that our construction gives the lowest and most stable logical error rate than the other frameworks compared here.",
+    "authors": [
+      "Thakur, Pritesh",
+      "Dilley, Daniel",
+      "Saleem, Zain"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:26:22.839625Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206243",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206243",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206243"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

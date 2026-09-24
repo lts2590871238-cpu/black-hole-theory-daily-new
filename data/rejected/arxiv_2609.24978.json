@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.24978",
+    "arxiv_id": "2609.24978",
+    "arxiv_version": null,
+    "inspire_id": "3205977",
+    "doi": null,
+    "title_en": "Bayesian Optimization of The Relativistic Heavy Ion Collider Luminosity via $s^*$ Control",
+    "abstract_en": "Maximizing luminosity at the interaction point (IP) requires the collision location $s_{IP}$ to coincide with the longitudinal position of the minimum beta function, $s^$. Accurate optics measurements and control of $s^$ are therefore essential for luminosity optimization. At the Relativistic Heavy Ion Collider (RHIC), average horizontal beta-beat measurements between operating IPs are approximately $20%$, with significant variation in measured $s^*$. Precise control of the beam waist position $s^$ is particularly challenging for modern high-energy colliders with short bunch lengths and large crossing angles. We present an online Bayesian optimization (BO) application using the GPTune framework to optimize sPHENIX luminosity through $s^$ control at RHIC. GPTune was first validated at the RHIC Electron Beam Ion Source (EBIS), where it achieved up to a $70%$ increase in beam intensity over the baseline, although experienced operators could reach similar performance with longer manual tuning. The framework was subsequently deployed during sPHENIX operations. Using an intensity-normalized Zero-Degree Calorimeter (ZDC) signal as the optimization objective, due to the unavailability of the live sPHENIX MVTX signal, GPTune identified local luminosity maxima, recovered from intentionally degraded $s^$ configurations, and revealed residual horizontal and vertical waist offsets in the interaction region. These results demonstrate the robustness and efficiency of Bayesian optimization for real-time collider tuning under noisy, time-varying conditions. The $s^$ control methodology provides a promising tool for precision luminosity optimization and is particularly relevant to next-generation short-bunch colliders such as the Electron-Ion Collider (EIC).",
+    "authors": [
+      "Gu, Xiaofeng",
+      "Coe, Benjamin",
+      "Robert-Demolaize, Guillaume",
+      "Kanesue, Takeshi",
+      "Okamura, Masahiro",
+      "Fung, William",
+      "Hao, Yue",
+      "Qiang, Ji",
+      "Li, Xiaoye S.",
+      "Liu, Yang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-23T15:26:20.174415Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205977",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205977",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3205977"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

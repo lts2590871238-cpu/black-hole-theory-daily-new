@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25262",
+    "arxiv_id": "2609.25262",
+    "arxiv_version": null,
+    "inspire_id": "3206064",
+    "doi": null,
+    "title_en": "A Quantum Phase-based Comparator",
+    "abstract_en": "Quantum comparators decide the order of two operands. They rely on reversible logic acting on basis-encoded integers, so their width grows with the precision. We introduce the Quantum Phase-based Comparator (QPC), which compares two values carried in relative phases instead. The circuit places the two phases, entered with opposite signs, between a pair of Hadamard gates, and a fixed offset centers the interference, so that the probability of measuring zero falls below one half exactly when the first phase is the smaller. We give two implementations. With hard-coded values, the two values are written into the parameters of two phase gates, and the comparison costs one qubit and five gates. With the register-driven cascade, the values are drawn from two $t$-qubit registers through binary-weighted controlled-phase gates, at a cost of one qubit beyond the registers and depth linear in $t$; since the cascade induces each phase linearly from the register content, one circuit handles a superposition of operand pairs. The readout yields a biased coin rather than a definite bit, and we quantify the shots that a decision takes at a given phase separation. Scaling both phases by an integer widens the decision margin at no cost in width or depth, and an adaptive doubling schedule turns this amplification into a shot count logarithmic in the inverse separation.",
+    "authors": [
+      "Berti, Alessandro",
+      "Poggiali, Alessandro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-23T15:28:13.335396Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206064",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206064",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206064"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

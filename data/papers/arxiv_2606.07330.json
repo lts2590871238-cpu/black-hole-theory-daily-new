@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.07330",
+    "arxiv_id": "2606.07330",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Red noise and evolving signals: a complete frequentist approach to supermassive black hole binary searches with pulsar timing arrays",
+    "abstract_en": "Searches for gravitational waves (GWs) from isolated supermassive black hole binaries (SMBHBs) in pulsar timing array (PTA) data require simultaneous estimation of signal and noise parameters, so the dimensionality of the fit scales with the number of observed pulsars. This computational difficulty is exacerbated when source evolution from GW emission is included, since retaining both Earth and pulsar terms introduces the unknown pulsar distances. Existing frequentist methods such as the $\\mathcal{F}$-statistic are restricted to non-evolving sources. In addition, they often rely on a noise covariance estimated from the same data and then held fixed during the signal search, which can bias parameter estimates. We present a Generalized Likelihood Ratio Test and the associated $\\mathcal{T}$-statistic that overcomes the aforementioned limitations. This formulation extends earlier work in which the dimensionality of the fitting problem was drastically reduced by semi-analytical maximization of the likelihood over the pulsar phase parameters, followed by efficient global optimization over the remaining parameters using Particle Swarm Optimization. Our simulations demonstrate that for an evolving SMBHB signal with chirp mass $\\mathcal{M}=10^{9.2} M_\\odot$ and signal-to-noise ratio $20$, this detection statistic achieves a $100\\%$ detection probability at a false-alarm probability of $0.06$ in a 30-pulsar timing array, which is characterized by a $100 \\mathrm{ns}$ root-mean-square white noise residual and pulsar-specific red noise. For the 30-pulsar timing array at signal-to-noise ratio $10$ and false-alarm probability $0.06$, $\\mathcal{T}$ detects $99/100$ realizations, outperforming the $\\mathcal{F}_p$ statistic evaluated with the $H_0$-fitted covariance, which detects $71/100$ realizations.",
+    "authors": [
+      "Xuan Tao",
+      "Boris Goncharov",
+      "Yiqian Qian",
+      "Yan Wang",
+      "Soumya D. Mohanty"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-06-05T14:46:09Z",
+    "updated_at": "2026-09-23T10:32:28Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.07330v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.07330v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.07330",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://arxiv.org/abs/2606.07330v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing",
+      "supermassive black hole binary"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 70
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "scores": {
+      "theory_depth": 24,
+      "methodological_rigor": 17,
+      "novelty": 13,
+      "clarity": 9,
+      "metadata_quality": 8,
+      "community_signal": 0,
+      "other": 4
+    },
+    "total_score": 75,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文针对脉冲星计时阵列中孤立超大质量双黑洞引力波搜索的频率学派方法提出扩展，引入包含源演化的广义似然比检验与𝒯统计量，并给出模拟检测概率与虚警概率的定量结果，与现有𝒻统计量进行对比，理论深度与方法严谨性信号较强，适合进一步阅读。",
+    "title_zh": "红噪声与演化信号：脉冲星计时阵列中超大质量双黑洞搜索的完整频率学派方法",
+    "abstract_zh": "从脉冲星计时阵列（PTA）数据中搜索来自孤立超大质量双黑洞（SMBHB）的引力波（GW），需要同时估计信号参数与噪声参数，因此拟合的维数随观测脉冲星数目的增加而增加。当包含由引力波辐射导致的源演化时，这一计算困难进一步加剧，因为同时保留地球项与脉冲星项会引入未知的脉冲星距离。现有的频率学派方法（如$\\mathcal{F}$统计量）仅限于非演化源。此外，它们通常依赖于由同一数据估计得到的噪声协方差，并在信号搜索期间将其固定，这可能会使参数估计产生偏差。我们提出一种广义似然比检验及相关的$\\mathcal{T}$统计量，克服了上述局限。该形式扩展了先前的工作：在先前工作中，通过对脉冲星相位参数进行半解析最大化，大幅降低了拟合问题的维数，随后使用粒子群优化对其余参数进行高效的全局优化。我们的模拟表明，对于啁啾质量$\\mathcal{M}=10^{9.2} M_\\odot$、信噪比为$20$的演化SMBHB信号，该检测统计量在30颗脉冲星的计时阵列中，在虚警概率为$0.06$时达到$100\\%$的检测概率；该阵列以$100 \\mathrm{ns}$的均方根白噪声残差以及脉冲星特定的红噪声为特征。对于该30颗脉冲星的计时阵列，在信噪比为$10$、虚警概率为$0.06$时，$\\mathcal{T}$在100次实现中检测到$99$次，优于用$H_0$拟合协方差评估的$\\mathcal{F}_p$统计量，后者在100次实现中检测到$71$次。",
+    "keywords_en": [
+      "pulsar timing array",
+      "supermassive black hole binary",
+      "gravitational waves",
+      "frequentist statistics",
+      "generalized likelihood ratio test",
+      "red noise",
+      "source evolution",
+      "particle swarm optimization"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "超大质量双黑洞",
+      "引力波",
+      "频率学派统计",
+      "广义似然比检验",
+      "红噪声",
+      "源演化",
+      "粒子群优化"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-24T01:31:29.909347Z"
+  },
+  "published_at": "2026-09-24T01:31:29.909804Z"
+}

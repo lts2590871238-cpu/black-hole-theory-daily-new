@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.27515",
+    "arxiv_id": "2609.27515",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "PANGU I: A Parthenon-Based Framework for Fixed-Spacetime GRMHD",
+    "abstract_en": "Existing general-relativistic magnetohydrodynamics (GRMHD) codes offer complementary capabilities, but these capabilities remain distributed across different frameworks. To unify them, we introduce PANGU--Parthenon-Based Astrophysics for Numerical Relativity and GRMHD in a Unified Framework--a modular computational framework that integrates a shared solver across physical regimes, flexible spacetime geometry, and extensible computational infrastructure within a single architecture. In the first paper of this series, we present and validate the fixed-spacetime GRMHD component of PANGU. The shared solver combines finite-volume Godunov methods with constrained transport on uniform and block-structured, statically refined meshes, and covers hydrodynamics and magnetohydrodynamics in Newtonian, special-relativistic, and general-relativistic regimes. PANGU provides a flexible geometry interface supporting coordinate selection and either on-the-fly or precomputed evaluation of prescribed stationary spacetimes, demonstrated here in Kerr spacetime with Cartesian Kerr-Schild and modified Kerr-Schild coordinates; additional components can be incorporated without restructuring the core solver. Verification covers all three regimes on uniform and statically refined meshes: smooth Newtonian and special-relativistic problems approach second order against their analytic solutions, with deliberately matched double-precision trajectories agreeing with AthenaK to roundoff; in fixed-spacetime GRMHD, the stationary analytic solutions are preserved to second order, and the turbulent accretion reproduces the same flow and flux scales as BHAC. Together, these results establish the fixed-spacetime matter-sector foundation for the broader PANGU framework. Numerical-relativity and coupled dynamical-spacetime GRMHD capabilities will be presented in subsequent work.",
+    "authors": [
+      "Yuehang Li",
+      "Fan Zhou",
+      "Mingyang Luan",
+      "Minyong Guo",
+      "Bin Chen"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-23T08:12:42Z",
+    "updated_at": "2026-09-23T08:12:42Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.27515v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.27515v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.27515",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://arxiv.org/abs/2609.27515v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

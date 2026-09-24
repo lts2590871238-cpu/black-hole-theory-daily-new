@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.26516",
+    "arxiv_id": "2609.26516",
+    "arxiv_version": null,
+    "inspire_id": "3205887",
+    "doi": null,
+    "title_en": "Tensor Network Simulation of Dynamic Circuits",
+    "abstract_en": "Dynamic circuits, which incorporate mid-circuit measurements and classically controlled operations, extend the expressive power of quantum programs and are central to applications such as quantum error correction, state preparation, and distributed quantum algorithms. However, their classical simulation is challenging due to the exponential growth of execution branches induced by mid-circuit measurements. In this work, we develop a tensor network approach for simulating dynamic circuits by extending a DMRG-based method for quantum circuit simulation to support dynamic circuit operations. To address the exponential proliferation of execution branches, we introduce and compare two strategies: a single-path stochastic approach that samples individual measurement outcomes, and a multi-path approach that maintains an ensemble of branches. We benchmark these methods on standard dynamic circuits, including the teleportation protocol and GHZ state preparation, as well as on random dynamic circuits. Our analysis explores the trade-offs between simulation accuracy and computational efficiency. These results provide a practical and scalable framework for the classical simulation of dynamic circuits.",
+    "authors": [
+      "Fulginiti, Innocenzo",
+      "Poggiali, Alessandro",
+      "Mendl, Christian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:26:19.595589Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3205887",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3205887",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3205887"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

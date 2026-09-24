@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.26695",
+    "arxiv_id": "2609.26695",
+    "arxiv_version": null,
+    "inspire_id": "3206256",
+    "doi": null,
+    "title_en": "Extending the reconstruction of displaced tracks at CMS during the HL-LHC with Line Segment Tracking",
+    "abstract_en": "The upgrade of the Large Hadron Collider (LHC) to the High-Luminosity LHC (HL-LHC) will greatly increase the average number of simultaneous proton-proton interactions per bunch-crossing (pileup), and will place significant demands on computing resources for the reconstruction of charged-particle tracks. Line Segment Tracking (LST) is a novel, highly parallelizable algorithm that can run efficiently on GPUs and has been integrated into the CMS software to enable the reconstruction of displaced tracks in the high pileup scenarios of the HL-LHC. The LST algorithm is designed to build track candidates using only outer tracker hits, naturally allowing for high acceptance of displaced track signatures. In the HL-LHC tracking reconstruction sequence without LST, displaced tracking ends at a radial displacement of the track origin of approximately 8 cm. The usage of LST in track reconstruction enhanced efficiency for displaced tracks, extending the acceptance in radial displacement from the track origin by more than a factor of 4. In this work, we introduce a new LST object, the quadruplet (T4), defined as a linked pair of triplets with a common line segment, targeting displaced track signatures. We present the performance of this improved implementation of the LST algorithm in several physics scenarios, extending the displaced-track acceptance from 40 cm to 60 cm in radial displacement compared to LST without T4s.",
+    "authors": [
+      "Chismar, Jade"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T05:37:50.538044Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206256",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206256",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206256"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

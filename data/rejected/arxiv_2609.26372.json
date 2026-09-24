@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.26372",
+    "arxiv_id": "2609.26372",
+    "arxiv_version": null,
+    "inspire_id": "3206184",
+    "doi": null,
+    "title_en": "Lattice Lindbladian simulation by patching and merging",
+    "abstract_en": "Simulating the dynamics of dissipative quantum many-body systems governed by local Lindbladians is a fundamental task in quantum computation. While the near-optimal gate count has been achieved for Hamiltonian simulation, comparable results for Lindbladian simulation remain elusive. In this work, we develop quantum algorithms for lattice Lindbladians by exploiting their locality. First, we consider sparsely dissipative systems, in which the dissipation is sparsely located, including boundary-driven systems. We establish a near-optimal quantum algorithm for their dynamics with gate count $O(Nt \\, \\mathrm{polylog}(Nt/\\varepsilon))$, where $N$ is the system size, $t$ is the evolution time, and $\\varepsilon$ is the allowable error. We then consider generic lattice Lindbladians with finite-range interactions and dissipation, and develop an algorithm for simulating time-evolved observables with gate count $O((Nt)^{4/3} \\, \\mathrm{polylog}(Nt/\\varepsilon))$ per sample with the sampling complexity $Θ(\\varepsilon^{-2})$. The gate count has the smallest known dependence on the system size among algorithms retaining polylogarithmic dependence on $1/\\varepsilon$. Our algorithms are based on two techniques that exploit locality: patching and merging. Patching decomposes dissipative dynamics into dynamics on subsystems with exponentially small error, generalizing a key idea underlying the Haah-Hastings-Kothari-Low algorithm for near-optimal Hamiltonian simulation. Merging absorbs reversed dissipative dynamics into other parts of the evolution, substantially reducing the overhead associated with quasi-probabilistic sampling. These results demonstrate that locality can be fully exploited to achieve fast quantum simulation of dissipative many-body dynamics, opening the way to applications such as predicting nonequilibrium phenomena and preparing desirable quantum states.",
+    "authors": [
+      "Mizuta, Kaoru"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-22T00:00:00Z",
+    "updated_at": "2026-09-23T15:28:12.012911Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206184",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206184",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206184"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

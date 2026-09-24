@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25364",
+    "arxiv_id": "2609.25364",
+    "arxiv_version": null,
+    "inspire_id": "3206322",
+    "doi": null,
+    "title_en": "Quantum ROP: Using Quantum Algorithms for ROP Chain Selection in Exploit Construction",
+    "abstract_en": "The quantum computing threat to cybersecurity is nowadays predominantly framed around Shor's algorithm and its eventual capacity to break asymmetric cryptography. Beyond cryptanalysis, however, quantum computing may also enable other capabilities in offensive security. This work explores one such direction: the application of quantum combinatorial optimization to Return-Oriented Programming (ROP) gadget selection for exploit construction. We formulate gadget selection as a Quadratic Unconstrained Binary Optimization (QUBO) problem that captures individual gadget cost and inter-gadget register-clobbering interactions, and solve it using QAOA on real IBM Heron r2 hardware. Applied to a Linux kernel exploitation scenario, the QAOA-selected chain achieves privilege escalation to uid=0 with SMEP and SMAP active. Across eight Linux binaries and 16 benchmark instances, QAOA recovered the lowest-cost valid chain in 11 cases; in the remaining five, it did not recover the optimum, with the failures associated with excessive circuit depth on current limited hardware.",
+    "authors": [
+      "Benitez, Carlos"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-23T15:19:36.080267Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206322",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206322",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206322"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

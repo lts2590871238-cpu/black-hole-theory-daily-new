@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.24628",
+    "arxiv_id": "2609.24628",
+    "arxiv_version": null,
+    "inspire_id": "3206319",
+    "doi": null,
+    "title_en": "Bridging the Vendor Gap: Enabling AMD GPU Support for Awkward Array via ROCm/HIP for the HL-LHC Era",
+    "abstract_en": "The High-Luminosity LHC (HL-LHC) will demand order-of-magnitude gains in analysis throughput, and increasingly those gains must come from GPUs that are not made by a single vendor. Leadership-class systems such as El Capitan, Frontier and LUMI are built on AMD accelerators, yet the Scikit-HEP analysis stack---and Awkward Array in particular---has grown up CUDA-first. We report on $rawkward$, a Rust-backed kernel engine that adds a ROCm/HIP backend for Awkward Array's nested, jagged, variable-length data structures. Our central finding is that a naive source-level port of CUDA kernels to HIP loses $5$--$10\\times$ in performance on irregular kernels, because AMD's $64$-lane wavefronts, higher register pressure and more expensive divergence behave fundamentally differently from NVIDIA's $32$-thread warps. We show that a small, reusable set of optimization patterns---loop flattening, $128$-bit vectorized loads, splitting fused kernels, and profile-guided launch configuration---recovers CUDA-class performance without changing the public API. A Rust macro-and-match dispatch layer keeps a single, backend-agnostic call site while emitting vendor-specific kernel strategies, and the type system enforces buffer-size and lifetime correctness at compile time. On a two-socket AMD Instinct MI210 node we measure GPU speedups from $1.03\\times$ (bandwidth-bound $sum$) up to $12.5\\times$ ($count$) over $128$ EPYC~7763 CPU cores, and the Rust CPU kernels match or beat on aggregate the incumbent C++ kernels (geometric-mean runtime ratio $0.37\\times$ across twelve kernels). We argue that these patterns constitute a practical recipe for performance-portable, vendor-agnostic HEP analysis kernels.",
+    "authors": [
+      "Osborne, Ianna",
+      "Naumchyk, Maxym",
+      "Sakuma, Tai",
+      "Rios-Tascon, Andres",
+      "Elmer, Peter"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-23T15:19:29.769864Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206319",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206319",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206319"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

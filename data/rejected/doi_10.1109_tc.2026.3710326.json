@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1109/tc.2026.3710326",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3206394",
+    "doi": "10.1109/tc.2026.3710326",
+    "title_en": "AMARETTO, Accelerating Quantum Algorithm Development With FPGA Emulation",
+    "abstract_en": "In recent decades, Quantum Computing (QC) has gained widespread attention among researchers and industries, driven by its potential to outperform classical systems in several key areas. However, validating novel quantum algorithms poses substantial challenges due to limited qubit availability and noise in current quantum devices. Although software simulators are frequently employed to validate quantum circuits, they are time-consuming and require high memory availability since as the number of qubits increases, the memory occupation grows exponentially. Hardware emulators have recently emerged as a faster, more efficient, cost-effective alternative. This article introduces AMARETTO (quAntuM ARchitecture EmulaTion TechnOlogy), a new architecture designed to improve quantum computing emulation on resource-constrained Field-Programmable Gate Arrays (FPGAs). To provide a flexible and complete tool for quantum algorithm development, the emulator supports two universal gate sets, Clifford+T and rotational. AMARETTO mimics quantum computing’s inherent parallelism through multiple concurrent processing elements, achieving high throughput by harnessing the sparse nature of the gate matrices, coupled with pipelining in a Reduced Instruction Set Computer (RISC)-like architecture. A dedicated compiler translates OpenQASM 2.0 into AMARETTO’s instructions, enabling support for custom gates leveraging the equivalences known in the literature. Experimental results on an AMD Zynq UltraScale+ MPSoC ZCU106 demonstrate successful emulation of quantum circuits up to eighteen qubits with a throughput of <inline-formula><tex-math notation=\"LaTeX\">$\\mathbf{12.207}\\frac{\\mathbf{kgates}}{\\mathbf{s}}$</tex-math></inline-formula>, validated against Qiskit simulators. Our evaluation confirms competitive performance with existing FPGA-based emulators in terms of throughput and scalability, while targeting an affordable FPGA platform.",
+    "authors": [
+      "Conti, Christian",
+      "Volpe, Deborah",
+      "Graziano, Mariagrazia",
+      "Turvani, Giovanna"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-09-23T16:46:24.618273Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "75, 3555, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214702'}, 3544, 10, IEEE Trans.Comput."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206394",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206394",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206394"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.25208",
+    "arxiv_id": "2609.25208",
+    "arxiv_version": null,
+    "inspire_id": "3206020",
+    "doi": null,
+    "title_en": "Adaptive thresholding for scalable measurement-based qubit reset",
+    "abstract_en": "Fast, high-fidelity qubit initialization is a key primitive for scalable quantum information processing, but conventional reset protocols either require long relaxation times or discard information contained in continuous measurement records. We demonstrate an adaptive measurement-based reset protocol for superconducting qubits that uses Bayesian inference to update the qubit-state estimate after each readout and dynamically adjust the feedback threshold. Unlike fixed-threshold or repeat-until-success (RUS) protocols, the method utilizes the full analog measurement history, enabling the reset decision to become progressively more conservative as confidence in ground-state preparation increases. Implemented with real-time FPGA-based feedback on a dispersively readout transmon qubit, the protocol achieves a ground-state initialization fidelity of $99.44\\pm0.04\\%$ after a small number of reset rounds. We further compare adaptive reset with RUS strategies in multi-qubit experiments and show that adaptive thresholding provides deterministic reset duration while maintaining a five-qubit simultaneous-reset fidelity of $98.78 \\pm 0.19\\%$. These results establish Bayesian adaptive thresholding as a practical and scalable route to fast qubit reset in superconducting quantum processors.",
+    "authors": [
+      "Cao, Qian",
+      "Akhouri, Unnati",
+      "Vizvary, Samuel",
+      "Ofek, Nissim",
+      "Dai, Wei",
+      "Murch, Kater W."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-21T00:00:00Z",
+    "updated_at": "2026-09-23T15:26:09.052160Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206020",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206020",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206020"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

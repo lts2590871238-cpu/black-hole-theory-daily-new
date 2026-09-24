@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1109/tit.2026.3723681",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3206538",
+    "doi": "10.1109/tit.2026.3723681",
+    "title_en": "Exact Non-Identity Check and Gate-Teleportation-Based Indistinguishability Obfuscation Are NP-Hard for Low---Depth Quantum Circuits",
+    "abstract_en": "In 2021, Broadbent and Kazmi developed a gate-teleportation-based protocol for computational indistinguishability obfuscation of quantum circuits. This protocol is efficient for Clifford<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$+ {\\textsf {T}}$ </tex-math></inline-formula> circuits with logarithmically many <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\textsf {T}$ </tex-math></inline-formula>-gates, where the limiting factor in the efficiency of the protocol is the difficulty, on input a quantum circuit <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$C$ </tex-math></inline-formula>, of the classical task of producing a description of the unitary obtained by conjugating a Pauli <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$P$ </tex-math></inline-formula> (corresponding to a Bell-measurement outcome) by <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$C$ </tex-math></inline-formula>, where this description only depends on the input-output functionality of <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$CPC^{\\dagger }$ </tex-math></inline-formula>. The task above, in turn, is at least as hard as the problem of determining whether two <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$n$ </tex-math></inline-formula>-qubit quantum circuits are perfectly equivalent up to global phase. In 2009, Tanaka defined the corresponding decision problem Exact Non-Identity Check (ENIC) and showed that ENIC is NQP-complete and thus NP-hard as well. Motivated by the 2021 protocol, we consider in this work what happens when we pass from low <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\textsf {T}$ </tex-math></inline-formula>-<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">count</i> to low <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\textsf {T}$ </tex-math></inline-formula>-<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">depth</i>. We show that, for Clifford<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$+ {\\textsf {T}}$ </tex-math></inline-formula>-circuits of <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\textsf {T}$ </tex-math></inline-formula>-depth <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$O(\\log (n))$ </tex-math></inline-formula>, deciding ENIC remains NP-hard. In particular, we show this by relating certain decision problems on Pauli coefficients of Clifford<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$+ {\\textsf {T}}$ </tex-math></inline-formula> unitaries to well-known hardness results for codeword weights in binary linear codes. This effectively rules out the possibility, for Clifford<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$+ {\\textsf {T}}$ </tex-math></inline-formula>-circuits of logarithmic <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\textsf {T}$ </tex-math></inline-formula>-depth, of either efficient ENIC or efficient gate-teleportation based computational indistinguishability obfuscation, unless <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\text {P}=\\text {NP}$ </tex-math></inline-formula>. It also provides a new, independent proof of the hardness of ENIC, even at low <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$\\textsf {T}$ </tex-math></inline-formula>-depth. Along the way, we prove the NP-hardness of some related circuit problems.",
+    "authors": [
+      "Nevin, Joshua"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-09-23T18:48:47.349345Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "72, 7668, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214724'}, 7650, 10, IEEE Trans.Info.Theor."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206538",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206538",
+        "fetched_at": "2026-09-24T01:30:22.369519Z",
+        "url": "https://inspirehep.net/literature/3206538"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
