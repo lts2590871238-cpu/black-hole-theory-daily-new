@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.27629",
+    "arxiv_id": "2609.27629",
+    "arxiv_version": null,
+    "inspire_id": "3206794",
+    "doi": null,
+    "title_en": "Structured Hamiltonian Learning for Multiqubit Conditional Phase Gates",
+    "abstract_en": "Accurate measurement of an intended conditional phase does not by itself place a multiqubit phase gate in its declared generalized-gate equivalence class. We cast the diagnosis as structured Hamiltonian learning of the diagonal successful block in a known basis: Ramsey measurements on a connected graph reconstruct a target-relative eigenphase map; a Walsh transform then yields the per-cycle stroboscopic error generator in a selected logarithm branch, whose branch-dependent coefficients alone cannot decide global equivalence. For diagonal Pauli-Z dressing of weight at most m we derive an exact branch-independent criterion from multiplicative Boolean-Mobius invariants, converted at finite shot counts into a pass/fail/unresolved decision under prespecified tolerances and simultaneous confidence, separate from model rejection. For shared-control C^mZ gates a circular target-face contrast isolates each intended conditional phase, yet a support theorem exhibits forbidden interactions invisible to every target face once multiple targets or external spectators are present. We derive a Cramer-Rao bound for arbitrary integer phase contrasts, recovering the 4^m attempted-circuit scaling of a uniform (m+1)-body face, and quantify degradation from visibility loss, heralded survival, readout confusion, and correlated noise, while systematic bias triggers model rejection. Seeded simulations implement the 4M-setting multiplexed acquisition end to end: for M=3,4,5 at a common budget its mean phase-map RMSE is 0.689-0.794 times a separately compiled statewise scan, and a blind-interaction test yields 300/300 global-audit rejections versus 1/300 for target faces. These results estimate the error generator of a diagonal successful block under a specified acquisition model; they are not unknown-basis Hamiltonian identification, arbitrary-channel tomography, or hardware certification.",
+    "authors": [
+      "Deng, Xiu-Hao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-24T14:36:04.410995Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206794",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206794",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://inspirehep.net/literature/3206794"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

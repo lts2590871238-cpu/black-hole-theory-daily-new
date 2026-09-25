@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.01059",
+    "arxiv_id": "2606.01059",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Enhancing the Angular Resolution of Large Array of imaging atmospheric Cherenkov Telescope (LACT) at Ultra-High Energies",
+    "abstract_en": "The Large Array of Imaging Atmospheric Cherenkov Telescopes (LACT) is dedicated to high-resolution morphological studies of PeVatrons. In this work, we present a fundamental investigation into stereoscopic direction reconstruction for the LACT array, specifically addressing the challenges of ultra-high-energy observations. We demonstrate that the standard Hillas parameterization introduces a significant reconstruction bias under severe image leakage. To mitigate this, we introduce an approach utilizing a 2D Gaussian fit, achieving an exceptional angular resolution of better than $0.06^\\circ$ at $100\\text{ TeV}$ within the central $0^\\circ\\text{--}1^\\circ$ offset bin, and maintaining better than $0.12^\\circ$ across offsets up to $4^{\\circ}$. Building on this robust baseline, we evaluate advanced weighting schemes by utilizing a LightGBM-based quantile regression model to independently estimate single-image quality. Applying these quality-based weights yields a consistent improvement of $0.02^\\circ$ to $0.03^\\circ$ for high-energy, large-offset events using both the \\textit{HillasWeightedSum} and \\textit{HillasWeightedDisp} methods. Finally, to establish a theoretical performance ceiling, we explore a pixel-wise likelihood reconstruction technique utilizing Neural Ratio Estimation. While its practical realization depends heavily on minimizing the gap between Monte Carlo simulations and observational data, this exploratory approach demonstrates the potential to yield an overall improvement of approximately 15\\% to 40\\% at $100~\\rm TeV$ across the entire field of view. Such high angular resolution is critical for disentangling complex emission regions and mapping the internal structures of PeVatrons.",
+    "authors": [
+      "Zhipeng Zhang",
+      "Ruizhi Yang",
+      "Shoushan Zhang",
+      "Jiali Liu",
+      "Liqiao Yin",
+      "Wedong Wang",
+      "Lingling Ma",
+      "Zhen Cao"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-05-31T07:01:14Z",
+    "updated_at": "2026-09-24T07:14:04Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.01059v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.01059v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.01059",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://arxiv.org/abs/2606.01059v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

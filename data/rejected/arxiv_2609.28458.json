@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28458",
+    "arxiv_id": "2609.28458",
+    "arxiv_version": 1,
+    "inspire_id": "3206912",
+    "doi": null,
+    "title_en": "Differentiable astrophysics at scale: solving and differentiating ODE ensembles on the GPU",
+    "abstract_en": "Astronomers increasingly fit their models with gradient-based methods, such as Hamiltonian Monte Carlo, which need the derivatives of the model with respect to its parameters. In many analyses a prediction requires solving a small system of ordinary differential equations (ODEs) for thousands to millions of parameter sets, and this ensemble of integrations often sets the cost of the analysis. We introduce to the astronomical community GRADSOLVE, a JAX library that moves this computation to graphics processing units (GPUs): it integrates each member of the ensemble in its own GPU thread with its own step size and returns the derivatives with respect to the parameters in the same pass. We measure the speed-up it provides in three examples from different fields of astronomy, stellar orbits in the Galactic potential, the expansion history of a dark-energy cosmology and the spin precession of binary black holes, with every code held to the same accuracy requirement. For a million trajectories GRADSOLVE runs 8.5 to 1500 times faster than the serial CPU code of each example running on all 128 cores of a CPU, and several orders of magnitude faster than on one core. On the same GPU it is also 11 to 15 times faster than DIFFRAX, the state-of-the-art ODE library in JAX, in all three examples. With GRADSOLVE a million such integrations take seconds or less on one GPU, so gradient-based analyses that need ensembles of this size become routine. The code is publicly available at https://github.com/ECLIPSE-AI4Science/gradsolve.",
+    "authors": [
+      "A. Spurio Mancini"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "gr-qc",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-25T01:21:32.636533Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.28458v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.28458v1",
+    "inspire_url": "https://inspirehep.net/literature/3206912",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.28458",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://arxiv.org/abs/2609.28458v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3206912",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://inspirehep.net/literature/3206912"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

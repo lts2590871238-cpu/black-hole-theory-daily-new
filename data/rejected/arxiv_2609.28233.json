@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28233",
+    "arxiv_id": "2609.28233",
+    "arxiv_version": null,
+    "inspire_id": "3206880",
+    "doi": null,
+    "title_en": "Certifying fermionic Gaussian states (and a little more) with optimal precision dependence",
+    "abstract_en": "Fermionic Gaussian states are the workhorse reference states for qubit-based quantum simulation of fermionic systems, yet existing certification protocols either proceed via fidelity estimation, leading to suboptimal sample complexity in the target precision $ε$, only apply to Haar-typical states, or require adaptive measurements on a large fraction of qubits. We give an adaptive protocol that certifies any $d$-mode pure fermionic Gaussian state using $O(d^2ε^{-1})$ copies, single-qubit measurements with only one qubit measured adaptively per copy, and $O(d^3)$ classical processing time per copy. The $ε^{-1}$ dependence is optimal for the certification problem, even among strategies using entangled measurements. The sample complexity is controlled by the spectral gap of a $d\\leftrightarrow d-2$ down-up walk---a Markov chain studied in the theory of high-dimensional expanders, equivalent to a two-site Glauber dynamics in statistical physics---relating certification efficiency to relaxation time to equilibrium. The worst-case bound is tight for this protocol and is attained by physically relevant states, including ground states of the fully dimerized Su-Schrieffer-Heeger (SSH) chain and BCS pair states. In contrast, numerics up to $d=14$ suggest that $O(d ε^{-1})$ copies suffice to certify Haar-typical Gaussian states, a factor of $d$ improvement over the worst-case bound. Finally, because the bound depends only on the target's computational-basis distribution, the protocol extends to efficiently phase-dressed states---states obtained by injecting an efficiently computable diagonal phase to Gaussian states---with the same sample complexity. The class includes a continuous family of four-mode non-Gaussian magic states for matchgate computation.",
+    "authors": [
+      "Dangniam, Ninnat",
+      "Premcharoen, Laphas",
+      "Sripech, Metrasit",
+      "Chotibut, Thiparat"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-24T14:25:43.905948Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206880",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206880",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://inspirehep.net/literature/3206880"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

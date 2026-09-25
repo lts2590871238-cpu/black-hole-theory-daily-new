@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.27181",
+    "arxiv_id": "2609.27181",
+    "arxiv_version": null,
+    "inspire_id": "3206640",
+    "doi": null,
+    "title_en": "Emergent Prethermal Symmetries for Scalable Hamiltonian Learning",
+    "abstract_en": "Learning an interacting many-body Hamiltonian at the Heisenberg limit generally requires control that preserves local information for evolution times of order $1/\\varepsilon$ to attain $\\varepsilon$ precision. To achieve this, existing protocols often rely on trusted many-qubit operations or increasingly rapid control pulses, creating a precision barrier when gates involve unknown multi-qubit interaction or have finite duration. We show that neither resource is necessary for geometrically local Hamiltonians. Our protocol applies only static single-qubit fields, whose strength is independent of system size and grows polylogarithmically with $1/\\varepsilon$. These fields generate emergent prethermal symmetries that suppress thermalization for the entire learning experiment while retaining informative symmetry-preserving dynamics. On a $d$-dimensional lattice of $n$ qubits, this enables learning every coefficient to accuracy $\\varepsilon$, with failure probability at most $δ$, using total evolution time $\\mathcal{O}(\\log^d(1/\\varepsilon)\\log^2(n/δ)/\\varepsilon).$ Thus, our learning protocol attains the information-theoretically optimal \\(1/\\varepsilon\\) dependence up to polylogarithmic factors using product-state preparation, single-qubit measurements, and non-adaptive experiments. More broadly, our results establish emergent prethermal symmetries as a resource for quantum learning, opening a route to Heisenberg-limited characterization of many-body systems where fast or trusted many-qubit control is unavailable.",
+    "authors": [
+      "Shin, Myeongjin",
+      "Lee, Junseo",
+      "Marvian, Iman",
+      "Tong, Yu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-24T14:24:18.807078Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3206640",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3206640",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://inspirehep.net/literature/3206640"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

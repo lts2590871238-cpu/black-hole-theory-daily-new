@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.21249",
+    "arxiv_id": "2603.21249",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Parallel adaptive reweighting importance sampling for Bayesian astrophysics",
+    "abstract_en": "Efficient sampling from high-dimensional, multi-modal posteriors is a central challenge in Bayesian inference across the physical sciences. Gravitational-wave (GW) astronomy, where likelihood evaluations are computationally expensive and posteriors are complex, is one application motivating this work. Popular families of methods like Markov-chain Monte Carlo, nested sampling, and importance sampling all rely on proposal distributions to guide exploration. Because prior knowledge of the target is often limited, practitioners can adopt adaptive proposals that iteratively refine themselves using information gained from previously drawn samples. Traditional adaptive strategies, however, struggle in high-dimensional multi-modal settings: complex, non-linear correlations are hard to capture, and hyperparameters typically require tedious, problem-specific tuning. To address these issues, we introduce Parallel Adaptive Reweighting Importance Sampling (PARIS; descriptively, ``seed sampling''). PARIS models its proposal as a Gaussian mixture whose component centers are the existing samples and whose component weights match the current importance weights. New draws from the proposal therefore concentrate around high-weight regions, while candidate points in unexplored areas receive intentionally inflated weights. As the algorithm continuously reweights all samples up to the latest proposal, any initial over-weighting self-corrects once additional neighbor samples are collected. To enable rapid reweighting, we present an efficient update scheme and evaluate PARIS on illustrative toy problems and more realistic gravitational-wave parameter estimation tasks. PARIS achieves accurate posterior reconstruction and evidence estimation with substantially fewer function evaluations than competing approaches, highlighting its promise for widespread use in astrophysical data analysis.",
+    "authors": [
+      "Miaoxin Liu",
+      "Alvin J. K. Chua"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-03-22T14:10:50Z",
+    "updated_at": "2026-09-24T07:15:36Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.21249v3",
+    "pdf_url": "https://arxiv.org/pdf/2603.21249v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.21249",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://arxiv.org/abs/2603.21249v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

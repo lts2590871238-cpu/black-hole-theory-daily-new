@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28422",
+    "arxiv_id": "2609.28422",
+    "arxiv_version": 1,
+    "inspire_id": "3206877",
+    "doi": null,
+    "title_en": "Performance-portable GPU acceleration of the hybrid particle-in-cell code dHybridR",
+    "abstract_en": "Hybrid particle-in-cell simulations are widely used to study kinetic processes in collisionless astrophysical and space plasmas, yet the high computational cost of large-scale three-dimensional runs has largely confined production studies to two dimensions or restricted domains. To address this challenge, we present a performance-portable GPU implementation of the hybrid particle-in-cell code dHybridR. The implementation combines OpenMP target offloading with specialized SYCL kernels for the most computationally expensive operations, while preserving a unified CPU-GPU codebase that supports Intel, AMD, and NVIDIA GPUs. On the exascale supercomputers Aurora and Frontier, dHybridR achieves weak scaling efficiencies of $86\\%$ to $97\\%$ across 49,152 accelerators, and at 256 particles per cell, its full-node GPU throughput is up to $32\\times$ that of the vectorized CPU implementation at approximately $90\\%$ less energy per particle-update. To our knowledge, no other hybrid particle-in-cell code has reported GPU performance at this scale, leaving dHybridR uniquely positioned to exploit exascale systems. These advances substantially lower the computational barrier to large-scale three-dimensional hybrid-kinetic simulations of collisionless plasmas.",
+    "authors": [
+      "Bricker Ostler",
+      "Miha Cernetic",
+      "Damiano Caprioli"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "physics.comp-ph",
+      "physics.plasm-ph"
+    ],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-24T14:59:13.038086Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.28422v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.28422v1",
+    "inspire_url": "https://inspirehep.net/literature/3206877",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.28422",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://arxiv.org/abs/2609.28422v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3206877",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://inspirehep.net/literature/3206877"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

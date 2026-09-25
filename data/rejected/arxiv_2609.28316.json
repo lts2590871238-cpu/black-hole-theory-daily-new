@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28316",
+    "arxiv_id": "2609.28316",
+    "arxiv_version": 1,
+    "inspire_id": "3206887",
+    "doi": null,
+    "title_en": "Time-frequency analysis for LISA: Fast waveform templates",
+    "abstract_en": "Time-frequency methods are well suited to the analysis of data from the Laser Interferometer Space Antenna (LISA), including nonstationary noise and data gaps. Another motivation is that the sparse time-frequency support of binary signals allows for fast waveform generation, which is the focus of this work. Amongst the many possible time-frequency representations, the orthogonal Wilson-Daubechies-Meyer transformation has a frequency translation symmetry that allows for a banded heterodyne transformation of chirping signals. When combined with the sparse evaluation of the LISA time-delay-interferometry (TDI) response using ``TDI on the fly,'' the time-frequency representation has a small memory footprint and highly parallel operations. Full-observation, full-cadence waveforms are avoided: templates are assembled from sparse carrier tracks and local packet calculations, with short direct endpoint segments where the slow-track approximation fails. A family of fast template-generation algorithms is described for three important source classes: galactic binaries, massive black-hole binaries, and extreme mass-ratio inspirals (EMRIs). The same construction applies to the slowly evolving portions of all three signals; the principal differences arise at frequency turnovers, merger, and plunge. The calculation may be organized carrier by carrier, or the polarization waveforms may be transformed first and the detector response applied to their combined time-frequency representation. The latter construction is referred to as ``TDI Tapestry.''",
+    "authors": [
+      "Neil J. Cornish"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-24T14:36:54.349261Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.28316v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.28316v1",
+    "inspire_url": "https://inspirehep.net/literature/3206887",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.28316",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://arxiv.org/abs/2609.28316v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3206887",
+        "fetched_at": "2026-09-25T01:38:47.036456Z",
+        "url": "https://inspirehep.net/literature/3206887"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
