@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29210",
+    "arxiv_id": "2609.29210",
+    "arxiv_version": null,
+    "inspire_id": "3207225",
+    "doi": null,
+    "title_en": "Representation-Dependent Recoverability in Quantum Compilation",
+    "abstract_en": "Fault-tolerant compilation can disperse high-level structure: schedules split an accumulated phase across rounds, gate synthesis replaces an angle by a Clifford+$T$ word, and randomized compiling spreads rotations over sign-randomized fragments. They preserve the computation but change how cheaply a downstream compiler can recover the aggregate phase data. We formalize this representation-dependent recoverability by charging two channels: output committed before the suffix arrives, and a serialized restart state crossing the cut. For an $r$-round accumulation of a commuting layer with $m$ generators at accuracy $ε$ ($K_ε=Θ(1/ε)$), any $p$-pass compiler correct on every valid stream with failure probability at most $δ$ obeys $\\overline{A}_p+(2p-1)S\\geq(1-δ)m\\log_2 K_ε-h_2(δ)$, where $\\overline{A}_p$ is committed output and $S$ is the crossing-state cap. The bound covers compile-time randomized compiling; a memory-capped block compiler attains it within a constant factor, and direct semantic aggregation reaches compact output with logarithmic state. The two channels are not always interchangeable. A compiler whose committed prefix is executed at the cut pays a toll the state channel never pays: the entropy $\\log_2\\binom{m}{k}$ of the mask naming which $k$ coordinates it commits early. Compilers that defer or buffer pay none of it. We prove both directions and, with instrumented compilers under a preregistered protocol, measure a per-generator toll matching $\\log_2\\binom{m}{k}/k$ that vanishes for a public mask and a buffered control. Under a disclosed fixed-total-error Clifford+$T$ and surface-code model, a materialize-first pipeline costs orders of magnitude more logical $T$ states and spacetime volume than a semantic-first one. Phase semantics should therefore be preserved until aggregation whenever the interface permits.",
+    "authors": [
+      "Yang, Jinze",
+      "Li, Yangyang",
+      "Deng, Xiu-Hao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:41.505402Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207225",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207225",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207225"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

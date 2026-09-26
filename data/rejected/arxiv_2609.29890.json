@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29890",
+    "arxiv_id": "2609.29890",
+    "arxiv_version": null,
+    "inspire_id": "3207345",
+    "doi": null,
+    "title_en": "Syndrome measurements enable deterministic fault-tolerant $T$ gates",
+    "abstract_en": "Non-Clifford gates are essential for universal quantum computation, yet implementing them fault-tolerantly remains a central challenge for stabilizer codes. Here, we show how a syndrome degree of freedom can mediate a logical non-Clifford gate. Releasing one stabilizer check makes an additional logical qubit available within the encoded data block. Two Pauli rotations, followed by syndrome measurement and Clifford feed-forward, then implement a deterministic logical $T$ gate on every stabilizer code of distance at least two, in a suitable logical basis. During the ideal rotations, the state remains in an intermediate stabilizer code whose distance we determine exactly. For pure codes with a balanced factorization, this distance grows with the original code distance, whereas the maximum weight of the stabilizer generators bounds the intermediate distance from above. We realize the mechanism in two circuits that tolerate a single fault under local stochastic circuit noise: a fixed 22-qubit construction admitting recursive error suppression and a direct Golay-code gate protected by measuring a stabilizer check transported through the non-Clifford rotation, which can recover the unknown encoded state even after rejection. Serial implementations with ancilla reuse, reset, and flexible two-qubit connectivity require at most 33 and 32 physical qubits, respectively. These results establish a general mechanism for logical non-Clifford gates and demonstrate how syndrome measurements and recovery can protect the intermediate evolution of encoded information.",
+    "authors": [
+      "Bharti, Kishor",
+      "Haug, Tobias",
+      "Tanggara, Andrew"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:12:48.640723Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207345",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207345",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207345"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30195",
+    "arxiv_id": "2609.30195",
+    "arxiv_version": null,
+    "inspire_id": "3207334",
+    "doi": null,
+    "title_en": "Loan Portfolio Optimization with Variational Quantum Algorithms",
+    "abstract_en": "Loan portfolio optimization (LPO) seeks portfolios that minimize credit risk while satisfying practical selection constraints. Accounting for portfolio-level risk requires modeling not only expected losses but also loss variability and borrower-default correlations, leading to a large-scale combinatorial optimization problem whose complexity grows rapidly with portfolio size. In this work, we formulate LPO as a Quadratic Constrained Binary Optimization (QCBO) problem that jointly captures expected and unexpected losses and transform the resulting formulation into a Quadratic Unconstrained Binary Optimization (QUBO) model suitable for variational quantum optimization. To address the limited qubit resources of current quantum hardware, we employ Pauli Correlation Encoding (PCE), which enables a large number of portfolio-selection variables to be represented using comparatively few qubits. The proposed framework is evaluated on a real-world microfinance dataset comprising 2012 borrowers. For problem instances with up to 1000 portfolio-selection variables, we benchmark classical simulations of a variational quantum algorithm (VQA) against Google OR-Tools under matched time budgets, obtaining feasible portfolios with an objective-value gap of about 40% across all sizes. We further implement the framework on superconducting quantum hardware for instances containing up to 1500 variables. Across these instances, the experimentally obtained objective values are within 10% of the corresponding simulation results. These findings demonstrate the feasibility of applying PCE-based variational quantum optimization to large-scale loan portfolio optimization under current quantum hardware limitations.",
+    "authors": [
+      "Bhargava, Balaganchi A.",
+      "Kumar, Kamlesh",
+      "Dinda, Gouranga",
+      "Biswas, Aniruddha",
+      "Rao, Vijay S.",
+      "Banerjee, Debarag",
+      "Sehrawat, Arun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:13:10.405298Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207334",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207334",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207334"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

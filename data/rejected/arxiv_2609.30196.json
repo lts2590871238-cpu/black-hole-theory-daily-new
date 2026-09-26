@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30196",
+    "arxiv_id": "2609.30196",
+    "arxiv_version": null,
+    "inspire_id": "3207327",
+    "doi": null,
+    "title_en": "Simulation-Based Inference and Unbinned Asimov Construction with Hybrid Neural Density Estimation",
+    "abstract_en": "High-dimensional, unbinned neural simulation-based inference often relies on neural ratio estimation, which uses expressive supervised models to estimate density ratios, but a learned ratio by itself provides neither an explicit normalized density nor a generative model. Flow-based surrogate models instead enable tractable density evaluation and efficient sampling, but residual density-estimation errors can limit precision for complex implicit distributions. We propose \\textit{hybrid neural density estimation}, which uses a flow to define a parameter-independent reference distribution, and classifiers to estimate target-to-reference density ratios. Multiplying a learned ratio by the reference density gives an evaluable target density surrogate. The ratio also provides importance weights for integration and resampling. We show how this representation defines an exact Asimov dataset, whose maximum likelihood fit returns the generating parameters. We also show how the tractable reference supplies renewable samples for pseudo-experiments and how it enables methods to reduce the Monte Carlo variance of expected test statistic calculations. We demonstrate the construction in a toy statistical model motivated by high-energy physics measurements, but for which the exact densities are known analytically.",
+    "authors": [
+      "de Sa, Rafael Coelho Lopes",
+      "Sandesara, Jay"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:55.871484Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207327",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207327",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207327"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

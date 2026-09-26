@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30256",
+    "arxiv_id": "2609.30256",
+    "arxiv_version": null,
+    "inspire_id": "3207350",
+    "doi": null,
+    "title_en": "Quantum Feature Selection for Biomedical Data Analysis",
+    "abstract_en": "Feature selection is an essential step for reducing complexity of high dimensional data, usually in preparation for developing machine learning models such as computational biomarkers. However, there are limitations associated with feature selection such as for metabolomic data where there are hundreds or even thousands of features per study participant, while the available number of participants in a clinical trials is limited. Classical methods such as exhaustive search require evaluation of all possible feature combinations, making them costly in terms of computation and runtime, or even infeasible, as feature dimensionality increases. In this study, we propose a novel Quadratic Unconstrained Binary Optimization (QUBO) coefficient formulation and pose metabolomic feature selection as a QUBO problem that selects a specified number of features by balancing their relevance against redundancy among the selected variables. To evaluate our proposed QUBO objective function, we conducted a series of experiments using Bias-Field Digitized Counterdiabatic Quantum Optimization (BF-DCQO) and Quantum Approximate Optimization Algorithm (QAOA) on a quantum gate based computer. We also compared the method to several classical methods on three metabolomic datasets associated with Autism Spectrum Disorder (ASD) on a classical computer. Our method reduces runtime compared with exhaustive search and Iterative Tabu Search (ITS) and achieves competitive performance across classifiers compared to classical filter, wrapper, and embedded methods. These results do not claim quantum advantage; rather, they establish hardware feasibility and demonstrate the current capabilities of Noisy Intermediate-Scale Quantum (NISQ) devices.",
+    "authors": [
+      "Liu, Hongbin",
+      "Lahmann, Robert",
+      "Campbell, Benjamin",
+      "Zhang, Zhemin",
+      "Liang, Zhiding",
+      "Bapat, Siona",
+      "Hahn, Juergen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:13:19.282386Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207350",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207350",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207350"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

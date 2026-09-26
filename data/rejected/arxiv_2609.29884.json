@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29884",
+    "arxiv_id": "2609.29884",
+    "arxiv_version": null,
+    "inspire_id": "3207301",
+    "doi": null,
+    "title_en": "Efficient Synthesis of Multi-Controlled Toffoli Gates with Ternary Clifford$+P_9$ Gates",
+    "abstract_en": "Temporary occupation of qutrit levels can reduce the width and depth required for binary circuit logic in quantum computing. We introduce an efficient intermediate-qutrit decomposition of multi-controlled Toffoli gates with binary-subspace inputs and outputs. For balanced control widths $n=2^h-1$, the proposed decomposition is evaluated hierarchically through a tree, allowing independent subtree computations to proceed in parallel and reducing the depth from linear to logarithmic. The balanced low-depth construction requires $6n+3$ logical $P_9$ injections and $\\frac{n-3}{4}$ clean ancillary qutrits. It matches the direct $P_9$ count of a recursively extended Clifford+$P_9$ baseline derived from the state-of-the-art work while using asymptotically one-quarter as many clean ancillas and replacing linear depth with logarithmic depth. For arbitrary control widths, a sequential extension preserves the $6n+3$$P_9$ count but has depth $O(\\log m+n-m)$ for a balanced core $m=2^h-1\\leq n$, which is linear in the worst case over $n$. By reducing the resource overhead of a widely used reversible primitive, the proposed decomposition provides a practical building block for the design and compilation of more resource-efficient quantum algorithms in the fault-tolerant regime.",
+    "authors": [
+      "Saha, Amit",
+      "Arzani, Francesco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:12:59.808950Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207301",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207301",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207301"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

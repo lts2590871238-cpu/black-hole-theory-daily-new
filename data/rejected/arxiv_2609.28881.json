@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28881",
+    "arxiv_id": "2609.28881",
+    "arxiv_version": null,
+    "inspire_id": "3207186",
+    "doi": null,
+    "title_en": "Reconfigurable bus-based quantum router for modular superconducting processors",
+    "abstract_en": "Scaling superconducting quantum processors requires interconnects that provide both non-local connectivity and parallel entangling operations. Nearest-neighbour couplings require distant interactions to be routed through SWAP networks, increasing the native two-qubit-gate count and potentially extending the circuit critical path. Here we introduce a bus-based reconfigurable quantum router for modular superconducting processors. Flux-tunable SQUID couplers selectively connect interface qubits to two shared buses, allowing destructive interference to suppress idle interactions while supporting two disjoint controlled-$Z$ (CZ) gates in parallel. Full-system Hamiltonian simulations yield parallel-gate errors at the level of $10^{-3}$, and open-system analysis identifies the coherence requirements for high-fidelity operation. We further assess the circuit-level consequences using hardware-aware compilation and resource-constrained scheduling. For 36-qubit quantum Fourier transform (QFT), QAOA-MaxCut and random-pairing circuits, the router reduces the median SWAP count by up to $34\\%$ and the native CZ count by up to $20\\%$ relative to a matched two-dimensional grid. End-to-end depth reduction is circuit dependent, reaching $20\\%$ for QAOA-MaxCut but remaining negligible for the QFT despite its lower gate count. These results show that enhanced connectivity and schedulable parallelism provide distinct benefits, establishing the router as a compiler-visible hardware resource for modular superconducting quantum processors.",
+    "authors": [
+      "Yuan, Benzheng",
+      "Zhang, chaojie",
+      "Fei, Yangyang",
+      "Han, Chuanbing",
+      "He, Haoran",
+      "Sun, Huihui",
+      "Zhao, Bo",
+      "Liu, Fudong",
+      "Wang, Weilong",
+      "Shan, Zheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:12:46.557671Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207186",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207186",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207186"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

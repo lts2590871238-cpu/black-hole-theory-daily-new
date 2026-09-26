@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29267",
+    "arxiv_id": "2609.29267",
+    "arxiv_version": null,
+    "inspire_id": "3207092",
+    "doi": null,
+    "title_en": "MagiCFirm: A Runtime for Magic-State Cultivation with Algorithm-Hardware Co-Design",
+    "abstract_en": "Magic-state cultivation offers a promising alternative for lowering the cost of non-Clifford operations in fault-tolerant quantum computing (FTQC). However, realizing cultivation in practice exposes two challenges: (i) the lack of an open-source classical runtime layer between logical software and physical control, and (ii) the latency constraints on protocol-specific decisions that determine magic-state readiness. To address these challenges, we adopt an algorithm--hardware co-design approach. At the algorithm level, we develop a two-stage early-escape scheme that identifies an informative subset of detectors offline, constructs a compact decoding problem, and performs partial decoding in parallel with complete decoding at runtime, allowing high-confidence attempts to advance before full decoding completes. At the hardware level, we present MagiCFirm, a configurable runtime that combines offline-compiled microprograms with dedicated datapaths for detector construction, event processing, and protocol control, enabling end-to-end execution of magic-state cultivation. Across evaluated configurations, MagiCFirm reduces wall-clock magic-state preparation time by up to 39.3% at matched logical error rate. For a representative magic-state-bound workload, this translates to an estimated 11% reduction in overall application runtime.",
+    "authors": [
+      "Xu, Jubo",
+      "Ziad, Abbas B.",
+      "Murali, Prakash",
+      "Fan, Hongxiang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:27.920234Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207092",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207092",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207092"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

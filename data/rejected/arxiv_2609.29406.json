@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29406",
+    "arxiv_id": "2609.29406",
+    "arxiv_version": null,
+    "inspire_id": "3207091",
+    "doi": null,
+    "title_en": "Evaluating the Effect of the Order of Optimization Passes in Quantum Circuit Optimization",
+    "abstract_en": "Quantum circuit optimization is critical for mitigating the noise inherent in current quantum hardware. Quantum compilers typically sequentially apply multiple optimizations (also called ``optimization passes'') to improve the circuit. The impact of the order in which these passes are executed has yet been largely unexplored. This paper investigates the significance of the order of optimization passes within quantum circuit compilation, specifically analyzing interactions between different optimization methods and quantifying their mutual influences. Using Qiskit's compiler, we systematically evaluate pairwise combinations of 16 selected optimization passes, measuring circuit depth and gate count across various benchmark circuits. Our findings indicate dependencies between certain optimization passes, demonstrating that the order of the passes affects the optimization quality. In some cases, the worse performing sequence can be corrected through repeated pass application. %such that they are as good as the best performing one by extending the sequence. Experiments on multi-pass sequences show that more than two optimization passes may have an impact on each other but that this always links to the previously found pairwise effects. We observe that it is important to initially choose the best order of optimization passes to get the best possible optimization for the given circuit. The experiments reveal some factors which are important to choose the best, or at least a good, order; among those, the resulting optimization sequence depends the most on the native gate set.",
+    "authors": [
+      "To, Xiao-Ting Michelle",
+      "Quetschlich, Nils",
+      "Elsharkawy, Amr",
+      "Schulz, Martin",
+      "Wille, Robert",
+      "Kranzlmüller, Dieter"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:12:51.340019Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207091",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207091",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207091"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

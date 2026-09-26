@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30175",
+    "arxiv_id": "2609.30175",
+    "arxiv_version": null,
+    "inspire_id": "3207357",
+    "doi": null,
+    "title_en": "Trading Circuit Depth for Pulse Sparsity in Chromatic Dynamical Decoupling",
+    "abstract_en": "Suppressing decoherence and crosstalk systematically across large networks of qubits is a pressing concern as qubit counts increase rapidly. General multi-qubit dynamical decoupling (DD) has historically been based on Hadamard matrices and orthogonal arrays, with instantaneous-pulse sequences whose circuit depth scales linearly with the number of qubits. Chromatic-Hadamard DD (CHaDD) improves upon these methods by properly coloring the hardware graph and assigning to each color a row of a Hadamard matrix, resulting in a circuit depth that scales linearly with the number of colors $C$, which can be as low as the chromatic number of the graph. Here, we explore the tradeoff between circuit depth and the pulse repetition rate (PRR), the average fraction of time steps in which a qubit is pulsed, i.e., a measure of pulse density. We introduce two single-axis sequences based on binary and Gray matrices, Chromatic-Binary DD (CBDD) and Chromatic-Gray DD (CGDD), which, for $C>2$, are special cases of non-minimum-depth CHaDD and achieve PRR $<2/C$ and PRR $=1/C$, respectively, compared with a PRR above $1/4$ for CHaDD, at the price of a circuit depth of $2^C$. In state preservation experiments on a $127$-qubit IBM processor with $C=3$, the less dense sequences outperform CHaDD at short times when the pulses are not robust; this advantage is largely eliminated by robust versions designed to compensate for coherent pulse errors, and among the robust sequences, CGDD uses the fewest pulses over a fixed protection time. Across non-robust $C=3$ and $C=5$ schedules, equal PRR on a fixed qubit subset is empirically associated with similar state preservation. Thus, the PRR serves as a practical figure of merit for chromatic DD whenever coherent pulse errors dominate.",
+    "authors": [
+      "Brown, Amy F.",
+      "Lidar, Daniel A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:22.828764Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207357",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207357",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207357"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

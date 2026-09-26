@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28999",
+    "arxiv_id": "2609.28999",
+    "arxiv_version": null,
+    "inspire_id": "3207110",
+    "doi": null,
+    "title_en": "On the numerical limitations of dual Koopman von Neumann embeddings for solving conservative nonlinear ordinary differential equations on quantum computers",
+    "abstract_en": "The simulation of nonlinear ordinary differential equations on quantum computers is inherently challenging, as quantum gates are linear operators on qubit states. In this paper, we put forth a Koopman-von Neumann (KvN) operator based algorithm for solving nonlinear ordinary differential equations on a quantum computer which overcomes the innate limitations of quantum operations. In this approach, a Liouville probability density is embedded into a wavefunction, the evolution of which is governed by an operator dual to the Koopman operator. The trajectories corresponding to the nonlinear differential equations are reconstructed from the average value of Koopman observables evaluated through quantum measurements. We specifically evaluate the computational limitations of solving nonlinear equations within this Liouville embedding framework. An Ehrenfest-type estimate is derived that relates the reconstruction error to the covariance of the transported density, highlighting the competition between linear stretching and Hessian-induced folding.This leads to a key stability criterion, which depends on the local Ehrenfest-Reynolds number. We discuss the effects of measurement-induced errors including those due to Hadamard-test sampling, amplitude estimation, and bias due to covariance in probabilistic Grover-type inference on the evaluation of trajectories. The limiting bounds on the accuracy of quantum computations are numerically verified for the Lotka-Volterra system and for the quartic oscillator. We observe a rapid growth in computational errors when the Ehrenfest-Reynolds number approaches the predicted threshold. The bounds resulting from our analysis provide key guidelines for selecting the width of the initial Gaussian probability distribution associated with a system of nonlinear ordinary differential equations.",
+    "authors": [
+      "Fredon, Thibault",
+      "Ram, Abhay K.",
+      "Debbasch, Fabrice",
+      "Zylberman, Julien",
+      "Loureiro, Nuno F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:13:05.658634Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207110",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207110",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207110"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

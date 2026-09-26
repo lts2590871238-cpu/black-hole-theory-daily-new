@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29018",
+    "arxiv_id": "2609.29018",
+    "arxiv_version": null,
+    "inspire_id": "3207191",
+    "doi": null,
+    "title_en": "Decoder Model Compatibility Provides Information beyond the Logical Gap under Drifting and Correlated Quantum Noise",
+    "abstract_en": "Quantum error-correcting decoders provide both corrections and confidence estimates for the logical-error risk of individual measurement records. Such confidence can guide postselection, but it depends on the accuracy of the decoder noise model. When the physical device drifts away from that model, confidence measures such as the logical gap can become miscalibrated. We show that this mismatch can itself provide useful information. On IBM quantum hardware, syndrome statistics drift across consecutive acquisition windows, and the resulting detector histories differ substantially from those predicted by the stationary detector error model used for decoding. We observe a similar hardware-model mismatch in independent Google surface-code memory data. We exploit this effect by assigning additional rejection weight to detector histories that are unlikely under the assumed model. For minimum-weight perfect matching (MWPM), the minimum weight $W$ provides an inexpensive proxy for syndrome surprisal. On held-out IBM repetition-code memories, likelihood-aware postselection reduces the retained logical-error probability (LEP) by $10.6\\%$ at $d=7$ and $28.8\\%$ at $d=9$, both at $15\\%$ rejection. On Google ten-round $d=5$ XZZX surface-code memory data, it reduces retained LEP by $75.4\\%$ at $90\\%$ rejection. Applied to Google's magic-state cultivation experiment with the Tesseract decoder, it reduces tomography infidelity by $34.7\\%$ with $30\\%$ additional grafting-stage rejection, or increases accepted yield by $30.4\\%$ at a target fidelity of $97.0\\%$. Burst-noise simulations show that the advantage persists as code distance and syndrome-extraction volume increase. The method reuses quantities already produced during logical-gap decoding and requires only an additional fitting step.",
+    "authors": [
+      "Hoyt, Aaron C.",
+      "Wu, Chunshu",
+      "Kan, Shuwen",
+      "Garner, Sean",
+      "Chatterjee, Avimita",
+      "Rebar, Drew",
+      "Tubman, Norman M.",
+      "Klymko, Katherine",
+      "Liu, Chenxu",
+      "Li, Ang",
+      "Stein, Samuel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:13:04.946476Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207191",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207191",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207191"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

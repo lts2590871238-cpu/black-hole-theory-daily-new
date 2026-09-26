@@ -1,0 +1,86 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28882",
+    "arxiv_id": "2609.28882",
+    "arxiv_version": null,
+    "inspire_id": "3207190",
+    "doi": null,
+    "title_en": "Efficient Record-and-Replay Arithmetic for Quantum Elliptic-Curve Point Addition",
+    "abstract_en": "We study reversible secp256k1 point-addition circuits developed through ECDSA.Fail for Shor's elliptic-curve discrete-logarithm algorithm. Two complementary constructions improve record-and-replay GCD arithmetic: Jump-2 groups binary-GCD steps and compresses their decisions using base-5 encoding, while ping-pong uses fixed register alternation and one-bit decisions to avoid full-width comparisons and data-dependent swaps. Fused replay combines doubling and signed addition into one modular correction. Both constructions support quantum-addressed window selection with measurement-based lookup cleanup. We compare three circuits on 100,000 fresh inputs across nine lookup-table configurations. A separately tested repair uses 1,419 qubits and 1.356 million mean executed Toffolis, with no detected failures on another 100,000 inputs. Structured supported-input counterexamples remain, so these tests do not establish all-input correctness. We also provide conditional coherent-error analysis and reversible safegcd comparisons. Under the stated window allowance, repaired-circuit resources lie below Google's low-gate caps and Schrottenloher's low-gate estimates, but differing accounting and correctness evidence preclude formal dominance. The results concern individual window-selected additions, not complete Shor computations.",
+    "authors": [
+      "Long, Jieyi",
+      "Pender, Theodore",
+      "Huang, Zhao",
+      "Santos, Manuel B.",
+      "Singh, Samrendra Kumar",
+      "Naskręcki, Bartosz",
+      "BitWonka",
+      "Dallaire-Demers, Pierre-Luc",
+      "Giannicola, Francesco",
+      "Paschoarelli, Ruben M.L.",
+      "Freuler, Oli",
+      "Lee, Jackie Chia-Hsun",
+      "Gnuchev, Vasily",
+      "Kannappan, Gopi",
+      "Boyer, John",
+      "Butler, Xavier",
+      "Balasubramani, Akash",
+      "Newman, Jordan",
+      "Dereje, Bereket",
+      "Hertlein, Alexander",
+      "Kodra, Robert",
+      "Levy, Lucas",
+      "Patel, Shaan",
+      "Rose, JT",
+      "Zweil, Matt",
+      "Wisdom, Okechukwu",
+      "El-Eter, Tarek",
+      "Lee, Edison",
+      "Dong, Michael",
+      "Li, Alan",
+      "Joseph, Anto",
+      "Nguyen, Duy",
+      "Naik, Gajesh",
+      "Anant, Gautham",
+      "Deb, Soubhik",
+      "Drake, Justin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:21.474905Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207190",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207190",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207190"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

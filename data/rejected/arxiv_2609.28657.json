@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.28657",
+    "arxiv_id": "2609.28657",
+    "arxiv_version": null,
+    "inspire_id": "3207135",
+    "doi": null,
+    "title_en": "Quantum computational advantage in random-circuit sampling on IBM superconducting quantum computers",
+    "abstract_en": "We report forward random-circuit sampling (RCS) on the 120-qubit Nighthawk r2 superconducting processor (\\textit{ibm\\_phoenix}) with square-lattice connectivity, using 61 qubits, native CZ gates, and the standard cloud execution stack with no benchmark-specific calibration. Two independent fidelity estimators---mirror benchmarking and three- and four-patch cross-entropy benchmarking (XEB)---agree with each other at every measured depth, the mirror from 4 to 40 cycles and the patched estimators from 20 to 40 cycles, across more than two orders of magnitude of fidelity decay, and exceed the first-generation Nighthawk r1 device by more than an order of magnitude at fixed depth. The 36-cycle circuits sit at the depth where tensor-network contraction cost saturates at system size: a contraction-cost estimator validated against the published Sycamore and Zuchongzhi networks places the single-amplitude cost at $\\sim$$10^{22}$ complex operations. At $F_{\\mathrm{XEB}}(36)=2.3\\times10^{-3}$ under favorable memory assumptions this implies $1.2\\times10^{27}$ machine operations within the bounded-fidelity rejection-sampling model --- more than a century of runtime on the Frontier supercomputer --- to collect a $10^{6}$-sample ensemble, which takes only 19 s on Nighthawk r2. To our knowledge, this is the first demonstration of quantum advantage for a vanilla random-circuit sampling on a commercially and broadly accessible quantum processor that most non-expert quantum computer users can easily replicate.",
+    "authors": [
+      "Sedrakyan, Tigran",
+      "Zhang, Yuxuan",
+      "Karapetyan, Hovnatan",
+      "Baktay, Joshua D.",
+      "Gharibyan, Hrant",
+      "Tepanyan, Hayk"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-23T00:00:00Z",
+    "updated_at": "2026-09-25T11:12:43.519016Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207135",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207135",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207135"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

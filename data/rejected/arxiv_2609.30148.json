@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30148",
+    "arxiv_id": "2609.30148",
+    "arxiv_version": null,
+    "inspire_id": "3207311",
+    "doi": null,
+    "title_en": "Proper Agnostic Learning of Matrix Product States and Tree Tensor Networks",
+    "abstract_en": "We establish proper agnostic learning of matrix product states and tree tensor networks. Given copies of an arbitrary quantum state $ρ$, our algorithms return a state $|ψ\\rangle$ of chosen bond dimension such that $\\langleψ| ρ|ψ\\rangle$ is within $\\varepsilon$ of the optimum over the model class, without assuming that $ρ$ itself belongs to or is well approximated by that class. The main idea is to use improper learning to compress the mixed-state objective, reducing proper agnostic learning to optimization against a finite collection of explicitly specified pure states. We then introduce a comparator-dual compression procedure that reduces the bond dimension of these targets while uniformly preserving their overlaps with all bounded-bond comparators, with an error independent of system size. For matrix product states, this gives polynomial copy complexity in the system size, local dimension, bond dimension, and $1/\\varepsilon$, together with polynomial runtime in the system size for fixed local dimension, bond dimension, and accuracy. The same framework yields proper agnostic learning of tree tensor networks on bounded-degree trees, with both copy complexity and runtime polynomial in the system size when the remaining parameters are fixed.",
+    "authors": [
+      "de Pradenne, Constantin Cedillo Vayson",
+      "Cotler, Jordan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:18:01.227965Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207311",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207311",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207311"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

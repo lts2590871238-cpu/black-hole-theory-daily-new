@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29305",
+    "arxiv_id": "2609.29305",
+    "arxiv_version": null,
+    "inspire_id": "3207243",
+    "doi": null,
+    "title_en": "QaiJi IR: An Eight-Layer Intermediate Representation Family for Hybrid Quantum-Classical Compilation",
+    "abstract_en": "Hybrid quantum-classical compilers exchange programs among circuit, control-flow, pulse, device, and physical representations. Existing formats make different abstraction choices, so the properties that must survive a lowering step are often enforced by tool-specific code rather than stated in a common intermediate representation (IR). We present QaiJi IR, an eight-layer family organized by a \\emph{five-axis semantic contract} for data, semantics, lowering, runtime, and verification. Its L4 SemanticIR records the operation class, declared equivalence level, optimization role, and classical-feedback model as attributes, and maps operation classes to ISA-neutral hardware actions. The prototype provides typed quantum and classical circuit nodes, OpenQASM~2 compatibility input, canonical OpenQASM~3 output, explicit rejection of unsupported constructs, and executable gate-convention checks. A representative measurement-conditioned program reaches a canonical QASM fixed point, acquires a measurement-to-condition edge, passes an exact aggregate consistency check, and produces a symbolic pulse template. For a one-bit active-reset case, device lowering materializes ALU/FPROC records and a conditional branch. Running the resulting virtual pulse processing unit (VPPU) program with externally supplied outcomes 0 and 1 respectively skips and executes the conditional drive. These tests validate the represented compiler path and binary branch behavior. They do not establish a physical feedback loop, because the simulator cannot yet apply mid-circuit measurement collapse and continue the same dynamical trajectory.",
+    "authors": [
+      "Ye, Jun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:35.009307Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207243",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207243",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207243"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

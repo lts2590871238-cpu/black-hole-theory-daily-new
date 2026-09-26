@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:79c9d6631868c16108d0ea80",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3207835",
+    "doi": null,
+    "title_en": "Adaptive Efficient Histograms",
+    "abstract_en": "Nonparametric density estimation is a fundamental task in statistics. In many applications, such as clustering, non-parametric testing, classi?cation, anomaly detection\n\nand topological data analysis, density estimation is performed as a necessary preliminary step to solve more complex problems. Unfortunately, both the theoretical\n\nguarantees and the computational costs of virtually all commonly used density estimators are impacted signi?cantly by the dimensionality of the data. This is due to the\n\nintrinsic hardness of the problem: minimax optimal density estimation is computationally infeasible even in small dimensions. In order to overcome the computational and\n\ntheoretical limitations of the classical density estimations framework, in this thesis we study computationally e?cient methods for obtaining adaptive histograms, piecewise\n\nconstant density estimators over data adaptive partitions de?ned by axis-aligned hyperrectangles. We consider a variant of the density estimator tree (DET) method of Ram and Gray (2011), a very fast, fully data-driven greedy CART-like procedure that returns a tree-structured density estimator. We show through extensive simulations that\n\nour modi?ed DET procedure outperforms the standard version of DET, as well as traditional density estimators under a variety of scenarios and metrics, and is highly\n\ninterpretable. Inference for classical density estimation methods comes at a price, generally requiring certain smoothness conditions on the underlying density and computationally intensive procedures such as the bootstrap. In addition, the greedy nature of the DET method and the lack of theoretical understanding of its properties makes the task even more formidable. The second contribution of this thesis is the development of computationally feasible procedures to construct con?dence sets for high-dimensional\n\ndistributions based on the DET estimator. Our methodology relies on sample splitting and harness the explicit form of the upper level sets of the DET estimations, which can\n\nbe easily evaluated as a union of axes-aligned hyper-rectangles. The con?dence sets we develop come with coverage guarantees that are ?nite-sample, dimension free and do not require any smoothness on the data generating distribution. We propose three ways for building such con?dence sets, and provide efficient algorithms that return\n\ndensity functions guaranteed to belong to the con?dence set. We explore various applications of our methods, including classi?cation, clustering, anomaly detection, and background subtraction.",
+    "authors": [
+      "Gu, Xiaoyi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-25T00:00:00Z",
+    "updated_at": "2026-09-25T19:41:59.978030Z",
+    "document_types": [
+      "thesis"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207835",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207835",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207835"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

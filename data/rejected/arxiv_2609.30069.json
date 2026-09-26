@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30069",
+    "arxiv_id": "2609.30069",
+    "arxiv_version": null,
+    "inspire_id": "3207316",
+    "doi": null,
+    "title_en": "Design Principles for Ultra-High-Rate Quantum Codes",
+    "abstract_en": "Reducing the qubit overhead of quantum error correction is a central challenge for scalable fault-tolerant quantum computing. Recent ultra-high-rate quantum codes offer a promising route toward this goal, with some constructions requiring as few as two physical data qubits per logical qubit. However, systematic principles for navigating the tradeoffs among encoding rate, distance, check weight, and blocklength remain lacking. Here, we develop and analyze principles for exploring this design space, and use them to design compact code constructions with improved performance. We develop code templates based on a pair-partition construction and a halving transformation that further reduces blocklength. Motivated by ensemble analysis of the degree distributions, we identify column weight as a key design parameter: increasing the column weight enables larger distances at compact blocklengths, at the cost of heavier checks. We find that at physical error rates of 0.1%, the benefits of increased distance often outweigh the penalty associated with heavier checks. Applying this framework, we identify numerous compact codes with favorable parameters, including [[90,21,11]], [[140,31,15]], and [[200,43,20]] non-CSS codes with check weight 10. Moreover, we develop symmetry-informed strategies for identifying low-weight logical bases. These results provide systematic strategies for designing ultra-high-rate quantum codes and navigating their Pareto frontier.",
+    "authors": [
+      "Lee, Jong Yeon",
+      "Okada, Koki",
+      "Maskara, Nishad",
+      "Kasai, Kenta",
+      "Zhou, Hengyun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:12:47.047200Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207316",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207316",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207316"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

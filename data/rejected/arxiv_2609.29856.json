@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29856",
+    "arxiv_id": "2609.29856",
+    "arxiv_version": null,
+    "inspire_id": "3207095",
+    "doi": null,
+    "title_en": "A Block Decomposed QUBO Workflow for Chromosome-Y Phylogeny Reconstruction",
+    "abstract_en": "This paper sets out a computational workflow that reconstructs the phylogeny of human Y-chromosome populations from a Variant Call Format (VCF) file of biallelic Single Nucleotide Polymorphisms (SNP). The two classical phylogenetic decisions - topology selection and root placement - are cast as Quadratic Unconstrained Binary Optimisation (QUBO) problems. The workflow combines two QUBO formulations with an Alternating Direction Method of Multipliers (ADMM) decomposition strategy and a plug-in Digitized Counter-Diabatic Quantum Optimization (DCQO) solver, enabling large phylogenetic optimization problems to be executed across multiple classical or quantum computing resources. The DCQO gate-based optimizer drives each ADMM-block QUBO with short-depth counter-diabatic circuits in the impulse regime, without the necessity for an outer variational loop. The combination of ADMM decomposition and the DCQO block solver facilitates problem sizes that surpass the qubit budget of any individual digital quantum processing unit call, while maintaining the integrity of the original objective. The workflow extracts genotype information from VCF files, reconstructs topology and rooting through two QUBO formulations, and annotates the resulting tree using PhyloTree. The resultant data set comprises a Nexus-annotated rooted tree, in addition to diagnostic figures. The workflow demonstrates the potential of modest-scale QUBO formulations combined with ADMM decomposition to serve as a scalable alternative to greedy heuristics in the domain of population genomics.",
+    "authors": [
+      "Moreau, Giuliana Siddi",
+      "Berutti, Riccardo",
+      "Profir, Manuela",
+      "Pisani, Lorenzo",
+      "Clemente, Maria Laura",
+      "Leoni, Lidia"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:42.867853Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207095",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

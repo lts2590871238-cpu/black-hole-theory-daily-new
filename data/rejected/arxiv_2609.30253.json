@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30253",
+    "arxiv_id": "2609.30253",
+    "arxiv_version": null,
+    "inspire_id": "3207346",
+    "doi": null,
+    "title_en": "How Not to Build Microcrypt",
+    "abstract_en": "A key challenge in quantum cryptography is to build quantum one-wayness and pseudorandomness without the use of (quantum computable) one-way functions. So far, this has turned out to be a difficult task, with only a few proposed candidates that are not directly built from one-way functions. Even within these few proposed candidates, we have lacked the techniques to analyze when proposed constructions may inadvertently yield one-way functions. In this work, we introduce efficient NP-aided shadow tomography of quantum states. We prove that collections of {\\em computable} pure states can be learned via efficient NP-aided shadow tomography, where we say that a state is computable if the amplitude and phase on any computational basis term can be classically efficiently computed given the description of an efficient preparation circuit for the state. We also give new algorithms for NP-aided learning of unitaries given polynomially many queries to the unitary. By building on this, we show that many existing architectures for PRS and PRU, including some that were explicitly introduced for the purposes of avoiding one-way functions (e.g., Hamiltonian Phase States, Bostanci et. al., TQC 2025), actually do imply the existence of one-way functions or imply \\(\\NP\\) hardness. We hope that these no-go results will inform future investigations into building PRS and PRUs from assumptions that are plausibly outside the complexity class NP.",
+    "authors": [
+      "Gulati, Aditya",
+      "Khurana, Dakshita",
+      "Tomer, Kabir"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:17:19.569857Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207346",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207346",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207346"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

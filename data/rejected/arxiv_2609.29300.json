@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.29300",
+    "arxiv_id": "2609.29300",
+    "arxiv_version": null,
+    "inspire_id": "3207233",
+    "doi": null,
+    "title_en": "A low-temperature entropy source for on-chip true random number generation: universal robustness beyond device quality",
+    "abstract_en": "True random number generation is a critical capability for fault-tolerant quantum computing at millikelvin temperatures. Yet existing Josephson-junction-based TRNGs all rest on a widely accepted but untested assumption: that reliable entropy extraction requires precisely controlled device parameters. Here we show that this assumption does not always hold. We demonstrate a counterintuitive finding: a single current-biased Josephson junction, regardless of its parameter quality, can serve as a cryptographic-grade true random number generator. To establish the universality of this conclusion, we deliberately selected the most extremely deviated devices from fabrication, with critical currents three orders of magnitude away from theoretical predictions and $I_cR$ products an order of magnitude above conventional values, as the ultimate stress test. Even under these extreme conditions, the raw Shannon entropy reaches 0.9981~bit (99.8% of the theoretical maximum), with a min-entropy of 0.9271~bit. Using a square-wave pulsed-bias scheme, we tune the switching probability to $P\\approx0.5$. After SHA-256 post-processing, the bitstreams pass all 15 NIST SP 800-22 tests under a conservative $m=3$ criterion that is more demanding than the standard recommendation, and this certification holds across the entire 100-700~mK operating window of a dilution refrigerator.",
+    "authors": [
+      "Chai, Y.Q.",
+      "Wang, M.Y.",
+      "Feng, X.N.",
+      "Wei, L.F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-25T11:29:00.507380Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3207233",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3207233",
+        "fetched_at": "2026-09-26T01:42:20.093221Z",
+        "url": "https://inspirehep.net/literature/3207233"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
