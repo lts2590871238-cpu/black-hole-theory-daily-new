@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.20075",
+    "arxiv_id": "2602.20075",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/cm48-4k18",
+    "title_en": "Addressing leakage and mode suppression in angular power spectrum estimation for gravitational-wave backgrounds using pulsar timing arrays",
+    "abstract_en": "Mapping gravitational-wave background (GWB) anisotropy with pulsar timing arrays (PTAs) is affected by harmonic-space mode suppression and mode coupling arising from an array's nonuniform sky response. Spherical harmonic expansions must be truncated at finite multipole l_max^rec, often set to l_max^N_pair$\\equiv {\\rm int}\\left[\\sqrt{\\text{N_pair}}-1\\right]$, where N_pair is the number of distinct pulsar pairs in an array. This choice is motivated by the counting argument that cross-correlations provide at most N_pair independent constraints. We obtain the multipole l_max^res corresponding to the maximum informative angular scale of a PTA. It is defined such that expansions to l_max^res (approximately) span the space of \"observable skies\" encoded in the N_pair eigenmaps of the Fisher information matrix, and therefore depends on the array configuration. We explicitly show that GWB power contained in multipoles l$\\gtrsim$l_max^res do not significantly affect analyses that use expansions out to l_max^res, because the PTA response acts as a low-pass filter. In contrast, truncating at l_max^rec< l_max^res leads to leakage of small-scale angular power from l_max^rec<l$\\leq$l_max^res. Even choosing l_max^rec=l_max^res, the standard frequentist estimator of the angular power spectrum C_l remains biased by the modes unobservable by the array. Although we can (partially) debias the standard estimator -- improving its agreement with an injected spectrum -- this reduction in bias comes at the expense of an increase in variance, particularly for poorly constrained modes with l$\\gg$l_eff. We therefore recommend: (i) using l_max^res for PTA analyses involving spherical harmonic expansions, and (ii) using the debiased standard estimator for C_l recovery, but only out to multipoles l<l_eff ($\\ll$l_max^res) corresponding to sufficiently constrained modes.",
+    "authors": [
+      "Deepali Agarwal",
+      "Joseph D. Romano",
+      "Yacine Ali-Haïmoud",
+      "Tristan L. Smith"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-02-23T17:36:19Z",
+    "updated_at": "2026-09-25T02:35:20Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 114, 063048 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.20075v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.20075v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.20075",
+        "fetched_at": "2026-09-28T01:46:53.283404Z",
+        "url": "https://arxiv.org/abs/2602.20075v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 60
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 17,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 7,
+      "community_signal": 3,
+      "other": 5
+    },
+    "total_score": 75,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文直接针对脉冲星计时阵列中引力波背景各向异性测绘的核心方法问题：多极矩截断、模耦合、泄漏与标准C_l估计量的偏差，并提出可操作的l_max^res与去偏建议。属于PTA方向的方法论工作，对实际分析有明确指导意义，值得精读全文。",
+    "title_zh": "解决脉冲星计时阵列引力波背景角功率谱估计中的泄漏与模式压制问题",
+    "abstract_zh": "利用脉冲星计时阵列（PTA）绘制引力波背景（GWB）各向异性图，会受到阵列非均匀天空响应所导致的谐波空间模式压制与模耦合的影响。球谐展开必须在有限多极矩 $l_{\\max}^{\\rm rec}$ 处截断，通常设为 $l_{\\max}^{N_{\\rm pair}}\\equiv {\\rm int}\\left[\\sqrt{\\text{N}_{\\rm pair}}-1\\right]$，其中 $\\text{N}_{\\rm pair}$ 是阵列中不同脉冲星对的数目。这一选择源于计数论证：交叉相关最多提供 $\\text{N}_{\\rm pair}$ 个独立约束。我们求出了与PTA最大信息角尺度相对应的多极矩 $l_{\\max}^{\\rm res}$。它的定义使得展开到 $l_{\\max}^{\\rm res}$（近似）张成由Fisher信息矩阵的 $\\text{N}_{\\rm pair}$ 个特征图所编码的“可观测天空”空间，因此依赖于阵列构型。我们明确展示，包含在多极矩 $l\\gtrsim l_{\\max}^{\\rm res}$ 中的GWB功率不会显著影响使用展开到 $l_{\\max}^{\\rm res}$ 的分析，因为PTA响应充当低通滤波器。相反，在 $l_{\\max}^{\\rm rec}< l_{\\max}^{\\rm res}$ 处截断会导致来自 $l_{\\max}^{\\rm rec}<l\\leq l_{\\max}^{\\rm res}$ 的小尺度角功率泄漏。即使选择 $l_{\\max}^{\\rm rec}=l_{\\max}^{\\rm res}$，角功率谱 $C_l$ 的标准频率派估计量仍会因阵列不可观测的模式而产生偏差。尽管我们可以（部分地）对标准估计量去偏——改善其与注入谱的一致性——但这种偏差的降低以方差增加为代价，特别是对于 $l\\gg l_{\\rm eff}$ 的约束较差的模式。因此我们建议：（i）在涉及球谐展开的PTA分析中使用 $l_{\\max}^{\\rm res}$；（ii）使用去偏后的标准估计量来恢复 $C_l$，但仅限到与充分约束模式相对应的多极矩 $l<l_{\\rm eff}$（$\\ll l_{\\max}^{\\rm res}$）。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational-wave background",
+      "angular power spectrum",
+      "spherical harmonic expansion",
+      "mode coupling",
+      "leakage",
+      "Fisher information matrix"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波背景",
+      "角功率谱",
+      "球谐展开",
+      "模耦合",
+      "泄漏",
+      "Fisher信息矩阵"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-28T01:47:57.805446Z"
+  },
+  "published_at": "2026-09-28T01:47:57.805947Z"
+}

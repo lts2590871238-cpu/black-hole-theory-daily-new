@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.31081",
+    "arxiv_id": "2609.31081",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Set Transformer inference of the neutron star equation of state from stellar observations",
+    "abstract_en": "We develop a permutation-invariant Set Transformer to reconstruct the equation of state (EoS) of dense matter from variable-size, unordered sets of neutron star (NS) observations. The model takes stellar masses together with radii, tidal deformabilities, or both, and predicts either the pressure $P(n)$ or the sound speed $c_s^2(n)$ on a fixed density grid, along with density-dependent uncertainties. Nothing in the architecture prescribes which star informs which density: self-attention couples all observations nonlinearly, and each density point reads the full set through its own learnable query, so the star-to-density mapping is learned from the data. Trained on independent piecewise-polytropic and Gaussian-process EoS ensembles, the model provides well-calibrated predictions whose uncertainty increases in density regions that stable stars cannot probe. Reconstruction errors decrease with the number of observations, while tidal deformability generally improves accuracy at a fixed observation count, even when it carries its own measurement noise. Sensitivity analysis reveals a density-local mapping: in the pressure models, predictions at density $n$ depend most strongly on stars whose central densities are near $n$. We also show that the sensitivity of the model to the inferred stellar compactness provides information on the minimum central density. These results demonstrate that set-based neural inference, in which the star-to-density mapping is learned rather than assumed, can extract physically interpretable EoS information with calibrated uncertainties.",
+    "authors": [
+      "Márcio Ferreira",
+      "Valéria Carvalho",
+      "Michał Bejger",
+      "Constança Providência"
+    ],
+    "categories": [
+      "nucl-th",
+      "astro-ph.HE",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-09-25T10:22:50Z",
+    "updated_at": "2026-09-25T10:22:50Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.31081v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.31081v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.31081",
+        "fetched_at": "2026-09-28T01:46:53.283404Z",
+        "url": "https://arxiv.org/abs/2609.31081v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

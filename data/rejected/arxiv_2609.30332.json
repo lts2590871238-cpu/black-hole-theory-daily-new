@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30332",
+    "arxiv_id": "2609.30332",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Physics-Informed Neural Networks for Static Black-Hole Exterior Metrics: Charge and Cosmological-Constant Sweeps",
+    "abstract_en": "We apply physics-informed neural networks (PINNs) to recover the time-time component of static, spherically symmetric black-hole exterior metrics from a reduced ordinary differential equation (ODE). Inspired by recent work on solving Einstein field equations with deep learning~\\cite{Li2023}, we encode the vacuum/charged exterior through a residual loss and an asymptotic boundary constraint---not by embedding analytic metric terms such as $2M/r$ directly into the network output. Unlike the distributed PINN (DPINN) strategy of Ref.~\\cite{Li2023}, which partitions the radial domain into subdomains with separate networks, we employ a \\emph{unified} fully connected network over the entire interval $[r_{\\min},r_{\\max}]$, avoiding spurious jumps at subdomain interfaces. Moreover, whereas Ref.~\\cite{Li2023} restricts training to $r\\in(10,300)$---well outside the steep $1/r$ and $1/r^2$ curvature of the inner exterior---we begin at $r_{\\min}=10^{-2}M$, spanning three decades in radius and covering the strongly varying region that DPINNs sidestep by domain truncation. Holding the mass fixed at $M=1$, we sweep electric charge $Q\\in\\{0,0.5,1.0,1.1\\}$ at $Λ=0$ and sweep $Λ\\in\\{0,0.1,-0.1\\}$ at $Q=0.5$. All configurations achieve relative $\\mathcal{L}_2$ errors below $6\\%$ against the analytic reference. For the representative case $Q=0.5$, $Λ=0.1$, three independent trainings with fixed seeds yield relative errors of $3.89\\%$, $1.08\\%$, and $2.76\\%$ (mean $2.58\\%$, standard deviation $1.41\\%$), demonstrating robustness of the mesh-free approach without labeled field data.",
+    "authors": [
+      "Huan Jin",
+      "Fei Wu",
+      "Fei Xue"
+    ],
+    "categories": [
+      "gr-qc",
+      "hep-ph",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-09-24T03:10:59Z",
+    "updated_at": "2026-09-24T03:10:59Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.30332v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.30332v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.30332",
+        "fetched_at": "2026-09-28T01:46:53.283404Z",
+        "url": "https://arxiv.org/abs/2609.30332v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

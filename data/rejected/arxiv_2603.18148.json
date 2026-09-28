@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.18148",
+    "arxiv_id": "2603.18148",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/jrn5-gv19",
+    "title_en": "Removing nodal and support-mismatch pathologies in Variational Monte Carlo via blurred sampling",
+    "abstract_en": "Variational Monte Carlo (VMC) is a powerful and fast-growing method for optimizing and evolving parameterized many-body wave functions, especially with modern neural-network quantum states. In practice, however, the stochastic estimators that form the backbone of the method can become unstable or biased due to the presence of nodes, a ubiquitous feature of quantum wave functions. In the continuum, this results in heavy-tailed estimators with potentially divergent variances, while in discrete Hilbert spaces the sampling distribution can miss parts of the support needed to form unbiased estimators. These statistical pathologies lead to unreliable optimization trajectories in stochastic reconfiguration or incorrect variational dynamics in time-dependent Variational Monte Carlo (t-VMC), and severely limit the power of the numerical simulations. We introduce blurred sampling to address these difficulties. The method has a number of rigorous properties that make it well-behaved, effective and computationally efficient. Additionally, it is a post-processing approach that can be used without modifying the underlying sampler and incurs only minimal overhead. We demonstrate its effectiveness in a broad range of problems -- including ground state optimization in both continuum and discrete settings, as well as in time-dependent variational Monte Carlo, where it resolves previously identified failure modes -- and further apply it to large-scale problems in spin dynamics. This work establishes a broadly applicable framework for robust VMC and t-VMC calculations.",
+    "authors": [
+      "Zhou-Quan Wan",
+      "Roeland Wiersema",
+      "Shiwei Zhang"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.dis-nn",
+      "physics.comp-ph",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-03-18T18:00:05Z",
+    "updated_at": "2026-09-25T14:51:11Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. X 16, 031059 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.18148v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.18148v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.18148",
+        "fetched_at": "2026-09-28T01:46:53.283404Z",
+        "url": "https://arxiv.org/abs/2603.18148v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
