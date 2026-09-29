@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.17981",
+    "arxiv_id": "2604.17981",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Efficiently emulating distribution functions in gigaparsec volumes for varying cosmological parameters",
+    "abstract_en": "We present a new method for emulating the halo mass function (HMF) and other distribution functions in large effective volumes, down to low halo masses, whilst simultaneously modifying large ranges of parameters, for a fraction of the cost of traditional periodic cosmological simulations. We demonstrate the method by selecting small regions, $V \\sim (50 \\,h^{-1}{\\rm Mpc})^3$, with a range of overdensities from the Quijote suite, consisting of tens of thousands of $(1 \\,h^{-1}{\\rm Gpc})^3$ $N$-body simulation volumes run with varying $Λ$CDM parameters. We train a differentiable emulator, conditioned on the overdensity of the region and these global parameters, to reproduce the halo mass function in these regions. We then successfully recover the global distribution of halo masses of the entire box by integrating over the overdensity distribution. Our approach uses just $\\sim\\,$0.026% of the original simulation volume, and suggests that suites of targeted `zoom' simulations, extracted from low resolution parent volumes, can be used to emulate large volume simulations at a fraction of the computational cost, whilst simultaneously pushing the dynamic range to much lower masses than can be achieved in periodic simulations. We discuss emulation of other key dark matter and baryonic distribution functions, as well as higher order statistics, with implications for the interpretation of upcoming wide field surveys on observatories such as Euclid, Roman and Rubin.",
+    "authors": [
+      "Christopher C. Lovell",
+      "Max E. Lee",
+      "William J. Roper",
+      "Daniel Anglés-Alcázar",
+      "Shy Genel",
+      "Shivam Pandey",
+      "Francisco Villaescusa-Navarro"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2026-04-20T09:02:04Z",
+    "updated_at": "2026-09-27T12:08:17Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.17981v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.17981v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.17981",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://arxiv.org/abs/2604.17981v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

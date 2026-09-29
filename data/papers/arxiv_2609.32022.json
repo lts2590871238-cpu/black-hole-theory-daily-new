@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.32022",
+    "arxiv_id": "2609.32022",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Delayed Rejection Reversible Jump Markov Chain Monte Carlo Method for Multi-Resolution Maps of the Stochastic Gravitational Wave Background with Pulsar Timing Array Data",
+    "abstract_en": "Pulsar timing array anisotropy analyses often use a naive counting argument to set resolutions of inferred maps of the stochastic gravitational wave background (GWB). We present a data-driven method in the form of a delayed rejection reversible jump sampler tailored to multi-resolution pixel decompositions of the angular power density of the GWB. We also consider a rapid, frequentist alternative based on information criteria statistics. We verify our methods with a series of injection-and-recovery simulations, finding that the standard counting argument would lead to drastic overfitting of the data and that our data-driven methods reduce the number of parameters in the models by one to three orders of magnitude yet can achieve higher resolution than the standard counting argument when justified by the data. We make our sampler and frequentist method implementation available on GitHub.",
+    "authors": [
+      "Taha T. Moursy",
+      "Nihan S. Pol"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-09-25T21:35:12Z",
+    "updated_at": "2026-09-25T21:35:12Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.32022v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.32022v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.32022",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://arxiv.org/abs/2609.32022v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 85
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 20,
+      "methodological_rigor": 18,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 70,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文针对脉冲星计时阵列数据中随机引力波背景各向异性映射的分辨率选取问题，提出了一种延迟拒绝可逆跳跃蒙特卡洛采样器与基于信息准则的频率学派方法，并通过注入-恢复模拟验证了标准计数论证会导致严重过拟合。方法学创新明确、验证充分、与PTA主题高度相关，且代码公开，值得进一步阅读。",
+    "title_zh": "一种用于脉冲星计时阵列数据随机引力波背景多分辨率映射的延迟拒绝可逆跳跃马尔可夫链蒙特卡洛方法",
+    "abstract_zh": "脉冲星计时阵列各向异性分析通常使用一种朴素的计数论证来确定所推断的随机引力波背景（GWB）映射的分辨率。我们提出了一种数据驱动的方法，其形式为一种延迟拒绝可逆跳跃采样器，专门针对GWB角功率密度的多分辨率像素分解。我们还考虑了一种基于信息准则统计量的快速频率学派替代方法。我们通过一系列注入-恢复模拟验证了我们的方法，发现标准的计数论证会导致对数据的严重过拟合，而我们的数据驱动方法将模型中的参数数量减少了一到三个数量级，但在数据支持时仍能达到比标准计数论证更高的分辨率。我们将采样器和频率学派方法的实现发布在GitHub上。",
+    "keywords_en": [
+      "pulsar timing array",
+      "stochastic gravitational wave background",
+      "anisotropy",
+      "reversible jump Markov chain Monte Carlo",
+      "delayed rejection",
+      "multi-resolution maps",
+      "information criteria",
+      "Bayesian model selection"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "随机引力波背景",
+      "各向异性",
+      "可逆跳跃马尔可夫链蒙特卡洛",
+      "延迟拒绝",
+      "多分辨率映射",
+      "信息准则",
+      "贝叶斯模型选择"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-09-29T02:38:30.769851Z"
+  },
+  "published_at": "2026-09-29T02:38:30.770323Z"
+}

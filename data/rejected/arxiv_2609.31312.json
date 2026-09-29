@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.31312",
+    "arxiv_id": "2609.31312",
+    "arxiv_version": null,
+    "inspire_id": "3208047",
+    "doi": null,
+    "title_en": "Causal Query Compression for Lindblad Dynamics: Optimal Queries and Nearly Linear Local Simulation",
+    "abstract_en": "We construct a causal query compiler for time-dependent Lindblad dynamics and establish query and gate bounds under distinct input models. With coherent block encodings of the Hamiltonian and individual jump operators, a Lipschitz generator can be simulated to diamond-norm error $\\varepsilon$ using $O(1+τ+\\log(1/\\varepsilon)/\\log(e+\\log(1/\\varepsilon)/τ))$ controlled queries, where $τ=T(α_H+\\sum_μα_μ^2)$. This bound is independent of the time-grid size and is worst-case optimal for $τ\\ge1$. Weak active entry and clean return yield a factorial history tail; combining two reuse lengths removes the auxiliary input. A three-call polar correction supplies the Lindblad cells. The compiler also characterizes the minimum oracle action of bounded adaptive Markovian protocols by quantum query complexity and the general adversary bound, up to constant factors. For finite-range dynamics on $n$ lattice sites, efficient coherent evaluation of the local matrices and fixed local parameters give $O(n(T+1)\\operatorname{polylog}X)$ elementary gates, where $X=\\max\\{e,n(T+1)(1+K_t+B)/\\varepsilon\\}$, for piecewise Hölder generators with fixed exponent, local variation bound $K_t$, and at most $B$ breakpoints per term. The jumps need not commute. This gate bound includes evaluation, arithmetic, selection, routing, and environment storage. Its proof combines a spatial decomposition on a common bath, compilation on occupied inputs, and routing on compressed records. Reusing bath storage between short segments gives depth $(T+1)\\operatorname{polylog}X$ and space $n\\operatorname{polylog}X$.",
+    "authors": [
+      "Kitchen, Jacob"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-25T00:00:00Z",
+    "updated_at": "2026-09-28T11:38:46.516004Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3208047",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3208047",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://inspirehep.net/literature/3208047"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

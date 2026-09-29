@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.31611",
+    "arxiv_id": "2609.31611",
+    "arxiv_version": 1,
+    "inspire_id": "3208095",
+    "doi": null,
+    "title_en": "A Multidimensional General-Relativistic Boltzmann Solver for Neutrino Transport: Implementation, Discretization and Optimization",
+    "abstract_en": "We present the implementation of a multidimensional general-relativistic Boltzmann solver for neutrino transport using the finite volume method. We extend the general-relativistic magnetohydrodynamics solver \\texttt{Gmunu} to discretize the full $6$D phase space. We discretize the momentum space in spherical coordinates in the comoving frame, and the position space in the lab frame in Cartesian, cylindrical or spherical coordinates. As in the M1 scheme, we expand the interaction kernels up to first order in a Legendre series. We present a discretization scheme that ensures consistency between the number-conservative and non-conservative formulations in empty flat spacetime, multiple dimensions and coordinate systems, conserves energy to $\\sim 1\\%$ with $20$ energy bins in 1D tests. We discuss optimizations of the implicit solver for stiff source terms to minimize its computational cost. In particular, we introduce a method that leverages the Legendre expansion of the kernels to reduce the dimensionality of the problem. In a 1D core-collapse supernova snapshot, our method yields a speed-up factor of $300$ compared to a full-matrix LU method for $14$ angular bins when including energy- and species-coupling interactions. Finally, we validate our implementation on standard test cases and report quadratic convergence in space, energy and propagation angles. We compare our solver to the M1 scheme in simplified 1D configurations and find differences of about $10\\%$ in the free-streaming luminosities in relaxation test cases, which we attribute primarily to the M1 closure relation. The average energies, on the other hand, agree between the two methods. We compare both methods on a core-collapse supernova test case and find an overall good agreement in the fluid variables' profiles at the time of core bounce for $20$ energy bins.",
+    "authors": [
+      "Arthur Offermans",
+      "Harry Ho-Yin Ng",
+      "Patrick Chi-Kit Cheong",
+      "Anthony Mezzacappa",
+      "Tjonnie Guang Feng Li"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-09-25T00:00:00Z",
+    "updated_at": "2026-09-28T11:39:09.122157Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.31611v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.31611v1",
+    "inspire_url": "https://inspirehep.net/literature/3208095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.31611",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://arxiv.org/abs/2609.31611v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3208095",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://inspirehep.net/literature/3208095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

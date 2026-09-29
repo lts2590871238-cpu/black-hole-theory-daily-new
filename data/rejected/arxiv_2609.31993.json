@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.31993",
+    "arxiv_id": "2609.31993",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Identifiability Limits of Gravitational Wave Phase Deviations: Multiclass Classification with a Multihead Neural Network",
+    "abstract_en": "We study how well gravitational-wave phase deviations can be identified using a neural network with classification and regression heads. The classification head distinguishes general relativity (GR) from six parametrized post-Einsteinian phase families with exponents $b\\in\\{-7,-5,-3,-1,+1,+2\\}$; the regression head predicts the logarithm of the coupling magnitude, $\\log_{10}|β|$. The network input is a response function quantifying the sensitivity of waveform mismatch to waveform deformations. We use stationary Gaussian noise with the Advanced LIGO design spectrum for 262 sources and a measured Hanford spectrum from the third observing run (O3) for 132 sources, and also test injections into recorded Hanford strain. On the two Gaussian datasets, the network identifies the exponent of deviations clearly above the noise with accuracies of $0.427$ and $0.329$. To interpret these results, we compare the network with an approximate classifier built from predicted waveform residuals for the six phase families and same sources. The two classifiers often confuse the same families. Examining residuals left by different phase corrections, we link these errors to similarities between the underlying deviations. On selected recorded Hanford strain, networks trained on simulated or recorded noise achieve overall classification accuracies close to those on simulated Hanford noise. Of thirteen neural-network variants tested on the Advanced LIGO design dataset, the recurrent network has the highest mean classification accuracy for loud deviations, although all variants remain below the approximate classifier. The network nearly matches that classifier's accuracy, indicating that identification is limited by similarities between neighboring phase families rather than by the network, for known intrinsic source parameters.",
+    "authors": [
+      "Lavinia Heisenberg",
+      "Shayan Hemmatyar"
+    ],
+    "categories": [
+      "gr-qc",
+      "cs.LG",
+      "physics.data-an"
+    ],
+    "submitted_at": "2026-09-25T20:52:39Z",
+    "updated_at": "2026-09-25T20:52:39Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.31993v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.31993v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.31993",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://arxiv.org/abs/2609.31993v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

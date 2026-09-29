@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30775",
+    "arxiv_id": "2609.30775",
+    "arxiv_version": null,
+    "inspire_id": "3208020",
+    "doi": null,
+    "title_en": "Parnassus for the CLD Detector: A Generative Machine-Learning Surrogate for Detector Simulation and Reconstruction at the FCC-ee",
+    "abstract_en": "Detector simulation and event reconstruction will be computationally expensive for future $e^+e^-$ collider programs and are currently critical bottlenecks for accurate feasibility studies. To address this challenge, we build a Parnassus model for the CLD detector concept. Parnassus is a framework for automatically tuning a surrogate model, in our case, a conditional flow matching neural network, to emulate a full detector simulation and reconstruction. We train on $e^+e^-\\to Z\\to q\\bar q$ events at $\\sqrt{s}=91.2$ GeV processed through a Geant4 simulation of the CLD detector concept and the Pandora particle-flow reconstruction and reproduce single-particle kinematics, particle-IDs, and impact-parameter distributions. We also examine jet- and event-level features, inclusively and split by flavor, and find excellent fidelity, significantly better than the parameterized program Delphes. Furthermore, we train a transformer-based flavor tagger on the reconstructed particle-flow constituents and show that the surrogate preserves the $b/c/s/q$ discrimination of the full CLD reconstruction. The Parnassus CLD model achieves a generation cost of about 1.2 ms (40 ms) per event on a single GPU (CPU), over three (two) orders of magnitude faster than full simulation and reconstruction. Our model is publicly available for feasibility and design studies.",
+    "authors": [
+      "Qureshi, Umar Sohail",
+      "Nachman, Benjamin",
+      "Vernieri, Caterina"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-25T00:00:00Z",
+    "updated_at": "2026-09-28T11:23:19.561342Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3208020",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3208020",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://inspirehep.net/literature/3208020"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

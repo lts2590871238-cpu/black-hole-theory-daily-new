@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.31502",
+    "arxiv_id": "2609.31502",
+    "arxiv_version": null,
+    "inspire_id": "3208076",
+    "doi": null,
+    "title_en": "Parallel and Distributed Fermionic Simulation via Dynamic Encoding",
+    "abstract_en": "We demonstrate a simple and efficient method to parallelize and distribute Trotterized Hamiltonian simulation of fermionic systems across multiple QPUs. Using combinatorial covering designs to define a minimal set of fermion-qubit encodings, we demonstrate communication cost scaling as $\\mathcal{O}(M r)$ for a system of $M$ fermionic modes and Trotter number $r$, improving on the static encoding bound for $q$ QPUs, $\\mathcal{O}(M^4 q r)$. We compare this approach to dynamic encoding using a randomised method, Pauli-weight based optimisation and hypergraph partitioning. Applying this to the Hamiltonians of a range of molecular systems, we find the combinatorial covering approach results in the lowest communication cost in all but the sparsest Hamiltonians.",
+    "authors": [
+      "de la Bastida, Michael Williams",
+      "Coveney, Peter V."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-25T00:00:00Z",
+    "updated_at": "2026-09-28T11:23:51.222509Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3208076",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3208076",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://inspirehep.net/literature/3208076"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

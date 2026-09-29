@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.32096",
+    "arxiv_id": "2609.32096",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Learning Scattering Amplitudes with Transformer Reinforcement Learning",
+    "abstract_en": "We introduce a transformer reinforcement learning algorithm that learns to solve high loop-level scattering amplitudes in planar N = 4 Super Yang-Mills theory. Our algorithm improves on previous transformer-only results by incorporating previously derived symmetries and relationships into the learning algorithm. This results in a greatly decreased fraction of the solution that needs to be known a priori to solve the entire problem. An additional benefit is that our algorithm also ensures that every output obeys the set of known relationships. Rather than predicting all coefficients independently, the model proposes assignments that are propagated through exact linear relations, while MCTS searches over assignments when propagation alone is insufficient. This is crucial to the generalization of machine learning approaches to higher loops, as without this, there is no way to overcome the factorially scaling of state sizes and compare to results derived via other methods. Using the symbology representation of the form factor, we frame the problem as learning a mapping between discrete sequences and integer coefficients.",
+    "authors": [
+      "Philip Velie",
+      "Tianji Cai",
+      "Piyush Jha",
+      "Vijay Ganesh",
+      "Aishik Ghosh"
+    ],
+    "categories": [
+      "hep-th"
+    ],
+    "submitted_at": "2026-09-26T00:02:30Z",
+    "updated_at": "2026-09-26T00:02:30Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.32096v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.32096v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.32096",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://arxiv.org/abs/2609.32096v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.30532",
+    "arxiv_id": "2609.30532",
+    "arxiv_version": null,
+    "inspire_id": "3208124",
+    "doi": null,
+    "title_en": "Managing Iterative Hybrid Quantum-Classical Optimization as a First-Class Scientific Workflow",
+    "abstract_en": "Today's Quantum Processing Units (QPUs) are too small and too noisy to solve large combinatorial optimization problems directly, so practical hybrid solvers split a problem into pieces and iterate a decompose-solve-aggregate loop over whatever backends are available: classical heuristics, simulators, emulators, or a QPU. In practice, the loop is a driver script. It sits on top of the quantum-HPC middleware, handling task generation, provenance, recovery, and portability. Instead, we treat the loop as a scientific workflow and ask what a workflow layer adds to a generic workflow management system and QPU-sharing middleware. Two decomposition patterns from real applications, iterative consensus (ADMM) and hierarchical partitioning, turn out to stress the orchestration layer very differently: over 120 managed runs, orchestration took 78.4% of end-to-end time for the iterative pattern, almost all of it in a per-round barrier, but only 6.2% for the hierarchical one. Our workflow model adds four things a generic engine does not have: a termination predicate residing in the task graph that reads the previous round's residuals, subproblem-level recovery with warm-start and quorum-deferred aggregation, failover from a QPU to a classical replica within a round, and a provenance schema that describes CPUs, simulators and QPUs with the same fields, including the shot budget included. We report the cost of each layer on our engine, show that speculative re-execution enable runs to complete under injected failures that stall an unmanaged driver. We also use the same provenance to give per-device latency tails across simulators, emulators and IQM QPUs.",
+    "authors": [
+      "Moreau, Giuliana Siddi",
+      "Clemente, Maria Laura",
+      "Pisani, Lorenzo",
+      "Profir, Manuela",
+      "Pinna, Marco",
+      "Moro, Marco",
+      "Leoni, Lidia"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-24T00:00:00Z",
+    "updated_at": "2026-09-29T02:25:15.648088Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3208124",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3208124",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://inspirehep.net/literature/3208124"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

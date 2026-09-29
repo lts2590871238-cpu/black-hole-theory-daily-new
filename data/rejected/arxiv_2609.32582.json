@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.32582",
+    "arxiv_id": "2609.32582",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Cool Embeddings: Predicting Galaxy Cluster Cooling Times in IllustrisTNG and TNG-Cluster with AstroCLIP",
+    "abstract_en": "Foundation models trained on optical astronomical data have not previously been applied to X-ray cluster thermodynamics. We show that embeddings from AstroCLIP, a contrastive vision-language model trained on optical galaxy images and spectra, retain physically meaningful structure when applied to mock Chandra X-ray images of simulated galaxy clusters - a significant shift in observational modality and physical scale. We target the central cooling time ($t_{\\mathrm{cool},0}$) of the intracluster medium, a key diagnostic of cluster thermodynamics traditionally requiring X-ray spectroscopy. We present a machine learning framework that predicts $t_{\\mathrm{cool},0}$ directly from X-ray images, applied to 711 projections from TNG300 and 993 from TNG-Cluster from the IllustrisTNG simulations. AstroCLIP embeddings form a structured latent space in which clusters with similar thermodynamic properties are naturally grouped, with no equivalent separation by halo mass. Building on this, we introduce a dot-product $k$-nearest neighbour attention model that retrieves similar clusters from the training set and adaptively reweights their cooling times. This model achieves root-mean-square errors of 0.24 (TNG300) and 0.23 (TNG-Cluster) in $\\log(t_{\\mathrm{cool},0})$, and demonstrates strong out-of-distribution generalisation, outperforming a fine-tuned convolutional neural network trained on raw images (RMSE 0.50 versus 0.73). These results demonstrate that pretrained foundation model embeddings transfer across astrophysical domains and encode thermodynamic information sufficient for inference of cluster cooling properties - offering a scalable path toward cool-core characterisation in all-sky surveys such as eROSITA.",
+    "authors": [
+      "Rawan Karam",
+      "Carter Lee Rhea",
+      "Julie Hlavacek-Larrondo",
+      "Laurence Perreault-Levasseur",
+      "Marine Prunier",
+      "Adam Alexandre",
+      "Hyunseop Choi"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-09-26T12:57:54Z",
+    "updated_at": "2026-09-26T12:57:54Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.32582v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.32582v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.32582",
+        "fetched_at": "2026-09-29T02:37:14.696996Z",
+        "url": "https://arxiv.org/abs/2609.32582v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
