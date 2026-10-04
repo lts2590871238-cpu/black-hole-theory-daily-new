@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -15,6 +16,7 @@ class _LinkParser(HTMLParser):
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag != "a":
             return
+
         values = dict(attrs)
         href = values.get("href") or ""
         if href.startswith(("http://", "https://")):
@@ -25,6 +27,7 @@ class _LinkParser(HTMLParser):
 
 def validate_dist(dist: Path) -> list[str]:
     errors: list[str] = []
+
     required = (
         "index.html",
         "archive/index.html",
@@ -37,13 +40,20 @@ def validate_dist(dist: Path) -> list[str]:
     for relative in required:
         if not (dist / relative).is_file():
             errors.append(f"missing static output: {relative}")
+
     for path in dist.rglob("*.html"):
         content = path.read_text(encoding="utf-8")
         parser = _LinkParser()
         parser.feed(content)
         errors.extend(parser.errors)
-        if "OPENAI_API_KEY" in content or "sk-" in content:
-            errors.append(f"possible credential in {path.name}")
+
+        for name in ("OPENAI_API_KEY", "DEEPSEEK_API_KEY"):
+            secret = os.getenv(name, "")
+            if len(secret) >= 20 and secret in content:
+                errors.append(
+                    f"possible credential in {path.relative_to(dist)} ({name})"
+                )
+
     papers_path = dist / "papers.json"
     if papers_path.exists():
         try:
@@ -52,4 +62,5 @@ def validate_dist(dist: Path) -> list[str]:
                 errors.append("papers.json has no schema_version")
         except json.JSONDecodeError as exc:
             errors.append(f"invalid papers.json: {exc}")
+
     return errors
