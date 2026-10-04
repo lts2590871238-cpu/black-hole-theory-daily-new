@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38713",
+    "arxiv_id": "2609.38713",
+    "arxiv_version": null,
+    "inspire_id": "3209740",
+    "doi": null,
+    "title_en": "When Error Mitigation Makes Things Worse: Budget-Aware Evaluation, Extrapolation Failure, and the Calibration Trust Boundary",
+    "abstract_en": "Error mitigation is expected to turn noisy quantum measurements into more useful estimates. We show that it can instead amplify error. Under control-offset miscalibration, the evaluated unconstrained zero-noise extrapolation (ZNE) estimators are worse than no mitigation on 38-63% of simulated instances and produce extreme tail errors. A small IBM Heron study finds worsening on 80-88% of 18 instances across two depths, with mean error 3.0-4.1 times the raw error. In simulation, the median changes little, so median-only monitoring misses the failures. We then compare methods at the same online shot budget per evaluation and report offline training cost separately. After that cost is amortized, a budget-conditioned neural corrector occupies the low-budget end of the simulated accuracy-cost frontier and falls back to the raw estimate when an ensemble disagrees; its hardware transfer remains unsuccessful. Finally, we treat provider-reported calibration as an input that is not bound to the execution-time device state. A white-box projected-gradient stress test on this metadata increases the corrector's error 8.1 times within the feature ranges used for training and evades the disagreement monitor on half of the worsened cases. Together, the results connect budget-aware evaluation, tail risk, and calibration integrity in near-term quantum learning pipelines.",
+    "authors": [
+      "Zhang, Guilin",
+      "Zhao, Kai",
+      "Cui, Xiquan",
+      "Heng, Henry",
+      "Chu, Xu",
+      "Blanken, Aletta Johanna"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:05:31.713684Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209740",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209740",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209740"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

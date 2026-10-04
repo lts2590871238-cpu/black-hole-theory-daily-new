@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39170",
+    "arxiv_id": "2609.39170",
+    "arxiv_version": null,
+    "inspire_id": "3209566",
+    "doi": null,
+    "title_en": "Quantum Frozen--Oseen homotopy analysis method with LCHS for solving nonlinear partial differential equations",
+    "abstract_en": "Nonlinear partial differential equations (PDEs) underpin computational fluid dynamics, yet resolving nonlinear transport on fine grids remains computationally demanding. Quantum linear-evolution algorithms offer a possible route to large-scale simulation but cannot directly propagate nonlinear coupling. Here we develop a Frozen--Oseen quantum homotopy method (FOQHAM) framework that links transport-aware auxiliary-operator selection to the size of the resulting linear representation. We freeze the full Fréchet derivative at a prescribed flow profile, retaining transport and profile-gradient coupling and close each prescribed finite-order homotopy hierarchy as a fixed affine linear system by product lifting. We formulate its propagation through Linear Combinations of Hamiltonian Simulations (LCHS), without outer homotopy iterations or profile updates. For spatially semidiscrete equations, we establish local approximation bounds and exact closure of the finite-order hierarchy. Classical tests on Burgers, Korteweg--de Vries, Zakharov--Kuznetsov, and one- and two-dimensional isothermal compressible Navier--Stokes equations provide numerical evidence of accurate non-iterative approximations in the tested regimes. The framework thus connects nonlinear PDE approximation to quantum linear evolution and offers a conditional path toward quantum acceleration.",
+    "authors": [
+      "Yuan, Jinhao",
+      "Chen, Leyu",
+      "Liu, Tiegang",
+      "Wang, Kun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:51:34.240407Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209566",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209566",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209566"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

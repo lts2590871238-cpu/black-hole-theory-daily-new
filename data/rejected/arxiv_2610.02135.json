@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02135",
+    "arxiv_id": "2610.02135",
+    "arxiv_version": null,
+    "inspire_id": "3210680",
+    "doi": null,
+    "title_en": "Random Quantum Circuits Beyond Moment Matching",
+    "abstract_en": "Random quantum circuits aim to efficiently reproduce the statistical properties of ideal random quantum evolution. One approach is to construct approximate unitary designs, which match the moments of Haar-random unitaries up to a prescribed order with controlled error. In this work, we establish quantitative guarantees for how accurately these designs reproduce the full distributions of individual output probabilities. We show that, for every strong $\\varepsilon$-approximate unitary $k$-design on $n$ qubits, the distribution of each individual output probability is within $O\\left(\\sqrt{\\frac{2^n}{k(k+2^n)}}+\\varepsilon\\right)$ in Kolmogorov distance of the finite-dimensional Porter-Thomas distribution, a beta distribution with parameters $1$ and $2^n-1$. This bound is optimal up to constant factors, implying that a substantially better uniform bound requires additional structure. We further show that local invariance yields an exponential improvement in the dependence on $k$, with guarantees also in the stronger metric of total variation: every strong $\\varepsilon$-approximate unitary $k$-design invariant under unitary translations acting on $\\log k+O(1)$ qubits achieves error $2^{-Ω(k)}+O(\\varepsilon)$ in Kolmogorov distance and $2^{-Ω(k)}+O(\\varepsilon\\log(2/\\varepsilon))$ in total variation distance. These results identify both the distributional accuracy guaranteed by moment matching and the additional structure that substantially improves it. As an application, we show that if the marginal distribution of each output probability of a strong approximate design is within Kolmogorov distance $η$ of its Haar counterpart, then the expected Shannon entropy of the output distribution differs from its Haar value by $O(\\sqrtη)$.",
+    "authors": [
+      "Hung, Shih-Han"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:23:22.799104Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210680",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210680",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210680"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

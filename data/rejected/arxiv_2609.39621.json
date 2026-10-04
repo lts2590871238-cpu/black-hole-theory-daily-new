@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39621",
+    "arxiv_id": "2609.39621",
+    "arxiv_version": null,
+    "inspire_id": "3209863",
+    "doi": null,
+    "title_en": "Weakly Measured Loops for Quantum Amplitude Amplification: Oracle Savings and Adaptive Search with Unknown Target Probability",
+    "abstract_en": "We present a family of quantum amplitude amplification algorithms that interleave ordinary Grover rotations with tunable weak measurements in loops. A successful measurement yields the target state and stops the algorithm, while after a failure, the loop resumes from the post-measurement state without restarting. We express the leading costs in expected Grover iterations as $p \\to 0$. For a known target probability $p$, an exact weak measurement-conditioned loop for states near the angle $π/4$ uses $(π/8+1/4+o(1))/\\sqrt{p}$ iterations, improving on the standard Grover constant $π/4$ and on optimised restart Grover, and matching the corresponding infimum in our continuous-angle analysis. When only a lower bound $0 < p_0 \\leq p < 1/2$ is available, a discrete Lyapunov equation gives the exact expected oracle cost for every fixed measurement strength and a closed-form optimal strength. Using the strength selected from $p_0$, the expected number of Grover iterations is at most $\\frac{1}{2\\sqrt{2}}(\\frac{1}{\\sqrt{p}}+\\frac{1}{\\sqrt{p_0}})$, where the expected cost decreases as the actual $p$ increases, and gives the leading constant $1/\\sqrt{2}$ at the promise boundary $p = p_0$. For completely unknown $p$, we identify measurement strength $κ(t)=Θ(1/t)$ as the critical scale within the regular schedules considered here and analyse $κ_b(t)=\\min\\{1/2,b/t\\}$. For each fixed $b > 2$, we rigorously derive a closed-form Gamma-function expression $C(b)$ giving $(C(b)/2+o(1))/\\sqrt{p}$ expected iterations. Numerical minimisation of this explicit expression gives $b \\approx 5.2$ and $C(b)/2 \\approx 1.01$. The results show that weak measurements preserve the $Θ(1/\\sqrt{p})$ search scale while adding an explicit fixed-point control mechanism and provable oracle savings.",
+    "authors": [
+      "Fang, Wang",
+      "Heunen, Chris"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:09:09.330050Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209863",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209863",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209863"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

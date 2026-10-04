@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39821",
+    "arxiv_id": "2609.39821",
+    "arxiv_version": null,
+    "inspire_id": "3209581",
+    "doi": null,
+    "title_en": "Learning Random Quantum Circuits and the Emergence of Pseudorandomness",
+    "abstract_en": "We give an efficient algorithm for learning $k$-dimensional brickwork random quantum circuits using only copies of the output state obtained by applying $U$ to the all-zero input. For a depth-$d$ circuit on $n$ sites with random $2\\ell$-qubit gates, the algorithm learns the original circuit $U$ with high probability in $\\text{poly}(n,2^{\\ell d})$ time for every constant dimensional lattice. In particular, the algorithm is polynomial time as long as $\\ell d = O(\\log n)$. In one dimension, this reaches the natural boundary suggested by pseudorandomness: pseudorandom states require $\\ell d=ω(\\log n)$, and structured cryptographic constructions suggest that this scale may be achievable from above. In higher dimensions, it remains plausible that the same $\\ell d=ω(\\log n)$ scale remains the threshold for ancilla-free pseudorandomness, and our results help clarify the conditions under which pseudorandomness can arise in this setting. The main idea behind our algorithm is a local correlation criterion that identifies gates in the final layer without learning their entire backward light cones, avoiding a bottleneck in the previous approaches. A key technical ingredient is a Carbery-Wright type anticoncentration inequality for low-degree polynomials of Haar random unitaries whose small-ball exponent is independent of the matrix dimension. The dimension-independent exponent is crucial for handling gates of growing locality. This anticoncentration result may also be of independent interest.",
+    "authors": [
+      "Arunachalam, Srinivasan",
+      "Huang, Qizhao",
+      "Sinha, Makrand"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:53:54.477125Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209581",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209581",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209581"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

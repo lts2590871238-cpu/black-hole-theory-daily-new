@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40231",
+    "arxiv_id": "2609.40231",
+    "arxiv_version": null,
+    "inspire_id": "3210020",
+    "doi": null,
+    "title_en": "A Quantum Algorithm for $st$-Transport on Flat Connection Graphs",
+    "abstract_en": "We study a generalization of undirected $st$-connectivity to graphs whose edges carry quantum operations. Let $G=(V,E)$ be an undirected graph on $n$ vertices in which each edge $\\{u,v\\}$ is labeled by a unitary $U_{uv}\\in\\mathbb{C}^{k\\times k}$, with $U_{vu}=U_{uv}^\\dagger$. We assume the labels form a \\emph{flat} connection: the ordered product of labels along any path between a pair of vertices $u$ and $v$ is independent of the path. Equivalently, the connection is pure gauge, i.e., gauge-equivalent to the trivial connection; such graphs are exactly the consistent connection graphs of spectral graph theory and the noiseless instances of group synchronization. Consequently, whenever $s$ and $t$ are connected, transporting a state from $s$ to $t$ defines a unique unitary $U_s(t)$. Given states $|ψ_s\\rangle,|ψ_t\\rangle\\in\\mathbb{C}^k$ and an oracle that returns the neighbours of a vertex while coherently applying the corresponding edge unitaries, the \\emph{$st$-transport problem} is to decide whether $s$ and $t$ are connected and, if so, to estimate the squared overlap between $U_s(t)|ψ_s\\rangle$ and $|ψ_t\\rangle$ to additive error $\\varepsilon$. When $k=1$ and all labels are trivial, this is exactly undirected $st$-connectivity. We give a bounded-error quantum algorithm for $st$-transport that runs in time $\\widetilde{O}(n/\\varepsilon)$ and uses $O(\\log n+\\log k+\\log(1/\\varepsilon))$ space. We do this by designing a transducer and applying a Metropolis-Hastings reweighting to the input graph. We also prove an $Ω(n)$ quantum query lower bound that holds even when $s$ and $t$ are promised to be connected, so for constant $\\varepsilon$ our algorithm is optimal up to polylogarithmic factors.",
+    "authors": [
+      "Jeffery, Stacey",
+      "Osborne, Tobias J.",
+      "Pass, Galina"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:15:53.478041Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 1,
+    "citation_count_without_self_citations": 1,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210020",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210020",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210020"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

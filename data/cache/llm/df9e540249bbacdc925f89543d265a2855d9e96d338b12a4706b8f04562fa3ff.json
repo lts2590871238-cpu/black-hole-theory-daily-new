@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "black_hole_thermodynamics",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 7,
+    "metadata_quality": 9,
+    "community_signal": 1,
+    "other": 5
+  },
+  "total_score": 75,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "本文从三参数广义熵出发，通过热力学方式重构黑洞外部几何，并系统分析吸积、光子球、ISCO、临界阴影尺度与辐射效率等强场诊断量，理论建构具有一致性且对广义熵参数做了细致分类讨论，属于黑洞热力学方向值得进一步阅读的工作。",
+  "title_zh": "由三参数广义熵热力学重构黑洞的吸积与中微子启发的热诊断",
+  "abstract_zh": "我们研究了由三参数广义熵重构的静态黑洞的吸积与受中微子过程启发的热诊断。该构造在设计上就是热力学的：熵的变形并未被映射为径向坐标的重新定义，也未被映射为某种规定的类 Reissner--Nordström 修正。相反，广义熵固定了视界响应因子 $Ξ_h=dS_G/dS|_{S_h}$。随后，通过要求其表面引力温度重现广义热力学温度，重构出有效外部几何。因此，该度规保持视界面积和 Schwarzschild 渐近行为，并在 $Ξ_h\\to1$ 时平滑地退化为 Schwarzschild。熵响应被编码在 $λ_G=1/Ξ_{\\rm h}-1$ 中，而外部径向依赖则需要额外的局域化规定。详细的吸积分析针对幂律族 $h(x)=x^{-p}$ 进行，其中 $p\\geq2$。在这一重构族内，正的 $λ_G$ 使光子球和 ISCO 向内移动，减小临界阴影尺度，提高辐射效率，并将能量释放集中于内盘，而负的 $λ_G$ 则产生相反的趋势。与指数型和有理型局域化函数的补充比较表明，对于所测试的剖面，这种定性排序得以保持，尽管强场偏移的幅度仍依赖于剖面。最后，受中微子启发的热学部分……",
+  "keywords_en": [
+    "generalized entropy",
+    "black hole thermodynamics",
+    "accretion",
+    "photon sphere",
+    "ISCO",
+    "shadow",
+    "radiative efficiency",
+    "neutrino processes"
+  ],
+  "keywords_zh": [
+    "广义熵",
+    "黑洞热力学",
+    "吸积",
+    "光子球",
+    "ISCO",
+    "阴影",
+    "辐射效率",
+    "中微子过程"
+  ],
+  "translation_warning": "原文摘要在末尾以省略号结束，最后一节“受中微子启发的热学部分……”内容不完整，翻译忠实保留该截断状态。",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-04T08:48:37.545617Z"
+}

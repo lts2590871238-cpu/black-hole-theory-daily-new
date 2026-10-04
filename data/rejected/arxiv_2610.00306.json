@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00306",
+    "arxiv_id": "2610.00306",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Normalizing Flow Emulator for Gravitational Wave Detection Probability in the LIGO/Virgo/KAGRA O4 Observing Run",
+    "abstract_en": "Efficient and accurate estimation of the detection probability of a gravitational wave event given its source parameters remains a challenging problem because it conventionally requires expensive Monte Carlo injection campaigns. We present a machine learning-based approach using Normalizing Flows (NFs) to estimate the detection probability of gravitational wave events for a LIGO/Virgo/KAGRA O4-like detector network configuration. We utilize the publicly available injection dataset as training and test data. We test our method and implementation by evaluating the raw NF performance as a generative model based on its ability to recover the correct parameter distributions of detected events. In addition, we compare the detection efficiencies predicted by the NF emulator with those from Monte Carlo importance sampling and find good agreement. Furthermore, estimating the detection efficiency for a wide variety of population models, including those with sharp features, can be more precise than estimates obtained via Monte Carlo importance sampling. We show that the NF emulator can be used in population analysis of gravitational wave sources, similar to previous neural network approaches. The training code and trained models from this work are publicly available.",
+    "authors": [
+      "Julius Gassert",
+      "Ignacio Magaña Hernandez",
+      "Ariel J. Amsellem",
+      "Antonella Palmese",
+      "Barnabas Póczos"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-28T16:15:49Z",
+    "updated_at": "2026-09-28T16:15:49Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.00306v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00306v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.00306",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.00306v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39994",
+    "arxiv_id": "2609.39994",
+    "arxiv_version": null,
+    "inspire_id": "3209958",
+    "doi": null,
+    "title_en": "Quantum state learning beyond approximate unitary designs",
+    "abstract_en": "Approximate unitary designs reproduce the statistics of Haar-random unitaries to a given order and accuracy. Recent constructions realize such designs with logarithmic-depth circuits, enabling shallow measurement protocols for various quantum state-learning tasks while preserving performance. These results raise the question of whether approximate designs can replace exact designs more generally. We show that even exponentially small design error need not preserve the learning guarantees of exact designs. This motivates deriving learning guarantees directly from the measurement circuit structure. For observable estimation with classical shadows, we prove that logarithmic-depth two-layer Clifford circuits yield an unbiased estimator matching the global Clifford variance scaling for every state and Hermitian observable. Beyond observable estimation, this bound allows shallow measurements to retain global Clifford guarantees for other tasks, including setting-efficient tomography, mixed-state metrology, and stabilizer structure learning. We complement these statistical guarantees with a compact, exact tensor-network representation of the inverse shadow channel. When measurement bases are reused, approximate unitary designs of arbitrarily high order need not uniformly match the Haar variance in the many-shot limit. For the all-to-all random two-local circuits considered, doing so requires nearly linear depth. Together, our results reveal the capabilities and limitations of shallow quantum state learning, highlighting the distinction between approximating Haar randomness and reproducing its learning guarantees.",
+    "authors": [
+      "Cho, Gyungmin",
+      "Oh, Changhun",
+      "Kim, Dohun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:12:12.871414Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209958",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209958",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209958"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

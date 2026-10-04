@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39318",
+    "arxiv_id": "2609.39318",
+    "arxiv_version": null,
+    "inspire_id": "3209848",
+    "doi": null,
+    "title_en": "A Dichotomy for MIP* in the Presence of Unital Noise",
+    "abstract_en": "A recent work studied quantum two-prover one-round proof systems $\\mathsf{MIP}^ψ[\\text{poly},O(1)]$. It showed that when $ψ$ is a noisy EPR state with quantum maximal correlation $ρ_{\\max}(ψ)<1$, the resulting complexity class is equivalent to $\\mathsf{NEXP}=\\mathsf{MIP}$. In contrast, $\\mathsf{MIP}^{\\text{EPR}}[\\text{poly},O(1)]=\\mathsf{RE}$. Not all noise, however, decreases quantum maximal correlation. A basic example is dephasing noise: a dephased EPR pair retain quantum maximal correlation $1$. In this work, we remove the constant-answer restriction and establish a complete dichotomy for $\\mathsf{MIP}^ψ[\\text{poly},\\text{poly}]$, where the provers share arbitrarily many copies of EPR pairs subject to unital noise. Equivalently, let $ψ$ be a fixed two-qubit state with maximally mixed marginals. We prove that \n\\[\\mathsf{MIP}^ψ[\\text{poly},\\text{poly}]=\\mathsf{MIP} =\\mathsf{NEXP},~\\text{if $ψ$ is separable or $ρ_{\\max}(ψ)<1$};\\]\n\n\\[\\mathsf{MIP}^ψ[\\text{poly},\\text{poly}]=\\mathsf{MIP}^ψ[\\text{poly},O(1)]=\\mathsf{RE},\\text{if $ψ$ is entangled and $ρ_{\\max}(ψ)=1$.}\\]\n Beyond the complexity classification, our proof develops two techniques that may be useful more broadly in quantum information and quantum complexity. First, we introduce a positivity-preserving low-degree approximation framework for quantum measurements: instead of truncating positive operators directly in the Pauli basis, we approximate suitable square-root factorizations, simultaneously achieving low Pauli degree, positivity, and global control over an entire POVM. Second, we develop a new dimension-reduction method, called Pauli folding, for low-degree positive operators. Its key ingredient is an almost-multiplicativity theorem for randomized Pauli hashing, which allows noncommutative products, positivity, and normalization to survive compression with controlled error.",
+    "authors": [
+      "Dong, Yangjing",
+      "Jiang, Zhenyu",
+      "Qin, Minglong",
+      "Yao, Penghui",
+      "Zhou, Haigang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:08:50.782165Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209848",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209848",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209848"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

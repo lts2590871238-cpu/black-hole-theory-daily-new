@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00441",
+    "arxiv_id": "2610.00441",
+    "arxiv_version": null,
+    "inspire_id": "3210321",
+    "doi": null,
+    "title_en": "Quantum Secret Sharing and Error Correction vs No-Cloning",
+    "abstract_en": "Secret sharing is ubiquitous throughout cryptography. All possible access structures are classically feasible, and in the case of threshold access structures, the protocols are even very efficient. However, when moving to the quantum setting, the no-cloning theorem shows that many access structures are impossible. In fact, no-cloning exactly characterizes feasibility: for thresholds, quantum secret sharing is possible if and only if the threshold $t$ is strictly more than $n/2$. In this work, we propose a variant of quantum secret sharing (QSS) where two or more identical copies of the input state are provided, but the output is only required to recover one copy. This notion circumvents the simple one-copy no-cloning obstruction, though the natural $k$-copy generalization still gives much milder obstructions. For thresholds using $k$ copies, no-cloning implies that QSS is impossible whenever $t\\leq n/(k+1)$. It is tempting to hypothesize that no-cloning continues to exactly characterize the many-copy case. However, we show that this is not the case. We give positive results showing that multiple copies allow for going slightly beyond the single-copy obstruction: for thresholds, we construct QSS whenever $t>(n-k+1)/2$. On the other hand, we give a novel obstruction we call the Clique Path obstruction, which applies to arbitrary access structures. For thresholds, it shows that QSS is impossible whenever $t\\leq (n-1)/k$. Our upper and lower bounds exactly match for $k=2$. Both our results leverage connections to the $k$-colorability of certain graphs derived from the access structure. We leave closing the gap for $k\\geq 3$ copies as a fascinating direction for future work. Secret sharing is closely related to error correction, which can also be considered in the many-copy setting. Our results imply similar obstructions for quantum error correction for erasure channels.",
+    "authors": [
+      "Chien, Steven",
+      "Mukherjee, Ishani",
+      "Zhandry, Mark"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T02:22:27.770592Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210321",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210321",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210321"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

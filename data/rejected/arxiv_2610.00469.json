@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00469",
+    "arxiv_id": "2610.00469",
+    "arxiv_version": 1,
+    "inspire_id": "3210478",
+    "doi": null,
+    "title_en": "Factor Code Networks",
+    "abstract_en": "For a quantum code defined by an isometry $T:H_{\\rm code} \\to H_{\\rm phys}$, an operator map is a *-homomorphism $\\varphi: B(H_{\\rm code}) \\to B(H_{\\rm phys})$ from the space of operators on the logical Hilbert space to the space of operators on the physical Hilbert space satisfying $\\varphi({\\cal O}) T = T {\\cal O}$ for every operator ${\\cal O}$ on $H_{\\rm code}$. This can additionally be taken to be unital $\\varphi(I_{code}) = I_{phys}$ if and only if $\\dim H_{\\rm code}$ divides $\\dim H_{\\rm phys}$. In this case, $\\varphi(B(H_{\\rm code})$ is a von Neumann factor subalgebra of $B(H_{\\rm phys})$ and we call the pair $(T,\\varphi)$ a {\\it factor code}. A code network is a family of Hilbert spaces $\\{{\\cal H}_i\\}$ indexed by a partially ordered set with isometries $T_{ji}:{\\cal H}_i \\to {\\cal H}_j$ for $i < j$ satisfying $T_{kj} T_{ji} = T_{ki}$ for $i < j < k$. In this paper, we ask when this can be promoted to a {\\it factor code network} by defining unital operator maps $\\varphi_{ji}$ so that $(T_{ji}, \\varphi_{ji})$ is a factor code and $\\varphi_{kj} \\varphi_{ji} = \\varphi_{ki}$. We show that the divisibility conditions on Hilbert space dimensions are sufficient for any code network with a tree structure but not in general. For a diamond-shaped network, we show that promotion is possible if and only if the principle angles between $T_{42} H_2$ and $T_{43} H_3$ all have multiplicity divisible by $H_1$. For incomparable $i_1,i_2 < j$, we characterize when $\\varphi_{j i_1} (B(H_{i_1}))$ and $\\varphi_{j i_2} (B(H_{i_2}))$ commute, when they generate all of $B(H_j)$, and when they intersect only on multiples of the identity. For $i < j_1,j_2 < k$, we characterize when $\\varphi_{k j_1} (B(H_{j_1})) \\cap \\varphi_{k j_2} (B(H_{j_2})) = \\varphi_{k i} (B(H_{i}))$ and when these algebras together with $B(H_k)$ form a nondegenerate commuting square.",
+    "authors": [
+      "Abhisek Sahu",
+      "Jeremy van der Heijden",
+      "Mark Van Raamsdonk",
+      "Rana Zibakhsh"
+    ],
+    "categories": [
+      "quant-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T03:11:11.430199Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.00469v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00469v1",
+    "inspire_url": "https://inspirehep.net/literature/3210478",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.00469",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.00469v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210478",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210478"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

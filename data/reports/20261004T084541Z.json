@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-10-04T08:45:41.221288Z",
+  "completed_at": "2026-10-04T08:49:22.931658Z",
+  "status": "degraded",
+  "fetched_arxiv": 947,
+  "fetched_inspire": 800,
+  "normalized": 1747,
+  "deduplicated": 1503,
+  "candidates": 62,
+  "selected": 58,
+  "review_queue": 2,
+  "rejected": 1441,
+  "llm_calls": 53,
+  "cached_decisions": 5,
+  "errors": [
+    "arxiv:2610.02063: 评分或翻译失败：1 validation error for LLMDecisionPayload\nabstract_zh_note\n  Extra inputs are not permitted [type=extra_forbidden, input_value='已忠实翻译英文摘...aTeX 符号与变量。', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/extra_forbidden",
+    "arxiv:2609.39694: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 100 个非空白字符"
+  ]
+}

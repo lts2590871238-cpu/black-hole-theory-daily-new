@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38399",
+    "arxiv_id": "2609.38399",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fisher and DALI posterior approximations for testing gravity with gravitational waves",
+    "abstract_en": "We investigate the accuracy and computational efficiency of posterior approximations for gravitational-wave (GW) parameter estimation based on Fisher Matrix and its higher-order extension, the Derivative Approximation for LIkelihoods (DALI), in the context of tests of General Relativity using parameterized deviations in the inspiral waveforms (the TIGER formalism). We adopt the \\texttt{IMRPhenomD} waveform and compare the exact posterior sampling to the following approximations in increasing order of complexity: the traditional Fisher Matrix, the Fisher sampling (singlet-DALI), the doublet-DALI and the triplet-DALI. We find that both singlet and doublet-DALI are significantly faster than the exact posterior by factors between 20 and 1000, depending on the inspiral SNRs -- larger gains correspond to larger SNRs. These gains are considerably larger for more complete waveforms, such as \\texttt{IMRPhenomHM}. To evaluate the accuracy of the approximations, we use Jensen-Shannon divergence. We conclude that both singlet and doublet-DALI systematically improves over the standard Fisher Matrix approximation, while triplet-DALI shows large variability, limiting its practical advantage. We also introduce a code with a new implementation of Fisher and DALI analysis (Symbolic DALI, \\texttt{SymDALI}) which computes derivatives symbolically via \\textit{Wolfram Language}.",
+    "authors": [
+      "Felipe A. da Silva Barbosa",
+      "Davi C. Rodrigues",
+      "Josiel Mendonça Soares de Souza",
+      "Miguel Quartin"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "gr-qc",
+      "physics.data-an"
+    ],
+    "submitted_at": "2026-09-29T18:54:46Z",
+    "updated_at": "2026-09-29T18:54:46Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.38399v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38399v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.38399",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.38399v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

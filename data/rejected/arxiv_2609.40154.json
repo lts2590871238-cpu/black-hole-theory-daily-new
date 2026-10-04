@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40154",
+    "arxiv_id": "2609.40154",
+    "arxiv_version": null,
+    "inspire_id": "3209596",
+    "doi": null,
+    "title_en": "Quantum Černý complexity of binary words",
+    "abstract_en": "We introduce the quantum Černý complexity $\\mathrm{qc}(w)$ of a binary word $w$: the least dimension $d$ for which there exist quantum channels $A_0,A_1$ on $d\\times d$ density matrices and a start state $ρ_0$ such that $w$ is the unique shortest word whose associated channel is constant on the reachable set. We show that $2\\le\\mathrm{qc}(w)\\le\\lceil\\sqrt{|w|+1}\\,\\rceil$ for every nonempty $w$, a quadratic saving over the classical analogue, and that constant words are extremal: $\\mathrm{qc}(0^m)=\\lceil\\sqrt{m+1}\\,\\rceil$. In contrast, $\\mathrm{qc}(01^n0)=2$ for every $n\\ge 1$, realized by a single qubit whose rotation angle acts as a counter; consequently there is no quantum analogue of the Černý function, and $\\mathrm{qc}$ is strongly anti-correlated with intuitive notions of descriptive complexity. We further study the variant $\\mathrm{qcp}$ in which the synchronization target is required to be a pure state. We prove that in dimension $2$ no word of length at least $2$ can be a unique shortest synchronizing word with pure target, and we exhibit an explicit qutrit instance, combining a coherent rotation with a measure-and-funnel channel, achieving $\\mathrm{qcp}(01^n0)=3$ with target a computational basis state and with synchronization holding universally over all input states. Thus purity of the reset state costs exactly one dimension on this family. We also observe that $\\mathrm{qc}$ is computable, by reduction to the first-order theory of the reals.",
+    "authors": [
+      "Lee, Pui Hang",
+      "Lee, Pui-Yee",
+      "Kjos-Hanssen, Bjørn"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:53:51.677045Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209596",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209596",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209596"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

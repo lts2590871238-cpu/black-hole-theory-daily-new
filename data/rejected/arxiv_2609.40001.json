@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40001",
+    "arxiv_id": "2609.40001",
+    "arxiv_version": null,
+    "inspire_id": "3209963",
+    "doi": null,
+    "title_en": "An exponential query advantage from access to Stinespring dilation unitaries in quantum channel learning",
+    "abstract_en": "We present a learning task for quantum channels that exhibits an exponential separation in query complexity (in terms of the number of qubits) between two access models: i) black-box channel access and ii) access to a Stinespring dilation unitary of the channel along with its inverse. We consider the task of learning how close the unknown channel is to the set of unitary channels. This is characterized by the \\textit{optimal average gate fidelity (OAGF)}, defined as the average gate fidelity maximized over all unitary channels. For constant Kraus rank and a dilation environment of dimension $\\operatorname{polylog}(d)$, we provide an algorithm that estimates the OAGF to fixed additive accuracy using $\\operatorname{polylog}(d)$ queries to the Stinespring dilation unitary and its inverse. In contradistinction, under the black-box access model, this estimation requires at least $Ω(\\sqrt{d})$ queries, even for channels of constant Kraus rank and constant additive accuracy. As a corollary, we rule out a universal simulator that uses only $\\operatorname{poly}(\\log d,q)$ queries to the unknown channel to approximate the output of arbitrary $q$-query algorithms with access to a randomly-sampled Stinespring dilation unitary and its inverse, even to sufficiently small constant error. These results demonstrate that access to the system-environment joint evolution and its inverse can provide an exponential advantage in estimating an intrinsic property of a quantum channel.",
+    "authors": [
+      "Arihara, Manaki",
+      "Yoshida, Satoshi",
+      "Taranto, Philip",
+      "Murao, Mio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:11:51.316408Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209963",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209963",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209963"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

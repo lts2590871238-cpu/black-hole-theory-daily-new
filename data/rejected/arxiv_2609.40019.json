@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40019",
+    "arxiv_id": "2609.40019",
+    "arxiv_version": null,
+    "inspire_id": "3209946",
+    "doi": null,
+    "title_en": "Comparison of chisquare variants for Poisson-distributed data and ratios",
+    "abstract_en": "Fits to binned, Poisson-distributed data are common in high-energy and heavy-ion physics, and they are particularly delicate in correlation function measurements, where the fitted observable is the ratio of two histograms. We compare several goodness-of-fit estimators on large toy data sets: the Neyman and Pearson $χ^2$, their Yates continuity-corrected versions, a Neyman $χ^2$ with the variance shifted by $1/2$, the Poisson log-likelihood, and the correlation function likelihood in which both the signal and the reference histogram are treated as Poisson distributed. For a single histogram with mean occupancy $λ$, the Neyman $χ^2$ underestimates the bin content by approximately one count, while the Pearson $χ^2$ overestimates it by approximately half a count; shifting the variance by $1/2$ changes the Neyman result only at order $1/λ$, and only the log-likelihood recovers the mean without bias. For the ratio of two histograms, Neyman-type estimators are biased by approximately $-3/λ$ in relative terms (3% at $λ=100$), whereas the Pearson and likelihood-based fits are unbiased in the symmetric configuration studied here. The Yates correction leaves the fitted values essentially unchanged but systematically deflates the $χ^2$, resulting in unrealistically high confidence levels. Simple analytic expressions are derived that reproduce all observed biases. Since these biases do not decrease with the number of bins, whereas the statistical uncertainties do, they can dominate the uncertainty of high-statistics, finely binned measurements. We therefore recommend likelihood-based fits, in particular the correlation function likelihood, for femtoscopic and similar ratio analyses.",
+    "authors": [
+      "Csanad, Mate",
+      "Huang, Yan",
+      "Kincses, Daniel",
+      "Nagy, Marton I.",
+      "Porfy, Barnabas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T10:03:57.888271Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/2931152'}, C26-05-18.2"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209946",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209946",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209946"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

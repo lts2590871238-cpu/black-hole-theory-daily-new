@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38122",
+    "arxiv_id": "2609.38122",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fast and Flow-rious: Gravitational Wave Background Bayesian Model Comparison using Normalizing Flows and Nested Sampling",
+    "abstract_en": "In 2023, pulsar timing array (PTA) collaborations around the world announced evidence for a nanohertz gravitational-wave background (GWB). Beyond increasing the detection significance, the next major goal is to characterize the GWB and identify its source(s). The typical model-comparison metric used in PTA analyses is the Bayes factor (BF). However, BF computation methods used in the PTA literature, such as product-space sampling and thermodynamic integration, are computationally expensive or inefficient if the models compared are dissimilar or non-nested. In this work, we introduce a PTA model-comparison method using a combination of normalizing flows, nested sampling, and a PTA likelihood that is marginalized over all non-GWB parameters. The flows are trained using a newly-developed Python package coppuccino, which learns the data's copula: the dependence structure after transforming to uniform marginals. We validate the method on both analytic targets and simulated PTA data, recovering the analytic evidence within error bars and achieving an area-under-the-curve (AUC) score of 0.996 when treating the BFs as binary classifiers of the injected models. The result is a method to perform Bayesian model comparison of arbitrary GWB spectral models in minutes on consumer hardware.",
+    "authors": [
+      "David C. Wright",
+      "Aaron D. Johnson",
+      "Jeffrey S. Hazboun",
+      "William G. Lamb"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-29T17:50:51Z",
+    "updated_at": "2026-09-29T17:50:51Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.38122v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38122v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.38122",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.38122v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "nanohertz gravitational wave",
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "nanohertz",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 70
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 17,
+      "methodological_rigor": 17,
+      "novelty": 13,
+      "clarity": 9,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 68,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文聚焦脉冲星计时阵列（PTA）中纳赫兹引力波背景的贝叶斯模型比较这一核心问题，提出了结合归一化流、嵌套采样与对非引力波参数边缘化似然的新方法，并开发了相应的Python软件包，验证涵盖解析目标与模拟PTA数据，方法创新性和可复现性较强，值得进一步阅读。",
+    "title_zh": "快速且如流：使用归一化流与嵌套采样进行引力波背景贝叶斯模型比较",
+    "abstract_zh": "2023年，世界各地的脉冲星计时阵列（PTA）合作组宣布了纳赫兹引力波背景（GWB）的证据。在提高探测显著性之外，下一个主要目标是刻画GWB并识别其来源。PTA分析中典型的模型比较指标是贝叶斯因子（BF）。然而，PTA文献中使用的BF计算方法，如乘积空间采样和热力学积分，当所比较的模型差异较大或非嵌套时，计算代价高昂或效率低下。在这项工作中，我们引入一种PTA模型比较方法，它结合了归一化流、嵌套采样以及一个对所有非GWB参数边缘化的PTA似然。这些流使用新开发的Python包coppuccino进行训练，该包学习数据的copula：即变换到均匀边缘分布后的依赖结构。我们在解析目标和模拟PTA数据上验证了该方法，在误差棒范围内恢复了解析证据，并在将BF视为注入模型的二分类器时达到了0.996的曲线下面积（AUC）得分。其结果是一种可在消费级硬件上于数分钟内对任意GWB谱模型进行贝叶斯模型比较的方法。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational wave background",
+      "Bayesian model comparison",
+      "normalizing flows",
+      "nested sampling",
+      "Bayes factor"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波背景",
+      "贝叶斯模型比较",
+      "归一化流",
+      "嵌套采样",
+      "贝叶斯因子"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-04T08:48:13.317589Z"
+  },
+  "published_at": "2026-10-04T08:48:13.318014Z"
+}

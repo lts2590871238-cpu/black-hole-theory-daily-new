@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "holography_condensed_matter",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 15,
+    "novelty": 11,
+    "clarity": 7,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 71,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文直接针对二维金属量子临界这一非费米液体行为的核心难题，采用非微扰重整化群方法，将反常动力学临界指数a作为不动点数据而非唯象参数来处理，具有较高的理论深度。论文报告了三圈截断下不存在自洽交叠不动点解、无法重现量子蒙特卡洛观测值a≈1.85的负面结果，并给出四圈拓扑猜想，体现出较强的诚实性与方法论严谨性。虽属凝聚态强关联电子领域，但与非费米液体和量子临界主题高度相关，值得研究者点击阅读。",
+  "title_zh": "伊辛向列临界性的非微扰重整化群：闭式非局域拟设",
+  "abstract_zh": "二维金属量子临界问题是一个长期悬而未决的难题，人们普遍认为它是解开强关联电子系统中无处不在的非费米液体行为的关键所在。在本研究中，我们针对二维金属伊辛向列量子临界点给出了一个非微扰重整化群（RG）分析，该分析直接围绕一个本质上非局域的红外（IR）玻色子传播子而建立。我们没有将反常动力学临界指数$a$视为固定的唯象参数来处理，而是将其看作不动点数据的内在组成部分，需在高度各向异性的标度维度（$[k_0]=a+1$，$[k_x]=2$，$[k_y]=1$）下由低能patch场论的内在自洽性来确定。虽然由于运动学极点构型，领头两圈图计算恒为零，但我们的三圈计算揭示了各扇区之间深刻的结构性不对称：费米子自能与汤川顶点获得非零的对数修正，而相应的玻色子抵消项则严格保持为零。因此，我们发现在三圈截断下不存在关于指数$a$的自洽、相交的不动点解，无法重现量子蒙特卡洛模拟中观测到的物理值$a \\approx 1.85$。我们猜想，四圈玻色子自能图的交叉连接拓扑恰好是边缘的，并给出了恢复多扇区自洽性所需的最小、必需的玻色子抵消项。我们的框架建立了一种严格的多圈匹配方案，这是唯一确定临界指数所必需的，并揭示了场反常维数的一个稳定相空间。",
+  "keywords_en": [
+    "non-perturbative renormalization group",
+    "Ising-nematic quantum criticality",
+    "non-Fermi liquid",
+    "metallic quantum critical point",
+    "anomalous dynamical critical exponent",
+    "nonlocal boson propagator",
+    "quantum Monte Carlo",
+    "multi-loop matching scheme"
+  ],
+  "keywords_zh": [
+    "非微扰重整化群",
+    "伊辛向列量子临界性",
+    "非费米液体",
+    "金属量子临界点",
+    "反常动力学临界指数",
+    "非局域玻色子传播子",
+    "量子蒙特卡洛",
+    "多圈匹配方案"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-04T08:47:45.393136Z"
+}

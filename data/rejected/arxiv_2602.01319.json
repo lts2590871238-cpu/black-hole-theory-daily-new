@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.01319",
+    "arxiv_id": "2602.01319",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1088/1572-9494/ae8f1e",
+    "title_en": "Factorized neural posterior estimation for rapid and reliable inference of parameterized post-Einsteinian deviation parameters in gravitational waves",
+    "abstract_en": "The direct detection of gravitational waves (GWs) by LIGO has confirmed general relativity (GR), but testing GR via GWs requires estimating parameterized post-Einsteinian (ppE) deviation parameters in waveform models. Traditional Bayesian inference methods like Markov chain Monte Carlo (MCMC) provide reliable estimates but suffer from prohibitive computational costs, failing to meet the real-time demands and surging data volume of future GW detectors. Here, we propose a factorized neural posterior estimation framework: we construct independent normalizing flow models for each of the nine ppE deviation parameters, and effectively integrate prior information from other source parameters via a conditional embedding network. Leveraging a hybrid neural network with a convolutional neural network and a Residual Neural Network for feature extraction, our method performs rapid and statistically reliable posterior inference directly from binary black hole signals. Compared to conventional MCMC, our approach achieves millisecond-scale inference time with a speedup factor of $9 \\times 10^4$. Comprehensive validations show that the posterior estimates pass the Kolmogorov-Smirnov test and achieve empirical coverage probabilities close to theoretical targets. We apply this method to the GW150914 event and find that the resulting posterior distributions are in good agreement with existing results. This work demonstrates the great potential of deep learning for GW parameter estimation and provides a viable technical solution for real-time GR tests with next-generation detectors.",
+    "authors": [
+      "Yong-Xin Zhang",
+      "Tian-Yang Sun",
+      "Chun-Yu Xiong",
+      "Song-Tao Liu",
+      "Yu-Xin Wang",
+      "Shang-Jie Jin",
+      "Jing-Fei Zhang",
+      "Xin Zhang"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-02-01T16:22:23Z",
+    "updated_at": "2026-09-30T03:16:10Z",
+    "document_types": [],
+    "journal_ref": "Commun. Theor. Phys. 78 (2026) 115401",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.01319v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.01319v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.01319",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2602.01319v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

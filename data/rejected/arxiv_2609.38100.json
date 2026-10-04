@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38100",
+    "arxiv_id": "2609.38100",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Very High-Energy GRB Afterglow Fits with Neural-Network Emulation and Bayesian inference",
+    "abstract_en": "The very high-energy ($E > 100$ GeV) afterglow emission in gamma-ray bursts (GRBs) can be explained by synchrotron self-Compton (SSC). Modeling this emission accurately requires fully numerical codes that solve the time-dependent coupled particle--photon kinetic equations while accounting for Klein--Nishina suppression. However, their substantial computational cost makes them impractical for traditional parameter inference techniques such as Markov Chain Monte Carlo (MCMC) sampling. In this work, we present a highly efficient surrogate model based on artificial neural networks (ANNs) that emulates a one-zone kinetic SSC radiation code. To train our ANN, we use a multi-dimensional model parameter grid that constitutes a sample of 100,800 spectra produced by an infinitely thin spherical blast wave propagating inside a constant density interstellar medium (ISM). The ANN reproduces the numerical spectra well, with the median relative error generally below 2 per cent across the full frequency domain. Using this surrogate framework, we perform Bayesian parameter posterior estimation via MCMC and fit the broadband GRB afterglow observations of GRB 190114C from X-rays to TeV $γ$-rays at different epochs. We find an energetic jet with isotropic-equivalent kinetic energy of $E_{\\rm k,iso}\\simeq7.2\\times10^{54}$ erg moving with a coasting bulk Lorentz factor of $Γ\\gtrsim500$ into an ISM with density $n\\simeq0.1\\,{\\rm cm^{-3}}$. The deviation of our model light curve from observations on long timescales suggests that an ISM environment is inconsistent and a radially stratified external medium, as pointed out by \\citet{Aguilar-Ruiz+26}, is preferred instead.",
+    "authors": [
+      "Edilberto Aguilar-Ruiz",
+      "Jessica Saldívar Talavera",
+      "Ramandeep Gill",
+      "Sundar Srinivasan"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-09-29T17:44:21Z",
+    "updated_at": "2026-09-29T17:44:21Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.38100v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38100v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.38100",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.38100v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

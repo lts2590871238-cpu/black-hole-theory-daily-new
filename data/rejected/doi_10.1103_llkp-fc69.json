@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/llkp-fc69",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3210276",
+    "doi": "10.1103/llkp-fc69",
+    "title_en": "Closed-form finite-key scaling for the Bennett-Brassard 1984 protocol with device imperfections",
+    "abstract_en": "Finite-key effects significantly limit the secret key rates achievable in practical quantum key distribution (QKD) implementations. Device imperfections such as detector efficiency mismatch and deviations of the prepared states from the ideal BB84 states change the relationship between the observed bit error rate (BER) and the phase-error rate that determines security. Here, we derive a composable finite-key security bound for BB84-type QKD that explicitly accounts for bounded detector efficiency mismatch <math><mi>α</mi></math> (the maximum relative deviation between the two detector efficiencies) and state-preparation deviation <math><mi>β</mi></math> (the maximum fidelity defect of the prepared states relative to the ideal BB84 states). The resulting secret key length obeys a closed-form scaling law, <math><mrow><mi>ℓ</mi><mrow><mo>(</mo><mi>n</mi><mo>,</mo><mi>Q</mi><mo>,</mo><mi>α</mi><mo>,</mo><mi>β</mi><mo>,</mo><mi>ɛ</mi><mo>)</mo></mrow><mo>=</mo><mo>⌊</mo><mi>n</mi><msub><mi>r</mi><mi>∞</mi></msub><mo>−</mo><msub><mi>C</mi><mn>1</mn></msub><mrow><mo>(</mo><mi>ɛ</mi><mo>)</mo></mrow><msqrt><mi>n</mi></msqrt><mo>−</mo><msub><mi>C</mi><mn>2</mn></msub><mrow><mo>(</mo><mi>ɛ</mi><mo>)</mo></mrow><mo>⌋</mo><mo>,</mo></mrow></math> where the asymptotic key rate <math><msub><mi mathvariant=\"normal\">r</mi><mi>∞</mi></msub></math> and the finite-size constants <math><mrow><msub><mi>C</mi><mn>1</mn></msub><mrow><mo>(</mo><mi>ɛ</mi><mo>)</mo></mrow></mrow></math> and <math><mrow><msub><mi>C</mi><mn>2</mn></msub><mrow><mo>(</mo><mi>ɛ</mi><mo>)</mo></mrow></mrow></math> are all given explicitly. The derivation combines an imperfection-adjusted entropic uncertainty relation with a Chernoff-Serfling concentration inequality for sampling without replacement, together with an optimized allocation of the global security parameter. Monte Carlo simulation and semidefinite programming cross-checks show that the analytical bound lies within a few percent of the numerically optimal finite-key rate across a broad parameter range. Because all correction terms are available in closed form, the resulting bound provides a transparent and independently verifiable framework for rapid evaluation of practical BB84 QKD performance without hidden numerical optimization.",
+    "authors": [
+      "Dehingia, Kaushik",
+      "Dutta, Nimisha"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-02T15:07:10.128373Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 042602, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 4, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210276",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210276",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210276"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

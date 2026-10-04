@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40073",
+    "arxiv_id": "2609.40073",
+    "arxiv_version": null,
+    "inspire_id": "3209978",
+    "doi": null,
+    "title_en": "Transducer-based linear combination of unitaries: theory and applications",
+    "abstract_en": "Linear combination of unitaries (LCU) is a fundamental primitive in quantum algorithms, whose cost is typically governed by the most expensive unitary appearing in the combination. We develop a transducer-based LCU framework that reduces this worst-case dependence to a weighted average query complexity, when the constituent unitaries share access to a common set of primitive oracles. Consider $A=\\sum_j c_j U_j$, where $c_j>0$ and each unitary $U_j$ can be implemented using $C_j$ primitive queries. Given an upper bound $a\\geq \\|A\\|$, our algorithm implements a block-encoding of $A/α$ with rescaling factor $α=\\mathcal{O}(a)$, using $\\widetilde{\\mathcal{O}} (C_{\\max}+\\overline{C} λ/{a} )$ primitive queries, where $λ=\\sum_j c_j$, $C_{\\max}=\\max_j C_j$, and $\\overline{C}= {\\sum_j c_j C_j}/λ$. By comparison, the standard LCU construction requires $\\widetilde{\\mathcal{O}} (C_{\\max} λ/{a} )$ primitive queries. The improvement can therefore be substantial when costly unitaries have small weights and $λ/a$ is large. As applications, we obtain improved block-encodings of sparse matrices, leading to quantum algorithms for sparse Hamiltonian simulation and quantum linear systems with near-optimal query complexity up to polylogarithmic factors in all relevant parameters. Our main technique is the transducer framework developed by Belovs, Jeffery, and Yolcu [Quantum, 8:1444 (2024)]. Here we develop a complementary operator-level theory tailored to block-encodings. We identify the resolvent norm $K$ as a key complexity measure for transducer implementation besides the existing catalyst complexity. We show that the transducer action can be converted into an $ε$-approximate block-encoding using only $\\mathcal{O}\\left(K \\log(1/ε)\\right)$ queries to the transducer, improving the precision dependence from polynomial to logarithmic.",
+    "authors": [
+      "An, Dong",
+      "Dong, Dekuan",
+      "Shao, Changpeng",
+      "Zhang, Yuxin",
+      "Zhao, Chenhao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:13:43.665886Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209978",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209978",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209978"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

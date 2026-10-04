@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40167",
+    "arxiv_id": "2609.40167",
+    "arxiv_version": null,
+    "inspire_id": "3209591",
+    "doi": null,
+    "title_en": "Shadow Quantum Singular Value Transformation with Shallow Quantum Circuits",
+    "abstract_en": "We introduce shadow quantum singular value transformation (Shadow QSVT): given an initial state $|ψ\\rangle$, a Hermitian matrix $H$, a polynomial $f$, and a set of observables $\\{O_1,\\dots,O_m\\}$, the goal is to estimate $\\langleψ|f(H)^{\\dagger}O_j f(H)|ψ\\rangle$ for all $j\\in\\{1,\\dots,m\\}$. Shadow QSVT provides a systematic route to reduce the quantum resources required by standard QSVT, which constructs a unitary block-encoding of $f(H)$. It uses structure in the input state and observables, together with the fact that many applications require only observable estimates rather than synthesizing the full unitary. We present three algorithms that exploit structure in the initial state and observables to reduce quantum circuit depth. First, we develop a state-aware QSVT algorithm that prepares the target state with low circuit depth when the Krylov subspace associated with $H$ and $|ψ\\rangle$ is low-dimensional or admits an accurate low-dimensional approximation. Second, we introduce an observable-aware Shadow QSVT algorithm that combines a new observable-aware Krylov subspace with history states to further reduce circuit depth and gate complexity. Finally, we develop Classical Shadow QSVT, which constructs a classical representation from $H$, $f$, and $|ψ\\rangle$ without prior knowledge of the observables or explicit preparation of the target state proportional to $f(H)|ψ\\rangle$. This representation enables estimation of the target quantities for observables specified after the quantum computation. Together, these three algorithms provide tools for reducing the circuit depth of QSVT-based computations across a range of settings.",
+    "authors": [
+      "Chia, Nai-Hui",
+      "Kim, Hyunseong",
+      "Lin, Chia-Ying"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:55:27.958659Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209591",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209591",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209591"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

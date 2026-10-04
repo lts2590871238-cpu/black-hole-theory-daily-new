@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39280",
+    "arxiv_id": "2609.39280",
+    "arxiv_version": null,
+    "inspire_id": "3209847",
+    "doi": null,
+    "title_en": "Optimal learning of covariant quantum states and channels",
+    "abstract_en": "We give collective tomography protocols for quantum states and channels with known symmetries, using random purification and dilation to reduce learning to pure-state estimation. For states commuting with a compact-group representation with multiplicities $m_λ$, the optimal copy complexity is $Θ((\\sum_λm_λ^2+\\logη^{-1})/\\varepsilon^2)$ for sufficiently small trace-distance error $\\varepsilon$ and failure probability $η$ for the nontrivial case $\\sum_λm_λ^2>1$. For $G$-covariant channels with finite-dimensional unitary representations of a compact group $G$, parallel $\\widetilde{O}(D_G/\\varepsilon^2)$ queries achieve a diamond-distance error $\\varepsilon $ at fixed success probability $2/3$, where $D_G$ counts the real parameters of covariant Choi operators before imposing trace preservation. For permutation-covariant channels on $k$ qudits of fixed local dimension $d$, at sufficiently small fixed error and fixed success probability $2/3$, we obtain the optimal query scalings $Θ_d(k^{d^4-1})$ for diamond distance and $Θ_d(k^{d^4-d^2})$ for Choi trace distance. Furthermore, we resolve an open problem in quantum tomography of constructing efficient quantum circuits that approximate the Hayashi measurement for optimal pure-state estimation. We encode states in the symmetric subspace into bosonic occupation modes, realize the measurement by heterodyne detection and normalization, and approximate this procedure on qubits using the quantum Hermite transform. Combined with our symmetry-compatible purification and dilation circuits, this yields query-optimal and gate-efficient learners of permutation-covariant states and channels with gate complexity $O_d(\\mathrm{poly}(k,\\varepsilon^{-1},\\logη^{-1}))$.",
+    "authors": [
+      "Yoshida, Satoshi",
+      "Okigami, Kazuki",
+      "Posta, Pietro M.",
+      "Grinko, Dmitry"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:07:48.442277Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209847",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209847",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209847"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

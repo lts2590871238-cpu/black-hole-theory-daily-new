@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38986",
+    "arxiv_id": "2609.38986",
+    "arxiv_version": null,
+    "inspire_id": "3209813",
+    "doi": null,
+    "title_en": "Quantum Pseudorandom Error-Correcting Codes",
+    "abstract_en": "Pseudorandom error-correcting codes (PRCs), introduced by Christ and Gunn [CRYPTO 2024], are classical error-correcting codes whose codewords are computationally indistinguishable from uniformly random strings. We initiate the study of quantum analogues of PRCs. We define quantum pseudorandom error-correcting codes (QPRCs). Assuming that Learning Parity with Noise (LPN) is hard for $2^{O(\\sqrt{n})}$-time quantum algorithms, we construct QPRCs whose encodings are indistinguishable from Haar-random isometries. We call these pseudorandom isometric error-correcting codes (PRICs), and our construction is robust to all $o(n \\frac{\\log \\log n}{\\log n})$-local quantum noise, where $n$ is the number of physical qubits. Under the same assumption, we also construct QPRCs whose encodings are indistinguishable from the completely depolarizing channel and that are robust to all $αn$-local quantum noise for some constant $α>0$. The latter QPRCs give a direct quantum analogue of classical PRCs. To construct PRICs, we develop two technical ingredients of independent interest. First, we introduce a new classical cryptographic primitive which we call pseudorandom functional error-correcting codes (PRFCs) and construct them under the same LPN assumption. Second, we develop a new efficient decoding procedure within the codeword-stabilized (CWS) framework introduced in [Cross, Smith, Smolin, and Zeng, IEEE ISIT 2008], which is a generic framework for constructing quantum error-correcting codes by combining (possibly nonlinear) classical error-correcting codes and graphs. This resolves the open problem of finding a general method for efficiently decoding such CWS codes based on nonlinear classical codes, raised in [Li, Dumer, Grassl, and Pryadko, Physical Review A 2010].",
+    "authors": [
+      "Hsieh, Min-Hsiu",
+      "Yamada, Shogo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:06:38.947026Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209813",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209813",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209813"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

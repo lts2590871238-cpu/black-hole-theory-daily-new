@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00520",
+    "arxiv_id": "2610.00520",
+    "arxiv_version": null,
+    "inspire_id": "3210460",
+    "doi": null,
+    "title_en": "Near-Optimal Ground-State Preparation without Controlled Hamiltonian Evolutions",
+    "abstract_en": "Ground-state preparation, energy estimation, and property estimation are fundamental tasks in quantum simulation. Existing ground-state preparation algorithms achieve near-optimal complexity using block encodings or controlled Hamiltonian evolution, raising a natural question: is controlled Hamiltonian evolution necessary, or can the same scaling be attained in the weaker access model that provides access to only uncontrolled Hamiltonian evolution? We resolve this question by giving two algorithms that access the input Hamiltonian $H$ only through queries to $U_H$ and its inverse $U_H^\\dagger$, where $\\|H\\|\\leα_H$ and $τ=Θ(1/α_H)$. Given an input state with ground-state weight at least $η$ and a spectral gap of $H$ of at least $γ$, our first algorithm uses fresh copies of the input state and requires $\\widetilde O(α_H/(γη))$ queries to $U_H$ and $U_H^\\dagger$, while our second algorithm uses coherent access to the input-state preparation unitary and its inverse to improve this complexity to $\\widetilde O(α_H/(γ\\sqrtη))$. The latter bound matches the known lower bound up to logarithmic factors, showing that algorithms with additional access to controlled Hamiltonian evolution cannot improve the query complexity for ground-state preparation beyond logarithmic factors. Both algorithms are based on a simple mechanism that we call the spectral descent principle, in which the algorithm starts from the input state $|ψ\\rangle$ and progressively descends through the energy spectrum, moving closer to the ground state until the desired fidelity is reached. We also extend this framework to ground-state property and energy estimation and give explicit complexity guarantees for both tasks.",
+    "authors": [
+      "Patel, Dhrumil",
+      "Flammia, Steven T.",
+      "Garcia-Patron, Raul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T03:11:49.339763Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210460",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210460",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210460"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

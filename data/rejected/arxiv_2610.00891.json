@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00891",
+    "arxiv_id": "2610.00891",
+    "arxiv_version": 1,
+    "inspire_id": "3210536",
+    "doi": null,
+    "title_en": "Towards Retrieval Augmented Generation in High-Energy and Astroparticle Physics",
+    "abstract_en": "The high-energy and astroparticle physics literature has grown into an enormous body of knowledge. Gaining a comprehensive understanding of this literature is an important step in research, but is a challenging task. Before making meaningful advances, it is important to establish what has already been done and identify open questions. However, this process is becoming increasingly difficult given the sheer volume of publications. Conducting a focused literature survey on a narrow topic is particularly challenging. We develop an open-source Retrieval Augmented Generation (RAG) pipeline to produce concise, targeted summary reports with citations, grounded in the database of arXiv papers, enabling researchers, editors, and referees to rapidly orient themselves within any corner of the field. Specifically, we embed approximately 230K hep-ph and astro-ph.HE papers to enable a hybrid retrieval that captures both keyword matches and semantic similarity. The fused candidate set is then refined using a cross-encoder reranker. Following retrieval, the papers are passed to a Large Language Model (LLM), for which we use Google DeepMind's open-source Gemma-4-E4B model. The LLM first acts as a judge to evaluate the relevance and then synthesizes a coherent and grounded report with references. This modern AI-driven approach allows us to go beyond the capabilities of classical keyword search on arXiv or Inspire-HEP.",
+    "authors": [
+      "Jacky Kumar",
+      "Sajan Kumar"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:16:14.670903Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.00891v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00891v1",
+    "inspire_url": "https://inspirehep.net/literature/3210536",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.00891",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.00891v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210536",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210536"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

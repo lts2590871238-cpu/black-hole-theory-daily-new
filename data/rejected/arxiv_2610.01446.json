@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01446",
+    "arxiv_id": "2610.01446",
+    "arxiv_version": null,
+    "inspire_id": "3210598",
+    "doi": null,
+    "title_en": "Unflattening by Flattening -- How Input Distributions Shape Output Variance in Angle-Encoded Circuits",
+    "abstract_en": "Barren plateaus hinder training of parameterized quantum circuits by making loss gradients exponentially small in the number of qubits. For angle-encoded product states, we show how the input distribution affects output variation through algebraic input purity, i.e. the input's overlap with the circuit's dynamical Lie algebra. With the specified readouts and Haar or exact group 2-design sampling, matchgate circuits on $n$ qubits retain output variance of order $1/n$ for every pure product input. The off-diagonal family instead has zero output on computational-basis inputs at any depth and for every parameter choice. Independent uniform angles yield mean variance of the same order as matchgates. A count of diagonal Pauli strings identifies these zero-output endpoints. For any fixed dataset of nonzero inputs with at least $2n$ coordinates, we construct a classical preprocessing certificate. A shared random rotation is accepted only when the dataset's mean purity passes a computable threshold. This certifies mean output variance of order $1/n$ for the off-diagonal family before circuit execution, with a constant expected number of trials. Binary and ternary weighted encodings also recover the independent-angle mean purity from one uniform scalar input. Numerical experiments examine training behavior and extensions to larger algebras. The guarantee concerns output variance averaged over inputs, while successful learning also depends on the task and information preserved by the encoding.",
+    "authors": [
+      "Strobl, Melvin",
+      "Mejia, Gabriel",
+      "Kuehn, Eileen",
+      "Streit, Achim"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:16:49.640267Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210598",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210598",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210598"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

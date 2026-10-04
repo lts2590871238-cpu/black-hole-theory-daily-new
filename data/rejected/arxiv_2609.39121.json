@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39121",
+    "arxiv_id": "2609.39121",
+    "arxiv_version": null,
+    "inspire_id": "3209567",
+    "doi": null,
+    "title_en": "Metachecks in Bivariate Bicycle Codes: Syndrome Distance, Measurement Faults, and Repair Limits",
+    "abstract_en": "Faulty syndrome measurements can corrupt an otherwise correct quantum-error correction step. Bivariate bicycle (BB) codes contain dependent stabilizer checks, so every valid syndrome obeys additional parity constraints, or metachecks. We study how far this built-in redundancy can identify measurement faults and when the remaining ambiguity is unavoidable, while separately checking the code's logical structure. A logical decomposition is used as a preliminary safety check: it identifies a $k/2$-dimensional annihilator subspace and a $k/2$-dimensional colon quotient, and the minimum-weight logical need not be visible from the annihilator side alone. On the measurement side, translation symmetry partitions syndrome locations into classes that carry identical metacheck information. This gives an exact characterization of the leading single-fault ambiguity, a bound on how many fault locations can be distinguished, and a family-level repair limit when the encoded dimension stays bounded while the block length grows. Under a static-data assumption, the same calculation gives the minimum number of checks that must be remeasured to remove every single-fault ambiguity. Exact finite-code calculations illustrate both regimes: all single measurement faults are distinguishable in a 72-qubit BB code, whereas the 144-qubit Gross code merges its 72 syndrome locations into 36 indistinguishable pairs. In a 108-qubit example, one logical component first appears at weight 12 while the other contains a weight-10 logical. Sustained phenomenological experiments show that joint data--measurement decoding is more robust than a separated repair stage on the more ambiguous codes. The resulting tests apply to general two-block BB codes, including non-coprime periods and repeated-root cases.",
+    "authors": [
+      "Rowshan, Mohammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T02:21:20.132813Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209567",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209567",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209567"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40128",
+    "arxiv_id": "2609.40128",
+    "arxiv_version": null,
+    "inspire_id": "3210004",
+    "doi": null,
+    "title_en": "Optimal Resource Scaling for Early Fault Tolerant Iterative Quantum Phase Estimation under Cost Error Tradeoffs",
+    "abstract_en": "The iterative quantum phase estimation algorithm (IPEA) is better suited for NISQ and early fault-tolerant hardware compared to the original algorithm, which requires the inverse quantum Fourier transform. However, current error mitigation and correction implementations lead to imperfect unitaries, causing erroneous phase feedback in IPEA. To improve the reliability of phase bits is to repeat the k^th iteration for the 2^k-th power of the unitary $N_k^*$ times, followed by a majority decision. However, due to variations in their circuit complexities, different iterations incur varying resource costs ($w_k$) and different per-shot error probabilities ($q_k$). Given tight resource constraints, we ask what the optimal number $\\{N_k^*: 1\\le k \\le L\\}$ of shots per bit is: \n$$\\arg \\max_{\\{N_k\\}} \\mathbb{P}(\\text{all } L \\text{ bits correct}) \\text{ s.t.} \\sum_{k=1}^L w_k N_k \\le W$$\n We obtain closed-form expressions for $N^*_k$ under the conditions: $W \\gg \\sum_k w_k $(enough for at least one shot per iteration), $w_k$ increases with $k$, $q_k$ are small enough and $L$ is large. We do so by analyzing tractable upper and lower surrogate problems derived via tight concentration and anti-concentration bounds and showing that their solutions converge when $q_k\\ll 1$. We observe that when $W\\gg \\sum_k w_k \\ln\\! \\left(\\sum_k w_k\\right)$, the optimal $N_k^*$ is proportional to $\\frac{\\ln\\! \\left(\\sum_k w_k\\right)}{c_k}$ and does not depend on individual $w_k$, where $c_k=-\\ln\\left(2\\sqrt{\\left(1-\\frac{q_k}{2} \\right) \\frac{q_k}{2}}\\right) \\propto \\ln\\frac{1}{q_k}$. However, when $\\sum_k w_k \\ll W\\ll\\sum_k w_k \\ln\\! \\left(\\sum_k w_k\\right)$, the allocation is also (additively) influenced by $\\frac{1}{c_k}\\ln\\frac{1}{w_k}$ for larger values of $k$, i.e., higher powers of unitary. These results lead to simple rules of thumb for resource allocation that may benefit the design of practical systems.",
+    "authors": [
+      "Mahindrakar, Mrudula A.",
+      "Chatterjee, Avhishek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:15:03.094742Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210004",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210004",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210004"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

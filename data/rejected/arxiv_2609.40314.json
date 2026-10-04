@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40314",
+    "arxiv_id": "2609.40314",
+    "arxiv_version": null,
+    "inspire_id": "3210058",
+    "doi": null,
+    "title_en": "Quantum Sampling of Random Spanning Trees via Amortized Data Structures",
+    "abstract_en": "We present a quantum algorithm that generates a uniform superposition over the spanning trees of a graph -- also known as a q-sample -- using only a sub-linear number of queries to the graph. This goes beyond previous work that focuses on generating classical samples, including a recent quantum algorithm by Apers, Gao, Ji, and Liu [ICALP 2025]. For an $n$-vertex, $m$-edge graph, our algorithm admits a pre-processing step of $\\tilde{O}(\\sqrt{mn} + m^{1-δ})$, after which each q-sample can be generated in $\\tilde{O}(n^{1+2δ})$ for any $δ$. Alternatively, $k$ independent q-samples can be generated at a total cost of $\\tilde{O}(\\sqrt{kmn})$. We also prove a matching lower bound up to logarithmic factors, showing that our algorithm is essentially optimal. Further tradeoffs are given in the paper. In comparison, the optimal classical algorithms (Anari, Liu and Vuong [FOCS 2022]) need an $\\tilde{O}(m)$ pre-processing step, after which each sample costs $\\tilde{O}(n)$ operations. These results yield faster quantum walk-based algorithms for counting spanning trees or finding a marked one. Our result is obtained via quantum walk sampling over a sequence of slowly-changing Markov chains. Each chain is an isotropized up-down walk that mixes rapidly to the spanning tree distribution of the input graph. A key ingredient is an amortized data structure supporting fast implementation of the associated quantum walk operators throughout the sequence. This data structure maintains access to a spectral sparsifier and a leverage score sampler that evolve with the underlying graph.",
+    "authors": [
+      "Hamoudi, Yassine",
+      "Tanasa, Adrian",
+      "Sridhara, Shrinidhi Teganahally"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:16:56.468404Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210058",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210058",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210058"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40094",
+    "arxiv_id": "2609.40094",
+    "arxiv_version": null,
+    "inspire_id": "3209986",
+    "doi": null,
+    "title_en": "Accelerating Quantum Dense-Output Simulation through Locality",
+    "abstract_en": "Estimating time-accumulated observables, or dense outputs, is central to extracting classical information from quantum simulations. Whereas most quantum-simulation algorithms aim to reproduce a final state or a single-time expectation value, many applications require the integrated signal $J_H(O)=\\int_0^T \\langle ψ(t)|O(t)|ψ(t)\\rangle\\,dt$. Previous Hamiltonian-simulation-based dense-output algorithms have query costs that depend on the norm of the full Hamiltonian, which can grow with system size. However, one can naturally optimize the simulation algorithm when the system structure is known. Consequently, we develop a locality-based truncation framework for the dense-output problem on lattice Hamiltonians. By truncating the Hamiltonian and tightening the resulting error with Lieb-Robinson bounds, we show that a local simulation can recover the dense output. We bound the quantum simulation error from spatial truncation and translate it into local-simulation query bounds. Our analysis includes free and interacting systems for both fermions and bosons, as well as open quantum systems governed by Lindbladians. The improvement from our truncation algorithm varies from constant to unbounded as the system size grows. We also give example applications and conduct relevant numerical experiments to support our findings.",
+    "authors": [
+      "Yang, Songqinghao",
+      "Liu, Chang",
+      "Wang, Junkai",
+      "Zhang, Jingxuan",
+      "Liu, Jin-Peng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:14:24.494813Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209986",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209986",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209986"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.01191",
+    "arxiv_id": "2604.01191",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Solutions of Calabi-Yau Differential Operators as Truncated p-adic Series and Efficient Computation of Zeta Functions",
+    "abstract_en": "Recently, a version of the deformation method developed in arXiv:2104.07816 has been used to great effect to compute the local zeta functions of Calabi-Yau threefolds by computing their periods as series with rational coefficients and using this to find a matrix representing the Frobenius action on a $p$-adic cohomology. However, this method rapidly becomes inefficient as the prime $p$ grows, due to the rational period coefficients growing quickly. In this paper, we point out that this problem can be circumvented by a simple process that we call $p$-adically truncated recurrence. This is a recurrence relation whose solutions are $p$-adic numbers modulo $p^A$ for a given $A \\in \\mathbb{N}$ and thus grow only slowly as $p$ grows. We show that the $p$-adic accuracy $A$ can be chosen such that all $p$-adic digits which contribute to the final result are kept, and therefore we are able to obtain the correct result by using these solutions. The improvements to speed and memory usage allow for computing the local zeta functions for tens of thousands of primes on a desktop computer, and make computing local zeta functions possible even for primes of size $10^6$ to $10^7$. Previously such computations were practically possible for around 1000 first primes. We have implemented this method in a Sage-compatible Python package PFLFunction.",
+    "authors": [
+      "Pyry Kuusela",
+      "Michael Lathwood",
+      "Miroslava Mosso Rojas",
+      "Michael Stepniczka"
+    ],
+    "categories": [
+      "math.NT",
+      "hep-th",
+      "math.AG"
+    ],
+    "submitted_at": "2026-04-01T17:38:00Z",
+    "updated_at": "2026-09-29T12:57:55Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.01191v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.01191v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.01191",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2604.01191v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

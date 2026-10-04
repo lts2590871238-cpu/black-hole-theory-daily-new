@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00674",
+    "arxiv_id": "2610.00674",
+    "arxiv_version": 1,
+    "inspire_id": "3210517",
+    "doi": null,
+    "title_en": "ROBIN-PIP: Robust Bayesian Field-Level Inference with Physics-Informed Priors",
+    "abstract_en": "Accurately extracting information from galaxy surveys, particularly at non-linear scales, requires increasingly complex and flexible forward models of the observed galaxy distribution. A key component is the galaxy bias relation, which connects the underlying matter distribution to observed galaxies and requires more expressive representations than those currently incorporated into Bayesian field-level inference. Certain parameterized models for this mapping can be overparameterized, with individual parameters carrying no direct physical interpretation, making them challenging to constrain. Our objective is to guide the inference of flexible model parameters towards physically plausible regions of parameter space through physics-informed priors. These priors are derived from high-fidelity simulations, thereby enabling the indirect use of simulations that cannot be integrated directly into gradient-based field-level inference. To this end, we introduce the ROBIN-PIP (RObust Bayesian INference with Physics-Informed Priors) framework. As a proof of concept, we jointly infer the cosmic initial conditions and the parameters of a truncated power-law galaxy bias model for a simulated universe. We integrate ROBIN-PIP into the Bayesian Origin Reconstruction from Galaxies algorithm and benchmark against inference without the simulation-based prior. With the additional prior, posterior standard deviations of the bias model parameters are reduced by up to $20\\%$ and autocorrelation lengths are reduced from $730$-$870$ to $440$-$550$, increasing the effective sample sizes. We find no bias in the recovered initial conditions, demonstrating that ROBIN-PIP guides inference towards physically consistent solutions without compromising the data likelihood and highlighting its potential to incorporate overparameterized models in field-level inference.",
+    "authors": [
+      "Ludvig Doeser",
+      "Simon Ding",
+      "Guilhem Lavaux",
+      "Jens Jasche"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T03:11:13.337232Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.00674v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00674v1",
+    "inspire_url": "https://inspirehep.net/literature/3210517",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.00674",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.00674v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210517",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210517"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

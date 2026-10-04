@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01521",
+    "arxiv_id": "2610.01521",
+    "arxiv_version": null,
+    "inspire_id": "3210599",
+    "doi": null,
+    "title_en": "Continuous-Process Randomized Compilation for Quantum Process Tensors",
+    "abstract_en": "Traditional discrete randomized compiling (RC) tailors errors with random control frames at logical-gate boundaries, but fails to capture intra-instrument control evolution or persistent system-environment coupling. In memory-bearing environments, errors correlate across times, not just single gates. We build continuous-process randomized compilation (CPRC) in the continuous process tensor (cPT) framework, unifying random unitary control trajectories, pointwise-covariant finite-duration instruments, and environmental dynamics on one time axis. We study four protocols: fixed Pauli refresh, bounded Cayley paths, unitary Brownian motion, Ornstein-Uhlenbeck driving. We obtain three key results: (1) Pointwise covariance ensures each trajectory exactly reproduces the target logic without system-environment coupling; a closed-frame counterexample proves endpoint-only compensation causes first-order instrument errors. (2) Independent Pauli conjugations over full intervals diagonalize error histories at boundaries, but classical labels retain environment-induced correlations, confirmed by an exact static-bath solution. (3) We derive a total-variation error bound for full adaptive output records under bounded centered coupling and mixing conditions. We prove convergence of trajectory-averaged cPT coefficients in fixed particle sectors for finite non-Gaussian environments and Gaussian baths with time-integrable covariance, including the uncut Drude spectrum. We numerically validate the theory in a qubit model via output probabilities, operator conditional mutual information, and all two-particle coefficients for both qubit and thermal Drude baths. This work extends RC from discrete circuits to continuous-time memory-bearing quantum processes, offering a unified framework, quantitative tools, implementable schemes, and benchmarks for non-Markovian error tailoring.",
+    "authors": [
+      "Wang, He"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:23:49.993396Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210599",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210599",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210599"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

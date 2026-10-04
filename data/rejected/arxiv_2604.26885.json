@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.26885",
+    "arxiv_id": "2604.26885",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Bayesian power spectrum estimation with modelling of systematic effects in delay-fringe rate space",
+    "abstract_en": "Observing the Epoch of Reionisation using 21cm radio interferometry has proven to be a challenging task. Extraction of the extremely faint redshifted signal is complicated by the presence of bright foregrounds, radio frequency interference (RFI), and systematic artefacts. We discuss the challenge of accounting for systematic effects, particularly cable reflections, that appear in the visibility data obtained from 21cm interferometers. Cable reflections cause attenuated copies of the foreground signal to appear outside the 'foreground wedge' region in which foreground contamination is supposed to be localised. We build on the hydra-pspec Gibbs sampler to implement a model of the systematics as a multiplicative effect in delay-fringe rate space. We include this model in the inference of the joint posterior distribution, in addition to the 21cm signal, its power spectrum, and foregrounds. This allows the systematics contribution to be marginalised, rather than filtering it out and causing additional signal loss. We demonstrate the method on simulated visibility data for a single baseline, showing that the 21cm delay power spectrum can be recovered well regardless of the location of the systematics in delay-fringe rate space. Our implementation is suitable for modelling other multiplicative factors on the visibilities, e.g. residual gain errors.",
+    "authors": [
+      "Sohini Dutta",
+      "Philip Bull",
+      "Jacob Burba",
+      "Michael J. Wilensky",
+      "Zheng Zhang",
+      "Ainulnabilah Nasirudin"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-04-29T16:53:41Z",
+    "updated_at": "2026-09-30T15:22:31Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.26885v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.26885v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.26885",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2604.26885v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

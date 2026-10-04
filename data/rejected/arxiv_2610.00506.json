@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00506",
+    "arxiv_id": "2610.00506",
+    "arxiv_version": null,
+    "inspire_id": "3210331",
+    "doi": null,
+    "title_en": "Noisy Quantum Query Complexity via Fractional Block Sensitivity",
+    "abstract_en": "We study quantum query complexity under several models of imperfect oracle access, and develop lower bounds through a common framework based on fractional block sensitivity (\\(\\fbs\\)). For a negligent oracle that applies the correct query with probability \\(1-p\\), we prove a lower bound in terms of \\(\\fbs(f,0^n)\\). We also show, perhaps surprisingly, that negligence need not destroy quantum speedups: any function \\(f\\) can be transformed into a partial function \\(f'\\) whose negligent query complexity essentially preserves the quantum query complexity of \\(f\\). This gives partial functions with exponential quantum speedups even under negligent queries, and in particular rules out a general lower bound in terms of \\(\\fbs(f)\\) for partial functions in this model. For two other models, we obtain general lower bounds in terms of \\(\\fbs(f)\\) for all Boolean functions. For hybrid algorithms using \\(Q\\) coherent and \\(C\\) classical queries, we prove the tradeoff \\(C+Q^2=Ω(\\fbs(f))\\). For an IID dephasing noisy model where each query dephases the query-index register at rate \\(p\\) independently, we prove \\(Ω\\!\\left(p\\,\\fbs(f)\\right)\\) queries are necessary. Finally, we introduce a broader family of time-varying dephasing models and identify a variational resource that is always lower bounded by \\(\\fbs(f)\\). Computing this resource reduces to a convex optimization problem, providing a simple way to derive lower bounds for new noise schedules. As applications, we recover the hybrid and IID dephasing bounds and determine the query complexity of unstructured search when the dephasing rate grows over time.",
+    "authors": [
+      "Agarwal, Mehil",
+      "Rao, Shravas",
+      "Song, Fang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T02:22:30.490779Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210331",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210331",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210331"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

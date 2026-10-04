@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02130",
+    "arxiv_id": "2610.02130",
+    "arxiv_version": null,
+    "inspire_id": "3210701",
+    "doi": null,
+    "title_en": "Quantum impurity models: easy at equilibrium, universal in motion",
+    "abstract_en": "A quantum impurity model describes a small interacting subsystem embedded into a large bath of free fermions. Here we study the computational complexity of calculating the ground energy, thermal equilibrium, and dynamical properties of these models. Our work reveals a sharp contrast: equilibrium properties can be efficiently approximated by classical means, whereas time evolution can implement a universal quantum computation. More precisely, let $H$ be the Hamiltonian of an impurity model with $n$ fermionic modes and a constant-size impurity. We show that: (1) the ground energy of $H$ can be approximated to additive error $\\varepsilon$ by a classical algorithm with runtime $\\textsf{poly}(n,1/\\varepsilon)$, improving on the quasi-polynomial runtime of the best previously known algorithm; (2) at inverse temperature $β$, the Helmholtz free energy and a classical description of the thermofield double state can be computed to precision $\\varepsilon$ in time $\\textsf{poly}(n,β,1/\\varepsilon)$; (3) simulating the time evolution $e^{-iHt}$ is $\\textsf{BQP}$-complete, for $H$ that is time-independent and has a fixed, constant impurity size. Our algorithms exploit exponential suppression of multi-particle bath excitations in a basis organized by energy scale and Krylov depth. Our universality construction realizes a stationary quantum processor whose program arrives in a stream of freely propagating fermions.",
+    "authors": [
+      "Arunachalam, Srinivasan",
+      "Bravyi, Sergey",
+      "Chowdhury, Anirban",
+      "Dutt, Arkopal",
+      "Gheorghiu, Alexandru",
+      "Li, Zhi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:23:14.732443Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210701",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210701",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210701"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

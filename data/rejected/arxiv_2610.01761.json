@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01761",
+    "arxiv_id": "2610.01761",
+    "arxiv_version": null,
+    "inspire_id": "3210629",
+    "doi": null,
+    "title_en": "A-GHOST: High-rate streaming of trigger-level data to programmable GPU inference",
+    "abstract_en": "A-GHOST (A Global Heterogeneous Online Scouting Trigger) is an R&D effort investigating high-rate streaming readout architectures for high-energy physics (HEP) experiments. The central idea is to convert the deterministic front-end and fixed-latency processing close to the detector from a decision-making platform to an aggregation and streaming source. Compact trigger-level data are streamed to a GPU-enabled backend, where substantially more complex algorithms can run beyond the resource and latency envelope of the hardware trigger. This paper presents a proof-of-concept backend using the NVIDIA IGX Thor development kit. A software rate-controlled transmitter sends data through a QSFP interface and external loopback cable to a second QSFP interface, allowing the network-to-GPU path to be studied before integration with FPGA sources. NVIDIA DAQIRI enables reception directly into GPU-accessible memory, while a custom CUDA kernel reassembles packet payloads into persistent, contiguous TensorRT input windows without data-type conversion, which is handled by the models. Using a HEP-derived event representation consisting of the ten leading calorimeter clusters, the backend scales from 40 to 100 Gbps while sustaining a constant input rate and an inference latency of 0.118 ms at the p95 interval. The system operates for multiple hours without drops or inference errors. Generative and temporally aware neural networks demonstrate workloads beyond those normally deployed in fixed-latency FPGA trigger systems. The result establishes A-GHOST as a basis for future FPGA-to-GPU streaming readout systems.",
+    "authors": [
+      "Xiotidis, I.",
+      "Clarke Hall, N.",
+      "Larson, M.S.",
+      "Gurunathan, R.",
+      "Burdick, C.",
+      "Du, T.",
+      "Konstantinidis, N.",
+      "Kordas, K.",
+      "Leshchev, D.",
+      "Miller, D.W.",
+      "Petrovic, V.A.",
+      "Sampsonidou, D.",
+      "Thompson, A.",
+      "Wengler, T."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:22:51.708680Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210629",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210629",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210629"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

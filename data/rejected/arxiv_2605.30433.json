@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.30433",
+    "arxiv_id": "2605.30433",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Consistent Implementation of Cluster Strong Lensing in Cosmological Simulation Light Cones",
+    "abstract_en": "Galaxy cluster strong gravitational lensing plays a central role in precision cosmology, yet robust theoretical predictions have lagged behind an abundance of high-quality strong lensing observations. This shortfall reflects both a mismatch between the geometry of the strong-lensing problem and standard cubic simulation boxes, and the fundamental tension between simulation volume and resolution. Consequently, many current forecasts adopt hybrid approaches that extract individual lenses from simulations and combine them with analytic or observed source populations positioned near caustics. These methods often omit correlated and/or uncorrelated line-of-sight (LoS) structure, or include it in ways that do not preserve correlations across redshift. Here we present a fully simulation-based procedure that generates strong-lensing images directly from particle data, drawing the lens, source, and all intervening resolved objects self-consistently from the simulated large-scale structure. Our approach combines a structure-preserving remapping of the simulation volume into a lensing-appropriate geometry with multi-plane ray tracing, enabling the use of uniform simulation boxes that resolve both cluster-scale primary lenses and high-redshift source galaxies. We demonstrate the method by generating example light cones and images using IllustrisTNG data, then use these results to conservatively quantify the impact of LoS structure on image configurations and critical-curve morphology. We find that uncorrelated LoS structure can shift the relative positions of lensed images by several arcseconds, introduces a $\\sim 6\\%$ scatter in the area of a cluster's primary critical curve, and changes the total critical area within 100$^{\\prime\\prime}$ of the cluster potential minimum by $16^{+20\\%}_{-14\\%}$ at a source plane redshift of $z_s=4$.",
+    "authors": [
+      "Cian Roche",
+      "Mark Vogelsberger",
+      "Michael McDonald",
+      "Isaque Dutra",
+      "Priyamvada Natarajan",
+      "Xuejian Shen",
+      "Soumya Shreeram",
+      "R. Benton Metcalf",
+      "Keren Sharon",
+      "Simon Birrer",
+      "Wonki Lee",
+      "Massimo Meneghetti"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2026-05-28T18:00:19Z",
+    "updated_at": "2026-09-30T17:20:18Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.30433v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.30433v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.30433",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2605.30433v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

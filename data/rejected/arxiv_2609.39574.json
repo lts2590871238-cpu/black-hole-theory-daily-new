@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39574",
+    "arxiv_id": "2609.39574",
+    "arxiv_version": null,
+    "inspire_id": "3209868",
+    "doi": null,
+    "title_en": "Exact color sums for multi-gluon amplitudes: direct, multiplet and symmetric-group Fourier methods",
+    "abstract_en": "We compare three approaches for computing color-summed tree-level all-gluon squared matrix elements: evaluation using direct contraction in the trace and adjoint decompositions, orthonormal multiplet bases, and fast Fourier transforms (FFT) based on the irreducible representations of the symmetric group for the trace and adjoint decompositions. The multiplet method reduces the color sum to a sum of absolute squares and utilizes an amplitude recursion labeled by SU(3) representations. The FFT exploits the relative-permutation dependence of color overlaps to replace the direct double sum with smaller independent contractions, using standard color-ordered partial amplitudes. This invokes the symmetric group at the level of gluon labels, and therefore makes maximal use of the permutation symmetry. We compare CPU time and memory use for four through eleven gluons. At eleven gluons, the direct adjoint contraction evaluates a fixed-helicity color-summed matrix element in an estimated 1.7 10${}^3$ s after initialization, compared with 19.8 s for the multiplet recursion and 0.814 s for the FFT adjoint method. The adjoint FFT is fastest from six through eleven gluons, despite its factorial scaling compared with the exponential scaling of the multiplet recursion.",
+    "authors": [
+      "Frederix, Rikkert",
+      "Hirschi, Valentin",
+      "Sjödahl, Malin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:09:33.811727Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209868",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209868",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209868"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.36383",
+    "arxiv_id": "2609.36383",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "An Energy-Conserving Unstaggered Electromagnetic-Potential Particle-in-Cell Method, Part II: Fully Relativistic Formulation with an Adapted Higuera--Cary Pusher",
+    "abstract_en": "We develop a fully relativistic extension of the energy-conserving, unstaggered electromagnetic-potential particle-in-cell method introduced in our earlier nonrelativistic work. As in the nonrelativistic generalized-momentum formulation, the fields are advanced by a Crank--Nicolson discretization of the Lorenz-gauge potential equations, the current is deposited from particle orbits, and charge is advanced through the discrete continuity equation. The new ingredient is a generalized-momentum adaptation of the Higuera--Cary relativistic particle pusher. The vector-potential force is decomposed into an orbit-discrete-gradient part, which enforces the same finite-difference chain rule used in our earlier nonrelativistic formulation, and a skew part, which generates a Higuera--Cary magnetic rotation in mechanical momentum. For prescribed fields and frozen orbit data, this generalized-momentum Higuera--Cary map is a unit-Jacobian conjugacy of the mechanical Higuera--Cary map and preserves particle phase volume in $(\\xx,\\PP)$. For the fully coupled implicit step, the same orbit data define the current deposit, mesh-to-particle gather, vector-potential chain rule, and relativistic kinetic-energy secant velocity. The resulting particle work cancels the Crank--Nicolson field-energy balance, yielding exact relativistic total-energy conservation up to nonlinear solver tolerance, orbit-quadrature error, and roundoff. A self-adjoint Fourier projection removes modes on even-grid Nyquist planes while preserving the particle--grid work identity. Numerical tests are organized around cold relativistic two-stream and Weibel/filamentation instabilities, with diagnostics for energy drift, Gauss's law, the Lorenz gauge, particle--grid work, and the orbit chain rule.",
+    "authors": [
+      "Andrew Christlieb",
+      "Luis Chacon",
+      "Sining Gong"
+    ],
+    "categories": [
+      "math.NA",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-09-28T23:25:04Z",
+    "updated_at": "2026-09-28T23:25:04Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.36383v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36383v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.36383",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.36383v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40066",
+    "arxiv_id": "2609.40066",
+    "arxiv_version": 1,
+    "inspire_id": "3209995",
+    "doi": null,
+    "title_en": "A machine learning-based method for populating dark matter halos in N-body simulations with substructure",
+    "abstract_en": "Dark matter N-body simulations that resolve halo substructure (subhalos) with high accuracy can be used for generating reliable catalogs of central and satellite galaxies via galaxy-halo connection models. However, such simulations are computationally expensive, especially when large numbers of realizations are required for statistical analyses such as robust estimations of covariance matrices for (statistical) cosmological quantities. In this work, we present a fast method for populating dark matter halos in a given simulation box with subhalos extracted from a high-resolution simulation box with the same cosmology but arbitrary initial conditions. For each halo in a given test set, the method first predicts whether it hosts at least one subhalo above a given mass threshold using a classifier built on a decision tree regressor. Then, for each predicted host, the method finds another host halo in a given high-resolution box, using a nearest neighbor search in the space of selected halo properties, and appropriately maps subhalos from that halo to the test one. By applying the method to different test sets, we make predictions for abundances, distributions and three-dimensional and projected (two-dimensional) two-point correlation functions of various subhalo populations and sub-populations. In most cases, the percent errors of our predictions are well below 5%. In general, the method can be used to populate halos in low-resolution simulation boxes with subhalos from a high-resolution simulation and also to investigate which halo properties are (more strongly) correlated with subhalo abundance and clustering in a given dark matter simulation.",
+    "authors": [
+      "Milad Noorikuhani",
+      "Jeremy Tinker"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:13:29.482794Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.40066v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.40066v1",
+    "inspire_url": "https://inspirehep.net/literature/3209995",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.40066",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.40066v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3209995",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209995"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

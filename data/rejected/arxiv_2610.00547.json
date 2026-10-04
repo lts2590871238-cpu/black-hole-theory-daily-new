@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00547",
+    "arxiv_id": "2610.00547",
+    "arxiv_version": null,
+    "inspire_id": "3210333",
+    "doi": null,
+    "title_en": "Unifying and Extending Strong Simulation of Quantum Circuits",
+    "abstract_en": "We establish functional aggregate queries (FAQs) as a unifying language for exact classical simulation of quantum circuits. A circuit becomes a sum-product query: factors encode gates, internal wire variables are aggregated, and free boundary variables index transition amplitudes. The central insight is that distinct sources of simulation tractability can be exploited within the same InsideOut evaluation scheme. The query specifies what is computed; the evaluation plan, semiring, and representation of intermediate factors determine the cost. This view unifies structural and algebraic simulation guarantees. With explicit factor representations, FAQ evaluation recovers the treewidth bound for tensor-network contraction and yields finer sparsity-sensitive bounds via fractional covers. Over a formal phase semiring, compressed intermediate factors recover rank-width-based simulation for compatible quadratic phase representations. For Clifford circuits, affine-quadratic factors are closed under multiplication and marginalization and remain polynomial in size, yielding polynomial-time exact amplitude computation without any bounded-width assumption. Beyond these recoveries, the framework yields a new tractability criterion: tensor layout symmetry width. This parameter combines local cut-rank with separator symmetry through exact tree-tensor representations. We give a constructive evaluation bound and exhibit a circuit family with bounded tensor layout symmetry width but unbounded phase-graph rank-width and circuit line-graph treewidth. These results establish representation-aware FAQ evaluation as a common algorithmic foundation for classical simulation and a systematic route to new tractable regimes.",
+    "authors": [
+      "Geerts, Floris",
+      "Hai, Rihan",
+      "Lanzinger, Matthias",
+      "Pichler, Reinhard",
+      "Sallinger, Emanuel",
+      "Unterberger, Daniel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T02:23:04.064789Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210333",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210333",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210333"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

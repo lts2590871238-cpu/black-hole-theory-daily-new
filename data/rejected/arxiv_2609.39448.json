@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39448",
+    "arxiv_id": "2609.39448",
+    "arxiv_version": null,
+    "inspire_id": "3209879",
+    "doi": null,
+    "title_en": "Parallel classical simulation of noisy shallow circuits: no quantum advantage in 1D",
+    "abstract_en": "We consider quantum circuits consisting of $d$ layers of nearest-neighbor two-qubit gates acting on $n$ qubits arranged on a line, where every qubit is independently depolarized with a constant probability before each layer. We describe a randomized parallel algorithm which samples from the output distribution of any such circuit to within total variation error $δ$, with parallel runtime $2^{O(d)}\\log\\log(n/δ)$ and $n 2^{O(d)}$ elementary real-arithmetic operations. Without noise, the same approach gives an exact sampler with parallel runtime $O(\\log n)$. For constant depth, we further show that the input/output behavior of the noisy quantum circuit is reproduced up to a constant error by a randomized $\\mathsf{AC}^0$-circuit, that is, a Boolean circuit of polynomial size and constant depth with unbounded fan-in AND and OR gates and NOT gates. Consequently, every relation problem solved by a noisy constant-depth quantum circuit in one dimension is also solved, with essentially the same success probability, by a randomized $\\mathsf{AC}^0$-circuit. This rules out, for noisy circuits in one dimension, the unconditional quantum advantage established for noisy shallow circuits in two and three dimensions, where polynomial-size classical circuits over the same gate set require depth $Ω(\\log n/\\log\\log n)$. Our algorithm exploits the fact that depolarizing noise cuts a one-dimensional circuit into independent pieces of logarithmic width, each of which can be sampled exactly in parallel.",
+    "authors": [
+      "Koenig, Robert",
+      "Tomamichel, Marco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:09:06.441212Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209879",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209879",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209879"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

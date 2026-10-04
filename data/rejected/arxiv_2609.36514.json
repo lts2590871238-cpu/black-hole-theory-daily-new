@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.36514",
+    "arxiv_id": "2609.36514",
+    "arxiv_version": 1,
+    "inspire_id": "3209140",
+    "doi": null,
+    "title_en": "ECLIPSE-X: Plate-Scale Calibration as the Binding Constraint on Relativistic Astrometry with Spacecraft Navigation",
+    "abstract_en": "Precision stellar astrometry near the Sun can constrain the parametrized post-Newtonian (PPN) parameter gamma through gravitational light deflection. This study develops ECLIPSE-X, a localized multi-frame estimation architecture in which one persistent relativistic parameter is estimated simultaneously with frame-dependent spacecraft line-of-sight and roll states, separated by their differing spatial signatures and by the persistence of gamma across frames. The aim is not a competitive determination of gamma, but an assessment of whether such a joint solution and its formal covariance stay statistically valid under realistic astrometric model error. A synthetic field of 250 stars spanning 1.22-8 apparent solar radii is observed over 40 frames at 5-s cadence; weighted least squares estimates gamma with three navigation states per frame, and Schur-complement marginalization gives the formal uncertainty in gamma after navigation coupling. The nominal solution recovers gamma = 1.0001198167 with sigma_gamma = 3.075104e-4, and a 1000-realization ensemble confirms calibration. Perturbations unknown to the estimator identify plate-scale mismatch as the dominant failure mechanism: a 300-ppm scale error alone inflates the empirical-to-formal uncertainty ratio to 7126.6 with zero 1-sigma and 2-sigma coverage, against 2.18 for catalog-coordinate mismatch and 1.12 for a frame-coherent radial perturbation, while every realization converges numerically: convergence does not guarantee statistical validity. Augmenting the state with a plate-scale parameter restores consistency, at a fixed 21.2% cost in the precision of gamma set by the correlation between the two persistent parameters. A calibration sweep shows the unaugmented estimator is covariance-consistent only below sigma_p = 2.7884e-8, so the augmented state is a requirement, not a refinement, for near-Sun relativistic astrometric estimators.",
+    "authors": [
+      "Pedro J. Llanos"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-09-29T00:00:00Z",
+    "updated_at": "2026-10-01T05:04:12.336009Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2609.36514v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.36514v1",
+    "inspire_url": "https://inspirehep.net/literature/3209140",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.36514",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.36514v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3209140",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209140"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

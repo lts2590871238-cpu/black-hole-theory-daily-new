@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40263",
+    "arxiv_id": "2609.40263",
+    "arxiv_version": null,
+    "inspire_id": "3209634",
+    "doi": null,
+    "title_en": "Superlinear Quantum Query Lower Bounds for Subgraph Detection",
+    "abstract_en": "Subgraph detection asks whether an $n$-vertex graph, accessed through queries to its adjacency matrix, contains a copy of a fixed graph $H$. We prove the first unconditional superlinear lower bounds on the bounded-error quantum query complexity of this problem, answering a longstanding open question. A copy of $H$ is a certificate of constant size, so the adversary method with nonnegative weights cannot prove superlinear lower bounds. For every fixed $r\\ge 4$, detecting the clique $K_r$ requires $n^{λ_r-o(1)}$ queries, where $λ_4=19/18$, the exponents $λ_r$ increase strictly with $r$, and $λ_r\\ge 2-4\\sqrt{2/r}+O(1/r)$. More generally, we prove superlinear lower bounds for detecting every fixed connected graph $H$ with chromatic number $c\\ge 4$. These bounds approach quadratic as $c$ grows: for sufficiently large $c$, detection requires $n^{2-O(\\sqrt{\\log\\log c/c})-o(1)}$ queries. Chromatic number alone does not characterize the quantum query complexity of subgraph detection: we show that detecting the complete bipartite graph $K_{r,r}$ requires $n^{β_r-o(1)}$ queries, where $β_{10}=181/180$ and $β_r\\ge 2-O(1/\\sqrt{r})$. Our main technical result is a lower bound for finding an all-ones certificate from a known family when the input bits are sampled independently. Its proof combines Zhandry's compressed oracle (CRYPTO 2019) with conditioning on a randomly planted certificate, adapting an argument of Belovs (FOCS 2026). Our hard instances are built from graphs containing many copies of the desired subgraph with limited overlap. For cliques, we use a construction of Gowers and Janzer (CPC 2021); for complete bipartite graphs, we use a random construction.",
+    "authors": [
+      "Gilani, Amin Shiraz",
+      "Zhou, Xingyu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:54:32.223241Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209634",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209634",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209634"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

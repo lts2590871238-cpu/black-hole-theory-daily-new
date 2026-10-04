@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.37091",
+    "arxiv_id": "2609.37091",
+    "arxiv_version": null,
+    "inspire_id": "3209170",
+    "doi": null,
+    "title_en": "Quantum Query Lower Bounds for Triangle-Listing and Spanners",
+    "abstract_en": "This paper gives quantum query lower bounds for two relational graph problems, triangle listing and explicit multiplicative spanner construction, in the general graph query model, where quantum adjacency, degree and neighborhood queries are all available in arbitrary superposition. Both results are obtained by reductions via intermediate multi-block search problems. We extend the quantum query recording framework by Zhandry (CRYPTO 2019) and Hamoudi and Magniez (ToCT 2023) to handle a recording architecture for bidirectional oracles and give a generic blockwise soundness framework, which for arbitrary families of local accepting projectors, gives an exact operator-norm characterization of their maximum overlap with the subspace of bounded weight records. Using the intermediate search problems, we exhibit a family of $n$-vertex graphs with $Θ(n)$ triangles on which listing any constant fraction of the triangles requires $Ω(n^{3/2-o(1)})$ quantum queries. This is the first nontrivial quantum lower bound for triangle listing, a question raised by Jiang and Peng (ICML 2026). Further, we show that, for every fixed $k\\ge 7$, constructing a multiplicative $k$-spanner requires $Ω(n^{1+\\frac{1}{2μ_k}})$ quantum queries, where $μ_k=k/3+O(1)$. For $k\\in\\{7,8\\}$ the bound is $Ω(n^{5/4})$, which matches what would be implied by an unproven instance of the Erdős girth conjecture, and for large $k$ the exponent $1+\\frac{3}{2k}$ exceeds the $1+\\frac{4}{3k}$ implied by the provable high girth dense graphs due to Lazebnik, Ustimenko and Woldar, 1995.",
+    "authors": [
+      "Chen, Yu",
+      "Mukherjee, Ananta",
+      "Yang, Mingyang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-29T00:00:00Z",
+    "updated_at": "2026-10-01T06:00:55.631746Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209170",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209170",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209170"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

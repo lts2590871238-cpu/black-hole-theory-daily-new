@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 14,
+    "methodological_rigor": 17,
+    "novelty": 11,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 64,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文直接研究脉冲星计时阵列（PTA）的观测策略，提出一个模拟框架来预测每颗脉冲星的最优仪器、观测频率与积分时间，并将其应用于 NANOGrav 的 85 颗脉冲星源表以及包括 Deep Synoptic Array（DSA）在内的多台射电望远镜。文中还分析了计时精度的主导噪声贡献、给出了 DSA 与 CHIME 的联合计时方案，并通过蒙特卡洛实现量化了时间优化对 GWB 信噪比的提升（约 5%）。方法与结论具体、可复现，对 PTA 观测规划具有直接参考价值。",
+  "title_zh": "使用深空瞬变阵列的最优脉冲星计时阵列策略",
+  "abstract_zh": "脉冲星计时阵列（PTA）实验通过对毫秒脉冲星进行协同射电计时观测，已经发现了纳赫兹频率引力波背景（GWB）的证据。随着观测的持续，尤其是随着下一代射电望远镜投入使用，这一证据的显著性预计将提高，GWB 的起源天体也将被揭示。我们提出了一个框架，用于模拟一组望远镜对一组脉冲星的计时观测，以预测每颗脉冲星的最优仪器、观测频率和积分时间。我们将这一方法应用于 NANOGrav 的 85 颗脉冲星源表，这些脉冲星由绿岸望远镜、甚大阵、加拿大氢强度测绘实验（CHIME）以及深空瞬变阵列（DSA）观测，DSA 是正在内华达州建造的射电天线阵列。我们讨论了这些脉冲星计时精度的主要噪声贡献，并表明其中大多数并不由内禀脉冲相位抖动噪声主导。我们还确定了哪些脉冲星应使用 DSA 和 CHIME 计时，或仅使用 DSA 计时，并表明从头开始的 DSA PTA 比使用当前仪器的 PTA 更灵敏。最后，我们在固定时间预算约束下，求解每颗脉冲星的最优积分时间，以最大化 GWB 信噪比。我们表明，对于这些用 DSA 观测的脉冲星，在积分时间上进行优化几乎没有益处。通过对 PTA 的蒙特卡洛实现，我们表明，对于早期科学、固定源表的情况，与每源等时间方案相比，时间优化观测使 GWB 灵敏度提高约 $\\sim 5\\%$。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational wave background",
+    "Deep Synoptic Array",
+    "NANOGrav",
+    "observation scheduling",
+    "integration time optimization"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波背景",
+    "深空瞬变阵列",
+    "NANOGrav",
+    "观测调度",
+    "积分时间优化"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-04T08:46:56.395858Z"
+}

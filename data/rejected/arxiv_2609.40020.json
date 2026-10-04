@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40020",
+    "arxiv_id": "2609.40020",
+    "arxiv_version": null,
+    "inspire_id": "3209968",
+    "doi": null,
+    "title_en": "Technical analysis of the Resource-efficient Quantum Walkers Quantum Random Access Memory",
+    "abstract_en": "Quantum Random Access Memory (qRAM) is a critical component for achieving quantum advantage in algorithms ranging from database search to quantum machine learning. In a recently introduced model [arXiv:2508.02855], we proposed a resource-efficient qRAM architecture based on discrete-time quantum walkers. This article serves as a comprehensive technical follow-up, providing the full mathematical derivations, detailed protocol specifications, and in-depth resource analysis. Moreover, we extend the original proposal with novel techniques for the purpose of making the qRAM implementation more realistic. Our model resolves the primary drawbacks of leading qRAM proposals: it avoids the exponential number of active nodes $\\mathcal{O}(2^n)$ required by the \"Bucket Brigade\" architecture by employing a number of quantum walkers that scales linearly with the address and message sizes, $n$ and $m$, respectively. Simultaneously, it overcomes the spatial bottlenecks of previous quantum-walker schemes by eliminating the need for multiple parallel trees. We propose two algorithmic paradigms: the long- and the short-range approaches, which differ by the length of interaction of the main routing gates employed in the qRAM. We formalize the routing, message-copy, and walker retrieval phases for both variants and we show how, while the long-range scheme employs controlled gates having a multitude of target systems, the short-range approach decomposes these interactions into sequences of 2- and 3-body local gates, which improves the architecture's feasibility for near-term experimental implementation. Finally, our comprehensive resource analysis confirms that the short-range approach achieves the optimal $\\mathcal{O}(n+m)$ circuit depth. Within these two paradigms, we explore the potential of different types of quantum walkers, namely bosons, dual-rail qubits and four-level qudits.",
+    "authors": [
+      "De Riso, Giuseppe",
+      "Catalano, Giuseppe",
+      "Lloyd, Seth",
+      "Giovannetti, Vittorio",
+      "De Santis, Dario"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:13:01.700725Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209968",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209968",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209968"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

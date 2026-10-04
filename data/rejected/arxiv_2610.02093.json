@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02093",
+    "arxiv_id": "2610.02093",
+    "arxiv_version": null,
+    "inspire_id": "3210663",
+    "doi": null,
+    "title_en": "One-Way Quantum Symmetric Private Information Retrieval Protocol From A Single Database Server Using NISQ Devices",
+    "abstract_en": "Symmetric private information retrieval (SPIR) lets an inquirer obtain one specific bit only, without leaking any information about its index to the database owner. With a single server, this is impossible for parties with unrestricted quantum power. We show that it becomes possible, with information-theoretic security, when the server and the user hold only noisy intermediate-scale quantum (NISQ) devices without long-term quantum memory and measure each qubit on arrival, while the eavesdropper remains all-powerful; this is a stricter form of the memory restriction of the bounded- and noisy-quantum-storage models. The server sends BB84 states one way; the user discriminates them unambiguously and so knows a random subset of the bits. After a joint random permutation into blocks, the user announces the conclusive locations of one privately chosen block, and the server hashes and takes a random parity of these locations in every block; the permutation makes it exponentially unlikely that one set of locations fits two blocks. We prove secrecy against the eavesdropper, database privacy through an explicit size rule for the announced set, and user privacy against a server who prepares the prescribed BB84 states and announces truthfully, exactly for single photons and up to a small multi-photon term over a tolerated noise channel. The only addition to BB84 equipment is a passive linear-optical measurement with one ancillary mode. For a $10^{4}$-bit database and database privacy $10^{-6}$, blocks of about a thousand qubits suffice over a tolerated noise channel for a user who applies the prescribed measurement; certifying an arbitrary memoryless user and committing to the permutation need larger auxiliary transmissions, which we quantify with finite keys. Database privacy extends to decoy-state weak coherent pulses, and simulations show that the bound is nearly tight.",
+    "authors": [
+      "Zou, Xiang",
+      "Chau, H.F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:24:18.244639Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210663",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210663",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210663"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

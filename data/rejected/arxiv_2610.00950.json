@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00950",
+    "arxiv_id": "2610.00950",
+    "arxiv_version": null,
+    "inspire_id": "3210549",
+    "doi": null,
+    "title_en": "Sublinear-depth Quantum Simulation of Electrons with Atomic Orbitals",
+    "abstract_en": "Discretizing electronic degrees of freedom into atomic orbitals is the default choice to accurately model electrons in molecules in a compact and flexible way. We consider the task of simulating such electronic structure models on a quantum computer for $N$ orbitals, keeping the number of orbitals per atom constant. Atomic orbitals give rise to Hamiltonians with potentially up to $\\mathcal{O}(N^4)$ terms and little structure, which made it challenging to match the complexity of methods based on plane waves and real-space grids. In this work, we show that a Trotter step for atomic orbitals can be implemented in depth $\\mathcal{O}(\\mathrm{polylog}(N))$ without ancillas by combining a rigorous treatment of orbital localization, a hierarchical Hamiltonian decomposition based on the Fast Multipole Method, and shallow quantum Fourier arithmetic circuits. By bounding the Trotter error, we obtain sublinear simulation depth, and our total gate count $N^{5/3 + o(1)}$ matches the best scaling known for any basis.",
+    "authors": [
+      "Günther, Jakob",
+      "Harrow, Aram W."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:17:40.105301Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210549",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210549",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210549"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01549",
+    "arxiv_id": "2610.01549",
+    "arxiv_version": null,
+    "inspire_id": "3210602",
+    "doi": null,
+    "title_en": "Molecular Dynamics with Nuclear Effects on Quantum Computers",
+    "abstract_en": "Nuclear quantum effects are critical for describing proton transfer and hydrogen bonding, but their incorporation into quantum chemistry calculations is often computationally prohibitive on classical hardware. A promising alternative are quantum computers due to their linear scaling in the space requirements with system size. We introduce a novel hybrid quantum-classical algorithm for ab-initio molecular dynamics that incorporates nuclear quantum effects via the nuclear-electronic orbital method. The proposed algorithm evaluates ground state energies and forces on the quantum computer using a variational quantum eigensolver, while the molecular geometries are updated classically. We validate our approach through simulations of $\\text{H}_2$, $\\text{H}_2\\text{O}$ and the Zundel ion $\\text{H}_5\\text{O}_2^+$, comparing the simulated vibrational spectra with experimental data. Upon inclusion of nuclear quantum effects, the proton shuttling movement in the Zundel ion becomes effectively barrierless, and errors in the simulated frequencies improve significantly. Employing compact hardware-efficient ansatz circuits we achieve results comparable to the more accurate UCCSD ansatzes, which hints towards the feasibility of executing our algorithm on near-term quantum devices.",
+    "authors": [
+      "Haßfurth, Lukas",
+      "Heitkämper, Juliane",
+      "Walter, Elias",
+      "Horstmann, Birger"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:22:15.849352Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210602",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210602",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210602"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

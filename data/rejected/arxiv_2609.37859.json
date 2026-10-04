@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.37859",
+    "arxiv_id": "2609.37859",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "An End-to-End Numerical Framework for Tidal Disruption Events with AthenaK",
+    "abstract_en": "In a tidal disruption event (TDE), a star is torn apart by the tidal field of a black hole (BH), and its bound debris returns over many orbits to form an accretion disk. We present a framework built on the GPU-accelerated finite-volume code AthenaK that follows these stages in a single simulation with self-gravity throughout. We extend AthenaK with a moving simulation frame, restart remapping between domains, a multigrid Poisson solver on the adaptive mesh, a tabulated hydrogen-helium equation of state including recombination, a dual-energy update for the cold supersonic debris stream, a moving BH potential with excision, and localized adaptive time stepping (LAT), in which each MeshBlock advances on its own timestep, speeding up the production calculation by more than a factor of three. Each component is validated separately and in combination. The gravity solver maintains an isolated Lane-Emden sphere to a radial density error of 2.0e-3 over 16.3 dynamical times, and dual-energy recovery reduces the pressure error of a Mach 7.75e7 entropy wave from 15.7 to 4.0e-12. We demonstrate the framework with a Newtonian beta=1 disruption of a 1 Msun, 1 Rsun star by a 10^3 Msun BH. The debris has the expected energy spread, which is insensitive to the self-gravity update interval, splits evenly into bound and unbound material, and yields a fallback rate that approaches t^(-5/3) at late times. At the pericenter nozzle, the thermal energy gained in the high-resolution run matches the vertical kinetic energy lost to within 5%, whereas the fiducial run (4x lower resolution in x,y and 8x in z) suffers from excessive numerical dissipation that overheats the thinnest early stream. The heating in the two runs agrees to 12% once the returning stream has thickened. Multifrequency LTE post-processing turns the snapshots into synthetic images and luminosities.",
+    "authors": [
+      "Hong-Xuan Jiang",
+      "Mengqi Yang",
+      "David A. Velasco-Romero",
+      "Fangyuan Yu",
+      "Jing-Ze Xia",
+      "Xinyu Li",
+      "Yosuke Mizuno"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-09-29T15:44:56Z",
+    "updated_at": "2026-09-29T15:44:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.37859v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37859v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.37859",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.37859v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

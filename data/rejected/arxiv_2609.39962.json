@@ -1,0 +1,72 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39962",
+    "arxiv_id": "2609.39962",
+    "arxiv_version": null,
+    "inspire_id": "3209980",
+    "doi": null,
+    "title_en": "Quantum Algorithms for Computational Fluid Dynamics",
+    "abstract_en": "We present a comprehensive review of quantum approaches for solving partial differential equations (PDEs) arising in computational fluid dynamics (CFD). We examine fully quantum approaches, including quantum linear system algorithms (QLSAs), ranging from the Harrow--Hassidim--Lloyd (HHL) algorithm to quantum singular value transformation (QSVT), Hamiltonian simulation, and quantum lattice Boltzmann methods (QLBMs), while emphasizing hybrid quantum--classical approaches, including quantum physics-informed neural networks (QPINNs) and amplitude-encoded variational PDE solvers. We focus on hardware-agnostic algorithms compatible with present noisy processors and emerging fault-tolerant architectures. For each framework, we analyze the mathematical formulation, algorithmic structure, and principal limitations. We also examine tensor-network (TN) representations, since CFD fields, differential operators, and geometrical information can often be encoded efficiently in low-rank form. The TN formalism bridges CFD discretizations and quantum states, operators, and circuits, enabling compact representations to be translated into tensor-programmable variational quantum algorithms (TP-VQAs). We further review benchmark problems, including Poisson, reaction, diffusion, and nonlinear model equations, and assess how well quantum algorithms capture key features of fluid dynamics. Our analysis highlights that potential quantum advantage is highly problem dependent and governed by condition number, representational complexity, state preparation, and measurement constraints. We outline capabilities, limitations, and challenges toward scalable quantum algorithms for CFD.",
+    "authors": [
+      "Cecile, Mario Guillaume",
+      "van Hülst, Nis-Luca",
+      "Hashizume, Tomohiro",
+      "Siegl, Pia",
+      "Setty, Abhishek",
+      "Jesus, José Diogo da Costa",
+      "Over, Paul",
+      "Bengoechea, Sergio",
+      "Umer, Muhammad",
+      "Tserkis, Spyros",
+      "Mastorakis, Eleftherios",
+      "Kraft, Tristan",
+      "Cárdenas-López, Francisco",
+      "Scandurra, Leonardo",
+      "Rung, Thomas",
+      "Motzoi, Felix",
+      "Yesil, Belda",
+      "Kraus, Barbara",
+      "Kiffner, Martin",
+      "Angelakis, Dimitris G.",
+      "de Villiers, Eugene",
+      "Jaksch, Dieter"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:12:52.783390Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209980",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209980",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209980"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

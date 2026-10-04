@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40179",
+    "arxiv_id": "2609.40179",
+    "arxiv_version": null,
+    "inspire_id": "3210056",
+    "doi": null,
+    "title_en": "Breaking the Multiplicative Overhead in Quantum Entropy Estimation",
+    "abstract_en": "The von Neumann, Tsallis, and Rényi entropies are fundamental measures of quantum information. A common estimation strategy multiplies the worst-case costs of spectral transformation and statistical readout, leaving gaps to query lower bounds. We reduce this overhead with multi-level algorithms that use local normalization and precision allocation, while variable-time estimation accounts for the probability of reaching expensive spectral tests. With controlled purified access and its inverse, we obtain bounds for additive error $\\varepsilon$, rank upper bound $R$, and fixed order $α$. Tsallis entropy estimation has near-optimal rank-independent query complexity $\\widetilde O(\\varepsilon^{-1/(α-1)})$ for $1<α<2$, when the allowed dimension and rank accommodate the lower-bound instances, and $\\widetilde O(1/\\varepsilon)$ for $α\\ge2$, where $\\widetilde O$ suppresses logarithmic factors. The first saves a factor $1/\\varepsilon$; the second extends known integer-order scaling to noninteger orders. We also improve the von Neumann entropy bound from $\\widetilde O(R/\\varepsilon^2)$ to $\\widetilde O(R/\\varepsilon)$ and obtain $\\widetilde O(R/\\varepsilon)$ for noninteger Rényi orders $1<α<3$, with further bounds at other orders. Our functional-estimation theorem replaces the global product by a sum of local costs weighted by function magnitudes and spectral masses. We further estimate fixed logarithmic moments and entropy variance using $\\widetilde O(R/\\varepsilon)$ queries, providing efficient access to fluctuation parameters that enter finite-blocklength quantum compression and pure-state entanglement conversion. More broadly, our framework extends beyond entropy to a broad class of density-matrix functionals, offering a systematic approach toward optimal query complexity in quantum spectral estimation.",
+    "authors": [
+      "Huang, Junxiang",
+      "Li, Chenyang",
+      "Zhang, Lu-Fan",
+      "Wu, Yusen",
+      "Zhang, Yukun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:13:54.184845Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210056",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210056",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210056"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

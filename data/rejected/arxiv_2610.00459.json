@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00459",
+    "arxiv_id": "2610.00459",
+    "arxiv_version": 1,
+    "inspire_id": "3210469",
+    "doi": "10.3847/1538-4357/ae8d15",
+    "title_en": "XClass: An Automated Multiwavelength Machine-Learning Pipeline for Classification of Extragalactic X-ray Sources. I. Pipeline Description",
+    "abstract_en": "Most X-ray sources detected in nearby galaxies by the Chandra X-ray Observatory lack astrophysical classifications. We present XClass (X-ray Classifier for extragalactic sources), an end-to-end machine-learning pipeline that classifies extragalactic X-ray point sources into seven classes: AGN, LMXBs, HMXBs, CVs, low-mass and high-mass foreground stars, and supernova remnants. The key challenge is photometric heterogeneity: training sources are predominantly Galactic with photometry from wide-field surveys (PanSTARRS and 2MASS), while extragalactic targets require Hubble Space Telescope (HST) imaging in a disjoint filter system. We address this through a spectral energy distribution (SED) translation that fits class-appropriate spectral models to each training source and convolves the best-fit model through HST filter curves, producing synthetic magnitudes in a common feature space. The classifier uses an asymmetric two-stage Random Forest: Stage 1 separates broad categories (AGN, X-ray binaries, SNRs, stars) and Stage 2 resolves X-ray binaries into LMXBs and HMXBs using an augmented feature vector that includes Stage 1 probabilities. The training set is assembled from ten Galactic catalogs and extragalactic SNR catalogs, cross-matched with the Chandra Source Catalog v2.1. Features include X-ray hardness ratios, SED-translated HST colors, and X-ray-to-optical flux ratios. We restrict the training set to sources with at least one optical magnitude, avoiding imputation artifacts; the pipeline achieves 99.6% accuracy and balanced accuracy of 0.90 on the resulting 11,374-source optical baseline, with excellent calibration (ECE = 0.002). XClass is modular, generalizable to any HST filter configuration, and will be applied to M31 and M33 in a companion paper.",
+    "authors": [
+      "Blagoy Rangelov",
+      "Nicholas Moore",
+      "Haley Dutton",
+      "Erika Marentes"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.GA",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T03:15:55.344675Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": "Astrophys. J. 1008, 117 (2026)",
+    "publication_info": [
+      "1008, Astrophys. J. 1008, 117 (2026), 117, publication, 2026, 117, Astrophys.J."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.00459v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00459v1",
+    "inspire_url": "https://inspirehep.net/literature/3210469",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.00459",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.00459v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210469",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210469"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

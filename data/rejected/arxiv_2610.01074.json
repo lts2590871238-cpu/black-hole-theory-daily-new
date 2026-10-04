@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01074",
+    "arxiv_id": "2610.01074",
+    "arxiv_version": null,
+    "inspire_id": "3210576",
+    "doi": null,
+    "title_en": "The stationarity test: a framework for learning quantum many-body systems from their thermal states",
+    "abstract_en": "The task of learning the Hamiltonian interactions governing a quantum system, given samples of its thermal (or 'Gibbs') states, is a foundational question at the intersection of quantum learning theory and many-body physics. In this paper, we draw connections to the quantum Gibbs sampling literature to introduce a natural learning algorithm we call the stationarity test: which simply \"guesses\" the Hamiltonian, and measures the rate-of-change of local observables, under the associated detailed-balanced quantum Markov chain [CKG23]. We leverage the stationarity test to address the following applications: 1. To give the first learning algorithm for the underlying interaction graph, i.e. structure learning, of lattice Hamiltonians at all temperatures, given copies of their Gibbs states. 2. To give the first learning algorithm for the coefficients of a lattice Hamiltonian, given only copies of its thermal metastable states, modeled as the \"local minima\" of the free energy. 3. In addition, we present a refinement to the recent area law for thermal metastable states [BCV25], which holds in the thermodynamic limit. Our learning algorithms are rigorous, time-efficient, and nearly sample-optimal in system size and accuracy. At a technical level, our arguments are based on new approximate locality and convexity properties for the quantum Fisher information of these Gibbs sampling algorithms.",
+    "authors": [
+      "Bergamaschi, Thiago"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:17:11.248305Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210576",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210576",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210576"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

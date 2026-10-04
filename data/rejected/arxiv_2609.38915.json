@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38915",
+    "arxiv_id": "2609.38915",
+    "arxiv_version": null,
+    "inspire_id": "3209563",
+    "doi": null,
+    "title_en": "Semi-Quantum Cryptography with Certified Deletion",
+    "abstract_en": "Certified deletion allows a client to upload encrypted data to a server as a quantum state, then later request that the server delete their data and detect whether the server complies. If verification passes, then the data on the server will remain hidden even if the decryption key is later leaked. In publicly verifiable certified deletion, the verification key is published so that anyone may check for deletion compliance. In this work, we give a general compiler to publicly verifiable certified deletion that allows the client to initially upload the *quantum* ciphertext using purely *classical* communication, assuming the post-quantum hardness of LWE in the plain model. Our approach can be applied to a wide variety of primitives, including commitments and public-key, attribute-based, identity-based, and fully-homomorphic encryption. Moreover, our constructions allow the client to classically manage the encrypted data beyond just verifying its deletion. The classical client may non-destructively audit the ciphertext via a Proof of No Intrusion to check whether it has been leaked to a third party. The classical client may also retrieve the data while simultaneously verifying its deletion from the server. Thus, they do not have to choose between retrieving the data and protecting it against future key leakage. As our core technical contribution, we give a classical-communication protocol and simulation technique that allows adapting purification-based security arguments for BB84-style states which are prepared through classical interaction. It makes the required purification available in a hybrid experiment, despite the classical transcript uniquely determining the prepared state in a real execution.",
+    "authors": [
+      "Kalai, Yael Tauman",
+      "Raizes, Justin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:33:06.296874Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209563",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209563",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209563"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

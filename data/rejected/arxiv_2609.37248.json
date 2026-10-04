@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.37248",
+    "arxiv_id": "2609.37248",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Gravitational-Wave Inference For Noise PSD Jumps Across Data Gaps",
+    "abstract_en": "Long-duration gravitational-wave (GW) inference inevitably encounters data gaps, which are often accompanied by abrupt, non-stationary changes in the detector noise power spectral density (PSD). Conventional practice typically analyzes the pre-gap and post-gap data separately, causing avoidable information loss and potentially degrading parameter inference. We build on Bayesian gap augmentation in the Wilson--Daubechies--Meyer (WDM) time--frequency domain and focus on a practically important failure mode: short gaps with large PSD amplitude jumps. In this regime, the local diagonal (Whittle-like) approximation that underpins the WDM likelihood can no longer be relied upon in the time direction near the gap edges, which may lead to biased and/or less robust inference unless the local diagonal validity is restored without resorting to full segmentation. We propose a two-stage, validity-driven remedy. First, frequency-domain prior-predictive prewhitening (PW) incorporates endpoint-informed noise information to mitigate the dominant mismatch responsible for poor diagonal behavior, enabling a more favorable WDM representation while retaining computational tractability. Second, when a time-direction smoothness criterion still fails, we apply adaptive gap expanding (AGE), selectively enlarging only the minimal neighborhood around the gap boundaries needed to restore local diagonal validity. Toy-model simulations with chimeric PSD transitions show that WDM+PW+AGE yields substantially tighter and more accurate posteriors than single-sided pre-gap/post-gap analyses, while maintaining computational efficiency suitable for next-generation missions.",
+    "authors": [
+      "Jian-Ming Yan",
+      "Zong-Kuan Guo"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-29T10:59:36Z",
+    "updated_at": "2026-09-29T10:59:36Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.37248v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37248v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.37248",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.37248v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

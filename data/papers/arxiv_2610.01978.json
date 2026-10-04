@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01978",
+    "arxiv_id": "2610.01978",
+    "arxiv_version": 1,
+    "inspire_id": "3210689",
+    "doi": null,
+    "title_en": "Intrinsic versus observation induced spin nonstationarity in pulsar timing",
+    "abstract_en": "Whether spin noise of a neutron star is stationary is, in two-component models, a question of whether stellar angular momentum is conserved internally or exchanged externally through independent stochastic torques on the crust and superfluid. The question is posed in the two components' angular velocities, but radio pulsar timing observes only the crust, through its rotational phase after a deterministic timing model is fitted. We develop a Gaussian process method for testing spin noise stationarity directly with such phase data. Starting from the exact analytical phase means and covariances of a singular, nonstationary and a minimal, stationary two-component model, we show that the crust phase covariances are semiseparable and construct a likelihood that scales linearly with the number of observations, with the timing model marginalized analytically. We analyze simulated phase data from both models using full-state and crust-only observations, and after differentiation into local spin frequencies. Integration, timing model removal and differentiation neither create nor destroy the distinction between stationary and nonstationary spin noise, but determine how much survives in a finite, noisy data set. With both components observed, the models are distinguished decisively and the generating parameters are recovered. With the crust alone, both models describe the observed phase equally well over much of parameter space, and the Bayes factors are of order unity and prior-limited. The minimal model nonetheless ties the hidden superfluid phase to the observed crust phase through a single factor set by the superfluid inertia fraction, so an independent estimate of this fraction, as from glitches, turns it into a falsifiable prediction that a continuous gravitational wave observation of the interior could test.",
+    "authors": [
+      "Reginald Christian Bernardo"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T03:23:38.847794Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.01978v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.01978v1",
+    "inspire_url": "https://inspirehep.net/literature/3210689",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.01978",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.01978v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210689",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210689"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [],
+    "medium_weight_hits": [
+      "continuous gravitational wave",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 20
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 24,
+      "methodological_rigor": 17,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 73,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文聚焦脉冲星计时中的自转噪声平稳性检验，属于PTA核心方法学问题：从两分量（壳层与超流）模型的精确解析相位均值与协方差出发，构造线性复杂度的高斯过程似然并对计时模型进行解析边缘化；模拟显示仅观测壳层时两模型难以区分、贝叶斯因子约为1且受先验限制，但由超流惯性分数可给出可证伪预言。理论深度与方法学严谨性信号较强，对PTA计时噪声建模与连续引力波观测有直接参考价值，值得点击阅读。",
+    "title_zh": "脉冲星计时中内禀与观测诱导的自旋非平稳性",
+    "abstract_zh": "在双分量模型中，中子星自旋噪声是否平稳，取决于恒星角动量是在内部守恒，还是通过作用在壳层与超流上的独立随机力矩与外部交换。该问题本应以两个分量的角速度来表述，但射电脉冲星计时在拟合确定性计时模型后，只能通过壳层的自转相位来观测壳层。我们发展了一种高斯过程方法，可直接用此类相位数据检验自旋噪声的平稳性。从奇异的非平稳双分量模型与最小的平稳双分量模型的精确解析相位均值与协方差出发，我们表明壳层相位协方差是半可分的，并构造了一个随观测数目线性增长的似然，其中计时模型被解析边缘化。我们使用全状态观测与仅壳层观测，分析来自两个模型的模拟相位数据，并在将其微分为局部自旋频率之后进行分析。积分、去除计时模型以及微分，既不会产生也不会破坏平稳与非平稳自旋噪声之间的区别，但决定了在一个有限且含噪声的数据集中有多少区别得以保留。在同时观测两个分量时，两个模型可被决定性地区分，且生成参数可被复原。仅观测壳层时，两个模型在参数空间的很大部分上对观测相位的描述同样好，贝叶斯因子为1量级且受先验限制。尽管如此，最小模型通过一个由超流惯性分数设定的单一因子，把隐藏的超流相位与观测到的壳层相位联系起来，因此对该分数的一个独立估计（例如来自脉冲星glitch的估计）会将其转变为一个可证伪的预言，可通过内部区域的连续引力波观测来检验。",
+    "keywords_en": [
+      "pulsar timing",
+      "spin noise",
+      "stationarity",
+      "two-component neutron star",
+      "Gaussian process",
+      "Bayes factor",
+      "continuous gravitational waves",
+      "superfluid"
+    ],
+    "keywords_zh": [
+      "脉冲星计时",
+      "自旋噪声",
+      "平稳性",
+      "双分量中子星",
+      "高斯过程",
+      "贝叶斯因子",
+      "连续引力波",
+      "超流"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-04T08:46:38.674645Z"
+  },
+  "published_at": "2026-10-04T08:46:38.675117Z"
+}

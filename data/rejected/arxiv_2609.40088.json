@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40088",
+    "arxiv_id": "2609.40088",
+    "arxiv_version": null,
+    "inspire_id": "3209583",
+    "doi": null,
+    "title_en": "Super-Quadratic Quantum Speedups for Combinatorial Optimization via Tilted Walks",
+    "abstract_en": "We introduce quantum tilted walks, a quantum algorithmic framework for solving exact combinatorial optimization problems. The framework applies an average of powers of a tilted Hamiltonian that biases the discriminant matrix of a base Markov chain (mixer) with the objective function. Our starting point is quantum short-path algorithms, which prepare the ground state of such a Hamiltonian and obtain super-quadratic speedups over exhaustive search for certain combinatorial optimization problems. Recently, Le Gall and Tamaki~(arXiv:2604.12131) developed a classical conditioning-and-search algorithm for weighted MAX-E$k$-LIN2 and weighted MAX-$k$-CSP. Under the same assumptions, their algorithm is only sub-quadratically slower than quantum short-path algorithms. Consequently, existing short-path algorithms do not establish a super-quadratic speedup over this stronger classical baseline. For maximization problems, we give conditions under which tilted walks increase the amplitude on the target state with high objective value when initialized from a starting state with lower objective value. This framework captures conditioning-and-search and yields super-quadratic speedups over it for the same problems. While our framework recovers quantum short-path algorithms as a special case, it neither requires ground-state preparation nor initialization in the ground state of the base mixer. We demonstrate these advantages on a synthetic optimization problem for which tilted walks achieve a super-quadratic speedup whereas the short-path algorithms do not.",
+    "authors": [
+      "Ozgul, Guneykan",
+      "Chakrabarti, Shouvanik"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:54:47.795897Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209583",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209583",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209583"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

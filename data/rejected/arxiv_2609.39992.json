@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39992",
+    "arxiv_id": "2609.39992",
+    "arxiv_version": null,
+    "inspire_id": "3209653",
+    "doi": null,
+    "title_en": "Predicting properties of Scrooge ensembles with high accuracy and low sample complexity",
+    "abstract_en": "The Scrooge ensemble associated with a density matrix $ρ$ is the maximally random ensemble whose average density matrix is $ρ$. It has attracted growing interest for its applications to quantum many-body dynamics and quantum information. The intrinsic statistical properties of the Scrooge ensembles are encoded in their higher-order moments, yet they are nontrivial to analyze and prepare for they feature a non-polynomial Haar integrand, blocking direct use of Haar integration machinery. Existing physical mechanisms to sample multiple copies of states from the Scrooge ensembles, meanwhile, typically require costly postselection, rendering them inefficient for large system size. In this work, we develop efficient and accurate methods for analyzing and implementing Scrooge moments. We first introduce a polynomial approximation to the Scrooge $k$-th moments whose error is tunable down to a threshold that improves from inverse polynomial to exponential in $1/||ρ||_\\infty$ over previous results. Building on our approximation, we then give the first efficient quantum algorithm that estimates observable expectation values using $\\widetilde{\\mathcal{O}}(k^3/ε^5)$ copies of $ρ$ for any target error $ε$ above this threshold. We further provide a construction of a block encoding of the Scrooge $k$-th moment when the preparation circuit of $ρ$ is known. Of independent interest could be a key subroutine in our algorithms, which efficiently implements projection onto the $k$-fold symmetric subspace for $ρ^{\\otimes k}$ using $\\mathcal{O}(k^3/ε^2)$ samples of $ρ$, avoiding the naive $k!$ postselection cost of such a projection. These results provide new tools for both the theoretical analysis and practical prediction of properties of Scrooge ensembles, with potential applications to quantum many-body dynamics and quantum information processing.",
+    "authors": [
+      "Wu, Yue",
+      "Tong, Yuzhi",
+      "Propson, Helen",
+      "Quek, Yihui",
+      "Mao, Liang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T04:27:11.802813Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209653",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209653",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209653"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

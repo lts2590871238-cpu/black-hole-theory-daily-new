@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39980",
+    "arxiv_id": "2609.39980",
+    "arxiv_version": null,
+    "inspire_id": "3209960",
+    "doi": null,
+    "title_en": "Logical information localisation in stabiliser codes via single-qubit measurements",
+    "abstract_en": "Stabiliser path finding (SPF) has previously been introduced as a method to localise logical information in a stabiliser code undergoing loss onto a single pre-specified target qubit, using only one round of single-qubit measurements. When working with limited resources and flying qubits, this fast read-out of logical information is a helpful tool for fault-tolerant communication. In this work, we provide a broad analytical and computational study of localisation via SPF. We introduce $g$-SPF, where the task is to localise the logical information onto a set of at most $g$ unspecified target qubits. Through analytical arguments based on percolation theory and the disjointness of stabiliser codes, we prove that for i.i.d. qubit loss with probability $p<1/2$ and sufficiently large planar surface codes, localisation via $g$-SPF for constant $g$ succeeds with a probability converging to one, which establishes a localisation threshold. Furthermore, we propose and implement two algorithms to solve SPF. The first is exact and formulates SPF as an integer linear program, whereas the second is heuristic and formulates SPF as a decoding problem. We validate both algorithms by numerically reproducing the localisation threshold for the surface code and demonstrate that the heuristic algorithm is considerably faster. Our work significantly reduces the time required to solve SPF compared to current state-of-the-art algorithms, allowing us to study localisation in substantially larger stabiliser codes than previously considered in the literature. Together, these theoretical and computational results open the door to various applications, such as fault-tolerant teleportation and efficient logical fusion.",
+    "authors": [
+      "Mackeprang, Jelena",
+      "Sharma, Hemant",
+      "Helsen, Jonas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:12:30.906509Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209960",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209960",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209960"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

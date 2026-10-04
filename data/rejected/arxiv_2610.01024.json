@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.01024",
+    "arxiv_id": "2610.01024",
+    "arxiv_version": null,
+    "inspire_id": "3210341",
+    "doi": null,
+    "title_en": "Exact $T$-counts of Toffoli layers from an isotropy bound",
+    "abstract_en": "The $T$-count is the dominant cost of fault-tolerant Clifford+$T$ computation. We prove that a layer of $m$ disjoint CCZ gates, the diagonal core of a parallel Toffoli layer, needs exactly $6m+1$$T$ gates in every Hadamard-free Clifford+$T$ circuit with clean ancillas. Campbell and Howard gave the matching construction. To our knowledge this is the first proof that it is optimal for general $m$ (for $m=1$ the value $7$ is classical, and Campbell and Howard state the value $13$ at $m=2$). On every controlled unitary the same floor comes within one of their exact count, and it recovers their $4m+3$ for a fan-out of $m$ Toffolis from one control. The proof rests on an isotropy constraint: for a pure-cubic phase, the vectors recording which $T$ gates touch each qubit span a totally isotropic subspace. In general the constraint gives the isotropy floor $δ\\ge2(n-d^{\\ast})-r$ for every diagonal level-three gate, computed from the phase polynomial in polynomial time. The floor is never below stabilizer nullity $ν$, which equals $n-d^{\\ast}$ on this class, and a separate parity argument raises it to $2ν+1$ on non-Clifford pure-cubic gates. On the output of the TODD optimizer for the $24$ benchmark circuits it completes, the floor certifies $193$ of its $311$ merged phase-polynomial blocks optimal for their Hadamard layering ($186$ to $193$ across five optimizer seeds), against $113$ for nullity. The floor also holds, under stated conditions, for circuits whose only internal Hadamards form unitarily uncomputed temporary AND blocks, while under adaptive feedforward only $t\\geν$ is proved.",
+    "authors": [
+      "Mazumder, Arul Rhik"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-03T02:23:35.071222Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210341",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210341",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210341"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

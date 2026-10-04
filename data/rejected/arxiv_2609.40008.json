@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40008",
+    "arxiv_id": "2609.40008",
+    "arxiv_version": null,
+    "inspire_id": "3209584",
+    "doi": null,
+    "title_en": "PINNing the pion: conformal deep learning for $F_π(s)$ and the $(g-2)_μ$ hadronic contribution",
+    "abstract_en": "Extracting the pion electromagnetic form factor $F_π(s)$ through phenomenological curve-fitting models introduces model dependence, unphysical artefacts, and kinematic inconsistencies. We introduce a Physics-Informed Neural Network (PINN) embedded in a conformal $z$-plane that constructs $F_π(s)$ directly from first principles across spacelike and timelike domains: charge normalisation and Schwarz reflection are enforced by construction, while Cauchy-Riemann analyticity, dispersion relations, Watson's theorem, and perturbative QCD asymptotics enter through the loss functional. Thus, the fundamental S-matrix principles dictate the form factor's behaviour while data act as constraints. Mapping the cut complex plane onto the unit disk bounds the Hessian norm and prevents Neural Tangent Kernel spectral starvation, two known failure modes of deep-learning optimisation. Besides $e^+e^-$ scattering data, we also incorporate $τ$-decay data through a switch that isolates the pure isovector form factor natively, bypassing model-dependent isospin-breaking pre-corrections. The network organically yields an interior zero-free form factor, while the framework tests experimental tensions around the $ρ(770)$ peak against analyticity and dispersion constraints. We obtain model-independent estimates of the pion charge radius, $\\langle r_π^2 \\rangle = 0.435 \\pm 0.008_{\\text{stat}} \\pm 0.007_{\\text{cali}}$ fm$^2$, the second-sheet pole parameters, $m_ρ^{\\text{pole}} = 761.72\\pm 1.04$ MeV and $Γ_ρ^{\\text{pole}} = 135.99 \\pm 1.20$ MeV, and the two-pion contribution to the muon anomalous magnetic moment, $a_μ^{ππ} = (506.48 \\pm 2.02_{\\text{stat}} \\pm 1.70_{\\text{cali}}) \\times 10^{-10}$.",
+    "authors": [
+      "Goel, Mayank",
+      "Mitra, Subhadip",
+      "Patra, Monalisa"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:54:55.783279Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209584",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209584",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209584"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

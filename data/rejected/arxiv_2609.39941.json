@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39941",
+    "arxiv_id": "2609.39941",
+    "arxiv_version": null,
+    "inspire_id": "3209959",
+    "doi": null,
+    "title_en": "Fast and Sure-ious Quantum Process Tomography",
+    "abstract_en": "Quantum process tomography (QPT) protocols are often designed by lifting quantum state tomography (QST) protocols through the Choi-Jamiolkowski isomorphism, at the cost of an extra step enforcing the trace-preserving (TP) constraint. Existing approaches fall into two classes. The folklore partial normalization, which sandwiches the density estimate between inverse square roots of its input marginal, has a closed form but is used as a heuristic, its only analyses being asymptotic and losing a factor polynomial in the dimension. Projection-based methods are principled but have no closed forms and scale poorly with dimension. We resolve this dichotomy by showing that the partial normalization is the exact projection onto the Choi states of quantum channels in fidelity (equivalently in Bures or purified distance). Consequently, any QST algorithm with guarantees in fidelity lifts to a QPT algorithm that inherits its sample complexity, through a single closed-form congruence that preserves the Choi rank and is computed in Kraus form without any eigendecomposition of Choi dimension. We lift two single-copy protocols and prove that the non-adaptive one (Fidelity Projected Least Squares) recovers the Choi rank and reaches infidelity $\\varepsilon$ from a number of channel uses proportional to $1/\\varepsilon$. Numerically, for channels of low Choi rank, it improves on the state-of-the-art projected least squares in accuracy, and by orders of magnitude in the time and memory of the TP-regularization step and of the returned estimate.",
+    "authors": [
+      "Afham, A.",
+      "Sen, Sayantan",
+      "Tomamichel, Marco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:11:56.873887Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209959",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209959",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209959"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

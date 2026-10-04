@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40262",
+    "arxiv_id": "2609.40262",
+    "arxiv_version": null,
+    "inspire_id": "3209619",
+    "doi": null,
+    "title_en": "Quantum List Recovery and Decoding: Achievability and Limitations",
+    "abstract_en": "Quantum list recovery (QLR) and quantum list decoding (QLD) seek short lists of logically distinct Pauli corrections consistent with a syndrome and prescribed error constraints. For CSS codes, two issues arise: treating the \\(X\\)- and \\(Z\\)-sectors separately can multiply their output list sizes, while distinct classical candidates can collapse after stabilizer quotienting. We study combinatorial upper and lower bounds for balanced folded quantum Reed--Solomon (FQRS) codes and balanced random CSS codes, both studied by Bergamaschi, Golowich, and Gunn (STOC 24). Let \\(R\\in(0,1)\\) be the quantum rate and \\(R_1=(1+R)/2\\) the common component rate. As the radius \\(ρ=(1-R)/2-γ\\) approaches the quantum Singleton bound, we have, deterministically for FQRS codes and w.h.p. for balanced random CSS codes, \n\\[ L^\\star_{\\rm QLR} = \\ell^{Θ(R_1/γ)}, \\qquad L^\\star_{\\rm QLD} = Θ\\!\\left(\\frac{1-R}γ\\right) \\qquad (γ\\downarrow0). \\]\n The asymptotically exact QLD radius tradeoff is \n\\[ ρ_L^\\star = \\frac{L}{L+1}\\frac{1-R}{2}. \\]\n These conclusions extend to the average-radius setting. For achievability, building on the work of Brakensiek, Chen, Dhar, and Zhang (STOC 2026), we establish a pairing lemma for joint \\(X/Z\\) candidate lists that preserves the one-sector coefficient and avoids a product loss in list size. For the QLD converse, we prove a quantum generalized Singleton bound based on the classical projection-and-patching argument with stabilizer distinctness. For the QLR lower bounds, we adapt the folded Reed--Solomon construction of Chen and Zhang (STOC 2025) so that the candidates remain stabilizer distinct. For random CSS codes, we show classical bad lists survive the stabilizer quotient with high probability.",
+    "authors": [
+      "Jeronimo, Fernando Granha",
+      "Ma, Xiaojuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:55:22.570038Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209619",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209619",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209619"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

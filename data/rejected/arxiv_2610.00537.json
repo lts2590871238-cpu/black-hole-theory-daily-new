@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.00537",
+    "arxiv_id": "2610.00537",
+    "arxiv_version": 1,
+    "inspire_id": "3210497",
+    "doi": null,
+    "title_en": "Quantum Krylov Learning",
+    "abstract_en": "The Hamiltonian of a natural quantum system is usually determined indirectly, by proposing microscopic models and comparing their predicted observables with experiment. A more direct approach is to extract information about the Hamiltonian from measurements on the system itself. In many settings, however, direct access to the full system is unavailable and measurements can be performed only through controllable probes, as in quantum sensing and boundary spectroscopy. Existing Hamiltonian learning protocols under such restricted access typically require a special symmetry, a known parametric form, or controlled operations beyond free evolution. We introduce Quantum Krylov Learning (QKL), a restricted-access framework that avoids these requirements. QKL uses single temperature probe autocorrelators and their operator Krylov structure to extract model-independent spectral information about the unknown system. Rather than fitting a parametrized Hamiltonian, it reconstructs the operator Krylov Jacobi matrix representing the dynamical modes accessible to the probe. The method assumes that the unobserved system is at, or near, infinite temperature. Under this condition, the Jacobi matrix can be reconstructed directly from the autocorrelation of a probe observable, without oracle access to the Hamiltonian. The required operations are free evolution under the unknown $H$, together with probe state preparation and measurement. The learning core therefore requires no symmetry, no parametric model, and no controlled-unitary gates. We show a Lieb--Robinson bound for the operator Krylov chain and derive a data-driven criterion for the required observation window. We also establish an end-to-end sample complexity guarantee: under generic conditions on the spectral gaps and weights, the number of measurement shots required to achieve spectral precision $\\varepsilon$ is polynomial in $1/\\varepsilon$.",
+    "authors": [
+      "Shunji Matsuura",
+      "Yoji Kawamura",
+      "Joseph Salfi",
+      "Satoshi Iso"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.mes-hall",
+      "cond-mat.mtrl-sci",
+      "hep-th"
+    ],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-03T03:14:20.504768Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.00537v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.00537v1",
+    "inspire_url": "https://inspirehep.net/literature/3210497",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.00537",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2610.00537v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210497",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210497"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

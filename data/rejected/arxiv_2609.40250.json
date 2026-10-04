@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40250",
+    "arxiv_id": "2609.40250",
+    "arxiv_version": null,
+    "inspire_id": "3210033",
+    "doi": null,
+    "title_en": "An (almost) efficient classical algorithm for sampling from typical Gibbs states",
+    "abstract_en": "Gibbs state preparation has emerged as a potential avenue for quantum advantage in the study of physical systems. Although there is known advantage for computing local properties of worst-case Gibbs states, recent results suggest a different picture for average-case local systems: at temperatures where their Gibbs states can be efficiently prepared quantumly, quasi-polynomial time classical algorithms can also compute local expectation values. Yet this leaves open the possibility of an advantage under a stronger notion of simulation: sampling. Gibbs sampling underlies Boltzmann machine-based quantum learning algorithms and quantum supremacy proposals, but its classical average-case complexity for physically relevant models remains unresolved. Here, we give strong evidence against an exponential quantum advantage in Gibbs sampling for an ensemble of local systems known as the quantum $p$-spin model. We describe a classical algorithm for sampling from the Gibbs state to any polynomially small error in total variation distance. Our algorithm is based on a meta-algorithm known as algorithmic stochastic localization (ASL). Our main technical result is a generalized convergence theorem for ASL which reduces approximate sampling from any distribution on the hypercube to estimating the mean of a related \"tilted distribution\" to sufficiently low additive error. We then extend known quasi-polynomial time algorithms for computing local expectation values of a related disordered model to compute these \"tilted means\" for the quantum $p$-spin model. Finally, we give a non-rigorous physics argument that this mean-estimation algorithm works down to the spin glass transition temperature. As efficient quantum algorithms also fail at this transition, this suggests they cannot Gibbs sample the quantum $p$-spin model at temperatures below that for which classical algorithms are also (almost) efficient.",
+    "authors": [
+      "Naghdi, Saleh",
+      "Anschuetz, Eric R."
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:16:23.679284Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210033",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210033",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210033"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

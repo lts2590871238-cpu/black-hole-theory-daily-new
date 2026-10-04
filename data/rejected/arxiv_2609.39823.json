@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39823",
+    "arxiv_id": "2609.39823",
+    "arxiv_version": null,
+    "inspire_id": "3209594",
+    "doi": null,
+    "title_en": "Improved Quantum Random Self-Reduction for Linear Problems",
+    "abstract_en": "We study quantum random self-reductions for linear problems over finite fields. Let $M\\in\\mathbb{F}^{n\\times n}$ be an arbitrary matrix, and let $\\mathcal{O}$ be an oracle that agrees with the linear map $x\\mapsto Mx$ on an $\\varepsilon$-fraction of inputs $x\\sim\\mathbb{F}^n$. Given coherent access to $\\mathcal{O}$ and coherent entry access to $M$, we give a uniform quantum reduction that computes $Mx$ on any prescribed input $x$ with probability at least $2/3$ in time $\\widetilde{O}(nT^{1/3})$, for $n\\le T\\le n^{3/2}$ and constant field size and $\\varepsilon$, where $T$ is the cost of one coherent query to $\\mathcal{O}$. In particular, when $T=\\widetilde{O}(n)$, the reduction runs in time $\\widetilde{O}(n^{4/3})$, improving the $\\widetilde{O}(n^{3/2}+T)$ reduction of Asadi, Golovnev, Gur, Shinkar, and Subramanian (SODA 2024). Our reduction uses the Bogolyubov--Ruzsa subspace guaranteed by additive combinatorics, but it avoids learning this subspace explicitly, which was computationally expensive for the previous reduction; in particular, it does not recover a basis for its orthogonal complement. The main technical step is to decompose the inputs into sparse pieces and find a vector that lies outside the Bogolyubov--Ruzsa subspace via a quantum search based on amplitude amplification. This yields a tunable tradeoff between the cost of querying the average-case oracle and the cost of verifying matrix-vector products.",
+    "authors": [
+      "Asadi, Vahid R.",
+      "Hirahara, Shuichi",
+      "Shimizu, Nobutaka"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T02:54:16.418858Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209594",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209594",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209594"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.35661",
+    "arxiv_id": "2609.35661",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Accelerating massive ensembles of ordinary differential equations",
+    "abstract_en": "Solving large ensembles of small, independent ordinary differential equations (ODEs) is a common task in computational science and engineering, arising for example in Bayesian parameter estimation, Monte Carlo uncertainty quantification, and the integration of uncoupled physical systems such as the linearised Einstein-Boltzmann equations of cosmology. Modern graphics processing units (GPUs) with thousands of cores are well suited to such parallel workloads, but realising this potential requires careful attention to GPU-specific architectural constraints. We present modax, a Python library of GPU-accelerated ODE solvers specifically optimised for solving large ensembles of low-dimensional, independent problems. Our solvers are compatible with the JAX ecosystem but are written in a low-level, thread-based programming paradigm better suited to ensembles of highly divergent trajectories than their pure-JAX counterparts. Benchmarks on the Lorenz, Robertson and van der Pol lattice systems compare modax against diffrax, DiffEqGPU$.$jl and torchdiffeq across ensemble size, dimensionality, and trajectory divergence. Our explicit Tsit5 solver achieves 30x speed-up over diffrax on Lorenz systems, and our implicit Rodas5P solver achieves over 700x speed-up on Robertson systems, demonstrating the superiority of linearly implicit Rosenbrock-Wanner methods on GPUs. Our implicit solver scales well to higher dimensions thanks to the use of sparsity-exploiting techniques and data structures. We conclude by applying modax to three examples from the field of cosmology - Bayesian parameter estimation from primordial abundances, Monte Carlo uncertainty quantification of the global 21cm signal, and the computation of uncoupled Fourier modes in the primordial power spectrum - and demonstrate significant efficiency improvements in our ability to model physical phenomena described by low-dimensional (<200D) ODEs.",
+    "authors": [
+      "Lawrence Berry",
+      "Will Handley",
+      "Oliver Hahn",
+      "Nils Schöneberg"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-09-28T17:22:30Z",
+    "updated_at": "2026-09-28T17:22:30Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.35661v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.35661v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.35661",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2609.35661v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

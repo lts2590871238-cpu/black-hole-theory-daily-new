@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39196",
+    "arxiv_id": "2609.39196",
+    "arxiv_version": null,
+    "inspire_id": "3209808",
+    "doi": null,
+    "title_en": "Particle track reconstruction in high-density collider environments with an Evolving-Geometry Transformer",
+    "abstract_en": "Charged particle track reconstruction at the High-Luminosity Large Hadron Collider is challenged by dense hit environments and combinatorial ambiguities. Existing graph-based and Transformer approaches commonly rely on static geometric neighbourhoods, which cannot adapt as track-level representations evolve. We propose the Evolving-Geometry Transformer (EGT), a graph Transformer that reconstructs the hit-connectivity graph at successive encoder layers and incorporates relative hit coordinates as learnable attention biases. Across five simulation benchmarks spanning linear, helical, and reduced TrackML events with up to 200--500 simultaneous trajectories, EGT achieves the highest FitAccuracy on three of five settings under the shared benchmark protocol, reaching 79.6% on the most complex setting and exceeding the strongest baseline by 1.6 percentage points. Replacing the evolving topology with a static graph reduces the perfect-track rate from 81% to 29%, while removing the geometric bias reduces it to 73%. Under synthetic background injection equal to the number of signal hits, FitAccuracy decreases by 3.4 percentage points. The neural-network forward pass requires 31~ms per event on an NVIDIA A100 GPU. These results indicate that iterative refinement of hit associations improves complete-track recovery when local geometry alone is insufficient to determine trajectory membership.",
+    "authors": [
+      "Ou, Chenxiu",
+      "Wang, Yan",
+      "Liang, Mingjiang",
+      "Yung, Man-Hong",
+      "Zhang, Qin",
+      "Su, Zhaofeng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:06:41.426366Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209808",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209808",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209808"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

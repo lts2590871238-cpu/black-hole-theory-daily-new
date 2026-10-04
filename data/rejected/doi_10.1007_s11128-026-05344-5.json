@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05344-5",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3210764",
+    "doi": "10.1007/s11128-026-05344-5",
+    "title_en": "Combining elliptic-curve cryptography and quantum-computing approach to secure cloud computing against distributed denial-of-service attacks",
+    "abstract_en": "The rapid proliferation of cloud computing environments has introduced significant security vulnerabilities, with distributed denial-of-service (DDoS) attacks emerging as one of the most disruptive and economically damaging threats. Traditional cryptographic mechanisms, while effective against many classical attack vectors, face mounting challenges from the advent of quantum computing, whose exponential processing capabilities threaten to render existing public key cryptosystems obsolete. This paper proposes a novel hybrid security framework that integrates elliptic-curve cryptography (ECC) with quantum-resistant algorithms to deliver robust, scalable protection for cloud infrastructures against DDoS attacks. ECC is leveraged for its exceptional computational efficiency and compact key sizes, making it highly suitable for resource-constrained cloud environments. Simultaneously, quantum-computing principles-specifically quantum key distribution (QKD) and post-quantum lattice-based cryptographic schemes-are incorporated to future-proof the framework against next-generation adversarial threats. The proposed architecture introduces a multi-layered defense mechanism encompassing real-time traffic anomaly detection, cryptographically authenticated session management, and distributed quantum-secured communication channels. Theoretical analysis and simulated evaluations across a 10,000-node cloud environment with up to 30% malicious traffic demonstrate that the hybrid ECC-quantum model achieves significant improvements in resistance to volumetric, protocol-based, and application-layer DDoS attacks, while maintaining low latency and high throughput suitable for production cloud deployments. All reported performance figures are simulation-based rather than obtained from a physical deployment. HEQCSF provides quantum-resistant key establishment and confidentiality through CRYSTALS-Kyber, whereas client authentication continues to rely on classical elliptic-curve digital signature algorithm (ECDSA) and is therefore not yet fully quantum-resistant; hybrid ECDSA+Dilithium co-signatures for fully quantum-resistant authentication are identified as future work.",
+    "authors": [
+      "Beghdad, Rachid"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T14:30:42.599145Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 329, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 329, 10, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210764",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210764",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210764"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

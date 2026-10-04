@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40248",
+    "arxiv_id": "2609.40248",
+    "arxiv_version": null,
+    "inspire_id": "3210035",
+    "doi": null,
+    "title_en": "Optimal Purity Estimation with Incoherent Measurements",
+    "abstract_en": "In this work, we consider the fundamental task of estimating the purity of an unknown state to within $\\textit{multiplicative}$ error $\\varepsilon$. When one can perform general collective measurements, $Θ\\left(\\frac{\\sqrt{d}}{\\varepsilon^2} + \\frac{d}{\\varepsilon}\\right)$ copies are known to be necessary and sufficient for this problem [AISW20]. However, implementing collective measurements on such a large number of copies can be experimentally demanding, and we thus aim to characterize the copy complexity of this problem with incoherent measurements. In this setting, the only non-trivial result is a non-adaptive algorithm that uses $O\\left( \\frac{d}{\\varepsilon^2} + \\frac{d^2}{\\varepsilon} \\right)$ copies [PTTW26], which is polynomially larger than the best-known lower bound. Our first result is a new algorithm performing non-adaptive incoherent measurements that succeeds using $O\\left( \\frac{d}{\\varepsilon^2} + \\frac{d^{3/2}}{\\varepsilon} \\right)$ copies, improving on the latter term in the copy complexity. Moreover, we show that for any algorithm restricted to non-adaptive measurements, the above copy complexity is optimal. We also develop a new adaptive estimator for the purity of a state that improves on the above complexity in the high-precision regime, i.e., for $\\varepsilon = o(1/d)$. We also show that the non-adaptive and adaptive estimators together yield the optimal complexity for incoherent purity estimation; in particular, we show that the copy complexity of this problem is \n$$ Θ\\left(\\min\\left\\{ \\frac{d}{\\varepsilon^2} + \\frac{d^{3/2}}{\\varepsilon}, \\frac{d^2}{\\varepsilon} + \\frac{\\sqrt{d}}{\\varepsilon^2}\\right\\} \\right). $$",
+    "authors": [
+      "Lee, Junseo",
+      "Wadhwa, Chirag"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:15:46.243414Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210035",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210035",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210035"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

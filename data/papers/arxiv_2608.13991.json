@@ -4,7 +4,7 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.13991",
     "arxiv_id": "2608.13991",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": null,
     "doi": null,
     "title_en": "On the Acceleration of Pulsar Timing computations using Normalising Flows and Parallelisation",
@@ -19,22 +19,22 @@
       "astro-ph.HE"
     ],
     "submitted_at": "2026-08-14T06:16:33Z",
-    "updated_at": "2026-08-14T06:16:33Z",
+    "updated_at": "2026-09-30T14:15:37Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2608.13991v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.13991v1",
+    "abs_url": "https://arxiv.org/abs/2608.13991v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.13991v2",
     "inspire_url": null,
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.13991",
-        "fetched_at": "2026-08-20T23:45:45.017837Z",
-        "url": "https://arxiv.org/abs/2608.13991v1"
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://arxiv.org/abs/2608.13991v2"
       }
     ],
     "is_demo": false
@@ -62,38 +62,42 @@
     "primary_topic": "pta",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 5,
-      "methodological_rigor": 15,
-      "novelty": 10,
+      "theory_depth": 14,
+      "methodological_rigor": 16,
+      "novelty": 11,
       "clarity": 8,
-      "metadata_quality": 7,
+      "metadata_quality": 6,
       "community_signal": 0,
-      "other": 5
+      "other": 4
     },
-    "total_score": 50,
+    "total_score": 59,
     "reject_reason_zh": "",
-    "selection_reason_zh": "本文提出将归一化流预条件蒙特卡洛采样应用于脉冲星计时阵列分析，与现有方法对比并展示了显著的加速效果，具有较高的实用价值和新颖性。",
-    "title_zh": "利用归一化流和并行化加速脉冲星计时计算",
-    "abstract_zh": "单脉冲星噪声分析（SPNA）和基于脉冲星计时阵列（PTA）数据集进行的引力波（GW）搜索，长久以来一直受到计算瓶颈的困扰，该瓶颈源于PTA似然函数空间的高维性和多模态性，以及各种单脉冲星噪声和系综级公共噪声过程之间的强相关性。我们通过采用基于归一化流预条件蒙特卡洛采样技术（在POCOMC包中实现）解决了这一突出问题，这是首次将该技术应用于PTA特定计算，并比较了其与广泛使用的PTMCMCSAMPLER和DYNESTY包所实现的加速效果。我们还通过在高性能计算（HPC）资源上使用PARALLEL_BILBY架构和DYNESTY，研究了在增加的通信节点阵列上进行并行化所实现的加速。我们在真实的长基线模拟数据集上进行了SPNA和公共红噪声（CRN）分析测试。我们发现PARALLEL_BILBY在并行化方面最为高效，对于空间不相关和Hellings-Downs相关的CRN搜索，使用16个节点分别实现了约10分钟和约100分钟的运行时间。POCOMC在单节点性能上表现出色，对于相关搜索仅需约10小时。PTMCMCSAMPLER被发现效率最低。我们预期POCOMC对PTA分析将非常重要，无需任何GPU或HPC支持，同时也能在可管理的时间范围内进行系综级GW搜索。随着数据量的增加和需要纳入更复杂模型（否则因相关计算成本而无法实现）的需求，这些结果具有长远意义。",
+    "selection_reason_zh": "该论文针对脉冲星计时阵列（PTA）数据分析中高维、多模态似然曲面与噪声相关性带来的计算瓶颈，首次将基于归一化流的预条件蒙特卡洛采样（POCOMC）用于PTA特定计算，并与PTMCMCSAMPLER、DYNESTY以及PARALLEL_BILBY并行方案进行系统对比，报告了单节点与HPC多节点的加速结果。方法描述具体、对比基线明确、结果量化，对PTA引力波搜寻的计算实践具有直接参考价值，属于PTA主题下值得深入阅读的技术性工作。",
+    "title_zh": "关于使用归一化流与并行化加速脉冲星计时计算的研究",
+    "abstract_zh": "在脉冲星计时阵列（PTA）数据集上进行的单脉冲星噪声分析（SPNA）和引力波（GW）搜寻，长期以来一直受困于计算瓶颈，这一瓶颈源于PTA似然曲面的高维性和多模态性，以及各种单脉冲星噪声与集合层级共同噪声过程之间的强相关性。我们通过在PTA特定计算中首次采用在POCOMC软件包中实现的基于归一化流的预条件蒙特卡洛采样技术，并将所获得的加速与广泛使用的PTMCMCSAMPLER和DYNESTY软件包进行比较，从而解决了这一悬而未决的问题。我们进一步通过在高性能计算（HPC）资源上使用PARALLEL_BILBY架构与DYNESTY，在数量不断增加的通信节点上进行并行化，考察了所获得的加速。我们在具有真实长基线的模拟数据集上，利用SPNA和共同红噪声（CRN）分析检验了加速效果。我们发现PARALLEL_BILBY在并行化方面最为高效，对于空间不相关的CRN搜寻和Hellings and Downs相关的CRN搜寻，使用16个节点分别实现了约10分钟和约100分钟的运行时。POCOMC在单节点性能上表现更优，对于相关搜寻仅需约10小时。PTMCMCSAMPLER被发现效率最低。我们预计POCOMC对PTA分析具有重要意义，它不需要任何GPU或HPC支持，同时还能在可管理的时间跨度内执行集合层级的GW搜寻。随着数据量的不断增长以及需要纳入更复杂的模型——这些模型原本因相关计算成本而遥不可及——这些结果具有持久的意义。",
     "keywords_en": [
       "pulsar timing array",
       "normalising flows",
+      "preconditioned Monte Carlo",
       "parallelisation",
-      "Bayesian inference",
-      "computational acceleration"
+      "gravitational wave search",
+      "common red noise",
+      "Hellings and Downs"
     ],
     "keywords_zh": [
       "脉冲星计时阵列",
       "归一化流",
+      "预条件蒙特卡洛",
       "并行化",
-      "贝叶斯推断",
-      "计算加速"
+      "引力波搜寻",
+      "共同红噪声",
+      "Hellings and Downs"
     ],
-    "translation_warning": "原摘要包含对未来影响的表述，在翻译中尽量保留但未过度强化。",
+    "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-17T23:43:23.486708Z"
+    "created_at": "2026-10-04T08:47:21.301766Z"
   },
-  "published_at": "2026-08-20T23:47:21.632162Z"
+  "published_at": "2026-10-04T08:47:21.302242Z"
 }

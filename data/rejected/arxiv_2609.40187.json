@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.40187",
+    "arxiv_id": "2609.40187",
+    "arxiv_version": null,
+    "inspire_id": "3210016",
+    "doi": null,
+    "title_en": "Fast classical simulation algorithms for free-fermion dynamics with magic input",
+    "abstract_en": "The classical cost of simulating free-fermion (matchgate) circuits depends on both the input state and the computational task. We develop classical algorithms for circuits with non-Gaussian inputs, addressing exact sampling and both additive-error and exact estimation of expectation values. For inputs consisting of $n$ copies of the four-mode magic state, we give exact sampling algorithms, generalizing the Clifford and Clifford algorithm for Boson sampling, for passive and active free-fermion dynamics with worst-case arithmetic cost $O(2^n)$ per sample, without any multiplicative polynomial prefactor. The passive algorithm enables an exact simulation of the non-interacting regime of a recent trapped-ion experiment. We also extend recently developed additive-error estimation of number correlators and related observables from passive to active dynamics with runtime polynomial in $n$ and the inverse additive-error, for input states formed by products of $n$ four-mode even parity states. Our estimator uses a Gaussian-state decomposition adapted to each sampled state to control its second moment. This includes estimation of individual output probabilities. Finally, we show that for even-parity product inputs composed of constant-size blocks, expectation values of Majorana monomials of logarithmic weight can be computed exactly in polynomial time, improving on prior Majorana propagation-style algorithms with quasi-polynomial runtime. The exact algorithm processes the input blocks by dynamic programming, sharing calculations across subsets of Majorana factors. Our suite of algorithms provide classical benchmarks for fermionic quantum simulations across a broad spectrum of computational tasks.",
+    "authors": [
+      "Heo, Jiwon",
+      "Reardon-Smith, Oliver",
+      "Oszmaniec, Michał",
+      "Zimborás, Zoltán",
+      "Oh, Changhun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:13:07.707110Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210016",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210016",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3210016"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

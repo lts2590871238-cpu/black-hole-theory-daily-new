@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.39295",
+    "arxiv_id": "2609.39295",
+    "arxiv_version": null,
+    "inspire_id": "3209832",
+    "doi": null,
+    "title_en": "Resource-Tunable Quantum Circuit Implementation of Nonlinear Element-Wise Transformations",
+    "abstract_en": "Nonlinear transformations are important in quantum machine learning and other quantum numerical applications, which can be reduced to the implementation of element-wise polynomials through polynomial approximation. Existing works establish the feasibility of transformations and improve query or auxiliary-space efficiency, but circuit depth remains linear in scale with degree. In this work, we develop a resource-tunable quantum framework that decomposes a $(2^d-1)$-degree polynomial into $m$ lower-degree factors, with $m$ controlling the degree of parallelism. By varying $m$ from $1$ to $2^d-1$, the framework provides a trade-off among query complexity, additional gate complexity, ancilla count, and normalization, ranging from a binary-tree implementation to a $\\mathcal{O}(n+d)$-depth construction with highly parallel oracle queries that match the query lower bound. The effects of polynomial approximation and implementation errors are further analyzed. We demonstrate the framework for nonlinear activation functions such as sigmoid and tanh, as well as pixel-wise image transformations.",
+    "authors": [
+      "Yang, Chunlin",
+      "Li, Yuqi",
+      "Yao, Hongmei",
+      "Fan, Zhaobing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-09-30T00:00:00Z",
+    "updated_at": "2026-10-02T05:07:10.709358Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3209832",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3209832",
+        "fetched_at": "2026-10-04T08:45:41.221288Z",
+        "url": "https://inspirehep.net/literature/3209832"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
