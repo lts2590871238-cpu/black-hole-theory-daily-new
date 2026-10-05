@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.10543",
+    "arxiv_id": "2604.10543",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Finite-temperature quantum Krylov method from real-time overlaps",
+    "abstract_en": "Accurately evaluating finite-temperature properties of quantum many-body systems remains a central challenge. Many existing quantum approaches require thermal-state preparation at each target temperature, making low-temperature calculations especially demanding in terms of circuit depth and accuracy. In this work, we present the finite-temperature quantum Krylov (FTQK) method, which combines stochastic trace estimation with a Hermitian generalized eigenvalue problem based on $\\cos(\\tilde H)$. The only quantum-side input required is the temperature-independent real-time overlap sequence $g_n=\\langleφ|e^{-inτH}|φ\\rangle$. All benchmark results presented in this work were obtained from classical numerical simulations of the quantum-circuit protocol. For periodic spin-$\\frac{1}{2}$ Heisenberg chains with $N=14$ and $18$, FTQK accurately reproduces the specific heat, magnetic susceptibility, and entropy in the noiseless case. It also accurately reproduces the specific heat of the $N=14$ honeycomb Kitaev model, demonstrating that FTQK can be applied beyond simple one-dimensional chains to a model on a two-dimensional lattice with bond-dependent interactions. Furthermore, in a proof-of-principle finite-shot study for the $N=14$ Heisenberg chain, the main thermodynamic features remain well preserved even at $σ=10^{-3}$. Here, $σ=1/\\sqrt{N_{\\mathrm{shot}}}$, where $N_{\\mathrm{shot}}$ is the number of shots used to estimate an overlap. These results demonstrate the potential of FTQK for finite-temperature calculations using reusable, temperature-independent real-time overlap data.",
+    "authors": [
+      "Hiroto Yamamoto",
+      "Katsuhiro Morita"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-04-12T09:16:46Z",
+    "updated_at": "2026-10-02T09:49:02Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.10543v3",
+    "pdf_url": "https://arxiv.org/pdf/2604.10543v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.10543",
+        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "url": "https://arxiv.org/abs/2604.10543v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03466",
+    "arxiv_id": "2610.03466",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A novel, fast, and accurate code for cosmological loop calculations",
+    "abstract_en": "We introduce neckar, a public code for the one-loop matter and galaxy power spectrum, as well as correlation function, in the Eulerian Effective Field Theory of Large-Scale Structure (EFTofLSS). It is based on the FFTLog expansion, and is designed for fast and accurate parameter inference from large-scale structure data, making it a powerful tool for high-dimensional Bayesian analyses of current and upcoming galaxy surveys. neckar combines several numerical and analytical improvements, including the separation between pre-computable and cosmology-dependent contributions, a semi-analytic treatment of the Alcock-Paczynski effect for power spectrum multipoles, and an implementation of the symmetry-based bootstrap kernels, allowing straightforward applications to a broader class of cosmological models. The code also incorporates an improved infrared resummation scheme that corrects previous implementation inaccuracies, and which led to errors of the order of 1% for the quadrupole, and of 10% for the hexadecapole at scales $k \\gtrsim 0.1 h \\textrm{Mpc}^{-1}$, as well as an asymptotic treatment that extends the range of accurate predictions into mildly non-linear scales $k \\sim 0.4 h \\textrm{Mpc}^{-1}$. This leads to relevant corrections in the correlation function around the BAO peak. Taken altogether, these improvements render neckar up to two orders of magnitude faster than similar existing codes without relying on emulators, and at the same time improving numerical accuracy. The code is written in C and is distributed with a Python wrapper for convenience.",
+    "authors": [
+      "Tjark Harder",
+      "Luca Amendola",
+      "Thiago S. Pereira",
+      "Miguel Quartin"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-02T15:40:37Z",
+    "updated_at": "2026-10-02T15:40:37Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.03466v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.03466v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.03466",
+        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "url": "https://arxiv.org/abs/2610.03466v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

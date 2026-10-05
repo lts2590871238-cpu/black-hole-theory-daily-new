@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "holography_condensed_matter",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 25,
+    "methodological_rigor": 18,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 2,
+    "other": 5
+  },
+  "total_score": 79,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文在holographic Einstein-Maxwell-Dilaton模型框架下系统研究了热密QCD的多种输运系数，并引入了新的数值方法，具有较高的理论深度和方法学严谨性，且结果与JETSCAPE协作组的估计吻合，值得进一步阅读。",
+  "title_zh": "热密且重子数密度非零QGP的全息输运与能量损失的不确定性量化",
+  "abstract_zh": "我们在一个包含$N_f=2+1$种风味的、描述热密QCD的全息Einstein-Maxwell-Dilaton (EMD)模型的相图上研究了若干输运系数。我们的结果来自该模型的一个开源C++实现，该实现作为MUSES Framework中的一个模块公开可用。该代码包含一种新的数值方法，用于从全息模型中的近边界渐近行为中提取热力学量，这是首次在此引入，与早期实现相比，它极大地提高了数值稳定性和性能。得益于这一改进的技术，我们能够为我们的全息模型的许多实现计算结果，这些实现是从一个受零化学势处格点QCD结果约束的贝叶斯后验分布中采样得到的。这使我们能够将格点QCD的误差棒传播到在广泛的温度和重子化学势窗口内的输运系数预测中，该窗口覆盖了交叉区域、预测临界点附近以及一阶相变线。物理可观测量包括重子和热导率、重子扩散、剪切和体粘滞系数、喷注淬火参数、重夸克拖曳力以及Langevin扩散系数。在重子密度消失时，我们将我们的结果与JETSCAPE协作组从重离子数据中提取的估计进行了比较，我们发现二者吻合良好。",
+  "keywords_en": [
+    "holographic transport",
+    "energy loss",
+    "uncertainty quantification",
+    "QGP",
+    "Einstein-Maxwell-Dilaton model",
+    "Bayesian posterior",
+    "transport coefficients"
+  ],
+  "keywords_zh": [
+    "全息输运",
+    "能量损失",
+    "不确定性量化",
+    "QGP",
+    "Einstein-Maxwell-Dilaton模型",
+    "贝叶斯后验",
+    "输运系数"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-05T02:08:40.510639Z"
+}

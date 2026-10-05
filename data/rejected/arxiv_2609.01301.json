@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.01301",
+    "arxiv_id": "2609.01301",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Self-Healing Diffusion Monte Carlo applied to a simple fermionic model: A critical assessment of the method",
+    "abstract_en": "We investigate the Self-Healing Diffusion Monte Carlo (SHDMC) method using a one-dimensional model with periodic boundary conditions. An inversion symmetry is introduced to mimic the antisymmetry property of fermionic wave functions, with the bosonic and fermionic sectors being modeled by the even and odd eigenstates, respectively. As in realistic fermionic systems, the nodal structure is only partially constrained by symmetry, making this model a non-trivial testbed for nodal optimization algorithms such as SHDMC. We show that the nodal evolution under SHDMC iterations can be cast into a dynamical system exhibiting both attractive and repulsive fixed points. When applying SHDMC to this model in the absence of statistical noise, the fixed-node energy is found to increase during iterations and the node converges to an incorrect value. This occurs for any finite basis, even when the exact node is representable in it; the attractive fixed point approaches the exact node only as the basis becomes complete, while the convergence toward it becomes increasingly slow. We further show that this problem can be largely cured by modifying the nodal update criterion to give more importance to the nodal region. Our results suggest that, in the general case, an efficient nodal optimization may require both an improved nodal update criterion and a localized basis set allowing local distortions of the trial wave function, as is the case for this model.",
+    "authors": [
+      "Michel Caffarel",
+      "Manon Pinar",
+      "Anthony Scemama"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-09-01T14:29:48Z",
+    "updated_at": "2026-10-02T07:30:00Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.01301v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.01301v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.01301",
+        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "url": "https://arxiv.org/abs/2609.01301v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

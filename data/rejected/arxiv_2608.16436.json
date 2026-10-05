@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.16436",
     "arxiv_id": "2608.16436",
-    "arxiv_version": 3,
+    "arxiv_version": 4,
     "inspire_id": null,
     "doi": null,
     "title_en": "Captured weight and boundary leakage bound the error of sample-based spectral functions",
-    "abstract_en": "Sample-based quantum diagonalization builds a subspace from a device's measured bitstrings. From one protocol -- computational-basis samples of a real-time evolved probe, no Hadamard test -- we reconstruct the single-particle $A(ω)$ and $A(k,ω)$ of the 1D Hubbard model on that subspace. We prove that for Rayleigh-Ritz on any orthogonal projector the relative $L_1$ error lies between $1-w$ and $\\min\\{1+w,(1+\\sqrt{w})(\\sqrt{1-w}+\\widehatΛ(η)/η)\\}$, with $w$ the captured weight and $\\widehatΛ$ the boundary coupling at resolution $η$, assembled from the Ritz pairs without the answer. Weight alone cannot certify: an analytic counterexample forces any bound indexed on it to its trivial value, and on the probe's support, where $w=1$ exactly, the error is still $0.35$--$0.43$ at $η=0.18\\,t$ against a ceiling of $2$. A subspace containing the order-$K$ Krylov space reproduces the moments through order $2K+1$, and no further. Measured to dimension $10\\,306\\,296$, the bound is vacuous at every operating fraction of the resource scan, at all five sizes, by $1.66$--$8.61$, and informative only well above them; it crosses the trivial bound at a true error of $1.2$--$7.3\\times10^{-3}$, though a two-constant rule in $1-w$ is tighter on 11 of 14 splits. In the determinant basis the probe's Krylov space has coordinate support on every symmetry-allowed determinant, so at full weight only a subspace holding all of them has zero leakage; for a momentum probe a momentum block, $1/L$ of the sector, does. At full weight a second-order certificate follows; below it, where every operating fraction lies, one is open. One-body fermionic magic does not predict the support in advance: its rank correlation with it is $-1$ in each of six strata (exact $p=3.3\\times10^{-13}$ against independent orderings) but changes sign between families.",
+    "abstract_en": "Rayleigh-Ritz on a subspace from sample-based quantum diagonalization yields the spectral function of a probe state; we ask what bounds its error. The captured Born weight w does not do so alone: an analytic counterexample forces any bound indexed on it to its trivial value. On Hubbard rings at broadening $η=0.18t$, the probe's whole support (w=1) still has relative error 0.35--0.43: Rayleigh-Ritz displaces the poles a subspace keeps. The error is bounded instead by the missed weight and the Hamiltonian coupling across the subspace boundary. Given the exact ground state, we prove for any orthogonal projector that the relative $L_1$ error lies between 1-w and $\\min\\{1+w,(1+\\sqrt{w})(\\sqrt{1-w}+Λ(η)/η)\\}$, with $Λ$, that coupling at resolution $η$, computed from the Ritz pairs and the retained probe. We test it on L-site rings with classical Born draws of an exactly time-evolved probe, or their infinite-shot ranking; our device runs are execution records only. On the ranked subspaces the bound is vacuous at every operating fraction of the resource scan, at all five sizes up to a 10306296-determinant sector: its leakage branch exceeds the trivial bound 1+w by factors 1.66--8.61. It is informative only well above those fractions, where it is calibrated: at L=6--12 it first beats the trivial bound at a true error of (1.2--7.3)$\\times10^{-3}$, though an unproven fit in 1-w is tighter on 11 of 14 splits. For the Born-ranked $A(k,ω)$ at 85% of its sector, the bound is 350--900 times the true error. In the determinant basis, zero leakage at full weight needs every symmetry-allowed determinant: the probe's measured Krylov support at L=6--14. Plane-wave orbitals reduce a momentum probe's support to one block, 1/L of an exponentially growing sector. At full weight a second-order certificate follows; below it, where every operating fraction lies, one is open.",
     "authors": [
       "Nicolás Bonilla Vargas"
     ],
@@ -16,22 +16,22 @@
       "cond-mat.str-el"
     ],
     "submitted_at": "2026-08-17T11:35:16Z",
-    "updated_at": "2026-09-25T17:44:15Z",
+    "updated_at": "2026-10-02T06:48:30Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2608.16436v3",
-    "pdf_url": "https://arxiv.org/pdf/2608.16436v3",
+    "abs_url": "https://arxiv.org/abs/2608.16436v4",
+    "pdf_url": "https://arxiv.org/pdf/2608.16436v4",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.16436",
-        "fetched_at": "2026-09-29T02:37:14.696996Z",
-        "url": "https://arxiv.org/abs/2608.16436v3"
+        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "url": "https://arxiv.org/abs/2608.16436v4"
       }
     ],
     "is_demo": false

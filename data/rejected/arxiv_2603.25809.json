@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.25809",
+    "arxiv_id": "2603.25809",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Primitive recovery methods for binary neutron star mergers with tabulated equations of state in SPHINCS_BSSN",
+    "abstract_en": "The dynamics and observable signatures of neutron star mergers are governed by physics under the most extreme conditions. They are particularly impacted by the high-density equation of state, which for the most sophisticated models is usually available in the form of tables. Numerical relativity codes usually evolve particularly well-behaved numerical (\"conservative\") variables, but at the price that the physically interesting (\"primitive\") variables need to be found at every computational element and at every integration sub-step by means of expensive (and not always successful) root-finding algorithms. We have recently developed the Lagrangian numerical relativity code SPHINCS_BSSN which evolves the spacetime on an adaptive mesh with well tested methods, but the fluid is evolved by means of freely moving particles. Since our evolution equations differ from those of conventional numerical relativity, we need to develop new conservative-to-primitive algorithms if we want to use tabulated equations of state. We present here three such algorithms: a 3D and a 2D Newton-Raphson method and a 1D root-finding algorithm based on Ridders' method. We find the 3D method to be very fast and robust with an average failure fraction in a full-blown neutron star merger simulation (with the DD2 equation of state) well below 1%. While we do not find obvious advantages for the 2D method, the 1D Ridders' method is slow, but essentially fail-safe. Therefore, we choose the 3D Newton-Raphson as default and fall back to the 1D Ridders' method as a safe \"parachute\".",
+    "authors": [
+      "Swapnil Shankar",
+      "Stephan Rosswog",
+      "Peter Diener"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-03-26T18:14:27Z",
+    "updated_at": "2026-10-02T12:09:14Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.25809v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.25809v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.25809",
+        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "url": "https://arxiv.org/abs/2603.25809v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

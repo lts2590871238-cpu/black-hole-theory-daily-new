@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02737",
+    "arxiv_id": "2610.02737",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Robust Bayesian non-linear pulsar timing and noise analysis using a sequential data-tempered ensemble sampler",
+    "abstract_en": "We develop a sequential ensemble MCMC scheme for Bayesian pulsar timing and noise analysis that uses data size as the tempering parameter. The method enables gradual and reliable convergence from potentially uninformed initial points by iteratively increasing the data size, thereby increasing sensitivity and progressively narrowing the target distribution until the posterior of the full dataset is reached. The initial iterations use sub-datasets that can be orders of magnitude smaller than the full dataset, substantially reducing computational cost, which is further lowered by employing approximate lower-rank models justified by the reduced sensitivity of these sub-datasets. Bayesian inference is performed using the final MCMC chain sampled from the true target distribution after applying appropriate burn-in. We demonstrate the method using the NANOGrav 12.5-year data of PSR B1855+09, showing progressive convergence to the target posterior and that most of the computational time is spent sampling the true target distribution rather than in the preceding tempered iterations.",
+    "authors": [
+      "Abhimanyu Susobhanan"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-10-02T03:09:32Z",
+    "updated_at": "2026-10-02T03:09:32Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.02737v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.02737v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.02737",
+        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "url": "https://arxiv.org/abs/2610.02737v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
