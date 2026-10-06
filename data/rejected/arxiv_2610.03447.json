@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.03447",
     "arxiv_id": "2610.03447",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3211084",
     "doi": null,
     "title_en": "Dark Energy Survey Year 6 Results: fast and interpretable posterior predictive checks for correlated cosmic probes",
     "abstract_en": "We present a fast and numerically stable framework for conducting posterior predictive distribution (PPD) tests of internal consistency in correlated cosmological probes. Our method, developed as a validation check for the Dark Energy Survey (DES) Year 6 combined analysis of weak lensing and galaxy clustering, employs a Gaussian-mixture model to efficiently approximate the high-dimensional PPD and introduces a scalar consistency metric, $Δ_{\\rm PPD}$, defined as the fraction of the PPD at lower probability density than the observed data. This method avoids challenges related to calibration and numerical stability that impacted PPD methods previously used in DES Year 3. After demonstrating performance with a toy model, we confirm that when applied to DES Year 3 measurements, $Δ_{\\rm PPD}$ identifies the same inter-probe tensions as published, calibrated PPD results while requiring only minutes per test. We further validate the method on several noise realizations of simulated DES Y6 analyses, demonstrating that $Δ_{\\rm PPD}$ responds coherently to injected inconsistency, while highlighting two effects which can complicate the interpretation of PPD tests for increasingly complex models. First, internal tensions that can be absorbed as shifts in nuisance parameters become more difficult to detect. Second, poorly constrained directions in parameter space can induce projection effects in PPDs for disjoint sets of observables, producing reports of tension even for consistent data. We conclude that $Δ_{\\rm PPD}$ provides a practical PPD-based diagnostic for multiprobe unblinding, to be interpreted with care alongside other validation checks. This framework has already played an important role in DES analyses and is well suited for application to forthcoming Stage-IV surveys such as LSST, Euclid, and Roman, where fast, robust internal consistency tests will be essential.",
@@ -75,23 +75,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-02T15:28:00Z",
-    "updated_at": "2026-10-02T15:28:00Z",
-    "document_types": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T10:51:43.376434Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.03447v1",
     "pdf_url": "https://arxiv.org/pdf/2610.03447v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211084",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.03447",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
         "url": "https://arxiv.org/abs/2610.03447v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3211084",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211084"
       }
     ],
     "is_demo": false

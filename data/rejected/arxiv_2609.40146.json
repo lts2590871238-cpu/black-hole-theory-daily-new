@@ -7,7 +7,7 @@
     "inspire_id": "3209966",
     "doi": null,
     "title_en": "QuLoC: Photonic Quantum-Assisted Low-Rank LLM Compression",
-    "abstract_en": "As LLMs grow in size, compression becomes increasingly important for efficient deployment. SVD-based low-rank compression reduces parameter counts but can degrade downstream performance. To improve performance after compression, we introduce QuLoC, a photonic quantum-assisted LLM compression algorithm that uses quantum circuit outputs to gate the retained low-rank components during training. Model performance is recovered through local functional reconstruction followed by end-to-end knowledge distillation. After training, the gating coefficients are absorbed into the low-rank factors, allowing the compressed model to run on classical hardware without executing quantum circuits during inference. Experiments on Qwen3.5-4B show that QuLoC achieves a 9.73% relative improvement in average accuracy over state-of-the-art baselines across multiple downstream tasks, demonstrating its effectiveness. We further evaluate QuLoC on LLaMA-7B at different parameter compression ratios. It consistently achieves higher average downstream accuracy than state-of-the-art baselines, supporting its applicability to a larger model across different compression settings. Notably, experiments using the photonic quantum hardware retain these benefits with a small accuracy loss relative to simulation, suggesting robustness to hardware noise. These results motivate further exploration of photonic quantum-assisted compression for larger models and more complex agentic tasks.",
+    "abstract_en": "As LLMs grow in size, compression becomes increasingly important for efficient deployment. SVD-based low-rank compression reduces parameter counts but can degrade downstream performance. To improve performance after compression, we introduce QuLoC, a photonic quantum-assisted LLM compression algorithm that uses quantum circuit outputs to gate the retained low-rank components during training. Model performance is recovered through local functional reconstruction followed by end-to-end knowledge distillation. After training, the gating coefficients are absorbed into the low-rank factors, allowing the compressed model to run on classical hardware without executing quantum circuits during inference. Experiments on Qwen3.5-4B show that QuLoC achieves a 9.73% relative improvement in average accuracy over state-of-the-art baselines across multiple downstream tasks, demonstrating its effectiveness. We further evaluate QuLoC on LLaMA-7B at different parameter compression ratios. It achieves comparable or higher average downstream accuracy than state-of-the-art baselines, supporting its applicability to a larger model across different compression settings. These results motivate further exploration of photonic quantum-assisted compression for larger models and more complex agentic tasks.",
     "authors": [
       "Ni, Xiao-Hui",
       "Yao, Yu-Han",
@@ -19,7 +19,7 @@
     ],
     "categories": [],
     "submitted_at": "2026-09-30T00:00:00Z",
-    "updated_at": "2026-10-02T05:13:56.679132Z",
+    "updated_at": "2026-10-05T03:26:28.560874Z",
     "document_types": [
       "article"
     ],
@@ -35,7 +35,7 @@
       {
         "source": "inspire",
         "record_id": "3209966",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
         "url": "https://inspirehep.net/literature/3209966"
       }
     ],

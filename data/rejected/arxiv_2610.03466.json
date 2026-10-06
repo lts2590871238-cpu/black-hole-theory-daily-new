@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.03466",
     "arxiv_id": "2610.03466",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3211098",
     "doi": null,
     "title_en": "A novel, fast, and accurate code for cosmological loop calculations",
     "abstract_en": "We introduce neckar, a public code for the one-loop matter and galaxy power spectrum, as well as correlation function, in the Eulerian Effective Field Theory of Large-Scale Structure (EFTofLSS). It is based on the FFTLog expansion, and is designed for fast and accurate parameter inference from large-scale structure data, making it a powerful tool for high-dimensional Bayesian analyses of current and upcoming galaxy surveys. neckar combines several numerical and analytical improvements, including the separation between pre-computable and cosmology-dependent contributions, a semi-analytic treatment of the Alcock-Paczynski effect for power spectrum multipoles, and an implementation of the symmetry-based bootstrap kernels, allowing straightforward applications to a broader class of cosmological models. The code also incorporates an improved infrared resummation scheme that corrects previous implementation inaccuracies, and which led to errors of the order of 1% for the quadrupole, and of 10% for the hexadecapole at scales $k \\gtrsim 0.1 h \\textrm{Mpc}^{-1}$, as well as an asymptotic treatment that extends the range of accurate predictions into mildly non-linear scales $k \\sim 0.4 h \\textrm{Mpc}^{-1}$. This leads to relevant corrections in the correlation function around the BAO peak. Taken altogether, these improvements render neckar up to two orders of magnitude faster than similar existing codes without relying on emulators, and at the same time improving numerical accuracy. The code is written in C and is distributed with a Python wrapper for convenience.",
@@ -18,23 +18,31 @@
       "astro-ph.CO",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-10-02T15:40:37Z",
-    "updated_at": "2026-10-02T15:40:37Z",
-    "document_types": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T10:41:18.036024Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.03466v1",
     "pdf_url": "https://arxiv.org/pdf/2610.03466v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211098",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.03466",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
         "url": "https://arxiv.org/abs/2610.03466v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3211098",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211098"
       }
     ],
     "is_demo": false

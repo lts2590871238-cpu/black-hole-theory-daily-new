@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03655",
+    "arxiv_id": "2610.03655",
+    "arxiv_version": null,
+    "inspire_id": "3211150",
+    "doi": null,
+    "title_en": "Breaking the cubic barrier for the inverse-free Solovay-Kitaev algorithm",
+    "abstract_en": "The Solovay-Kitaev algorithm states that it is possible to efficiently compile unitaries to accuracy $ε$ in $\\text{polylog}(1/ε)$ time using any universal gate set. While Solovay and Kitaev's initial work addressed inverse-closed gate sets, recently Bouland and Giurgicǎ-Tiron showed it is possible to efficiently compile arbitrary gate sets without inverses. However, the exponent of their compilation algorithm is high. For example the inverse-free exponent for a qubit is over $8.62$, while information theoretically it is known that an inverse-free exponent of $3$ is possible in any dimension by a result of Oszmaniec, Sawicki, and Horodecki. This leads to a natural question: can one improve the exponent in Bouland and Giurgicǎ-Tiron's algorithm? And are there any cases where the inverse-free exponent is below 3, thus surpassing existing information-theoretic arguments? To answer this question, we first show that a special case of the inverse-free compiling problem -- namely Pauli gates supplemented by an irrational rotation of a qubit - admits a highly efficient compilation algorithm with an exponent at most $\\approx 2.138$. Our algorithm fuses ideas from prior algorithms of Kuperberg and Sardharwalla, Cubitt, Harrow and Linden to construct an efficient ``Pauli golf'' compilation routine. We then extend these ideas to the general inverse-free case for a qubit, where we give a compiling algorithm with exponent at most $2.988$. This result uses a novel form of approximate ``aiming'' of unitary corrections to improve the compilation efficiency. Our results give two examples of quantum compiling algorithms surpassing information-theoretic arguments, and demonstrate that there are many efficiency gains possible for inverse-free compilation.",
+    "authors": [
+      "Bouland, Adam",
+      "Shyaka, Victor",
+      "Zhang, Chenyi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T10:29:09.369720Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211150",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211150",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211150"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

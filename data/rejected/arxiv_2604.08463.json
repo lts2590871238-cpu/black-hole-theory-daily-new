@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.08463",
+    "arxiv_id": "2604.08463",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A GPU-Accelerated JAX Framework for Robust Parametric Component Separation and Clustering Optimization for CMB Polarization Satellites",
+    "abstract_en": "We present a novel, JAX-powered implementation of a parametric component-separation method for CMB polarization data, explicitly designed to handle spatially varying foreground Spectral Energy Distributions (SEDs). The approach models this variation across the sky by grouping sets of pixels that share common foreground spectral parameters, scanning over thousands of such configurations to evaluate the trade-off between model complexity and residual systematic contamination. Built within the FURAX framework -- a JAX-powered environment for CMB data analysis -- our pipeline extends the fgbuster parametric formalism. It enables fully vectorized, GPU-accelerated evaluation of the spectral likelihood, map reconstruction, and diagnostic metrics across tens of thousands of pixel subset configurations, noise realizations, and sky regions. Our implementation achieves up to $\\sim 100\\times$ speed-up over the scipy TNC optimizer used in fgbuster when running on GPUs, as well as giving more robust results. When applied to LiteBIRD-like simulations with spatially varying foreground SEDs, our optimized K-means configuration reduces the 68% upper limit on the tensor-to-scalar ratio $r$ by $\\approx 30\\%$ relative to a fixed, previously derived multi-resolution configuration, while maintaining competitive statistical uncertainties.",
+    "authors": [
+      "Wassim Kabalan",
+      "Arianna Rizzieri",
+      "Wuhyun Sohn",
+      "Artem Basyrov",
+      "Alexandre Boucaud",
+      "Benjamin Beringue",
+      "Pierre Chanial",
+      "Ema Tsang King Sang",
+      "Josquin Errard"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-04-09T16:58:17Z",
+    "updated_at": "2026-10-04T13:55:26Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.08463v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.08463v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.08463",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://arxiv.org/abs/2604.08463v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

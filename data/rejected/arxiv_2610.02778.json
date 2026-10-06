@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02778",
+    "arxiv_id": "2610.02778",
+    "arxiv_version": null,
+    "inspire_id": "3211223",
+    "doi": null,
+    "title_en": "Performance Evaluation of Emerging Networks of Quantum Repeaters: Analysis and Simulation",
+    "abstract_en": "Emerging experimental quantum network deployments are based on collaborations between research institutions and rely on telecommunications fiber infrastructure. Currently, such networks consist of mostly Dual Input Repeaters (DIRs) and can be viewed as composed of (mostly) line graphs. In order to evaluate the performance of such networks (e.g., in terms of Entangled Pair Rate, EPR, and average Fidelity) we developed a custom quantum network simulation platform that takes into account both the quantum and classical network components. To support the verification of the simulation results, we develop a novel approach for performance analysis of DIRs. We compare the simulation results to the analytical results for DIRs and to prior results for repeaters with more than two inputs. We observe that although the expected memory utilization cannot be bounded, \\emph{a small DIR memory size is sufficient and leads to minimal performance degradation}. For line networks with a single repeater and $3$ repeaters, we explore the dependency of incoming and outgoing memory size requirements on the number of nodes (network size), their connectivity (fiber length) and various quantum error settings (amplitude damping and phase flip channels). We evaluate the \\emph{EPR} and the \\emph{average Fidelity} for a sub-network of a deployed network with $3$ repeaters, using two alternative paths. We show that as the number of nodes increases or when the fiber lengths between nodes differ significantly, additional node memory is needed to maintain the same EPR (qubits are stored for longer duration to allow completion of entanglement across the network). We also show that the memory size should be above some minimum threshold to allow EP creation (EPR $>0$) as pair selection and swapping completion propagate across the network.",
+    "authors": [
+      "Ravid, Kobi",
+      "Ghaderi, Javad",
+      "Zussman, Gil"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T02:25:02.797577Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211223",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211223",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211223"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

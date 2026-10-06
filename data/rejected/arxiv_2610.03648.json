@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03648",
+    "arxiv_id": "2610.03648",
+    "arxiv_version": null,
+    "inspire_id": "3211224",
+    "doi": null,
+    "title_en": "Separating QMA from QCIP with a Classical Oracle, or, the Power of Quantum Proofs over Classical Interaction for Quantum Verifiers",
+    "abstract_en": "Whether some problems require quantum proofs has been a central question in quantum complexity (Aharonov and Naveh, 2002; Aaronson and Kuperberg, CCC 2007). Recently, breakthrough work of Bostanci, Haferkamp, Nirkhe, and Zhandry (STOC 2026), followed by a simpler separation due to Bostanci, Huang, and Vaikuntanathan (FOCS 2026), established a classical oracle separation between $\\mathsf{QMA}$ and $\\mathsf{QCMA}$. However, while they are not in $\\mathsf{QCMA}$, the problems used in both separations still lie in $\\mathsf{AM}$: they admit a two-message public-coin proof system with a classical verifier. In this work, we ask whether some problems truly require quantum proofs. More formally, we consider the complexity class $\\mathsf{QCIP}$, introduced by Buhrman, Le Gall, and Weggemans (2024), where an efficient quantum verifier interacts with an unbounded prover over a classical channel for an arbitrary polynomial number of rounds. We construct a classical oracle $\\mathcal{O}$ such that $\\mathsf{QMA}^{\\mathcal{O}}\\not\\subseteq\\mathsf{QCIP}^{\\mathcal{O}}$, thus showing that some languages indeed require quantum proofs, with no classical replacements. Since $\\mathsf{QCMA}=\\mathsf{QCIP}[1]$, this strengthens the earlier $\\mathsf{QMA}$--$\\mathsf{QCMA}$ separations, which now follow as a special case of our result. As a technical contribution, we extend to the complexity theory setting the techniques developed by Cakan, Goyal, and Shmueli (CRYPTO 2026) in the context of cryptography for analyzing classically interacting quantum machines. We believe this may be of independent interest.",
+    "authors": [
+      "Cakan, Alper"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T02:46:34.636394Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211224",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211224",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211224"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

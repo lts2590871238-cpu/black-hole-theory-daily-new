@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02701",
+    "arxiv_id": "2610.02701",
+    "arxiv_version": null,
+    "inspire_id": "3210883",
+    "doi": null,
+    "title_en": "Conditional Capacity and Routing in Mixture-of-Experts Particle Transformers",
+    "abstract_en": "Mixture-of-Experts (MoE) models can increase parameter capacity without proportionally increasing active computation, but it is unclear how this trade-off behaves in particle-physics transformers. We study dense and MoE Particle Transformers on 188-class JetClass-II, varying expert count, routing capacity, top-K, and auxiliary loss. We find that, when token dropping is avoided, top-1 MoE models improve over the dense baseline at nearly unchanged nominal forward compute, while further increasing the number of stored experts produces little additional accuracy gain. Activating multiple experts per token yields additional predictive improvements at higher computational cost. Routing analyses show that expert assignments become more strongly associated with particle identity and kinematics in some configurations, but this structure does not increase monotonically with classification performance. These results highlight the need to distinguish stored parameter capacity, active computation, routing capacity, and routing organization when evaluating sparse expert models for jet classification. Code and experiment configurations are available at https://github.com/kpendiyala/MPT.",
+    "authors": [
+      "Pendiyala, Kaushik",
+      "Zia, Haris",
+      "Lee, Trevin",
+      "Legge, Timothy",
+      "De Leon, Alejandro J.",
+      "Zhao, Zihan",
+      "Wang, Aaron",
+      "Gandrakota, Abhijith",
+      "Ngadiuba, Jennifer",
+      "Cavanaugh, Richard",
+      "Duarte, Javier"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T02:23:59.405100Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210883",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210883",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3210883"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

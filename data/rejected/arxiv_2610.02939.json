@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02939",
+    "arxiv_id": "2610.02939",
+    "arxiv_version": null,
+    "inspire_id": "3211037",
+    "doi": null,
+    "title_en": "Root-sparsity scaling for Hamiltonian simulation, differential equations and linear-system solvers",
+    "abstract_en": "We give quantum algorithms for Hamiltonian simulation, linear differential equations, and linear systems with square-root dependence on sparsity. For an $s$-sparse Hermitian matrix with row and column Euclidean norms bounded by $η$, evolution for time $t$ to error $ε$ uses $\\mathcal{O}(\\sqrt{s}τ+\\sqrt{sτ\\log(1/ε)}+\\log(1/ε))$ queries, where $τ=η|t|$. The same bound holds for time-dependent Hamiltonians with coherent time-indexed sparse access and certified time discretisation. Our construction combines an exact entrywise representation with Cayley transducers. A joint lower bound nearly matches the time, sparsity, and precision dependence, ruling out a uniformly additive bound in $\\sqrt{s}τ$ and $\\log(1/ε)$. For dissipative linear differential equations we obtain $\\mathcal{O}(\\bar g[\\sqrt{s}(τ+\\sqrtτ)+1]\\log(C\\bar g/ε))$ queries, where $τ$ is the evolution time multiplied by a norm bound, $\\bar g$ bounds the ratio of combined input and source norms to the final-solution norm, and $C$ is an absolute constant. We sharpen this bound by separating Hamiltonian and dissipative components, and treat general constant generators. Lower bounds capture joint parameter dependence for time-dependent equations and precision hardness for constant positive semidefinite dissipation. For linear systems, a Cayley walk and Chebyshev filter give $\\mathcal{O}(κ\\sqrt{s}\\log(1/ε))$ queries when $\\|A\\|\\le1$ and $\\|A^{-1}\\|\\leκ$, and we give an alternative proof of a matching joint lower bound. We also give gate-efficient implementations of time-independent Hamiltonian simulation and the dissipative ODE solver, including Lipschitz time dependence, retaining the query bounds with polylogarithmic overhead in inverse precision given efficient entry decoding, arithmetic, and required source preparations.",
+    "authors": [
+      "Berry, Dominic W.",
+      "Rawat, Abhishek",
+      "Simon, Sophia",
+      "Low, Guang Hao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T10:34:37.095892Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211037",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211037",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211037"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

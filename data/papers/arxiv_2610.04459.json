@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04459",
+    "arxiv_id": "2610.04459",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Bias-aware Fisher forecasts for stochastic gravitational-wave background",
+    "abstract_en": "Whittle-likelihood forecasting of the stochastic gravitational-wave background underpins planned mHz interferometers (LISA, Taiji, TianQin). A composite two-stage estimator, per-bin amplitude estimation then unweighted log-space template fitting, inflates the marginal-Fisher amplitude error bar on resolved-bin count by up to an order of magnitude at \\(11.5\\)-d baseline. This inflation arises from the composite implementation, not the determinant-approximate \\texttt{gauss\\_D} likelihood it approximates. Jointly maximised, \\texttt{gauss\\_D} is unbiased (\\(R=1.000\\) within \\(10^{-4}\\)) and is recommended baseline with exact-Whittle likelihood. With exact Whittle as control and \\texttt{gauss\\_D} as working model, we calibrate bias vector and mean-squared-error matrix for power-law and smooth broken-power-law templates. First, for sharp signals of a \\(32\\)-point sound-shell scan, the composite estimator inflates amplitude error bar by \\(R=10.2\\) at \\(11.5\\)-d baseline (median \\(\\simeq3\\)), follows \\(R^2-1\\propto T_{\\mathrm{seg}}^2\\) at shorter segments, and has a non-removable efficiency gap \\(\\mathbf{C}_b\\) up to \\(18\\%\\) in \\(α_{\\mathrm{out}}\\). Second, the usual single-parameter Whittle-bias diagnostic does not track multi-parameter inflation and errs both ways. Third, inflation is negligible on \\(30\\)-min segments, \\(R-1\\le1.5\\times10^{-3}\\) over measured bias-exponent range, vanishes below sensitivity floor, and tracks resolved signal strength with \\(\\mathrm{corr}[\\ln \\mathrm{SNR},\\ln(R-1)]=0.91\\). Results are frequentist; interval diagnostics transfer to flat-prior credible intervals only in the locally Gaussian regime. The calibration is a strong-signal, stationary statement transferable only to a matching noise model.",
+    "authors": [
+      "Bo-Qiang Lu"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-03T11:49:07Z",
+    "updated_at": "2026-10-03T11:49:07Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.04459v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04459v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.04459",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://arxiv.org/abs/2610.04459v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 14,
+      "methodological_rigor": 16,
+      "novelty": 9,
+      "clarity": 7,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 4
+    },
+    "total_score": 55,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "论文针对LISA、Taiji、TianQin等mHz干涉仪的随机引力波背景Whittle似然预测，系统刻画了两阶段复合估计器带来的振幅误差棒膨胀问题，并对功率律与平滑折断功率律模板进行了偏差向量与均方误差矩阵的标定。方法说明清晰、包含定量结果与适用范围限定，属于低频引力波背景探测的方法学工作，对相关研究者有参考价值。",
+    "title_zh": "面向随机引力波背景的偏差感知Fisher预测",
+    "abstract_zh": "随机引力波背景的Whittle似然预测是规划中的mHz干涉仪（LISA、Taiji、TianQin）的基础。一种复合的两阶段估计器——先进行逐频段振幅估计、再进行未加权对数空间模板拟合——在11.5天基线时，会把基于解频谱段数的边际Fisher振幅误差棒最多放大一个数量级。这种膨胀源自复合实现方式，而非它所近似的行列式近似\\texttt{gauss\\_D}似然。在联合最大化时，\\texttt{gauss\\_D}是无偏的（\\（R=1.000\\），在\\（10^{-4}\\）以内），被推荐为与精确Whittle似然配合的基线方法。以精确Whittle作为对照、\\texttt{gauss\\_D}作为工作模型，我们为功率律和平滑折断功率律模板标定了偏差向量和均方误差矩阵。第一，对于32点声壳扫描的尖锐信号，复合估计器在11.5天基线时把振幅误差棒放大到\\（R=10.2\\）（中位数\\（\\simeq3\\）），在更短的分段上遵循\\（R^2-1\\propto T_{\\mathrm{seg}}^2\\），并且在\\（α_{\\mathrm{out}}\\）中存在最高达18\\%的不可消除的效率缺口\\（\\mathbf{C}_b\\）。第二，通常的单参数Whittle偏差诊断不能追踪多参数膨胀，并且会朝两个方向出错。第三，在30分钟分段上膨胀可以忽略，在测得的偏差指数范围内\\（R-1\\le1.5\\times10^{-3}\\），低于灵敏度下限时消失，并随解信号强度变化，\\（\\mathrm{corr}[\\ln \\mathrm{SNR},\\ln(R-1)]=0.91\\）。结果是频率学派意义上的；区间诊断仅在局部高斯区域可迁移到平坦先验可信区间。该标定是一个强信号、平稳性的陈述，只能迁移到与之匹配的噪声模型。",
+    "keywords_en": [
+      "stochastic gravitational-wave background",
+      "Fisher forecast",
+      "Whittle likelihood",
+      "LISA",
+      "Taiji",
+      "TianQin",
+      "bias calibration",
+      "parameter estimation"
+    ],
+    "keywords_zh": [
+      "随机引力波背景",
+      "Fisher预测",
+      "Whittle似然",
+      "LISA",
+      "Taiji",
+      "TianQin",
+      "偏差标定",
+      "参数估计"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-06T03:10:34.843815Z"
+  },
+  "published_at": "2026-10-06T03:10:34.844296Z"
+}

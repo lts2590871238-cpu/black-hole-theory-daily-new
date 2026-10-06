@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 14,
+    "methodological_rigor": 16,
+    "novelty": 9,
+    "clarity": 7,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 4
+  },
+  "total_score": 55,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文针对LISA、Taiji、TianQin等mHz干涉仪的随机引力波背景Whittle似然预测，系统刻画了两阶段复合估计器带来的振幅误差棒膨胀问题，并对功率律与平滑折断功率律模板进行了偏差向量与均方误差矩阵的标定。方法说明清晰、包含定量结果与适用范围限定，属于低频引力波背景探测的方法学工作，对相关研究者有参考价值。",
+  "title_zh": "面向随机引力波背景的偏差感知Fisher预测",
+  "abstract_zh": "随机引力波背景的Whittle似然预测是规划中的mHz干涉仪（LISA、Taiji、TianQin）的基础。一种复合的两阶段估计器——先进行逐频段振幅估计、再进行未加权对数空间模板拟合——在11.5天基线时，会把基于解频谱段数的边际Fisher振幅误差棒最多放大一个数量级。这种膨胀源自复合实现方式，而非它所近似的行列式近似\\texttt{gauss\\_D}似然。在联合最大化时，\\texttt{gauss\\_D}是无偏的（\\（R=1.000\\），在\\（10^{-4}\\）以内），被推荐为与精确Whittle似然配合的基线方法。以精确Whittle作为对照、\\texttt{gauss\\_D}作为工作模型，我们为功率律和平滑折断功率律模板标定了偏差向量和均方误差矩阵。第一，对于32点声壳扫描的尖锐信号，复合估计器在11.5天基线时把振幅误差棒放大到\\（R=10.2\\）（中位数\\（\\simeq3\\）），在更短的分段上遵循\\（R^2-1\\propto T_{\\mathrm{seg}}^2\\），并且在\\（α_{\\mathrm{out}}\\）中存在最高达18\\%的不可消除的效率缺口\\（\\mathbf{C}_b\\）。第二，通常的单参数Whittle偏差诊断不能追踪多参数膨胀，并且会朝两个方向出错。第三，在30分钟分段上膨胀可以忽略，在测得的偏差指数范围内\\（R-1\\le1.5\\times10^{-3}\\），低于灵敏度下限时消失，并随解信号强度变化，\\（\\mathrm{corr}[\\ln \\mathrm{SNR},\\ln(R-1)]=0.91\\）。结果是频率学派意义上的；区间诊断仅在局部高斯区域可迁移到平坦先验可信区间。该标定是一个强信号、平稳性的陈述，只能迁移到与之匹配的噪声模型。",
+  "keywords_en": [
+    "stochastic gravitational-wave background",
+    "Fisher forecast",
+    "Whittle likelihood",
+    "LISA",
+    "Taiji",
+    "TianQin",
+    "bias calibration",
+    "parameter estimation"
+  ],
+  "keywords_zh": [
+    "随机引力波背景",
+    "Fisher预测",
+    "Whittle似然",
+    "LISA",
+    "Taiji",
+    "TianQin",
+    "偏差标定",
+    "参数估计"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-06T03:10:34.843815Z"
+}

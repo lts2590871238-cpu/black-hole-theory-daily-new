@@ -6,14 +6,14 @@
     "arxiv_version": null,
     "inspire_id": "3210341",
     "doi": null,
-    "title_en": "Exact $T$-counts of Toffoli layers from an isotropy bound",
-    "abstract_en": "The $T$-count is the dominant cost of fault-tolerant Clifford+$T$ computation. We prove that a layer of $m$ disjoint CCZ gates, the diagonal core of a parallel Toffoli layer, needs exactly $6m+1$$T$ gates in every Hadamard-free Clifford+$T$ circuit with clean ancillas. Campbell and Howard gave the matching construction. To our knowledge this is the first proof that it is optimal for general $m$ (for $m=1$ the value $7$ is classical, and Campbell and Howard state the value $13$ at $m=2$). On every controlled unitary the same floor comes within one of their exact count, and it recovers their $4m+3$ for a fan-out of $m$ Toffolis from one control. The proof rests on an isotropy constraint: for a pure-cubic phase, the vectors recording which $T$ gates touch each qubit span a totally isotropic subspace. In general the constraint gives the isotropy floor $δ\\ge2(n-d^{\\ast})-r$ for every diagonal level-three gate, computed from the phase polynomial in polynomial time. The floor is never below stabilizer nullity $ν$, which equals $n-d^{\\ast}$ on this class, and a separate parity argument raises it to $2ν+1$ on non-Clifford pure-cubic gates. On the output of the TODD optimizer for the $24$ benchmark circuits it completes, the floor certifies $193$ of its $311$ merged phase-polynomial blocks optimal for their Hadamard layering ($186$ to $193$ across five optimizer seeds), against $113$ for nullity. The floor also holds, under stated conditions, for circuits whose only internal Hadamards form unitarily uncomputed temporary AND blocks, while under adaptive feedforward only $t\\geν$ is proved.",
+    "title_en": "Exact $T$-counts of CCZ layers from an isotropy bound",
+    "abstract_en": "The $T$-count is a dominant cost of fault-tolerant Clifford$+T$ computation. We prove that a layer of $m$ disjoint CCZ gates, the diagonal core of a parallel Toffoli layer, needs exactly $6m+1$$T$ gates in every Hadamard-free Clifford$+T$ circuit with clean ancillas. Campbell and Howard gave the matching construction, and to our knowledge this is the first proof that it is optimal for general $m$. The proof rests on a novel isotropy bound. When a gate's phase polynomial has only cubic terms, the vectors recording which $T$ gates touch each qubit span a self-orthogonal subspace over $\\mathbb{F}_2$, and this forces the $T$-count to be at least twice its dimension. This argument gives a lower bound, computable by Gaussian elimination, on the $T$-count of every diagonal gate in the third level of the Clifford hierarchy. It is never below the stabilizer nullity $ν$ and reaches $2ν+1$ on non-Clifford cubic gates. No bound that also holds for circuits with measurement and feedforward can do this, since such circuits implement CCZ ($ν=3$) with four $T$ gates, while the floor gives seven. It also recovers Campbell and Howard's count $4m+3$ for a fan-out of Toffolis. On the output of PyZX's TODD-based optimizer, relative to its Hadamard placement, it certifies $193$ of $311$ phase-polynomial blocks $T$-optimal, against $113$ for nullity, including $37$ of the $72$ blocks too large for exhaustive search.",
     "authors": [
       "Mazumder, Arul Rhik"
     ],
     "categories": [],
     "submitted_at": "2026-10-01T00:00:00Z",
-    "updated_at": "2026-10-03T02:23:35.071222Z",
+    "updated_at": "2026-10-06T03:03:14.687003Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3210341",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
         "url": "https://inspirehep.net/literature/3210341"
       }
     ],

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03654",
+    "arxiv_id": "2610.03654",
+    "arxiv_version": null,
+    "inspire_id": "3211095",
+    "doi": null,
+    "title_en": "A Basis-Aware Approach to Quantum Sampling of the Fermi-Hubbard Ladder",
+    "abstract_en": "Sample-based quantum diagonalization can reduce the classical cost of many-body calculations by restricting diagonalization to configurations identified through quantum sampling, but its efficiency depends on how compactly the target state is represented in the sampled basis. We investigate this dependence for sample-based Krylov quantum diagonalization of the half-filled Fermi-Hubbard ladder using physically motivated one-body orbital rotations. Across position, momentum, bonding/antibonding, and leg-mode representations, the most compressible basis varies systematically with interaction strength and hopping anisotropy, with momentum sampling favored in the weakly interacting regime and geometry- or interaction-adapted representations becoming advantageous as the dominant energy scale changes. Near intermediate interaction and isotropic hopping, however, even the most favorable representation remains poorly compressible. Statevector SKQD calculations further show that basis choice strongly affects sampling efficiency. Hardware calculations on systems containing up to 120 qubits retain qualitative signatures of this basis dependence while revealing increasing particle-number leakage and reconstruction sensitivity with system size. These results show that scalable sample-based diagonalization requires co-design of the sampled representation, quantum circuit, and classical reconstruction procedure.",
+    "authors": [
+      "Leicester, Adam",
+      "Wang, Zixu",
+      "Mandell, Jack",
+      "Xu, Yangyang",
+      "Raisuddin, Osama Muhammad",
+      "Zhang, Haimeng",
+      "Shi, Jian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T10:34:33.632719Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211095",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

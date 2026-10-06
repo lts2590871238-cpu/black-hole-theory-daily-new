@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03339",
+    "arxiv_id": "2610.03339",
+    "arxiv_version": null,
+    "inspire_id": "3211171",
+    "doi": null,
+    "title_en": "Track fitting as a language translation problem",
+    "abstract_en": "Particle physics analysis depends on information retrieved from particle tracks in a detector. Traditionally, this involves collecting individual detector hits, recombining them to form tracks, and fitting them to a model function. Large Language Models (LLMs) have demonstrated remarkable proficiency in comprehending the grammar and semantics of languages. Our exploratory study leverages transformers to conceptualise particle tracking as a language translation problem, wherein the language of detectors is translated into the language of physics. A simple decoder-only architecture with a custom tokenizer was designed for this task, and the behaviour of the model in this atypical setting provided interesting insights. We evaluated the advantages of this formulation in terms of track-parameter accuracy, and the ease of representing multi-track events, and finally tested the model on real cosmic-muon data. On synthetic datasets, the model outperformed a simple regression technique by an order of magnitude in track-parameter accuracy while being on par with the random sample consensus (RANSAC) method. The model also identified multi-track events with an accuracy of 98%. The analysis of real cosmic-muon events showed an excellent agreement of the zenith angle distribution with expectations. Our results suggest that a compact language model shows competitive performance and a natural ability to represent multi-track events. Further studies with complex geometries are required to understand the full potential of this technique.",
+    "authors": [
+      "Samuel, Deepak",
+      "Koshy, Christy Elsa"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T03:31:00.779341Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211171",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211171",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211171"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

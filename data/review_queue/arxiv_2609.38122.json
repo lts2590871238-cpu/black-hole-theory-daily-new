@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2609.38122",
+    "arxiv_id": "2609.38122",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fast and Flow-rious: Gravitational Wave Background Bayesian Model Comparison using Normalizing Flows and Nested Sampling",
+    "abstract_en": "In 2023, pulsar timing array (PTA) collaborations around the world announced evidence for a nanohertz gravitational-wave background (GWB). Beyond increasing the detection significance, the next major goal is to characterize the GWB and identify its source(s). The typical model-comparison metric used in PTA analyses is the Bayes factor (BF). However, BF computation methods used in the PTA literature, such as product-space sampling and thermodynamic integration, are computationally expensive or inefficient if the models compared are dissimilar or non-nested. In this work, we introduce a PTA model-comparison method using a combination of normalizing flows, nested sampling, and a PTA likelihood that is marginalized over all non-GWB parameters. The flows are trained using a newly-developed Python package coppuccino, which learns the data's copula: the dependence structure after transforming to uniform marginals. We validate the method on both analytic targets and simulated PTA data, recovering the analytic evidence within error bars and achieving an area-under-the-curve (AUC) score of 0.996 when treating the BFs as binary classifiers of the injected models. The result is a method to perform Bayesian model comparison of arbitrary GWB spectral models in minutes on consumer hardware.",
+    "authors": [
+      "David C. Wright",
+      "Aaron D. Johnson",
+      "Jeffrey S. Hazboun",
+      "William G. Lamb"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-09-29T17:50:51Z",
+    "updated_at": "2026-09-29T17:50:51Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2609.38122v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.38122v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2609.38122",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://arxiv.org/abs/2609.38122v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "nanohertz gravitational wave",
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "nanohertz",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 70
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03377",
+    "arxiv_id": "2610.03377",
+    "arxiv_version": null,
+    "inspire_id": "3210897",
+    "doi": null,
+    "title_en": "No Size-Preserving Amplification with Quantum Advice",
+    "abstract_en": "Marriott and Watrous showed that quantum Merlin--Arthur games admit generic error reduction without increasing witness size [Computational Complexity, 2005]. In this work, we show that this state-size-preserving amplification property does not hold for polynomial-time quantum computation with quantum advice. In particular, we present decision problems for which even a vanishing additive error reduction requires longer advice. More precisely, for every polynomially bounded advice length $m(n)\\geq n^4$ and every error bound $\\varepsilon(n)$ that stays below $1/2$ by at least an inverse polynomial, there is a positive function $δ$ with $δ(n)=O\\bigl(\\min\\{(\\log m/m)^{1/4},\\ \\sqrt{\\log m/m}\\,/(1/2-\\varepsilon(n))\\}\\bigr)$ such that $\\mathsf{BQP}_{\\varepsilon}/\\mathsf{q}m \\subsetneq \\mathsf{BQP}_{\\varepsilon + δ}/\\mathsf{q}m$; for constant $\\varepsilon$ the gap is $O(\\sqrt{\\log m/m})$. Here, $\\mathsf{BQP}_\\varepsilon/\\mathsf{q}m$ is the class of languages recognizable with error at most $\\varepsilon(n)$ by a polynomial-time quantum algorithm with an $m(n)$-qubit advice state that only depends on the input length $n$. We show this by proving a stronger separation $\\mathsf{P}_{\\varepsilon+δ}/\\mathsf{r} m \\not\\subset \\mathsf{BQP}_{\\varepsilon}/\\mathsf{q} m$, where $\\mathsf{P}_{\\varepsilon}/\\mathsf{r}m$ is the class of languages recognizable with error at most $\\varepsilon(n)$ by a deterministic polynomial-time algorithm with an $m(n)$-bit advice string sampled from a distribution that depends only on $n$.",
+    "authors": [
+      "Hung, Shih-Han",
+      "Lin, Han-Hsuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T02:45:24.712544Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210897",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210897",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3210897"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

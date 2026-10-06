@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02321",
+    "arxiv_id": "2610.02321",
+    "arxiv_version": null,
+    "inspire_id": "3210937",
+    "doi": null,
+    "title_en": "Halving the cost of QROM again via dense encoding",
+    "abstract_en": "Quantum read only memory (QROM) is a substantial source of non-Clifford cost in fault-tolerant quantum algorithms. Borrowing dirty qubits can reduce this cost, provided their unknown initial states are restored. We consider the practically relevant qubit-constrained regime, where limited workspace restricts the table-block size and table loading dominates the cost. For $N$ entries of $b$ bits and approximately $bλ$ dirty qubits, SelectSwap has leading Toffoli count $2N/λ$. Recent work using sequential bit packets reduces this to $(1+1/b)N/λ$. In this work we introduce a dense encoding construction of QROM, where two bits of classical information are stored in each dirty qubit instead of one by utilizing both the $Z$ and $X$ bases. On its own, dense encoding provides a $2\\times$ improvement over SelectSwap by reducing the leading Toffoli count to $N/λ$. Combining it with sequential bit packets gives $\\tfrac12(1+1/b)N/λ$, a further halving of the sequential construction's leading cost, and an approximately $4\\times$ improvement over SelectSwap in the large-$N$ limit for practical values of $b$.",
+    "authors": [
+      "Motlagh, Danial"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-05T10:29:02.750309Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210937",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210937",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3210937"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

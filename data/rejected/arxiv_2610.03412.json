@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03412",
+    "arxiv_id": "2610.03412",
+    "arxiv_version": null,
+    "inspire_id": "3211079",
+    "doi": null,
+    "title_en": "Controlled-illumination smartphone imaging for quantitative turbidity measurement and cross-device transfer",
+    "abstract_en": "Smartphone imaging could provide a low-cost turbidity measurement method if illumination and acquisition geometry are controlled. We evaluated a 3D-printed enclosure with fixed illumination and a submerged optical target using 162 milk-based suspensions spanning 0.16--50.2 nephelometric turbidity units (NTU), with a portable turbidimeter as the reference. An EfficientNetB0 regression model evaluated using repeated five-fold grouped cross-validation achieved a mean absolute error (MAE) of 1.208 NTU and $R^2=0.9816$, indicating that predictions followed the reference measurements closely. The MAE was 0.335 NTU below 1 NTU and 0.449 NTU from 1 to below 5 NTU; classification accuracy at the operational 5-NTU threshold was 0.9753. When applied without retraining to 103 paired images from a second smartphone, prediction error remained comparable to that on the development smartphone below 10 NTU, but turbidity was increasingly underestimated at higher values. The results demonstrate the measurement performance attainable with a controlled smartphone acquisition system, quantify an important device-dependent transfer limitation, and motivate standardized multi-device acquisition and prospective natural-water validation.",
+    "authors": [
+      "Olivares, Sebastian",
+      "Castillo, Addles",
+      "Velasquez, Patricia",
+      "Arce, Roxana",
+      "Richardson, Nicolas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-05T10:52:12.329430Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211079",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211079",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211079"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

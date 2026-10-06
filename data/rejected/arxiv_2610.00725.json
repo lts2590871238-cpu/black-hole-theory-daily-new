@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.00725",
     "arxiv_id": "2610.00725",
     "arxiv_version": 1,
-    "inspire_id": "3210518",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Emulation of the Halo Mass Function with Neural Networks",
     "abstract_en": "The abundance of galaxy clusters as a function of mass --- the halo mass function (HMF) --- depends strongly on cosmological parameters. Large-scale simulations are computationally expensive, motivating emulators that interpolate simulation outputs. We present a neural network emulator that maps cosmological and astrophysical parameters, halo mass, and redshift directly to a cumulative count of halos above the input mass, avoiding the information loss inherent to binning and to the functional or PCA-based data reduction used in prior emulators. Each emulator prediction is accompanied by a self-estimated error, expressed in units of Poisson shot noise, that the network learns to predict alongside the halo count itself --- giving every output a built-in confidence metric. We validate the emulator with leave-one-out tests on three simulation suites --- the N-body MassiveNus suite and the hydrodynamical CAMELS IllustrisTNG and SIMBA suites --- spanning a range of box sizes, redshifts, sub-grid physics, and softwares. Of all the held-out predictions ($1.2\\times 10^6$ in total), 88\\% have model bias at or below shot noise and 99.9\\% are within $3\\times$ shot noise. The only significant high-error tail is in MassiveNus, where the predicted model bias flags 76\\% of predictions exceeding $3\\times$ shot noise; the remaining number of high error predictions is comparable to the number expected from shot noise alone. This emulator is publicly available and can be trained on other simulation suites making it a flexible HMF tool that can be used for cosmological and astrophysical inference.",
@@ -15,31 +15,23 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-09-30T00:00:00Z",
-    "updated_at": "2026-10-03T03:14:34.684401Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-09-30T21:16:01Z",
+    "updated_at": "2026-09-30T21:16:01Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.00725v1",
     "pdf_url": "https://arxiv.org/pdf/2610.00725v1",
-    "inspire_url": "https://inspirehep.net/literature/3210518",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.00725",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
         "url": "https://arxiv.org/abs/2610.00725v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3210518",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
-        "url": "https://inspirehep.net/literature/3210518"
       }
     ],
     "is_demo": false

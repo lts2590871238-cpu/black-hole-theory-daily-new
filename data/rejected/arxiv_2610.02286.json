@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.02286",
+    "arxiv_id": "2610.02286",
+    "arxiv_version": null,
+    "inspire_id": "3210931",
+    "doi": null,
+    "title_en": "BootLoops: an LLM-driven toolkit for exact quantitative science",
+    "abstract_en": "Much of quantitative science involves difficult mathematical computations: a Feynman integral, evidence for an evolutionary tree, or a regulatory statistic. These are often estimated by Monte Carlo or heuristic search, or computed in floating point without tracking rounding error. Exact methods often exist, but in a field far from the problem. The reduction methods of collider physics also work on a Bayesian evidence, and a regulatory threshold can be settled with interval arithmetic from numerical analysis, but few people know both fields. A large language model knows both, and every other field, and with working programs in hand it can carry a method from one to another. BootLoops is a pool of such programs: integral reduction, differential equations and high-precision evaluation from particle physics, integer-relation fitting from experimental mathematics, exact enumeration, and ball arithmetic, in one toolkit that any agentic large language model can operate and extend. These tools can compute multi-loop Feynman integrals by bootstrap methods rather than direct integration, across the function classes that arise, including polylogarithms, elliptic functions, and periods of K3 surfaces and Calabi-Yau manifolds. They can also evaluate Bayesian evidence integrals as exact rational numbers, enumerate finite configuration spaces with proof of completeness, show when a sought closed form cannot exist, and redo floating-point calculations with guaranteed digits. In practice this brings the tools of mathematics, computer science and physics to problems in genomics, statistics, ecology and other fields. The toolkit and its documentation are at https://bootloops.ai.",
+    "authors": [
+      "Schwartz, Matthew D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-05T03:25:59.366572Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210931",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3210931",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3210931"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

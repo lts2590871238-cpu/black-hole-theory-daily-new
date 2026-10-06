@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.3389/frai.2026.1900887",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3211297",
+    "doi": "10.3389/frai.2026.1900887",
+    "title_en": "Enhancing vehicle routing problem through a qubit-efficient Symmetric Arc Reduction using Quantum Approximate Optimization Algorithm",
+    "abstract_en": "<jats:sec> <jats:title>Introduction</jats:title> Finding the most efficient routes for a fleet of delivery vehicles remains a critical and costly challenge for nearly any logistics business. This core idea is known as the Vehicle Routing Problem (VRP). The primary goal is to minimize operational costs, such as the total travel distance or the number of trucks deployed, while ensuring all the customers are served. Because VRP is NP-hard, finding a perfect solution is often impossible, forcing industries to rely on classical approximate algorithms. However, quantum variational algorithms offer a new paradigm by iteratively optimizing parameters to navigate the solution space, presenting a new and promising avenue for finding better and faster solutions. </jats:sec> <jats:sec> <jats:title>Methods</jats:title> In this paper, we introduce Symmetric Arc Reduction in Quantum Approximate Optimization Algorithm (SAR-QAOA), which systematically eliminates redundant symmetric routing variables in the binary integer programming formulation prior to the Quadratic Unconstrained Binary Optimization (QUBO) formulation. The proposed SAR-QAOA encodes edge-based VRP while reducing the qubit requirement from <jats:italic>n</jats:italic> ( <jats:italic>n</jats:italic> −1) to <jats:italic>n</jats:italic> ( <jats:italic>n</jats:italic> −1)/2, thereby improving the resource efficiency of the QUBO formulation by prioritizing regions of the solution space that are more likely to contain high-quality solutions; SAR enhances both search accuracy and computational efficiency. </jats:sec> <jats:sec> <jats:title>Results</jats:title> Experimental results on noiseless quantum simulators validate the feasibility of the proposed formulation and its integration with the QAOA framework, providing a promising foundation for future investigations on larger routing problems and evolving quantum hardware. </jats:sec>",
+    "authors": [
+      "A, Jayaraja",
+      "U, Senthil Kumaran"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-05T13:18:52.349512Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "9, 1900887, 2026, {'$ref': 'https://inspirehep.net/api/journals/2015717'}, Front.Artif.Intell."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211297",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211297",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3211297"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

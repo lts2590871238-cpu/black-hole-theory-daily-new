@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04731",
+    "arxiv_id": "2610.04731",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Sum-of-squares compilation of matrix-model dynamics for NISQ and fault-tolerant hardware",
+    "abstract_en": "The SU$(N)$ matrix-model potential $V=-\\tfrac{g^2}{4}\\sum_{I,J}Tr[X_I,X_J]^2$, the interaction of the BFSS/BMN family, whose thermal large-$N$ states are dual to black holes, is diagonal in the coordinate basis and is compiled in the literature as a phase polynomial with $O(d^2N^4Q^4)$ rotations per Trotter step. That cost is close to optimal for its gate class: we show that for a generic Trotter step the Walsh support $m_{\\min}$ lower-bounds both the rotation count and the two-qubit count of every circuit over $\\{CNOT,CZ,CPhase,R_{ZZ},SWAP,X,R_z\\}$, ancillas included, and we build a parity network attaining $1.01$--$1.10\\,m_{\\min}$. Improvement therefore requires a gate outside that class, and the exact factorisation of $V$ into a sum of squared commutator entries supplies one in each era. For NISQ, Hadamard: each squared entry is added into a Fourier register and squared there, $Θ(d^2N^3Q^3)$ two-qubit gates. For fault tolerance, $T$: reversible arithmetic with one phase-gradient injection per squared entry, $Θ(d^2N^3Q^2)$ T gates and no arbitrary-angle rotation. Both are built and verified. With a native $R_{ZZ}$ the NISQ circuit uses fewer two-qubit gates than every parity network from $Q=6$ at SU(2) and $Q=2$ at SU(5); the oracle beats a precision-matched Hamming-weight-phasing incumbent at every point built except the smallest, by up to $11.9\\times$ in T count and, at equal width, $25.5\\times$ in surface-code spacetime. An ablation with the same arithmetic but no factorisation costs up to $21\\times$ more and loses to that incumbent at $15$ of $17$ points, so the factorisation, not the arithmetic, produces the win. Both constructions survive the supersymmetric deformation to mini-BMN with fermions, and complete Trotter evolutions on a statevector simulator reproduce the exact product formula to $2\\times10^{-12}$.",
+    "authors": [
+      "Ayanendu Dutta",
+      "Nabanita Sarkar"
+    ],
+    "categories": [
+      "quant-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-10-03T19:43:26Z",
+    "updated_at": "2026-10-03T19:43:26Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.04731v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04731v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.04731",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://arxiv.org/abs/2610.04731v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

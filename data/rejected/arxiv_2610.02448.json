@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.02448",
     "arxiv_id": "2610.02448",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3210981",
     "doi": null,
     "title_en": "Learning Approximate Isometric Embeddings for Efficient Template Placement",
     "abstract_en": "The sphere covering problem has broad applications in science however, exact solutions are computationally infeasible on curved, high-dimensional manifolds because distances must be evaluated using a position-dependent metric. We present $\\texttt{isobank}$, a normalizing flow that learns an approximately isometric coordinate transformation, such that Euclidean distances in the latent space approximate metric-induced proper distances in the physical parameter space. This enables template placement using Euclidean distance checks in the latent space, avoiding repeated metric evaluations during placement. We evaluate $\\texttt{isobank}$ in the context of gravitational wave template bank construction, where the sphere covering problem corresponds to the template placement problem. On a five-dimensional eccentric binary parameter space, $\\texttt{isobank}$ reaches 97\\% coverage at a maximum mismatch of $μ=0.03$ with 23\\% fewer templates than the state-of-the-art stochastic placement code $\\texttt{mbank}$, which reaches 94\\% coverage. Coverage is measured on independent injections drawn uniformly over the masses, spins and eccentricity, using the exact waveform match rather than the metric approximation. Training the flow takes about 2.5h and placing the bank under 1h on 32 CPU cores. $\\texttt{isobank}$ is publicly available on Github https://github.com/Alexandra-Wernersson/isobank",
@@ -19,23 +19,31 @@
       "astro-ph.HE",
       "gr-qc"
     ],
-    "submitted_at": "2026-10-01T20:15:50Z",
-    "updated_at": "2026-10-01T20:15:50Z",
-    "document_types": [],
+    "submitted_at": "2026-10-01T00:00:00Z",
+    "updated_at": "2026-10-05T10:41:17.561768Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.02448v1",
     "pdf_url": "https://arxiv.org/pdf/2610.02448v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3210981",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.02448",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
         "url": "https://arxiv.org/abs/2610.02448v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3210981",
+        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "url": "https://inspirehep.net/literature/3210981"
       }
     ],
     "is_demo": false
