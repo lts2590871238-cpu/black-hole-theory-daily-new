@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05128",
+    "arxiv_id": "2610.05128",
+    "arxiv_version": null,
+    "inspire_id": "3211370",
+    "doi": null,
+    "title_en": "Training Variational Quantum Algorithms Is NP-Hard, Even Locally",
+    "abstract_en": "Variational quantum algorithms (VQAs) generally rely on classical optimization to train parameterized quantum circuits. This training seeks to minimize an objective function, and its efficiency is central to the practical success of these algorithms. However, globally minimizing such training objectives over the circuit parameters is known to be $\\mathsf{NP}$-hard, limiting the prospect of general guarantees for efficient training. In this Letter, we prove that even the weaker task of finding a local minimum of such VQA training objectives is strongly $\\mathsf{NP}$-hard, including when the objective admits efficient classical evaluation. Moreover, we show that this hardness persists even for the task of finding a parameter vector within $\\ell_p$-distance strictly less than $π/2$ of some local minimizer, for every $p\\geq 1$. Our central technical result is that approximating a local minimizer of a Hermitian trigonometric polynomial is strongly $\\mathsf{NP}$-hard. By explicitly constructing quantum circuits whose training objectives reproduce these hard instances, we obtain a polynomial-time reduction to VQA training. Our results establish a fundamental computational barrier to variational quantum training: even reaching the vicinity of a local minimum remains hard in the worst case.",
+    "authors": [
+      "Koh, Dax Enshan",
+      "Mundo, Triscia",
+      "Sakos, Iosif",
+      "Varvitsiotis, Antonios"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:32.459586Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211370",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211370",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211370"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

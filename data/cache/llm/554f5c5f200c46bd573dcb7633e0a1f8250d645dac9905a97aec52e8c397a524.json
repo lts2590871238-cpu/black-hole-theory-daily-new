@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 16,
+    "novelty": 13,
+    "clarity": 8,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 74,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文研究Kerr时空引力扰动（自旋权重s=2）的伪谱，属于广义相对论基础与黑洞准正规模谱稳定性范畴，理论深度高，方法（超曲面框架、Chebyshev配点、Teukolsky-Starobinsky恒等式构造H^2能量范数）具有实质技术含量，且给出s=+2与s=-2同谱但不同伪谱等新颖结果，值得进一步阅读。",
+  "title_zh": "Kerr时空中引力扰动的伪谱",
+  "abstract_zh": "我们研究Kerr黑洞在自旋权重$s=2$的引力扰动下的伪谱，这是引力波天文学中最受关注的情形。在超曲面框架下，采用二维Chebyshev配点法，我们将准正规模问题表述为非自伴本征值问题。对于$s\\neq0$，场$\\Psi^{(s)}$与$\\Psi^{(-s)}$相互独立，因此守恒流方法无法给出单场能量范数。我们借助Teukolsky--Starobinsky恒等式克服这一困难，该恒等式将$\\Psi^{(-2)}$与作用于$\\Psi^{(2)}$的四阶算子联系起来，并在对称化后给出一个$H^2$能量范数。由于$s=0$的$H^1$范数已知，这提示了$H^{|s|}$的模式，并在$s=0$和$s=2$得到验证。所有结果均使用一个与$\\omega$无关的双场层级结构。我们发现，在$L^2\\to H^1\\to H^2$的每一步，伪谱收紧$1.1$到$3.5$个数量级，但在每种范数下仍然很大。$s=+2$与$s=-2$的算子同谱但不同伪谱：在十四个探针中的十二个上，$\\psi_0$预解式在$H^2$范数下超过$\\psi_4$预解式$0.19$到$0.82$个数量级，而在沿QNM线最远的两个探针上，次序反转$0.18$到$0.19$个数量级。引力伪谱在窗口最小值处超过标量伪谱$0.5$到$5.2$个数量级，并在$\\omega M=0.47-0.17\\,i$处在$L^2$范数下超过$5.9$个数量级，而沿阻尼方向，$s=2$预解式是非单调的，$s=0$预解式则是光滑的。因此，QNM谱不稳定性是Kerr的普遍特征，并且对引力扰动而言更强。",
+  "keywords_en": [
+    "pseudospectrum",
+    "Kerr spacetime",
+    "quasinormal modes",
+    "gravitational perturbations",
+    "spectral instability",
+    "Teukolsky-Starobinsky identities"
+  ],
+  "keywords_zh": [
+    "伪谱",
+    "Kerr时空",
+    "准正规模",
+    "引力扰动",
+    "谱不稳定性",
+    "Teukolsky-Starobinsky恒等式"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-07T02:31:46.320562Z"
+}

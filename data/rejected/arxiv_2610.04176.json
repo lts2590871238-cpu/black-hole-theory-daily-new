@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04176",
+    "arxiv_id": "2610.04176",
+    "arxiv_version": null,
+    "inspire_id": "3211492",
+    "doi": null,
+    "title_en": "Parallelizing Dissipative Quantum Algorithms",
+    "abstract_en": "Inspired by classical Markov Chain Monte Carlo (MCMC) methods, dissipative quantum algorithms are an emerging class of methods for preparing quantum states on a quantum computer. They operate by simulating a dissipative process governed by a mathematical operator known as the Lindbladian. The performance of these algorithms can be limited by the sequential implementation of the Lindbladian's constituent jump operators, which leads to high circuit depth. To address this issue, this work analyzes a parallelization scheme to implement jump operators simultaneously. We leverage the structure of geometric locality to show that individual jump operators remain spatially localized. This exponentially reduces the circuit depth per time step, resulting in an overall polynomial improvement. Numerical experiments demonstrate a 53x reduction in query depth for a 1D benchmark system of 100 qubits. The reduced circuit depth makes dissipative algorithms more practical for near-term quantum computing.",
+    "authors": [
+      "Hor, Sudatta",
+      "Wiebe, Nathan",
+      "Ding, Yongshan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:21.285147Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211492",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211492",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211492"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

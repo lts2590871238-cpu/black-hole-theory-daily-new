@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04908",
+    "arxiv_id": "2610.04908",
+    "arxiv_version": null,
+    "inspire_id": "3211625",
+    "doi": null,
+    "title_en": "Custom Penalty QAOA via Walsh-Hadamard Transform",
+    "abstract_en": "Inequality constraints in combinatorial optimization are conventionally handled by introducing slack variables and quadratic penalties, which increase the qubit count and distort the optimization landscape. Slack-free formulations instead apply a nonlinear custom penalty function directly to the constraint, which are difficult to be implemented in quantum approximate optimization algorithm (QAOA). We show that the Walsh--Hadamard transform (WHT) removes this obstruction for any penalty function: a penalty applied to a linear constraint is exactly a weighted sum of Pauli-$Z$ strings. We propose this framework as the Walsh custom penalty QAOA (WCP-QAOA). Truncating the expansion at Walsh degree $k$ costs $\\mathcal{O}(n^k)$ Pauli terms and leaves the qubit count untouched. The truncation is the optimal degree-$k$ approximation of the penalty in $L^2$, and we give a condition on the discarded Walsh coefficients under which the truncated Hamiltonian still ranks every feasible solution below every infeasible one. Since evaluating a Walsh coefficient from its definition requires all $2^n$ penalty values, we give an algorithm that returns any coefficient in sub-exponential time, so that the degree-$k$ Hamiltonian is obtained in time polynomial in $n$ for fixed $k$. We show that for the exponential penalty, there exists a closed product form of WHT, and hence a closed form expression to calculate the Walsh coefficients. We identify structural shortcuts that shorten the exact spectrum. We also tested WCP-QAOA in solving a 6-qubit knapsack problem.",
+    "authors": [
+      "LEE, Xin Wei",
+      "GOH, Siong Thye",
+      "LAU, Hoong Chuin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:53.833417Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211625",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211625",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211625"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

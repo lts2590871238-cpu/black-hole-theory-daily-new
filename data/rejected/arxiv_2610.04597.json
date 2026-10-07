@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04597",
+    "arxiv_id": "2610.04597",
+    "arxiv_version": null,
+    "inspire_id": "3211515",
+    "doi": null,
+    "title_en": "Efficient Quantum State Identity Testing",
+    "abstract_en": "We study the following quantum state identity problem: given access to copies of $n$ unknown pure quantum states, the goal is to determine whether every pair has fidelity at least $1-\\varepsilon$ or some pair has fidelity at most $\\varepsilon$. This problem relaxes the identical-or-orthogonal promise considered in previous work. For any fixed overlap parameter $\\varepsilon\\in(0,1/4)$, we present two quantum algorithms with complementary guarantees on circuit depth and sample complexity. The first runs in constant depth using parallel swap tests and takes $O(\\log(n/δ)\\log(2/δ))$ copies of each input state to succeed with probability at least $1-δ$. The second uses the Schur transform to reduce the sample complexity to $O(\\log(n/δ))$, through an analysis relating Jucys--Murphy elements to Schur sampling. We also prove a matching sample complexity lower bound of $Ω(\\log(n/δ))$ for any quantum algorithm with failure probability at most $δ\\le 1/2-c$, for any constant $c>0$, establishing that the second algorithm achieves the optimal dependence on both $n$ and $δ$ for fixed $\\varepsilon$.",
+    "authors": [
+      "Hung, Shih-Han",
+      "Tsai, Ming-Hsien"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-06T11:27:16.859442Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211515",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211515",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211515"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03893",
+    "arxiv_id": "2610.03893",
+    "arxiv_version": null,
+    "inspire_id": "3211448",
+    "doi": null,
+    "title_en": "Efficient Quantum Monte Carlo through Cluster Expansions",
+    "abstract_en": "The sign problem remains a major obstacle to extending the success of Monte Carlo methods to generic quantum many-body systems. A powerful alternative relies on cluster expansions, which provide convergent representations of free energies and related quantities, with applications ranging from tensor network contractions to quantum dynamics and circuits. Within their convergence regime, these expansions often yield deterministic polynomial-time algorithms. However, such methods require exhaustive enumeration of connected clusters, leading to a computational overhead of $(N\\varepsilon^{-1})^{\\mathcal{O}(\\logΔ)}$, where $N$ is the system size, $\\varepsilon$ the desired precision, and $Δ$ the interaction-graph degree. This becomes particularly severe in long-range systems, where $Δ\\equiv N$, resulting in quasi-polynomial runtimes. Here, we introduce a Markov chain algorithm that samples cluster expansions directly in the space of connected clusters, replacing deterministic enumeration by Monte Carlo sampling. Because sampling occurs in an abstract cluster space rather than a physical configuration space, the conventional exponential sign problem is absent within the convergence regime. For general polymer models, we establish an FPRAS with runtime $\\tilde{\\mathcal{O}}(N^4\\varepsilon^{-3})$. For quantum partition functions at temperatures $β\\leqβ_{\\mathrm{sampling}}\\equiv\\mathcal{O}(1)$, this improves to $\\tilde{\\mathcal{O}}(N^{3+1/D}\\varepsilon^{-3})$, where $D$ is the lattice dimension. The framework directly applies to long-range quantum systems with interactions $\\propto1/r^α$, including $2$-local models with $α>2D$.",
+    "authors": [
+      "Sánchez-Segovia, Jorge",
+      "Alhambra, Álvaro M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T11:41:23.893787Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211448",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211448",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211448"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

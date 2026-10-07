@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04560",
+    "arxiv_id": "2610.04560",
+    "arxiv_version": null,
+    "inspire_id": "3211364",
+    "doi": null,
+    "title_en": "Quantum Submodular Maximization",
+    "abstract_en": "We study the quantum query complexity of maximizing a non-negative submodular function, considering both the unconstrained setting and, for monotone functions, a cardinality constraint $k$ on an $n$-element ground set. In the exact reversible digital value-oracle model, our unconstrained algorithm achieves an expected $(1/2-\\varepsilon)$-approximation using only $O_\\varepsilon(\\log n)$ queries. In contrast, any classical randomized algorithm that attains a fixed expected ratio above $1/4$ requires $Ω(n/\\log n)$ queries (Li, Feldman, Kazemi, and Karbasi, 2022), establishing an exponential separation in query complexity. For cardinality-constrained maximization, we give a bounded-error quantum algorithm that achieves a $(1-1/e-\\varepsilon)$-approximation using $\\widetilde O_\\varepsilon(\\min\\{\\sqrt n,n/k\\})$ queries. When $k=o(n)$, our algorithm achieves at least a quadratic speedup up to logarithmic factors over classical randomized algorithms (Mirzasoleiman, Badanidiyuru, Karbasi, Vondrák, and Krause, 2015; Peng and Rubinstein, 2025). Moreover, when $k=cn$ for any fixed rational $c<1-1/e-\\varepsilon$, the query complexity reduces to $O_{\\varepsilon,c}(\\log n)$, yielding an exponential separation from the classical $Ω(n/\\log n)$ lower bound (Li, Feldman, Kazemi, and Karbasi, 2022). We further prove quantum lower bounds of $\\exp(Ω(\\varepsilon^2n))$ queries for achieving a ratio beyond $1/2+\\varepsilon$ without constraints, and $\\exp(Ω(\\varepsilon^2k))$ queries for exceeding $1-1/e+\\varepsilon$ when $k/n\\le\\varepsilon$. These barriers demonstrate that quantum computation offers no exponential speedup at these approximation thresholds.",
+    "authors": [
+      "Jiang, Yonggang",
+      "Sun, Xiaoming",
+      "Yao, Penghui",
+      "Ye, Zekun",
+      "Zhang, Jialin",
+      "Zhang, Zhijie"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-07T02:28:29.584779Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211364",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211364",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211364"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

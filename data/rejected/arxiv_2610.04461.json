@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04461",
+    "arxiv_id": "2610.04461",
+    "arxiv_version": null,
+    "inspire_id": "3211748",
+    "doi": null,
+    "title_en": "Noise-Resilient Testing of Quantum Programs Based on Output Dominance",
+    "abstract_en": "Quantum software testing (QST) is a central quality-assurance activity for checking whether quantum programs conform to their specifications. In the noisy intermediate-scale quantum (NISQ) era, gate, decoherence, and measurement errors distort observed outputs, making it difficult to distinguish program defects from noise. The existing noise-aware QST literature typically mitigates or models noise before applying a test oracle. However, these strategies can incur substantial cost and depend on calibration data, model training, or backend-specific information, limiting their applicability. We present Qomino, a dominance-guided QST approach for judging tests from noisy samples without a separate noise-estimation or mitigation phase. The approach combines decomposition-aware inverse construction, comparison of the expected outcome with the strongest observed competitor, and bounded retries for inconclusive decisions. We evaluate Qomino on 30 controlled buggy variants from six Qiskit programs and six simulated noisy backends, comparing it with six baselines spanning statistical, quantum-specific, and learning-based methods. Qomino achieves 85.65% accuracy over all six programs and 99.95% in the restricted two-program evaluation, significantly outperforming the corresponding baselines. Across the evaluated programs and backends under the stated settings, Qomino is faster than the compared quantum-specific and learning-based methods. Ablation and retry analyses support the contributions of its main components.",
+    "authors": [
+      "Li, Yuechen",
+      "Yang, Yige",
+      "Yue, Tao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-07T02:27:57.063620Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211748",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211748",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211748"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

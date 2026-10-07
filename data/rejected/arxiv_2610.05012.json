@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05012",
+    "arxiv_id": "2610.05012",
+    "arxiv_version": null,
+    "inspire_id": "3211746",
+    "doi": null,
+    "title_en": "Decompiling Quantum Assembly into Structured Programs",
+    "abstract_en": "Quantum compilers translate programs into native gates, insert SWAP gates to route interactions onto a device, and optimize the result. The output is quantum assembly, a flat gate list that hides the algorithm's structure (QFT, Grover iteration, QAOA layers). Understanding, auditing, porting, or reusing such assembly requires recovering a program that exposes this structure. We present Quelle, a decompiler that recovers structured programs (library calls, loops, functions, symbolic angles) from routed and optimized quantum assembly (OpenQASM) and checks every output for equivalence with its input. Quelle is built on one invariant: every step is either an exact rewrite, checked where it is applied, or a hypothesis, checked against the input before use. It first lifts the assembly into a circuit by removing compilation artifacts, notably un-routing, which recovers the SWAPs that routing inserted, including those merged into other gates. It then recovers algorithm templates (sketches) whose parameters are solved from quantities preserved by compilation, and, for algorithms without a template, library calls and loops by anti-unification. Failed hypotheses are rejected; the corresponding operations remain in gate-level form. On 816 assembly programs from 22 algorithm families and a random-circuit control, compiled at four routing and optimization levels with native two-qubit gates CX, ECR, or CZ, Quelle's output is equivalent to the input for 100% of the inputs, and it fully decompiles 94% of them; compared on the same inputs, it fully decompiles 1.7x as many as the best LLM-based decompiler, which spends 15K tokens per input. On nine algorithm families for which it has no template, the structure it recovers without templates explains 60% of the gates. It checks inputs of up to 2.3 million gates and emits no inequivalent output on 237 real-world QASMBench assembly files.",
+    "authors": [
+      "Ma, Pingchuan",
+      "Xue, Zhantong",
+      "Li, Zongjie",
+      "Zhang, Qixin",
+      "Du, Yuxuan",
+      "Wang, Zhaoyu",
+      "Zhou, Yuguang",
+      "Wang, Shuai",
+      "Zhang, Xiaoqin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T15:58:54.201488Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211746",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211746",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211746"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

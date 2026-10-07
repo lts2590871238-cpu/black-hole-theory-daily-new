@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05635",
+    "arxiv_id": "2610.05635",
+    "arxiv_version": null,
+    "inspire_id": "3211651",
+    "doi": null,
+    "title_en": "Reveal normal form structure for nonlinear map in accelerator beam physics with symplectic neural network",
+    "abstract_en": "Long-term multi-turn tracking is required to study nonlinear phenomena in circular accelerators, such as resonances, chaotic motion, and the dynamic aperture. General-purpose neural networks do not preserve the symplectic structure of Hamiltonian dynamics, so their errors can grow over many turns. Symplectic neural networks (SympNets) guarantee symplecticity through their architecture rather than through a loss penalty. In this work, we use a SympNet to learn the normal-form transformation of a nonlinear map from tracking data. In the learned coordinates, the dynamics become a rotation of each mode, whose amplitude-dependent phase advance is given by a second network. We demonstrate the method on a four-dimensional McMillan-type map. The model reproduces the one-turn dynamics, the learned phase advances stay constant along each trajectory to within $\\sim 10^{-5}$~rad, and orbits become close to circles in the learned coordinates at small and moderate amplitude. At large amplitude the learned orbits spread noticeably, and the cause of this degradation is not yet established. The approach is a step toward fast, structure-preserving surrogate models for lattice analysis and online beam-dynamics applications in storage rings.",
+    "authors": [
+      "He, Leo",
+      "Hao, Yue"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-06T11:54:01.075045Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211651",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211651",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211651"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

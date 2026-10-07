@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04359",
+    "arxiv_id": "2610.04359",
+    "arxiv_version": null,
+    "inspire_id": "3211353",
+    "doi": null,
+    "title_en": "A Cheat-Sensitive Primitive for Destination-Private Quantum Routing",
+    "abstract_en": "Quantum networks will rely on intermediate nodes to distribute entanglement, but the same nodes may learn which users are being connected. We introduce a minimal two-call routing primitive in which a user, Alice, establishes an entangled link with one of several clients while testing whether the provider, Bob, has disturbed a coherently encoded request. The construction adapts the hidden-order mechanism of quantum private queries: one call contains a direct request, the other a coherent superposition of the desired and null addresses, and Alice keeps their order secret. A private matching qubit held by the selected client restores the coherent test state after a favorable Bell-measurement outcome, so that Alice can test the returned query without any further operation by Bob. The claim is deliberately limited. The protocol shows that a routing request can carry a physical cheating test, and it detects an explicit destination-reading attack with nonzero probability. It does not yet provide a quantitative information-disturbance tradeoff, composable security, or certification of an unmeasured output against arbitrary attacks. We also characterize the exact perfect-pass limit, in which Bob's residual state, averaged over the private matching states, is independent of the destination.",
+    "authors": [
+      "Oliviero, S.F.E.",
+      "Onofri, S.",
+      "Giovannetti, V."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-07T02:27:08.257908Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211353",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211353",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211353"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

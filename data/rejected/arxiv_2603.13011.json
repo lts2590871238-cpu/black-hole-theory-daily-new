@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.13011",
+    "arxiv_id": "2603.13011",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Simulation-based inference from the Lyman-alpha forest 1D power spectrum with CAMELS",
+    "abstract_en": "We perform for the first time full simulation-based inference on the Lyman-$α$ forest 1D power spectrum. In particular, we consider the prediction of the Lyman-$α$ forest $P_{\\rm 1D}(k)$ at $2.0<z<3.5$ from the CAMELS cosmological hydrodynamic simulations run with the IllustrisTNG and SIMBA galaxy formation models. We train a normalizing flow to perform neural posterior estimation of two cosmological parameters ($Ω_m$ and $σ_8$) and four astrophysical parameters parametrizing supernova and AGN feedback. When training and testing the neural network on the same baryon physics model, the posterior distributions of the cosmological parameters are found to be in excellent agreement with the true parameters values (within $10\\%$ deviations in $\\gtrsim 75\\%$ and $\\gtrsim 90\\%$ of the cases for $Ω_m$ and $σ_8$, and a precision better than $10\\%$ in both), while the astrophysical parameters converge to the prior mean due to the limited probed volume. When training on one model and testing on the other (e.g., training on IllustrisTNG and testing on SIMBA, or viceversa), the performance is significantly worse, both in accuracy and in precision, resulting in a $\\sim 10\\%$ positive bias on the predicted values for $σ_8$. We show that a multi-domain training based on the combination of simulations from both models recovers unbiased constraints, offering an effective solution to cope with the complex problem of the lack of convergence in the predictions from different galaxy formation models. This study represents a promising way forward to constrain cosmology and fundamental physics with the Lyman-$α$ forest with artificial intelligence.",
+    "authors": [
+      "Francesco Sinigaglia",
+      "Patricia Iglesias-Navarro",
+      "Matteo Viel"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-03-13T14:17:40Z",
+    "updated_at": "2026-10-06T12:49:20Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.13011v3",
+    "pdf_url": "https://arxiv.org/pdf/2603.13011v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.13011",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2603.13011v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

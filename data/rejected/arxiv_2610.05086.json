@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05086",
+    "arxiv_id": "2610.05086",
+    "arxiv_version": null,
+    "inspire_id": "3211565",
+    "doi": null,
+    "title_en": "JAQSI: Just Another Quantum Simulator",
+    "abstract_en": "Classical simulation supports the development and validation of quantum algorithms through full-state inspection, controlled noise models and backpropagation, albeit for small quantum systems. Existing frameworks offer gate-level execution, differentiable pulse-level dynamics or optimised hardware execution. Just another quantum simulator (JAQSI) combines gate- and pulse-level simulation in one differentiable circuit model built upon JAX. Circuits are represented as pure functions of numerical inputs which support vectorised batches and JIT compilation. Within a single circuit, matrix-defined operations, gates synthesised from Hamiltonian time evolution and noise channels can be composed freely. For a fast simulation, gate and channel fusion reduces passes over the state, while adjoint differentiation computes expectation-value gradients with a constant number of statevectors. At pulse level, JAQSI reduces evolution under single-term Hamiltonians to a scalar pulse-area integral and reuses cached execution plans and compiled solvers. In a benchmark we compare JAQSI with PennyLane, Qiskit, Qibo, Qulacs, QuTiP and dynamiqs. At gate level, we observe performance either on par or an order of magnitude faster across statevector, density, noise and gradient simulation than the compared simulators up to 12 qubits. Beyond 18 qubits, JAQSI is on par with PennyLane Lightning in both statevector and gradient simulation. In the statevector and noisy density-matrix pulse benchmarks, it is at least 5 times faster than the other simulators, even with its closed-form solve disabled. Disabling the latter increases its runtime by at most a factor of 1.5. We provide JAQSI as open-source software on GitHub and PyPI.",
+    "authors": [
+      "Strobl, Melvin",
+      "Franz, Maja",
+      "Scheller, Lukas",
+      "Kuehn, Eileen",
+      "Mauerer, Wolfgang",
+      "Streit, Achim"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:32.087456Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211565",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211565",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211565"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

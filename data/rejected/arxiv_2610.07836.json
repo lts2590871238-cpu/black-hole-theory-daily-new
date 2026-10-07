@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07836",
+    "arxiv_id": "2610.07836",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Graph Attention Network Framework for Simultaneous Prediction of Galaxy and Dark Matter Halo Properties in GAMA DR4",
+    "abstract_en": "We develop a graph-based deep learning model, GAMANet, to predict galaxy and halo properties using the GAMA DR4 dataset. Multiple catalogues are combined to construct a unified sample of 19,469 galaxies and derive a set of photometric, spectroscopic, morphological, and environmental features. The galaxy sample is represented as a graph, with galaxies as nodes and physically motivated connections based on spatial proximity and group membership as edges. A Graph Attention Network with GATv2 layers is then used to learn information from the galaxy neighbourhood while assigning different weights to neighbouring galaxies. The model simultaneously predicts halo mass, stellar mass, and a specific star formation rate proxy. On the test set, GAMANet achieves $R^2 = 0.958$, $0.985$, and $0.982$ for halo mass, stellar mass, and SSFR proxy, respectively, with an RMSE of $0.237$ dex for halo mass. These results demonstrate that graph-based learning can extract useful information about galaxy and halo properties directly from observational data while incorporating the environmental relationships encoded in the galaxy graph.",
+    "authors": [
+      "Sandeep Aashish",
+      "Abhay V Hegde",
+      "Aditya Prakash Gupta",
+      "Ashmit Verma",
+      "Md Saif",
+      "Nishanth Kumaran",
+      "Shivang Rayat"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-06T06:38:54Z",
+    "updated_at": "2026-10-06T06:38:54Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.07836v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.07836v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.07836",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2610.07836v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

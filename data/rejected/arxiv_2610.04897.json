@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04897",
+    "arxiv_id": "2610.04897",
+    "arxiv_version": null,
+    "inspire_id": "3211373",
+    "doi": null,
+    "title_en": "WLPA: A Network Management Framework for Allocating Scarce Quantum-Safe Link Postures under Weakest-Link Exposure",
+    "abstract_en": "Network operators migrating distributed systems to post-quantum and quantum-safe cryptography face a resource-management problem: quantum key distribution (QKD) gives the strongest guarantee available but is hardware-scarce and costly, so only a fraction of a deployment's links can receive it. Default practice -- ranking links by traffic or centrality and upgrading the top scorers -- optimizes each link in isolation, while a distributed job's real security is set by whichever active link ends up weakest. We present WLPA (Weakest-Link Posture Assignment), an implementation-ready decision framework and algorithm for allocating scarce quantum-safe postures under hardware, latency, and compliance constraints. WLPA computes the optimal weakest-link posture in closed form and returns an assignment in O(|E| log |E|) time -- 125 ms for a 20,000-link network on a laptop -- with a breach-aware refinement matching an exact integer program under common conditions. Our central contribution is a dichotomy telling operators exactly when existing per-link heuristics already match this optimum and when they systematically fail: under constant upgrade cost and uniform traffic-driven risk the two coincide exactly; once costs vary or an adversary concentrates on weak targets, heuristics leave the weakest link unprotected, unboundedly. We validate WLPA across 19 experiments: four microservice topologies, a real enterprise network (SNAP email-Eu-core), a post-quantum latency benchmark, a Qiskit BB84 simulation and a real-hardware BB84 run on IBM's ibm_marrakesh processor, checks against real production traffic traces, a CVE-calibrated correlated-compromise study, Bayesian uncertainty quantification, and seven baseline methods. A concrete-security reduction grounds the framework as theoretical foundation, not primary contribution.",
+    "authors": [
+      "Gupta, Bhanwar",
+      "Rana, Sanjeev"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T11:27:21.292388Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211373",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211373",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211373"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

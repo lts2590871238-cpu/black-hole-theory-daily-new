@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04543",
+    "arxiv_id": "2610.04543",
+    "arxiv_version": null,
+    "inspire_id": "3211747",
+    "doi": null,
+    "title_en": "Quantum Machine Learning Protection of Military Quantum Key Distribution Against Cryptographically Camouflaged Attacks",
+    "abstract_en": "Quantum key distribution proves its protocol secure and says nothing about the hardware beneath it, so military and government operators fielding it for command-and-control keys monitor the channel for implementation attacks, and that monitoring has a blind spot. An adversary with a kleptographic foothold in the generator of a public per-block value \\(x=g^v \\pmod p\\) can hide attacked blocks in honest noise, gating them on a predicate of its discrete logarithm, making detection a discrete logarithm problem that defeats every efficient classical monitor yet yields to a quantum kernel recovering \\(v\\) through Shor's algorithm. I formalise these cryptographically camouflaged attacks, reduce their hardness to an established learning separation, prove a single-frequency fidelity kernel cannot represent an interval predicate, and test them on Ghillie, a decoy-state BB84 simulator with a positive key rate to 142 km. From 10- to 14-bit groups over two seeds, a classical monitor reads 0.458 to 0.516 on camouflaged attacks while the quantum kernel reads 1.000, and both catch overt attacks above 0.99. Finite-precision recovery under depolarising noise and a hardened predicate lower the quantum result to 0.916 through 0.983 with the classical monitor at chance, and a feasibility probe on IBM Heron processors tracks the exact kernel within 0.034. A defender can therefore discard precisely the compromised key material, although the advantage is asymptotic, awaits fault tolerance, and holds only when the feature map matches the adversary's predicate, since a low-frequency map reads 0.545 on a residue pattern and 0.982 once aligned.",
+    "authors": [
+      "Junaid, Muhammad Shaheer Bin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-07T02:27:41.518250Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211747",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211747",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211747"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

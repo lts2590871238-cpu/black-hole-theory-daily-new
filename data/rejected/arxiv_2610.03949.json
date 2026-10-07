@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03949",
+    "arxiv_id": "2610.03949",
+    "arxiv_version": null,
+    "inspire_id": "3211449",
+    "doi": null,
+    "title_en": "Benchmarking Ansatze for Pauli Correlation Encoding in the Maximum Independent Set Problem",
+    "abstract_en": "The increasing complexity of 5G and emerging 6G wireless networks has intensified the need for scalable optimization techniques capable of addressing computationally challenging combinatorial problems. While quantum optimization offers a promising alternative, current near-term quantum hardware remains limited by qubit availability, noise, and scalability constraints. Pauli Correlation Encoding (PCE) has emerged as a qubit-efficient optimization framework that addresses these challenges through polynomial variable compression. However, the impact of compression on representability and solution recovery remains poorly understood. In this work, we investigate the hypothesis that increasing compression ratios introduce representability constraints arising from algebraic closure relationships among encoded Pauli observables. Using Maximum Independent Set benchmark problems, we evaluate multiple PCE ansatz designs and compression ratios. We find that ansatz selection is critical to both solution quality and feasibility, with two ansatz families consistently outperforming alternatives and achieving approximation ratios approaching 0.9. Furthermore, increasing circuit repetitions provides limited benefit and can degrade performance. Most notably, reducing compression by increasing the number of available qubits significantly improves raw solution quality, while post-processed performance remains comparatively stable. These findings suggest that representability effects play an important role in compressed PCE encodings and provide new insight into the relationship among compression, ansatz design, decoding, and solution quality in scalable quantum optimization.",
+    "authors": [
+      "Reeves, Cian C.",
+      "Kemp, Aaron C.",
+      "Padbury, Richard",
+      "Tarquini, Eva Lia",
+      "Kloeffel, Christoph",
+      "Pathak, Vedangi",
+      "Mohammadbagherpoor, Hamed",
+      "Beltrani, Vincent"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T11:26:51.246364Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211449",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211449",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211449"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

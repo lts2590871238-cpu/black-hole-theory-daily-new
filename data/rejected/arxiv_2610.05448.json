@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05448",
+    "arxiv_id": "2610.05448",
+    "arxiv_version": null,
+    "inspire_id": "3211381",
+    "doi": null,
+    "title_en": "Performance Analysis of Multiparty GHZ-State Quantum Conference Key Agreement over Optical Fiber Channel",
+    "abstract_en": "Quantum conference key agreement (QCKA) enables multiple spatially separated users to establish a common key with composable information-theoretic security by exploiting multipartite quantum correlations. Greenberger--Horne--Zeilinger (GHZ) states are a natural resource for this task, but their distribution over optical fiber is degraded by transmission loss, polarization decoherence, and detector imperfections. We investigate the finite-key performance of an $N$-party GHZ-based QCKA system using the $N$-BB84 protocol, where each optical link is modeled by extending the bipartite erasure--Pauli channel to incorporate detector dark counts. We characterize the impact of this quantum channel on the shared GHZ state and derive closed-form expressions for the error rates. The analytical results reveal that the local bit-error rate depends only on transmissivity and dark counts, while the global phase-error rate compounds over all $N-1$ links and therefore degrades faster with both distance and the number of parties. These error rates are integrated into a finite-key secret-key-rate (SKR) framework, in which we optimize the parameter-estimation probability via Brent's derivative-free method. Numerical results show that increasing fiber distance and network size reduce the achievable SKR. Furthermore, the optimized parameter-estimation probability consistently increases the SKR and extends the maximum secure distance relative to a fixed-allocation baseline, with comparison to the asymptotic limit quantifying the residual finite-key penalty.",
+    "authors": [
+      "Bera, Dipanjan",
+      "Meena, Ramniwas",
+      "Kundu, Neel Kanth"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T11:06:02.525791Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211381",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211381",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211381"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

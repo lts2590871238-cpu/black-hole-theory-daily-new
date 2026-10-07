@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05288",
+    "arxiv_id": "2610.05288",
+    "arxiv_version": null,
+    "inspire_id": "3211606",
+    "doi": null,
+    "title_en": "Fast Random Compilers for Time-Dependent and Time-Independent Lindbladian Simulation",
+    "abstract_en": "Randomized product formulas provide simple and flexible methods for quantum simulation. While qDRIFT-type randomized simulation has been extended to Lindbladian dynamics, higher-order randomized compilers have primarily been developed for Hamiltonian simulation. In this work, we develop first- and second-order randomized sampling algorithms for Lindbladian simulation in both the time-independent and time-dependent settings. Building on first-order qDRIFT-type Lindbladian simulation, we introduce a qSWIFT-type second-order correction for time-independent Lindbladians with a finite local decomposition. For $λt \\geq 1$, where $λ$ is the sum of the Hamiltonian coefficients and dissipative rates, the resulting approximation achieves normalized diamond-norm error at most $\\varepsilon$ using $r=O(λ^2 t^2/\\sqrt{\\varepsilon})$ time slices, improving the $\\varepsilon^{-1}$ precision dependence of the first-order qDRIFT-type approximation. We then develop first- and second-order continuous-time sampling algorithms for general time-dependent Lindbladians, with the second-order construction likewise achieving an $\\varepsilon^{-1/2}$ dependence on the target precision in the number of time slices. We further extend the time-dependent construction to a linear-combination input model over local Hamiltonian and dissipative generators, allowing the randomized sampler to be formulated in terms of local evolutions rather than the full time-dependent Lindbladian. Because the second-order corrected maps need not be CPTP, we use them to estimate observable expectation values rather than to deterministically prepare output states.",
+    "authors": [
+      "Seo, Youngjin",
+      "Patel, Dhrumil",
+      "Kwon, Hyukjoon",
+      "Wilde, Mark M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-04T00:00:00Z",
+    "updated_at": "2026-10-06T11:40:59.960768Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211606",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211606",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211606"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

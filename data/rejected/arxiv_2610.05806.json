@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05806",
+    "arxiv_id": "2610.05806",
+    "arxiv_version": null,
+    "inspire_id": "3211643",
+    "doi": null,
+    "title_en": "Quantum Complexity of Solving Linear Equations on Higher-Order Networks",
+    "abstract_en": "Higher-order networks (HONs) represent interactions among groups of objects, supporting the study of collective behaviour that pairwise models can miss. In simplicial models of these networks, Hodge Laplacian linear systems provide a common mathematical framework for analysis, for example, for solving statistical ranking problems and investigating long-term stability in coupled oscillator systems. The large number of variables associated with edges, triangles, and higher-dimensional simplices can make these systems costly to solve. Recent quantum algorithms address this bottleneck. However, comparisons with particular classical algorithms do not decision output whether solving these linear system problems establishes a quantum complexity foundation for provable quantum advantage. We prove that preparing a quantum state encoding the normalized minimum-norm solution of Hodge Laplacian linear systems is $\\mathsf{BQP}$-hard under the specified sparse oracle model and parameter promises. Our sequence of reductions maps an arbitrary polynomial-time bounded-error quantum computation to such linear systems. Each reduction allows efficient recovery of the normalized minimum-norm solution of the preceding linear system. Together with an efficient quantum algorithm for the associated decision problem from the approximate solution state, we show that this problem is $\\mathsf{BQP}$-complete. These results provide a worst-case complexity foundation for evaluating quantum advantage in HON analysis and show that the $\\mathsf{BQP}$-hardness of the quantum linear system problem (QLSP) persists even when the matrices are restricted to Hodge Laplacians.",
+    "authors": [
+      "Leditto, Caesnan M.G."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-06T11:26:45.758156Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211643",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211643",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211643"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

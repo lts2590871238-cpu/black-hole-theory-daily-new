@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04306",
+    "arxiv_id": "2610.04306",
+    "arxiv_version": null,
+    "inspire_id": "3211479",
+    "doi": null,
+    "title_en": "The cost of each side condition in a gauged logical measurement",
+    "abstract_en": "A logical measurement reads out protected information, and the noise it survives sets how much a quantum computation can absorb. Gauging builds one from a graph on the measured qubits, one extra qubit on each edge, turning a global operator into local parity checks. Its tolerance splits in two: the distance of the code left behind, and the rounds a fault can hide in. Williamson and Yoder proved both components stay at or above the code's distance. The guarantee rests on four side conditions taken as a package, none of them priced. Here we show they are not worth the same: the demand that the first and last rounds be perfect, which reads like bookkeeping, carries the temporal part. Dropping it flattens the fault distance, the least weight of a fault that passes unseen and flips the readout, to one for every code and round count, in a model whose detectors compare adjacent rounds; the full protocol collapses on the instance measured. The expansion condition, that no small set of qubits be sealed off, does not decide the outcome: two paths on the same qubits, both outside the covered regime, give distances one and two. The round count is tight where comparing rounds is the whole rule; the full protocol reaches the distance a round early. Both components are computed exactly on a gauged bivariate bicycle code and a Bacon--Shor measurement, inside a proof assistant. Threshold estimates consume such numbers; side conditions can be priced.",
+    "authors": [
+      "An, Shuoming",
+      "Yang, Fusheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-06T11:26:52.340078Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211479",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211479",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211479"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

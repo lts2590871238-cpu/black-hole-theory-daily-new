@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03885",
+    "arxiv_id": "2610.03885",
+    "arxiv_version": null,
+    "inspire_id": "3211438",
+    "doi": null,
+    "title_en": "Robustness of Quantum Signal Processing and Resource-aware Polynomial Design",
+    "abstract_en": "Quantum signal processing (QSP) realizes operator functions through polynomial transformations of a finite degree. In addition to function approximation errors, realistic implementations incur algorithmic errors also when encoding the input operator and in synthesizing gates into a discrete fault-tolerant gate set. We provide an end-to-end analysis of these errors and show that the input error propagation is governed by the operator-Lipschitz constant $L_\\star$ of the implemented function. We then derive an efficient classical algorithm to compute tight lower and upper bounds on $L_\\star$, and we show that these bounds induce in turn lower and upper bounds on the total quantum-resource cost (for instance, $T$-gate count) needed for QSP implementations compatible with a target total error. We further devise a procedure to search for a polynomial with minimum cost based solely on its coefficients, yielding a resource-aware polynomial-design procedure for QSP. We illustrate the resulting method for ground state energy estimation via eigenvalue thresholding for the H$_6$ molecular Hamiltonian. In the tested hardware profiles, the resource-aware family improves the total-error budget and reduces the modeled $T$-gate count by $51.9\\%$--$56.7\\%$ relative to the standard analytical polynomial obtained from an error-function approximation.",
+    "authors": [
+      "Maciel, Thiago O.",
+      "Camilo, Giancarlo",
+      "Tosta, Allan",
+      "Stilck-França, Daniel",
+      "Aolita, Leandro",
+      "Silva, Thais de Lima"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T11:27:04.038525Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211438",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211438",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211438"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

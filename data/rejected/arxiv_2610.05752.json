@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.05752",
     "arxiv_id": "2610.05752",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3211668",
     "doi": null,
     "title_en": "An efficient Hamiltonian-based quantum algorithm for characters of the symmetric group",
     "abstract_en": "Consider a quantum state vector proportional to any given column of the character table of the symmetric group ($S_n$), corresponding to a superposition over the irreps weighted by the character values. It was recently argued that sampling from this state is classically hard under reasonable complexity-theoretic assumptions, while there exists an efficient quantum algorithm for preparing this character state using the quantum Fourier transform (QFT) over $S_n$ [arXiv:2501.12579]. We give an alternative, simpler algorithm to prepare this character state with a sequence of Hamiltonian evolutions, as well as an efficient implementation with reconfigurable qubits that uses only nearest-neighbor gates in 1D. The gate complexity, accounting for Hamiltonian simulation errors, depends on the choice of the column: For fixed target state error, the estimated sufficient total gate count ranges from as few as $O(n)$ gates for the $n$-cycle column, to $\\widetilde O(n^{1.75})$ gates near the conjecturally classically hard parameter regime, to provably $\\widetilde O(n^{2.5})$ gates in the worst case. In contrast, the QFT subroutine in the prior approach uses $\\widetilde O(n^3)$ gates. Our gate count estimates come from leading-order state-dependent Trotter error analysis, and the proven worst-case bound relies on a QSVT-based Hamiltonian simulation method; numerical benchmarks of the Trotter-based protocol suggest that the estimates are conservative. Furthermore, we generalize our protocol to give an explicit algorithm for the quantum character transform (QCT) over $S_n$ using $\\widetilde O(n^{2.5})$ gates and $O(n)$ qubits. An application to entanglement entropy of symmetric orbifold conformal field theories is also discussed.",
@@ -16,23 +16,31 @@
       "quant-ph",
       "hep-th"
     ],
-    "submitted_at": "2026-10-05T03:57:02Z",
-    "updated_at": "2026-10-05T03:57:02Z",
-    "document_types": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:36.682531Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.05752v1",
     "pdf_url": "https://arxiv.org/pdf/2610.05752v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211668",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.05752",
-        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
         "url": "https://arxiv.org/abs/2610.05752v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3211668",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211668"
       }
     ],
     "is_demo": false

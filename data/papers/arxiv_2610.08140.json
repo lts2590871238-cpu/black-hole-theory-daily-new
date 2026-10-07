@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08140",
+    "arxiv_id": "2610.08140",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Impact of Correlated Test-Mass Noise on Stochastic Gravitational-Wave Background Searches with Space-Based Interferometers",
+    "abstract_en": "The stochastic gravitational-wave background (SGWB) is a major science target of future space-based interferometers because it encodes information about unresolved astrophysical populations and physical processes in the early Universe. Its stochastic nature, however, means that its detection and parameter inference rely on distinguishing its statistical contribution to the data from that of instrumental noise. In particular, both the SGWB and instrumental noise contribute to the data covariance, so an incomplete noise model can be misinterpreted as part of the SGWB and thereby bias the inferred spectrum and its parameters. Here we investigate this effect in the presence of correlations between the acceleration (ACC) noises of adjacent test masses (TMs) in each spacecraft. We simulate the correlated noise at the single-link level, propagate it through the moving-orbit response into the time-delay interferometry (TDI) observables, and analyze the resulting TDI auto spectra with two Bayesian frequency-domain templates: the Corr. Template includes the correlated-noise covariance, whereas the Non-Corr. Template neglects it. We find that, when correlated ACC noise is present in the mock data, the Non-Corr. Template exhibits systematic parameter offsets that generally become more pronounced with increasing correlation amplitude. In contrast, the Corr. Template recovers the injected SGWB and instrumental-noise parameters substantially more accurately. These results demonstrate that correlations in test-mass ACC noise can constitute a relevant systematic for space-based SGWB searches and motivate their explicit inclusion in mission-realistic noise models and inference pipelines.",
+    "authors": [
+      "Jing-yi Wu",
+      "Yong Tang"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-06T10:53:50Z",
+    "updated_at": "2026-10-06T10:53:50Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.08140v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.08140v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.08140",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2610.08140v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 14,
+      "methodological_rigor": 16,
+      "novelty": 10,
+      "clarity": 9,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 1
+    },
+    "total_score": 55,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文系统研究了相邻检验质量加速度噪声相关性对天基干涉仪随机引力波背景搜索的系统性影响，采用单链路噪声模拟、TDI传播与贝叶斯频域模板对比，选题具体且方法与结论清晰，对天基SGWB噪声建模与推断流程具有直接参考价值。",
+    "title_zh": "相关检验质量噪声对天基干涉仪随机引力波背景搜索的影响",
+    "abstract_zh": "随机引力波背景（SGWB）是未来天基干涉仪的主要科学目标之一，因为它编码了未分辨的天体物理族群以及早期宇宙物理过程的信息。然而，其随机本质意味着其探测与参数推断依赖于将其对数据的统计贡献与仪器噪声的贡献区分开来。特别是，SGWB与仪器噪声都对数据协方差有贡献，因此不完整的噪声模型可能被误认为SGWB的一部分，从而使推断出的频谱及其参数产生偏差。本文研究了在每个航天器内相邻检验质量（TM）的加速度（ACC）噪声之间存在相关性时这一效应。我们在单链路层面模拟相关噪声，将其通过运动轨道响应传播到时间延迟干涉（TDI）观测量中，并用两个贝叶斯频域模板分析所得的TDI自功率谱：Corr. 模板包含相关噪声协方差，而Non-Corr. 模板忽略它。我们发现，当模拟数据中存在相关ACC噪声时，Non-Corr. 模板表现出系统性参数偏移，且通常随相关幅度增加而更加显著。相比之下，Corr. 模板能更准确地恢复注入的SGWB与仪器噪声参数。这些结果表明，检验质量ACC噪声中的相关性可能构成天基SGWB搜索的一个相关系统误差，并促使将其明确纳入任务逼真噪声模型与推断流程中。",
+    "keywords_en": [
+      "stochastic gravitational-wave background",
+      "space-based interferometers",
+      "time-delay interferometry",
+      "test-mass acceleration noise",
+      "correlated noise",
+      "Bayesian parameter inference"
+    ],
+    "keywords_zh": [
+      "随机引力波背景",
+      "天基干涉仪",
+      "时间延迟干涉",
+      "检验质量加速度噪声",
+      "相关噪声",
+      "贝叶斯参数推断"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-07T02:30:57.322492Z"
+  },
+  "published_at": "2026-10-07T02:30:57.322933Z"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.03884",
     "arxiv_id": "2610.03884",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3211450",
     "doi": null,
     "title_en": "The ALPS project release 3.0: open source software for strongly correlated systems",
     "abstract_en": "We present release 3.0 of the ALPS (Algorithms and Libraries for Physics Simulations) project, an open-source software project to develop libraries and application programs for the simulation of strongly correlated quantum lattice models such as quantum magnets, lattice bosons, and strongly correlated fermion systems. As in previous releases, development is centered on common data formats, on libraries to simplify and speed up code development, and on full-featured simulation programs that let non-experts carry out serial or parallel numerical simulations using the important algorithms for quantum lattice models: classical and quantum Monte Carlo (QMC) using non-local updates, extended-ensemble simulations, exact and full diagonalization (ED), the density matrix renormalization group (DMRG), and continuous-time QMC solvers for dynamical mean-field theory (DMFT). Major changes in release 3.0 include distribution of the pyalps binary through the Python Package Index (pip install pyalps) and through Spack for HPC systems; migration of development to GitHub with continuous integration and automated testing; relicensing of the package under the permissive MIT license; a rebuilt documentation and tutorial website, including a set of Jupyter-notebook tutorials and localized content; a broad modernization of the C++ codebase (C++17 compliance, Boost and NumPy 2.0 compatibility, and warning and dead-code cleanup) together with a major DMRG update and associated reliability and build-compatibility fixes; the removal of legacy components (the VisTrails provenance integration and the TEBD, MPS, and directed-worm-algorithm application codes); archival of release 3.0.0 with a Zenodo DOI (10.5281/zenodo.22775899); and a formal governance and sustainability model developed under the US National Science Foundation (NSF) POSE program. The software is available at https://alps.comp-phys.org.",
@@ -35,23 +35,31 @@
       "physics.comp-ph",
       "quant-ph"
     ],
-    "submitted_at": "2026-10-02T18:04:41Z",
-    "updated_at": "2026-10-02T18:04:41Z",
-    "document_types": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T11:40:46.503041Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.03884v1",
     "pdf_url": "https://arxiv.org/pdf/2610.03884v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211450",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.03884",
-        "fetched_at": "2026-10-06T03:08:50.350327Z",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
         "url": "https://arxiv.org/abs/2610.03884v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3211450",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211450"
       }
     ],
     "is_demo": false

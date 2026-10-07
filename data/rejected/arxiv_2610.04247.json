@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04247",
+    "arxiv_id": "2610.04247",
+    "arxiv_version": null,
+    "inspire_id": "3211509",
+    "doi": null,
+    "title_en": "Q-MERGE: Parallelising Quantum State Preparation for Large-Scale Classical Data",
+    "abstract_en": "Quantum processing of classical data fundamentally relies on efficiently mapping classical datasets onto the amplitudes of quantum states. Preparing large amplitude-encoded states, however, remains a major bottleneck in quantum computing. In this paper, we introduce a novel state-preparation framework we call Q-MERGE, that addresses this bottleneck by partitioning a large target state into $M$$n$-qubit segments, preparing these segments independently and in parallel, and then coherently combining them into a single amplitude-encoded state using SELECT-SWAP operations and measurement. Q-MERGE is agnostic to the segment-level preparation method, allowing existing techniques to be applied to smaller subproblems while providing a tunable trade-off between circuit depth and qubit count. With mid-circuit measurement and preparation-register reuse, the required ancilla qubits can be reduced from $\\mathcal{O}(Mn)$ to $\\mathcal{O}(n)$. Applied to a real-world \\(128\\times256\\) ultrasound dataset, Q-MERGE achieves an infidelity of $1.066\\times10^{-8}$, compared with $3.413\\times10^{-1}$ for direct preparation using the same underlying method, a seven-order of magnitude improvement. We demonstrate its feasibility experimentally on the Quantinuum System Model H2 trapped-ion quantum computer and validate the prepared state using shadow-overlap tomography. Numerical analysis of Haar-random states indicates consistent success probability for up to $M=10^7$ segments, supporting the scalability of Q-MERGE for encoding massive classical datasets.",
+    "authors": [
+      "Butterworth, Archie",
+      "Renders, Jens",
+      "Wang, Jingbo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:42.554165Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211509",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211509",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211509"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

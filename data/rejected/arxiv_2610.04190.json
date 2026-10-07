@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04190",
+    "arxiv_id": "2610.04190",
+    "arxiv_version": null,
+    "inspire_id": "3211481",
+    "doi": null,
+    "title_en": "Reduced Cost Quantum Kernel Training",
+    "abstract_en": "Quantum kernel methods are promising for near-term quantum machine learning, but their training costs are driven by the quadratic scaling of Gram-matrix construction and the measurement cost of estimating individual kernel values. In this work, we investigate one-class anomaly detection as a resource-efficient operating regime for training non-variational quantum kernel models. Using the ULB Credit Card Fraud Detection dataset, we evaluate three quantum feature maps across training-set sizes and qubit counts. Power-law saturation models reveal strong diminishing returns with increasing training data, with 500-sample models retaining approximately 90--93% of their fitted asymptotic average precision (AP). We further observe no severe exponential concentration among the evaluated feature maps over the investigated qubit range, thereby avoiding the exponentially increasing measurement requirements associated with that regime. Finally, Nyström approximation reduces kernel construction from $\\mathcal{O}(N^2)$ to $\\mathcal{O}(Nm)$ evaluations, with QSVR retaining 94--97% of its exact-kernel AP using only five landmarks. For ZZ-QSVR, downsampling from 4,000 to 500 training samples and applying a five-landmark approximation decreases the number of required kernel evaluations from approximately $8.0$ million to $2,485$, a reduction of more than 3,200-fold, while AP decreases from $0.812$ to $0.737$. Under the minimum IonQ pricing assumption considered here, this corresponds to an illustrative reduction in quantum kernel training cost from approximately $1.34 billion to $417,480. These results demonstrate that training-set reduction and low-rank approximation can substantially reduce the resources required to train non-variational quantum kernel anomaly detectors while retaining meaningful anomaly-discrimination performance.",
+    "authors": [
+      "Germain, Daniel R.",
+      "Goldweber, Benjamin",
+      "Rodriguez, Kayla J.",
+      "Rhinehardt, Kristen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:52.288583Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211481",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211481",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211481"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

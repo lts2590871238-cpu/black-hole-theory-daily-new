@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08023",
+    "arxiv_id": "2610.08023",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fast and accurate differentiable code of the galaxy power spectrum based on Eulerian and Lagrangian one-loop perturbation theories",
+    "abstract_en": "This paper presents a JAX-Python implementation of the galaxy power spectrum up to one-loop order in the effective field theory of large-scale structure, based on both the Eulerian and Lagrangian perturbation theories. The code uses JAX to enable automatic differentiation with respect to parameters such as cosmology, galaxy bias, or counterterm coefficients. This facilitates applications such as parameter inference using the gradient of the posterior, e.g., Hamiltonian Monte Carlo sampling. The code can compute both the EPT and LPT power spectra in a few milliseconds on a GPU, after just-in-time compilation. We also identify the various sources of numerical errors associated with discretization, and design the numerical implementation to minimize them, achieving relative errors of order $0.01\\%$ at scales $k \\lesssim 1\\, h\\, \\mathrm{Mpc}^{-1}$, compared with brute-force numerical integration. Notably, this is the first auto-differentiable implementation of the one-loop galaxy power spectrum based on LPT. The natural resummation of the long-wavelength displacements in LPT further makes the code well suited for applications involving features in the power spectrum beyond the standard BAO feature, including primordial features. Our code, elf, is publicly available.",
+    "authors": [
+      "Yosuke Kobayashi",
+      "Kazuyuki Akitsu"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-06T09:16:28Z",
+    "updated_at": "2026-10-06T09:16:28Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.08023v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.08023v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.08023",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2610.08023v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

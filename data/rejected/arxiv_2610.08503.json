@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08503",
+    "arxiv_id": "2610.08503",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Replica Fragmentation and Glassy Dynamics in Parity Learning",
+    "abstract_en": "We study how independently trained Transformer neural networks reconstruct a binary string from its local domain walls. Runs sharing the data and training protocol can realize different functions. We treat them as replicas and measure truth alignment $m$, prediction confidence $q_{\\mathrm{self}}$, and cross-replica agreement $q_{\\mathrm{cross}}$. Confident disagreement defines the finite-size replica fragmentation that we call glass-like. With small training sets, replicas predict all training examples correctly but remain confident in incorrect predictions for unseen inputs, a regime we call memorization. With larger sets, runs can generalize and then retreat. Retreat occurs when outputs start to deviate from truth while confidence remains high. The frontier between learned and unlearned outputs recedes toward shorter strings. Many later recover as the frontier advances again. The self--cross gap $q_{\\mathrm{self}}-q_{\\mathrm{cross}}$ clearly distinguishes the three learning regimes of memorization, retreat, and recovery. With overall and position-dependent truth alignment subtracted, their residual correlations also differ: memorizing replicas have weakly and uniformly correlated residuals, while retreat has the largest fraction of replica pairs whose residuals are anti-correlated. That is, on the inputs where one replica of such a pair does better than its average, the other tends to do worse. These finite-size observations distinguish persistent memorization from ongoing retreat--recovery dynamics. The thermodynamic and long-time limits, and extensions to other learning tasks, remain open.",
+    "authors": [
+      "Han Ma"
+    ],
+    "categories": [
+      "cond-mat.stat-mech",
+      "cond-mat.dis-nn",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-10-06T15:10:32Z",
+    "updated_at": "2026-10-06T15:10:32Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.08503v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.08503v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.08503",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2610.08503v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

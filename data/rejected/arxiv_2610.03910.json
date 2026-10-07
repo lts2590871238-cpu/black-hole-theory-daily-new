@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03910",
+    "arxiv_id": "2610.03910",
+    "arxiv_version": null,
+    "inspire_id": "3211444",
+    "doi": null,
+    "title_en": "Emulation of coupled-channels scattering for strongly deformed nuclei",
+    "abstract_en": "Nucleon scattering off strongly deformed nuclei such as the actinides requires coupled-channels (CC) calculations in which several members of the ground-state rotational band are coupled explicitly, which makes Bayesian uncertainty quantification of deformed global optical potentials costly. We reformulate the direct boundary matching method (DBMM) by imposing its outgoing-wave boundary condition through a generalized Bloch operator; the resulting Bloch-DBMM solver converges as fast as the modern R-matrix method and extends to charged projectiles on targets with deformed charge distributions. On top of it we build a reduced-basis emulator, CCB-ROM, whose basis vectors span all channels of a $J^π$ block simultaneously, and generalize the coupled-channels empirical interpolation method to arbitrary non-affine deformed interactions. For $n,p+{}^{232}$Th inelastic scattering with the ground-state band coupled through the $8^+$ state, at 4 and 35 MeV, the Bloch-DBMM solver is benchmarked against Frescox, and the emulator replaces a 2700-dimensional system by one of dimension $N_b\\le200$, with a cost of $\\mathcal{O}(N_b^3)$ independent of the number of channels, reproducing the exact solver calculations for all five band members with speed-ups of over two orders of magnitude. CCB-ROM thus delivers differential cross sections, transmission coefficients and reaction cross sections from one calculation, at a cost compatible with Bayesian calibration of deformed optical potentials for neutrons and protons alike, and extends naturally to closed channels and to compound-nucleus reaction codes.",
+    "authors": [
+      "Catacora-Rios, M.",
+      "Beyer, Kyle",
+      "Lei, Jin",
+      "Nunes, Filomena"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T11:54:33.554663Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211444",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211444",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211444"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

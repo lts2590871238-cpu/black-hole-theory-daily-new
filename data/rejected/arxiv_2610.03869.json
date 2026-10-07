@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.03869",
+    "arxiv_id": "2610.03869",
+    "arxiv_version": null,
+    "inspire_id": "3211499",
+    "doi": null,
+    "title_en": "Modular Neural Decoder for Surface Code Memory and Logic on Superconducting Processors",
+    "abstract_en": "Neural decoders for quantum error correction have achieved high accuracy on surface code memory experiments, but practical fault-tolerant computation requires decoders that transfer across devices, noise conditions, and logical operations. We introduce a modular graph-recurrent decoder designed for this setting. Built from reusable local syndrome encoders, it is pretrained in simulation and fine-tuned to hardware using a common pipeline, with only lightweight spatial aggregation adapted between experiments. The decoder performs competitively on conventional memory benchmarks, outperforming minimum-weight perfect matching (MWPM) at distances 3 and 5 on an IBM Nighthawk-generation processor and closely approaching AlphaQubit on Google's below-threshold hardware data. We then test the framework in two settings beyond memory decoding on the same IBM device. First, in an $X$-type stability experiment, we continuously tune the effective measurement error rate using a variable pre-readout rotation and train a single decoder jointly across the resulting noise range. It matches or outperforms MWPM across the sweep without requiring a separately calibrated decoder for each setting. Second, we decode a $ZZ$-merge lattice-surgery experiment between two distance-3 surface-code patches, improving the decoded correlation between the merge outcome and the final $ZZ$ parity relative to MWPM on real hardware. Together, these experiments demonstrate neural decoding that is portable not only across hardware, but also across qualitatively different surface code observables and logical operations, using models trainable on single-GPU academic resources.",
+    "authors": [
+      "Lange, Moritz",
+      "Fjeldså, Ole",
+      "Johansson, Gustaf Jonasson",
+      "Granath, Mats"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-02T00:00:00Z",
+    "updated_at": "2026-10-06T11:05:43.622341Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211499",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211499",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211499"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.19104",
+    "arxiv_id": "2606.19104",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "PHANTOM: A MATLAB and Octave Toolbox Connecting Linear Field Statistics to Dark Matter Halo Observables",
+    "abstract_en": "We present phantom (Profile and Halo Analysis for Numerous Theoretical dark Matter Observables), a public MATLAB toolbox and Octave package for calculations that connect the linear density field to dark matter halo observables. The package combines a flexible cosmology module with linear power spectrum, variance, and correlation function solvers, and a halo module that covers mass functions, linear bias, density profiles, and concentration-mass relations for cold, warm, and fuzzy dark matter scenarios. All core routines are validated against the Python package colossus, hmf, and halomod, yielding sub-percent agreement for shared models across distances, power spectra, variance, correlation functions, halo mass functions, and density profiles. Phantom is organised around a cosmology structure that stores background expansion, growth, and linear power-spectrum handles; this object is constructed once and passed through the call graph, so that halo statistics and halo structure calculations remain consistent by design. From this single entry point, users can obtain field statistics (power spectrum, variance, correlation function), halo statistics (mass functions, linear bias), and halo observables (enclosed mass, circular velocity, projected density, and lensing convergence) on arbitrary user-defined grids. The toolbox targets users whose analysis pipelines are written in MATLAB or Octave, where a validated native implementation of these models has been absent. The code is released under the MIT licence at phantom(https://github.com/matc-thaher/PHANTOM).",
+    "authors": [
+      "Mohammad Abu Thaher Chowdhury"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-06-17T14:17:18Z",
+    "updated_at": "2026-10-06T02:05:46Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.19104v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.19104v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.19104",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2606.19104v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

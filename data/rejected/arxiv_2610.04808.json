@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04808",
+    "arxiv_id": "2610.04808",
+    "arxiv_version": null,
+    "inspire_id": "3211358",
+    "doi": null,
+    "title_en": "Alkaid: A Compiler Framework for Ultra-Low-Latency Kernels on Hardware",
+    "abstract_en": "Ultra-low-latency machine learning and data processing pipelines operating on the sub-microsecond level often contain static dataflow kernels that require fine-grained bitwidth control, arithmetic optimization, and fast hardware performance estimation. This works introduce Alkaid, a free and open source domain specific compiler that translates sub-microsecond latency dataflow kernels into platform agnostic Register Transfer Level (RTL) or High-Level Synthesis (HLS)-ready code in seconds. Alkaid targets ultra-low-latency ML pipelines, especially those addressed by existing ML-to-hardware flows such as \\texttt{hls4ml}, while also supporting the surrounding pre-processing, post-processing, and control logic. At its core, Alkaid uses an arithmetic centric intermediate representation, Alkaid Low-level IR (ALIR), to preserve fixed-point semantics, heterogeneous bitwidths, and operation level structure for optimization and code generation. Alkaid further provides comprehensive hardware-aware optimization passes and an interpretable white-box analytical performance model for rapid design space exploration without synthesis in the loop. Across representative ML workloads, including MLPs, GNNs, and transformers, Alkaid achieves 20-30% lower LUT usage than the best prior flows for bit-exact equivalent designs, with up to 40% lower latency in some cases. Beyond typical neural networks, Alkaid achieves comparable performance to the state-of-the-art method for synthesizing boosted decision trees, while also enabling the implementation and integration of non-ML kernels such as sorting networks and histograms.",
+    "authors": [
+      "Sun, Chang",
+      "Que, Zhiqiang",
+      "Danopoulos, Dimitrios",
+      "Pierini, Maurizio",
+      "Luk, Wayne",
+      "Spiropulu, Maria"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-03T00:00:00Z",
+    "updated_at": "2026-10-06T12:12:34.431278Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211358",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211358",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211358"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

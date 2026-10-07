@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07267",
+    "arxiv_id": "2610.07267",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Chana: A GPU-Accelerated AMR GRRMHD Code",
+    "abstract_en": "This paper presents Chana, a GPU-accelerated, block-structured adaptive-mesh code for general relativistic magnetohydrodynamics, multigroup M1 neutrino transport, and dynamical spacetime evolution using the Z4c formulation. Each physical module uses independently selected spatial discretizations and ghost-zone widths to balance accuracy and computational cost. Stiff radiation-matter interactions are treated implicitly, with Jacobians calculated analytically from the chain-rules. The code is written in C++20 and it uses MPI and Kokkos 5 for distributed-memory and performance-portable parallelism. The code is validated through a number of GRMHD, radiation transport, and dynamic spacetime tests. For a representative core-collapse supernova configuration with three neutrino species and 12 energy groups per species, the code achieves approximately $1.1 \\times 10^6$ cell updates per GPU second on NVIDIA A100 GPUs using four-stage RK4 integration. Weak-scaling efficiency remains above 85\\% up to 256 GPUs on Perlmutter.",
+    "authors": [
+      "Tianshu Wang"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-05T19:09:11Z",
+    "updated_at": "2026-10-05T19:09:11Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.07267v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.07267v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.07267",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2610.07267v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

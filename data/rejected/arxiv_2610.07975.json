@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07975",
+    "arxiv_id": "2610.07975",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Scalable and sequential inference of the neutron star equation of state with the Einstein Telescope",
+    "abstract_en": "Future gravitational-wave observatories such as the Einstein Telescope will detect tens of thousands of binary neutron star mergers per year, making gravitational waves a dominant probe of the neutron-star equation of state in the coming decades. However, extracting this information requires hierarchical inference across a rapidly growing catalog of events, and existing methods must restart from scratch whenever a new event arrives, making them impractical at this scale. In this Letter, we introduce a hybrid sequential Monte Carlo algorithm that combines data and likelihood tempering to adaptively update the equation-of-state posterior in batches, reusing previous inference results instead of restarting from a wide prior. Accelerated by GPU hardware, our method infers the equation of state from a simulated month of around 1500 binary neutron star mergers in a few hours on a single GPU, and we project that a full year of detections could be processed in a few days on current hardware. This establishes sequential Monte Carlo as a practical route for real-time hierarchical inference with future gravitational-wave detectors.",
+    "authors": [
+      "Thibeau Wouters",
+      "Thomas C. K. Ng",
+      "Hauke Koehn",
+      "Fabian Gittins",
+      "Peter T. H. Pang",
+      "Tim Dietrich",
+      "Chris Van Den Broeck"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-06T08:42:00Z",
+    "updated_at": "2026-10-06T08:42:00Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.07975v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.07975v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.07975",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://arxiv.org/abs/2610.07975v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

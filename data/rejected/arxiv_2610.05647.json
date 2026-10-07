@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05647",
+    "arxiv_id": "2610.05647",
+    "arxiv_version": null,
+    "inspire_id": "3211379",
+    "doi": null,
+    "title_en": "Transformer-Based Time-Series Inference of Lindblad Dynamics in Open Quantum Systems",
+    "abstract_en": "The Lindblad master equation is the standard framework for describing the non-unitary evolution of open quantum systems, where environmental interactions induce dissipation and decoherence. When both the system Hamiltonian and the dissipation rates are partially unknown or explicitly time-dependent, traditional analytical inversion and system-identification techniques become intractable. Recent works have demonstrated that Transformer-based models can infer unknown dissipation rates from observable time series, yet these approaches typically rely on hand-crafted statistical features under idealized and highly restricted conditions. Here we advance the paradigm by introducing a raw time-series Transformer that directly ingests the full trajectories of Pauli expectation values $\\langleσ_x(t)\\rangle$, $\\langleσ_y(t)\\rangle$, and $\\langleσ_z(t)\\rangle$, thereby fully exploiting the self-attention mechanism for temporal modeling. The architecture is further extended to jointly learn unknown Hamiltonian parameters, handle multiple dissipation channels, and operate robustly under realistic measurement noise. Across all tested scenarios the model achieves consistently high reconstruction accuracy while eliminating manual feature engineering. This provides a scalable, robust, and versatile framework for quantum environment sensing in realistic open quantum systems.",
+    "authors": [
+      "Guam, Julian",
+      "Liu, Jianqing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-06T11:53:33.761988Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211379",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211379",
+        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "url": "https://inspirehep.net/literature/3211379"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
