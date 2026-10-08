@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 12,
+    "methodological_rigor": 16,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 3
+  },
+  "total_score": 57,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文针对脉冲星计时阵列（PTA）中纳赫兹引力波背景的功率谱密度建模，提出了t-process作为第三种模型，并与幂律和自由谱模型在模拟数据上进行了系统比较。方法上使用了100个现实的超大质量双黑洞种群实现，评估了频率-bin的功率谱恢复、信噪比提升以及各向异性定位能力，具有较高的方法严谨性和一定的创新性。虽然理论深度中等，但结果对PTA数据分析具有直接参考价值，适合索引。",
+  "title_zh": "用t过程建模纳赫兹引力波背景：引力波功率的改进频率派分析",
+  "abstract_zh": "脉冲星计时阵列（PTA）合作组最近报告了纳赫兹波段引力波背景（GWB）信号的证据，该信号最可能源自超大质量双黑洞（SMBHB）种群发出的引力波的非相干叠加。由于每个频率bin中发射的双星数量有限，且单个响亮源可能主导GWB，背景的功率谱密度（PSD）预计会显著偏离描述理想化种群的平滑幂律。PTA搜索通常用幂律或自由谱模型来描述PSD，后者将每个频率bin中的PSD作为自由参数进行拟合。在本文中，我们探索t过程作为第三种模型；它假设幂律为底层谱，但允许每个频率bin偏离该谱。我们在模拟数据集上比较这三种模型的性能，注入100个现实的SMBHB种群实现，以评估每个模型恢复复杂PSD的能力。使用贝叶斯和频率派工具，我们发现t过程模型给出最精确的PSD结果，其不确定性分别比幂律和自由谱模型窄43%和26%，而准确性的提升较小。此外，使用t过程模型，我们计算了各向同性和各向异性信噪比，在前九个频率bin中，相对于幂律的中位增益约为46%，相对于自由谱约为65%。t过程还返回较低的各向异性p值，在p<0.01的频率bin中，它允许在14.3%的情况下将最响亮的双星定位在天空图的角度分辨率内，而幂律为10%，自由谱为6.2%。",
+  "keywords_en": [
+    "pulsar timing array",
+    "nanohertz gravitational wave background",
+    "t-process",
+    "power spectral density",
+    "supermassive black hole binaries",
+    "frequentist analysis"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "纳赫兹引力波背景",
+    "t过程",
+    "功率谱密度",
+    "超大质量双黑洞",
+    "频率派分析"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-08T02:46:52.592341Z"
+}

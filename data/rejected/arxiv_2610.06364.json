@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06364",
+    "arxiv_id": "2610.06364",
+    "arxiv_version": null,
+    "inspire_id": "3211964",
+    "doi": null,
+    "title_en": "Adaptive complete quantum search with unknown number of solutions",
+    "abstract_en": "Unstructured database search is a fundamental problem that requires finding one or more elements satisfying a specific property within a set of candidates. While Grover's algorithm provides a quadratic speedup for finding a marked element when the number of solutions is known, finding all solutions when their number is unknown presents additional challenges. In this paper, we thoroughly analyze this problem by considering all the different regimes of combinations of classical, Grover and generalized fixed-point quantum search instances. We unify these into an adaptive Bayesian approach that maximizes the expected success probability per unit execution time at each searching instance. For a problem with a known number of solutions, much lower than the database size, we prove that our proposed approach is asymptotically optimal within the considered search model. Furthermore, we prove that for any probability distribution characterizing the likely number of solutions, in regimes where the classical verification time is at most 25% of the quantum amplitude amplification time, hybrid classical and Grover approaches are preferred to generalized fixed-point. Outside of this regime, we derive an upper bound on the maximal improvement achievable by fixed-point search compared to the best Grover-based score. Additionally, we determine the optimal transition point between classical sampling and quantum searching using an integral approximation of the probability distribution of the number of solutions. The analytical results are also supported by numerical simulations of the proposed algorithm and by comparisons between the generalized fixed-point and Grover-based search policies.",
+    "authors": [
+      "Guţoiu, Raj Alexandru",
+      "Ciobanu, Bogdan-Călin",
+      "Popescu, Pantelimon George"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:03:20.988699Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211964",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211964",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211964"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.06199",
     "arxiv_id": "2610.06199",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3211949",
     "doi": null,
     "title_en": "JESSNet: Joint dEconvolution and Sparse Separation Network for HI 21 cm foreground cleaning",
     "abstract_en": "Foreground cleaning is a major challenge for H\\,{\\sc i} 21 cm intensity mapping, particularly in the presence of a chromatic instrumental beam that couples angular foreground structure into the frequency direction and under incomplete sky coverage. We introduce JESSNet, a beam-aware, mask-compatible foreground-cleaning framework for single-dish intensity mapping. Building on SDecGMCA, JESSNet introduces three main extensions: a multiscale angular decomposition with scale-dependent mixing matrices and channel selection, a learned spherical-wavelet ''learnlet'' sparse regularization operator, and a mask-constrained reconstruction applicable to Galactic masks and survey footprints. We test JESSNet on simulated SKA-MID-like observations over $900\\text{-}1300\\,{\\rm MHz}$ ($z\\simeq0.09\\text{-}0.58$), including H\\,{\\sc i} emission, Galactic and extragalactic foregrounds, thermal noise, and an oscillating MeerKAT-inspired chromatic beam. The multiscale reconstruction accurately recovers the angular and frequency power spectra of the input H\\,{\\sc i} signal, improves the recovery at low and intermediate angular scales relative to a single-scale implementation, and reduces residual beam-induced spectral features. JESSNet also remains effective for a synthetic survey footprint, preserving the H\\,{\\sc i} power spectra under incomplete sky coverage. The code and analysis pipeline are publicly released to facilitate reproducibility and future applications to simulated and observational data.",
@@ -19,23 +19,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-05T12:13:10Z",
-    "updated_at": "2026-10-05T12:13:10Z",
-    "document_types": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:55:09.552069Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.06199v1",
     "pdf_url": "https://arxiv.org/pdf/2610.06199v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211949",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.06199",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
         "url": "https://arxiv.org/abs/2610.06199v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3211949",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211949"
       }
     ],
     "is_demo": false

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06789",
+    "arxiv_id": "2610.06789",
+    "arxiv_version": null,
+    "inspire_id": "3211836",
+    "doi": null,
+    "title_en": "Characterizing Quantum Advantage for Generalizations of the Boolean Hidden Matching Problem",
+    "abstract_en": "We study the one-way communication complexity of the $f$-Boolean Hidden Partition problem. Here, Alice is given an $n$-bit string and Bob is given $Ω(n)$ disjoint blocks of its indices together with a string of labels. Under the promise that the evaluations of $f$ on these blocks either agree with all of the labels or disagree with all of them, Bob must determine which is the case using a single message from Alice. This problem generalizes the Boolean Hidden Matching and Hidden Hypermatching problems, which capture the special case where $f$ is the parity function. We establish classical and quantum communication bounds for $f$-Boolean Hidden Partition in terms of the sign degree $d$ of $f$, proving a conjecture of Doriguello and Montanaro (TQC 2020). Their prior work gave logarithmic communication upper bounds for classical protocols when $d \\le 1$ and quantum protocols when $d \\le 2$, as well as polynomial lower bounds for certain structured functions with larger sign degree. We show that for every $f$ of sign degree $d \\ge 2$, the randomized classical communication complexity of this problem is $Θ(n^{1-1/d})$ while its quantum communication complexity lies between $Ω(n^{1-2/d})$ and $\\bO{n^{1-1/\\lceil d/2 \\rceil} \\log n}$. This completely characterizes the functions $f$ admitting polynomial quantum advantage as those for which $d \\ge 2$, with a new infinite family of exponential separations given by the case $d = 2$.",
+    "authors": [
+      "Bun, Mark",
+      "Doriguello, Joao F.",
+      "Kallaugher, John",
+      "Voronova, Nadezhda"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:03:36.998111Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211836",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211836",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211836"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

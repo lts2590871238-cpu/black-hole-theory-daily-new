@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07139",
+    "arxiv_id": "2610.07139",
+    "arxiv_version": null,
+    "inspire_id": "3212085",
+    "doi": null,
+    "title_en": "Protecting bosonic codes from ancilla-induced errors with continuous-variable flags",
+    "abstract_en": "Bosonic quantum error correction represents a route towards significant hardware overhead reduction for fault-tolerant quantum computation. However, controlling quantum harmonic oscillators that encode the quantum information comes with its own challenges. In many platforms such as superconducting circuits and trapped ions, the bosonic degree of freedom is controlled by an ancillary qubit whose decay during a qubit-oscillator gate propagates to the oscillator as a continuous error. Such errors generally lie beyond the scope of errors that the bosonic code is capable of correcting. We introduce the continuous-variable flag: an auxiliary oscillator coupled to the ancilla whose phase-space position encodes the continuous error corrupting the storage mode. After the gate, a heterodyne measurement of the flag estimates this continuous-variable error and a subsequent feedback control undoes it up to a bosonic code stabilizer. The scheme requires no new ingredients, as the flag is driven by the same dispersive coupling, displacements and rotations that implement the gates it is supposed to protect. We construct sequences protecting conditional rotations to all orders in ancilla decay with one flag, and conditional displacements to first order with one flag and to all orders with two. Simulations with realistic circuit-QED parameters predict more than three orders of magnitude fewer logical errors for the parity measurement of a four-component cat code, and a finite-energy GKP logical lifetime near its noiseless-ancilla bound. By discretizing continuous-variable errors, the flags introduced in this work are a useful tool for any hybrid oscillator-qubit processor, and open the route towards fault-tolerant simulation and computation with bosonic modes.",
+    "authors": [
+      "Décultot, Thomas",
+      "Gautier, Ronan",
+      "Mirrahimi, Mazyar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:20.277275Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212085",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212085",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212085"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.02167",
     "arxiv_id": "2610.02167",
     "arxiv_version": 2,
-    "inspire_id": "3210352",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Polynomial-time classical and quantum simulation of quantum impurity models",
     "abstract_en": "Quantum impurity models are paradigmatic models of interacting quantum matter, as well as key computational primitives for modern electronic-structure methods. They describe a small subsystem of interacting fermions coupled to a large, noninteracting bath. We perform a comprehensive study of the computational complexity of simulating impurity models, delineating the boundary between classical and quantum tractability for this class of problems. Our main finding is that static properties of quantum impurity models can be calculated efficiently on a classical computer. Specifically, we give classical algorithms that (1) estimate the ground-state energy to additive precision $δ$ in time $\\mathrm{poly}(n,δ^{-1})$, and (2) estimate the partition function at inverse temperature $β$ to relative precision $δ$ in time $\\mathrm{poly}(n,β,δ^{-1})$, where $n$ is the system size. These results improve the previous best-known complexity for ground-state energy estimation from quasipolynomial to polynomial time, while establishing for the first time rigorous polynomial-time guarantees for simulating impurity models in thermal equilibrium. On the other hand, we find that simulating dynamical properties of impurity models is hard for classical computers but easy on a quantum computer. As a canonical example, we show that computing their nonequilibrium Green's functions captures the full power of quantum computation, even at finite temperature. Taken together, our results rule out superpolynomial quantum speedups for computing static properties, but provide an avenue for quantum advantage in simulating impurity physics out of equilibrium.",
@@ -22,31 +22,23 @@
       "cs.DS",
       "physics.chem-ph"
     ],
-    "submitted_at": "2026-10-01T00:00:00Z",
-    "updated_at": "2026-10-06T03:27:44.372732Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-01T17:55:25Z",
+    "updated_at": "2026-10-05T05:03:17Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.02167v2",
     "pdf_url": "https://arxiv.org/pdf/2610.02167v2",
-    "inspire_url": "https://inspirehep.net/literature/3210352",
+    "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.02167",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
         "url": "https://arxiv.org/abs/2610.02167v2"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3210352",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
-        "url": "https://inspirehep.net/literature/3210352"
       }
     ],
     "is_demo": false

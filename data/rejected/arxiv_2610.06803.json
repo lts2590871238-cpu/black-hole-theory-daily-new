@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06803",
+    "arxiv_id": "2610.06803",
+    "arxiv_version": null,
+    "inspire_id": "3212009",
+    "doi": null,
+    "title_en": "Tight bounds for hybrid quantum-classical query algorithms",
+    "abstract_en": "We study hybrid quantum-classical algorithms in the query model. The computation consists of quantum subroutines that make at most $q$ oracle queries; between subroutines, all qubits are measured and discarded. We prove matching upper and lower bounds for several problems in this model: (i) (Unbiased) Phase estimation up to a precision $ε$ requires $Θ(\\frac{1}{q ε^2})$ queries; (ii) (Unbiased) Amplitude estimation up to a precision $ε$ requires $Θ(\\frac{p(1-p)}{q ε^2})$ queries; (iii) Search among $N$ items requires $Θ(\\frac{N}{q})$ queries; (iv) Two level AND-OR tree (AND of $m$ ORs, with $n$ inputs to each OR) requires $Θ(\\frac{nm}{q})$ queries. All of these bounds are optimal up to a constant factor, for all $q$ from 1, corresponding to the classical complexity, to $Q(f)$, the unrestricted quantum query complexity of the respective problem. We also derive a hybrid lower bound for distinguishing two distributions specified by a state-preparation unitary; this bound is tight up to a logarithmic factor. Besides specific lower bounds, an important contribution is developing methods for proving lower bounds on hybrid quantum algorithms (which have been very ad-hoc up to now). The first two bounds follow from a common framework: we analyze probability distributions over measurement transcripts and bound a progress measure that captures their distinguishability. The AND-OR bound requires a more delicate argument, combining two progress measures that track the information available to the algorithm classically and in quantum form, respectively.",
+    "authors": [
+      "Ambainis, Andris",
+      "Gilyén, András",
+      "Kokainis, Martins"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:20.015813Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212009",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212009",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212009"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

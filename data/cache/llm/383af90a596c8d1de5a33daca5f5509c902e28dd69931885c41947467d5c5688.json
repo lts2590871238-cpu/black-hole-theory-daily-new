@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "holography_condensed_matter",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 16,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 70,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文提出快速全息反演方法，显著加速从超导穹顶恢复标量质量函数的过程，并系统研究穹顶能确定与不能确定的部分，对全息凝聚态物理具有方法学价值。",
+  "title_zh": "超导穹顶的快速全息反演",
+  "abstract_zh": "一个全息超导体，其标量质量依赖于规范场强度，$M(\\Fsq)$，对于合适的$M$能重现超导穹顶，而从给定的穹顶反推出该$M$至今对单次训练运行需要数天。我们提出一种训练该模型的新方法，使用该方法一次反演耗时约十分钟到一小时。训练需要固定临界温度的条件的梯度，先前方法通过有限差分获得该条件，对每个训练参数重复体积分。这里该条件无需任何拟合，从在视界和边界处启动的两个积分得到，且其关于$M$的导数是同一对解上的一个积分，因此梯度不需要自身的积分。我们利用这一速度来研究穹顶无法确定的$M$的部分，即在最低掺杂时$\\Fsq$在视界处所取值与$\\Fsq=0$之间的区间上，在$\\Fsq=0$处$M$是固定对偶算符维度的标量质量$M(0)$。我们将标量质量固定在几个值上，称之为钉扎质量，在每个值上重新训练其余所有部分，发现重构结果在穹顶视界所及之处一致，包括$M$的极小值处，仅在该区间上不同。一条保留具有最简单闭合形式的重构的规则，能恢复测试穹顶的标量质量和质量函数。然而，在高斯和双高斯穹顶以及在YBa$_{2}$Cu$_{3}$O$_{y}$和2M-WS$_{2}$的实测相图上，它保留的钉扎质量依赖于并列或狭窄的边际，因此对于这些目标，标量质量仍悬而未决。因此，穹顶在其视界所及之处约束$M$，而固定对偶算符的维度需要第二个可观测。",
+  "keywords_en": [
+    "holographic superconductor",
+    "superconducting dome",
+    "inverse problem",
+    "critical temperature",
+    "scalar mass",
+    "gauge field strength",
+    "dual operator dimension",
+    "YBa2Cu3Oy",
+    "2M-WS2"
+  ],
+  "keywords_zh": [
+    "全息超导体",
+    "超导穹顶",
+    "反问题",
+    "临界温度",
+    "标量质量",
+    "规范场强度",
+    "对偶算符维度",
+    "YBa2Cu3Oy",
+    "2M-WS2"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-08T02:46:31.914061Z"
+}

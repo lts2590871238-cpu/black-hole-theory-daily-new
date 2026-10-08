@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06812",
+    "arxiv_id": "2610.06812",
+    "arxiv_version": null,
+    "inspire_id": "3212031",
+    "doi": null,
+    "title_en": "Protecting Quantum Computers against Untrusted Users",
+    "abstract_en": "Publicly accessible fault-tolerant quantum computers must preserve scientific utility while limiting cryptanalytic power. We propose the restricted model of computation, 1/2BQP_1: a quantum server provides random computational-basis inputs, revealed only after execution, and one designated output bit. This interface permits arbitrary circuits and system sizes. We conjecture that a classical client making polynomially many adaptive requests cannot efficiently factor RSA moduli. The model subsumes the well-known one-clean-qubit model DQC1, retaining its applications to infinite-temperature multi-time correlations, out-of-time-order correlators, and suitably normalized partition functions. We propose a candidate for separating 1/2BQP_1 from DQC1 based on testing classical predictions of quantum spin dynamics. We argue security in two steps. First, we show that one-bit readout makes the quantum stages of standard factoring algorithms classically simulable, even when their preparation and postprocessing are redesigned within a broad family around a single arithmetic-oracle call. This covers the quantum stages of Shor, Ekera-Hastad, Kitaev, and Regev factoring constructions. Second, we examine the workaround of coherently implementing rational reconstruction to release a factor bit. Random inputs obstruct this straightforward attack: known techniques accommodate logarithmic-depth classical circuits, but rational reconstruction has resisted such parallelization for decades. Therefore, we show that security of our protocol is built on not only classical hardness for factoring, but also conjectured circuit lowerbounds for rational reconstruction.",
+    "authors": [
+      "Yadavalli, Shiv Akshar",
+      "Rajakumar, Joel",
+      "Schuckert, Alexander",
+      "Gullans, Michael J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:16.727312Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212031",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212031",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212031"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

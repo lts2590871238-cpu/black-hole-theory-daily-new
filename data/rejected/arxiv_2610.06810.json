@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06810",
+    "arxiv_id": "2610.06810",
+    "arxiv_version": null,
+    "inspire_id": "3211842",
+    "doi": null,
+    "title_en": "Finding Gaussian Structure in Bosonic States",
+    "abstract_en": "We study agnostic tomography of pure bosonic Gaussian states: given copies of an arbitrary $n$-mode bosonic state $ρ$, the goal is to output a pure Gaussian state whose infidelity with $ρ$ is at most $\\mathrm{opt} + ε$, where $\\mathrm{opt}$ is the minimum infidelity achievable by any pure Gaussian state. We give efficient protocols achieving this in both the high and low fidelity regimes. When $\\mathrm{opt}$ is below some universal constant, our protocol has runtime and copy complexity which is strongly polynomial in $n, 1/ε$ and $\\log \\log E$, where $E$ is the energy of the closest pure Gaussian state. For arbitrary $\\mathrm{opt}$, our protocol uses $(n+1)^{\\mathrm{poly}(1/ε)} \\mathrm{poly}\\left(1+\\log\\log(E)\\right)$ copies and runtime. As a corollary, we obtain the first truly tolerant Gaussianity testing protocol for distinguishing whether $\\mathrm{opt} > c + ε$ or $\\mathrm{opt} < c - ε$, for any threshold $c\\in(0,1)$. We also prove $\\mathrm{poly}(n,1/ε)$ runtime is impossible, unless $\\mathrm{NP}\\subseteq\\mathrm{BQP}$. Our protocols follow a shared paradigm: first, we iteratively use general Gaussian measurements combined with techniques from classical robust statistics to obtain a good warm start estimate, then we leverage non-Gaussian measurements to refine this warm start using convex and non-convex optimization methods. Interestingly, we prove that non-Gaussian measurements are necessary to match the strong agnostic guarantees we obtain, and in fact these guarantees are provably superior to what is possible for robustly estimating classical Gaussians.",
+    "authors": [
+      "Arulandu, Alvan",
+      "Chen, Sitan",
+      "Chen, Ziyun",
+      "Li, Jerry",
+      "Ma, Eric"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:09:39.557468Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211842",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211842",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211842"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-10-08T02:45:25.617163Z",
+  "completed_at": "2026-10-08T02:46:57.116329Z",
+  "status": "degraded",
+  "fetched_arxiv": 1000,
+  "fetched_inspire": 800,
+  "normalized": 1800,
+  "deduplicated": 1528,
+  "candidates": 78,
+  "selected": 57,
+  "review_queue": 19,
+  "rejected": 1450,
+  "llm_calls": 14,
+  "cached_decisions": 44,
+  "errors": [
+    "arxiv:2610.09960: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 155 个非空白字符",
+    "arxiv:2606.12901: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 305 个非空白字符"
+  ]
+}

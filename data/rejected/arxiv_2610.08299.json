@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08299",
+    "arxiv_id": "2610.08299",
+    "arxiv_version": null,
+    "inspire_id": "3212272",
+    "doi": null,
+    "title_en": "Pauli Decomposition by Character Theory: A Memory-Bounded Algorithm for Qubits and Qudits",
+    "abstract_en": "Pauli decomposition underpins Trotterization, phase estimation, sparse-Hamiltonian simulation, and variational observables, at exponential naive cost. From the character theory of $(\\mathbb{Z}_2)^n$, characters $χ_z(v)=(-1)^{\\langle v,z\\rangle}$ are the diagonal Pauli strings, so any diagonal operator is already Pauli-decomposed. A general operator still needs the shifts: each $X^{\\otimes x}$ couples to a character $χ_z=Z^{\\otimes z}$, and the products $X^{\\otimes x}Z^{\\otimes z}$-- up to phases in $\\{\\pm 1,\\pm i\\}$-- form the Pauli group, the central extension of $(\\mathbb{Z}_2)^n\\times(\\mathbb{Z}_2)^n$ by that phase group fixed by the symplectic pairing. A section of that extension remains a choice: the bare products $X^{\\otimes x}Z^{\\otimes z}$, or the genuine operators that insert $Y=iXZ$ at every qubit where $x$ and $z$ overlap. As Fourier analysis on an abelian shift-character lattice (a natural DFT), this formulation is not qubit-bound: $(\\mathbb{Z}_p)^n$ recovers Heisenberg-Weyl qudits. The fast algorithm is the FFT for the group at hand; on $(\\mathbb{Z}_2)^n$ that FFT is Walsh-Hadamard, at cost $O(n\\cdot 4^n)$. paulikit is a memory-bounded realization of that qubit transform: peak usage need not materialize the dense $2^n\\times 2^n$ operator, unlike prior codes whose $O(1)$ extra sits on that buffer, checked beyond a billion oscillator terms against Work-Span and bandwidth ceilings.",
+    "authors": [
+      "Khellat, Mohammadreza",
+      "Masoumi, Mohammad",
+      "Nasoori, Saman",
+      "Nasoori, Soroush"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:34.665998Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212272",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212272",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212272"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

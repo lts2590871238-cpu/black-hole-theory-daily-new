@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06797",
+    "arxiv_id": "2610.06797",
+    "arxiv_version": null,
+    "inspire_id": "3212039",
+    "doi": null,
+    "title_en": "From Quantum Tunneling to Classical Optimization through Instantons",
+    "abstract_en": "We use an instanton-based analysis to show that Path Integral Stochastic Gradient Descent (PISGD), a classical optimization algorithm instantiated from path integral Monte Carlo (PIMC), can inherit the quantum tunneling mechanism. Quantum tunneling is the phenomenon in which a quantum particle passes through a potential barrier that a classical trajectory cannot cross in the same way. This mechanism can contribute to the performance of quantum optimization algorithms, since a common bottleneck in optimization is that the solution becomes trapped in a local minimum, separated from better solutions by a potential barrier. Classical noise-driven optimizers, such as stochastic gradient descent (SGD), have escape times that scale exponentially with the potential barrier height. For quantum tunneling, the escape time is instead exponential in the bounce action, which equals twice the Agmon distance between the two basins. When the barrier is tall but thin, quantum tunneling can allow escaping local minima faster than such classical methods. Remarkably, this scaling is not exclusive to algorithms with genuine quantum dynamics. For PISGD applied to classical nonconvex global optimization, we adapt Kramers' escape-rate theory to path space and obtain the same exponential scaling as quantum tunneling, in terms of the bounce action rather than the barrier height. We confirm this scaling numerically by implementing PISGD for both separable and nonseparable potentials. That said, PISGD retains only incoherent tunneling, since coherence among multiple tunneling paths is absent. Our analysis therefore does not rule out a potential quantum advantage for quantum-tunneling-based algorithms over classical ones in general.",
+    "authors": [
+      "Shen, Jiayu",
+      "Herman, Dylan",
+      "Ozgul, Guneykan",
+      "Seshadri, Akshay",
+      "Kim, Junhyung Lyle",
+      "Sureshbabu, Shree Hari",
+      "Chakrabarti, Shouvanik",
+      "Kumar, Niraj"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:08:56.643059Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212039",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212039",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212039"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

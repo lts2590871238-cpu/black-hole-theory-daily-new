@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06753",
+    "arxiv_id": "2610.06753",
+    "arxiv_version": null,
+    "inspire_id": "3212026",
+    "doi": null,
+    "title_en": "Discovering New Problems for Decoded Quantum Interferometry",
+    "abstract_en": "Decoded quantum interferometry (DQI) uses classical error correction to solve optimization problems, but it is hard to tell which problems could give it a quantum advantage. We develop soundness rules that screen candidate problems by their code parameters, decoding guarantees and classical baselines. For the standard objective of counting satisfied constraints, we prove that under worst-case Hamming decoding DQI's guarantee can exceed Prange completion by at most $(\\sqrt{2}-1)/2$. Optimal polynomial intersection (OPI) attains this margin cap asymptotically, so no candidate in this setting can exceed OPI's margin. We also derive a performance law for real-valued objectives: the objective fixes both the solution quality and which errors the decoder must correct. An AI-agent search guided by these rules found two candidate applications. Alternant max-agreement on McEliece-type public keys tests what a secret decoder is worth to DQI against classical solvers that see only the public instance. Multiplicative polynomial intersection, a knapsack-type problem built from discrete logarithms, pairs a cosine objective with a public decoder for signed errors. For both we prove decoding guarantees and finite-length comparisons with Prange restarts, and on the larger instances we tested, DQI's expected quality exceeds what our classical solvers reach within fixed budgets.",
+    "authors": [
+      "Mazumder, Rhik",
+      "Niroula, Pradeep"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:53.181661Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212026",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212026",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212026"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

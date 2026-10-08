@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.07424",
     "arxiv_id": "2610.07424",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3212161",
     "doi": null,
     "title_en": "Adaptive proposals for nonparametric equation-of-state inference with RIFT: iterative Gaussian-process refinement in a compressed sequence representation",
     "abstract_en": "Nonparametric equation-of-state (EOS) inference evaluates the likelihood on a finite ensemble drawn from a prescribed functional prior. Reweighting that ensemble suffices for the binary neutron stars detected so far, and loses effective sample size only once the likelihood concentrates --- which needs third-generation catalogues, or extra electromagnetic and nuclear-theory information folded into the same target. We develop and validate an adaptive-proposal procedure that leaves the base prior fixed: data-informed generations are combined by multiple importance sampling and, where that degenerates at large catalogue size, by a calibrated Gaussian projection. We implement it in two representations --- a compressed principal-component parametrization of the neutron-star sequence, whose draws need no stellar-structure solve, and a sound-speed parametrization with a differentiable Tolman--Oppenheimer--Volkoff solver --- both on a constrained low-density-to-pQCD bridge. Because that anchor, and not the bridge, fixes the low-density prior, we rebuild the ensemble with a crust-plus-chiral-EFT anchor in place of the wide nuclear metamodel: the maximum-mass prior is unmoved, the radius gains a hard prior ceiling at the measured NICER value. GW170817 with the specified NICER and radio factors gives the calibration-conditional $R(1.4\\,M_\\odot)=11.7\\pm0.4$km; in a synthetic $1000$-event catalogue it reproduces the mean fixed-prior $Λ(1.4\\,M_\\odot)$ to $0.4$%, $1.5$ times wider, as the fixed archive's effective sample size falls from $\\sim\\!470$ to 22.",
@@ -16,23 +16,31 @@
       "astro-ph.HE",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-10-05T21:31:30Z",
-    "updated_at": "2026-10-05T21:31:30Z",
-    "document_types": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:28:59.778695Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.07424v1",
     "pdf_url": "https://arxiv.org/pdf/2610.07424v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212161",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.07424",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
         "url": "https://arxiv.org/abs/2610.07424v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3212161",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212161"
       }
     ],
     "is_demo": false

@@ -7,14 +7,14 @@
     "inspire_id": "3210912",
     "doi": null,
     "title_en": "Robustness of quantum spectrum estimation: weak Schur sampling under noisy inputs",
-    "abstract_en": "We initiate the study of weak Schur sampling (WSS) under noisy input. Many optimal quantum learning algorithms rely on this measurement, for instance in such fundamental tasks as quantum spectrum estimation (QSE) and quantum state tomography (QST). The standard analysis of WSS, QSE and QST assumes that the $n$ input copies of the target state $ρ$ are identical. We study what happens when they are not, a more realistic noisy scenario that breaks the very permutation symmetry on which WSS is built. In the simplest noise model, the copies are independent but not necessarily identical, i.e. they form a product state, and each is $ε$-close in trace distance to the $d$-dimensional target state $ρ$. A naive data-processing argument lets the per-copy errors accumulate to $nε$ on measurement output, growing with the input size. We prove that they do not accumulate: the expected output error in total variation is at most $ε+η(n,d)$, where $η(n,d)=O(d/\\sqrt n)$ is the noiseless error, and the additive noise term $ε$ is optimal. Beyond noisy product states, for arbitrary inputs $ω$ we show that the outcome observables of WSS are $1/n$-Lipschitz with respect to the quantum Wasserstein distance $W_1$ of De Palma et al., so the error is at most $η(n,d)+\\frac{1}{n}\\|ω-ρ^{\\otimes n}\\|_{W_1}$. In particular, our results imply, for the first time, noise-robustness of Keyl and Werner's seminal algorithm for QSE, more than two decades after its introduction. Within our model of robustness, the promise cannot be weakened to closeness of single-copy marginals or to a global trace-distance budget alone, since in both cases some noisy inputs defeat every measurement and estimator. Our results are a necessary step towards optimal quantum learning in practice, and help make progress towards robustness of many other problems in quantum information theory.",
+    "abstract_en": "We initiate the study of weak Schur sampling (WSS) under noisy inputs. Many optimal quantum learning algorithms rely on this measurement, for instance in quantum spectrum estimation (QSE) and quantum state tomography (QST). The standard analysis of WSS, QSE and QST assumes that the $n$ input copies of the target state $ρ$ are identical, i.e. $ρ^{\\otimes n}$. We study what happens when they are not, a more realistic noisy scenario that breaks the very permutation symmetry on which WSS is built. In the simplest model the input is a noisy product state: the copies are independent but not necessarily identical and each is $ε$-close in trace distance to the $d$-dimensional target state $ρ$. A naive argument via the data-processing inequality allows the per-copy errors to accumulate to $nε$ on the measurement outcome. We show that for QSE via WSS this does not happen: the expected estimation error in total variation is at most $ε+η(n,d)$, where $η(n,d)=O(d/\\sqrt n)$ is the noiseless error, and the additive noise term $ε$ is optimal. The output error does not grow with $n$ even though the input error does; in this sense WSS is robust. Beyond noisy product states, for arbitrary input $ω$ we show that the error is at most $η(n,d)+\\frac{1}{n}\\|ω-ρ^{\\otimes n}\\|_{W_1}$, where $W_1$ is the quantum Wasserstein distance of De Palma et al. In particular, our results imply, for the first time, noise-robustness of Keyl and Werner's seminal algorithm for QSE, more than two decades after its introduction. Finally, we show that the noise cannot be too bad: within our model of robustness the promise on the input cannot be weakened to closeness of single-copy marginals or to a global trace-distance budget alone, as in both cases some inputs defeat every measurement and estimator.",
     "authors": [
       "Visnevskyi, Vladyslav",
       "Mančinska, Laura"
     ],
     "categories": [],
     "submitted_at": "2026-10-02T00:00:00Z",
-    "updated_at": "2026-10-06T02:46:39.362802Z",
+    "updated_at": "2026-10-07T03:26:56.603696Z",
     "document_types": [
       "article"
     ],
@@ -30,7 +30,7 @@
       {
         "source": "inspire",
         "record_id": "3210912",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
         "url": "https://inspirehep.net/literature/3210912"
       }
     ],

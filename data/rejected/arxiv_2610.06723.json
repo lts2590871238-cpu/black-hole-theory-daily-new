@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06723",
+    "arxiv_id": "2610.06723",
+    "arxiv_version": null,
+    "inspire_id": "3211825",
+    "doi": null,
+    "title_en": "Approximate cloning of structured pure states",
+    "abstract_en": "The no-cloning theorem is a cornerstone result in quantum mechanics that forbids copying of general quantum information. More quantitatively, even given $N$ copies of an unknown state, any channel producing an $(N+1)$-copy state incurs a nonzero trace-distance error on some inputs. Turning this around, one can ask about the sample complexity of approximate $N\\rightarrow N+1$ cloning: for a desired small error $ε$, what $N$ suffices? For arbitrary pure states on a Hilbert space $H$, the answer is $N\\simeq \\dim H/ε$ - astronomically large for most $H$ of interest. What if the input is promised to lie in a structured family? We examine a range of families fundamental to many-body physics and quantum information: $n$-mode fermionic Gaussian and Slater states, $n$-mode bosonic Gaussian states, and qudit phase states. For fermions, we construct optimal cloning channels, reducing the complexity from exponential to polynomial in $n$. For bosonic Gaussian states, we construct an explicit cloner that certifies polynomial complexity, without any constraint on the energy of the state; this channel, however, is not optimal in general. The fermionic and bosonic results follow from a single representation-theoretic framework, which generalizes previous work by Werner and by Chiribella and Yang; it also yields the cloners' unitary implementation. Furthermore, we explain why for many families the cloning complexity is linear in the dimension of the family manifold, via a controlled saddle-point evaluation of the frame potential at high $N$. The same calculation accounts for the analogous scaling of tomography complexity. The above framework does not cover phase states; for these we give an independent construction of a channel with optimal cloning fidelity. Our work complements recent results on cloning stabilizer states.",
+    "authors": [
+      "Herasymenko, Yaroslav",
+      "Lin, Junqiao",
+      "Lunel, Philip Verduyn",
+      "Grinko, Dmitry"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:03:39.657908Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211825",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211825",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211825"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

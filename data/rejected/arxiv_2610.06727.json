@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06727",
+    "arxiv_id": "2610.06727",
+    "arxiv_version": null,
+    "inspire_id": "3211827",
+    "doi": null,
+    "title_en": "Random Order in Quantum Streaming: Replenishment and Robust Lower Bounds",
+    "abstract_en": "How can random order change the role of quantum memory in streaming? Later classical input can restore the usefulness of a quantum state consumed by earlier queries. We call this replenishment. We construct an artificial problem based on Hidden Matching, with repeated coordinate data and online matching requests. It admits a one-pass quantum algorithm using polylogarithmic space in uniformly random order, but unconditionally requires polynomial space both classically in random order and quantumly when all updates precede the requests. To prove the quantum lower bound, we strengthen the consumability bounds of Gilboa, Jain, and McClean for Multiple Hidden Matching. Without prior entanglement, any quantum encoding supporting $r$ independent matching requests requires $Ω(r)$ qubits for $r\\le N^{1/2-δ}$ and every fixed $δ\\in(0,1/2)$, even with simultaneous revelation and arbitrary joint decoding. For sequential requests, the linear bound extends through $r=Θ(\\sqrt N)$. We also adapt Kallaugher's triangle-counting algorithm to uniformly random streams in which every edge is repeated equally often. Rebuilding the quantum sketch and resampling the classical estimator improve its expected-space bound in suitable parameter regimes. Finally, we extend the robust Noisy Gap Cycle framework of Assadi and Sundaresan to quantum streaming. A quantum communication lower bound for Block Hidden XOR yields an $Ω(n)$ space lower bound in random edge order for large enough cycles, with consequences for several graph problems. Thus random order can enable replenishment of small quantum representations, while substantial space requirements persist for other tasks.",
+    "authors": [
+      "Voronova, Nadezhda"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:12.595169Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211827",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211827",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211827"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

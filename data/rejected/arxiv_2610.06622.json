@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06622",
+    "arxiv_id": "2610.06622",
+    "arxiv_version": null,
+    "inspire_id": "3211834",
+    "doi": null,
+    "title_en": "GPU-Initiated Discrete Simulated Bifurcation: Low-Latency Requests and Streaming Dense Couplings",
+    "abstract_en": "GPU-based optimization faces two communication bottlenecks: coordinating frequent requests and delivering dense models that exceed device memory. We present a discrete simulated bifurcation (dSB) architecture that addresses both through NVIDIA DOCA GPUNetIO. For resident models, a persistent service receives field updates, executes each solve within one GPU thread block, and returns the result. Exact integer coupling sums, GPU work queues, and batched transmission keep the receive--solve--reply path on the device without a dedicated CPU data-path core. In comparisons with socket-based servers using the same solver, the largest latency gains occur under concurrent load. As the offered load increases from 400 to 800 thousand requests per second, median round-trip latency rises by only 6%. At the highest tested load, median and 99th-percentile latencies are 189 and 218~$μ$s, compared with 288 and 609~$μ$s for the tuned persistent CPU proxy across repeated runs. For models larger than device memory, a streaming solver retains dynamical state on the GPU and reuses incoming coupling tiles across replicas. It evaluates ten-million-variable dense binary matrices at approximately 307~Gb/s, consuming a 12.5-TB logical matrix through a 64-MiB packet buffer. Ground-state recovery on planted instances and agreement with reference executions verify the computation. Together, the two modes scale dSB to concurrent requests and dense models beyond GPU memory.",
+    "authors": [
+      "Chen, Yaocheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T13:02:39.539601Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211834",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211834",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211834"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

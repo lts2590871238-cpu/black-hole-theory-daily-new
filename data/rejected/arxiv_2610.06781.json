@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06781",
+    "arxiv_id": "2610.06781",
+    "arxiv_version": null,
+    "inspire_id": "3212035",
+    "doi": null,
+    "title_en": "Pretty good shadow tomography",
+    "abstract_en": "We give a shadow tomography algorithm that uses $O(\\log(m) \\log(m/δ) / \\varepsilon^2)$ copies of the input state. Specifically, given a quantum state $ρ$ and observables $O_1,\\ldots,O_m$, the algorithm outputs estimates of $\\mathrm{tr}(O_iρ)$ for all $i\\in[m]$ that are all accurate to within $\\pm\\varepsilon$, except with probability at most $δ$. The key idea is to work in the average-case setting: for a random state drawn from a known prior, a pretty good measurement on $O(\\log(m)/\\varepsilon^2)$ copies gives a constant-error guarantee on all but a small fraction of the prior. Boosting this guarantee gives an average-case shadow tomography algorithm, and the minimax principle then (non-constructively) implies the existence of a measurement with the same worst-case guarantee. We also identify an obstruction to further improvement with this approach. While pretty good measurements amplify success over the randomness of the prior, they do not amplify success over the randomness of measurement. This issue appears to be inherent, and gives rise to the remaining $\\log(m)$ factor separating the complexity of the quantum problem from its classical counterpart.",
+    "authors": [
+      "Grewal, Sabee",
+      "Pelecanos, Angelos",
+      "Spilecki, Jack",
+      "Tang, Ewin",
+      "Wright, John"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:28:07.424844Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212035",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212035",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212035"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

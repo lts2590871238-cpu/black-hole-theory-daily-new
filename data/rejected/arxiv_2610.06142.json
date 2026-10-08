@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06142",
+    "arxiv_id": "2610.06142",
+    "arxiv_version": null,
+    "inspire_id": "3211819",
+    "doi": null,
+    "title_en": "When Equivalent Quantum Circuits Lose Synthesis Choices",
+    "abstract_en": "Quantum compilers synthesize high-level operations, such as the quantum Fourier transform and multi-controlled X gates, into gate-level circuits. Across compilation stages, a circuit may be serialized, exchanged as OpenQASM, converted between compilers, or lowered to gates. These representation changes can preserve computation while removing the high-level operation itself, leaving the receiving compiler unable to apply a requested synthesis method. We call this loss synthesis availability. We study synthesis availability in Qiskit, TKET, and Cirq through controlled experiments, repository analysis, circuits captured from project tests, and a Munich Quantum Toolkit pipeline. Synthesis availability survives serialization when deserialization restores the high-level operation and survives compiler conversion only when the receiving compiler supports that operation. It does not survive the evaluated OpenQASM routes. After a direct OpenQASM 3 round trip, requested synthesis has no effect in all 360 delivered conditions even though compilation succeeds. In the MQT pipeline, OpenQASM 2 interchange increases the two-qubit gate count by 37.2 percent for an eight-qubit Grover circuit. We also introduce Verified, which records high-level operations before a representation change and reconstructs them only when a check confirms that the record still matches the delivered circuit. Verified restores requested synthesis in all 830 recovery runs, with median verification times from 2.0 to 638 ms per operation family. The check rejects every stale record but also some valid records. These results show that preserving functional equivalence alone is insufficient when later synthesis choices depend on retained high-level structure.",
+    "authors": [
+      "Ye, Boshuai",
+      "Liang, Peng",
+      "Khan, Arif Ali"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:28.017338Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211819",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211819",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211819"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

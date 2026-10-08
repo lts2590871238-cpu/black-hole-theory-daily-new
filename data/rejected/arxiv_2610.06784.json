@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06784",
+    "arxiv_id": "2610.06784",
+    "arxiv_version": null,
+    "inspire_id": "3211840",
+    "doi": null,
+    "title_en": "How to scale your HEP ML models: A recipe for robust architecture comparisons at scale",
+    "abstract_en": "Much of the recent progress in machine learning domains such as language models has come from scaling laws that predict performance as a function of training effort. In high-energy physics (HEP) similar behavior has now been observed. To aid further study, we present a systematic procedure to derive robust scaling laws and compare design choices on the relevant budget axes for HEP tasks. We first validate the full scaling trajectory on toy problems and then apply the procedure to multi-task transformers on the ~11 billion-jet ATLAS JetSet2 dataset, in both the compute- and data-constrained regimes. For the latter, we predict, to the best of our knowledge for the first time, the jointly optimal model size, training horizon, learning rate and batch size under early stopping. At compute-optimal scaling, we recover a near-equal $\\sqrt{C}$ dependence of model and dataset size, and find that auxiliary objectives lower the primary jet-classification loss at equal compute budget. Expanding the inputs toward lower-level data systematically lowers the loss while leaving the scaling exponent nearly unchanged. The onset of the power-law regime is itself set by scale: below a threshold in dataset size the loss carries little information about high-compute scaling, underscoring the value of large, high-quality full-simulation datasets as a foundation for scaling studies and the development of foundation models in HEP.",
+    "authors": [
+      "Vigl, Matthias",
+      "Pond, Nikita",
+      "Barr, Jackson",
+      "Froch, Alexander",
+      "Guest, Dan",
+      "Hartman, Nicole",
+      "Kagan, Michael",
+      "Heinrich, Lukas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T17:53:06.930136Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211840",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211840",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211840"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

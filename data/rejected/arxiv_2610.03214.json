@@ -6,15 +6,15 @@
     "arxiv_version": null,
     "inspire_id": "3211071",
     "doi": null,
-    "title_en": "Quantum code parameters, checkable by a certificate of provable size",
-    "abstract_en": "A code is described by three numbers: its physical qubits, its logical qubits, and the smallest error it cannot detect, counted in qubits. The first two are linear algebra. The third, the distance, is an optimum over an exponentially large set, read off a solver whose answer carries no certificate. Whether a code's parameters can be checked uniformly across codes, with a certificate of proved size, is open. Here we show that they can, by moving the unit of work from the code to a \\emph{certificate}, a short object, either a list, a pairing or a symbolic instance, whose correctness the kernel of the \\Lean proof assistant decides by computation. The kernel is the small core that checks each step. The certificate's size is itself a theorem: its enumeration form lists the vectors of weight below the distance $d$, $\\sum_{j<d}\\binom{n}{j}$ of them, a polynomial in the code's length $n$ at fixed distance $d$. No bound uniform over codes in both $n$ and $d$ is smaller. For product families the certificate is smaller still, the bound being proved once, symbolically. Deciding that a vector lies outside the row space of the check matrix, the set of sums of its rows, becomes one matrix-vector product and one inner product. On an eighteen-qubit toric code, a surface code closed into a torus, the whole-file check of that decision falls from 42 s to 9 s. Eleven code families and thirty-nine parameter sets follow, the widest at 1872 qubits. Nothing beyond the three standard axioms of \\Lean's logic is trusted, though the generator that writes a code's checks stops at twenty qubits, and the lower bound for the 144-qubit code is imported rather than proved here. A distance becomes checkable rather than believed, and the same move applies wherever else a computation ends in a solver.",
+    "title_en": "Quantum error-correcting code parameters, checkable by a certificate of provable size",
+    "abstract_en": "Quantum error correction protects quantum information by encoding it in a code described by three numbers: how many physical qubits it uses, how many logical qubits it protects, and the smallest error it cannot detect. The last is an optimum over exponentially many candidates, so it is read off a solver rather than checked. Here we show that code parameters can be certified by a short certificate, a list or a pairing or a symbolic instance, whose correctness the kernel of a proof assistant decides by computation, and whose size is itself a theorem rather than an estimate. Two published code families have distances settled here: the bivariate bicycle code's $[[144,12,12]]$, certified, and the affine-permutation codes printed at $[[1152,580,\\le 12]]$ and $[[2304,1156,\\le 14]]$, settled at twelve and fourteen. Eleven code families and thirty-nine parameter sets follow, with nothing beyond three standard axioms trusted and the pipeline's specification step preset to twenty columns.",
     "authors": [
       "An, Shuoming",
       "Yang, Fusheng"
     ],
     "categories": [],
     "submitted_at": "2026-10-02T00:00:00Z",
-    "updated_at": "2026-10-06T04:50:05.405533Z",
+    "updated_at": "2026-10-07T06:19:13.645928Z",
     "document_types": [
       "article"
     ],
@@ -30,7 +30,7 @@
       {
         "source": "inspire",
         "record_id": "3211071",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
         "url": "https://inspirehep.net/literature/3211071"
       }
     ],

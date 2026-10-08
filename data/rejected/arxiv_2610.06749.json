@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06749",
+    "arxiv_id": "2610.06749",
+    "arxiv_version": null,
+    "inspire_id": "3212027",
+    "doi": null,
+    "title_en": "Efficient Logic with Ultra-High-Rate Quantum Codes",
+    "abstract_en": "Quantum low-density parity-check (qLDPC) codes offer a promising route to reducing the qubit overhead of fault tolerance, with recent ultra-high-rate constructions achieving encoding rates above one half. In this work, we develop fast and parallel logical computation methods for ultra-high-rate codes. We first utilize the group symmetries of the codes to partition the logical qubits into orbits, and then apply parallel surgery methods to implement group-invariant collections of logical Pauli-product measurements. These measurements are highly programmable, as we may arbitrarily couple logical orbits as long as each measurement is repeated across the whole orbit(s). To reduce the space and time overheads, we develop a technique called chain-map convolution, which uses the group structure to boost both the spatial and temporal distances of our protocol in a highly efficient manner. As case studies, we construct distance-preserving parallel measurement gadgets for the [[256, 68, 12]], [[576, 148, 18]] pair-partition codes, and a [[1152, 580, 12]] rate-$1/2$ code, with only around $2.5\\times$ space overhead and 3-4 rounds of syndrome extraction each. The same methods also enable parallel injection of cultivated magic states into high-rate codes. Finally, we extend programmability through subgroup restrictions, revealing a tradeoff between logical control and the spacetime resources required for fault tolerance and highlighting the crucial role structured parallelism plays in reducing overhead. These results provide new methods for designing qLDPC logical operations with low spacetime overhead, opening a route toward more efficient fault-tolerant quantum architectures.",
+    "authors": [
+      "Maskara, Nishad",
+      "Mehta, Rohan",
+      "He, Zhiyang",
+      "Menon, Varun",
+      "Ataides, J. Pablo Bonilla",
+      "Lukin, Mikhail D.",
+      "Zhou, Hengyun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:31.513256Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212027",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212027",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212027"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

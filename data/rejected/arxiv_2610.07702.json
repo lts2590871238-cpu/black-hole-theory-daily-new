@@ -1,0 +1,74 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07702",
+    "arxiv_id": "2610.07702",
+    "arxiv_version": null,
+    "inspire_id": "3212199",
+    "doi": null,
+    "title_en": "Demonstration of Parallel Multi-QPU Execution for Fragment-Based Quantum Chemistry Using On-Premises Hardware",
+    "abstract_en": "Fragment molecular orbital (FMO) quantum chemistry offers a natural route to parallel quantum computing: large molecular calculations can be decomposed into smaller quantum subproblems that can, in principle, run concurrently. Their practical benefit on real quantum hardware, however, has remained unclear. We demonstrate parallel FMO calculations on three room-temperature diamond-based 'Quoll' quantum computers installed on-site at the Oak Ridge Leadership Computing Facility. Helium clusters (He$_{n}$, $n=2,4,8,10,14$) served as a testbed for total energy calculations using the Quantum Wave Function Sampler (QWFS), a selected configuration interaction (SCI) approach. We compare two execution modes: synchronous shot-parallel execution, in which quantum processors jointly sample QWFS circuits and combine their SPAM-corrected counts into a single probability distribution; and asynchronous fragment-parallel execution, in which processors independently evaluate FMO fragments using device-specific optimized circuits. Both modes increase quantum sampling throughput without systematic loss of accuracy. The three-QPU shot-parallel workflow reaches a parallel efficiency of $93.60\\%$, while the fragment-parallel workflow achieves a measured efficiency of $75.01\\%$, increasing to $95.17\\%$ when excluding the non-useful idle time associated with non-interruptible submitted jobs. In both cases, the assembled FMO-QWFS energies remain chemically accurate compared to the classical ideal. These results provide a proof-of-concept demonstration that parallel quantum execution can improve the practical throughput of quantum chemistry workflows on prototype hardware, motivating the development of future HPC environments with many fault-tolerant quantum processors operating as a distributed resource for molecular and materials simulation.",
+    "authors": [
+      "Herrmann, Nils",
+      "Akhtar, Mariam",
+      "Bertels, Luke W.",
+      "Cameron, Leigh",
+      "Chan, Raymond",
+      "Cheng, Lei",
+      "Claudino, Daniel",
+      "de Burgh, Mark",
+      "Gemmell, Simon",
+      "Geng, Rugang",
+      "Gillett, Geoff",
+      "Humble, Travis",
+      "Irle, Stephan",
+      "McMahon, John P.",
+      "Ortiz, Christian",
+      "Preis, Florian",
+      "Sawadsky, Andreas",
+      "Sawyer, Bianca",
+      "Singer, Reuben",
+      "Tunikipati, Sai Meghana",
+      "Walters, Cameron",
+      "Whichello, Lachlan",
+      "Zegelin, Adam",
+      "Doherty, Marcus W."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:39.912557Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212199",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212199",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212199"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

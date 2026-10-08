@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06721",
+    "arxiv_id": "2610.06721",
+    "arxiv_version": null,
+    "inspire_id": "3211823",
+    "doi": null,
+    "title_en": "Tight Query Lower Bounds for Quantum Sampling, with an Application to Certified Randomness",
+    "abstract_en": "Random circuit sampling experiments, the leading demonstrations of quantum computational advantage, are tested with the linear cross-entropy benchmark (XEB), which scores outcomes by their ideal probabilities. We study what a high XEB score certifies about an untrusted quantum device. In the quantum query model, we show that the honest sampler's ideal score acts as a Tsirelson bound for efficient devices and certified randomness. First, exceeding the ideal score by a constant requires $Ω(N^{1/3})$ queries for the Haar and Fourier oracle ensembles with $N$ outcomes, and this bound is tight; this proves an earlier conjecture for Haar-random states and extends it to Fourier sampling. Second, for Fourier sampling and for Haar-random states accessed through the canonical state-preparation oracle, the $n$-bit output of a device that makes polynomially many queries and scores within $o(1)$ of the ideal score has $n-O(\\log n)$ bits of smooth min-entropy, even against an adversary who is entangled with the device and later learns the oracle; this is nearly optimal. As a corollary, sampling the collision distribution, which is proportional to the square of the ideal distribution, has query complexity $Θ(N^{1/3})$, and a coherent version of the same algorithm approximately prepares quantum Hadamard products of states with uniform amplitude magnitudes. Both lower bounds rest on progress measures that bound the excess over the ideal score and increase only slightly with each query. For Fourier sampling the measure is the norm of the coherent amplitudes for removing pairs in a purification of the random function, combining the polynomial method with the compressed oracle technique; for Haar-random states it is the square root of the average level in an expansion in Dirichlet orthogonal polynomials, controlled by an exact identity for the effect of one observation.",
+    "authors": [
+      "Bhateja, Keshav",
+      "Esmaili, Mehdi",
+      "Mantri, Atul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:03:34.925017Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211823",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211823",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211823"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

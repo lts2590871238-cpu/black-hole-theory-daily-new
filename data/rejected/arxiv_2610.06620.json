@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06620",
+    "arxiv_id": "2610.06620",
+    "arxiv_version": null,
+    "inspire_id": "3211997",
+    "doi": null,
+    "title_en": "Quantum Krylov Linear Solving Beyond Global Conditioning via Spectral Compression and Directional Stability",
+    "abstract_en": "Global condition-number dependence can substantially overestimate the difficulty of preparing normalized quantum linear-system solutions. Many existing beyond-conditioning approaches are favorable when globally ill-conditioned directions have limited relevance to the target solution. Here we study a harder regime for time-evolution quantum Krylov linear solving (QKS), where a vanishing eigenvalue remains solution-relevant and must be retained. We identify a QKS regime in which the solution-relevant spectrum is compressed into a compact reduced space where the ill-conditioning is concentrated along a soft direction aligned with the solution, so that normalization removes the divergent amplification along that direction and leaves only a bounded transverse response. Consequently, the normalized-state complexity need not inherit the divergence of the global condition number. Our contributions are threefold: (1) We show that the solution-relevant information admits a compact and stable QKS representation, with bounded subspace dimension, evolution time, and reconstruction overhead as the relevant eigenvalue vanishes. (2) We show that normalized-state difficulty is governed by whether inverse amplification changes the solution direction, rather than by the small eigenvalue alone; even an arbitrarily ill-conditioned reduced system can remain directionally stable when the amplification is solution-aligned. (3) We prove that this stability persists under finite projected-system errors and transfers to the actual QKS output, yielding an end-to-end complexity bound without inverse dependence on the retained small eigenvalue. An explicit separation family further shows that a full inverse-amplification criterion can diverge while the corresponding QKS quantities remain bounded.",
+    "authors": [
+      "Yu, Sijia",
+      "Zhou, Yifan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:09:09.380222Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211997",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211997",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211997"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

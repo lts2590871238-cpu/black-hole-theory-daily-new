@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06835",
+    "arxiv_id": "2610.06835",
+    "arxiv_version": null,
+    "inspire_id": "3211855",
+    "doi": null,
+    "title_en": "Distributional Quantum Query Complexity",
+    "abstract_en": "Quantum query complexity enjoys a variety of pleasing joint computation properties: for example, a composition theorem asserting $Q(f\\circ g)=Θ(Q(f)Q(g))$ for all Boolean functions $f$ and $g$; a direct sum theorem asserting that computing $k$ copies of a function (or search problem) costs $Ω(k)$ times as much as the cost of computing one copy; and a direct product theorem asserting that for Boolean functions, even succeeding at the direct sum problem with exponentially small probability still requires $Ω(k)$ times the cost of computing one copy to bounded error. However, all of these results are strictly for worst-case quantum query complexity. For example, if we have a fixed distribution $μ$ over inputs, the direct sum theorem says nothing about the quantum query complexity of computing $k$ copies of $f$ when the input comes from the product distribution $μ^k$ instead of being worst-case. (Note that while a standard Yao-type minimax theorem guarantees a hard distribution for the direct sum problem, there's no guarantee that this hard distribution is a product distribution.) A similar problem occurs for the direct product theorem and the composition theorem: none of these results respect distributions. In this work, we give distributional joint computation lower bounds for the composition, direct sum, and direct product problems. Along the way, we introduce some new tools for handling quantum query lower bounds, including (a) a new ``multiplicative'' variant of the $γ_2$ norm (which we use in place of the multiplicative adversary method for proving the direct product theorem), and (b) a new ``Shaltiel-free'' measure of quantum query complexity, which we show characterizes the composition behavior of distributional quantum query complexity and satisfies pleasing properties.",
+    "authors": [
+      "Ben-David, Shalev",
+      "Ebtehaj, M.H."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:06.266259Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211855",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211855",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211855"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

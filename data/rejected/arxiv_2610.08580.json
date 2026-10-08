@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08580",
+    "arxiv_id": "2610.08580",
+    "arxiv_version": null,
+    "inspire_id": "3211858",
+    "doi": null,
+    "title_en": "Physical Design Automation for Planar Superconducting Quantum Chips",
+    "abstract_en": "Superconducting circuits have emerged as one of the most promising and scalable platforms for quantum com- puting, with substantial industrial adoption driving qubit counts steadily upward. Yet the layout of the corresponding chips is still primarily performed manually, consuming multiple days or weeks of expert effort, even for moderately sized designs. Existing automation approaches sidestep this bottleneck by simplifying the underlying problem and relaxing physical constraints. Therefore, they fall short of fabrication-ready results. To overcome this scalability wall without such compromises, we first introduce a formal abstraction that translates physical device characteristics into a rigorous geometric problem formulation. This abstraction bridges physical realization and design automation. Building upon this abstraction, we then propose a three-stage design automation flow comprising geometry-aware global partitioning, ILP-based port assignment, and a hierarchical routing pipeline. Evaluations conducted by our interdisciplinary team of design au- tomation researchers and superconducting hardware experts con- firm that the resulting flow produces complete, manufacturing- ready layouts that comply with the physical design rules at the push of a button. That is, it operates fully automatically within seconds to a few minutes, and solves complex instances up to 25x faster than the state of the art. All methods are released as the fully open-source tool mqt-scpd as part of the Munich Quantum Toolkit, providing the first readily usable, end- to-end design flow for planar superconducting quantum chips that explicitly addresses the underlying physical characteristics and requirements.",
+    "authors": [
+      "Feldmeier, Michael",
+      "Walter, Marcel",
+      "Huber, Gerhard B.P.",
+      "Bhattacharjee, Anirban",
+      "Filipp, Stefan",
+      "Wille, Robert"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:46.751603Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211858",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211858",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211858"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

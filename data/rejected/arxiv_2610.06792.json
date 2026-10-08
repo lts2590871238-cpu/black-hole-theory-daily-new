@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06792",
+    "arxiv_id": "2610.06792",
+    "arxiv_version": null,
+    "inspire_id": "3212029",
+    "doi": null,
+    "title_en": "Error Mitigation From a Single Unmodified Error-Corrected Circuit",
+    "abstract_en": "Recent work has shown that syndrome information obtained during error-corrected quantum computation can be utilized for logical error mitigation (LEM), yielding exponential reductions in runtime overhead compared to external'' LEM methods, which do not make use of syndrome data. However, these syndrome-aware LEM methods (SALEM) generally require adaptive circuit operations based on real-time processing of syndromes. Here, we introduce syndrome-based offline logical error mitigation (SOLEM), a framework that utilizes syndrome data entirely in post-processing, without any modification to the given error-corrected circuit. In this sense, SOLEM is built into'' error-corrected circuits, and is in fact simpler to implement than external LEM protocols. The basic idea of SOLEM is to use naturally occurring syndrome-conditioned logical error channels in place of deliberate circuit modifications. We develop unbiased and heuristic estimators within this framework, including offline logical versions of probabilistic error cancellation (PEC) and zero-noise extrapolation (ZNE), as well as a global-regression estimator. SOLEM's fully offline nature leads to three significant advantages. First, SOLEM can post-process syndromes with a more powerful decoder than the one used in real time. Second, multiple estimators can be constructed from the same measured data and optimized using empirical statistical errors and related performance metrics. Third, logical error characterization is needed only in post-processing, allowing characterization data to be collected during circuit execution and reducing sensitivity to hardware drift. Remarkably, SOLEM estimators can achieve these advantages while attaining a runtime overhead which is exponentially lower than that of external LEM and is comparable to that of corresponding SALEM estimators.",
+    "authors": [
+      "Shutman, Maor",
+      "Aharonov, Dorit",
+      "Arad, Itai",
+      "Atia, Yosi",
+      "Bairey, Eyal",
+      "Brakerski, Zvika",
+      "Katzir, Barak A.",
+      "Lindner, Netanel H.",
+      "Golan, Omri",
+      "Gurwich, Ilya"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:25.379629Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212029",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212029",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212029"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

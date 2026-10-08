@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07252",
+    "arxiv_id": "2610.07252",
+    "arxiv_version": null,
+    "inspire_id": "3211848",
+    "doi": null,
+    "title_en": "Resource-Aware Grover Search for Minimum Vertex Cover",
+    "abstract_en": "The Minimum Vertex Cover (MVC) problem is a fundamental NP-hard combinatorial optimization problem with applications in network analysis and resource allocation. Grover's algorithm provides a quadratic reduction in query complexity for unstructured search, but existing Grover-based MVC formulations can incur substantial quantum resource overhead due to costly vertex-counting circuits and complex oracle constructions. We develop and evaluate several encoding and oracle-design strategies for reducing the qubit count, circuit depth, and gate complexity of Grover-based MVC search. First, we construct a Dicke-Parallel formulation that restricts the search to fixed-cardinality subsets, eliminating explicit vertex counting, together with a parallel edge-verification oracle that reduces feasibility-checking overhead. We then develop an Edge-Counting formulation that replaces per-edge auxiliary storage with a logarithmic-size counting register, substantially reducing ancillary-qubit requirements. Finally, we propose an Edge-Centric encoding that represents endpoint selections directly and derives vertex-selection states through incident-edge Boolean operations, enabling more depth-efficient oracle construction. Our resource analysis reveals complementary trade-offs among qubit width, circuit depth, gate count, and Grover iteration count. Edge-Counting is particularly attractive under tight qubit constraints, while Edge-Centric can reduce both circuit depth and Grover iteration count when the graph has a moderate edge count and sufficient representation multiplicity. Dicke-Parallel provides a more robust choice when such multiplicity is limited or graph density makes the edge-based search space large. These results provide practical guidance for selecting Grover-based MVC formulations according to hardware constraints and graph structure.",
+    "authors": [
+      "Jiang, Beilei",
+      "Fu, Harry",
+      "Yarlagadda, Pavan Krishna",
+      "Shan, Alexander",
+      "Feng, Yunhe",
+      "Fu, Song"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-08T02:25:09.392049Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211848",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211848",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211848"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06606",
+    "arxiv_id": "2610.06606",
+    "arxiv_version": null,
+    "inspire_id": "3211980",
+    "doi": null,
+    "title_en": "Staying Sober: A Shot-Free Predictor of Logical Error Rates for Concatenated Quantum Error Correcting Codes",
+    "abstract_en": "Estimating the logical error rate (LER) of a quantum error-correcting (QEC) code by Monte Carlo sampling takes $O(p^{-\\lceil d/2 \\rceil}/\\varepsilon^2)$ samples at physical error rate $p$, code distance $d$ and relative error $\\varepsilon$, which becomes intractable at large distances and low error rates, and especially for concatenated codes, whose distance grows as $d^{\\ell}$ with the number of levels $\\ell$. The fail fast method reduces this cost by sampling the failures of each weight separately, but it only works for unconcatenated codes, and does not model the soft information that the levels of a concatenated code pass to each other. We propose a predictor that takes the stabilizers, the minimum-weight logical operators and, for odd $d$, the logical operators of weight $d + 1$ of a code, and computes, without sampling, the leading monomial $c\\,p^{o}$ of the LER when expressed as a polynomial in $p$, at every level of concatenation, in time polynomial in the code parameters and linear in $\\ell$ for fixed budgets. We prove that our prediction is exact for any unconcatenated stabilizer code, for every logical observable and arbitrary per-qubit error rates, whenever no budget is exhausted. Furthermore, for concatenated codes, we construct a recursive approach that computes the leading monomial exactly in exponential time, and our predictor approximates this approach. Our predictions match exact enumeration at level 1 on every code we evaluate, and up to three levels for the iceberg code. Using our predictor, we evaluate and compare $37$ code configurations under four noise biases in $48$ core-hours, where Monte Carlo sampling would need more than $10^{12}$ shots at $p = 10^{-3}$ for $113$ of these $148$ cases.",
+    "authors": [
+      "Sethi, Sayam",
+      "Awasthi, Aditi",
+      "Poster, Maxwell",
+      "Viszlai, Joshua",
+      "Baker, Jonathan Mark"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:43.271178Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211980",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211980",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211980"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.07242",
+    "arxiv_id": "2610.07242",
+    "arxiv_version": null,
+    "inspire_id": "3212114",
+    "doi": null,
+    "title_en": "Quantum Machine Learning for Few-Shot Impersonation Detection in Digital Account Opening",
+    "abstract_en": "Identity impersonation fraud may emerge only after digital account opening, requiring an early post-onboarding approach based on behavioral and transactional signals observed shortly after activation. Confirmed cases remain rare, creating extreme class imbalance and material operational risk for digital banks. We evaluate quantum machine learning (QML) against classical one-class methods in this setting using a real 2025 cohort of 3,419 digital account openings from Banco de Creditos e Inversiones (BCI), Chile, including 8 confirmed impersonation-fraud cases (0.23% prevalence). The data were provided through an industry-research collaboration between BCI and CoreDevX LABTAV under operational constraints. The best-performing configuration used only 2 qubits and was executed on CoreDevX's SpinQ Triangulum II, a 3-qubit nuclear magnetic resonance (NMR) device, enabling hardware validation beyond classical simulation. The quantum one-class classifier based on Automatic Quantum Feature Mapping (AQFM) achieves 88% recall (7 of 8 frauds detected) and 9.21% precision, corresponding to approximately 70% fewer false positives than the best-performing classical baseline at comparable recall. When its 2025-calibrated decision threshold is applied unchanged to the independent 2026 cohort, AQFM detects 20 of 31 frauds (64.5% recall) with 8.81% precision and remains the best-performing model among those evaluated.",
+    "authors": [
+      "Canales, Javiera",
+      "Ortega, Jose",
+      "Araya, Maximiliano"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T12:03:11.475418Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212114",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212114",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212114"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

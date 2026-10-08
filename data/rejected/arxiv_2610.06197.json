@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06197",
+    "arxiv_id": "2610.06197",
+    "arxiv_version": null,
+    "inspire_id": "3211943",
+    "doi": null,
+    "title_en": "Improved Adaptive Estimation of Quantum Partition Functions with Heisenberg Scaling",
+    "abstract_en": "We give quantum algorithms that estimate the log partition function of an $n$-qubit quantum Hamiltonian to additive error $ε$ with Heisenberg scaling, while minimizing calls to thermal-state purification preparation. The input is a block encoding of $H$, unitaries preparing thermofield-double states at chosen inverse temperatures, with their inverses and controlled versions, and an adaptive slowly-varying cooling schedule. The system-size bounds below assume $0\\preceq H\\preceq hI$ with $h=O(n)$ and block-encoding normalization $α=Θ(h)$. For constant inverse temperature, we show that such a schedule of length $O(\\sqrt n)$ always exists and can be generated from overlap estimates with $\\widetilde O(\\sqrt n)$ further preparations. Given such a schedule and classically chosen temperatures, we estimate the log partition function with $\\widetilde O(n^{5/4}/ε)$ expected calls to state preparation and to the block encoding, improving by $n^{1/4}$ on non-adaptive strategies. To achieve our result, we use a recursive-doubling identity that expresses each schedule increment as a weighted sum of logarithms of thermofield-double overlaps and of short imaginary-time steps implemented by quantum singular value transformation combined with previously developed variance reduction techniques. If thermofield doubles can be prepared controlled on a temperature register, a quantum inverse-binomial log estimator combined with quantum mean estimation reduces both query counts to $\\widetilde O(n/ε)$. We show that the latter scaling is optimal in block-encoding queries up to polylogarithmic factors and discuss end-to-end complexities for one-dimensional partition-function estimation.",
+    "authors": [
+      "Wang, Yufei",
+      "França, Daniel Stilck",
+      "Slezak, Samuel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:21.889765Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211943",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211943",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211943"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

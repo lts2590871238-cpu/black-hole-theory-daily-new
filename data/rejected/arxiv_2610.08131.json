@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08131",
+    "arxiv_id": "2610.08131",
+    "arxiv_version": null,
+    "inspire_id": "3212345",
+    "doi": null,
+    "title_en": "Mu-DisCoCat: A Variational Pipeline for Compositional Generalization on Quantum Processors",
+    "abstract_en": "Achieving compositional concept generalization (CoCoGen), the ability to understand novel situations by recombining learned primitives, remains a fundamental challenge in artificial intelligence. Compositional semantic models such as Compositional Distributional Semantics (DisCoCat) offer solutions by generalising vectors to tensors, but suffer from scaling bottlenecks when learning the tensors. Mapping DisCoCat onto Variational Quantum Circuits (VQCs) resolves this limitation for text, yet the methodology has not been expanded to multimodal situations such as the ones involved in CoCoGen. This paper introduces Mu-DisCoCat: a multimodal variational quantum learning framework for DisCoCat that achieves CoCoGen. The framework first learns stable object representations from single-object image-text pairs, then fixes these and uses them to learn the relations between them in multi-object situations. In classical simulations, the model used Uhlmann state fidelity to compute the overlap between the multimodal circuit representations and achieved higher relational OOD accuracy than the evaluated CLIP baseline. Its deployment was evaluated using the destructive SWAP test across noisy quantum emulators, including a range of IBM fake backends, IQM FakeAphrodite, and the IBM Marrakesh quantum processor. Despite real-world device noise, the hardware-executed models maintained a strong positive correlation with simulated fidelities, reliably distinguishing unseen similar and dissimilar pairs. Our work establishes a framework for executing CoCoGen on VQCs, demonstrating a viable use case for near-term quantum hardware.",
+    "authors": [
+      "Abbaszadeh, Mina",
+      "Moore, Matilda Karabina",
+      "Haq, Raem",
+      "Lewis, Martha",
+      "Sadrzadeh, Mehrnoosh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-08T02:44:26.483753Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212345",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212345",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212345"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08714",
+    "arxiv_id": "2610.08714",
+    "arxiv_version": null,
+    "inspire_id": "3212303",
+    "doi": null,
+    "title_en": "Quantum Algorithms for Multivariable Polynomial Transformations: From Efficient Synthesis to Quantum Channel Transformations",
+    "abstract_en": "Polynomial transformations are basic primitives in quantum algorithms: quantum signal processing and singular value transformation compile univariate polynomials into circuits with query complexity essentially set by degree. Multivariable transformations of noncommuting matrices, however, lack a comparable synthesis theory. We develop a complete constructive theory under joint block access for all polynomials contractive on the prescribed matrix domain. Given a compact finite-state description of a degree-$D$ polynomial $P$ and $0<τ<1$, we synthesize $P$ with $(1+τ)$-optimal normalization using $O(D/\\sqrtτ)$ queries, and exactly $D$ under row-block access, matching a degree lower bound. The complete circuit realization is classically computable in polynomial time with polylogarithmic dependence on accuracy. The key to our construction is a finite algorithmic Schur--Agler theorem: the coefficient recurrence defines a polynomial-dimensional continuation space supporting a complete semidefinite certificate for contractivity on the prescribed domain. Factoring this certificate yields the contractive realization underlying the query algorithm. Beyond matrix transformations, our framework lifts multivariable polynomial synthesis to quantum channel transformations. Given coherent Kraus access $K=\\{K_a\\}_a$, we synthesize any finite jointly contractive family of noncommutative polynomial maps $K\\mapsto\\{F_b(K)\\}_b$ as completely positive operations, allowing coherent interference among Kraus histories. Furthermore, channel-level transformations specified by causal Choi data can be synthesized explicitly as fixed-order quantum combs. Collectively, these results point to a broader program: multivariable approximation as a language for multi-operator quantum algorithms and higher-order quantum information processing.",
+    "authors": [
+      "Shen, Zheyu",
+      "Wu, Yusen",
+      "Yuan, Xiao",
+      "Zhang, Xiao-Ming",
+      "Zhang, Yukun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:13.524345Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212303",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212303",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212303"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

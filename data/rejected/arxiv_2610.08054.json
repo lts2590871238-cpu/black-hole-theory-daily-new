@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08054",
+    "arxiv_id": "2610.08054",
+    "arxiv_version": null,
+    "inspire_id": "3212250",
+    "doi": null,
+    "title_en": "HybridMC: a fast detailed simulation framework for optical calorimeter technologies at the LHCb ECAL Upgrade II",
+    "abstract_en": "The detailed Monte Carlo simulation of optical calorimeters is dominated by the generation and tracking of scintillation and Cherenkov photons, which in standard Geant4 ray-tracing increases the CPU time per electromagnetic shower by up to three orders of magnitude compared to simulating only the energy deposition. At the luminosity and granularity foreseen for the LHCb ECAL Upgrade II, this cost becomes prohibitive for both detector R&D and large-scale sample production. The optical photons cannot simply be discarded, because the time resolution of a few tens of picoseconds targeted by the upgrade to mitigate pile-up is driven by their arrival-time distribution at the photo-detectors. This paper presents HybridMC, a fast and detailed simulation framework for optical calorimeters that decouples shower development from optical transport. Energy deposition is handled by a standard Geant4 simulation without optical photon propagation, while light transport is reproduced by a parametrised summary Monte Carlo step based on probability density functions extracted from a one-time full ray-tracing optical calibration. A Monte Carlo-to-Monte Carlo validation shows good statistical agreement with full ray-tracing for all module types of the upgraded LHCb ECAL, from individual photon arrival times up to the reconstructed energy and time resolutions. The CPU time is reduced by more than two orders of magnitude, with module-dependent acceleration factors from 150 to 480. A comparison to test-beam data from DESY II and the CERN SPS shows that the framework reproduces the momentum dependence of the measured energy and time resolutions of a real prototype, up to a small residual constant term. HybridMC retains the microscopic optical detail not accessible to flash simulators based on generative models, at a CPU cost compatible with large-scale production on standard computing infrastructure.",
+    "authors": [
+      "Pizzichemi, Marco",
+      "An, Liupan",
+      "Betti, Federico",
+      "Bordelius, Aleksandar",
+      "Martinazzoli, Loris",
+      "Roloff, Philipp",
+      "Salomoni, Matteo",
+      "Zhang, Yanxi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-07T07:01:35.095215Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212250",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212250",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212250"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

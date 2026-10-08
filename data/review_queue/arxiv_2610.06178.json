@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06178",
+    "arxiv_id": "2610.06178",
+    "arxiv_version": null,
+    "inspire_id": "3212351",
+    "doi": null,
+    "title_en": "Not just a phase: detecting nanohertz gravitational waves from phase alone",
+    "abstract_en": "Unambiguously detecting a gravitational-wave background (GWB) in pulsar-timing data requires a robust detection statistic. The pulsar timing community currently relies heavily on the cross-correlation-based \"optimal statistic.\" Its design was motivated to avoid false-positive detections from unmodeled pulsar red noise. However, recent work by van Haasteren (2025) suggests that the optimal statistic is not, in fact, optimal. Moreover, the optimal statistic is still susceptible to false positives from misspecified noise. To guard against this, analysts employ quasi-resampling methods such as phase shifts, in which complex phases are randomly assigned to each pulsar strain measurement, thereby destroying any gravitational-wave-induced correlations. Inspired by the concept of phase shifts, we introduce a formalism in which the GWB is measured entirely from phase measurements. We argue that this approach is robust against false positive detections without the need for ad hoc quasi-resampling methods. We demonstrate the feasibility of this formalism by measuring the amplitude and spectral index of a simulated GWB, injected to a simplified mock representation of a pulsar timing array data set. For this example, we use simulation-based-inference and model the phase-based likelihood using a neural circular spline flow. We show that it is possible to adequately recover the spectral parameters of the gravitational wave background signal using the phase-based likelihood. By comparing our results to ones obtained with the optimal statistic, we show how much resolving power comes from amplitude versus phase.",
+    "authors": [
+      "Grunthal, Kathrin",
+      "Thrane, Eric",
+      "van Haasteren, Rutger",
+      "Champion, David J.",
+      "Kramer, Michael"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T14:29:35.463471Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212351",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212351",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212351"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "nanohertz gravitational wave",
+      "nanohertz gravitational waves",
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "nanohertz",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 95
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

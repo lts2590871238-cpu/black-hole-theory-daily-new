@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06815",
+    "arxiv_id": "2610.06815",
+    "arxiv_version": null,
+    "inspire_id": "3211843",
+    "doi": null,
+    "title_en": "CV-QAOA: Efficient Low-Depth Quantum Optimization of Continuous Variables",
+    "abstract_en": "We study a Continuous-Variable Quantum Approximate Optimization Algorithm (CV-QAOA) for high-dimensional continuous optimization. Our formulation extends an earlier CV-QAOA proposal with a variationally optimized initial state and recovers the convergence guarantees of Quantum Hamiltonian Descent (QHD) in the high-depth limit. We prove rigorous performance guarantees of CV-QAOA on several families of cost functions. First, we show $d$-step CV-QAOA minimizes any $d$-dimensional strictly convex quadratic function with $2d$ quantum queries to the cost function. We then analyze a family of nonconvex \"Rotated Double Well\" (RDW) functions with $2^d$ local minima introduced by arXiv:2311.00811. While prior work showed QHD reaches its global minimum with $\\tilde O(d^3)$ queries, we prove that 1-step CV-QAOA solves RDW with just two quantum queries. Although general-purpose classical solvers need superpolynomial time for RDW and structure-awareness can reduce the cost to polynomial time, we show that the 1-step CV-QAOA protocol can be efficiently dequantized, and that a gradient-aligned line search succeeds with $O(d)$ queries, nearly matching the information-theoretic $Ω(d/\\log d)$ query lower bound. To move beyond the dequantizable regime, we introduce a ``Rotated Square Well'' (RSW) problem, whose globally flat landscape suppresses useful local gradient information. For this family, we show that an adiabatic evolution simulated by CV-QAOA can reach the global minimum using $d^{o(1)}$ queries. On the other hand, any classical algorithm that learn the hidden rotation in RSW provably requires $Ω(d^2/\\log d)$ queries, a bound we nearly match with an explicit $Θ(d^2\\log d)$-query classical algorithm.Numerical simulations on deflected corrugated spring and Easom functions illustrate the promising performance of CV-QAOA on more general problems.",
+    "authors": [
+      "Bharadwaj, Sriram",
+      "Luo, Di",
+      "Zhou, Leo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:57.638892Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211843",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211843",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211843"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

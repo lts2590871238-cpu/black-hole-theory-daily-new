@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.05928",
+    "arxiv_id": "2610.05928",
+    "arxiv_version": null,
+    "inspire_id": "3211893",
+    "doi": null,
+    "title_en": "Evaluating the performance of QEC primitives on quantum processors at large width and depth",
+    "abstract_en": "Quantum error correction (QEC) relies on repeated parity extraction, mid-circuit measurement (MCM), reset, feed-forward, and scheduling, yet these primitives are usually assessed either in isolation or through resource-demanding experiments. We introduce a few-sample benchmark of QEC-relevant primitives based on an MCM implementation of the quantum approximate optimization algorithm (QAOA) with a fixed set of linear parameters (LR-QAOA). For a chosen code, the QAOA Hamiltonian is constructed from its check structure, such that the resulting circuit mimics the syndrome-extraction connectivity and MCM pattern while producing a direct algorithmic signal, the approximation-ratio r. The LR-QAOA depth, defined by the number of QAOA layers, plays a role analogous to the number of repeated syndrome-extraction rounds in a QEC experiment. From QPU executions, the decay of r with depth defines an effective hardware error, which we map to an equivalent two-qubit depolarizing rate λeff. We compare direct and MCM-mediated implementations across 10 QPUs from IBM, IQM, and Quantinuum, with circuits containing up to 2950 MCM operations. On Quantinuum's Helios-1 and H2-1, we run code-structured LR-QAOA benchmarks for surface-code, triangular color-code, and bivariate-bicycle qLDPC Hamiltonians up to 81, 91, and 48 data qubits, respectively, using up to 480 MCM operations. On IBM ibm_phoenix, we implement the surface-code structure and compare the LR-QAOA response with logical-memory experiments, observing a correlation between the benchmark and the logical performance across different regions of the QPU. Its construction and low resource requirements provide a practical benchmark for comparing hardware generations and QEC implementations before full logical-memory experiments are performed.",
+    "authors": [
+      "Michielsen, J.A. Montanez-Barrera; Kristel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:31:07.768905Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3211893",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3211893",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3211893"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

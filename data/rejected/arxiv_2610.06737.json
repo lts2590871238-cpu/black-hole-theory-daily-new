@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.06737",
+    "arxiv_id": "2610.06737",
+    "arxiv_version": null,
+    "inspire_id": "3212030",
+    "doi": null,
+    "title_en": "Anti-symmetrization is cheap and useful",
+    "abstract_en": "We consider the computational task of anti-symmetrization of an unknown mixed quantum state: Given iid copies of a rank-$r$ qudit state $ρ=\\sum_{i=1}^r λ_i |φ_i\\rangle\\!\\langleφ_i|$, prepare a copy of the state proportional to $Π_{\\mathrm{anti}}^r (|φ_1\\rangle\\otimes \\ldots\\otimes|φ_r\\rangle)$, with $Π_{\\mathrm{anti}}^r$ the anti-symmetric subspace projector. We first give a simple algorithm for anti-symmetrization that uses $\\widetilde{O}(r / λ_{\\min})$ copies of $ρ$, where $λ_{\\min}$ is the minimum non-zero eigenvalue of $ρ$. This algorithm works even in the streaming setting with small working memory, and it uses only simple quantum operations like controlled-SWAPs and constantly many layers of single-qubit gates. As an application of this streaming anti-symmetrization procedure, we give a reduction from gapped mixed-state one-way state generators to pure-state one-way state generators. Then, using tools from Schur-Weyl duality, we give and analyze a second (non-streaming) anti-symmetrization procedure that uses $O(r / λ_{\\min})$ copies of $ρ$, which then serves as a building block in new algorithms for weak Schur sampling and unitary Schur sampling, outperforming existing approaches in some regimes of number of copies $n$ and local dimension $d$, as well as in an algorithm for optimal purity amplification for qudit states.",
+    "authors": [
+      "Watts, Adam Bene",
+      "Bostanci, John",
+      "Caro, Matthias C.",
+      "Grier, Daniel",
+      "Liu, Sihan",
+      "Mahajan, Gaurav"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-05T00:00:00Z",
+    "updated_at": "2026-10-07T11:38:57.432348Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212030",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212030",
+        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "url": "https://inspirehep.net/literature/3212030"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
