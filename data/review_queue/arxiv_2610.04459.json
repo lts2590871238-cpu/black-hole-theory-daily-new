@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.04459",
+    "arxiv_id": "2610.04459",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Bias-aware Fisher forecasts for stochastic gravitational-wave background",
+    "abstract_en": "Whittle-likelihood forecasting of the stochastic gravitational-wave background underpins planned mHz interferometers (LISA, Taiji, TianQin). A composite two-stage estimator, per-bin amplitude estimation then unweighted log-space template fitting, inflates the marginal-Fisher amplitude error bar on resolved-bin count by up to an order of magnitude at \\(11.5\\)-d baseline. This inflation arises from the composite implementation, not the determinant-approximate \\texttt{gauss\\_D} likelihood it approximates. Jointly maximised, \\texttt{gauss\\_D} is unbiased (\\(R=1.000\\) within \\(10^{-4}\\)) and is recommended baseline with exact-Whittle likelihood. With exact Whittle as control and \\texttt{gauss\\_D} as working model, we calibrate bias vector and mean-squared-error matrix for power-law and smooth broken-power-law templates. First, for sharp signals of a \\(32\\)-point sound-shell scan, the composite estimator inflates amplitude error bar by \\(R=10.2\\) at \\(11.5\\)-d baseline (median \\(\\simeq3\\)), follows \\(R^2-1\\propto T_{\\mathrm{seg}}^2\\) at shorter segments, and has a non-removable efficiency gap \\(\\mathbf{C}_b\\) up to \\(18\\%\\) in \\(α_{\\mathrm{out}}\\). Second, the usual single-parameter Whittle-bias diagnostic does not track multi-parameter inflation and errs both ways. Third, inflation is negligible on \\(30\\)-min segments, \\(R-1\\le1.5\\times10^{-3}\\) over measured bias-exponent range, vanishes below sensitivity floor, and tracks resolved signal strength with \\(\\mathrm{corr}[\\ln \\mathrm{SNR},\\ln(R-1)]=0.91\\). Results are frequentist; interval diagnostics transfer to flat-prior credible intervals only in the locally Gaussian regime. The calibration is a strong-signal, stationary statement transferable only to a matching noise model.",
+    "authors": [
+      "Bo-Qiang Lu"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-03T11:49:07Z",
+    "updated_at": "2026-10-03T11:49:07Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.04459v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.04459v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.04459",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://arxiv.org/abs/2610.04459v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

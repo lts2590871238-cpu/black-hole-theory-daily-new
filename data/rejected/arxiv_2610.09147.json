@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.09147",
     "arxiv_id": "2610.09147",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3212399",
     "doi": null,
     "title_en": "Sampling SU(N) gauge theory on a 2D lattice from independent plaquettes via holonomies and corner reweighting",
     "abstract_en": "In the Wilson formulation of lattice gauge theory, the fundamental degrees of freedom are group-valued link variables, while the action is a sum over the trace of the plaquettes, the smallest Wilson loops. For generative sampling methods such as normalizing flows, this poses a challenge: the distribution of an individual plaquette is easy to model, but mapping sampled plaquettes to the links is the obstruction. We explore a statistical way around this in two dimensions for the $\\mathrm{SU}(N)$ gauge theory with the Wilson plaquette action. The action can be written in terms of holonomy variables, which determine the links once a consistency condition at the four corners of an extended lattice is satisfied. Using a boundary condition that only affects the holonomies, we trade this consistency condition for a conditional sampling problem, which reduces to sampling $X,Y\\in\\mathrm{SU}(N)$ given the group commutator $Z=XYX^\\dagger Y^\\dagger$, where $Z\\in\\mathrm{SU}(N)$ depends on the four corners. Plaquettes are sampled independently, and the resulting configurations carry weights due to the additional conditional sampling. We obtain the density of $Z$, which determines these weights, in closed form for $\\mathrm{SU}(2)$ and $\\mathrm{SU}(3)$. A normalizing flow models the single-plaquette distribution for $\\mathrm{SU}(2)$ and $\\mathrm{SU}(3)$; for the group-commutator problem we use a closed-form sampler for $\\mathrm{SU}(2)$ and a trained normalizing flow for $\\mathrm{SU}(3)$. In our tests on $2\\times2$ and $32\\times32$ lattices at two couplings each, per-plaquette acceptance rates exceed $99\\%$ and the effective sample size of the final weights is moderate, typically above one half.",
@@ -16,23 +16,31 @@
       "cs.LG",
       "hep-th"
     ],
-    "submitted_at": "2026-10-06T21:42:32Z",
-    "updated_at": "2026-10-06T21:42:32Z",
-    "document_types": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-09T02:25:53.933988Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.09147v1",
     "pdf_url": "https://arxiv.org/pdf/2610.09147v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212399",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.09147",
-        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
         "url": "https://arxiv.org/abs/2610.09147v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3212399",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212399"
       }
     ],
     "is_demo": false

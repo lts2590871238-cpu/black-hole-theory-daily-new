@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.03686",
     "arxiv_id": "2610.03686",
     "arxiv_version": 2,
-    "inspire_id": "3211105",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Efficient Block Encoding of Structured Hamiltonians by Separating Where and What",
     "abstract_en": "In fault-tolerant block encodings of structured Hamiltonians, the support geometry can set how the non-Clifford cost of SELECT scales with the system size, however many operators act on each support. We construct permute-act-unpermute circuits: a CSWAP network fixed by this geometry brings a selected support to a fixed target register, a shared local circuit acts there, and the permutation is undone. The operators add only an $XZ$ mask on this register, at a cost independent of the system size, and one query can mix several support geometries. For two-site supports, we establish and attain the minimum CSWAP count within address-controlled networks of site transpositions. Compiled for Pauli terms, these circuits use $8\\mathrm{S}N+o(N)$ $T$ gates with $O(\\log N)$ permutation work qubits, where $N$ is the number of system qubits and $\\mathrm{S}$ is determined by the support geometry, with $\\mathrm{S}=1$ for nearest-neighbour interactions and $\\mathrm{S}=3/2$ for all-to-all pairs; in both cases the correction is $O(\\log N)$. We also introduce a bridged CSWAP, which remembers the logical value of its temporary AND across the target action and repairs it from the prepared labels, so that the inverse CSWAP undoes the exchange without recomputing the value. When the repair is Clifford, it halves the $T$ count of a matched forward-inverse CSWAP pair at the cost of one retained work qubit. For a Heisenberg ring, the complete block-encoding query reduces the $T$ count by a factor approaching $3$ as the system size grows, relative to flat and product-wise Pauli walks. For a five-orbital Anderson impurity model, which combines nearest-neighbour and all-to-all support geometries, the reduction is about $1.7$ at large bath sizes, relative to the cheapest of three comparators, each built from the methods of the references it follows.",
@@ -17,31 +17,23 @@
       "cond-mat.stat-mech",
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-10-02T00:00:00Z",
-    "updated_at": "2026-10-07T06:03:50.785138Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-02T17:50:48Z",
+    "updated_at": "2026-10-05T17:57:38Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.03686v2",
     "pdf_url": "https://arxiv.org/pdf/2610.03686v2",
-    "inspire_url": "https://inspirehep.net/literature/3211105",
+    "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.03686",
-        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
         "url": "https://arxiv.org/abs/2610.03686v2"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3211105",
-        "fetched_at": "2026-10-08T02:45:25.617163Z",
-        "url": "https://inspirehep.net/literature/3211105"
       }
     ],
     "is_demo": false

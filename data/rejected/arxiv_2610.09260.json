@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.09260",
+    "arxiv_id": "2610.09260",
+    "arxiv_version": null,
+    "inspire_id": "3212690",
+    "doi": null,
+    "title_en": "Resolving molecular biexcited states using classical leading-order triples corrections to quantum equation-of-motion UCCSD",
+    "abstract_en": "Excited electronic states are difficult to accurately and tractably model, particularly those exhibiting multiexcitonic character. Scalable single-reference excited state methods typically fail to describe such states as they suffer from the defects of the mean-field approximation and/or neglect higher-rank excitation operators. To address this, we derive the [T] perturbative correction to the quantum self-consistent equation-of-motion unitary coupled cluster singles and doubles (q-sc-EOM-UCCSD) method. The method captures triple excitation effects through a classical step of second-order in many-body perturbation theory following a q-sc-EOM-UCCSD calculation on a quantum computer. The perturbative correction developed has a $\\mathcal{O}(N^7)$ classical computational time scaling. We incorporate [T] into a hybrid compute strategy wherein eigenvectors of the effective Hamiltonian from the hybrid quantum-classical q-sc-EOM-UCCSD algorithm are relayed to a classical computer which performs the postprocessing required for the [T] correction. The benefits of [T] are quantified in a benchmark covering a variety of electronically excited states of the isoelectronic CH$^+$ and BH molecules. We find that the addition of the [T] correction to both trotterized and full operator variants of q-sc-EOM-CCSD can offer dramatic improvements over baseline q-sc-EOM-UCCSD. Our assessment clearly demonstrates the importance of considering higher-rank excitation operators in q-sc-EOM-UCCSD, quantifies the overall success of the [T] correction, and discusses some of its limitations.",
+    "authors": [
+      "Windom, Zachary W.",
+      "Kwao, Prince",
+      "Bertels, Luke",
+      "Claudino, Daniel",
+      "Asthana, Ayush",
+      "Bartlett, Rodney J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-08T15:00:26.279140Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212690",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212690",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212690"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

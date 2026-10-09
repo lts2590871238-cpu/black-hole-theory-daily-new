@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.00844",
     "arxiv_id": "2610.00844",
-    "arxiv_version": 1,
-    "inspire_id": "3210537",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Complexity study of the Hartle-Hawking state in JT gravity",
-    "abstract_en": "The negativity of the Wigner function gives an operationally meaningful measure of the complexity of simulating a quantum state on a classical computer. We study its growth for the Hartle-Hawking state under time evolution in Jackiw-Teitelboim gravity, in the length basis. At the disk level, and to leading order in the semiclassical parameter $β$, the Hartle-Hawking state is a minimum-uncertainty Gaussian wavepacket at rest at the turning point of the Liouville wall, centred at $x=2\\log(2β/π)$ with $\\langle p^2\\rangle=π^2/8β$. Its Wigner function is positive, so its negativity is $1+o(1)$ for all sub-exponential times; it is even in $t$ by time-reversal symmetry, and exactly frozen once the reflected packet decouples from the wall, because free evolution is a Clifford shear. At late times the negativity saturates close to its upper bound, at $\\sqrt{2/π}\\sqrt{d_{\\rm eff}(β)}$ with $d_{\\rm eff}(β)=Z(β)^2/Z(2β)$, a value that requires the discrete spectrum. Unlike the spectral form factor, the negativity displays no ramp: the two-boundary wormhole contribution is suppressed by $e^{-2S_0}$ relative to a disk term that, unlike that of the spectral form factor, does not decay. The exact survival amplitude $Z(β+it)/Z(β)$ gives the spread complexity growing as $σ_E^2t^2$, and the seed-normalised negativity is, at the disk level, the inverse of the exact survival probability. We take this as evidence that the length basis is ideally suited for a dual, semi-classical effective description of chaotic quantum dynamics for large $e^{S_0}$ at sub-exponential times.",
+    "abstract_en": "The Wigner function, in general, takes on negative values, and the amount of negativity in the Wigner function gives an operationally meaningful measure of the complexity of simulating the quantum state on a classical computer. In this paper, we study the growth of Wigner negativity of the Hartle-Hawking state of Jackiw-Teitelboim gravity under time evolution. We work in the gravitational length basis, at genus zero, and at high temperature, $β\\ll 1$. Our main analytic result is simple: to leading order in $β$ the state is a Gaussian wavepacket of minimum uncertainty, sitting at rest at the turning point of the Liouville wall. Its Wigner function is therefore positive, and the negativity is $1+δ(β,t)$, where the correction $δ$ is smaller than any power of $β$. We show that $δ$ is an even function of time, so there is no linear growth at $t=0$, and that once the packet has reflected off the wall its leading-order evolution is a Clifford shear, which cannot change the negativity. We also numerically study the time evolution of the Wigner function and its negativity. We observe that $δ$ stays below $10^{-11}$ at $t=0$ and through the reflection, then rises slowly over a few tens of $β/π$, and then approaches a late-time value consistent with $δ_\\infty(β) \\simeq 0.08\\, e^{-4.4/β}$ for $0.25 \\le β\\le 1$: the lower the temperature, the larger the late-time negativity. The exact survival amplitude $Z(β+it)/Z(β)$ fixes the spread complexity to order $t^4$, and it also fixes the seed-normalised Wigner diagnostic of our earlier work (arXiv:2607.04065, arXiv:2607.17346). We take this as evidence that the length basis is ideally suited for a dual, semi-classical description of the dynamics at genus zero. Beyond genus zero the length basis is overcomplete, and we make no statement about finite $e^{S_0}$.",
     "authors": [
       "Ritam Basu"
     ],
@@ -16,31 +16,23 @@
       "gr-qc",
       "quant-ph"
     ],
-    "submitted_at": "2026-10-01T00:00:00Z",
-    "updated_at": "2026-10-03T03:18:09.154697Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-01T00:04:04Z",
+    "updated_at": "2026-10-08T06:03:29Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2610.00844v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.00844v1",
-    "inspire_url": "https://inspirehep.net/literature/3210537",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.00844v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.00844v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.00844",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
-        "url": "https://arxiv.org/abs/2610.00844v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3210537",
-        "fetched_at": "2026-10-07T02:29:49.151689Z",
-        "url": "https://inspirehep.net/literature/3210537"
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://arxiv.org/abs/2610.00844v2"
       }
     ],
     "is_demo": false

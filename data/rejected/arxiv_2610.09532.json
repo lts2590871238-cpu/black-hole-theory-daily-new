@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.09532",
+    "arxiv_id": "2610.09532",
+    "arxiv_version": null,
+    "inspire_id": "3212534",
+    "doi": null,
+    "title_en": "Vibrational Sample-Based Quantum Diagonalization with Unitary-Cluster-Jastrow Ansätze on IBM QPUs",
+    "abstract_en": "We extend sample-based quantum diagonalization (SQD) to anharmonic vibrational spectra and use it to benchmark how vibrational ansätze scale on present-day hardware under a direct one-hot encoding (up to 72 qubits). Five particle-conserving circuits are warm-started through vibrational coupled-cluster (VCC) t1, t2 amplitudes: UVCCSD, the compact heuristic circuit (CHC), and three unitary-cluster-Jastrow ansätze introduced here, VLUCJ, Vg-uCJ, and VIm-uCJ. A self-consistent configuration-recovery loop reconstructs correlated states from hardware samples in the low-retention regime where naïve post-selection breaks down, enabling the calculation of ground-state energies for H$_2$O, CH$_2$O, and CH$_2$ClF (3-9 modes). We compare harmonic-oscillator and vibrational self-consistent-field (VSCF, \"modal\") reference bases. In the small-modal-basis regime relevant for near-term devices, the modal basis is typically more accurate than the harmonic-oscillator representation; empirically, it also yields substantially better-converged hardware sampling for deep circuits at these qubit counts. Across ansätze, we find a clear retention/accuracy tradeoff when scaling: the new VLUCJ circuit is the most hardware-robust, retaining the largest fraction of physically valid one-hot outcomes, whereas the more expressive uCJ variants and UVCCSD can recover more correlation when retention is sufficient. Finally, we extend the recovery protocol to excited states by targeting a chosen per-mode VSCF occupation and warm-starting it with a state-specific VCC calculation, and we demonstrate the calculation of one representative fundamental vibrational frequency per molecule on IBM QPUs.",
+    "authors": [
+      "Kumar, Kunal",
+      "Lötstedt, Erik",
+      "Kobayashi, Yuri",
+      "Yunoki, Seiji"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-08T13:47:53.956715Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212534",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212534",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212534"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

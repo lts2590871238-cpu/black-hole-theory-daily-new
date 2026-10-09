@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.10339",
+    "arxiv_id": "2610.10339",
+    "arxiv_version": null,
+    "inspire_id": "3212604",
+    "doi": null,
+    "title_en": "Binary Optimization of Measurement Groupings for Quantum Energy Estimation",
+    "abstract_en": "Repeated measurements can dominate the resources required for quantum energy estimation, making the choice of which Pauli observables to measure together a central optimization problem for variational quantum algorithms. We formulate fully commuting measurement grouping as a classical binary optimization problem based on clique selection and construct non-overlapping groups using mixed-integer linear programming (MILP). For a benchmark of molecular Hamiltonians, groupings optimized with approximate covariances reduce the non-overlapping measurement requirement $\\varepsilon^2M$ by $51.8\\%$ on average relative to sorted insertion (SI). Using the MILP groups to initialize iterative coefficient splitting (ICS), denoted MILP-ICS, yields an average $24.3\\%$ reduction relative to ICS initialized from SI (SI-ICS). The optimized groups also transfer across nearby molecular geometries while preserving substantial measurement savings. We further introduce O-clique, which directly optimizes overlapping commuting supports through candidate-clique selection and coefficient profiles. Although O-clique provides only modest additional reductions beyond MILP-ICS, it reduces the measurement requirement by $27.3\\%$ on average relative to SI-ICS with 100 iterations, despite using only five final coefficient refinement iterations, indicating improved support quality. Finally, we extend the comparison to Fermi--Hubbard, Kitaev--Heisenberg--$Γ$, and XYZ lattice Hamiltonians, where MILP-based groupings substantially outperform the corresponding SI-based strategies. Together, these results show that variance-informed optimization of measurement-group structure can substantially reduce sampling costs across molecular and lattice Hamiltonians, with optimized non-overlapping groups providing strong, transferable initializations and direct overlapping optimization offering further gains.",
+    "authors": [
+      "Huidobro-Meezs, Isaac L.",
+      "Vargas-Hernández, Rodrigo A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-08T13:49:13.341469Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212604",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212604",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212604"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

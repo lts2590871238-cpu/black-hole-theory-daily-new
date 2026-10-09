@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.09659",
+    "arxiv_id": "2610.09659",
+    "arxiv_version": null,
+    "inspire_id": "3212685",
+    "doi": null,
+    "title_en": "Communication-Aware Qubit Placement and Automatic Node-Count Allocation for Distributed State-Vector Simulation",
+    "abstract_en": "Distributed quantum circuit simulation enables the execution of large-scale quantum algorithms by partitioning qubits across multiple computational nodes. However, inefficient qubit placement frequently leads to excessive inter-node communication, severely limiting performance and scalability. This work introduces a communication-aware qubit layout optimization framework that systematically minimizes data exchange among nodes while dynamically selecting the optimal number of computational resources. Integrated into the QuCSLO library, our approach supports dynamic node scaling, OpenQASM parsing, and seamless integration with the QuEST simulator. Extensive evaluations on both synthetic benchmarks and real-world QASMBench circuits demonstrate that optimized layouts significantly reduce communication cuts and yield runtime speedups of over 2x compared to identity layouts, particularly in highly entangled circuits. Our results underscore the critical impact of strategic qubit placement on distributed simulation efficiency and provide a practical, resource-scalable solution for quantum workloads.",
+    "authors": [
+      "Aréjula-Aísa, Íñigo",
+      "Iserte, Sergio",
+      "Sandås, Petter",
+      "Raigada-García, Ricard S.",
+      "Peña, Antonio J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-09T02:27:09.758557Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212685",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212685",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212685"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.09798",
+    "arxiv_id": "2610.09798",
+    "arxiv_version": null,
+    "inspire_id": "3212550",
+    "doi": null,
+    "title_en": "Quantum Optimization of the Color-of-Money Problem on IBM Quantum Hardware: A Proof-of-Concept Study",
+    "abstract_en": "The Color-of-Money (CoM) problem is a financial optimization challenge in which enterprises must determine how to allocate and route funds across multiple accounts, currencies, and time periods while satisfying regulatory, operational, and liquidity constraints. As the number of assets, obligations, and planning periods increases, the decision space grows rapidly, making large-scale optimization increasingly challenging for classical approaches. In this work, we present a proof-of-concept quantum implementation of the CoM problem using IBM Quantum hardware. The original optimization problem is formulated as a constrained Mixed-Integer Linear Programming (MILP) problem and transformed into a Quadratic Unconstrained Binary Optimization (QUBO) representation suitable for quantum execution. We employ a Variational Quantum Algorithm (VQA) with Pauli Correlation Encoding (PCE), a qubit efficient encoding technique and apply error-mitigation technique to improve solution fidelity on noisy quantum hardware. A prototype instance consisting of 3 assets, 3 obligations, and 2 time periods was executed on real IBM quantum hardware and benchmarked against classical exact solver SCIP. The quantum approach successfully reproduced the same optimal solution obtained classically, validating the correctness and feasibility of the proposed methodology. While current noisy quantum hardware does not outperform classical optimization on the evaluated small instance, the results demonstrate the feasibility of executing treasury optimization workloads on current quantum hardware and provide a foundation for future investigations.",
+    "authors": [
+      "Rana, Rahul",
+      "Roy, Suman Kumar",
+      "Chandra, M. Girish"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-08T13:47:49.714833Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212550",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212550",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212550"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

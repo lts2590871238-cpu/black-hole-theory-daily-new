@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.09029",
+    "arxiv_id": "2610.09029",
+    "arxiv_version": null,
+    "inspire_id": "3212398",
+    "doi": null,
+    "title_en": "Cost of Delay for Post-Quantum Migration: Putting Classical and Harvest-Now-Decrypt-Later Risk on One Ordered List",
+    "abstract_en": "Organisations deciding which assets to migrate to post-quantum cryptography first, and how that work competes with a backlog of classical findings, lack a common unit: post-quantum scores are dimensionless and quantum-only, while classical risk is annualised loss. We express both threats as a cost of delay in currency per year on the same asset. The quantum term is the rate at which deferring migration commits irreversible harvest-now-decrypt-later loss, computed from required confidentiality duration, recordable traffic share and data turnover, using a quantum-arrival law fitted in closed form to published expert anchors. A competing-risks factor couples the two terms so the same loss is not counted twice. We prove that the construction is not a weighted sum of a classical and a quantum score, give a dominance threshold on the classical hazard that is independent of asset value, and show that the induced order is optimal for sequencing work under constant loss rates. We verify the implementation by simulation, adaptive quadrature and a second implementation. On four public systems with parameters assumed from public documentation, the quantum term reorders the asset list beyond input uncertainty for one system only (signal-to-noise 1.36 against 0.14-0.46), moves specific long-lived, quiet, recordable assets decisively, and otherwise changes magnitudes. Asset value and turnover explain 73-91% of the uncertainty in the quantum term; the arrival date explains 3-17%. The case studies are illustrative and are not validated against outcomes.",
+    "authors": [
+      "Shaw, Animesh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-09T02:25:39.193047Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212398",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212398",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212398"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.08877",
+    "arxiv_id": "2610.08877",
+    "arxiv_version": null,
+    "inspire_id": "3212442",
+    "doi": null,
+    "title_en": "A Differentiable Surrogate for Loss-Dominated Ion Beam Transport",
+    "abstract_en": "Radioactive nuclei with extreme proton-to-neutron ratios provide unique probes of nuclear structure, fundamental symmetries, astrophysical processes, and applications such as medicine. However, their short half-lives and low production rates mean that experiments must work with few desired ions, often amid contaminant backgrounds exceeding the signal by six orders of magnitude. Efficiently isolating, transporting, and delivering these ions through multi-stage apparatus is therefore a central challenge. We introduce a differentiable probabilistic surrogate for ion-beam transport in regimes dominated by particle loss. The model jointly captures the survival probability of ions along the beamline and the evolving phase-space distribution of the surviving particles by combining discrete-time survival analysis with conditional normalizing flows. Applied to a high-dimensional electrostatic beamline, the resulting likelihood enables gradient-based optimization of operating voltages and inference of beam properties from sparse detector observations. Once trained, the surrogate provides millisecond-scale differentiable predictions, transforming particle-tracking simulations with hard losses into an inference-ready model for experimental design, beamline optimization, and future digital twins of experiments with rare nuclei.",
+    "authors": [
+      "Munoz-Arias, Jose M.",
+      "Ruiz-Arango, Laura",
+      "Gonzalez-Acevedo, Derick",
+      "Pastrana-Cruz, Fabian C.",
+      "Hacias, Jackson",
+      "Garcia Ruiz, Ronald F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-06T00:00:00Z",
+    "updated_at": "2026-10-08T14:10:05.646697Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212442",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212442",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212442"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

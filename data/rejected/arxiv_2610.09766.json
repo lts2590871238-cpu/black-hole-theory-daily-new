@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.09766",
+    "arxiv_id": "2610.09766",
+    "arxiv_version": null,
+    "inspire_id": "3212407",
+    "doi": null,
+    "title_en": "Performance Portable $\\mathrm{SU}(N)$ Lattice Gauge Theory Simulation with Kokkos",
+    "abstract_en": "The increasing diversity of high performance computing systems makes separate, architecture specific implementations of lattice gauge theory algorithms costly to maintain. We present \\texttt{kwqft}, a performance portable Kokkos implementation of Wilson pure gauge Monte Carlo simulation for $\\mathrm{SU}(N)$ Yang-Mills theory in an arbitrary number of space-time dimensions. The gauge group order $N$ and the dimension $D$ are compile time parameters. A single source targets the Serial, OpenMP, CUDA, HIP, and SYCL execution spaces, with MPI halo exchange overlapped with interior updates. The implementation reproduces the exact two-dimensional plaquette and published three and four dimensional values for gauge groups up to $\\mathrm{SU}(17)$. On an NVIDIA A100 the Kokkos CUDA backend is competitive with a native CUDA code, SIMD acceleration improves the OpenMP path on Armv9 processors, and a large scale speedup is demonstrated for an $\\mathrm{SU}(4)$ lattice on the LineShine supercomputer, currently ranked first on the TOP500 list.",
+    "authors": [
+      "Sun, Wei"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-09T02:43:58.616853Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212407",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212407",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212407"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

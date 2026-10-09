@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.09531",
     "arxiv_id": "2610.09531",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3212505",
     "doi": "10.1103/spxh-q8cq",
     "title_en": "ASTRAL: A Framework for Optimal Placement and Emulation of Stellar Evolution Models",
     "abstract_en": "Generating dense grids of detailed stellar evolution simulations is computationally prohibitive, as resolving progressively complex nucleosynthesis chains and dynamical timescales incurs a rapidly increasing computational cost that scales with dimensionality and resolution. Existing simulation grids are sparse, heterogeneous, and often cover disparate regions of parameter space, limiting (direct) systematic comparison and broader generalization to downstream science analyses. We present ASTRAL (\\textbf{A}ctive \\textbf{S}imulation \\textbf{T}uning and \\textbf{R}egression for \\textbf{A}strophysical \\textbf{L}ibraries), a publicly available framework for optimal placement and emulation of stellar evolution models. The ASTRAL framework builds surrogate models that provide a continuous representation of the parameter space which is populated by sparse simulation grids. Furthermore, ASTRAL interpolates across the simulation parameter space (e.g. zero-age-main-sequence mass) to predict stellar properties of stars with associated uncertainty estimates for systems not explicitly simulated. We show that ASTRAL significantly outperforms uniform placement in constructing emulation-ready model libraries that capture both global and local variability in the output features. We showcase the performance of our framework in the context of a simple, one-dimensional MESA model. Finally, we examine how our methodology can inform downstream applications by analyzing our emulator's predictive confidence when applied to supernova simulations. We emphasize that, while developed for stellar evolution, the ASTRAL framework is directly extensible to other simulation-driven domains where model evaluations are expensive and parameter spaces are high-dimensional.",
@@ -19,23 +19,31 @@
       "astro-ph.HE",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-10-07T06:32:31Z",
-    "updated_at": "2026-10-07T06:32:31Z",
-    "document_types": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-08T14:10:12.381588Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.09531v1",
     "pdf_url": "https://arxiv.org/pdf/2610.09531v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212505",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.09531",
-        "fetched_at": "2026-10-08T02:45:25.617163Z",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
         "url": "https://arxiv.org/abs/2610.09531v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3212505",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212505"
       }
     ],
     "is_demo": false

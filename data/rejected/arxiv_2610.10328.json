@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.10328",
+    "arxiv_id": "2610.10328",
+    "arxiv_version": null,
+    "inspire_id": "3212615",
+    "doi": null,
+    "title_en": "Neural network-based timewalk correction for the Timepix4 ASIC",
+    "abstract_en": "Timewalk corrections of hybrid pixel detectors conventionally employ heuristic fits performed independently in bins of the relevant input variables. This requires both an explicit functional ansatz and binning scheme, as well as densely populated calibration data whose required size grows rapidly as further input variables are added. This paper presents a timewalk correction for the Timepix4 readout chip based on a compact feed-forward neural network (NN), which learns the dependence directly from the input variables without requiring an explicit functional ansatz or binning. The NN is compared against the fit-based baseline using data from the Timepix4 beam telescope at the CERN SPS in 2025, with $100\\,\\mathrm{μm}$ and $300\\,\\mathrm{μm}$ thick planar sensors. Both methods parameterise the timewalk correction as a function of the measured charge and reconstructed intrapixel impact position. With only 20 % of the calibration data, the NN already achieves the same asymptotic time resolutions as the fit-based baseline: $180\\,\\mathrm{ps}$ and $300\\,\\mathrm{ps}$ for the two thicknesses, respectively.",
+    "authors": [
+      "Bacher, David",
+      "Akiba, Kazu",
+      "van Beuzekom, Martin",
+      "Coco, Victor",
+      "Dumps, Raphael",
+      "Evans, Tim",
+      "Heijhoff, Kevin",
+      "John, Malcolm",
+      "Lemos Cid, Edgar",
+      "Pajero, Tommaso"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-08T13:48:09.905462Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212615",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212615",
+        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "url": "https://inspirehep.net/literature/3212615"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
