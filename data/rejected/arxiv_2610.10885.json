@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.10885",
+    "arxiv_id": "2610.10885",
+    "arxiv_version": null,
+    "inspire_id": "3212828",
+    "doi": null,
+    "title_en": "Uncertainty Quantification for Quantum Fidelity Estimation",
+    "abstract_en": "Quantum fidelity estimation is a fundamental task in quantum information and computing to benchmark the quality of quantum states, and hence of quantum processes, on noisy quantum hardware. Point estimates of fidelity by existing methods generally lack the rigorous uncertainty quantification required for reliable preparation and verification of these tasks. While Bayesian and bootstrap frameworks are widely used for uncertainty quantification, they are sensitive to model misspecification or lack formal coverage guarantees in non-asymptotic regimes. This paper introduces a hybrid \"Bayesian-informed\" conformal prediction-based framework to provide distribution-free, rigorous prediction intervals for quantum state fidelity estimation which can be used, with care, to approximate confidence intervals with respect to the quantum randomness of Born's rule. The framework requires a point estimator, and we consider both classical point estimators as well as data-driven neural net estimators. We evaluate the robustness of the methodology across a diverse range of experimental challenges, including finite-sample noise, tomographic incompleteness, physical model error, and out-of-distribution data. Our results demonstrate that conformalized estimators maintain statistical validity where traditional methods fail, offering a scalable and reliable approach for the verification of modern quantum systems. The best performing variant of our methodology is based on a class-conditional conformal prediction, as this most closely approximates the conditional coverage desired for a true confidence interval.",
+    "authors": [
+      "Aditi, Kuchibhotla",
+      "Becker, Stephen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-09T10:04:19.347478Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212828",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212828",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3212828"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

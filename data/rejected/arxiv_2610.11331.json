@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.11331",
+    "arxiv_id": "2610.11331",
+    "arxiv_version": null,
+    "inspire_id": "3212904",
+    "doi": null,
+    "title_en": "Data-Driven Variable-Exponent Analysis for Photoemission Yield Spectroscopy: An Autonomous Self-Diagnosing Framework Based on Integrated Residual Metrics",
+    "abstract_en": "Photoemission yield spectroscopy (PYS) is widely used for evaluating the electronic states of materials. As automated materials discovery advances, unsupervised extraction of physical information from ambient-air PYS data becomes important. Conventional fixed-exponent analyses and logarithmic transformations suffer from heteroscedasticity, which destabilizes estimation in low-signal regions. To address this, we propose a data-driven analysis framework based on the 1/n-Scan method, which operates directly in the original signal space, removing the geometric bias inherent in log-transform approaches. We further integrate a self-diagnostic quality-evaluation system that quantifies estimation uncertainty with Akaike weights, together with independent residual metrics--the normalized mean absolute error (NMAE), the RMSE-to-MAE ratio (RMR), the Durbin-Watson (DW) statistic, and a macroscopic metric ($ΔR^2$)--that distinguish hardware-related data degradation from a physical-model mismatch. Applying the framework to differently doped Si and a polycrystalline Au reference in air, we demonstrate autonomous detection, without assumptions on the emission mechanism, of the breakdown of the single-component approximation in heavily doped p-type Si, arising from the overlap of two emission components with different thresholds, as a statistical anomaly--a decrease in DW below its critical value with an auxiliary increase in $ΔR^2$, despite sound NMAE and RMR--independently confirmed by a two-component fit ($Δ$AIC $\\approx$ 57, DW recovering from 0.8 to 2.0). For heavily doped n-type Si, the gradual surface evolution was classified as a change within the single-component description. This framework provides a robust, self-diagnosing analysis engine for closed-loop autonomous materials exploration.",
+    "authors": [
+      "Yagyu, Shinjiro",
+      "Nagata, Takahiro",
+      "Nakajima, Yoshiyuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-08T00:00:00Z",
+    "updated_at": "2026-10-09T10:58:04.339158Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212904",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212904",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3212904"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

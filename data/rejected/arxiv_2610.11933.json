@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.11933",
+    "arxiv_id": "2610.11933",
+    "arxiv_version": null,
+    "inspire_id": "3213059",
+    "doi": null,
+    "title_en": "Active-learning construction of hyperspherical-harmonics spaces for A = 3",
+    "abstract_en": "The hyperspherical-harmonics (HH) expansion does not require uniform resolution: different components of the wave function converge at very different hyperangular and hyperradial scales. We use active learning to exploit this structure, allowing the calculation to distribute resolution instead of prescribing it. The HH space is decomposed into physically identifiable classes whose hyperangular and hyperradial cutoffs evolve independently; a Gaussian-process surrogate learns the marginal variational gain of each admissible extension, and a cost-aware acquisition selects the next one. The surrogate never replaces the many-body solver: every accepted extension is followed by an explicit solution in the enlarged space, so each reported energy is variational in an explicitly constructed basis. We test the construction on $^3$H and $^3$He with the Argonne $v_{18}$ two-nucleon interaction, without and with the Urbana IX three-nucleon interaction, against uniform HH ladders extended to $K=60$ that reproduce established benchmarks within $1$~keV. Asked for $5$~keV, the adaptive runs reproduce the energy of the uniform $K=60$ space within $4$~keV in every case and certify it, leaving more than $60$% of that space unbuilt. The reduction grows as the requested accuracy is relaxed, to about $88$% at $20$~keV and $95$% at $100$~keV. The selected spaces reproduce the known class hierarchy of the trinucleon, and the one-body radii and magnetic moments are converged at about the $2\\times10^{-3}$ level (relative error) in the energy-selected space. A run started from the resolution reached by the mirror nucleus, or by the same nucleus with the two-nucleon interaction alone, certifies a smaller space with a third of the exact solves.",
+    "authors": [
+      "Filandri, Elena",
+      "Di Luca, Andrea",
+      "Marcucci, Laura Elisa",
+      "Viviani, Michele"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-08T00:00:00Z",
+    "updated_at": "2026-10-09T10:57:44.863224Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213059",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213059",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3213059"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

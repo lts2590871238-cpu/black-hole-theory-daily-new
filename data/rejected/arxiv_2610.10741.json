@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.10741",
     "arxiv_id": "2610.10741",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3212824",
     "doi": null,
     "title_en": "Feedback-Conditional 3D Reconstruction of Cosmic Baryons with Flow Matching",
     "abstract_en": "The complex relationship between galaxies and diffuse gas at large scales depends strongly on astrophysical feedback and cosmology. The dispersion measure (DM) of Fast Radio Bursts (FRBs) is a column of cosmic baryon density and is dominated by the intergalactic medium, which is not necessarily captured by traditional halo model prescriptions. We introduce a generative model to reconstruct 3D gas density fields from galaxy surveys, including redshift space distortions. The probabilistic model is trained on the CAMELS50 simulation suite (IllustrisTNG) and learns to predict the posterior distribution of gas fields conditioned on stellar mass-weighted galaxy density, cosmological parameters, the minimum stellar mass threshold for the galaxy sample, and the baryon suppression power spectrum as a measure of baryonic feedback. Our method uses the 3D gas reconstruction to estimate per-sightline FRB DMs and their posteriors. We validate the model on test boxes by showing agreement between predicted and true DM across individual lines of sight and the overall DM distribution. The model generalizes to a box size $\\sim$\\,4$^3$ times larger in volume than the training boxes and can cover the volumes spanned by cosmological FRB sightlines. The model's 3D gas density predictions vary with input power spectrum and feedback scenarios, offering an inference path to constrain feedback models from FRBs and other probes such as X-rays, the SZ effect, and weak lensing.",
@@ -17,23 +17,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-07T18:10:01Z",
-    "updated_at": "2026-10-07T18:10:01Z",
-    "document_types": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-09T10:43:32.130509Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.10741v1",
     "pdf_url": "https://arxiv.org/pdf/2610.10741v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212824",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.10741",
-        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
         "url": "https://arxiv.org/abs/2610.10741v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3212824",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3212824"
       }
     ],
     "is_demo": false

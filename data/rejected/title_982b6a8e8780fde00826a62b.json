@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:982b6a8e8780fde00826a62b",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3213433",
+    "doi": null,
+    "title_en": "Using qudits for fault-tolerant quantum computing",
+    "abstract_en": "Qudits can be described by a state vector in a q-dimensional Hilbert space, enabling a more extensive encoding and manipulation of information compared to qubits. This implies that conducting fault-tolerant quantum computations using qudits rather than qubits might entail less overhead. In this work, I investigate the viability of qudits across three key components of a fault-tolerant quantum computer: hardware control, quantum error-correction codes, and logical gate operations. This includes benchmarking physically decomposed qudit gates against qubit-based implementations for a specific donor-spin system, threshold simulations of qudit error-correction codes using tailored simulators and decoders, and simulations of magic state distillation circuits with qudits.At the hardware level, a numerical leakage-aware randomized benchmarking protocol is applied to a native ququart encoding in a donor-spin system and compared against an equivalent pair of encoded qubits. The ququart implementation is found to reduce the lower-bound gate infidelity by 40 – 50%, a consequence of the fewer ESR and EDSR pulses and correspondingly lower cumulative noise exposure. This provides a concrete, platform-specific demonstration of reduced physical-gate overhead prior to the introduction of any error-correction redundancy.At the level of quantum error correction, the viability of qudits is investigated through the construction and simulation of the quantum circuits for the five-qudit perfect code. The code is evaluated under a multidimensional circuit-level noise model using decoders specifically adapted to the qudit setting. This yields the first threshold estimates reported for qutrit and ququint codes under circuit-level noise. After introducing a flag qudit to protect the code from hook errors, comparable error thresholds of the order of 10–4 are obtained for qudits of dimensions 2, 3 and 5. These simulations were subsequently performed using Sdim, a stabilizer tableau simulator that enabled threshold estimation up to dimension q = 7, a regime inaccessible to state-vector simulators such as Cirq.At the level of logical operations, magic state distillation protocols of the Bravyi-Kitaev type are simulated under logical circuit-level noise, to my knowledge for the first time for this protocol family. Once the Clifford operations implementing the distillation circuit are subject to a nonzero logical error rate, the achievable output fidelity saturates within a finite usable distillation range rather than an arbitrarily improvable one: roughly 0.9-15.6% for the |T&rang;₂-type protocol, 3.7-5% for the |H&rang;₂-type protocol and 5.4-7.4% for the |H+&rang;₃-type protocol at a representative logical circuit-level noise level of pCL = 10–3. The qutrit protocol achieves a more favorable distillation threshold but suffers from a substantially lower yield due to its reduced syndrome acceptance probability. This highlights a trade-off between threshold performance and yield that is intrinsic to the higher-dimensional construction. Further investigation with more advanced and larger-scale protocols is required to better understand and characterize this behavior.Overall, these results show that qudits can provide real efficiency benefits: higher-dimensional control can improve physical gate fidelity, and qutrit and ququint error-correction thresholds can match those of qubits when hook errors are properly handled. However, logical circuit-level noise limits the maximum magic state fidelity, showing that the benefits of qudits are not yet fully realized at the logical-operation level. This thesis provides the first broad numerical study of these effects and introduces the simulation tools needed to explore larger code families, decoders, and distillation protocols.",
+    "authors": [
+      "Keppens, James"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-09T15:41:53.797585Z",
+    "document_types": [
+      "thesis"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "2026"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213433",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213433",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3213433"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

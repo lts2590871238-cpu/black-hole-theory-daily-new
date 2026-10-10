@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.10729",
     "arxiv_id": "2610.10729",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3212825",
     "doi": null,
     "title_en": "pyAmpliCol: fast tree-level matrix elements",
     "abstract_en": "Tree-level matrix elements sit at the heart of collider event generation, but their cost rises rapidly just where additional resolved radiation becomes most important. We present pyAmpliCol, a public generator aimed at extending the practical reach of colour-resolved matrix elements to higher multiplicities. It builds on the colour-ordered, off-shell-current strategy of AmpliCol, providing fast access to individual leading-colour flows while retaining the option of next-to-leading or exact full colour. The latter introduces its own high-multiplicity bottleneck: the dense interference of factorially many colour orderings. pyAmpliCol addresses this contraction with a fast Fourier transform on the symmetric group, preserving the exact colour result while avoiding the direct pairwise sum. Representative full-colour benchmarks demonstrate substantial speedups over the reference calculations considered here. It supports Standard Model processes and a broad class of UFO models, selected or summed helicities, vectorised evaluation and controllable numerical precision. It further provides colour- and spin-correlated Born quantities and tree-level colour connections at arbitrary perturbative order, opening the same framework to local subtraction and other higher-order applications. Together, these capabilities connect high-multiplicity matrix elements to their use in event generation, merging, parton showers and precision calculations within a single generator.",
@@ -20,23 +20,31 @@
       "hep-ph",
       "hep-th"
     ],
-    "submitted_at": "2026-10-07T18:05:41Z",
-    "updated_at": "2026-10-07T18:05:41Z",
-    "document_types": [],
+    "submitted_at": "2026-10-07T00:00:00Z",
+    "updated_at": "2026-10-09T04:53:43.238033Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.10729v1",
     "pdf_url": "https://arxiv.org/pdf/2610.10729v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212825",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.10729",
-        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
         "url": "https://arxiv.org/abs/2610.10729v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3212825",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3212825"
       }
     ],
     "is_demo": false

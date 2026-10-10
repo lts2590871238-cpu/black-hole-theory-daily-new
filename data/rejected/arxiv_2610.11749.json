@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.11749",
     "arxiv_id": "2610.11749",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3213007",
     "doi": null,
     "title_en": "A Coherent Harmonic Summing Pulsar Search Code",
     "abstract_en": "Pulsars have narrow pulses, so their signals spread over many harmonics in a Fourier transform. Standard pulsar searches add the powers of those harmonics and discard their phases, which throws away the pulse shape and some of the signal. Folding the time series at each trial period keeps both, but is expensive even with the Fast Folding Algorithm (FFA). We describe CoherentSearch.jl, an open-source Julia code that reconstructs the pulse profile at every trial spin frequency directly from the Fourier transform. It interpolates the complex amplitudes of typically 60 harmonics, inverse transforms them into a profile, and tests that profile against boxcar templates of many widths. Because the input spectrum is normalized, the noise in every profile is known in closed form, so one threshold gives one false-alarm rate across the whole search. In an injection study of over 860,000 simulated pulsars at a matched false-alarm rate, the new search recovers 76% of the pulsars in white noise, against 64% for riptide's FFA in its recommended configuration and 42% for PRESTO's accelsearch, and its threshold does not move under red noise. On one CPU core it is 1.4-2.2 times faster than riptide at matched frequency coverage, it scales to 27 times faster on 48 cores, and modern GPUs run it up to nine times faster than a 20-core workstation.",
@@ -15,23 +15,31 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-10-08T11:40:09Z",
-    "updated_at": "2026-10-08T11:40:09Z",
-    "document_types": [],
+    "submitted_at": "2026-10-08T00:00:00Z",
+    "updated_at": "2026-10-09T10:57:54.970734Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.11749v1",
     "pdf_url": "https://arxiv.org/pdf/2610.11749v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213007",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.11749",
-        "fetched_at": "2026-10-09T02:59:39.035838Z",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
         "url": "https://arxiv.org/abs/2610.11749v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3213007",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3213007"
       }
     ],
     "is_demo": false

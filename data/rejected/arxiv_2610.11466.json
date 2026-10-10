@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.11466",
+    "arxiv_id": "2610.11466",
+    "arxiv_version": null,
+    "inspire_id": "3212916",
+    "doi": null,
+    "title_en": "An iterative Bayesian variational quantum eigensolver with the von Mises-Fisher distribution",
+    "abstract_en": "We develop an iterative Bayesian variational quantum eigensolver in which the unknown ground state, parametrised as a real unit vector, is inferred through a von Mises--Fisher distribution sequentially updated from Hadamard-test measurements on a single ancilla qubit. Building on a companion paper that treated a single success outcome via exact moment matching, we generalise the scheme to condition on $m$ success outcomes for the likelihood function per iteration. Since exact moment matching becomes impractical for $m>1$, we exploit the large-concentration regime, in which a first-order expansion of the log-likelihood yields a closed-form von Mises--Fisher posterior with $m$ entering only through a multiplicative weight. We prove that the two convergence properties of the single-outcome scheme---non-decreasing overlap and non-decreasing concentration---are preserved provided $m$ lies within an explicitly characterised range. Based on the theory, we propose a measurement-based algorithm and illustrate the convergence on randomly generated three- and four-qubit Hamiltonian matrices, on $\\mathrm{HeH}^+$, and on $\\mathrm{H}_2$.",
+    "authors": [
+      "Huynh, Trung Minh",
+      "An, Gwangil",
+      "Kim, Minsu",
+      "Jeon, Yu-Seong",
+      "Lee, Jinhyoung"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-08T00:00:00Z",
+    "updated_at": "2026-10-09T09:53:40.511919Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3212916",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3212916",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3212916"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

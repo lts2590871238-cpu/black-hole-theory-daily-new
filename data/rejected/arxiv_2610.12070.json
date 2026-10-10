@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.12070",
+    "arxiv_id": "2610.12070",
+    "arxiv_version": null,
+    "inspire_id": "3213016",
+    "doi": null,
+    "title_en": "A deterministic polynomial chaos Galerkin method for non-Markovian quantum state diffusion",
+    "abstract_en": "Developing general-purpose numerical methods for non-Markovian quantum state diffusion has long been a challenge in the simulation of open quantum systems. This paper proposes a deterministic polynomial chaos Galerkin method, which is easy to implement, accurate, and efficient. By combining a low-rank decomposition of bath correlations with Galerkin projection onto a polynomial chaos basis, the method yields a deterministic formulation compatible with standard numerical solvers for partial differential equations. The reduced density matrix is obtained from a single deterministic solve at a cost comparable to that of computing one stochastic hierarchy trajectory. Replacing an ensemble of $N_{\\mathrm{traj}}$ trajectories therefore reduces the computational cost by approximately a factor of $N_{\\mathrm{traj}}$ and eliminates statistical sampling error. Benchmark comparisons show that the proposed method achieves smaller errors at lower computational cost than the tested stochastic hierarchy methods. Applications involving nonquadratic potentials, diffraction and interference, and coupled three-dimensional dynamics demonstrate its ability to handle challenging problems.",
+    "authors": [
+      "Zhu, Quanhui",
+      "Cai, Zhenning"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-08T00:00:00Z",
+    "updated_at": "2026-10-09T10:43:11.471525Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213016",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213016",
+        "fetched_at": "2026-10-10T02:26:28.046523Z",
+        "url": "https://inspirehep.net/literature/3213016"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
