@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 18,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 68,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文针对PTA引力波背景搜寻中广泛使用的对角协方差近似提出改进方法，结合FFT时域自相关、插值与Sherman-Morrison-Woodbury低秩似然，并用NANOGrav 15年数据启发的模拟验证，属于PTA方法学的重要改进，值得进一步阅读。",
+  "title_zh": "超越对角近似：脉冲星计时阵列数据分析中改进的协方差建模",
+  "abstract_zh": "脉冲星计时阵列（PTA）对纳赫兹引力波背景（GWB）的搜寻通常通过假设傅里叶空间中的对角协方差来对时间相关的噪声进行建模，从而忽略了有限观测窗口引入的频率间相关性。我们表明，这种对角近似在所估计的谱参数上会产生依赖于方法的偏移，对于具有较浅内禀红噪声谱的脉冲星而言尤其如此。为了解决这些局限性，我们提出了一种方法，该方法（i）使用快速傅里叶变换（FFT）在粗网格上计算时域自相关，（ii）将其精确插值到不均匀采样的观测时刻，并且（iii）通过Sherman--Morrison--Woodbury恒等式将其纳入低秩似然。使用解析协方差比较和受NANOGrav 15年数据集启发的端到端模拟，我们证明我们的方法忠实地捕捉了频率相关性，避免了吉布斯振铃，并且以适度的计算成本在所研究的实现中给出更接近注入值的估计。随着PTA数据集在灵敏度和复杂度上的增加，我们的方法为当前和未来的分析提供了一条实用且可扩展的途径，以实现完全精确的协方差建模。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational-wave background",
+    "covariance modeling",
+    "red noise",
+    "low-rank likelihood"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波背景",
+    "协方差建模",
+    "红噪声",
+    "低秩似然"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-12T02:31:22.181248Z"
+}

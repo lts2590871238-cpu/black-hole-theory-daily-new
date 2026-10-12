@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.16351",
+    "arxiv_id": "2602.16351",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Liouvillian interpolation of the self-energy of cluster dynamical mean-field theories",
+    "abstract_en": "Two widely-used non-local extensions of dynamical mean-field theory (DMFT), namely cellular DMFT (CDMFT) and the dynamical cluster approximation (DCA), both yield self-energies marred by having some unphysical properties: CDMFT yields real-space self-energies that are not translationally invariant, and DCA yields momentum-space self-energies with discontinuities in their momentum dependence. It is often desirable to remove these flaws by post-processing cluster DMFT results, using strategies called periodization for CDMFT and interpolation for DCA---for brevity, we refer to both cases as \\textit{interpolation}. However, traditional interpolation approaches struggle to reliably capture intricate structures such as hole pockets in the hole-doped square-lattice Hubbard model. Further, these approaches interpolate frequency-dependent functions, which may lead to causality violations. Here, we propose \\textit{Liouvillian interpolation}, a novel, intuitive, and robust scheme for interpolating cluster DMFT results. Our key idea is to interpolate frequency-\\textit{independent} matrix elements of the single-particle irreducible part of the Liouvillian, obtained from a continued-fraction expansion of the cluster DMFT self-energy. We demonstrate that the ingredients of such an expansion possess a more local Fourier expansion than the functions involved in traditional interpolation schemes, and that Liouvillian interpolation conserves causality by construction. We illustrate our method for the one-dimensional Hubbard model using CDMFT, and for the two-dimensional Hubbard model using four-site CDMFT and four-patch DCA. For the latter, $\\mathcal{L}$-interpolation can (depending on doping) yield Fermi and Luttinger arcs which together seem to form a closed surface.",
+    "authors": [
+      "Mathias Pelz",
+      "Jan von Delft",
+      "Andreas Gleis"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-02-18T10:34:43Z",
+    "updated_at": "2026-10-09T15:15:06Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.16351v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.16351v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.16351",
+        "fetched_at": "2026-10-12T02:30:33.325673Z",
+        "url": "https://arxiv.org/abs/2602.16351v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

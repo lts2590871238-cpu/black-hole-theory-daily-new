@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2506.13866",
+    "arxiv_id": "2506.13866",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Beyond diagonal approximations: improved covariance modeling for pulsar timing array data analysis",
+    "abstract_en": "Pulsar Timing Array (PTA) searches for nHz gravitational-wave backgrounds (GWBs) typically model time-correlated noise by assuming a diagonal covariance in Fourier space, neglecting inter-frequency correlations introduced by the finite observation window. We show that this diagonal approximation can produce method-dependent shifts in estimates of spectral parameters, especially for pulsars with shallow intrinsic red noise spectra. To address these limitations, we present a method that (i) computes the time-domain autocorrelation on a coarse grid using a fast Fourier transform (FFT), (ii) interpolates it accurately to the unevenly sampled observation times, and (iii) incorporates it into a low-rank likelihood via the Sherman--Morrison--Woodbury identity. Using both analytic covariance comparisons and end-to-end simulations inspired by the NANOGrav 15-year dataset, we demonstrate that our method captures frequency correlations faithfully, avoids Gibbs ringing, and yields estimates closer to the injected values in the realization studied with modest computational cost. As PTA datasets increase in sensitivity and complexity, our approach offers a practical and scalable path to fully accurate covariance modeling for current and future analyses.",
+    "authors": [
+      "Marco Crisostomi",
+      "Rutger van Haasteren",
+      "Patrick M. Meyers",
+      "Michele Vallisneri"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2025-06-16T18:00:02Z",
+    "updated_at": "2026-10-09T17:21:37Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2506.13866v2",
+    "pdf_url": "https://arxiv.org/pdf/2506.13866v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2506.13866",
+        "fetched_at": "2026-10-12T02:30:33.325673Z",
+        "url": "https://arxiv.org/abs/2506.13866v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 18,
+      "methodological_rigor": 17,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 68,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文针对PTA引力波背景搜寻中广泛使用的对角协方差近似提出改进方法，结合FFT时域自相关、插值与Sherman-Morrison-Woodbury低秩似然，并用NANOGrav 15年数据启发的模拟验证，属于PTA方法学的重要改进，值得进一步阅读。",
+    "title_zh": "超越对角近似：脉冲星计时阵列数据分析中改进的协方差建模",
+    "abstract_zh": "脉冲星计时阵列（PTA）对纳赫兹引力波背景（GWB）的搜寻通常通过假设傅里叶空间中的对角协方差来对时间相关的噪声进行建模，从而忽略了有限观测窗口引入的频率间相关性。我们表明，这种对角近似在所估计的谱参数上会产生依赖于方法的偏移，对于具有较浅内禀红噪声谱的脉冲星而言尤其如此。为了解决这些局限性，我们提出了一种方法，该方法（i）使用快速傅里叶变换（FFT）在粗网格上计算时域自相关，（ii）将其精确插值到不均匀采样的观测时刻，并且（iii）通过Sherman--Morrison--Woodbury恒等式将其纳入低秩似然。使用解析协方差比较和受NANOGrav 15年数据集启发的端到端模拟，我们证明我们的方法忠实地捕捉了频率相关性，避免了吉布斯振铃，并且以适度的计算成本在所研究的实现中给出更接近注入值的估计。随着PTA数据集在灵敏度和复杂度上的增加，我们的方法为当前和未来的分析提供了一条实用且可扩展的途径，以实现完全精确的协方差建模。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational-wave background",
+      "covariance modeling",
+      "red noise",
+      "low-rank likelihood"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波背景",
+      "协方差建模",
+      "红噪声",
+      "低秩似然"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-12T02:31:22.181248Z"
+  },
+  "published_at": "2026-10-12T02:31:22.181743Z"
+}
