@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.13876",
+    "arxiv_id": "2610.13876",
+    "arxiv_version": null,
+    "inspire_id": "3213810",
+    "doi": null,
+    "title_en": "Precision Tokenization for Multi-Modal Data in High Energy Physics",
+    "abstract_en": "Foundation models have recently gained significant attention in fields such as high energy physics (HEP). The tokenizers that convert detector data into discrete inputs for such models, however, are comparatively unexplored. This paper addresses this gap by learning discrete and compressed tokenized representations of HEP datasets. We demonstrate the approach on four modalities covering two different simulated detectors that vary in complexity. Treating tokenization as a rate-distortion problem, a systematic hyperparameter scan yields four design rules for tokenizing HEP data that hold across all set-based modalities studied. The cost of tokenization is evaluated on tasks including jet $p_T$ regression, particle flow reconstruction, and flavor tagging. We find that tokenization preserves much of the information needed for these tasks at compression factors of approximately 4-11$\\times$ while keeping the jet $p_T$ resolution below 1%. We also present heptokens, an open-source library for tokenizing HEP data.",
+    "authors": [
+      "Krupa, Jeffrey",
+      "Klein, Samuel",
+      "Kakati, Nilotpal",
+      "Murnane, Daniel",
+      "Hashemi, Baran",
+      "Gross, Eilam",
+      "Heinrich, Lukas",
+      "Kagan, Michael"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-12T08:57:33.665400Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213810",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213810",
+        "fetched_at": "2026-10-13T03:39:50.153730Z",
+        "url": "https://inspirehep.net/literature/3213810"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

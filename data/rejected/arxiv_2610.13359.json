@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.13359",
+    "arxiv_id": "2610.13359",
+    "arxiv_version": null,
+    "inspire_id": "3213697",
+    "doi": null,
+    "title_en": "System-Design Optimization of a Single-Transmitter, Single-Fiber QKD-based ITS Communication Link",
+    "abstract_en": "Deploying QKD-based secure communication at scale requires reducing duplicated optical hardware while preserving the rate of protected user data. Earlier studies established the physical feasibility of carrying CV-QKD and classical signals over shared infrastructure, motivating a quantitative comparison between optical hardware savings and the OTP-encrypted rate. We perform this comparison by defining the secure communication rate (SCR) as the rate jointly supported by secret-key generation and classical transport, and using it to optimize a shared discrete-modulation CV-QKD link. The model combines a binomial 64-QAM security bound with a trusted receiver, protocol traffic, spectral leakage - optical power leaking into the quantum receive band - and Raman scattering. At 25 km, the asymptotic model gives an optimized SCR of 12.079 Mbps, compared with 12.095 Mbps for a separated-link reference, while reducing the transmitter and fiber counts from two to one each in the modeled direction. Increasing channel separation suppresses spectral leakage, but the resulting SCR gain diminishes once receiver bandwidth limits the rate. Under the adopted receiver-noise law, increasing the bandwidth budget from 350 to 750 MHz raises the projected 25-km SCR to 24.535 Mbps despite higher trusted electronic noise. For the studied metropolitan link, sharing saves optical resources with little rate loss, while receiver-bandwidth improvements provide greater benefit than further spectral separation. Together, these results suggest an integration path: share the transmitter and fiber, limit unwanted classical power in the quantum receive band, and increase usable receiver bandwidth where the noise budget permits.",
+    "authors": [
+      "Srivastava, Shivang",
+      "Ricard, Guillaume",
+      "Jaouën, Yves",
+      "Schiavon, Matteo",
+      "Alléaume, Romain"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-12T08:56:42.974023Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213697",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213697",
+        "fetched_at": "2026-10-13T03:39:50.153730Z",
+        "url": "https://inspirehep.net/literature/3213697"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

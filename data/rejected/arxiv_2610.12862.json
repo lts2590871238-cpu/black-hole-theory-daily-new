@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.12862",
+    "arxiv_id": "2610.12862",
+    "arxiv_version": null,
+    "inspire_id": "3213683",
+    "doi": null,
+    "title_en": "\\textbf{\\textsc{HepUKE}}: Uncertainty-aware Knowledge Evolution for High Energy Physics Analysis Agents",
+    "abstract_en": "Knowledge bases are essential to agents for high energy physics (HEP), supplying few-shot evidence for previously unseen tasks. Their principal utility lies in strategic guidance for novel analyses rather than ready-made answers or reusable code. Prevailing systems, however, treat all retrieved evidence as equally trustworthy and fail to accrue knowledge from the analyses under assistance. In this paper, inspired by the standard HEP treatment of uncertainty, we propose \\textbf{\\textsc{\\underline{HepUKE}}}: an \\textbf{\\underline{U}}ncertainty-aware \\textbf{\\underline{K}}nowledge \\textbf{\\underline{E}}volution system for \\textbf{\\underline{HEP}} that repurposes information entropy to unify statistical uncertainty from LLM generation and systematic uncertainty from HEP methodological choices. Upon it, we construct a self-evolving domain-specific-language (DSL) knowledge base and release a large-scale expert-annotated HEP physics-analysis benchmark. Per-evidence confidence is quantified via the information entropy of sampled DSL generations: high-confidence precedents constrain program synthesis, whereas analyses lacking close precedents are validated and written back, sustaining continual knowledge evolution. To handle the highly redundant yet logically stringent nature of HEP knowledge, we introduce an early-stopping controller that fuses a backward stationarity test on the answer posterior with a forward marginal information gain estimate. On the 1,000-pair BESIII PhysicsQA benchmark, HepUKE reduces retrieval rounds by 43.0% while preserving most answer quality, and on the out-of-domain HotpotQA benchmark, it reduces retrieval rounds by 14.5% with a similar quality--efficiency trade-off. The code and datasets used in this work are available at https://anonymous.4open.science/r/HepUKE-32FF.",
+    "authors": [
+      "Shang, Zijie",
+      "Li, Ke",
+      "Jiao, Junkun",
+      "Wang, Shengchun",
+      "Yuan, Changzheng",
+      "Wang, Xiongfei",
+      "Liu, Beijiang",
+      "Song, Weimin",
+      "Kang, Xiaoshen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-12T08:55:11.429611Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213683",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213683",
+        "fetched_at": "2026-10-13T03:39:50.153730Z",
+        "url": "https://inspirehep.net/literature/3213683"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

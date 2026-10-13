@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.12969",
+    "arxiv_id": "2610.12969",
+    "arxiv_version": null,
+    "inspire_id": "3213679",
+    "doi": null,
+    "title_en": "CNN-based Position Reconstruction for the T0 Detector in the HIRFL-CSR External-target Experiment",
+    "abstract_en": "The T0 detector provides the event start time for the HIRFL-CSR external-target experiment, and its multi-channel readout signals also contain 2D position information of incident particles. In the CEE experiment, the dedicated beam-profile detector has a rate capability of only ~1 kHz, far below the beam event rate of up to 1 MHz, so it cannot provide real-time beam-spot monitoring under high-rate data-taking or an event time reference. To fill this gap, this work studies a CNN-based position reconstruction method that enables the T0 detector to provide both start time and beam-spot information. The over-threshold times and time-over-threshold (TOT) values from 32 SiPM channels are reorganized into a geometry-preserving input tensor. Time features are corrected by event-wise mean-time subtraction, and TOT features are normalized by an event-wise trimmed mean before feature standardization. A customized CNN directly regresses the incident coordinates. Training and validation samples are built with Geant4 simulation and waveform digitization, and the method is evaluated using a pulsed-laser scanning data set with known position labels. On independent test sets, the residual standard deviations for uniformly distributed planar simulation data are about 1.11 and 1.04 mm in x and y. For the discrete laser-scanning geometry, the resolutions are about 2.36 and 1.34 mm in simulation and 2.42 and 1.41 mm in experiment. The trained model is applied to CEE zero-field beam data collected at the Institute of Modern Physics, Lanzhou, in January 2026, and a 2D beam-spot distribution is reconstructed. These results show the T0 detector's potential as a high-rate beam-spot monitor while retaining its role as an event start-time detector.",
+    "authors": [
+      "Lv, Shuai-Ke",
+      "Hu, D.",
+      "Shao, M.",
+      "Zhou, Yingjie",
+      "Zhao, Yiding"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-12T08:55:55.214956Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213679",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213679",
+        "fetched_at": "2026-10-13T03:39:50.153730Z",
+        "url": "https://inspirehep.net/literature/3213679"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

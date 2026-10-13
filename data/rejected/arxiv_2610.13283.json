@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.13283",
+    "arxiv_id": "2610.13283",
+    "arxiv_version": null,
+    "inspire_id": "3213718",
+    "doi": null,
+    "title_en": "Circuit Design Problems in Binary Polynomial Quantum Optimization",
+    "abstract_en": "Solving combinatorial optimization problems on near-term quantum computers mainly relies on their quadratic unconstrained binary formulation. Lately, binary polynomial formulations start to take the center stage, having a better scaling with respect to the number of used qubits. However, while quadratic forms are straightforward to implement on quantum circuits, polynomial forms of degree $d$ incur in circuit depth overheads, due to the lack of $d$-qubit gates, for $d\\geq 3$, on current hardware. In this paper, we study the problem of designing the shallowest quantum circuit for a given polynomial form. We formulate it as a classical binary linear problem and we prove the \\textsf{NP}-completeness of a variant of it. On the algorithmic side, we offer a scalable and performant heuristic method to tackle it, Tempura, as well as faster binary linear problem formulations, which offer computational feasibility while sacrificing optimality. Our performance evaluation shows that the algorithms yield far shorter circuits than the state-of-the-art approaches, and Tempura is mostly comparable with them in terms of runtime.",
+    "authors": [
+      "Mermoud, Dylan Laplace",
+      "Watel, Dimitri",
+      "Elloumi, Sourour",
+      "Simonetto, Andrea"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-12T08:56:46.312197Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213718",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213718",
+        "fetched_at": "2026-10-13T03:39:50.153730Z",
+        "url": "https://inspirehep.net/literature/3213718"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
