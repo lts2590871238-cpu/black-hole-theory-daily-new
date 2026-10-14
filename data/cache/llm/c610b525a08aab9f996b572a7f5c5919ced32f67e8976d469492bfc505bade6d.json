@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 12,
+    "methodological_rigor": 16,
+    "novelty": 11,
+    "clarity": 9,
+    "metadata_quality": 3,
+    "community_signal": 0,
+    "other": 4
+  },
+  "total_score": 55,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文直接针对PTA（脉冲星计时阵列）噪声建模中的色散效应与轮廓演化建模问题，提出了新的数学形式（IFD与LIFD），并在NANOGrav 15年数据集上验证，对纳赫兹引力波探测具有较高的方法学参考价值。研究问题具体，方法可验证，且提供了定量结果（残差降低85%，DM偏差减小），是相关领域研究者值得进一步阅读的工作。",
+  "title_zh": "NANOGrav 15年数据集：脉冲星计时模型中轮廓演化时间延迟的修正函数形式",
+  "abstract_zh": "射电脉冲星在其脉冲轮廓形状上表现出频率依赖的变化，这会在整个观测频段内对观测到的脉冲到达时间（TOA）引入系统性延迟。北美纳赫兹引力波天文台（NANOGrav）使用频率依赖的（FD）对数多项式函数对这些延迟进行建模，其系数通过拟合不同射电频率下的TOA测量值来确定。然而，FD参数容易吸收来自其他色散效应（如星际色散）的功率，导致拟合的FD值高估轮廓演化，并在不同数据集之间差异显著。为了分离这些效应，我们引入了两种新的轮廓演化数学形式：单项式展开（IFD）和勒让德多项式展开（LIFD）。我们在NANOGrav 15年数据集中11颗脉冲星的观测数据以及模拟数据上测试了这些模型，并将它们的性能与频率分辨脉冲模板进行了比较。我们发现，基于勒让德的模型通常能预测出更接近真实轮廓演化的计时延迟，对于模拟数据，相对于FD而言，其残差偏移最多可减少85%。此外，我们发现轮廓演化模型的选择可能会使拟合的色散模型产生偏差：基于FD的模型将注入的DM高估了0.013 pc cm^{-3}，而LIFD仅高估0.0002 pc cm^{-3}。这些结果支持使用勒让德基来缓解色散效应之间的协方差，这直接有利于针对这些效应的定向计时研究，以及为纳赫兹引力波探测开发先进的噪声建模技术。",
+  "keywords_en": [
+    "pulsar timing",
+    "NANOGrav",
+    "profile evolution",
+    "dispersion measure",
+    "gravitational waves",
+    "noise modeling"
+  ],
+  "keywords_zh": [
+    "脉冲星计时",
+    "NANOGrav",
+    "轮廓演化",
+    "色散量",
+    "引力波",
+    "噪声建模"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-14T02:09:55.926306Z"
+}
