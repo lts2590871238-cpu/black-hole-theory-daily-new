@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05357-0",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3214765",
+    "doi": "10.1007/s11128-026-05357-0",
+    "title_en": "Quantum single-image super resolution",
+    "abstract_en": "We propose a classically simulated hybrid Quantum-classical deep learning method for single-image Super-Resolution (SR). The method integrates Variational Quantum Circuits (VQCs) with an Enhanced Deep Super-Resolution (EDSR) architecture. After training on paired Low-Resolution (LR) and High-Resolution (HR) images, the model reconstructs an SR image from a given LR input. The training objective constrains both LR and HR reconstructions. An Inhomogeneous Gaussian Markov Random Field (IGMRF) prior is used as a spatial regularizer, eliminating the need for externally pre-trained networks to construct perceptual loss. Experimental results are reported for $4\\times $ and $8\\times $ Super-Resolution using Peak Signal-to-Noise Ratio (PSNR), Structural Similarity Index (SSIM), and Learned Perceptual Image Patch Similarity (LPIPS). A model trained for $2\\times $ enhancement is applied recursively to obtain higher-magnification factors. Quantitative and qualitative examples illustrate recursive enhancement up to $8\\times $ without architectural modification. Simulated depolarizing-noise and circuit-connectivity ablations show gradual performance changes under the tested settings. Since all Quantum components are simulated on classical hardware, these results are presented as evidence of the proposed hybrid representation in a simulation-based setting, while hardware-level Quantum acceleration remains a direction for future investigation.",
+    "authors": [
+      "Gohel, Prashant",
+      "Joshi, Manjunath"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-14T13:26:37.220485Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 337, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 337, 10, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214765",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214765",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214765"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

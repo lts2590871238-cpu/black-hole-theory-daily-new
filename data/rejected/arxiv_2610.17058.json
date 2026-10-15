@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.17058",
+    "arxiv_id": "2610.17058",
+    "arxiv_version": null,
+    "inspire_id": "3214015",
+    "doi": "10.1109/iiswc71020.2026.00052",
+    "title_en": "Architecting Instruction Execution for Scalable Fault-Tolerant Quantum Computing",
+    "abstract_en": "Scaling fault-tolerant quantum computing (FTQC) requires orchestrating millions of operations continuously across a tightly coupled classical-quantum control stack. A critical challenge in this orchestration is determining the optimal hardware-software boundary, i.e., the Quantum Instruction Set Architecture (QISA). We focus on cryogenic, fixed-connectivity qubit platforms, such as superconducting and topological Majorana qubits. For these, existing QISA choices either operate at too low a level, violating cryogenic thermal budgets at scale, or at too high a level, imposing unrealizable complexity on the control engine. To reason about these tradeoffs, we introduce the ARIES instruction set hierarchy, which categorizes QISAs into distinct abstraction levels. To systematically evaluate these levels, we develop an end-to-end evaluation toolflow featuring a cycle-accurate classical driver and hardware engine simulator. Using eight quantum applications across superconducting and topological qubit platforms, we measure instruction bandwidth, transceiver power dissipation, and measurement processing overheads. We demonstrate that while physical-level abstractions exceed the thermal limits of dilution refrigerators by orders of magnitude, canonical-level abstractions significantly underestimate hardware routing congestion and execution runtimes. Our Level 4 QISA (local logical operations) offers an optimal architectural balance. As quantum hardware platforms scale toward FTQC in the coming years, our findings provide concrete architectural guidance for the design of their classical control stacks and instruction interfaces.",
+    "authors": [
+      "Filippov, Dmitry",
+      "Hogaboam, Justin",
+      "Soeken, Mathias",
+      "Gatta, Raghu",
+      "Murali, Prakash",
+      "Troyer, Matthias"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:00:37.803668Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214015",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214015",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214015"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

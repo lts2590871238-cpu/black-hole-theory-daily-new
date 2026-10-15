@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/j89c-3k2s",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3214748",
+    "doi": "10.1103/j89c-3k2s",
+    "title_en": "Geometry-conditioned basin initialization for variational quantum eigensolvers in strongly correlated molecules",
+    "abstract_en": "Variational quantum eigensolvers often spend their most expensive quantum evaluations on a classical problem: finding a useful basin of the nonconvex energy landscape. This burden is acute in strongly correlated molecules, where Hartree-Fock and random starts can enter symmetry-broken or otherwise weak-overlap branches before local optimization becomes informative. Here we treat initialization as a geometry-to-basin learning problem. We introduce a symmetry-constrained graph preconditioner \\(\\left. \\mathcal{P}_{eq}:\\mathbf{R}\\mapsto\\mathbf{\\theta}_{0} \\right.\\) that maps internal molecular geometry to shallow-circuit parameters near a correlated ground-state basin. At the level of gradient statistics, this changes the relevant initialization measure from a delocalized, concentration-controlled ensemble to a basin-localized, curvature-controlled ensemble. Across six stretched molecular benchmarks, the learned initializer converts large Hartree-Fock initialization gaps into mHa-scale starts, with improvement factors from \\(38 \\times\\) to \\(6240 \\times\\) and sub-mHa starts in the strongest transfer cases. Projected landscapes and targeted controls show that molecular geometry carries reusable information about the correlated basin. Offline labels can therefore train the initializer, reserving quantum evaluations for local refinement.",
+    "authors": [
+      "Wang, Yangshuai"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T15:06:54.451931Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 042421, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 4, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214748",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214748",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214748"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

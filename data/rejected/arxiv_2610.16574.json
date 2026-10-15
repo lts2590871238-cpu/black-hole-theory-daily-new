@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.16574",
+    "arxiv_id": "2610.16574",
+    "arxiv_version": null,
+    "inspire_id": "3214014",
+    "doi": null,
+    "title_en": "$\\texttt{NFDiag}$: High-dimensional MCMC Convergence Diagnosis with Normalizing Flows",
+    "abstract_en": "Accurately assessing the convergence of Monte Carlo Markov Chains is crucial for ensuring their validity in Bayesian inference problems. However, convergence assessment in high dimensions is known to be difficult, due to most convergence diagnostics becoming insensitive beyond a few dozen parameters. Conventional convergence statistics analyze marginal distributions which in high dimensions neglects increasing levels of information from the joint and conditional probability distributions. Thus we propose $\\texttt{NFDiag}$, which taps into the information of the full multivariate joint posterior with a normalizing flow (NF). Our convergence diagnostic thereby also analyzes information from conditional distributions. In other words, by working in the full multivariate space, it is sensitive with respect to the geometry of the chain in high dimensions. Our diagnostic utilizes that NFs assume independent and identically distributed (iid) training samples, which is a testable assumption that will be violated by a non-converged or strongly correlated chain. Our diagnostic trains NFs on separate parts of a chain, and then assesses whether these correspond to the same multivariate target distribution. We test our diagnostic in up to 250 dimensions, and demonstrate it is universal and unbiased, and detects problematic chain quality also when Gelman-Rubin $\\hat{R}$ and the multivarite effective sample size do not.",
+    "authors": [
+      "Nazlı, Kutay",
+      "Sellentin, Elena"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:21:00.361773Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214014",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214014",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214014"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

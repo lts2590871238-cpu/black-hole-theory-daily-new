@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.16607",
+    "arxiv_id": "2610.16607",
+    "arxiv_version": null,
+    "inspire_id": "3214346",
+    "doi": null,
+    "title_en": "From Earth to Mars and Beyond: AI-Driven Cosmic-Ray Validation and Prediction with CorsikaAgent",
+    "abstract_en": "We calculate the sea-level cosmic-ray muon flux with CORSIKA and develop CorsikaAgent, an auditable large-language-model-based system for configuring, executing, and validating air-shower simulations, and for predicting particle fluxes in unexplored environments. The physics calculation uses proton primaries described by the solar-minimum spectrum of Papini et al., with UrQMD at low interaction energies and either Sibyll 2.3e or QGSJET-III at high energies. The predicted momentum spectra at approximately 0 and 75 degrees are compared with experimental measurements of the atmospheric muon flux and with commonly used analytic parametrizations. The two interaction-model configurations give similar spectra and describe the principal momentum and zenith-angle dependences of the data. The agent independently reconstructs the same observable through a different sampling strategy and keeps every steering card, executable, seed, log, and analysis script bound to the result it produced; its output is consistent with the direct calculation at the level resolved by the present comparison. Transferred to Mars, the workflow reproduces the CORSIKA 8 benchmark, and transferred to Venus it produces the first prediction of the surface muon flux, an environment for which no measurement exists. The agent thus extends the workflow from auditable reproduction to first-principles prediction: it autonomously reconfigures the simulation(atmosphere, magnetic field, electric field)for new environments, while the proton-only primary model, limited high-momentum statistics, and an incomplete systematic-uncertainty treatment bound the physical precision that can currently be claimed.",
+    "authors": [
+      "Chen, Zhuo",
+      "Zhao, Zhizheng",
+      "Shen, Jinhong",
+      "Gao, Leyun",
+      "Liu, Cheng-en",
+      "Li, Qite",
+      "Wang, Zijian",
+      "Li, Qiang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T08:32:26.054811Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214346",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214346",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214346"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

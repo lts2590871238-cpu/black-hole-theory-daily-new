@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.14259",
+    "arxiv_id": "2610.14259",
+    "arxiv_version": null,
+    "inspire_id": "3214105",
+    "doi": null,
+    "title_en": "Quantum Signal Processing Phase Factorization via Logarithmic Derivatives",
+    "abstract_en": "Quantum signal processing (QSP) requires the efficient computation of phase factors associated with a polynomial transformation. One existing stable factorization method avoids direct root finding but relies on Prony's method to recover a polynomial from weighted power sums of its roots (arXiv:2202.02671). We present a modification of this approach that eliminates Prony's method by using the logarithmic derivative of an associated polynomial. Because the logarithmic derivative has the same residue at every root after accounting for multiplicity, its Fourier coefficients directly yield the unweighted power sums of the roots inside the unit disk. The Newton--Girard identities then recover the coefficients of the corresponding polynomial without computing its roots. The resulting algorithm has $O(d\\log^2 d)$ computational complexity and simplifies the factorization procedure of the original method. In numerical experiments on Hamiltonian simulation, eigenstate filtering, matrix inversion, and the Fermi--Dirac operator, our implementation computes phase factors in seconds with maximum errors on the order of $10^{-12}$.",
+    "authors": [
+      "Peng, Christopher"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:52.243766Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214105",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214105",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214105"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

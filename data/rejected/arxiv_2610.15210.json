@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.15210",
+    "arxiv_id": "2610.15210",
+    "arxiv_version": null,
+    "inspire_id": "3214218",
+    "doi": null,
+    "title_en": "Signal-to-noise problems in fault-tolerant quantum computation",
+    "abstract_en": "Quantum computation offers a promising alternative to classical Monte Carlo methods by naturally avoiding sign problems through unitary evolution. A common misconception follows from this: because quantum simulation sidesteps the sign problem, it is often assumed to be an essentially perfect substitute for classical sampling. This is false---quantum measurements are intrinsically stochastic, and estimating observables often requires a number of samples that grows exponentially with system size, time separation, or inverse temperature, exactly as in the classical signal-to-noise problem. In this work, we analyze the origin and structure of signal-to-noise problems in quantum computation, drawing parallels with classical Monte Carlo, and demonstrate that such noise persists even in sign-problem-free regimes. We discuss strategies to mitigate it, in particular a quantum generalization of Stein control variates construction, in which unbiased estimators are built from operator commutators $[X,A]$ and their discrete diagonal counterparts, and validate the approach with exactly solvable numerical examples that quantify the achievable variance reduction. Our results underscore that variance reduction, not merely sign-problem avoidance, is required to make quantum algorithms practically viable for many-body physics.",
+    "authors": [
+      "Oh, Hyunwoo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-10T00:00:00Z",
+    "updated_at": "2026-10-14T14:01:56.522464Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214218",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214218",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214218"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

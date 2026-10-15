@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.17395",
+    "arxiv_id": "2610.17395",
+    "arxiv_version": null,
+    "inspire_id": "3214057",
+    "doi": null,
+    "title_en": "A Controlled Null Result for Per-Gate Riemannian Optimization in VQE",
+    "abstract_en": "Parametrized gates in a variational quantum eigensolver (VQE) live on a product of unitary groups, which makes Riemannian optimization a natural candidate for improving training. We test this candidate in the clean per-gate setting: each single-qubit gate is optimized directly on U (2) and compared with Adam on an unconstrained Euler-angle chart representing the same physical gate, initialized from the same unitaries and tuned with a separate learning-rate sweep. On a validated hydrogen-chain benchmark, we find no measurable practical advantage from the Riemannian machinery. The direct manifold optimizer and the Euler-coordinate baseline are interleaved in final error and success rate; the classical coordinate baseline is not slower in iterations on the successful cells; and the choices of Riemannian metric, retraction, and momentum vector transport do not change the conclusion. We also identify four failure modes that can manufacture an apparent positive result: a trivial product-state benchmark, a projected-matrix Adam baseline that discards most of its own step, a non-unitary inherited Cayley retraction that lets the reported energy pass below the variational minimum, and a learning-rate grid whose optimum sits at its boundary. Each failure mode produced a plausible multi-seed result in our own workflow before being caught. The practical output of this paper is therefore a controlled null result and a validation checklist for VQE optimizer comparisons.",
+    "authors": [
+      "Belozerova, Polina",
+      "Osinenko, Pavel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:02:23.163147Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214057",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214057",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214057"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

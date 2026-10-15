@@ -2151,3 +2151,44 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='export.arxiv.org'
 2026-10-14 02:09:59,779 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-10-14 02:10:04,101 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-10-14 02:10:07,278 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 01:35:13,345 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: arXiv timed out
+2026-10-15 01:35:13,396 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: source timed out
+2026-10-15 01:35:13,397 WARNING theory_daily.pipeline: INSPIRE 数据源暂时不可用：source timed out
+2026-10-15 01:35:14,864 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: 406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending
+2026-10-15 01:35:23,995 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-10-15 01:35:23,995 INFO openai._base_client: Retrying request to /chat/completions in 0.489772 seconds
+2026-10-15 01:35:24,825 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 01:50:25,272 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 02:05:25,682 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 02:20:26,059 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 02:35:26,404 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-10-15 02:35:26,404 INFO openai._base_client: Retrying request to /chat/completions in 0.439733 seconds
+2026-10-15 02:35:27,165 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 02:46:27,187 INFO openai._base_client: Retrying request to /chat/completions in 0.769304 seconds
+2026-10-15 02:46:28,352 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 02:47:28,362 INFO openai._base_client: Retrying request to /chat/completions in 1.522040 seconds
+2026-10-15 02:47:30,269 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 02:52:30,720 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:07:31,098 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:09:31,138 INFO openai._base_client: Retrying request to /chat/completions in 0.463806 seconds
+2026-10-15 03:09:32,011 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:14:32,018 INFO openai._base_client: Retrying request to /chat/completions in 0.870160 seconds
+2026-10-15 03:14:33,387 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-10-15 03:14:33,387 INFO openai._base_client: Retrying request to /chat/completions in 1.628939 seconds
+2026-10-15 03:14:35,323 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:29:35,681 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:31:35,689 INFO openai._base_client: Retrying request to /chat/completions in 0.376853 seconds
+2026-10-15 03:31:36,485 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:32:36,545 INFO openai._base_client: Retrying request to /chat/completions in 0.973535 seconds
+2026-10-15 03:32:37,950 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 03:47:38,064 INFO openai._base_client: Retrying request to /chat/completions in 1.687986 seconds
+2026-10-15 03:47:40,230 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:02:40,699 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:11:09,781 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:11:25,781 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:12:23,394 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:13:18,978 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:13:35,036 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:14:01,704 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:14:22,518 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-15 04:15:04,870 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"

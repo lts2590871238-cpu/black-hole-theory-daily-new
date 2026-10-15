@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.18454",
+    "arxiv_id": "2610.18454",
+    "arxiv_version": null,
+    "inspire_id": "3214605",
+    "doi": null,
+    "title_en": "HEPTABench: A framework for portable and controlled agentic evaluations in high energy physics",
+    "abstract_en": "Quantifying the capability and reliability of agentic systems in high-energy physics (HEP) requires repeated evaluations under controlled configurations. Establishing whether changes to models, tools, or harnesses improve performance also requires these components to be varied independently. We present the High Energy Physics Tool-and-Agent Benchmarking (HEPTABench) framework for portable and controlled evaluations of agentic systems, with separately configurable tasks, scaffolding, models, providers, harnesses, and domain capabilities. The framework combines HEP benchmark tasks and scientific rubrics with experiment execution and versioned tool interfaces. To support inspection, reproducibility, and post-hoc grading, the framework prioritizes recording and reporting complete experiment specifications, agent trajectories, and experiment artifacts. We demonstrate the framework in two benchmark campaigns. The first campaign evaluates a forward long-lived-particle reach calculation across four frontier coding-agent systems, comparing their built-in coding tools with the same tools supplemented by HEP domain tools. We show that including these HEP domain tools improves numerical accuracy and reduces trial-to-trial dispersion for every tested system. In a complementary campaign covering eight symbolic two-body decay tasks, we show that adding symbolic domain tools increases the fraction of successful trials for Claude Haiku 4.5 from $8\\%$ to $79\\%$, while GPT-5.5 succeeds in every trial with built-in tools alone. Through systematic evaluation of agentic systems, HEPTABench enables the identification of factors that improve the accuracy and reliability of their scientific work.",
+    "authors": [
+      "Menzo, Tony",
+      "Roman, Alexander",
+      "Fleming, George T.",
+      "Gleyzer, Sergei",
+      "Matchev, Konstantin",
+      "Mrenna, Stephen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T08:57:11.820578Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214605",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214605",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214605"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

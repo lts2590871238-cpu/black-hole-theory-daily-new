@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.16124",
+    "arxiv_id": "2610.16124",
+    "arxiv_version": null,
+    "inspire_id": "3214307",
+    "doi": null,
+    "title_en": "QIAP: A Quantum-Inspired Authentication Protocol with BB84-Based Channel Monitoring",
+    "abstract_en": "Authentication in quantum-aware communication settings requires mechanisms that verify user legitimacy while also assessing whether the communication channel exhibits excessive disturbance. This paper presents QIAP, a stateful hybrid framework that combines classical commitment-based challenge-response authentication with BB84-based quantum-channel monitoring. QIAP uses a dual-branch verification structure inspired by rectilinear and diagonal basis selection. In the rectilinear branch, the prover opens a hash-based commitment and the verifier checks consistency with the registered round token. In the diagonal branch, the prover returns an HMAC tag bound to the verifier nonce, round identifier, and submitted commitment without disclosing the round-specific sub-secret. Under the stated hash, HMAC, freshness, secure-registration, protected-storage, and high-entropy-secret assumptions, QIAP provides computational resistance to the modeled wrong-secret and replay attempts and protects the long-term master secret from direct recovery. After successful authentication, the BB84 module estimates the quantum bit error rate (QBER) and aborts the session when the measured value reaches or exceeds the configured threshold. In the reported simulation, no successful authentication was observed among 1,000 tested wrong-secret attempts per branch. The baseline and full intercept-resend conditions produced mean QBER values of approximately 0.02 and 0.25, respectively. The classical authentication stage required approximately 0.6 ms, and the implemented authentication messages required approximately 113 bytes per round. These results indicate that QIAP can provide a lightweight hybrid framework for combining secret-based identity verification with QBER-based channel-disturbance assessment under the stated threat model.",
+    "authors": [
+      "Siddiqui, Owais Ishtiaq",
+      "Innan, Nouhaila",
+      "Zaheer, Hira",
+      "Shafique, Muhammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:08:23.822152Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214307",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214307",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214307"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

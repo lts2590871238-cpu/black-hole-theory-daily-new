@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.15110",
+    "arxiv_id": "2610.15110",
+    "arxiv_version": null,
+    "inspire_id": "3214001",
+    "doi": null,
+    "title_en": "Generative Quantum Machine Learning Methods for Cancer Detection using Augmented Datasets",
+    "abstract_en": "Cancer detection using AI methods and image databases faces several challenges, including limited and imbalanced image datasets, long algorithm training times, and high-complexity feature generation. In particular, many cancer image datasets contain very few malignant examples compared to benign ones, limiting the amount of minority-class data available for training. Although classical AI and especially deep learning methods have had some success in providing cancer diagnostics, Quantum Machine Learning (QML) methods may offer advantages through high-dimensional feature representations, generative data augmentation, and the exploitation of feature correlations through quantum properties such as entanglement. In this paper, we propose using a generative QML method on the compressed breast ultrasound image dataset (BUSI) to generate synthetic images and hence augmented datasets for classifier training. In particular, we train a convolutional neural network with real, synthetic, and a combination of real and synthetic images. We test the algorithm on real images and provide comparative results for all three training cases. Our results show that the classifier trained entirely on synthetic images achieved an AUC-ROC of 0.802 (80.2%), compared with 0.760 (76.0%) for the real-data baseline.",
+    "authors": [
+      "Knutson, Sophia",
+      "Goyal, Nandika",
+      "De Luca, Gennaro",
+      "Uehara, Glen",
+      "Patel, Tanay Kamlesh",
+      "Spanias, Andreas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-10T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:20.760429Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214001",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214001",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214001"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

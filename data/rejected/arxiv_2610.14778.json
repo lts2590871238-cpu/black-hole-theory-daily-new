@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.14778",
+    "arxiv_id": "2610.14778",
+    "arxiv_version": null,
+    "inspire_id": "3214294",
+    "doi": null,
+    "title_en": "Avoiding Defects within Heavy-Hexagon Architecture",
+    "abstract_en": "When implementing scalable fault-tolerant quantum computing using superconducting quantum processors, one of the critical challenges to overcome is the presence of defective qubits arising from fabrication and calibration imperfections. A defect on a specific qubit severely restricts the connectivity between adjacent qubits, disrupts stabilizer measurements, induces frequent detection events, and consequently inflates the logical error rate. To mitigate this issue, various strategies have been proposed, such as syndrome extraction circuits based on stabilizer folding and the construction of super-stabilizers via gauge operators. However, these methods have primarily been developed for architectures with relatively high connectivity of 3 to 4. Furthermore, experimental demonstrations showing an actual reduction in logical error rates in the presence of physical hardware defects have been lacking. In this work, we propose a defect-avoidance scheme tailored for the heavy-hexagon architecture, which features a lower connectivity of 2 to 3. While previous approaches required four measurement cycles to measure all gauge operators comprising a super-stabilizer, our proposed scheme completes all gauge measurements within only two cycles. We experimentally validate this approach on IBM quantum hardware by identifying physical defects and implementing the defect-avoidance circuits. As a result, avoiding the defect yields an approximately 10% reduction in the logical error rate per cycle for both logical $X$ and $Z$ errors. These findings demonstrate that defects in superconducting hardware can be successfully handled even under the constrained connectivity of heavy-hexagon lattices, and that defect avoidance substantially reduces logical errors on real quantum hardware.",
+    "authors": [
+      "Kim, Hansol",
+      "Kwon, Younghun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-10T00:00:00Z",
+    "updated_at": "2026-10-14T14:00:49.038688Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214294",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214294",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214294"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

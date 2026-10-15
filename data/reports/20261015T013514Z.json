@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-10-15T01:35:14.600451Z",
+  "completed_at": "2026-10-15T04:16:03.808358Z",
+  "status": "degraded",
+  "fetched_arxiv": 0,
+  "fetched_inspire": 800,
+  "normalized": 800,
+  "deduplicated": 800,
+  "candidates": 21,
+  "selected": 13,
+  "review_queue": 0,
+  "rejected": 779,
+  "llm_calls": 9,
+  "cached_decisions": 4,
+  "errors": [
+    "arXiv data source temporarily unavailable: 406 Client Error: Not Acceptable for url: https://export.arxiv.org/api/query?search_query=%28cat%3Agr-qc+OR+cat%3Ahep-th+OR+cat%3Aastro-ph.HE+OR+cat%3Aastro-ph.CO+OR+cat%3Acond-mat.str-el+OR+cat%3Acond-mat.quant-gas+OR+cat%3Acond-mat.supr-con%29&start=0&max_results=100&sortBy=lastUpdatedDate&sortOrder=descending",
+    "arxiv:2610.17819: 评分或翻译失败：'NoneType' object is not subscriptable",
+    "arxiv:2610.16773: 评分或翻译失败：'NoneType' object is not subscriptable",
+    "arxiv:2610.16481: 评分或翻译失败：'NoneType' object is not subscriptable",
+    "arxiv:2610.17092: 评分或翻译失败：'NoneType' object is not subscriptable",
+    "arxiv:2610.17259: 评分或翻译失败：Request timed out.",
+    "arxiv:2610.17446: 评分或翻译失败：'NoneType' object is not subscriptable",
+    "arxiv:2610.15508: 评分或翻译失败：'NoneType' object is not subscriptable",
+    "arxiv:2610.14484: 评分或翻译失败：'NoneType' object is not subscriptable"
+  ]
+}

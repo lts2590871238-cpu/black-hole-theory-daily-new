@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.16209",
+    "arxiv_id": "2610.16209",
+    "arxiv_version": null,
+    "inspire_id": "3214009",
+    "doi": null,
+    "title_en": "Bootstrapping Classical and Quantum Query Lower Bounds for Finding Tarski Fixed Points",
+    "abstract_en": "The Tarski fixed-point problem asks for a fixed point of a monotone map on a $k$-dimensional grid lattice of width $n$ and has applications in game theory, economics, and verification. Substantial gaps remain between the known upper and lower bounds on its quantum query complexity. We prove two hardness bootstrapping theorems for quantum query lower bounds. Starting from a hard instance family whose instances have pair-wise incomparable unique fixed points, and a lower bound established by the nonnegative adversary method, we bootstrap this lower bound by (i) a factor of $Ω(t)$ when the dimension is multiplied by $t$ and the width remains unchanged, and (ii) a factor of $Ω(\\log m)$ when the width is multiplied by $m$ and the dimension is doubled. Applying these theorems, we obtain three consequences: (i) an $Ω(k\\log^2 n)$ lower bound for $k\\geq 4$, improving previously best-known classical and quantum lower bounds; (ii) for every fixed constant $α>0$, there exists a constant $δ(α)>0$ such that $Q_ε(\\text{Tarski}(n,k))=Ω(kn^{δ(α)})$ whenever $k>n^α$, and in particular, an $Ω(kn^{0.0072})$ lower bound for $k>n^{2/203}$, the first lower bound with simultaneous linear dependence on the dimension and polynomial dependence on the width; and (iii) a superpolynomial lower bound of $(k/\\log k)^{Ω(\\log k)}$ for exponentially wide grids, where $n=2^{Θ(k)}$. The last result rules out a route to polynomial-time algorithms for simple stochastic games and ARRIVAL through generic polynomial-query black-box Tarski solvers.",
+    "authors": [
+      "Li, Tongyang",
+      "Ma, Weiran",
+      "Yang, Ziyi",
+      "Zhao, Xingyu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:41.411268Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214009",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214009",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214009"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.15096",
+    "arxiv_id": "2610.15096",
+    "arxiv_version": null,
+    "inspire_id": "3214200",
+    "doi": null,
+    "title_en": "BSMScanner: a lightweight framework for beyond-the-Standard-Model global fits",
+    "abstract_en": "We present BSMScanner, a framework in which a beyond-the-Standard-Model (BSM) parameter scan is specified as a set of declarative YAML documents rather than written as a program. The user declares the free parameters and their priors, the mass matrices and the diagonalisations that act on them, the observables, the theory-validity conditions and the likelihood terms. The framework validates this specification, resolves it into a dependency graph and compiles it once into a typed C++ evaluation kernel, which is then driven by an independently chosen scanning engine: uniform sampling, two differential-evolution engines, or a staged basin-discovery orchestrator, optionally followed by Markov-chain posterior refinement. Flavour physics matrix diagonalisation, PMNS and CKM construction in fixed conventions, tabulated oscillation likelihoods and a library of common flavour observables are provided by the framework and imported by name, so that a model file contains only model-specific definitions; quantities without a closed form, such as a relic density, enter through a C++ or Python plugin interface. We describe the specification schema, the observable and likelihood library, the scanning engines and their configuration, and demonstrate the framework on six benchmark models with $4$ to $26$ free parameters, giving for each the specification, the scan configuration, the resulting best fit and analytic cross-checks of the result.",
+    "authors": [
+      "Belfkir, Mohamed"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-10T00:00:00Z",
+    "updated_at": "2026-10-14T08:23:43.334314Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214200",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214200",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214200"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

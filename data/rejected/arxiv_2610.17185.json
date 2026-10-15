@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.17185",
+    "arxiv_id": "2610.17185",
+    "arxiv_version": null,
+    "inspire_id": "3214443",
+    "doi": null,
+    "title_en": "Error-Corrected QRAM Queries with One-Fault-Tolerant \\texttt{CSWAP} Gates",
+    "abstract_en": "Quantum random-access memory (QRAM) enables coherent queries to classical data. However, the \\(O(N)\\) qubits required for a memory with \\(N=2^n\\) addresses make QRAM appear vulnerable to noise. Though bucket-brigade routing provides intrinsic noise resilience to reduce the error in QRAM, improving the fidelity of QRAM queries is still an important and challenging problem. We introduce a low-overhead protection framework for bucket-brigade QRAM with two complementary components. First, we propose a one-fault-tolerant repeat-until-success logical controlled-SWAP gate using the \\([[4,2,2]]\\) code under erasure noise channel. Interleaved erasure checks and local recovery correct every single erasure, so the leading logical failure probability is second order in the physical erasure error rates. Second, we exploit validity constraints of bucket-brigade routing to define local parity checks directly on the router states, without adding extra data qubits to create code redundancy. Under bit-flip noise, minimum-weight perfect matching with noiseless syndrome measurements corrects single interior faults, while open spatial boundaries retain a first-order contribution in the residual bit-flip rate. Monte Carlo simulations confirm quadratic suppression for the protected controlled-SWAP and improved depth scaling for decoded QRAM router-state snapshots. The two codes admit a concatenated realization in which the inner code supplies erasure protection and the outer code optionally corrects interior logical bit flips. Together, these results show how routing constraints and a protected non-Clifford routing gate can improve QRAM reliability under biased and erasure-dominant noise.",
+    "authors": [
+      "Xu, Shifan",
+      "Hann, Connor T.",
+      "Wiebe, Nathan",
+      "Girvin, Steven M.",
+      "Ding, Yongshan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:02:25.356503Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214443",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214443",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214443"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

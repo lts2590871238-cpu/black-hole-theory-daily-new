@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.18202",
+    "arxiv_id": "2610.18202",
+    "arxiv_version": null,
+    "inspire_id": "3214587",
+    "doi": null,
+    "title_en": "Theory of Trotter Error with Variable-Weight Schedules",
+    "abstract_en": "Trotterization is a widely used algorithm for simulating quantum evolutions and consists of approximating a target unitary through a local linear decomposition of its generator that is repeated over $N$ steps. We introduce {scheduled trotterization}, a variable-weight modification in which the coefficients of the local linear decomposition are allowed to change from step to step. Using the geometry of the Lie group of unitary operators, we express the global endpoint error as a product of transported local defects, whose leading terms are obtained by two applications of the Baker-Campbell-Hausdorff formula, one inside each local step and one between different transported defects, separating the internal Trotter error from the external accumulation error. While we recover recent tighter bounds on the global approximation error when the weights are held fixed, the new framework allows us to propose a weight-varying schedule that significantly decreases the global error. For exact infinitesimal synthesis, we prove that this improves the usual fixed-weight $O(N^{-1})$ behavior to $O(N^{-2})$, without changing the basic pulse skeleton. We also extend the framework to imperfect infinitesimal synthesis, as arises in quantum gate synthesis problems, where admissible coefficients may only approximate the desired local corrections. In this case, the error is controlled by a local covering parameter measuring the quality of the available coefficient set. Numerical experiments for random $\\SU(2)$ targets further support the predicted theoretical improvements. The results suggest a novel perspective for the analysis of Trotter errors, which can be treated as schedulable quantities to be coherently canceled at the endpoint.",
+    "authors": [
+      "Ennes, Henrique"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:41.562770Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214587",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214587",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214587"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

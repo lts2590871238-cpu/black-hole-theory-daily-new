@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.16375",
+    "arxiv_id": "2610.16375",
+    "arxiv_version": null,
+    "inspire_id": "3214013",
+    "doi": null,
+    "title_en": "Pathfinder-BP: A Low-Latency Recursive Decoder for Topological Codes",
+    "abstract_en": "We propose Pathfinder-BP, a recursive decoder for topological quantum codes that combines belief propagation with controlled bit-flipping. An initial BP pass identifies and permanently fixes high-confidence errors. Upon convergence failure, the decoder recursively explores alternative error patterns by tentatively flipping low-confidence variables. On surface codes, Pathfinder-BP achieves a noise threshold and logical error rate comparable to minimum-weight perfect matching (MWPM). A crucial advantage of Pathfinder-BP is its highly parallelizable structure, which yields a worst-case decoding latency quasi-linear in the code distance, making it a suitable candidate for low-latency hardware implementation.",
+    "authors": [
+      "Tinelli, Stefano",
+      "Lázaro, Francisco",
+      "Herrero, Francisco García"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:17.199010Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214013",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214013",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214013"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

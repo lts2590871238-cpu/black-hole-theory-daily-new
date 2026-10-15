@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.14177",
+    "arxiv_id": "2610.14177",
+    "arxiv_version": null,
+    "inspire_id": "3214108",
+    "doi": null,
+    "title_en": "Compass in the Mirror: Quantum Backpropagation with the Hopf Ansatz",
+    "abstract_en": "A variational quantum state may have many control angles, and its complete gradient contains one derivative for each. The task is to turn access to selected derivatives into a shared finite-shot record for the complete vector. The Hopf ansatz supplies the setting: it constructs any normalized pure state from nested two-way magnitude splits and, for complex states, leaf phases, with one directly programmed angle per split or phase. Earlier Hopf constructions prepare the state, recover coordinates from known amplitudes, and provide indexed derivative access. With a phase-calibrated controlled reflection, the inverse Hopf frame maps each normalized magnitude direction to a computational label, so every all-$X$ outcome contributes to every magnitude derivative. A separate signed leaf record supplies the complex phase block. A checkpoint variant reverses only the suffix below a selected depth and returns that layer's gradient block. For a complete chart with $M$ real-valued parameters, sufficient execution counts are $\\mathcal{O}(\\log\\log M)$ for the global method and $\\mathcal{O}(\\log M\\log\\log M)$ for the complete checkpoint schedule at fixed additive coordinate accuracy and confidence. The global saving is record reuse, not a reduction of the $M$-entry output. Under the designated direct-angle schedules, the global method's assigned Hopf CNOT work and input/output-inclusive storage have at most logarithmic overhead relative to a matched scalar evaluation. The same Hopf geometry thus carries a state forward and the objective's complete coordinate response backward.",
+    "authors": [
+      "Lin, Ruge",
+      "Chen, Ranyiliu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-14T14:08:12.463075Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214108",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214108",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214108"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.15975",
+    "arxiv_id": "2610.15975",
+    "arxiv_version": null,
+    "inspire_id": "3214261",
+    "doi": null,
+    "title_en": "Scalable Exact Non-Pauli Noise Simulation for Fault-Tolerant Quantum Circuits",
+    "abstract_en": "Fault-tolerant quantum design relies on simulating noisy quantum error correction (QEC) circuits with hundreds to thousands of physical qubits and large circuit depths. High-throughput stabilizer simulators, such as Stim, are the de facto tools for this regime. However, these simulators typically support only Clifford gates and stochastic Pauli noise. As a result, more realistic device noise models-such as coherent control errors and thermal relaxation-are often approximated using Pauli Twirling. This replacement offers speed but can introduce inaccuracies. To address this, we propose QuasiStim for scalable exact QEC simulation of realistic noise, with QuasiFold as a compiler frontend and DeltaFrame as a sampling backend. QuasiFold lowers sampling overhead by merging equivalent non-Pauli sites in the quantum circuit. DeltaFrame samples the resulting stabilizer trajectories by reusing precomputed predicted references instead of resimulating the full tableau for each shot. QuasiFold can reduce the number of shots by over $100\\times$ on bivariate-bicycle (BB) codes. Compared to a per-shot tableau simulator, DeltaFrame is $166\\times$--$1331\\times$ faster on rotated surface-code memory under coherent $R_Z$ noise as $d$ grows from 5 to 35. QuasiStim also makes the PTA bias measurable: the gap is non-negligible and varies with noise strength, decoder, and circuit schedule. QuasiStim will be open-sourced upon publication at https://github.com/isaachyw/QuasiStim",
+    "authors": [
+      "Hou, Yuewen",
+      "Ravi, Gokul Subramanian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-11T00:00:00Z",
+    "updated_at": "2026-10-14T14:00:31.287186Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214261",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214261",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214261"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "PTA 缩写缺少脉冲星计时语境",
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

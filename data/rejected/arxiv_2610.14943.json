@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.14943",
+    "arxiv_id": "2610.14943",
+    "arxiv_version": null,
+    "inspire_id": "3214841",
+    "doi": null,
+    "title_en": "A quantum algorithm for meshless lattice Boltzmann method with unitary interpolation",
+    "abstract_en": "We present a mass-weighted meshless formulation for the shifted incompressible lattice Boltzmann method (LBM) whose streaming step is exactly unitary, combining with the Carleman embedding. In traditional meshless LBM, on a scattered node set the semi-Lagrangian streaming step is an interpolation, which is not unitary; a generic block encoding of this matrix therefore requires a normalization proportional to its sparsity and logarithmically many ancillas. To overcome the non-unitarity, we instead express the interpolation as the exponential exp(a Dx + b Dy) of mimetic derivative operators. Endowing each node with its Voronoi mass and applying a mass-weighted similarity transform renders these derivative operators skew-Hermitian by enforcing moment constraints together with low-wave number trigonometric differentiation conditions, so that the interpolation becomes exactly unitary. Such unitarization of interpolation leave the local collision step unchanged up to a rescaling of its quadratic term, where the same weights define the amplitude encoding of the distribution functions. For quasi-uniform node sets, the mass-weighting diagonal remains within a unit-order normalization that degrades only mildly as the Carleman truncation order grows, thereby mitigating the cost of block encoding. Numerical experiments on the Taylor Green vortex confirm that the method reproduces the full meshless LBM, with the velocity error decreasing as the Carleman order increases.",
+    "authors": [
+      "Zhang, Chi",
+      "Wang, Hefeng",
+      "Xiang, Hua"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-10T00:00:00Z",
+    "updated_at": "2026-10-14T16:18:44.327083Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214841",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214841",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214841"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

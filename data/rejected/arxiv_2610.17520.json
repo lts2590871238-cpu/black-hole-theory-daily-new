@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.17520",
+    "arxiv_id": "2610.17520",
+    "arxiv_version": null,
+    "inspire_id": "3214479",
+    "doi": null,
+    "title_en": "Chromatic Block-Gibbs p-Bit Decoding of QLDPC Codes",
+    "abstract_en": "We introduce a parallel decoder for quantum low-density parity-check (QLDPC) codes based on probabilistic bits (p-bits), tunable stochastic binary units controlled by local fields. The idea is that predicted error configurations, interpreted as explanations of the observed syndrome, are updated stochastically using local Gibbs conditionals, while a progressively strengthened parity penalty drives the search toward syndrome-valid configurations. A coloring of the decoding graph enables parallel block updates, and independent replicas and restarts provide trajectory diversity. The best candidate encountered during the search is returned, mirroring the candidate-selection strategy of recent ensemble decoders. At the stated update budgets, the resulting logical error rates are on par with leading decoders under both code-capacity and circuit-level noise. While the total number of variable resamplings can be substantially larger than the message-update count of BP-based alternatives, the numerical results establish constraint-annealed p-bit dynamics as a competitive stochastic alternative for QLDPC decoding and motivate further study of hardware-native implementations.",
+    "authors": [
+      "Gökduman, Mert",
+      "Guyot, Cyril",
+      "Pfister, Henry D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T14:02:41.208483Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214479",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214479",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214479"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

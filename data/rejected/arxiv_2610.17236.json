@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.17236",
+    "arxiv_id": "2610.17236",
+    "arxiv_version": null,
+    "inspire_id": "3214056",
+    "doi": null,
+    "title_en": "Whither quantum advantage? New classical lower bounds for Max-Cut on large-girth 3-regular graphs",
+    "abstract_en": "Every 3-regular graph of girth at least $g$ has a cut containing at least a fraction $M_g$ of its edges, and the best rigorous bounds at large girth are $0.912\\le \\lim_{g\\to\\infty}M_g \\le 0.92386$. Lower bounds on $M_g$ follow from the performance of local algorithms: on a graph of girth $g \\ge 2p+2$ a depth-$p$ local algorithm sees the same tree around every edge, so its expected cut fraction on that tree bounds $M_g$ from below. We apply this strategy to the Variational Iterative Rotation Algorithm (VIRAL), a classical local algorithm, and evaluate it on the depth-$p$ tree for every even depth up to $p=32$. The resulting bounds exceed those recently obtained from the Quantum Approximate Optimization Algorithm (QAOA) for every $p\\ge 4$, by $0.005$ to $0.011$, and they extend the range of girths covered from $g=36$ to $g=66$. Notably, at $g=66$ we obtain $M_{66} \\ge 0.9127$ at $99.99999\\%$ confidence level, which raises the asymptotic lower bound from $0.912$ to $0.9127$.",
+    "authors": [
+      "Morone, Flaviano",
+      "Rawat, Shivang",
+      "Sels, Dries"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:31.653758Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214056",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214056",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214056"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

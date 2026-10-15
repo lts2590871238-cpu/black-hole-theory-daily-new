@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.17632",
+    "arxiv_id": "2610.17632",
+    "arxiv_version": null,
+    "inspire_id": "3214513",
+    "doi": null,
+    "title_en": "Toward Interpretable Quantum Generators for Financial Returns through Problem-Informed Circuit Design",
+    "abstract_en": "When used as function approximators, quantum circuits often lack interpretability and face a fundamental trade-off between expressivity and trainability. We propose a problem-informed framework for financial return generation that uses relational structure and symmetry-inspired parameter sharing to guide the construction of quantum circuits with few trainable parameters and empirically testable operator roles. We evaluate three quantum generator architectures, referred to as ZZ, directed ZZ-CRX, and structured time evolution, within a hybrid Wasserstein quantum generative adversarial network trained to generate 16-step Bitcoin return windows. Across circuits with one to four layers and one to eight trainable coefficients, these generators recover meaningful marginal and temporal distributional features, while single-layer configurations remain competitive with deeper variants. Across matched depths, independently trained ZZ-CRX configurations exhibit a predominantly downward shift in median leverage relative to ZZ, consistent with the intended directional role of the controlled-rotation construction. The small number of coefficients also enables direct landscape analysis, revealing competing parameter preferences between marginal and temporal objectives and helping to explain the difficulty of finding parameter settings that perform well on both. These results provide an initial demonstration that structural assumptions can guide the design of compact quantum generators and link circuit architecture to observable statistical behaviour, motivating more systematic and parameter-efficient approaches to quantum circuit construction.",
+    "authors": [
+      "Guan, Huijie",
+      "Wang, Xuanhao",
+      "Wang, Shengbin",
+      "Zhang, Jiale",
+      "Ding, Jian",
+      "Xie, Shuxin",
+      "Li, Dongdong",
+      "Gao, Jianjian",
+      "Sun, Hantao",
+      "Chu, Wenhao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T14:06:12.892071Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214513",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214513",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214513"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

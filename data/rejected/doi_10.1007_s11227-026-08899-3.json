@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11227-026-08899-3",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3214726",
+    "doi": "10.1007/s11227-026-08899-3",
+    "title_en": "Does quantum kernel alignment transfer across network intrusion datasets? Cross-dataset consistency, direct transfer and high performance computing cost of entanglement-based feature maps",
+    "abstract_en": "Quantum kernel methods for network intrusion detection are almost always evaluated on the dataset they were trained on, so it is unknown whether a feature map that works on one traffic environment carries anything over to another. This study measures two distinct notions of transferability for quantum support vector machines (QSVMs) across InSDN, CICIDS2017 and CIC-DDoS2019: cross-dataset consistency of kernel alignment (KA), and direct transfer of an InSDN-trained kernel classifier to the other two datasets without any target-side fitting. Five entanglement-based feature maps (ZZ with linear or full entanglement, one or two repetitions, instantaneous quantum polynomial (IQP), and a separable control) at 4 and 8 qubits, three regularisation strengths and genuine one-versus-rest (OvR) and one-versus-one (OvO) decompositions give 180 classifier configurations on 30 exact kernels, each evaluated on the full test partitions (51,584-424,182 flows), on ten 300-flow windows and on a class-complete subset. Alignment consistency does not predict transfer: linear-entanglement ZZ circuits have the smallest alignment shift towards CIC-DDoS2019 (0.013-0.041), yet direct transfer to that dataset is at chance for every model, while only weak transfer reaches CICIDS2017 (Matthews correlation coefficient (MCC) 0.11 strict, 0.15 binary). Maximum mean discrepancy in a harmonised feature space is two to four times larger for CIC-DDoS2019 than for CICIDS2017 and explains the transfer outcome. Within domain, the best QSVMs reach MCC 0.670 (InSDN), 0.458 (CICIDS2017) and 0.589 (CIC-DDoS2019); at matched training budget and features they equal or exceed gradient boosting on CIC-DDoS2019 and trail it elsewhere. The decomposition matters: OvR is better in 28 of 30 configurations on CICIDS2017 and OvO in 30 of 30 on CIC-DDoS2019. Computationally, the study characterises the two cost regimes of quantum kernel estimation on a 96-core node: per-entry circuit execution, which scales with the product of training and test sizes and reaches 3,195 entries per second at 8 qubits with a measured strong-scaling speedup of 50, and cached-statevector simulation, which is 62-470 times faster and made full-test evaluation of all 30 kernels, equivalent to 3.0 billion circuit executions, tractable.",
+    "authors": [
+      "Saberikamarposhti, Morteza",
+      "Rezaei, Paria",
+      "Sahban Rafsanjani, Ahmad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-09T00:00:00Z",
+    "updated_at": "2026-10-14T13:25:39.482847Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "82, 772, 2026, {'$ref': 'https://inspirehep.net/api/journals/1213961'}, 772, 15, J.Supercomput."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214726",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214726",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214726"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

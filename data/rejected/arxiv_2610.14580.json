@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.14580",
+    "arxiv_id": "2610.14580",
+    "arxiv_version": null,
+    "inspire_id": "3213999",
+    "doi": null,
+    "title_en": "Entanglement-Capability-Aware Finite-Bond Circuit Cutting for Distributed Quantum Computing",
+    "abstract_en": "Distributed quantum computing distributes workloads that exceed a single processor's capacity across resource-constrained components. Circuit cutting enables this decomposition, but its effectiveness depends on partition choice. We present SACE, a Simulation-Aware Circuit Partitioning framework with Entanglement-Capability-Aware Screening. EP-Cost screens partitions using a parameter-dependent entanglement-capability proxy and native implementation cost. Under reconstruction constraints, finite-bond refinement selects the candidate that minimizes the worst-subcircuit discrepancy between normalized MPS simulations at bond dimensions $χ$ and $2χ$. Across 14 exhaustively enumerated small-scale candidate spaces, EP-Cost-guided genetic algorithm selections attain co-optimal native quasiprobability decomposition (QPD) overhead, with a median within-circuit Spearman correlation of 0.9965 between EP-Cost and QPD overhead. At matched cut counts, EP-Cost reduces QPD overhead by $25.20\\times$ and $16.89\\times$ for 8- and 9-qubit QFT circuits, respectively, and improves sampled reconstruction. On 12-qubit approximate QFT, deterministic reconstruction reduces Pauli-observable mean absolute error in all six low-bond conditions and total-variation distance in five. With five cuts and 7,776 QPD terms, SACE is best on all four reconstruction metrics in four of six conditions. At 24 qubits, SACE improves exact-local QFT accuracy in all 30 instance-bond-dimension conditions against each EP-Cost-only, Kernighan-Lin, and spectral baseline. The 50-qubit QFT comparisons remain favorable as reference convergence improves. Weighted QAOA circuits provide complementary, more bond-sensitive evidence. Refinement benefits persist across three search methods; larger candidate panels improve the optimized proxy without guaranteeing lower exact-local error.",
+    "authors": [
+      "Liu, Weidong",
+      "Jiang, Qingqing",
+      "Liu, Yufu",
+      "He, Ruiqing",
+      "Shang, Jiandong",
+      "Guo, Hengliang",
+      "Chen, Qiang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-10T00:00:00Z",
+    "updated_at": "2026-10-14T14:00:37.782831Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3213999",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3213999",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3213999"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.18245",
+    "arxiv_id": "2610.18245",
+    "arxiv_version": null,
+    "inspire_id": "3214552",
+    "doi": null,
+    "title_en": "Experimental Benchmarking of a 256-Qubit Room-Temperature NV-Diamond Quantum Processor with an Optically Programmable Biomolecular Quantum Bus",
+    "abstract_en": "We report Zeus-256, a room-temperature nitrogen-vacancy (NV) diamond processor with 256 simultaneously active processor-level logical qubits arranged in a 16 x 16 array. Each logical qubit combines an NV electron-spin ensemble with nuclear-spin memory and ancillary resources. OpenQASM 2.0 circuits are transpiled into RFSoC-controlled microwave, radio-frequency, optical, timing, measurement and bus-configuration sequences. An optically programmable proprietary protein-chromophore layer with an internal metastable-triplet spin mediator provides a reconfigurable biomolecular quantum bus for local and long-range interactions. Benchmarks cover QFT, GHZ entanglement, Grover search, arithmetic, variational, neural-network, graph-state and Shor-family circuits. Factor recovery is reported for 11 integers of 8-84 bits, with 10 attempts per instance; the 84-bit endpoint uses 256 qubits and 40,250,342 reported gates, with a reported execution time of 551.694 ms. Bell-CHSH measurements yield S = 2.8008 +/- 0.0446. Three-qubit Grover search returns the marked state in 958 of 1,024 shots (93.55%), compared with an ideal reference of 94.53%. A separate 30,000-shot population-and-parity protocol yields fixed-phase GHZ+ fidelity of 99.8960%, an estimated standard error of 0.2885 percentage points and a conservative physical 95% interval of [98.2342%, 100%]. Timing metrics are partial and do not establish quantum advantage. Scaling to 9,984 processor-level logical qubits is an engineering target, distinct from the demonstrated register.",
+    "authors": [
+      "Ivanov, Adams",
+      "Herrmann, Daniela",
+      "Nascimento, Erick Giovani Sperandio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T14:00:55.347452Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214552",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214552",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214552"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

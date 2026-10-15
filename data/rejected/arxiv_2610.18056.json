@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.18056",
+    "arxiv_id": "2610.18056",
+    "arxiv_version": null,
+    "inspire_id": "3214839",
+    "doi": null,
+    "title_en": "OpenMQPI: An MLIR-based Pipeline to Offload Quantum Circuits via OpenMP",
+    "abstract_en": "Quantum computing introduces specialized software stacks and programming interfaces that are often tightly coupled to specific ecosystems and hardware backends, limiting interoperability and software reuse. For HPCQC application developers, this complicates the integration of quantum accelerators into existing applications. Existing quantum frameworks also use ecosystem-specific circuit representations and compilation pipelines, hindering integration with established heterogeneous compiler infrastructures. We propose OpenMQPI, an MLIR-based OpenMP extension for quantum programming that leverages OpenMP's standardized target offloading infrastructure to integrate quantum resources into HPC applications. OpenMQPI introduces QPIR, a lightweight MLIR dialect for representing quantum circuits within OpenMP target regions, and a compiler pipeline that performs quantum-specific optimizations and lowers circuits to executables compatible with OpenMP offloading. At runtime, an MQSS plugin enables the generated executable to offload quantum circuits to quantum hardware through the OpenMP target offloading model. We evaluate OpenMQPI using the VQE, QFT, and Deutsch-Jozsa algorithms with 5, 10, 15, and 20 qubits, comparing execution times against Qiskit and CUDA Quantum. OpenMQPI achieves the lowest average VQE execution time across all tested qubit configurations. At 20 qubits, it requires 5.18 s, compared with 5.83 s for Qiskit and 7.39 s for CUDA Quantum. For QFT and Deutsch-Jozsa, OpenMQPI achieves execution times comparable to Qiskit and lower than those of CUDA Quantum.",
+    "authors": [
+      "Kaya, Ercüment",
+      "Şahinkaya, Ekin Devim",
+      "Chung, Minh",
+      "Schulz, Martin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-14T16:18:34.409317Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214839",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214839",
+        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "url": "https://inspirehep.net/literature/3214839"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
