@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.18589",
+    "arxiv_id": "2610.18589",
+    "arxiv_version": null,
+    "inspire_id": "3214924",
+    "doi": null,
+    "title_en": "$T$-efficient unitary synthesis via block-sparse Hamiltonian simulation",
+    "abstract_en": "We construct Clifford+$T$ circuits implementing arbitrary $n$-qubit unitaries with worst-case $T$-count $\\widetilde{O}(N^{8/7})$ at constant operator-norm error, where $N=2^n$, improving the previous exponent $5/4$. The construction uses $\\widetilde{O}(N^{6/7})$ clean ancillas. The main idea is to reduce the data addressed by each query to the block-encoding circuit for a sparse piece while controlling the additional simulation work needed to combine the pieces. We simulate a Hermitian logarithm of the target by flattening its traceless part with a two-layer random similarity transformation, randomly partitioning the transformed generator into block-sparse Hermitian pieces, and combining their evolutions using qDRIFT. For a target operator-norm error $ε\\in(0,1/2)$, let $L=\\log_2(N/ε)$, the qubit count plus the requested bits of accuracy. By successively correcting the approximation error, we obtain a circuit using $\\widetilde{O}(N^{8/7}L^{3/7}+NL)$$T$ gates and $\\widetilde{O}(N)$ clean ancillas whenever $L\\le N$. We also prove that, at constant precision, the exponent $8/7$ is optimal within a sequential block-SELECT model.",
+    "authors": [
+      "Liu, Diyi",
+      "Zhu, Shuchen",
+      "de Jong, Wibe Albert",
+      "Fang, Di",
+      "Williams-Young, David",
+      "Yang, Chao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-13T00:00:00Z",
+    "updated_at": "2026-10-15T12:22:13.605010Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3214924",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3214924",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://inspirehep.net/literature/3214924"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

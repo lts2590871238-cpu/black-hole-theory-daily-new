@@ -3,20 +3,24 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.17577",
     "arxiv_id": "2610.17577",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3214483",
     "doi": null,
     "title_en": "Non-equilibrium chemistry and radiation hydrodynamics in metal-poor and metal-rich interstellar gas",
     "abstract_en": "We present a flexible implementation of non-equilibrium chemical networks with the $\\texttt{KROME}$ framework, coupled to a nonlocal variable Eddington tensor-closed radiation transport scheme ($\\texttt{VETTAM}$). Our fiducial network is designed to explicitly capture the formation pathways of important molecular species such as CO, OH, and $\\rm H_2O$, intermediaries like $\\rm H_3^+$, and the destruction of these species through photon and cosmic-ray dissociation. We validate our scheme through benchmark tests, and demonstrate its success in 1D and 3D problems covering a broad range of metallicities ($0 \\leq Z \\lesssim \\rm Z_{\\odot}$) and densities ($n \\lesssim 10^{17} \\, \\rm cm^{-3}$). We confirm earlier works that suggest that OH and $\\rm H_2O$ are the key molecular species in dense gas ($n \\gtrsim 10^{5} \\, \\rm cm^{-3}$) for $Z\\lesssim 0.01 \\rm Z_{\\odot}$, dominate the cooling at these densities, and demonstrate that our scheme can reproduce their abundances with similar accuracy as dedicated static photo-dissociation region (PDR) codes. We also find that the dominant fine-structure coolant in dense ($n \\gtrsim 10^3 \\, \\, \\rm cm^{-3}$) PDRs transitions from CI to CII to OI at increasingly lower $Z$. Finally, we find that in turbulent media, rapid mixing at PDR interfaces renders the chemical species out of equilibrium, and show that this could potentially alleviate the long-standing problem of (static) PDR models producing excess CI in the diffuse ISM over UV absorption-line measurements. We conclude by presenting and comparing with alternative implementations of reduced but faster chemical networks in our scheme, discussing the problem-dependent performance-accuracy tradeoffs and future prospects.",
     "authors": [
-      "Menon, Shyam H.",
-      "Sharda, Piyush",
-      "Burkhart, Blakesley",
-      "Grassi, Tommaso"
+      "Shyam H. Menon",
+      "Piyush Sharda",
+      "Blakesley Burkhart",
+      "Tommaso Grassi"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO",
+      "astro-ph.SR"
+    ],
     "submitted_at": "2026-10-13T00:00:00Z",
-    "updated_at": "2026-10-14T14:20:41.602603Z",
+    "updated_at": "2026-10-15T08:51:04.120647Z",
     "document_types": [
       "article"
     ],
@@ -24,15 +28,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.17577v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17577v1",
     "inspire_url": "https://inspirehep.net/literature/3214483",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.17577",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.17577v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3214483",
-        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
         "url": "https://inspirehep.net/literature/3214483"
       }
     ],

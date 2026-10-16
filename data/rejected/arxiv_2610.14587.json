@@ -3,30 +3,33 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.14587",
     "arxiv_id": "2610.14587",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3214151",
     "doi": null,
     "title_en": "ELISA: A Bayesian X/$γ$-ray Spectral Analysis Toolkit",
     "abstract_en": "Forward-folded X/$γ$-ray spectral fitting increasingly benefits from Bayesian workflows to better capture counting statistics, background uncertainties, and complex parameter degeneracies, while fully reproducible end-to-end implementations are still not always straightforward to deploy in routine analyses. We present ELISA (Efficient Library for Spectral Analysis), an open-source Python toolkit that streamlines the full spectral analysis loop for X/$γ$-ray astronomy: data loading, model construction, inference, and model validation and comparison. ELISA couples a JAX-accelerated forward model with a unified fitting interface, supporting both rapid optimization and modern Bayesian sampling. Built-in diagnostics make convergence checks and predictive assessment a standard part of the workflow, motivating principled model refinement when needed. Using a spectral fitting example of the Insight-HXMT Crab observation, we find substantial improvements in sampling efficiency compared with XSPEC's default MCMC implementation. ELISA is available at https://github.com/wcxve/elisa and on PyPI at https://pypi.org/project/astro-elisa.",
     "authors": [
-      "Xue, Wang-Chen",
-      "Xie, Sheng-Lun",
-      "Zheng, Chao",
-      "Xiong, Shao-Lin",
-      "Li, Xiao-Bo",
-      "Chen, Yong",
-      "Zhang, Peng",
-      "Zhang, Yan-Qiu",
-      "Liu, Jia-Cong",
-      "Wang, Chen-Wei",
-      "Tan, Wen-Jun",
-      "Wang, Yue",
-      "Zhang, Jin-Peng",
-      "Yu, Zheng-Hang"
+      "Wang-Chen Xue",
+      "Sheng-Lun Xie",
+      "Chao Zheng",
+      "Shao-Lin Xiong",
+      "Xiao-Bo Li",
+      "Yong Chen",
+      "Peng Zhang",
+      "Yan-Qiu Zhang",
+      "Jia-Cong Liu",
+      "Chen-Wei Wang",
+      "Wen-Jun Tan",
+      "Yue Wang",
+      "Jin-Peng Zhang",
+      "Zheng-Hang Yu"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
     "submitted_at": "2026-10-10T00:00:00Z",
-    "updated_at": "2026-10-14T14:20:24.903824Z",
+    "updated_at": "2026-10-15T08:20:24.380476Z",
     "document_types": [
       "article"
     ],
@@ -34,15 +37,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.14587v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14587v1",
     "inspire_url": "https://inspirehep.net/literature/3214151",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.14587",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.14587v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3214151",
-        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
         "url": "https://inspirehep.net/literature/3214151"
       }
     ],

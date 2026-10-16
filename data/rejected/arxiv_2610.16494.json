@@ -3,20 +3,23 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.16494",
     "arxiv_id": "2610.16494",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3214860",
     "doi": null,
     "title_en": "Scalable Quantum Monte Carlo for Shannon-Rényi Entropy: An Experiment-visitable Probe of Quantum Phases and Criticality",
     "abstract_en": "The Shannon-Rényi (SR) entropy characterizes the probability distribution of many-body wave functions in a chosen basis and is directly accessible from single-shot measurement snapshots in cold-atom experiments, yet its theoretical evaluation in interacting systems carries exponential cost. Here we construct a field-theoretic spacetime manifold for the SR entropy in which $q$ replicas are glued at the imaginary-time boundaries, recasting it as a ratio of generalized partition functions amenable to large-scale quantum Monte Carlo simulation. On this basis we develop a reweight-annealing framework with two complementary strategies: a virtual-parameter scheme interpolating between unglued and fully glued limits via binomial-weighted partial gluing, and a real-parameter scheme using a physical coupling constant as the annealing variable within stochastic series expansion. Both reduce the computational cost from exponential to polynomial. Most importantly, we establish for the first time a finite-size scaling theory for the SR entropy near a quantum critical point, $S_q=a(g)L^2+S_q^0\\left((g-g_c)L^{1/ν}\\right)$; data collapse of its first derivative yields the correlation-length exponent $ν$ for both the O(3) and Ising universality classes, realized in the spin-$\\frac{1}{2}$ columnar dimerized Heisenberg model and the bilayer Heisenberg-Ising model. The same simulations extract the Goldstone-mode count $N_G=2$ and the $Z_2$ ground-state degeneracy $\\ln 2$ from subleading terms. These results elevate the SR entropy to a standalone, order-parameter-free diagnostic of quantum criticality with the same scaling status as the entanglement entropy, and close the loop between theory and quantum simulation by enabling quantitative benchmarking of experimental snapshots from state-of-the-art quantum simulators.",
     "authors": [
-      "Liu, Dong-Xu",
-      "Wang, Zhe",
-      "Ding, Zenan Liu Yi-Ming",
-      "Yan, Zheng"
+      "Dong-Xu Liu",
+      "Zhe Wang",
+      "Zenan Liu Yi-Ming Ding",
+      "Zheng Yan"
     ],
-    "categories": [],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.stat-mech"
+    ],
     "submitted_at": "2026-10-12T00:00:00Z",
-    "updated_at": "2026-10-14T18:05:16.913459Z",
+    "updated_at": "2026-10-15T08:31:34.361103Z",
     "document_types": [
       "article"
     ],
@@ -24,15 +27,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.16494v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16494v1",
     "inspire_url": "https://inspirehep.net/literature/3214860",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.16494",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.16494v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3214860",
-        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
         "url": "https://inspirehep.net/literature/3214860"
       }
     ],

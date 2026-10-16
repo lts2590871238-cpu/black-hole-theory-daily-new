@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.20772",
+    "arxiv_id": "2610.20772",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Optimal Strategies for Gravitational-Wave Memory Detection with Noise Marginalization in Pulsar Timing Arrays",
+    "abstract_en": "Current pulsar timing arrays could detect gravitational wave memory, which would provide a unique test of general relativity. In order to optimize our searches for gravitational wave memory in pulsar timing arrays, we integrate the optimal frequentist statistics for GW memory into the \\texttt{enterprise} code suite. We additionally test a noise marginalized version of this statistic, and compare it's effectiveness to the simpler maximum posterior method. We perform these tests on simulated pulsar timing array with red and white noise content, as well as the NANOGrav $15$-year data set. We find no significant variations in our detection statistics between the noise-marginalized and the maximum-posterior methods for the simulated datasets, and only small variations in the NANOGrav $15$-year comparisons. We conclude that for realistic PTAs the noise-marginalization method could be useful for assigning a false alarm probability to Bayesian results, though the maximum posterior method is sufficient for identifying potentially detectable signals.",
+    "authors": [
+      "Rand Burnette",
+      "Xavier Siemens"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-14T18:22:04Z",
+    "updated_at": "2026-10-14T18:22:04Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.20772v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.20772v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.20772",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.20772v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 60
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 18,
+      "methodological_rigor": 17,
+      "novelty": 11,
+      "clarity": 8,
+      "metadata_quality": 9,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 68,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文针对脉冲星计时阵列中引力波记忆效应的搜寻，将最优频率学派统计量集成到 \\texttt{enterprise} 代码套件中，并系统比较了噪声边缘化与最大后验方法在模拟数据及 NANOGrav 15 年数据集上的表现，属于 PTA 领域核心的探测方法学推进，方法路径明确且对后续实际搜索有直接参考价值，值得点击阅读。",
+    "title_zh": "脉冲星计时阵列中基于噪声边缘化的引力波记忆最优探测策略",
+    "abstract_zh": "当前的脉冲星计时阵列可以探测引力波记忆，这将为广义相对论提供一种独特的检验。为了优化我们在脉冲星计时阵列中对引力波记忆的搜寻，我们将引力波记忆的最优频率学派统计量集成到 \\texttt{enterprise} 代码套件中。我们还测试了该统计量的噪声边缘化版本，并将其有效性与更简单的最大后验方法进行了比较。我们在具有红噪声和白噪声成分的模拟脉冲星计时阵列以及 NANOGrav $15$ 年数据集上进行了这些测试。我们发现，对于模拟数据集，噪声边缘化方法与最大后验方法在探测统计量方面没有显著差异，而在 NANOGrav $15$ 年数据的比较中仅有微小差异。我们得出结论：对于现实的脉冲星计时阵列，噪声边缘化方法可能有助于为贝叶斯结果分配误报概率，尽管最大后验方法已足以识别潜在可探测的信号。",
+    "keywords_en": [
+      "pulsar timing arrays",
+      "gravitational wave memory",
+      "noise marginalization",
+      "enterprise"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波记忆",
+      "噪声边缘化",
+      "enterprise"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-16T01:34:03.381401Z"
+  },
+  "published_at": "2026-10-16T01:34:03.381796Z"
+}

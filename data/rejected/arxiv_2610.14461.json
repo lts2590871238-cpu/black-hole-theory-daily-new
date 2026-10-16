@@ -3,17 +3,19 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.14461",
     "arxiv_id": "2610.14461",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3214122",
     "doi": null,
     "title_en": "PINNs for N=2* holography",
     "abstract_en": "Can a holographic theory be reconstructed from its equation of state? We investigate this question using physics-informed neural networks in the bosonic-mass sector of the Pilch--Warner model. We first validate the PINN approach against an analytic solution encoding the leading high-temperature corrections to the conformal equation of state. We then reconstruct nonlinear black-brane geometries and the scalar potential using thermodynamics, ultraviolet asymptotics, Ward identities, and horizon regularity. Independent solutions of the bulk Einstein-scalar equations demonstrate that accurately reproducing thermodynamics with a trained PINN does not guarantee an accurate reconstruction of the scalar potential. High-precision knowledge of the high-temperature equation of state constrains nonlinear interactions in the bulk scalar potential. Fixing the cubic coupling to its exact PW value, motivated by this high-temperature extraction, reduces the maximum sampled error in the reconstructed scalar self-interactions by a factor of $\\sim 15$ compared with constraining only the bulk scalar mass. Adding knowledge of the bulk viscosity of the gauge theory plasma further reduces this error by an additional factor of $\\sim 13$, with independent forward solutions reproducing the bulk viscosity within $0.09\\%$.",
     "authors": [
-      "Buchel, Alex"
+      "Alex Buchel"
     ],
-    "categories": [],
+    "categories": [
+      "hep-th"
+    ],
     "submitted_at": "2026-10-10T00:00:00Z",
-    "updated_at": "2026-10-14T08:20:07.152370Z",
+    "updated_at": "2026-10-15T08:20:58.721236Z",
     "document_types": [
       "article"
     ],
@@ -21,15 +23,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.14461v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14461v1",
     "inspire_url": "https://inspirehep.net/literature/3214122",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.14461",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.14461v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3214122",
-        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
         "url": "https://inspirehep.net/literature/3214122"
       }
     ],

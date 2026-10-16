@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.20869",
+    "arxiv_id": "2610.20869",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "FUGUE: A New GPU-accelerated General Relativistic Magnetohydrodynamics Code with Weak-Field Multipole Self-Gravity and Quasi-Stationary Kerr Black Hole Evolution",
+    "abstract_en": "We present FUGUE, a new GPU-accelerated code for general relativistic magnetohydrodynamics (GRMHD). The code supports an optional quasi-stationary update of the Kerr black hole mass and spin, as well as weak-field multipole self-gravity computed with a spherical harmonic Poisson solver. The calculations using high-order multipoles in the Poisson solver are expensive, so the self-gravity solver is well suited for GPU acceleration. The code uses shock-capturing methods and a second-order Runge--Kutta (RK2) scheme for time integration. We validate the code with hydrodynamic, magnetohydrodynamic, general relativistic, and convergence tests for the self-gravity module. We present an application of the code to a simulation of a self-gravitating, Toomre-unstable, magnetized accretion disk with a mass of 1,M-Sun around a Kerr black hole. In our demonstration model, gravitational instabilities are associated with changes in the mass accretion rate and the Blandford--Znajek luminosity, and may contribute to gamma-ray burst variability.The performance of the code is equivalent to or exceeds that of the current state-of-the-art GRMHD codes, achieving more than 470 million zone-cycles per second on a single NVIDIA GH200 GPU with linear reconstruction.",
+    "authors": [
+      "Piotr Plonka",
+      "Agnieszka Janiuk"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-10-14T19:59:19Z",
+    "updated_at": "2026-10-14T19:59:19Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.20869v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.20869v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.20869",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.20869v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

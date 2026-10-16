@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.19862",
+    "arxiv_id": "2610.19862",
+    "arxiv_version": 1,
+    "inspire_id": "3215134",
+    "doi": null,
+    "title_en": "specwizard: A Public Python Framework for Creating Synthetic Absorption Spectra from Hydrodynamical Simulations",
+    "abstract_en": "We present specwizard, a publicly available modular Python package for generating synthetic absorption spectra from hydrodynamical simulations. The code combines atomic data from the National Institute of Standards and Technology database with ionisation fractions computed using the cloudy spectral synthesis code for multiple ionising backgrounds, enabling consistent modelling of bound--bound and bound--free absorption for resonant transitions of all ions. specwizard employs a column-density--conserving projection scheme, includes natural line broadening for the Lyman series, and offers optional treatments of instrumental resolution and noise for direct comparison with high-resolution quasar spectra. As example applications of the code, we shoot sightlines through the eagle cosmological simulation to generate a z = 3.2 synthetic quasar spectrum containing H i Lyman-series transitions, including damping wings and Lyman-limit absorption. Additionally, we compute metal-absorption lines probing the circumgalactic medium of simulated galaxies, and investigate the correlated absorption of H i and Si iii. We demonstrate that specwizard applied to outputs from eagle accurately reproduces key observational diagnostics of the Lyman-alpha forest, including the redshift evolution of the mean transmission, the transmission PDF and the transmission power spectrum. We take advantage of the fact that the eagle simulation also reproduces the measured evolution of the temperature-density relation to infer the evolution of the amplitude of the ionizing background, finding excellent agreement with recent theoretical models and measurements.",
+    "authors": [
+      "Andrés Arámburo-García",
+      "Tom Theuns",
+      "Joop Schaye",
+      "Alexey Boyarsky"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-14T00:00:00Z",
+    "updated_at": "2026-10-15T12:26:10.226987Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.19862v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19862v1",
+    "inspire_url": "https://inspirehep.net/literature/3215134",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.19862",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.19862v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3215134",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://inspirehep.net/literature/3215134"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

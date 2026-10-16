@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.19936",
+    "arxiv_id": "2610.19936",
+    "arxiv_version": null,
+    "inspire_id": "3215141",
+    "doi": null,
+    "title_en": "Improved Quantum Algorithms for Rényi Entropies Estimation",
+    "abstract_en": "Entropy estimation of discrete probability distributions is a fundamental problem in statistical inference and quantum property estimation. In this paper, we study the problem of estimating Rényi entropy $H_α(\\mathbf{p})$ for any distribution $\\mathbf{p} = (p_i)_{i=1}^n$ given its purified quantum query-access. For non-integer $α> 1$, our algorithm estimates $H_α(\\mathbf{p})$ to within additive error $ε$ using only $\\widetilde{\\mathcal{O}}\\big(n^{\\max\\{1/2,1-1/α\\}}/ε\\big)$ queries, which improves the best known upper bound for dependence on both $n$ and $1/ε$. For $0<α<1$, our algorithm has query complexity $\\widetilde{\\mathcal{O}}\\big(n^{1/(2α)}/ε^{\\max\\{1,1/(2α)\\}}\\big)$, which improves the dependence on $1/ε$ of the current best upper bound without incresing its $n$ dependence. Our approach adapts the multi-level estimation framework to relative approximation of the power sums and leverage binary search to remove the requirement of prior knowledge of them. We also strengthen the precision-dependent lower bound to $Ω\\big(1/ε^{\\max\\{1,1/(2α)\\}}\\big)$ for $0<α<1$, which identifies the optimal precision dependence of our algorithm.",
+    "authors": [
+      "Xiong, Zongxing",
+      "Gao, Chengshen",
+      "Li, Lvzhou"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-14T00:00:00Z",
+    "updated_at": "2026-10-15T12:22:26.001328Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215141",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3215141",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://inspirehep.net/literature/3215141"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

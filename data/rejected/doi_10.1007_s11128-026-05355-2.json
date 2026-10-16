@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05355-2",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3215292",
+    "doi": "10.1007/s11128-026-05355-2",
+    "title_en": "A suite of routing algorithms for bursty demands in quantum networks",
+    "abstract_en": "Quantum network routing is an area of research that primarily involves finding paths for entanglement swapping to distribute entangled qubit pairs (EPR) between two quantum nodes. This paper considers a \"burst\" variant of the problem. In this variant, if $d_{i}$ EPR pairs are to be shared between quantum nodes $s_i$ and $e_i$, they have to be shared within a short pre-specified time interval that starts at time instant $ST_{i}$ and ends at $ET_{i}$. This is a natural requirement in the case of applications that need several shared EPR pairs, and the quantum memory is not long-lived, thereby imposing timing constraints. We first investigate a simple variant of the problem. Although simpler, it is still easily shown to be NP-hard. We study this variant by formulating and solving it as an integer linear programming (ILP), and designing a fast greedy heuristic algorithm for it. While the heuristic algorithm takes significantly less time to solve the problem than the ILP, we empirically observe that the solution seems to mimic that of the ILP formulation. Motivated by this, we generalize the greedy heuristic into a framework that can be easily adapted to yield different heuristics for different objective functions. A crucial feature of this greedy framework is that it splits the demands for EPR pairs among multiple paths and temporally. We finally present several heuristics under this framework for different variants of the problem-like starvation avoidance and minimizing the number of \"spatial splits\"-and compare their performance.",
+    "authors": [
+      "Pandey, Anoop Kumar",
+      "Srivastava, Anubhav",
+      "Nayak, Pranav K.",
+      "Tamma, Bheemarjuna Reddy",
+      "Rao, M.V.Panduranga"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-15T13:18:19.581581Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 340, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 340, 10, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215292",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3215292",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://inspirehep.net/literature/3215292"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

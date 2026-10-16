@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.27149",
     "arxiv_id": "2607.27149",
-    "arxiv_version": 1,
-    "inspire_id": "3184541",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Shear-kSZ: A New Estimator for the Matter-Electron Power Spectrum from kSZ Tomography and Weak Lensing",
-    "abstract_en": "We propose a new estimator for the ionized gas--matter power spectrum, which correlates the kinematic Sunyaev--Zel'dovich (kSZ) field with the line-of-sight velocity field and the weak-lensing convergence map. Analogously to the standard stacked kSZ estimator, this estimator factorizes into a calibratable velocity kernel multiplying the matter--electron cross-power spectrum, $P_{me}(k)$. Because the estimator accesses $P_{me}(k)$ for the full matter distribution rather than around a specific biased tracer as is the case with the standard stacked kSZ estimator, it allows us to determine the baryonic suppression of the matter power spectrum, $S(k)$, one of the dominant astrophysical systematics for Stage-IV cosmic shear. We derive and validate an analytical expression for the estimator against simulations, finding percent-level agreement. Due to its parity structure, contributions from cosmic microwave background (CMB) foregrounds cancel. Using a realistic CMB temperature map with Simons Observatory-like noise and beam, a smoothed velocity field as obtained via linear velocity reconstruction applied to DESI-like luminous red galaxies (LRGs), and LSST-like sources at high redshifts, which suppresses the effect of intrinsic alignments and boost factors, we forecast a $16σ$ measurement over $f_{\\rm sky}=0.2$ (corresponding to 1\\% measurement of $S(k)$), establishing our estimator as a readily measurable target for current surveys, e.g., LSST and \\textit{Euclid}. Because the signal-to-noise is dominated by CMB noise rather than lensing depth, we expect a detection already at $\\sim10σ$ with early LSST data releases. Substantial (factor of 2) gains in signal-to-noise are expected with Advanced Simons Observatory. While here we focus on DESI-like LRGs as the foreground sample, lower-redshift samples provide an even wider array of source samples in the background.",
+    "abstract_en": "We propose a new estimator of the electron--matter power spectrum, $P_{me}(k)$, which correlates the kinematic Sunyaev--Zel'dovich (kSZ) temperature with the product of the line-of-sight velocity field and the weak-lensing convergence. Like the stacked kSZ estimator, it factorizes into a calibratable velocity kernel times $P_{me}(k)$, but it probes the full matter distribution rather than the gas around a biased tracer. It therefore measures the baryonic suppression of the matter power spectrum, $S(k)$, one of the dominant astrophysical systematics for Stage-IV cosmic shear. We derive an analytic expression for the estimator, validate it against simulations at the per-cent level, and show that its parity structure cancels cosmic microwave background (CMB) foregrounds. We forecast the detectability with a realistic pipeline: velocities reconstructed from the simulated tracers, with and without photometric-redshift errors; the kSZ signal of all the ionized gas along the line of sight; a CMB map with Simons Observatory (SO) noise; and LSST source samples free of intrinsic alignments. A DESI-like spectroscopic sample at $0.5<z<1$ over the $20\\%$ of the sky that DESI, LSST and SO share gives a $4$--$7σ$ detection. Photometric redshifts cost only $5$--$10\\%$ of the significance, so LSST can supply its own velocity tracers over its full overlap with SO: with tracers at $0.1<z<1.3$ and five source samples we find $10σ$ in an end-to-end simulation, and $13σ$ with Advanced SO (16$σ$ if extending to $z < 1.5$). This corresponds to a few-per-cent measurement of $S(k)$ at $k\\simeq1$--$4\\,h\\,{\\rm Mpc}^{-1}$, the scales that matter most for cosmic shear.",
     "authors": [
       "Boryana Hadzhiyska"
     ],
@@ -15,31 +15,23 @@
       "astro-ph.CO",
       "astro-ph.GA"
     ],
-    "submitted_at": "2026-07-29T00:00:00Z",
-    "updated_at": "2026-07-31T03:43:20.845043Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-29T17:23:42Z",
+    "updated_at": "2026-10-13T05:46:23Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 1,
-    "citation_count_without_self_citations": 1,
-    "abs_url": "https://arxiv.org/abs/2607.27149v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.27149v1",
-    "inspire_url": "https://inspirehep.net/literature/3184541",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.27149v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.27149v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.27149",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://arxiv.org/abs/2607.27149v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3184541",
-        "fetched_at": "2026-08-05T00:51:33.547012Z",
-        "url": "https://inspirehep.net/literature/3184541"
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2607.27149v2"
       }
     ],
     "is_demo": false

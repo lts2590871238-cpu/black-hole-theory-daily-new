@@ -3,17 +3,20 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.18124",
     "arxiv_id": "2610.18124",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3214563",
     "doi": null,
     "title_en": "Local error correction prolongs time-crystalline memory",
     "abstract_en": "Discrete time crystals are non-equilibrium phases of matter with spatiotemporal order and a response that breaks the time-translation symmetry of a periodic external drive. Interactions, spatial disorder and correlated random driving can in theory stabilize this order. In experiments, however, coupling to the environment limits the time crystal lifetime. Here we use stochastic local bit-flip error correction to prolong the time-crystalline response of a driven, spatially disordered two-dimensional Ising model on a superconducting quantum processor, using a repetition code with distances three and five on a honeycomb lattice with up to 68 physical qubits. Even though ancilla qubits, midcircuit syndrome measurements and decoding increase the required quantum and classical resources, the stochastic drive increases the memory decay time by a factor of up to two. At late times we observe that recovery stabilizes spatial order across the lattice. The spin-configuration distributions explain this separation, as recovery suppresses disagreeing bonds while broadening occupies completely reversed states. Syndrome measurements without correction accelerate the memory decay, demonstrating the importance of conditional correction. Our results show that local bit-flip error correction can preserve time-crystalline memory over more drive cycles than the bare dynamics.",
     "authors": [
-      "Fauseweh, Benedikt"
+      "Benedikt Fauseweh"
     ],
-    "categories": [],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
     "submitted_at": "2026-10-13T00:00:00Z",
-    "updated_at": "2026-10-14T14:02:31.889195Z",
+    "updated_at": "2026-10-15T08:55:26.472891Z",
     "document_types": [
       "article"
     ],
@@ -21,15 +24,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.18124v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.18124v1",
     "inspire_url": "https://inspirehep.net/literature/3214563",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.18124",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://arxiv.org/abs/2610.18124v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3214563",
-        "fetched_at": "2026-10-15T01:35:14.600451Z",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
         "url": "https://inspirehep.net/literature/3214563"
       }
     ],

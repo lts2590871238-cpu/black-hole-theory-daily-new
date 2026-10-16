@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s44464-026-00045-5",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3215314",
+    "doi": "10.1007/s44464-026-00045-5",
+    "title_en": "Systematic evaluation of structural scaling in classical and hybrid quantum neural networks for electrocardiography",
+    "abstract_en": "This research presents a comparative study of classical and hybrid quantum-classical models applied to an Electrocardiogram (ECG) heartbeat classification task. The investigation analyzes (Q)LSTM and (Q)CNN architectures across three distinct structural scales: Small, Medium, and Huge, with all quantum components executed via classical state-vector simulation rather than physical quantum hardware. Benchmarking was conducted on a balanced 2,500-instance subset of the MIT-BIH Arrhythmia Dataset, utilizing an XGBoost model as a non-neural baseline. The empirical results show that hybrid quantum-classical structures can match, and at the Medium scale modestly exceed, purely classical neural networks of comparable parameter count, particularly when deploying the CNN-QLSTM and HYBRID configurations. The top-performing deep learning model was CNN_QLSTM (Huge) , achieving an 84% test accuracy; this result falls slightly below, and is statistically indistinguishable from, the non-neural XGBoost baseline (85.07%) once sampling uncertainty on the 375-instance test set is taken into account. Substantial computational simulation overhead and a pronounced vulnerability to overfitting at larger structural scales remain the primary barriers to practical deployment. Future work should focus on training and testing on physical QPU hardware to investigate the impact of quantum noise and hardware errors in real-world clinical diagnostics.",
+    "authors": [
+      "Saprinskiy, Nikita"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-12T00:00:00Z",
+    "updated_at": "2026-10-15T13:18:36.259871Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "2, 42, 2026, {'$ref': 'https://inspirehep.net/api/journals/2903043'}, 42, 1, Discover Quant.Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215314",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3215314",
+        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "url": "https://inspirehep.net/literature/3215314"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
