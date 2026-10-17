@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.21385",
+    "arxiv_id": "2610.21385",
+    "arxiv_version": null,
+    "inspire_id": "3215549",
+    "doi": "10.1016/j.nuclphysa.2026.123535",
+    "title_en": "Algebraic coefficients of fractional parentage for three particles in the oscillator Jacobi basis",
+    "abstract_en": "We present a closed-form construction of the orbital coefficients of fractional parentage (CFP) of three identical particles in the translationally invariant harmonic oscillator (HO) Jacobi basis. These are usually obtained by numerically diagonalizing a permutation operator in every energy-angular-momentum block. We show this diagonalization is unnecessary. Dressing the class operator $P_{13} + P_{23}$ with the single unitary $W = H^1 Φ$-- a fixed complexification followed by the HO bracket with mass parameter $d=1$-- turns it into the label swap times an integer. Every CFP is then the single ket $|K_{i,s}\\rangle = 2Q^s W^\\dagger|i\\rangle$-- a 2-scaled, sign-decorated column of the $d=1$ bracket restricted to one $e_2$-parity of the labels -- whose norm, $1 + s\\langle i | J | i \\rangle$, is itself a single matrix element. The same $W$ carries label parity into swap symmetry, $W Q^s W^\\dagger = R^s$, making the bookkeeping collapse. The eigenvalues are exact integers $\\pm 2$ and $\\pm 1$ labeling the $S(3)$ symmetry classes. The construction is uniform in $E$, $L$ and symmetry class, reducing CFP-specific work from $O(n^3)$ to $O(n^2)$ in block dimension. An eigensolver remains only inside the bracket engine supplying $H^1$, where all residual numerical error originates. We implement this on an SU(3)-basis bracket engine, checking all 1301 blocks up to $E=50$ (912 366 CFPs, largest block $2907 \\times 2907$): the $S(3)$ class assignment is exact everywhere. The residual numerical error (entirely the bracket engine's) stays below $10^{-8}$ for $E \\leq 35$, restoring to $\\leq 10^{-22}$ via a quadruple-precision build beyond that. We further validate against independently generated antisymmetrization data of a production three-nucleon code, including the $^3$He ground-state energy.",
+    "authors": [
+      "Stepšys, A.",
+      "Mickevičius, S.",
+      "Germanas, D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-15T00:00:00Z",
+    "updated_at": "2026-10-16T12:20:51.991617Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "Nuclear Physics A .Volume 1077, 2027, 123535, ISSN 0375-9474, publication"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215549",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3215549",
+        "fetched_at": "2026-10-17T01:22:58.558142Z",
+        "url": "https://inspirehep.net/literature/3215549"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

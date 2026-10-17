@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.20702",
     "arxiv_id": "2610.20702",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3215464",
     "doi": null,
     "title_en": "Efficient numerical evolution of self-gravitating systems with dark-matter-baryon scattering",
     "abstract_en": "We present a fast algorithm to numerically evolve a spherically symmetric system consisting of dark matter and gas, including dark-matter-baryon scattering. The method augments the spherical N-body code NSphere, which collapses the six-dimensional phase space of a spherical collisionless system to three dimensions, with a one-dimensional Lagrangian treatment of gas. Dark-matter-baryon scattering is implemented as a Monte-Carlo process between the dark-matter numerical particles and the gas shells. We also implement an algorithm for radiative gas cooling that is valid for weak cooling. The gas, as well as dark-matter-baryon scattering and cooling, adds only incrementally to the run time of the code, allowing systems to be evolved on a laptop computer, a tiny fraction of the computational resources required for a full 3D N-body/hydro simulation. To illustrate, we show the evolution of a $\\sim 10^{13}\\,M_\\odot$ halo with a dark-matter-baryon scattering cross section $σ_{\\rm tot}/m_χ=0.1\\,{\\rm cm}^2\\,{\\rm g}^{-1}$ but no gas cooling. We then show examples with radiative gas cooling where the cooling is altered through interaction with dark-matter particles. The resulting code, NSphere-IDM, allows the implications of dark-matter interactions for galaxy evolution to be explored quickly over large volumes of the dark-matter parameter space, and other new physics (e.g., dark-matter self-interactions or anisotropy in the distribution function) is easily incorporated. The code can also provide useful calibrations and benchmarks for fully 3D N-body or hydrodynamical simulations.",
@@ -19,23 +19,31 @@
       "hep-ph",
       "hep-th"
     ],
-    "submitted_at": "2026-10-14T18:00:00Z",
-    "updated_at": "2026-10-14T18:00:00Z",
-    "document_types": [],
+    "submitted_at": "2026-10-14T00:00:00Z",
+    "updated_at": "2026-10-16T12:15:55.026728Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.20702v1",
     "pdf_url": "https://arxiv.org/pdf/2610.20702v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215464",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.20702",
-        "fetched_at": "2026-10-16T01:30:44.683071Z",
+        "fetched_at": "2026-10-17T01:22:58.558142Z",
         "url": "https://arxiv.org/abs/2610.20702v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3215464",
+        "fetched_at": "2026-10-17T01:22:58.558142Z",
+        "url": "https://inspirehep.net/literature/3215464"
       }
     ],
     "is_demo": false
