@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.23207",
+    "arxiv_id": "2610.23207",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Gauge-Covariant Wavelets for Quark-Propagator Sparsening and Distillation in Lattice QCD",
+    "abstract_en": "We develop a novel gauge-covariant wavelet framework for computing hadronic correlation functions in lattice QCD. Two complementary approaches connect spatial localization and resolution-scale separation to propagator sparsening and distillation. A gauge-covariant fast wavelet transform, based on compactly supported biorthogonal filters, coarse-grains quark propagators and reduces early-time excited-state contamination relative to direct decimation at equal spatial reduction. A second construction applies a resolvent filter of the spatial covariant Laplacian to localized sources, generating a distillation subspace without computing Laplacian eigenpairs. We detail its gauge covariance, smearing profiles, and implementation in exact and stochastic distillation. Spatial localization enables unbiased Hansen-Hurwitz sampling of hadronic contractions, reducing their computational cost substantially. We also examine momentum aliasing induced by fixed coarse grids and the use of random grid shifts to remove unwanted contributions in expectation. Numerical benchmarks of the proposed methods are performed with single hadrons, the I = 2 two-pion system, the deuteron channel, and boosted nucleons. The extracted energy levels agree very well with full or conventional distillation calculations within statistical uncertainties. We quantify the costs of on-demand basis construction and contractions, demonstrate contraction speedups at comparable statistical precision. These studies establish a practical foundation of wavelet-based propagator compression and operator construction for multi-operator calculations of hadronic and nuclear systems, particularly at larger lattice volumes.",
+    "authors": [
+      "Debsubhra Chakraborty",
+      "Nilmani Mathur",
+      "Mrinmoy Basak"
+    ],
+    "categories": [
+      "hep-lat",
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-10-16T09:44:56Z",
+    "updated_at": "2026-10-16T09:44:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.23207v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.23207v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.23207",
+        "fetched_at": "2026-10-19T01:24:29.921304Z",
+        "url": "https://arxiv.org/abs/2610.23207v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

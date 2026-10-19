@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.22648",
+    "arxiv_id": "2610.22648",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Primordial Power Spectrum from the Lensed CMB Temperature Spectrum using Iterative Delensing and Fourier Denoising",
+    "abstract_en": "The CMB power spectra are a strong probe of the primordial power spectrum (PPS) of the initial inflationary scalar perturbations. There are many proposed models, from the simpler power law form to various well motivated physical models that predict features in the PPS beyond the power law. Given the large parameter space of possible models, it is necessary to have model independent searches for such features. Weak gravitational lensing alters the CMB temperature power spectrum and can bias free form reconstructions of the primordial power spectrum (PPS) if not accounted for precisely, such as when using estimators like the Richardson-Lucy (RL) deconvolution algorithm. We build on our design of the Non linear Iterative Richardson Lucy (NIRL) estimator that updates the lensing contribution using the freeform PPS recovered at the previous iteration, making it truly model independent in the PPS domain while accounting for lensing. Inspired by signal processing and Fourier filtering techniques from radio interferometry, we also design a Fourier space iterative low pass filter (FLIP) to suppress noise overfitting in NIRL reconstructions. We demonstrate the performance of NIRL-FLIP on a range of simulated PPS models with bootstrap estimates of reconstruction uncertainty obtained from simulated realizations, and show that both our estimator and regularization are robust, accurate and precise, and are able to both reduce lensing induced reconstruction bias and suppress noise overfitting by a significant factor in Fourier space. We provide a detailed description of these results and recommend its utility for future model independent searches for hints of novel physics in the form of deviations from a power law PPS. This can further assist in precise and accurate testing of inflation models, in conjunction with joint cosmological parameter estimation.",
+    "authors": [
+      "Rajorshi Sushovan Chandra",
+      "Debarshi Mukherjee",
+      "Tarun Souradeep"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-15T21:07:30Z",
+    "updated_at": "2026-10-15T21:07:30Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.22648v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22648v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.22648",
+        "fetched_at": "2026-10-19T01:24:29.921304Z",
+        "url": "https://arxiv.org/abs/2610.22648v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

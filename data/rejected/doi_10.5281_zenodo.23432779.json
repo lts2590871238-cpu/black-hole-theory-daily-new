@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.5281/zenodo.23432779",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3215766",
+    "doi": "10.5281/zenodo.23432779",
+    "title_en": "When Graph Autoencoders Look the Wrong Way: Complexity Bias and Simple Baselines in Unsupervised Anomaly Detection on the LHC Olympics 2020 Dataset",
+    "abstract_en": "Graph autoencoders (GAEs) trained only on background are a natural candidate for model-agnostic new-physics searches. I tested two of them on the LHC Olympics 2020 R&D dataset, where a W' -> XY -> (qq)(qq) dijet resonance is hidden in QCD background. The first is a node-level GAE that scores per-particle reconstruction error. The second encodes the whole event, reconstructs it with a set decoder and a Chamfer loss, and offers three scores: reconstruction error, latent k-nearest-neighbour distance and latent Gaussian-mixture likelihood. The decision criterion was fixed before looking at any test result. Neither model beats simple label-free observables. The node-level model reaches an AUC of 0.483 +/- 0.005 with max-reduction and 0.781 with mean-reduction; all three event-level scores are inverted, with AUCs between 0.401 and 0.436, stable across seeds, nine ablations, and signal-contaminated training. By contrast, the mean transverse momentum per particle, <pT> = HT/N, reaches 0.811, and -tau21 of the leading jet reaches 0.801. Correlation and binned analyses indicate that the latent-density scores track event complexity: the signal has fewer, harder particles than QCD and is therefore placed in dense regions of the learned manifold. The benchmark code is public, and I suggest <pT> as a standard reference baseline for unsupervised methods on this dataset.",
+    "authors": [
+      "Khan, Jamil"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-10-18T22:55:10.572655Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215766",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3215766",
+        "fetched_at": "2026-10-19T01:24:29.921304Z",
+        "url": "https://inspirehep.net/literature/3215766"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
