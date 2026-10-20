@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.22879",
+    "arxiv_id": "2610.22879",
+    "arxiv_version": null,
+    "inspire_id": "3216034",
+    "doi": null,
+    "title_en": "RAMP: Toward Ubiquitous Quantum-Safe Key Distribution as a Service",
+    "abstract_en": "Quantum key distribution (QKD) offers a security foundation independent of computational hardness assumptions. However, its reliance on specialized hardware limits access by ordinary users. Turning QKD into a service poses a fundamental trust challenge, as the providers that supply QKD-derived material themselves could retain knowledge of the keying inputs of users. This makes end-to-end confidentiality solely depend on the trustworthiness of the service infrastructure. We present RAMP, a service-oriented framework that decouples QKD material generation from key consumption. Providers operate QKD infrastructure and supply raw-key materials, while users securely acquire, mask, and locally process them into final keys without operating QKD devices. RAMP employs reconciliation-preserving masking compatible with both DV- and CV-QKD. It mitigates the trust dependence by separating the QKD-service and user-side masking domains. We formalize complementary confidentiality guarantees: RAMP protects the final key even if colluding providers expose their complete raw-key views, provided the masking domain remains secure; conversely, exposing the complete masking state does not break final-key secrecy as long as the QKD source and acquisition paths remain protected. The results establish the dual-domain security boundary of RAMP. We implement RAMP using experimentally acquired QKD data and standardized quantum-safe cryptography. After acquiring service-provisioned keying material, commodity endpoints complete user-side QKD post-processing with an average key-distillation throughput of 2.1Kb/s on an M4 Pro CPU. To our knowledge, we demonstrate the first experimental realization of such service-provisioned, user-side QKD processing, presenting a viable path toward QKD as a service.",
+    "authors": [
+      "Wang, Jiafan",
+      "Kish, Sebastian",
+      "Liu, Dongxi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-16T00:00:00Z",
+    "updated_at": "2026-10-19T13:35:25.532633Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216034",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216034",
+        "fetched_at": "2026-10-20T01:56:05.190051Z",
+        "url": "https://inspirehep.net/literature/3216034"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

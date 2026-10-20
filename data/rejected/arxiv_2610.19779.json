@@ -6,14 +6,14 @@
     "arxiv_version": null,
     "inspire_id": "3215111",
     "doi": null,
-    "title_en": "Tomography for coherent noise",
-    "abstract_en": "Coherent noise poses a fundamentally greater challenge to quantum error correction than independent s- tochastic Pauli errors, because unitary errors preserve interference between error paths, can accumulate over multiple quantum error correction rounds, and leave the encoded logical channel with a residual coherent com- ponent. If the parameters of such coherent noise can be accurately determined, this knowledge can be exploited to inject correlated priors into the decoding graph, and to perform maximum-likelihood decoding under poly- nomially tractable structures, significantly improving the accuracy of syndrome-based decoding. In this work, we introduce one protocol to determine the model and parameters of coherent noise, and reduce the complexity of the experiment from 16nto O(16), which is of great significance for correcting coherent noise in quantum error correction.",
+    "title_en": "Scalable Tomography of Coherent Noise via Stabilizer-Code Polarization",
+    "abstract_en": "Coherent errors accumulate linearly rather than diffusively, making them invisible to Pauli-twirl-based char- acterization. It poses a central challenge for quantum error correction, yet its characterization typically requires multi-qubit process tomography whose cost grows exponentially with system size. We show that measurement- free error correction projects arbitrary few-qubit coherent noise onto a fixed single-logical-qubit effective chan- nel, enabling tomography at constant cost. Exploiting the polarization effects of bit-flip and phase-flip codes, we construct a concatenated effective-channel fingerprint and prove, by a parity-based contradiction argument, that the observation map is globally injective over a prescribed coherent-noise family; hence the underlying noise parameters are uniquely recovered without any sparsity or low-rank assumptions. The recovered coherent noise model can be fed into decoding algorithms; relative to independent noise priors, we expect this to reduce the logical error rate for surface-code decoders. The protocol offers a scalable route to coherent-noise identification whenever the noise admits a moderate-dimensional parameterization.",
     "authors": [
       "Huang, Long"
     ],
     "categories": [],
     "submitted_at": "2026-10-14T00:00:00Z",
-    "updated_at": "2026-10-16T06:39:35.470354Z",
+    "updated_at": "2026-10-19T10:29:54.383408Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3215111",
-        "fetched_at": "2026-10-19T01:24:29.921304Z",
+        "fetched_at": "2026-10-20T01:56:05.190051Z",
         "url": "https://inspirehep.net/literature/3215111"
       }
     ],

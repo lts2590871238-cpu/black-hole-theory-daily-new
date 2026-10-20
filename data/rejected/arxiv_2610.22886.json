@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.22886",
+    "arxiv_id": "2610.22886",
+    "arxiv_version": null,
+    "inspire_id": "3216035",
+    "doi": null,
+    "title_en": "SemQBench: Benchmarking Decomposition-Aware Runtime Policies for Quantum-HPC Search",
+    "abstract_en": "Quantum processors are increasingly used as accelerators inside high-performance computing (HPC) workflows. A workflow runtime decides which quantum circuits to run, how to group them into provider jobs, and what to repeat after a failed attempt. Many search problems split into independent parts, but the runtime can use that structure only when the workflow exposes the parts and a validity check for each one. SemQBench measures what a runtime gains from this visibility. It compares seven execution policies for the same search problem, including two controls without amplitude amplification. The policies change one runtime choice at a time: whether to amplify, whether partial results may be combined across runs, whether the parts share one circuit, and what a retry keeps. We run them on the 20-qubit IQM Garnet processor using 106 distinct circuits in three jobs, and report circuit executions, active device time, and provider jobs separately before combining them in a cost model. Amplifying the problem as one whole circuit shows no statistically clear gain over random sampling and uses 6.7-104$\\times$ more active device time. Exposing the parts and collecting valid partial results across a fixed batch of runs cuts the executions needed for 95% completion confidence by 2.20-4.00$\\times$, and this policy is never worse than the other amplified policies in executions, device time, or jobs; it is selected in 99 of 108 overhead settings. Fewer executions do not always mean less device time: on one workload, executions fall from thirteen to four while active device time rises from 7.44 to 9.81 $μ$s. Exposing problem structure therefore gives the runtime a strong default policy and the measurements needed to decide when the simpler unamplified option is cheaper.",
+    "authors": [
+      "Pati, Chandrachud",
+      "Simmhan, Yogesh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-16T00:00:00Z",
+    "updated_at": "2026-10-19T13:35:25.878772Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216035",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216035",
+        "fetched_at": "2026-10-20T01:56:05.190051Z",
+        "url": "https://inspirehep.net/literature/3216035"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

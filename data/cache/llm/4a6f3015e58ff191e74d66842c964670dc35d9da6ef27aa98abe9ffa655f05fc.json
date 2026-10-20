@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 15,
+    "novelty": 11,
+    "clarity": 7,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 4
+  },
+  "total_score": 65,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文聚焦随机引力波背景搜索中的统计推断方法，针对两步预测相对Whittle联合拟合的估计效率缺口给出闭式偏差与效率损失刻画，并明确其对LISA等毫赫兹探测器的幅度与倾角参数估计的影响；选题与频率空间随机引力波背景统计相关，具有明确的方法论价值，值得进一步阅读。",
+  "title_zh": "随机引力波背景搜索中两步预测的效率缺口",
+  "abstract_zh": "随机引力波背景是毫赫兹频段天文台 LISA、Taiji 和 TianQin 的探测目标，其预测精度依赖于对周期图似然的 Whittle 近似。所引用的量级是联合拟合的尺度，而两步预测未必能达到该尺度。我们表明，两步预测的残余风险在于估计量路径，而不在于似然。在精确的 Whittle 形式下，我们将预测误差分解为确定性偏差 $\\mathbf{b}$ 和效率缺口 $\\mathbf{C}_b$，两者均以闭式给出。我们发现，该缺口由第一步冗余参数拟合的跨度所控制。它随跨度增大而显著减小，并在第一步拟合覆盖整个频带或响应在频点内无结构时消失。该缺口并非作为先验的代价而产生。在 LISA 频带上，该缺口跨越一个数量级以上，当第一步为全频带拟合时，幅度与倾角的膨胀从约三十和二十降至一。来自已发布的 LDC2a 种群的 foreground 使中频带缺口移动一个数量级。因此，两步预测应在其区间报告中同时报告第一步拟合的跨度，因为该跨度决定了这些区间是位于 Fisher 尺度还是高出其一个数量级。",
+  "keywords_en": [
+    "stochastic gravitational-wave background",
+    "Whittle approximation",
+    "Fisher forecast",
+    "two-step forecast",
+    "LISA",
+    "Taiji",
+    "TianQin",
+    "LDC2a"
+  ],
+  "keywords_zh": [
+    "随机引力波背景",
+    "Whittle 近似",
+    "Fisher 预测",
+    "两步预测",
+    "LISA",
+    "Taiji",
+    "TianQin",
+    "LDC2a"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-20T01:57:05.472041Z"
+}

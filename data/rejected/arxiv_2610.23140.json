@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.23140",
     "arxiv_id": "2610.23140",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3215930",
     "doi": null,
     "title_en": "Seeing Through the RFI Mask: DT-FISTA Inpainting of Pulsar Dynamic Spectra via Fourier Sparsity",
     "abstract_en": "Radio frequency interference (RFI) frequently contaminates radio observations, and excising affected samples leaves masked regions in sampled images. Replacing masked samples with zero or the mean causes spectral leakage in Fourier-domain power representations. This contamination is particularly severe for modern pulsar scintillation studies, which rely on identifying and characterizing faint parabolic scintillation arcs in secondary spectra, the 2D power spectra of dynamic spectra. Scintillation arcs probe discrete scattering screens in the interstellar medium (ISM) and constrain their physical properties. However, leakage can obscure faint arcs whose power is often $<10^{-3}$ of the dominant pulsar signal power. Wiener inpainting can mitigate this leakage, but a dense implementation requires $\\mathcal{O}(N^2)$ memory and $\\mathcal{O}(JN^2)$ time for $N$ pixels and $J$ iterations, which is computationally expensive for full-resolution spectra containing millions of pixels. We introduce the decreasing-threshold fast iterative shrinkage-thresholding algorithm (DT-FISTA). Using a sparse Fourier representation, DT-FISTA initially estimates masked intensities from the strongest Fourier components and progressively refines them with weaker components as the soft threshold decreases. Nesterov momentum extrapolation accelerates these updates. Each iteration uses 2D fast Fourier transforms (FFT) and pointwise operations, requiring $\\mathcal{O}(N\\log N)$ time and $\\mathcal{O}(N)$ memory. Tests on $300\\times300$ pixel patches from Five-hundred-meter Aperture Spherical radio Telescope (FAST) observations yield lower reconstruction errors than the dense Wiener implementation, with runtime and memory requirements reduced by factors $>10^3$. Applied to full-resolution dynamic spectra, DT-FISTA suppresses mask-induced artifacts and reveals previously obscured faint arcs, enabling efficient ISM studies.",
@@ -17,23 +17,31 @@
       "astro-ph.GA",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-10-16T08:37:59Z",
-    "updated_at": "2026-10-16T08:37:59Z",
-    "document_types": [],
+    "submitted_at": "2026-10-16T00:00:00Z",
+    "updated_at": "2026-10-19T13:09:57.471465Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.23140v1",
     "pdf_url": "https://arxiv.org/pdf/2610.23140v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3215930",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.23140",
-        "fetched_at": "2026-10-19T01:24:29.921304Z",
+        "fetched_at": "2026-10-20T01:56:05.190051Z",
         "url": "https://arxiv.org/abs/2610.23140v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3215930",
+        "fetched_at": "2026-10-20T01:56:05.190051Z",
+        "url": "https://inspirehep.net/literature/3215930"
       }
     ],
     "is_demo": false
