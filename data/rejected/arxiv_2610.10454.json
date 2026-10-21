@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.10454",
     "arxiv_id": "2610.10454",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
-    "title_en": "Excitation Spectra of the Frustrated Spin-1/2 $J_1$-$J_2$ Model via Dual Spin-Sector Variational Quantum Eigensolvers",
-    "abstract_en": "Finding excited states and excitation gaps in frustrated spin systems using Variational Quantum Eigensolvers (VQE) is complicated by state-ordering inversions. In the frustrated spin-1/2 $J_1$-$J_2$ Heisenberg model, standard single-sector algorithms like Variational Quantum Deflation (VQD) in $S_z=0$ fail when $J_2/J_1 < 0.25$. In this regime, the lowest-lying excitation in $S_z=0$ is a Triplet ($S=1$), which lies below the Excited Singlet ($S=0$). Standard deflation projects out the ground singlet and converges onto the Triplet state, misidentifying it as the Excited Singlet. Here, this work presents a Dual Spin-Sector VQE framework that resolves these state-ordering inversions applied to frustrated $J_1-J_2$ models on 1D spin chains and 2D rectangular lattices. Firstly, by optimizing the ground Triplet state in the $S_z=1$ sector (where singlet states cannot exist), mapping it into $S_z=0$ via the total spin-lowering operator $S^- = \\sum_i S_i^-$, and evaluating a dual-sector penalty cost function, the Excited Singlet ($E_S$) is isolated without variational ambiguity. Numerical state-vector simulations confirm exact convergence to machine precision with unit overlap fidelity. The method captures key physical features, including the gapless phase, the gapless-gapped critical point at $J_2/J_1 \\approx 0.2411$, the Majumdar-Ghosh dimer point ($J_2/J_1 = 0.50$), and the 2D non-magnetic frustrated regime ($J_2/J_1 \\approx 0.40 - 0.60$). Finite-shot sampling simulations and gate-scaling analytics up to $N=100$ qubits demonstrate the resource efficiency and shot resilience of the algorithm for near-term quantum execution.",
+    "title_en": "Resolving Spectral Gaps of the Frustrated Spin-1/2 $J_1$-$J_2$ Chain via Dual Spin-Sector Variational Quantum Eigensolver",
+    "abstract_en": "Finding excited states and resolving spectral gaps in frustrated quantum spin systems using Variational Quantum Eigensolvers is complicated by state-ordering inversions. In the frustrated spin-1/2 $J_1$-$J_2$ Heisenberg chain, standard single-sector variational quantum deflation collapses onto intermediate triplet excitation, preventing the isolation of excited singlets and the singlet-singlet gap. To resolve these gaps, a Dual Spin-Sector Variational Quantum Eigensolver framework is introduced for near-term quantum architectures. By partitioning the search across magnetization sectors $S^z=0$ and $S^z=1$, the lowest triplet is resolved as an unconstrained ground state in $S^z=1$ with zero deflation penalty. Leveraging exact global spin-rotation symmetry, this state is mapped analytically into $S^z=0$ without ancilla overhead, unlocking dual deflation via shallow compute-uncompute circuits. Tracking both singlet-triplet and singlet-singlet gaps across coupling ratios $J_2/J_1$ from $0$ to $1$ for chains up to $16$ qubits faithfully captures all critical phenomena: the continuous Berezinskii-Kosterlitz-Thouless transition, exact Majumdar-Ghosh dimer degeneracy, level-ordering inversion in the gapless liquid phase, and incommensurate spiral excitations. Circuit depth scaling up to twenty layers provides an overparameterization mechanism overcoming classical local minima in strongly frustrated regimes, reducing relative energy errors below $1\\%$ and elevating state fidelities above $97\\%$ on $16$ qubits. Projective measurement sampling demonstrates resilience against shot noise, providing a practical blueprint for exploring frustrated quantum magnetism on near-term quantum devices.",
     "authors": [
       "Sk Saniur Rahaman"
     ],
@@ -15,22 +15,22 @@
       "cond-mat.str-el"
     ],
     "submitted_at": "2026-10-07T17:25:19Z",
-    "updated_at": "2026-10-12T14:15:23Z",
+    "updated_at": "2026-10-19T10:43:34Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2610.10454v2",
-    "pdf_url": "https://arxiv.org/pdf/2610.10454v2",
+    "abs_url": "https://arxiv.org/abs/2610.10454v3",
+    "pdf_url": "https://arxiv.org/pdf/2610.10454v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.10454",
-        "fetched_at": "2026-10-19T01:24:29.921304Z",
-        "url": "https://arxiv.org/abs/2610.10454v2"
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2610.10454v3"
       }
     ],
     "is_demo": false

@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27221",
+    "arxiv_id": "2610.27221",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "High-cadence GW astrometry in the $μ$Hz gap",
+    "abstract_en": "We forecast the sensitivity of a dedicated, fast-spinning astrometric survey to a stochastic gravitational-wave background (SGWB) in the microhertz gap between pulsar timing arrays (PTAs) and LISA. Spinning the satellite faster samples each star more often, raising the Nyquist frequency and opening higher frequencies at no cost in noise: the shorter, noisier exposures are exactly compensated by their number, so the white-noise floor of each position stream is independent of cadence. High frequencies are where astrometry is most competitive, because the deflection measures the strain directly: its strain noise is white, whereas the equivalent noise of pulsar timing grows as $f^2$. With a cross-correlation estimator over $N$ reference stars and the astrometric overlap computed in the distant-source limit, we find that a Gaia-like satellite scanning the ecliptic poles, with $N\\sim10^4$ bright stars over $10$~yr, falls short of the background measured by PTAs by a factor $\\sim\\!60$. A larger, $8$-m-class aperture, or a constellation of satellites covering the whole sky, reaches it, while extending the reach continuously across the $μ$Hz band.",
+    "authors": [
+      "Giorgio Mentasti",
+      "Carlo Contaldi"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-19T19:51:32Z",
+    "updated_at": "2026-10-19T19:51:32Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.27221v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.27221v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.27221",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2610.27221v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array",
+      "pulsar timing arrays",
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 100
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 18,
+      "methodological_rigor": 15,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 66,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "论文将μHz频段（位于PTA与LISA之间）的天体测量引力波探测与PTA灵敏度直接对比，给出了明确的定量预言（Gaia类卫星差约60倍、8米级口径可达标），对PTA与其他频段探测手段的衔接具有参考价值；理论框架清晰但相对标准，方法以预报与交叉相关估计为主，新论文零引用不作减分。",
+    "title_zh": "μHz空隙中的高采样率引力波天体测量",
+    "abstract_zh": "我们预测了一台专用的、快速自旋的天体测量巡天设备对微赫兹空隙中随机引力波背景（SGWB）的灵敏度，该空隙位于脉冲星计时阵列（PTA）与LISA之间。让卫星转得更快会以更高频率对每颗恒星采样，从而提高奈奎斯特频率并在不增加噪声代价的情况下打开更高频率：更短、噪声更大的曝光恰好被其数量所补偿，因此每条位置流的白噪声底与采样率无关。高频正是天体测量最具竞争力的频段，因为偏转直接测量应变：其应变噪声是白噪声，而脉冲星计时的等效噪声随$f^2$增长。我们采用对$N$颗参考星的交叉相关估计量，并在远源极限下计算天体测量重叠，发现一台类似Gaia的卫星扫描黄道极、在$10$~yr内观测$N\\sim10^4$颗亮星，比PTA测得的背景灵敏度差约$\\sim\\!60$倍。一台更大的、8米级口径的设备，或一个覆盖全天区的卫星星座，可以达到该灵敏度，同时把探测范围连续地延伸覆盖整个$μ$Hz频段。",
+    "keywords_en": [
+      "astrometry",
+      "stochastic gravitational-wave background",
+      "pulsar timing array",
+      "microhertz gap",
+      "gravitational-wave detection",
+      "satellite mission concepts"
+    ],
+    "keywords_zh": [
+      "天体测量",
+      "随机引力波背景",
+      "脉冲星计时阵列",
+      "微赫兹空隙",
+      "引力波探测",
+      "卫星任务概念"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-21T01:44:18.738982Z"
+  },
+  "published_at": "2026-10-21T01:44:18.739406Z"
+}

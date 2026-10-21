@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.05447",
+    "arxiv_id": "2603.05447",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/j2db-xh7h",
+    "title_en": "Efficient simulation of Bose-Einstein condensates in nontrivial topologies",
+    "abstract_en": "Bubble-shaped Bose-Einstein condensates (BECs) constitute a unique class of quantum fluids with a hollow, thin-shell geometry that supports a wide variety of phenomena that are distinct from those of compact condensates. Numerical simulation of such systems is particularly challenging due to their inherently three-dimensional structure and extreme aspect ratios. We present an efficient finite-difference simulation framework designed for solving partial differential equations in such nontrivial topologies with a focus on the static and dynamical modeling of bubble-shaped BECs. By employing selective spatial sampling on a semi-structured grid, our method substantially reduces memory usage and achieves more than an order-of-magnitude improvement in computational performance compared to conventional split-step Fourier solvers. The algorithm is naturally extendable for highly parallel execution on GPUs, enabling large-scale, time-dependent simulations of thin-shell condensates. We apply this framework to simulate the formation of bubble BECs through a controlled hollowing-out protocol using ab initio trapping potentials relevant to the Cold Atom Laboratory aboard the International Space Station. From these simulations, we identify characteristic timescales and parameter ramps required to achieve adiabatic evolution, thereby assessing the feasibility of experimentally realizing bubble-shaped condensates in microgravity environments.",
+    "authors": [
+      "Abel Beregi",
+      "Jean-Baptiste Gerent",
+      "Nathan Lundblad"
+    ],
+    "categories": [
+      "cond-mat.quant-gas",
+      "physics.atom-ph"
+    ],
+    "submitted_at": "2026-03-05T18:19:56Z",
+    "updated_at": "2026-10-20T00:36:01Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. Research 8, 043051 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.05447v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.05447v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.05447",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2603.05447v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

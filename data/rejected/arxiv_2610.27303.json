@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27303",
+    "arxiv_id": "2610.27303",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Globular Clusters GMRT Pulsar Survey (GCGPS) III: ORION - a multi-beam acceleration search pipeline",
+    "abstract_en": "Globular clusters host rich millisecond pulsar populations, but the known population remains incomplete. We present the observing strategy for Phase II of the Globular Clusters GMRT Pulsar Survey (GCGPS), which uses the SPOTLIGHT system to form 160 synthesised beams simultaneously, substantially expanding the instantaneous field of view compared with the two phased-array beams of Phase I. The configuration is tunable through the beam overlap and the number of contributing antennas, allowing spatial coverage to be balanced against sensitivity. We quantify the sensitivity losses from intra-channel dispersion smearing and finite sampling, which motivate the adopted dispersion-measure limits of 50 and 150 pc/cc for Bands 3 and 4. To process the resulting data, we introduce ORION, a GPU-accelerated pipeline that combines the high-throughput Fourier-domain filtering of PULSCAN with localised parameter refinement using PRESTO. In single-beam tests with simulated binary pulsars, ORION reduces processing time by a factor of approximately 15 to 30 relative to the CPU-based Phase I pipeline, with comparable or higher folded detection significance. On-sky validation with Cycle 49 observations recovered four known globular cluster pulsars with spin periods of approximately 5.4 to 406 ms. Using eight GPUs and 64 CPU cores, ORION processes full 160-beam observations in approximately 0.25 to 0.33 times the observation duration, corresponding to three to four times real-time throughput. Together, the Phase II strategy and ORION provide a scalable framework for expanding globular cluster pulsar searches, with future development targeting highly accelerated and jerked binary systems.",
+    "authors": [
+      "Nishant Deo",
+      "Jyotirmoy Das",
+      "Jayanta Roy",
+      "Saurabh Raj",
+      "Karel Adamek",
+      "Wesley Armour",
+      "Bhaswati Bhattacharyya",
+      "Jayaram Chengalur",
+      "Paulo C. C. Freire",
+      "Scott M. Ransom",
+      "Sridhar Gajendran",
+      "Sanjay Kudale",
+      "Mekhala V. Muley",
+      "Adityan S",
+      "Junhao Zhang"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-19T21:18:33Z",
+    "updated_at": "2026-10-19T21:18:33Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.27303v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.27303v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.27303",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2610.27303v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -3,20 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.19891",
     "arxiv_id": "2610.19891",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3215114",
     "doi": null,
     "title_en": "Low-cost neural summaries for cosmological inference: an ensemble of convolutional neural networks trained on approximate simulations",
     "abstract_en": "Machine learning can build near-optimal summary statistics for extracting cosmological information from the large-scale structure of the Universe. Training them, however, requires large numbers of costly simulations. We aim to build a neural summary trained on fast, approximate low-resolution simulations that remains informative when applied to higher-resolution ones, reducing the cost of the training set. We train an ensemble of convolutional neural networks with different architectures to compress the matter overdensity fields of low-resolution particle-mesh simulations. The outputs of a subset of networks are concatenated into a summary statistic, which we use to constrain $Ω_{\\rm m}$ and $σ_8$ from high-resolution particle-mesh simulations, each about a thousand times more costly than their low-resolution counterparts. Theoretical predictions are provided by a Gaussian process emulator built from the high-resolution simulations. We test three strategies for selecting the smallest informative subset of networks. Constraints are compared with those from a reference power spectrum analysis. We also consider dark matter halo catalogues from independent high-resolution $N$-body simulations. The neural summary extracts information beyond the binned power spectrum. Using multiple networks is essential: a single network can be less informative than the power spectrum. A greedy search based on posterior volume provides the tightest constraints with the fewest networks. The neural summary also outperforms the power spectrum for dark matter haloes, at different number densities and redshifts, despite being trained on low-resolution matter fields at $z=0$. This work demonstrates that an ensemble of networks trained on approximate simulations yields a summary statistic that remains informative on higher-fidelity data, including dark matter haloes. (Abridged)",
     "authors": [
-      "Iñigo Sáez-Casares",
-      "Davide Bianchi",
-      "Matteo Calabrese",
-      "Luigi Guzzo"
+      "Sáez-Casares, Iñigo",
+      "Bianchi, Davide",
+      "Calabrese, Matteo",
+      "Guzzo, Luigi"
     ],
-    "categories": [
-      "astro-ph.CO"
-    ],
+    "categories": [],
     "submitted_at": "2026-10-14T00:00:00Z",
     "updated_at": "2026-10-17T14:48:11.253602Z",
     "document_types": [
@@ -26,21 +24,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2610.19891v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.19891v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3215114",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2610.19891",
-        "fetched_at": "2026-10-20T01:56:05.190051Z",
-        "url": "https://arxiv.org/abs/2610.19891v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3215114",
-        "fetched_at": "2026-10-20T01:56:05.190051Z",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
         "url": "https://inspirehep.net/literature/3215114"
       }
     ],

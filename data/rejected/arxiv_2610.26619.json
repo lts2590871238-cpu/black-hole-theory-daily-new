@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.26619",
+    "arxiv_id": "2610.26619",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "GPU-accelerated Bayesian inference for diffracted gravitational wave signals",
+    "abstract_en": "As the rate of gravitational wave detections continues to grow, the probability of observing a gravitationally lensed gravitational wave also increases. When the Schwarzschild radius of the lens is comparable in size to the gravitational wave wavelength, wave-optics effects induce a frequency- dependent modulation on the signal. CPU-based parameter estimation analyses for wave-optics lensing are computationally intensive, limiting the scale of studies to determine the significance of any potential lensing candidate. In this work, we implement a point-mass lens model in Jim, a high-performance GPU-based parameter estimation pipeline. This enables, for the first time, GPU-accelerated Bayesian inference in full-wave optics, including the computation of Bayes factors, without the need for training data. We call this framework Jim-lensing. Using this framework, we are able to speed up a full parameter estimation run under the point-mass lens hypothesis from more than 10 hours to the order of 10 minutes compared to the current state-of-the-art CPU-based pipeline. We show that our implementation is stable and obtains comparable results to this state-of- the-art pipeline. The substantial speed gain over existing CPU pipelines paves the way for analyzing gravitational wave data under a broader range of lensing models with greater capacity to produce robust frequentist significance estimates.",
+    "authors": [
+      "Zihao Lin",
+      "Jef Heynen",
+      "Mick Wright",
+      "Thomas C. K. Ng",
+      "Chris Van Den Broeck",
+      "Justin Janquart"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-19T15:54:13Z",
+    "updated_at": "2026-10-19T15:54:13Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.26619v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.26619v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.26619",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2610.26619v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

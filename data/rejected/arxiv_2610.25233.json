@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.25233",
+    "arxiv_id": "2610.25233",
+    "arxiv_version": null,
+    "inspire_id": "3216140",
+    "doi": null,
+    "title_en": "Noise-Awareness in Quantum Software Testing: An Empirical Landscape Analysis",
+    "abstract_en": "Noisy Intermediate-Scale Quantum (NISQ) hardware has transformed quantum computing into a practical experimental platform while introducing fundamental challenges associated with hardware noise, decoherence, and probabilistic execution. Although quantum software testing (QST) has rapidly emerged as an active research area, it remains unclear to what extent existing testing methodologies explicitly engage with noisy and hardware-constrained execution environments. This paper presents a systematic empirical landscape analysis of noise-awareness in QST research through a deterministic, taxonomy-guided analytical framework applied to 61 papers published between 2018 and 2025 across eight testing paradigms, contrasting how contributions are framed with how they are evaluated. Among the analyzed papers, 47 (77.0%) are noise-oblivious and only 14 (23.0%) explicitly engage with noise-related execution concerns, while only 11 (18.0%) report evaluation on physical hardware or a noisy simulator. Test generation, the largest paradigm, exhibits a noise-awareness rate of only 14.3%, and debugging and repair 18.2%; coverage-based, metamorphic, and differential testing contain no noise-aware contributions. Noise-aware methodologies emerged late and remain outnumbered in all analyzed years. Framing and evaluation are strongly associated (odds ratio 40.5, p < 0.001) yet diverge for individual papers: 5 of the 14 noise-aware papers evaluate only on ideal simulators. Inferential statistical tests are reported in only 16.4% of papers. The classification framework was validated against a blinded, human-coded reference sample, achieving almost perfect inter-rater agreement on testing-technique classification and substantial agreement on noise-awareness. The framework provides a reusable empirical basis for longitudinal analysis of hardware-conscious testing practice.",
+    "authors": [
+      "Yousuf, Mir Mohammad",
+      "Sofi, Shabir Ahmad",
+      "Majid, Bisma"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-10-20T11:35:24.869731Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216140",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216140",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216140"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

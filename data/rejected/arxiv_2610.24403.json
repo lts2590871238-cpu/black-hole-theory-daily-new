@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.24403",
+    "arxiv_id": "2610.24403",
+    "arxiv_version": null,
+    "inspire_id": "3216131",
+    "doi": null,
+    "title_en": "Prototype-Guided Optimization of Quantum Data Embeddings with Linear Cost",
+    "abstract_en": "In supervised quantum machine learning with classical data, classification performance critically depends on the geometry induced by quantum data embedding. Existing data-adaptive approaches rely on pairwise fidelity evaluations between samples, which scale as $O(B^2)$ for $B$ samples and create a computational bottleneck in iterative embedding optimization. To address this issue, we propose a prototype-guided framework for efficient data-adaptive quantum embedding. Using class-prototype separation and sample-to-prototype compactness, we derive a measurable lower certificate for class-ensemble distinguishability and construct a prototype-based objective requiring only $O(B)$ fidelity evaluations. We integrate this objective into an end-to-end pipeline that combines task-specific quantum circuit architecture optimization with continuous refinement of the data-embedding parameters. Across five benchmark datasets with up to 20 qubits, our method retains competitive quantum kernel support vector machine (SVM) performance while reducing fidelity-evaluation cost, with particularly strong gains over budget-matched pairwise optimization on T-MNIST. Geometric analyses examine how the learned embeddings relate to kernel alignment and classification margins, revealing dataset-dependent benefits and limitations. We further derive a prototype-based classifier in the reproducing kernel Hilbert space that provides an explicit witness for the SVM objective and a low-cost proxy for model selection, and extend the framework to multiple prototypes for multimodal class structures.",
+    "authors": [
+      "Jeong, Seokhoon",
+      "Park, Daniel K."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-17T00:00:00Z",
+    "updated_at": "2026-10-20T11:35:33.759503Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216131",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216131",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216131"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

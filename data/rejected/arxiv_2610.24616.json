@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.24616",
+    "arxiv_id": "2610.24616",
+    "arxiv_version": null,
+    "inspire_id": "3216448",
+    "doi": null,
+    "title_en": "SIESTA-QCOMP: Bridging Classical and Quantum Computing for Strongly Correlated Systems",
+    "abstract_en": "Density Functional Theory (DFT) is the established workhorse of computational materials science, yet it faces fundamental challenges with strongly correlated electrons, such as in transition metal complexes and bond-breaking processes. While quantum computing offers a theoretically exact path to resolve these problems, current hardware limitations prohibit fully quantum simulations of realistic material systems. To bridge this gap, we present SIESTA-QCOMP, a modular suite embedding quantum methodologies within DFT. Harnessing SIESTA's localised basis set, we implement a projection-based embedding scheme that treats the bulk environment classically while mapping the strongly correlated \"impurity\" subspace to a quantum processor. The architecture uses a socket-based driver to orchestrate workflows between the Fortran-based SIESTA engine and Python-based frameworks like Qiskit, ensuring high interoperability. We detail the hybrid workflow, currently utilising a Variational Quantum Eigensolver (VQE), and discuss the road map toward methods such as Sample-based Quantum Diagonalisation (SQD). We illustrate the framework on an hypothetical iron porphyrin calculation and argue that such hybrid architectures are not merely interim solutions but essential foundations for integrating quantum utility into materials design, as envisioned by our broader QCOMP4DFT initiative.",
+    "authors": [
+      "Pouillon, Yann",
+      "Marchesin, Federico",
+      "Tavernelli, Ivano",
+      "Artacho, Emilio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-17T00:00:00Z",
+    "updated_at": "2026-10-20T14:19:49.884395Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216448",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216448",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216448"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

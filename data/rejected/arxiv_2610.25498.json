@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.25498",
+    "arxiv_id": "2610.25498",
+    "arxiv_version": null,
+    "inspire_id": "3216143",
+    "doi": null,
+    "title_en": "Cryogenic Recharacterization of a Commercial 22 nm FD-SOI Foundry Standard-Cell Library",
+    "abstract_en": "Wiring and bandwidth bottlenecks between a quantum processor and room-temperature electronics can be reduced by placing digital control at the cryogenic stage, but commercial foundry standard-cell libraries are not specified for operation at 4 K. A cryogenic recharacterization flow is therefore developed for a commercial 22 nm FD-SOI foundry standard-cell library using commercially available cryogenic compact-device models, while retaining the original cell circuits, layouts, logic functions, and implementation semantics and remaining compatible with the commercial synthesis, place-and-route, and signoff methodology used at room temperature. Body-bias dependence is quantified over 38,640 matched slew/load points at zero, +/-0.9 V, and +/-1.8 V body bias. Relative to full bias, zero-bias operation increases the median rising and falling delays by 38.6x and 33.0x, while approximately 90% of transitions exceed the foundry-defined maximum-transition envelope. The 0.8 V-to-0.4 V level shifter is even more sensitive to body bias: its worst-case falling delay decreases from 30.6 ns at zero bias to 0.56 ns at +/-1.8 V. For the outbound 0.4 V-to-0.8 V crossing, driving the 0.8 V receiver without a level shifter dissipates 57.7 uW of static power per bit at full bias, against 0.196 nW when level-shifted. In post-route analysis of the unchanged extracted physical database of a fabricated 32-bit ALU, the register-to-register setup boundary increases from 1.3 MHz at zero bias to 37.9 MHz at +/-0.9 V and 132.9 MHz at +/-1.8 V.",
+    "authors": [
+      "Gharib, Mohamed",
+      "Rasheedi, Rami",
+      "Abdelzaher, Salma",
+      "Shi, Henry",
+      "Hammer, Mike",
+      "Fanals-i-Batllori, Llorenç",
+      "Perez, Aldo Pena",
+      "Miceli, Antonino",
+      "Partin-Vaisband, Inna"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-10-20T12:19:25.010859Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216143",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216143",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216143"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

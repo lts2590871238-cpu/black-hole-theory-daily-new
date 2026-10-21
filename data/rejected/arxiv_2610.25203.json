@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.25203",
+    "arxiv_id": "2610.25203",
+    "arxiv_version": null,
+    "inspire_id": "3216294",
+    "doi": null,
+    "title_en": "Simulation-Based Quantum Forensics for QKD: Machine Learning Attack Detection and Signature Extraction",
+    "abstract_en": "Quantum Key Distribution (QKD) supports secure key establishment under ideal protocol assumptions, but practical systems remain exposed to implementation-level attacks against optical channels, detectors, and controller behavior. This study presents Quantum Forensic Log (QF-LOG), a simulation-based forensic framework for analyzing aggregated QKD operational logs rather than raw quantum states. QF-LOG uses four observable features: quantum bit error rate (QBER), photon count, latency in milliseconds, and abort flag. The framework classifies normal operation and three simulated attack-related conditions: partial intercept-resend, detector-blind, and fiber-tap. A physics-inspired Generator-A dataset with 5 million balanced records was constructed using explicit mathematical generation models for all four features. A transparent threshold baseline, logistic regression, random forest, and XGBoost were evaluated on Generator-A. The full-feature learning models achieved macro F1-scores from 0.8211 to 0.8243 and outperformed the transparent two-feature comparator. Feature diagnostics showed that QBER contributed most, followed by latency in milliseconds and photon count, while no single feature reproduced the full feature set performance. Robustness was assessed on a separately generated Generator-B dataset of 5 million records that uses the same governing equations under shifted simulated operating parameters. Without retraining or tuning, their macro F1-scores decreased to values from 0.5645 to 0.5669. These findings show that QF-LOG can support interpretable forensic classification in a controlled synthetic setting, but stable internal evaluation does not establish reliability under changed simulated QKD operating conditions. The framework provides a documented basis for future evaluation across broader simulated settings and hardware-generated QKD logs.",
+    "authors": [
+      "Das, Madhab Chandra",
+      "Ahmed, Sajid",
+      "Hussain, Uzair",
+      "Pham, Van Vung"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-18T00:00:00Z",
+    "updated_at": "2026-10-20T11:35:44.285595Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216294",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216294",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216294"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27085",
+    "arxiv_id": "2610.27085",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Modular Bayesian Inference for Partially Misspecified Mixtures with Uncertain Class Labels",
+    "abstract_en": "Scientific inference often involves observations from multiple latent populations whose class memberships are uncertain and must be inferred from available data. While full Bayesian mixture modelling provides a principled approach to joint uncertainty quantification in this setting, often the model is misspecified or less trustworthy for populations that are not the target of the inference, which can distort posterior inference for the parameters of interest. We propose a modular Bayesian framework that safeguards against such biases. We decouple classification from downstream inference using fixed class probabilities, for example from a classifier trained on a subset of labelled data. We then protect inference on the parameters of interest by preventing the likelihood contributions of less trustworthy populations from influencing them. A key benefit of this principled modularization is that it greatly simplifies inference, reducing a fully joint mixture analysis to sampling label allocations, fitting the protected downstream model for each sample, and averaging the resulting posteriors. We establish calibration conditions on these class probabilities under which the proposed procedure preserves the inferential target of the analysis with known labels, and demonstrate the method in synthetic experiments and in cosmological analysis of photometric supernova samples.",
+    "authors": [
+      "Maximilian Autenrieth",
+      "Konstantin Karchev",
+      "David A. van Dyk",
+      "Kaisey Mandel",
+      "Roberto Trotta"
+    ],
+    "categories": [
+      "stat.ME",
+      "astro-ph.CO",
+      "stat.ML"
+    ],
+    "submitted_at": "2026-10-19T18:00:05Z",
+    "updated_at": "2026-10-19T18:00:05Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.27085v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.27085v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.27085",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2610.27085v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

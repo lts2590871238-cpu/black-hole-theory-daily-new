@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-10-21T01:43:25.036650Z",
+  "completed_at": "2026-10-21T01:45:17.512525Z",
+  "status": "degraded",
+  "fetched_arxiv": 1000,
+  "fetched_inspire": 800,
+  "normalized": 1800,
+  "deduplicated": 1478,
+  "candidates": 60,
+  "selected": 58,
+  "review_queue": 0,
+  "rejected": 1419,
+  "llm_calls": 19,
+  "cached_decisions": 40,
+  "errors": [
+    "arxiv:2610.25408: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: invalid escape at line 1 column 1583 [type=json_invalid, input_value='{\"relevant\": true, \"prim...anslation_warning\": \"\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  ]
+}

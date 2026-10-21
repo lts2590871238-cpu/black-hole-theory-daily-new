@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.06458",
     "arxiv_id": "2607.06458",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
-    "title_en": "Exact 1D Nonlinear Solutions for Proton-Driven Plasma Wakefields: Benchmarking Against AWAKE Data Envelopes",
-    "abstract_en": "The analytical modeling of a plasma wakefield driven by a relativistic proton beam is an element in optimizing advanced plasma-based acceleration schemes. In this work, we present a 1D nonlinear fluid framework under the quasi-static approximation to describe the wake potential excited by a positively charged proton driver. We examine our model using a two-bunch pump-probe configuration, demonstrating close agreement between the analytical invariants and adaptive numerical integrations. The distinct geometric curvature changes observed at the micro-bunch boundaries are shown to be physical consequences of step-discontinuities in the second derivative of the wake potential across the beam interfaces. Furthermore, by scaling this numerical framework to a train of $N=100$ micro-bunches undergoing seeded self-modulation (SSM), we model the physical parameters of the CERN AWAKE facility ($n_0 = 7.0 \\times 10^{14}\\text{ cm}^{-3}$). Our model replicates the characteristic linear growth envelope and matches the calibrated field envelope boundaries of approximately $\\pm 0.75\\text{ GV/m}$ inferred from the experiment. This piece-wise framework provides a computationally efficient foundation for investigating customized, asymmetric micro-bunch profiles designed to optimize the transformer ratio beyond the fundamental symmetric limit of 2.",
+    "title_en": "Exact 1D Nonlinear Solutions for Proton-Driven Plasma Wakefields",
+    "abstract_en": "We extend the classical 1D nonlinear relativistic plasma wakefield paradigm to evaluate the pristine fluid profiles driven by intense relativistic proton trains under the comoving coordinate approximation. Using an intense two-bunch scheme, our adaptive integration model is validated down to machine precision against exact closed-form cold-fluid invariants, confirming that interface boundary corners represent physical step discontinuities in the second potential derivative. Scaling to an $N=100$ micro-bunch train, we resolve macroscopic phase-accumulation and subsequent nonlinear detuning by deriving a closed-form, parameter-free piecewise analytical envelope expression. This solution successfully maps the initial unattenuated quadratic coherent growth alongside the flat asymptotic horizontal saturation horizon governed by nonlinear energy conservation. Furthermore, the framework analytically evaluates the transient envelope overshoot, tracking its decay onto the saturation boundary via an exact phase-slip integration length scale. Providing immediate, ready macro-envelope bounds, this computationally inexpensive tool eliminates empirical adjustments and yields a robust mathematical baseline designed to guide and accelerate complex, multi-dimensional particle-in-cell (PIC) simulations through rapid parameter space exploration before deploying heavy computational assets. It establishes an efficient foundation to optimize asymmetric, custom-shaped driver profiles required to break the fundamental symmetric transformer ratio limit of 2 to make current particle accelerators more efficient.",
     "authors": [
       "D. Tsiklauri"
     ],
@@ -19,22 +19,22 @@
       "physics.space-ph"
     ],
     "submitted_at": "2026-07-07T16:21:44Z",
-    "updated_at": "2026-08-26T12:51:00Z",
+    "updated_at": "2026-10-20T08:07:05Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2607.06458v2",
-    "pdf_url": "https://arxiv.org/pdf/2607.06458v2",
+    "abs_url": "https://arxiv.org/abs/2607.06458v3",
+    "pdf_url": "https://arxiv.org/pdf/2607.06458v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.06458",
-        "fetched_at": "2026-09-01T01:52:54.677573Z",
-        "url": "https://arxiv.org/abs/2607.06458v2"
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2607.06458v3"
       }
     ],
     "is_demo": false

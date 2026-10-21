@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.19219",
+    "arxiv_id": "2510.19219",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Symmetry-Adapted Eigensolver from Real-Space Sampling of Tensor-Network-Bridged Quantum Circuits",
+    "abstract_en": "We propose a symmetry-adapted eigensolver for strongly correlated systems that separates where the wave function is \\emph{sampled} from where it is \\emph{defined}. The lattice is divided into equal blocks: parallel quantum circuits absorb the entanglement within each block, while a matrix product state (MPS) backbone bridges the blocks and restores global correlations. The resulting real-space amplitude $φ(a_{\\rm real})$ acts only as a sample generator---configurations are drawn from $|φ(a_{\\rm real})|^2$ directly, block by block, without any Markov chain. The variational state itself is defined in a symmetry-adapted basis by two separate rules: the modulus of $ψ(a_{\\rm symm})$ is the square root of the total weight accumulated over the entire equivalence class, $\\widetilde{p}(a_{\\rm symm})=\\sum_{a_{\\rm real}\\in\\{g a_{\\rm repr}\\}}|φ(a_{\\rm real})|^2$, whereas its phase is inherited from the single representative amplitude $φ(a_{\\rm repr})$. The modulus rule is what makes the scheme both exact and cheap: the distribution$\\widetilde{p}(a_{\\rm symm})$ sampled in the symmetric basis is exactly the one induced by the mapping from the real-space distribution $p(a_{\\rm real})$, so every generated configuration is an unbiased sample of $|ψ(a_{\\rm symm})|^2$; the phase rule then fixes the only freedom that remains. Because amplitudes within a class are combined in probability rather than summed with symmetry characters, $ψ$ is \\emph{not} a group projection of the circuit-MPS state; the class-wide aggregation instead supplies long-range, symmetry-enforced entanglement that the MPS never has to carry itself.",
+    "authors": [
+      "Lei Xu",
+      "Ling Wang"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2025-10-22T04:03:40Z",
+    "updated_at": "2026-10-19T13:07:24Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.19219v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.19219v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.19219",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2510.19219v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

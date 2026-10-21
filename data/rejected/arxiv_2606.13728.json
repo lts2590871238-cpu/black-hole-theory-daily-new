@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.13728",
+    "arxiv_id": "2606.13728",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "SPLIT: Loosely-coherent inference of long-inspiral gravitational-wave sources for robustness against modeling and data outliers",
+    "abstract_en": "The Laser Interferometer Space Antenna (LISA) will detect gravitational waves (GWs) from dozens of extreme- and intermediate-mass-ratio inspirals (EMRIs/IMRIs). These sources will stay in-band for months to years, offering extraordinary scientific potential. However, their fully phase-coherent analysis standard in current pipelines imposes stringent waveform accuracy requirements; failing to model the signal over such long durations can result in significant systematic biases. To address this, we formulate a robust Bayesian inference framework that segments the data into blocks, infers each block coherently, and recombines the results using loosely-coherent phase information. By restricting full phase-tracking to much shorter block durations, this approach prevents significant accumulation of phase errors. We implement this methodology in \\textsc{SPLIT} (Segmented Posteriors for Long-Inspiral Templates), a GPU-accelerated Python package. Applying \\textsc{SPLIT} to an environment-rich injection, we demonstrate that while a fully-coherent vacuum-GR analysis incurs a maximum 1D systematic bias of $\\approx 4.8σ$ from the truth, the shorter integration window of our loosely-coherent approach restricts such biases to $\\lesssim 0.5σ$. Overall, despite a fractional loss of optimal signal-to-noise ratio, the substantial improvement in parameter accuracy offered by our method presents a highly advantageous trade-off for LISA and other future GW detectors.",
+    "authors": [
+      "Shubham Kejriwal"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-06-11T09:39:54Z",
+    "updated_at": "2026-10-18T06:51:53Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.13728v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.13728v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.13728",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2606.13728v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

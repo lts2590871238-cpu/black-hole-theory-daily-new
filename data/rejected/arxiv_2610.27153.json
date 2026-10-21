@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27153",
+    "arxiv_id": "2610.27153",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Multipole Technique for the Simulation and Analysis of Gravitational Waveforms from Extreme Mass Ratio Inspirals",
+    "abstract_en": "We introduce EMRICode, a Python-based numerical framework for evolving generic extreme mass-ratio inspirals (EMRIs) in Kerr spacetime. The code combines adaptive numerical integration of test-particle geodesics with a prescribed model for the secular evolution of the orbital constants of motion, allowing eccentric and inclined trajectories to be followed over long inspiral timescales. We focus in particular on the treatment of the Carter constant, whose evolution is not directly determined by the leading-order fluxes for energy and axial angular momentum used in the present model. We investigate several prescriptions for determining its evolution and find that a radial-potential-based prescription provides the most stable behavior among those considered, while also exhibiting a systematic residual bias for nearly planar orbits. We compare the resulting inspirals with established radiation-reaction approximations, including the weak-field treatment of Peters and Kerr-based prescriptions from the literature, and use these comparisons to assess the qualitative behavior and limitations of the implementation. The modular structure of EMRICode allows the radiation-reaction prescription to be replaced independently of the underlying geodesic evolution, providing a framework for incorporating more accurate flux models and additional physical effects. We present two simple examples of how interactions with accretion disks and partial tidal disruptions can drive the evolution of a stellar EMRI orbit. EMRICode therefore provides a flexible computational framework for studying the orbital dynamics of EMRIs and for exploring extensions beyond the idealized vacuum, point-particle approximation.",
+    "authors": [
+      "Courtney McIntosh",
+      "Jeremy Schnittman"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-19T18:45:29Z",
+    "updated_at": "2026-10-19T18:45:29Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.27153v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.27153v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.27153",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2610.27153v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

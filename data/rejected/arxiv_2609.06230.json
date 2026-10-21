@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.06230",
     "arxiv_id": "2609.06230",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
-    "title_en": "Wigner Time: a data-oriented approach to experimental timeline creation for quantum science and technology",
-    "abstract_en": "Precisely timed, multi-device control in atomic, molecular and optical physics is provided by specialized real-time systems, which impose their own terms on the description of the experiment: a program over a global clock, in which every stage boundary is an absolute time computed from everything preceding it. Such descriptions are tightly coupled -- changing one stage affects all later ones -- and are correspondingly hard to reuse, inspect, or move elsewhere. We introduce Wigner Time, a Python package in which the experimental procedure is instead represented as data: a table of timed updates, assembled by composing functions and referred to named points in the experiment rather than to absolute instants. Hardware enters only at a final conversion step, leaving the description readable and back-end agnostic. Wigner Time has run two cold-atom setups for more than two years, where replacing a hand-written real-time program improved the achievable temporal resolution five-fold; the design applies to any domain requiring precise multi-device timing.",
+    "title_en": "Wigner Time: from experimental intent to real-time laboratory control",
+    "abstract_en": "Precisely timed, multi-device control in atomic, molecular and optical physics is provided by specialized real-time systems, which impose their own terms on the description of the experiment: a program over a global clock, in which every stage boundary is an absolute time computed from everything preceding it. Such descriptions are tightly coupled -- changing one stage affects all later ones -- and are correspondingly hard to reuse, inspect, or move elsewhere. We introduce Wigner Time, a Python package in which the experimental procedure is instead represented as data: a table of timed updates, assembled by composing functions and referred to named points in the experiment rather than to absolute instants. Hardware enters only at a final conversion step, leaving the description readable and back-end agnostic. Wigner Time has run two cold-atom setups for more than two years, where taking the computation out of the real-time program improved the achievable temporal resolution five-fold; the design applies to any domain requiring precise multi-device timing.",
     "authors": [
       "T. W. Clark",
       "B. Sárközi",
@@ -24,22 +24,22 @@
       "cond-mat.quant-gas"
     ],
     "submitted_at": "2026-09-05T19:06:20Z",
-    "updated_at": "2026-10-07T00:08:01Z",
+    "updated_at": "2026-10-19T19:41:45Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2609.06230v2",
-    "pdf_url": "https://arxiv.org/pdf/2609.06230v2",
+    "abs_url": "https://arxiv.org/abs/2609.06230v3",
+    "pdf_url": "https://arxiv.org/pdf/2609.06230v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.06230",
-        "fetched_at": "2026-10-13T03:39:50.153730Z",
-        "url": "https://arxiv.org/abs/2609.06230v2"
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2609.06230v3"
       }
     ],
     "is_demo": false

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.25703",
+    "arxiv_id": "2610.25703",
+    "arxiv_version": null,
+    "inspire_id": "3216320",
+    "doi": null,
+    "title_en": "Distributed Phase Tags: A Locality-Preserving Realification Compiler for Misty-State Quantum Programs",
+    "abstract_en": "Complex amplitudes can be simulated over real Hilbert spaces by adjoining a two-dimensional real/imaginary degree of freedom. In a multipartite program, however, one globally shared phase tag is not a locality-preserving program transformation: every party would have to act on the same auxiliary system. We recast the distributed real simulation of multipartite quantum mechanics as a syntax-directed compiler into a real misty-state intermediate language. For $n$ parties we give explicit phase-reference codewords $|0\\rangle_{P_n}$ and $|1\\rangle_{P_n}$ on $n$ local tags and prove that the same real operator $J=XZ$ on any single tag realizes the logical action of multiplication by $i$. If a complex party-local gate is $A=A_R+iA_I$, its real translation is \n\\[ \\widehat A_j=A_R\\otimes I+A_I\\otimes J_j, \\]\n which acts only on party $j$'s data and local phase tag. We prove an intertwining theorem for arbitrary finite party-local pure-state circuits, exact preservation of computational-basis measurement probabilities, preservation of the run-time interaction graph, and one-rebit-per-party overhead. For the canonical three-party GHZ program, the translation lies entirely inside the ordinary black-and-white misty gate fragment: controlled-$J$ replaces the complex phase operation, while the invariant $J_jJ_k|0\\rangle_P=-|0\\rangle_P$ transfers the required branch sign. This yields a short correctness proof for all four promised GHZ inputs and explains the earlier 64-path cancellation calculation at a single logical phase-code boundary. We distinguish this program realification problem from the weaker task of finding any real strategy with the same correlations, and state precisely which parts are known real-Hilbert-space simulation and which parts belong to the misty-language compilation layer developed here.",
+    "authors": [
+      "German, Dan-Adrian",
+      "Newton, Tony"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-20T11:35:30.953522Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216320",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216320",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216320"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

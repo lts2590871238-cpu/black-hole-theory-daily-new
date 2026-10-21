@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.24004",
+    "arxiv_id": "2610.24004",
+    "arxiv_version": null,
+    "inspire_id": "3216199",
+    "doi": null,
+    "title_en": "Transient Heat Conduction on Quantum Hardware: Replicated Temperature-Field Reconstruction and Shot-Count Sensitivity with a Variational Quantum Linear Solver",
+    "abstract_en": "Implicit discretizations of transient heat conduction repeatedly generate sparse linear systems, making diffusion problems a natural test bed for quantum linear solvers. This study evaluates how accurately a variational quantum linear solver (VQLS) recovers the temperature field produced by one backward-Euler step of one-dimensional conduction on IBM quantum hardware. A pre-specified confirmatory experiment compares N=4 interior temperatures encoded on two qubits with N=8 temperatures encoded on three qubits using ten paired hardware blocks; a separately defined N=16, four-qubit extension is evaluated in five independently scheduled exploratory blocks. Local VQLS optimization reduces relative temperature-field error to approximately 10^{-8} for all three cases, establishing an essentially exact ideal reference at this scale. On hardware, mean relative L2 temperature-field error is 8.07% for N=4 and 20.14% for N=8, a paired increase of 12.06 percentage points (95% CI, 10.71-13.42; exact paired sign-flip p=0.001953). The exploratory N=16 mean is 24.75+/-1.84%. A pre-specified N=16 shot-count follow-up then evaluates the same locked circuit at 2,048, 8,192, and 32,768 shots in six independently scheduled blocks. Mean field error remains 23.64%, 24.57%, and 24.37%, respectively; the 32,768-minus-2,048-shot contrast is +0.74 percentage points (95% CI, -0.65 to 2.12; p=0.281). In contrast, ideal multinomial sampling predicts a reduction from 2.68% to 0.75%. Higher shot counts reduce block-to-block variability but do not recover the mean cold-side temperature field. The results show that full-field readout of a strongly nonuniform thermal state is limited by more than ordinary finite-shot sampling under the tested hardware conditions, motivating observable-focused quantum formulations for heat flux, stored energy, and selected temperatures.",
+    "authors": [
+      "Mao, Yijin",
+      "Zhang, Yuwen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-15T00:00:00Z",
+    "updated_at": "2026-10-20T11:35:35.378643Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216199",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216199",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216199"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

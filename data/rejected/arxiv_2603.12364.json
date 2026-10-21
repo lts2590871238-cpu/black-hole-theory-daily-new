@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.12364",
+    "arxiv_id": "2603.12364",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Robustness of Neural Networks for CMB Polarization Foreground Removal",
+    "abstract_en": "The detection of Cosmic Microwave Background primordial $B$-mode polarization would constitute a ``smoking gun\" signal of primordial gravitational waves. However, this measurement requires accurate removal of polarized Galactic foregrounds to avoid systematic biases when estimating the tensor-to-scalar ratio. Methods based on Machine Learning techniques (ML), such as Convolutional Neural Networks (CNNs), have recently been proposed as alternative foreground cleaning techniques, but their applicability to real data relies on their ability to generalize beyond the models assumed during training. In this work, we focus on a variety of foreground models (FMs) used for training and conduct a systematic study of the generalization properties of a CNN-based method. We train various CNN architectures on simulations generated from different Galactic FMs, and test their performance on models not used during the training. By characterizing the statistical properties of the FMs using variance, skewness, and Shannon entropy, we define a statistical complexity hierarchy among them. We show that training on the more complex FMs reduces bias and improves precision when testing on unseen FMs, whereas training on the simplest model could introduce systematic errors. These results evidence that a lack of generalization is a relevant source of systematic uncertainty, and emphasize the importance of understanding the impact of the models assumed during training in ML-based methods before applying them to real data.",
+    "authors": [
+      "Luca Gomez Bachar",
+      "Cora Dvorkin",
+      "Alberto Daniel Supanitsky"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-03-12T18:33:04Z",
+    "updated_at": "2026-10-18T19:35:34Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.12364v3",
+    "pdf_url": "https://arxiv.org/pdf/2603.12364v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.12364",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://arxiv.org/abs/2603.12364v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

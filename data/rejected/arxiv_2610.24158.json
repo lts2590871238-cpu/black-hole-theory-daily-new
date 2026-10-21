@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.24158",
+    "arxiv_id": "2610.24158",
+    "arxiv_version": null,
+    "inspire_id": "3216127",
+    "doi": null,
+    "title_en": "Reusable QUBO-Derived Block-Schur Inverse Factors for Fixed-Operator Finite-Difference PDE Solvers",
+    "abstract_en": "Many simulations of partial differential equations require the repeated solution of linear systems whose matrix remains fixed while the righthand side changes. We present a hybrid offline online framework for this setting. The discretized operator is organized into small coupled blocks and reduced through block Schur complements. Instead of expressing the complete PDE solution as one large binary optimization problem, quadratic unconstrained binary optimization is used only to construct reusable local inverse factors. These factors are computed during an offline stage, decoded and stored, and then reused in an ordinary classical block solve for subsequent righthand sides. The optimizer facing problem size is governed by the local block size and chosen numerical precision, rather than by the dimension of the full spatial grid. We develop the mathematical formulation, analyze the accuracy and resource requirements of the binary representation, and examine the method on representative finite difference PDE problems, including execution of the local optimization stage on quantum optimization hardware. The resulting architecture provides a reusable interface between conventional numerical linear algebra and QUBO based quantum optimization.",
+    "authors": [
+      "Lipaei, Arash Fath",
+      "Müstecaplıoğlu, Özgür E.",
+      "Salehi, Özlem",
+      "Aslan, Selin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-16T00:00:00Z",
+    "updated_at": "2026-10-20T13:14:28.104125Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216127",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216127",
+        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "url": "https://inspirehep.net/literature/3216127"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
