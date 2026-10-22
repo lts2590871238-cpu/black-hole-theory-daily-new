@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27332",
+    "arxiv_id": "2610.27332",
+    "arxiv_version": null,
+    "inspire_id": "3216618",
+    "doi": null,
+    "title_en": "Orchestrating Key Scarcity: Global Capacity Allocation in Hybrid QKD-PQC Networks",
+    "abstract_en": "This article presents a Distributed Key Management System (DKMS) that provisions quantum-safe symmetric encryption keys to applications across a network. To overcome the distance and rate limitations inherent to Quantum Key Distribution (QKD), the architecture adopts a hybrid design: it utilizes multi-hop trusted relays for physical key transport, while applying an end-to-end Post-Quantum Cryptography (PQC) layer to ensure the relayed key material remains strictly protected from intermediate nodes. Because QKD transforms key generation into a scarce physical resource, managing unpredictable application demands poses a critical capacity allocation problem. The core contribution of this work is an SDN-driven control plane that globally orchestrates the network. Rather than relying on vulnerable hop-by-hop capacity reservations, a central controller simultaneously computes optimal filling rates and multipath routing for all per-peer key buffers. This global orchestration ensures that no application is starved and that all key buffers synchronize their filling processes. Evaluated on a Kubernetes-based digital twin across five distinct network topologies, the controller successfully filled all key buffers to capacity in under six minutes. Furthermore, under deliberately excessive demand, the network demonstrated graceful degradation, safely rejecting excess requests through controlled rate-limiting rather than experiencing catastrophic failure.",
+    "authors": [
+      "Rejo, Pablo P.",
+      "Fernández-Veiga, Manuel",
+      "Fernández-Vilas, Ana",
+      "Cajaraville-Aboy, Diego",
+      "Vecino-Peñas, Javier",
+      "Díaz-Redondo, Rebeca P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-21T12:10:04.469206Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216618",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216618",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216618"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

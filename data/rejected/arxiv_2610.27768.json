@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27768",
+    "arxiv_id": "2610.27768",
+    "arxiv_version": null,
+    "inspire_id": "3216847",
+    "doi": null,
+    "title_en": "Bidirectional Path Integral Monte Carlo Simulation of Quantum Circuits",
+    "abstract_en": "We propose an approximate classical algorithm for estimating quantum circuits' transition amplitudes, $\\langle Ψ_f | \\hat{U} | Ψ_0 \\rangle$, based on Monte Carlo sums over bidirectionally sampled Feynman paths. The algorithm generates Feynman paths, i.e., sequences of intermediate computational basis states, by combining information from random walks initiated at both the input and output states, $Ψ_0$ and $Ψ_f$, respectively. It further combines this bidirectional approach with Multiple Importance Sampling, a powerful variance reduction technique that avoids variance peaks caused by divisions by the very low sampling probabilities associated with hard to reach paths. Empirical data demonstrate the superior convergence rate exhibited by the bidirectional algorithm over a unidirectional, forward-only sampling approach. This superiority is due to the effectiveness of the proposed algorithm in finding and weighting paths with non-zero amplitude in an extremely sparse path space. Sum of paths algorithms exhibit very favourable space complexity. Monte Carlo replaces exhaustive enumeration of the exponentially large path space by stochastic sampling, the computational cost being determined by the variance of the estimator. This work demonstrates these two features by presenting results on very large quantum circuits, with up to 4096 qubits.",
+    "authors": [
+      "Santos, Luis Paulo",
+      "Bashford-Rogers, Thomas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-21T12:10:05.904168Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216847",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216847",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216847"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

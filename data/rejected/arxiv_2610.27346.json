@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27346",
+    "arxiv_id": "2610.27346",
+    "arxiv_version": null,
+    "inspire_id": "3216856",
+    "doi": null,
+    "title_en": "Pretraining on boosted boson decays for polarization tagging of hadronic $W$ bosons",
+    "abstract_en": "Longitudinally polarized weak bosons probe the unitarization of vector-boson scattering. At large boosts, longitudinal and transverse $W$ bosons produce jets with the same mass and two-prong structure, distinguished only by the decay angle. Longitudinal bosons are rare: they occur in only 0.3% of $W$+jet events at these large boosts. We ask where the polarization information of a boosted $W$ boson lies and how much a tagger can recover. Requiring both decay quarks within the jet truncates the decay-angle distribution at an edge set by $m/(p_T R)$, which we show bounds any hadronic polarization tagger. Within this acceptance, the decay angle carries essentially all the polarization information of a jet in $W$+jet events. Polarized samples are costly to simulate for vector-boson scattering, so we pretrain a point-edge transformer on $10^7$ unpolarized jets of boosted bosons, top quarks and QCD and test how much it recovers from few labels. Fine-tuned on 783 labeled jets per class with its transformer blocks kept fixed, the network pretrained to classify these jets improves on training from scratch, but generic pretraining on a broad mix of jets and a boosted decision tree on substructure observables do as well. The best taggers recover most, but not all, of the separation the decay angle allows, and student networks with a few hundred times fewer parameters, trained by knowledge distillation, match their teacher. More information lies outside the jet. The production angle, reconstructed with the recoiling jet, improves every tagger. In diboson production and vector-boson scattering at matrix-element level, the production kinematics carry more information than the decay angles of both bosons. Trading the generality of a jet tagger for an event-level tagger trained on the process thus brings significant gains, which measurements of longitudinal vector-boson scattering could exploit.",
+    "authors": [
+      "Bhattacharya, Saptaparna"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-21T06:09:01.180005Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216856",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216856",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216856"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

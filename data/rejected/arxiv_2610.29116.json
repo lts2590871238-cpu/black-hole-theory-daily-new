@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.29116",
+    "arxiv_id": "2610.29116",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "$ν$Gundam: a unified framework for point-redshift and PDF-aware spatial correlation functions",
+    "abstract_en": "Context. Photometric-redshift uncertainties redistribute galaxy pairs along the line of sight (LOS), diluting spatial clustering measurements. Propagating full redshift probability density functions (PDFs) through standard pair-count estimators remains computationally demanding. Aims. We present $ν$Gundam, a unified framework to propagate radial PDFs at the pair-count level while retaining a common interface for exact, compressed, and stochastic projected-clustering calculations. Methods. The code implements four modes: exact empirical-PDF integration, Gaussian-mixture compression, Monte Carlo (MC) sampling, and a quantile-compression method. All modes accumulate pair counts on a resolved ($r_\\mathrm{p},π$) grid, from which $ξ(r_\\mathrm{p},π)$ and $w_\\mathrm{p}(r_\\mathrm{p};Π)$ are reconstructed. We validate these with DESI galaxies and CosmoDC2 mocks. Results. The PDF-aware modes produce nearly indistinguishable LOS redistribution kernels, while point-photo-$z$ estimates discard probabilistic pair information. Radial uncertainty mainly redistributes the clustering signal to larger $π$; the depth required to recover the truth projection scales with the pairwise radial dispersion. For practical settings, MC, quantile, and Gaussian-mixture compression reproduce the exact result with fractional RMS residuals below 5%. Applied to DESI Bright Galaxy Survey samples, MC sampling recovers spectroscopic clustering shapes and relative amplitudes for $r_\\mathrm{p}\\gtrsim0.8\\,h^{-1}\\mathrm{Mpc}$ using sample-dependent recovery depths of ~400 and ~$180\\,h^{-1}\\mathrm{Mpc}$ for red and blue galaxies. Conclusions. Projected clustering with redshift PDFs is a pair-redistribution problem. When propagated consistently, the signal is recovered accurately and efficiently. The integration depth is sample dependent and should be part of the measurement definition rather than a fixed choice.",
+    "authors": [
+      "E. Donoso",
+      "C. A. Lopez Cortez",
+      "U. Sureshkumar",
+      "Mariano J. Domínguez Romero"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-21T02:58:05Z",
+    "updated_at": "2026-10-21T02:58:05Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.29116v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.29116v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.29116",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://arxiv.org/abs/2610.29116v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

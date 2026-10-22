@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2604.18936",
+    "arxiv_id": "2604.18936",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1088/2632-2153/aea39e",
+    "title_en": "Fine-Tuning Small Reasoning Models for Quantum Field Theory",
+    "abstract_en": "Despite the growing application of large language models (LLMs) to theoretical physics, there has been little academic exploration of how domain-specific physics reasoning ability develops during training. To investigate this, we perform the first academic comparison of reinforcement learning and supervised fine-tuning for LLMs on verifiable problem-solving tasks in theoretical physics. Because the open-source verifiable training data required to develop such capabilities is scarce, we built a robust data generation pipeline that can both create synthetic problems and make existing human-authored problems suitable for model training. Selecting quantum field theory (QFT) as our primary domain, we generated over 2,500 synthetic problems alongside a curated collection of human-adapted problems sourced from arXiv and standard pedagogical resources. We conduct both reinforcement learning (RL) and supervised fine-tuning (SFT) experiments, benchmarking performance gains as well as generalization to other physics domains. Although both methods improve over the base model on every dataset, SFT gains are concentrated on in-distribution synthetic tasks, while RL generalizes better, outperforming SFT on the human-adapted datasets and TPBench. We perform an extensive analysis of model chain-of-thought (CoT) reasoning before and after fine-tuning to understand how reasoning errors evolve during RL and SFT. Finally, we publicly release our data pipeline, verifiable QFT training data, and ~200M tokens of QFT reasoning traces.",
+    "authors": [
+      "Nathaniel S. Woodward",
+      "Zhiqi Gao",
+      "Yurii Kvasiuk",
+      "Kendrick M. Smith",
+      "Frederic Sala",
+      "Moritz Münchmeyer"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-04-21T00:21:05Z",
+    "updated_at": "2026-10-20T20:33:23Z",
+    "document_types": [],
+    "journal_ref": "Nathaniel S Woodward et al 2026 Mach. Learn.: Sci. Technol. 7 055029",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2604.18936v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.18936v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2604.18936",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://arxiv.org/abs/2604.18936v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

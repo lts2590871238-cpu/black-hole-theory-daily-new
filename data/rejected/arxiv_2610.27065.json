@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27065",
+    "arxiv_id": "2610.27065",
+    "arxiv_version": null,
+    "inspire_id": "3216750",
+    "doi": null,
+    "title_en": "Polynomial-Time Classical Simulation of BosonSampling under Any Constant-Fraction Photon Loss",
+    "abstract_en": "Understanding how photon loss changes the classical complexity of BosonSampling is central to assessing the robustness of near-term photonic quantum advantage. In this work, we present a polynomial-time classical simulation algorithm for lossy BosonSampling that applies whenever a constant fraction of the input photons survives. We consider the standard fixed-loss model, where $N$ input photons propagate through an $M$-mode interferometer and exactly $N-n$ photons are lost uniformly at random, leaving $n$ surviving photons at the output. For any constant surviving fraction $n/N\\in(0,1)$, the algorithm samples from a distribution within total variation distance $\\varepsilon$ of the fixed-loss BosonSampling distribution with probability at least $1-δ$ over Haar-random interferometers, in time $\\operatorname{poly}(M,N,\\varepsilon^{-1},δ^{-1})$. We further extend the fixed-loss analysis to the uniform-transmission-loss model and obtain analogous polynomial-time simulability for any fixed transmission rate $η\\in(0,1)$. These results substantially extend the known provably simulable regime of $n=O(\\sqrt{\\varepsilon N})$ surviving photons or $η=O(\\sqrt{\\varepsilon/N})$ transmission rate, and demonstrate that even the experimentally relevant linear-survival regime can admit efficient classical simulation under the conditions considered here.",
+    "authors": [
+      "Go, Byeongseon",
+      "Jeong, Hyunseok"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-21T12:24:27.680701Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216750",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216750",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216750"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.27775",
     "arxiv_id": "2610.27775",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3216982",
     "doi": null,
     "title_en": "An improved self-gravity treatment in general relativistic smoothed particle hydrodynamics",
     "abstract_en": "General relativistic smoothed particle hydrodynamics (GRSPH) on a fixed black hole (BH) spacetime is suitable for fluid bodies that are much less massive than the BH, but the self-gravity of the fluid is added as an extra term in the equation of motion. Standard GRSPH implementations add this as a Newtonian source term to the momentum equation, which is no longer valid when the fluid moves at a sizeable fraction of the speed of light, close to the BH. We develop an improved prescription by deriving the weak gravitational field of each fluid element in its local rest frame and transforming it to the global frame where the momentum equation is solved. The resulting force uses rest-frame distances and softening lengths, accounts for the time dilation of the receiving particle, and its motion relative to the source particle. The derivation applies to any weakly self-gravitating flow on a fixed BH background, provided the body is small compared with its distance from the BH. Implemented in a tree-based GRSPH code, the prescription reproduces the self-gravity of a boosted polytrope with a median error below 1\\% up to a Lorentz factor of 2, and keeps a binary of two polytropes stable over ten orbits. As an application, we study tidal disruption events (TDEs) of solar-type stars by supermassive BHs. The treatment of self-gravity shifts the disruption threshold and changes both the remnant core mass and the debris energy distribution. Newtonian self-gravity leaves substantial surviving cores in encounters that our prescription predicts to be nearly complete disruptions.",
@@ -18,23 +18,31 @@
       "astro-ph.HE",
       "gr-qc"
     ],
-    "submitted_at": "2026-10-20T07:40:10Z",
-    "updated_at": "2026-10-20T07:40:10Z",
-    "document_types": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-21T13:01:02.094607Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.27775v1",
     "pdf_url": "https://arxiv.org/pdf/2610.27775v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216982",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.27775",
-        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
         "url": "https://arxiv.org/abs/2610.27775v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3216982",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216982"
       }
     ],
     "is_demo": false

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.26687",
+    "arxiv_id": "2610.26687",
+    "arxiv_version": null,
+    "inspire_id": "3216715",
+    "doi": null,
+    "title_en": "Ground-State Sampling Correspondence between Penalty-Based and Constrained Quantum Annealing",
+    "abstract_en": "Quantum annealing generally samples degenerate ground states with nonuniform probabilities. This unfair sampling depends on how the driver Hamiltonian couples these states near the end of annealing. For combinatorial optimization problems with a cardinality constraint, the penalty method and constrained quantum annealing (CQA) differ in these couplings. The transverse-field driver of the penalty method does not directly couple feasible ground states, whereas the fully connected XY driver of CQA couples pairs of them related by a single spin exchange. We investigate how this difference affects ground-state sampling, using closed-system simulations of random graph bipartitioning instances together with degenerate perturbation theory. For the instances studied, the conditional ground-state distribution of penalty-based quantum annealing approaches that of CQA at sufficiently large penalties and long annealing times. This convergence can be explained by the effective Hamiltonian of penalty-based quantum annealing, in which virtual single-spin flips to infeasible states generate a second-order interaction proportional to the CQA driver projected onto the feasible ground-state manifold, which is the leading term of the effective Hamiltonian of CQA. In the numerical simulations, the Jensen--Shannon divergence between the conditional ground-state distributions of penalty-based quantum annealing and CQA decreases approximately as the inverse square of the penalty-to-objective energy ratio, consistent with the perturbative analysis. This correspondence between the effective Hamiltonians extends to equal-weight fixed-magnetization constraints under the same perturbative conditions, providing a common mechanism for sampling bias in the two implementations.",
+    "authors": [
+      "Ide, Shunta",
+      "Tanaka, Shu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-21T12:10:02.415533Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216715",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3216715",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216715"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.24354",
+    "arxiv_id": "2610.24354",
+    "arxiv_version": 1,
+    "inspire_id": "3217027",
+    "doi": null,
+    "title_en": "Adaptive Model-Switch Thermodynamic Integration: A Bayes Factor Estimator",
+    "abstract_en": "Bayes factors are a widely used model comparison criterion, but are often quite challenging and computationally expensive to estimate well. We propose a variation of the model-switch thermodynamic integration method for estimating Bayes factors that decreases the variance of the estimator and essentially eliminates integration error. We choose samples whose density in $β$ is proportional to the standard deviation of previously drawn samples. Rather than averaging many samples at each $β$, we use a very dense set of $β$ values, collecting one sample at each in order of increasing $β$ and one sample at each in order of decreasing $β$ to minimize \"thermic lag\". We study our procedure with a toy model (based loosely on some signal recovery problems). In this model we find that adaptive sampling gives us a 2.7-fold decrease in the spread of the estimated Bayes factor. We test our procedure both drawing directly from the posterior distribution and using a Markov Chain Monte Carlo sampler.",
+    "authors": [
+      "Amanda Malnati",
+      "Megan Kralj",
+      "Ken D. Olum"
+    ],
+    "categories": [
+      "stat.ME",
+      "astro-ph.HE",
+      "physics.data-an"
+    ],
+    "submitted_at": "2026-10-17T00:00:00Z",
+    "updated_at": "2026-10-21T13:03:14.317460Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.24354v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.24354v1",
+    "inspire_url": "https://inspirehep.net/literature/3217027",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.24354",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://arxiv.org/abs/2610.24354v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3217027",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3217027"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

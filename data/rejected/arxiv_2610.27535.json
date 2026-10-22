@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27535",
+    "arxiv_id": "2610.27535",
+    "arxiv_version": null,
+    "inspire_id": "3217009",
+    "doi": null,
+    "title_en": "Ultra-Fast 4H-SiC AC-LGAD for 4D Tracking Applications",
+    "abstract_en": "4H-SiC low gain avalanche detectors (LGADs) combine internal gain with the high carrier saturation drift velocity, thermal stability, and low leakage current of SiC. AC-coupled readout (AC-LGAD) adds position information to the precise timing, which enables 4D tracking. This work reports the first experimental demonstration of a 4H-SiC AC-LGAD. Devices with a $1.0\\times1.0$~mm$^2$ active area and a $2\\times2$ array of AC-coupled pads at a pitch of 500~$μ$m were fabricated with two gain-layer doping concentrations, $4\\times10^{17}$ and $5\\times10^{17}$~cm$^{-3}$, and characterized with a 375~nm ultraviolet transient current technique (UV-TCT) scanning setup. The hit position and time were reconstructed with the conventional discretized positioning circuit (DPC) and constant fraction discrimination (CFD) methods. They were also reconstructed with a transformer-based neural network, which processes the full waveforms of the four pads through a shared encoder and formulates timing as a per-sample segmentation task. With DPC and CFD, the best position and time resolutions are about 10~$μ$m and 20~ps. The neural network mitigates the nonlinear distortions near the device edges and improves the position resolution to below 5~$μ$m and the time resolution to about 15~ps, improvements of more than 60% and 30%, respectively. The higher-doped device reaches a high signal-to-noise ratio at lower bias and keeps good performance at low laser intensities. These results demonstrate the potential of 4H-SiC AC-LGADs for 4D tracking in future collider experiments.",
+    "authors": [
+      "Yang, Tao",
+      "Yang, Chengxi",
+      "Sekely, Ben J.",
+      "Satapathy, Yashas",
+      "Tishelman-Charny, Abraham",
+      "Allion, Greg",
+      "Atar, Gil",
+      "Barletta, Philip",
+      "Giacomini, Gabriele",
+      "Haber, Carl",
+      "Holland, Steve",
+      "Muth, John F.",
+      "Pavlidis, Spyridon",
+      "Wang, Haichen",
+      "Stucci, Stefania"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-21T12:10:32.620008Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217009",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217009",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3217009"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

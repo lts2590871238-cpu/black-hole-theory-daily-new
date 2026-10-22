@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.27085",
     "arxiv_id": "2610.27085",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3216782",
     "doi": null,
     "title_en": "Modular Bayesian Inference for Partially Misspecified Mixtures with Uncertain Class Labels",
     "abstract_en": "Scientific inference often involves observations from multiple latent populations whose class memberships are uncertain and must be inferred from available data. While full Bayesian mixture modelling provides a principled approach to joint uncertainty quantification in this setting, often the model is misspecified or less trustworthy for populations that are not the target of the inference, which can distort posterior inference for the parameters of interest. We propose a modular Bayesian framework that safeguards against such biases. We decouple classification from downstream inference using fixed class probabilities, for example from a classifier trained on a subset of labelled data. We then protect inference on the parameters of interest by preventing the likelihood contributions of less trustworthy populations from influencing them. A key benefit of this principled modularization is that it greatly simplifies inference, reducing a fully joint mixture analysis to sampling label allocations, fitting the protected downstream model for each sample, and averaging the resulting posteriors. We establish calibration conditions on these class probabilities under which the proposed procedure preserves the inferential target of the analysis with known labels, and demonstrate the method in synthetic experiments and in cosmological analysis of photometric supernova samples.",
@@ -20,23 +20,31 @@
       "astro-ph.CO",
       "stat.ML"
     ],
-    "submitted_at": "2026-10-19T18:00:05Z",
-    "updated_at": "2026-10-19T18:00:05Z",
-    "document_types": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-21T13:03:08.425825Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.27085v1",
     "pdf_url": "https://arxiv.org/pdf/2610.27085v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3216782",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.27085",
-        "fetched_at": "2026-10-21T01:43:25.036650Z",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
         "url": "https://arxiv.org/abs/2610.27085v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3216782",
+        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "url": "https://inspirehep.net/literature/3216782"
       }
     ],
     "is_demo": false
