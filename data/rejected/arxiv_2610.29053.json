@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.29053",
+    "arxiv_id": "2610.29053",
+    "arxiv_version": null,
+    "inspire_id": "3217517",
+    "doi": null,
+    "title_en": "Symmetry-Oriented Testing Framework for Variational Quantum Algorithms",
+    "abstract_en": "Testing quantum software is challenging because quantum states cannot be directly inspected. Variational quantum algorithms (VQAs) are a particularly important target as they are among the most promising approaches for near-term noisy quantum hardware. Many testing methods rely on classically computed results, which conflicts with the regime where quantum advantage is expected. Although prior studies mitigate this oracle problem, the core difficulty remains that existing approaches do not verify whether the execution deviates from the intended problem or whether the obtained solution is physically plausible. We propose a symmetry-oriented testing framework for VQAs that addresses this gap by using operators commuting with the target Hamiltonian as test specifications. The framework provides two complementary diagnostics: a commutator-based health check that monitors whether each execution step during optimization remains consistent with the symmetry of the target Hamiltonian, and a variance-based acceptance check that assesses the converged solution by examining whether the state is an eigenstate of the symmetry operators. Both diagnostics derive from the problem structure and do not require the exact solution. We evaluate the framework on representative user- and system-side faults, across multiple target systems, and under injected noise. Results show that the two diagnostics detect faulty behavior, provide informative signals of solution quality, and remain useful under noisy execution.",
+    "authors": [
+      "Yamaguchi, Masaomi",
+      "Ishikawa, Fuyuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-22T13:09:18.500499Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217517",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217517",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217517"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

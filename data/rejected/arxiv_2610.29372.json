@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.29372",
+    "arxiv_id": "2610.29372",
+    "arxiv_version": null,
+    "inspire_id": "3217350",
+    "doi": null,
+    "title_en": "Quantum Simulation of Non-Markovian Open Quantum Systems via Low-Rank Kernel Compression and Coupling Dilution",
+    "abstract_en": "We present an error-controlled framework for the quantum simulation of non-Markovian open-system dynamics in Gaussian environments. For a system coupled linearly to a Gaussian environment with zero mean, the bath's influence on the reduced dynamics is completely determined by its two-time correlation kernel. This allows us to replace the microscopic environment with an equivalent bath that has the same kernel. On a finite simulation interval, a rank-$N$ approximation of the kernel yields an effective bath of $N$ bosonic modes with time-dependent couplings to the system. To encode these modes in qubits, we first truncate each mode to its lowest $d$ occupation levels. When stronger couplings lead to large occupations, we introduce coupling dilution, which replaces each mode with several more weakly coupled copies while preserving the bath correlation kernel. This distributes excitations across more modes and trades additional modes for smaller local dimensions. We derive explicit reduced-state error bounds and establish polynomial circuit width and depth in simulation time and inverse accuracy under stated spectral-decay and coupling-regularity assumptions, provided elementary unitaries admit polynomial-cost implementations.",
+    "authors": [
+      "Chen, Hengzhun",
+      "Cai, Zhenning"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-22T11:55:06.794126Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217350",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217350",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217350"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

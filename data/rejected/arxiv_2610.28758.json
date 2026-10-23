@@ -3,39 +3,36 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.28758",
     "arxiv_id": "2610.28758",
-    "arxiv_version": 1,
-    "inspire_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3217288",
     "doi": null,
     "title_en": "PIANISTpy: A JAX-based Python package for velocity-anisotropic astrophysical equilibrium models",
     "abstract_en": "The hierarchical assembly of dark matter haloes and galaxies via mergers and anisotropic mass accretion naturally imprints non-trivial velocity anisotropy onto haloes and galaxies, an empirical fact emerging from cosmological simulations. However, dynamical studies based on idealised numerical simulations typically assume isotropic velocity distributions for the systems studied. This is mainly because no tools exist to construct anisotropic initial conditions with fully self-consistent (i.e., physical and instability-free) truncation boundary conditions for finite spatial extents. Here we present the first such analytical framework that performs truncation in phase space, with two distinct approaches to guarantee either the monotonicity of output distribution functions or identical truncated density profiles. We additionally present the open-source JAX-based GPU-accelerated Python package PIANISTpy (Particle Initial conditions with ANISoTropy) for constructing spherical, non-rotating initial conditions, supporting arbitrary double-power-law analytical radial density profiles and a library of analytical anisotropy profiles. This framework further permits the construction of systems with non-analytical anisotropy profiles via an arbitrary linear superposition of all implemented analytical anisotropy models as basis functions. PIANISTpy also outputs 3D velocity profiles and line-of-sight-integrated observables with end-to-end differentiability for rapid gradient-based Monte Carlo inference, and self-consistent local dark matter velocity distributions of anisotropic haloes beyond the unphysical Maxwell-Boltzmann simplification adopted in terrestrial detection experiments. We discuss use cases and demonstrate PIANISTpy's orders-of-magnitude higher numerical solver accuracy and superior dynamical stability of particle initial conditions relative to existing tools, including galpy and AGAMA.",
     "authors": [
-      "Barry T. Chiang",
-      "Frank C. van den Bosch",
-      "Hsi-Yu Schive"
+      "Chiang, Barry T.",
+      "van den Bosch, Frank C.",
+      "Schive, Hsi-Yu"
     ],
-    "categories": [
-      "astro-ph.GA",
-      "astro-ph.CO",
-      "astro-ph.IM",
-      "hep-ph"
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-22T12:31:16.861830Z",
+    "document_types": [
+      "article"
     ],
-    "submitted_at": "2026-10-20T18:03:02Z",
-    "updated_at": "2026-10-20T18:03:02Z",
-    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2610.28758v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.28758v1",
-    "inspire_url": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217288",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2610.28758",
-        "fetched_at": "2026-10-22T01:38:12.527686Z",
-        "url": "https://arxiv.org/abs/2610.28758v1"
+        "source": "inspire",
+        "record_id": "3217288",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217288"
       }
     ],
     "is_demo": false

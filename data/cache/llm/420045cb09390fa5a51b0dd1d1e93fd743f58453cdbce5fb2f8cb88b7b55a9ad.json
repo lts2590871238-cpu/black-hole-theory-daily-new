@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "black_hole_thermodynamics",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 16,
+    "novelty": 12,
+    "clarity": 7,
+    "metadata_quality": 5,
+    "community_signal": 1,
+    "other": 6
+  },
+  "total_score": 73,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文在球对称下以几何优先方式处理陷获区与引力熵，针对f(R)引力构造了熵分辨的层级与输运律，强调纵向标量子二阶导消去、横向导数全部抵消，并明确物质正性与几何聚焦的分离。问题设定清晰、理论分析具体，涉及黑洞热力学与引力熵核心议题，值得进一步阅读。",
+  "title_zh": "修正引力中陷获区逃逸的局部阻碍",
+  "abstract_zh": "修正引力中的能量条件通常被施加在一个“有效”应力张量上，该张量将物理物质与额外的引力自由度混合在一起，从而模糊了究竟是哪一个扇区实际控制零测地线的聚焦、视界的多重性以及陷获区的消失。我们在球对称情形下发展了一种几何优先的替代方案。对于一对归一化的未来指向径向零矢量，两个纵向Ricci投影和一个独立的横向Einstein投影满足精确的面积加权输运定律。由此可推出一个陷获持续性定理：在一个非退化的未来外边缘球面之后，只要入射纵向和横向会聚通道保持非负，一个正则的入射生成元就无法逃出陷获区。在度规$f(R)$引力中，当$F\\equiv df/dR>0$时，我们进而基于局部Wald密度变量$Fr^2$构造了一个熵分辨的层级结构。在纵向熵聚焦定律中，标量子的二阶导数精确抵消，只留下一个非正标量梯度平方项以及物理物质的投影；在独立的横向熵输运定律中，所有标量子导数项均抵消。因此，熵陷获由物理物质条件$T_{nn}\\geq 0$以及一个代数混合阈值所支配，而不是由一个虚构的有效流体支配。由此得到的层级结构清晰地区分了物质正性、几何聚焦、边缘球面恢复以及引力熵演化，并识别出为实现正则内视界、喉部以及从陷获到反陷获转变所需的精确局部反转。",
+  "keywords_en": [
+    "modified gravity",
+    "trapped regions",
+    "energy conditions",
+    "null focusing",
+    "f(R) gravity",
+    "Wald entropy",
+    "black hole horizons",
+    "spherical symmetry"
+  ],
+  "keywords_zh": [
+    "修正引力",
+    "陷获区",
+    "能量条件",
+    "零测地线聚焦",
+    "f(R)引力",
+    "Wald熵",
+    "黑洞视界",
+    "球对称"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-23T01:43:25.287364Z"
+}

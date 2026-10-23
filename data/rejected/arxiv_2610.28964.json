@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.28964",
+    "arxiv_id": "2610.28964",
+    "arxiv_version": null,
+    "inspire_id": "3217208",
+    "doi": null,
+    "title_en": "Can Quantum Layers offer Performance and Security Advantages in Vision-Language Models?",
+    "abstract_en": "As quantum computing moves from the noisy intermediate-scale quantum (NISQ) era toward early fault-tolerant quantum computing (EFTQC), quantum-enhanced AI is shifting from a conceptual idea to experimental research. Quantum components are expected to extend the capabilities of existing AI systems, yet it remains unclear how such components will help within large multimodal models. In this study, we try to answer that question for vision-language models (VLMs) using classically simulated quantum layers. With LLaVA-OneVision as the backbone, we evaluate 4- and 8-qubit basic-ring and strongly entangling circuits at four insertion and four replacement locations. Insertion adds quantum layers to the classical model, while replacement substitutes them for classical components. Using the same setup, we compare performance and computational cost between classical and quantum-classical hybrid models. On the Visual Spatial Reasoning dataset, inserting a quantum layer after the visual projector reaches 80.7% development accuracy, 2.28 percentage-points above classical full fine-tuning. Replacing the final decoder feed-forward sublayer retains 79.22% accuracy with 13.07 million fewer trainable parameters. Quantum insertion can thus improve accuracy, and selective replacement can reduce parameters. These benefits depend strongly on where the quantum layer is inserted or which classical component it replaces: earlier replacements lower accuracy, and fewer parameters do not reliably shorten training or reduce computation. To assess potential security benefits, we evaluated the robustness of quantum-classical hybrid models under six attack settings. Overall, our study maps where quantum layers help and hurt within VLMs, offering a starting point for hybrid VLM design; whether these gains generalize remains open. The code is available at https://github.com/TITANS-Lab-Artifacts/QuantumVLM.",
+    "authors": [
+      "Syfullah, Md Khalid",
+      "Khalil, Alvi Ataur"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-22T11:46:17.850817Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217208",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217208",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217208"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

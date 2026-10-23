@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.28993",
+    "arxiv_id": "2610.28993",
+    "arxiv_version": null,
+    "inspire_id": "3217333",
+    "doi": null,
+    "title_en": "Digital Quantum Simulation of Dynamics in Interacting Fields",
+    "abstract_en": "Matter under extreme conditions behaves as a non-equilibrium, strongly-interacting quantum system. Such systems are in the non-perturbative regime of quantum chromodynamics (QCD), where their time evolution is classically intractable. Quantum computing offers a promising alternative, but present-day devices are limited in qubit count and circuit depth, so efficient formulations and algorithms are key to scaling toward experimentally relevant QCD simulations. A scalable framework is established for simulating energy loss and hadronization in 1+1-dimensional SU(2) lattice gauge theory, in which a heavy quark traverses a lattice of light quarks. Classical lattice QCD methods are translated into physics-informed circuits to prepare the interacting ground state. The evolution is run on IBM's quantum processor ibm_pittsburgh, where the charge distribution and energy loss are measured. A further study develops the quantum simulation of the fully gauge-fixed SU(2) Hamiltonian in a mixed basis, a formulation that is expected to remain efficient at all gauge couplings. Digitizing the continuous gauge fields with as few as three qubits per plaquette reproduces low-energy observables with $10^{-3}$ precision. Scaling to larger systems is limited by resource overhead, which motivates truncations that preserve the relevant observables. Sequency Hierarchy Truncation (SeqHT) exploits the hierarchy in basis-operator contributions. Demonstrated on the adiabatic preparation of the $λϕ^4$ ground state on ibm_sherbrooke, SeqHT reduces circuit depth by ~30%, suppressing hardware noise in the extracted observables. All simulations in this dissertation are validated on quantum hardware against classical benchmarks. These studies advance quantum simulations of real-time QCD dynamics.",
+    "authors": [
+      "Li, Zhiyao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-22T15:18:05.863633Z",
+    "document_types": [
+      "thesis"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217333",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217333",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217333"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

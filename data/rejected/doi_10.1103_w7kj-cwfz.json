@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/w7kj-cwfz",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3217884",
+    "doi": "10.1103/w7kj-cwfz",
+    "title_en": "Quantum architecture generation via predictor-guided diffusion models",
+    "abstract_en": "The performance of variational quantum algorithms (VQAs) critically depends on the architecture of parametrized quantum circuits (PQCs), yet manually designing effective circuits remains challenging due to the exponentially large design space. Conventional quantum architecture search methods address this challenge but are fundamentally constrained by predefined search spaces and expensive evaluate-and-select loops, limiting both the efficiency and novelty of discovered circuits. We propose quantum architecture diffusion (QADiff), a predictor-guided, score-based diffusion framework that shifts from searching fixed catalogs to learning generative priors over PQC structures. By representing quantum circuits as directed acyclic graphs, we train an unconditional diffusion model to capture circuit distributions alongside a graph-based performance predictor that estimates task-specific performance directly from structure. During generation, predictor gradients guide the reverse diffusion process toward high-performing regions, eliminating exhaustive candidate screening while enabling generations of architectures beyond the training distribution. We evaluate QADiff on four benchmarks: binary classification on the Wisconsin Diagnostic Breast Cancer (WDBC) and Fashion-MNIST datasets using variational quantum classifiers, and ground-state energy estimation for the transverse-field Ising model (TFIM) and Heisenberg model using variational quantum eigensolvers (VQEs) under IBM hardware topologies. QADiff achieves a mean accuracy of 92.44% across the top-30 discovered architectures on WDBC, with even its worst-performing selected circuit (91.01%) exceeding the mean accuracy of every baseline, and discovers VQE circuits achieving mean energies of −8.257 on the seven-qubit TFIM and −8.381 on the five-qubit Heisenberg model, outperforming all baselines with statistical significance across all tasks. On WDBC, at equal predictor-training budget, QADiff requires fewer than 1% of the query-time circuit evaluations needed by search-based methods, and maintains substantial efficiency advantages across all four benchmarks. Physical analysis of Heisenberg circuits reveals that predictor guidance discovers shallower architectures with fewer two-qubit gates while maintaining comparable global entanglement, suggesting that the guidance signal promotes efficient gate arrangement rather than simply maximizing circuit complexity. Generated circuits exhibit 100% novelty on WDBC, containing structural motifs entirely absent from the circuit pool. These results suggest that predictor-guided diffusion is a promising direction for sample-efficient, generative PQC design across VQAs.",
+    "authors": [
+      "Dai, Jiawen",
+      "Gu, Jialiang",
+      "Ho, Raymond",
+      "Man, Gary Man-Tat",
+      "Chui, Kwok Tai",
+      "Hung, Kevin",
+      "Meng, Fanxu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-22T17:02:26.436289Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 042620, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 4, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217884",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217884",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217884"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.28678",
+    "arxiv_id": "2610.28678",
+    "arxiv_version": null,
+    "inspire_id": "3217204",
+    "doi": null,
+    "title_en": "Benchmarking the Quantum Leap: Auditing LLM Evaluation for Quantum Code Generation",
+    "abstract_en": "Large language models (LLMs) can generate quantum programs, but reliable evaluation remains difficult because benchmarks differ in task composition, scoring, and failure handling. We evaluate 15 hosted frontier, open-weight, quantum-specialized, and retrieval-augmented models on five quantum code-generation suites (530 tasks), plus 10 models on our new QuantumBenchEval (QBE) benchmark (96 tasks across six topics). We report bootstrap confidence intervals, multiplicity-adjusted paired comparisons, and audits of output validity and evaluator behavior. QiskitHumanEval-Standard approaches saturation (98.7% pass@1), while its Hard variant retains headroom (63.8%). None of the five top-two comparisons across primary suites remains significant after multiple-comparison correction. Evaluator design substantially changes scores: removing checks for unspecified quantities raises GPT-6 Astra's QBE pass@1 from 0% to 94.1% (T1) and from 1.2% to 92.9% (T6), without changing model outputs. We identify 17 QuanBench-117 tasks with shared failures linked to benchmark-owned imports. Controlled probes also reveal unexecuted unit tests, leakage of canonical functions into candidate execution, and reference imports that block otherwise valid candidates. These defects can produce both false failures and false passes, so historical QuanBench results require revalidation under an isolated evaluator. Overall, leaderboard scores alone do not adequately characterize progress in quantum code generation. We release our harness, per-sample results, and audit artifacts and recommend validating evaluators, isolating candidate code, and reporting uncertainty and output validity.",
+    "authors": [
+      "Seefried, Ethan",
+      "Ghosh, Romit",
+      "Afrose, Sharmin",
+      "Stapleton, Nicholas",
+      "Ortega, Vicente Layton",
+      "Humble, Travis",
+      "Ghosal, Tirthankar"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-19T00:00:00Z",
+    "updated_at": "2026-10-22T11:55:16.998643Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217204",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217204",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217204"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.28748",
+    "arxiv_id": "2610.28748",
+    "arxiv_version": null,
+    "inspire_id": "3217241",
+    "doi": null,
+    "title_en": "CoDecoder: Make Quantum Decoders Up to 100x Faster and Even More Accurate",
+    "abstract_en": "Fault-tolerant quantum computers need fast and accurate error decoding. We present CoDecoder, a small neural frontend that composes with an existing decoder to improve accuracy and reduce mean decoding time. It predicts each shot's logical outcome, retains confident predictions and routes the remaining shots to the unchanged fallback. A logical-operator-aware output head scores shifted logical operators, combining equivalent logical lines on surface codes and deciding logical qubits jointly on bivariate-bicycle (BB) codes. Fused GPU inference and efficient routing reduce the overhead paid on every shot. In registered tests under circuit-level noise, composition reduces failures by 6.4-31.4% relative to correlated matching on surface codes of distance 7-17 and by 22-50% relative to full-DEM Relay-BP on two BB codes, with 2.3-124-fold speed-ups across these comparisons. With our re-implementations of the neural decoder Cascade, composition reduces decoding time in all four settings. A joint decision of both decoders on the routed shots keeps this speed and makes the composition more accurate than Cascade in all four, with 14-18% fewer failures on the [[72,12,6]] code. On the [[72,12,6]] BB code, a conventional head with independent logical outputs fails 3.8-5.0 times as often as our joint class score under matched training conditions. Per-shot analysis shows how composition gains accuracy. On retained shots, the frontend corrects more fallback errors than it introduces, even when it is less accurate overall.",
+    "authors": [
+      "Guang, Yicheng",
+      "Xiong, Yuliang",
+      "Gao, Xun",
+      "Chen, Yueqi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-22T11:46:53.064973Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217241",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217241",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217241"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -3,22 +3,20 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.26619",
     "arxiv_id": "2610.26619",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3216722",
     "doi": null,
     "title_en": "GPU-accelerated Bayesian inference for diffracted gravitational wave signals",
     "abstract_en": "As the rate of gravitational wave detections continues to grow, the probability of observing a gravitationally lensed gravitational wave also increases. When the Schwarzschild radius of the lens is comparable in size to the gravitational wave wavelength, wave-optics effects induce a frequency- dependent modulation on the signal. CPU-based parameter estimation analyses for wave-optics lensing are computationally intensive, limiting the scale of studies to determine the significance of any potential lensing candidate. In this work, we implement a point-mass lens model in Jim, a high-performance GPU-based parameter estimation pipeline. This enables, for the first time, GPU-accelerated Bayesian inference in full-wave optics, including the computation of Bayes factors, without the need for training data. We call this framework Jim-lensing. Using this framework, we are able to speed up a full parameter estimation run under the point-mass lens hypothesis from more than 10 hours to the order of 10 minutes compared to the current state-of-the-art CPU-based pipeline. We show that our implementation is stable and obtains comparable results to this state-of- the-art pipeline. The substantial speed gain over existing CPU pipelines paves the way for analyzing gravitational wave data under a broader range of lensing models with greater capacity to produce robust frequentist significance estimates.",
     "authors": [
-      "Zihao Lin",
-      "Jef Heynen",
-      "Mick Wright",
-      "Thomas C. K. Ng",
-      "Chris Van Den Broeck",
-      "Justin Janquart"
+      "Lin, Zihao",
+      "Heynen, Jef",
+      "Wright, Mick",
+      "Ng, Thomas C.K.",
+      "Van Den Broeck, Chris",
+      "Janquart, Justin"
     ],
-    "categories": [
-      "gr-qc"
-    ],
+    "categories": [],
     "submitted_at": "2026-10-19T00:00:00Z",
     "updated_at": "2026-10-21T12:10:50.660179Z",
     "document_types": [
@@ -28,21 +26,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2610.26619v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.26619v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3216722",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2610.26619",
-        "fetched_at": "2026-10-22T01:38:12.527686Z",
-        "url": "https://arxiv.org/abs/2610.26619v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3216722",
-        "fetched_at": "2026-10-22T01:38:12.527686Z",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
         "url": "https://inspirehep.net/literature/3216722"
       }
     ],

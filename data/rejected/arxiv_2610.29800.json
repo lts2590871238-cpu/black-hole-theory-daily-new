@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.29800",
+    "arxiv_id": "2610.29800",
+    "arxiv_version": null,
+    "inspire_id": "3217406",
+    "doi": null,
+    "title_en": "SpinOctopus: A Versatile, User-Friendly, and Extensible Public Code for General-Relativistic Ray-Tracing in axisymmetric spacetime",
+    "abstract_en": "Relativistic ray-tracing algorithms serve as indispensable numerical tools for investigating gravitational theories and high-energy astrophysics. In this paper, we develop and release SpinOctopus, a versatile relativistic ray-tracing code tailored for arbitrary axisymmetric spacetimes, powered by a Fortran/Python hybrid architecture and OpenMP multi-threading acceleration. This numerical toolkit is capable of simulating timelike orbits and their corresponding light curves, null geodesics, as well as black hole images illuminated by a wide array of phenomenological sources, including geometrically thin and thick accretion disks, geometrically thin tilted disks, relativistic jets, spherically symmetric accretion flows, and point sources. To execute these tasks, users are solely required to specify the covariant metric tensor of the target spacetime and the simulation parameters within a dedicated configuration file. Benefiting from our customized adaptive step-size strategy for geodesic integration, SpinOctopus achieves an impressive processing efficiency of $\\sim 800$ rays per second per thread on an Intel Core i7-14700 platform when simulating geometrically thick accretion disk images. Furthermore, the code provides transparent interfaces, allowing users to seamlessly modify the geometric and kinematic properties of the light sources. Additional capabilities, such as simulating Fe K$α$ fluorescent line profiles and geometrically thick tilted accretion disk images, will be introduced in future releases of the framework.",
+    "authors": [
+      "Hu, Shiyang",
+      "Li, Dan",
+      "Deng, Chen",
+      "Zhang, Lina",
+      "Cao, Wenfu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-22T12:30:55.039879Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217406",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217406",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217406"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

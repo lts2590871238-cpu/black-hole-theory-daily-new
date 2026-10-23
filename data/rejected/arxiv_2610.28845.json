@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.28845",
+    "arxiv_id": "2610.28845",
+    "arxiv_version": null,
+    "inspire_id": "3217272",
+    "doi": null,
+    "title_en": "Pushing beyond the memory barrier in propagation algorithms with randomization",
+    "abstract_en": "Performant classical tools for simulating quantum circuits are important for benchmarking and supporting upcoming quantum devices. Pauli propagation offers promising capabilities, but deep circuits usually cause a rapid growth in the number of Pauli strings and can quickly exhaust the available memory. In this work, we introduce a randomized protocol that combines a specialized resampling schedule, merging, and a controlled amount of bias to keep the propagating Pauli sum within any prescribed memory budget. Additional computational resources can then be spent on embarrassingly parallel repetitions that systematically improve the estimate. Building on the open-source library PauliPropagation.jl, we show that 1) increasing memory of each simulation reduces the error systematically more than outside averaging, 2) resampling just enough to apply the next gate delays variance accumulation and gives better error-per-time trade-offs than more aggressive resampling, and 3) a small, controlled bias is crucial in cutting down variance and pushing far beyond unbiased randomization. The resulting framework can reproduce deterministic calculations while requiring several orders of magnitude less memory.",
+    "authors": [
+      "Rudolph, Manuel S.",
+      "Puig, Ricard",
+      "Thabet, Slimane",
+      "Holmes, Zoë"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-22T11:46:56.201747Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3217272",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3217272",
+        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "url": "https://inspirehep.net/literature/3217272"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
