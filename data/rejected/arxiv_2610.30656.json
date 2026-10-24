@@ -1,0 +1,79 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.30656",
+    "arxiv_id": "2610.30656",
+    "arxiv_version": 1,
+    "inspire_id": "3218059",
+    "doi": null,
+    "title_en": "Photometric classification and out-of-taxonomy detection of ZTF transients with FLARE",
+    "abstract_en": "Photometric classifiers decide which of the million nightly alerts of time-domain surveys receive one of the few thousand spectra taken each year, and they are the first place where a transient outside the trained classes can be noticed. We present flare, the photometric classification and anomaly-detection module of AppleCiDEr, evaluated on 10 497 spectroscopically confirmed ZTF transients in six classes and 53 objects from families outside the taxonomy. Catalogue context raises the macro F1 score, with the largest gains where the defining information is absent from the light curve. Blind detection recovers few out-of-taxonomy objects at a 1% false-alarm rate, while a simulated review loop recovers 83% of them after inspecting 15% of the stream. The first confirmations of a new family are most useful in the feature space: with the same eleven labels, a head on the frozen features detects 68% of the tidal disruption events hidden from the training against 57% for a combiner over the anomaly scores, and retraining with them as a new class reaches 85%. The module runs in production on Fritz, the ZTF instance of SkyPortal, and its alarm is reported as a false-alarm rate per unit time on the stream, calibrated on the photometry that the service receives",
+    "authors": [
+      "Argyro Sasli",
+      "Felipe Fontinele Nunes",
+      "Xuanrui Zhang",
+      "Dimitrios Kourtesis",
+      "Saina Nikmehr",
+      "Alexandra Junell",
+      "Jesper Sollerman",
+      "Antoine Le Calloch",
+      "Sushant Sharma Chaudhary",
+      "Sneha Maharjan",
+      "Maojie Xu",
+      "Avyukt Raghuvanshi",
+      "Steven L. Groom",
+      "Joahan Castaneda Jaimes",
+      "Josiah Purdum",
+      "Roger Smith",
+      "Mansi M. Kasliwal",
+      "Matthew J. Graham",
+      "Ashish A. Mahabal",
+      "Michael Coughlin"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-10-22T00:00:00Z",
+    "updated_at": "2026-10-23T09:52:08.945716Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.30656v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.30656v1",
+    "inspire_url": "https://inspirehep.net/literature/3218059",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.30656",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.30656v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3218059",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://inspirehep.net/literature/3218059"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

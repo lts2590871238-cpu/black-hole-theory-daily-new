@@ -3,20 +3,23 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.28726",
     "arxiv_id": "2610.28726",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3217235",
     "doi": null,
     "title_en": "Noisy Pipelines I: An end-to-end pipeline to perform multivariate noise inference for LISA",
     "abstract_en": "Instrumental data from the Laser Interferometer Space Antenna (LISA) must be post-processed prior to any global-fit based analysis. For example, it is critical to filter, downsample, segment and window the data in order to perform inference of both the signal and noise parameters in the frequency domain. Each step alters the noise process, requiring a correction to the noise covariance matrix that describes the underlying data stream. We present $\\texttt{lisa-noise}$, a JAX-based noise inference pipeline that returns a spectral estimate of the noise process subject to post-processing effects. We fit splines to the underlying secondary noises and fit the full multivariate $3 \\times 3$ covariance matrix of the Michelson channels. We assume unequal and non-constant arm-lengths throughout. The drift of the zeros of the transfer functions, a non-stationary effect, is captured by averaging the transfer functions over a number of epochs within each segment. On 30 days of conditioned simulated data, a likelihood evaluation costs $3\\,$ms on a current laptop for a 7 day segment. A gradient-based fit from a tight prior recovers the injected spectra in a fraction of a second. A multi-start search over large priors $\\pm 10$ in $\\log_{10}$ centred on the simulated truth obtains a noise estimate consistent with the data, verified by Bayesian techniques. The fitted covariance whitens the conditioned data in every band and through every zero of the transfer functions, in a form that global-fit pipelines can use directly.",
     "authors": [
-      "Burke, Ollie",
-      "Bayley, Joseph",
-      "Hoy, Charlie",
-      "Nuttall, Laura"
+      "Ollie Burke",
+      "Joseph Bayley",
+      "Charlie Hoy",
+      "Laura Nuttall"
     ],
-    "categories": [],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
     "submitted_at": "2026-10-20T00:00:00Z",
-    "updated_at": "2026-10-22T11:55:23.184744Z",
+    "updated_at": "2026-10-23T04:19:14.447976Z",
     "document_types": [
       "article"
     ],
@@ -24,15 +27,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.28726v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.28726v1",
     "inspire_url": "https://inspirehep.net/literature/3217235",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.28726",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.28726v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3217235",
-        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
         "url": "https://inspirehep.net/literature/3217235"
       }
     ],

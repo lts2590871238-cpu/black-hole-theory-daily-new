@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.30925",
+    "arxiv_id": "2610.30925",
+    "arxiv_version": null,
+    "inspire_id": "3218257",
+    "doi": null,
+    "title_en": "Beyond Binary Encoding: Qudit-Based QAOA Framework for ML Detection in $M$-QAM MIMO Systems",
+    "abstract_en": "Maximum likelihood (ML) detection in massive multiple-input multiple-output (MIMO) systems is an NP-hard combinatorial problem whose complexity grows exponentially with the number of transmit antennas and the modulation order. The Quantum Approximate Optimization Algorithm (QAOA) has recently emerged as a promising near-term quantum heuristic for such problems; however, existing qubit-based formulations require $\\log_2 M$ qubits per $M$-QAM symbol, inflating both circuit width and depth. In this paper, we propose a qudit-based QAOA framework that encodes each $M$-QAM symbol directly into a pair of $d$-dimensional quantum states, where $d=\\sqrt{M}$. We derive a Hermitian cost Hamiltonian via a real-imaginary decomposition of the constellation, and introduce a generalized cyclic-shift mixer that ensures ergodic exploration of the search space without binary encoding. The proposed formulation reduces the number of quantum carriers from $\\mathcal{O}(N_t \\log_2 M)$ to $\\mathcal{O}(N_t)$ and the Hamiltonian interaction complexity from $\\mathcal{O}((N_t \\log_2 M)^2)$ to $\\mathcal{O}(N_t^2)$, while preserving the geometric structure of the constellation. Bit-error-rate (BER) simulations for $2\\times 2$ MIMO systems employing 4-QAM and 16-QAM over Rayleigh fading channels, with circuit depth $p=3$, demonstrate that the proposed detector closely approximates the performance of the optimal classical maximum-likelihood (ML) detector, while consistently outperforming the conventional minimum mean square error (MMSE) detector.",
+    "authors": [
+      "Siriwardena, Chiran",
+      "Luckshan, Chanula",
+      "Gayan, Samiru",
+      "Inaltekin, Hazer",
+      "Shin, Wonjae"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-22T00:00:00Z",
+    "updated_at": "2026-10-23T10:02:43.644110Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218257",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218257",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://inspirehep.net/literature/3218257"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

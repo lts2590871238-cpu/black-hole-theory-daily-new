@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.35754",
     "arxiv_id": "2609.35754",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": null,
     "doi": null,
-    "title_en": "Perfect Born Sampling of Symmetric Thermal Tensor Network for Quantum Lattice Models",
-    "abstract_en": "Accurate calculations of quantum lattice models at low temperatures constitute a major challenge in many-body physics. Stochastic sampling of tensor-network states offers a promising route to tackle this problem; however, existing schemes have long faced a fundamental dilemma---sampling efficiency and symmetry acceleration \\textit{cannot} be achieved simultaneously. Here we propose a perfect Born sampling approach for thermal tensor networks, which performs importance sampling directly from the purified density matrix via the Born rule and incorporates Abelian and non-Abelian symmetries by sampling symmetry quantum numbers. We benchmark the method, realized as both stochastic matrix product states (stoMPS) and stochastic projected entangled pair states (stoPEPS), on large-scale quantum lattice models. Using stoMPS, we accurately simulate the square-lattice Hubbard model on cylinders up to width $W=10$, and study the triangular-lattice Hubbard model down to $T/t = 1/64$, revealing scalar chiral order at half filling and kinetic ferromagnetism upon electron doping. We further extend the stoMPS method to compute finite-temperature quantum dynamics, as demonstrated by the optical conductivity of the Hubbard model, and generalize it to stoPEPS, as showcased on the $20\\times20$ square-lattice quantum Ising model at its quantum critical point. Our method combines high sampling efficiency with full symmetry acceleration, and can be used as a state-of-the-art framework for studying both equilibrium and dynamical properties down to ultralow temperatures.",
+    "title_en": "Perfect Born Sampling of Symmetric Thermal Tensor Network States",
+    "abstract_en": "Accurate calculations of correlated fermions at low temperatures constitute a major challenge in quantum many-body physics, most notably in the studies of high-$T_c$ superconductivity and ultracold atom optical lattices. Stochastic sampling of tensor-network states offers a promising route to tackle this problem; however, existing schemes have long faced a fundamental dilemma---sampling efficiency and symmetry acceleration \\textit{cannot} be achieved simultaneously. Here we propose a perfect Born sampling approach for thermal tensor networks, which performs importance sampling directly from the purified density matrix via the Born rule and incorporates Abelian and non-Abelian symmetries by sampling symmetry quantum numbers. We benchmark the method, realized as both stochastic matrix product states (stoMPS) and stochastic projected entangled pair states (stoPEPS), on large-scale quantum lattice models. Using stoMPS, we accurately simulate the square-lattice Hubbard model on cylinders up to width $W=10$, and study the triangular-lattice Hubbard model down to $T/t = 1/64$. We reveal scalar chiral order at half filling and kinetic ferromagnetism upon electron doping, with the latter directly compared to ultracold atom experiments. We further extend the stoMPS method to compute finite-temperature quantum dynamics, as demonstrated by the optical conductivity of the Hubbard model. We showcase the generalization of stoPEPS on up to $20\\times20$ square-lattice quantum Ising model, where accurate results are obtained near its quantum critical point. Our method combines high sampling efficiency with full symmetry acceleration. The resulting state-of-the-art framework captures both equilibrium and dynamical properties down to ultralow temperatures, thereby providing a powerful theoretical tool for correlated quantum systems, particularly fermion Hubbard quantum gas microscopy.",
     "authors": [
       "Jianxin Gao",
       "Qiaoyi Li",
@@ -22,22 +22,22 @@
       "cond-mat.str-el"
     ],
     "submitted_at": "2026-09-28T17:58:21Z",
-    "updated_at": "2026-09-28T17:58:21Z",
+    "updated_at": "2026-10-22T09:30:57Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2609.35754v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.35754v1",
+    "abs_url": "https://arxiv.org/abs/2609.35754v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.35754v2",
     "inspire_url": null,
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.35754",
-        "fetched_at": "2026-10-05T02:07:42.664905Z",
-        "url": "https://arxiv.org/abs/2609.35754v1"
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2609.35754v2"
       }
     ],
     "is_demo": false

@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.30187",
+    "arxiv_id": "2610.30187",
+    "arxiv_version": 1,
+    "inspire_id": "3217963",
+    "doi": null,
+    "title_en": "Flexible Proposal Distributions for Gravitational-Wave Population Inference with Gaussian Mixture Models",
+    "abstract_en": "Population analyses of gravitational-wave (GW) sources use hierarchical Bayesian inference to constrain astrophysical models while accounting for selection effects. The likelihood is usually estimated by Monte Carlo integration over finite sets of event posterior samples and simulated injections. As catalogs grow, more samples are needed to control the Monte Carlo variance, but the available event samples are fixed by parameter estimation. Sharp population features can also lie in regions poorly sampled by the event posteriors. We fit Gaussian mixture models (GMMs) to the event posteriors and evaluate the likelihood by importance sampling with two proposals: an ensemble of event posteriors and a mixture of that ensemble with a fiducial population. Together with a GMM representation of detected injections, this allows additional samples to be drawn for both event and selection integrals. Increasing the sample count reduces Monte Carlo variance but leaves uncertainty from fitting the densities to finite training sets. In simulated catalogs, the GMM-based estimators show no detectable additional bias relative to the posterior-sample estimator; their calibration is comparable within the limitations of the tests. An application to GWTC-3 with a different mass model gives consistent results across the estimators. The method separates the numerical sampling budget from the original sample count, while requiring explicit checks of density-fit uncertainty and approximation error.",
+    "authors": [
+      "Simon M. C. Yeung",
+      "Ignacio Magaña Hernandez",
+      "Jolien Creighton"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-20T00:00:00Z",
+    "updated_at": "2026-10-23T09:16:36.784474Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.30187v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.30187v1",
+    "inspire_url": "https://inspirehep.net/literature/3217963",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.30187",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.30187v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3217963",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://inspirehep.net/literature/3217963"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

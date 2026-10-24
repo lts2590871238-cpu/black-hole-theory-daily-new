@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.30982",
+    "arxiv_id": "2610.30982",
+    "arxiv_version": null,
+    "inspire_id": "3218091",
+    "doi": null,
+    "title_en": "Learning Low Modes of the Wilson Dirac Operator with Gauge-Equivariant Networks",
+    "abstract_en": "In adaptive multigrid, test vectors that better approximate the low-mode subspace of the Wilson Dirac operator $D$ can reduce the solve time, but their construction can be costly. In some cases, the setup takes longer than a single solve. To reduce the cost of generating test vectors, we train networks built from gauge-equivariant parallel-transport layers once on a quenched ensemble, using a Rayleigh-Ritz loss for $D^\\dagger D$. We then test whether the trained networks maintain their performance at other hopping parameters and on configurations not used in training. In these tests, the network outputs are used as test vectors, and the costly $V$-cycle refinement in the adaptive setup is omitted to reduce the setup time. This substantially reduces the setup time while leaving the solve time largely unchanged in most cases. Near the critical hopping parameter $κ_c$, the solve time is also reduced in some cases.",
+    "authors": [
+      "Choi, Minjae",
+      "Ohno, Hiroshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-22T00:00:00Z",
+    "updated_at": "2026-10-23T05:34:45.242450Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/3072729'}, C26-07-26"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218091",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218091",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://inspirehep.net/literature/3218091"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

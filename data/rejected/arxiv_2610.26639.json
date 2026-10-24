@@ -3,36 +3,36 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.26639",
     "arxiv_id": "2610.26639",
-    "arxiv_version": null,
-    "inspire_id": "3216725",
+    "arxiv_version": 1,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Evolving only the observed spacetime region: perfectly parallel lightcone simulations with sCOLA",
     "abstract_en": "Cosmological analyses of Stage-IV galaxy surveys require large ensembles of lightcone mock catalogues, but a full survey-scale $N$-body run costs of order $10^7$ CPU hours, putting such ensembles out of reach. We present a framework that produces survey-scale dark matter lightcones for a typical cost of order $10^3$ CPU hours each, based on the spatial COmoving Lagrangian Acceleration (sCOLA) method. sCOLA decomposes an arbitrarily large volume into small tiles that are evolved independently, with buffer regions and non-periodic boundary conditions on the gravitational potential. We combine it with on-the-fly lightcone building, so that the evolved spacetime region reduces to the observed one: each tile is stopped as soon as the observer's past lightcone has left it, and only the tiles intersecting the region of interest are simulated at all. We further introduce two accuracy improvements to the sCOLA formalism: an LPT buffer that approximates the inflow of particles from outside the sCOLA box, and a second-order perturbative approximation to the gravitational potential at its boundaries; together they remove the large-scale inaccuracies of previous work and allow smaller tiles and buffers. Against a \\texttt{Gadget4} reference in a $3.84\\,h^{-1}\\,\\mathrm{Gpc}$ box with $3\\,840^3$ particles, up to $k \\simeq 0.4\\,h\\,\\mathrm{Mpc}^{-1}$ the sCOLA lightcone reproduces the matter power spectrum to 1%, the velocity divergence power spectrum to 1.5% and the equilateral bispectrum to 2%, with no visible discontinuity at tile boundaries. The run cost $1\\,300$ CPU hours, a factor of $2\\,600$ below our $\\texttt{Gadget4}$ run. Perfect parallelism at this cost brings ensembles of thousands of survey-scale lightcones within reach of a single allocation: $\\sim 25\\,000$ realisations of the $\\textit{Euclid}$ Galactic north cap with a mass resolution of $10^{11}\\,\\mathrm{M}_\\odot$ for $10^{7}$ CPU hours.",
     "authors": [
-      "Aubin, Mayeul",
-      "Leclercq, Florent",
-      "Lavaux, Guilhem"
+      "Mayeul Aubin",
+      "Florent Leclercq",
+      "Guilhem Lavaux"
     ],
-    "categories": [],
-    "submitted_at": "2026-10-19T00:00:00Z",
-    "updated_at": "2026-10-21T13:01:21.290101Z",
-    "document_types": [
-      "article"
+    "categories": [
+      "astro-ph.CO"
     ],
+    "submitted_at": "2026-10-19T16:02:10Z",
+    "updated_at": "2026-10-19T16:02:10Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
-    "inspire_url": "https://inspirehep.net/literature/3216725",
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.26639v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.26639v1",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
-        "source": "inspire",
-        "record_id": "3216725",
-        "fetched_at": "2026-10-23T01:39:23.073417Z",
-        "url": "https://inspirehep.net/literature/3216725"
+        "source": "arxiv",
+        "record_id": "2610.26639",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.26639v1"
       }
     ],
     "is_demo": false

@@ -4,19 +4,24 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.28739",
     "arxiv_id": "2610.28739",
-    "arxiv_version": null,
+    "arxiv_version": 1,
     "inspire_id": "3217277",
     "doi": null,
     "title_en": "Prior volume effect inflates the gravitational-wave background in pulsar timing arrays",
     "abstract_en": "Pulsar timing arrays (PTAs) have found evidence for a nanohertz gravitational-wave background (GWB) whose amplitude exceeds most predictions based on supermassive black hole binaries (SMBHBs). Using NANOGrav 15-year data, we show that a substantial part of this excess arises from a prior volume effect. The GWB amplitude is constrained mainly by the pulsars' auto-correlations, where the GWB is degenerate with each pulsar's intrinsic red noise. By decomposing the GWB posterior, we find that marginalizing over the standard log-uniform red-noise priors introduces a prior volume term that favors a stronger GWB, pulling the inferred amplitude more than $2σ$ above the maximum-likelihood estimate. The Hellings-Downs (HD) cross-correlations, which measure the GWB alone, are not strong enough to counter the volume term. The profile likelihood, a cross-correlation-only estimator, and priors that are uniform in power or informed by the pulsar population all avoid or reduce this effect and lower the amplitude into agreement with SMBHBs. The revised priors also yield a steeper GWB spectrum closer to the SMBHB predictions, strengthen the evidence for HD correlations, and weaken the preference for new-physics sources over SMBHBs.",
     "authors": [
-      "Dai, Biwei",
-      "Zaldarriaga, Matias",
-      "Ali-Ha\\\"ımoud, Yacine"
+      "Biwei Dai",
+      "Matias Zaldarriaga",
+      "Yacine Ali-Haïmoud"
     ],
-    "categories": [],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "gr-qc"
+    ],
     "submitted_at": "2026-10-20T00:00:00Z",
-    "updated_at": "2026-10-22T11:55:19.013106Z",
+    "updated_at": "2026-10-23T04:19:42.226571Z",
     "document_types": [
       "article"
     ],
@@ -24,15 +29,21 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
+    "abs_url": "https://arxiv.org/abs/2610.28739v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.28739v1",
     "inspire_url": "https://inspirehep.net/literature/3217277",
     "is_update": false,
     "source_provenance": [
       {
+        "source": "arxiv",
+        "record_id": "2610.28739",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.28739v1"
+      },
+      {
         "source": "inspire",
         "record_id": "3217277",
-        "fetched_at": "2026-10-23T01:39:23.073417Z",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
         "url": "https://inspirehep.net/literature/3217277"
       }
     ],
@@ -65,44 +76,44 @@
     "primary_topic": "pta",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 22,
+      "theory_depth": 18,
       "methodological_rigor": 15,
-      "novelty": 12,
-      "clarity": 8,
-      "metadata_quality": 5,
+      "novelty": 13,
+      "clarity": 9,
+      "metadata_quality": 6,
       "community_signal": 0,
-      "other": 5
+      "other": 6
     },
     "total_score": 67,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该文针对脉冲星计时阵列（PTA）中纳赫兹引力波背景振幅超出超大质量黑洞双星预言的问题，提出先验体积效应这一方法学解释，并给出基于profile likelihood、仅互相关估计量以及功率均匀/族群先验的修正方案，涉及Hellings-Downs相关证据与谱指数变化，属于PTA统计推断的核心议题，值得点击阅读全文。",
+    "selection_reason_zh": "该文针对脉冲星计时阵列中纳赫兹引力波背景振幅偏高的问题，提出先验体积效应这一贝叶斯统计层面的解释，并给出剖面似然、仅互相关估计量和替代先验等具体诊断与修正方案；其分析直接关系到SMBHB起源与新物理来源之争，方法具体、可检验，值得进一步阅读。",
     "title_zh": "先验体积效应抬高了脉冲星计时阵列中的引力波背景",
-    "abstract_zh": "脉冲星计时阵列（PTA）已发现纳赫兹引力波背景（GWB）的证据，其振幅超出大多数基于超大质量黑洞双星（SMBHB）的预言。利用NANOGrav 15年数据，我们表明这一超出中的相当一部分源于先验体积效应。GWB振幅主要由脉冲星自相关约束，而GWB在那里与每颗脉冲星的内禀红噪声简并。通过分解GWB后验，我们发现，对标准对数均匀红噪声先验做边缘化会引入一个偏好更强GWB的先验体积项，把推断出的振幅拉到最大似然估计之上超过$2\\sigma$。仅测量GWB的Hellings-Downs（HD）互相关不足以抵消该体积项。profile似然、仅用互相关的估计量，以及在功率上均匀或由脉冲星族群给出信息的先验，都能避免或减弱这一效应，并使振幅降低到与SMBHB相符的水平。修正后的先验还给出更接近SMBHB预言的更陡GWB谱，增强对HD相关的证据，并削弱相对于SMBHB对新物理源的偏好。",
+    "abstract_zh": "脉冲星计时阵列（PTA）已发现纳赫兹引力波背景（GWB）的证据，其振幅超过了多数基于超大质量黑洞双星（SMBHB）的预言。利用NANOGrav 15年数据，我们表明这一超出中的相当一部分源于先验体积效应。GWB振幅主要由脉冲星的自相关约束，而在自相关中GWB与每颗脉冲星的内禀红噪声存在简并。通过分解GWB后验，我们发现，对标准对数均匀红噪声先验进行边缘化会引入一个偏向更强GWB的先验体积项，将推断出的振幅拉高到最大似然估计之上超过$2\\sigma$。仅测量GWB本身的Hellings-Downs（HD）互相关不足以抵消该体积项。剖面似然、仅使用互相关的估计量，以及在功率上均匀或由脉冲星种群提供信息的先验，都能避免或减弱这一效应，并将振幅降低到与SMBHB相符的水平。修正后的先验还给出更接近SMBHB预言的更陡GWB谱，增强了对HD相关的证据，并削弱了相对于SMBHB而言对新物理来源的偏好。",
     "keywords_en": [
       "pulsar timing array",
       "gravitational-wave background",
-      "Hellings-Downs correlations",
       "prior volume effect",
-      "red noise",
-      "NANOGrav",
       "Bayesian inference",
-      "supermassive black hole binaries"
+      "red noise",
+      "Hellings-Downs correlations",
+      "supermassive black hole binaries",
+      "NANOGrav"
     ],
     "keywords_zh": [
       "脉冲星计时阵列",
       "引力波背景",
-      "Hellings-Downs相关",
       "先验体积效应",
-      "红噪声",
-      "NANOGrav",
       "贝叶斯推断",
-      "超大质量黑洞双星"
+      "红噪声",
+      "Hellings-Downs相关",
+      "超大质量黑洞双星",
+      "NANOGrav"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-10-23T01:42:48.223524Z"
+    "created_at": "2026-10-22T01:39:14.671332Z"
   },
-  "published_at": "2026-10-23T01:42:48.223963Z"
+  "published_at": "2026-10-24T01:45:41.649775Z"
 }

@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2609.28647",
     "arxiv_id": "2609.28647",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": null,
     "doi": null,
     "title_en": "Compact representation of strongly correlated Green's functions: the MOR+EC way to explore phase space",
-    "abstract_en": "Repeated evaluation of the single-particle Green's function (GF) across parameter space is a recurring bottleneck in many-body methods, limiting the resolution at which phase boundaries may be probed and the frequency resolution of computed spectra. We introduce MOR+EC, a framework that constructs reusable reduced-order models for computing single-particle Green's functions by combining eigenvector continuation (EC) for parameter space exploration and model order reduction (MOR) for extrapolation in frequency space. Contrary to conventional parameterized MOR, we construct these reduced-order models with a parameter-independent resolvent, further reducing the number of required full-space evaluations. Benchmarking against exact diagonalization as the impurity solver for our example case of DMFT calculations for single- and two-band models, MOR+EC reproduces the DMFT-converged impurity GF to an average relative error of $\\sim10^{-4}$, with a median wall-time speedup of $16-91\\times$. This accuracy and efficiency together resolve a fine-grained scan of the impurity occupation as doping is tuned and produce a high-resolution phase diagram of an orbital-selective Mott transition. The reduced-order model also reproduces real- and imaginary-frequency spectra at no additional cost in full-space evaluations. This framework applies broadly to GF-based methods requiring repeated parametric evaluation and high resolution of the frequency axis.",
+    "abstract_en": "Repeated evaluation of the single-particle Green's function (GF) across parameter space is a recurring bottleneck in many-body methods, limiting the resolution at which phase boundaries may be probed and the frequency resolution of computed spectra. We introduce MOR+EC, a framework that constructs reusable reduced-order models for computing single-particle Green's functions by combining eigenvector continuation (EC) for parameter space exploration and model order reduction (MOR) for extrapolation in frequency space. Contrary to conventional parameterized MOR, we construct these reduced-order models with a parameter-independent resolvent, further reducing the number of required full-space evaluations. Benchmarking against exact diagonalization as the impurity solver for our example case of DMFT calculations for single- and two-band models, MOR+EC reproduces the DMFT-converged impurity GF to an average relative error below $10^{-3}$, with a median wall-time speedup of $9.5$-$92\\times$. This accuracy and efficiency together resolve a fine-grained scan of the impurity occupation as doping is tuned and produce a high-resolution phase diagram of an orbital-selective Mott transition. The reduced-order model also reproduces real- and imaginary-frequency spectra at no additional cost in full-space evaluations. This framework applies broadly to GF-based methods requiring repeated parametric evaluation and high resolution of the frequency axis.",
     "authors": [
       "Norman Hogan",
       "A. F. Kemper",
@@ -18,22 +18,22 @@
       "cond-mat.mtrl-sci"
     ],
     "submitted_at": "2026-09-23T18:00:33Z",
-    "updated_at": "2026-09-23T18:00:33Z",
+    "updated_at": "2026-10-21T15:56:32Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2609.28647v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.28647v1",
+    "abs_url": "https://arxiv.org/abs/2609.28647v2",
+    "pdf_url": "https://arxiv.org/pdf/2609.28647v2",
     "inspire_url": null,
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2609.28647",
-        "fetched_at": "2026-09-29T02:37:14.696996Z",
-        "url": "https://arxiv.org/abs/2609.28647v1"
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2609.28647v2"
       }
     ],
     "is_demo": false

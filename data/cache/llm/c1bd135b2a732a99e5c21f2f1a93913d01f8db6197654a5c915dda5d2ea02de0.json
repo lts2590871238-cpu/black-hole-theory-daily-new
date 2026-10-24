@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 24,
+    "methodological_rigor": 17,
+    "novelty": 11,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 1,
+    "other": 5
+  },
+  "total_score": 73,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文系统比较高维Reissner-Nordström黑洞准正规模与灰体因子的对应关系，覆盖标量、矢量、张量引力扰动及多种维度和参数，并明确指出对应关系失效的情形（如D>6低至中等电荷下的标量(-)扰动、双峰势），方法透明、结论带限定条件，值得进一步阅读。",
+  "title_zh": "高维Reissner-Nordström黑洞引力扰动中准正规模对应灰体因子",
+  "abstract_zh": "我们研究高维Reissner--Nordström黑洞准正规模（QNMs）与灰体因子（GBFs）之间的对应关系。考虑标量、矢量与张量引力扰动，我们针对每个时空维度及每组黑洞参数系统地计算QNMs与GBFs，以评估连接二者的解析公式。QNMs依据Frobenius级数中的奇点结构，分别由连分数法与中点积分法获得。我们将借助QNMs由对应关系确定的GBFs与数值计算的GBFs进行比较。该对应关系对标量($+$)、矢量($+$)、矢量($-$)与张量扰动表现良好。对于标量($-$)扰动，在$D>6$且黑洞电荷处于低至中等值时，由对应关系得到的GBFs与精确GBFs出现明显偏离。在较高电荷下该对应关系恢复了合理精度，尽管有效势呈现出双峰，这与基于Wentzel--Kramers--Brillouin（WKB）的对应关系推导所依据的假设相悖。其他扰动类型的精度随$D$增大而下降，而标量($-$)扰动的对应关系在$D=8$时给出的GBFs比$D=7$时更精确。对于近极端黑洞，即便在$D>6$时出现双峰势，该对应关系仍为矢量($-$)扰动的GBFs提供了可靠近似。这些结果表明，该对应关系的适用范围比从WKB方法假设中所预期的更广。",
+  "keywords_en": [
+    "quasinormal modes",
+    "grey-body factor",
+    "Reissner-Nordström black hole",
+    "higher-dimensional black holes",
+    "gravitational perturbation",
+    "WKB approximation",
+    "continued fraction method"
+  ],
+  "keywords_zh": [
+    "准正规模",
+    "灰体因子",
+    "Reissner-Nordström黑洞",
+    "高维黑洞",
+    "引力扰动",
+    "WKB近似",
+    "连分数法"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-24T01:44:20.645454Z"
+}

@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.28918",
     "arxiv_id": "2607.28918",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
-    "title_en": "A Sequentially-Valid Reanalysis of DESI's Dynamical Dark Energy Signal",
-    "abstract_en": "Surveys such as DESI release data in stages, and each release invites a fresh assessment of whether dark energy is consistent with a cosmological constant. Standard Wilks-based $σ$ values are interpreted as if the test were performed only once, yet revisiting the same question at DR1, DR2, DR3, and beyond inflates the chance of an apparently significant fluctuation. We reanalyse the DESI BAO evidence for dynamical dark energy using an e-process, a likelihood-ratio-based measure of evidence that remains valid under repeated looks at accumulating data: it controls the false-detection probability under continued testing across releases with no trials-factor penalty. Applied to the DESI DR1$\\to$DR2 BAO sequence, the result depends strongly on which departures from $Λ$CDM the test is designed to detect. For a pre-specified alternative aligned with the DR2-preferred direction, the running evidence reaches $M_{DR2} = 33.97$, crossing an illustrative 5% threshold of 20. The evidence is concentrated almost entirely in the LRG2 redshift bin, and removing that bin reduces the running e-value to $M = 0.49$, mildly favouring $Λ$CDM. When allowing any of the seven bins to have produced the excess, the signal does not survive a look-elsewhere correction. Other physically agnostic alternatives also fail to reject $Λ$CDM, while a physically motivated thawing-quintessence alternative rejects more strongly than any agnostic choice. The concentration of evidence in LRG2 specifically is difficult to reconcile with a smoothly evolving equation of state. The data therefore points to a fragile, single-bin, specification-dependent signal rather than robust evidence for dynamical dark energy. We recommend that future DESI, Euclid, Roman, and LSST data releases report an anytime-valid e-process value with its test specification stated alongside conventional $σ$ significances.",
+    "title_en": "An E-value Reanalysis of DESI's Dynamical Dark Energy Signal",
+    "abstract_en": "Cosmological surveys such as DESI release data in stages, and each release reprocesses earlier observations and supersedes its predecessor. Testing the same hypothesis at every release inflates the false-positive rate, and only the collaboration can estimate the cross-release covariance that an exact combination needs. We show how to combine evidence across such releases using public products alone. From each release we compute an e-value, a non-negative statistic with expectation at most one under the null, and we average these e-values with weights fixed in advance. Provided each release's own likelihood is correct, this average controls the false-positive rate at every release under arbitrary dependence between releases. For DESI BAO at a fixed Planck background, DR2 alone gives an e-value of $33.97$ against $Λ$CDM ($p \\le 0.0295$) under our reference test specification, a flat prior on $(w_0, w_a)$ over a fixed box. The equal-weight average of DR1 and DR2 is $17.51$ ($p \\le 0.0571$), below the rejection threshold of $20$. We did not fix these weights before DR2 was published, and the weights we now fix ahead of DR3 give $p \\le 0.0874$ at DR2. Without a model of the cross-release covariance, an exact combination that counts each observation once can take any value. Under explicit models it ranges from below the threshold to nearly double the DR2 value, depending on the structure assumed. The evidence is concentrated in the LRG2 bin, which also changed most between releases. Without it the DR2 e-value falls to $0.49$, and a look-elsewhere correction over the seven redshift bins leaves no rejection. DR2 does not reject under wider priors either. The signal is therefore fragile and specification-dependent. We recommend that surveys report per-release e-values with a stated test specification and a combination rule fixed in advance, and publish the cross-release covariance.",
     "authors": [
       "Jinyoung Kim",
       "David F. Mota",
@@ -18,22 +18,22 @@
       "stat.ME"
     ],
     "submitted_at": "2026-07-31T00:34:31Z",
-    "updated_at": "2026-08-19T02:07:22Z",
+    "updated_at": "2026-10-22T04:43:10Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2607.28918v2",
-    "pdf_url": "https://arxiv.org/pdf/2607.28918v2",
+    "abs_url": "https://arxiv.org/abs/2607.28918v3",
+    "pdf_url": "https://arxiv.org/pdf/2607.28918v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.28918",
-        "fetched_at": "2026-08-25T23:44:23.764970Z",
-        "url": "https://arxiv.org/abs/2607.28918v2"
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2607.28918v3"
       }
     ],
     "is_demo": false

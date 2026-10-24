@@ -3,16 +3,18 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2602.04943",
     "arxiv_id": "2602.04943",
-    "arxiv_version": 4,
+    "arxiv_version": 5,
     "inspire_id": null,
     "doi": null,
-    "title_en": "Graph-Theoretic Analysis of Phase Optimization Complexity in Variational Wave Functions for Heisenberg Antiferromagnets",
-    "abstract_en": "We study the computational complexity of learning the ground state phase structure of Heisenberg antiferromagnets. Representing Hilbert space as a weighted graph, the variational energy defines a weighted XY model that, for $\\mathbb{Z}_2$ phases, reduces to a classical antiferromagnetic Ising model on that graph. For fixed amplitudes, reconstructing the signs of the ground state wavefunction thus reduces to a weighted Max-Cut instance. This links sign optimization of wavefunctions directly to combinatorial optimization.",
+    "title_en": "Graph-Theoretic Formulation of Hamiltonian and Ground-State Sign Structures in Heisenberg Antiferromagnets",
+    "abstract_en": "We study Heisenberg antiferromagnets through a graph-theoretic representation of their Hamiltonians. In the computational basis of a fixed-magnetization sector, the Heisenberg Hamiltonian equals a constant minus the weighted Laplacian of a graph whose vertices are spin configurations and whose edges connect configurations related by exchanging two antiparallel spins on a lattice bond. We call this graph the Hilbert graph (HG) which is isomorphic to the token graph of the lattice over which the Hamiltonian is defined. The exact ground-state energy is then determined by the largest eigenvalue of the HG Laplacian, which is the spectral relaxation of weighted Max-Cut on the HG. With the amplitudes fixed, the phase-dependent part of the variational energy defines an antiferromagnetic classical XY model on the HG, with couplings set by the amplitudes. Restricting the variational state to be real, i.e., restricting its phases to $\\{0,π\\}$, reduces the fixed-amplitude energy minimization to solving an antiferromagnetic Ising model and hence a weighted Max-Cut on the HG. When the weights are generated from non-degenerate ground-state amplitudes, the optimal phases give the ground-state sign structure which can be recovered from the weights in time polynomial in the size of the HG. On the Hamiltonian side, a diagonal sign transformation removes all positive off-diagonal matrix elements if and only if the HG is bipartite, which reproduces the Marshall sign rule on bipartite lattices through the graph two-coloring problem; otherwise, the minimal remaining positive weight equals the sum of HG edge weights left uncut by the Max-Cut. This graph formulation establishes a common framework for understanding wave function sign structure, Hamiltonian stoquasticity, non-convexity of phase optimization in variational Monte Carlo, and the average sign in quantum Monte Carlo.",
     "authors": [
       "Mahmud Ashraf Shamim",
       "Md Moshiur Rahman Raj",
       "Mohamed Hibat-Allah",
-      "Paulo T Araujo"
+      "Ruy Fabila-Monroy",
+      "Nobuchika Okada",
+      "Paulo T. Araujo"
     ],
     "categories": [
       "cond-mat.str-el",
@@ -22,22 +24,22 @@
       "quant-ph"
     ],
     "submitted_at": "2026-02-04T18:53:18Z",
-    "updated_at": "2026-10-19T19:28:06Z",
+    "updated_at": "2026-10-21T14:05:45Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2602.04943v4",
-    "pdf_url": "https://arxiv.org/pdf/2602.04943v4",
+    "abs_url": "https://arxiv.org/abs/2602.04943v5",
+    "pdf_url": "https://arxiv.org/pdf/2602.04943v5",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2602.04943",
-        "fetched_at": "2026-10-22T01:38:12.527686Z",
-        "url": "https://arxiv.org/abs/2602.04943v4"
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2602.04943v5"
       }
     ],
     "is_demo": false

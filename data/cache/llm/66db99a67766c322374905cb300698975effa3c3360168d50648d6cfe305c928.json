@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "pta"
+  ],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 72,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该工作针对Cauchy-特征演化（CCE）中初始数据产生的长期寄生瞬变问题，定位了错误的初始角坐标来源，并构造与Cauchy世界管数据在径向二阶导数上匹配的初始数据，从而消除非物理瞬变并恢复晚期尾波。问题明确、方法具体、对引力波数值相对论波形精度有直接意义，且构造不依赖Cauchy形式、可重处理存档模拟，值得进一步阅读。",
+  "title_zh": "用于Cauchy-特征演化的精确初始数据",
+  "abstract_zh": "来自数值相对论（NR）模拟的精确引力波（GW）模板对引力波科学至关重要。这些模板通常在有限半径处计算，并外推至未来零无穷 $\\mathscr{I}^{+}$，即时空的渐近边界。然而，已知这一程序无法准确捕捉动量通量和记忆效应，从而限制了波形模型及依赖它们的分析精度。Cauchy-特征演化（CCE）则沿出射零超曲面，从Cauchy模拟的有限半径世界管积分爱因斯坦方程至 $\\mathscr{I}^{+}$。不过，其精度一直受限于产生长寿命寄生瞬变的初始数据，这些瞬变污染了双星并合所发射波形的若干个周期。我们确定错误的初始角坐标是这些瞬变的来源。我们构造了在径向导数二阶上与Cauchy世界管数据匹配的初始数据，并求解与所得径向剖面一致的角坐标。这些改进消除了非物理瞬变：双黑洞 $(2,2)$ 模式振幅上持续超过 $1000\\,M$ 的 $10\\%$ 调制消失，正面黑洞碰撞的晚期尾波得以恢复。该构造不依赖于Cauchy形式，并允许用CCE重新处理存档模拟，为改进引力波星表铺平道路。",
+  "keywords_en": [
+    "Cauchy-characteristic evolution",
+    "initial data",
+    "numerical relativity",
+    "gravitational waves",
+    "null infinity",
+    "waveform extrapolation",
+    "memory effects",
+    "black hole binaries"
+  ],
+  "keywords_zh": [
+    "Cauchy-特征演化",
+    "初始数据",
+    "数值相对论",
+    "引力波",
+    "零无穷",
+    "波形外推",
+    "记忆效应",
+    "双黑洞"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-24T01:45:13.731060Z"
+}

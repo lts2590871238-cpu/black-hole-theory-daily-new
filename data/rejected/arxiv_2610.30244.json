@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.30244",
+    "arxiv_id": "2610.30244",
+    "arxiv_version": 1,
+    "inspire_id": "3217979",
+    "doi": null,
+    "title_en": "2Flow2SN: Dusty Supernova Cosmology with Photometric Redshifts and Contamination using Neural Simulation-Based Inference",
+    "abstract_en": "Photometric Type Ia supernova (SN Ia) cosmology in the era of the Vera C. Rubin Observatory's Legacy Survey of Space and Time (LSST) demands statistical frameworks that simultaneously account for selection effects, photometric redshift uncertainties and non-Ia contamination at scale. We present FlowSN2, a modular statistical framework combining hierarchical Bayesian modelling and simulation-based inference (SBI), that reframes photometric SN cosmology from a regression task to a joint inference problem over light curve summaries and photometric redshifts. By employing neural likelihood estimation via normalising flows, FlowSN2 approximates the data distributions of selected objects in a form that can be reused across different cosmological models, achieving amortisation over the Hubble diagram. This amortisation enables inference across alternative cosmological parameterisations, such as $w_0w_a\\mathrm{CDM}$, away from the fiducial training cosmology. The framework integrates a standardisation model that disentangles intrinsic SN variations from extrinsic host-galaxy dust effects and adopts a principled Bayesian resampling approach to propagate SN classification uncertainty, without requiring an explicit contaminant likelihood. Across simulated tests spanning five cosmological parameter sets, our framework recovers true cosmological and population parameters, with posteriors in close agreement with both tractable analytical solutions and pure-Ia baselines. Conveniently, the framework enables Bayesian model comparison at negligible additional computational cost, providing a valuable tool for addressing debates surrounding SN standardisation and evolving dark energy. Capable of scaling to over a hundred thousand SNe without retraining, FlowSN2 offers an interpretable and statistically principled solution for cosmological inference with upcoming wide-field photometric surveys.",
+    "authors": [
+      "Benjamin M. Boyd",
+      "Maximilian Autenrieth",
+      "Kaisey S. Mandel",
+      "Matthew Grayling",
+      "Madeleine Ginolin",
+      "Lisa Kelsey",
+      "Stephen Thorp"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "stat.AP"
+    ],
+    "submitted_at": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-23T09:33:08.064939Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.30244v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.30244v1",
+    "inspire_url": "https://inspirehep.net/literature/3217979",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.30244",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.30244v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3217979",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://inspirehep.net/literature/3217979"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

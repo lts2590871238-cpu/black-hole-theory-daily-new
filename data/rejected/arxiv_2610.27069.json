@@ -3,35 +3,37 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.27069",
     "arxiv_id": "2610.27069",
-    "arxiv_version": null,
-    "inspire_id": "3216802",
+    "arxiv_version": 1,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Deglobalising the fit: how to search for physics beyond vacuum General Relativity in LISA catalogues",
     "abstract_en": "The Laser Interferometer Space Antenna will observe up to $\\sim 10^{7}$ overlapping signals, which have to be characterised simultaneously with a global fit. This is a challenge for model comparison since rerunning the global fit for every physical model of interest, including deviations from vacuum General Relativity, is computationally demanding. An alternative is a two-step post-processing strategy: a first global fit with vacuum models only, after which a selected group of target sources is reanalysed under a different model with all other sources subtracted. We show that in this strategy a beyond-vacuum effect in a target source can be partly absorbed by the overlapping nuisance sources in the first fit, subtracted with them, and never reach the reanalysis. In the linear-signal approximation, the loss is captured by a single number, the masking ratio $\\mathcal{R}\\in[0,1]$. A deviation the global fit would detect at $n_σ$ is reported by post-processing at $\\mathcal{R}\\,n_σ$, and bounds in null tests are also reported too tight by the same factor. We show how to compute $\\mathcal{R}$ from the posterior samples of the vacuum global fit, and give an algorithm that ranks the nuisance sources by how much of the effect each can absorb, so that only those most correlated with it need to be refitted with the target in a down-scaled reanalysis with a few sources. We validate our method with full Markov-chain Monte Carlo inference on a toy model of 21 overlapping chirping sinusoids, where one carries a small non-linear chirp that represents the missed physics, while the other 20 act as nuisance sources. This method can serve as a basis for tests of General Relativity in realistic LISA mock datasets and can be adapted to study the impact of systematics between different gravitational-wave sources.",
     "authors": [
-      "Duque, Francisco",
-      "Gair, Jonathan"
+      "Francisco Duque",
+      "Jonathan Gair"
     ],
-    "categories": [],
-    "submitted_at": "2026-10-19T00:00:00Z",
-    "updated_at": "2026-10-22T04:46:21.204028Z",
-    "document_types": [
-      "article"
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM",
+      "physics.data-an"
     ],
+    "submitted_at": "2026-10-19T18:00:02Z",
+    "updated_at": "2026-10-19T18:00:02Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
-    "inspire_url": "https://inspirehep.net/literature/3216802",
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.27069v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.27069v1",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
-        "source": "inspire",
-        "record_id": "3216802",
-        "fetched_at": "2026-10-23T01:39:23.073417Z",
-        "url": "https://inspirehep.net/literature/3216802"
+        "source": "arxiv",
+        "record_id": "2610.27069",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2610.27069v1"
       }
     ],
     "is_demo": false

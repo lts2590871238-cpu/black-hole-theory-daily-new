@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 24,
+    "methodological_rigor": 16,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 2,
+    "other": 6
+  },
+  "total_score": 75,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文研究共形紧化闵可夫斯基时空上线性化自旋-2场从过去零无穷到未来零无穷的全域数值演化，推导了保证初值正则性与光滑 peeling 行为的积分条件，并给出两种规范下的数值实现。问题设定清晰、理论与数值方法结合紧密，属于广义相对论基础与渐近结构方向中值得进一步阅读的工作。",
+  "title_zh": "线性化自旋-2方程的全域数值演化",
+  "abstract_zh": "我们研究共形紧化闵可夫斯基时空上的线性化自旋-2场。初始数据给定在过去零无穷 $\\mathscr{I}^-$ 上，系统经由空间无穷处的柱面演化至未来零无穷 $\\mathscr{I}^+$。为避免对数奇点的产生并由此保持光滑的 peeling 行为，我们推导出对 $\\mathscr{I}^-$ 处可自由指定的入射引力辐射 $ψ_0$ 的显式条件，以确保初值数据正则。对于紧支集数据，我们得到保证整个系统正则性与紧支集的必要且充分的积分条件。在最简单的情形中，我们构造了精确初值数据的例子；而在一般情形下，我们给出一种数值方法来计算其余的 $ψ_k$，从而获得完整的初值数据集。我们使用两种规范进行数值演化，这两种规范分别对应于对空间无穷的某个邻域或整个闵可夫斯基时空作紧化，并展示了系统从 $\\mathscr{I}^-$ 到 $\\mathscr{I}^+$ 的稳定传播。这些结果为引力辐射的全域模拟框架迈出了一步，并澄清了 $\\mathscr{I}^-$ 上的初值数据在决定渐近结构中的作用。",
+  "keywords_en": [
+    "spin-2 field",
+    "conformal compactification",
+    "null infinity",
+    "initial data",
+    "peeling",
+    "numerical relativity",
+    "linearised gravity"
+  ],
+  "keywords_zh": [
+    "自旋-2场",
+    "共形紧化",
+    "零无穷",
+    "初值数据",
+    "peeling",
+    "数值相对论",
+    "线性化引力"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-24T01:44:55.189066Z"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.28817",
+    "arxiv_id": "2605.28817",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Fewer simulations, sharper covariances: Reducing mock covariance noise with Zeldovich approximation control variates",
+    "abstract_en": "We present a control-variate method for reducing the variance of power spectrum covariance matrix estimates from simulations of large-scale structure. The idea is to pair each mock simulation with a cheap Zeldovich-approximation realization sharing the same initial conditions, and to use the known statistical properties of the Zeldovich field to remove correlated sample variance from the covariance estimator. Under a Gaussian disconnected approximation, we derive fully analytic expressions for both the optimal control-variate coefficient, $β(k,\\ell;k',\\ell')$, and the corresponding correlation, $ρ(k,\\ell;k',\\ell')$, in terms of the auto- and cross-power spectra of the target and control fields. In the monopole case, the correlation takes the simple form $ρ(k,k') = r^2(k),r^2(k')$, where $r(k)$ is the standard cross-correlation coefficient between the target and Zeldovich fields, implying that covariance estimation remains highly efficient whenever the two fields are strongly correlated. For masked redshift-space lognormal mocks, resembling LRGs from DESI, we find that the control-variate estimator reduces the variance of the covariance matrix by approximately an order of magnitude on large scales, $k\\lesssim 0.05\\,h\\,{\\rm Mpc}^{-1}$, precisely where accurate covariance estimation is most challenging. The gains are smaller for higher $k$ but typically accelerate convergence by a factor of 2-3, substantially lowering the computational cost of covariance estimation for current and upcoming large-scale structure surveys. After a cheap parametric-bootstrap calibration of the precision-matrix bias, the control-variate covariance yields a $χ^2$ distribution consistent with the expected number of degrees of freedom. This method is readily implementable in current imaging and spectroscopic surveys (e.g., DESI, \\textit{Euclid}, LSST, PFS, \\textit{SPHEREx}).",
+    "authors": [
+      "Boryana Hadzhiyska",
+      "Martin White"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-05-27T17:59:31Z",
+    "updated_at": "2026-10-22T14:00:49Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.28817v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.28817v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.28817",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://arxiv.org/abs/2605.28817v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.30482",
+    "arxiv_id": "2610.30482",
+    "arxiv_version": null,
+    "inspire_id": "3218256",
+    "doi": null,
+    "title_en": "Resource-Aware Scheduling for Distributed Quantum Computing",
+    "abstract_en": "Distributed quantum computing (DQC) is a promising near-term approach for executing circuits that exceed the capacity of a single quantum processing unit (QPU). Prior work has made significant progress on circuit partitioning and reconstruction, but practical DQC requires more than cutting a circuit into smaller pieces. A runtime system must determine whether to execute the circuit intact, cut it for sequential execution on one QPU, or distribute it across multiple QPUs, while accounting for queueing, communication, reconstruction, and hardware constraints. We present a resource-aware scheduler for DQC that compares these execution alternatives at runtime using explicit models of QPU execution, communication, and host-side reconstruction, together with hardware-informed timing derived from simulated IBM QPUs. By treating communication and reconstruction as first-class scheduling costs, the scheduler selects execution plans using a more realistic view of end-to-end overhead than cutting-only approaches. Across our experiments, reconstruction accounts for over 83% of cutting overhead, distributed execution reduces P90 latency by up to 39% relative to uncut single-QPU execution, and scheduling overhead itself remains negligible, never exceeding 0.038% of end-to-end job latency. Together, these results show that DQC must be treated as a runtime scheduling problem over both quantum and classical resources, not just circuit partitioning.",
+    "authors": [
+      "Howe, Connor",
+      "Mundada, Raghav",
+      "O'Shaughnessy, Jake",
+      "Abdullahi, Ibrahim",
+      "Anwar, Ali"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-21T00:00:00Z",
+    "updated_at": "2026-10-23T10:02:46.640713Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218256",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218256",
+        "fetched_at": "2026-10-24T01:43:29.614436Z",
+        "url": "https://inspirehep.net/literature/3218256"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
