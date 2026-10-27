@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35007",
+    "arxiv_id": "2610.35007",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Graph-Based Algorithms for Worldline EFT Integrands",
+    "abstract_en": "We present novel graph-centered algorithms for the construction and representation of worldline effective field theory (WEFT) integrands that separate the topological and algebraic structure of loop integrands into independent graph-numerator pairs. In this representation, the graph encodes all propagators, worldline source and sink vertices, momentum routing, i0 prescriptions, and proper-time dependence, while the numerator carries only the minimal algebraic, tensorial content. To construct integrands at fixed post-Minkowskian order we propose a generalized Berends-Giele construction that minimizes the number of expensive tensor contraction operations. We also discuss simplification and canonicalization strategies through \"serialization\" of worldline propagators and the application of \"selfie\"-subdiagram partial-fraction identities, yielding a minimal canonical topology basis. We further show that the graph-numerator representation naturally generalizes the notion of an integral family and its sectors, relevant for integration-by-parts (IBP) reduction: propagators are not constrained to a single master labeling, and each sector carries its own minimal set of independent scalar products, completing into an overcomplete global family. This setup minimizes the total number of required integral sectors through an optimal use of sector symmetries and enables independent optimization of propagator labeling for IBP reductions. The algorithms are implemented in the Rust crate FeynRIR, which is currently able to efficiently compute integrands for the variation of the effective WEFT action, the equations of motion for the worldlines and the (radiation-reacted) impulse.",
+    "authors": [
+      "Gregor Kälin",
+      "Jungwon Lim"
+    ],
+    "categories": [
+      "hep-th"
+    ],
+    "submitted_at": "2026-10-26T08:20:39Z",
+    "updated_at": "2026-10-26T08:20:39Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.35007v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.35007v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.35007",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://arxiv.org/abs/2610.35007v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

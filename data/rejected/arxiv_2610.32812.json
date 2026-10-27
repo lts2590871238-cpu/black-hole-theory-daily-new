@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.32812",
+    "arxiv_id": "2610.32812",
+    "arxiv_version": null,
+    "inspire_id": "3218486",
+    "doi": null,
+    "title_en": "Exploiting the Weyl-Chamber Structure for Hardware-Aware Quantum Circuit Compression",
+    "abstract_en": "Quantum circuit compression based on tensor networks enables long-time simulation of quantum many-body dynamics on near-term hardware. While Riemannian optimization has been successfully employed for this purpose, it typically optimizes over the manifold of generic two-qubit unitaries. Consequently, the resulting gates must still be synthesized into the hardware's native gate set via KAK decomposition, an overhead that partially negates the original compression gain. We show that Riemannian-optimized gates already exhibit a predictable Weyl structure: near-$R_{ZZ}$ for the Ising model and near-fSim for the Heisenberg XXZ model. Building on this insight, we investigate whether parameterized optimization directly over the native gate set can offer a beneficial trade-off between expressivity and circuit efficiency by reducing the circuit's dimensionality. When comparing the two approaches, we find that the small residual Weyl parameters neglected by the latter are essential for high compression of the Ising propagator, whereas for the Heisenberg propagator, the native XXZ structure can be exploited directly to build a more efficient compressed circuit.",
+    "authors": [
+      "Misciasci, Neel",
+      "Le, Isabel Nha Minh",
+      "Mendl, Christian B."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-23T00:00:00Z",
+    "updated_at": "2026-10-26T10:07:40.459472Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218486",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218486",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://inspirehep.net/literature/3218486"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

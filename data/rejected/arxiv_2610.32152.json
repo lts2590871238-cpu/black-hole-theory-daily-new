@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.32152",
+    "arxiv_id": "2610.32152",
+    "arxiv_version": null,
+    "inspire_id": "3218441",
+    "doi": "10.1145/3845814.3850031",
+    "title_en": "Trident: Efficient Load Verification for Yoked Surface Codes using a Three-Level Memory Hierarchy",
+    "abstract_en": "Fault-Tolerant Quantum Computers (FTQCs) commonly use the surface code to encode program qubits as error-corrected logical qubits. Unfortunately, the surface code has a poor encoding rate, so recent work has proposed Yoked Surface Codes (YSCs), which concatenate the surface code with a high-rate quantum code. The surface code qubits in YSCs are protected by the checks, or yokes, of the high-rate code. YSCs have 1D and 2D variants, which are $1.8\\times$ and $4.5\\times$ more efficient than the surface code, respectively. Modern FTQC architectures use a two-level hierarchy: surface codes perform logical operations (compute) while 2D YSCs store idle program qubits (memory). To load a qubit from memory, the FTQC first performs retrieval, which logically moves a program qubit from a 2D YSC into a surface code (8 cycles). However, retrieval is not fault-tolerant, so the FTQC must verify the load by measuring all the yokes of the 2D YSC (178 cycles). As verification dominates memory access latency, eliminating it can provide a speedup of $5.7\\times$. Our goal is to reduce the verification overhead of 2D YSCs while retaining their storage efficiency. We exploit the fact that 1D YSCs, though less storage-efficient, incur negligible verification latency. We propose Trident, which expands the two-level hierarchy into a three-level hierarchy by adding a small intermediate level containing a 1D YSC (L1). If most loads hit L1 rather than L2 (2D YSC tier), it can significantly reduce verification overhead. We present two variants: Trident-D (demand-driven) and Trident-P (prefetch-driven), which achieve speedups of $2.8\\times$ and $4.2\\times$, respectively, while increasing the physical qubit cost of memory by only 4.9%.",
+    "authors": [
+      "Mamak, Gunagya Singh",
+      "Vittal, Suhas",
+      "Dubey, Kabir",
+      "Smith, Kaitlin N.",
+      "Qureshi, Moinuddin K."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-23T00:00:00Z",
+    "updated_at": "2026-10-26T10:07:51.726328Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218441",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218441",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://inspirehep.net/literature/3218441"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

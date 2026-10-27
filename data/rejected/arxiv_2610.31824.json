@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.31824",
+    "arxiv_id": "2610.31824",
+    "arxiv_version": null,
+    "inspire_id": "3218329",
+    "doi": null,
+    "title_en": "A Topology-Aware Quantum-Classical Framework for Multi-Target Active Debris Removal using Gaussian Boson Sampling",
+    "abstract_en": "The continued growth of orbital debris threatens the safety and sustainability of near-Earth space, making Active Debris Removal (ADR) an important mitigation strategy. Selecting $k$ targets from $N$ candidates yields a combinatorial search space of size $\\binom{N}{k}$, making joint target selection and mission sequencing computationally demanding. We present a topology-aware quantum-classical framework integrating orbital mechanics, weighted orbital-transfer graphs, Gaussian Boson Sampling (GBS), and multi-objective evolutionary optimization. Seven target-prioritization strategies represent physical consequence, orbital persistence, conjunction risk, network centrality, community structure, inferred source families, and random selection. GBS generates candidate target subsets from the weighted graph, which are then evaluated using PyGMO-based evolutionary optimization to identify servicing sequences that jointly minimize total velocity increment ($Δv$) and mission duration, accounting for modeled timing, propulsion, and mass feasibility. We evaluate the framework across three benchmark environments, SOCRATES Minefield, Collision Cloud, and Random, with candidate-pool sizes $N\\in\\{15,18,22,25\\}$ and target cardinalities $k\\in\\{3,5\\}$. The experiments characterize how benchmark topology, prioritization strategy, and problem scale relate to sampling behavior and downstream mission performance. By separating candidate-subset generation from detailed trajectory optimization, the framework offers a topology-aware approach to focusing computational effort on a limited set of candidate ADR missions.",
+    "authors": [
+      "Pandya, Komal",
+      "Sakhuja, Saiyam",
+      "Kattian, Nagaraj"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-22T00:00:00Z",
+    "updated_at": "2026-10-26T11:03:19.462843Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218329",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218329",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://inspirehep.net/literature/3218329"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

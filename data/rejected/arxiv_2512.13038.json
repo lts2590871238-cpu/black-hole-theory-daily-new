@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2512.13038",
+    "arxiv_id": "2512.13038",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Redshift Classification of Optical Gamma-Ray Bursts using Supervised Learning",
+    "abstract_en": "Modern satellite missions localize many gamma-ray bursts (GRBs), but spectroscopic redshifts remain scarce because rapid optical follow-up is often unavailable. Optical plateau classification differs fundamentally from its X-ray counterpart: heterogeneous ground-based follow-up, dust extinction, and chromatic afterglow behavior introduce greater incompleteness than in the X-ray data. We present a supervised machine-learning classification of long-duration GRBs (duration $>$ 2 s) with measured redshifts and possessing optical plateau emission. As predictors, we combine plateau and prompt-emission observables. Using 171 such GRBs, we evaluate binary classification --- whether a GRB is high- or low-$z$ --- at thresholds $z_t = 2.0, 2.5$, and $3.0$. The best classifier, at $z_t = 2.0$, achieves a training-set true positive rate (TPR) of 0.741 and an area under the curve (AUC) of 0.841, with a train-to-test AUC difference within 4 percent. The novelty of this work is a classifier built on an optical-plateau-selected sample. Prompt-emission and absorption variables are favored over plateau parameters at $z_t = 2.0$ on the raw (complete-case) data with the Least Absolute Shrinkage and Selection Operator (LASSO), thus allowing a reliable classifier without waiting for the plateau signatures in the light curve. The X-ray absorption column density, $\\log(\\mathrm{NH})$, and the prompt-emission peak flux, $\\log(\\mathrm{PeakFlux})$, are stably selected by both the optical and X-ray classifiers. We publicly release a web-based application for the optical classifier, complementing the available X-ray classifier \\citep{dainotti2025grbredshiftclassifierfollowup}, to help the community rapidly select high-$z$ GRBs for follow-up.",
+    "authors": [
+      "Milind Sarkar",
+      "Maria Giovanna Dainotti",
+      "Nikita S. Khatiya",
+      "Dhruv S. Bal",
+      "Malgorzata Bogdan",
+      "Ye Li",
+      "Agnieszka Pollo",
+      "Dieter H. Hartmann",
+      "Bing Zhang",
+      "Nissim Fraija",
+      "J. Xavier Prochaska"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2025-12-15T07:08:35Z",
+    "updated_at": "2026-10-26T02:48:29Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2512.13038v3",
+    "pdf_url": "https://arxiv.org/pdf/2512.13038v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2512.13038",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://arxiv.org/abs/2512.13038v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

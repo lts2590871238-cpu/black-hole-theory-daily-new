@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.32510",
+    "arxiv_id": "2610.32510",
+    "arxiv_version": null,
+    "inspire_id": "3218565",
+    "doi": null,
+    "title_en": "Quantum-Classical Link Prediction on Dark Web Hyperlink Graphs",
+    "abstract_en": "We analyze HTML content and hyperlinks from an offline Tor crawl containing 383 onion hosts and 2,067 directed cross-host links. The study combines semantic analysis with degree-controlled quantum--classical link prediction. Two directory groups emit 94.8% of the observed host links. Directed preferential attachment reaches ROC-AUC 0.976 with random non-edges, but falls to $0.550\\pm0.014$ under source-conditioned target-degree matching. With disjoint training and test pairs, multimodal logistic regression reaches $0.672\\pm0.021$, GAE $0.899\\pm0.016$, and VGAE $0.906\\pm0.016$. A four-qubit variational quantum classifier (VQC) comparison tests two encodings across 20 disjoint-pair graph splits under exact and 1,024-shot simulation, with classical controls using the same inputs and training examples. Its best exact mean ROC-AUC is $0.549\\pm0.023$, compared with $0.551\\pm0.016$ for RBF SVC and $0.573\\pm0.029$ for a 16-parameter MLP on the same inputs and training examples. These results support predictive signal in combined graph/content features and show why degree control, feature compression, and optimization conditions matter in quantum--classical comparisons.",
+    "authors": [
+      "Novák, Vojtěch",
+      "Rečka, Radovan",
+      "Knebl, Ondřej",
+      "Youssef, Aktham",
+      "Zelinka, Ivan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-23T00:00:00Z",
+    "updated_at": "2026-10-26T11:45:38.866878Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218565",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218565",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://inspirehep.net/literature/3218565"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

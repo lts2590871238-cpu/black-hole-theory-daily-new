@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.32156",
+    "arxiv_id": "2610.32156",
+    "arxiv_version": null,
+    "inspire_id": "3218426",
+    "doi": null,
+    "title_en": "Quantum Evolution Networks Learn Long-Time Coherent Dynamics in Driven Spin Registers",
+    "abstract_en": "Predicting and controlling driven quantum systems requires access to dynamics across physical parameters, initial states, and evolution times. A reusable neural model must capture this dependence while preserving unitary structure and maintaining accuracy over long-time coherent evolution. Here we introduce Quantum Evolution Networks (QENs), which map physical parameters and time to complete propagators for periodically driven three-spin registers. Shared networks learn unitary one-period propagators and compatible within-period paths, enabling predictions through known periodic composition without query-specific numerical integration. For transverse driving, the fifth-percentile fidelity, minimized over input states and sampled times, is 0.9947 over 24 periods on 256 held-out configurations. A leading-order analysis of spectrally resolved endpoint residuals predicts multicycle process error more accurately than quadratic or spectrum-averaged estimates. Interventions at matched single-period infidelity produce orders-of-magnitude differences in multicycle infidelity, demonstrating the importance of residual orientation. Compatible component replacements identify how endpoint and within-period approximations limit reconstruction accuracy. These results establish a reusable neural representation of the studied propagator families and connect its learned residual structure to its observed long-time reliability.",
+    "authors": [
+      "Li, Puran",
+      "Lau, Condon",
+      "Deng, Xiu-Hao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-23T00:00:00Z",
+    "updated_at": "2026-10-26T10:08:07.536091Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218426",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218426",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://inspirehep.net/literature/3218426"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

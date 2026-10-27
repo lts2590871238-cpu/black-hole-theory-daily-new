@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33444",
+    "arxiv_id": "2610.33444",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Accurate pulsar timing array likelihoods: better low-rank covariance for gravitational wave background",
+    "abstract_en": "In pulsar timing array analyses, the stochastic process describing the gravitational wave background is typically modeled using a Fourier basis at discrete frequencies with an interval $\\sim 0.1~\\mathrm{yr}^{-1}$, with a diagonal Fourier-domain covariance determined by the power spectral density at the corresponding frequencies. Although this rank-reduced modeling significantly accelerates likelihood evaluation and provides a good approximation in many scenarios, it can lead to biased parameter inference because it is insensitive to spectral features on scales smaller than $\\sim 0.1~\\mathrm{yr}^{-1}$. We introduce a better construction of the low-rank covariance for low-frequency processes by maximizing the log-likelihood averaged over an ensemble of realizations drawn from the true model likelihood. In this approach, the basis-domain covariance matrix is sensitive to the entire model spectrum and is generally non-diagonal. Using two mock datasets, we demonstrate improved likelihood accuracy and more faithful recovery of spectral features compared to the conventional Fourier-diagonal model. Benchmark tests show that this new model requires a computational cost comparable to that of the conventional approach.",
+    "authors": [
+      "Heling Deng",
+      "Ken D. Olum",
+      "Rutger van Haasteren"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-24T04:46:08Z",
+    "updated_at": "2026-10-24T04:46:08Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.33444v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.33444v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.33444",
+        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "url": "https://arxiv.org/abs/2610.33444v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 18,
+      "methodological_rigor": 16,
+      "novelty": 11,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 66,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "针对脉冲星计时阵列中随机引力波背景似然评估的rank-reduced协方差建模偏差问题，提出基于平均对数似然最大化的低秩协方差构造方法，并用两个模拟数据集验证其频谱特征恢复精度提升且计算成本相当，属于方法学上的实质改进，值得进一步阅读。",
+    "title_zh": "精确的脉冲星计时阵列似然：面向引力波背景的更优低秩协方差",
+    "abstract_zh": "在脉冲星计时阵列分析中，描述随机引力波背景的随机过程通常采用离散频率上的傅里叶基建模，频率间隔约为 $\\sim 0.1~\\mathrm{yr}^{-1}$，其傅里叶域协方差为对角形式，由对应频率处的功率谱密度决定。尽管这种降秩建模显著加速了似然评估，并在许多情形下给出良好近似，但它可能带来参数推断的偏差，因为其对小于 $\\sim 0.1~\\mathrm{yr}^{-1}$ 尺度上的谱特征不敏感。我们通过最大化在从真实模型似然抽取的一组实现上平均的对数似然，为低频过程引入一种更优的低秩协方差构造。在该方法中，基域协方差矩阵对整个模型谱敏感，且一般是非对角的。使用两个模拟数据集，我们证明相对于传统傅里叶对角模型，该方法具有更高的似然精度，并能更忠实地恢复谱特征。基准测试表明，这一新模型所需的计算成本与传统方法相当。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational wave background",
+      "low-rank covariance",
+      "likelihood approximation",
+      "Fourier basis",
+      "power spectral density"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波背景",
+      "低秩协方差",
+      "似然近似",
+      "傅里叶基",
+      "功率谱密度"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-27T02:13:15.238390Z"
+  },
+  "published_at": "2026-10-27T02:13:15.238807Z"
+}
