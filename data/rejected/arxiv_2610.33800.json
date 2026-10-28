@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33800",
+    "arxiv_id": "2610.33800",
+    "arxiv_version": null,
+    "inspire_id": "3218851",
+    "doi": null,
+    "title_en": "Efficient Block Encodings of Vibrational Hamiltonians",
+    "abstract_en": "Simulation of molecular vibrations is emerging as a promising application of quantum computing in quantum chemistry. In this work, we develop new strategies for block-encoding the second-quantized $n$-mode representation of the vibrational Hamiltonian, whose algebraic structure closely parallels that of the second-quantized electronic Hamiltonian. We derive linear-combination-of-unitaries (LCU) representations of this Hamiltonian based on Pauli decomposition and tensor hypercontraction (THC) and construct efficient circuits for the corresponding block encodings. We also extend the Block-Invariant Symmetry Shift (BLISS) technique to vibrational Hamiltonians, yielding a lower LCU 1-norm and, consequently, a lower overall circuit cost. For the molecules considered here, BLISS-THC reduces the Toffoli cost of quantum phase estimation by more than two orders of magnitude relative to existing block-encoding approaches. In comparison with recent Trotter-based methods, it shows up to a ninefold reduction in the T-gate count, with the relative savings tending to increase with system size. Asymptotically, and up to polylogarithmic factors, both the Pauli and THC LCUs trade additional ancillas for a quadratic improvement in scaling with the number of modes, while THC provides an additional quadratic improvement in scaling with the number of modals. These results highlight the importance of Hamiltonian factorizations and Toffoli-qubit tradeoffs for reducing the computational cost of quantum simulations of molecular vibrations.",
+    "authors": [
+      "Mehendale, Shashank G.",
+      "Loaiza, Ignacio",
+      "Malpathak, Shreyas",
+      "Fomichev, Stepan",
+      "Motlagh, Danial",
+      "Izmaylov, Artur F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T14:43:28.326866Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218851",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218851",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218851"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

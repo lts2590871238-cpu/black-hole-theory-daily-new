@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35119",
+    "arxiv_id": "2610.35119",
+    "arxiv_version": null,
+    "inspire_id": "3219021",
+    "doi": null,
+    "title_en": "Multinomial shot sampling for quantum circuits",
+    "abstract_en": "In classical simulations of quantum circuits, sampling shots (measurement outcomes) from the final state is a routine but costly step. In widely used software, including Qiskit and PennyLane, its cost grows linearly with the number of shots $S$, even when the simulation has already produced the full state vector, because every shot is generated and processed individually. If only the measurement counts are needed, this is unnecessary. The counts can be drawn directly from a multinomial distribution, decomposed into a sequence of conditional binomial draws, each performed in expected constant time by the BTPE algorithm. The sampling cost is then independent of $S$. We describe an implementation of this approach, which also shortens the computation for states whose probability is concentrated on a few outcomes, and compare it with Qiskit's sampling primitives for up to 20 qubits and $10^6$ shots. Our implementation is faster in every configuration tested, by a factor that grows with the number of shots and exceeds $10^3$ in most configurations at $S = 10^6$, and its samples are statistically indistinguishable from those of the reference implementations.",
+    "authors": [
+      "Mohammad, Ijaz Ahamed",
+      "Nagaj, Daniel",
+      "Plesch, Martin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:41:24.380343Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219021",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219021",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219021"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

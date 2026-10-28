@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.03922",
+    "arxiv_id": "2605.03922",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Minimum lifetime of a black hole",
+    "abstract_en": "We derive bounds on the lifetime of an evaporating black hole. The minimum lifetime bound follows from energy conservation and purification, within the framework of `asymptotically semiclassical spacetimes'. The recently derived expression for the Bondi flux of Hawking radiation, together with the expression for the entanglement entropy of Hawking radiation at null infinity, is used to investigate the purification phase after the last semiclassical ray. We discuss the energy-cost of entanglement purification and find a lower bound on the purification time of the black hole, which scales as $M_0^4/\\hbar^{3/2}$, where $M_0$ is the initial black hole mass. Additionally, motivated by the Planck luminosity bound in quantum gravity, we include the additional assumption that a Planck mass black hole is metastable. With this assumption, the purification time is in fact exponential in the square of the initial black hole mass, $τ\\sim\\sqrt{\\hbar}\\,\\exp(γM_0^2/\\hbar)$ with $γ>0$, i.e., exponential in its initial area. We find that the redshift exponent is negative in this purification phase, which indicates the existence of a white-hole remnant that releases information slowly. We comment on phenomenological implications for primordial black hole remnants.",
+    "authors": [
+      "Eugenio Bianchi",
+      "Matthew Brandsema",
+      "Kenneth Czuprynski",
+      "Daniel E. Paraizo"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "hep-th"
+    ],
+    "submitted_at": "2026-05-05T16:17:10Z",
+    "updated_at": "2026-10-26T23:28:34Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.03922v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.03922v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.03922",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2605.03922v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "black_hole_thermodynamics",
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "hawking radiation",
+      "null infinity"
+    ],
+    "medium_weight_hits": [
+      "entanglement entropy"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 60
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "black_hole_thermodynamics",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 26,
+      "methodological_rigor": 15,
+      "novelty": 13,
+      "clarity": 8,
+      "metadata_quality": 7,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 75,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文在渐近半经典框架下结合能量守恒与纯化原理，推导黑洞寿命的下界，并给出与初始质量平方成指数的纯化时间以及白洞遗迹的图像，理论深度与新意兼备，且涉及原初黑洞遗迹的现象学，值得进一步阅读。",
+    "title_zh": "黑洞的最小寿命",
+    "abstract_zh": "我们推导了蒸发黑洞寿命的界。最小寿命界在“渐近半经典时空”框架内，由能量守恒与纯化（purification）得出。我们利用最近推导出的霍金辐射 Bondi 通量表达式，以及类光无穷远处霍金辐射纠缠熵的表达式，来研究最后一条半经典射线之后的纯化阶段。我们讨论了纠缠纯化的能量代价，并得到了黑洞纯化时间的下界，其标度关系为 $M_0^4/\\hbar^{3/2}$，其中 $M_0$ 为黑洞初始质量。此外，受量子引力中普朗克光度界的启发，我们引入了额外假设：普朗克质量的黑洞是亚稳的。在这一假设下，纯化时间实际上与黑洞初始质量的平方成指数关系，$\\tau\\sim\\sqrt{\\hbar}\\,\\exp(\\gamma M_0^2/\\hbar)$，其中 $\\gamma>0$，即与其初始面积成指数关系。我们发现，该纯化阶段中的红移指数为负，这表明存在一个缓慢释放信息的白洞遗迹。我们还评论了其对原初黑洞遗迹的现象学意义。",
+    "keywords_en": [
+      "black hole evaporation",
+      "Hawking radiation",
+      "Bondi flux",
+      "entanglement entropy",
+      "purification time",
+      "white-hole remnant",
+      "primordial black holes",
+      "energy conservation"
+    ],
+    "keywords_zh": [
+      "黑洞蒸发",
+      "霍金辐射",
+      "Bondi 通量",
+      "纠缠熵",
+      "纯化时间",
+      "白洞遗迹",
+      "原初黑洞",
+      "能量守恒"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-28T02:26:47.001533Z"
+  },
+  "published_at": "2026-10-28T02:26:47.001963Z"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.19480",
+    "arxiv_id": "2606.19480",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "sft-wick: A formalism and package for Feynman-diagram expansion and evaluation in stochastic field theories",
+    "abstract_en": "When stochastic field dynamics are cast into a path-integral formulation, perturbation theory becomes systematic but the resulting expansion quickly grows combinatorially large. The setting targeted here includes fields with several components and several dimensions, matrix propagators, tensor-valued couplings, and non-Gaussian driving noise specified by arbitrary n-point cumulants. Wick pairings grow factorially, and component indices must be routed through the tensor-valued vertices. The useful output is not a raw contraction list, but a diagram table: one entry per topology, with multiplicities, coupling sums, signs, and causal constraints resolved. We present sft-wick, an open-source Python package that constructs these diagram tables and computes their integrals numerically. Given an action and an observable, it enumerates topologically distinct Feynman diagrams, derives their algebraic coefficients, and evaluates the resulting diagram integrals from user-supplied response and cumulant functions. The core algorithm enumerates spatial topologies before routing component indices, avoiding contraction-by-contraction Wick expansion. Response-field constraints, including vanishing response-response contractions, the Ito prescription, and the absence of causal response loops, are enforced during enumeration. Predictions are validated against direct Langevin simulations in two worked examples, with Gaussian and with non-Gaussian driving noise, and agree with the simulations within stated error budgets.",
+    "authors": [
+      "Zheng Zhang"
+    ],
+    "categories": [
+      "physics.comp-ph",
+      "astro-ph.CO",
+      "cond-mat.stat-mech",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-06-17T18:13:16Z",
+    "updated_at": "2026-10-27T08:58:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.19480v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.19480v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.19480",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2606.19480v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

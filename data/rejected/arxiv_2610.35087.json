@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.35087",
     "arxiv_id": "2610.35087",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3219008",
     "doi": null,
     "title_en": "Comparison of Hybrid and Standard Reconstruction Methods on IXPE Astrophysical Data",
     "abstract_en": "The hybrid reconstruction algorithm developed by Cibrario et al. 2023 combined a convolutional neural network (CNN) with standard moment analysis to improve track reconstruction in IXPE Gas Pixel Detectors. Although validated on laboratory data (Cibrario et al. 2025), the method's astrophysical performance had not been systematically characterized. We present the first comparison of hybrid and standard reconstruction on IXPE point sources, measuring sensitivity gains versus energy. We analyze Her X-1, a bright, polarized accreting pulsar as a benchmark, and soft-state XTE J1701-461, a bright neutron-star low-mass X-ray binary with no detected polarization, to assess residual systematics. From both pipelines' Level-2 event files, we compare normalized Stokes parameters, polarization degree (PD) and angle (PA), and detection significance. For Her X-1, hybrid reconstruction increases significance at all energies, significantly above ~2.83 keV. R = σ_hyb/σ_std differs from unity by 9.3σ in the 2.83-4.00 keV bin and reaches 1.18\\pm0.03 at 5.66-8.00 keV (6.2σ). For XTE J1701-461, PD is consistent with zero and R with unity. Fourier analysis reveals excess power in hybrid angle distributions at low energies for modes m = 3, 6, 12 and 15, significant at >7σ relative to the standard method; at 5-8 keV, all modes are consistent with noise in both methods. These CNN-amplified hexagonal-grid artifacts do not affect Stokes parameters because they are orthogonal to polarization modes.The method delivers a statistically significant sensitivity gain for Her X-1, consistent with Cibrario et al. 2025 and equivalent to ~20% more effective area without extra observing time. These results support systematic use of hybrid reconstruction on IXPE astrophysical data.",
@@ -21,23 +21,31 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-10-26T09:28:30Z",
-    "updated_at": "2026-10-26T09:28:30Z",
-    "document_types": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T16:02:14.522561Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.35087v1",
     "pdf_url": "https://arxiv.org/pdf/2610.35087v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219008",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.35087",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
         "url": "https://arxiv.org/abs/2610.35087v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3219008",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219008"
       }
     ],
     "is_demo": false

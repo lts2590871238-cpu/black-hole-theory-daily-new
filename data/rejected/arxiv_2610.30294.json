@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.30294",
     "arxiv_id": "2610.30294",
     "arxiv_version": 1,
-    "inspire_id": "3218004",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Optimal cosmological cross-correlation analysis with U-Net-based processing",
     "abstract_en": "Cosmological cross-correlation analyses are commonly based on two-point statistics, which are optimal for Gaussian random fields but do not capture all relevant information in the presence of non-Gaussianity, which is ubiquitous in late-time cosmic fields. This motivates investigations of higher order statistics, and one method is to use machine learning to construct a correlation-optimized tracer field that can utilize cross-correlation information beyond two-point statistics. Using a tracer field as input and a paired target field as part of the cost function, we test whether a U-Net can learn a transformed tracer field that maximally correlates with the target field. We train a 1D U-Net on paired simulated fields and study controlled cases based on Gaussian and log-normal random fields. We train and quantify performance using the Pearson correlation coefficient with the target field and compare the network output with the analytic linear solution known in the Gaussian limit. For Gaussian fields, the U-Net reproduces the expected linear solution closely and behaves as an effective matched filter in frequency space. For log-normal fields, the network departs from the linear estimator and achieves an improved correlation with the target field, increasing the mean Pearson correlation from 0.857 for the linear estimator to 0.953 for the U-Net output. This indicates that the network is sensitive to information beyond the power spectrum. These controlled 1D experiments show that U-Net-based tracer transformation can effectively extract correlation-relevant information beyond the power spectrum, providing a promising framework for enhancing cosmological cross-correlation analyses.",
@@ -17,31 +17,23 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-21T00:00:00Z",
-    "updated_at": "2026-10-24T09:05:52.027415Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-21T18:09:59Z",
+    "updated_at": "2026-10-21T18:09:59Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.30294v1",
     "pdf_url": "https://arxiv.org/pdf/2610.30294v1",
-    "inspire_url": "https://inspirehep.net/literature/3218004",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.30294",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
         "url": "https://arxiv.org/abs/2610.30294v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3218004",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
-        "url": "https://inspirehep.net/literature/3218004"
       }
     ],
     "is_demo": false

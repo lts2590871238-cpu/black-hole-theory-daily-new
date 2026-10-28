@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33139",
+    "arxiv_id": "2610.33139",
+    "arxiv_version": null,
+    "inspire_id": "3218777",
+    "doi": null,
+    "title_en": "The Cost of a Real Grover Oracle: Minecraft Seed Search from Software to Quantum Hardware",
+    "abstract_en": "We present the resource estimation of how known-constant arithmetic changes the cost of a Grover oracle for Minecraft 1.13.1 seed recovery, an application of quantum search to procedural content generation. The oracle developed here combines a structure-placement predicate with a reversible inverse transform of the linear congruential generator for the 32-bit residual search. Reduced-width arithmetic, phase marking, uncomputation, and complete Grover loops are verified against an independent Java reference, while production-width circuits are structurally audited. Direct Fourier-basis constant arithmetic reduces the placement-predicate width from 6n+3 to 4n+3 qubits and the structural scaling of the two-qubit gate counts from Theta(n^3) to O(n^2). Under backend-agnostic common-basis Qiskit level-0 {u, CX} accounting, the representative nonzero-r folded residual-search construction uses 275 circuit qubits, 48,896 CX gates, and depth 4,482, versus 467 qubits, 2,038,804 CX gates, and depth 186,328 for the original register-to-register baseline. Multi-placement conjunctions expose a width-recomputation tradeoff, and exact enumeration identifies a plateau in candidate reduction for the benchmark. We executed reduced-width placement circuits within complete Grover loops on IBM processors and Quantinuum H2-1 and show larger one-iteration increases in marked-state probability for the specialized construction than for the baseline. These results quantify the resource benefits of arithmetic specialization and show substantial routing sensitivity in the reduced-width IBM hardware experiments. Together, the results quantify the effect of specializing known-constant arithmetic within a PCG-derived oracle and show that its compiled hardware behavior strongly depends on routing and execution context.",
+    "authors": [
+      "Reeves, Evan M.",
+      "Sopkin, Elias",
+      "Searles, Thomas A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-23T00:00:00Z",
+    "updated_at": "2026-10-27T14:41:37.286379Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218777",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218777",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218777"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.24857",
+    "arxiv_id": "2605.24857",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/s9sc-4m5y",
+    "title_en": "Revisiting spin Hamiltonian parameters in a Kitaev material via Bayesian optimization of magnetization curves",
+    "abstract_en": "Determining the spin Hamiltonian of a magnetic compound is crucial for understanding its magnetic properties. A standard approach is to derive model parameters from ab initio calculations based on the crystal structure. However, the resulting Hamiltonian can depend sensitively on methodological details of the ab initio procedure. This issue is particularly evident in $α$-RuCl$_3$, a candidate Kitaev material. Here, we present an alternative, data-driven approach to determine the spin Hamiltonian parameters of $α$-RuCl$_3$ by Bayesian optimization of experimental magnetization curves along the $b$- and $c$-axis directions. We optimize five parameters, namely the Kitaev interaction $K$, off-diagonal interactions $Γ$ and $Γ'$, the Heisenberg interaction $J$, and the $c$-axis $g$-factor $g_c$. The parameter set that minimizes the cost function is $(K,Γ,Γ',J,g_c)=(-6.0, 7.5, -0.3, -1.75, 2.3)$, where the exchange couplings are in meV. We find that the cost function is insensitive to the absolute value of the Kitaev coupling $K$. Thus, the magnetization data alone do not determine its energy scale. The cost function also depends only weakly on $Γ'$ and $J$, while the optimization favors a large positive $Γ$. By computing the static spin structure factor, magnetic susceptibility, and specific heat, we show that these quantities favor the large-$Γ$ scenario over the small-$g_c$ scenario and that the parameter set that minimizes the cost function yields good agreement with the experimental structure factor and susceptibility, and qualitative agreement with the specific heat. The combination of Bayesian optimization and accurate low-energy solvers provides an effective approach for determining parameters of spin Hamiltonians. This methodology opens a systematic route to determining spin Hamiltonians in quantum magnets from experimental data.",
+    "authors": [
+      "Takahiro Misawa",
+      "Ryo Tamura",
+      "Kazuyoshi Yoshimi",
+      "Youhei Yamaji"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.mtrl-sci"
+    ],
+    "submitted_at": "2026-05-24T04:27:30Z",
+    "updated_at": "2026-10-27T06:50:05Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.24857v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.24857v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.24857",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2605.24857v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.28528",
     "arxiv_id": "2610.28528",
     "arxiv_version": 2,
-    "inspire_id": "3216656",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Efficient Ground-State Manifold Amplification for Rydberg Atom Arrays via Houdayer Cluster Updates",
     "abstract_en": "We demonstrate a hybrid quantum-classical approach for exploring ground-state manifolds of maximum independent set problems, in which quantum hardware supplies the initial solutions and an entirely classical post-processing algorithm expands them, increasing the solution diversity of quantum hardware measurements by up to several orders of magnitude. Quantum optimization devices, while capable of generating high-quality solutions, can suffer from fundamental sampling limitations. This is particularly problematic for applications that strongly depend on a large variety of uncorrelated optimal solutions. We apply the Houdayer cluster update algorithm to systematically expand quantum-generated solution sets through classical post-processing. We validate our approach on a test bed of 43 problem instances from QuEra's Aquila analog annealing device, achieving diversity amplification factors, defined as the increase in the number of distinct solutions at a given set size, of up to 11923x with a median of 24.3x across different problem scales and hardness parameters. Because exact ground-state degeneracies are known for these instances, the recovered fraction of the manifold can be measured rather than bounded: post-processing recovers a median of 21% of the ground-state manifold, and provably all of it for six instances. We also demonstrate that, in some cases, the classical post-processing can discover independent sets larger than those found by the quantum hardware, thus improving on solution quality and not just diversity. While the method is non-ergodic and cannot guarantee complete manifold coverage, it consistently discovers a larger number of high-quality, and in some cases strictly better, configurations than quantum sampling alone. This work demonstrates how simple classical post-processing can enhance the utility of quantum optimization results.",
@@ -19,31 +19,23 @@
       "cond-mat.quant-gas",
       "math.OC"
     ],
-    "submitted_at": "2026-10-20T00:00:00Z",
-    "updated_at": "2026-10-26T03:08:39.975548Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-20T17:03:05Z",
+    "updated_at": "2026-10-23T17:02:08Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.28528v2",
     "pdf_url": "https://arxiv.org/pdf/2610.28528v2",
-    "inspire_url": "https://inspirehep.net/literature/3216656",
+    "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.28528",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
         "url": "https://arxiv.org/abs/2610.28528v2"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3216656",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
-        "url": "https://inspirehep.net/literature/3216656"
       }
     ],
     "is_demo": false

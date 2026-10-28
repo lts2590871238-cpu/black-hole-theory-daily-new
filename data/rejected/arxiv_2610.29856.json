@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.29856",
     "arxiv_id": "2610.29856",
     "arxiv_version": 2,
-    "inspire_id": "3217437",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Efficient Eccentric and Quasicircular Effective-One-Body Waveforms via Near-Identity Averaging Transformations",
     "abstract_en": "Next-generation gravitational-wave detectors, such as LISA, the Einstein Telescope, and Cosmic Explorer, will require accurate and efficient models of long-lived, eccentric black-hole binary signals. In previous work, we reduced the cost of evolving nonspinning eccentric effective-one-body dynamics by recasting the equations of motion in terms of osculating orbital elements and applying near-identity averaging transformations to remove the fast orbital-timescale structure during the inspiral. However, the parametrization in terms of the eccentricity and relativistic anomaly becomes singular in the circular-orbit limit, excluding quasicircular binaries and the late stages of eccentric inspirals. Moreover, the cost of generating the waveform from the averaged dynamics limited the overall speed-up to a factor of $1.5-8$. In this work, we replace the eccentricity and relativistic anomaly by the Cartesian components of the eccentricity vector, in which the averaged equations are regular for all eccentricities $0 \\leq e < 1$. We also decompose the waveform modes into radial harmonics whose coefficients are tabulated as functions of the averaged variables, so that the waveform is assembled directly on the output time grid at a fixed cost per sample. We validate the method against the full effective-one-body evolution across the parameter space of binaries observable by ground-based detectors, now including circular orbits. At second postadiabatic order, the waveforms reach median mismatches of $\\sim 10^{-8}$ with a maximum of $1.1 \\times 10^{-5}$, while achieving speed-ups of $3-100 \\times$ on a single core or up to $300 \\times$ on eight cores against the serial EOB waveform. Given the speed-ups demonstrated here, we plan to apply these techniques to state-of-the-art SEOBNR models in future work.",
@@ -17,31 +17,23 @@
     "categories": [
       "gr-qc"
     ],
-    "submitted_at": "2026-10-21T00:00:00Z",
-    "updated_at": "2026-10-24T04:10:30.938226Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-21T15:14:41Z",
+    "updated_at": "2026-10-22T11:56:04Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 1,
-    "citation_count_without_self_citations": 1,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.29856v2",
     "pdf_url": "https://arxiv.org/pdf/2610.29856v2",
-    "inspire_url": "https://inspirehep.net/literature/3217437",
+    "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.29856",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
         "url": "https://arxiv.org/abs/2610.29856v2"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3217437",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
-        "url": "https://inspirehep.net/literature/3217437"
       }
     ],
     "is_demo": false

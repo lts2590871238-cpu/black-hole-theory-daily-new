@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35498",
+    "arxiv_id": "2610.35498",
+    "arxiv_version": null,
+    "inspire_id": "3219067",
+    "doi": null,
+    "title_en": "Fast and accurate rare-event simulation by Markov chain Monte Carlo for general quantum codes",
+    "abstract_en": "The splitting method estimates logical error rates of quantum error-correcting codes deep in the rare-event regime, where direct Monte Carlo sampling is prohibitively expensive. It relies on a Markov chain Monte Carlo (MCMC) sampler of faulty configurations, usually driven by one-bit-flip proposals. However, one-bit flips have been reported to be trapped on some codes, which biases the estimate. To address this issue, we propose a new kernel that combines locally balanced one-bit-flip proposals with a cluster-exchange move. We benchmark both kernels and direct Monte Carlo on twelve codes under code-capacity bit-flip noise in two ways, by comparing the mean fault weight with an MCMC-independent reference and by measuring the computation time to reach a fixed accuracy. In the first, our kernel agrees with the reference on every code, including those where one-bit flips are trapped. In the second, it is faster than one-bit flips wherever they are trapped, by orders of magnitude on some codes. Furthermore, at the lowest error rate, it is faster than direct Monte Carlo on every code, by more than four orders of magnitude on some.",
+    "authors": [
+      "Haruna, Junichi",
+      "Murakami, Kotaro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:41:46.214470Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219067",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219067",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219067"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

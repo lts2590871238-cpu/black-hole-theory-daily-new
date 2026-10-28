@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35478",
+    "arxiv_id": "2610.35478",
+    "arxiv_version": null,
+    "inspire_id": "3218767",
+    "doi": null,
+    "title_en": "Benchmarking quantum-annealing-based approaches for factory layout planning",
+    "abstract_en": "The earlystage of factory layout planning has a direct effect on the operating costs, efficiency, and productivity of manufacturing systems. Conventional automated planning approaches often face a trade-off between solution quality and computational effort. Recent studies have investigated the potential of quantum annealing (QA) for solving factory layout planning problems. However, existing studies have mainly focused on individual QA-based formulations, whereas current hybrid QA solvers support multiple model types that combine QA and classical methods. To explore the potential of QA for factory layout planning, this paper benchmarks four QA based approaches implemented with the corresponding solvers, including an iterative binary quadratic model (IBQM), a hybrid discrete quadratic model (HDQM), a hybrid constrained quadratic model (HCQM), and a hybrid nonlinear model (HNLM). To improve scalability, an iterative decomposition strategy is developed for IBQM, while a candidate selection procedure is introduced for HDQM. The approaches are benchmarked against genetic algorithm, particle swarm optimization, and a hybrid tabu search and simulated annealing approach on 14 layout instances with different layout sizes, geometric complexity, spatial restrictions, and transport route configurations. The comparative analysis considers solution quality, computation time, and scalability. The results show that QA-based approaches achieve competitive solution quality and substantial computational advantages, reducing computation time by up to 94.51% relative to the classical reference methods. Among them, IBQM obtains the best solution quality in 78.6% of the instances, with a maximum improvement of 17.41% associated with an 81.34% reduction in computation time. These findings provide a basis for their further application in industrial layout planning.",
+    "authors": [
+      "Wu, Xiangqian",
+      "Schworm, Philipp",
+      "Wagner, Marcel",
+      "Aurich, Jan C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:43:17.734074Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218767",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218767",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218767"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

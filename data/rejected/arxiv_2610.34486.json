@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.34486",
+    "arxiv_id": "2610.34486",
+    "arxiv_version": null,
+    "inspire_id": "3218952",
+    "doi": null,
+    "title_en": "QQLink: A Declarative Framework for Multi-QPU Quantum Workflow Orchestration",
+    "abstract_en": "Distributed quantum protocols require measurement outcomes produced at one node to control operations at another. We present QQLink, a programming and orchestration layer that expresses these dependencies in a single program, using workflow nodes, deferred measurement references, and declared entanglement, and derives the cross-node coordination automatically. Its planner constructs a provably acyclic dependency graph in time linear in the total size of the instructions' qubit footprints. The same programs execute through simulator backends or are lowered to dynamic circuits on partitioned quantum hardware. We evaluate seven protocol workflows. Exhaustive feedforward-branch tests on the simulator runtime path, over tomographically complete input sets, yield output-state infidelities of at most $5\\times10^{-12}$ and no incorrect classical outputs, and replaying every plan in random topological orders leaves each final state unchanged. Separate executor processes run the plans with delayed messages, with the joint quantum state held by a centralized simulation service. Every run with the full plan is correct, and removing required cross-node dependencies causes protocol failures. The lowered circuits match hand-written implementations of the same construction in two-qubit gate and conditional-block counts. Runs on two IBM Heron processors, each partitioned into virtual QPUs, demonstrate same-chip execution in two sessions a week apart. The runs also show large variation between sessions and losses beyond what calibration-derived noise models predict. Coherence-sensitive checks do not establish coherent Toffoli operation or preservation of the intended repetition-code superposition. These results support QQLink's workflow semantics on the tested execution paths and identify limits of the current hardware realization; execution across physically networked QPUs remains future work.",
+    "authors": [
+      "Ortega, Vicente Leyton",
+      "Miniskar, Narasinga Rao",
+      "Naughton, Thomas",
+      "Humble, Travis S."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-25T00:00:00Z",
+    "updated_at": "2026-10-27T14:41:10.978809Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218952",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218952",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218952"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

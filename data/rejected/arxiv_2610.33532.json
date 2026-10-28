@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33532",
+    "arxiv_id": "2610.33532",
+    "arxiv_version": null,
+    "inspire_id": "3218832",
+    "doi": null,
+    "title_en": "Designing Quantum Solutions to the Closest String Problem with the Non-Variational QWOA",
+    "abstract_en": "Quantum computing offers promising approaches to combinatorial optimization problems whose search spaces grow exponentially with problem size. The Closest String problem belongs to this category, which seeks a string that minimizes the maximum Hamming distance to any string in a given collection of reference strings. In this work, we present an end-to-end quantum implementation of the Closest String problem using the Non-Variational Quantum Walk Optimization Algorithm (NV-QWOA), evaluating its resource requirements and solution amplification capabilities. Our automated workflow converts arbitrary problem instances into quantum circuits expressed in one- or two-qubit gates that encode candidate solutions, evaluate the objective function, and apply NV-QWOA optimisation to increase the measurement probabilities of high-quality solutions. Analytical resource estimates yield a qubit complexity of $\\mathcal{O}(nm\\log k)$ and a circuit depth of $\\mathcal{O}(pm\\log^2 n + pn\\log n)$, where $n$ is the string length, $m$ is the number of reference strings, $k$ is the alphabet size, and $p$ is the number of NV-QWOA iterations. We introduce a revised prescription for the phase-separation parameter, $γ$, that depends on problem size but requires no instance-specific optimization. This prescription mitigates excessive phase wrapping modulo $2π$, which can weaken the relationship between objective values and the phases guiding the optimization dynamics. Across all simulated problem sizes, the algorithm consistently amplifies optimal and near-optimal candidates. This work provides an explicit gate-level implementation, an improved phase-scaling method, and a foundation for hardware experiments and benchmarking against classical algorithms.",
+    "authors": [
+      "Rossdeutscher, Benjamin",
+      "Wang, Jingbo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T14:41:17.458002Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218832",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218832",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218832"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

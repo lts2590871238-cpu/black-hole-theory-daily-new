@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.37552",
+    "arxiv_id": "2610.37552",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Meet-in-the-Middle Compilation of the $[\\mathrm{CNOT}]$ Class with Fibonacci Anyons",
+    "abstract_en": "Compilation of two-qubit Fibonacci anyon gates is complicated by leakage ($\\ell$) from the four-dimensional computational sector to the fifth state of the fusion space. We construct a GPU pipeline to find low-leakage representatives of the $[\\text{CNOT}]$ class on different subsets of the braid group. We exhaustively explore the full positive five-generator alphabet up to $L=21$ with minimal leakage $\\ell\\sim10^{-3}$ and error $d_{[\\text{CNOT}]}\\sim 10^{-8}$ on it. To reach larger lengths, the search space is successively narrowed to three-generator, boundary-$σ_3$, and palindromic braids, and by considering only the Garside left normal form. These optimizations allow us to reach $L=72$. For $L=69$, a braid with $\\ell\\sim10^{-10}$ and $d_{[\\text{CNOT}]}\\sim 10^{-10}$ is found. In addition to directly enumerating optimal braids, we proved that $\\ell\\in\\mathbb Z[\\varphi]$, and any nonzero leakage obeys an exponential lower bound in the braid length, and obtained the limit laws $F_{3,\\infty}(\\ell)=\\ell^2$ and $F_{5,\\infty}(\\ell)=\\ell^4$ for our sets. Using asymptotics for the distribution function $F$, we showed that for sufficiently long braids, the asymptotics of exhaustive search are better than the asymptotics of random sampling for finding low-leakage braids.",
+    "authors": [
+      "Matvei Fedin",
+      "Andrey Morozov"
+    ],
+    "categories": [
+      "quant-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-10-27T17:01:43Z",
+    "updated_at": "2026-10-27T17:01:43Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.37552v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37552v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.37552",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2610.37552v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

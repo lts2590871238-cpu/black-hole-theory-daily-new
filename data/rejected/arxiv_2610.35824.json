@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35824",
+    "arxiv_id": "2610.35824",
+    "arxiv_version": null,
+    "inspire_id": "3219108",
+    "doi": null,
+    "title_en": "Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems",
+    "abstract_en": "Discrete nonlinear dynamical systems arise in population models, iterative optimization, and numerical simulations, where computing many iterations can be costly in high dimensions. We study Carleman embedding for forced quadratic discrete systems and its application to quantum state preparation. Under explicit stability and initial-state assumptions, we prove that the truncation error decreases geometrically with the embedding degree, uniformly over all iterations. A central obstacle in discrete time is that the lifted update can become dense even when the original coefficient maps are sparse. We overcome this obstacle by constructing an exact auxiliary linear-system representation that applies the coefficient maps one tensor factor at a time, with row and column sparsities bounded independently of the truncation degree. After rescaling, the associated history system has a condition number that grows linearly with the iteration count, uniformly in the truncation degree. These results yield a quantum algorithm for preparing an approximation to the normalized $n$th iterate with constant success probability. Under coherent input-access assumptions, and for fixed sparsity, stability parameters, and a known positive lower bound on the final-state norm, the oracle query complexity is linear in $n$ and polylogarithmic in the inverse accuracy. Numerical experiments in one and three dimensions illustrate the convergence of the truncated embedding.",
+    "authors": [
+      "Wu, Hsuan-Cheng",
+      "Li, Xiantao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T15:50:52.747736Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219108",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219108",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219108"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

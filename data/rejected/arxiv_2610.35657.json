@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35657",
+    "arxiv_id": "2610.35657",
+    "arxiv_version": null,
+    "inspire_id": "3219078",
+    "doi": null,
+    "title_en": "Quantum-Inspired and Optimization-Based CT Reconstruction Through Spin-Error",
+    "abstract_en": "Quantum-optimization-based computed tomography (CT) reconstruction has demonstrated quantum supremacy in reconstruction accuracy over conventional classical methods under sparse-view and corrupted-sinogram conditions. However, scaling this approach remains challenging because larger images require increasingly many binary variables and interactions in the underlying quadratic unconstrained binary optimization (QUBO) model. Even with iterative region-of-interest (ROI) refinement, a 60 by 60 ROI with three X-ray mass attenuation coefficients requires 10,800 binary variables under our encoding. As an initial step toward larger quantum CT images, we investigate simulated annealing (SA) followed by spin-error mitigation for optimisation (SEMO), without altering the CT-QUBO objective. We evaluate three 54-view ROI reconstruction instances and nine-view reconstruction with detector-row corruption, comparing SA and SEMO with selected hybrid quantum-classical solver results. For the ROI cases, SEMO reduced the numbers of incorrectly reconstructed pixels in low-budget SA outputs from 13 to 1, 38 to 0, and 54 to 15. With 20 percent detector-row corruption, three of four selected SA and SEMO pairs achieved exact reconstruction. Applying SEMO to one hybrid-solver output reduced its ROI error from 78 to 1 pixel. Improvements were instance-dependent: in one corrupted-sinogram case, QUBO energy decreased while image-domain error increased slightly; in one ROI case, the refined image retained 15 incorrect pixels despite having lower QUBO energy than ground truth. At the evaluated problem sizes, SA and SEMO attained reconstruction accuracy comparable to or better than selected unmitigated hybrid-solver results, providing an initial solution-quality benchmark for future larger-scale, parallelized quantum CT image reconstruction.",
+    "authors": [
+      "Lee, Hyunju",
+      "Lee, Jeonghwa",
+      "Yang, Yushuang Sam",
+      "Chu, Clement",
+      "Murphy, Anthony B.",
+      "Jun, Kyungtaek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:43:17.640409Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219078",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219078",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219078"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

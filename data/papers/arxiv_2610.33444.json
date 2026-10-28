@@ -5,7 +5,7 @@
     "canonical_key": "arxiv:2610.33444",
     "arxiv_id": "2610.33444",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3218818",
     "doi": null,
     "title_en": "Accurate pulsar timing array likelihoods: better low-rank covariance for gravitational wave background",
     "abstract_en": "In pulsar timing array analyses, the stochastic process describing the gravitational wave background is typically modeled using a Fourier basis at discrete frequencies with an interval $\\sim 0.1~\\mathrm{yr}^{-1}$, with a diagonal Fourier-domain covariance determined by the power spectral density at the corresponding frequencies. Although this rank-reduced modeling significantly accelerates likelihood evaluation and provides a good approximation in many scenarios, it can lead to biased parameter inference because it is insensitive to spectral features on scales smaller than $\\sim 0.1~\\mathrm{yr}^{-1}$. We introduce a better construction of the low-rank covariance for low-frequency processes by maximizing the log-likelihood averaged over an ensemble of realizations drawn from the true model likelihood. In this approach, the basis-domain covariance matrix is sensitive to the entire model spectrum and is generally non-diagonal. Using two mock datasets, we demonstrate improved likelihood accuracy and more faithful recovery of spectral features compared to the conventional Fourier-diagonal model. Benchmark tests show that this new model requires a computational cost comparable to that of the conventional approach.",
@@ -18,23 +18,31 @@
       "gr-qc",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-10-24T04:46:08Z",
-    "updated_at": "2026-10-24T04:46:08Z",
-    "document_types": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T14:43:21.703120Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.33444v1",
     "pdf_url": "https://arxiv.org/pdf/2610.33444v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218818",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.33444",
-        "fetched_at": "2026-10-27T02:10:54.806759Z",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
         "url": "https://arxiv.org/abs/2610.33444v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3218818",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218818"
       }
     ],
     "is_demo": false
@@ -96,5 +104,5 @@
     "schema_version_used": "curation-schema-1.0",
     "created_at": "2026-10-27T02:13:15.238390Z"
   },
-  "published_at": "2026-10-27T02:13:15.238807Z"
+  "published_at": "2026-10-28T02:27:18.497215Z"
 }

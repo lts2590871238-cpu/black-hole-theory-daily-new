@@ -4,43 +4,36 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.24577",
     "arxiv_id": "2608.24577",
-    "arxiv_version": 1,
-    "inspire_id": "3195733",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
-    "title_en": "The Bondi Dipole in Full Numerical Relativity: a Self-Accelerating Positive-Negative Mass Binary",
-    "abstract_en": "Bondi showed in 1957 that bodies of opposite active gravitational mass self-accelerate: the negative chases the positive it repels, and the pair runs off together. We evolve this \"Bondi dipole\" in $3+1$ numerical relativity: two complex scalars share identical Klein-Gordon dynamics; only the phantom enters Einstein's equations with a minus sign -- inertial and passive masses positive, active mass negative. Across a matrix of thirty-four evolutions -- runaway pairs, controls, and parameter scans -- a mass-matched pair released at rest accelerates as a unit. The midpoint moves $3.00\\pm0.01$ by $t=200$ with the separation held to 1%, and reaches a speed of $0.056c$ by $t=400$ with the acceleration steady to 2%; the total signed momentum holds at zero to $\\lesssim 1$%. The force is gravity on both of its axes: $a\\propto d^{-2.03\\pm0.01}$ over $d=8$ to $20$, $a\\propto M^{0.97\\pm0.06}$ over a factor $2.5$ in mass, and $a\\,d^2/\\bar{M}=1$ within 2.4% on the equal-mass ladder. Swapping the sectors inverts the acceleration to two parts in $10^5$; gauge, solver-depth and mesh variations move the drift by $\\lesssim 0.01$% and box doubling by 4%; same-sign control pairs hold their centroids to $\\lesssim 8\\times10^{-4}$ even while merging. The runaway carries no detectable gravitational radiation: the signed dipole cannot radiate, the quadrupole's $\\ddot{Q}$ is constant, and the measured $\\ell=2$ amplitude falls as $r^{-4.8}$ -- near zone, not flux. The phantom star is, to our knowledge, the first asymptotically flat body of negative ADM mass evolved in numerical relativity; alone it survives to $t=1000$, slowly relaxing outward.",
+    "title_en": "The Bondi dipole in full numerical relativity: a self-accelerating positive-negative mass binary",
+    "abstract_en": "Bondi showed in 1957 that a body of negative active gravitational mass and a positive one should accelerate together without limit while their total momentum stays zero. We test this prediction in full 3+1 numerical relativity, from constraint-satisfying initial data. The matter is two complex scalar fields with identical self-interactions, one of which enters the Einstein equations with the opposite sign; its stars have positive inertial and passive masses but negative active and Arnowitt-Deser-Misner (ADM) masses. To our knowledge, they are the first asymptotically flat bodies of negative ADM mass evolved in numerical relativity. A pair of stars with equal and opposite ADM masses accelerates as a single object at constant separation, and its total momentum stays zero to within 0.5%. The acceleration follows Newton's law of gravitation in both mass and separation, reverses when the stars are exchanged, and is absent in same-sign pairs and isolated stars. We detect no gravitational radiation. The results hold for head-on pairs released from rest, up to a few percent of the speed of light, and in the longest run the pair reaches a tenth of it with both stars intact.",
     "authors": [
-      "Nikita M. Shirokov"
+      "Nikita M. Shirokov",
+      "Ilya Nachevsky"
     ],
     "categories": [
       "gr-qc",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-08-25T00:00:00Z",
-    "updated_at": "2026-08-27T03:59:19.779369Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-25T14:04:41Z",
+    "updated_at": "2026-10-26T10:34:45Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.24577v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.24577v1",
-    "inspire_url": "https://inspirehep.net/literature/3195733",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.24577v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.24577v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.24577",
-        "fetched_at": "2026-09-01T01:52:54.677573Z",
-        "url": "https://arxiv.org/abs/2608.24577v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3195733",
-        "fetched_at": "2026-09-01T01:52:54.677573Z",
-        "url": "https://inspirehep.net/literature/3195733"
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2608.24577v2"
       }
     ],
     "is_demo": false
@@ -63,42 +56,44 @@
     "schema_version": "1.0",
     "relevant": true,
     "primary_topic": "general_relativity_foundations",
-    "secondary_topics": [
-      "black_hole_thermodynamics"
-    ],
+    "secondary_topics": [],
     "scores": {
-      "theory_depth": 25,
-      "methodological_rigor": 18,
-      "novelty": 15,
-      "clarity": 9,
-      "metadata_quality": 8,
+      "theory_depth": 26,
+      "methodological_rigor": 17,
+      "novelty": 14,
+      "clarity": 8,
+      "metadata_quality": 4,
       "community_signal": 0,
-      "other": 5
+      "other": 7
     },
-    "total_score": 80,
+    "total_score": 76,
     "reject_reason_zh": "",
-    "selection_reason_zh": "论文在广义相对论框架下研究了负能动质量体的自加速行为，属于基础理论探索，具有高度的新颖性和理论深度。数值方法严谨，结果清晰，对于理解引力的基本性质有重要意义。",
-    "title_zh": "全数值相对论中的邦迪偶极子：一个自加速的正负质量双星系统",
-    "abstract_zh": "邦迪在1957年指出，具有相反主动引力质量的物体自加速：负质量追赶它所排斥的正质量，二者一起跑开。我们在$3+1$数值相对论中演化这种“邦迪偶极子”：两个复标量共享相同的克莱因-戈尔登动力学；只有幻影以负号进入爱因斯坦方程——惯性质量和被动质量为正，主动质量为负。在三十四次演化的矩阵中——逃逸对、对照和参数扫描——一个质量匹配的对从静止释放后作为一个整体加速。质心在$t=200$时移动了$3.00\\pm0.01$，分离度保持在1%，并在$t=400$时达到$0.056c$的速度，加速度稳定在2%；总的有符号动量保持在零附近，偏差$\\lesssim 1$%。该力在其两个轴上都表现为重力：$a\\propto d^{-2.03\\pm0.01}$在$d=8$到$20$之间，$a\\propto M^{0.97\\pm0.06}$在质量因子$2.5$范围内，且在等质量阶梯上$a\\,d^2/\\bar{M}=1$偏差在2.4%以内。交换扇区会将加速度反转至$10^5$分之二；规范、求解器深度和网格变化使漂移改变$\\lesssim 0.01$%，而盒加倍改变4%；同号控制对即使在合并时也能将其质心保持在$\\lesssim 8\\times10^{-4}$。逃逸对不携带可探测的引力辐射：有符号偶极子不能辐射，四极子的$\\ddot{Q}$是常数，测量的$\\ell=2$振幅按$r^{-4.8}$衰减——近场而非通量。据我们所知，幻影恒星是数值相对论中第一个演化的负ADM质量的渐近平坦体；它独自存活到$t=1000$，缓慢地向外弛豫。",
+    "selection_reason_zh": "该文在全 3+1 数值相对论中检验 Bondi 1957 年关于正负主动引力质量对自我加速的预测，首次演化出渐近平直且 ADM 质量为负的天体，并检验加速度对质量与间距的牛顿式依赖、动量守恒（0.5% 内）及无引力辐射等定性特征；理论深度与方法严谨性信号强，结果清晰且带有定量限定，值得点击阅读。",
+    "title_zh": "完整数值相对论中的 Bondi 偶极：一个自我加速的正负质量双星",
+    "abstract_zh": "Bondi 在 1957 年指出，一个具有负主动引力质量的物体和一个具有正主动引力质量的物体应当无限制地一起加速，而它们的总动量保持为零。我们在完整的 3+1 数值相对论中、从满足约束的初始数据出发检验这一预言。物质是两个具有相同自相互作用的复标量场，其中一个场以相反符号进入 Einstein 方程；其星体具有正惯性质量与正被动质量，但具有负的主动质量与负的 Arnowitt-Deser-Misner（ADM）质量。据我们所知，它们是在数值相对论中被演化的首批渐近平直且具有负 ADM 质量的天体。一对具有相等且相反 ADM 质量的星体作为一个单一物体以恒定间距加速，其总动量在 0.5% 以内保持为零。该加速度在质量和间距两方面都遵循牛顿万有引力定律，在交换两颗星体后反向，并且在同号配对和孤立星体情形下不存在。我们没有探测到引力辐射。这些结果对从静止释放的正面碰撞配对成立，速度可达光速的百分之几，而在最长的一次运行中，该配对达到光速的十分之一，且两颗星体均保持完整。",
     "keywords_en": [
       "Bondi dipole",
       "negative mass",
       "numerical relativity",
+      "ADM mass",
       "self-acceleration",
-      "ADM mass"
+      "initial data",
+      "gravitational radiation"
     ],
     "keywords_zh": [
-      "邦迪偶极子",
+      "Bondi 偶极",
       "负质量",
       "数值相对论",
-      "自加速",
-      "ADM质量"
+      "ADM 质量",
+      "自我加速",
+      "初始数据",
+      "引力辐射"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-08-28T07:01:33.475662Z"
+    "created_at": "2026-10-28T02:27:07.955764Z"
   },
-  "published_at": "2026-09-01T01:54:53.644744Z"
+  "published_at": "2026-10-28T02:27:07.956246Z"
 }

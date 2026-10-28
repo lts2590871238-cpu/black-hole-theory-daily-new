@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35792",
+    "arxiv_id": "2610.35792",
+    "arxiv_version": null,
+    "inspire_id": "3219124",
+    "doi": null,
+    "title_en": "Annealed sampling of diffusion models in lattice field theory",
+    "abstract_en": "Machine learning methods have recently gained increasing interest as possible means of solving critical slowing down in lattice field theory, with particular emphasis on sampling methods using field transformations such as normalizing flows, annealing/out-of-equilibrium methods, and diffusion models. Annealing methods provide appealing polynomial scaling and exactness guarantees, while diffusion models use a simple and efficient score-matching training procedure. This work explores a method combining these benefits, first training an energy-based diffusion model using score matching, then sampling using either stochastic normalizing flows (SNFs) or flow-transformed replica exchange (T-REX). The choice of sampling method can be made after training the diffusion model; the theoretical properties of SNFs and T-REX and their relative trade-offs are discussed. Numerical results are presented for scalar field theory and the O(3) non-linear sigma model, using a class of local-footprint energy models with efficient gradient and divergence calculations. Sampling from the trained models follows predicted exactness and scaling properties, and significantly improves over sampling methods without a learned component.",
+    "authors": [
+      "Kanwar, Gurtej",
+      "Vega, Octavio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T16:22:01.234211Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219124",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219124",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219124"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

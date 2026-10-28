@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.18854",
     "arxiv_id": "2610.18854",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": null,
     "doi": null,
-    "title_en": "A hierarchy of exact lower bounds on the Laughlin spectral gap",
-    "abstract_en": "We develop a bootstrap approach to deriving lower bounds on the spectral gap of the first Haldane pseudopotential Hamiltonian on the sphere with $N_Φ$ flux quanta for arbitrary $N_Φ$, including in the thermodynamic limit $N_Φ\\to \\infty$. Our approach can in principle be generalized to pseudopotentials describing other model wavefunctions such as the Moore-Read state or Read-Rezayi sequence. Our approach is based on Knabe's observation that if $H$ is a Hamiltonian with ground state energy $0$ then the spectral gap is at least $ε> 0$ if and only if $H^2 \\succeq εH$. To show this inequality, we split $H^2$ into two parts, one that can be analytically bounded and another that can be bounded using a finite semidefinite program (SDP). Crucially, the size of this program is determined only by cutoff parameters, and the program depends on $N_Φ$ only parametrically, allowing us to obtain numerically exact (up to solver precision) lower bounds on the gap. In order to turn these numerical bounds into mathematically rigorous bounds, we introduce an algorithm that can produce nearly-optimal exact feasible points for large rational SDPs. We additionally provide an algorithm that establishes the rank stability of the semidefinite program in the limit $N_Φ\\to \\infty$ which is needed to certify the bound in the thermodynamic limit. Beyond establishing the Laughlin gap and revealing a potential method for deriving spectral gap lower bounds for other pseudopotentials, our work provides a general method for turning numerical semidefinite programming bounds into rigorous mathematical proofs, which may have wide applicability.",
+    "title_en": "A Hierarchy of Exact Lower Bounds on the Laughlin Spectral Gap",
+    "abstract_en": "We develop a bootstrap approach to deriving lower bounds on the spectral gap of the first Haldane pseudopotential Hamiltonian on the sphere with $N_Φ$ flux quanta for arbitrary $N_Φ$, including in the thermodynamic limit $N_Φ\\to \\infty$. This method can in principle be generalized to pseudopotentials describing other model wavefunctions such as the Moore--Read state or Read--Rezayi sequence. Our approach is based on Knabe's observation that if $H$ is a Hamiltonian with ground state energy zero then the spectral gap is at least $ε> 0$ if and only if $H^2 \\succeq εH$. To show this inequality, we split $H^2$ into two parts, one that can be analytically bounded and another that can be bounded using a finite semidefinite program (SDP). Crucially, the size of this program is determined only by cutoff parameters, and the program depends on $N_Φ$ only parametrically, allowing us to obtain numerically exact (up to solver precision) lower bounds on the gap. In order to turn these numerical bounds into mathematically rigorous results, we introduce an algorithm that can produce nearly-optimal exact interior feasible points for large rational SDPs even if the affine constraints are highly redundant and ill-conditioned. We additionally provide an algorithm that establishes the rank stability of the SDP in the $N_Φ\\to \\infty$ limit, which is needed to certify the bound in the thermodynamic limit. Beyond establishing a Laughlin gap greater than $1/100$ in the thermodynamic limit and revealing a potential method for deriving spectral gap lower bounds for other pseudopotentials, our work provides a general method for turning numerical SDP bounds into rigorous mathematical proofs, which may have wide applicability. In particular, this work demonstrates that bootstrap methods can be used to rigorously resolve major open problems in quantum many-body physics.",
     "authors": [
       "Michael G. Scheer",
       "Eslam Khalaf"
@@ -16,22 +16,22 @@
       "cond-mat.str-el"
     ],
     "submitted_at": "2026-10-13T17:59:10Z",
-    "updated_at": "2026-10-13T17:59:10Z",
+    "updated_at": "2026-10-27T17:25:08Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2610.18854v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.18854v1",
+    "abs_url": "https://arxiv.org/abs/2610.18854v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.18854v2",
     "inspire_url": null,
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.18854",
-        "fetched_at": "2026-10-20T01:56:05.190051Z",
-        "url": "https://arxiv.org/abs/2610.18854v1"
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2610.18854v2"
       }
     ],
     "is_demo": false

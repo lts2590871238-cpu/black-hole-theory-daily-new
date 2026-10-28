@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33386",
+    "arxiv_id": "2610.33386",
+    "arxiv_version": null,
+    "inspire_id": "3218809",
+    "doi": null,
+    "title_en": "Decision-aware validation of zero-noise extrapolation in QAOA optimization landscapes",
+    "abstract_en": "Zero-noise extrapolation (ZNE) is usually validated by the accuracy of mitigated observables, yet variational quantum optimization uses those observables to select parameters. We ask whether, and by how much, an accuracy gain from ZNE coincides with a worse decision. In depth-one simulations of the quantum approximate optimization algorithm (QAOA) for MaxCut on four to six qubits, each sampled $120\\times120$ landscape yields both its mean-squared error (MSE) and the ideal regret of its selected grid minimum, comparing Richardson orders one to three with unmitigated estimation at the same total shot budget per grid point. In an exploratory screen of 675 conditions, whose per-point random seeds collide, a familywise (Holm) analysis retains only four of 540 replication conditions as showing both directional MSE improvement and regret increase. A frozen confirmation with 100 fresh paired repetitions per condition reproduces all four: median MSE improvements of 7.65-73.09% accompany median normalized regret increases of only 0.0031-0.0073. We distinguish a bias route, in which residual bias reorders the mean landscape, from a variance route, in which Richardson weights amplify finite-shot noise. Exact first and second moments on a bounded control grid find no bias-route reversal: mitigated mean landscapes preserve the ideal minima, and ZNE can more than halve expected MSE, yet finite-shot selections incur higher mean regret. Decision losses that survive strict testing are few and small in this benchmark, but reproducible and not revealed by aggregate MSE. We present a paired benchmark and recommend reporting decision regret alongside estimation error when mitigation is assessed for optimization. Results concern simulated exhaustive grids, not hardware or optimizer loops.",
+    "authors": [
+      "Alfaro, Vicenzo Scavino"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T14:42:46.776913Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218809",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218809",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218809"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

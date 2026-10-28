@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33843",
+    "arxiv_id": "2610.33843",
+    "arxiv_version": null,
+    "inspire_id": "3219130",
+    "doi": null,
+    "title_en": "Real-Time Recurrent Qubit-State Discrimination on a Heterogeneous AI-Engine-FPGA Accelerator",
+    "abstract_en": "Qubit readout, or qubit state discrimination, remains one of the slowest and most error-prone operations in superconducting quantum processors, making fast, accurate, and hardware-efficient classification essential for scalable quantum computing. Conventional discriminators integrate the I/Q record into a single point, discarding evidence a relaxing qubit leaves behind; full-resolution feed-forward classifiers recover it but are too costly to deploy under this constraint. Recurrent classifiers retain full resolution far more cheaply, but their loop-carried hidden state cannot fit a single AI Engine (AIE) tile's register capacity and spills to data memory, adding latency that grows with sequence length. We present a hardware-aware LSTM accelerator for an AMD Versal device that resolves this by partitioning at the dependency boundary - independent input projections on the AIE array, the loop-carried update in programmable logic (PL) - keeping pace with a 64 ns input cadence under a 1,000 ns budget. On the qubit affected by mid-readout state transitions, our design matches a full-resolution feed-forward network's accuracy (96.59% vs. 96.37%) using 403x fewer parameters and roughly 103x fewer DSPs while cutting relative error by 68.2% over GMM, 43.6% over QubiCML, and 16.82% over MF-NN. Using 4 out of 400 AIE tiles and 17 DSP58, it needs 2.2-8.2x fewer DSP58 blocks than QubiCML and MF-NN, and the AIE-PL partition cuts exposed tail latency by 60.3% versus a pure-AIE mapping and DSP58 usage 31.1x versus an all-PL implementation. Across eight qubits, a compact variant reaches 96.78% mean accuracy, the strongest hardware-deployed operating point. Temporal resolution and recurrent-state placement must then be treated jointly when designing low-latency quantum readout accelerators.",
+    "authors": [
+      "Le, Vu",
+      "Xu, Yilun",
+      "Vora, Neel",
+      "Huang, Gang",
+      "Ganesan, Deepak",
+      "Nguyen, Phuc"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T12:52:08.174391Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219130",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219130",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219130"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

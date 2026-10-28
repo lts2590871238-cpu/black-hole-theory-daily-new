@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35735",
+    "arxiv_id": "2610.35735",
+    "arxiv_version": null,
+    "inspire_id": "3219111",
+    "doi": null,
+    "title_en": "Decoding with alternating weighted graph sparsification for quantum low-density parity-check codes",
+    "abstract_en": "Real-time decoding is a fundamental necessity for building fault-tolerant quantum computers. In this work, we introduce decoding with alternating weighted graph sparsification (DAWG), an ensemble based approach that combines Tanner graph sparsification with ensembling belief-propagation (BP) decoders. The DAWG decoder runs BP decoders over the full detector error model Tanner graph for certain iterations to then transfer the posteriors to a sparsified graph in which additional rounds of BP are run. Each of the decoders in the ensemble uses a different transfer matrix to map the posterior information to the sparsified graph. We use the serial schedule for the minimum-sum BP decoders and, thus, employ Vibe decoding ideas by randomizing the schedules of each of them. The performance of the DAWG decoder is then numerically studied for bivariate bicycle codes and superdense color code circuits to be compared with other state-of-the-art decoding approaches. Importantly, the DAWG decoder shows a similar performance to Relay belief-propagation and Vibe decoding when combined with an order-$0$ Localized Statistics Decoding (LSD-$0$) post-processor. Crucially, the post-processor is called an order of magnitude less times than for Vibe with the same ensemble size, indicating that the introduced latency tail will be minimal. Furthermore, LSD-$0$ operates on a sparsified decoding graph of a fraction of the size of the full detector error model, which simplifies the resources required by specialized hardware to support it. Overall, the DAWG+LSD-$0$ decoder represents a viable low-cost BP-based decoding algorithm for quantum error correction codes.",
+    "authors": [
+      "Martinez, Josu Etxezarreta",
+      "Garcia-Herrero, Francisco",
+      "Otxoa, Ruben M.",
+      "Dastbasteh, Reza"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:42:59.860531Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219111",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219111",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219111"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

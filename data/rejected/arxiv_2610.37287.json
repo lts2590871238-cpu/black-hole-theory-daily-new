@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.37287",
+    "arxiv_id": "2610.37287",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "The First Deep Learning all-sky List of Fermi-LAT Gamma-ray Sources",
+    "abstract_en": "Aims: We develop a deep-learning-based pipeline to construct a list of γ-ray sources and to quantitatively assess the impact of background uncertainties on source detection and characterization. This work extends and enhances the existing AutoSource-ID algorithm, previously adopted on optical observations, for applications on γ-ray data. Methods: Source detection was performed through image segmentation using a U-Net architecture, while dedicated deep neural networks (DNNs) were employed for source localization, flux estimation, and the classification of detected sources as either genuine or spurious. The training data were generated from Monte Carlo simulations based on 10 years of Fermi-LAT observations. Results: We present the first Fermi-LAT γ-ray all-sky source list derived using a deep-learning-based method (1FDL), containing more than 3800 sources with estimated positions, fluxes, and probability scores that quantify the likelihood of each detection being genuine or spurious. We further evaluated the robustness of the pipeline against variations in the interstellar emission model (IEM) and compared the resulting source list with the 4FGL-DR2 catalog. Conclusion: We find that the our deep-learning-based approach achieves performance comparable to, or better than, the likelihood-based methods employed in the standard Fermi-LAT catalog pipeline when tested against changes in the IEM. The 1FDL source list is broadly consistent with the Fermi-LAT 4FGL-DR2 catalog obtained over the same 10-year observational period, including a few new sources confirmed in the recent Fermi-LAT 16-year source list (FL16Y). These results demonstrate the potential of DNN methods for the detection and characterization of γ-ray sources and provide a foundation for their application in future high-energy astrophysical analyses.",
+    "authors": [
+      "Saptashwa Bhattacharyya",
+      "Giacomo Principe",
+      "Dmitry Malyshev",
+      "Roberto Ruiz de Austri",
+      "Gabrijela Zaharijas",
+      "Sascha Caron",
+      "Fiorenzo Stoppa",
+      "Guðlaugur Johannesson"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-27T14:11:29Z",
+    "updated_at": "2026-10-27T14:11:29Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.37287v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37287v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.37287",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2610.37287v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

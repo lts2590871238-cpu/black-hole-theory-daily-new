@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33757",
+    "arxiv_id": "2610.33757",
+    "arxiv_version": null,
+    "inspire_id": "3218862",
+    "doi": null,
+    "title_en": "Dissecting flavor tagging with graph neural networks",
+    "abstract_en": "Graph neural networks such as ParticleNet are widely used for quark/gluon jet tagging. We study how the discriminating power of such a network is distributed between constituent multiplicity and the remaining structure of the jet, differentially in jet transverse momentum and multiplicity. To this end, we train ParticleNet on quark and gluon jets from Z+jet production in Pythia, with the two classes matched in transverse momentum and rapidity over the wide range $80\\leq p_{T}^{\\rm jet}\\leq 400$ GeV. We find that the network learns how the fraction of gluon jets changes with the multiplicity in every $p_{T}^{\\rm jet}$ bin, including the shift of the multiplicity at which quark and gluon jets are equally likely, which implies that it uses the jet scale (reconstructed from its constituents) jointly with its substructure. At fixed multiplicity, the gluon probabilities it assigns agree on average with the observed gluon fractions, but are widely spread about the mean. This allows us to interpret its output as the sum of the multiplicity log-likelihood ratio and a residual log-likelihood ratio at fixed multiplicity, which allows the network to correctly identify 20-34% of the jets whose multiplicity favors the opposite class. By rescaling the radial spread of the constituents at fixed multiplicity, we find that the network considers broader jets more gluon-like, and that this response is largest at low and intermediate multiplicity, where the multiplicity alone does not decide the class of a jet.",
+    "authors": [
+      "Budhraja, Ankita",
+      "Singh, Sunny Kumar",
+      "Singh, Balbeer"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T12:46:46.335008Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218862",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218862",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218862"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

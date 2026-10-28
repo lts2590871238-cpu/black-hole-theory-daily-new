@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.34003",
+    "arxiv_id": "2610.34003",
+    "arxiv_version": null,
+    "inspire_id": "3218870",
+    "doi": null,
+    "title_en": "Resource-Optimal Screening for Two-Tier Quantum System Characterization",
+    "abstract_en": "Quantum processing units (QPUs) require frequent benchmarking to track hardware drift, yet standard protocols such as randomized benchmarking are resource-intensive and compete with application workloads for scarce QPU time. We present a resource-optimal screening strategy that combines a two-tier, risk-based testing architecture with optimal experiment design: a lightweight screening probe runs regularly and triggers expensive full characterization only when statistically significant change is detected, while the probe itself is designed to maximize detection sensitivity under explicit resource constraints. For an exponential fidelity model, we derive closed-form optimal circuit sizes and introduce an effective gate count that renders the analysis hardware-independent. We instantiate the strategy for two applications. For gate-quality verification, we show that optimally designed screening probes outperform randomized benchmarking with optimal experimental design (OED) by more than 4$\\times$ in detection rate at equal resource cost. For compiler benchmarking, we formalize compiler comparison as a paired hypothesis test and derive the optimal circuit size for distinguishing compilation strategies. Despite their different observables and test statistics, both applications yield structurally the same closed-form expression for the optimal probe circuit size as a function of gate fidelity, illustrating the generality of the framework. Numerical and hardware experiments on QPUs (Rigetti Ankaa-3, IQM Garnet, IQM Emerald) confirm the theoretical predictions, with observed optimal circuit sizes matching the derived values across all devices.",
+    "authors": [
+      "Chen, Yi-Ting",
+      "Dalvi, Aniket S.",
+      "Quetschlich, Nils"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-25T00:00:00Z",
+    "updated_at": "2026-10-27T14:42:46.970234Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218870",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218870",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218870"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

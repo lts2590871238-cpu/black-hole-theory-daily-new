@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33521",
+    "arxiv_id": "2610.33521",
+    "arxiv_version": null,
+    "inspire_id": "3218715",
+    "doi": null,
+    "title_en": "Communication Complexity of Integer Matrix Singularity",
+    "abstract_en": "Alice and Bob hold complementary halves of the columns of an $n\\times n$ matrix of $k$-bit integers and decide whether it is singular over $\\mathbb Q$. Up to constant-factor dimension growth, this partitioned problem is equivalent to additive singularity, where Alice and Bob hold $n\\times n$ matrices $A,B$ of $k$-bit integers and test the singularity of $A+B$ over $\\mathbb Q$. We prove a bounded-error quantum lower bound $Ω(\\min\\{n^{3/2}\\sqrt{k\\log n},n^2\\log(nk)\\})$ and a randomized upper bound $O(n^2\\min\\{k,\\log(k+\\log n)\\})$. The bounds match at $Θ(n^2\\log(nk))$ for $k\\ge n\\log n$. The lower bound holds even under the promise of rank $n-1$ versus $n$. Its proof combines an integer witness with a local digit encoding, while the upper-bound protocol lifts modular kernel relations using short messages. Bitwise sharing changes how the communication complexity depends on the entry bit length $k$. If Alice and Bob instead hold $n\\times n$ matrices $A,B$ of $k$-bit integers and test whether their entrywise bitwise XOR $A\\oplus B$ is singular over $\\mathbb Q$, we prove a quantum lower bound $Ω(n^2k)$, matching the trivial upper bound. This lower bound holds even under the promise of rank $n-1$ versus $n$. Our proof uses a dense weighted equation and a signed Fourier witness whose exceptional dyadic frequencies can be removed at small variation cost.",
+    "authors": [
+      "Wang, Chengu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-27T15:43:45.238412Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218715",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218715",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218715"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

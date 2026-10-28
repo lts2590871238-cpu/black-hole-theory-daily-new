@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.34506",
+    "arxiv_id": "2610.34506",
+    "arxiv_version": null,
+    "inspire_id": "3218959",
+    "doi": null,
+    "title_en": "Model-Uncertainty-Aware Digital Twins for Non-Markovian Quantum Repeater Memories",
+    "abstract_en": "Quantum-repeater controllers need reliable estimates of stored entanglement as adjacent links are generated. Fixed exponential lifetimes miss non-Markovian revivals, while complex surrogates are unnecessary when the microscopic family is known. We present QMemTwin, a physics-constrained digital twin that accounts for model uncertainty. It calibrates a bank of contractive passive state-space models, combines their amplitudes with finite-sample-corrected Akaike weights, and abstains when temporal-holdout data indicate unsupported dynamics. Passivity guarantees a completely positive, trace-preserving amplitude-damping channel for each candidate and their convex amplitude average. We evaluate [N cases] synthetic memories: [N supported] supported passive time-invariant cases and [N structural] nonstationary structural-shift cases. In the matched one-pseudomode regime, the correctly specified one-pseudomode fit performs best. Across [N unknown] supported cases with uncertain families, QMemTwin reduces population RMSE by [population reduction]% and Bell-fidelity RMSE by [Bell reduction]% relative to the two-pseudomode model; both paired effects remain significant after Holm correction. The flexible passive model has a slightly lower mean error for unknown families but is statistically indistinguishable from QMemTwin and loses accuracy in the matched regime. The temporal-holdout gate detects [detection]% of structural shifts, with [false alarm]% false alarms on supported families and AUROC [AUC]. In 2-, 4-, and 8-link repeater chains, the mixed cohort shows no significant 8-link goodput gain. A predeclared high-backflow stress cohort yields an 8-link goodput gain of [goodput gain]% over the two-pseudomode model, with paired p = [p value]. These results favor using a known family when available, accounting for model uncertainty otherwise and abstaining on unsupported dynamics.",
+    "authors": [
+      "Haseeb, Muhammad Waqas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-25T00:00:00Z",
+    "updated_at": "2026-10-27T15:43:13.045105Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218959",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218959",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218959"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

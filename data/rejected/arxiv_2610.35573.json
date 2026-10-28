@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35573",
+    "arxiv_id": "2610.35573",
+    "arxiv_version": 1,
+    "inspire_id": "3219032",
+    "doi": null,
+    "title_en": "Classification of Fermi Blazars of Uncertain Type Using Positive-Unlabelled Machine Learning",
+    "abstract_en": "We apply positive-unlabelled (PU) machine learning to the 1623 blazars of uncertain type (BCUs) in the Fermi Large Area Telescope Fourth Source Catalogue, Data Release 4 (4FGL-DR4). Five PU classifiers are trained on seven gamma-ray features, once with the 820 flat-spectrum radio quasars (FSRQs) and once with the 1490 BL Lac objects as the labelled class (FSRQ mode and BL Lac mode). Each source is scored out of fold over 100 repeated five-fold splits, and its confidence is the fraction of splits in which at least three of the five classifiers flag it. At a confidence of at least 0.1, 437 BCUs are FSRQ-like, 597 are BL Lac-like, 12 are flagged in both modes and 577 in neither. On known sources the ensemble reaches a recall of 0.80 in FSRQ mode and 0.82 in BL Lac mode at a false-positive rate of 0.08, but a logistic regression trained on the labelled sources alone does at least as well, so PU learning gives no accuracy gain here. Removing the sky coordinates from the features does not lower the performance on known sources but adds 107 BCUs to the candidate lists and drops 30, which is consistent with the coordinates acting as a selection shortcut, so we exclude them. We check the candidates against published optical spectra, SDSS-V spectra, and BCUs that later received a class in the catalogue. Among sources assigned a single class, BL Lac-like calls are correct for 84 to 100% of the sources and FSRQ-like calls for 58 to 83%, depending on the sample. These samples come from spectroscopic follow-up and do not represent all BCUs. The candidates are fainter and lie closer to the Galactic plane than the labelled sources, and the excess of unclassified BCUs in the plane is not explained. We release the confidences of all 1623 BCUs.",
+    "authors": [
+      "Sikandar Akbar",
+      "Zahir Shah",
+      "Zahoor Malik",
+      "Athar A. Dar"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T16:02:43.130524Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.35573v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.35573v1",
+    "inspire_url": "https://inspirehep.net/literature/3219032",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.35573",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2610.35573v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3219032",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219032"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

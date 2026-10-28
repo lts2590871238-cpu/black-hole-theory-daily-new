@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35126",
+    "arxiv_id": "2610.35126",
+    "arxiv_version": null,
+    "inspire_id": "3219017",
+    "doi": null,
+    "title_en": "Comparing classical and quantum QUBO solvers: optimality, trajectory diagnostics, and limits of solver selection",
+    "abstract_en": "Comparing solvers for quadratic unconstrained binary optimization (QUBO) requires distinguishing solution quality from optimality certification. We compare classical, tensor-network, and fixed-schedule quantum approaches on 180 benchmark instances from ten families with 14-48 variables, supplemented by harder synthetic instances with known optimal solutions, extending to 128 variables. On the main benchmark, a general-purpose branch-and-cut solver matches all reference energies and certifies 176 instances within a 600,s cap. When the known optima are moved to randomly chosen bitstrings, the search comparison changes: at n = 48 the branch-and-cut solver finds only four of ten optima and certifies none, whereas parallel tempering reaches every optimum in every tested run at a 60,s budget. Structural and trajectory diagnostics explain aspects of tensor-network performance. A treewidth bound ranks trajectory bond-dimension demand at Spearman $ρ= 0.78$ in sample and $0.73$ out of sample, but provides only a coarse runtime estimate. Controlled experiments identify excited-state trapping during warm-started density-matrix renormalization group (DMRG) sweeps and demonstrate mitigation by restarting the variational search. These diagnostics do not yield a validated solver-selection rule. The tested linear-ramp quantum approximate optimization algorithm (LR-QAOA) runs offer no solution-quality improvement over the classical comparators. In the separate Wishart scaling study, on the harder setting, none of the classical methods tested reaches the optimum at the sampled sizes from n = 72 onward within the tested budgets. While this does not provide evidence for quantum advantage, it identifies a domain for further investigation.",
+    "authors": [
+      "Hellstern, Gerhard",
+      "Schacht, Cedric",
+      "Zaefferer, Martin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:42:57.281088Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219017",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219017",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219017"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

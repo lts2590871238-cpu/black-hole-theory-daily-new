@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2512.10228",
+    "arxiv_id": "2512.10228",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": "10.3847/1538-4357/aeaede",
+    "title_en": "FEADME: Fast Elliptical Accretion Disk Modeling Engine",
+    "abstract_en": "We present FEADME (Fast Elliptical Accretion Disk Modeling Engine), a GPU-accelerated Python framework for modeling broad Balmer-line emission with a relativistic elliptical accretion-disk formalism. Using JAX and NumPyro for differentiable forward modeling and Bayesian inference, FEADME enables reproducible analyses of large samples of disk-dominated emission-line profiles. We apply the framework to 237 double-peaked emitters (DPEs) and five tidal disruption events (TDEs) with disk-like H$α$ emission, fitting three model families per spectrum and selecting the preferred model using the widely applicable information criterion (WAIC). After posterior-quality filtering, the disk-bearing active galactic nuclei (AGN) sample contains 165 sources and the TDE sample contains 27 usable epochs. Within the common elliptical-disk model, AGN occupy a broad, continuous distribution of disk geometries and kinematics summarized by five phenomenological Gaussian-mixture morphology bins, while TDE and AGN parameters overlap in radial scale, local broadening, and emissivity slope. The TDE epochs tend toward lower fitted eccentricities and broader non-disk Gaussian components. Comparison with published circular-disk plus spiral-arm fits to the same AGN spectra produces substantially different distributions of inclination, radii, emissivity slope, and local broadening, demonstrating that these inferred parameters depend strongly on the treatment of profile asymmetry. Most AGN and TDEs favor models containing a disk and an additional broad-line component, suggesting that disk emission commonly coexists with more isotropic or wind-driven gas. These results demonstrate FEADME's utility for population studies and the importance of a consistent asymmetry prescription when comparing disk structures across accretion environments.",
+    "authors": [
+      "Nicholas Earl",
+      "K. Decker French",
+      "Jason T. Hinkle",
+      "Yashasvi Moon",
+      "Margaret Shepherd",
+      "Margaret E. Verrico",
+      "Samaresh Mondal",
+      "Ferdinand"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2025-12-11T02:22:59Z",
+    "updated_at": "2026-10-27T06:50:44Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2512.10228v3",
+    "pdf_url": "https://arxiv.org/pdf/2512.10228v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2512.10228",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://arxiv.org/abs/2512.10228v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

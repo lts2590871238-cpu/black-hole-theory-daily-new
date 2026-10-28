@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.35205",
+    "arxiv_id": "2610.35205",
+    "arxiv_version": null,
+    "inspire_id": "3219050",
+    "doi": null,
+    "title_en": "Basis-set error bounds for first-quantised quantum simulation of chemistry",
+    "abstract_en": "In quantum simulation of electronic structure it is often expected that the estimate of the ground energy converges to the continuum basis limit at a rate of $\\mathcal O(N^{-1})$ for a basis of size $N$. This has been found in analytical and numerical studies, but without a rigorous treatment of the error in the quantities considered in quantum algorithms. Here we show the $\\mathcal O(N^{-1})$ scaling of the error for a wide range of cases needed for quantum simulation of chemistry. We show the error in the ground energy scales as $\\mathcal O(N^{-1})$ for plane-wave as well as spatial grid bases. For the spatial grid we consider both a periodic system and a non-periodic system with open boundaries. For time evolution, our bound on the error in the state itself is weaker than $\\mathcal O(N^{-1})$, but we show that the error in observables scales as $\\widetilde{\\mathcal O}(N^{-1})$ in important cases. In particular, we may consider a smoothed observable that describes the position of particles. We show that this error scales as $\\mathcal O(N^{-5/3}+tN^{-1})$ for time $t$, again both for plane-wave and spatial grid bases. For the non-periodic grid case we use a condition that the true evolution would not result in significant leakage past the boundaries, which introduces basis error unrelated to the resolution of the discretisation. We also show the error in the kinetic energy of a particle scales as $\\mathcal O((t+\\log N)/N)$ for the plane-wave and grid bases. Together, these results show that $\\mathcal O(N^{-1})$ scaling of the error holds for many of the relevant cases for quantum algorithms (with a trivial log factor for kinetic energy).",
+    "authors": [
+      "Berry, Dominic W.",
+      "Tikku, Arkin",
+      "Simon, Sophia",
+      "Babbush, Ryan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-26T00:00:00Z",
+    "updated_at": "2026-10-27T14:43:04.702704Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219050",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219050",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3219050"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

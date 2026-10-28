@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.33188",
+    "arxiv_id": "2610.33188",
+    "arxiv_version": null,
+    "inspire_id": "3218807",
+    "doi": null,
+    "title_en": "Quantum Heuristic Separation of Comb Inequalities for the Travelling Salesman Problem",
+    "abstract_en": "Comb inequalities are essential cutting planes for the travelling salesman problem, yet their separation remains computationally challenging. We propose a quantum heuristic separation algorithm for this family of inequalities. The algorithm uses a procedure that prepares a uniform superposition of all combs with a fixed number of teeth using polynomially many gates and qubits. As part of this procedure, we present a circuit that coherently encodes the Hamming weight of a data register in one-hot form in an auxiliary register. The separation algorithm then searches for violated inequalities using the Grover-Mixer Quantum Alternating Operator Ansatz. Its running time is polynomial under prescribed polynomial budgets for the number of QAOA rounds, parameter optimization steps and samples gathered, although we provide no evidence that such budgets suffice to find a violated comb with constant probability when one exists. We provide an explicit circuit construction for the mixer unitary, the full problem Hamiltonian and a resource analysis.",
+    "authors": [
+      "Finet, Yohan",
+      "Drouin-Touchette, Victor"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-23T00:00:00Z",
+    "updated_at": "2026-10-27T14:42:50.503166Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218807",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218807",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218807"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.34492",
+    "arxiv_id": "2610.34492",
+    "arxiv_version": null,
+    "inspire_id": "3218716",
+    "doi": null,
+    "title_en": "Wave Is All You Need: A Quantum Language Model Based on Fully Connected Quantum Boltzmann Machine",
+    "abstract_en": "This work proposes a self-attention mechanism based on the fully connected quantum Boltzmann machine (FC-QBM), and further constructs a fully connected quantum Boltzmann machine language model (FC-QBM-LM) using the mechanism as the core engine. By performing unitary evolution on semantic quantum states, the mechanism implicitly implements positional encoding and self-attention computation, eliminating the need to decompose continuous semantic streams into discrete matrices for explicit matrix multiplication, with the measurement results naturally satisfying the normalization condition. Specifically, this work rigorously derives the computational principle of the self-attention mechanism based on FC-QBM, and demonstrates that this mechanism is mathematically equivalent to the classical self-attention mechanism. The mathematical principles governing the training and generation of FC-QBM-LM are thoroughly derived, and the two corresponding algorithms are subsequently developed. An 8-qubit FC-QBM-LM is finally constructed and trained on the corpus of Tang poetry. Under the 8-qubit setting, the quantum layer implements the entire positional encoding and self-attention computation pipeline with only 44 parameters. In the noiseless scenario, the model exhibits favorable convergence. Furthermore, the quantum circuit proposed in this work, which terminates with Y-axis rotation gates, achieves better convergence than the counterpart terminating with X-axis rotation gates. Under the small-sample regime and across eight distinct noise intensity levels, the model demonstrates strong noise robustness, retaining over 99% of its noiseless convergence performance. Experiments on five-character quatrain generation reveal that the model preliminarily exhibits three core capabilities: associative and divergent thinking, content generation across imagery and human-aligned word ordering.",
+    "authors": [
+      "Liu, Jun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-25T00:00:00Z",
+    "updated_at": "2026-10-27T14:43:10.359852Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3218716",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3218716",
+        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "url": "https://inspirehep.net/literature/3218716"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
