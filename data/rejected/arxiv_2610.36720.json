@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.36720",
+    "arxiv_id": "2610.36720",
+    "arxiv_version": null,
+    "inspire_id": "3219424",
+    "doi": null,
+    "title_en": "Development of a real-time FPGA-based CNN trigger operating on full-granularity calorimeter images",
+    "abstract_en": "We present a real-time field-programmable gate array (FPGA) implementation of a convolutional neural network (CNN) for event classification on full calorimeter images that retain crystal-level shower information. To meet the resource and latency constraints of trigger electronics, the network parameters and hidden activations were quantized to 8 bits with quantization-aware training, and a lossless space-to-depth reorganization rearranged the input image into fewer spatial positions, reducing the estimated CNN inference latency by more than an order of magnitude. The approach was evaluated with the J-PARC KOTO detector, recorded data, and data-acquisition (DAQ) constraints as a benchmark, targeting the online separation of the rare $K^{0}_{L}\\rightarrowπ^{0}e^{+}e^{-}$ decay from its dominant $K^{0}_{L}\\rightarrowπ^{+}π^{-}π^{0}$ background. As a proof of principle, the firmware was implemented and validated on an AMD Versal Premium VPK120 evaluation board. On 100,000 test events, inference on the board rejected $(99.34\\pm0.04)\\%$ of the recorded background sample enriched in $K^{0}_{L}\\rightarrowπ^{+}π^{-}π^{0}$ decays at a nominal $K^{0}_{L}\\rightarrowπ^{0}e^{+}e^{-}$ efficiency of 95%, with a measured CNN inference latency of 17.9 $μ$s. Combining the measured image-assembly and CNN inference latencies with the estimated link-transfer and score-return times gives a projected end-to-end latency of 25.9 $μ$s, within the adopted 32 $μ$s DAQ latency budget. These results demonstrate the feasibility of using full-granularity calorimeter images for CNN-based event selection that achieves high background rejection while keeping the trigger latency within tens of microseconds.",
+    "authors": [
+      "Wu, Jia-Jen",
+      "Lai, Yun-Tsung",
+      "Tung, Yu-Chen",
+      "Chen, Sin-Ting",
+      "Liu, Yu-Sheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-27T00:00:00Z",
+    "updated_at": "2026-10-28T12:47:25.143459Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219424",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219424",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
+        "url": "https://inspirehep.net/literature/3219424"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

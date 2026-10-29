@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.36965",
+    "arxiv_id": "2610.36965",
+    "arxiv_version": null,
+    "inspire_id": "3219468",
+    "doi": null,
+    "title_en": "From QCCD Trapped-Ion Hardware to Quantum Compilers: Capabilities, Architectures, and Compilation",
+    "abstract_en": "Shuttling-based trapped-ion quantum computers (QCCD) rank among the most mature hardware platforms. Existing and envisaged devices exhibit architectural differences in terms of register layout and connectivity. Platform-specific compilers are required to translate quantum circuits into resource-optimized hardware-level command chains. Hardware platforms and compiler software stacks are mostly developed independently of one another by different research communities. This work aims to bridge these communities by abstracting QCCD architectures and native operations, enabling computer scientists to address compilation problems using generic methods without requiring a deep background in the physical operating principles of the platform. The resulting design space is organized into a small set of architectural archetypes, each posing its own compilation problem. We then select and apply compilation methods to one- and two-dimensional QCCD architectures, finding that the routing overhead scales approximately cubically with the number of qubits for the one-dimensional architecture and approximately quadratically for the two-dimensional one. Extending this to compilation with a quantum error-correction layer reveals additional differences and similarities between the physical and logical levels. We conclude that co-design is a requirement rather than an option, and this work provides the vocabulary, archetypes, and compilation abstraction it needs.",
+    "authors": [
+      "Schmid, Ludwig",
+      "Eisinger, Jurek",
+      "Schoenberger, Daniel",
+      "Marciniak, Christian D.",
+      "Hilder, Janine",
+      "Poschinger, Ulrich",
+      "Wille, Robert",
+      "Schmidt-Kaler, Ferdinand"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-27T00:00:00Z",
+    "updated_at": "2026-10-28T12:46:53.020189Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219468",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219468",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
+        "url": "https://inspirehep.net/literature/3219468"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

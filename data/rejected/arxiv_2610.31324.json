@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.31324",
     "arxiv_id": "2610.31324",
     "arxiv_version": 1,
-    "inspire_id": "3218233",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Multigroup Radiation Diffusion with Compton Scattering on a Moving Mesh: Implementation in RICH and Application to Tidal Disruption Events",
     "abstract_en": "Compton scattering exchanges energy between radiation and hot gas and changes the spectrum in high-energy astrophysical systems such as tidal disruption events (TDEs). Because it couples all photon energies and can act faster than the hydrodynamic time step, many radiation-hydrodynamics (RHD) simulations omit its spectral redistribution or treat its energy exchange in the gray approximation. We extend the multigroup flux-limited diffusion module of the moving-mesh RHD code RICH to include Compton scattering with the exact thermal Compton kernel. In our semi-implicit scheme for the thermal radiative transfer equation, the temperature dependence of the kernel enters a generalized Fleck factor, and the group Compton operator conserves photon number and satisfies detailed balance. In equilibration tests, the scheme agrees with independent solutions, relaxes without absorption and emission to a Bose-Einstein spectrum, and remains stable for time steps that do not resolve the Compton equilibration timescale. We apply it to a three-dimensional simulation of the disruption of a $0.5\\,M_\\odot$ star by a $10^6\\,M_\\odot$ black hole. We find that during the X-ray flash, inverse Compton scattering dominates the coupling between the gas and the radiation near the nozzle shock, where it adds X-ray energy much faster than thermal emission and may affect the dynamics. Outside the X-ray thermalization radii, its instantaneous X-ray production rate during the flash is comparable to or larger than the escaping X-ray luminosity, so it may contribute substantially to the X-ray emission from TDEs.",
@@ -18,31 +18,23 @@
       "astro-ph.IM",
       "physics.comp-ph"
     ],
-    "submitted_at": "2026-10-22T00:00:00Z",
-    "updated_at": "2026-10-24T09:07:05.398098Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-22T14:14:20Z",
+    "updated_at": "2026-10-22T14:14:20Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.31324v1",
     "pdf_url": "https://arxiv.org/pdf/2610.31324v1",
-    "inspire_url": "https://inspirehep.net/literature/3218233",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.31324",
-        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
         "url": "https://arxiv.org/abs/2610.31324v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3218233",
-        "fetched_at": "2026-10-28T02:25:38.257757Z",
-        "url": "https://inspirehep.net/literature/3218233"
       }
     ],
     "is_demo": false

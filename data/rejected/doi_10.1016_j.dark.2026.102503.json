@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.dark.2026.102503",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3219713",
+    "doi": "10.1016/j.dark.2026.102503",
+    "title_en": "Interpretable machine learning for galaxy morphology: A calibrated symbolic concept bottleneck, and why its explanations do not transfer across surveys",
+    "abstract_en": "Deep networks classify galaxy morphology at survey scale but expose no auditable reasoning, and post-hoc attributions explain a surrogate rather than the deployed decision. We present the first Concept Bottleneck Model for galaxy morphology: a Zoobot ConvNeXt predicts seventeen physically named concepts—ten Galaxy Zoo tasks and seven statmorphstatistics—and a symbolic-regression head of 153 operator nodes maps them to a Hubble type under split-conformal uncertainty. The seven governing equations are printed in full, so the deployed decision can be read and criticised directly. On 40 498 Galaxy Zoo Evo galaxies we quantify what interpretability costs rather than claiming it is free: an unconstrained ConvNeXt reaches <math altimg=\"si23.svg\"><mrow><mi>κ</mi><mo linebreak=\"goodbreak\">=</mo><mn>0.601</mn></mrow></math> against the symbolic head’s 0.571, while symbolic, dense-linear and boosted-tree heads over the same concepts agree to within 0.002. The cost is therefore attributable to the concept layer, not to the symbolic form, which replaces 1.5 × 10<sup loc=\"post\">7</sup> parameters at no further penalty. Two findings qualify this. Conformal coverage is marginally exact (88.9% against 90%) but conditionally severe: per-class coverage spans 0.98 for ellipticals to 0.08 for the rarest spiral, so the guarantee is met by over-covering the dominant class. Class-conditional calibration lifts worst-case coverage to 0.885 but triples mean set size and removes singleton predictions altogether—the reliability statement is repaired, the information is not. Applying the frozen pipeline to 161 395 Euclid Q1 galaxies preserves accuracy while a symbolic refit recovers only 42% of the reference rules’ concept usage. Accuracy transfer and interpretation transfer are distinct properties, and an accuracy-only audit certifies a pipeline whose explanations have silently changed. Code, seeds and a reproducible benchmark for concept fidelity, conditional coverage and rule stability are released.",
+    "authors": [
+      "Chand, Ram"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-25T00:00:00Z",
+    "updated_at": "2026-10-28T16:11:50.376918Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "54, 102503, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1211607'}, Phys.Dark Univ."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219713",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219713",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
+        "url": "https://inspirehep.net/literature/3219713"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.31813",
     "arxiv_id": "2610.31813",
     "arxiv_version": 1,
-    "inspire_id": "3218392",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Physics-Informed Neural Networks vs U-Net: Application to thermal dust emission recovery in the microwave",
     "abstract_en": "Galactic thermal dust emission is the dominant foreground contaminant of the cosmic microwave background (CMB) at frequencies above 100 GHz, and its accurate separation is essential for current and future CMB experiments. Deep learning methods, in particular convolutional architectures such as the U-Net, have demonstrated strong performance for CMB component separation, but typically operate as purely data-driven models with no explicit enforcement of the physical laws governing the emission they reconstruct. In this work, we present a Physics-Informed Neural Network (PINN) that embeds the Modified Black Body (MBB) spectral model as a hard, differentiable architectural constraint, and we compare it against a standard U-Net baseline trained under an identical pipeline. Both architectures are trained on realistic simulated Planck HFI patches at four frequencies (143, 217, 353 and 545 GHz) and evaluated on a shared validation set as well as on three independent Galactic dust realizations from the PySM phenomenological dust models named D4, D7 and D10. We find that both networks achieve comparable reconstruction quality across all evaluated datasets, with a Structural Similarity Index Measure consistently above 0.96 and a fitted angular power-spectrum spectral index that agrees with the input to within 1% in every region. Embedding the physical constraint in the PINN does not measurably degrade reconstruction accuracy relative to the unconstrained U-Net, while additionally guaranteeing that every predicted output corresponds to a thermodynamically admissible physical configuration. These results establish the physics-informed formulation as a viable methodological alternative for dust component separation, providing physical interpretability without a trade-off in reconstruction fidelity.",
@@ -17,31 +17,23 @@
       "astro-ph.IM",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-22T00:00:00Z",
-    "updated_at": "2026-10-27T11:25:36.413243Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-22T18:50:40Z",
+    "updated_at": "2026-10-22T18:50:40Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.31813v1",
     "pdf_url": "https://arxiv.org/pdf/2610.31813v1",
-    "inspire_url": "https://inspirehep.net/literature/3218392",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.31813",
-        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
         "url": "https://arxiv.org/abs/2610.31813v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3218392",
-        "fetched_at": "2026-10-28T02:25:38.257757Z",
-        "url": "https://inspirehep.net/literature/3218392"
       }
     ],
     "is_demo": false

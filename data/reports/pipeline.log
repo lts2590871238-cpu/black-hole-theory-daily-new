@@ -2426,3 +2426,9 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='export.arxiv.org'
 2026-10-28 02:27:15,162 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-10-28 02:27:18,862 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-10-28 02:27:22,108 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 02:32:43,056 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: arXiv timed out
+2026-10-29 02:32:43,139 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: source timed out
+2026-10-29 02:32:43,140 WARNING theory_daily.pipeline: INSPIRE 数据源暂时不可用：source timed out
+2026-10-29 02:33:25,019 WARNING theory_daily.fetch_inspire: Skipping malformed INSPIRE record id=3217923: INSPIRE record 3217923 has no authors or collaborations
+2026-10-29 02:33:29,570 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-10-29 02:33:33,471 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"

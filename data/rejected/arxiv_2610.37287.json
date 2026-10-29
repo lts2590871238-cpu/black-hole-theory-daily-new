@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.37287",
     "arxiv_id": "2610.37287",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3219551",
     "doi": null,
     "title_en": "The First Deep Learning all-sky List of Fermi-LAT Gamma-ray Sources",
     "abstract_en": "Aims: We develop a deep-learning-based pipeline to construct a list of γ-ray sources and to quantitatively assess the impact of background uncertainties on source detection and characterization. This work extends and enhances the existing AutoSource-ID algorithm, previously adopted on optical observations, for applications on γ-ray data. Methods: Source detection was performed through image segmentation using a U-Net architecture, while dedicated deep neural networks (DNNs) were employed for source localization, flux estimation, and the classification of detected sources as either genuine or spurious. The training data were generated from Monte Carlo simulations based on 10 years of Fermi-LAT observations. Results: We present the first Fermi-LAT γ-ray all-sky source list derived using a deep-learning-based method (1FDL), containing more than 3800 sources with estimated positions, fluxes, and probability scores that quantify the likelihood of each detection being genuine or spurious. We further evaluated the robustness of the pipeline against variations in the interstellar emission model (IEM) and compared the resulting source list with the 4FGL-DR2 catalog. Conclusion: We find that the our deep-learning-based approach achieves performance comparable to, or better than, the likelihood-based methods employed in the standard Fermi-LAT catalog pipeline when tested against changes in the IEM. The 1FDL source list is broadly consistent with the Fermi-LAT 4FGL-DR2 catalog obtained over the same 10-year observational period, including a few new sources confirmed in the recent Fermi-LAT 16-year source list (FL16Y). These results demonstrate the potential of DNN methods for the detection and characterization of γ-ray sources and provide a foundation for their application in future high-energy astrophysical analyses.",
@@ -22,23 +22,31 @@
       "astro-ph.HE",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-10-27T14:11:29Z",
-    "updated_at": "2026-10-27T14:11:29Z",
-    "document_types": [],
+    "submitted_at": "2026-10-27T00:00:00Z",
+    "updated_at": "2026-10-28T13:32:11.711137Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.37287v1",
     "pdf_url": "https://arxiv.org/pdf/2610.37287v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219551",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.37287",
-        "fetched_at": "2026-10-28T02:25:38.257757Z",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
         "url": "https://arxiv.org/abs/2610.37287v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3219551",
+        "fetched_at": "2026-10-29T02:32:44.255265Z",
+        "url": "https://inspirehep.net/literature/3219551"
       }
     ],
     "is_demo": false
