@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.37697",
+    "arxiv_id": "2610.37697",
+    "arxiv_version": null,
+    "inspire_id": "3219992",
+    "doi": null,
+    "title_en": "chATLAS: A Retrieval-Augmented Conversational Assistant for the ATLAS Experiment",
+    "abstract_en": "Large scientific collaborations produce extensive internal documentation spread across heterogeneous systems, making it difficult for collaborators to locate and reuse existing knowledge. We present chATLAS, a deployed Retrieval-Augmented Generation (RAG) assistant developed for the ATLAS experiment at CERN. The system provides conversational access to more than 30,000 documents from several collaboration resources, material largely unavailable to general-purpose language models, using hybrid dense--sparse retrieval deployed on CERN infrastructure. A domain-specific benchmark built from automatically generated question--answer pairs is used to evaluate retrieval and generation performance and to guide design choices. We study the selection and domain-specific fine-tuning of an embedding model, contextual retrieval, ranking strategies, and generator choice. Fine-tuning combined with contextual retrieval more than doubles how often the correct document is returned as the top result on the most technically challenging documentation source. The deployed system also includes intent routing, safety handling, Mattermost integration, and an MCP server for future agentic workflows. chATLAS demonstrates that domain-adapted RAG can provide source-attributed, domain-specific access to collaboration knowledge, and offers a practical foundation for scientific collaborations and other organisations that rely on accurate, up-to-date retrieval from proprietary documentation.",
+    "authors": [
+      "Egan, Joe",
+      "Elliot, Ben",
+      "Van Stroud, Samuel",
+      "Sopio, Alex",
+      "Park, Ki Ryeong",
+      "Santo, Daniele Dal",
+      "Li, Zhaohui",
+      "Li, Runze",
+      "Couthures, Jeremy",
+      "George, Joe",
+      "Randazzo, Cary",
+      "Beringer, Juerg",
+      "Murnane, Daniel",
+      "Facini, Gabriel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-24T00:00:00Z",
+    "updated_at": "2026-10-30T02:29:54.956411Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3219992",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3219992",
+        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "url": "https://inspirehep.net/literature/3219992"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

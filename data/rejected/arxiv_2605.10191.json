@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.10191",
+    "arxiv_id": "2605.10191",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Computing eigenpairs of quantum many-body systems with Polfed.jl",
+    "abstract_en": "We present Polfed$.$jl, an open-source Julia package implementing the Polynomially Filtered Exact Diagonalization (POLFED) algorithm for computing mid-spectrum eigenvalues and eigenvectors (shortly, eigenpairs) of quantum many-body Hamiltonians. Access to such eigenpairs is essential for studying non-equilibrium many-body physics, but is hindered by the exponential growth of Hilbert-space dimension. POLFED addresses this challenge through a polynomial spectral transformation evaluated on the fly within a Lanczos iteration, preserving Hamiltonian sparsity and substantially reducing memory costs compared to other diagonalization methods. The package supports flexible energy targeting, automatic optimization of the spectral mapping for structured Hamiltonians, and GPU acceleration, which is particularly effective since the dominant computational cost reduces to repeated sparse matrix-vector multiplications. Benchmarks on disordered spin-chain and fermionic models demonstrate access to larger system sizes than alternative approaches, and CPU--GPU comparisons confirm significant speedups. In particular, we also provide code for constructing the quantum sun model Hamiltonian, a toy model of a many-body ergodicity-breaking transition. While our focus is on many-body Hamiltonians, Polfed$.$jl may be applied to any large sparse matrix.",
+    "authors": [
+      "Rok Pintar",
+      "Konrad Pawlik",
+      "Rafał Świętek",
+      "Miroslav Hopjan",
+      "Jan Šuntajs",
+      "Jakub Zakrzewski",
+      "Piotr Sierant",
+      "Lev Vidmar"
+    ],
+    "categories": [
+      "cond-mat.stat-mech",
+      "cond-mat.dis-nn",
+      "cond-mat.str-el",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-05-11T08:41:51Z",
+    "updated_at": "2026-10-27T20:51:59Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.10191v3",
+    "pdf_url": "https://arxiv.org/pdf/2605.10191v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.10191",
+        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "url": "https://arxiv.org/abs/2605.10191v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

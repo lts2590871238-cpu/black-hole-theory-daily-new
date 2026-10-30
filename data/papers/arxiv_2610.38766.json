@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38766",
+    "arxiv_id": "2610.38766",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Unifying stochastic and deterministic signals: a practical search for the intermittent binary black-hole background",
+    "abstract_en": "Over the past decade, the Advanced LIGO, Advanced Virgo, and KAGRA detectors have detected nearly 400 compact binary mergers, most of which are stellar-mass binary black-hole (BBH) mergers. Nevertheless, most mergers in the Universe are too weak to be individually detected at current sensitivity levels. Since a BBH merger in band is much shorter than the average time between successive mergers, the population of these subthreshold events gives rise to an intermittent background of gravitational waves (GWs). This GW background is guaranteed to exist, but it has not yet been detected with current stochastic or deterministic searches. Here we propose a fast and accurate likelihood-based search for this background, which unifies the standard model-agnostic cross-correlation search and a fully deterministic, template-based search in a single likelihood. Our search is based on a truncated likelihood ratio, which is fully marginalized over the extrinsic parameters of the individual mergers, and which represents the data in two detectors as an expansion in terms of approximate sufficient statistics. These statistics are higher-order cross-moments of the data, weighted by geometrical factors that generalize the standard overlap reduction function (ORF) used in cross-correlation searches. We show that almost all the Bayesian evidence and information on the BBH merger population comes from correlations between frequency bins induced by individual mergers and is captured in the higher-order generalized ORFs. Consequently, any likelihood function that does not take these inter-frequency correlations into account is necessarily suboptimal. We validate our search on one year of simulated Advanced LIGO data, and find that a catalog-informed analysis, which uses information from both the detected and unresolved mergers, can infer the peak of the redshift distribution of the population of BBH mergers.",
+    "authors": [
+      "Tore Boybeyi",
+      "Vuk Mandic",
+      "Joseph Romano"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-28T19:44:36Z",
+    "updated_at": "2026-10-28T19:44:36Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.38766v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.38766v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.38766",
+        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "url": "https://arxiv.org/abs/2610.38766v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "overlap reduction function"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 17,
+      "novelty": 12,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 4
+    },
+    "total_score": 69,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "提出基于截断似然比的间歇性双黑洞引力波背景搜索方法，将互相关搜索与模板搜索统一，引入广义重叠归约函数以纳入频率间相关性，并用模拟的Advanced LIGO数据验证，理论构造与验证均较完整，值得深入阅读。",
+    "title_zh": "统一随机信号与确定性信号：对间歇性双黑洞背景的务实搜索",
+    "abstract_zh": "过去十年间，Advanced LIGO、Advanced Virgo 与 KAGRA 探测器已探测到近 400 个致密双星并合事件，其中大多数是恒星质量双黑洞（BBH）并合。然而，宇宙中的大多数并合事件太弱，在当前的灵敏度水平下无法被单独探测到。由于带内的 BBH 并合持续时间远短于相邻并合之间的平均时间间隔，这些亚阈值事件的总体会产生一种间歇性的引力波（GW）背景。这种引力波背景必然存在，但尚未被当前的随机搜索或确定性搜索探测到。本文提出一种快速且准确的、基于似然的搜索方法来寻找这一背景，它在单个似然中将标准的模型无关互相关搜索与完全确定性的、基于模板的搜索统一起来。我们的搜索基于截断似然比，该似然比对各个并合的外禀参数完全边缘化，并将两个探测器中的数据表示为按近似充分统计量展开的形式。这些统计量是数据的高阶交叉矩，并由几何因子加权，这些几何因子推广了互相关搜索中使用的标准重叠归约函数（ORF）。我们表明，几乎全部关于 BBH 并合总体的贝叶斯证据与信息都来自单个并合所引起的频率 bin 之间的相关性，并被包含在高阶广义 ORF 中。因此，任何未考虑这些频率间相关性的似然函数都必然次优。我们在一年的模拟 Advanced LIGO 数据上验证了我们的搜索，发现一种受目录信息启发的分析——它同时利用已探测到的和未分辨的并合信息——能够推断出 BBH 并合总体红移分布的峰值。",
+    "keywords_en": [
+      "binary black hole background",
+      "intermittent gravitational-wave background",
+      "stochastic search",
+      "overlap reduction function",
+      "likelihood-based search",
+      "subthreshold mergers",
+      "Advanced LIGO"
+    ],
+    "keywords_zh": [
+      "双黑洞背景",
+      "间歇性引力波背景",
+      "随机搜索",
+      "重叠归约函数",
+      "基于似然的搜索",
+      "亚阈值并合",
+      "Advanced LIGO"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-10-30T02:43:25.182852Z"
+  },
+  "published_at": "2026-10-30T02:43:25.183333Z"
+}

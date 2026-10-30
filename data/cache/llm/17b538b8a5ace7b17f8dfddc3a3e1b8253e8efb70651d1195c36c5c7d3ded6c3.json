@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 4
+  },
+  "total_score": 69,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "提出基于截断似然比的间歇性双黑洞引力波背景搜索方法，将互相关搜索与模板搜索统一，引入广义重叠归约函数以纳入频率间相关性，并用模拟的Advanced LIGO数据验证，理论构造与验证均较完整，值得深入阅读。",
+  "title_zh": "统一随机信号与确定性信号：对间歇性双黑洞背景的务实搜索",
+  "abstract_zh": "过去十年间，Advanced LIGO、Advanced Virgo 与 KAGRA 探测器已探测到近 400 个致密双星并合事件，其中大多数是恒星质量双黑洞（BBH）并合。然而，宇宙中的大多数并合事件太弱，在当前的灵敏度水平下无法被单独探测到。由于带内的 BBH 并合持续时间远短于相邻并合之间的平均时间间隔，这些亚阈值事件的总体会产生一种间歇性的引力波（GW）背景。这种引力波背景必然存在，但尚未被当前的随机搜索或确定性搜索探测到。本文提出一种快速且准确的、基于似然的搜索方法来寻找这一背景，它在单个似然中将标准的模型无关互相关搜索与完全确定性的、基于模板的搜索统一起来。我们的搜索基于截断似然比，该似然比对各个并合的外禀参数完全边缘化，并将两个探测器中的数据表示为按近似充分统计量展开的形式。这些统计量是数据的高阶交叉矩，并由几何因子加权，这些几何因子推广了互相关搜索中使用的标准重叠归约函数（ORF）。我们表明，几乎全部关于 BBH 并合总体的贝叶斯证据与信息都来自单个并合所引起的频率 bin 之间的相关性，并被包含在高阶广义 ORF 中。因此，任何未考虑这些频率间相关性的似然函数都必然次优。我们在一年的模拟 Advanced LIGO 数据上验证了我们的搜索，发现一种受目录信息启发的分析——它同时利用已探测到的和未分辨的并合信息——能够推断出 BBH 并合总体红移分布的峰值。",
+  "keywords_en": [
+    "binary black hole background",
+    "intermittent gravitational-wave background",
+    "stochastic search",
+    "overlap reduction function",
+    "likelihood-based search",
+    "subthreshold mergers",
+    "Advanced LIGO"
+  ],
+  "keywords_zh": [
+    "双黑洞背景",
+    "间歇性引力波背景",
+    "随机搜索",
+    "重叠归约函数",
+    "基于似然的搜索",
+    "亚阈值并合",
+    "Advanced LIGO"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-30T02:43:25.182852Z"
+}

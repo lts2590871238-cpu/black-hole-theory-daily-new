@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38193",
+    "arxiv_id": "2610.38193",
+    "arxiv_version": null,
+    "inspire_id": "3220010",
+    "doi": null,
+    "title_en": "Barren Plateaus in Quantum Linear Combinations: Interference and Lie-Algebraic Control",
+    "abstract_en": "A coherent sum of quantum circuits introduces interference that can alter the training signal. We distinguish a single linear combination of unitaries (LCU) from a circuit that repeatedly alternates branch operations and ancilla mixing. For a single-pass LCU, independent branches with zero matrix means cannot erase the differentiated branch's gradient variance: the total variance is at least the branch variance times the fourth power of its coefficient magnitude. This bound holds at any gate position and does not require the circuit unitaries to be Haar-random. Beyond this lower bound, we derive exact loss and gradient formulas that quantify the additional contributions from interference between branches. One of these terms depends on relative coefficient phases and vanishes when the branch ensemble is invariant under multiplication by $i \\mathbb{I}$; a four-qubit matchgate example shows that it can be nonzero. For repeated interleaving with full special-unitary ancilla control, we determine the generated Lie algebra from the associative algebra of the branches, including the available central phase directions. This control result predicts concentration only with additional assumptions on circuit sampling. Matchgate examples exhibit polynomial single-pass LCU variances and exponential concentration under joint Haar-random sampling. We also derive coefficient-selection rules and bounds for postselection, measurement error, and approximate moments.",
+    "authors": [
+      "Koutahi, Amir",
+      "Kananian, Pouya",
+      "Jacobsen, Hans-Arno"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T02:42:12.801714Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220010",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220010",
+        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "url": "https://inspirehep.net/literature/3220010"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

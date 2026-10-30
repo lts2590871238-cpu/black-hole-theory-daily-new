@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.37825",
+    "arxiv_id": "2610.37825",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Probing Cosmology with Diffusion Models: Memorization, Generalization, and Parameter Estimation",
+    "abstract_en": "Diffusion models are increasingly used as surrogates for expensive cosmological simulations, but simple metrics like reconstruction fidelity do not guarantee a surrogate can be trusted for scientific inference. To explore this, we train diffusion models on HI fields from the CAMELS IllustrisTNG simulations and test how three properties change with training-set size: memorization of individual training examples, agreement with one- and two-point statistics (the pixel-value distribution and the power spectrum), and estimation of cosmological parameters from the generated fields. At fixed model size, generative models trained with smaller, less diverse training data produced memorized samples. While this is a well known phenomenon, we show that this leads to miscalibrated parameter densities for cosmological inference tasks. At fixed size, there is a training set size with enough information content to enable a model to generalize, at which point posterior density estimation with neural surrogates can be well-calibrated. We demonstrate that a neural surrogate can therefore pass visual, one-point and power-spectrum convergence tests while still resulting in overconfident parameter estimation in a cosmological inference pipeline. Thus, tests of model generalization should be an additional check for inference pipelines adopting neural surrogates.",
+    "authors": [
+      "Jiaming Pan",
+      "Nicholas Kern"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-27T18:39:49Z",
+    "updated_at": "2026-10-27T18:39:49Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.37825v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.37825v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.37825",
+        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "url": "https://arxiv.org/abs/2610.37825v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
