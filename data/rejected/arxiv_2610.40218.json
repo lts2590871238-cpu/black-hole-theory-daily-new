@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40218",
+    "arxiv_id": "2610.40218",
+    "arxiv_version": 1,
+    "inspire_id": "3220578",
+    "doi": null,
+    "title_en": "Celia: Catalog Embeddings Learned from cosmologIcal simulAtions",
+    "abstract_en": "Cosmological hydrodynamical simulations connect observed galaxies to cosmology and the physics of galaxy formation. Each simulation is expensive, and different codes model galaxy formation in different ways. We present Celia (Catalog Embeddings Learned from cosmologIcal simulAtions), a self-supervised foundation model that maps catalogs of subhalos and their galaxy properties to an embedding vector for the purposes of compression and organization of astrophysical and large-scale structure information. Celia is pretrained without parameter labels on the IllustrisTNG, SIMBA and Astrid suites of CAMELS and their N-body counterparts, by reconstructing masked subhalo properties and predicting the representations of a teacher network. Simple linear models fitted to the embeddings recover $Ω_{\\mathrm m}$ with $R^2=0.999$, and $σ_8$ and both supernova-feedback amplitudes with $R^2\\geq0.97$, in all three suites. The embeddings translate well to out-of-distribution simulations such as Swift-EAGLE, a code that Celia never saw. A linear model fitted on the three training codes predicts its $Ω_{\\mathrm m}$ with a correlation coefficient $r=0.985$, and linear models fitted on 20 labeled simulations reach $r\\geq0.94$ for $Ω_{\\mathrm m}$, $σ_8$ and a supernova-feedback amplitude. We decompose the variation among the simulations of each suite into principal components of the embedding, and simple power laws of the simulation parameters describe the leading components. Celia gives simulated galaxy catalogs a shared coordinate system for simulation-based inference, emulation, the comparison of galaxy-formation models, the detection of physical degeneracies and the discovery of new astrophysical probes.",
+    "authors": [
+      "Xiaowen Zhang",
+      "Matthew Ho",
+      "Anshul Kumar",
+      "Tiziana Di Matteo",
+      "Rupert A. C. Croft",
+      "Barnabás Póczos"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:37:04.344294Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.40218v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40218v1",
+    "inspire_url": "https://inspirehep.net/literature/3220578",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.40218",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2610.40218v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220578",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220578"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

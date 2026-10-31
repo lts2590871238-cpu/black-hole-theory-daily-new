@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38572",
+    "arxiv_id": "2610.38572",
+    "arxiv_version": null,
+    "inspire_id": "3220198",
+    "doi": null,
+    "title_en": "Learning Grover mixers for constrained optimization",
+    "abstract_en": "Grover-Mixer QAOA (GM-QAOA) is a promising quantum framework for constrained combinatorial optimization. However, its practical implementation requires the efficient preparation of a uniform superposition over feasible states. In this work, we propose a two-stage variational approach. First, a parameterized quantum circuit is trained to prepare this superposition, using an entropy-based cost function that favors a uniform distribution over feasible bitstrings. The trained circuit is then embedded in GM-QAOA, where it provides both the initial state and, together with its inverse, yields the Grover mixer. The resulting method is evaluated on two representative benchmark problems: the Maximum Weight Independent Set (MWIS) problem and the Multidimensional Knapsack Problem (MKP). While the results demonstrate consistent improvements over standard QAOA for MWIS, only marginal gains are observed for MKP, with the advantage diminishing as the problem size increases. The reduced performance on MKP reflects the growing difficulty of training the variational mixer, likely due to increasingly challenging optimization landscapes. Overall, these findings highlight both the potential of variational Grover mixers and the trade-off between their performance gains and the additional resources required for their training.",
+    "authors": [
+      "Vandelli, Matteo",
+      "Ferrari, Francesco",
+      "Dragoni, Daniele"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T13:00:45.603745Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220198",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220198",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220198"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

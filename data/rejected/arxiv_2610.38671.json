@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38671",
+    "arxiv_id": "2610.38671",
+    "arxiv_version": null,
+    "inspire_id": "3220239",
+    "doi": null,
+    "title_en": "Homodyne versus heterodyne detection for classifying families of optical quantum states from finite records of detection events",
+    "abstract_en": "Neural networks can identify an optical quantum state from an image of its phase-space function, but a real measurement gives a finite record of $N$ detection events. Heterodyne detection samples the Husimi $Q$ function directly, whereas homodyne detection gives the Wigner function only after a reconstruction from several phases. We ask which scheme better identifies one of seven families of states, including Gottesman-Kitaev-Preskill (GKP) states, under loss, dephasing and Gaussian noise. We simulate finite records on identical states for two sets of families, one with equal mean photon number and one built from the code of Ahmed et al. For convolutional networks, heterodyne detection outperforms homodyne detection with filtered back-projection by 14.1 percentage points at $N=100$ events and 20% dephasing in the first set (adjusted $p=0.003$ over $24$ cells across training runs), and it depends on the number of phases and on the reconstruction. At $N=10^3$ and $10^4$ no difference is significant, but the intervals are wide. At $N=100$, a homodyne network without reconstruction does not differ significantly from heterodyne detection in the first set and is nominally worse in the second. Near thermal states we show to leading order that heterodyne detection damps phase-space structure of order $n$ exponentially, whereas homodyne detection shares unit weight among $n+1$ angular components, a local result that does not explain the finite-record differences. Experimental records of a GKP state, photon-subtracted squeezed states and one mode of an Einstein-Podolsky-Rosen source are classified like simulated ones, but these low-power tests probe our counting-noise model, not the seven-class accuracy. A likelihood-ratio observer shows no such gap at $N=100$, so our evidence concerns a reconstruction-based pipeline, not homodyne detection in general.",
+    "authors": [
+      "Grzywa, Franciszek",
+      "Dolata, Sebastian",
+      "Bartkiewicz, Karol"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T13:03:43.460149Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220239",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220239",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220239"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

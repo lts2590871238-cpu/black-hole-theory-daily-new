@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40275",
+    "arxiv_id": "2610.40275",
+    "arxiv_version": 1,
+    "inspire_id": "3220532",
+    "doi": null,
+    "title_en": "Going off the (momentum) grid: A simple implementation of noncold relics in linear Boltzmann solvers",
+    "abstract_en": "Linear Boltzmann solvers typically evolve the perturbations of noncold relics, such as massive neutrinos or hot subcomponents of the dark matter, on a momentum grid, often switching to a fluid approximation on small scales for efficiency. We implement in CLASS the Dispersive Fluid Approximation (DFA), a fluid scheme that captures the scale-dependent sound speed of these species. Within the standard ncdm module, the DFA significantly outperforms the default CLASS fluid approximation in the cross and neutrino power spectra, and reduces errors in the cold dark matter power spectrum by up to an order of magnitude, while adding only 1-4% to the total runtime. We also present the first open-source implementation of the Generalized Boltzmann Hierarchy (GBH), which simplifies the implementation of noncold relics by integrating out the momentum dependence of their perturbations altogether. Combined with the DFA and tested on massive neutrinos, the GBH reproduces the matter power spectrum to better than permille accuracy and cosmological parameter constraints to better than 0.05 sigma, at a computational cost comparable to that of the standard implementation. We argue that the GBH is particularly well suited to non-thermal relics whose distribution function varies with time or across parameter space. Our implementation of both the DFA and the GBH in CLASS is publicly available at https://github.com/aradn97/class_GBH.",
+    "authors": [
+      "Arad Nasiri",
+      "Murali Saravanan",
+      "Caio B. de S. Nascimento"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T16:45:50.799235Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.40275v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40275v1",
+    "inspire_url": "https://inspirehep.net/literature/3220532",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.40275",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2610.40275v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220532",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220532"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

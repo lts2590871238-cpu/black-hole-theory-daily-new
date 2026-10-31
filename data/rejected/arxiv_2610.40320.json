@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40320",
+    "arxiv_id": "2610.40320",
+    "arxiv_version": null,
+    "inspire_id": "3220571",
+    "doi": null,
+    "title_en": "QDMin: Coherent Quantum Minimum Finding for Nuclear Deformation Landscapes",
+    "abstract_en": "Locating the minimum of a nuclear collective landscape can require many interacting many-body calculations. QDMin (Quantum Deformation Minimum Finding) searches a parameterized Hamiltonian family with a coherent collective-coordinate register and an on-demand ground-energy threshold oracle. The oracle supplies the predicate required for quantum minimum-finding without first constructing the energy landscape point by point. We implement it for a schematic pairing-plus-multipole model using circuit-generated energy estimates during the search. In a four-point calculation, one Grover round raises the probability of the true minimum from 0.25 to 0.921. A $4\\times4$ quadrupole--octupole-field calculation extends the complete circuit to two coordinates, although its minimum is first sampled in a round with zero Grover iterations. Its worst-case branch-preparation fidelity of 0.744 falls below the declared target, identifying coherent ground-state access as the current bottleneck. QDMin inherits expected $O(\\sqrt{N_q})$ candidate-query scaling in the unstructured model; total advantage depends on the many-body oracle cost and remains unestablished.",
+    "authors": [
+      "Abhishek",
+      "Arumugam, P."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:08:25.614771Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220571",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220571",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220571"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

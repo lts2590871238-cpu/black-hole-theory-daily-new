@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40424",
+    "arxiv_id": "2610.40424",
+    "arxiv_version": null,
+    "inspire_id": "3220623",
+    "doi": null,
+    "title_en": "Structural Bottlenecks in QAOA Mixer Design: Transport and Causal Reach",
+    "abstract_en": "The choice of mixer is a central design decision in the Quantum Approximate Optimization Algorithm (QAOA), yet different structural limitations of a mixer need not be captured by a single metric. We identify two complementary structural bottlenecks for shallow QAOA: configuration-space transport, which limits how strongly probability can concentrate on high-quality solutions, and finite-depth causal reach, which limits which parts of a problem instance can influence a local objective term. In Part I, we derive first-order mixer-dependent objective bounds in complementary small-$β$ and small-$γ$ regimes. For connected regular mixer graphs, the two leading-order expressions are exactly equivalent through a graph-Laplacian identity and reduce to the same cost-weighted Dirichlet energy. We then derive a non-perturbative upper envelope from the layer-wise $\\ell_1$ spreading of the mixer unitary, yielding a cost-distribution-dependent necessary spreading condition for attaining a target approximation ratio. In Part II, we study the locality bottleneck for MaxCut by augmenting the transverse-field mixer with problem-graph-aligned two-local interactions. The resulting $k$-hop construction has causal radius at most $(k+1)p$ at depth $p$; for the $k=1$ architectures studied numerically, this gives radius $2p$. Across cycles, circular ladders, and high-girth regular bipartite graphs, $X{+}XX$ and $X{+}YY$ improve the best-found approximation ratios over the standard $X$ mixer at equal depth, while $X{+}YY$ at depth $p$ comes within about one approximation-ratio point of plain $X$ at depth $2p$ in the reach-matched cases examined. The unequal performance of the equal-reach $XX$ and $YY$ augmentations shows that satisfying a structural capability does not by itself guarantee performance. Together, the results provide complementary structural insights for mixer design.",
+    "authors": [
+      "Gulati, Jasjyot Singh",
+      "SAPV, Tharrmashastha"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:06:57.502273Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220623",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220623",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220623"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

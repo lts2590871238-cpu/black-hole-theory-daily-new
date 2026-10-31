@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38904",
+    "arxiv_id": "2610.38904",
+    "arxiv_version": null,
+    "inspire_id": "3220345",
+    "doi": null,
+    "title_en": "Mitigating Errors in Variational Quantum Eigensolver Calculations through Extended Random Phase Approximation",
+    "abstract_en": "Quantum hardware noise remains a major obstacle to accurate molecular simulations using the variational quantum eigensolver (VQE). We introduce a novel error-mitigation strategy based on the extended random phase approximation (ERPA), which reconstructs the two-particle reduced density matrix (2-RDM) from approximate transition density matrices, effectively filtering errors in quantum measurements. Unlike quantum subspace expansion, the approach requires only the one- and two-particle RDMs. Since ERPA preserves the input 1-RDM, we further propose a hybrid quantum-classical scheme employing an inexpensive density matrix renormalization group (DMRG) calculation to provide a noise-free approximation to this quantity. Benchmarks on water double-bond stretching and cyclobutadiene automerization, performed on IBM quantum hardware, demonstrate reductions in energy errors by orders of magnitude. Combined with multireference adiabatic connection (AC0) corrections, the approach additionally recovers dynamical correlation beyond the active space, yielding accurate molecular potential energy curves and reaction barriers. Our results establish ERPA as a promising, measurement-efficient route toward reliable quantum-classical electronic structure calculations.",
+    "authors": [
+      "Wagner, Michael",
+      "Begy, Pavel",
+      "Brabec, Jiří",
+      "Tucholská, Alexandra",
+      "Matoušek, Mikuláš",
+      "Pernal, Katarzyna",
+      "Veis, Libor"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T12:55:31.693420Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220345",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220345",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220345"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

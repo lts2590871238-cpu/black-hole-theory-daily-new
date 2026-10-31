@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38922",
+    "arxiv_id": "2610.38922",
+    "arxiv_version": null,
+    "inspire_id": "3220288",
+    "doi": null,
+    "title_en": "Adaptive Local Measurements For Quantum Learning Can Exponentially Outperform Nonadaptive Global Measurements",
+    "abstract_en": "Can measurements chosen adaptively, in response to earlier outcomes, be exponentially more informative than measurements fixed in advance? In many quantum settings, adaptivity helps at most polynomially; known exponential advantages require coherent measurements across copies or restricted measurements. We show an exponential advantage measuring one copy at a time, with no quantum memory kept between state copies, even when the nonadaptive learner may perform arbitrary global measurements on each copy. We construct explicit families of multi-qubit states in which a scalar parameter is encoded in one of exponentially many candidate observables, with an auxiliary marker indicating which one. An adaptive protocol identifies the relevant observable and then measures it using only single-qubit measurements and one round of adaptation. At fixed accuracy, it needs logarithmically many copies as the qubit count grows, whereas every nonadaptive protocol needs exponentially many. The same mechanism yields an exponential gap in local asymptotic minimax mean squared error constants, tight up to the exponential base. The states are separable and classical in label-dependent product bases; no entanglement or other nonclassical correlations are required. The gap comes from measurement incompatibility: the candidate observables cannot be measured jointly, so a fixed measurement must divide its information budget among them, while adaptivity selects the informative one. Accordingly, the separation disappears when the candidate observables commute, and cannot occur with fully observed classical samples. Measurement incompatibility thus emerges as a resource for quantum learning, distinct from entanglement and quantum memory, that classical feedback alone can exploit.",
+    "authors": [
+      "Goldar, Alireza",
+      "Qin, Zhen",
+      "Zhu, Zhihui",
+      "Gong, Zhe-Xuan",
+      "Wakin, Michael B."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T12:30:34.979878Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220288",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220288",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220288"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

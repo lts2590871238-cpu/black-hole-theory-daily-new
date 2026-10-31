@@ -3,34 +3,36 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.09913",
     "arxiv_id": "2608.09913",
-    "arxiv_version": null,
-    "inspire_id": "3189237",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
-    "title_en": "From Koszul-Complex Stabilizer Models to Superselection Profiles: Topological Rigidity and Nonsplit Extensions",
-    "abstract_en": "Koszul-complex stabilizer models unify the toric-code hierarchy and bivariate-bicycle codes in one homological framework. To study translation-symmetry-enriched topological (SET) phases in these models and, more generally, in translation-invariant Calderbank-Shor-Steane (CSS) codes with stabilizer maps $(φ_X,φ_Z)$, we introduce the associated topological superselection profile $\\mathscr S_σ:=τ_{\\geq1}\\mathbf R\\!\\operatorname{Hom}_R(\\overline{\\operatorname{coker}φ_σ},R),\\ σ=X,Z$. Its cohomology layers $E_σ^\\ell:=H^\\ell(\\mathscr S_σ)\\cong_R\\operatorname{Ext}_R^\\ell(\\overline{\\operatorname{coker}φ_σ},R)$ encode sectors, fusion, and translation action. When finite, the $\\ell=1,2,\\ldots$ layers describe pointlike, looplike, and higher-dimensional excitations; $\\mathscr S_σ$ retains inter-layer gluing. For regular Koszul models, we compute $E_σ^\\ell$ explicitly, find $\\mathscr S_σ$ single-layer, and obtain finite-size $Z$-logicals from $\\operatorname{Tor}$. Single-layer means that at most one positive-degree layer $E_σ^\\ell$ is nonzero. Our matrix-level Schanuel-lemma method proves rigidity: under a finite-resolution hypothesis, the nonzero layer and degree uniquely determine a topological CSS code's translation SET order at the stable translation-invariant Clifford level. For prime qudits the hypothesis is automatic, and a finite layer's translation kernel gives the exact minimal coarse graining to a toric-code stack. We realize admissible single-layer data. Beyond this regime, split and nonsplit extensions of 3D qubit toric codes yield eight models sharing all identical $E_σ^\\ell$ layers with trivial translation action but having distinct size-dependent ground-state degeneracies, hence distinct translation SET phases. Thus inter-layer gluing carries SET data invisible to individual layers.",
+    "title_en": "Superselection Rigidity of Topological Calderbank--Shor--Steane Codes: From Koszul-Complex Models to Nonsplit Extensions",
+    "abstract_en": "Can excitation structure classify topological quantum codes up to finite-depth local circuits? For translation-invariant topological Calderbank--Shor--Steane (CSS) codes in arbitrary dimensions, we introduce excitation superselection profiles $\\mathscr E_σ$ ($σ=X,Z$). Their cohomology layers $E_σ^\\ell:=H^\\ell(\\mathscr E_σ)$ encode excitation types, fusion rules, and translation action, while $\\mathscr E_σ$ retains cross-degree gluing. Pointlike, looplike, and higher-dimensional excitations correspond to degrees $\\ell=1,2,\\ldots$, respectively. Our matrix-level Schanuel-lemma method proves single-degree superselection rigidity: if $\\mathscr E_σ$ is supported in a single degree $\\ell$, then $E_σ^\\ell$ and $\\ell$ fix the stable translation-invariant Clifford class under a finite-resolution hypothesis automatic for prime qudits. If $E_σ^\\ell$ is also finite, prime-qudit codes decouple into toric-code stacks by Clifford circuits after coarse graining, with the exact minimal threshold set by the translation kernel. We develop a unified topological theory of Koszul-complex models (encompassing toric codes, bivariate-bicycle codes, and Haah's cubic code): for regular models, we compute $E_σ^\\ell$, prove $\\mathscr E_σ$ is single-degree, express finite-torus logical modules as $\\mathrm{Tor}$ groups, and obtain coarse-grained toric-stack normal forms at full length. Two constructions extend this framework to realize any admissible single-degree profile and build multi-degree extensions. The latter yields eight 3D qubit toric-code extensions with identical layers in both Pauli sectors and trivial translation action, yet distinct size-dependent ground-state degeneracies. The seven nonsplit models require blocking to decouple. Thus, cross-degree gluing carries translation-symmetry-enriched topological information invisible to individual layers.",
     "authors": [
-      "Song, Hao"
+      "Hao Song"
     ],
-    "categories": [],
-    "submitted_at": "2026-08-10T00:00:00Z",
-    "updated_at": "2026-08-12T03:41:18.310268Z",
-    "document_types": [
-      "article"
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el",
+      "math-ph"
     ],
+    "submitted_at": "2026-08-10T17:54:31Z",
+    "updated_at": "2026-10-29T17:33:10Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
-    "inspire_url": "https://inspirehep.net/literature/3189237",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.09913v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.09913v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
-        "source": "inspire",
-        "record_id": "3189237",
-        "fetched_at": "2026-08-17T23:42:31.079903Z",
-        "url": "https://inspirehep.net/literature/3189237"
+        "source": "arxiv",
+        "record_id": "2608.09913",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2608.09913v2"
       }
     ],
     "is_demo": false

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39824",
+    "arxiv_id": "2610.39824",
+    "arxiv_version": null,
+    "inspire_id": "3220660",
+    "doi": null,
+    "title_en": "Enabling Dynamic Resource Scaling in Quantum Circuit Simulations",
+    "abstract_en": "Studies of quantum algorithms often simulate se- quences of circuits whose number of qubits changes from one circuit to the next, such as instances of increasing size of the same problem. Since each additional qubit doubles the state- vector, every circuit needs a different number of nodes, which a fixed allocation on a shared High-Performance Computing (HPC) system cannot provide: a job sized for the largest circuit leaves most of its nodes idle, and one job per circuit adds scheduler interactions and queue waits. We make the QuEST state-vector simulator malleable with the Dynamic Management of Resources (DMR) framework, so that a single job resizes between circuits. Because no state-vector exists between circuits, reconfigurations require no data redistribution and no changes to the simulation kernels, and a checkpoint holding the index of the next circuit is enough to resume. A right-sizing policy derives the number of nodes from the number of qubits, and the circuit_executor API hides reconfigurations from the user. We evaluate the reconfiguration overhead on MareNostrum 5 and show that a single job can run a batch of circuits of different sizes, adapting its allocation to each of them with negligible overhead.",
+    "authors": [
+      "Arejula-Aısa, Inigo",
+      "Iserte, Sergio",
+      "Sandas, Petter",
+      "Raigada-Garcıa, Ricard.S.",
+      "Brown, Oliver",
+      "Richings, James",
+      "Pena, Antonio J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T14:18:30.558024Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220660",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220660",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220660"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

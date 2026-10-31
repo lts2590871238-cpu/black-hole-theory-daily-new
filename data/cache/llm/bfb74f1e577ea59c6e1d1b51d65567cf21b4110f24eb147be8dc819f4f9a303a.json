@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 15,
+    "novelty": 11,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 2,
+    "other": 6
+  },
+  "total_score": 71,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文研究五维带电AdS黑洞的光子环与光子球，导出质量无关的几何可观测量的闭式表达，并结合MCMC参数预测，理论分析较为自洽且结构清晰；虽属黑洞几何/引力基础方向，与核心主题相关度中等，但深度与可读性足以支持进一步阅读。",
+  "title_zh": "五维带电AdS黑洞的光子环与质量无关可观测量的研究",
+  "abstract_zh": "我们研究了一个五维带电反德西特（AdS）黑洞的光学性质。利用零测地线方程，我们确定了事件视界半径、光子球半径以及临界碰撞参数，并表明它们均随电荷增大而减小，而光子球半径保持与AdS半径无关。为避免依赖于质量标度以及AdS时空中阴影的依赖于观测者的视尺寸，我们引入两个质量无关的几何可观测量：子环指数 $γ$ 以及临界碰撞参数与最内稳定圆轨道（ISCO）直接像对应值之比。我们以闭式推导出 $γ$，并表明它独立于AdS半径且满足 $2π/\\sqrt{3}<γ\\leqπ\\sqrt{2}$，高于四维Schwarzschild与Reissner--Nordström黑洞的取值。基于无噪声模拟数据（取5\\%的示例性相对不确定度）的马尔可夫链蒙特卡洛（MCMC）预测，我们发现无量纲AdS半径可以以16--19\\%的相对不确定度被约束，而电荷仅对近极端基准模型能够与零区分。在这些假设下，子环指数相对四维Schwarzschild黑洞可提供3.4--5.9σ的高斯分离度。",
+  "keywords_en": [
+    "photon ring",
+    "photon sphere",
+    "AdS black hole",
+    "null geodesics",
+    "mass-independent observables",
+    "MCMC forecast"
+  ],
+  "keywords_zh": [
+    "光子环",
+    "光子球",
+    "AdS黑洞",
+    "零测地线",
+    "质量无关可观测量",
+    "MCMC预测"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-31T02:33:31.315191Z"
+}

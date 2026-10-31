@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39554",
+    "arxiv_id": "2610.39554",
+    "arxiv_version": 1,
+    "inspire_id": "3220442",
+    "doi": null,
+    "title_en": "Low-variance renoising for weak gravitational lensing shear estimation",
+    "abstract_en": "The \"renoising\" noise-bias correction used by Metacalibration and AnaCal adds to every galaxy image an independent noise field with the statistics of the original noise rotated by 90 degrees. The rotated field cancels, to first order in shear, the anisotropy that the shear-response operation induces in the original noise, at the cost of doubling the noise variance. We derive the general condition that an added noise field must satisfy for this cancellation: the distribution of the total noise -- the original noise transformed with the pixel shear-response operator, plus the added noise carrying an assigned shear dependence that we are free to choose -- must be independent of shear to first order. Under this condition the shear response of the renoised ellipticity is estimated from the known realization of the added noise alone. The rotated noise field, which we call rotation renoising, is one solution of the condition and yields the analytical response estimator of AnaCal. We then construct a second solution, spectral renoising, which adds only a small fraction of the original noise variance: for homogeneous Gaussian noise the added field is an independent, scaled-down copy of the image noise, and its assigned shear response is the same field passed through a fixed filter set by the noise power spectrum deconvolved by the point spread function. Image simulations show that spectral renoising keeps the multiplicative shear bias at the $10^{-3}$ level and raises the effective galaxy number density by about 20 per cent at the faint end.",
+    "authors": [
+      "Xiangchong Li"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:36:47.616107Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.39554v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39554v1",
+    "inspire_url": "https://inspirehep.net/literature/3220442",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.39554",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2610.39554v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220442",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220442"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

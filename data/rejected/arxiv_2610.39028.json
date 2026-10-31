@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39028",
+    "arxiv_id": "2610.39028",
+    "arxiv_version": null,
+    "inspire_id": "3220371",
+    "doi": null,
+    "title_en": "Simulating scintillation detector responses with OpenMC and pyMPPost: a track-based coupling verified against MCNPX-PoliMi",
+    "abstract_en": "Simulations of the detector response are essential for the design and analysis of neutron and photon measurements in nuclear nonproliferation, safeguards, and active interrogation studies. MCNPX-PoliMi, combined with the post-processor MPPost and its Python implementation pyMPPost, is a well-established and validated framework for this purpose. Its detector models, however, are not available to users of the open-source Monte Carlo code OpenMC, which does not write an equivalent collision-level output. This work couples OpenMC to pyMPPost, allowing the open-source community to use the detector models already implemented and validated in pyMPPost without modifying either code. A Python class, $\\texttt{TrackAnalyzer}$, reads the particle tracks written by OpenMC, reconstructs the interactions in the detector material along with the target nuclide and writes them in the MCNPX-PoliMi collision file format. The method relies only on the track output and is therefore applicable to any OpenMC version that writes particle tracks, including the development branch with photonuclear physics used in this work. The coupling was verified code to code against MCNPX-PoliMi for a trans-stilbene and a $^{4}$He scintillator exposed to $^{252}$Cf and deuterium-deuterium fusion neutron sources, and for a NaI(Tl) scintillator exposed to $^{137}$Cs and $^{152}$Eu photon sources. The total number of pulses agrees within $\\pm$1% in all cases, and the light-output spectra agree within a few percent in the covered spectral domain. By making the detector response models of pyMPPost available within a fully open-source simulation chain, this work extends detector response studies with OpenMC to nuclear nonproliferation and active interrogation applications, including those involving photonuclear reactions, and provides an accessible tool for education and training in radiation detection.",
+    "authors": [
+      "Loi, Lorenzo",
+      "Breitenmoser, David",
+      "Clarke, Shaun D.",
+      "Pozzi, Sara A.",
+      "Cammi, Antonio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T13:27:49.223852Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220371",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220371",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220371"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

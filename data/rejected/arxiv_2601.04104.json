@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.04104",
+    "arxiv_id": "2601.04104",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Point-Group Equivariant Neural Networks for Local Dynamics in Lattice Systems",
+    "abstract_en": "We develop point-group equivariant neural networks for learning local mappings used in dynamical simulations of lattice systems. The same network acts on a finite neighborhood around each site, respecting lattice translations through shared parameters. The local configuration is decomposed into features that transform according to irreducible representations of the point group, and hidden features retain this organization throughout the network. Equivariant linear maps and symmetry-allowed tensor products then learn nonlinear spatial correlations while preserving the required transformation laws. This approach avoids constructing a fixed set of hand-crafted invariant descriptors, whose selection requires choices about which local correlations to retain. It also allows the complexity of the learned mapping to grow without enlarging its spatial cutoff. We demonstrate the construction by learning the forces governing adiabatic dynamics in the square-lattice Holstein model. Comparisons with exact diagonalization test the accuracy of the predicted forces and the evolution of spatial correlations. Force evaluation scales linearly with system size, allowing the trained model to simulate charge-density-wave ordering on large lattices. These simulations reproduce anomalously slow coarsening of the charge-density-wave domains, illustrating the use of the learned local mapping for collective dynamics.",
+    "authors": [
+      "Yunhao Fan",
+      "Gia-Wei Chern"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cs.LG",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-01-07T17:09:04Z",
+    "updated_at": "2026-10-29T02:51:24Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.04104v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.04104v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.04104",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2601.04104v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

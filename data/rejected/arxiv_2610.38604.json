@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.38604",
+    "arxiv_id": "2610.38604",
+    "arxiv_version": null,
+    "inspire_id": "3220194",
+    "doi": null,
+    "title_en": "Pulse-Informed Physical Placement for Parallel Two-Qubit Gates in Qubit Arrays",
+    "abstract_en": "A parallel two-qubit layer can often be realized with several nonoverlapping sets of physical couplers, but isolated calibrations do not reveal how each realization performs after optimizing its own simultaneous control pulse. We formulate physical placement and pulse synthesis as a coupled decision problem for parallel controlled-$Z$ gates in heterogeneous frequency tunable transmon arrays. The proposed processor-aware structural quantum multi-domain matrix (QMDM) links static processor, edge, incidence, and task information to a dynamic candidate response block. For each candidate placement $P$, QMDM instantiates the active Hamiltonian $H_P$; quantum optimal control (QOCT) generates a placement-specific pulse, direct coupled propagation returns the projected computational subspace overlap $F_{\\rm proj}$ and computational survival; and these pulse-conditioned responses are fed back to QMDM to rank and progressively promote physical placements. This placement pulse response feedback defines pulse-informed physical placement. Here, to see the performance of the proposed method on 30 held-out synthetic $3\\times3$ processors, the median final $F_{\\rm proj}$ is $0.993826$ for pulse-informed placement and $0.984981$ for calibration-based placement. Also, when tested under different system conditions, the proposed pulse-informed approach uses $59.1\\%$ fewer candidate QOCT optimizer iterations than the exhaustive finite-budget reference. The QMDM representation and outer search are formulated for arbitrary $L$ simultaneous two-qubit gates. Here, the present global candidate ranking validation is used for $L=2$.",
+    "authors": [
+      "Qamar, Shahid",
+      "Zhuang, Wei-Feng",
+      "Riaz, Bilal",
+      "Qian, Peng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-10-30T13:00:44.467365Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220194",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220194",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220194"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

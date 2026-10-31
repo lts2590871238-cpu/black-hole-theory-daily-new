@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 12,
+    "methodological_rigor": 15,
+    "novelty": 11,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 60,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文将星系并合模拟与半解析核刮削模型结合，用逻辑回归把核星系可观测性质与z=0时束缚超大质量双黑洞存在概率联系起来，并给出PTA波段辐射比例约0.3%及候选核星系清单；方法与PTA和黑洞双星主题相关，结论具体但偏星系统计应用，理论深度有限，值得进一步查阅。",
+  "title_zh": "本地核星系中超大质量双黑洞的概率估计",
+  "abstract_zh": "超大质量双黑洞（SMBHB）被认为是巨质量星系并合的预期产物，但在近邻星系中识别双黑洞仍然具有挑战性。我们将 IllustrisTNG 的巨质量星系组装历史模拟与半解析核刮削（core-scouring）模型相结合，把可观测的核星系性质与在 z=0 时拥有束缚 SMBHB 的概率联系起来。我们 (i) 使用一个由观测驱动的星系恒星质量函数构建核星系族群，(ii) 通过动力学摩擦、恒星硬化（stellar hardening）和引力波辐射来建模双星演化，(iii) 使用五个可观测预测量进行逻辑回归：恒星质量亏损、恒星质量、中心密度、中心速度弥散和有效半径。所得模型在模拟系统上表现良好，达到伪-$R^2$ 为 $0.51\\pm0.03$、准确率 $0.95\\pm0.01$、精确率 $0.92\\pm0.03$、召回率 $0.82\\pm0.04$。未并合的双星通常较为致密，分离度峰值接近 0.3 pc，不过只有 $\\sim0.3\\%$ 在脉冲星计时阵列波段辐射。将模型应用于观测到的核星系，我们识别出八个近邻星系，它们拥有 SMBHB 的可能性大于不可能。在这八个宿主候选中，我们指出 Messier 86 (NGC 4406) 是一个特别可能的例子，它此前也曾通过独立方法被类似地识别出来，因此值得未来跟进。",
+  "keywords_en": [
+    "supermassive black hole binaries",
+    "core galaxies",
+    "pulsar timing array",
+    "IllustrisTNG",
+    "semi-analytic modeling",
+    "logistic regression"
+  ],
+  "keywords_zh": [
+    "超大质量双黑洞",
+    "核星系",
+    "脉冲星计时阵列",
+    "IllustrisTNG",
+    "半解析建模",
+    "逻辑回归"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-31T02:34:42.929498Z"
+}

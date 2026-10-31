@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.37825",
     "arxiv_id": "2610.37825",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3220072",
     "doi": null,
     "title_en": "Probing Cosmology with Diffusion Models: Memorization, Generalization, and Parameter Estimation",
     "abstract_en": "Diffusion models are increasingly used as surrogates for expensive cosmological simulations, but simple metrics like reconstruction fidelity do not guarantee a surrogate can be trusted for scientific inference. To explore this, we train diffusion models on HI fields from the CAMELS IllustrisTNG simulations and test how three properties change with training-set size: memorization of individual training examples, agreement with one- and two-point statistics (the pixel-value distribution and the power spectrum), and estimation of cosmological parameters from the generated fields. At fixed model size, generative models trained with smaller, less diverse training data produced memorized samples. While this is a well known phenomenon, we show that this leads to miscalibrated parameter densities for cosmological inference tasks. At fixed size, there is a training set size with enough information content to enable a model to generalize, at which point posterior density estimation with neural surrogates can be well-calibrated. We demonstrate that a neural surrogate can therefore pass visual, one-point and power-spectrum convergence tests while still resulting in overconfident parameter estimation in a cosmological inference pipeline. Thus, tests of model generalization should be an additional check for inference pipelines adopting neural surrogates.",
@@ -15,23 +15,33 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-27T18:39:49Z",
-    "updated_at": "2026-10-27T18:39:49Z",
-    "document_types": [],
+    "submitted_at": "2026-10-27T00:00:00Z",
+    "updated_at": "2026-10-30T13:41:35.880782Z",
+    "document_types": [
+      "conference paper"
+    ],
     "journal_ref": null,
-    "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/3213915'}, C26-12-11"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.37825v1",
     "pdf_url": "https://arxiv.org/pdf/2610.37825v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220072",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.37825",
-        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
         "url": "https://arxiv.org/abs/2610.37825v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220072",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220072"
       }
     ],
     "is_demo": false

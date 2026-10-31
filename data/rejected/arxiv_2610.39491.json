@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39491",
+    "arxiv_id": "2610.39491",
+    "arxiv_version": null,
+    "inspire_id": "3220295",
+    "doi": null,
+    "title_en": "Automated Verification of Hamiltonian Simulation by Quantum Signal Processing",
+    "abstract_en": "We present, to the best of our knowledge, the first fully automated verification framework for QSP-based Hamiltonian simulation. Our framework exploits the structure of the simulation algorithm: Hamiltonians are given as weighted sums of Pauli strings, embedded into larger unitaries through block encodings, and transformed into time-evolution operators by quantum signal processing (QSP). Using a symbolic Pauli-sum semantics for ancilla-indexed circuit blocks, our verifier proves that the distinguished all-zero ancilla block is proportional to the target Hamiltonian and infers the subnormalization factor automatically. It then verifies the QSP layer by extracting the implemented polynomial transformation and certifying its approximation error. This structure-aware abstraction is essential for scalability. Composing our verified block encoding and QSP wrapper yields an estimated macro-expanded size of about 1.52 million gates. The verifier certifies the block encoding once and checks the QSP layer through its abstract interface, without expanding the oracle calls. Our implementation verifies block encodings of structured Pauli-sum Hamiltonians with up to 256 system qubits and verifies QSP Hamiltonian-simulation instances by extracting their implemented polynomials and checking the resulting approximation bounds. These results show that fully automated verification can handle common Hamiltonian-simulation circuits at substantial scale when it exploits their algorithmic structure.",
+    "authors": [
+      "Lai, Min",
+      "Chen, Yu-Fang",
+      "Hung, Shih-Han"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T12:32:18.872373Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220295",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220295",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220295"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

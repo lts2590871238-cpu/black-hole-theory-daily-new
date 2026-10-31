@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.37839",
+    "arxiv_id": "2610.37839",
+    "arxiv_version": null,
+    "inspire_id": "3220107",
+    "doi": null,
+    "title_en": "Shor's algorithm compiled on cat qubits: 22 593 qubits for RSA-2048 in 3.14 days",
+    "abstract_en": "We present an end-to-end resource estimation of Shor's algorithm on superconducting cat qubits, from its mathematical description to the allocation and scheduling of physical qubits on a chip layout. We review modern versions of Shor's algorithm for RSA, ECDLP and FFDLP, and make their logical circuits and trade-offs explicit. We compile the dominant subroutines down to physical-qubit operations on two architectures: one based on repetition cat codes and one on LDPC cat codes. We design a parity-Cnot gate for cat qubits, extend a multi-target Cnot gate to the LDPC-cat architecture, and adapt an active injection procedure to cat qubits. Building on these primitives, we adapt to cat qubits the adder from Gidney's 2025 resource estimate for factoring RSA-2048. We combine our adder compilation and a coarser estimate for the phaseup with the factory designs and lookup compilation from the FeMoco resource estimation of Kroell et al. Together, these lead to chip layouts and schedules for factoring RSA-2048. Assuming a 1$μ$s error-correction cycle time, a 10$μ$s reaction time, circuit-level phase-flip noise with probability $p_Z = 5 \\times 10^{-4}$ and no bit-flips, factoring RSA-2048, the configuration we compile in full, requires about 23 000 cat qubits and 3.14 days. Reusing the compiled operations, solving ECDLP on secp256k1 requires at most 30 000 cat qubits and 1 hour, and FFDLP-512, which we propose as an intermediate benchmark, about 6 700 cat qubits and 21 minutes. Trading space for time, RSA-2048 runs in 1.25 hours on about 611 000 cat qubits. The no-bit-flip requirement (a bit-flip time of about 100 years) can be relaxed to a bit-flip time of about one hour by adding a concatenation layer with a distance-3 bit-flip code, in which case RSA-2048 needs about 45 000 cat qubits.",
+    "authors": [
+      "Pappalardo, Axel",
+      "Goudarzi, Dahmun",
+      "Hertz, Victor",
+      "Jacinto, Hugo",
+      "Kroell, Larissa",
+      "Schrottenloher, André",
+      "Shanahan, Peter",
+      "Gouzien, Élie",
+      "de la Vieuville, Rémi",
+      "Londe, Vivien"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-27T00:00:00Z",
+    "updated_at": "2026-10-30T13:01:23.052476Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220107",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220107",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220107"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

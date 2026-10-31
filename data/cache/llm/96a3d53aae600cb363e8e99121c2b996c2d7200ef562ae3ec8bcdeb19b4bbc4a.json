@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 73,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文将一阶保守自作用力修正推广到双体双曲散射轨道，给出赫兹势跳变条件的闭式表达，并构建 Schwarzschild 背景上的数值演化代码，对引力波天体的后闵可夫斯基展开与有效单体建模都有直接价值；主题聚焦、推导与数值验证链条完整，值得点开细读。",
+  "title_zh": "双曲黑洞交会中的自作用力",
+  "abstract_zh": "自作用力方法可用于双体双曲交会中散射角的计算，按质量比（假定很小）逐阶展开，而不借助弱场近似。这反过来可为通过有效单体描述或其他途径精确刻画广义相对论双体动力学这一持续努力提供依据。现有的自作用力方法在很大程度上是针对束缚的旋进轨道专门化的。本文推导了散射角的一阶保守自作用力修正，证明其与近期后闵可夫斯基结果一致，并发展了一种能够高效处理散射轨道的（数值）自作用力计算技术。在该方法中，度规扰动由满足（逐模式）某一非齐次 Teukolsky 方程的赫兹势重构。该表述的关键要素是赫兹势（的各多极模式）沿小天体轨道世界线必须满足的若干跳变条件。我们给出了 Schwarzschild 时空中任意测地轨道下这些跳变的闭式表达式。为开始搭建数值基础设施，我们开发了一个 Schwarzschild 背景上的标量场演化代码（1+1 维）。在此基础上，计算了散射角的保守标量自作用力修正结果。接着我们构建了 Schwarzschild 背景上的 Teukolsky 演化代码。由于 Teukolsky 方程在视界和类光无穷处的非物理齐次解被数值误差激发，该代码产生数值不稳定的解。这可通过变量变换为类 Regge-Wheeler 场来加以解决。随后我们给出了该方法在 Schwarzschild 时空中圆轨道和散射轨道上的完整数值实现。",
+  "keywords_en": [
+    "self-force",
+    "hyperbolic encounters",
+    "scattering angle",
+    "Hertz potential",
+    "Teukolsky equation",
+    "Schwarzschild spacetime",
+    "post-Minkowskian",
+    "Regge-Wheeler"
+  ],
+  "keywords_zh": [
+    "自作用力",
+    "双曲交会",
+    "散射角",
+    "赫兹势",
+    "Teukolsky 方程",
+    "Schwarzschild 时空",
+    "后闵可夫斯基",
+    "Regge-Wheeler"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-31T02:34:04.714612Z"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40268",
+    "arxiv_id": "2610.40268",
+    "arxiv_version": null,
+    "inspire_id": "3220544",
+    "doi": null,
+    "title_en": "Probabilistic Energy-Based Neural Networks for Uncertainty-Aware Collider Data Analyses",
+    "abstract_en": "We introduce a probabilistic energy-based Neural Network (NN) for uncertainty-aware classification in collider analyses. Standard discriminative classifiers can give highly confident predictions even for events that are different from the data used during training. Energy-Based Models provide an alternative by assigning an energy score to each event, which measures how well the event agrees with the learned data distribution. In this framework, a NN maps the input features into a latent space, where the energy is defined with respect to class-specific embeddings. This allows the model to identify noisy, anomalous or shifted events while maintaining good classification performance. We first study the method using controlled synthetic examples and then test it in a realistic collider analysis based on the $h \\to τ^+ τ^-$ process at the Large Hadron Collider, where $h$ is the discovered Standard Model Higgs boson. We show that the associated energy score can help identify events affected by mismodelling and/or systematic variations and can thus be used to define uncertainty-aware event selections. Although we use this specific Higgs process as a testbed, the method is general and can be applied to other collider classification problems where robustness against systematic and distributional uncertainties is important.",
+    "authors": [
+      "Ramos, Raymundo",
+      "Hammad, Ahmed",
+      "Chakraborty, Amit",
+      "Ko, Pyungwon",
+      "Moretti, Stefano"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:17:14.441933Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220544",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220544",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220544"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

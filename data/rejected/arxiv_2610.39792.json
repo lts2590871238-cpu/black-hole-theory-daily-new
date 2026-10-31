@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39792",
+    "arxiv_id": "2610.39792",
+    "arxiv_version": 1,
+    "inspire_id": "3220472",
+    "doi": null,
+    "title_en": "RAKI: High-Order Alternative Finite Differences for General Relativistic Magnetohydrodynamics",
+    "abstract_en": "Binary neutron star (BNS) and black hole--neutron star mergers are among the most important multimessenger sources. Observations of these events could provide valuable insights into several unresolved phenomena, ranging from the efficiency of magnetic field amplification during and after mergers to the formation of magnetars and jets. Understanding these phenomena requires accurate modelling of magnetic field evolution, which remains a challenge for state-of-the-art general relativistic magnetohydrodynamics (GRMHD) simulations. In this work, we present \\texttt{RAKI} (Relativistic Astrophysics Code Implementation of the Alternative Finite Difference Approach for GRMHD), the first GRMHD code to simulate BNS mergers using high-order alternative finite-difference methods with adaptive-order WENO (AFD-WENO-AO) reconstruction and a fully non-staggered, node-centred vector-potential formulation. The code achieves up to ninth-order convergence in smooth test problems while accurately capturing discontinuities. In magnetised Tolman--Oppenheimer--Volkoff (TOV) star tests, \\texttt{RAKI} retains $99.2$ per cent of the initial maximum magnetic field strength over ${\\sim}2$ ms, exhibiting an order of magnitude less magnetic field loss than a reference GRMHD code at the same resolution. In BNS merger simulations, fifth-order AFD-WENO-AO reconstruction yields approximately third-order convergence of the gravitational-wave phase in both magnetised and unmagnetised models. The discrete no-monopole constraint is preserved to machine precision without staggered grids, even during BNS mergers with moving refinement regions. These results establish \\texttt{RAKI} as a high-order, non-staggered GRMHD framework for accurate modelling of magnetic field evolution in neutron star mergers and its implications for multimessenger astrophysics.",
+    "authors": [
+      "Rahime Matur",
+      "Beyhan Karakas",
+      "Ian Hawke",
+      "Nils Andersson"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc",
+      "hep-ph",
+      "physics.comp-ph"
+    ],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:10:29.536612Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.39792v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39792v1",
+    "inspire_url": "https://inspirehep.net/literature/3220472",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.39792",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2610.39792v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220472",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220472"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

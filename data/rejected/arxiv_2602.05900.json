@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.05900",
+    "arxiv_id": "2602.05900",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/ktzw-t6fx",
+    "title_en": "Reducing the Computational Cost Scaling of Tensor Network Algorithms via Field-Programmable Gate Array Parallelism",
+    "abstract_en": "Improving the computational efficiency of quantum many-body calculations from a hardware perspective remains a critical challenge. Although field-programmable gate arrays (FPGAs) have recently been exploited to improve the computational scaling of algorithms such as Monte Carlo methods, their application to tensor network algorithms is still at an early stage. In this work, we propose a fine-grained parallel tensor network design based on FPGAs to substantially enhance the computational efficiency of two representative tensor network algorithms: the infinite time-evolving block decimation (iTEBD) and the higher-order tensor renormalization group (HOTRG). By employing a quad-tile partitioning strategy to decompose tensor elements and map them onto hardware circuits, our approach effectively translates algorithmic computational complexity into scalable hardware resource utilization, enabling an extremely high degree of parallelism on FPGAs. Compared with conventional CPU-based implementations, our scheme exhibits superior scalability in computation time, reducing the bond-dimension scaling of the computational cost from $O(D_b^3)$ to $O(D_b)$ for iTEBD and from $O(D_b^6)$ to $O(D_b^2)$ for HOTRG. This work provides a theoretical foundation for future hardware implementations of large-scale tensor network computations.",
+    "authors": [
+      "Songtai Lv",
+      "Yang Liang",
+      "Rui Zhu",
+      "Qibin Zheng",
+      "Haiyuan Zou"
+    ],
+    "categories": [
+      "cond-mat.str-el",
+      "cond-mat.stat-mech",
+      "hep-lat",
+      "quant-ph"
+    ],
+    "submitted_at": "2026-02-05T17:16:44Z",
+    "updated_at": "2026-10-29T16:36:42Z",
+    "document_types": [],
+    "journal_ref": "APS Open Sci. 1, 000064 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.05900v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.05900v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.05900",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2602.05900v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

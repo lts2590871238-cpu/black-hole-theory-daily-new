@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40459",
+    "arxiv_id": "2610.40459",
+    "arxiv_version": null,
+    "inspire_id": "3220586",
+    "doi": null,
+    "title_en": "Quantum-Walk Inspired Spectral Metrics for Evaluating QAOA Mixers",
+    "abstract_en": "QAOA mixers play an important role in enabling exploration of the exponentially large solution space of binary optimization problems. However, the choice of mixer Hamiltonian is typically guided by convention and implementation or circuit constraints, rather than by a graph-topology-aware criterion. In this work, inspired by quantum-walk mixing theory, we propose two complementary spectral heuristics for characterizing QAOA mixer topologies. The first is the normalized minimum eigenvalue separation of the mixer Hamiltonian $H_M$, while the second is the long-time averaged minimum eigenvalue separation of the mixer unitary $U_M(β)=e^{-iβH_M}$. Both quantities are invariant under any positive rescaling of the mixer Hamiltonian and provide Hamiltonian- and unitary-level characterizations of the mixer's spectral structure. We use them as heuristic indicators of the mixer dynamics relevant to amplitude redistribution during QAOA evolution. We derive exact expressions and asymptotic bounds for the complete graph, hypercube, cycle, and balanced 2-D torus, revealing a broad spectral separation between the studied topology classes. We then compare these separations with empirical QAOA performance. For random permutation-invariant cost Hamiltonians, the observed performance ordering is broadly consistent with the spectral characterization. In contrast, for structured 1-D and 2-D Ising QUBOs, this ordering breaks down, indicating that mixer-cost alignment can become important. These results illustrate both the usefulness and the limitations of topology-level, cost-agnostic spectral heuristics for QAOA mixer selection.",
+    "authors": [
+      "Gulati, Jasjyot Singh",
+      "SAPV, Tharrmashastha"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T12:56:29.741475Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220586",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220586",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220586"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 17,
+    "novelty": 13,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 1,
+    "other": 6
+  },
+  "total_score": 78,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文为任意等臂有限延迟TDI通道的各向异性重叠归约函数建立了统一的解析框架，将通道代数与角向积分分离，并给出可复用的强度核生成规则；方法上兼顾解析构造、多精度校验与高效数值评估（相对优化天区积分提速约50–5000倍），对PTA多通道各向异性背景建模具有较高的理论与实用价值，值得进一步阅读。",
+  "title_zh": "任意等臂TDI通道的各向异性重叠归约函数：一个完全解析框架与高效评估",
+  "abstract_zh": "我们在一个静态、互易、等臂等边星座中，为任意有限延迟时间延迟干涉测量（TDI）通道的各向异性重叠归约函数（ORFs）建立了一个统一的解析框架。该构造结合了用于激光噪声消除的多项式约束、星座对称性以及方向投影积分。容许通道模的一个自由基将通道生成与角向积分分离；随后两族基本角向核生成所有通道对的强度ORFs。通道代数与引力波偏振无关，而强度核归约适用于张量、矢量、呼吸和纵向扇区。此处以张量多极子对该框架进行示例说明。在任意固定有限角阶上保留了完整的传播效应，并给出了直至 $\\ell=5$ 的明确示例。预置频率批次、共享的多精度表达式以及可去除延迟点处的局部展开提供了稳定评估。在预置批次基准测试中，在匹配的误差容限下，该解析实现比优化天区求积快约50至5000倍。独立的多次精度天区积分也在测试情形中将规定的混合误差目标校验至低至 $10^{-100}$。所得到的核与生成规则为各向异性多通道背景模型提供了可复用的输入。",
+  "keywords_en": [
+    "overlap reduction function",
+    "TDI channels",
+    "anisotropic gravitational-wave background",
+    "pulsar timing arrays",
+    "finite-delay interferometry",
+    "multiprecision evaluation"
+  ],
+  "keywords_zh": [
+    "重叠归约函数",
+    "TDI通道",
+    "各向异性引力波背景",
+    "脉冲星计时阵列",
+    "有限延迟干涉测量",
+    "多精度评估"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-10-31T02:33:08.599365Z"
+}

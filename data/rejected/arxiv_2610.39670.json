@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39670",
+    "arxiv_id": "2610.39670",
+    "arxiv_version": null,
+    "inspire_id": "3220452",
+    "doi": null,
+    "title_en": "Error-Corrected Quantum Optimization via Rydberg Atom Array Embeddings",
+    "abstract_en": "Rydberg atom quantum optimizers naturally encode the maximum independent set problem on geometric graphs. However, to solve general combinatorial optimization problems on more complex topologies, an embedding is required to overcome the limited-range native interactions. Such embeddings use gadgets, specific arrangements of atoms, which inevitably introduce ancillary atoms. Here, we show that this apparent overhead instead provides an intrinsic resource for error correction. Specifically, we demonstrate that the Parity Architecture-based Rydberg embedding naturally forms a classical error-correcting code, a principle that extends to other Rydberg blockade-based embeddings. Within superatom substructures, exact Rydberg-excitation-number constraints provide local error syndromes at no additional hardware cost and give rise to a strictly nonlinear code. To correct bit-flip errors, we introduce the precisely tailored Cluster decoder, which exploits these local constraints and the underlying gadget structure. Numerically, this approach achieves an error threshold of $p_{\\text{th}}\\gtrsim26 \\%$ across different layout geometries. Experimentally, on the QuEra Aquila QPU, the Cluster decoder recovers exact optimization solutions with an average success rate of $\\gtrsim8\\%$ for systems of up to 107 atoms, even when bare hardware and standard greedy post-processing find none. A Rydberg atom array embedding is therefore not merely a hardware mapping of an optimization problem, but a co-designed architecture for quantum optimization in which embedding, computation, and error correction emerge from the same physical structure.",
+    "authors": [
+      "Byun, Andrew",
+      "Klaver, Berend",
+      "De, Arinjoy",
+      "Ildefonso, Pedro",
+      "Khachatryan, Davit",
+      "Bylinskii, Alexei",
+      "Schuler, Michael",
+      "Lechner, Wolfgang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T12:56:11.546225Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220452",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220452",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220452"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

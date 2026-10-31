@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.37847",
+    "arxiv_id": "2610.37847",
+    "arxiv_version": null,
+    "inspire_id": "3220078",
+    "doi": null,
+    "title_en": "Exact verification of Givens rotation circuits for efficient quantum phase estimation of iron-sulfur clusters",
+    "abstract_en": "Givens rotations with angles stored in quantum registers account for much of the cost of published quantum phase estimation algorithms based on double-factorized tensor hypercontraction and spectral amplification. These rotations create superpositions and cannot be verified directly by the basis-state evaluators used to optimize classical reversible circuits. We give an exact verification method that separates out a fixed Clifford change of basis and tracks basis states and phases in the remaining circuit. Integer conditions establish correctness of the full coherent action, including measurement-based uncomputation and restoration of the phase-gradient resource state. Under our interpretation of Low et al.'s angle grid and rotation convention, simplifying the adders lowers the rotation cost relative to the published accounting; fusing the two additions into one masked addition gives an additional saving. We verify both implementations exhaustively at every precision used in the published walks and prove the fused circuit correct for all widths. For benchmarks including FeMoco and other iron-sulfur clusters, replacing only the rotation term lowers total phase-estimation Toffoli counts by 9.5-14.3% under the published error budget, with the walk operator unchanged.",
+    "authors": [
+      "Fu, Lizhong",
+      "Shang, Honghui"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-27T00:00:00Z",
+    "updated_at": "2026-10-30T13:02:32.959015Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220078",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220078",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220078"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

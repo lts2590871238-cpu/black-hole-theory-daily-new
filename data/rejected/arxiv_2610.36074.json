@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.36074",
     "arxiv_id": "2610.36074",
     "arxiv_version": 1,
-    "inspire_id": "3219374",
+    "inspire_id": null,
     "doi": null,
     "title_en": "CROMA: a GPU-accelerated Fokker--Planck solver for modeling non-thermal emission in post-processing cosmological simulations",
     "abstract_en": "Numerical modeling of cosmic-ray (CR) spectra and the resulting non-thermal emission is important for understanding the physical mechanisms of CR acceleration and transport in astrophysical environments. Galaxy clusters and cosmic filaments provide particularly important environments for studying these processes, where shocks, turbulence, magnetic fields, and CRs jointly shape diffuse synchrotron emission. Spectrally resolved modeling of CRs, including cooling, re-acceleration, and hadronic interactions, requires solving time-dependent Fokker--Planck (FP) equations. An increasing number of studies employ FP solvers coupled with magnetohydrodynamical (MHD) simulations to follow the evolution of CRs in dynamically evolving environments. We present a new C/C++-based FP solver with GPU acceleration for post-processing outputs from cosmological MHD simulations. The code evolves CR proton and electron spectra along Lagrangian tracer trajectories and consistently includes re-acceleration and secondary-particle production processes. With the Chang--Cooper finite-difference scheme, the FP equation for each tracer is reduced to an independent tridiagonal system, which is solved on NVIDIA GPUs using a CUDA implementation of the parallel cyclic reduction (PCR) algorithm. The code uses sub-stepping between tracer snapshots, with the timestep constrained by the relevant CR cooling or re-acceleration timescale, and a batching algorithm that groups tracers with similar sub-stepping patterns for efficient execution. We find that the GPU acceleration increases the per-node throughput by a factor of $\\approx$10 on the Leonardo Booster system operated by CINECA. The fast FP solver is useful for high-resolution simulations dedicated to comparison with next-generation radio observations and future multi-messenger applications combining radio, gamma-ray, and high-energy neutrino observations.",
@@ -19,31 +19,23 @@
       "astro-ph.CO",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-10-26T00:00:00Z",
-    "updated_at": "2026-10-29T03:21:05.800456Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-26T18:02:41Z",
+    "updated_at": "2026-10-26T18:02:41Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2610.36074v1",
     "pdf_url": "https://arxiv.org/pdf/2610.36074v1",
-    "inspire_url": "https://inspirehep.net/literature/3219374",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.36074",
-        "fetched_at": "2026-10-30T02:42:27.302277Z",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
         "url": "https://arxiv.org/abs/2610.36074v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3219374",
-        "fetched_at": "2026-10-30T02:42:27.302277Z",
-        "url": "https://inspirehep.net/literature/3219374"
       }
     ],
     "is_demo": false

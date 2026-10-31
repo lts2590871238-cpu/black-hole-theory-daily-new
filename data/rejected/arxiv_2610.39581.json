@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39581",
+    "arxiv_id": "2610.39581",
+    "arxiv_version": 1,
+    "inspire_id": "3220436",
+    "doi": null,
+    "title_en": "Efficient GLS map-making and assessment of $1/f$ noise impact for future CMB satellite missions",
+    "abstract_en": "Time-correlated $1/f$ noise is a major source of large-scale contamination in measurements of the polarized cosmic microwave background (CMB) that can limit sensitivity to primordial $B$ modes. Generalized least-squares (GLS) map-making is optimal for stationary Gaussian noise when its covariance is known, but practical implementations rely on approximations to make the computation tractable. In particular, approximating the noise covariance as circulant enables efficient map-making using fast Fourier transform, but introduces artificial edge effects when applied to finite data chunks. We introduce STITCH (STatistical Inpainting for Timeline CHunks), a preprocessing method that mitigates these effects by extending time-ordered data chunks with synthetic samples that make the extended timelines statistically consistent with the assumed circulant noise model. They can then be processed with standard circulant GLS solvers, preserving their computational efficiency while reducing residuals associated with chunk boundaries. Simulations show that STITCH substantially suppresses these edge effects, bringing the resulting noise power spectra close to those obtained when the circulant approximation holds. We demonstrate negligible impact of our procedure on the recovered signal, such as $E\\to B$ leakage, even at large scales. Finally, we investigate how temporal $1/f$ noise projects onto angular scales for representative LiteBIRD-, \\emph{Planck}-, and PICO-like scanning strategies. Using noise simulations spanning a range of temporal noise parameters, we fit an effective model to the resulting angular noise spectra. These results provide an empirical characterization of the temporal-to-angular noise mapping for the configurations studied and a basis for further investigations of correlated noise in future CMB polarization missions.",
+    "authors": [
+      "Marta Monelli",
+      "Guillaume Patanchon",
+      "Avinash Anand"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:37:11.195584Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.39581v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39581v1",
+    "inspire_url": "https://inspirehep.net/literature/3220436",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.39581",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2610.39581v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220436",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220436"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

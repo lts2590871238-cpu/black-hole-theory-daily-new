@@ -1,0 +1,70 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.39546",
+    "arxiv_id": "2610.39546",
+    "arxiv_version": 1,
+    "inspire_id": "3220422",
+    "doi": null,
+    "title_en": "A deep learning approach to member identification and mass estimation in galaxy clusters",
+    "abstract_en": "Accurate dynamical mass estimates of galaxy clusters are essential for studies of cluster formation and evolution and for cosmological applications. However, interloper galaxies, which are not gravitationally bound to the cluster but are incorrectly identified as members, can bias dynamical mass measurements and increase uncertainties. We developed a probabilistic deep-learning framework for cluster member identification and dynamical mass estimation and tested sensitivity to cluster miscentring and radially dependent incompleteness in controlled mock experiments. We used mock galaxy cluster catalogues to train a two-stage model. A long short-term memory (LSTM) network assigns membership probabilities to galaxies arranged by projected phase-space proximity. These probabilities construct membership-weighted projected phase-space density maps, from which a Bayesian neural network (BNN) infers cluster masses and predictive uncertainties. The LSTM membership probabilities are well calibrated and form an isoprobability envelope in projected phase space, with the $\\langle p_{\\rm mem}\\rangle = 0.5$ contour broadly tracing the empirical member--interloper transition. A threshold of $p_{\\rm th} = 0.5$ balances member completeness and purity, with high completeness within $R_{\\rm proj} < r_{200}$. Membership weighting lowers the residual scatter of the fiducial BNN mass estimator, $\\mathrm{BNN}^{\\mathrm{Mem}}_{\\mathrm{2D}}$, to $σ_ε= 0.120$, a 19.5% reduction relative to the unweighted baseline, although predictive uncertainties are not uniformly calibrated across BNN models. Using the brightest cluster galaxy rather than the gravitational centre lowers the median inferred mass by up to 47.6%, with larger reductions at larger centring offsets. By contrast, removing 40% of eligible non-central galaxies within $r_{200}$ lowers it by 6.1% relative to complete catalogues.",
+    "authors": [
+      "Zicheng Wang",
+      "Liping Fu",
+      "Wei Du",
+      "Wentao Luo",
+      "Wenxiang Pei",
+      "Zhu Chen",
+      "Zhijian Luo",
+      "Yicheng Li",
+      "Jiachen Qiu",
+      "Haoran Zhao",
+      "Kaiwen Mai",
+      "Weiming Ren"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-30T13:37:11.178750Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.39546v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.39546v1",
+    "inspire_url": "https://inspirehep.net/literature/3220422",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.39546",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://arxiv.org/abs/2610.39546v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3220422",
+        "fetched_at": "2026-10-31T02:32:22.288728Z",
+        "url": "https://inspirehep.net/literature/3220422"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
