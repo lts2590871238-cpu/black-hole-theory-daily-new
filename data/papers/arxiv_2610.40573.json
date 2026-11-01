@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40573",
+    "arxiv_id": "2610.40573",
+    "arxiv_version": null,
+    "inspire_id": "3220309",
+    "doi": null,
+    "title_en": "What Can Be Computed with Indefinite Causal Structure?",
+    "abstract_en": "Can quantum computation become more powerful when operations do not need to follow a definite causal order? We study this question in the process matrix formalism of Oreshkov et al. (Nature Communications, 2012), which allows quantum operations to be connected without a fixed global order. In the computational model, a quantum circuit succinctly describes a process matrix, and the algorithm is given access to its generated channel, with computational cost measured by the size of the generating circuit. We give polynomial-time algorithms in two settings. First, general process matrix computation suffices to solve every problem in $\\textbf{NP}$. The valid processes used by our algorithm satisfy the purification postulate of Araújo et al. (Quantum, 2017), and their generated channels are unitary, although their generating circuits are not. Second, requiring the process matrices themselves to be pure, we give a polynomial-time algorithm for unique-sink orientation, a general problem capturing several longstanding computational problems in optimization. Our unitary generators are constructed explicitly and efficiently. Assuming that unique-sink orientation has no quantum polynomial-time algorithm, our result shows that indefinite causal order can provide computational power beyond $\\textbf{BQP}$ within the process matrix formalism, even while preserving unitarity.",
+    "authors": [
+      "Shmueli, Omri"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-10-31T12:26:16.870179Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220309",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220309",
+        "fetched_at": "2026-11-01T02:21:30.925265Z",
+        "url": "https://inspirehep.net/literature/3220309"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "causal structure"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 15,
+      "novelty": 13,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 1,
+      "other": 6
+    },
+    "total_score": 71,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "论文在过程矩阵形式中研究非定序因果结构的计算能力，属于量子计算与因果结构交叉的理论工作，明确给出多项式时间算法并讨论纯化假设与酉性约束，理论深度和结果清晰度较高，值得点击阅读。相关度主要落在因果结构基础问题上，与广义相对论基础的关联较弱。",
+    "title_zh": "非定序因果结构能计算什么？",
+    "abstract_zh": "当操作不必遵循确定的因果顺序时，量子计算是否会变得更强？我们在Oreshkov等人（Nature Communications, 2012）的过程矩阵形式中研究这一问题，该形式允许量子操作在不具固定全局顺序的情况下被连接。在该计算模型中，一个量子线路可简洁地描述一个过程矩阵，算法可以访问其生成的通道，计算代价由生成线路的规模度量。我们在两种设定下给出多项式时间算法。第一，一般的过程矩阵计算足以求解$\\textbf{NP}$中的每个问题。我们算法所使用的有效过程满足Araújo等人（Quantum, 2017）的纯化假设，且其生成的通道是酉的，尽管其生成线路不是酉的。第二，要求过程矩阵本身为纯的，我们给出针对唯一汇点定向的多项式时间算法，该问题是一类通用问题，涵盖优化中的若干长期计算问题。我们的酉生成器被显式且高效地构造。假设唯一汇点定向不存在量子多项式时间算法，我们的结果表明，在过程矩阵形式内，即使保持酉性，非定序因果结构也能提供超越$\\textbf{BQP}$的计算能力。",
+    "keywords_en": [
+      "indefinite causal order",
+      "process matrix formalism",
+      "quantum computation",
+      "unique-sink orientation",
+      "purification postulate",
+      "BQP",
+      "computational complexity"
+    ],
+    "keywords_zh": [
+      "非定序因果结构",
+      "过程矩阵形式",
+      "量子计算",
+      "唯一汇点定向",
+      "纯化假设",
+      "BQP",
+      "计算复杂度"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-01T02:22:17.419957Z"
+  },
+  "published_at": "2026-11-01T02:22:17.420427Z"
+}
