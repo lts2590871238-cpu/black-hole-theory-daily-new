@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41189",
+    "arxiv_id": "2610.41189",
+    "arxiv_version": 1,
+    "inspire_id": "3221046",
+    "doi": null,
+    "title_en": "Reconstructing Meson Parton Distributions from Mellin Moments with Artificial Neural Networks",
+    "abstract_en": "We address the inverse problem of reconstructing a meson parton distribution function (PDF) or parton distribution amplitude (PDA) at a fixed scale from a finite set of Mellin moments. At finite moment order this map is ill posed in the Hadamard sense: the moments do not determine a unique, stable pointwise $x$-dependence, and small data perturbations can produce large changes in the reconstruction. We regularize the problem by restricting the admissible function class through constraints justified by first principles---support on $x\\in[0,1]$, endpoint vanishing, unit normalization, and, for the pion, the exact $x\\leftrightarrow 1-x$ symmetry---and by complementing these hard constraints with differentiable penalties that suppress the spurious multiple maxima and central concavity changes typical of ill-posed inversions. We parameterize the unknown function with two interchangeable neural cores, a multilayer perceptron (MLP) and a Kolmogorov--Arnold network (KAN), and find that the KAN reconstructs the target distributions more accurately, most markedly in the asymmetric (kaon) case. We attribute this advantage to the locality of the B-spline basis underlying the KAN, which localizes corrections during moment matching and damps the global oscillations to which the MLP is prone. Benchmarks against synthetic targets, using both ten and five input moments, support these conclusions.",
+    "authors": [
+      "Pietro Dall'Olio",
+      "Cristian Del Gobbo",
+      "Khépani Raya",
+      "José Rodríguez-Quintero"
+    ],
+    "categories": [
+      "hep-th"
+    ],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-02T02:33:44.981685Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.41189v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41189v1",
+    "inspire_url": "https://inspirehep.net/literature/3221046",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.41189",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://arxiv.org/abs/2610.41189v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3221046",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3221046"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

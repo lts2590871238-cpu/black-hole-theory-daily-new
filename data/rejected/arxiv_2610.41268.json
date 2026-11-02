@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41268",
+    "arxiv_id": "2610.41268",
+    "arxiv_version": null,
+    "inspire_id": "3221001",
+    "doi": null,
+    "title_en": "Testing hardware quantum machine learning claims with a null circuit: fill prediction on Binance futures with 129 qubits of an IBM Heron processor",
+    "abstract_en": "Quantum processors are now used as feature generators for classical models on tabular data. A circuit encodes each record, the device returns expectation values, and a classical model learns from them. A recent report claimed large gains from such features, gains that appeared only on noisy hardware. These claims are hard to check, because a quantum device is not a static function. Its state changes from job to job and from one calibration to the next, and that drift can leak information about the outcome into the features. We propose a five-step protocol for testing claims of this kind. It runs a circuit that carries no data in the same jobs as the real one. It checks whether the hardware leaves a recognizable mark on each job. It compares random and natural assignments of records to jobs, replays the null results under other submission orders, and closes the leak with a job-purged backtest. We apply it, pre-registered, to the HSBC and IBM study of fill probabilities in bond trading, which reported a large hardware-only gain. We use a public analog task and run the study's circuit on a 129-qubit chain of an IBM Heron processor. Under controlled assignment the hardware features give no gain over classical features, and the device reproduces the ideal features about as well as shot noise allows. Yet every job carries a distinct fingerprint. A circuit with no data at all predicts fills well above chance when records are batched by outcome and the same job sits on both sides of the train/test split. Removing that overlap removes the effect. The protocol costs under an hour of processor time and is designed for any hardware feature or kernel pipeline on tabular data.",
+    "authors": [
+      "Faryad, Muhammad"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-02T02:32:38.512491Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221001",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221001",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3221001"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

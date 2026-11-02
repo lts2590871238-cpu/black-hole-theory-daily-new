@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40851",
+    "arxiv_id": "2610.40851",
+    "arxiv_version": null,
+    "inspire_id": "3221006",
+    "doi": null,
+    "title_en": "Benchmarking One-Dimensional Quantum Lattice Boltzmann Methods on Quantum Hardware",
+    "abstract_en": "Classical computational fluid dynamics (CFD) methods encounter significant computational bottlenecks in large systems and at high Reynolds number flows due to the rapid increase in degrees of freedom, even on flagship supercomputers. As quantum computers emerge, the Quantum Lattice Boltzmann Method (QLBM) has been proposed as a quantum-native alternative for solving fluid dynamics problems. However, until recently, nearly all studies have relied on classical quantum simulators rather than real quantum hardware. This study presents a benchmark of a one-dimensional QLBM implementation executed on three different IBM Quantum hardware. We design and test a quantum circuit for the advection-diffusion equation using amplitude encoding, a Bhatnagar-Gross-Krook (BGK)-type collision operator, and a streaming step with periodic boundary conditions. Our numerical experiments evaluate transpiled two-qubit gate count, total circuit depth, runtime, and accuracy metrics including maximum absolute error ($L_\\infty$ norm) and root-mean-square error (RMSE). We find that the present collision and streaming operators dominate the overall cost and become the primary scalability bottleneck on current hardware. To mitigate the prohibitive cost of full quantum state tomography on hardware-based benchmarking exercises, we introduce a sampler-based measurement strategy that reconstructs macroscopic density fields directly from computational-basis measurements. This approach substantially reduces measurement overhead while preserving the expected advection-diffusion dynamics on hardware. These results provide a quantitative assessment of QLBM performance in the noisy intermediate-scale quantum (NISQ) regime and identify the principal algorithmic and experimental limitations that must be addressed for QLBM to become viable for fluid dynamics.",
+    "authors": [
+      "Quartey, Melvina",
+      "Zhang, Lucy T."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-02T02:32:55.663946Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221006",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221006",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3221006"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

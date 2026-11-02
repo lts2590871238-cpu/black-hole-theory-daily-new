@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40988",
+    "arxiv_id": "2610.40988",
+    "arxiv_version": null,
+    "inspire_id": "3220992",
+    "doi": null,
+    "title_en": "Variational Programs with Open Clocks",
+    "abstract_en": "Variational quantum algorithms leave the durations of Hamiltonian evolutions open for a classical optimizer to set. We present VHamilton, a minimal extension of the Hamilton quantum programming language in which such durations are open clocks: one program denotes a family of Hamiltonian trajectories, and a valuation fills its clocks with exact dyadic times, so that each instance is an ordinary Hamilton program that compiles to circuits as before. Because the semantics stays exact and affine in the clocks, the Hamiltonian structure of a variational program remainsavail able for reasoning about every valuation at once. Equivalence becomes a finite calculation, which we mechanize in Agda for a fragment and use to prove the VHamilton form of the compiler rewrite \"rzz(t) = cx; rz(t); cx\" for every clock value. We then show what the same structure supports in a two-qubit chemistry eigensolver written in VHamilton and run through a Haskell prototype. It supports a fusion of commuting blocks, a closed form and an expressibility proof for the ansatz, and an exact split of the error between the precision of the target and that of the clocks, with a priori bounds. It also supports a coordinate search whose queries per sweep, fixed by the spectra of the generators, do not grow with the precision. On the benchmark this search reaches the numerically verified optimum of a grid of 134 million valuations in 53 energy queries. It finds the grid optimum in only 21 of 30 validation settings, however, so the gain is conditional, not a global-optimization guarantee.",
+    "authors": [
+      "Ghafoor, Javaria",
+      "Sabry, Amr"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-02T02:32:20.085151Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220992",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220992",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3220992"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

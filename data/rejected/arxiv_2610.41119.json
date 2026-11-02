@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41119",
+    "arxiv_id": "2610.41119",
+    "arxiv_version": 1,
+    "inspire_id": "3221021",
+    "doi": null,
+    "title_en": "MAGIKS: Multimodal Alignment and Gravitational-Wave-Conditioned Interaction for Kilonova Search",
+    "abstract_en": "We present MAGIKS, a multimodal framework for gravitational-wave (GW)-triggered kilonova identification that formulates counterpart search as query-conditioned gallery retrieval. Following an align-before-fuse design, MAGIKS combines GW source parameters and sky-localization maps with irregularly sampled multiband optical light curves and sky coordinates. A time-aware supervised contrastive objective provides coarse cross-modal alignment, while dual cross-attention evaluates consistency between optical coordinates and GW localization, and between GW parameters and optical evolution. We train and evaluate MAGIKS on simulated binary neutron star and neutron star-black hole mergers, Rubin Observatory kilonova light curves from regular survey observations and target-of-opportunity follow-up, GW-detected mergers without Rubin-detectable kilonova counterparts, and realistic non-kilonova contaminants. In independent galleries with one true counterpart and time- and sky-compatible distractors, MAGIKS outperforms optical-only and sky-localization-only ranking, with increasing gains as galleries grow. At 5000 candidates, it ranks the counterpart first for 39.8% of queries, versus 4.8% and 0.2% for these baselines. In a GW170817 study, we generate counterfactual Rubin observations using released GW parameters and three-dimensional localization, the measured counterpart position, and host distance. At the same gallery size, MAGIKS achieves top-1 and top-10 retrieval rates of 87.3% and 95.7%. It correctly classifies 94.2% of associated and non-associated GW-optical pairs. In a separate crossed-pair experiment, its matching score responds significantly to controlled changes in all five tested GW parameters. These results support GW-conditioned kilonova candidate prioritisation for future multi-messenger follow-up.",
+    "authors": [
+      "Bingzhou Gao",
+      "Weichangfeng Guo",
+      "Jingqi Zhang",
+      "Alistair McLeod",
+      "Zhengyan Liu",
+      "Linqing Wen",
+      "Wen Zhao"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-02T02:33:25.709999Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2610.41119v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41119v1",
+    "inspire_url": "https://inspirehep.net/literature/3221021",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.41119",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://arxiv.org/abs/2610.41119v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3221021",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3221021"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

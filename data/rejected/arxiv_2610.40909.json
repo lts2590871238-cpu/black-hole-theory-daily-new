@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40909",
+    "arxiv_id": "2610.40909",
+    "arxiv_version": null,
+    "inspire_id": "3221000",
+    "doi": null,
+    "title_en": "Relativistic viscous hydrodynamics in the Density Frame for heavy-ion collisions",
+    "abstract_en": "We present a numerical study of relativistic viscous hydrodynamics in the Density Frame for boost-invariant flows in 2+1 dimensions. The Density Frame is a formulation of relativistic viscous hydrodynamics that is first order in time, requires no auxiliary fields, and has no non-hydrodynamic modes; the only parameters are the shear and bulk viscosities and the equation of state. We formulate the numerical method in terms of a discrete analog of the dissipative function, which guarantees that the discrete equations produce entropy on all length scales and leads to a remarkably robust algorithm. We test the method against the exact solution of kinetic theory in the relaxation time approximation with Gubser symmetry. In making this comparison, we clarify how the kinetic solution matches onto hydrodynamics: we organize the solution by the opacity and show how the Bjorken attractor passes onto the Gubser solution order by order in gradients. We then replace the hydrodynamic engine of the MUSIC code with the Density Frame, and compare the two for IP-Glasma initial conditions in Pb-Pb collisions at $\\sqrt{s_{NN}} = 5.02$ TeV. The Density Frame smooths sharp gradients more rapidly. The largest differences arise in the bulk-viscous sector, where the bulk pressure in the Density Frame responds instantaneously to the flow, while in the Müller-Israel-Stewart-based MUSIC it relaxes over a finite time. With shear viscosity alone, the multiplicity, mean transverse momentum, and elliptic flow of final-state hadrons from the two codes are very similar. The Density Frame is now ready for a complete Bayesian analysis of heavy-ion data.",
+    "authors": [
+      "Paquet, Jean-François",
+      "Singh, Mayank",
+      "Teaney, Derek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-02T02:32:43.921380Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221000",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221000",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3221000"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

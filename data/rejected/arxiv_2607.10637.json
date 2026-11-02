@@ -3,14 +3,16 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.10637",
     "arxiv_id": "2607.10637",
-    "arxiv_version": 2,
+    "arxiv_version": 3,
     "inspire_id": null,
     "doi": null,
-    "title_en": "Detector-level simulation closure of radio air-shower reconstruction with native RF-chain inversion and out-of-fold endpoint interpolation",
-    "abstract_en": "Autonomous radio arrays reconstruct air showers from trigger-selected digitized voltage traces rather than ideal electric-field footprints. We present a detector-level simulation-closure test linking RF-chain-triggered ZHAireS event packages to reconstructed direction, energy and quality diagnostics. Voltage amplitudes and station timing determine geometry through a robust joint timing--amplitude axis fit. Native-grid RF-chain inversion recovers 50--200 MHz electric-field peaks along the shower-plane v cross B axis. Symmetric four-arm iron and proton templates generated with 2 ns time bins provide endpoint estimates that are combined by a nested five-fold out-of-fold interpolation estimator. One estimator is used over the full angular range without a fitted multiplicative energy scale. Of 972 triggered event packages, 725 pass common quality selection in raw-noisy weighted, hard-gated denoised equal-weight and clean equal-weight branches. In the primary reconstructed-zenith range 60--85 degrees, 693 common events have mean energy residuals of -0.05, -0.30 and -0.66 percent with standard deviations of 11.04, 10.90 and 10.75 percent. The hard-gated denoised branch has a median angular separation of 0.052 degrees. Boundary zenith ranges are reported separately; the upper boundary has a mean energy residual of +14.2 percent and a 19.9 percent standard deviation. These results describe cross-fitted closure within a matched simulation framework, not deployed-array resolution or independent energy calibration.",
+    "title_en": "Corrected detector-level reconstruction of inclined radio air showers from trigger-level ADC waveforms",
+    "abstract_en": "Autonomous radio arrays record air-shower radio pulses as trigger-selected analogue-to-digital converter (ADC) voltage traces. We reconstruct the primary arrival direction and energy while accounting for noise, direction-dependent detector responses and atmospheric refraction in inclined showers. Waveform cross-correlation corrects relative trigger times; plane- and spherical-wavefront fits estimate the initial direction and effective emission point. A modified voltage-domain angular-distribution fit uses source-end tangents of refracted rays to refine the direction and distinguish the particle core from the radio-footprint centre, reducing the median opening-angle error by approximately 50% relative to straight source-to-station viewing angles. Antenna and radio-frequency-chain inversion recovers the electric field, and early-late corrections give its lateral peak-amplitude distribution. An event-to-reference peak-amplitude correction is calibrated on 2,500 simulated electric-field showers to account for 50-200 MHz coherence loss; a semi-analytic Fresnel parameterisation examines its finite-source interpretation. Proton and iron reference lateral-distribution fits give two energy estimates, averaged with fixed equal weights. Validation uses 6,000 independent showers. In the field-level test with simulation-input geometry, either correction reduces the relative energy root-mean-square error (RMSE) from 11.90% to 8.31%. Across three waveform treatments, 3,073 common detector-level events yield mean relative energy residuals of -2.30% to -1.86%, standard deviations of 8.46%-8.96%, and median opening-angle errors of 0.0315-0.0349 degrees. The method is intended for sparse radio arrays detecting highly inclined showers, such as the Giant Radio Array for Neutrino Detection (GRAND).",
     "authors": [
       "Xin Xu",
       "Pengfei Zhang",
+      "Xiaoyang Gong",
+      "Yichen Xie",
       "Fufu Yang",
       "Xiaosong Liu",
       "Chao Zhang"
@@ -20,22 +22,22 @@
       "astro-ph.HE"
     ],
     "submitted_at": "2026-07-12T08:09:44Z",
-    "updated_at": "2026-07-22T08:20:57Z",
+    "updated_at": "2026-10-29T15:17:54Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2607.10637v2",
-    "pdf_url": "https://arxiv.org/pdf/2607.10637v2",
+    "abs_url": "https://arxiv.org/abs/2607.10637v3",
+    "pdf_url": "https://arxiv.org/pdf/2607.10637v3",
     "inspire_url": null,
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.10637",
-        "fetched_at": "2026-07-29T00:14:19.756883Z",
-        "url": "https://arxiv.org/abs/2607.10637v2"
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://arxiv.org/abs/2607.10637v3"
       }
     ],
     "is_demo": false

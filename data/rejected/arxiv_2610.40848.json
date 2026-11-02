@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40848",
+    "arxiv_id": "2610.40848",
+    "arxiv_version": null,
+    "inspire_id": "3220959",
+    "doi": null,
+    "title_en": "Predictive Maintenance at the Edge: An Embedded Anomaly Detection Pipeline Trained with Quantum Optimization",
+    "abstract_en": "This article presents a predictive-maintenance pipeline that detects anomalies in bearings from vibration signals, adapted for deployment at the edge on low-cost microcontrollers, and that uses quantum optimization in two steps of its training. The pipeline consists of a step of vibration feature extraction and a step of classification with a one-class support vector machine (OCSVM). The features are selected by minimum redundancy and maximum relevance (mRMR) with the variational quantum eigensolver (VQE), under a limit on computing time. The OCSVM is adapted for inference at the edge without floating-point operations and is trained by a variational quantum algorithm with Pauli-correlation encoding (PCE). In small-scale tests on a simulator, with the Paderborn bearing dataset, the VQE found the optimal selection in 36% of the runs with Adam, and PCE chose better support vectors than chance, until a classical local search made the two equal. A classical baseline, the usual OCSVM trained by SMO with its weights rounded, matched them without any search.",
+    "authors": [
+      "Ferraz, Filipe Chagas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-02T02:24:52.360221Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220959",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220959",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3220959"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

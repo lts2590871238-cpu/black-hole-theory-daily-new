@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41180",
+    "arxiv_id": "2610.41180",
+    "arxiv_version": null,
+    "inspire_id": "3220963",
+    "doi": null,
+    "title_en": "Quantum query complexity of Hurwitz stability testing",
+    "abstract_en": "Determining whether every trajectory of the linear system $\\dot{x}=Ax$ converges to zero (or, equivalently, whether $A$ is Hurwitz stable) is a fundamental problem in control theory. It arises, for example, in verifying the stability of feedback controllers and state observers, as well as of linearized dynamical models. We study the quantum query complexity of deciding whether a matrix $A\\in\\mathbb{C}^{n\\times n}$ is Hurwitz stable, given an exact normalized block-encoding of $A$. The query complexity is characterized in terms of the system dimension $n$ and a supplied lower bound $0<ν\\leq ω_A$ on the imaginary-axis distance $ω_A:=\\min_{t\\in\\mathbb{R}}σ_{\\min}(A-\\mathrm{i}tI)$, where $σ_{\\min}(A)$ is the smallest singular value of $A$. We prove a query-complexity lower bound of $Ω(\\sqrt{n}/ν)$, which holds even when $A$ is restricted to be real and diagonal. For general matrices with nonzero $ω_A$, we encode an approximation of the right-half-plane spectral projector $\\operatorname{sign}^+(A):=(I+\\operatorname{sign}(A))/2$ as a block of a matrix inverse, where $A$ is Hurwitz if and only if the projector is zero. To test this, we produce a quantum algorithm which determines if a $(β,b,1/(4\\sqrt{n}))$-block-encoded projector matrix (like $\\operatorname{sign}^+(A)$) is zero or not; for constant success probability, it has complexity $Θ(β\\sqrt{n})$. When the zero test is applied to specific approximations of $\\operatorname{sign}^+(A)$, this yields an upper bound of $O(\\sqrt{n}ν^{-2}\\log(\\sqrt{n}/ν))$ queries in the general case, and $O(\\sqrt{n}ν^{-1}\\log n)$ when $A$ is Hermitian or normal. The latter upper bound matches the lower bound up to a logarithmic factor. Thus the dimension dependence of quantum Hurwitz testing is nearly optimal, while the remaining factor in the non-normal case isolates an open conditioning gap.",
+    "authors": [
+      "Fitzsimmons, Maxwell",
+      "Serry, Mohamed",
+      "Kumari, Meenu",
+      "Liu, Jun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-02T02:27:59.960571Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3220963",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3220963",
+        "fetched_at": "2026-11-02T02:37:34.817810Z",
+        "url": "https://inspirehep.net/literature/3220963"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
