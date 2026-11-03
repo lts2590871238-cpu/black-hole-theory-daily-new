@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05366-z",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3221392",
+    "doi": "10.1007/s11128-026-05366-z",
+    "title_en": "Lieprune with compact lie group and noncommutative geometry for QNN pruning without barren plateaus",
+    "abstract_en": "Quantum neural networks (QNNs) often suffer from barren plateaus, unstable gradient estimation, and excessive parameter redundancy, which jointly limit the trainability and scalability of variational quantum models. Although structured pruning can reduce the complexity of quantum circuits, its impact on the underlying optimization geometry and trainability remains insufficiently understood. In this work, we develop a unified theoretical framework for LiePrune by integrating Lie-algebraic structured compression, compact Lie group geometry, and noncommutative spectral analysis. Starting from an over-parameterized QNN with a high-dimensional Lie algebra, LiePrune identifies redundant generator directions through quantum Fisher information and performs structured geometric compression, inducing an effective Lie algebra, a compact subgroup, and a reduced effective tangent geometry. Based on this compressed geometry, we establish two complementary theoretical guarantees. First, under compact Lie group constraints, we prove a non-vanishing lower bound on the gradient variance over the effective subspace, thereby avoiding exponential gradient collapse associated with barren plateaus. Second, by characterizing the pruned model through a noncommutative spectral structure, we derive a finite-shot upper bound on the mean-squared error of the parameter-shift gradient estimator that scales with the effective spectral complexity and the number of measurements. Together, these results establish a compression-trainability compatibility between aggressive parameter reduction, stable gradient behavior, and tractable gradient estimation. Extensive experiments on Bars-and-Stripes validate the theoretical analysis by confirming gradient-variance scaling with system size, finite-shot MSE scaling with the number of measurement shots, and robust predictive performance under high compression ratios. Compared with random pruning and GradNorm pruning, LiePrune demonstrates improved robustness and trainability under aggressive parameter compression. The proposed framework provides a mathematically grounded approach to quantum neural network compression, showing how Lie-algebraic redundancy reduction can reshape the effective optimization geometry and enable scalable, trainable, and measurement-efficient quantum learning.",
+    "authors": [
+      "Deng, Xing",
+      "Li, Xiang",
+      "Shao, Haijian",
+      "Qiu, Lihao",
+      "Shen, Jinkun",
+      "Jiang, Yingtao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-02T12:40:59.137792Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 356, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 356, 11, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221392",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221392",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://inspirehep.net/literature/3221392"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

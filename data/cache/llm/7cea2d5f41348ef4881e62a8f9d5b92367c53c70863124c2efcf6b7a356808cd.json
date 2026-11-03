@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 14,
+    "novelty": 9,
+    "clarity": 8,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 62,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文给出带电匀速密度星体（导体球）背景度规的解析解，分析表面电荷斥力对压强分布的影响，并用有限差分法研究轴向 Maxwell-引力扰动耦合及准正规模随电荷的变化，属于广义相对论基础中致密星与扰动理论的有意义工作，适合进一步阅读。",
+  "title_zh": "一个带电致密星的导体球解",
+  "abstract_zh": "本文考虑最简单的带电恒星模型，即电荷分布在其表面上的匀速密度星。在该模型中，我们将匀速密度星视为一个导体球，其中所有电荷均匀分布在表面上，并用 delta 函数表示。我们得到了该恒星时空背景度规的解析解，并发现恒星内部理想流体的压强在内表面附近指向内部（负压强）。这是因为表面电荷之间的排斥力需要一个向内的压强来维持平衡。然而，当电荷变得太大时，恒星中心处理想流体的压强又再次指向外部。这是因为电场本身也是应力能量张量 $T_{\\mu\\nu}$ 的一部分，作为引力的源起作用。当电场的引力效应占主导时，理想流体必须提供向外的压强以平衡向内的引力吸引。另一方面，我们还用有限差分法研究了带电时空中的轴向扰动。我们发现，轴向 Maxwell 扰动与轴向引力扰动在恒星时空中是耦合的，使得通过坐标变换分离变量变得困难。计算结果表明，准正规模的波形随不同电荷而变化。",
+  "keywords_en": [
+    "charged compact star",
+    "conducting sphere",
+    "perfect fluid",
+    "surface charge",
+    "axial perturbation",
+    "quasinormal modes",
+    "finite difference method"
+  ],
+  "keywords_zh": [
+    "带电致密星",
+    "导体球",
+    "理想流体",
+    "表面电荷",
+    "轴向扰动",
+    "准正规模",
+    "有限差分法"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-03T03:59:39.550467Z"
+}

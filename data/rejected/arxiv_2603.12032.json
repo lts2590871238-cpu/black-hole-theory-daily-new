@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2603.12032",
+    "arxiv_id": "2603.12032",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Assessing the robustness of amortized simulation-based inference to transient noise in gravitational-wave ringdowns",
+    "abstract_en": "Gravitational waves (GW) emitted by binary systems allow us to perform precision tests of general relativity in the strong field regime. Ringdown signals allow for probing black hole mass and spin with high precision in GW astronomy. With improvements in current and next-generation GW detectors, developing likelihood-free parameter inference methods is crucial. This is especially important when facing challenges such as non-standard noise, partial data, or incomplete signal models that prevent the use of analytical likelihood functions. In this work, we propose an amortized simulation-based inference strategy to estimate ringdown parameters directly. Specifically, our method is based on amortized neural posterior estimation, which trains a neural density estimator of the posterior for all data segments within the prior range. The results show that our trained amortized network achieves valid confidence coverage and yields posteriors in agreement with established Markov-chain methods at moderate signal-to-noise ratios. At higher signal-to-noise ratios, the recovered posteriors agree with the Markov-chain results in location, although the amplitude posterior is broader. The network provides inference speeds that are orders of magnitude faster. Furthermore, we evaluate the robustness of the method against transient noise contamination. Our results indicate that the timing of glitch injection significantly affects estimation bias, in particular when the glitch contaminates the early, high-amplitude portion of the signal. This study not only provides an efficient and statistically validated inference framework under the tested conditions for ringdown analysis but also lays a foundation for developing robust data-processing pipelines for future GW astronomy in realistic noise environments.",
+    "authors": [
+      "Song-Tao Liu",
+      "Tian-Yang Sun",
+      "Yu-Xin Wang",
+      "Yong-Xin Zhang",
+      "Shang-Jie Jin",
+      "Jing-Fei Zhang",
+      "Xin Zhang"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.CO",
+      "astro-ph.IM",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-03-12T15:10:53Z",
+    "updated_at": "2026-10-31T09:16:57Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2603.12032v2",
+    "pdf_url": "https://arxiv.org/pdf/2603.12032v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2603.12032",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://arxiv.org/abs/2603.12032v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

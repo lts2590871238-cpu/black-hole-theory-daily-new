@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40734",
+    "arxiv_id": "2610.40734",
+    "arxiv_version": null,
+    "inspire_id": "3221516",
+    "doi": null,
+    "title_en": "Model-Agnostic Search for New Physics in the Presence of Imperfect Background by Smearing the Data",
+    "abstract_en": "In the search for new particles in high-energy physics, it is necessary to first define the signal region (SR) enriched in signal events, and then compare events in this region with the expected background distribution. While most existing search methods rely on prior domain knowledge of either the signal or the background, there has been less effort to relax both assumptions simultaneously, as methods that weaken one assumption typically rely on strong knowledge of the other. We propose Model-Agnostic Search with Smearing and Imperfect Background (MASSIB), a method that addresses this challenge by learning the density ratio of events relative to a misspecified background distribution using modern tools from machine learning, and defining the SR as the region with high density ratio. Recognizing that a naive application of this idea introduces significant bias in background estimation when interpolating from the control region to the SR, MASSIB mitigates this issue by introducing a \"smeared\" density ratio, which can be learned efficiently through data-level manipulation and used to define an SR that allows for accurate background estimation. By applying it to various types of simulated Large Hadron Collider (LHC) events with realistic background mismodeling, we demonstrate that MASSIB identifies a data-driven SR that achieves high signal concentration consistently across different types of signals while avoiding bias in background estimation. The method does this without making strong assumptions about either the signal or background distribution. We then show that this robustness extends to the validity and strong statistical power of the resulting hypothesis tests for signal detection, demonstrating the potential of this approach for future model-agnostic searches at the LHC.",
+    "authors": [
+      "Yi, Soheun",
+      "Alison, John",
+      "Kuusela, Mikael"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-03T03:21:44.419190Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221516",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221516",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://inspirehep.net/literature/3221516"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

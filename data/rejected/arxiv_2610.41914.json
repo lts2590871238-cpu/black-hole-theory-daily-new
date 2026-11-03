@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41914",
+    "arxiv_id": "2610.41914",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Two-loop matter power spectrum from FFTLog and kite integrals",
+    "abstract_en": "We present a fast and accurate method for computing the two-loop matter power spectrum in the Effective Field Theory of Large-Scale Structure (EFTofLSS). Using FFTLog, we decompose the linear power spectrum into complex power laws, reducing the two-loop corrections to cosmology-independent massless Feynman integrals of kite topology. A central numerical challenge is the evaluation of these integrals for complex powers with large imaginary parts, where the highly oscillatory integrands make accurate numerical evaluation particularly challenging. We overcome this difficulty using a Mellin--Barnes representation summed over a uniform lattice, achieving approximately ten digit precision even for large imaginary powers, with an error estimate for each integral. The resulting precomputed matrices allow the two-loop power spectrum to be evaluated for a new cosmology in a few milliseconds. Comparing with direct numerical integration, we find agreement at the $10^{-4}$ level relative to the power spectrum up to $k=0.2$ $h$Mpc$^{-1}$ after accounting for EFTofLSS counterterm contributions and FFTLog decomposition errors. The same framework extends to biased tracers and redshift-space distortions, providing the building blocks for general two-loop calculations in EFTofLSS. We make the code for evaluating the kite integrals publicly available, together with precomputed matrices and an implementation for the two-loop matter power spectrum as a concrete application. Our results can be directly incorporated into existing FFTLog-based codes for large-scale structure, extending their current one-loop capabilities to two loops within the same computational framework.",
+    "authors": [
+      "Paola Cappellazzi",
+      "Johannes M. Henn",
+      "Marko Simonović"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "hep-th"
+    ],
+    "submitted_at": "2026-10-30T15:48:37Z",
+    "updated_at": "2026-10-30T15:48:37Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.41914v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.41914v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.41914",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://arxiv.org/abs/2610.41914v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

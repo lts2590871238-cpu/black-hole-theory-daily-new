@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1016/j.nima.2026.172184",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3221333",
+    "doi": "10.1016/j.nima.2026.172184",
+    "title_en": "RAM-based coincidence window optimization for robust real-time muon reconstruction in the ATLAS Level-0 endcap muon trigger",
+    "abstract_en": "The Large Hadron Collider (LHC) at CERN provides the world’s highest center-of-mass energy proton–proton collisions. The ATLAS detector, located at one of the collision points, aims to perform precision measurements of Standard Model processes and to search for phenomena beyond it by observing particles produced in these collisions. From 2030, the High-Luminosity LHC (HL-LHC) will begin operation, increasing the instantaneous luminosity by about a factor of three. In preparation for HL-LHC, we report on studies of firmware optimization for the first-level muon trigger in the HL-LHC ATLAS experiment. Real-time muon track detection is implemented around a “Coincidence Window”, which projects hit combinations across three detector stations into momentum space through a predefined mapping. This is realized with RAM resources of FPGAs, where the input addresses correspond to hit patterns and the output to the associated track parameters. In the endcap region, the reconstruction principle is based on the point-angle measurement, and the reconstructed tracks are expected to follow straight-line trajectories. Non-straight combinations are rejected with null outputs, thereby serving as a pattern finding mechanism. Optimization is performed, respecting different tasks for the three stations: while the first and third stations mainly determine the momentum, the second station serves as a confirmation layer. Relaxing the straight-line constraint in the second station within a controlled range improves efficiency in the presence of multiple scattering and maintains robust performance against detector misalignments. As a result, the plateau efficiency for transverse momentum improves from 93.7% to 94.5% in the nominal configuration, and from 85.9% to 93.5% under a misalignment model based on Run-1 alignment constants. This optimization achieves a significant performance gain without increasing FPGA resource usage or latency. Moreover, it contributes to overall resource reduction and design simplification of the trigger system.",
+    "authors": [
+      "Nakagawa, Tetsuro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-02T12:39:05.769193Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "1095, 172184, publication, 2027, {'$ref': 'https://inspirehep.net/api/journals/1613981'}, Nucl.Instrum.Meth.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221333",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221333",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://inspirehep.net/literature/3221333"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.42069",
+    "arxiv_id": "2610.42069",
+    "arxiv_version": null,
+    "inspire_id": "3221557",
+    "doi": null,
+    "title_en": "The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight",
+    "abstract_en": "Quantum algorithms for linear algebra that access a matrix $A$ through quantum random access memory (QRAM) prepare quantum states proportional to the solutions of linear systems and related problems. Dequantized classical algorithms, when given sampling and query access to $A$, return sampling and query access to an approximate solution. Both kinds of algorithms use a number of queries that is polynomial in the normalized Frobenius norm $ρ=\\|A\\|_F/\\|A\\|$ and does not directly depend on the dimension. For linear systems at fixed condition number and accuracy, quantum algorithms use $\\widetilde O(ρ)$ queries, whereas the best dequantized algorithms use $\\widetilde O(ρ^4)$. We prove that this quartic gap is tight in the worst case, up to a logarithmic factor. For every constant $κ_0>1$, we construct dense linear systems with condition number at most $κ_0$ for which sampling from the solution within a sufficiently small constant total variation distance requires $Ω(ρ^4/\\logρ)$ classical queries but only $Θ(ρ)$ quantum queries. The same separation holds, for errors below smaller thresholds, for positive-definite systems, least squares, ridge regression, matrix powers and square roots, imaginary-time and real-time Hamiltonian evolution, and sampling from the top principal component. Our results therefore show that many quantum algorithms for linear algebra, achieve a near-quartic speedup in the worst case, over classical algorithms with sampling and query access. All of these classical lower bounds follow from the same framework, which is based on a lower bound for sampling from distributions that depend on a fixed set of Fourier coefficients of an unknown Boolean function.",
+    "authors": [
+      "Chakrabarti, Shouvanik",
+      "Herman, Dylan",
+      "Kim, Junhyung Lyle",
+      "Ozgul, Guneykan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-03T03:50:29.011516Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221557",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221557",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://inspirehep.net/literature/3221557"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

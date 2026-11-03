@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 73,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文在脉冲星计时阵列天图成像中保留完整的Earth-pulsar响应，给出单基线响应的闭式解与四个渐近区间，并将全天重建形式化为线性逆问题，推导Fisher信息矩阵与基于奇异值分解的重建框架，同时给出阵列采样限制导致~l^4惩罚的定量论证。理论框架完整、方法清晰，对PTA引力波天图研究具有较高参考价值。",
+  "title_zh": "脉冲星计时阵列的引力波天图成像：完整Earth-Pulsar响应与分辨率的运行区间",
+  "abstract_zh": "脉冲星计时阵列（PTA）通常在地球项近似下进行分析，尽管Earth-pulsar基线的精确响应通过脉冲星项包含额外的角向结构。我们针对确定性的、带限的引力波应变场，建立了一个张量球谐框架用于PTA天图成像，并保留完整的Earth-pulsar响应。单基线响应被约化为一个涉及两个球贝塞尔函数的紧凑解析闭式。其渐近分析揭示了四个区间：地球项主导、过渡、脉冲星项主导，以及在$l_\\mathrm{cut}\\simeqωL$处的有效衍射截断。该尺度刻画了单个基线的内禀指数抑制，而PTA的实际角分辨率主要由脉冲星的有限数目、天区分布和计时噪声决定。我们将PTA天图成像表述为线性逆问题；推导了相应的Fisher信息矩阵，并构建了基于奇异值分解的重建框架，该框架显式区分可观测的天区模式与约束较差的天区模式。该分析厘清了内禀探测器分辨率与阵列采样限制之间的关系，并对相干脉冲星项信息在全天天图重建中变得相关的条件给出了定量评估。理想化的标度论证表明，在全天天图成像中利用过渡/脉冲星项主导区间，会对维持高多极处均匀重建保真度所需的阵列规模施加严重的$\\sim l^4$惩罚。该形式体系自然推广到各向异性随机背景，并为确定性场重建和角功率各向异性推断提供了统一框架。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational-wave sky mapping",
+    "Earth-pulsar response",
+    "pulsar term",
+    "tensor spherical harmonics",
+    "Fisher information matrix",
+    "singular value decomposition",
+    "angular resolution"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波天图成像",
+    "Earth-pulsar响应",
+    "脉冲星项",
+    "张量球谐",
+    "Fisher信息矩阵",
+    "奇异值分解",
+    "角分辨率"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-03T03:59:58.738956Z"
+}

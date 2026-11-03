@@ -2492,3 +2492,24 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='export.arxiv.org'
 2026-11-02 02:38:22,077 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-11-02 02:38:25,623 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-11-02 02:38:30,342 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:58:25,682 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: arXiv timed out
+2026-11-03 03:58:25,717 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: source timed out
+2026-11-03 03:58:25,718 WARNING theory_daily.pipeline: INSPIRE 数据源暂时不可用：source timed out
+2026-11-03 03:59:07,807 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:11,778 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:14,716 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:17,671 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-11-03 03:59:17,671 INFO openai._base_client: Retrying request to /chat/completions in 0.434913 seconds
+2026-11-03 03:59:18,537 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:22,455 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:26,694 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:30,093 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:32,865 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:36,565 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:39,874 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:43,802 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:47,305 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:49,965 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:54,771 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 03:59:59,152 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-03 04:00:03,211 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"

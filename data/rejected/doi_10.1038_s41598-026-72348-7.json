@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1038/s41598-026-72348-7",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3221348",
+    "doi": "10.1038/s41598-026-72348-7",
+    "title_en": "Practical QCA-inspired quantum encryption with BB84 key distribution for NISQ devices",
+    "abstract_en": "Noisy intermediate-scale quantum (NISQ) devices provide limited qubit counts and are affected by hardware noise, making hardware-efficient quantum cryptographic protocols essential for practical implementation. Many proposed quantum encryption schemes focus primarily on formal security analysis, while relatively few have been evaluated systematically on NISQ hardware. Here we propose a hardware-efficient private-key quantum encryption protocol integrating BB84-derived one-time session keys with quantum cellular automata (QCA)-inspired reversible state evolution and a lightweight tag-based integrity-verification mechanism, in which a key-controlled tag qubit enables key-dependent detection of bit-flip perturbations of the coupled qubit at constant gate cost. Using a compact seven-qubit register, the protocol is evaluated through ideal simulation, density-matrix simulation, and backend-calibrated noise models derived from three IBM calibration snapshots. Ideal simulation achieves perfect decryption fidelity. Under backend-calibrated noise, the operational correctness and wrong-key separation criteria are met together at exactly one round count, $R = 2$, and on one of the three backends, where the security gap is $0.5166 \\pm 0.0038$ across independently sampled BB84 session keys. The evaluation is conducted under a passive ciphertext-only adversarial model. Confidentiality is evaluated using a one-time indistinguishability criterion, assessed empirically rather than established by formal proof, and no IND-CPA, IND-CCA, or Boneh-Zhandry security is claimed. The evaluation characterises a backend-calibrated operating window whose extent is governed primarily by two-qubit gate error, providing an empirically grounded assessment of the proposed QCA-inspired quantum encryption protocol under backend-calibrated hardware noise models.",
+    "authors": [
+      "Soumya, S.",
+      "Chithralekha, T."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-28T00:00:00Z",
+    "updated_at": "2026-11-02T12:39:30.503500Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "16, 35459, 2026, {'$ref': 'https://inspirehep.net/api/journals/1211634'}, 1, Sci.Rep."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221348",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221348",
+        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "url": "https://inspirehep.net/literature/3221348"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
