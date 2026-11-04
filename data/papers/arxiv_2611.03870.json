@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03870",
+    "arxiv_id": "2611.03870",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Multi-domain spectral method for Kerr spacetimes: a hyperboloidal Teukolsky $m$-mode solver for self-force computations",
+    "abstract_en": "We solve the frequency-domain, $m$-mode Teukolsky equation for the spin-weight $s=-2$ Weyl scalar $ψ_4$ sourced by a point mass on a circular, equatorial orbit around a Kerr black hole. The equation is posed on hyperboloidal slices that reach the event horizon and future null infinity, so that the physical (retarded) solution is selected by regularity alone, without imposing radiation conditions. The particle is treated with the $m$-mode puncture/effective-source scheme, and the resulting two-dimensional elliptic problem is solved with a four-domain pseudo-spectral method in which the equatorial symmetry is broken and handled by an even/odd decomposition of the field. We test the method for orbital radius $r_0=10M$ and spins up to $|a|/M=0.9$, covering prograde and retrograde orbits. The energy fluxes to infinity agree with independent Black Hole Perturbation Toolkit results to $\\sim10^{-7}$ for the dominant modes and to better than $2\\times10^{-5}$ for all modes up to $m=20$ at moderate resolutions. The static $m=0$ mode requires no special treatment.",
+    "authors": [
+      "Brad Cownden",
+      "Rodrigo Panosso Macedo",
+      "Christiana Pantelidou",
+      "Samuel D. Upton",
+      "Barry Wardell"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-11-02T19:40:24Z",
+    "updated_at": "2026-11-02T19:40:24Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.03870v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.03870v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.03870",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://arxiv.org/abs/2611.03870v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "null infinity"
+    ],
+    "medium_weight_hits": [
+      "event horizon"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "scores": {
+      "theory_depth": 24,
+      "methodological_rigor": 17,
+      "novelty": 12,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 74,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文提出在超双曲切片上求解频域Teukolsky m-模式方程的新数值方法，用于Kerr时空中圆轨道点质量的自力计算，并与独立工具包结果进行了定量比较，方法学信号强、理论深度较好，值得点入进一步阅读。",
+    "title_zh": "Kerr时空的多域谱方法：用于自力计算的超双曲型Teukolsky $m$-模式求解器",
+    "abstract_zh": "我们求解频域、$m$-模式的Teukolsky方程，针对由绕Kerr黑洞做圆轨道、赤道面运动的点质量源所产生的自旋权重 $s=-2$ 的Weyl标量 $ψ_4$。该方程被设定在既能到达事件视界、又能到达未来零无穷的超双曲切片上，因此物理的（推迟）解仅由正则性即可选出，而无需施加辐射条件。粒子采用 $m$-模式穿刺/有效源方案处理，所得二维椭圆问题用四域伪谱方法求解，其中赤道对称性被破缺，并通过场的偶/奇分解来处理。我们在轨道半径 $r_0=10M$ 以及直至 $|a|/M=0.9$ 的自旋下测试了该方法，涵盖了顺行与逆行轨道。在中等分辨率下，传播到无穷远的能量通量与独立的Black Hole Perturbation Toolkit结果在主导模式上一致到 $\\sim10^{-7}$，在直至 $m=20$ 的所有模式上优于 $2\\times10^{-5}$。静态的 $m=0$ 模式不需要特殊处理。",
+    "keywords_en": [
+      "Kerr spacetime",
+      "Teukolsky equation",
+      "spectral method",
+      "hyperboloidal slices",
+      "self-force",
+      "black hole perturbation theory"
+    ],
+    "keywords_zh": [
+      "Kerr时空",
+      "Teukolsky方程",
+      "谱方法",
+      "超双曲切片",
+      "自力",
+      "黑洞微扰理论"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-04T03:05:42.537564Z"
+  },
+  "published_at": "2026-11-04T03:05:42.538028Z"
+}

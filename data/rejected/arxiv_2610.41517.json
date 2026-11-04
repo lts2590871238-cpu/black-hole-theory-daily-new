@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2610.41517",
     "arxiv_id": "2610.41517",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3221632",
     "doi": null,
     "title_en": "eCAS: An Orbital Embedding Method for Quantum Computing",
     "abstract_en": "Future fault-tolerant quantum computers will allow us to calculate electronic structures of atomistic systems. However, these systems will be intrinsically limited in size, requiring embedding theories for many systems because of the unfavorable scaling of the number of terms describing the electron-electron interaction in the second-quantized electronic Hamiltonian. Quantum embedding theories address this challenge by partitioning a quantum system into a region of interest, the impurity, and its (larger) complement, the environment. However, currently available quantum embedding methods place restrictive demands on near-future quantum computers, such as the need to measure reduced density matrices or the need for repeated evaluations. Here, we introduce the new orbital embedding method eCAS that steers clear of these pitfalls by constructing a multi-CAS problem, the active spaces of which are localized and can be solved independently of each other with any quantum algorithm. This also allows for the development of comparatively simple gradient expressions. eCAS leverages the Schmidt decomposition to construct initial impurity and bath orbitals and augments them with localized environment orbitals, based on a mutual correlation criterion. The mutual correlation criterion makes eCAS systematically improvable without the need for any iteratively determined quantities.",
@@ -17,23 +17,31 @@
       "cond-mat.str-el",
       "physics.chem-ph"
     ],
-    "submitted_at": "2026-10-30T10:08:43Z",
-    "updated_at": "2026-10-30T10:08:43Z",
-    "document_types": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-03T10:47:40.891063Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2610.41517v1",
     "pdf_url": "https://arxiv.org/pdf/2610.41517v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221632",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.41517",
-        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
         "url": "https://arxiv.org/abs/2610.41517v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3221632",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221632"
       }
     ],
     "is_demo": false

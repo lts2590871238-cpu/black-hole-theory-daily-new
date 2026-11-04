@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01111",
+    "arxiv_id": "2611.01111",
+    "arxiv_version": null,
+    "inspire_id": "3221878",
+    "doi": null,
+    "title_en": "Optimal Fan-Out and Break-Even Routing Loss in Waveguide-Integrated Ge-on-Si SPAD Arrays",
+    "abstract_en": "Splitting a waveguide mode over several Ge-on-Si single-photon avalanche diodes (SPADs) relieves dead-time saturation but multiplies dark counts. We quantify this trade-off with the asymptotic count-based information rate, which prices dark counts and dead time in one unit and is attained by an optimally weighted moment estimator. For a non-paralyzable pixel, the information per pre-dead-time signal event peaks at a signal rate $y^*=\\sqrt{D(D+1/τ)}$ with exact efficiency $(\\sqrt{1+Dτ}-\\sqrt{Dτ})^2$, which sets the optimal fan-out and a critical flux above which equal splitting is optimal. We then compare four routing architectures on 64 simulated 16-pixel arrays: an equal passive tree, static trees (uncalibrated, and an idealized calibration-informed benchmark), an ideal programmable tree, and a thermo-optic Mach-Zehnder interferometer (MZI) tree with 1.32 dB excess loss. Ideal programmability gains up to 15.9 dB over equal splitting at low flux. At one known flux, however, the calibrated static splitter beats the MZI tree by 0.14-2.7 dB, and the penalty tends to twice the excess loss when dark counts dominate. In ensemble-median worst-case regret, the MZI tree breaks even only for flux windows wider than 2.55 decades, and not within six decades above about 3.4 dB excess loss. Event-level Monte Carlo simulations reproduce the count statistics and the predicted estimator variances within bootstrap confidence intervals. Sensitivity analyses cover dark-count level, heterogeneity, detector model and random seed. All results are simulations with representative literature parameters.",
+    "authors": [
+      "Yawisit, Thammarat",
+      "Pannil, Pittaya"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-31T00:00:00Z",
+    "updated_at": "2026-11-03T12:39:09.227221Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221878",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221878",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221878"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

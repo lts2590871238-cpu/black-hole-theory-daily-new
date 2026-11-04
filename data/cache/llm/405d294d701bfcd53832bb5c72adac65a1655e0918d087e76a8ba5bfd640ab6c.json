@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 24,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 74,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文提出在超双曲切片上求解频域Teukolsky m-模式方程的新数值方法，用于Kerr时空中圆轨道点质量的自力计算，并与独立工具包结果进行了定量比较，方法学信号强、理论深度较好，值得点入进一步阅读。",
+  "title_zh": "Kerr时空的多域谱方法：用于自力计算的超双曲型Teukolsky $m$-模式求解器",
+  "abstract_zh": "我们求解频域、$m$-模式的Teukolsky方程，针对由绕Kerr黑洞做圆轨道、赤道面运动的点质量源所产生的自旋权重 $s=-2$ 的Weyl标量 $ψ_4$。该方程被设定在既能到达事件视界、又能到达未来零无穷的超双曲切片上，因此物理的（推迟）解仅由正则性即可选出，而无需施加辐射条件。粒子采用 $m$-模式穿刺/有效源方案处理，所得二维椭圆问题用四域伪谱方法求解，其中赤道对称性被破缺，并通过场的偶/奇分解来处理。我们在轨道半径 $r_0=10M$ 以及直至 $|a|/M=0.9$ 的自旋下测试了该方法，涵盖了顺行与逆行轨道。在中等分辨率下，传播到无穷远的能量通量与独立的Black Hole Perturbation Toolkit结果在主导模式上一致到 $\\sim10^{-7}$，在直至 $m=20$ 的所有模式上优于 $2\\times10^{-5}$。静态的 $m=0$ 模式不需要特殊处理。",
+  "keywords_en": [
+    "Kerr spacetime",
+    "Teukolsky equation",
+    "spectral method",
+    "hyperboloidal slices",
+    "self-force",
+    "black hole perturbation theory"
+  ],
+  "keywords_zh": [
+    "Kerr时空",
+    "Teukolsky方程",
+    "谱方法",
+    "超双曲切片",
+    "自力",
+    "黑洞微扰理论"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-04T03:05:42.537564Z"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.00759",
+    "arxiv_id": "2611.00759",
+    "arxiv_version": null,
+    "inspire_id": "3221568",
+    "doi": null,
+    "title_en": "Leaving Quantum Bias on the Table: Pushforwards as a Path to Quantum Advantage in Constrained Optimization",
+    "abstract_en": "Constrained quantum samplers often produce infeasible outputs that retain information about good feasible solutions. We develop a post-measurement framework that constructs problem-dependent classical feasibility maps from constraint-violation statistics and pushes the raw quantum sampling law forward onto the feasible set. The probability of each repaired solution is the total raw mass of its repair preimage, enlarging the successful sampling event from a target feasible set to its full repair preimage. We derive exact identities for repaired success and expected cost, and separate repair-basin geometry from sampler-dependent probability concentration. For noisy implementations, we distinguish leakage from the encoded subspace from concentration loss within it. For permutation constraints, Hungarian maximum-overlap repair provides an O(n^3) implementation, which we study on traveling-salesman problems (TSP). We derive conditional repaired-success bounds and quantify how basin aggregation reduces the absolute-transfer budget required by these bounds. Noiseless simulations show that optimal repair basins contain selectively overweighted infeasible contributors. For an n=10 TSP instance, pushforward repair recovered the optimum using approximately 10^3 shots, compared with 10^6 shots in the original CE-QAOA workflow without repair. On a 127-qubit IBM processor, using encodings of up to 100 qubits, repaired candidates match reference tours on smaller benchmarks and improve them on larger instances. These results establish concentration of quantum probability on useful repair preimages as a design principle for constrained quantum optimization.",
+    "authors": [
+      "Onah, Chinonso",
+      "Hadfield, Stuart",
+      "Michielsen, Kristel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-31T00:00:00Z",
+    "updated_at": "2026-11-03T11:01:01.441577Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221568",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221568",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221568"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.00272",
+    "arxiv_id": "2611.00272",
+    "arxiv_version": null,
+    "inspire_id": "3221780",
+    "doi": null,
+    "title_en": "Triple descent in quantum linear regression",
+    "abstract_en": "Quantum linear regression models, such as quantum extreme learning machines and quantum fidelity kernels, are trained on features that can only be estimated from finitely many measurement shots. Sampling noise is usually treated as a nuisance that more shots suppress; we show instead that it can fundamentally reshape the instabilities of the learning problem. As the number of measurement outcomes grows, the prediction error displays a triple-descent profile, with two peaks of fundamentally different origins. The first, classical, peak occurs when the measurement first becomes informationally complete, is a direct analogue of double descent in classical linear regression, and is caused by ill-conditioning of the measurement itself. This peak affects predictions only through their variance, and is thus suppressed by increasing the number of shots at inference. The second, quantum, peak occurs beyond informational completeness when the number of outcomes matches the number of training states: shot noise populates unphysical outcome combinations and the regression fits these pure-noise features with large weights, corrupting the learned model itself. More training or test shots cannot remove this quantum peak, which disappears only in the ideal limit of exact training features. Using random-matrix theory, we derive the shape of both peaks analytically, accounting also for ridge regularization. Our results show that treating quantum features as exactly known overestimates classical instabilities while missing genuinely quantum ones.",
+    "authors": [
+      "Lo Monaco, Gabriele",
+      "Lorenzo, Salvatore",
+      "Ferraro, Alessandro",
+      "Paternostro, Mauro",
+      "Palma, G. Massimo",
+      "Innocenti, Luca"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-03T12:25:58.561536Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221780",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221780",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221780"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

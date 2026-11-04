@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04361",
+    "arxiv_id": "2611.04361",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "How Fast do Black Holes Spin?",
+    "abstract_en": "We present a systematic study of the spin evolution of accreting black holes. Using the BHAC code for general relativistic magnetohydrodynamic simulations, we conduct a total of 500 high resolution simulations of magnetized accretion disks around Kerr BHs with spin parameters ranging from $χ=0$ to $χ= 0.99$. The baseline configuration follows the default Fishbone--Moncrief torus setup in BHAC. We further explore the effects of: I) introducing multiple poloidal magnetic loops, II) the initial position of the torus, III) magnetic field strength and IV) radial loop modulation. From each simulation we extract the mass flux and angular momentum flux through the horizon to compute the time-averaged spin evolution rate after the system becomes quasi-stationary. The equilibrium spin ranges from $χ_{\\rm eq}\\simeq0.88$ in the fiducial model to $χ_{\\rm eq}\\simeq0.98$ for weak-flux model. Applied to Sgr A$^*$, even an optimistic estimate for rapid spin evolution gives a timescale longer than $10^{13}$ yr, indicating an earlier growth or merger history. These trends are consistent with the picture that larger net magnetic flux threading the horizon enhances jet-torques and reduces the equilibrium spins, whereas weak net flux yields near-maximal spins. Our results provide a pathway to interpret the high spins reported for X-ray binaries and active galactic nuclei and they sharpen the astrophysical viability of near-horizon high-energy processes that rely on near-extremal black holes.",
+    "authors": [
+      "Chen Yuan",
+      "Vitor Cardoso"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "gr-qc",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-11-03T05:42:24Z",
+    "updated_at": "2026-11-03T05:42:24Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.04361v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.04361v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.04361",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://arxiv.org/abs/2611.04361v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "high_weight_hits": [],
+    "medium_weight_hits": [
+      "extremal black hole",
+      "near-extremal black hole"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 20
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "black_hole_thermodynamics",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 17,
+      "novelty": 11,
+      "clarity": 8,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 68,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "系统性的500组高分辨率GRMHD模拟研究吸积黑洞自旋演化，涵盖磁通量、环面位置等参数扫描，并与Sgr A*及X射线双星观测建立联系，理论与方法信息较充分，值得进一步阅读。",
+    "title_zh": "黑洞转得有多快？",
+    "abstract_zh": "我们对吸积黑洞的自旋演化进行了系统研究。使用用于广义相对论磁流体动力学模拟的BHAC代码，我们对围绕Kerr黑洞的磁化吸积盘进行了总计500次高分辨率模拟，自旋参数范围从$\\chi=0$到$\\chi= 0.99$。基线配置采用BHAC中默认的Fishbone--Moncrief环面设置。我们进一步探讨了以下效应：I) 引入多个极向磁环，II) 环面的初始位置，III) 磁场强度，以及IV) 径向环调制。从每次模拟中，我们提取通过视界的质量通量和角动量通量，以计算系统进入准稳态后的时间平均自旋演化速率。平衡自旋范围从基准模型中的$\\chi_{\\rm eq}\\simeq0.88$到弱磁通模型中的$\\chi_{\\rm eq}\\simeq0.98$。应用于Sgr A$^*$时，即使采用快速自旋演化的乐观估计，其时间尺度也超过$10^{13}$ yr，表明其更早期的增长或并合历史。这些趋势与以下图景一致：穿过视界的净磁通量越大，喷流力矩越强，平衡自旋越低；而弱净磁通则产生接近最大的自旋。我们的结果为解释X射线双星和活动星系核中报道的高自旋提供了途径，并且增强了依赖近极端黑洞的近视界高能过程的在天体物理上的可行性。",
+    "keywords_en": [
+      "black hole spin",
+      "GRMHD simulations",
+      "accretion disks",
+      "Kerr black holes",
+      "magnetic flux",
+      "jet torques",
+      "Sgr A*",
+      "X-ray binaries"
+    ],
+    "keywords_zh": [
+      "黑洞自旋",
+      "GRMHD模拟",
+      "吸积盘",
+      "Kerr黑洞",
+      "磁通量",
+      "喷流力矩",
+      "Sgr A*",
+      "X射线双星"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-04T03:05:18.893391Z"
+  },
+  "published_at": "2026-11-04T03:05:18.893870Z"
+}

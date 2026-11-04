@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.00678",
+    "arxiv_id": "2611.00678",
+    "arxiv_version": null,
+    "inspire_id": "3221859",
+    "doi": null,
+    "title_en": "Iterative Quantum Optimization: From Greedy Reductions to Branch-and-Bound",
+    "abstract_en": "Iterative quantum optimization (IQO) uses quantum-generated information to select a sequence of classical problem reductions. We introduce Bound-Aware Tree-IQO which combines this iterative structure with bounds and reversible search. Feasible measured samples update a shared incumbent, while valid classical bounds prune branches that cannot improve it. Incorporating backtracking yields an anytime method that returns the best feasible solution found when interrupted, or can be run as a complete search to return and certify the optimum. For suitable single-variable or pairwise reductions, an initial IQO path can determine the branching schedule without further quantum calls, though certifying the optimum may take superpolynomial classical time. To motivate our framework, we prove two limitations of irreversible IQO reductions based on the quantum approximate optimization algorithm (QAOA). We show an infinite family of unweighted MaxCut instances on which globally optimized level-1 QAOA makes standard Recursive QAOA strictly prefer a first reduction that excludes every optimal solution, and limits that branch to an approximation ratio of at most $2/3+o(1)$. In contrast, a single backtrack recovers an optimal solution using the same quantum information. Causal cone arguments give a complementary obstruction at every fixed depth of standard QAOA: a weighted MaxCut instance is shown to contain two edges with identical two-qubit reduced states, even though every optimum requires opposite edge parities. MaxCut experiments show that QAOA-guided ordering is nonrandom in exact-certification tests through $n=28$, while demonstrating that quantum samples can strengthen the incumbent and enable further pruning. Our results suggest that quantum data could provide useful guidance toward solving hard combinatorial optimization problems more effectively than either quantum or classical algorithms alone.",
+    "authors": [
+      "Hadfield, Stuart",
+      "Braydwood, Lucas T.",
+      "Rieffel, Eleanor"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-31T00:00:00Z",
+    "updated_at": "2026-11-03T11:00:39.069287Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221859",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221859",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221859"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

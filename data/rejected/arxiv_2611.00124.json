@@ -1,0 +1,63 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.00124",
+    "arxiv_id": "2611.00124",
+    "arxiv_version": null,
+    "inspire_id": "3221747",
+    "doi": null,
+    "title_en": "OPALX: A performance-portable framework for particle accelerator simulations",
+    "abstract_en": "Accurate charged-particle beam simulations require self-consistent collective fields and realistic accelerator models, while their computational cost motivates efficient use of heterogeneous computing systems. We present OPALX, a performance-portable accelerator simulation framework that builds on the beam-dynamics capabilities of OPAL. Its modular architecture uses the Independent Parallel Particle Layer (IPPL) and Kokkos to support distributed-memory execution on multicore CPUs and GPUs from a common codebase. The framework combines relativistic particle tracking with prescribed accelerator fields, particle-in-cell space charge calculations, and spin tracking. We describe the physical and numerical models and their integration into the simulation workflow. The implementation is assessed using disorder-induced heating and frozen-spin test cases, together with comparisons of spin evolution with G4Beamline and beam transport with TraceWin. A three-dimensional space charge benchmark evaluates throughput on CPU and GPU systems, reaching approximately $10^9$ macroparticles per second on a single NVIDIA A100 GPU for this benchmark. These results provide initial verification of the implemented models and demonstrate CPU and GPU execution of self-consistent space charge calculations. OPALX provides a common foundation for extending accelerator models and numerical methods across heterogeneous computing platforms.",
+    "authors": [
+      "Zampetakis, Michail",
+      "Ammann, Ryan Sean",
+      "Bi, Yuanjie",
+      "Biddiscombe, John",
+      "Calvo, Pedro",
+      "Jolly, Carl",
+      "Klapproth, Severin Andrey",
+      "Liemen, Alexander Paul",
+      "Muralikrishnan, Sriramkrishnan",
+      "Rogers, Chris",
+      "Sadr, Mohsen",
+      "Thompson, Jonathan",
+      "Adelmann, Andreas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-03T12:23:26.657073Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221747",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221747",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221747"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

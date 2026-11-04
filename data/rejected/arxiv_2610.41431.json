@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41431",
+    "arxiv_id": "2610.41431",
+    "arxiv_version": null,
+    "inspire_id": "3221621",
+    "doi": null,
+    "title_en": "oracq: A Modular Framework for Implementing and Analyzing Quantum Scientific Computing Algorithms",
+    "abstract_en": "Quantum algorithms for scientific computing are specified against access models such as block-encodings, sparse oracles, state preparations, and quantum random-access memories. Their concrete realization is deliberately left open, yet it is a research variable that changes both the numerical behavior and the resource cost of the program, so every reported conclusion is attributable to one realization. In this paper, we present oracq, a Python framework that makes this choice a managed and checkable decision. Our claim is linguistic rather than infrastructural. Algorithms are stored as persistent register-level programs whose oracle slots are declared and typed but unimplemented. A separate binding pass links compatible realizations, so one stored algorithm can be re-bound to a gate network, a QRAM-backed table, or compiled reversible arithmetic and compared across them. Typed QRAM resources, a compiler from pure Python numerical formulas to reversible fixed-point circuits, and block-encoding algebra with qubitization and QSVT-style kernels supply the constructions. Two end-to-end workflows exercise the framework, a quantum finite-volume pipeline for the compressible Euler equations and a quantum homotopy-analysis pipeline that lifts nonlinear PDEs to composable linear input models. The verification methodology separates implementation error from method error, and logical resource accounts cover programs before and after binding. The framework is openly available at https://github.com/IAI-USTC-Quantum/oracq.",
+    "authors": [
+      "Chen, Zhao-Yun",
+      "Tan, Ming-Yang",
+      "Guo, Guo-Ping"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-03T10:47:23.154670Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221621",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221621",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221621"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

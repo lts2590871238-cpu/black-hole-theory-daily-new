@@ -4,34 +4,35 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.09938",
     "arxiv_id": "2610.09938",
-    "arxiv_version": null,
-    "inspire_id": "3212410",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Fast holographic inversion of superconducting domes",
-    "abstract_en": "A holographic superconductor whose scalar mass depends on the gauge field strength, $M(\\Fsq)$, reproduces a superconducting dome for a suitable $M$, and recovering that $M$ from a given dome has so far taken days for a single training run. We propose a new way of training this model, with which an inversion takes from about ten minutes to an hour. Training needs the gradient of the condition that fixes the critical temperature, which the earlier method obtains by finite differences, repeating the bulk integrations for every training parameter. Here that condition is obtained, without any fit, from two integrations started at the horizon and at the boundary, and its derivative with respect to $M$ is an integral over the same two solutions, so the gradient needs no integration of its own. We use the speed to study the part of $M$ that a dome cannot determine, on the interval between the value $\\Fsq$ takes at the horizon for the lowest doping and $\\Fsq=0$, at which $M$ is the scalar mass $M(0)$ that fixes the dimension of the dual operator. We hold the scalar mass at several values, which we call pinned masses, retrain everything else at each, and find that the reconstructions agree wherever the horizons of the dome reach, including the minima of $M$, and differ only on that interval. A rule that keeps the reconstruction with the simplest closed form recovers both the scalar mass and the mass function of a test dome. On Gaussian and double-Gaussian domes and on the measured phase diagrams of YBa$_{2}$Cu$_{3}$O$_{y}$ and 2M-WS$_{2}$, however, the pinned mass it keeps rests on ties or on narrow margins, so for these targets the scalar mass is left open. The dome thus constrains $M$ where its horizons reach, and fixing the dimension of the dual operator needs a second observable.",
+    "abstract_en": "A holographic superconductor whose scalar mass depends on the gauge field strength, $M(\\Fsq)$, reproduces a superconducting dome for a suitable $M$, but recovering $M$ from a dome has taken days. We obtain the condition that fixes the critical temperature from two integrations, started at the horizon and at the boundary, and its derivative with respect to $M$ from the same two solutions, so training needs no finite differences and an inversion takes ten minutes to an hour. With this speed we study the interval between the horizon value of $\\Fsq$ at the lowest doping and $\\Fsq=0$, which no horizon reaches and at whose end the scalar mass $M(0)$ fixes the dimension of the dual operator. Holding $M(0)$ at several values, the pinned masses, and retraining the rest, we find reconstructions that share the minima of $M$ and agree wherever the horizons reach, apart from the deepest end, but differ on that interval. A rule that keeps the reconstruction with the simplest closed form recovers the scalar mass and the mass function of a dome generated from a quadratic $M$. On Gaussian and double-Gaussian domes and the measured phase diagrams of YBa$_{2}$Cu$_{3}$O$_{y}$ and 2M-WS$_{2}$ its choice rests on ties or narrow margins, and it recovers the scalar mass of only two of the four domes generated from the closed forms it keeps for them. The dome thus constrains $M$ where its horizons reach but not the scalar mass, which a second observable would have to fix.",
     "authors": [
-      "Kim, Sejin"
+      "Sejin Kim"
     ],
-    "categories": [],
-    "submitted_at": "2026-10-07T00:00:00Z",
-    "updated_at": "2026-10-09T02:45:03.714522Z",
-    "document_types": [
-      "article"
+    "categories": [
+      "hep-th",
+      "cs.AI"
     ],
+    "submitted_at": "2026-10-07T12:24:00Z",
+    "updated_at": "2026-11-02T08:24:45Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": null,
-    "pdf_url": null,
-    "inspire_url": "https://inspirehep.net/literature/3212410",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.09938v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.09938v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
-        "source": "inspire",
-        "record_id": "3212410",
-        "fetched_at": "2026-10-14T02:00:19.176464Z",
-        "url": "https://inspirehep.net/literature/3212410"
+        "source": "arxiv",
+        "record_id": "2610.09938",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://arxiv.org/abs/2610.09938v2"
       }
     ],
     "is_demo": false
@@ -58,38 +59,40 @@
     "primary_topic": "holography_condensed_matter",
     "secondary_topics": [],
     "scores": {
-      "theory_depth": 24,
-      "methodological_rigor": 16,
+      "theory_depth": 22,
+      "methodological_rigor": 15,
       "novelty": 12,
-      "clarity": 8,
-      "metadata_quality": 6,
+      "clarity": 7,
+      "metadata_quality": 5,
       "community_signal": 0,
-      "other": 6
+      "other": 5
     },
-    "total_score": 72,
+    "total_score": 66,
     "reject_reason_zh": "",
-    "selection_reason_zh": "该文属于全息凝聚态物质方向，提出了一种快速反演全息超导穹顶的训练方法，将单次反演时间从数天缩短至十分钟到一小时，并系统研究了穹顶无法确定的标量质量函数区段，方法论上有实质推进，结果与局限均交代明确，值得点击进一步阅读。",
+    "selection_reason_zh": "该文属于全息凝聚态物理方向，研究标量质量依赖于规范场强度的全息超导体如何重现超导穹顶，并发展出基于两处积分的快速反演方法，将反演时间从数天缩短到十到六十分钟。文章进一步检验了不同M(0)取值下的重构稳定性，并在YBa2Cu3Oy与2M-WS2实测相图及高斯型穹顶上分析，明确指出穹顶仅在视界可达区间约束质量函数、不能单独确定标量质量，需第二观测量补充。理论建模与方法学信息充分，结论带有明确的限制性与不确定性说明，值得点进全文阅读；但工作规模较小，方程细节与误差分析在摘要中有限，故理论深度与严谨性信号取中上。",
     "title_zh": "超导穹顶的快速全息反演",
-    "abstract_zh": "一个标量质量依赖于规范场强度的全息超导体，$M(\\Fsq)$，在适当的 $M$ 下能重现超导穹顶，而此前从给定穹顶反推出该 $M$ 对单次训练运行需要数天时间。我们提出了一种训练该模型的新方法，使用它进行反演只需约十分钟到一小时。训练需要固定临界温度条件的梯度，早期方法通过有限差分获得该梯度，对每个训练参数重复做体空间积分。这里该条件无需任何拟合，由分别从视界和边界开始的两个积分得到，而它对 $M$ 的导数是对相同两个解的积分，因此梯度本身无需再积分。我们利用这一速度来研究穹顶无法确定的那部分 $M$，即在最低掺杂下 $\\Fsq$ 在视界处取的值与 $\\Fsq=0$ 之间的区间上，此时 $M$ 是标量质量 $M(0)$，它固定了对偶算符的维度。我们在若干数值上固定标量质量，称之为钉扎质量，在每个值上重新训练其余部分，发现重建结果在穹顶视界所及之处一致，包括 $M$ 的极小值处，而仅在该区间上不同。一个保留具有最简单闭式形式的重建结果的规则，能同时恢复测试穹顶的标量质量和质量函数。然而在高斯穹顶与双高斯穹顶以及 YBa$_{2}$Cu$_{3}$O$_{y}$ 和 2M-WS$_{2}$ 的测量相图上，它所保留的钉扎质量依赖于并列或很小的差距，因此对于这些目标，标量质量仍悬而未决。因此穹顶在其视界所及之处约束了 $M$，而固定对偶算符的维度需要第二个可观测量。",
+    "abstract_zh": "一个标量质量依赖于规范场强度的全息超导体，$M(\\Fsq)$，在适当的$M$下重现超导穹顶，但从穹顶反演$M$过去需要数天。我们从两个积分（分别从视界和边界出发）得到确定临界温度的条件，并从同样的两个解得到其对$M$的导数，因此训练无需有限差分，一次反演只需十分钟到一小时。借助这一速度，我们研究最低掺杂处$\\Fsq$的视界值与$\\Fsq=0$之间的区间；没有任何视界能到达该区间，而在其端点处标量质量$M(0)$确定对偶算符的维数。将$M(0)$固定于若干取值、固定这些质量并重新训练其余部分，我们发现这些重构共享$M$的极小值，并且在视界所到达之处（除最深端点外）一致，但在该区间上不同。一条保留具有最简单闭合形式的重构的规则，能够恢复由二次型$M$生成的穹顶的标量质量与质量函数。在高斯型与双高斯型穹顶以及YBa$_{2}$Cu$_{3}$O$_{y}$和2M-WS$_{2}$的实测相图上，它的选择依赖于平局或狭窄的差距，并且在其为这些穹顶所保留的闭合形式所生成的四个穹顶中，它只恢复出其中两个穹顶的标量质量。因此穹顶在其视界所到达之处约束$M$，但不约束标量质量，后者需要由第二个观测量来确定。",
     "keywords_en": [
       "holographic superconductor",
       "superconducting dome",
-      "holographic inversion",
-      "scalar mass",
-      "gauge field strength"
+      "inverse problem",
+      "scalar mass function",
+      "gauge field strength",
+      "holographic condensed matter"
     ],
     "keywords_zh": [
       "全息超导体",
       "超导穹顶",
-      "全息反演",
-      "标量质量",
-      "规范场强度"
+      "反问题",
+      "标量质量函数",
+      "规范场强度",
+      "全息凝聚态物理"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-10-14T02:09:40.204026Z"
+    "created_at": "2026-11-04T03:06:31.043563Z"
   },
-  "published_at": "2026-10-14T02:09:40.204463Z"
+  "published_at": "2026-11-04T03:06:31.044052Z"
 }

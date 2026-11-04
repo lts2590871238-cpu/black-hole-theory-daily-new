@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "holography_condensed_matter",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 7,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 66,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文属于全息凝聚态物理方向，研究标量质量依赖于规范场强度的全息超导体如何重现超导穹顶，并发展出基于两处积分的快速反演方法，将反演时间从数天缩短到十到六十分钟。文章进一步检验了不同M(0)取值下的重构稳定性，并在YBa2Cu3Oy与2M-WS2实测相图及高斯型穹顶上分析，明确指出穹顶仅在视界可达区间约束质量函数、不能单独确定标量质量，需第二观测量补充。理论建模与方法学信息充分，结论带有明确的限制性与不确定性说明，值得点进全文阅读；但工作规模较小，方程细节与误差分析在摘要中有限，故理论深度与严谨性信号取中上。",
+  "title_zh": "超导穹顶的快速全息反演",
+  "abstract_zh": "一个标量质量依赖于规范场强度的全息超导体，$M(\\Fsq)$，在适当的$M$下重现超导穹顶，但从穹顶反演$M$过去需要数天。我们从两个积分（分别从视界和边界出发）得到确定临界温度的条件，并从同样的两个解得到其对$M$的导数，因此训练无需有限差分，一次反演只需十分钟到一小时。借助这一速度，我们研究最低掺杂处$\\Fsq$的视界值与$\\Fsq=0$之间的区间；没有任何视界能到达该区间，而在其端点处标量质量$M(0)$确定对偶算符的维数。将$M(0)$固定于若干取值、固定这些质量并重新训练其余部分，我们发现这些重构共享$M$的极小值，并且在视界所到达之处（除最深端点外）一致，但在该区间上不同。一条保留具有最简单闭合形式的重构的规则，能够恢复由二次型$M$生成的穹顶的标量质量与质量函数。在高斯型与双高斯型穹顶以及YBa$_{2}$Cu$_{3}$O$_{y}$和2M-WS$_{2}$的实测相图上，它的选择依赖于平局或狭窄的差距，并且在其为这些穹顶所保留的闭合形式所生成的四个穹顶中，它只恢复出其中两个穹顶的标量质量。因此穹顶在其视界所到达之处约束$M$，但不约束标量质量，后者需要由第二个观测量来确定。",
+  "keywords_en": [
+    "holographic superconductor",
+    "superconducting dome",
+    "inverse problem",
+    "scalar mass function",
+    "gauge field strength",
+    "holographic condensed matter"
+  ],
+  "keywords_zh": [
+    "全息超导体",
+    "超导穹顶",
+    "反问题",
+    "标量质量函数",
+    "规范场强度",
+    "全息凝聚态物理"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-04T03:06:31.043563Z"
+}

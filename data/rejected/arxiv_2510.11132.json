@@ -1,0 +1,66 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2510.11132",
+    "arxiv_id": "2510.11132",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Wide Area VISTA Extragalactic Survey (WAVES): Redshift-limited selection of targets for the Wide survey using decision-tree classification",
+    "abstract_en": "The Wide-Area VISTA Extragalactic Survey (WAVES) on the 4-metre Multi-Object Spectroscopic Telescope (4MOST) includes two flux-limited subsurveys with very high (95%) completeness requirements: Wide over $\\sim\\!1200$ deg$^2$ and Deep over $\\sim\\!65$ deg$^2$. Both are $Z$-band selected, and additionally redshift-limited, while the true redshifts are not known a priori but will only be measured by 4MOST. Here, we present a classification-based method to select the targets for WAVES-Wide. Rather than estimating individual redshifts for the input photometric galaxies, we assign probabilities of them being below $z=0.2$, the redshift limit of the subsurvey.This is done with the supervised machine learning approach of eXtreme Gradient Boosting (XGB), trained and tested on a comprehensive spectroscopic sample overlapping with WAVES fields and using nine-band VST+VISTA photometry for the feature space. We check the performance of our classifier both for the fiducial WAVES-Wide limits, as well as for a range of neighboring redshift and magnitude thresholds, finding purity and completeness at the level of 90-95% depending on the test set. The metrics deteriorate for sources close to the selection limits and for test sets selected from DESI, not used in training. We apply the classifier trained on the full spectroscopic sample to the 8.6 million galaxies from the WAVES photometric catalog. This gives us about 1.2 million target candidates, reducing to 1 million if we apply an XGB probability threshold $P_\\mathrm{XGB}(z\\leq0.2) > 0.72$. Our work demonstrates that a machine-learning classifier could be used to select a flux- and redshift-limited sample from deep photometric data.",
+    "authors": [
+      "G. Kaur",
+      "M. Bilicki",
+      "S. Bellstedt",
+      "E. Tempel",
+      "W. A. Hellwing",
+      "I. Baldry",
+      "B. Bandi",
+      "S. Barsanti",
+      "S. Driver",
+      "N. Guerra-Varas",
+      "B. Holwerda",
+      "C. Lagos",
+      "J. Loveday",
+      "A. Robotham"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2025-10-13T08:22:23Z",
+    "updated_at": "2026-11-02T17:35:09Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2510.11132v2",
+    "pdf_url": "https://arxiv.org/pdf/2510.11132v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2510.11132",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://arxiv.org/abs/2510.11132v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

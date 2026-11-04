@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.00885",
+    "arxiv_id": "2611.00885",
+    "arxiv_version": null,
+    "inspire_id": "3221885",
+    "doi": null,
+    "title_en": "Where Does a Variational Quantum Classifier Lose Accuracy? Angle Encoding, Readout and the Fidelity-Kernel Reference in Cyberattack Detection",
+    "abstract_en": "When a variational quantum classifier performs poorly at detecting network attacks, it is hard to tell which part is to blame: the encoding, the trained circuit or the readout, which turns measurements into a class. In this work, we build upon a recent amplitude-encoded classifier, and we try to separate their contributions to the NSL-KDD benchmark in noiseless simulation. We compare angle and amplitude encoding, vary one component at a time, and measure each circuit against a classical yardstick: a support-vector machine on the encoded states, whose accuracy estimates what a well-trained circuit can reach. Most of the shortfall lies in the readout. Reading one qubit, or the parity of all qubits, leaves several percentage points unused, while a readout trained together with the circuit recovers most of them from the same measurements. This also explains why some classifiers stop improving as further layers are added. The encodings suit different needs. Angle encoding gives the more accurate detector on traffic like the training data and, from eight features up, shallower circuits; amplitude encoding needs far fewer qubits and catches more attacks of types never seen in training. Finally, we report that classical models, given the same inputs, are about as accurate as the best circuits, thus, registering no quantum advantage.",
+    "authors": [
+      "Thomos, Angelos",
+      "Andronikos, Theodore"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-31T00:00:00Z",
+    "updated_at": "2026-11-03T10:47:42.783351Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221885",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221885",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221885"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

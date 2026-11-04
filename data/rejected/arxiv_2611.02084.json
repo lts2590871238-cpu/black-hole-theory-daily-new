@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.02084",
+    "arxiv_id": "2611.02084",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Black Hole Love Numbers with Physics-Informed Neural Networks",
+    "abstract_en": "We develop and validate a physics-informed neural network (PINN) framework for computing the tidal Love numbers of black holes directly from their perturbation equations. We consider static perturbations of the Kerr black hole, whose exact hypergeometric solutions provide a controlled benchmark for both the numerical solver and the extraction of the physical response. The framework combines exact enforcement of the horizon boundary conditions with an $H^2$-Sobolev loss that incorporates derivatives of the differential-equation residual. The Love number is then obtained by extracting the asymptotic coefficients of the learned solution, without using the analytic connection formula. Across the tested scalar, vector, and tensor perturbations, the method recovers the finite dissipative response with relative errors below $10^{-5}$. Controlled comparisons show that the higher-derivative loss terms improve solution accuracy by orders of magnitude, while independent tests of the extraction procedure distinguish solver errors from errors in recovering the response coefficients. The conservative response, which vanishes analytically, is constrained by the numerical error floor. These results demonstrate that PINNs can accurately compute black-hole tidal response and establish a validated framework for future extensions to frequency-dependent and non-separable perturbation problems.",
+    "authors": [
+      "Maria J. Rodriguez",
+      "Luis Fernando Temoche",
+      "Pavlos Protopapas"
+    ],
+    "categories": [
+      "gr-qc",
+      "cs.LG",
+      "hep-th",
+      "math.NA"
+    ],
+    "submitted_at": "2026-11-01T17:45:15Z",
+    "updated_at": "2026-11-01T17:45:15Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.02084v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.02084v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.02084",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://arxiv.org/abs/2611.02084v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

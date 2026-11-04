@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01167",
+    "arxiv_id": "2611.01167",
+    "arxiv_version": null,
+    "inspire_id": "3221927",
+    "doi": null,
+    "title_en": "Quantum HHL Algorithm for Solving 1D Linear Advection Equation Using Explicit and Implicit Finite Difference Schemes",
+    "abstract_en": "This study develops and implements a Harrow-Hassidim-Lloyd (HHL) quantum algorithm for solving a one-dimensional linear advection equation with periodic boundary conditions. The governing equation is first discretized using a classical finite difference (FD) scheme to obtain a linear system suitable for quantum solution. We present a newly designed, circuit-level implementation of HHL assembled from Qiskit circuit components and exploit the circulant structure of the periodic discretization matrices through Fourier-based matrix evolution. The HHL algorithm is benchmarked with three explicit schemes and one implicit scheme. The implicit scheme requires a nontrivial linear solve arising from the discretized PDE on progressively finer grids, whereas the explicit schemes provide different input fields for testing state preparation and reconstruction with identity coefficient matrices. HHL solution states are validated against direct classical solves in noiseless simulation. For hardware execution, the periodic matrix structure permits a Fourier implementation that applies reciprocal eigenvalues without phase estimation. Results on the IBM Rensselaer Nighthawk processor are compared at a shared final time. Noiseless reconstructed fields approach the transported profile on resolved grids, while substantial hardware errors remain for both explicit and implicit schemes. Crank-Nicolson remains exceptionally well-conditioned and utilizes similar circuit re sources to the explicit controls, proving that hardware degradation in our tests was not driven by poor matrix conditioning. Ultimately, this study shows new means for HHL algorithms to study quantum CFD problems involving advection equations with implicit time integrations, while demonstrating how state preparation and measurement affect the practical performance of quantum solvers on current devices.",
+    "authors": [
+      "Yalcin, Batuhan",
+      "Zhang, Lucy T."
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-31T00:00:00Z",
+    "updated_at": "2026-11-03T12:40:16.405225Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221927",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221927",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221927"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

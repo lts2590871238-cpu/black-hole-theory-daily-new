@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.00255",
+    "arxiv_id": "2611.00255",
+    "arxiv_version": null,
+    "inspire_id": "3221775",
+    "doi": null,
+    "title_en": "Benchmarking Quantum Convolutional Neural Networks and their classical surrogates on long-range strongly correlated models",
+    "abstract_en": "We benchmark quantum convolutional neural networks (QCNNs) and their classical surrogates for phase differentiation in one-dimensional strongly correlated systems with beyond-nearest-neighbour terms. Using an anisotropic Heisenberg spin chain and an extended $t$-$t'$ Fermi-Hubbard model as representative spin and fermionic testbeds, we train QCNN classifiers on labelled ground-state datasets and map out finite-size phase diagrams. In hybrid setups, we employ Pauli backpropagation to express the QCNN measurement as a weighted sum of Pauli-string expectation values to be evaluated directly on input states, and study how truncation parameters control the trade-off between approximation accuracy and the size of the resulting Pauli expansion. Robust convergence is achieved for the Heisenberg model under aggressive truncation, whereas the Fermi-Hubbard model requires substantially looser thresholds, resulting in a sharp growth in retained Pauli strings and evaluation cost. Our results contribute to charting where hybrid quantum-classical training is viable for learning strongly correlated quantum states, and provide practical guidance for choosing truncation regimes in Pauli backpropagation-based surrogates.",
+    "authors": [
+      "Bespalova, Tatiana A.",
+      "Schwengelbeck, Réka",
+      "Mismetti, Laura",
+      "Schachenmayer, Johannes",
+      "Tavernelli, Ivano",
+      "Tacchino, Francesco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-03T12:25:25.823949Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221775",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221775",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221775"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

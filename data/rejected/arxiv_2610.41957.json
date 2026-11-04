@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.41957",
+    "arxiv_id": "2610.41957",
+    "arxiv_version": null,
+    "inspire_id": "3221699",
+    "doi": null,
+    "title_en": "GENIE: learned quantum circuits as embedding impurity solvers, and why compactness, not correlation strength, decides when they work",
+    "abstract_en": "Sample-based quantum diagonalization has been used as an impurity solver in density matrix embedding theory (DMET), but always with fixed-form circuits and without comparison to classical selection at the same subspace size. We introduce GENIE, a DMET impurity solver in which a generative transformer learns the sampling circuit, trained on the quantum-selected configuration interaction energy. On N2, hydrogen chains, water and a hydrogen ring, we compare GENIE at equal determinant budget with classical selected configuration interaction (CIPSI, ASCI, heat-bath CI) and with DMET combined with sample-based quantum diagonalization (SQD). GENIE selects: for N2 at 200 determinants it is within a factor of 1.7 of CIPSI and 25 to 1000 times more accurate than the determinants a fixed circuit actually samples, while standard SQD reaches good energies mainly by filling the subspace. GENIE does not beat the best classical selection, and its circuits require fault-tolerant hardware. Its failures are governed by the compactness of the wavefunction relative to the budget, not by correlation strength. A cheap estimate from coupled-cluster amplitudes predicts this compactness. A router built on it never recommended GENIE where it then failed, apart from seed-to-seed variance, and it transferred unchanged to a blind test on new systems. We also identify two benchmarking pitfalls that can create apparent quantum advantages of one to two orders of magnitude.",
+    "authors": [
+      "Loharkar, Awadhoot Vijay",
+      "Medina, Arcesio Castañeda"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-03T11:01:30.465489Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221699",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3221699",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221699"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

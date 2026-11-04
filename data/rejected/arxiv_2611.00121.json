@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.00121",
     "arxiv_id": "2611.00121",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3221742",
     "doi": null,
     "title_en": "Beyond Point Photo-$z$ Estimates: Normalizing Flows for Tomographic $N(z)$ Reconstruction with DESI DR1",
     "abstract_en": "Accurate calibration of tomographic redshift distributions, $N(z)$ is essential for cosmological analysis of weak lensing data. We investigate conditional normalizing flows (NFs) and compare their performance with random forest (RF) and quantile random forest (QRF) models. We consider DESI galaxy and quasar targets from DESI DR1 spectroscopic data and with the photometry from Legacy Surveys DR10. We train on 1.1 million sources and test on 2.0 million sources in a non-overlapping sky region ($0<z_{\\rm spec}<4.5$). For point estimation, the NF achieves the lowest scatter and outlier fraction at $0<z_{\\rm spec}<1.6$ and outperforms both baselines across all three metrics at $z_{\\rm spec}>1.6$. By introducing distribution-level metrics like Wasserstein distance and JS divergence, we find that stacking NF posterior PDFs provides more accurate tomographic $N(z)$ reconstruction than QRF, particularly at high redshifts. For $z_{\\rm median}>2.5$, the NF achieves a smaller absolute mean-redshift bias ($0.060\\pm0.031$ versus $0.318$) and higher probability overlap ($0.905\\pm0.008$ versus $0.787$) than QRF. We apply redshift-dependent post-hoc PDF calibration derived from a held-out validation sample. After calibration, the absolute mean-redshift biases in four bins spanning $0.2<z_{\\rm median}<1.0$ range from $0.0016$ to $0.0019$, with central values below referring benchmark $0.002(1+z)$. In the highest-redshift bin, calibration further reduces the bias to $0.016\\pm0.011$. Our results demonstrate the potential of NF PDFs for tomographic $N(z)$ reconstruction while highlighting challenges in transferring models across galaxy populations.",
@@ -17,23 +17,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-10-29T09:48:26Z",
-    "updated_at": "2026-10-29T09:48:26Z",
-    "document_types": [],
+    "submitted_at": "2026-10-29T00:00:00Z",
+    "updated_at": "2026-11-03T12:25:27.980400Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.00121v1",
     "pdf_url": "https://arxiv.org/pdf/2611.00121v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3221742",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.00121",
-        "fetched_at": "2026-11-03T03:58:26.425709Z",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
         "url": "https://arxiv.org/abs/2611.00121v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3221742",
+        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "url": "https://inspirehep.net/literature/3221742"
       }
     ],
     "is_demo": false
