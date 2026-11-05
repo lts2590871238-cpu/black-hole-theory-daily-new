@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2602.21607",
+    "arxiv_id": "2602.21607",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Direction-of-arrival estimation of a gravitational wave by correlations between quadrupole moments of pulsar timing data",
+    "abstract_en": "Can we estimate the direction of arrival (DOA) of a gravitational wave (GW) signal from pulsar timing array observations? The present paper addresses the inverse problem, for which we consider quadrupole moments of pulsar timing data due to GWs from a dominant isolated source such as a binary of supermassive black holes over an isotropic stochastic background. Correlations between the quadrupole moments are discussed as a possible alternative to the matched filtering technique, where the correlations between pulsar pairs over the full sky are taken into account. The correlations turn out to be in the form of a three-dimensional traceless matrix with rank 3 that can be closely related with a projection tensor for the GW. Thereby, we demonstrate that the rank-3 matrix allows to estimate the DOA of the GW without assuming a template bank nor a priori Gaussian noise. A mean over the celestial sphere is adopted instead of the pulsar averaging. A weighted average is used for a non-uniform distribution of pulsars on the sky, for which the Voronoi tessellation is employed to numerically calculate an area-weighted mean. In expectation of the forthcoming Square Kilometre Array, DOA estimation errors are also examined.",
+    "authors": [
+      "Taichi Ueyama",
+      "Hodaka Tamura",
+      "Hideki Asada"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "hep-th"
+    ],
+    "submitted_at": "2026-02-25T06:12:02Z",
+    "updated_at": "2026-11-04T00:37:19Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2602.21607v2",
+    "pdf_url": "https://arxiv.org/pdf/2602.21607v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2602.21607",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://arxiv.org/abs/2602.21607v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 16,
+      "novelty": 12,
+      "clarity": 8,
+      "metadata_quality": 5,
+      "community_signal": 0,
+      "other": 5
+    },
+    "total_score": 68,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文针对脉冲星计时阵列数据提出无需模板库的引力波到达方向估计方法，理论构造清晰且有Voronoi加权与SKA误差分析的数值考量，与PTA主题高度相关，值得进一步阅读。",
+    "title_zh": "通过脉冲星计时数据四极矩之间的关联估计引力波的到达方向",
+    "abstract_zh": "我们能否从脉冲星计时阵列观测中估计引力波（GW）信号的到达方向（DOA）？本文处理这一反问题，其中我们考虑由占主导的孤立源（例如超大质量黑洞双星）在各项同性随机背景之上产生的引力波所引起的脉冲星计时数据的四极矩。我们讨论四极矩之间的关联，作为匹配滤波技术的一种可能替代方案，其中考虑了全天球脉冲星对之间的关联。这些关联结果呈现为一个秩为3的三维无迹矩阵，可以紧密地与引力波的投影张量相联系。由此，我们证明该秩-3矩阵允许估计引力波的到达方向，而无需假设模板库、也无需假设先验的高斯噪声。我们采用天球上的平均来代替脉冲星平均。对于天球上脉冲星分布不均匀的情况，我们使用加权平均，其中采用Voronoi镶嵌来数值计算面积加权平均值。考虑到即将建成的平方公里阵列（Square Kilometre Array），我们还考察了到达方向估计的误差。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational wave direction of arrival",
+      "quadrupole moments",
+      "inverse problem",
+      "Voronoi tessellation",
+      "Square Kilometre Array"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波到达方向",
+      "四极矩",
+      "反问题",
+      "Voronoi镶嵌",
+      "平方公里阵列"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-07-13.2",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-05T03:35:35.928625Z"
+  },
+  "published_at": "2026-11-05T03:35:35.929023Z"
+}

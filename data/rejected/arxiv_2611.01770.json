@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01770",
+    "arxiv_id": "2611.01770",
+    "arxiv_version": null,
+    "inspire_id": "3222256",
+    "doi": null,
+    "title_en": "LADA: A differential algebra-based simulation package for arbitrary-order charged-particle and light optics",
+    "abstract_en": "LADA computes charged-particle and light-optical transfer maps by differential algebra in Python, with run-time order selection validated through order nine. It combines these established map methods with ATIMA-based stopping, straggling and scattering, the GLOBAL, CHARGE and ETACHA charge-state models, EPAX fragmentation, six-dimensional integration through measured or computed RF fields with reference-energy rebasing, and section-wise particle tracking with aperture and RF-window losses. Maps retain analytic dependence on external parameters; contraction with input moments gives beam observables and their sensitivities without particle tracking at each setting. Lattice import from COSY, MAD-X, Xsuite and MIRKO provides per-record status and comparisons with available codes. NumPy is the only required dependency. On the HHT benchmark, the optional compiled DA kernel on eight cores matches COSY in performance at orders 3 and 5 and is 1.8 and 2.9 times faster at orders 7 and 9. Applications include the SIBAF irradiation facility through CALINA, proton microscopy and beam-line studies at GSI and FAIR.",
+    "authors": [
+      "Varentsov, Dmitry",
+      "Litvinov, Sergey",
+      "Miski-Oglu, Maksym",
+      "Trotsenko, Sergiy"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T12:34:26.383229Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222256",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222256",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222256"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

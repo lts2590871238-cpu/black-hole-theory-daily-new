@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.02185",
+    "arxiv_id": "2611.02185",
+    "arxiv_version": null,
+    "inspire_id": "3222284",
+    "doi": null,
+    "title_en": "Extrapolation and explainability in hadron mass predictions with machine learning",
+    "abstract_en": "In this work, we study the predictive performance of four machine learning (ML) models for hadron masses, with particular attention to extrapolation beyond the conventional hadrons represented in the training data. Calculations are performed using a multilayer perceptron (MLP), eXtreme Gradient Boosting (XGBoost), Light Gradient Boosting Machine (LightGBM), and Gaussian process regression (GPR). ML models are trained on conventional hadrons, using features that describe valence quark content and quantum numbers. Then, we evaluate their performance on test sets and on a separate extrapolation set of 39 states, including exotic candidates and heavy baryons, none of which appear in the training or test sets. We find that the MLP achieves the lowest extrapolation Root Mean Square Error (RMSE) on the $30$ states with measured masses at $294.2 \\pm 57.9$~MeV, roughly one-third that of the other models. We also show that the MLP reproduces the overall mass scale of nine unobserved doubly heavy baryons predicted by theoretical calculations, although it underestimates the doubly bottom masses. We use SHapley Additive exPlanations (SHAP) analysis and show that heavy quark content is the most significant factor in the MLP's mass predictions, with the remaining features contributing differently across hadron types. Our results quantify the extrapolation accuracy of ML models for hadron masses and identify the features that drive the MLP predictions.",
+    "authors": [
+      "Yuksel, Esra",
+      "Bahtiyar, Huseyin",
+      "Soydaner, Derya"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T06:39:38.832583Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222284",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222284",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222284"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

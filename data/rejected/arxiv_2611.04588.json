@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04588",
+    "arxiv_id": "2611.04588",
+    "arxiv_version": null,
+    "inspire_id": "3222598",
+    "doi": null,
+    "title_en": "Adaptive Self-Optimization of Polarization Efficiency for Low-Power NV Center Thermometers Based on PAS-Q",
+    "abstract_en": "Nitrogen-vacancy (NV) centers in diamond have attracted considerable attention for micro- and nanoscale thermometry owing to their high precision and spatial resolution. However, achieving sufficient electron spin polarization and signal-to-noise ratio (SNR) typically requires high-power or long-duration laser excitation, which introduces heating and degrades measurement accuracy and stability. To address this trade-off, a reinforcement learning (RL)-based approach is proposed to optimize spin polarization under low-heating constraints. First, a physical model integrating five-level optical pumping rates and NV spin polarization dynamics is established. A temperature-rise constraint model is then developed based on pulsed optically detected magnetic resonance (P-ODMR) measurements under varying laser powers and pulse widths in an external magnetic field. Subsequently, a Progressive Action-Space Q-learning (PAS-Q) algorithm is employed to explore the parameter space and identify optimal laser power and pulse-width combinations. The agent is trained through numerical simulations and the resulting strategy is implemented in a hardware system. Experimental results demonstrate a 44% reduction in laser-induced heating, a 33% increase in spin polarization rate based on T1 relaxation analysis, and a 71% reduction in optimization time compared with traditional methods. This approach enables efficient spin polarization with reduced laser heating and improved optimization efficiency, and may be extended to other heat-sensitive quantum spin sensors, including silicon-vacancy centers in diamond and divacancy defects in silicon carbide.",
+    "authors": [
+      "Wang, Yifan",
+      "Xing, Li",
+      "Wang, Ruigang",
+      "Qian, Zheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T13:22:53.582915Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222598",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222598",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222598"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

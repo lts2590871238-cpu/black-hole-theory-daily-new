@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03324",
+    "arxiv_id": "2611.03324",
+    "arxiv_version": null,
+    "inspire_id": "3222386",
+    "doi": null,
+    "title_en": "Stabilizer Learning under Global Depolarizing Noise with Polynomial Copies and $2^t$ Time",
+    "abstract_en": "We study learning the stabilizer structure of an unknown pure $n$-qubit state observed through global depolarizing noise of unknown strength, with a fixed promised upper bound below one, using destructive two-copy Bell measurements. Let $0\\le t\\le n$ bound the stabilizer nullity, let $\\varepsilon>0$ be the accuracy, and let $0<δ<1$ be the failure tolerance. With probability at least $1-δ$, a learner must return a commuting unsigned Pauli group containing every stabilizer of the pure state; averaging conjugation by that group must decrease the purity of the observed noisy state by at most $\\varepsilon$. Tang and Steckmann gave such a learner with polynomially many copies and $2^t$ times polynomial time when the noise strength is below a threshold of at most about $0.16$, which tends to zero as $t/n\\to1$. They asked whether other algorithms with these resources can exceed this threshold. We answer this question affirmatively for every fixed bound on global depolarizing noise below one and every $0\\le t\\le n$, including states with only one promised independent stabilizer. Our learner uses polynomially many copies and $2^t$ times polynomial classical running time. All resource bounds hold on every execution. Their polynomial factors depend on $n,1/\\varepsilon,\\log(1/δ)$, with degrees and constants depending on the fixed noise promise.",
+    "authors": [
+      "Zabokritskiy, Aryeh Lev"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:52:34.978962Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222386",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222386",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222386"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

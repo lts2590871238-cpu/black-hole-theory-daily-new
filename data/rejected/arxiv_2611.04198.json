@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04198",
+    "arxiv_id": "2611.04198",
+    "arxiv_version": null,
+    "inspire_id": "3222559",
+    "doi": null,
+    "title_en": "Initialization-controlled fault sensitivity and force-balance plateaus in noisy variational quantum optimization",
+    "abstract_en": "We study deep variational circuits for a periodic Heisenberg chain under local gate depolarization, at depths where noiseless training is coherently exact. Full-width initializations reach low coherent error faster than circuits with confined transverse generators, but incur a larger noise shift and need an order of magnitude more updates for noisy convergence. In many-body-localization-inspired initialization, bounding the initial transverse generator amplitudes keeps the operator support localized and suffices for low-fragility optimization, so longitudinal disorder and Floquet layer repetition are unnecessary. The fault-erasure fraction, the mean fraction of coherent energy removed per fault, sets the effective visibility through a parameter-free exponential model. Full-width circuits start with delocalized operator support, and once coherent energy builds up, each fault erases nearly all of it. Initially, their noise-induced gradient almost uniformly attenuates the coherent gradient, so coherent descent proceeds at the noiseless rate. They then stall on a high-noise force-balance plateau, where finite coherent and noise-induced gradients cancel to first order. At late times all initializations reach the same fault-erasure fraction and noisy-error band, but operator support contracts more slowly, at a rate set by the plateau residence time.",
+    "authors": [
+      "Shen, Longhui",
+      "Jin, Fangzhou",
+      "Guo, Bin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T11:38:45.154392Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222559",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222559",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222559"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

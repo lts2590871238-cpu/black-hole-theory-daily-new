@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.01624",
     "arxiv_id": "2611.01624",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3222241",
     "doi": null,
     "title_en": "Choosing a generator for streaming Gaussian noise in gravitational-wave mock data: accuracy, cost and reproducibility",
     "abstract_en": "Mock data challenges need long stretches of colored Gaussian noise with a prescribed spectrum. The candidates are the crossfade of independently drawn windows that the standard gravitational-wave libraries implement, overlap-save finite-impulse-response filtering, autoregressive and autoregressive moving-average (ARMA) models, and the reproducible filter of PyCBC. One measure ranks them all: the covariance error against the target over the analysis band, evaluated from each generator's algebra; generated noise only checks the implementations. We also measure throughput, retained state and the cost of bit-exact regeneration. With the target continued smoothly below the band, the crossfade with windows of 256 s or more reaches an error below $10^{-3}$ on all eleven detector curves as tabulated, at about 4.7 million samples per second from a state of a few hundred bytes. An overlap-save filter is faster but needs tens of thousands of taps for an error of a few percent, and no tested autoregressive or ARMA configuration lies on the accuracy--throughput fronts. An error of $10^{-3}$ needs a window of 8 to 235 s, longest on the design curves with narrow lines, where it also depends on the tabulation. With the target cut at the band edge, as current generators do by default, every method has an error above one half on the projected Advanced LIGO (aLIGO) O4 curve, and the crossfade on five other curves. The crossfade is cyclostationary. With the continued target, its cyclic part is the larger part of the error only at 8 s, on the aLIGO O4 and the Virgo and KAGRA design curves, and stays within a factor of two of the stationary part on the aLIGO O3 and the Virgo and KAGRA design curves. We recommend the crossfade with a window from the table of detector curves, and a smooth continuation of the target below the band.",
@@ -16,23 +16,31 @@
       "astro-ph.IM",
       "physics.data-an"
     ],
-    "submitted_at": "2026-11-01T06:18:13Z",
-    "updated_at": "2026-11-01T06:18:13Z",
-    "document_types": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T11:52:47.153407Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.01624v1",
     "pdf_url": "https://arxiv.org/pdf/2611.01624v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222241",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.01624",
-        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
         "url": "https://arxiv.org/abs/2611.01624v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3222241",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222241"
       }
     ],
     "is_demo": false

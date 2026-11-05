@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04075",
+    "arxiv_id": "2611.04075",
+    "arxiv_version": null,
+    "inspire_id": "3222578",
+    "doi": null,
+    "title_en": "Runtime Compilation for Quantum Circuits with PQF-Enabled $R_z$ Synthesis",
+    "abstract_en": "In Fault-Tolerant Quantum Computing (FTQC) using surface codes, reducing $T$-count is critical for efficient computation due to the high cost of $T$-state distillation. Probabilistic Quantum Circuit with Fallback (PQF) synthesis significantly lowers $T$-counts compared to standard protocols like Gridsynth, but introduces high circuit dynamism through extra gates inserted at runtime. This dynamism invalidates static compile-time routing, as these new $T$ gates require dynamic lattice surgery routing to establish non-intersecting ancilla paths to $T$-state factories while minimizing total execution time. To address this, we introduce $\\text{R}^2$-PQF, a Runtime Routing protocol for PQF-synthesized quantum circuits. $\\text{R}^2$-PQF dynamically routes gates layer-by-layer, computing paths during the execution of the previous logical timestep. To satisfy the strict computational window of $\\sim t_{lattice\\_surgery} + t_{reaction}$ and non-intersectionality constraints, we implement a Wavefront Breadth-First Search (W-BFS) and synthesise it on a 500MHz FPGA and 2 GHz ASIC. For a clock cycle of 2GHz, we achieve a median logical time-step of $1.51 μs$ for a 300 qubit Ising Hamiltonian circuit, demonstrating that $\\text{R}^2$-PQF successfully resolves the vast majority of paths (with rare exceptions) within the execution window and enables the $T$-count benefits of PQF without latency penalties. Compared to a baseline stalling-based solution (the only no-runtime-recomputation solution), $\\text{R}^2$-PQF speeds up circuit execution by $1.34\\times$ on average and up to $1.76 \\times$.",
+    "authors": [
+      "Dangwal, Siddharth",
+      "Kang, Christopher",
+      "Habhab, Jad",
+      "Sharma, Ritvik",
+      "Chong, Frederic T.",
+      "Ravi, Gokul Subramanian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:37:21.476616Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222578",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222578",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222578"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

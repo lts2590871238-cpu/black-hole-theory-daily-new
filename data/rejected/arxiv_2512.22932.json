@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2512.22932",
+    "arxiv_id": "2512.22932",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Gauge Symmetry in Quantum Simulation --- Redundancy Is All You Need ---",
+    "abstract_en": "Quantum simulation of non-Abelian gauge theories requires careful handling of gauge redundancy. We present universal principles for treating gauge symmetry that apply to any quantum simulation approach. Our main result is that enforcing gauge-singlet constraints is conceptually and practically unnecessary for extracting physical observables. Physical states need not be represented by gauge singlets; singlet and non-singlet representations are both valid, with distinct practical trade-offs that we elucidate using analogies to BRST quantization, and the non-singlet approach is likely more efficient toward the continuum limit. As in classical electrodynamics and the path-integral formulation, gauge redundancy simplifies things. We demonstrate these principles within a complete quantum simulation framework based on the orbifold lattice, which enables explicit and efficient circuit constructions relevant to real-world QCD. We show how non-singlet approaches yield gauge-invariant observables through wave packets and string excitations, and that this approach is universal and efficient. For the limited situations where a singlet representation is genuinely required, we introduce a Haar-averaging projection implemented via linear combinations of unitaries and analyze its cost and truncation errors; its post-selection cost makes it a fallback rather than the default. We also introduce a penalty term in the Hamiltonian that eliminates non-singlet states from the low-energy spectrum. Working in temporal gauge, we map lattice Yang-Mills dynamics to Pauli-string Hamiltonians suitable for Trotterization. Classical simulations of small systems validate convergence criteria, quantify truncation and Trotter errors, and yield concrete resource estimates and scalable circuit recipes for SU$(N)$ gauge theories.",
+    "authors": [
+      "Masanori Hanada",
+      "Shunji Matsuura",
+      "Andreas Schafer",
+      "Jinzhao Sun"
+    ],
+    "categories": [
+      "quant-ph",
+      "hep-lat",
+      "hep-th"
+    ],
+    "submitted_at": "2025-12-28T13:56:38Z",
+    "updated_at": "2026-11-03T15:08:02Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2512.22932v3",
+    "pdf_url": "https://arxiv.org/pdf/2512.22932v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2512.22932",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://arxiv.org/abs/2512.22932v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

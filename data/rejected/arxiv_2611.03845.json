@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03845",
+    "arxiv_id": "2611.03845",
+    "arxiv_version": null,
+    "inspire_id": "3222505",
+    "doi": null,
+    "title_en": "Entanglement-Aware Quantum Circuit Optimization through Globally Optimal Partitioning",
+    "abstract_en": "We introduce a scalable framework for globally optimal quantum-circuit partitioning and entanglement-aware block resynthesis. The partitioning problem is formulated as an integer linear program over qubit-feasible convex subcircuits, supporting objectives such as minimizing the number of partitions or a weighted execution cost. The resulting partition selection is exact over the enumerated feasible candidates and their computed costs when the ILP is solved to proven optimality. The selected partitions are resynthesized using an operator-Schmidt rank (OSR) based synthesis technique, which exploits their internal entanglement structure. We compare the end-to-end integer linear programming (ILP)--OSR workflow with BQSKit while identifying their different routing methods, and separately compare local OSR and BQSKit synthesis on matched three- and four-qubit unitaries. On the frozen sample of 772 local unitary targets, OSR produces 741 verified syntheses versus 617 for BQSKit, and matches or improves the CNOT count in all 617 jointly verified pairs. These results demonstrate that globally optimal partition selection combined with entanglement-aware resynthesis improves circuit quality and extends block-based optimization to problem sizes that are impractical for existing optimization workflows.",
+    "authors": [
+      "Morse, Gregory",
+      "Farizi, Muhammad Al",
+      "Nádori, Jakab",
+      "Hajas, László",
+      "Kozsik, Tamás",
+      "Rakyta, Peter"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:37:29.611218Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222505",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222505",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222505"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

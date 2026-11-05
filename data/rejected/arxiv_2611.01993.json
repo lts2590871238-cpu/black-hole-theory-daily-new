@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01993",
+    "arxiv_id": "2611.01993",
+    "arxiv_version": null,
+    "inspire_id": "3222153",
+    "doi": null,
+    "title_en": "Seeing Why: Exact Evidence Maps for Quantum and Optical Image Classifiers",
+    "abstract_en": "When an image classifier decides, we can usually only estimate why. For quantum and all-optical classifiers that act linearly on amplitude-encoded pictures up to the measurement, with no trained classical network before or after them, each class's Born probability above its no-information share, $P_g - b_g$, splits exactly into contributions of the encoded amplitudes, shown as Born evidence maps (BEM) over the picture. The split itself follows from known results on quadratic forms: with the transmitted light held fixed, it is what Integrated Gradients from a zero baseline and the Shapley value give. What we add is a way to measure it on the hardware that classifies, from class probabilities on a quantum chip or from camera frames on a lens bench, with no gradient circuit and no light sent backwards; a $g\\times g$ map takes $1 + 2g^2$ runs. Deleting the 5% of pixels with the highest evidence drops accuracy from 73% to 9%, as occlusion does with 1,024 extra runs per picture, whereas gradient saliency removes much less. The classifiers share one architecture, a Fourier-plane mask followed by a brickwall circuit on qubits or by phase plates on a lens bench, read by a fixed Born headroom readout with no trained parameter; centring each picture on its own mean lets dark features count as much as bright ones. In simulation, four phase plates at a single wavelength reach 72.3% on Caltech-10 colour photographs. On IBM's ibm_kingston, with the mask applied before approximate loading, 300 test pictures were classified at 37.7% against 10% by chance (56.3% in exact simulation), and $2\\times2$ maps of ten correctly classified pictures, one per class chosen by a stated rule, measured on the chip, agreed with the exact ones ($r = 0.77$). The maps also revealed a shortcut in the data; as the trim that removed it was chosen on test pictures, the Caltech-10 results are exploratory.",
+    "authors": [
+      "Tongloy, Teerawat",
+      "Jomtarak, Rangsan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T11:52:26.601435Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222153",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222153",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222153"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

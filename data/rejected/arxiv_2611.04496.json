@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04496",
+    "arxiv_id": "2611.04496",
+    "arxiv_version": null,
+    "inspire_id": "3222588",
+    "doi": null,
+    "title_en": "Broken-Symmetry Reference States for Sample-Based Quantum Diagonalization with Near-DMRG Accuracy",
+    "abstract_en": "Sample-based quantum diagonalization (SQD) accuracy remains limited for strongly correlated systems like iron-sulfur clusters. This accuracy heavily depends on the mean-field reference state, which determines the sampling ansatz and configuration-recovery target. We extend the qcsc-prefect workflow to support a broken-symmetry unrestricted Hartree-Fock (BS-UHF) starting point, derived from atom-localized antiferromagnetic initial guesses. For the $[Fe_4S_4(SCH_3)_4]^{2-}$ cubane (54 electrons, 36 orbitals, 72 data qubits; 88 total qubits), this lowers the mean-field reference by $\\approx 534$ mHa relative to the Restricted Hartree-Fock (RHF) solution (-327.0809 vs. -326.5474 Ha). Combined with deep multi-step configuration recovery on ROQUO GPU nodes at subspace dimension $d = 3 \\times 10^{10}$, we reach $E = -327.235076$ Ha. This is 4.3 mHa above the finite-$D = 4000$ DMRG value (-327.2393952 Ha) and $\\sim 512-517$ mHa below a previous same-active-space RHF-reference SQD calculation. Extrapolating to the $d \\to \\infty$ limit via a Gaussian-in-log $d$ fitting ansatz gives an asymptotic estimate $E_\\infty = -327.244468$ Ha $\\pm 1.05$ mHa, just 0.33 mHa above our discarded-weight-extrapolated DMRG estimate ($E_{D\\to\\infty} = -327.244797$ Ha $\\pm 0.46$ mHa), well within their combined $1σ$ uncertainty. We characterize the determinant-subspace composition driving convergence, show matching validation on $[Fe_2S_2(SCH_3)_4]^{2-}$, and report multi-HPC execution on Fugaku, Miyabi-G, and ROQUO. We conclude that reference-state preparation, rather than subspace size alone, is a key driver of SQD energy accuracy under strong electronic correlation.",
+    "authors": [
+      "Kumar, Kunal",
+      "Shirakawa, Tomonori",
+      "Kim, Boseong",
+      "Wakizaka, Ryo",
+      "Hamamura, Ikko",
+      "Sato, Mitsuhisa",
+      "Yunoki, Seiji",
+      "Motta, Mario",
+      "Horii, Hiroshi",
+      "Kobayashi, Yuri"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T11:52:56.060114Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222588",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222588",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222588"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03262",
+    "arxiv_id": "2611.03262",
+    "arxiv_version": null,
+    "inspire_id": "3222127",
+    "doi": null,
+    "title_en": "Qyantram: A Transparent and Verifiable Quantum Computing Platform",
+    "abstract_en": "Most quantum circuit platforms focus on idealized circuit assembly and simulation, hiding hardware compilation, error identification, and variational model training behind black-box operations. QYANTRAM addresses this gap through an open platform comprising four subsystems, built around evidence-backed results and independent verification. Its staged compilation pipeline makes every transformation traceable, while the router publishes rejected SWAP candidates and their scores for transparent decision-making. Verification exploits inactive qubits remaining in the |0> state, reducing complexity from 2^N to 2^k for k active qubits. This mathematically exact reduction enables full pre-compilation verification on 127- and 156-qubit layouts, achieving approximately 10,000x speed-ups with execution times below one millisecond. The error identification engine exhaustively evaluates all Pauli error patterns without sampling, matching closed-form predictions within 2.8e-17. Its machine-learning engine achieves numerical agreement within 2.0e-15 of qiskit.quantum_info while training 25-50 times faster. The router introduces approximately 1.27x more SWAP gates than Qiskit's SABRE due to its omission of optimization, trading routing efficiency for complete decision transparency and traceability.",
+    "authors": [
+      "Kekane, Sharyu",
+      "Khatib, Sadique",
+      "Bokade, Abhushan",
+      "Wad, Uday",
+      "Kamalapur, S.M.",
+      "Bhise, Y.D."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:36:45.398982Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222127",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222127",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222127"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03484",
+    "arxiv_id": "2611.03484",
+    "arxiv_version": null,
+    "inspire_id": "3222133",
+    "doi": null,
+    "title_en": "On the Failure Probability of Quantum Leftover Hashing with Bad Seeds",
+    "abstract_en": "We study hashing against quantum adversaries, as used in cryptographic applications, and provide bounds on the probability of failure in practical settings where seeds might be reused and might be non-ideal. Randomness extraction and privacy amplification are key components of quantum cryptographic protocols, such as quantum randomness generation or key distribution, that allow the compression of partially secure raw data into shorter output with high security. To ensure the security of any cryptographic construction that integrates them, it is desirable to establish composable security. This can be done by using methods based on universal hashing and leveraging the general leftover hash lemma, which allows extraction of near-uniform random numbers from an imperfect entropy source by sampling from an almost two-universal family of hash functions using a seed. This approach is taken in many practical implementations, commonly using Toeplitz hashing. The lemma provides an upper bound $\\varepsilon$ on the distance of the output to uniform randomness, which holds on average over the choice of seeds. It makes no claim that any particular seed yields near-uniform random numbers. This poses a problem for practical applications where a seed is sampled once and reused for many rounds (blockwise hashing). Here, we study the subset of \\textit{bad} seeds yielding far-from-uniform outputs. We show that randomness extraction against quantum side information is guaranteed to produce $δ$-close-to-uniform random numbers except with failure probability $\\left(\\frac{\\varepsilon}δ\\right)^2$. This result is generalised to blockwise hashing providing a guarantee of the security of $k$ rounds except with failure probability $\\big(\\frac{(2k-1)\\varepsilon}δ\\big)^2$. Moreover, we extend the general leftover hash lemma to blockwise hashing and relax the assumption of almost two-universality.",
+    "authors": [
+      "Bach, Asker Friis",
+      "Babuglia, Isabel Moreno",
+      "Brask, Jonatan Bohr"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T12:33:34.493709Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222133",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222133",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222133"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

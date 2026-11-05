@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03859",
+    "arxiv_id": "2611.03859",
+    "arxiv_version": null,
+    "inspire_id": "3222140",
+    "doi": null,
+    "title_en": "Factorized approximate inverse preconditioners in the tensor train format",
+    "abstract_en": "We present a preconditioning pipeline that accelerates Tensor Train (TT) linear solvers for symmetric positive-definite problems. Extending the Factorized Sparse Approximate Inverse framework to tensor networks, we construct a preconditioner as the product of a TT operator and its transpose. This formulation is positive semidefinite for any bond dimension and truncation, and definite whenever the factor is non-singular, satisfying the mathematical requirements of the Conjugate Gradient method. We detail the construction of this preconditioner and its integration into Density Matrix Renormalization Group (DMRG)-like linear solvers. Performance evaluations show consistent iteration reductions for anisotropic diffusion and Poisson problems across various configurations, leading to net speedups of up to 25% in ill-conditioned settings of time stepping schemes that can reuse the approximate inverses. These benchmarks were performed with the open-source Julia library DifferenTT.jl, which we also introduce in this work to provide out-of-the-box access to these preconditioned pipelines.",
+    "authors": [
+      "Badia, Pau Torrente",
+      "García, Daniel Pérez",
+      "Garcia-Saez, Artur",
+      "Carignano, Stefano"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T13:25:12.154614Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222140",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222140",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222140"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

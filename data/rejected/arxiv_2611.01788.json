@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01788",
+    "arxiv_id": "2611.01788",
+    "arxiv_version": null,
+    "inspire_id": "3222247",
+    "doi": null,
+    "title_en": "CELEBI: Design and Realization of a Reproducible Physics Analysis Framework",
+    "abstract_en": "Reproducibility in modern physics analysis requires more than preserving source code or workflow descriptions. Analyses evolve through changes in code, configurations, parameters, input datasets, and dependencies, requiring a coherent representation of both the analysis and the provenance of its results. We present Celebi, a framework for organizing and preserving evolving physics analyses while keeping analysis definitions lightweight and separate from generated data products. Celebi maintains analysis definitions and preserved states in an Analysis Repository, while execution and generated results are managed separately through a Production Factory. The middleware layer, Yuki, connects preserved analysis states to execution infrastructure by constructing executable Snakemake workflows and dispatching them to supported runners, keeping the analysis representation independent of execution backends. This paper presents three main design concepts. First, the workflow architecture provides a modular representation of analysis components and their dependencies. Second, a structured file organization realizes this model in a human-readable form, separating reusable algorithms, task-specific configurations, parameters, documentation, and dependencies into well-defined objects. Third, the impression mechanism preserves immutable states of these objects and their dependencies, assigning persistent identities to specific analysis configurations and linking generated results unambiguously to their originating states. Together, these concepts establish a coherent representation of evolving physics analyses, supporting reproducibility, provenance tracking, collaboration, and long-term preservation.",
+    "authors": [
+      "Zhao, Mingrui"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T06:36:27.668457Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222247",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222247",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222247"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

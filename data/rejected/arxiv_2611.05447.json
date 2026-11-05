@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05447",
+    "arxiv_id": "2611.05447",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "The PAU Survey: Self-supervised image denoising for flux-preserving photometry",
+    "abstract_en": "Context. Deep photometric surveys increasingly rely on low signal-to-noise imaging, where noise affects source detection, flux measurements, photometric redshifts, and sample selection. Self-supervised denoising methods are attractive because they do not require ground-truth images, but applying them to quantitative photometry requires controlling the flux biases they may introduce. Aims. We evaluate and improve Noise2Void (N2V) for denoising real astronomical images, focusing on preserving fluxes, reducing photometric scatter, and retaining the main source features across a wide magnitude range. Methods. We use real observations from the Physics of the Accelerating Universe Survey (PAUS) together with PAUS-like simulated images. We show that standard N2V systematically underestimates galaxy fluxes, especially for faint galaxies. To mitigate this bias, we add a bounded-output layer that limits large negative outputs, and fine-tune the model with low-rank adaptation (LoRA) and two flux-aware loss terms that preserve the flux scale and improve repeated-exposure flux consistency. Results. For PAUS galaxies with 22 <= i_AB < 23 in the NB645 band, the standard N2V flux-ratio distribution peaks far below unity, while the bounded-output model restores it close to the original PAUS flux scale. The flux-aware LoRA fine-tuning reduces the width of the repeated-exposure flux-difference distribution to sigma_68 = 0.529 in NB645, an effective 47% reduction in random flux scatter relative to the original PAUS uncertainty scale, while keeping the median flux ratio close to unity. Conclusions. Denoising methods for astronomical surveys must be evaluated with photometric diagnostics, not image-quality metrics alone. With flux-aware modifications, self-supervised denoising can be adapted to low-SNR survey images while preserving the flux information needed for quantitative analysis.",
+    "authors": [
+      "J. Chen",
+      "M. Eriksen",
+      "D. Navarro-Gironés",
+      "P. Renard",
+      "E. Gaztanaga",
+      "J. Carretero",
+      "R. Casas",
+      "F. J. Castander",
+      "E. Fernandez",
+      "J. García-Bellido",
+      "R. Miquel",
+      "C. Padilla",
+      "E. Sánchez",
+      "I. Sevilla-Noarbe",
+      "P. Tallada-Crespí"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2026-11-03T17:30:34Z",
+    "updated_at": "2026-11-03T17:30:34Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.05447v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.05447v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.05447",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://arxiv.org/abs/2611.05447v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

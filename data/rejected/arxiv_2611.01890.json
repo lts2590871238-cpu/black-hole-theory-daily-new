@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01890",
+    "arxiv_id": "2611.01890",
+    "arxiv_version": null,
+    "inspire_id": "3222109",
+    "doi": null,
+    "title_en": "Tensor Contraction with ZX Calculus, a Graph-Theoretic Approach",
+    "abstract_en": "Tensors are higher dimensional generalisations of vectors and matrices. Tensor networks are a diagrammatic representation of complicated relations between tensors, and tensor contraction is the evaluation of a tensor network analogous to matrix multiplication. Tensor networks and tensor contraction are ubiquitous in computer science, physics, and applied mathematics. Most existing tensor contraction algorithms are focused on finding an optimal contraction order of the tensors' bonds. However, finding the optimal order is an NP-hard problem. It is equivalent to another possibly more straightforward but still NP-hard problem of finding the treewidth of the line graph of the tensor network. While in general finding the optimal bond-by-bond contraction order is hard, in many practical cases there is no need to find an optimal order. This observation leads to the core innovation of this thesis, which is a new tensor contraction paradigm that uses graph theoretic operations to produce an equivalent tensor network whose line graph has lower treewidth than the original tensor network, before applying the bond-by-bond contraction algorithm. We call these graph theoretical operations \\textit{rewrite preprocessing}, and we name the algorithms that apply rewrite preprocessing before regular bond-by-bond contraction \\textit{Tensor Contraction with Graph Operation}. There are many possible ways to perform rewrite preprocessing; in this thesis, we focus on the graph operations of ZX calculus, a diagrammatic language for quantum circuits. Ample numerical simulations have been performed to demonstrate the effectiveness of our proposed method.",
+    "authors": [
+      "Han, Yuhao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T11:53:07.957971Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222109",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222109",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222109"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

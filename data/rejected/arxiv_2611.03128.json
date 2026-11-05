@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03128",
+    "arxiv_id": "2611.03128",
+    "arxiv_version": null,
+    "inspire_id": "3222126",
+    "doi": null,
+    "title_en": "Belief Propagation-Informed Tesseract Decoding of Quantum LDPC Codes",
+    "abstract_en": "In quantum error correction, the decoder must estimate the errors from the measurement data accurately and fast enough to avoid a backlog. Search-based decoders such as Tesseract achieve high accuracy by finding a minimum-weight set of error events with an A* search, but their search effort grows rapidly with the physical error rate and the code size. To reduce this search effort while maintaining a logical error rate close to that of Tesseract, we propose a belief propagation (BP)-guided modification of the Tesseract decoder for quantum low-density parity-check (LDPC) codes. Damped sum-product BP is applied to the triggered detectors before the Tesseract search. If the detectors triggered by the BP hard decision match the triggered detectors, this hard decision is accepted directly, and the Tesseract search is skipped. Otherwise, the BP marginal probability estimates, weighted by a trust coefficient, modify the search priority, while the path cost keeps the channel-prior weights so that the decoding objective is unchanged. The framework also supports BP-based initialization, in which selected BP decisions form the starting point of a residual search whose signed-cost objective allows incorrect initial decisions to be removed. A node-exploration limit bounds this residual search; if the limit is reached, the decoder falls back to the BP-guided search on the original triggered detector set. The method is evaluated on the [[72,12,6]], [[90,8,10]], and [[144,12,12]] bivariate bicycle codes under circuit-level noise. With BP-based initialization and a global trust coefficient, the number of Tesseract search nodes expanded is reduced by up to more than two orders of magnitude at low physical error rates, while the logical error rate remains close to that of Tesseract.",
+    "authors": [
+      "Javed, Sana",
+      "Garcia-Herrero, Francisco",
+      "Vasić, Bane",
+      "Flanagan, Mark F."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:38:39.550182Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222126",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222126",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222126"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

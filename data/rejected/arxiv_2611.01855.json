@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01855",
+    "arxiv_id": "2611.01855",
+    "arxiv_version": null,
+    "inspire_id": "3222108",
+    "doi": null,
+    "title_en": "Long-term yields of short-rate models as Feynman-Kac ground states: a variational quantum eigensolver with single-setting energy estimation on two NISQ platforms",
+    "abstract_en": "We show that the long-term yield of a short-rate model is the ground-state energy of a Schrodinger operator obtained from the Feynman-Kac bond-pricing equation, so that it can be computed by a variational quantum eigensolver (VQE). We treat the Vasicek, Cox-Ingersoll-Ross and Black-Karasinski models; the last has no closed form. Calibrated monthly to the U.S. Treasury curve from 1985 to 2026, the long-term yield follows the 30-year yield with an in-sample correlation of 0.98. The Hamiltonian is stoquastic, so its ground state is positive and the energy can be estimated from computational-basis samples with a single measurement setting. On ibm_cleveland, gate noise appears mainly as bit flips of the high-order qubits. A bit-flip deconvolution with a tail set fixed by a WKB criterion, combined with readout mitigation and zero-noise extrapolation, gives four-qubit estimates within 33-125 bp of the grid ground-state energies for all three models, and within 23-67 bp for Treasury-calibrated parameters. On IonQ Forte Enterprise the same analysis reduces the error in the same proportions. On the same circuits, a Pauli-measurement VQE deviates by 791-1,129 bp, so the single-setting estimator gives about ten times smaller errors with one setting instead of nine. An on-device VQE converges from 4,939 bp to 130 bp.",
+    "authors": [
+      "Ahn, Doyeol"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T11:37:32.797532Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222108",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222108",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222108"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

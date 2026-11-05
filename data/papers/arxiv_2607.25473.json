@@ -4,8 +4,8 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.25473",
     "arxiv_id": "2607.25473",
-    "arxiv_version": 1,
-    "inspire_id": "3183976",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Photon Gas Thermodynamics in Doubly Special Relativity at the Planck Scale",
     "abstract_en": "We investigate the thermodynamics of a photon gas within the Magueijo-Smolin formulation of doubly special relativity, a framework that augments the speed of light with an observer-independent energy scale of the order of the Planck energy. We derive the logarithmic grand partition function, and the complete set of thermodynamic quantities for the photon gas, including the Helmholtz free energy, internal energy, entropy, pressure, and heat capacity, and perform their numerical evaluation. Our results smoothly reduce to the conventional special relativistic expressions in the limit where the invariant energy scale tends to infinity. For temperatures approaching the Planck scale, the finite cutoff induces a systematic suppression of all thermodynamic functions relative to their standard special-relativistic counterparts.",
@@ -19,31 +19,23 @@
       "hep-ph",
       "hep-th"
     ],
-    "submitted_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-30T03:42:12.720553Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-28T09:05:43Z",
+    "updated_at": "2026-11-03T07:21:34Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.25473v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.25473v1",
-    "inspire_url": "https://inspirehep.net/literature/3183976",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.25473v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.25473v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.25473",
-        "fetched_at": "2026-08-04T00:57:40.351618Z",
-        "url": "https://arxiv.org/abs/2607.25473v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3183976",
-        "fetched_at": "2026-08-04T00:57:40.351618Z",
-        "url": "https://inspirehep.net/literature/3183976"
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://arxiv.org/abs/2607.25473v2"
       }
     ],
     "is_demo": false
@@ -66,41 +58,45 @@
   "decision": {
     "schema_version": "1.0",
     "relevant": true,
-    "primary_topic": "black_hole_thermodynamics",
-    "secondary_topics": [],
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [
+      "black_hole_thermodynamics"
+    ],
     "scores": {
-      "theory_depth": 25,
-      "methodological_rigor": 15,
-      "novelty": 12,
+      "theory_depth": 22,
+      "methodological_rigor": 14,
+      "novelty": 9,
       "clarity": 8,
-      "metadata_quality": 7,
+      "metadata_quality": 5,
       "community_signal": 0,
-      "other": 3
+      "other": 4
     },
-    "total_score": 70,
+    "total_score": 62,
     "reject_reason_zh": "",
-    "selection_reason_zh": "论文在普朗克尺度下研究双狭义相对论中的光子气体热力学，推导了热力学函数并进行了数值评估，涉及自由能、熵、热容等，与黑体辐射热力学和量子引力修正相关，具有一定的理论深度和清晰度。",
-    "title_zh": "普朗克尺度双狭义相对论中的光子气体热力学",
-    "abstract_zh": "我们研究了Magueijo-Smolin形式下的双狭义相对论中光子气体的热力学，该框架用与普朗克能量同数量级的观测者独立能量尺度补充了光速。我们推导了对数巨配分函数，以及光子气体的完整热力学量集合，包括亥姆霍兹自由能、内能、熵、压强和热容，并对它们进行了数值评估。在不变能量尺度趋于无穷大的极限下，我们的结果平滑地简化为传统的狭义相对论表达式。对于接近普朗克尺度的温度，有限的截断导致所有热力学函数相对于其标准狭义相对论对应物出现系统性抑制。",
+    "selection_reason_zh": "论文在Magueijo-Smolin双重狭义相对论框架下系统推导光子气体的配分函数与全套热力学量，并给出数值结果与普朗克尺度截断导致的抑制效应，理论推导链条完整且边界情形检验清晰；主题更贴近相对论基础与量子引力现象学，与黑洞热力学仅有热力学词汇上的弱关联，故作为次要主题。无引用数据不作扣分，元数据缺少DOI与期刊信息使元数据得分偏低。",
+    "title_zh": "普朗克尺度下双重狭义相对论中的光子气体热力学",
+    "abstract_zh": "我们在双重狭义相对论的Magueijo-Smolin表述下研究光子气体的热力学，该框架在光速之外引入了一个与观测者无关、量级为普朗克能量的能量标度。我们推导了对数巨配分函数，以及光子气体的整套热力学量，包括亥姆霍兹自由能、内能、熵、压强和热容，并对它们进行了数值计算。当不变能量标度趋于无穷大时，我们的结果平滑地退化为常规狭义相对论表达式。对于趋近普朗克尺度的温度，有限截断会导致所有热力学函数相对于其标准狭义相对论对应量出现系统性压低。",
     "keywords_en": [
       "doubly special relativity",
       "photon gas",
-      "thermodynamics",
       "Planck scale",
+      "grand partition function",
+      "thermodynamics",
       "Magueijo-Smolin"
     ],
     "keywords_zh": [
-      "双狭义相对论",
+      "双重狭义相对论",
       "光子气体",
-      "热力学",
       "普朗克尺度",
+      "巨配分函数",
+      "热力学",
       "Magueijo-Smolin"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-30T00:17:33.350938Z"
+    "created_at": "2026-11-05T03:35:59.296539Z"
   },
-  "published_at": "2026-08-04T00:59:01.061155Z"
+  "published_at": "2026-11-05T03:35:59.296916Z"
 }

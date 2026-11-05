@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.40548",
+    "arxiv_id": "2610.40548",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Anisotropic overlap reduction functions for arbitrary equal-arm TDI channels: A fully analytic framework and efficient evaluation",
+    "abstract_en": "We establish a unified analytic framework for anisotropic overlap reduction functions (ORFs) of arbitrary finite-delay time-delay interferometry (TDI) channels in a static, reciprocal, equal-arm equilateral constellation. The construction combines the polynomial constraints for laser-noise cancellation, constellation symmetries, and directional-projection integration. A free basis of the admissible channel module separates channel generation from angular integration; two families of elementary angular kernels then generate all channel-pair intensity ORFs. The channel algebra is independent of gravitational-wave polarization, and the intensity-kernel reduction applies to tensor, vector, breathing, and longitudinal sectors. Tensor multipoles illustrate the framework here. Complete propagation effects are retained at arbitrary fixed finite angular order, with explicit examples through $\\ell=5$. Prepared frequency batches, shared multiprecision expressions, and local expansions at removable delay points provide stable evaluation. In the prepared-batch benchmark, the analytic implementation is approximately 50 to 5000 times faster than optimized sky quadrature at matched error tolerances. Independent multiprecision sky integrations also validate prescribed mixed error targets down to $10^{-100}$ in the tested cases. The resulting kernels and generation rules supply reusable inputs for anisotropic multichannel background models.",
+    "authors": [
+      "Kun Zhou",
+      "Jin Li"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-10-29T17:38:08Z",
+    "updated_at": "2026-10-29T17:38:08Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.40548v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40548v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.40548",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://arxiv.org/abs/2610.40548v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "overlap reduction function"
+    ],
+    "medium_weight_hits": [
+      "gravitational wave polarization"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

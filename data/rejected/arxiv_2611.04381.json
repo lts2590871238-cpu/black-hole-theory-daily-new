@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04381",
+    "arxiv_id": "2611.04381",
+    "arxiv_version": null,
+    "inspire_id": "3222149",
+    "doi": null,
+    "title_en": "On the Hardness of Approximate Quantum Circuit Membership and Optimization",
+    "abstract_en": "Quantum circuit optimization is an indispensable component of the quantum software stack, used to reduce noise, maximize performance, alleviate costs of quantum error correction, or target specific hardware. A related problem is approximate membership: for a fixed set of unitaries $S$, decide whether a given circuit $C$ is within distance $\\varepsilon$ of a unitary in $S$ under some metric $m$. Membership is a special case of optimization, where $S$ is a set of unitaries implementable at no cost (e.g., with noise-minimal circuits, or without magic states). Janzing, Wocjan, and Beth (Int. J. Quantum Inf., 2005) showed that, for the operator metric, the case $S=\\{I\\}$ (approximate identity) is QMA-complete when $C$ is promised to be either close to the identity or far from it. We generalize this setting in three directions: (i) promise-free inputs, (ii) besides $S=\\{I\\}$, sets $S$ containing only Clifford unitaries, or only generalized permutation matrices (i.e., no superposition), and (iii) the trace-based, spectral, and operator metrics. We show that, in all cases, approximate membership is PP-hard for wide ranges of $\\varepsilon$, provided $C$'s gate-set can implement Clifford+T, as the gate-sets of standard hardware do. If $S=\\{I\\}$, or if $S$ contains only generalized permutation matrices, $I\\in S$, and $m$ is a trace-based distance, PP-hardness holds for all non-trivial $\\varepsilon$. If $S=\\{I\\}$ and $m$ is a trace-based distance, PP-hardness holds even for circuits over classical-reversible gate-sets. Our results indicate that approximate membership is harder over promise-free inputs than the QMA-complete promise version, and that this hardness persists across quantum resources (any gates, non-Clifford, superposition) and distance metrics. They directly imply PP-hardness of circuit optimization when minimizing total, non-Clifford, or superposition gate depth or count.",
+    "authors": [
+      "Kjelstrøm, Adam Husted",
+      "van de Pol, Jaco",
+      "Pavlogiannis, Andreas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T11:37:29.111518Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222149",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222149",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222149"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

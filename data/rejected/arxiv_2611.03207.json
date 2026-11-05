@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.03207",
     "arxiv_id": "2611.03207",
     "arxiv_version": 2,
-    "inspire_id": null,
+    "inspire_id": "3222452",
     "doi": null,
     "title_en": "Spin SYK-dot chains: entanglement bound and resource estimates towards a quantum advantage",
     "abstract_en": "Ground states of Sachdev-Ye-Kitaev (SYK)-type models are volume-law entangled, which makes them costly both for tensor networks and for quantum hardware simulations. Thus, it remains unclear where quantum hardware could outperform classical simulation of such models. In this work, we study a spin SYK-dot chain, in which q dense SYK dots of p qubits are joined by single ZZ bonds of strength K. The entanglement across any cut is then bounded by floor(p/2) ln 2 plus the inter-dot entanglement, and the two-qubit depth of one Trotter step is set by p alone. A resource estimate shows that a quantum advantage for the ground state could appear only for dots of about 15 to 21 qubits or more. There, a single Trotter step already requires two-qubit error rates of order 10^{-6}, beyond the reach of noisy intermediate-scale quantum (NISQ) hardware. We test the assumptions of this estimate with an imaginary-time matrix product state (MPS) that applies each dot as one block. It agrees with exact diagonalisation at (p, q) = (6, 2). At (5, 2), a variational circuit with the same dot-plus-link layout comes within 3.6% of the exact energy, and noisy simulations show that its fidelity decays as assumed in the resource estimate. At (8, 5), i.e., N = 40 qubits, the energy converges at bond dimension chi = 768, far below the exact value 2^20, and the inter-dot entanglement stays small and is set mainly by K. Out-of-time-order correlators across the links decay on a time scale that shrinks rapidly with |K|. Thus, the dot size p and the inter-dot coupling K together set the entanglement of the chain, and with it where a quantum advantage could appear.",
@@ -18,22 +18,30 @@
       "cond-mat.str-el"
     ],
     "submitted_at": "2026-11-02T14:30:28Z",
-    "updated_at": "2026-11-03T10:00:31Z",
-    "document_types": [],
+    "updated_at": "2026-11-04T11:37:25.047927Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.03207v2",
     "pdf_url": "https://arxiv.org/pdf/2611.03207v2",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222452",
     "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.03207",
-        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
         "url": "https://arxiv.org/abs/2611.03207v2"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3222452",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222452"
       }
     ],
     "is_demo": false

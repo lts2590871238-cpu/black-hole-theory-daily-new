@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04573",
+    "arxiv_id": "2611.04573",
+    "arxiv_version": null,
+    "inspire_id": "3222603",
+    "doi": null,
+    "title_en": "On Random Purifications of Isometries and Channels",
+    "abstract_en": "Acorn tricks turn weak quantum resources into stronger \"randomized\" ones. A recent example is the random purification channel, which turns $t$ copies of a mixed state into $t$ copies of a random purification. We ask whether analogous techniques can turn queries to an isometry into queries to a random unitary completion, or queries to a quantum channel into queries to a random isometry dilation. For an isometry from dimension $N$ to dimension $M$, we give an efficient, stateful simulator for $T$ sequential, forward queries to a fixed Haar random unitary completion. It uses at most one forward isometry query per simulated call, with total trace-distance error $O(T\\sqrt{N/(M-T)})$. This lifts isometry query lower bounds to arbitrary unitary completions, and copy complexity lower bounds to forward access to state preparation unitaries, with dimension-dependent loss that can be made arbitrarily small for most applications. Conversely, we construct two distributions on quantum channels distinguishable exactly with two queries to an arbitrary dilation, but requiring exponentially many channel queries for nonnegligible advantage. This rules out efficient simulation of random channel dilations. Our technique also shows that approximating the quantum switch to any constant error below $1/2$ requires exponentially many channel queries, even for identical channels, giving an exponential query advantage for indefinite causal order and improving on Bavaresco et al. (2025). Finally, we show how to \"decontrol\" controlled forward access to an isometry: any algorithm making controlled queries to $ϕV$ for a random phase $ϕ$ can be transformed into one using the same number of uncontrolled forward queries to $V$, generalizing the analogous result for unitaries.",
+    "authors": [
+      "Goldin, Eli"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T11:52:36.167289Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222603",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222603",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222603"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.04045",
     "arxiv_id": "2611.04045",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3222549",
     "doi": null,
     "title_en": "Latin hypercube sampling to reduce the variance in Monte Carlo integration: a practical guide and an application to gravitational-wave astronomy",
     "abstract_en": "In applied statistics, likelihoods involving high-dimensional integrals are often approximated via Monte Carlo summation. Controlling the resulting numerical variance is crucial for reliable inference. We provide a practical introduction to Latin hypercube sampling (LHS) and its extension based on orthogonal arrays (OA-LHS) as strategies to reduce this variance by stratifying the sampling distribution. LHS asymptotically removes variance contributions from individual coordinates, while strength-2 OA-LHS also removes those from pairwise interactions, yielding orders-of-magnitude improvements over plain Monte Carlo estimators for suitable integrands. As a case study, we investigate their application to the selection function entering hierarchical inference of gravitational-wave populations. At approximately one million injections, we find only a marginal reduction in variance, with low statistical significance. Nevertheless, the computational cost of constructing these designs is negligible relative to evaluating gravitational-wave injections, making even marginal gains worth considering for future applications. This practical introduction to LHS and OA-LHS offers a starting point for other applications in physics and astronomy involving computationally expensive Monte Carlo calculations.",
@@ -18,23 +18,31 @@
       "astro-ph.HE",
       "gr-qc"
     ],
-    "submitted_at": "2026-11-02T22:41:10Z",
-    "updated_at": "2026-11-02T22:41:10Z",
-    "document_types": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:52:24.803231Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.04045v1",
     "pdf_url": "https://arxiv.org/pdf/2611.04045v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222549",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.04045",
-        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
         "url": "https://arxiv.org/abs/2611.04045v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3222549",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222549"
       }
     ],
     "is_demo": false

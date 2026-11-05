@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03891",
+    "arxiv_id": "2611.03891",
+    "arxiv_version": null,
+    "inspire_id": "3222142",
+    "doi": null,
+    "title_en": "Hardware-Aware Design and Layout Selection in Quantum Reservoir Computing for Insurance Claims Forecasting",
+    "abstract_en": "Quantum reservoir computing (QRC) processes temporal information through quantum dynamics, but it remains unclear whether small QRC models can forecast real data competitively with classical models and whether their predictions survive the transfer from ideal simulation to noisy hardware. We address both questions for a six-qubit gate-based reservoir that forecasts next-day motor-insurance claim counts. Five reservoir candidates were selected and frozen using hardware-native interaction graphs, Trotterized Ising dynamics, memory and measurement-robustness criteria, circuit cost, and calibrated-noise screening. On 232 held-out test days, the ideal candidates reached root-mean-square errors (RMSEs) of 5.66-6.12 claims/day, compared with 5.36 for ridge regression. For four of the five, the difference from ridge was not significant under a 95% block bootstrap, and their accuracy was comparable with classical recurrent and reservoir baselines. On the 156-qubit IBM Kingston processor, we ran 63 evaluations in 21 paired rounds, comparing hardware-aware, random-native, and Qiskit optimization level 1 layouts. Hardware-aware placement gave lower RMSE than Qiskit in every round, with a maximum transfer distortion of 7.59 claims/day (11.84 for Qiskit), and avoided the severe transfer failures seen for some random layouts. Most of the hardware distortion appeared as a systematic forecast shift, which a short hardware probe on training inputs detected before the test runs. Longer replay windows raised circuit cost without a consistent gain in forecasting accuracy or hardware transfer. Small QRC models can thus reach competitive accuracy on this task, and hardware-aware layout selection makes their transfer to IBM Kingston more consistent.",
+    "authors": [
+      "Rusnáková, Renáta",
+      "Šlapak, Eugen",
+      "Pandey, Gaurav K.",
+      "Gazda, Juraj"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T11:37:46.564195Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222142",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222142",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222142"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

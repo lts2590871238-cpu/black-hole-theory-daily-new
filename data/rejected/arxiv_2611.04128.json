@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04128",
+    "arxiv_id": "2611.04128",
+    "arxiv_version": null,
+    "inspire_id": "3222144",
+    "doi": null,
+    "title_en": "Entanglement Allocation for Quantum Integrated Sensing and Communication",
+    "abstract_en": "Jointly supporting communication and distributed sensing over a shared, limited pool of entanglement resources is an attractive prospect for future quantum networks. We develop a network-level quantum integrated sensing and communication (Q-ISAC) framework in which a quantum base station dynamically allocates elementary Bell pairs between communication users and distributed sensing. Sensing resources are adaptively partitioned among multiple GHZ probes with dynamically selected sizes and sensing-node assignments. We derive an effective quantum Fisher information model accounting for probabilistic fusion, transmission loss, and memory decoherence, and formulate a finite-horizon allocation problem subject to communication QoS, expected sensing-information, sensing-reliability, and hardware constraints. A hierarchical constrained proximal policy optimization (HC-PPO) framework combines learned discrete sensing allocation with analytical continuous communication allocation. Numerical results show that GHZ probing requires approximately $27$--30% fewer sensing qubits than separable probing under modest probe-size caps and 65-67% fewer at the highest considered target under the same sensing requirements. Adaptive multi-GHZ partitioning provides greater robustness than single-GHZ sensing, while adaptive communication--sensing sharing outperforms the evaluated fixed splits. The proposed HC-PPO framework satisfies the joint requirements in at least 99.9% of test instances across the considered sensing targets and fusion probabilities. Monte Carlo evaluation separately shows that realized terminal information reached its target in 96-98% of realizations, distinguishing expected-information satisfaction from realized sensing performance.",
+    "authors": [
+      "Taskooh, Shiva Kazemi",
+      "Monemi, Mehdi",
+      "Hossain, Ekram",
+      "Kaddoum, Georges",
+      "Rasti, Mehdi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-04T11:38:30.237021Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222144",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222144",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222144"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

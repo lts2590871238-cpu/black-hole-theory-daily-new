@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.02049",
+    "arxiv_id": "2611.02049",
+    "arxiv_version": null,
+    "inspire_id": "3222112",
+    "doi": null,
+    "title_en": "Reinforcement Learning in High-Energy Physics: A Survey from Accelerator Control to Theory Exploration",
+    "abstract_en": "Reinforcement learning (RL) is a machine learning paradigm in which an agent learns a decision-making policy by interacting with an environment, guided by a scalar reward rather than explicit supervision. Supervised and unsupervised learning have become indispensable tools in high-energy physics (HEP), but they learn from fixed datasets, whereas many HEP tasks are closed-loop decisions: the data an algorithm observes depend on its choices, the feedback is sparse or delayed, and the objective is often measured on a real machine or in a stochastic simulation, not by a differentiable model. This survey reviews the application of RL to such tasks: accelerator control and feedback, data quality monitoring, jet grooming, clustering, and representation, charged particle tracking, beyond-the-Standard-Model (BSM) and string model building, detector design, trigger control, analysis, and formal quantum field theory computation. It provides a self-contained introduction to the underlying RL methods, from model-free and model-based to multi-agent, offline, inverse, and bandit approaches, reviews each domain against its traditional methods, and summarizes the head-to-head comparisons. The applications range from policies deployed on real accelerators and evaluated on recorded collision data to exploratory studies in formal theory. RL is most advantageous for repeated tasks with a fast simulator, decisions inside fast control loops, operation under faults and corrupted measurements, physics-based rewards in place of labels, and sequential discrete constructions with a reusable policy, while Bayesian optimization, genetic algorithms, and differentiable methods remain competitive elsewhere. We conclude with the open challenges that recur across domains, including reward design, sim-to-real transfer, safety, the lack of shared benchmarks, and the statistical validity of policy-driven decisions.",
+    "authors": [
+      "Anzalone, Luca"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T13:19:01.033575Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222112",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222112",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222112"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

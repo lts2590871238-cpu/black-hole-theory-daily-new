@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.02627",
     "arxiv_id": "2611.02627",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3222121",
     "doi": null,
     "title_en": "Recovering Missing Degrees of Freedom in Simulation-Trained Field-Level Generative Models",
     "abstract_en": "Simulation-trained generative models are emerging as a powerful framework for field-level inference in cosmology, particularly in strongly nonlinear regimes where analytical approaches become intractable. However, the finite size of training datasets often leads to variance shrinkage, indicating that part of the realization-level variability of the underlying physical process is not captured by the learned generative dynamics. In this Letter, we interpret variance shrinkage as a diagnostic of missing effective degrees of freedom and introduce physics-informed latent modifications to the generative dynamics of a continuous normalizing flow. We show that these latent corrections recover a substantial fraction of the missing variability without requiring additional training simulations. Using weak-lensing field-level inference as a representative cosmological application, we further demonstrate through posterior analysis that the learned latent directions are actively exploited during inference and behave as effective nuisance parameters that absorb part of the mismatch between the training and target distributions. As a result, the model exhibits improved robustness to out-of-distribution shifts in field-level inference. Our work establishes variance shrinkage as a practical diagnostic for identifying missing degrees of freedom in simulation-trained generative models and provides a framework for recovering them through physics-informed modifications of generative dynamics.",
@@ -16,23 +16,31 @@
       "astro-ph.CO",
       "cs.LG"
     ],
-    "submitted_at": "2026-11-02T06:53:22Z",
-    "updated_at": "2026-11-02T06:53:22Z",
-    "document_types": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T13:23:43.546879Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.02627v1",
     "pdf_url": "https://arxiv.org/pdf/2611.02627v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222121",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.02627",
-        "fetched_at": "2026-11-04T03:04:23.216217Z",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
         "url": "https://arxiv.org/abs/2611.02627v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3222121",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222121"
       }
     ],
     "is_demo": false

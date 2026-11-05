@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "pta"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 74,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文将GHZ框架中消除IRG规范下度规扰动增长的理论证明转化为可计算算法，显式给出Hertz势的四个积分常数与残余规范向量构造，并在Schwarzschild与Kerr下实现数值方案、验证Bondi型衰减及Detweiler红移一致性，进而直接给出Bondi news、质量与角动量方面。理论深度与构造性贡献突出，对广义相对论基础、渐近平直时空与引力波波形提取有明确参考价值。",
+  "title_zh": "Bondi型规范下的度规重构",
+  "abstract_zh": "在入射辐射规范（IRG）下由Hertz势得到的度规扰动，一般在出射坐标 $r$ 上于未来零无穷处增长，因此按Bondi意义并非渐近平直。Hollands与Toomani证明，在Green--Hollands--Zimmerman（GHZ）框架内，可以通过与IRG兼容的“残余”规范变换，连同对Hertz势未定积分“常数”的精心选取，来消除这种增长。在本工作中，我们把这个证明转化为一个实用算法。我们表明，整个补全由一个单一的“Held主标量”（HMS）生成，它可以被视为未来零无穷上的一个函数。HMS由 $0$-Weyl标量的领头渐近部分经Teukolsky--Starobinsky反演得到。我们给出与 $0$-Weyl标量相关的Hertz势四个积分常数的显式公式，以及用HMS表示的残余规范矢量，从而把度规扰动带入Bondi型规范。在Schwarzschild情形下，整个构造在 $(\\ell, m)$ 模下是对角的，且每个补全场都可以闭式给出；在Kerr情形下，该构造是三对角的。我们已在 $(\\ell,m)$ 模和 $m$ 模下数值实现了完整方案，包括GHZ框架中的修正项。我们在Schwarzschild和Kerr中，针对穿刺方案下圆轨道上的点粒子，通过展示Bondi型衰减来数值演示我们的方案。我们还发现与Schwarzschild和Kerr中已知的Detweiler红移计算相一致。我们的方法直接给出Bondi news、质量方面和角动量方面，并给出了Kerr中的示例性结果。",
+  "keywords_en": [
+    "Bondi gauge",
+    "metric perturbation",
+    "Hertz potential",
+    "radiation gauge",
+    "GHZ framework",
+    "null infinity",
+    "Teukolsky-Starobinsky inversion",
+    "Bondi news",
+    "Schwarzschild",
+    "Kerr"
+  ],
+  "keywords_zh": [
+    "Bondi规范",
+    "度规扰动",
+    "Hertz势",
+    "辐射规范",
+    "GHZ框架",
+    "零无穷",
+    "Teukolsky-Starobinsky反演",
+    "Bondi news",
+    "Schwarzschild",
+    "Kerr"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-05T03:35:23.308926Z"
+}

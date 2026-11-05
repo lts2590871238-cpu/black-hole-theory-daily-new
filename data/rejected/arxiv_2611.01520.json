@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.01520",
+    "arxiv_id": "2611.01520",
+    "arxiv_version": null,
+    "inspire_id": "3222159",
+    "doi": null,
+    "title_en": "Near-Optimal Learning of Quantum Many-Body Systems from Gibbs and Thermal Metastable States via the Stationarity Test",
+    "abstract_en": "We study the problem of learning a finite-range quantum Hamiltonian on an $n$-qubit $D$-dimensional lattice from copies of its Gibbs states at a known inverse temperature $β$ or its thermal metastable states. Existing efficient algorithms at arbitrary temperature have sample guarantees with an $e^{\\poly(β)}$ dependence, leaving open whether the exponent can be made linear in $β$. We achieve this improvement: for $β\\ge1$, our algorithm learns all Hamiltonian coefficients to $\\ell_\\infty$-error $ε$ with probability at least $1-δ$ using $\\tO\\bigl(e^{O(β)}ε^{-2}\\log(n/δ)\\bigr)$ copies and total time $\\tO\\bigl(n e^{O(β)}ε^{-2}\\log(n/δ)\\bigr)$. The measurements act on individual copies and are supported on balls of radius $O\\bigl(β^2+β\\log(1/ε)\\bigr)$. Our sample complexity achieves the optimal exponential order in $β$, with optimal $ε^{-2}$ dependence up to logarithmic factors. Building on the stationarity-test framework \\citep{Bergamaschi2026Stationarity}, we prove a unified Fisher-information coercivity bound showing that errors in the candidate Hamiltonian produce a detectable signal with only an $e^{-O(β)}$ loss in sensitivity. The key is a smooth frequency filter whose bandwidth remains independent of temperature, together with sharper estimates relating this signal to the Hamiltonian coefficients. For thermal metastable states, the guarantee holds under local drift $ζ\\le e^{-Cβ^{2D+1}}$, for a geometry-dependent constant $C>0$, and above an accuracy floor $\\tO(e^{O(β)}ζ)$. The argument applies to both Gibbs and thermal metastable states and, combined with local measurements and projected stochastic gradient descent (SGD), yields both learning guarantees.",
+    "authors": [
+      "Yang, Tai Hsuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-04T12:33:45.133007Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222159",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222159",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222159"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

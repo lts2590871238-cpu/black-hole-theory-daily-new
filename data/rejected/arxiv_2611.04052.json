@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04052",
+    "arxiv_id": "2611.04052",
+    "arxiv_version": null,
+    "inspire_id": "3222656",
+    "doi": null,
+    "title_en": "On the (Quantum) Communication Complexity of Secure MPC from a Random Oracle",
+    "abstract_en": "Information-theoretic MPC among $n$ parties with $t$ corruptions can securely evaluate a circuit $C$ with $O(|C| \\cdot t/(n-t))$ online communication in the preprocessing model and $O(|C| \\cdot t/(n-2t))$ communication in the honest majority setting. Damgård, Larsen and Nielsen (CRYPTO 2019) showed that both communication bounds are tight for inner products. Fully homomorphic encryption and other assumptions known to imply public-key cryptography beat both communication bounds, but the communication complexity with symmetric-key cryptography alone is less understood. For MPC with preprocessing, we prove that the same $Ω(|C| \\cdot t/(n-t))$ lower bound holds in the random oracle model, so a random oracle cannot reduce the online communication. For honest majority MPC relative to a random oracle, we present an $Ω(|C|)$ communication lower bound that is matched by a new construction for degree-2 polynomials (including inner products) when $n = O(\\log λ)$, beating the information-theoretic bound. We also study quantum MPC. First, we prove that information-theoretic protocols with quantum communication (and preprocessing) cannot reduce communication compared to their classical counterparts. Furthermore, we extend our lower bound for MPC with preprocessing to protocols with a quantum-accessible random oracle, but use only classical communication. In contrast, with both quantum communication and a post-quantum one-way function, we present a simple two-party protocol that evaluates the two-party instance of these circuits with $\\mathrm{poly}(λ, \\log |C|)$ communication, beating these lower bounds. Finally, such communication savings do not come for free. We prove that there exist circuits $C$ such that every blackbox protocol with $o(|C|)$ quantum communication must perform $Ω(|C|)$ cryptographic operations.",
+    "authors": [
+      "Hoover, Alexander",
+      "Persiano, Giuseppe",
+      "Yeo, Kevin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-02T00:00:00Z",
+    "updated_at": "2026-11-04T13:42:54.585757Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222656",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222656",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222656"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

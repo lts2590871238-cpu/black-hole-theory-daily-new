@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04936",
+    "arxiv_id": "2611.04936",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Single-anchor Delta-learning with the cluster Gutzwiller approximation: predicting phase boundaries of strongly correlated bosons in optical lattices",
+    "abstract_en": "The cluster Gutzwiller method is widely used to study strongly correlated bosonic systems in optical lattices because it explicitly treats quantum fluctuations within a cluster. However, its computational cost grows exponentially with the cluster size, making large-cluster phase diagrams computationally expensive. To reduce this cost, we recently introduced Delta-learning into cluster Gutzwiller calculations and proposed multipoint regression Delta-learning (MPR-Delta), which learns the difference between small- and large-cluster results from four high-cost critical points of the target cluster and thereby predicts the complete target phase boundary. For sufficiently large target clusters, however, even computing one critical point on the phase boundary is already expensive, so obtaining four such points remains highly costly. A natural question then arises: can the complete target phase boundary be predicted with fewer high-cost critical points of the target cluster? To address this question, we propose single-anchor Delta-learning (SA-Delta), which requires only a single high-cost critical point of the target cluster to reconstruct the complete target phase boundary, thereby greatly reducing the computational cost. We test this framework on several classes of Bose-Hubbard models and find that, in the cases considered, it achieves lower reconstruction errors with fewer high-cost points than MPR-Delta. The combination of SA-Delta with the cluster Gutzwiller approximation thus provides an efficient framework for studying phase transitions of strongly correlated bosonic systems in complex optical lattices, and may be extended to more complex quantum many-body systems.",
+    "authors": [
+      "Shengbiao Yang",
+      "Sheng Yue",
+      "Zhi Lin"
+    ],
+    "categories": [
+      "cond-mat.quant-gas"
+    ],
+    "submitted_at": "2026-11-03T14:05:25Z",
+    "updated_at": "2026-11-03T14:05:25Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.04936v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.04936v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.04936",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://arxiv.org/abs/2611.04936v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

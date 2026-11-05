@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.03703",
+    "arxiv_id": "2611.03703",
+    "arxiv_version": null,
+    "inspire_id": "3222470",
+    "doi": null,
+    "title_en": "SecRed: A program for sector-wise IBP reduction of Feynman integrals",
+    "abstract_en": "SecRed is a C++ program for the reduction of multi-loop Feynman integrals with integration-by-parts (IBP) identities. It reduces an integral family sector by sector for memory control and parallelism, and adds algorithms designed for that setting: an adaptive seed box with a corner cut, an optional seed truncation, a subsector level filter, and symmetry relations expanded only from the master integrals of a sector. A global stage assembles the retained equations and performs the finite-field reconstruction of the coefficients using FiniteFlow or FireFly, repeating the elimination over a sequence of primes. On the elimination side, a coefficient-free plan records the elimination order once and is replayed at each prime, so that only the arithmetic is repeated, and a head score orders the equations to reduce fill-in during the elimination. The program is demonstrated on a two-loop five-point non-planar family and on a four-loop cut family, where assembling the global equation system as a whole would exceed the memory of a single node.",
+    "authors": [
+      "Niu, Ruichang",
+      "Zeng, Chao",
+      "Gong, Bin",
+      "Wang, Jianxiong"
+    ],
+    "categories": [],
+    "submitted_at": "2026-10-30T00:00:00Z",
+    "updated_at": "2026-11-04T07:01:46.020963Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222470",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222470",
+        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "url": "https://inspirehep.net/literature/3222470"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
