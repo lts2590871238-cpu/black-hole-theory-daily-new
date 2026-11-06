@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05792",
+    "arxiv_id": "2611.05792",
+    "arxiv_version": null,
+    "inspire_id": "3222976",
+    "doi": null,
+    "title_en": "Structural Lower Bounds for Quantum Property Estimation with Persistent Memory",
+    "abstract_en": "In quantum property estimation, an experimenter estimates $\\operatorname{Tr}(Oρ)$ for a family of observables from independent copies of an unknown state $ρ$ simultaneously to additive error $ε$. While quantum memory can dramatically reduce sample complexity, understanding the power of a modest register that remains coherent throughout an adaptive experiment has remained an open challenge because existing frameworks require optimizing over the infinite space of measurement trees. We overcome this barrier by developing a backward-induction framework based on operator resolvents. Rather than tracking path-dependent memory states across rounds, resolvent regularization cancels internal memory trajectories exactly, reducing the lower bound to an algebraic certificate computed directly from the target observables with sharp $Ω(1/ε^2)$ scaling. Our structural rule charges only the retained dimension $K$ under arbitrary adaptive instruments and unrestricted memory lifetime. Via symmetry reductions, it yields polynomial-size linear programs that establish the optimal linear $Ω(D/(Kε^2))$ trade-off for the $D^2-1$ Paulis, eliminating the cubic loss in prior bounds. For growing weight-$w$ Pauli strings ($w=\\lceil\\log_2 n\\rceil$) and quadratic Majorana cross-correlations, it proves lower bounds of $Ω(3^w/ε^2)$ and $Ω(n^2/(ε^2(1+\\ln n)^2))$ against an indefinitely persistent memory of dimension $K=\\lfloor\\sqrt n\\rfloor$. These bounds match memoryless or commuting estimators within polylogarithmic factors, demonstrating that rank constraints on the persistent register fundamentally throttle observable overlap and prevent a modest coherent memory from overcoming the sample complexity barrier.",
+    "authors": [
+      "Tao, Ye",
+      "Shen, Hong"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-04T00:00:00Z",
+    "updated_at": "2026-11-05T11:53:50.264944Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222976",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222976",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222976"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

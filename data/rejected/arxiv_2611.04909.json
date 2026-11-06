@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04909",
+    "arxiv_id": "2611.04909",
+    "arxiv_version": null,
+    "inspire_id": "3222822",
+    "doi": null,
+    "title_en": "Fast verification of fault tolerant magic state preparation circuits with the CNOT + T gate set",
+    "abstract_en": "Magic state preparation is often among the most expensive operations in a fault tolerant quantum computation. One obstacle to coming up with better magic state preparation circuits lies in verifying their fault tolerance properties, as it is difficult to verify either by hand or in software that a very large number of combinations of faults do not give rise to high-weight or logical errors, especially in a non-Clifford circuit. In this work, we propose the use of the CNOT + T gate set to fault-tolerantly prepare a large class of magic states. We consider the propagation of Pauli faults within CNOT + T circuits and derive properties similar to those of Pauli faults within Clifford circuits, with a view to verifying fault tolerance as efficiently as possible. We present Comb, a library that can verify the fault tolerance of CNOT + T magic state preparation circuits, and demonstrate its use in verifying the fault tolerance of distance three and distance five magic state preparation circuits in minutes on a laptop. We present a distance five magic state preparation circuit that was discovered using Comb. As an independent confirmation of Comb's correctness we compare its findings to circuit-level noisy simulations for several magic state preparation circuits.",
+    "authors": [
+      "Simsek, Selwyn",
+      "Macpherson, Callum",
+      "Self, Chris N.",
+      "Amaro, David"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T11:37:24.874339Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222822",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222822",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222822"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1145/3839338.3857272",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223430",
+    "doi": "10.1145/3839338.3857272",
+    "title_en": "What Happens Before the Hash? Layer-Aware Statistical Testing in a Live QKD Pipeline",
+    "abstract_en": "Quantum Key Distribution (QKD) systems may expose final key material to applications through standardised delivery interfaces such as ETSI GS QKD 014, but intermediate post-processing stages—sifting, error correction, privacy amplification (PA)—are not standardised measurement points. That output-side testing can mask upstream defects is established rather than novel: AIS 31 declines to credit online tests applied to post-processed output, Owens et al. reported NIST SP 800-22 failures on raw sifted bits from an entangled-photon QKD system in 2008, and Chen et al. recently showed a Toeplitz extractor rendering an induced attack on a QRNG statistically invisible. We did not, however, find prior QKD measurements of the layer immediately upstream of the hash, which lies downstream of error correction. We instrument that boundary on a live BBM92 laboratory testbed with a minimally-invasive tap capturing the post-error-correction pay-load fed to the SHA-256 PA step and the resulting 256-bit digest, paired per record. Over a 90-minute session (N = 10,425 pairs) an implementation-checked seven-test battery at matched sample size n = 2,668,800 bits with Bonferroni correction rejects the post-EC layer on six of seven tests, the seventh (runs) failing its frequency prerequisite, while post-PA yields zero corrected rejections—a marginal-bias gap of ≈3.4 orders of magnitude. The PA input therefore remains biased after error correction. Within the session the bias shows no detectable linear trend but is over-dispersed between ≈5-minute bins, which a permutation calibration confirms is temporal rather than an artefact of record structure. We also report two specification issues in SP 800-22's longest-run test, one of which changes a verdict on our data. We scope our claims: this work does not measure the sensitivity of output-side tests to deliberately injected upstream defects, and does not certify conditional secrecy.",
+    "authors": [
+      "Suratwala, Darshit",
+      "Romanowski, Matvey",
+      "Dunkelman, Orr",
+      "Amini, Elham",
+      "Seifert, Jean-Pierre"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T14:32:54.149593Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "225, {'$ref': 'https://inspirehep.net/api/conferences/3222433'}, 2026, 215, C26-11-02.1"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223430",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223430",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223430"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

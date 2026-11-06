@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.05251",
     "arxiv_id": "2611.05251",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3222868",
     "doi": null,
     "title_en": "A semi-autonomous multi-agent pipeline for high-energy astrophysics research with enforced provenance and verifiable self-extension",
     "abstract_en": "Large language model (LLM) agents are now applied to astronomical data analysis. They retrieve the literature, reduce observations, and draft conclusions. Under pressure to complete a task, such agents can fabricate results, and the numbers they report may not come from the analysis they ran. We present auto_research, a semi-autonomous multi-agent pipeline that retrieves and analyses raw data from the High Energy Astrophysics Science Archive Research Center (HEASARC) and writes the analysis tools that it needs. We check the work of the agents at two points. A new tool enters the toolkit after it passes automatic checks, including repeated test runs and a scan for phrases that accompany invented values, and a code review by a model from a different provider; a human decides whether to promote it to the trusted branch. A number in a report passes only if a recorded output of a toolkit tool or the request contains it, or if the report gives its location in a cited paper. We test the pipeline with data from the Imaging X-ray Polarimetry Explorer (IXPE). Of 65 defects that we planted in the toolkit, 47 pass the automatic checks, and one passes the code review as well; the review also rejects 40 of 69 correct changes. The pipeline reproduces the published IXPE results for Cyg X-1: all 14 compared quantities agree within 3 sigma, and the polarization degrees are lower than the published values. With weaker models in the main roles, the pipeline recovers 12 of the 14 quantities and reports the other two as not measured. We also used the pipeline for a polarization-stability analysis of six observations, a survey of polarization against hardness in 29 observations, and a search for a time lag between the Stokes parameters q and u.",
@@ -15,23 +15,31 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-11-03T17:38:00Z",
-    "updated_at": "2026-11-03T17:38:00Z",
-    "document_types": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T11:54:00.559762Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.05251v1",
     "pdf_url": "https://arxiv.org/pdf/2611.05251v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222868",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.05251",
-        "fetched_at": "2026-11-05T03:34:30.991224Z",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
         "url": "https://arxiv.org/abs/2611.05251v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3222868",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222868"
       }
     ],
     "is_demo": false

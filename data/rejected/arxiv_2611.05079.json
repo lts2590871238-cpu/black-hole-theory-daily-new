@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05079",
+    "arxiv_id": "2611.05079",
+    "arxiv_version": null,
+    "inspire_id": "3222833",
+    "doi": null,
+    "title_en": "Data informed Ansatz Selection for Variational Quantum Circuits",
+    "abstract_en": "Choosing a variational quantum circuit (VQC) usually means searching over ansatze and depths, and training each candidate. We give three rules that fix these choices from the data and the gate set alone, before any training. First, a circuit without entangling gates has a rank-one Fourier coefficient tensor on every subset of qubits. A singular value decomposition of a dataset's Fourier coefficients therefore indicates whether entanglement is needed, which qubits it connects, and a lower bound on the error of omitting it. Second, the rank of the quantum Fisher information matrix grows by $p_0$ per layer, after a first-layer deficit $d_0$, until it reaches a ceiling set by the dynamical Lie algebra. This law fixes the depth. Third, reading out all $2^N - 1$ Pauli-Z products from one batch of shots resolves half of the state's directions, the most any single-basis readout can. A single-qubit readout resolves an exponentially small fraction. For the Madelon dataset, the rules prescribe 7 blocks of 3 qubits at depth 3: a 239-parameter classifier with 78.5% test accuracy, found without a grid search. Ablations confirm three predicted effects: shallower circuits, smaller blocks and dropping reuploading all lower accuracy.",
+    "authors": [
+      "Seksaria, Manav",
+      "Desu, Advith",
+      "Prabhakar, Anil"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T13:48:49.782004Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222833",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222833",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222833"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

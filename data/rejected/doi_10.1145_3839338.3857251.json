@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1145/3839338.3857251",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223577",
+    "doi": "10.1145/3839338.3857251",
+    "title_en": "Enclave-Anchored Hybrid Quantum-Safe Key Exchange for Untrusted Platforms",
+    "abstract_en": "The transition to Post-Quantum Cryptography (PQC) is often reduced to a primitive-replacement problem, yet the security of PQC schemes remains dependent on the integrity of the underlying host. Quantum-secure protocol frameworks like Muckle offer robust hybrid security by combining classical, post-quantum and quantum key exchanges with guarantees for Post-Compromise Security (PCS) and Forward Secrecy (FS); these guarantees collapse, however, in the face of a compromised operating system capable of exfiltrating keys, manipulating nonces, or rolling back the protocol state.We propose MuckleTEE, a hardware-software co-design that hardens hybrid key exchange against a fully compromised host by confining only its security-critical state to a Trusted Execution Environment (TEE), while delegating heavy cryptographic operations and networking to the untrusted domain. The construction is generic over KEM-based hybrid key exchange; we instantiate it on a signature-free variant, which lets the enclave authenticate without generating post-quantum signatures, leaving only passive certificate verification inside the trusted boundary. Benchmarks on hardware Intel SGX show the TEE boundary adds 7.6% CPU-time overhead, and a formal analysis in the extended HAKE framework shows that MuckleTEE preserves session-key confidentiality, long-term identity-key secrecy, and post-compromise security against host compromise; recovery after enclave compromise requires a subsequent enclave-only fresh secret.",
+    "authors": [
+      "Yahyaoui, Wassim",
+      "Steinbach, Matteo",
+      "Naccache, Jordan",
+      "Großschädl, Johann",
+      "Roenne, Peter"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T15:02:51.292717Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "250, {'$ref': 'https://inspirehep.net/api/conferences/3222433'}, 2026, 237, C26-11-02.1"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223577",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223577",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223577"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

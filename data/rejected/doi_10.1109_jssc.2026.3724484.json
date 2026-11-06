@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1109/jssc.2026.3724484",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223409",
+    "doi": "10.1109/jssc.2026.3724484",
+    "title_en": "A Cryo-CMOS Electron- and Nuclear-Spin Controller for Color-Center Quantum Processors",
+    "abstract_en": "Pursuing a scalable quantum processor based on color centers in diamond, this work presents a novel multi-qubit cryo-CMOS system-on-chip (SoC) with a class-DE radio frequency digital-to-analog converter (RFDAC) and a class-D pulse-density modulation (PDM) driver that controls both electron and nuclear spin qubits of a nitrogen-vacancy (NV) center using a shared driving coil. The electron spin driver employs a polar-based architecture with programmable memory for amplitude control and a direct-digital-synthesis (DDS) phase modulation (PM) path for accurate phase and frequency control. The nuclear-spin driver adopts a digital loop filter with resonant feedback to shape quantization noise out of band, while ensuring improved supply rejection thanks to a feedback loop via an analog-to-digital converter (ADC). Fabricated in a 40-nm CMOS process and operating at 6 K, the chip can drive over 80 mA output current with a 52 dB signal-to-noise-ratio (SNR) over 50 MHz bandwidth (BW) at the electron-spin target frequency (2.5 GHz), and 36 mA with SNR > 52 dB over 20 kHz BW and a spurious free dynamic range (SFDR) <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$= {\\mathrm {47~\\text {dB}}}$ </tex-math></inline-formula> across the target nuclear-spin band (1.9 to 2.1 MHz), allowing for driving operations on multiple nuclear spins with high fidelity. Driving the qubits resulted in a Rabi frequency of 2.31 MHz (1.95 kHz) for the electron (nuclear) spins, while drawing 45 mW (17 mW) from the supply. The single-qubit operation on an electron (and a nuclear) spin, characterized using gate-set tomography (GST), achieves a fidelity of 99.3(1)% (99.5(1)%). These results advance the scalability of distributed quantum processors based on color centers in diamond.",
+    "authors": [
+      "Enthoven, Luc",
+      "Fakkel, Niels",
+      "Elbadry, Mohamed Abdelrahman B.",
+      "van Ommen, H.Benjamin",
+      "van Riggelen, Margriet",
+      "Yun, Jiwon",
+      "Taminiau, Tim H.",
+      "Babaie, Masoud",
+      "Sebastiano, Fabio"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T14:32:09.475705Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "61, 6075, 2026, {'$ref': 'https://inspirehep.net/api/journals/1214710'}, 6058, 11, IEEE J.Solid State Circuits"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223409",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223409",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223409"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

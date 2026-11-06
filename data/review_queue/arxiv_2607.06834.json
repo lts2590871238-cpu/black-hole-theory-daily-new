@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.06834",
+    "arxiv_id": "2607.06834",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/xb4c-rpwr",
+    "title_en": "A new framework for lightning-fast gravitational wave analysis of pulsar timing data",
+    "abstract_en": "Pulsar timing array data analysis is computationally expensive, limiting the complexity of models which can be studied. As pulsar timing datasets and their respective models grow in size and sophistication, faster and scalable inference methods are essential. In this paper, we accelerate pulsar timing analyses by sampling in the space of Fourier coefficients instead of analytically marginalizing over them. Previous studies have shown the Fourier space induces a complex, high-dimensional posterior geometry, from which it is generally difficult to sample. We show that under an appropriate coordinate transformation the Fourier coefficients approximately follow a standard normal distribution, and may be efficiently sampled using a Hamiltonian Monte Carlo scheme. Under this coordinate transformation, for datasets of size and complexity comparable to the NANOGrav 15-year release, the new method produces converged posterior distributions for a range of models which include inter-pulsar correlations, stochastic, and deterministic signals in approximately 15 minutes on an NVIDIA GeForce RTX 3090 GPU. By comparison, the legacy pulsar timing analysis software \\texttt{ENTERPRISE} would require months of computation on a CPU cluster to analyze comparable datasets under the same joint stochastic and deterministic models.",
+    "authors": [
+      "Aiden Gundersen",
+      "Rutger van Haasteren",
+      "Neil J. Cornish",
+      "Michele Vallisneri",
+      "Patrick M. Meyers"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-07-07T22:03:23Z",
+    "updated_at": "2026-10-30T19:34:04Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.06834v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.06834v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.06834",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://arxiv.org/abs/2607.06834v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 35
+  },
+  "queue_reason": "超过本次 MAX_LLM_PAPERS_PER_RUN，留待下次处理",
+  "schema_version": "1.0"
+}

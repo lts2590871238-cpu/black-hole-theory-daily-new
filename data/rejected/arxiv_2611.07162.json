@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.07162",
+    "arxiv_id": "2611.07162",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "A Machine Learning Approach to Coupling Photoionization & Multi-Frequency Radiation Hydrodynamics",
+    "abstract_en": "We use machine learning (ML) to couple photoionization microphysics to radiation hydrodynamic simulations of line-driven winds. ML models are trained on outputs from the photoionization code XSTAR to predict the line-driving force multiplier as a function of gas ionization, optical depth, and the blackbody temperature of the irradiating spectral energy distribution (SED). We implement the trained models within Athena++, enabling rapid runtime evaluation of the radiative acceleration without directly solving the photoionization problem during the hydrodynamic evolution. We find that random forest models provide the highest accuracy and reproduce the force multipliers over a three-dimensional parameter space more accurately, and with less training data, than traditional precomputed tables using trilinear interpolation. Because the framework treats the force multiplier as a function of the evolving local SED, it can be generalized to more complex radiation fields and arbitrary spectral shapes. More broadly, this work demonstrates how ML can serve as a computational framework for embedding expensive microphysical calculations within large-scale dynamical simulations.",
+    "authors": [
+      "Sergei Dyda",
+      "Randall C. Dannen"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.GA",
+      "astro-ph.IM",
+      "astro-ph.SR"
+    ],
+    "submitted_at": "2026-11-04T21:38:45Z",
+    "updated_at": "2026-11-04T21:38:45Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.07162v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.07162v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.07162",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://arxiv.org/abs/2611.07162v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.06809",
+    "arxiv_id": "2611.06809",
+    "arxiv_version": null,
+    "inspire_id": "3223103",
+    "doi": null,
+    "title_en": "Finite-temperature transition-window weights on a fault-tolerant quantum computer: duplex filtering on a thermal purification",
+    "abstract_en": "The excite-filter-readout framework of Kharazi et al. computes zero-temperature response windows on a fault-tolerant quantum computer from a pure ground state. We extend it to Gibbs states, where the two objects decouple: filters act on absolute energies, a thermal response on transition frequencies. The extension rests on a Liouville-space/TFD identity, explicit in the block-encoding/QSP setting: the thermally weighted transition-window weight is a spectral projection of H_0 (x) I - I (x) H_0^T onto the Schmidt (thermofield-double) purification, instance of Rall's framework. Around it we assemble a routed-SELECT block encoding (one Hamiltonian query per filter query), a conjugate-pair readout, and a four-route (duplex, bin, Fourier-LCU, METTS) compatibility analysis. The cost is multiplicative and conditional: a per-window query bound M_\"AE\" * (2*sqrt(d/Z_\"lb\")*d_\"vt\" + 4*d_W), with a tight signal-adaptive count, the optimal sqrt(alpha beta) degree, and a window-edge term. The preparation factor sqrt(d/Z) grows exponentially with system size at fixed temperature in positive-entropy-density systems (2.08 -> 25.7, N = 8 to 14 at beta = 2), relieved only as beta -> 0. Zero temperature is recovered for beta G >= ln(2(d-1)||D||^2/epsilon). Identities are cross-checked between independent formula paths to 10^(-16)-10^(-12) and the readout assembly is validated at matrix level under a block-encoding promise.",
+    "authors": [
+      "Tang, Yujin",
+      "Liu, Yunlong",
+      "Xu, Miao",
+      "Xie, Qing-Xing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-04T00:00:00Z",
+    "updated_at": "2026-11-05T11:37:43.627562Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223103",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223103",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223103"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

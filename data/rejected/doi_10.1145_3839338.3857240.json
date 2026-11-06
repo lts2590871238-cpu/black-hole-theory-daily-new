@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1145/3839338.3857240",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223397",
+    "doi": "10.1145/3839338.3857240",
+    "title_en": "Certified Confinement: Kernel-Checked Validation of Untrusted Quantum-Cloud Transpiler Output",
+    "abstract_en": "Cloud providers are adopting spatial multi-tenancy to improve quantum processing unit (QPU) utilization. However, this introduces cross-tenant vulnerabilities: otherwise hardware-legal circuits may place operations adjacent to co-tenant qubits, creating a leakage channel via physical coupling. Because tenants cannot safely trust cloud transpilers, we introduce an efficient client-side validator for buffered gate-support confinement. Given a device coupling graph, a forbidden region, and a buffer radius k, the validator rejects circuits containing non-identity gates within the forbidden zone or its k-hop neighborhood. We formally establish this structural guarantee via a Lean soundness theorem. In QASMBench experiments, we find that up to 71% of stock transpiler outputs violate this buffered policy despite being hardware-legal. Our validator catches these violations with zero false rejections when the allocation correctly reserves the buffer, yielding kernel-checked verdicts across 11 IBM device topologies. To empirically justify the buffer radius, we characterized two IBM Heron r2 QPUs. Under a 5σ distinguishing criterion, nearest-neighbor (one-hop) leakage is detectable in a median of just 186 shots, whereas two-hop leakage requires an estimated 1.3 X 105 to 1.9 X 107 shots, remaining undetectable under tested conditions. Together, our hardware measurements justify graph-buffered allocation against nearest-neighbor channels, while our formal certificate provides a rigorous guarantee of gate-support confinement.",
+    "authors": [
+      "Malik, Ali Hamza",
+      "Raza, Muhammad Taqi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T14:18:13.982371Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "121, {'$ref': 'https://inspirehep.net/api/conferences/3222433'}, 2026, 106, C26-11-02.1"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223397",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223397",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223397"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

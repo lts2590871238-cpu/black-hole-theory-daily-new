@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04872",
+    "arxiv_id": "2611.04872",
+    "arxiv_version": null,
+    "inspire_id": "3222804",
+    "doi": null,
+    "title_en": "Conditional Quantum Priors for Chaotic Fluid Dynamics",
+    "abstract_en": "Neural networks that predict chaotic dynamics can reproduce short trajectories while misrepresenting statistics over long times. Quantum priors represent selected dynamical statistics through quantum generative models and provide statistical constraints for classical neural networks. Training a separate prior for each value of a system parameter, such as the Reynolds number, does not explicitly model how these statistics vary with that parameter. We learn a conditional quantum prior that approximates selected statistics of an invariant measure at unseen parameter values within the training range, without retraining. For Lorenz-63, the prior reduces mean Jensen-Shannon divergence by 56.9% relative to a classical multilayer perceptron with a comparable number of weights across 96 unseen parameter values. Across 101 values of the same parameter, the shared prior uses 84.7% fewer trainable weights than would be required by a separate quantum neural network at each value. We then use the learned prior to regularize classical neural networks, encouraging their autoregressive rollouts to better reproduce long-term statistics. For Kolmogorov flow at Reynolds number $Re=1000$, prior regularization reduces forecast mean squared error by 66.0% over 318 steps relative to the classical baseline without prior regularization. We also implement a photonic quantum prior for noisy intermediate-scale quantum (NISQ) devices, achieving a mean Jensen-Shannon divergence of $4.58\\times10^{-3}$ for Lorenz-63 and $2.59\\times10^{-3}$ for Kolmogorov flow at unseen parameter values.",
+    "authors": [
+      "Zhou, Shao-Bo",
+      "Zhu, Yu-Ze",
+      "Song, Hang",
+      "Zhao, Xiang",
+      "Yang, Lin",
+      "Jin, Xian-Min"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T11:53:15.842706Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222804",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222804",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222804"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

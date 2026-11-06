@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/hfw9-6759",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223682",
+    "doi": "10.1103/hfw9-6759",
+    "title_en": "Toward high-performance tracking simulation of long-range resistive-wall driven transverse coupled-bunch instabilities",
+    "abstract_en": "The long-range transverse resistive-wall (RW) wakefield is a key driver of transverse coupled-bunch instabilities in high-current storage rings. Simulating these instabilities accurately is typically time-consuming, because conventional time-domain tracking codes such as Pelegant store the turn-by-turn bunch-centroid history and perform discrete convolutions with the wakefield, which poses a bottleneck for long-term tracking. To overcome this limitation, this work reformulates the long-range RW wakefield calculation, converting the explicit history-dependent convolution into a recursive update by representing the wakefield as a sum-of-exponential functions. This approach avoids storing the bunch-centroid history and is well suited to parallel graphics-processing-unit architectures; it has been implemented in the tracking code STABLE. Benchmark tests, using parameters of the Hefei Advanced Light Facility (HALF), show that STABLE with the proposed method maintains high accuracy in the growth rate while achieving a speedup of at least 2 orders of magnitude over Pelegant. Leveraging this computational efficiency, we conduct a systematic study of RW instabilities for HALF, with particular focus on the interplay among filling pattern, chromaticity, and harmonic-cavity bunch lengthening.",
+    "authors": [
+      "Huang, Xin",
+      "He, Tianlong",
+      "Xu, Hongliang",
+      "Li, Weiwei",
+      "Bai, Zhenghe",
+      "Feng, Guangyao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T15:26:04.223168Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "29, 114901, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1415879'}, 11, Phys.Rev.Accel.Beams"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223682",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223682",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223682"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04521",
+    "arxiv_id": "2611.04521",
+    "arxiv_version": null,
+    "inspire_id": "3222770",
+    "doi": null,
+    "title_en": "Estimating the generator of matrix exponential time-series",
+    "abstract_en": "The achievable precision in estimating the spectrum of a time-series signal that is promised to be sparse in Fourier space deteriorates rapidly as the spectral peaks get closer together, as soon as we introduce noise. Here, we study the related task of generator estimation: estimating the generator of a matrix exponential time-series and its eigenvalues. We obtain rigorous non-asymptotic precision guarantees on genESPRIT, a practical algorithm solving generator estimation, and show that this task can be solved with precision independent of the spectral spacing. The guarantees are complemented by a Cramér--Rao analysis of a relaxation of the problem. In particular, in the case of unitary data with bounded additive noise with effective entrywise variance $σ^2$, we show that genESPRIT estimates the associated propagator matrix in Frobenius norm with precision scaling as $\\tilde{\\mathcal{O}}(σNL^{-\\frac12})$ in the length of the time-series $L$ and matrix dimension $N$, matching the corresponding spectrum-independent Cramér--Rao standard deviation scaling up to logarithmic factors. We prove that the matching distance error in the spectrum estimated by genESPRIT scales as $\\tilde{\\mathcal{O}} (σ^2 N^3 L^{-1} + σN^{\\frac32} L^{-\\frac32} )$, which we compare to the lower bound on the corresponding Cramér--Rao bound with the asymptotic standard deviation scaling $\\mathcal{O}(σL^{-\\frac32})$. These guarantees provide the first rigorous bounds on solving the generator estimation problem. As the matrix exponential time-series can be obtained from linearly independent vector time-series by concatenation, this work opens up a new direction in spectral estimation, which circumvents the problem of crowded spectra, under the additional assumption of linear independence.",
+    "authors": [
+      "Fuksa, Jonáš",
+      "Eisert, Jens",
+      "Roth, Ingo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-06T03:26:24.887100Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222770",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222770",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222770"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

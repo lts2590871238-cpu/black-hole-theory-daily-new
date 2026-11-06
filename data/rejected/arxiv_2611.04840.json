@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.04840",
+    "arxiv_id": "2611.04840",
+    "arxiv_version": null,
+    "inspire_id": "3222800",
+    "doi": null,
+    "title_en": "Mitigating small gaps in quantum annealing through recursive $XX-$catalyst construction",
+    "abstract_en": "The introduction of $XX-$interactions, typically in the form of an additional catalyst Hamiltonian, has shown promise as a tool for gap enhancement in quantum annealing, allowing the algorithm to obtain optimal solutions with shorter run-times. However, the optimal placements of these couplings within the problem graph has been found to be highly setting-dependent. In this work, we propose an iterative catalyst-construction protocol for the removal of a common quantum annealing bottleneck known as perturbative crossings. The method utilises the measurements returned by successive annealing runs to effectively steer the algorithm away from the local optima in which it becomes trapped. First, we motivate a framework for $XX-$term selection based on perturbation theory and establish its effectiveness at removing perturbative crossings on scalable toy instances with up to $39$ spins, demonstrating a consistent performance both with increasing system size and number of local optima. We then simulate the recursive catalyst-construction method on a test set of $18-$spin maximum-weight independent set problems that are generated to produce annealing spectra with multiple perturbative crossings. We find that the protocol significantly outperforms both catalyst-free annealing and annealing with catalysts containing randomly selected $XX-$terms.",
+    "authors": [
+      "Feinstein, Natasha",
+      "Schulz, Sebastian",
+      "Banks, Robert J.",
+      "Ghosh, Roopayan",
+      "Michielsen, Kristel",
+      "Bose, Sougato",
+      "Warburton, P.A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T11:37:53.264096Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222800",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222800",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222800"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

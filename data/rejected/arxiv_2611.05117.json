@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05117",
+    "arxiv_id": "2611.05117",
+    "arxiv_version": null,
+    "inspire_id": "3222848",
+    "doi": null,
+    "title_en": "Quantum Query Lower Bounds from Classical Moment Matching",
+    "abstract_en": "We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing. For two random variables $X_0$ and $X_1$ whose moments match up to the first $r-1$ moments, the classical moment matching method says that no classical algorithm can reliably distinguish between input instances of length $N$ constructed from $X_0$ and $X_1$, respectively, unless it performs at least $Ω(N^{1-1/r})$ queries. While this method has been widely explored since its inception in the seminal work of Raskhodnikova, Ron, Shpilka, and Smith (STOC 2007) to prove lower bounds for symmetric properties, it has remained an open question whether a quantum analogue of it could be proved. We prove two variants of this quantum moment matching method, which are incomparable. Our first quantum query lower bound scales as $Ω(N^{1/2-1/(2r)})$, while our second moment matching theorem yields a sharper lower bound of $Ω(N^{1/2-1/(2(2^r-1))})$, albeit for smaller parameter ranges. Our results combine a new continuous hybrid argument with the polynomial method. The continuous hybrid argument compares two hard input distributions generated from i.i.d. samples by continuously varying both distributions, keeping them identically distributed at every intermediate stage. It reduces the comparison to the effect of changing the distribution of a single sample. The polynomial method then cancels the terms determined by the matched moments. We apply these moment matching theorems to prove new optimal lower bounds on $k$-distinctness, $k$-star-freeness, planarity and outerplanarity testing, as well as to improve prior lower bounds on image size testing and $K$-junta testing by logarithmic factors. A key advantage of our framework is its simplicity: it reduces quantum lower bound proofs to the construction of suitable moment-matching distributions.",
+    "authors": [
+      "Kayal, Chandrima",
+      "Magniez, Frédéric",
+      "Sen, Sayantan",
+      "Szabó, Dániel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T13:56:44.730301Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222848",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222848",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222848"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

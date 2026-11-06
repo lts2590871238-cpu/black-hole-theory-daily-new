@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.06651",
+    "arxiv_id": "2611.06651",
+    "arxiv_version": null,
+    "inspire_id": "3223121",
+    "doi": null,
+    "title_en": "Efficient quantum ultraspherical transform and a well-conditioned quantum spectral method",
+    "abstract_en": "Solving differential equations is a promising application of quantum computing. Spectral methods, where the solution is represented by coefficients in a basis, are particularly well suited to quantum solvers because their structured discretizations can enable efficient linear-algebra operations while providing rapid convergence. Their quantum implementation, however, requires an efficient transform between amplitudes encoding function values and amplitudes encoding expansion coefficients. This work develops two key components of a quantum spectral method. First, we construct the quantum ultraspherical transform (QUT) for orthonormal ultraspherical polynomials, a basis that supports sparse and well-conditioned discretizations of differential equations. For the basis parameters $m=0$ and $1$, this transform reduces to the discrete cosine and sine transforms with known efficient circuits. Our contribution covers every fixed integer $m\\geq2$: for dimensions $N$ with $N+m=2^n$, where $n$ is the number of qubits, the QUT achieves error at most $\\varepsilon$ using a gate count polynomial in $n$ and $\\log(1/\\varepsilon)$. The construction builds on the quantum Fourier transform, augmented by approximations whose accuracy guarantees are independent of $N$. Second, we develop a quantum spectral solver for regular linear ordinary differential equations based on the QUT. Under suitable boundary conditions and data-access assumptions, preconditioning keeps condition numbers bounded independently of the basis size, allowing the solution state to be prepared at polylogarithmic cost in system size and inverse error. Together, these contributions provide a framework for quantum spectral methods with the potential to solve linear differential equations efficiently.",
+    "authors": [
+      "Duong, Trong",
+      "Hosters, Norbert"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-04T00:00:00Z",
+    "updated_at": "2026-11-05T11:51:08.914485Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223121",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223121",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223121"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05722",
+    "arxiv_id": "2611.05722",
+    "arxiv_version": null,
+    "inspire_id": "3222959",
+    "doi": null,
+    "title_en": "Trinetra.Q: Statistical and Behavioral Detection of Attacks on the Quantum-Error-Correction Layer and Classical Control Stack of Quantum Computing Systems",
+    "abstract_en": "Most quantum-computer security work targets physical-layer attacks on qubits, while two surfaces remain inadequately defended: the quantum-error-correction (QEC) syndrome-and-decoder pipeline, and the classical control and software stack that runs it. Tampering on these surfaces can corrupt a computation while the physical error rate appears normal, and can stay within a single-circuit integrity tolerance. We present Trinetra.Q, a detection layer of cooperating detectors, each monitoring a statistical or behavioral property of quantum-domain data against an envelope calibrated from honest operation, and raising an indication only on a statistically significant deviation. The detectors cover (A) QEC integrity over per-stabilizer firing rates, syndrome defect-count, and repeated-syndrome rate; (B) decoder confidence over the margin between minimum-weight error explanations in distinct logical classes; (C) behavioral output divergence, flagging crosstalk-class and novel attacks by their effect on a victim's output relative to a matched control; (D) control-stack tampering via known-answer canary circuits, built to be indistinguishable to a resident implant, with a cross-job consistency statistic; and (E) compilation/execution integrity. Each gates on significance, so honest operation raises no alarm. We evaluate in faithful simulation and on three production IBM Heron processors, and bound the physical attack surface with a systematic negative map: most physical-layer attacks return statistically null, the exception an implemented, measured within-job feed-forward covert-channel primitive. Every detector is also evaluated against an adaptive attacker with full knowledge of it. To our knowledge this is the first unified statistical-and-behavioral detection layer for the QEC layer and classical control stack of a quantum computing system, demonstrated on production hardware.",
+    "authors": [
+      "Sipani, Garrv"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-06T03:27:08.452142Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222959",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222959",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222959"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

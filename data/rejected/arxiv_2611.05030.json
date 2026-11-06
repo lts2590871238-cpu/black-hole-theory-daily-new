@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05030",
+    "arxiv_id": "2611.05030",
+    "arxiv_version": null,
+    "inspire_id": "3222824",
+    "doi": "10.1109/tii.2026.3697311",
+    "title_en": "On Revolutionizing Power Systems: Suitability of Quantum Computing-Ready Pipelines for Stochastic Unit Commitment Optimization",
+    "abstract_en": "Modern unit commitment (UC) scenarios, particularly those involving uncertainties from demand fluctuations and renewable energy sources, pose significant challenges to traditional optimization methods due to the large search spaces they encompass. This paper proposes a quantum computing-ready optimization pipeline for deterministic and stochastic UC, integrating classical, quantum-inspired, quantum annealing, and hybrid quantum-classical solvers across test systems, including the IEEE 118-bus system. A novel Quadratic Unconstrained Binary Optimization (QUBO) reformulation accommodates generator scaling and 24-hour scheduling horizons with compact Boolean logic penalties for startup, cooldown, and spinning reserve constraints. A divide-and-conquer strategy and Quantum Computing Monte Carlo (QCMC) simulation address scalability across 27,730 uncertainty scenarios, reducing compilation time by up to two orders of magnitude. Experimental results demonstrate the pipeline's ability to achieve efficient, scalable, and accurate UC optimization under uncertainty: the hybrid quantum method approach matches the classical baseline, reduces stochastic UC runtime from 40.76 to 14.79 hours, and characterizes pure quantum annealing as limited to small systems with 0.22% to 2.18% encoding errors and constraint violations. These results provide an analysis of the scalability and computational practicality of hybrid quantum optimization for generator scheduling in UC.",
+    "authors": [
+      "Hong, Ying-Yi",
+      "Lopez, Dylan Josh Domingo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-05T13:49:35.620038Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "IEEE Trans. Ind. Informat., 2026, publication"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3222824",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3222824",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3222824"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

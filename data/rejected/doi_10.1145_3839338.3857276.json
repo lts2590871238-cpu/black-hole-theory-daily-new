@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1145/3839338.3857276",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223354",
+    "doi": "10.1145/3839338.3857276",
+    "title_en": "Stealing Variational Secrets from Quantum Clouds: Physical QAOA Parameter Recovery",
+    "abstract_en": "In shared quantum-cloud systems, variational programs encode costly classical optimization in rotation angles that can leak through adjacent hardware. We present the first physical recovery of a useful variational parameter region from a complete workload. The attack observes a disjoint idle two-qubit register during a 24-qubit quantum approximate optimization algorithm (QAOA) execution, without victim outputs or model queries. A fixed Marrakesh decoder distinguishes the regions under identical circuits, reaching 85/96 accuracy on held-out jobs and ROC AUC 0.997. Tests over separate time periods, matched controls, and a placement retest confirm the response at one of 17 layouts; conditional subsampling gives 0.756 expected accuracy from 2,000 observations.A public workload census finds source separation in 92 of 2,100 QAOA workloads, including five of 420 held-out workloads. For continuous secrets, a Jacobian factorization separates victim sensitivity, physical transfer, and scheduling, then converts channel gain into parameter and utility bounds. Under conditionally independent affine leakage, observable terms form a binary linear code. Its shortest element determines the first leakage order, while its dimension determines how many random bits perfect secrecy requires. Fresh masks defer leakage to the shortest cycle, while mask reuse creates a second-order temporal channel; the same code yields maximum safe slot concurrency.",
+    "authors": [
+      "Delgado, José Luis"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T14:16:26.463541Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "54, {'$ref': 'https://inspirehep.net/api/conferences/3222433'}, 2026, 38, C26-11-02.1"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223354",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223354",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223354"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

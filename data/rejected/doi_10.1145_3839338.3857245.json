@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1145/3839338.3857245",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3223292",
+    "doi": "10.1145/3839338.3857245",
+    "title_en": "QuantumScouter: Reinforcement Learning-Based Optimization of Variational Quantum Circuits for Differential Cryptanalysis",
+    "abstract_en": "Classical deep learning for differential cryptanalysis requires millions of ciphertext pairs, rendering attacks infeasible or easily detectable. This work overcomes this data limitation by introducing quantum differential distinguishers, enabling a practical attacker model where executing few queries is feasible. We design these distinguishers via quantum machine learning based on variational quantum circuits. To address circuit design challenges, we propose QuantumScouter, a reinforcement learning method that discovers compact quantum circuits. Unlike prior work, QuantumScouter explicitly targets metrics like gate count and circuit depth, producing circuits suitable for noisy intermediate-scale quantum hardware. We apply QuantumScouter to the SPECK32/64 and SIMON32/64 ciphers. The models are trained to distinguish ciphertext pairs possessing a meaningful differential from completely random pairs. For SPECK, our approach achieves 0.80 accuracy, outperforming the 0.53 of prior work while reducing required qubits from 16 to 6. For SIMON, we establish a novel quantum baseline with 0.75 accuracy. Notably, under a restricted regime of merely 400 training samples, classical deep learning models struggle. A simple MLP with 361 parameters fails to capture differential characteristics, resulting in an accuracy of 0.51, while a deep ResNet with 64,737 parameters overfits to yield an accuracy of 0.55. In stark contrast, our data-efficient quantum distinguisher extracts meaningful features using only 49 gates, maintaining 0.80 accuracy.",
+    "authors": [
+      "Ahn, Gilsang",
+      "Kim, Insung",
+      "Baek, Jiwoo",
+      "Lee, Donggun",
+      "Lee, Changmin",
+      "Hong, Seokhie",
+      "Lee, Dongjae"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-01T00:00:00Z",
+    "updated_at": "2026-11-05T13:45:58.811532Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "22, {'$ref': 'https://inspirehep.net/api/conferences/3222433'}, 2026, 10, C26-11-02.1"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223292",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223292",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223292"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

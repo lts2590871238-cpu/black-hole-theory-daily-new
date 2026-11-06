@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05867",
+    "arxiv_id": "2611.05867",
+    "arxiv_version": null,
+    "inspire_id": "3223006",
+    "doi": null,
+    "title_en": "Efficiently tracking errors and outcomes in universal quantum circuits",
+    "abstract_en": "We present a method for efficient simulation of error propagation and decoding in universal fault-tolerant quantum circuits under stochastic Pauli noise, requiring only that the circuit has a high fault distance and that all logical non-Clifford operations are implemented by physical T, CS and CCZ gates. This is achieved using modified Pauli frame-based error tracking in which the frame contains no logical information. Decoding success is identified by verifying that the Pauli frame is still logically trivial after decoding. Using the results of Ref. [1] and the observation that the distribution of non-logical measurement outcomes in the circuit is independent of the logical state, we show that we can accurately sample all detector outcomes. Our approach can also simulate circuits containing adaptive operations conditioned on logical measurements, provided these measurements have a known outcome distribution. This applies to the majority of adaptive operations such as state teleportation and preparation by measurement. Our method only detects decoding failures and so is consistent with complexity-theoretic expectations as it cannot be used to sample from the noiseless outcome distribution of the logical circuit.",
+    "authors": [
+      "Scruby, Thomas R.",
+      "de la Fuente, Julio C. Magdalena"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-04T00:00:00Z",
+    "updated_at": "2026-11-05T11:37:20.557184Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223006",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223006",
+        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "url": "https://inspirehep.net/literature/3223006"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
