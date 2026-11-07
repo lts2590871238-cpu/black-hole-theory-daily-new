@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42979-026-05427-1",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3225335",
+    "doi": "10.1007/s42979-026-05427-1",
+    "title_en": "Metaheuristic-Optimized Quantum Convolutional Autoencoder for Image Noise Reduction",
+    "abstract_en": "Image denoising is essential for reliable image analysis, as residual noise degrades both visual quality and downstream machine learning tasks. Quantum Convolutional Autoencoders (QCAE), have been proposed to improve on classical convolutional autoencoders by replacing the latent space with an ansatz circuit inspired by the Quantum Approximate Optimization algorithm (QAOA). Existing studies still set the ansatz depth and the training hyperparameters by hand, so performance rests on trial and error. Building on the QCAE architecture of Kit et al., this study optimizes its hyperparameters with Particle Swarm Optimization (PSO), validated against four alternatives: grey wolf optimizer, the bat algorithm, plain Harris Hawks Optimization (HHO), and an enhanced Harris Hawks variant. The QAOA-inspired ansatz is reimplemented as a differentiable state vector layer, and all five optimizers search an identical four-dimensional hyperparameter space on a reduced binary MNIST denoising benchmark under Gaussian noise. In the primary run, the PSO-searched QCAE achieved the highest mean test SSIM among all configurations, about 72% above the classical CAE baseline. Over five retraining seeds, its selected configuration had the highest mean SSIM and led in at least four of the five seeds. Across four independent repetitions of the whole search, PSO, the grey wolf optimizer and the enhanced Harris hawks variant reached nearly equal mean SSIM, while plain Harris hawks and the bat algorithm were weaker and less stable. An exploratory search with a wider learning-rate range raised the test SSIM of every optimizer by a factor of 1.7 to 3.6. Metaheuristic search therefore benefits QCAE, but the choice of search bounds matters at least as much as the choice of optimizer.",
+    "authors": [
+      "Chau, Van Van",
+      "Nguyen, Hao Anh",
+      "Nguyen, Tuan Minh",
+      "Thorn, Chinda",
+      "Meesad, Phayung"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-06T12:26:45.795255Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "7, 832, 2026, {'$ref': 'https://inspirehep.net/api/journals/2753360'}, 832, 8, SN Comput.Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225335",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225335",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3225335"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

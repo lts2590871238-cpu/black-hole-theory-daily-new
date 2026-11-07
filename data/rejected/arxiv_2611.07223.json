@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.07223",
     "arxiv_id": "2611.07223",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3224008",
     "doi": null,
     "title_en": "A Transformer model for precessing binary black-hole merger waveforms calibrated to numerical relativity",
     "abstract_en": "We present a Transformer model for merger-centered gravitational waveforms from precessing binary black holes. Given the mass ratio and two three-dimensional spin vectors, the network predicts quintic B-spline coefficients for all 21 signed spin-weighted spherical-harmonic strain modes through $\\ell=4$ on $[-1100,80]M$ ($M$ being the total binary mass), enforcing binary-exchange and equatorial-reflection equivariance and yielding $C^4$ waveforms in time with exact automatic differentiation. The model is pretrained on numerical-relativity (NR) waveforms from the SXS and RIT catalogues together with synthetic NRSur7dq4, SEOBNRv5PHM, and perturbative waveforms, and fine-tuned on SXS strain data. On 176 held-out SXS waveforms (165 physical systems), it achieves a mean balanced root-mean-square strain error of $0.023$ and a mean detector mismatch at $120\\,M_\\odot$ of $0.059\\%$.",
@@ -14,23 +14,31 @@
     "categories": [
       "gr-qc"
     ],
-    "submitted_at": "2026-11-04T23:24:31Z",
-    "updated_at": "2026-11-04T23:24:31Z",
-    "document_types": [],
+    "submitted_at": "2026-11-04T00:00:00Z",
+    "updated_at": "2026-11-06T11:29:26.949707Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.07223v1",
     "pdf_url": "https://arxiv.org/pdf/2611.07223v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3224008",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.07223",
-        "fetched_at": "2026-11-06T03:30:17.585231Z",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
         "url": "https://arxiv.org/abs/2611.07223v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3224008",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3224008"
       }
     ],
     "is_demo": false

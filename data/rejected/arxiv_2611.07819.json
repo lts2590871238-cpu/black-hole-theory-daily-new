@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.07819",
+    "arxiv_id": "2611.07819",
+    "arxiv_version": null,
+    "inspire_id": "3224076",
+    "doi": null,
+    "title_en": "Data-quality monitoring of luminosity blocks with ATLAS Open Data: an open benchmark and a learned within-run detector",
+    "abstract_en": "Data-quality monitoring at the LHC decides, luminosity block by luminosity block, which collision data enter physics analyses, yet its methods cannot be compared openly because the experiments' monitoring data are not public. We construct a public benchmark from the ATLAS Open Data release of the 2015--2016 proton--proton collisions at $\\sqrt{s}=13$~TeV: 1289-bin histograms of reconstructed jets, electrons, photons, muons and the missing transverse momentum computed from them, for 39 828 luminosity blocks of all 217 runs in the Good Run Lists; eight types of detector defects injected at event level at three strengths; real-data labels from the Good Run Lists and the liquid-argon calorimeter error flag; and a time-ordered protocol in which every detector is trained and calibrated on earlier runs only. Histogram shapes differ far more between runs than within a run (median $χ^2/n_\\mathrm{dof}$ of 5.9 against 1.1), so references and autoencoders built across runs fail, and all competitive detectors use residuals with respect to a robust reference of each run. A gradient-boosted classifier on position-invariant features of these residuals, trained on synthetic defects and calibrated by split-conformal prediction, detects 43% of the luminosity blocks with injected defects at a false-positive rate of 1.0%, against 25% for a matched-filter scan and 63% for a single-histogram test that knows the defect pattern. For defect types excluded from its training, its efficiency falls to 18%; adding pattern-agnostic synthetic detector failures to the training raises it to 34%, above the scan, at a cost of three percentage points on the known types.",
+    "authors": [
+      "Wang, Renjie"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-05T00:00:00Z",
+    "updated_at": "2026-11-06T05:15:55.280670Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3224076",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3224076",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3224076"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

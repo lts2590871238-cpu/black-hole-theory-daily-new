@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1140/epjc/s10052-026-16477-3",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3225350",
+    "doi": "10.1140/epjc/s10052-026-16477-3",
+    "title_en": "Neural-network-assisted binary template optimization for online pattern matching of the STCF main drift chamber",
+    "abstract_en": "The Super Tau-Charm Facility (STCF), with a designed center-of-mass energy range of $2$-$7~\\textrm{GeV}$, a peak luminosity exceeding $0.5\\times 10^{35}~\\textrm{cm}^{-2}\\textrm{s}^{-1}$, a total trigger rate of about 400 kHz, and a total data rate of about 30 GB/s, will impose stringent requirements for fast track finding and data reduction and compression algorithms in the High-Level Trigger. Local track segment finding in the Main Drift Chamber (MDC) underpins subsequent segment combination and full track reconstruction, yet high background rates and limited detection efficiency can significantly increase the risk of false triggers and signal loss in pattern matching algorithms. This paper presents a neural-network-assisted framework for constructing binary template libraries used in matrix-based pattern matching for MDC local track segment finding. The framework formulates template construction as a differentiable multi-objective optimization problem, employing a neural network to jointly learn template parameters under multiple constraints. After training, only binary template pairs are exported and deployed into the existing bitwise pattern matching routine, requiring no neural network inference at runtime and thus preserving the deterministic, fast, and parallelizable nature of the online algorithm. Experimental results based on simulation samples demonstrate that, under limited detection efficiency, the resulting template library maintains relatively high signal retention across different transverse momentum ranges and background levels, and can be flexibly tailored to adjust the coverage range according to practical requirements. The proposed approach combines offline neural-network optimization with a deterministic, fast conventional online algorithm, enabling artificial-intelligence-enhanced online data processing in high-luminosity particle collider experiments.",
+    "authors": [
+      "Guo, Zhaoli",
+      "Li, Qingyu",
+      "Zhang, Baolin",
+      "Zhao, Jiarui",
+      "Zhu, Aonan",
+      "Peng, Liang",
+      "Li, Huilin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-06T12:41:32.776180Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "86, 1258, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613946'}, 1258, 11, Eur.Phys.J.C"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225350",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225350",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3225350"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

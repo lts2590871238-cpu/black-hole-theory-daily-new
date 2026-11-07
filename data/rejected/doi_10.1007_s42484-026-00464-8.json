@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42484-026-00464-8",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3225320",
+    "doi": "10.1007/s42484-026-00464-8",
+    "title_en": "Cost-sensitive quantum kernels for imbalanced attrition prediction",
+    "abstract_en": "Employee attrition is a costly operational risk marked by class imbalance and asymmetric misclassification costs. We study a cost-sensitive, gate-based Quantum-enhanced Support Vector Machine (Q-SVM) with class-dependent box constraints, implemented as a data re-uploading fidelity kernel and evaluated by exact statevector simulation with a depolarizing sensitivity check. We state three assumption-bound theoretical results: a convergence rate for cost-weighted kernel-target-alignment optimization under a weighted Polyak-Łojasiewicz condition; a reproducing-kernel-Hilbert-space margin bound that holds under an explicit disjoint-convex-hull separation hypothesis; and a high-probability Nyström error bound with a stratified minority-block scaling estimate in which all sampling factors are retained. On the IBM HR Analytics benchmark ($N{=}1{,}470$, attrition ${\\approx }16\\%$), evaluated by repeated ($5{\\times }3$) nested stratified cross-validation with all metrics computed from saved prediction vectors, the Q-SVM reaches a minority-class recall of 0.571, on a par with classical SVM kernels on the same features, while gradient-boosted trees lead on threshold-free metrics. A methodological finding of independent interest emerges from this comparison: threshold metrics on imbalanced data are strongly sensitive to the map from SVM margin to reported score, with recall at a fixed cut differing by more than 0.5 between two standard conventions applied to identical fitted models. We therefore report every threshold metric under both conventions. A factorial ablation attributes the recall regime to cost weighting rather than to the quantum kernel. We further identify the encoding bandwidth as the dominant hyperparameter of the pipeline: tuning it inside the inner loop raises AUC from 0.660 to 0.734 at four qubits and brings the Q-SVM to statistical parity with a tuned classical RBF at matched feature count, although a classical trigonometric map on the same encoding angles matches it in turn, so the gain is attributable to the encoding rather than to the quantum feature space. The principal empirical model is the fixed-kernel Q-SVM; the trainable variant, which the convergence theory describes, is evaluated separately, and a $2\\times 2$ factorial localizes the entire cost-sensitivity effect in the SVM decision layer rather than in the kernel. A direct estimate of the RKHS convex-hull distance shows that the separation hypothesis of the margin bound is not satisfied on this benchmark. We frame the study as a feasibility indicator, not a demonstration of quantum advantage, and add calibration, decision-utility, and responsible-use analyses.",
+    "authors": [
+      "Sáez-Ortuño, Laura",
+      "Forgas-Coll, Santiago",
+      "Huertas-García, Rubén",
+      "Ferrara, Massimiliano"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-06T12:26:25.802785Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "8, 120, 2026, {'$ref': 'https://inspirehep.net/api/journals/2024407'}, 120, 2, Quantum Machine Intelligence"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225320",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225320",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3225320"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

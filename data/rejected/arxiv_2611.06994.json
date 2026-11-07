@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.06994",
+    "arxiv_id": "2611.06994",
+    "arxiv_version": null,
+    "inspire_id": "3223942",
+    "doi": null,
+    "title_en": "FNO-Based Inverse Co-Design of Semiconducting Quantum-Dot Devices",
+    "abstract_en": "Gate-defined semiconductor quantum dots are promising building blocks for scalable spin-based quantum processors, however their operational properties depend on several fabrication and control parameters, such as lithographic gate layout and applied voltages. Existing device architectures have been refined through repeated fabrication and experimental testing, producing layouts that support reliable device operation. However, this process does not exhaustively explore the design space, limiting the ability to obtain qubits with targeted properties. We address these challenges by presenting a differentiable inverse co-design framework for electrostatically defined quantum dots that jointly optimises gate voltages and the gate electrode layout. A semiclassical Thomas--Fermi electrostatic simulator provides reference data for a Fourier neural operator (FNO) surrogate, which predicts the two-dimensional charge-density field. The desired spatial distribution of the confined charge defines the target quantum-dot geometry for inverse design. The FNO reproduces charge densities with a relative $L^2$ test error of just 0.6% and enables millisecond-scale differentiable evaluations. Relative to the CPU-based physics simulator, the FNO achieves a 17,000-fold speed-up on GPU for a single design, with further performance gains enabled by batched inference. When embedded in a gradient-based design loop with fabrication constraints, the FNO can produce both vertically and horizontally elongated double-dot confinement geometries from the same initial conditions. The ability to engineer these distinct confinement configurations demonstrates control over quantum-dot shape and position, providing a route towards designing devices with distinct qubit-relevant operating properties prior to fabrication.",
+    "authors": [
+      "Rychetsky, Marek",
+      "Duruisseaux, Valentin",
+      "Shah, Freya",
+      "Craig, David L.",
+      "Ni, Ming",
+      "Katsaros, Georgios",
+      "Patti, Taylor L.",
+      "Anandkumar, Anima",
+      "Ares, Natalia"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-04T00:00:00Z",
+    "updated_at": "2026-11-06T11:29:26.594182Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3223942",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3223942",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3223942"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

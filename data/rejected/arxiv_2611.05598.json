@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.05598",
+    "arxiv_id": "2611.05598",
+    "arxiv_version": null,
+    "inspire_id": "3225290",
+    "doi": null,
+    "title_en": "Fast Quantum Byzantine Agreement with Nearly Linear Quantum Communication",
+    "abstract_en": "We consider synchronous binary Byzantine agreement among $n$ processes connected by authenticated point-to-point classical and quantum channels. The adversary is computationally unbounded, sees all classical information, adaptively corrupts up to $t\\le(1/3-\\varepsilon)n$ processes, and may suppress messages sent by a process in the round in which it is corrupted. We give a quantum algorithm that solves Byzantine agreement in this model with probability $1$. It uses $O(\\log^4 n)$ rounds, $O(n\\log^8 n)$ qubits, and $O(n^2\\log^8 n)$ classical bits in expectation, with constants depending on $\\varepsilon$. This reduces the quantum communication of the protocol of Ben-Or and Hassidim (STOC~2005), which achieves $O(1)$ expected rounds but whose Byzantine coin implementation requires $Ω(n^4\\log n)$ qubits and classical bits. We also extend the quadratic message lower bound of Abraham et al. (PODC~2019) to quantum channels, obtaining an $Ω(t^2)$ lower bound on worst-case expected total communication. For $t=Θ(n)$, the communication and round complexity of our algorithm are therefore optimal up to polylogarithmic factors.",
+    "authors": [
+      "Olkowski, Jan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-03T00:00:00Z",
+    "updated_at": "2026-11-06T12:06:05.492272Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225290",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225290",
+        "fetched_at": "2026-11-07T02:56:59.904143Z",
+        "url": "https://inspirehep.net/literature/3225290"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
