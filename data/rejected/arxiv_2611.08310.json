@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08310",
+    "arxiv_id": "2611.08310",
+    "arxiv_version": null,
+    "inspire_id": "3225511",
+    "doi": null,
+    "title_en": "Recovery gates as a resource in repetition-code process tomography: exhaustive gate-optimal designs for three, five and seven qubits",
+    "abstract_en": "Process tomography built on stabilizer codes compares the logical channel of a repetition code with a reference channel, and the decoder that produces that channel is almost always fixed to the standard minimum-weight one. We ask how many physical single-qubit Pauli gates the decoder actually needs when the measurement basis is fixed---the constraint under which the count is a resource rather than a bookkeeping artefact. Exhaustive enumeration of every recovery design for $n=3$, $5$ and $7$ qubits, with rank decided by exact modular arithmetic at two primes, gives minimal counts of $0$, $1$ and $5$ gates, against $6$, $10$ and $14$ for first-order decoding and $6$, $50$ and $308$ for full minimum-weight decoding. The count depends only on how many sites are corrected and never on which, so the two halves of the design problem separate. Correcting more sites is not monotonically better: at $n=7$ full decoding loses three dimensions of rank, and under a calibration-residual floor the precision curve at $n=3$ is U-shaped. The three-gate design is $9.5$ times more precise than the standard six-gate decoder at the median of $40$ sampled working points, and more precise at every one of them ($1.8$ to $88$ times); the size of that factor belongs to the working point, the ordering does not. Reaching a $10$ mrad rms error then costs $1.2\\times10^{7}$ shots in $65$ s on a current superconducting device at a well-conditioned point, while $n\\ge5$ stays out of reach for conditioning reasons rather than gate-count reasons. Finally, the optimal designs are not covariant under chain reversal: they separate the mirror pair of arXiv:2610.19779 by $1.3\\times10^{-3}$ while leaving the Jacobian at full rank.",
+    "authors": [
+      "Huang, Long"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-05T00:00:00Z",
+    "updated_at": "2026-11-07T04:20:46.398432Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225511",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225511",
+        "fetched_at": "2026-11-08T02:34:41.669515Z",
+        "url": "https://inspirehep.net/literature/3225511"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

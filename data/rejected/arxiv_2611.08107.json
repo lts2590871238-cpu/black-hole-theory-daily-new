@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08107",
+    "arxiv_id": "2611.08107",
+    "arxiv_version": null,
+    "inspire_id": "3225451",
+    "doi": null,
+    "title_en": "Semi-Analytical Geometric Synthesis of Robust Quantum Controls",
+    "abstract_en": "High-fidelity quantum gates are a central requirement for fault-tolerant quantum computation, yet their implementation is limited by the sensitivity of qubits to environmental noise and by control non-idealities. To mitigate these effects, quantum gates can be designed as dynamically corrected gates (DCGs), where control sequences are engineered to suppress the impact of errors on the resulting operation. Many methods in the literature are able to synthesize DCGs, but they typically rely on numerical optimization, with synthesis times on the order of minutes per gate. Here, we propose an automated semi-analytical method that reduces this cost by orders of magnitude, synthesizing smooth, robust control pulses in tens of milliseconds rather than minutes, with comparable fidelity and robustness. Our approach is based on the Space Curve Quantum Control (SCQC) formalism, where quantum evolution is mapped onto a geometric space curve whose geometric properties determine the target gate and its robustness. We parameterize the curve in the Frenet-Serret frame and employ the Pontryagin Maximum Principle (PMP) to design controls that are robust against both amplitude and dephasing errors. The PMP is formulated as a boundary-value problem and solved using a shooting method. The Frenet-Serret frame is integrated using Rodrigues' formula. Starting from a reference solution, we gradually vary the target rotation angle to construct a library of solutions, whose interpolation provides initial guesses for the shooting parameters of new target gates. We evaluated the method on 2,000 single-qubit rotations, obtaining a mean local optimization time of 39.945 ms per gate after preparation of the interpolation base. Quantum propagation yielded nominal gate infidelities below 10^-9 after virtual phase correction, with verified robustness against quasistatic amplitude and dephasing errors.",
+    "authors": [
+      "Lussi, Eduardo Willwock",
+      "de Santiago, Rafael",
+      "Duzzioni, Eduardo Inacio",
+      "Silveira, Hector Bessa"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-05T00:00:00Z",
+    "updated_at": "2026-11-07T03:43:12.285499Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225451",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225451",
+        "fetched_at": "2026-11-08T02:34:41.669515Z",
+        "url": "https://inspirehep.net/literature/3225451"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
