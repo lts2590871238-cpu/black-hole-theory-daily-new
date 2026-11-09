@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 18,
+    "methodological_rigor": 16,
+    "novelty": 11,
+    "clarity": 8,
+    "metadata_quality": 6,
+    "community_signal": 1,
+    "other": 3
+  },
+  "total_score": 63,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文直接研究LISA随机引力波背景推断中银河系致密双星残余前景的影响，量化了频谱简并及其对Ω_0不确定度的贡献，方法明确（LDC2A注入、Erebor匹配、局部Fisher信息矩阵），与PTA/随机引力波背景主题高度相关，值得点开细读。",
+  "title_zh": "LISA随机引力波背景推断中的残余银河系双星前景：源功率集中与频谱简并",
+  "abstract_zh": "银河系致密双星预计会构成激光干涉空间天线（LISA）毫赫兹频段的主要前景，而残余前景功率可能使随机引力波背景（SGWB）推断产生偏差或增大其不确定度。利用LISA数据挑战2A（LDC2A）注入以及Erebor注入-恢复匹配，我们在0.4至6.0 mHz范围内构建了一个目录残余谱。我们区分了两种效应。第一种是独立随机相位的源信号之和偏离高斯性，以其超额峰度量化；第二种是残余与SGWB在均值分箱功率中的频谱简并。源的离散性决定了该和的超额峰度，但仪器噪声和基准SGWB功率在大多数分箱中强烈降低了其幅度。我们用针对SGWB幅度$Ω_0$和残余功率因子$β$的局部Fisher信息矩阵来量化这种简并。对于频率无关的SGWB、$Ω_0=10^{-11}$且残余功率在每个分箱内傅里叶频率上均匀分布的情形，对$β$边缘化会使$Ω_0$不确定度在使用高斯傅里叶幅度协方差时增加$13.6\\%$，在使用有限源对角随机相位协方差时增加$13.8\\%$。在高斯傅里叶幅度协方差下，将这一增加限制在$10\\%$以内的$β$先验标准差最大允许值为$0.0073$。当该协方差在每个基准幅度处重新计算时，在$10^{-13}\\leqΩ_0\\leq10^{-10}$范围内不确定度增加介于$12.7\\%$至$20.7\\%$之间。残余-SGWB频谱简并在残余功率于傅里叶频率上的替代分布和对角协方差下依然存在，而忽略残余会导致拟合的SGWB幅度出现系统性偏差。",
+  "keywords_en": [
+    "LISA",
+    "stochastic gravitational-wave background",
+    "galactic binaries",
+    "foreground residual",
+    "spectral degeneracy",
+    "Fisher information matrix",
+    "LDC2A"
+  ],
+  "keywords_zh": [
+    "LISA",
+    "随机引力波背景",
+    "银河系双星",
+    "前景残余",
+    "频谱简并",
+    "Fisher信息矩阵",
+    "LDC2A"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-09T02:47:05.604213Z"
+}

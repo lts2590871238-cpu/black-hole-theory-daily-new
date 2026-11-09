@@ -4,11 +4,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2607.25349",
     "arxiv_id": "2607.25349",
-    "arxiv_version": 1,
-    "inspire_id": "3183987",
-    "doi": null,
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/4779-jw6l",
     "title_en": "Residual Galactic binary foreground in LISA stochastic gravitational-wave background inference: source power concentration and spectral degeneracy",
-    "abstract_en": "Galactic compact binaries are expected to form a dominant foreground in the millihertz band of the Laser Interferometer Space Antenna (LISA). Residual power from injected sources that do not meet the adopted recovery criteria can bias stochastic gravitational-wave background (SGWB) inference or increase its uncertainty. We use LISA Data Challenge 2A Sangria injections and the Erebor comparison table to construct a catalog residual spectrum between 0.4 and 6.0 mHz with orbit-averaged long-wavelength Michelson \\(X\\) source powers. The source power concentration in each frequency bin determines the excess kurtosis of a random-phase source sum; instrumental noise and fiducial SGWB power strongly reduce the resulting excess kurtosis in most bins. The residual spectrum also overlaps an isotropic power-law SGWB in the mean binned power. We use a fixed covariance obtained by summing independent Fourier-mode power variances. For a frequency-independent SGWB with fiducial amplitude \\(Ω_0=10^{-11}\\), marginalizing over the dimensionless residual-power factor \\(β\\) increases the \\(Ω_0\\) uncertainty by \\(13.6\\%\\) when the residual power is distributed uniformly over the Fourier frequencies in each bin. The largest Gaussian prior standard deviation on \\(β\\) that limits this increase to \\(10\\%\\) is \\(0.0073\\). More concentrated distributions of the residual power among Fourier frequencies reduce the increase, reflecting unresolved frequency structure. Omitting the fiducial residual with the covariance held fixed shifts the best-fitting \\(Ω_0\\) by \\(119.5\\) times the uncertainty obtained with \\(β\\) fixed. This projection of the residual spectrum onto the SGWB spectrum is not a posterior detection significance. The numerical values are conditional on the catalog-level scalar power model, fixed instrumental noise, and independent mode-power covariance.",
+    "abstract_en": "Galactic compact binaries are expected to form a dominant millihertz foreground for the Laser Interferometer Space Antenna (LISA), and residual foreground power can bias stochastic gravitational-wave background (SGWB) inference or increase its uncertainty. Using the LISA Data Challenge 2A (LDC2A) injections and the Erebor injection-recovery match, we construct a catalog residual spectrum from 0.4 to 6.0 mHz. We distinguish two effects. The first is the departure from Gaussianity of a sum of source signals with independent random phases, quantified by its excess kurtosis; the second is the spectral degeneracy between the residual and the SGWB in the mean binned power. Source discreteness determines the excess kurtosis of this sum, but instrumental noise and fiducial SGWB power strongly reduce its magnitude in most bins. We quantify this degeneracy with a local Fisher information matrix for the SGWB amplitude $Ω_0$ and the residual-power factor $β$. For a frequency-independent SGWB with $Ω_0=10^{-11}$ and residual power distributed uniformly over the Fourier frequencies within each bin, marginalizing over $β$ increases the $Ω_0$ uncertainty by $13.6\\%$ with the Gaussian Fourier-amplitude covariance and by $13.8\\%$ with the finite-source diagonal random-phase covariance. Under the Gaussian Fourier-amplitude covariance, the largest allowed prior standard deviation on $β$ that limits this increase to $10\\%$ is $0.0073$. With this covariance recomputed at each fiducial amplitude, the uncertainty increase ranges from $12.7\\%$ to $20.7\\%$ over $10^{-13}\\leqΩ_0\\leq10^{-10}$. The residual-SGWB spectral degeneracy persists under alternative distributions of residual power over Fourier frequencies and diagonal covariances, while omitting the residual induces a systematic bias in the fitted SGWB amplitude.",
     "authors": [
       "Ruo-Yu Guan",
       "Yan Wang"
@@ -17,31 +17,23 @@
       "astro-ph.HE",
       "gr-qc"
     ],
-    "submitted_at": "2026-07-28T00:00:00Z",
-    "updated_at": "2026-07-31T03:37:39.223785Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-07-28T06:54:11Z",
+    "updated_at": "2026-11-06T01:13:31Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2607.25349v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.25349v1",
-    "inspire_url": "https://inspirehep.net/literature/3183987",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.25349v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.25349v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2607.25349",
-        "fetched_at": "2026-08-04T00:57:40.351618Z",
-        "url": "https://arxiv.org/abs/2607.25349v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3183987",
-        "fetched_at": "2026-08-04T00:57:40.351618Z",
-        "url": "https://inspirehep.net/literature/3183987"
+        "fetched_at": "2026-11-09T02:46:11.344925Z",
+        "url": "https://arxiv.org/abs/2607.25349v2"
       }
     ],
     "is_demo": false
@@ -66,43 +58,45 @@
     "relevant": true,
     "primary_topic": "pta",
     "secondary_topics": [
-      "black_hole_thermodynamics"
+      "general_relativity_foundations"
     ],
     "scores": {
-      "theory_depth": 24,
-      "methodological_rigor": 18,
-      "novelty": 12,
-      "clarity": 9,
-      "metadata_quality": 7,
-      "community_signal": 0,
-      "other": 6
+      "theory_depth": 18,
+      "methodological_rigor": 16,
+      "novelty": 11,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 1,
+      "other": 3
     },
-    "total_score": 76,
+    "total_score": 63,
     "reject_reason_zh": "",
-    "selection_reason_zh": "论文研究LISA随机引力波背景分析中的银河双星前景残余问题，属于脉冲星计时阵（PTA）相关领域，方法严谨，结果明确。",
-    "title_zh": "LISA随机引力波背景推断中的残余银河双星前景：源功率集中与频谱简并",
-    "abstract_zh": "银河系致密双星预计将在激光干涉空间天线（LISA）的毫赫兹波段形成主导前景。来自未达到采用恢复标准的注入源的残余功率可能会使随机引力波背景（SGWB）推断产生偏差或增加其不确定性。我们使用LISA Data Challenge 2A Sangria注入和Erebor比较表来构建0.4至6.0 mHz之间的目录残余谱，采用轨道平均长波长迈克尔逊\\(X\\)源功率。每个频率区间中的源功率集中决定了随机相位源和的超额峰度；仪器噪声和基准SGWB功率强烈降低了大多数区间中的超额峰度。残余谱也在平均分档功率中与各向同性幂律SGWB重叠。我们使用通过求和独立傅里叶模式功率方差获得的固定协方差。对于基准振幅\\(Ω_0=10^{-11}\\)的频率无关SGWB，当残余功率在每个区间内的傅里叶频率上均匀分布时，对无量纲残余功率因子\\(β\\)进行边际化会使\\(Ω_0\\)不确定性增加\\(13.6\\%\\)。将这一增长限制在\\(10\\%\\)以内的最大高斯先验标准差为\\(0.0073\\)。残余功率在傅里叶频率间的更集中分布会减少增长，反映了未分辨的频率结构。省略基准残余并保持协方差固定，会使最佳拟合\\(Ω_0\\)偏移\\(119.5\\)倍于\\(β\\)固定时的不确定性。残余谱向SGWB谱的这种投影并非后验检测显著性。数值结果取决于目录级标量功率模型、固定仪器噪声和独立模式功率协方差。",
+    "selection_reason_zh": "论文直接研究LISA随机引力波背景推断中银河系致密双星残余前景的影响，量化了频谱简并及其对Ω_0不确定度的贡献，方法明确（LDC2A注入、Erebor匹配、局部Fisher信息矩阵），与PTA/随机引力波背景主题高度相关，值得点开细读。",
+    "title_zh": "LISA随机引力波背景推断中的残余银河系双星前景：源功率集中与频谱简并",
+    "abstract_zh": "银河系致密双星预计会构成激光干涉空间天线（LISA）毫赫兹频段的主要前景，而残余前景功率可能使随机引力波背景（SGWB）推断产生偏差或增大其不确定度。利用LISA数据挑战2A（LDC2A）注入以及Erebor注入-恢复匹配，我们在0.4至6.0 mHz范围内构建了一个目录残余谱。我们区分了两种效应。第一种是独立随机相位的源信号之和偏离高斯性，以其超额峰度量化；第二种是残余与SGWB在均值分箱功率中的频谱简并。源的离散性决定了该和的超额峰度，但仪器噪声和基准SGWB功率在大多数分箱中强烈降低了其幅度。我们用针对SGWB幅度$Ω_0$和残余功率因子$β$的局部Fisher信息矩阵来量化这种简并。对于频率无关的SGWB、$Ω_0=10^{-11}$且残余功率在每个分箱内傅里叶频率上均匀分布的情形，对$β$边缘化会使$Ω_0$不确定度在使用高斯傅里叶幅度协方差时增加$13.6\\%$，在使用有限源对角随机相位协方差时增加$13.8\\%$。在高斯傅里叶幅度协方差下，将这一增加限制在$10\\%$以内的$β$先验标准差最大允许值为$0.0073$。当该协方差在每个基准幅度处重新计算时，在$10^{-13}\\leqΩ_0\\leq10^{-10}$范围内不确定度增加介于$12.7\\%$至$20.7\\%$之间。残余-SGWB频谱简并在残余功率于傅里叶频率上的替代分布和对角协方差下依然存在，而忽略残余会导致拟合的SGWB幅度出现系统性偏差。",
     "keywords_en": [
-      "gravitational waves",
-      "stochastic background",
       "LISA",
+      "stochastic gravitational-wave background",
       "galactic binaries",
-      "foreground",
-      "residual"
+      "foreground residual",
+      "spectral degeneracy",
+      "Fisher information matrix",
+      "LDC2A"
     ],
     "keywords_zh": [
-      "引力波",
-      "随机背景",
       "LISA",
+      "随机引力波背景",
       "银河系双星",
-      "前景",
-      "残余"
+      "前景残余",
+      "频谱简并",
+      "Fisher信息矩阵",
+      "LDC2A"
     ],
     "translation_warning": "",
     "model": "deepseek:deepseek-v4-flash",
     "prompt_version": "curation-2026-07-13.2",
     "schema_version_used": "curation-schema-1.0",
-    "created_at": "2026-07-31T01:05:10.834422Z"
+    "created_at": "2026-11-09T02:47:05.604213Z"
   },
-  "published_at": "2026-08-04T00:59:01.062925Z"
+  "published_at": "2026-11-09T02:47:05.604681Z"
 }
