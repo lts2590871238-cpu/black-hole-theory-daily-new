@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08919",
+    "arxiv_id": "2611.08919",
+    "arxiv_version": null,
+    "inspire_id": "3225685",
+    "doi": null,
+    "title_en": "Optimal Separations Between Randomized and Quantum Query Complexity under Permutation Symmetry",
+    "abstract_en": "A function $f:\\cD\\subseteq A^N\\to\\{0,1\\}$ is \\emph{permutation-invariant} if every permutation of its input positions preserves both its domain and its value. We study how this symmetry limits quantum speedups. For $1/6\\leq\\varepsilon<1/2$, we prove that every such function over an arbitrary finite alphabet $A$ satisfies $R_\\varepsilon(f)=O(Q_\\varepsilon(f)^2)$, where $R_\\varepsilon$ and $Q_\\varepsilon$ denote randomized and quantum query complexities with error at most $\\varepsilon$. This improves the previous cubic bound (ITCS 2019). We further establish bounds for graph and hypergraph properties, for which vertex relabeling preserves both the promise and the answer. For the same range of $\\varepsilon$, we obtain $R_\\varepsilon(f)=O(Q_\\varepsilon(f)^4)$ for graph properties in the adjacency-matrix model and $R_\\varepsilon(f)=O_k(Q_\\varepsilon(f)^{2k})$ for $k$-uniform hypergraph properties with fixed $k\\geq2$, where the implicit constant depends only on $k$. These improve the previous bounds $R_{1/3}(f)=O(Q_{1/3}(f)^6)$ and $R_{1/3}(f)=O_k(Q_{1/3}(f)^{3k})$, respectively (SICOMP 2024) These bounds are tight for permutation-invariant functions and nearly tight for graph and hypergraph properties. Unstructured search gives a matching quadratic separation with $R_{1/3}(f)=Θ\\!\\left(Q_{1/3}(f)^2\\right)$. For every fixed $k\\geq 2$, we construct explicit families of invariant promise problems on $k$-uniform hypergraphs satisfying $R_{1/3}(f)\\geq Q_{1/3}(f)^{2k-o(1)}$.",
+    "authors": [
+      "Huang, Yunqi",
+      "Li, Lvzhou",
+      "Ye, Zekun",
+      "Zheng, Shenggen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-09T12:08:25.443140Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225685",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225685",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225685"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

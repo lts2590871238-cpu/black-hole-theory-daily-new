@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08694",
+    "arxiv_id": "2611.08694",
+    "arxiv_version": null,
+    "inspire_id": "3225641",
+    "doi": null,
+    "title_en": "GeoRead: Geometry-Aware Transformer for Continuous AC-LGAD Readout Reconstruction",
+    "abstract_en": "AC-coupled Low-Gain Avalanche Diodes (AC-LGADs) are promising silicon sensor technologies for high-precision four-dimensional tracking. Position reconstruction in AC-LGADs relies on correlations among waveforms induced on multiple readout pads, where analytically solving the signal propagation becomes difficult, motivating data-based machine learning reconstruction. Existing machine learning approaches generally assume a fixed readout pad layout and predict one hit from an isolated, temporally aligned waveform window. These assumptions limit their flexibility across sensor designs and applicability to continuous readout where signal arrival times are not known in advance and multiple hits might overlap in the same waveforms. We introduce GeoRead, a spatial-temporal Transformer enabling multi-event continuous position prediction and uncertainty estimation. We incorporate relative pad positions into attention and produces time-resolved hit position estimates with predictive uncertainties. Time-jitter and additive event-mixing augmentations are used to train the model on temporally misaligned and overlapping waveforms synthesized from single-event measurements. Using four-channel transient-current-technique (TCT) data of a 500\\mum-pitch AC-LGAD, GeoRead achieves median position errors of 5.8\\mum within the convex hull of the readout-pad centers and 8.2\\mum over the full scanned region at 190\\volt. The model maintains comparable accuracy under temporal shifts and demonstrates time-resolved reconstruction of superposed events, without predefined per-event window. These results provide a basis for extending waveform-based position reconstruction toward continuous readout and flexible sensor geometries.",
+    "authors": [
+      "Wang, Lixing",
+      "Diehl, Leena",
+      "Ellis, Spencer",
+      "Fernández García, Marcos",
+      "Giacomini, Gabriele",
+      "Gkougkousis, Vagelis",
+      "Kilminster, Ben",
+      "Luo, Jingyu",
+      "Macchiolo, Anna",
+      "Mahabeer, Yajna",
+      "Padniuk, Yevhenii",
+      "Senina, Daria",
+      "Sunnarborg, Samantha",
+      "Tang, Jessica",
+      "Tricoli, Alessandro",
+      "Wong, Don C.",
+      "Barone, Gaetano"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-05T00:00:00Z",
+    "updated_at": "2026-11-09T03:58:02.267992Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225641",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225641",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225641"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

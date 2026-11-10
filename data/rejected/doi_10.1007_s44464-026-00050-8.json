@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s44464-026-00050-8",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3225816",
+    "doi": "10.1007/s44464-026-00050-8",
+    "title_en": "Adaptive error management for fault-tolerant quantum computing across hardware-level suppression, system-level diagnosis, and real-time decoding",
+    "abstract_en": "Fault-tolerant quantum computing reached a milestone in December 2024 when Google's Willow processor demonstrated below-threshold error correction on a superconducting chip, a result since reproduced on neutral-atom and alternative superconducting platforms. Yet the classical decoders needed to sustain this performance face a scaling challenge: noise becomes increasingly structured and correlated as systems grow, while decoders must respond within microsecond coherence windows. This survey asks whether error suppression, noise diagnosis, and decoding are better treated as one adaptive control problem than as three separate research programs. Drawing on a scoping review of 146 records, it organizes the field into a three-layer taxonomy. Layer 1 (Hardware-Level Suppression) integrates protection into the physical substrate; bosonic cat qubits exponentially suppress bit-flip errors, projecting up to 90% overhead reduction versus surface codes. Layer 2 (Diagnosis) employs probabilistic models and computational intelligence to characterize error sources; neuro-fuzzy architectures and the Bias-Entropy decomposition separate hardware drift from logical faults, subject to an identifiability limit that we characterize. Layer 3 (Real-time Decoding) targets the integration of machine learning within strict latency constraints. Hardware acceleration now approaches superconducting cycle times, which shifts the case for learned decoders from speed toward accuracy under correlated noise; recent advances favor hybrid, physics-informed architectures: Neural Belief Propagation resolves degeneracy issues in quantum low-density parity-check codes by embedding topological constraints directly into the network's loss function. These results suggest a transition toward closed-loop AI architectures that treat error management as continuous control rather than static algorithm selection.",
+    "authors": [
+      "Donkol, Marwa R.",
+      "Kaabouch, Naima"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-09T13:02:14.241317Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "2, 46, 2026, {'$ref': 'https://inspirehep.net/api/journals/2903043'}, 46, 1, Discover Quant.Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225816",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225816",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225816"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

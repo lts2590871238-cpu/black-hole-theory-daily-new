@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [
+    "black_hole_thermodynamics"
+  ],
+  "scores": {
+    "theory_depth": 26,
+    "methodological_rigor": 15,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 74,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文以截断Kiselev几何解决暗区Kiselev参数下ADM质量发散问题，给出能量条件、视界与Smarr关系闭合条件，并证明三条选择规则与透镜-发射一致性关系，还给出M87*与Sgr A*的观测定界；理论构造与观测约束衔接紧密，值得进一步阅读。",
+  "title_zh": "黑洞周围的截断Kiselev环境：选择规则与一个透镜-发射一致性关系",
+  "abstract_zh": "Kiselev型各向异性流体是嵌入暗物质或暗能量中的黑洞的标准解析模型，但对于Kiselev参数的暗区范围（$w\\le 0$），其物质延伸至无穷远且ADM质量发散，因此度规的质量参数无法与远处观测者测得的质量相联系。我们用截断Kiselev（TK）几何消除这一障碍，其无量纲密度$\\sigma (r)=4\\pi r^{2}\\rho$具有指数为$\\alpha$的尖峰状幂律核心，以及一个截断指数$\\beta$，可复现NFW到Hernquist的晕衰减范围。我们表明$p_{r}=-\\rho$并非额外假设，而是单函数度规以及在流体抵达视界时正则非退化视界的条件。在$\\alpha >0$、$1<\\alpha +\\beta \\le 2$、$\\xi \\ge 1$、$\\sigma _{H}<1/2$条件下，四个能量条件均成立，ADM质量有限，视界位于$r=2M$，且Smarr关系闭合。我们证明三条选择规则：在$\\sigma$的一阶近似下，临界曲线仅测量光子球内部的Misner-Sharp质量，辐射效率仅测量ISCO处的局域密度，强偏折系数仅测量光子球处的$\\rho +p_{t}$。这些给出一个与质量无关的透镜-发射一致性关系以及一个主导能量界$\\mathfrak {a}\\le 15\\,\\mathfrak {b}$。带有零角动量环境的一阶慢转动延拓在O(J)阶保持阴影大小不变，并将该界放宽为$\\mathfrak {a}\\le 15\\,\\mathfrak {b}+0.238\\,J/M^{2}$。分别处理M87*与Sgr A*时，具有独立质量与距离的Sgr A*阴影将光子球外的质量分数限制为$F_{\\textrm{out}}<0.39$（95%），而M87*的界则受其质量系统误差限制。",
+  "keywords_en": [
+    "Kiselev fluid",
+    "truncated Kiselev geometry",
+    "black hole shadow",
+    "energy conditions",
+    "Smarr relation",
+    "weak deflection/lensing",
+    "Sgr A*",
+    "M87*"
+  ],
+  "keywords_zh": [
+    "Kiselev流体",
+    "截断Kiselev几何",
+    "黑洞阴影",
+    "能量条件",
+    "Smarr关系",
+    "强偏折/透镜",
+    "Sgr A*",
+    "M87*"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-10T04:44:11.334775Z"
+}

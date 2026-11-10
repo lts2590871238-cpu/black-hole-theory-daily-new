@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.19774",
     "arxiv_id": "2608.19774",
-    "arxiv_version": 1,
-    "inspire_id": "3193652",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "Kerr Quasinormal Modes without Variable Separation: A Two-Dimensional Hyperboloidal Teukolsky Solver with Physics-Informed Neural Networks",
-    "abstract_en": "We use physics-informed neural networks (PINNs) to solve the gravitational quasinormal-mode (QNM) eigenvalue problem for Kerr spacetime directly in the two-dimensional hyperboloidal formulation of the Teukolsky equation. This formulation does not require separation of variables and thus retains the coupled radial--angular structure. Such a scheme provides a prototype for calculating the QNMs of beyond-Kerr black holes for which the perturbation equations are non-separable. Sequences with increasing angular momentum are constructed, reaching close to the extremal limit. We focus on the fundamental modes $(\\ell,m,n)=(2,0,0)$, $(2,1,0)$, $(2,2,0)$, $(3,3,0)$ and $(4,4,0)$, together with the first overtone $(2,2,1)$. Independent benchmark evaluation shows that every reported real and imaginary frequency component remains below $0.5\\%$ error, with a median deviation of $0.1\\%$. This accuracy is maintained in the near-extremal regime, where the damping rate becomes small and the modes are longest-lived. The results establish a non-spectral numerical route to multidimensional black-hole perturbation eigenproblems which does not match the substantially higher precision of dedicated Kerr solvers but offers greater flexibility and requires less analytical pre-processing. Non-separable rotating backgrounds and coupled systems, such as gravitational--electromagnetic Kerr--Newman perturbations, are natural extensions of the same construction.",
+    "abstract_en": "We use physics-informed neural networks (PINNs) to solve the gravitational quasinormal-mode (QNM) eigenvalue problem for Kerr spacetime directly in the two-dimensional hyperboloidal formulation of the Teukolsky equation. This formulation does not require separation of variables and thus retains the coupled radial--angular structure. Such a scheme provides a prototype for calculating the QNMs of beyond-Kerr black holes for which the perturbation equations are non-separable. Sequences with increasing angular momentum are constructed, reaching close to the extremal limit. We focus on the fundamental modes $(\\ell,m,n)=(2,0,0)$, $(2,1,0)$, $(2,2,0)$, $(3,3,0)$ and $(4,4,0)$, together with the first two overtones $(2,2,1)$ and $(2,2,2)$. After training, the frequency at every spin is refined by solving the discretized equation for it, so that it depends much less on where the stochastic training happens to stop. Comparison with continued-fraction values shows that every reported real and imaginary frequency component of the production network remains below $0.23\\%$ error, with a median deviation of $2\\times10^{-4}\\%$. For the fundamental modes, both components agree within about $10^{-3}\\%$ up to $a/M=0.97$, and the real parts within $5\\times10^{-4}\\%$ at every spin. Sub-percent accuracy is maintained in the near-extremal regime, where the damping rate becomes small and the modes are longest-lived; there the damping errors grow, and the largest, $0.23\\%$, belongs to the $(2,2,1)$ overtone. The results establish a non-spectral numerical route to multidimensional black-hole perturbation eigenproblems which does not match the substantially higher precision of dedicated Kerr solvers but offers greater flexibility and requires less analytical pre-processing. The proposed approach is designed to be applicable to other backgrounds whose perturbation equations do not separate.",
     "authors": [
       "Antonio Ferrer-Sánchez",
       "Daniela D. Doneva",
@@ -22,31 +22,23 @@
       "hep-ph",
       "physics.comp-ph"
     ],
-    "submitted_at": "2026-08-20T00:00:00Z",
-    "updated_at": "2026-08-22T02:39:09.067543Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-08-20T08:17:47Z",
+    "updated_at": "2026-11-06T08:57:00Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.19774v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.19774v1",
-    "inspire_url": "https://inspirehep.net/literature/3193652",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.19774v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.19774v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.19774",
-        "fetched_at": "2026-08-25T23:44:23.764970Z",
-        "url": "https://arxiv.org/abs/2608.19774v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3193652",
-        "fetched_at": "2026-08-25T23:44:23.764970Z",
-        "url": "https://inspirehep.net/literature/3193652"
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://arxiv.org/abs/2608.19774v2"
       }
     ],
     "is_demo": false

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08632",
+    "arxiv_id": "2611.08632",
+    "arxiv_version": null,
+    "inspire_id": "3225622",
+    "doi": null,
+    "title_en": "How Many Shots Does a Quantum Reservoir Need? Measurement Cost and Its Scaling in Buffered Quantum Reservoir Computing",
+    "abstract_en": "Quantum reservoir computing (QRC) inherits from classical reservoir computing the property that only a linear readout is trained, but unlike a classical reservoir its state is never directly observable: every feature is an expectation value estimated from a finite number of measurement shots. The shot budget is therefore a first-class hyperparameter with no classical analogue. Its effect on QRC has recently begun to be studied; what remains unsettled is how a required budget should be defined, and whether competing definitions agree. This paper argues that they do not, and that the disagreement is systematic rather than incidental. This paper distinguishes a \\emph{precision budget}$N_\\varepsilon$, the shots needed to estimate the reservoir features to a fixed relative accuracy, from a \\emph{convergence budget}$N_\\star$, the shots needed for the trained readout to approach its own noise-free ceiling. Proposition~\\ref{prop:confound} shows that $N_\\star$ depends on the noise-free error floor by construction, so that a configuration with a worse floor appears cheaper, and that configurations should therefore be compared at a fixed measurement budget rather than by the budget each needs to reach its own ceiling.",
+    "authors": [
+      "Khurana, Raman"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-05T00:00:00Z",
+    "updated_at": "2026-11-09T12:01:30.050861Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225622",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225622",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225622"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

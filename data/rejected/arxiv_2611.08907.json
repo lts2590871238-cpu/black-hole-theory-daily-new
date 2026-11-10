@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08907",
+    "arxiv_id": "2611.08907",
+    "arxiv_version": null,
+    "inspire_id": "3225667",
+    "doi": null,
+    "title_en": "Shared Lookups and Lazy Residues: Fewer Toffoli Gates for Factoring RSA-2048",
+    "abstract_en": "Gidney's 2025 construction for factoring RSA-2048 with few logical qubits spends most of its Toffoli gates on discrete-log table lookups and residue uncomputation. We reduce both costs. Shared lookups return entries for several primes of a residue number system at once because they have the same address. Retained intermediate residues remove recomputation during cleanup and enable lazy arithmetic with a single final modular reduction. We prove output preservation and estimate resources with an open benchmark built on the reference simulator. Against the best reference setting within the same logical-qubit budget, using the published model for the reference and benchmark counts for our circuits, we obtain $15\\%$ fewer Toffolis at $1{,}461$ qubits ($5.08 \\times 10^{9}$ per factoring) and $46\\%$ fewer at $1{,}806$ qubits ($2.55 \\times 10^{9}$). A matched ablation finds $28.8\\%$ fewer Toffolis from three-prime sharing at fixed window and checkpoint settings. Architecture-specific timing determines how much becomes a runtime saving.",
+    "authors": [
+      "Sharma, Monit",
+      "Lau, Hoong Chuin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-09T12:08:22.730031Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225667",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225667",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225667"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

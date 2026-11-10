@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.13983",
+    "arxiv_id": "2605.13983",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Rapid and robust simulation-based inference for kilonovae",
+    "abstract_en": "With the next generation of both electromagnetic and gravitational wave observatories beginning to come online, rapid analysis methods for kilonova data are becoming increasingly important in astronomy. Traditional Bayesian parameter estimation using Markov chain Monte Carlo (MCMC) is time-consuming and relies on explicit likelihood approximations that can break down when modeling uncertainties are significant. We develop a simulation-based inference (SBI) framework for kilonova parameter estimation using density-estimation likelihood-free inference. The framework uses a Gaussian process emulator trained on $\\sim 1300$ POSSIS simulations. We demonstrate that SBI provides a rapid alternative to MCMC that is robust to likelihood misspecification. The standard Gaussian likelihood approximation fails to capture the non-Gaussian, correlated structure of emulator uncertainty; SBI learns this structure directly from forward simulations. Simulation studies show that the SBI method accurately recovers injected parameters, while the MCMC suffers from systematic bias caused by likelihood misspecification. This problem persists when analyzing AT2017gfo, where a subset of the MCMC posteriors pile up at prior boundaries and the SBI posteriors do not. The SBI framework infers a total ejecta mass of $\\sim 0.087 M_{\\odot}$ dominated by lanthanide-poor ejecta and excludes toroidal and peanut ejecta geometries at the 99th percentile for both components. The SBI framework generates $\\sim 2 \\times 10^{4}$ posterior samples in seconds.",
+    "authors": [
+      "Stephanie M. Brown",
+      "Mattia Bulla",
+      "Hiranya V. Peiris",
+      "Nikhil Sarin",
+      "Daniel Mortlock",
+      "Stephen Thorp",
+      "Gurjeet Jagwani",
+      "Stephan Rosswog",
+      "Samaya Nissanke"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.HE",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-05-13T18:01:32Z",
+    "updated_at": "2026-11-06T11:58:55Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.13983v3",
+    "pdf_url": "https://arxiv.org/pdf/2605.13983v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.13983",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://arxiv.org/abs/2605.13983v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

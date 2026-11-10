@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.08076",
+    "arxiv_id": "2611.08076",
+    "arxiv_version": null,
+    "inspire_id": "3225775",
+    "doi": null,
+    "title_en": "Quantum Advantage in Local Certification of Graph Properties",
+    "abstract_en": "Local certification allows network vertices to verify global properties using certificates from an untrusted prover and communication with their neighbors. Its complexity is the maximum certificate size at any vertex. Fraigniaud et al. (ITCS 2021) introduced the distributed quantum Merlin-Arthur (dQMA) model and proved an exponential quantum advantage for distributed equality, measured in input-string length. We resolve a question of Hasegawa, Kundu, and Nishimura (PODC 2024) by establishing unconditional exponential and polynomial quantum advantages for graph properties, which depend only on network topology, with complexity measured in the number $n$ of vertices. For every fixed integer $μ\\ge 1$, we construct a graph property admitting a one-round dQMA protocol with $O(μ\\log n)$-qubit certificates and messages, whereas every $μ$-round distributed Merlin-Arthur (dMA) protocol requires $Ω(n/(μ\\log^2 n))$-bit certificates. We also give a one-round dQMA protocol for graph symmetry, the existence of a nontrivial automorphism, with $\\widetilde{O}(n^{5/3})$-qubit certificates. This yields a polynomial advantage over one-round dMA protocols, for which an $Ω(n^2)$-bit certificate lower bound is known.",
+    "authors": [
+      "Jáuregui, Benjamín",
+      "Miyamoto, Masayuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-05T00:00:00Z",
+    "updated_at": "2026-11-09T12:12:42.549353Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225775",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225775",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225775"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

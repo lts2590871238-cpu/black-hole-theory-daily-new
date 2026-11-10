@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s11128-026-05397-6",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3225924",
+    "doi": "10.1007/s11128-026-05397-6",
+    "title_en": "An improved Quantum Neural Network with adaptive phase-amplitude processing for nonlinear system modeling",
+    "abstract_en": "This paper presents a Modified Quantum Neural Network (MQNN) framework designed as an enhanced version of the classical Quantum Neural Network (QNN) for modeling nonlinear dynamic systems. The objective of this work is not to compete with other neural network architectures, but rather to refine and improve the fundamental QNN structure. The MQNN introduces key modifications at both the input encoding and output processing stages. Unlike the conventional QNN, which applies a sigmoid transformation prior to phase modulation, the MQNN directly maps raw inputs into phase values. This direct phase encoding broadens the representational capacity of the hidden-layer quantum neurons and enables them to capture richer nonlinear phase interactions. Additionally, the traditional trigonometric interference-based output neuron is replaced with a trainable amplitude-bias output unit, where the output scaling coefficient $C_{o}$ and bias term $w_{o}$ are adaptively tuned during learning. This modification simplifies the output mapping and enhances the network's ability to normalize and dynamically scale its output. All parameters are updated through gradient-based learning to ensure stable convergence. The performance of the MQNN is evaluated on three benchmark nonlinear dynamic systems and compared solely with the classical QNN under identical conditions. Simulation results demonstrate that the MQNN achieves faster convergence, lower mean-square error, and improved generalization capability, confirming its effectiveness as a refined quantum-inspired modeling framework.",
+    "authors": [
+      "Kumar, Rajesh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-09T13:11:02.091149Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "25, 362, 2026, {'$ref': 'https://inspirehep.net/api/journals/1212437'}, 362, 11, Quant.Inf.Proc."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3225924",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3225924",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://inspirehep.net/literature/3225924"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

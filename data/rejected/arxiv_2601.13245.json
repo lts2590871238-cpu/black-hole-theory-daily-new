@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2601.13245",
+    "arxiv_id": "2601.13245",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "An efficient model of cosmology dependence in the covariance matrix of the matter power spectrum",
+    "abstract_en": "Covariance matrices are essential for any cosmological likelihood analysis. They can be estimated from large suites of cosmological simulations, but this is computationally intensive, so various approximations are often adopted to simplify the analysis, such as treating covariance as being parameter independent to avoid having to compute matrices for every variation in physical parameters. In this paper, we develop a new approach to model the parameter dependence of the covariance matrix of the matter power spectrum. We do this by Taylor expanding the `true covariance matrix' around a fiducial point in parameter space projected onto a theoretically known precision matrix. In the limit that the known model approaches the true matrix then the Taylor expansion truncates at the first term; for more realistic models, additional terms are required. We use the publicly available Quijote suite of simulations, giving us both a fiducial model and variations in the six parameters $\\{Ω_{\\rm m}, Ω_{\\rm b}, n_{\\rm s},σ_{8}, h,w_{0}\\}$. Using the linear power spectra from these simulations, we generate model covariance matrices with and without super-sample covariance. Using different approximations, we develop three versions of our interpolated covariance matrix and validate the formalism by recreating all of our input cosmologies using all three forms, both with and without super-sample covariance corrections, showing that the model provides good recreations of the original results, with the different approximations being optimal in different regimes. Our method enables rapid calculation of parameter dependent covariance matrices, and consequently precision matrices, for deployment in likelihood modelling codes.",
+    "authors": [
+      "Theodore Steele",
+      "Robert Smith"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-01-19T17:27:49Z",
+    "updated_at": "2026-11-06T18:42:56Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2601.13245v2",
+    "pdf_url": "https://arxiv.org/pdf/2601.13245v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2601.13245",
+        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "url": "https://arxiv.org/abs/2601.13245v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
