@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10283",
+    "arxiv_id": "2611.10283",
+    "arxiv_version": null,
+    "inspire_id": "3226744",
+    "doi": null,
+    "title_en": "Regev's Reduction Reaches Reconstruction",
+    "abstract_en": "Regev's reduction uses a quantum Fourier transform to carry out reductions between various problems related to lattices and codes. We apply it to the problem of sampling from Gibbs distributions of certain classical spin glass Hamiltonians, which can equivalently be thought of as cost functions for average-case instances of an optimization problem called $D$-regular max-$k$-LINSAT. This problem becomes hard at low temperature. Here, we use a quantum decoding algorithm called Belief Propagation with Quantum Messages (BPQM) to solve the decoding problem arising from Regev's reduction. Our main contribution is a proof that the minimum temperature reachable using Regev+BPQM is exactly equal to the reconstruction threshold temperature for noisy channels transmitting signals on a tree network. This equality can be understood via Renes' duality between classical and quantum channels, which we use to show that quantum decoding is possible exactly when classical reconstruction on the dual problem is impossible. Mézard and Montanari identified this reconstruction temperature with a dynamical glass transition predicted by the one-step replica-symmetry breaking (1RSB) cavity equation. It is conjectured that local samplers such as Metropolis Monte Carlo and Glauber dynamics cannot equilibrate efficiently below this reconstruction temperature but may do so above it; our large numerical experiments show close agreement with this prediction across hundreds of different problem parameters. Therefore, our results rigorously show that Regev+BPQM reaches a temperature for which, to our knowledge, there is no matching classical guarantee, and brings Regev+BPQM to the conjectured limit of efficient Gibbs sampling by classical local dynamics.",
+    "authors": [
+      "Jordan, Stephen P.",
+      "Nguyen, Quynh T.",
+      "Zhou, Leo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-10T12:21:54.531787Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226744",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226744",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226744"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

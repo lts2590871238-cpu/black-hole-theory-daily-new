@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.12661",
+    "arxiv_id": "2611.12661",
+    "arxiv_version": 1,
+    "inspire_id": "3226669",
+    "doi": null,
+    "title_en": "Pentagon Functions for Two-Loop Leading-Colour $pp\\to t\\bar{t}H$ Amplitudes with a Light-Quark Loop",
+    "abstract_en": "We present a basis of special functions and an efficient numerical implementation for the planar two-loop master integrals that enter the leading-colour amplitudes for $pp\\to t\\bar{t}H$ with a closed light-quark loop. We provide analytic results for the special functions at transcendental weight one and two in terms of logarithms and dilogarithms, while higher weights are evaluated as one-fold integrals. We focus on the nested roots that arise, studying their analytic structure on the physical region and constructing numerically stable representations of letters and $\\mathrm{d}\\log$ forms that involve them. We find that a number of $\\mathrm{d}\\log$ forms have an antiderivative that cannot be represented by a single logarithm over the physical region and tackle them numerically with adaptive Chebyshev approximation. We implement the functions in \\texttt{C++} as an extension of the \\texttt{PentagonFunctions++} library. We study the performance of our implementation over physical phase-space points and find that the evaluation is accurate and fast enough for phenomenological application. This provides an important building block for NNLO studies of $t\\bar{t}H$ production at the LHC.",
+    "authors": [
+      "Simone Devoto",
+      "Manfred Kraus",
+      "Ben Page"
+    ],
+    "categories": [
+      "hep-ph",
+      "hep-th"
+    ],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T11:17:04.851402Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.12661v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12661v1",
+    "inspire_url": "https://inspirehep.net/literature/3226669",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.12661",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://arxiv.org/abs/2611.12661v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3226669",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226669"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

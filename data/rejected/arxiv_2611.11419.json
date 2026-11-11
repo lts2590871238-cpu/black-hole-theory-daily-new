@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11419",
+    "arxiv_id": "2611.11419",
+    "arxiv_version": null,
+    "inspire_id": "3226228",
+    "doi": null,
+    "title_en": "Solution Size Growth as an Obstacle to Iterative Refinement for Linear Optimization",
+    "abstract_en": "Iterative refinement is a technique used to exponentially boost the precision of the solution to certain problems by solving a sequence of related problem instances. We study the size of the solutions arising from the sequence of problems produced by the iterative refinement algorithm when applied to linear optimization problems (LPs). We introduce a class of problems for which the size of such solutions can grow exponentially with the number of refinement iterations, and we show evidence that to avoid this undesirable behavior, a black-box LP solver would have to be \\emph{lucky}---a concept introduced formally in this paper, by which we mean that the solver would have to return a solution of better quality than what is required by its termination tolerances. Furthermore, we show that the exponential scaling occurs if one uses a natural instantiation of the simplex algorithm using Bland's pivoting rule. We discuss the implications of our lower bound on the solution size for optimization algorithms whose running time depends polynomially on the solution size, such as quantum multiplicative weights update algorithms and quantum matrix games algorithms.",
+    "authors": [
+      "Graven, Henry",
+      "Nannicini, Giacomo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T10:05:57.334435Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226228",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226228",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226228"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

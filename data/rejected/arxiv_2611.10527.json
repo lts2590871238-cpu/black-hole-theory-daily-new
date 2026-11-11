@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10527",
+    "arxiv_id": "2611.10527",
+    "arxiv_version": null,
+    "inspire_id": "3226742",
+    "doi": null,
+    "title_en": "QAOA Inside ADMM: Subproblem Wins Do Not Become Decomposition Wins at Matched Budgets",
+    "abstract_en": "We benchmark the quantum approximate optimization algorithm (QAOA) as the binary subproblem solver in a two-block alternating direction method of multipliers (ADMM) for mixed-binary problems against classical solvers under matched budgets. With 23 optimizer evaluations per subproblem, scoring determines the comparison: on its final readout, the optimized QAOA loses to random search at $n=12$ and 16 binary variables (inconclusive at 20; exploratory and post hoc tests). When credited with its best sample, it wins. In a noiseless 12-qubit simulation, transferred-angle depth-2 QAOA finds the exact optimum of 97.3% of planted-family subproblems, against 50.6%--67.4% for the four strongest local heuristics (100% against 90.4%--94.4% crediting the four best bitstrings) and a not significantly different 96.5% for semidefinite rounding with local search (SDP+LS). Under our evaluation-counting convention, its time to solution there is a factor of three to five below the local heuristics' but grows with a larger exponent; it is ten times that of SDP+LS and, in seconds, 54 times that of tabu search with restarts. For the benchmark class, an unconstrained binary quadratic problem in disguise, ADMM's binary step is a proximal step on the reduced problem: at unit penalty ADMM re-solves it, and for larger penalties exact solutions increasingly stall. On two families that do not reduce to one, less accurate solvers found the problem optimum more often at unit and larger penalties. No family gave QAOA a better ADMM outcome than the best classical solver and penalty. The benchmark includes a correctness gate and a log of its hypothesis tests.",
+    "authors": [
+      "Hossain, Mohammad Arif",
+      "Fahim, Sanim Yousuf"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:21:17.044783Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226742",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226742",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226742"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

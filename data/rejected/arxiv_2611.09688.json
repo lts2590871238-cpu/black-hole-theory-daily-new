@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.09688",
+    "arxiv_id": "2611.09688",
+    "arxiv_version": null,
+    "inspire_id": "3226271",
+    "doi": null,
+    "title_en": "An Adaptive Quantum Search Framework under Unknown Solution-density: Minimizing Expected Queries to the First Solution",
+    "abstract_en": "Grover's algorithm provides a mathematically optimal quadratic speedup for unstructured search, yet its standard formulation relies on a critical prerequisite: prior knowledge of the target solution count to determine the number of algorithm iterations. Although numerous strategies have been developed to identify or bypass this parameter, comparing them directly is nontrivial. This study investigates and computationally optimizes 3 prominent frameworks: Boyer-Brassard-Hoyer-Tapp, Fixed-Point search, and Density Estimation Methods. Density-specific benchmarks select the best tested method and configuration to minimize expected first-solution queries under 2 initialization-cost conventions. To translate these theoretical benchmarks into practical utility, a hybrid quantum-classical adaptive framework integrating Hill-climbing-assisted Grover Adaptive Search with state-space density estimation modeled via the Wang-Landau algorithm is proposed as a potential use-case. This implementation operates directly on the optimized query methods established earlier. Analytical models support the approach; ideal simulations show 18.8%-63.4% lower mean accumulated query costs than the tested randomized and fixed-point baselines.",
+    "authors": [
+      "Asawalertsak, Wiwat",
+      "Sarochawikasit, Rajchawit"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-10T10:33:07.350507Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226271",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226271",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226271"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

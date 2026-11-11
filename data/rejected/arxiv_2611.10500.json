@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10500",
+    "arxiv_id": "2611.10500",
+    "arxiv_version": null,
+    "inspire_id": "3226365",
+    "doi": null,
+    "title_en": "On the estimation of linear-optical amplitudes and probabilities with entangled input state",
+    "abstract_en": "Most proposed applications of boson samplers, including photonic machine-learning models, do not use the samples themselves but estimates of output probabilities, marginals or overlaps, obtained to additive precision from a finite number of shots. For product inputs such as single photons, these quantities can already be estimated classically with Gurvits's algorithm and its generalisations. We ask whether entangled inputs change this picture. For any $n$-photon input that is a matrix-product state of bond dimension $χ$, with one photon per site and $L$ modes per site, we give an unbiased estimator of any output amplitude of an $m$-mode interferometer, whose mean-square error after $N$ draws is at most $\\|ψ\\|^2/N$ whatever the interferometer, the output pattern and the entanglement of the state. Each draw costs $O(nLχ^2+nL^3+mn)$ operations after $O(nLχ^3)$ preprocessing, and an additive error $\\varepsilon$ with probability at least $1-δ$ requires $O(\\|ψ\\|^2\\varepsilon^{-2}\\log(1/δ))$ draws, with memory of the order of the input size. The main application is to light emitted sequentially by quantum emitters, such as spin-based sources of photonic cluster states, for which $χ$ is bounded by the dimension of the source's retained quantum memory: one spin gives $χ=2$ at any length, and a memory of $k$ qubits, held in emitters or in photons stored in a delay line, gives $χ\\le2^k$, so the cost stays polynomial as long as $k=O(\\log n)$. The same sampler also estimates traced-memory probabilities, overlaps and individual marginal probabilities. All guarantees are additive: the estimator gives neither relative estimates of exponentially small probabilities nor a sampler of the output distribution.",
+    "authors": [
+      "Senellart, Jean",
+      "Emeriau, Pierre-Emmanuel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T10:40:42.304010Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226365",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226365",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226365"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

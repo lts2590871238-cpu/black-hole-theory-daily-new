@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.10115",
     "arxiv_id": "2611.10115",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3226341",
     "doi": null,
     "title_en": "Fast, training-free simplification of spinor-helicity amplitudes",
     "abstract_en": "We present a training-free method that simplifies massless spinor-helicity expressions by a greedy best-first search over on-shell identities, and test it at four, five, and six points. Applied to the color-ordered five-gluon MHV tree-level amplitude, the search derives the Parke-Taylor formula from all 1024 Feynman-diagram expressions with different polarization reference spinors and up to 228 numerator terms. On public test sets used by previous machine-learning methods, the search solves every case and generally outperforms these methods in solve rate. Its mean wall-clock time per case is 0.02-0.3 s on one CPU core. With longer searches and an alternative ranking of candidate expressions, it also solves all 21,600 cases of a new suite of larger test expressions. Each result comes with an explicit derivation and is independently checked over finite fields at on-shell kinematics. For the classes studied here, the method effectively compresses long expressions produced by identity scrambling or Feynman-diagram calculations into compact forms. This is a first step toward extracting physics from amplitudes by relating distinct compact expressions, selecting representations with preferred factors and poles, and guiding the discovery of new amplitude structures.",
@@ -16,23 +16,31 @@
       "hep-th",
       "hep-ph"
     ],
-    "submitted_at": "2026-11-06T19:00:01Z",
-    "updated_at": "2026-11-06T19:00:01Z",
-    "document_types": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-10T10:39:35.486855Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.10115v1",
     "pdf_url": "https://arxiv.org/pdf/2611.10115v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226341",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.10115",
-        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
         "url": "https://arxiv.org/abs/2611.10115v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3226341",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226341"
       }
     ],
     "is_demo": false

@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.12857",
+    "arxiv_id": "2611.12857",
+    "arxiv_version": 1,
+    "inspire_id": "3226707",
+    "doi": null,
+    "title_en": "Mapping of Spacetimes with Neural Networks",
+    "abstract_en": "Gauge freedom in numerical relativity complicates the interpretation of simulation coordinates and the comparison of different descriptions of the same spacetime. We present a data-driven neural network method for learning coordinate maps from numerical metric data to a prescribed target gauge. The network is trained by matching the transformed source metric to the target metric, without assuming a functional form for the coordinate transformation. We first validate the method on analytical Schwarzschild and Kerr geometries, recovering known transformations up to the isometries of the target spacetime. We then apply it to numerical black hole evolutions in moving-puncture coordinates. For a non-spinning black hole, the learned map relates the time-dependent numerical metric to a stationary Schwarzschild metric in ingoing Eddington-Finkelstein coordinates. For a spinning puncture, the method provides an approximate identification with a Kerr background despite departures from Kerr in the numerical spacetime. We use this identification to construct curvature perturbations and evolve them with the Teukolsky equation, obtaining waveforms that closely match those extracted from the full nonlinear simulation. These results demonstrate that learned coordinate maps can relate numerical spacetimes to analytical backgrounds, with potential applications to cross-code validation and black hole perturbation theory.",
+    "authors": [
+      "Estuti Shukla",
+      "David Radice",
+      "Rossella Gamba",
+      "Sebastiano Bernuzzi"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T11:18:47.182248Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.12857v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12857v1",
+    "inspire_url": "https://inspirehep.net/literature/3226707",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.12857",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://arxiv.org/abs/2611.12857v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3226707",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226707"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

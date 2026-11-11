@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.12718",
+    "arxiv_id": "2611.12718",
+    "arxiv_version": null,
+    "inspire_id": "3226763",
+    "doi": null,
+    "title_en": "No Exponential Quantum Advantage for Decoded Quantum Interferometry with Local Quantum Decoders",
+    "abstract_en": "Decoded quantum interferometry (DQI) reduces optimization of sparse linear constraint problems, and sampling from their Gibbs measures, to decoding a linear code from a quantum state. We study DQI on random $D$-regular $k$-sparse instances with $k\\ge3$, for which local decoders such as belief propagation with quantum messages (BPQM) are commonly used. Such decoders estimate a typical codeword symbol using only the qudits within logarithmic distance of it. Our main insight is that the thresholds of the decoding problem induced by DQI correspond to phase transitions of the Gibbs measure that are well studied in statistical physics: tree reconstruction for local decoders and, for Max-$k$-XORSAT, condensation for the optimal decoder. This insight allows us to prove two main results. First, we prove an information-theoretic obstruction: no local decoder can recover the codeword with high probability above the tree reconstruction threshold. Conversely, we show that a decoder based on BPQM reaches this threshold. Since the cavity method predicts that local Markov chains equilibrate rapidly up to the same threshold, we expect DQI with local decoders to give no exponential speedup for sampling and no advantage in approximate optimization with amplitude functions that depend only on the number of violated constraints. Second, we consider the optimal decoder (the pretty-good measurement, for which no efficient implementation is known) and show that it succeeds exactly below the condensation threshold. The condensation threshold thus provides a tight upper bound on the performance of DQI with these amplitude functions, providing a strict refinement of the limit that Jordan et al. derived from the Holevo bound. Our results point to efficient nonlocal decoders that succeed between the two thresholds as the only viable path to a quantum advantage with DQI on these instances.",
+    "authors": [
+      "Augustino, Brandon",
+      "Chakrabarti, Shouvanik",
+      "Fontana, Enrico",
+      "Herman, Dylan",
+      "Ozgul, Guneykan",
+      "Shaydulin, Ruslan",
+      "Sureshbabu, Shreehari",
+      "Watkins, Jacob"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T12:36:37.733183Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226763",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226763",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226763"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

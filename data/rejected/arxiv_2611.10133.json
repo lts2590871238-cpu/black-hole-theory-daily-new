@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.10133",
     "arxiv_id": "2611.10133",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3226349",
     "doi": null,
     "title_en": "Scalable early warning for binary neutron-star mergers in third-generation gravitational-wave detectors",
     "abstract_en": "Third-generation gravitational-wave observatories will observe binary neutron-star coalescences for hours before merger. Over these extended time windows, Earth's motion and the long signal durations make standard search methods computationally demanding for low-latency detection. We propose an approach based on short-time Fourier transforms and convolutional neural networks that implicitly marginalizes over extrinsic parameters, effectively reducing the search to the chirp mass. The network learns the signals' nonlinear time-frequency morphology, approximating the optimal Bayesian detection statistic. Using a large-scale campaign of simulated signal injections, we compare the network's performance with a GPU-optimized matched-filtering baseline for both the ET$Δ$ and ET2L configurations of the Einstein Telescope and signal durations from approximately 25 minutes ($f_{\\rm min} = 5$ Hz) to approximately 6 hours ($f_{\\rm min} = 2$ Hz). The network achieves comparable detection sensitivity while reducing computational costs by over four orders of magnitude, bringing processing times from minutes to milliseconds. This efficiency paves the way for rapid early-warning alerts for multi-messenger astronomy in the third-generation detector era.",
@@ -17,23 +17,31 @@
       "gr-qc",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-11-06T19:01:22Z",
-    "updated_at": "2026-11-06T19:01:22Z",
-    "document_types": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-10T10:40:29.964731Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.10133v1",
     "pdf_url": "https://arxiv.org/pdf/2611.10133v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226349",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.10133",
-        "fetched_at": "2026-11-10T04:41:46.317244Z",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
         "url": "https://arxiv.org/abs/2611.10133v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3226349",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226349"
       }
     ],
     "is_demo": false

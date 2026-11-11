@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-11-11T02:52:34.968827Z",
+  "completed_at": "2026-11-11T02:54:30.351955Z",
+  "status": "degraded",
+  "fetched_arxiv": 1000,
+  "fetched_inspire": 800,
+  "normalized": 1800,
+  "deduplicated": 1474,
+  "candidates": 61,
+  "selected": 56,
+  "review_queue": 3,
+  "rejected": 1414,
+  "llm_calls": 15,
+  "cached_decisions": 44,
+  "errors": [
+    "arxiv:2607.07364: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: expected `,` or `}` at line 1 column 413 [type=json_invalid, input_value='{\"relevant\":true,\"primar...ranslation_warning\":\"\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  ]
+}

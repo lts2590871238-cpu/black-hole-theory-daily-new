@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11084",
+    "arxiv_id": "2611.11084",
+    "arxiv_version": null,
+    "inspire_id": "3226468",
+    "doi": null,
+    "title_en": "Towards large-scale ab initio Molecular Dynamics Simulation with Efficient Sampling-based Quantum Computing Algorithms",
+    "abstract_en": "Ab initio molecular dynamics (AIMD) requires the calculation of highly accurate electronic-structure energies and nuclear forces at every time step, which can quickly become computationally expensive. Sample-based quantum diagonalization offers a route to such calculations on quantum hardware, but its use in AIMD simulations has so far been limited to active spaces of about 20 qubits. In these spaces, exact diagonalization is tractable, and the quantum circuits are typically built from standard coupled-cluster amplitudes. Here, we introduce SqDRIFT-AIMD, which combines randomized sample-based Krylov quantum diagonalization (SqDRIFT) with analytical nuclear gradients. With SqDRIFT-AIMD, we obtain more accurate ground-state energies than the conventional coupled-cluster singles and doubles (CCSD) driven AIMD simulation for the $40$-qubit active space. We apply SqDRIFT-AIMD to study the dynamics of proton transfer in the Zundel cation, using circuits executed on IBM Heron r3 quantum processors. SqDRIFT energies fall below CCSD across the $40$-qubit double-well PES and stay within a few m$E_\\text{h}$ of CCSD at 52 qubits. The $40$-qubit SqDRIFT-AIMD trajectory tracks the SHCI-driven proton transfer to within $1.33$ mÅ and exhibits excellent total energy conservation, with a standard deviation of only $0.245$ m$E_\\text{h}$. These results extend quantum-centric AIMD to active spaces beyond the reach of exact diagonalization.",
+    "authors": [
+      "Khandelwal, Ankit",
+      "R, Nirmal M.",
+      "Mishra, Aaryav",
+      "Bhoumik, Debasmita",
+      "Vinayagamurthy, Dhinakaran",
+      "Chandra, M. Girish"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T10:45:24.202834Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226468",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226468",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226468"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10640",
+    "arxiv_id": "2611.10640",
+    "arxiv_version": null,
+    "inspire_id": "3226772",
+    "doi": null,
+    "title_en": "A Grover-Amplified Oracle for Maximum Clique on Graph, Minimum Hitting set and Dualizations on Hypergraphs Built on Quantum Phase Estimation",
+    "abstract_en": "In this paper, we use a quantum circuit called the Graph Encoding Operator which, applied to the complement $\\bar G$ of any graph $G$, yields an oracle for the maximum clique problem suitable for amplification via Grover's algorithm. Analogously, we devise a Hypergraph Encoding Operator which, when applied to a hypergraph $\\mathcal H$, yields an oracle for the minimum hitting set suitable for amplification via Grover's algorithm. Interestingly, the latter oracle provides, when measured, an approximation of the number of hitting sets of the hypergraph, thus solving the dualization problem for positive Boolean functions represented in a positive irredundant disjunctive normal form. We give the full construction of both operators, prove their correctness, analyze their complexity, and provide an implementation on a quantum simulator. We discuss the resulting complexity, contrast them with existing quantum computer algorithms based on Grover search and we will show that our algorithms outperform, to the best of our knowledge, all of the previous algorithms on space computational complexity by requiring only $O(N)$ number of qubits with respect to the number of vertices $N$, for representing both graphs and hypergraphs in the encoding operator and, consequently, results in an oracle for both graphs and hypergraphs that uses only $O(N)$ qubits even when the hypergraph contains an exponential (on the number of vertices) number of hyperedges.",
+    "authors": [
+      "Piñero, Francisco",
+      "\\Pelayo, Fernando L.",
+      "de la Cruz, Hernan I.",
+      "Paulet, Jose J.",
+      "Mezzini, Mauro",
+      "Cuartero, Fernando"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T13:08:59.076903Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226772",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226772",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226772"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

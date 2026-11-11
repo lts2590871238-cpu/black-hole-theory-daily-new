@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.09830",
+    "arxiv_id": "2611.09830",
+    "arxiv_version": null,
+    "inspire_id": "3226288",
+    "doi": null,
+    "title_en": "Deterministic Quantum Search for NP Problems Through Verifier-Based Oracle Construction",
+    "abstract_en": "Problems in the class NP are important in computational science, where a given candidate solution can be verified in polynomial time, while finding a solution may require evaluating the entire search space in the worst case. Classical exhaustive approaches generally solve such problems by evaluating the verifier function over all possible inputs, resulting in a worst-case query complexity of O(N), where N = d^n represents the size of the search space, d is the number of possible values for each variable, and n is the number of variables. Quantum search algorithms can solve unstructured search problems more efficiently by reducing the query complexity to O(sqrt (N)), providing a quadratic speedup over classical exhaustive search. However, conventional quantum search formulations typically assume access to an oracle that identifies valid solutions, while standard implementations generally yield probabilistic success. In this work, we propose a generalised quantum oracle construction method for NP problems, together with a deterministic quantum search framework that identifies satisfying assignments using their corresponding classical verifier functions. The proposed framework retains the quadratic query speedup of quantum search over classical exhaustive search. We further establish that constructed oracle can be implemented using a number of gates polynomial in the size (L) of the binary encoding of verification function, consistent with the polynomial-time evaluation of the corresponding classical verifier, while the total qubit requirement remains O(poly(L)). The construction is demonstrated on multiple N-SAT instances, with circuit-level simulations confirming deterministic identification of satisfying assignments. These results establish the applicability of deterministic quantum search to NP problems while retaining the quadratic query advantage over classical exhaustive search.",
+    "authors": [
+      "Chatterjee, Soumyajyoti",
+      "Mishra, Harishankar",
+      "Balasubramanyam, Asvija",
+      "Sudarsan, S.D.",
+      "Raghava, Gudapati Naresh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-06T00:00:00Z",
+    "updated_at": "2026-11-10T10:34:36.239901Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226288",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226288",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226288"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

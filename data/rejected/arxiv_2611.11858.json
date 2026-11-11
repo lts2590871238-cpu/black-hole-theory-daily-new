@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11858",
+    "arxiv_id": "2611.11858",
+    "arxiv_version": null,
+    "inspire_id": "3226542",
+    "doi": null,
+    "title_en": "Rotational Encoding of Objective Functions for Quantum Optimization",
+    "abstract_en": "In this paper, we introduce the Angular Rotational Counter (ARC), a novel approach to represent objective functions that can be decomposed as a weighted sum of Boolean functions. ARC encodes the objective as an accumulated sum of quantum rotations onto a single-qubit register instead of a multi-qubit register used in much of the previous literature. We mathematically establish and experimentally validate that these rotations sum to the objective value for all possible solutions and derive the relationship between the resulting measurement probabilities and the objective. This design was applied to construct a quantum oracle for the state assignment problem of finite automata and state machines using a weighted Hamming distance cost function, which is a special case of the quadratic assignment problem. We evaluate this oracle design on 26 benchmarks and compare it with corresponding Boolean-based oracles on four cost metrics. Across these benchmarks, the oracle with ARC produces a mean reduction in the qubit count of 20.8%, gate count of 89.3%, circuit depth of 92.4%, and quantum cost of 90.6%. These results demonstrate substantial reductions in circuit cost for the evaluated benchmarks and establish rotational encoding as a promising approach for representing objective functions in optimization based on quantum search algorithms.",
+    "authors": [
+      "Yang, Sonia",
+      "Al-Bayaty, Ali",
+      "Chen, Shanyan",
+      "Perkowski, Marek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T11:07:16.975905Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226542",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226542",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226542"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

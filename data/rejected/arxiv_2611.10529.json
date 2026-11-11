@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10529",
+    "arxiv_id": "2611.10529",
+    "arxiv_version": null,
+    "inspire_id": "3226771",
+    "doi": null,
+    "title_en": "Beyond the Mean Gap: What Transferred-Angle QAOA Retains on a Superconducting Processor",
+    "abstract_en": "Hardware executions of the quantum approximate optimization algorithm (QAOA) are often validated by comparing the device's mean cost with a simulation, a check that can miss what matters for optimization. Under global depolarization, the mean normalized gap and the floor-corrected probability of every set of bitstrings, the optimum included, retain the same fraction of their noiseless improvement over uniform sampling. We test this prediction with depth-2, transferred-angle QAOA circuits for binary subproblems of an alternating-direction decomposition on the IBM Heron processor \\texttt{ibm\\_marrakesh}, with and without dynamical decoupling and twirling. At 12 qubits, the main-family circuits retained 29% to 46% of their mean-gap improvement but only 5% to 15% of their probability of the optimum, lower on at least nine of ten instances per run. Near-optimal bitstrings were lost about as much as the optimum, whereas the avoidance of poor bitstrings was retained best. In the first submission, a device-matched noise model reproduced the pattern but overestimated the retention of the optimum five- to eightfold. On a rugged planted family, the device found the optimum in 62% of 768-shot blocks (noiseless: 98%), within the range of local heuristics. Validations of optimization circuits should report retention of the optimum and of near-optimal sets.",
+    "authors": [
+      "Fahim, Sanim Yousuf",
+      "Hossain, Mohammad Arif"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:57:34.170149Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226771",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226771",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226771"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2610.24074",
     "arxiv_id": "2610.24074",
-    "arxiv_version": 1,
-    "inspire_id": "3216129",
+    "arxiv_version": 2,
+    "inspire_id": null,
     "doi": null,
     "title_en": "QRecoupling.jl: numerical and exact computation of classical and quantum recoupling coefficients",
-    "abstract_en": "QRecoupling.jl is a Julia package for numerical, exact and symbolic evaluation of classical and quantum recoupling coefficients and generic finite sums of quantum factorials, with one interface across the classical limit, principal unitary levels and real or complex deformation. A compact factorial rule and its cyclotomic exponents expose factor cancellation, polynomial structure and level support. The package covers quantum Clebsch-Gordan coefficients, 3j and 6j symbols and user-defined sums. Its adaptive numerical evaluation is combined with exact decisions for sums that cancel to zero. Classical 3j and 6j symbols are evaluated at a speed comparable to that of WIGXJPF, which is based on prime factorization tables, at the smallest spins, and about 6 and 10 times faster at spin cutoff 500. Under real, root-of-unity and complex deformation, the largest relative error measured against independent high-precision references is $3.5 \\times 10^{-14}$ for spins up to 400. Fusion matrices with 401 channels are computed about 100 times faster than by loops over their entries.",
+    "abstract_en": "The Julia package QRecoupling evaluates classical and quantum recoupling coefficients, such as Clebsch-Gordan coefficients and $3j$ and $6j$ symbols, and user-defined sums of factorial products, with numerical, exact and symbolic targets. One compact factorial rule covers classical and deformed evaluations, while its cyclotomic exponents reveal common factors and determine which terms contribute at unitary levels. Adaptive arithmetic resolves strongly cancelling sums, while exact tests in quantum integers distinguish algebraic zeros from small nonzero values without a computer-algebra system. At spin cutoff 500, classical $3j$ and $6j$ symbols are evaluated about 7 and 15 times faster than with WIGXJPF. For the tested quantum deformations, relative errors remain below $4\\times10^{-14}$ through spin cutoff 400. Recurrences compute fusion matrices with 401 channels about 100 times faster than loops over their entries. The resulting coefficients support recoupling identities, changes of coupling basis and tensor-network calculations.",
     "authors": [
       "Seth K. Asante"
     ],
@@ -17,31 +17,23 @@
       "math-ph",
       "physics.comp-ph"
     ],
-    "submitted_at": "2026-10-16T00:00:00Z",
-    "updated_at": "2026-10-21T02:27:13.698750Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-10-16T18:01:10Z",
+    "updated_at": "2026-11-09T18:49:43Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2610.24074v1",
-    "pdf_url": "https://arxiv.org/pdf/2610.24074v1",
-    "inspire_url": "https://inspirehep.net/literature/3216129",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.24074v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.24074v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2610.24074",
-        "fetched_at": "2026-10-22T01:38:12.527686Z",
-        "url": "https://arxiv.org/abs/2610.24074v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3216129",
-        "fetched_at": "2026-10-22T01:38:12.527686Z",
-        "url": "https://inspirehep.net/literature/3216129"
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://arxiv.org/abs/2610.24074v2"
       }
     ],
     "is_demo": false

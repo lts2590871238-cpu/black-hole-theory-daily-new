@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.12600",
+    "arxiv_id": "2611.12600",
+    "arxiv_version": null,
+    "inspire_id": "3226752",
+    "doi": null,
+    "title_en": "Reducing Provers in Distributed Quantum Verification",
+    "abstract_en": "In the distributed quantum Merlin-Arthur ($\\mathsf{dQMA}$) model introduced by Fraigniaud, Le Gall, Nishimura, and Paz (ITCS 2021), a network of quantum computers verifies a global property with the aid of a quantum proof supplied by an untrusted prover. While the nodes are computationally unbounded, the challenge is to limit proof size and the communication required for verification. In this paper, we consider the model of Hasegawa, Kundu, and Nishimura (PODC 2024), where the proof must be unentangled across nodes, and define its extension to $k$ unentangled provers, denoted by $\\mathsf{dQMAS}(k)$. In this setting, we investigate the proof size per node and the communication costs of reducing the number of provers. Our first result reduces the number of provers from $k$ to two, doubling the proof size without additional communication. Moreover, with four additional rounds, we can reduce the number of provers from $k$ to one, using at most three times the original local proof size plus a logarithmic term in the number of nodes. Finally, we establish amplification for perfectly complete protocols. In this regime, a single prover suffices with a constant-factor overhead in our reductions, yielding $\\mathsf{dQMAS} = \\mathsf{dQMAS}(k)$.",
+    "authors": [
+      "Della Schiava, Alex",
+      "Hasegawa, Atsuya",
+      "Gall, François Le",
+      "Nishimura, Harumichi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T12:30:52.010835Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226752",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226752",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226752"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11044",
+    "arxiv_id": "2611.11044",
+    "arxiv_version": null,
+    "inspire_id": "3226442",
+    "doi": null,
+    "title_en": "Exact sampling beyond Fock inputs and linear optics: photon-number superpositions, photonic matrix-product states, adaptive and non-linear circuits",
+    "abstract_en": "Clifford and Clifford's algorithm samples single-photon boson sampling exactly, one output mode at a time, by adding the input photons in a uniformly random order. We extend this construction to other input states and to adaptive and non-linear circuits. It applies whenever non-negative weights on output prefixes and input sets satisfy one marginal identity, a set-chain lemma: the random-order sampler is then exact at one weight evaluation per candidate mode, and it gives the posterior over the hidden input set. We build four exact samplers on it. For sources in a superposition of vacuum and one photon, the weights are rectangular permanents on an offset input set, and the cost has the exponent of single photons under loss. For photonic matrix-product states of bond dimension $χ$, a gap-by-gap Kraus contraction turns each weight into a short sum of squared amplitudes. For adaptive linear optics, the chain starts from the posterior given the adaptive counts and rejects chains that contradict them. For a single-mode non-linear phase the identity fails, and rejection from linear branches is exact with acceptance $1/\\|c\\|_1^2$. All four samplers agree with strong simulation on small instances, and cost models put adaptive sampling with up to three adaptive modes within $10\\%$ of single photons and a non-linear site at $φ=π/2$ at about $4\\times$.",
+    "authors": [
+      "Senellart, Jean",
+      "Wein, Stephen",
+      "Emeriau, Pierre-Emmanuel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T10:43:54.141972Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226442",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226442",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226442"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

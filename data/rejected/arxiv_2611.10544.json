@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10544",
+    "arxiv_id": "2611.10544",
+    "arxiv_version": null,
+    "inspire_id": "3226734",
+    "doi": null,
+    "title_en": "Compact Quantum Channel Attention for Static ASL Recognition: A Controlled Study with Parameter-Matched Baselines",
+    "abstract_en": "Hybrid quantum-classical models often report good accuracy on image tasks, but it is rarely clear whether the quantum part is responsible. This paper proposes QCA-DenseNet, a static American Sign Language (ASL) recognition pipeline in which an eight-qubit variational circuit acts as a channel-attention gate on DenseNet121 features. The quantum channel attention (QCA) gate has 17,464 parameters, 7.51 times fewer than a squeeze-and-excitation (SE) block. The pipeline is tested on 1,815 MU HandImages images by holding out one of five signers at a time, and a frozen-backbone ablation uses small parts of the Kaggle ASL Alphabet data. On unseen signers, QCA-DenseNet reaches 94.50% mean accuracy, above SE (93.72%) and within 0.28 points of the best model. A matched classical MLP and a model without attention perform about the same, and no difference is significant. QCA gives a much smaller attention gate without a detectable loss in accuracy, but no quantum advantage.",
+    "authors": [
+      "Bhalgami, Ronak",
+      "Kothadiya, Deep",
+      "Bhatt, Nikita"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:12:39.410296Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226734",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226734",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226734"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

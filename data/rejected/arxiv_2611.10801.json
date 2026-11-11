@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10801",
+    "arxiv_id": "2611.10801",
+    "arxiv_version": null,
+    "inspire_id": "3226738",
+    "doi": null,
+    "title_en": "Trained, Frozen, or Absent: Identifying What a Quantum Layer Contributes to Cross-Sectional Equity Ranking",
+    "abstract_en": "Hybrid quantumclassical models are increasingly proposed for nancial prediction, but reported gains are rarely separated from the classical components around them. We study a hybrid quantum temporal convolutional network for daily cross-sectional ranking of 2000 Tokyo Stock Exchange equities under a protocol built to make the quantum contribution identiable: six conditions (circuit trained, frozen or absent, a parameter-matched classical surrogate, and the circuit alone, trained or frozen) through one code path; four walk-forward folds with ve seeds; bootstrap intervals, Deated Sharpe Ratios, backtest-overtting probabilities and family-wise error control; ve classical baselines including a gradient-boosted tree; and a locked holdout. On 500 out-of-sample days two one-sided tests place the trained-versus-frozen dierence inside 0.03 annualised Sharpe (p = 0.0055, minimum detectable eect 0.02): the circuit is equivalent to a frozen one, not merely indistinguishable from it. With the circuit as the head's only input the two are equivalent inside 0.25; against the network with no circuit the design resolves only 0.50. No condition is distinguishable from zero (best De-ated Sharpe Ratio 0.17). The holdout reproduces the ablation on a protable window, and 2000 US equities reproduce it where every condition loses money.",
+    "authors": [
+      "Chen, Chi-Sheng",
+      "Zhang, Xinyu",
+      "Kuo, En-Jui",
+      "Fu, Rong",
+      "Xie, Qiuzhe",
+      "Zhang, Fan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:15:38.869474Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226738",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226738",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226738"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

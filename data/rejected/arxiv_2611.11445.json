@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11445",
+    "arxiv_id": "2611.11445",
+    "arxiv_version": null,
+    "inspire_id": "3226546",
+    "doi": null,
+    "title_en": "Alchemically Transferable Parameters for Variational Quantum Eigensolvers",
+    "abstract_en": "Machine-learned circuit parameters could remove one of the main bottlenecks of variational quantum eigensolvers: the classical optimization loop, with its typical barren plateaus, local minima, and costly energy and gradient evaluations, is replaced by a direct prediction. Prior work showed that machine-learning models paired with a structured circuit design can transfer across system size and structure within hydrogenic systems. The next step: Extending them to organic molecules would seem to require re-training on use-case-specific training sets. In this work, we show that this is not necessary by establishing an alchemical approach. A geometric projection places surrogate hydrogen atoms along the bond directions of the target molecule and so maps its local bonding environment onto small hydrogenic fragments. Existing hydrogenic solvers can then be reused as they are. The only new quantity is a single projection radius per bond type, which is fitted once on a small reference molecule and reused unchanged thereafter. We demonstrate the approach on the separable-pair circuit designs that have been used in prior work and extend the approach to multi-circuit approaches that span effective bases for quantum subspaces.",
+    "authors": [
+      "Motyl, Jonas",
+      "Kottmann, Jakob S."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T11:07:33.931338Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226546",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226546",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226546"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.12236",
+    "arxiv_id": "2611.12236",
+    "arxiv_version": 1,
+    "inspire_id": "3226596",
+    "doi": null,
+    "title_en": "Commuting-check gauging for fault-tolerant logical measurements",
+    "abstract_en": "Gauging turns a logical operator into a product of local checks, providing a route to logical measurement and lattice surgery. These checks can fail to commute outside the code space, so measuring one can randomize the outcome of another. In this work, we introduce completion qubits that make the checks commute for Clifford $\\mathbb{Z}_2$ symmetries of qubit stabilizer codes. Adding one completion qubit per noncommuting pair preserves the gauged code space and its distance while keeping the checks Clifford. Completion also preserves the low-density parity-check property with a constant-factor qubit overhead. We generalize completion to qudits and establish bounds on the Clifford-hierarchy level of the completed checks in prime dimensions. Global commutation ensures that a fault-free round fixes the syndrome until the next fault and allows us to bound fault propagation independently of the number of measurement rounds. For qubit codes, we show that gauging and ungauging a distance-$d$ parent code implements a logical measurement with circuit fault distance $Ω(d)$ in $O(d)$ rounds. We demonstrate the construction by gauging two toric codes into the $D(D_4)$ quantum double and back, with an explicit circuit whose circuit fault distance equals the parent code distance. Our results provide a framework for fault-tolerant logical measurements using commuting checks, with applications to magic-state preparation by lattice surgery.",
+    "authors": [
+      "Zongyuan Wang"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T13:10:50.261283Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.12236v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12236v1",
+    "inspire_url": "https://inspirehep.net/literature/3226596",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.12236",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://arxiv.org/abs/2611.12236v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3226596",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226596"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11537",
+    "arxiv_id": "2611.11537",
+    "arxiv_version": null,
+    "inspire_id": "3226746",
+    "doi": null,
+    "title_en": "Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer",
+    "abstract_en": "Variational quantum algorithms (VQAs) optimize circuit angles through repeated quantum-device evaluations, often facing vanishing gradients and high optimization costs. We ask whether a large language model (LLM) can write these angles directly. Extending *weight-space programming* from classical networks to quantum circuits, we provide a frontier LLM (\\gpt) with the problem, circuit, and gate conventions. Its angles are executed exactly as written, without returning losses, gradients, or accuracy feedback. Across 139 requests, we test handwritten-digit classification, VQE ground-state estimation for spin chains and H$_2$, and MaxCut QAOA, comparing against random weights, classical optimization, and optimization initialized with LLM weights on the same circuit. When parameters have interpretable structure, the LLM matches or approaches the optimizer: it achieves 95--100% of the energy spectrum on every VQE problem, derives the exact H$_2$ ground state in closed form, finds optimal depth-one QAOA angles for every graph, and reaches 93--96% accuracy on digits 3 versus 8 with 12--18 hand-written weights, outperforming an optimizer trained on the same ten examples. Its weights are also strong warm starts: optimization reaches its best value after a median of one evaluation rather than hundreds. Allowed to design circuits, the LLM chooses data-dependent rotation chains encoding pixel importance in all 30 cases (one qubit for binary tasks, one chain per qubit for ten classes), reaching 65% accuracy across ten digits. Yet the approach fails in opaque weight spaces: accuracy drops to chance when fixed circuits exceed 30 weights, while optimization improves. It is also sensitive to gate conventions: 6 of 42 QAOA replies reverse mixing-angle signs and fail. We release all prompts, replies, and scores.",
+    "authors": [
+      "Kundu, Debarshi",
+      "Ghosh, Swaroop",
+      "Honavar, Vasant G."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T12:29:25.892328Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226746",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226746",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226746"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

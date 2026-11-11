@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10796",
+    "arxiv_id": "2611.10796",
+    "arxiv_version": null,
+    "inspire_id": "3226736",
+    "doi": null,
+    "title_en": "BP-based qLDPC Decoding under Long-range Correlated Noise: Trapping Configurations and Prior Mismatch",
+    "abstract_en": "We study the robustness of two state-of-the-art BP-based qLDPC decoders, Relay-BP and beam search, designed for independent noise when applied to spatially correlated noise with unchanged single-mechanism error probabilities. We generate correlated errors with a hidden Gaussian Markov random field, which lets us control the strength and range of the correlation while keeping every marginal error probability exact. This setting complements correlation-aware decoding: it asks how existing decoders perform when their assumed joint error model is mismatched. Across multiple tested circuits and code instances that we simulated, we observe that correlations can change logical error rates by orders of magnitude, reduce the finite-size distance advantage, and alter the relative ranking of Relay-BP, beam search, and BP-OSD. On one of the two tested circuits, Relay-BP and beam search become worse than BP-OSD, and increasing relay memory or beam width does not compensate for the degradation. Configuration analysis indicates that correlation primarily increases the probability of trapping configurations that are known to challenge these decoders; at matched error weight, correlated errors still cause decoding failures several times more often than i.i.d. errors. Finally, supplying the decoders with the marginals conditioned on the hidden field recovers most of the lost performance in the tested settings identifying prior mismatch as a major contributor to performance degradation under correlation.",
+    "authors": [
+      "Dangi, Abhinav",
+      "Chatterjee, Avhishek"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:15:30.615086Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226736",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226736",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226736"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

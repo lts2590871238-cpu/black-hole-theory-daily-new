@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10793",
+    "arxiv_id": "2611.10793",
+    "arxiv_version": null,
+    "inspire_id": "3226740",
+    "doi": null,
+    "title_en": "Trainability-Simulability Tradeoff in Parameterized IQP-based Reinforcement Learning Policies",
+    "abstract_en": "Parameterized instantaneous quantum polynomial-time (IQP) circuits generate distributions conjectured to be hard to sample classically. As reinforcement learning (RL) policies, their $2^n$ measurement outcomes are typically mapped to a smaller action space by a classical decoder. This aggregation can mitigate initialization concentration while making the policy classically simulable. We characterize this tradeoff through the decoder's Fourier--Pauli expansion. Under independent uniform initialization, we express policy variance as an exact sum over groups of nonconstant Pauli components with identical active-generator signatures. Each group contributes its squared aggregate coefficient times $2^{-r}$, where $r$ is the binary rank of its active generators. An inverse-polynomial aggregate coefficient with logarithmic rank prevents exponential policy concentration. Sparse Pauli expansions and contiguous action bins permit efficient classical additive estimation of action probabilities. We introduce a majority decoder combining protected low-weight components with exponentially large exact Fourier support, preserving initialization nonconcentration while excluding polynomial-size enumeration of the exact expansion. Numerical experiments corroborate the variance laws. In ten-qubit CartPole experiments, majority achieves higher returns than recursive parity and the tested local readouts, while higher-weight Pauli sectors contribute an increasing relative share of gradient magnitude during training. A complementary 21-qubit block-chain policy outperforms an extensive pool of fully connected classical neural networks in episode efficiency, even though its bounded-width structure permits efficient classical simulation. These results guide decoder design for quantum and quantum-inspired RL, distinguishing policy nonconcentration, learning performance, and classical simulability.",
+    "authors": [
+      "Sequeira, André"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:16:33.466539Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226740",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226740",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226740"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

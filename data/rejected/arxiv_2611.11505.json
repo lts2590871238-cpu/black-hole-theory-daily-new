@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11505",
+    "arxiv_id": "2611.11505",
+    "arxiv_version": null,
+    "inspire_id": "3226482",
+    "doi": null,
+    "title_en": "A 40 Gbit/s FPGA-based RoCEv2 transport for detector readout: development and performance",
+    "abstract_en": "Recording the complete input of a detector trigger allows trigger algorithms to be replayed and studied offline. For the BESIII main drift chamber (MDC), this requires moving tens of Gbit/s from trigger FPGAs into server memory without loss. Remote direct memory access over Converged Ethernet (RoCEv2) lets commercial network adapters write such data into host memory. Detector readout also needs record boundaries that the receiver can check, replay from a verified copy, and host buffers that are reused only after consumption. We present a 40 Gbit/s FPGA RoCEv2 transport that provides these functions. Records are aggregated into CRC32C-checked blocks, and unacknowledged data are kept in DDR memory and verified before replay. Acknowledgment-aware retention writes to DDR only the data that are not acknowledged in time. The transport runs on a ZCU102 board and on the 9U VME Trigger Core Board (TCB). With records of 128 B to 4 KiB it comes within 0.4% of the packetization limit of the link, delivering 36.9 Gbit/s of payload at a path MTU of 1024 B, and its block latency is set by the time needed to fill a block. On a direct link, acknowledgment-aware retention cuts DDR writes for large blocks from 106% to 0.03% of the payload, and injected DDR access errors stay within their queue pair. On the TCB, three 16.4 TB transfers through two switches lost at most five packets each, all recovered by replay. An installation at the MDC is under test.",
+    "authors": [
+      "Dong, Sheng",
+      "Zhao, Jingzhou",
+      "Wang, Haoxin",
+      "Zeng, Tingxuan",
+      "Li, Fei"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T11:03:07.041989Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226482",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226482",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226482"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

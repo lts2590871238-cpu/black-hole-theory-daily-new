@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10351",
+    "arxiv_id": "2611.10351",
+    "arxiv_version": null,
+    "inspire_id": "3226377",
+    "doi": null,
+    "title_en": "Realizing Unstructured PDE Forecasting on Superconducting Quantum Processors",
+    "abstract_en": "Simulating high dimensional unstructured Partial Differential Equations (PDEs) with quantum processors is a major challenge with significant potential benefit. Existing methods have been demonstrated at small qubit counts, on simplifications of realistic problems. We implement a quantum reservoir network (QRN) for forecasting high-dimensional unstructured PDEs using up to 52 qubits on IBM superconducting hardware. Our method is gradient-free and does not suffer from the challenges of variational quantum algorithms. Instead, the QRN provides a large kernel space, up to 2^52 dimensions and beyond the reach of exact classical simulation, that remains useful under current hardware noise levels. Furthermore, a partial measure-and-reset mechanism enables total circuit runtime for ~24 times the qubit coherence time, so qubit lifetimes do not limit the forecast horizon. Thus, our method enables forecasting realistic unstructured nonlinear PDEs on quantum hardware. Typical difficulties associated with predicting large scale PDEs, such as transpilation, exponential shot requirements, hardware noise, and short qubit lifetimes are mitigated through careful design considerations and a dynamic observable reconstruction method. We validate our approach using a ~34k cell unstructured 2D cylinder flow at Reynolds number 1000 and a challenging nonlinear Gray--Scott reaction--diffusion problem, demonstrating high fidelity prediction on CUDA-Q simulation and on 26 and 52-qubit superconducting quantum processors. Specifically, we show that adding QRN features to an autoencoder linear prediction pipeline reduces prediction error by 21%-43%. Finally, we demonstrate closed-loop autoregressive PDE forecasting on these problems. This work demonstrates, for the first time, quantum circuits with depth beyond qubit lifetimes achieving accurate unstructured mesh forecasting on highly nonlinear PDEs.",
+    "authors": [
+      "Connerty, Erik",
+      "Eastridge, Jonathan",
+      "Patti, Taylor",
+      "Angelatos, Gerasimos",
+      "Evans, Ethan N."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T10:41:24.808775Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226377",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226377",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226377"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

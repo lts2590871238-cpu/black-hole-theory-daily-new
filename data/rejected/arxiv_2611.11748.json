@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11748",
+    "arxiv_id": "2611.11748",
+    "arxiv_version": null,
+    "inspire_id": "3226520",
+    "doi": null,
+    "title_en": "Model-family selection and recovery-gate design in generator-based noise tomography",
+    "abstract_en": "Family selection in generator-model noise tomography, usually quoted as a property of the hardware, is a hypothesis test whose shot floor is closed form, $N^{*}=λ_{\\mathrm{req}}/(r_{\\mathrm{b}} S)^{2}$, controlled by the absolute bias $r_{\\mathrm{b}} S$ rather than by the relative residual $r_{\\mathrm{b}}$, and therefore computable for any device before a single shot is taken. The same computation prices the recovery gates, because the fingerprint that fixes a family's residual and the Fisher information that ranks the designs are read off the same map: there is no design-independent verdict and no family-independent design optimum. Whether a design can move that price is structural, not numerical: a bias confined to the block every design measures identically is design-blind, while one that reaches the code blocks can be repriced by a factor of sixty-eight. The two platforms here are its extremes, at $98.1\\%$ and $48.0\\%$ in the design-blind block. At the reference point the floor is $1.1\\times10^{7}$ and $6.7\\times10^{6}$ shots per component for the two families, so at the $10^{5}$ shots a run spends the test has power $0.053$ at a level of $0.05$ and the residual it reports is shot noise. Rebuilding the fingerprint under each of the sixty-four designs moves the floor by $68$ on one platform and $1.7$ on the other, and the most precise design costs ten times more shots for the verdict than the cheapest to test. All sixty-four placements are full rank, so the design problem is one of conditioning: at three gates the rms varies by factors of $2.7$ and $3.9$ with placement alone, while the optimum over counts is flat. At five qubits the same rule moves the floor by $21$, while the verdict itself costs $10^{9}$ shots; checked against the calibration of a real three-qubit register, the floor is a requirement on systematic control before it is a shot count.",
+    "authors": [
+      "Huang, Long"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-10T11:05:17.126598Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226520",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226520",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226520"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

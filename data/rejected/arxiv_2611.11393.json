@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.11393",
+    "arxiv_id": "2611.11393",
+    "arxiv_version": null,
+    "inspire_id": "3226497",
+    "doi": null,
+    "title_en": "Information--control limits for record-indistinguishable reset of a monitored qubit",
+    "abstract_en": "A qubit that is continuously monitored from the moment it is prepared in its excited state writes evidence of that preparation into its measurement record. We ask how much control is needed to reset such a qubit to its ground state while keeping its complete record statistically close to the record of an undriven ground-state qubit. The qubit is measured in $σ_z$ at rate $Γ_m$ with efficiency $η$ and has no relaxation. For feedback that acts causally on the record, distinguishability is the Kullback--Leibler divergence $D$ of the controlled record law from the reference law, and the control cost is the quadratic effort $J$, the integrated squared Rabi frequency. We prove that every open-loop drive leaves $D$ infinite and that every admissible control obeys $DJ\\geΓ_mU(η,D/κ_0)$, where $U$ is given by a one-parameter family of integrals and $κ_0=1-\\ln2$. Our main result is the exact high-effort constant $\\lim_{ε\\downarrow0}\\inf\\{DJ/Γ_m: D\\leε\\}=K(η)$, where $K(η)=[\\int_0^π\\sqrt{2η(1+\\cosθ)^2+(1-η)\\sin^2θ}\\,dθ]^2$; an explicit sequence of two-phase feedback policies attains it. The first term of the integrand is the population evidence that the record receives while the qubit is rotated toward the ground state. The second is the price of the impurity created when the unrecorded part of the measurement dephases the coherence that the rotation needs; the record receives this evidence later, when the measurement repurifies the qubit. The global constant $c(η)=\\inf DJ/Γ_m$ satisfies $K/2\\le F_2\\le c\\le K$, where $F_2$ is again given by an integral; $c$ is known exactly at $η=1$ and in the limit $η\\to0$. With any nonzero relaxation rate the unconstrained infimum of $DJ$ vanishes, so $c(η)$ is specific to the relaxation-free model.",
+    "authors": [
+      "Bugu, Sinan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-08T00:00:00Z",
+    "updated_at": "2026-11-10T11:04:00.319320Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226497",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226497",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226497"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

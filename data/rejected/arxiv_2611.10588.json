@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10588",
+    "arxiv_id": "2611.10588",
+    "arxiv_version": null,
+    "inspire_id": "3226741",
+    "doi": null,
+    "title_en": "Initialization masks overcome decoding obstructions in compressed QAOA",
+    "abstract_en": "In compressed quantum optimization, a variational state is converted into a classical assignment by decoding noncommuting observables. We show that this step creates structural restrictions that changing the initialization can remove, even when increasing circuit depth cannot. For an explicit infinite family of connected cubic graphs on $n=3r$ vertices, with a fixed Pauli encoding and deterministic sign decoder, every all-plus QAOA circuit has cut at most $2r$, at every finite depth and every real angle sequence. A uniform signed product-state mask at fixed depth-one angles has expected cut $13r/4$, an additive advantage $5n/12$; an infinite subfamily admits an optimal mask. A second construction retains a linear depth-one separation under weak weighted couplings, a bounded cost-angle domain and a specified production-encoder ordering. Noiseless simulations then test classical mask selection before energy optimization. On 1,699 random cubic MaxCut instances, one selected mask achieves mean ratio $0.9100$, versus $0.7067$ for the all-plus $X$ baseline and $0.9125$ for the best of $r^2$ separately optimized random masks. On complete cohorts of weighted MaxCut, sparse Ising, Max-2-XOR and Max-2-SAT, the selected mask also improves on the baseline at every size, but it trails the pool at small sizes and leads it significantly only at the larger MaxCut and Ising sizes. Finite-pool order statistics separate the effect of selection from that of drawing a random mask. The results distinguish decoded expressivity from optimized energy and empirical performance; they do not establish a quantum computational advantage.",
+    "authors": [
+      "Semre, Emilio",
+      "Frankel, Steven"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T12:19:41.444405Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226741",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226741",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226741"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

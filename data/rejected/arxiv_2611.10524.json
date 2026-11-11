@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.10524",
+    "arxiv_id": "2611.10524",
+    "arxiv_version": null,
+    "inspire_id": "3226382",
+    "doi": null,
+    "title_en": "Delta-Corrected Shot Reduction for Bypassing Optimization Plateaus in Variational Quantum Eigensolvers",
+    "abstract_en": "The variational quantum eigensolver (VQE) remains a cornerstone hybrid quantum-classical algorithm for quantum simulation, yet its scalability is fundamentally constrained by heavy measurement overheads. While strategies such as variance-preserved shot reduction (VPSR) mitigates this cost, they suffer from convergence instability and optimization stagnation caused by finite-sample bias in limited pilot shots. To overcome this limitation, we introduce delta-corrected shot reduction (DCSR), an analytically enhanced shot allocation strategy that rigorously mitigates finite-sample instability. Utilizing the multivariate delta method, we derive explicit higher-order bias correction terms for the empirical reduction factor. Both theoretical analysis and numerical simulations reveal that incorporating higher-order statistical moments, such as skewness and kurtosis, provides the gradient resolution necessary to bypass noise-induced barren plateaus. DSCR significantly accelerates convergence compared to standard VPSR across diverse noise and resource regimes while matching or decreasing cumulative measurement costs, establishing a mathematically rigorous framework for variance-stabilized shot allocation on near-term hardware.",
+    "authors": [
+      "Ghozaly, Jamie Evander",
+      "Nurwantoro, Pekik",
+      "Sunnardianto, Gagus Ketut",
+      "Sarwono, Yanoar P.",
+      "Kwek, Leong-Chuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-07T00:00:00Z",
+    "updated_at": "2026-11-10T10:41:10.665761Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226382",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226382",
+        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "url": "https://inspirehep.net/literature/3226382"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
