@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 10,
+    "methodological_rigor": 16,
+    "novelty": 13,
+    "clarity": 9,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 2
+  },
+  "total_score": 54,
+  "reject_reason_zh": "该文属于量子计算与量子多体动力学领域（量子电路中的测量记录、光锥因果结构与马尔可夫链），而非本索引关注的四个主题：黑洞热力学、脉冲星计时阵列、全息凝聚态、引力理论基础。虽然摘要中出现“causal structure”一词，但指的是量子电路光锥内的因果结构，与广义相对论基础无关。",
+  "selection_reason_zh": "",
+  "title_zh": "量子电路光锥附近测量记录的量子化记忆",
+  "abstract_zh": "量子处理器如今会在电路中途测量量子比特，而结果流是纠错、基于测量的态制备以及受监测动力学的原始输出。对于扰乱型电路，预测这一结果流的统计量与模拟该处理器一样困难，因此一旦器件超出经典模拟能力，就没有精确参照可供检验。我们证明，在光锥附近，对于任意两比特门，该问题都变得精确可解。在一个砖墙式电路中，若有一个极化量子比特处于最大混合背景中，则沿光锥边缘的测量构成一个两态马尔可夫链，而位于边缘内侧 $d$ 个格点的测量由随边缘移动的 $\\lfloor d/2\\rfloor+1$ 个量子比特产生，而链的其余部分无论多大，对它们而言都表现为无记忆浴。因此，记录的记忆是量子化的：边缘上为一位，每位移一个格点至多多一位，这是一般性门所能达到的界。相同的因果结构决定了记录能够看到哪些硬件噪声，在不增加门成本的情况下消除了这种敏感性，并给出了一种无需层析的双幺正性见证。在一台 156 比特超导处理器上，一项预先指定其分析的演示在光锥内一个和两个格点处发现了预测的记忆，而在理论禁止之处则没有发现。这为动态电路在任意系统尺度上提供了精确参照，并表明开放系统理论中的碰撞模型精确地出现在混沌动力学内部。",
+  "keywords_en": [
+    "quantum circuits",
+    "measurement records",
+    "light cone",
+    "scrambling",
+    "Markov chain",
+    "dual-unitary",
+    "collision models",
+    "superconducting processor"
+  ],
+  "keywords_zh": [
+    "量子电路",
+    "测量记录",
+    "光锥",
+    "扰乱",
+    "马尔可夫链",
+    "双幺正",
+    "碰撞模型",
+    "超导处理器"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-07-13.2",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-12T03:57:54.788535Z"
+}

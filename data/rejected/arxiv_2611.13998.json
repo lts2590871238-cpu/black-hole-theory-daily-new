@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.13998",
+    "arxiv_id": "2611.13998",
+    "arxiv_version": null,
+    "inspire_id": "3227054",
+    "doi": null,
+    "title_en": "Pool-free, residual-triggered ansatz growth for variational imaginary-time evolution: when a fixed operator order beats adaptive screening",
+    "abstract_en": "Adaptive variational algorithms such as ADAPT-VQE and AVQITE screen an operator pool at every growth step, and ADAPT-VQE also re-optimizes all parameters. We study a pool-free alternative for variational imaginary-time evolution (VITE). The layers are fixed in advance by nested commutators of the Hamiltonian, grouped by symmetry and particle number, and the next layer is appended when the relative McLachlan residual exceeds a threshold. On five non-integrable systems (the mixed-field Ising chain and tori, and stretched H$_4$), this dynamic VITE reaches a relative error of $10^{-4}$ with 1.6-5.4 times fewer circuits than the cheapest of six to eight adaptive variants, including single-Pauli-string and qubit-excitation pools and batched ADAPT-VQE. On the chain the advantage persists from 8 to 16 sites. Screening and re-optimization account for most of the adaptive methods' cost. On the spin models, a longitudinal-field scan shows that the advantage requires broken integrability, which makes adaptive screening expensive. The advantage is lost on transverse-field Ising models, at tight targets (relative error $10^{-6}$) and where the schedule front-loads weak layers.",
+    "authors": [
+      "Chen, Yu-Hao",
+      "Wong, Renata"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-11T13:02:16.897331Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227054",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227054",
+        "fetched_at": "2026-11-12T03:56:39.768375Z",
+        "url": "https://inspirehep.net/literature/3227054"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

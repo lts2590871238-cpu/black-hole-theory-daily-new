@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.13373",
+    "arxiv_id": "2611.13373",
+    "arxiv_version": null,
+    "inspire_id": "3226972",
+    "doi": null,
+    "title_en": "PriorTilt: Decoding quantum LDPC codes with sparse perturbations of belief propagation priors",
+    "abstract_en": "Although belief propagation (BP) is a widely adopted decoder for classical low-density parity-check (LDPC) codes, its accuracy is limited in the quantum setting. We introduce \\PriorTilt, a variant of BP obtained by selectively perturbing a small fraction of its prior log-likelihood ratios using offsets determined by recent posterior and outgoing-message statistics, while preserving the same message-passing rules. We compare \\PriorTilt with Relay-BP and beam search decoders for circuit-level decoding of three benchmark codes. \\PriorTilt achieves a lower logical error rate (LER) than both baselines at every tested data point. For the $[[144,12,12]]$ Gross code BB144 at noise rate $p=10^{-3}$, the LER reductions reach $4.3\\times$ relative to Relay-BP and $3.1\\times$ relative to the beam search decoder. At $p=10^{-3}$, \\PriorTilt has lower mean decoding times than Relay-BP on all three codes and achieves mean decoding speedups of approximately $2.6\\times$--$3.0\\times$ over the beam search decoder. For BB144 at $p=10^{-3}$, \\PriorTilt achieves an LER approximately $610\\times$ lower than the standard min-sum BP decoder with the same iteration budget, while perturbing fewer than $0.5\\%$ of its priors per round on average.",
+    "authors": [
+      "Ye, Min",
+      "Delfosse, Nicolas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-11T12:29:49.576477Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226972",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3226972",
+        "fetched_at": "2026-11-12T03:56:39.768375Z",
+        "url": "https://inspirehep.net/literature/3226972"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

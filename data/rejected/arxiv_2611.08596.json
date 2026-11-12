@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.08596",
     "arxiv_id": "2611.08596",
     "arxiv_version": 1,
-    "inspire_id": "3225639",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Phentax: A JAX implementation of the IMRPhenomTHM waveform model",
     "abstract_en": "The upcoming Laser Interferometer Space Antenna (LISA) is expected to be sensitive to thousands of white dwarf (WD) binaries in our galaxy, extreme mass ratio inspirals (EMRIs) of stellar-mass compact objects into massive black holes, stellar-mass black hole binaries (SOBHBs) in their early inspiral phase, and, crucially, massive black hole binaries (MBHBs) with masses in the range of $10^4$-$10^7 M_\\odot$. The presence of such a large number of signals requires joint inference of all parameters across all sources present in the data, an approach referred to as \"global fit\". This requires evaluating hundreds of thousands of waveform templates, which can be computationally expensive. To address this challenge, we present $\\texttt{Phentax}$, a $\\texttt{JAX}$ re-implementation of the $\\texttt{IMRPhenomTHM}$ waveform model. This is a state-of-the-art time-domain phenomenological waveform model for comparable-mass binary black holes that includes the effects of higher-order modes. Given this, $\\texttt{IMRPhenomTHM}$ is one of the models currently used to simulate and analyze MBHB signals in LISA. With $\\texttt{Phentax}$, we provide a fast, easy-to-batch, and differentiable implementation of this waveform model to accelerate the development of LISA global fit algorithms.",
@@ -18,31 +18,23 @@
       "astro-ph.HE",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-11-05T00:00:00Z",
-    "updated_at": "2026-11-10T10:28:39.051097Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-05T19:00:07Z",
+    "updated_at": "2026-11-05T19:00:07Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.08596v1",
     "pdf_url": "https://arxiv.org/pdf/2611.08596v1",
-    "inspire_url": "https://inspirehep.net/literature/3225639",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.08596",
-        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "fetched_at": "2026-11-12T03:56:39.768375Z",
         "url": "https://arxiv.org/abs/2611.08596v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3225639",
-        "fetched_at": "2026-11-11T02:52:34.968827Z",
-        "url": "https://inspirehep.net/literature/3225639"
       }
     ],
     "is_demo": false

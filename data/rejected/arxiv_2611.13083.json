@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.13083",
     "arxiv_id": "2611.13083",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3226946",
     "doi": null,
     "title_en": "Less is More: Unbiased Galaxy Clustering from Fewer Merger Trees",
     "abstract_en": "Galaxy clustering could strongly constrain galaxy formation models but is rarely used, because the two-point correlation function (2PCF) requires a complete galaxy catalogue at every point in parameter space. Semi-analytic models (SAMs) process each halo merger tree independently, so running a SAM on $m$ of $k$ disjoint partitions of the trees, each spanning the full box, cuts the cost by $k/m$. Because a halo's galaxies are kept or discarded together, one-halo pairs are diluted less than two-halo pairs, and the naive estimate overstates small-scale clustering by a factor $k/m$. We introduce the Sparse and Unbiased Clustering Estimator (SaUCE), which removes this bias with weights set by $m$ and $k$ alone. It has no free parameters, gives exactly unbiased pair counts, and applies to any catalogue built from a random subset of whole haloes and to any pair-count statistic. Running a SAM on 7 per cent of the P-Millennium merger trees, 68 per cent of random selections recover the full-box $ξ(r)$ at $z=0$ to within 0.05 dex in each bin from 0.03 to $30\\,h^{-1}\\,\\mathrm{Mpc}$, at a density of $10^{-2}\\,h^{3}\\,\\mathrm{Mpc}^{-3}$: a fourteen-fold computational saving. The required fraction rises with redshift and as the number density falls, is the same for two model variants, and transfers between boxes through the galaxy and pair counts. The scatter, derived in closed form, is strongly correlated between bins, so a likelihood must use the full covariance. A recipe for choosing the fraction makes the 2PCF affordable for model calibration and simulation-based inference.",
@@ -18,23 +18,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-09T19:00:02Z",
-    "updated_at": "2026-11-09T19:00:02Z",
-    "document_types": [],
+    "submitted_at": "2026-11-09T00:00:00Z",
+    "updated_at": "2026-11-11T14:13:03.730035Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.13083v1",
     "pdf_url": "https://arxiv.org/pdf/2611.13083v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3226946",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.13083",
-        "fetched_at": "2026-11-11T02:52:34.968827Z",
+        "fetched_at": "2026-11-12T03:56:39.768375Z",
         "url": "https://arxiv.org/abs/2611.13083v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3226946",
+        "fetched_at": "2026-11-12T03:56:39.768375Z",
+        "url": "https://inspirehep.net/literature/3226946"
       }
     ],
     "is_demo": false

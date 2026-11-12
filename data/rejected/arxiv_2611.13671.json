@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.13671",
+    "arxiv_id": "2611.13671",
+    "arxiv_version": null,
+    "inspire_id": "3227010",
+    "doi": null,
+    "title_en": "Quantum-Assisted Generative Anomaly Detection: A Dimension-Controlled Study of Latent Refinement",
+    "abstract_en": "Anomaly-based malware detectors learn what benign files look like and flag deviations. Generative approaches to this problem can make use of a \"latent\" or \"prior\" data representation, which is often chosen to be a Gaussian distribution. We ask whether the choice of prior distribution matters, and whether one produced by quantum hardware behaves differently from a classical one. Building on SAGEGAN, a style-based detector trained only on benign data, we compare three latent distributions: the original 512-dimensional Gaussian, a 48-dimensional Gaussian, and a 48-dimensional distribution sampled from an ORCA Computing PT-2 photonic quantum processor. We then refine each trained model's frozen representation using greedy and reinforcement-learning methods. Across ten random seeds, the quantum-derived model shows richer internal structure with better effective rank and latent similarity. It also benefits most from refinement. Though final detection accuracy is similar to that of the refined Gaussian latent, these findings show differences in latent geometry and refinement behavior between the trained configurations.",
+    "authors": [
+      "Wijayasiri, Thesath",
+      "Bacarreza, Omar",
+      "Clements, William",
+      "Fok, Kar Wai",
+      "Thing, Vrizlynn L.L."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-11T13:02:34.315528Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227010",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227010",
+        "fetched_at": "2026-11-12T03:56:39.768375Z",
+        "url": "https://inspirehep.net/literature/3227010"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
