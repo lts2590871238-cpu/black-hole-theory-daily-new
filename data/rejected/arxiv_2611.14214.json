@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.14214",
+    "arxiv_id": "2611.14214",
+    "arxiv_version": null,
+    "inspire_id": "3227257",
+    "doi": null,
+    "title_en": "Classical phase unwrapping enables large-time-step unitary quantum Krylov subspace diagonalization",
+    "abstract_en": "For computing molecular energies on early fault-tolerant hardware, unitary quantum Krylov subspace diagonalization (UQKSD) avoids both the deep circuits of quantum phase estimation and the Pauli-term sampling of variational methods by extracting the energies from a projected real-time propagator. At a small time step $τ$, nearly linearly dependent Krylov vectors make the overlap matrix ill-conditioned. Our tests at fixed total evolution time show that additional Krylov vectors then add no accuracy, while the thresholded energy becomes increasingly sensitive to the choice of cutoff. A larger time step improves the conditioning and reduces the Krylov dimension $M$ needed for a target accuracy, but the energies are then known only modulo $2π/τ$. We present Classical Unwrapping for Resolving Eigenvalues (CURE-QKSD), a classical post-processing method that leaves the UQKSD circuits and generalized eigenvalue problem unchanged and recovers the missing multiples of $2π/τ$ from phase-consistency landscapes of one or, when needed, two UQKSD runs. In noiseless tests on six molecules with 12--20 qubits, all 28 targeted energies are recovered in their aliased regimes with final errors of at most $1.1\\times10^{-7}$~Ha. Under Gaussian noise with $σ=10^{-4}$, the median error of the ground or first excited state reaches chemical accuracy at large aliased time steps with $M=20$--$65$, whereas uncorrected principal-branch energies are off by $0.7$--$115$~Ha. CURE-QKSD therefore makes aliased time steps usable for UQKSD calculations with smaller, better-conditioned Krylov bases.",
+    "authors": [
+      "Jain, Tushar Kumar",
+      "Maitra, Rahul",
+      "Mayhall, Nicholas J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-12T15:49:53.438363Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227257",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227257",
+        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "url": "https://inspirehep.net/literature/3227257"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

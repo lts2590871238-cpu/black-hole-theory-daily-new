@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15331",
+    "arxiv_id": "2611.15331",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "FOORT: Flexible Object-Oriented Ray Tracing",
+    "abstract_en": "We present FOORT (Flexible Object-Oriented Ray Tracing), an open C++ code for ray-tracing images of black holes and other compact objects in arbitrary spacetimes. FOORT is designed to offer flexibility and can handle horizons, naked singularities and numerical metrics, allowing it to ray-trace numerous different metrics including Kerr and other black holes, as well as horizonless objects such as fuzzballs and boson stars. New metrics, analytical or numerical, can be added with minimal effort, and geodesics are initialized at the camera without reference to conserved quantities, so no special structure of the metric is required. Besides the intensity observed from a geometrically and optically thin equatorial disk, FOORT is set up to track a number of diagnostics along each geodesic, such as the number of equatorial crossings and the radius of closest approach. Its adaptive mesh can refine the image on any of these diagnostics, efficiently resolving narrow features such as higher-order photon rings. Accompanying Python tools convert the output into images and interferometric visibility amplitudes. We describe the main features of the code, validate it against analytic results in the Schwarzschild and Kerr spacetimes, demonstrate it on several non-Kerr metrics, and characterize its scaling with the number of OpenMP threads. FOORT is lightweight, requiring only C++17 and OpenMP, and has already been used in a number of studies of black hole and compact-object imaging. The code is publicly available in a GitHub repository.",
+    "authors": [
+      "Daniel R. Mayerson",
+      "Seppe J. Staelens",
+      "Fabio Bacchini"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "hep-th"
+    ],
+    "submitted_at": "2026-11-11T11:10:03Z",
+    "updated_at": "2026-11-11T11:10:03Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.15331v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.15331v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.15331",
+        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "url": "https://arxiv.org/abs/2611.15331v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

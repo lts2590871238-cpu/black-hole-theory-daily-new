@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.14255",
     "arxiv_id": "2611.14255",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3227248",
     "doi": null,
     "title_en": "Simulation-Based Inference on EMRI Frequency Tracks: Harmonic Identification and Parameter Constraints from Search Outputs",
     "abstract_en": "Extreme Mass Ratio Inspirals (EMRIs) are key targets for the Laser Interferometer Space Antenna, but their long, multi-harmonic waveforms make search and parameter estimation computationally expensive. A promising alternative is to work directly with frequency tracks recovered by a time-frequency search pipeline. We investigate whether such tracks can be used to (i) identify which harmonic(s) a recovered track corresponds to, and (ii) constrain the intrinsic EMRI parameters, including when tracks are partially masked near plunge. We first train Simulation-Based Inference (SBI) networks on large banks of azimuthal and radial fundamental-frequency tracks. For harmonic identification, we combine pairs of candidate tracks under different harmonic-label assumptions and use the resulting posterior medians and network acceptance rates to classify the correct labelling. For parameter identification, we apply a sequential (truncated-prior) SBI scheme and refine the results by cross-checking posterior samples against a time-frequency detection statistic. The correct harmonic pair is among the top-2 ranked candidates with probability $>0.99$ across masking levels, and is identified outright in 98% of cases when restricted to physically plausible candidates. Sequential SBI shrinks the intrinsic-parameter prior volume by up to $10^{13}$ within a few hours of GPU time, and the detection-statistic refinement reduces it by up to four further orders of magnitude, even for heavily masked tracks. Frequency-track-based SBI thus provides a fast, waveform-free way to identify EMRI harmonics and obtain tight prior volumes for targeted follow-up, substantially reducing the burden on subsequent MCMC-based analyses.",
@@ -17,23 +17,31 @@
     "categories": [
       "gr-qc"
     ],
-    "submitted_at": "2026-11-10T16:03:44Z",
-    "updated_at": "2026-11-10T16:03:44Z",
-    "document_types": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-12T15:50:14.676605Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.14255v1",
     "pdf_url": "https://arxiv.org/pdf/2611.14255v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227248",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.14255",
-        "fetched_at": "2026-11-12T03:56:39.768375Z",
+        "fetched_at": "2026-11-13T03:28:19.467476Z",
         "url": "https://arxiv.org/abs/2611.14255v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3227248",
+        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "url": "https://inspirehep.net/literature/3227248"
       }
     ],
     "is_demo": false
