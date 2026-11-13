@@ -1,5 +1,5 @@
 schema_version: "1.0"
-config_version: "topics-2026-07-13.2"
+config_version: "topics-2026-11-13.1"
 allowed_categories:
   - gr-qc
   - hep-th
@@ -8,6 +8,18 @@ allowed_categories:
   - cond-mat.str-el
   - cond-mat.quant-gas
   - cond-mat.supr-con
+arxiv_focus_queries:
+  # 附加定向抓取：避免大量普通论文占满最近更新分页后漏掉小众方向。
+  - >-
+    all:"metric-affine" OR all:"metric affine" OR all:"Palatini"
+    OR all:"hypermomentum" OR all:"independent connection"
+    OR all:"nonmetricity" OR all:"Ricci-based gravity"
+  - >-
+    all:"modified gravity" OR all:"Horndeski" OR all:"DHOST"
+    OR all:"scalar-tensor" OR all:"teleparallel" OR all:"Gauss-Bonnet"
+    OR all:"Lovelock" OR all:"Einstein-aether" OR all:"Brans-Dicke"
+    OR all:"bimetric" OR all:"massive gravity" OR all:"f(R)"
+    OR all:"f(Q)" OR all:"f(T)" OR all:"Chern-Simons gravity"
 topics:
   black_hole_thermodynamics:
     label_zh: "黑洞热力学"
@@ -170,6 +182,130 @@ topics:
       - null geodesic
       - horizon instability
       - mass inflation
+  metric_affine_gravity:
+    label_zh: "度规–仿射引力（MAG）"
+    label_en: "Metric-affine gravity (MAG)"
+    high_weight:
+      - metric-affine gravity
+      - metric-affine theory
+      - metric-affine theories
+      - metric-affine formulation
+      - metric-affine geometry
+      - metric-affine spacetime
+      - metric-affine
+      - metric affine
+      - hypermomentum
+      - nonmetricity and torsion
+      - torsion and nonmetricity
+      - independent affine connection
+      - ricci-based gravity
+    medium_weight:
+      - hypermomentum tensor
+      - nonmetricity
+      - non-metricity
+      - disformation
+      - post-riemannian geometry
+      - projective invariance
+      - projective symmetry
+      - affine connection
+      - independent connection
+      - metric connection
+      - connection field equation
+      - spin and dilation currents
+  palatini_gravity:
+    label_zh: "Palatini 引力"
+    label_en: "Palatini gravity"
+    high_weight:
+      - palatini
+      - metric-palatini
+      - hybrid metric-palatini
+      - palatini f(r)
+      - palatini formalism
+      - palatini formulation
+      - palatini approach
+      - eddington-inspired born-infeld
+      - eddington inspired born infeld
+    medium_weight:
+      - metric-affine f(r)
+      - independent connection
+      - connection variation
+      - first-order gravity
+      - first order formalism
+      - ricci-based gravity
+      - einstein-palatini
+  modified_gravity:
+    label_zh: "修改引力"
+    label_en: "Modified gravity"
+    high_weight:
+      - modified gravity
+      - modified theories of gravity
+      - alternative theories of gravity
+      - extended theories of gravity
+      - f(r) gravity
+      - f(r) theories
+      - f(r) theory
+      - f(r,g) gravity
+      - f(t) gravity
+      - f(q) gravity
+      - scalar-tensor gravity
+      - scalar-tensor theory
+      - scalar tensor theory
+      - horndeski
+      - beyond horndeski
+      - dhosT
+      - brans-dicke
+      - einstein-aether
+      - einstein-æther
+      - hořava-lifshitz gravity
+      - horava-lifshitz gravity
+      - massive gravity
+      - bimetric gravity
+      - bigravity
+      - teleparallel gravity
+      - symmetric teleparallel
+      - einstein-gauss-bonnet gravity
+      - gauss-bonnet gravity
+      - lovelock gravity
+      - quadratic gravity
+      - higher-curvature gravity
+      - higher derivative gravity
+      - higher-derivative gravity
+      - conformal gravity
+      - cern-simons gravity
+      - chern-simons modified gravity
+      - dynamical chern-simons gravity
+      - rastall gravity
+      - mimetic gravity
+      - nonlocal gravity
+      - non-local gravity
+      - einsteinian cubic gravity
+      - quasi-topological gravity
+      - eddington-inspired born-infeld
+    medium_weight:
+      - f(r)
+      - f(t)
+      - f(q)
+      - f(g)
+      - scalar tensor
+      - higher curvature
+      - higher derivative
+      - nonminimal coupling
+      - non-minimal coupling
+      - gravitational slip
+      - effective gravitational constant
+      - modified field equations
+      - modified gravitational dynamics
+      - torsion scalar
+      - nonmetricity scalar
+      - galileon
+      - degenerate higher order scalar tensor
+      - screened fifth force
+      - chameleon screening
+      - vainshtEin mechanism
+      - generalized proca
+      - vector tensor gravity
+      - gravitational degrees of freedom
+      - parity-violating gravity
 negative_terms:
   - holographic display
   - holographic storage

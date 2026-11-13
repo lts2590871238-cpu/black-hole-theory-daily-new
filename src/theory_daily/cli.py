@@ -36,7 +36,7 @@ def _parser() -> argparse.ArgumentParser:
     commands.add_parser("build", help="用正式历史重新生成静态站点")
     commands.add_parser("validate", help="验证 dist 静态输出")
     demo_parser = commands.add_parser("demo", help="生成不访问网络的演示站")
-    demo_parser.add_argument("--fixtures", action="store_true", help="使用内置 8 篇虚构夹具")
+    demo_parser.add_argument("--fixtures", action="store_true", help="使用内置虚构夹具")
     serve_parser = commands.add_parser("serve", help="在本地预览 dist")
     serve_parser.add_argument("--port", type=int, default=8000)
     return parser

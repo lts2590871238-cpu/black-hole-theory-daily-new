@@ -32,8 +32,18 @@ may contribute at most 5 community-signal points. Translate the ENTIRE English a
 faithfully into Chinese, sentence by sentence. The abstract_zh field must not be a summary:
 do not omit the research question, assumptions, methods, results, qualifiers, negative
 results, limitations, or uncertainty. Do not explain, expand, strengthen, or turn claims
-into facts; preserve LaTeX, variables, model names, and personal names. Return only the
-requested structured object."""
+into facts; preserve LaTeX, variables, model names, and personal names.
+The supported topics include metric_affine_gravity (independent connection, torsion,
+nonmetricity, hypermomentum, MAG), palatini_gravity (Palatini variational formalism and
+Palatini-type theories), and modified_gravity (all other modified-gravity families,
+including scalar-tensor, Horndeski/DHOST, teleparallel, f(R)/f(T)/f(Q), vector-tensor,
+massive/bimetric, higher-curvature, parity-violating and related theories). These
+three topics are equally eligible for selection as the four older topics; do not
+require a gravitational-wave or black-hole application. When multiple candidate
+labels match, choose the most specific dominant subject: metric_affine_gravity or
+palatini_gravity before the general modified_gravity label. Use first_stage.candidate_topics
+as the evidence for topic assignment, and apply the SAME scoring standards to all
+topics. Return only the requested structured object."""
 
 
 class LLMDecisionPayload(BaseModel):

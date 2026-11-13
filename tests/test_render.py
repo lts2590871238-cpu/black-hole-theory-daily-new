@@ -48,8 +48,13 @@ def test_static_build_outputs_and_html_escaping(tmp_path: Path, settings, topics
         assert (output / relative).exists()
 
 
-def test_demo_contains_eight_clearly_marked_examples() -> None:
+def test_demo_contains_eleven_clearly_marked_examples() -> None:
     papers = demo_papers()
-    assert len(papers) == 8
+    assert len(papers) == 11
     assert all(item.paper.is_demo for item in papers)
     assert all(item.paper.canonical_key.startswith("demo:") for item in papers)
+
+
+def test_demo_includes_the_three_new_gravity_topics() -> None:
+    topics = {paper.decision.primary_topic for paper in demo_papers()}
+    assert {"metric_affine_gravity", "palatini_gravity", "modified_gravity"} <= topics

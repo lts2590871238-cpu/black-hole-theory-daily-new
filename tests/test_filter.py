@@ -70,6 +70,60 @@ def test_pta_is_found_from_abstract_context_without_title_acronym(
     assert "quadrupolar spatial correlation" in result.high_weight_hits
 
 
+def test_metric_affine_paper_is_included(paper_factory, topics, settings) -> None:
+    paper = paper_factory(
+        title_en="Gravitational waves in metric-affine gravity",
+        abstract_en=(
+            "We study a metric-affine theory with nonmetricity, torsion and hypermomentum. "
+            "The independent connection enters the field equations, and we derive the "
+            "propagating gravitational degrees of freedom and test their limits. " * 4
+        ),
+    )
+    result = filter_paper(paper, topics, settings)
+    assert result.passed
+    assert "metric_affine_gravity" in result.candidate_topics
+
+
+def test_palatini_paper_is_included(paper_factory, topics, settings) -> None:
+    paper = paper_factory(
+        title_en="Cosmological perturbations in Palatini f(R) gravity",
+        abstract_en=(
+            "We use the Palatini formalism to vary the metric and connection independently. "
+            "The study derives the cosmological field equations and tests the perturbative "
+            "solutions against the Einstein limit with controlled assumptions. " * 4
+        ),
+    )
+    result = filter_paper(paper, topics, settings)
+    assert result.passed
+    assert "palatini_gravity" in result.candidate_topics
+
+
+def test_modified_gravity_families_are_included(paper_factory, topics, settings) -> None:
+    for family in ("Horndeski", "f(Q) gravity", "Einstein-aether"):
+        paper = paper_factory(
+            title_en=f"Perturbations in {family}",
+            abstract_en=(
+                f"We derive linearized field equations in {family} and explore "
+                "their physical modes in a controlled relativistic approximation. " * 6
+            ),
+        )
+        result = filter_paper(paper, topics, settings)
+        assert result.passed
+        assert "modified_gravity" in result.candidate_topics
+
+
+def test_bare_mag_abbreviation_is_not_enough(paper_factory, topics, settings) -> None:
+    paper = paper_factory(
+        title_en="MAG observations of a magnetic plasma",
+        abstract_en=(
+            "The MAG instrument measures magnetic fluctuations in the plasma. "
+            "We report the instrument settings and calibrate the observed signal. " * 8
+        ),
+    )
+    result = filter_paper(paper, topics, settings)
+    assert "metric_affine_gravity" not in result.candidate_topics
+
+
 def test_recall_settings_are_broader(settings) -> None:
     assert settings.pipeline.since_days == 7
     assert settings.pipeline.selection_threshold == 50

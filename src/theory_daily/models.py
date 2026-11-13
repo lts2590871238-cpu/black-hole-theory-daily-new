@@ -13,6 +13,9 @@ TopicId = Literal[
     "pta",
     "holography_condensed_matter",
     "general_relativity_foundations",
+    "metric_affine_gravity",
+    "palatini_gravity",
+    "modified_gravity",
 ]
 
 

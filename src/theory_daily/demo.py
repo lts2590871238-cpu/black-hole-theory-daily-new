@@ -73,6 +73,27 @@ _TOPICS: list[tuple[TopicId, str, str, list[str], list[str]]] = [
         ["trapped surface", "causal structure"],
         ["俘获面", "因果结构"],
     ),
+    (
+        "metric_affine_gravity",
+        "Wave propagation in a metric-affine model with nonmetricity",
+        "含非度量性的度规–仿射模型中的波传播",
+        ["metric-affine gravity", "nonmetricity"],
+        ["度规–仿射引力", "非度量性"],
+    ),
+    (
+        "palatini_gravity",
+        "Cosmological dynamics in a Palatini gravity model",
+        "Palatini 引力模型中的宇宙学动力学",
+        ["Palatini gravity", "independent connection"],
+        ["Palatini 引力", "独立联络"],
+    ),
+    (
+        "modified_gravity",
+        "Perturbations in scalar-tensor modified gravity",
+        "标量–张量修改引力中的扰动",
+        ["scalar-tensor gravity", "modified gravity"],
+        ["标量–张量引力", "修改引力"],
+    ),
 ]
 
 

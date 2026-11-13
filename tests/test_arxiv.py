@@ -49,6 +49,7 @@ def test_arxiv_paginates_until_an_empty_page(settings, topics) -> None:
     settings.pipeline.arxiv_page_size = 1
     settings.pipeline.arxiv_max_pages = 3
     settings.pipeline.arxiv_request_interval_seconds = 0
+    topics.arxiv_focus_queries = []
     session = Session()
     client = ArxivClient(
         settings,
@@ -79,6 +80,7 @@ def test_arxiv_keeps_completed_pages_when_a_later_page_times_out(settings, topic
     settings.pipeline.arxiv_page_size = 1
     settings.pipeline.arxiv_max_pages = 3
     settings.pipeline.arxiv_request_interval_seconds = 0
+    topics.arxiv_focus_queries = []
     session = LaterPageTimeoutSession()
     client = ArxivClient(
         settings,
@@ -107,3 +109,44 @@ def test_arxiv_first_page_timeout_is_reported_to_pipeline(settings, topics) -> N
 
     with pytest.raises(ReadTimeout, match="arXiv timed out"):
         client.fetch(topics, datetime(2026, 7, 10, tzinfo=UTC))
+
+
+class FocusedSearchSession:
+    def __init__(self) -> None:
+        self.calls: list[dict[str, Any]] = []
+
+    def get(self, *_args: object, **kwargs: Any) -> Response:
+        self.calls.append(kwargs["params"])
+        query = kwargs["params"]["search_query"]
+        if "AND" in query and 'all:"Palatini"' in query:
+            return Response((FIXTURES / "arxiv.xml").read_bytes())
+        return Response(b'<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom"></feed>')
+
+
+def test_focused_search_can_find_a_paper_missing_from_category_first_page(
+    settings, topics
+) -> None:
+    settings.pipeline.arxiv_request_interval_seconds = 0
+    session = FocusedSearchSession()
+    records, raw_pages = ArxivClient(
+        settings, session=session, sleeper=lambda _seconds: None  # type: ignore[arg-type]
+    ).fetch(topics, datetime(2026, 7, 10, tzinfo=UTC))
+    assert len(records) == 1
+    assert len(raw_pages) == 1 + len(topics.arxiv_focus_queries)
+    assert any("AND" in call["search_query"] for call in session.calls)
+
+
+class DuplicateFocusedSearchSession(FocusedSearchSession):
+    def get(self, *_args: object, **kwargs: Any) -> Response:
+        self.calls.append(kwargs["params"])
+        return Response((FIXTURES / "arxiv.xml").read_bytes())
+
+
+def test_focused_search_deduplicates_records(settings, topics) -> None:
+    settings.pipeline.arxiv_request_interval_seconds = 0
+    records, _raw_pages = ArxivClient(
+        settings,
+        session=DuplicateFocusedSearchSession(),  # type: ignore[arg-type]
+        sleeper=lambda _seconds: None,
+    ).fetch(topics, datetime(2026, 7, 10, tzinfo=UTC))
+    assert len(records) == 1

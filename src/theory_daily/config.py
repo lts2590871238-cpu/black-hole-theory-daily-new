@@ -70,6 +70,7 @@ class TopicsConfig(BaseModel):
     schema_version: str
     config_version: str
     allowed_categories: list[str]
+    arxiv_focus_queries: list[str] = Field(default_factory=list)
     topics: dict[TopicId, TopicRule]
     negative_terms: list[str]
     hard_exclusions: list[str]

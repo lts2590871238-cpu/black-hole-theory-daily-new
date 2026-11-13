@@ -101,45 +101,71 @@ class ArxivClient:
         self, topics: TopicsConfig, since: datetime
     ) -> tuple[list[RawArxivRecord], list[bytes]]:
         category_query = " OR ".join(f"cat:{category}" for category in topics.allowed_categories)
-        collected: list[RawArxivRecord] = []
+        # Preserve the original category-wide feed and supplement it with targeted
+        # searches so niche gravity papers are not lost behind the global page cap.
+        queries = [f"({category_query})"] + [
+            f"({category_query}) AND ({focus})" for focus in topics.arxiv_focus_queries
+        ]
+        collected: dict[str, RawArxivRecord] = {}
         raw_pages: list[bytes] = []
         page_size = self.settings.pipeline.arxiv_page_size
-        for page in range(self.settings.pipeline.arxiv_max_pages):
-            params: dict[str, str | int] = {
-                "search_query": f"({category_query})",
-                "start": page * page_size,
-                "max_results": page_size,
-                "sortBy": "lastUpdatedDate",
-                "sortOrder": "descending",
-            }
-            try:
-                response = self.session.get(
-                    API_URL,
-                    params=params,
-                    timeout=(10, self.settings.pipeline.request_timeout_seconds),
-                )
-                response.raise_for_status()
-            except RequestException:
-                if not raw_pages:
-                    raise
-                LOGGER.warning(
-                    "arXiv page %s failed after retries; keeping %s records from earlier pages",
-                    page + 1,
-                    len(collected),
-                    exc_info=True,
-                )
-                break
-            raw_pages.append(response.content)
-            page_records = parse_atom(response.content)
-            if not page_records:
-                break
-            collected.extend(record for record in page_records if record.updated_at >= since)
-            reached_cutoff = min(record.updated_at for record in page_records) < since
-            if reached_cutoff or len(page_records) < page_size:
-                break
-            if page + 1 < self.settings.pipeline.arxiv_max_pages:
+        for query_index, search_query in enumerate(queries):
+            # Focused searches usually cover a small number of records; bound
+            # their cost without changing the existing category-wide pagination.
+            max_pages = (
+                self.settings.pipeline.arxiv_max_pages
+                if query_index == 0
+                else min(3, self.settings.pipeline.arxiv_max_pages)
+            )
+            for page in range(max_pages):
+                params: dict[str, str | int] = {
+                    "search_query": search_query,
+                    "start": page * page_size,
+                    "max_results": page_size,
+                    "sortBy": "lastUpdatedDate",
+                    "sortOrder": "descending",
+                }
+                try:
+                    response = self.session.get(
+                        API_URL,
+                        params=params,
+                        timeout=(10, self.settings.pipeline.request_timeout_seconds),
+                    )
+                    response.raise_for_status()
+                except RequestException:
+                    if query_index == 0 and not raw_pages:
+                        raise
+                    LOGGER.warning(
+                        "arXiv query %s page %s failed; keeping successful pages",
+                        query_index + 1,
+                        page + 1,
+                        exc_info=True,
+                    )
+                    break
+                raw_pages.append(response.content)
+                page_records = parse_atom(response.content)
+                if not page_records:
+                    break
+                for record in page_records:
+                    if record.updated_at < since:
+                        continue
+                    key = _VERSION.sub("", record.arxiv_id)
+                    previous = collected.get(key)
+                    if previous is None or (
+                        (record.updated_at, record.version)
+                        > (previous.updated_at, previous.version)
+                    ):
+                        collected[key] = record
+                reached_cutoff = min(record.updated_at for record in page_records) < since
+                if reached_cutoff or len(page_records) < page_size:
+                    break
+                if page + 1 < max_pages:
+                    self.sleeper(self.settings.pipeline.arxiv_request_interval_seconds)
+            if query_index + 1 < len(queries):
                 self.sleeper(self.settings.pipeline.arxiv_request_interval_seconds)
-        return collected, raw_pages
+        return sorted(
+            collected.values(), key=lambda record: record.updated_at, reverse=True
+        ), raw_pages
 
 
 def default_since(days: int) -> datetime:

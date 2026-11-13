@@ -26,7 +26,15 @@ from theory_daily.llm_curation import (
     build_curation_client,
     curate_with_cache,
 )
-from theory_daily.models import PublishedPaper, RawArxivRecord, RawInspireRecord, RunReport
+from theory_daily.models import (
+    FilterResult,
+    NormalizedPaper,
+    PublishedPaper,
+    RawArxivRecord,
+    RawInspireRecord,
+    RunReport,
+    TopicId,
+)
 from theory_daily.normalize import from_arxiv, from_inspire
 from theory_daily.render import build_site, load_published_papers
 from theory_daily.storage import ensure_directories, load_state, write_json
@@ -53,6 +61,33 @@ def _publish_staging(root: Path, staging: Path) -> None:
         raise
     if backup.exists():
         shutil.rmtree(backup)
+
+
+def _prioritize_candidates(
+    candidates: list[tuple[NormalizedPaper, FilterResult]],
+    topics: TopicsConfig,
+    *,
+    per_topic: int = 4,
+) -> list[tuple[NormalizedPaper, FilterResult]]:
+    """Reserve a few recent candidates per topic without raising the LLM budget."""
+    ordered = sorted(candidates, key=lambda pair: pair[0].updated_at, reverse=True)
+    prioritized: list[tuple[NormalizedPaper, FilterResult]] = []
+    selected: set[str] = set()
+    topic_ids: list[TopicId] = list(topics.topics)
+    for topic_id in topic_ids:
+        count = 0
+        for candidate in ordered:
+            paper, result = candidate
+            if paper.canonical_key in selected or topic_id not in result.candidate_topics:
+                continue
+            prioritized.append(candidate)
+            selected.add(paper.canonical_key)
+            count += 1
+            if count >= per_topic:
+                break
+    return prioritized + [
+        candidate for candidate in ordered if candidate[0].canonical_key not in selected
+    ]
 
 
 def update(
@@ -149,6 +184,7 @@ def update(
                 },
             )
         report.candidates = len(candidates)
+        candidates = _prioritize_candidates(candidates, topics)
 
         client = curation_client
         fingerprint = configuration_fingerprint(settings, topics)

@@ -3,11 +3,11 @@
 <section class="hero">
   <p class="eyebrow">CURATED THEORY · 每日自动更新</p>
   <h1>少而精的引力理论<br>论文入口</h1>
-  <p class="lede">聚焦黑洞热力学、PTA、全息凝聚态与广义相对论基础。每条结果保留来源、入选理由和分项评分。</p>
+  <p class="lede">聚焦黑洞热力学、PTA、全息凝聚态、广义相对论基础，以及修改引力、度规–仿射引力（MAG）和 Palatini 理论。每条结果保留来源、入选理由和分项评分。</p>
   <div class="snapshot" aria-label="今日概览">
     <div><strong>{{ papers|length }}</strong><span>当前精选</span></div>
     <div><strong>{{ generated.strftime('%Y-%m-%d') }}</strong><span>最近构建（北京）</span></div>
-    <div><strong>4</strong><span>研究主题</span></div>
+    <div><strong>{{ topics.topics|length }}</strong><span>研究主题</span></div>
   </div>
 </section>
 
