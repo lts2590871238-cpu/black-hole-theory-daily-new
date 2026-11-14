@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.14678",
     "arxiv_id": "2611.14678",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3227759",
     "doi": null,
     "title_en": "CosmoSim: Lens-parameter estimation of the Einstein Cross NGC 6505 using machine learning",
     "abstract_en": "CosmoSim is an open-source tool for simulating gravitational lenses and reconstructing lens mass distributions, either by ray tracing a parametric lens model or through a Roulette expansion of the lens potential. It is also used to generate the large, labelled synthetic image sets needed to train machine-learning (ML) parameter estimators. We present the first application of CosmoSim to real data. A convolutional neural network trained only on CosmoSim images estimates Singular Isothermal Ellipsoid lens and source parameters directly from observed images. We test the pipeline on 21 images of 19 strong lenses from Euclid and the AGEL survey, after removing the foreground lens light with a custom decontamination tool built on AstroPy. As a case study we reconstruct the Einstein Cross NGC 6505 both from the lens model published by the discovery team and from parameters predicted by our ML model. Both reconstructions recover the observed four-image structure, and the ML-based reconstruction performs at least as well as the literature-based one: it scores better on masked structural similarity, intersection-over-union and Chamfer distance, with an essentially equal Hausdorff distance. Across the ensemble, the predicted Einstein radii are consistent with catalogued values within the quoted uncertainties (mean relative difference 0.08 for Euclid and 0.19 for AGEL lenses), and the enclosed masses agree to within a median of 0.12 dex. The predicted ellipticities differ systematically from the catalogued values, while the comparison of orientations is inconclusive. These results establish CosmoSim as a tool that can be applied directly to observational data.",
@@ -16,23 +16,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-10T19:32:48Z",
-    "updated_at": "2026-11-10T19:32:48Z",
-    "document_types": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:58:00.749017Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.14678v1",
     "pdf_url": "https://arxiv.org/pdf/2611.14678v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227759",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.14678",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
         "url": "https://arxiv.org/abs/2611.14678v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3227759",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227759"
       }
     ],
     "is_demo": false

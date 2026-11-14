@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15274",
+    "arxiv_id": "2611.15274",
+    "arxiv_version": null,
+    "inspire_id": "3227729",
+    "doi": null,
+    "title_en": "Benchmarking Machine-Learning Top Taggers from JetClass to a Full-Simulation $Z'\\to t\\bar{t}$ Search: Transfer, Extrapolation, Sensitivity and Inference Cost",
+    "abstract_en": "Searches for heavy resonances decaying to \\(t\\bar{t}\\) test physics beyond the Standard Model at the TeV scale, and their reach depends on how well boosted top jets are identified. Machine-learning top taggers are usually compared on fast-simulation samples without pileup and in a narrow jet-\\(p_T\\) window, so a benchmark ranking does not directly show how much each tagger adds to a real search. This study trains seven taggers under identical conditions on JetClass. They are a boosted decision tree, two image-based networks, ParticleNet, and three particle transformers (ParT, UParT, and GloParT). The taggers are then applied without retraining to a \\(Z'\\to t\\bar{t}\\) search with \\(m_{Z'}\\) between 1.2 and 2.5~TeV, using 2016 CMS Open Data simulated with Geant4 and realistic pileup. The overall benchmark order of the taggers is preserved. However, taggers with similar area under the ROC curve (AUC) differ by up to a factor of three in jet-level discovery significance. The particle transformers extend the mass reach of the search by \\(400~\\mathrm{GeV}\\), and their lead grows with resonance mass. This gain is seen in fully merged top jets and is associated with stable performance at jet \\(p_T\\) above the training range. Pileup has only a minor effect on all taggers. A small convolutional network achieves competitive discrimination at a much lower computational cost. The gaps between tagger groups hold under retraining and within statistical uncertainties. The results show that a tagger must be chosen on its kinematic coverage, the working point of the analysis, its discovery sensitivity and its cost, and not on its benchmark score alone.",
+    "authors": [
+      "Kumari, Manisha",
+      "Sarkar, Amal"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T11:10:42.391308Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227729",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227729",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227729"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

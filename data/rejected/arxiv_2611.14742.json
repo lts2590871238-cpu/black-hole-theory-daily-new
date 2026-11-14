@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.14742",
     "arxiv_id": "2611.14742",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3227808",
     "doi": null,
     "title_en": "VIDE 2.0: Robust, Scalable Void Finding for Extremely Large Galaxy Surveys",
     "abstract_en": "Current and future spectroscopic and photometric galaxy surveys will deliver unprecedented numbers of galaxies, with expected counts in the tens of millions. To answer the computational challenges posed by these surveys, in this paper we present VIDE 2.0, a significantly improved and enhanced void finding algorithm and analysis pipeline based on VIDE. Leveraging the parameter-free identification of voids via a Voronoi tessellation and watershed scheme, we implement a robust mechanism for handling survey boundaries and incompleteness without relying on vast numbers of boundary particles. This new method identifies edge galaxies and flags voids contaminated by their presence. The mechanism is fully deterministic, producing bit-for-bit reproducible catalogs from identical inputs. An automatic rule for setting the mask resolution renders the entire pipeline parameter-free. Combined with other performance enhancements to the underlying VIDE engine, we find significant ($>100\\times$) speedups and a dramatic reduction in memory usage compared to previous versions: a 12-million-galaxy DESI Y1-class mock catalog now completes in roughly 15 minutes on a single laptop, where VIDE 1.0 could not run a catalog of even $10^6$ galaxies on the same hardware. We are also able to identify voids existing closer to survey boundaries via deterministic per-void contamination flags, maximizing their statistical potential. We exercise the upgraded pipeline on two large mock suites (MultiDark-Patchy DR12 and AbacusSummit DESI Y1 ELG), demonstrating converged cosmic-variance covariances for the void number function, the void-galaxy cross-correlation, and the void ellipticity distribution -- key ingredients for Stage IV void cosmology. VIDE 2.0 is now well suited to handle large numbers of galaxies in mock and real observations, and ready to tackle the challenges of future campaigns.",
@@ -16,23 +16,31 @@
       "astro-ph.IM",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-10T21:05:29Z",
-    "updated_at": "2026-11-10T21:05:29Z",
-    "document_types": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:44:10.973002Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.14742v1",
     "pdf_url": "https://arxiv.org/pdf/2611.14742v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227808",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.14742",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
         "url": "https://arxiv.org/abs/2611.14742v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3227808",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227808"
       }
     ],
     "is_demo": false

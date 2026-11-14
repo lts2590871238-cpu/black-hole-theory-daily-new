@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15092",
+    "arxiv_id": "2611.15092",
+    "arxiv_version": null,
+    "inspire_id": "3227726",
+    "doi": null,
+    "title_en": "One molecule, many outputs; many molecules, one output: exact diagnostics for atom-level compositional quantum encoders",
+    "abstract_en": "Quantum natural language processing (QNLP) turns the grammar of a sentence into a tensor network and then into a quantum circuit with trainable angles. We build such a model for molecules: each heavy atom is a word with one wire per bond, and each bond is a ``cup'' joining two wires, so the circuit's wiring is the molecular graph. We work out exactly what these circuits keep. With the typed angle sharing of lambeq, the circuits separate every isomer pair we tested. Yet for isomers that simpler sharing confuses, the output states stay almost the same, before and after training. On 7 Tox21 pairs and 1,988 MOSES pairs, nearly all the difference lies in how often the measurements succeed, which a standard readout ignores. Simpler sharing, by element and bond type, shows why: the output then depends only on a graph whose vertices are the bonds. This explains all but one of the identical-output pairs we certify, including 1.19% of 232,191 MOSES molecules, and for alkyl side chains it reduces to a tree shape that tells chains apart up to 15 atoms but not from 16. On small pairs, this circuit and the 1-WL graph test each separate pairs the other misses. We also show that SMILES writing order can change the output, that a run succeeds with probability at most $2^{-n}$ for $n$ bonds, and that a cup-free design avoids this cost. No circuit beats a simple atom-count model on Tox21, and we claim no quantum advantage.",
+    "authors": [
+      "Naik, Gautami Sanjay",
+      "Krishnan, Ashwanth"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:22:19.369088Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227726",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227726",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227726"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.14710",
+    "arxiv_id": "2611.14710",
+    "arxiv_version": null,
+    "inspire_id": "3227653",
+    "doi": "10.5281/zenodo.24119082",
+    "title_en": "MAGI (Multivariate Autoencoder for particle Generative Inference): a generative Machine Learning framework for accelerated multi-stage particle simulations",
+    "abstract_en": "Monte Carlo particle simulations are hindered by the computational cost of particle transport. This is especially true when large mass surrounds a small sensitive volume. MAGI is a conditional variational autoencoder that learns the joint energy, position and direction distribution of particles crossing a closed surface in a multi-stage simulation, to be resampled and re-injected in a smaller mass model. We validated it generating crossings, variables describing particle features later in the simulation, injecting them into the same Geant4 mass model and comparing the spectrum and counts at detector level with full simulation. Rates per injected crossing agree with unity at $\\sim1σ$ on our benchmark models. We measure the gain of MAGI with statistical amplification $1/χ$ and computational speed-up $S$: the first goes from 150 for high-statistics cosmic rays to 12000 for rare radioactive decays, while the latter ranges from 2.1 to almost 240, depending on source type and mass model. These first results validate MAGI v1.0.0 released on GitHub.",
+    "authors": [
+      "Monastra, Francesco",
+      "Pietrosanto, Marco",
+      "Angora, Giuseppe",
+      "Cavuoti, Stefano",
+      "Fenu, Francesco",
+      "Lotti, Simone",
+      "Perri, Matteo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:31:03.924991Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/3227824'}, C26-08-31.17"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227653",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227653",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227653"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

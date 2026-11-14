@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15365",
+    "arxiv_id": "2611.15365",
+    "arxiv_version": null,
+    "inspire_id": "3227717",
+    "doi": null,
+    "title_en": "A Unified Benchmarking Study of Variational Quantum Eigensolver Ansatz for Electronic Structure Problems",
+    "abstract_en": "Electronic structure calculations become computationally expensive on classical computers as electron correlation increases. Quantum computing offers a promising alternative through hybrid quantum-classical Variational Quantum Eigensolver (VQE) on Noisy-Intermediate Scale Quantum (NISQ) devices. The choice of ansatz plays a pivotal role in the performance and scalability of the VQE, yet selecting an optimal ansatz remains challenging. Existing approaches including chemically inspired ansatz, adaptive schemes and Hardware Efficient Ansätze (HEA) lack a unified comparison. This gap makes the scalability and trade-offs of each method unclear for varying molecular sizes. This work presents a systematic benchmarking study comparing Unitary Couples Cluster Singles and Doubles Ansatz (UCCSD), fermionic ADAPT-VQE, BasicPCA HEA, and Excitation Preserving HEA across molecules of varying size like $H_2$, $LiH$, $N_2$. We evaluate trade-offs among circuit depth, parameter count, ground-state energy error, and NISQ feasibility. ADAPT-VQE achieves accuracy comparable to UCCSD with lower resource overhead, but becomes impractical for modest system sizes ($\\sim$10 electrons) due to increasing circuit complexity. In contrast, HEA reduces hardware costs but requires more parameters and sacrifices accuracy, with performance strongly dependent on molecular size. The Excitation Preserving ansatz remains below chemical accuracy for $H_2$ and $LiH$, and fails for $N_2$, underscoring the need to balance expressibility and trainability. Overall, these results highlight key trade-offs between accuracy and resource efficiency across VQE ansätze, emphasizing the need to improve ADAPT-VQE scalability and HEA accuracy while addressing optimization challenges for near-term quantum hardware.",
+    "authors": [
+      "Raju, Julie Maria",
+      "Kole, Abhoy",
+      "Larrucea, Julen",
+      "Datta, Kamalika",
+      "Weingarten, Lennart",
+      "Drechsler, Rolf"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:15:05.771132Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227717",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227717",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227717"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

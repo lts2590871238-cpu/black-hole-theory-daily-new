@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.17038",
+    "arxiv_id": "2611.17038",
+    "arxiv_version": 1,
+    "inspire_id": "3228212",
+    "doi": null,
+    "title_en": "Rapid Multiparameter Gravitational-Wave Tests of General Relativity with Neural Posterior Estimation",
+    "abstract_en": "Multiparameter gravitational-wave tests of general relativity (GR) are limited by strong correlations among post-Newtonian (PN) phase deformations and the computational cost of Bayesian inference. We present DINGO-TGR, a neural posterior estimation framework that jointly infers binary-source parameters and six PN phase deformations within the TIGER parametrization, using IMRPhenomXPHM waveforms with spin precession and higher-order modes. Importance sampling reweights the neural proposal samples, while principal component analysis (PCA) identifies two well-constrained combinations of PN deformations. We validate the framework using 16 zero-noise GR injections and 12 beyond-GR injections, recovering GR-consistent posteriors in the former and leading-mode shifts consistent with the injected deformations in the latter. For GW150914 and GW250114, our results agree with independent \\texttt{bilby-tgr} analyses using \\texttt{dynesty}. After training, inference including importance sampling takes approximately 38 minutes and 4.4 hours, respectively, compared with 177 and 238 hours for conventional sampling. GW150914 exhibits a mild offset from GR in the leading PCA mode, whereas GW250114 is consistent with GR. To assess the significance of the GW150914 offset, we analyze 1000 GW150914-like GR injections with independent Gaussian-noise realizations and fixed detector power spectral densities. The resulting empirical upper-tail $p$-value is $11.5\\%$, indicating that the observed offset does not reject the adopted GR null model at the 5\\% significance level. Our results demonstrate the potential of importance-sampling-corrected neural inference for efficient multiparameter GR tests and large-scale injection-based significance assessments.",
+    "authors": [
+      "Hong Su",
+      "Tao Yang",
+      "He Wang"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:26:11.944510Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.17038v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.17038v1",
+    "inspire_url": "https://inspirehep.net/literature/3228212",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.17038",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2611.17038v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3228212",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228212"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

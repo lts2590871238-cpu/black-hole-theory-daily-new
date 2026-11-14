@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16539",
+    "arxiv_id": "2611.16539",
+    "arxiv_version": 1,
+    "inspire_id": "3228107",
+    "doi": null,
+    "title_en": "Self-Organizing Maps for the Exploration and Classification of X-Ray Sources in the Chandra Source Catalog",
+    "abstract_en": "In this work, we apply Self-Organizing Maps (SOMs) to the Chandra Source Catalog (CSC) to investigate the distribution of observation-level detections in the feature space defined by their spectral and variability properties. SOMs are neural-network-based models that project points in high-dimensional space onto a two-dimensional latent space while preserving their local topological structure. From CSC 2.1.1 we extract a sample of 36,904 ACIS-only, observation-level, high statistical significance detections, belonging to 17,927 unique sources. Among these detections, 25,192 (10,078 sources) are associated with a label from SIMBAD via a 1\" cross-match that provides information about their astrophysical nature. Training a 40x40 hexagonal SOM reveals structured regions in the U-Matrix and activation response map, and feature-projection maps trace coherent patterns in spectral shape and variability. Overlaying SIMBAD classes shows that labeled populations occupy distinct, partially adjacent regions of the map and that generic categories can be interpreted via their SOM locations. We then retrain the SOM for classification using a source-grouped train/validation/test split and introduce SOMClassifier. When applied to 11,712 detections without SIMBAD labels, it assigns valid (non-abstained) labels to 6,225 detections (coverage ~53%). Furthermore, we release the trained models and visualization/classification workflows through a public web application built on the most up-to-date CSC release.",
+    "authors": [
+      "Andrea Scaudo",
+      "Raffaele D'Abrusco",
+      "V. Samuel Pérez-Díaz",
+      "Juan Rafael Martínez-Galarza",
+      "Marco Landoni"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:53:23.902160Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.16539v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16539v1",
+    "inspire_url": "https://inspirehep.net/literature/3228107",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.16539",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2611.16539v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3228107",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228107"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

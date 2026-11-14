@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.14582",
     "arxiv_id": "2611.14582",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3227654",
     "doi": null,
     "title_en": "MAHA-z: A Mahalanobis distance kNN estimator for photometric redshifts",
     "abstract_en": "We present \\texttt{MAHA-z}, a photometric-redshift (photo-$z$) estimator that combines $k$-nearest neighbour ($k$NN) regression with a Mahalanobis distance metric learned from the covariance of a spectroscopic reference sample. For each target galaxy, \\texttt{MAHA-z} performs a neighbour search in a colour-magnitude feature space with optional morphological parameters, and returns both a point estimate and a redshift posterior $p(z\\mid\\mathbf{f})$ obtained by kernel density estimation over the neighbour redshifts. The Mahalanobis metric accounts for correlated features and heterogeneous units, eliminating ad hoc normalisation, and its subspace restriction allows \\texttt{MAHA-z} to handle missing bands on a per-galaxy basis without imputation. We validate the method on four datasets spanning simulations and survey photometry: the Euclid Flagship~2 mock, the Legacy-KiDZ calibration sample, VIPERS, and the DES Year~3 BAO sample. On Euclid Flagship~2 (LSST+NISP) we achieve $σ_{\\rm NMAD}=0.0148$ with a $0.27\\%$ outlier fraction, and on DES Y3 we obtain $σ_{\\rm NMAD}\\approx0.023$ with $<1\\%$ outliers and posterior calibration comparable to the \\texttt{ANNz2} catalogue. \\texttt{MAHA-z} processes millions of galaxies in minutes and provides competitive PDFs at substantially lower computational cost than trained machine-learning models, making it a practical option for iterative photo-$z$ production and validation in Stage-IV surveys.",
@@ -18,23 +18,31 @@
       "astro-ph.CO",
       "astro-ph.GA"
     ],
-    "submitted_at": "2026-11-10T05:39:44Z",
-    "updated_at": "2026-11-10T05:39:44Z",
-    "document_types": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:57:32.624243Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.14582v1",
     "pdf_url": "https://arxiv.org/pdf/2611.14582v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227654",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.14582",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
         "url": "https://arxiv.org/abs/2611.14582v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3227654",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227654"
       }
     ],
     "is_demo": false

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16902",
+    "arxiv_id": "2611.16902",
+    "arxiv_version": null,
+    "inspire_id": "3228291",
+    "doi": null,
+    "title_en": "Non-Functional Requirements to Hyperparameter Translation for Quantum Software via LLMs",
+    "abstract_en": "Quantum software engineering (QSE) lacks validated approaches for translating natural-language non-functional requirements (NFRs) into execution parameters such as shots and transpiler optimization levels. Existing methods emphasize semantic similarity rather than execution outcomes. We evaluate seven large language models (LLMs) against a deterministic heuristic baseline using 540 synthetic and 18 real-world user stories. We assess semantic accuracy and execution outcomes, including time, cost, top-state probability, and two-qubit gate exposure, through Qiskit/Aer simulations. All LLMs significantly outperformed the heuristic in semantic accuracy, achieving 55.6 to 83.3 percent on real-world stories compared to 16.7 percent for the heuristic. However, no LLM demonstrated statistically significant superiority over others on the real-world dataset. Speed- and cost-oriented configurations reduced execution time and cost, but fidelity improvements were not supported. Some failures resulted from provider safety refusals rather than translation errors. Our findings demonstrate the potential of LLMs as middleware for NFR-to-configuration translation in QSE, while emphasizing execution-based validation, human oversight, and careful interpretation of model differences.",
+    "authors": [
+      "Bronyah, Joseph G.",
+      "Eisty, Nasir U."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T14:49:20.089627Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228291",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228291",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228291"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

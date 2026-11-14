@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16229",
+    "arxiv_id": "2611.16229",
+    "arxiv_version": null,
+    "inspire_id": "3228040",
+    "doi": null,
+    "title_en": "Infinite or indefinite: the query cost of simulating the quantum switch",
+    "abstract_en": "The quantum switch applies two operations in a coherent superposition of their causal orders and is a simple example of indefinite causal order. No quantum circuit that uses each operation once in a definite order can even describe it, yet photonic experiments have demonstrated its physical realization. We ask how many calls to the black-box operations a quantum computer in the circuit model needs to reproduce the switch. If one of the black boxes is known to be unitary, three calls suffice. For general channels on a $d$-dimensional system, we prove three results. In all three, circuits may use classical feed-forward and unlimited ancillary quantum memory. First, no finite number of calls suffices for exact simulation in the worst case. Second, approximation to any fixed error below $1/2$, measured in half the diamond norm, requires $Ω(d^{1/4})$ calls, exponential in the number of qubits. Third, an ordinary circuit can require exponentially many calls to obtain a single bit that the switch extracts with a few uses. We consider a device whose actual noise is dephasing in a fixed unknown basis and test it against a theoretical depolarizing model. The two channels have the same entanglement and average gate fidelities, so these figures alone do not distinguish them. At fixed noise strength, the quantum switch tells them apart with a number of device uses independent of $d$, whereas the circuit model requires $Ω(d^{1/16})$ calls. Noise characterization is needed for quantum error correction, and this gives a provable query advantage of the switch in a task relevant to practical quantum computing. We invite future work that extends such advantages to more practical computing tasks.",
+    "authors": [
+      "Li, Dantong"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:10:13.393750Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228040",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228040",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228040"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

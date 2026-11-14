@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.17099",
+    "arxiv_id": "2611.17099",
+    "arxiv_version": null,
+    "inspire_id": "3227861",
+    "doi": null,
+    "title_en": "Adaptive carrier signal synthesis for frequency-division multiplexed cryogenic detector readout",
+    "abstract_en": "Frequency-domain multiplexing is a fundamental technology for readout of cryogenic detector arrays on a single transmission line. Synthesizing a large number of static carrier tones for resonator stimulation eventually drives the cryogenic low-noise amplifier beyond its P1dB, introducing detector signal distortion. Scaling array sizes to O(10^6) detector pixels therefore demands minimizing the total power on the transmission line by continuous tracking of the resonances, which requires the readout electronics to be capable of updating the carrier tones dynamically. This work presents an scalable FPGA-based implementation for carrier signal synthesis based on a numerically controlled oscillator and a polyphase filter bank, enabling real-time frequency adaptivity as well as frequency resolution of 4 mHz to precisely tune the operating point, while simultaneously reducing resource usage compared to the current memory-based implementation.",
+    "authors": [
+      "Muscheid, Timo",
+      "Keppner, Benedikt",
+      "Crovo, Daniel",
+      "Gartmann, Robert",
+      "Fuchs, Marvin",
+      "Scheller, Lukas",
+      "Sander, Oliver",
+      "Ardila-Perez, Luis E."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:34:35.581106Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/3218701'}, C26-09-28.3"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227861",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227861",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227861"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

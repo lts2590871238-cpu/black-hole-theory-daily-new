@@ -1,0 +1,65 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16697",
+    "arxiv_id": "2611.16697",
+    "arxiv_version": 1,
+    "inspire_id": "3228163",
+    "doi": null,
+    "title_en": "Efficient Standard Siren Cosmological Inference with Posterior Reuse",
+    "abstract_en": "Standard siren cosmology depends on several modelling assumptions, including the underlying source population, galaxy catalogue, and detection selection function. Quantifying the effect of each choice typically requires a full, independent analysis. As gravitational-wave catalogs grow incrementally, much computational effort is spent re-analysing largely overlapping datasets. We apply the recently developed ASPIRE (Accelerated Sequential Posterior Inference via Reuse) sampler to the joint estimation of cosmological and population parameters with dark sirens. ASPIRE updates existing posterior samples into the posterior under a new hypothesis without restarting from the prior. It combines normalising flows with a sequential Monte Carlo (SMC) scheme to produce accurate posteriors and unbiased evidence estimates. Applying ASPIRE to a number of dark siren analysis cases with GWTC-5.0, we recover posteriors consistent with nested sampling, while recording a performance improvement of between 6-28 times over the set of analyses when using an existing posterior. This enables efficient exploration of modelling choices and rapid updates as catalogs grow, without duplicating existing computational effort.",
+    "authors": [
+      "Alexander Papadopoulos",
+      "Michael J. Williams",
+      "Christian E. A. Chapman-Bird",
+      "Rachel Gray",
+      "Christopher Messenger"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.HE",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:34:38.014090Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.16697v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16697v1",
+    "inspire_url": "https://inspirehep.net/literature/3228163",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.16697",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2611.16697v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3228163",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228163"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

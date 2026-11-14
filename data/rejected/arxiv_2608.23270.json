@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2608.23270",
     "arxiv_id": "2608.23270",
-    "arxiv_version": 1,
-    "inspire_id": "3195382",
-    "doi": null,
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1088/1538-3873/aeb62b",
     "title_en": "AI-Assisted Extraction of Follow-up Observations from GCN Circulars in Astro-COLIBRI",
-    "abstract_en": "We present a new Astro-COLIBRI component that converts free-text GCN Circulars into structured, event-linked follow-up records and combines them with structured reports submitted directly by the community. A continuously running Circular listener associates new reports with transient events, applies deterministic pre-analysis, and invokes a schema-constrained large language model extraction step for photometry, contacts, redshifts, and other reported results and metadata. The resulting records are submitted to the Astro-COLIBRI API, normalized into a common event-level follow-up database, and exposed through the web and mobile interfaces as report summaries, contact tools, optical-afterglow context figures, and downloadable CSV or VOTable products. After tuning, all 1,775 Circulars of an operational evaluation corpus covering the first half of 2026 completed the workflow without failures. An internal human audit of 210 Circulars confirmed 25,827 of 25,880 definite field-level decisions (99.80%), with the remaining errors confined to observation timing and facility attribution in eight of 231 assessed reports. Extracted redshifts agree with the independent GRBweb compilation for 228 of the 249 events the two share, and every disagreement traces to a limit, a candidate-host estimate, or a value later refined rather than to a misread Circular. The final pipeline was applied to the full GCN archive since 2016, yielding 68,393 individual observations from 26,811 reports across 5,787 transient events, and is now running in real time on new Circulars. The reusable parsing and normalization pipeline is released as the open-source Python package astro-colibri-circular-parser. This paper describes the scientific motivation, architecture, extraction schema, quality-control safeguards, user-facing products, and current use-cases of the system.",
+    "abstract_en": "We present a new Astro-COLIBRI component that converts free-text GCN Circulars into structured, event-linked follow-up records and combines them with reports submitted directly by the community. A continuously running listener associates new Circulars with transient events, applies deterministic pre-analysis, and invokes a schema-constrained large language model to extract photometry, contacts, redshifts, and related metadata. The records are normalized into a common event-level database and exposed through the web and mobile interfaces as report summaries, contact tools, optical-afterglow context figures, and downloadable CSV or VOTable products. All 1,775 Circulars of an operational evaluation corpus covering the first half of 2026 completed the workflow without failures. An internal human audit of 210 Circulars found 223 of 231 assessed reports (96.5%) fully confirmed, each of the eight remaining ones containing at least one incorrect field, predominantly associated with observation timing and facility attribution. Extracted redshifts agree with three published compilations for 91.7 to 99.3% of the events they share, every disagreement tracing to a limit, a candidate-host estimate, or a later-refined value rather than to a misread Circular. The extraction also recovers 90 to 97% of the redshifts those compilations list for bursts it processed. Applied to the GCN archive since 2016, the pipeline yields 68,393 observations from 26,811 reports across 5,787 transient events, and now runs in real time on new Circulars. The reusable parsing and normalization pipeline is released as the open-source Python package astro-colibri-circular-parser.",
     "authors": [
       "Fabian Schüssler",
       "S. Bisero",
@@ -23,31 +23,23 @@
       "astro-ph.IM",
       "astro-ph.HE"
     ],
-    "submitted_at": "2026-08-24T00:00:00Z",
-    "updated_at": "2026-08-26T04:29:32.306345Z",
-    "document_types": [
-      "article"
-    ],
-    "journal_ref": null,
+    "submitted_at": "2026-08-24T13:57:30Z",
+    "updated_at": "2026-11-11T17:07:35Z",
+    "document_types": [],
+    "journal_ref": "Publications of the Astronomical Society of the Pacific 138, 114505 (2026)",
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2608.23270v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.23270v1",
-    "inspire_url": "https://inspirehep.net/literature/3195382",
-    "is_update": false,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2608.23270v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.23270v2",
+    "inspire_url": null,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2608.23270",
-        "fetched_at": "2026-08-31T01:24:49.989879Z",
-        "url": "https://arxiv.org/abs/2608.23270v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3195382",
-        "fetched_at": "2026-08-31T01:24:49.989879Z",
-        "url": "https://inspirehep.net/literature/3195382"
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2608.23270v2"
       }
     ],
     "is_demo": false

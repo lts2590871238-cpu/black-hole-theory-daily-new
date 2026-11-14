@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15663",
+    "arxiv_id": "2611.15663",
+    "arxiv_version": null,
+    "inspire_id": "3227932",
+    "doi": null,
+    "title_en": "Exact Mixed-Locality Encodings for Resource-Constrained QAOA",
+    "abstract_en": "Higher-order objectives possess many exact Hamiltonian encodings, and these encodings differ in the qubits, penalties, gates, and depth that they require. Representation selection is therefore an algorithmic decision for the quantum approximate optimisation algorithm on resource-constrained hardware. This work develops a pointwise-exact family of representations in which selected higher-order interactions are replaced by shared Rosenberg auxiliaries while the remaining interactions stay native. A sharp single-step penalty condition and a closed form for cubic residuals certify exactness at every stage of such a selective reduction. Within the direct-pair class, a static feasibility theory identifies infinite families of objectives for which a mixed representation meets joint budgets that exclude both the native and the fully reduced endpoint. A separate construction extends this separation to gate and depth limits under a fixed synthesis. Compilation on 12-qubit line, ring, and grid targets finds certified mixed-only regions for 23 of 30 weighted maximum three-satisfiability instances, all 30 constructed instances, and 2 of 30 cubic spin-glass instances under the stated class and penalty rule. A separate routing experiment retains 52.9% of mixed-only budget points across five seeds within fixed candidate sets. In noiseless depth-one evaluation, the native encoding attains the best mean objective under the tested protocols, and the joint resource-and-quality test finds no mixed-only success at the primary budget. Resource feasibility is thus a sound reason to select a mixed encoding, whereas solution quality requires a separate assessment.",
+    "authors": [
+      "Liu, Jingcong",
+      "Su, Yiding",
+      "Zhang, Ruojun",
+      "Waseem, Hafiz Muhammad",
+      "Chen, Bo",
+      "Maple, Carsten"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:17:39.904658Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227932",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227932",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227932"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

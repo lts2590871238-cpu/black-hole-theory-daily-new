@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16971",
+    "arxiv_id": "2611.16971",
+    "arxiv_version": null,
+    "inspire_id": "3228225",
+    "doi": null,
+    "title_en": "Improved Low-Cost Quantum Error Mitigation with Benchmarked-Noise Zero-Noise Extrapolation (bnZNE)",
+    "abstract_en": "We theoretically extend and experimentally demonstrate benchmarked-noise zero-noise extrapolation (bnZNE), a simple and low-cost method for quantum error mitigation which aims to outperform the highly popular ZNE method for an equal total shot cost by improving the classical extrapolation step. We recently proposed bnZNE as a new error mitigation method (Harris et al., arXiv:2603.10224 (2026)) and showed that it can mitigate noise to the same order as standard ZNE under gate-wise depolarizing noise. Here, we introduce randomized bnZNE which addresses the case of running multiple random circuits per noise level, allowing for the incorporation of noise-tailoring techniques like Pauli twirling and readout error mitigation, and test the method on the IBM and IQM hardware for a plethora of large-scale applications, observing bnZNE to consistently produce more accurate results than standard ZNE. Our approach enhances the extrapolation process to the zero-noise limit by using classically-simulable and structure-mirroring benchmark circuits, generated from the standard application circuit, to sensitively measure the effective error rate at each scaled noise level beyond simple integer values. We give a new method for generating tailored benchmark circuits for the IQM superconducting devices and test them experimentally. Our results demonstrate that bnZNE presents a versatile alternative to ZNE which can enable more accurate results at utility scales with an equivalent cost.",
+    "authors": [
+      "Harris, Joseph",
+      "Lively, Kevin",
+      "Schuhmacher, Peter Ken"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:10:15.745477Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228225",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228225",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228225"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

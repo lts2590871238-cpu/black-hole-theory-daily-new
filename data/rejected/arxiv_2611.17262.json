@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.17262",
+    "arxiv_id": "2611.17262",
+    "arxiv_version": null,
+    "inspire_id": "3228233",
+    "doi": null,
+    "title_en": "Scalable Pauli propagation through $\\mathbb{F}_2$-linear partitioning",
+    "abstract_en": "Pauli propagation simulates quantum circuits and many-body dynamics by evolving observables in the Heisenberg picture as sparse sums of Pauli strings. As Pauli-string operations reduce to bit manipulations, its performance is limited by memory bandwidth and capacity rather than computational throughput. Pooling the memory of many cores and nodes is hindered by the deduplication step after every gate, which can require global synchronization. We avoid this bottleneck by partitioning the strings with an $\\mathbb{F}_2$-linear hash function, which guarantees that a $k$-qubit channel couples each partition to at most $4^k$ partitions fixed by the gate, decomposing gate application into independent tasks with bounded communication. Benchmarks of our open-source implementation demonstrate efficient parallel scaling within and across compute nodes, enabling simulations with over $10^{11}$ Pauli strings and extending the accessible timescales of quantum many-body dynamics.",
+    "authors": [
+      "Orfi, Alev",
+      "Kille, Andrew",
+      "Peacock, J. Clayton",
+      "Dunham, Jack",
+      "Devos, Lukas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:25:47.361519Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228233",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228233",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228233"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

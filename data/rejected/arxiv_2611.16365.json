@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16365",
+    "arxiv_id": "2611.16365",
+    "arxiv_version": null,
+    "inspire_id": "3228054",
+    "doi": null,
+    "title_en": "Training quantum neural networks one job at a time",
+    "abstract_en": "When a quantum processor is reached through a cloud queue, a variational algorithm pays for every round trip, and a single round trip can carry many circuits. The classical optimizer therefore decides how much is learned per job, not only per shot. We study this for a quantum neural network classifier. We compare optimizers that are given the same number of jobs and the same shots per job, and that differ only in how they fill each job. This comparison treats hybrid quantum-classical training as an execution-efficiency problem: how to obtain useful optimization progress from each costly interaction with a quantum processor. The resulting perspective connects optimizer design to overhead amortization and efficient use of accelerator resources. A direct port of a batched pattern search that worked for the quantum approximate optimization algorithm stalls once the model has a few dozen parameters. What does transfer is the principle behind it: fill each job with a batch of parameter vectors that is fixed before the job is sent. For circuits built from Pauli rotations the natural batch is the parameter-shift stencil. We show that its gradient error falls as the inverse of the shots per job, while the error of simultaneous-perturbation methods (SPSA) has a floor that no number of shots removes. In simulation, batched parameter-shift training needs between a fifth and a half of the jobs SPSA needs, for 24 to 48 parameters, and the ordering holds at two noise levels. A new structure-aware stencil search reads the same kind of rows as sinusoids and also beats SPSA. On IBM's ibm_fez processor, in three interleaved runs at six and eight qubits, the batched optimizer reached SPSA's final training loss within 4 to 20 of its 50 jobs. Its test accuracy was clearly higher at eight qubits; at six qubits the difference was not significant. All hardware numbers can be re-derived from the raw shots.",
+    "authors": [
+      "Faryad, Muhammad",
+      "Alomairy, Rabab"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:10:18.082369Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228054",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228054",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228054"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

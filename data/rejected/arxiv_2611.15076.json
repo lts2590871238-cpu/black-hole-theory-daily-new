@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15076",
+    "arxiv_id": "2611.15076",
+    "arxiv_version": null,
+    "inspire_id": "3227705",
+    "doi": null,
+    "title_en": "Scalable Compilation of Resource-Efficient Tapers for High-Confidence Quantum Phase Estimation",
+    "abstract_en": "Quantum phase estimation is a key component of many quantum algorithms. Recently, high-confidence, tapered QPE (tQPE) has been introduced, significantly reducing the number of ancilla qubits necessary for a given failure probability, $ε$. We consider tQPE with $p = l+m$ ancillas, where $l$ represents the number of ancillas necessary to estimate a phase to a given resolution and $m$ represents the number of ''confidence'' qubits added to ensure a desired success probability. With tQPE the failure probability decays double exponentially in $m$, implying that only a few confidence qubits suffice for virtually any problem of interest. A key challenge for tQPE is the construction of the quantum circuit for preparing the taper state on the ancilla register. Here, we develop scalable tensor network methods (previous work was limited to ($l + m = 24$)) giving highly optimized state preparation circuits for optimally concentrated DPSS (Slepian) tapers. We provide an accompanying database of resource-efficient state preparation circuits for $l = 1, \\dots, 50$ and $m = 1, \\dots, 4$. Our circuits are shallow enough for a demonstration on near-term devices for small values of $l$. We run tQPE circuits for a 1-qubit system initialized in the ground state on Quantinuum's H2-2 quantum computer, demonstrating a $3\\times$ to $18\\times$ reduction in failure probability for $l=1,\\ldots,10$ on a noisy device.",
+    "authors": [
+      "Raveh, David",
+      "Sornborger, Andrew",
+      "Subaşı, Yiğit",
+      "Cincio, Lukasz"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:22:31.506688Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227705",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227705",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227705"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

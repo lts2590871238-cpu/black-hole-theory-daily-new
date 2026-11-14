@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16456",
+    "arxiv_id": "2611.16456",
+    "arxiv_version": null,
+    "inspire_id": "3228094",
+    "doi": null,
+    "title_en": "Learning Sparse Graph States with Local Pauli Measurements: Tight Nonadaptive Bounds and an Adaptive Separation",
+    "abstract_en": "We study how many copies of an unknown $n$-qubit graph state are needed to identify its graph when every qubit is measured in the $X$, $Y$ or $Z$ basis. Ouyang and Tomamichel showed that $O(d^2\\log n)$ copies suffice for $d$-regular graphs, while any measurement needs $Ω(d\\log n)$, and asked whether the quadratic dependence on $d$ is necessary. We show that it is for nonadaptive learners: if $d^3\\ln n\\le n$, every nonadaptive strategy needs $Ω(d^2\\log n)$ copies, even with an unrestricted classical decoder and even if a small constant fraction of the edges may be reported wrongly. We then show that adaptivity between copies can beat this barrier. On connected bipartite $d$-regular graphs of logarithmic diameter whose bipartition is hidden, nonadaptive learners still need $Θ(d^2\\log n)$ copies, but a breadth-first adaptive learner needs only $O(d\\log^2 n/\\log\\log n)$; revealing the bipartition brings the nonadaptive cost down to $Θ(d\\log n)$. The lower bounds rest on a simple fact: one copy reveals at most the binary nullity of a principal submatrix of the adjacency matrix. We control this nullity for random unions of perfect matchings through Fourier estimates and, in the bipartite case, a method-of-types argument.",
+    "authors": [
+      "De Francesco, Matteo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:25:51.472805Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228094",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228094",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228094"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

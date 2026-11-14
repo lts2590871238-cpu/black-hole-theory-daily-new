@@ -1,0 +1,69 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16286",
+    "arxiv_id": "2611.16286",
+    "arxiv_version": 1,
+    "inspire_id": "3228092",
+    "doi": null,
+    "title_en": "Machine-Learning Reconstruction of Intergalactic Medium Column-Density Maps from Observed Ly$α$ Emission Cubes",
+    "abstract_en": "Understanding the large-scale structure of the intergalactic medium (IGM) is essential for studying galaxy evolution, particularly at $z \\sim 2$--$6$, when cold filaments in the cosmic web are considered a primary mechanism for fueling galaxy growth. At these redshifts, Ly$α$ emission shifts into the optical regime and serves as the primary tracer of diffuse IGM for ground-based integral field units (IFUs). However, detections remain limited by low signal-to-noise ratios (S/N) and the complexities of resonant scattering. We present a proof-of-concept machine-learning framework to reconstruct IGM gas column-density maps from noisy Ly$α$ IFU emission cubes. Using Keck Cosmic Web Imager (KCWI) observations of $z \\sim 2.3$ protoclusters as a case study, we train a custom convolutional neural network (CNN), the Column Density Estimator (CDE), on a simulated dataset combining IllustrisTNG100 with simplified radiative-transfer calculations and an approximate treatment of KCWI noise. The CDE successfully reconstructs broad filamentary structures in the simulated test set under these adopted assumptions. Applied to observed KCWI data, the CDE predicts gas column-density maps containing filamentary structures extending over $\\gtrsim 40''$ ($\\sim 1$ comoving Mpc), consistent with an IGM interpretation. The observed reconstructions remain conditional on the adopted models. These results illustrate the potential of the CDE framework for connecting diffuse Ly$α$ observations with simulations of the IGM.",
+    "authors": [
+      "Xihan Deng",
+      "Christopher Martin",
+      "Aaron Smith",
+      "Sultan Hassan",
+      "Drew M. Miles",
+      "Nikolaus Z. Prusinski",
+      "Vincent Picouet",
+      "Mateusz Matuszewski",
+      "Zeren Lin",
+      "Jake S. Bennett"
+    ],
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:52:51.373909Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.16286v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16286v1",
+    "inspire_url": "https://inspirehep.net/literature/3228092",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.16286",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2611.16286v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3228092",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228092"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15794",
+    "arxiv_id": "2611.15794",
+    "arxiv_version": null,
+    "inspire_id": "3227847",
+    "doi": null,
+    "title_en": "On Multi-Constrained Path Finding utilizing Grover Search and Decoded Quantum Interferometry",
+    "abstract_en": "Finding a path whose totals under several additive metrics all fall inside prescribed ranges is weakly NP-complete. We ask what two quantum algorithms can do for it, against strong classical baselines. For directed acyclic graphs (DAGs) we give a Grover search whose state preparation builds the uniform superposition over all source-to-destination paths with one qubit per arc and no ancilla. We prove it correct, give its exact gate count, and show that measured strings form an error- detecting code whose distance is a girth-like graph parameter. We complete the oracle and count its gates: one search on our largest instance, 136 arc qubits and 262,144 paths, needs about 4.4 x 10^5 Toffoli gates, while classical dynamic programming decides the same instance with 18,754 labels. Grover search needs O(sqrt(N/M)) oracle calls for M good paths among N . Classical meet-in-the-middle matches this exponent in the worst case, and known quantum algorithms with quantum memory beat it. For a staged fabric with node-independent linear weights, maximizing the number of satisfied metrics is max-LINSAT, and with power- of-index weights it is Optimal Polynomial Intersection, where no known polynomial-time classical algorithm matches decoded quantum interferometry (DQI). We verify this translation in simulation and run two small binary instances on IBM Heron processors, which keep 67 % and 15 % of the ideal gain over uniform sampling.",
+    "authors": [
+      "Chemodanov, Dmitrii"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:10:09.050160Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227847",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227847",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227847"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

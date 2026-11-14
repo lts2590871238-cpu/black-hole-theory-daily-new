@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.14639",
     "arxiv_id": "2611.14639",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3227662",
     "doi": null,
     "title_en": "Variations in the Extinction Curve at High Galactic Latitudes as seen by the Dark Energy Spectroscopic Instrument",
     "abstract_en": "The dust extinction curve, characterized by the total-to-selective extinction ratio, $R(V)$, varies with grain size and composition. Accurate $R(V)$ values are crucial for dereddening astronomical colors and understanding the interstellar medium. We measure extinction toward stars with Dark Energy Spectroscopic Instrument (DESI) spectroscopy using a machine-learning-based relative of the \"pair method,\" matching reddened and unreddened stars. We use XGBoost to predict stars' intrinsic colors from their spectroscopic parameters ($T_\\mathrm{eff}$, $\\log g$, $[\\mathrm{Fe/H}]$) and subtract them from observed colors to measure reddening in combinations of the $g$, $r$, $z$, $W1$, and $W2$ bands. This approach directly measures reddening, unlike the common thermal-emission-based method of Schlegel et al. (1998; SFD). The reddening is accurate to roughly 0.02 mag in $g-r$ and $r-z$. We develop a forward model to map $g-r$ and $g-W1$ reddenings to $R(V)$ and find significant variation in $R(V)$, with $σ_\\mathrm{NMAD}(R(V)) = 0.23$, in dusty regions ($E(g-r) > 0.1$) at high Galactic latitudes observed by DESI. In this footprint, $R(V)$ is bimodal, with modes at 2.9 and 3.4, likely due to large-spatial-scale correlations in the shape of the extinction curve combined with the relatively small number of distinct sightlines with substantial reddening. We find no strong relationship between $R(V)$ and other tracers of the interstellar medium, such as thermal emission, dust temperature, spectral emissivity index $β$, and $Hα$. However, the error in the SFD-predicted extinction correlates well with $R(V)$, implying that a single optical reddening combined with the far-infrared dust brightness can predict variations in the extinction curve.",
@@ -79,23 +79,31 @@
       "astro-ph.GA",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-10T19:00:08Z",
-    "updated_at": "2026-11-10T19:00:08Z",
-    "document_types": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:58:44.399018Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.14639v1",
     "pdf_url": "https://arxiv.org/pdf/2611.14639v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227662",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.14639",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
         "url": "https://arxiv.org/abs/2611.14639v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3227662",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227662"
       }
     ],
     "is_demo": false

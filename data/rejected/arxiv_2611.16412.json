@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16412",
+    "arxiv_id": "2611.16412",
+    "arxiv_version": null,
+    "inspire_id": "3227854",
+    "doi": null,
+    "title_en": "Exact Quantum Algorithms for Composed Boolean Functions",
+    "abstract_en": "We study exact quantum algorithms for block compositions of total Boolean functions. For an outer function $f$ of degree $D$ and an inner function $g$ on $m$ bits, we prove \n$$ Q_E(f\\circ g)=O\\!\\left(mD+Q_E(f)Q_{1/(4D)}(g)\\right). $$\n The algorithm combines approximate inner evaluations with a finite exact correction. Its two costs are governed by different parameters of the outer function: exact query complexity determines the cost of simulation, whereas polynomial degree determines the number of inner blocks used in the correction. We first establish the construction with an arity-dependent error threshold and then obtain the degree-dependent threshold above. For recursive ternary not-all-equal, this gives an exact algorithm using $(3/\\sqrt2)^{k(1+o(1))}$ queries asymptotically. More generally, for every fixed nonconstant total gadget $h$, we determine the exact recursive rate as $\\max\\{\\textrm{deg}(h),\\operatorname{Adv}^{\\pm}(h)\\}$ and prove $Q_E(h^{\\circ k})=\\widetilde O_h(R(h^{\\circ k})^2)$. The composition limit also allows to transfer separations from $Q_{\\varepsilon}$ and $°$ to exact quantum query complexity $Q_E$ (similar to fractional block sensitivity to block sensitivity transfer in Tal and Kulkarni 2016, Chicago Journal of Theoretical Computer Science). We construct a family with $s=\\operatorname{bs}=\\operatorname{fbs}\\ge Q_E^{3/2-o(1)}$, improving the previous exponent $1.1527\\ldots$. A second construction gives $R \\ge Q_E^{2-o(1)}$, improving the previous exponent $3/2$. We also allow different inner functions and give analogous quantitative separations in quantum communication.",
+    "authors": [
+      "Chiruvella, Gagan",
+      "Kayal, Chandrima",
+      "Mittal, Rajat",
+      "Paraashar, Manaswi",
+      "Saurabh, Nitin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:17:40.242302Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227854",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227854",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227854"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

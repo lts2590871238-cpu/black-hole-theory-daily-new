@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.14919",
+    "arxiv_id": "2611.14919",
+    "arxiv_version": null,
+    "inspire_id": "3227756",
+    "doi": null,
+    "title_en": "Evaluating Quantum Circuit Protection Methods After Compilation: An Empirical Comparison",
+    "abstract_en": "Quantum cloud providers can read the circuits they receive and their outputs, yet methods for hiding a circuit are usually evaluated on the circuit as written, before compilation optimises it. We compare three ObfusQate schemes (inverse, composite and delayed gates), ECQCO and Q-MaskCut under one protocol that compiles every protected circuit at optimisation level 3 before measuring it; the goal is to keep the provider from learning the user's algorithm and answer. Q-MaskCut is one example combination of existing techniques: a one-time-pad key, decoy wires, circuit cutting with a random rotation pair across each cut, and Pauli twirling with dynamical-decoupling masking after compilation. We simulate 11 circuits of 3 to 19 qubits without noise and on two noise models, measure the compiled structure and execution time of 23 circuits of 3 to 127 qubits, and test whether the structural disguise survives a second compilation by the provider. Composite and delayed gates lose most of their structural disguise in compilation and leave the output readable; inverse gates keep a high normalised graph edit distance (normGED) only by making execution 7 to 112 times longer; ECQCO's output could not be decoded with the implementation provided by its authors. Q-MaskCut hides the output (mean total variation distance without the key 0.94), and without noise, with exact fragment probabilities, it decodes exactly. Its compiled normGED of 0.88 comes mostly from the masking, which a second compilation removes, leaving 0.42 from the key, decoys and padlocks. With noise, its fidelity is comparable to the original's; it needs 7 to 91 fragment variants per circuit in the simulations (7 to 61 in a run on ibm_marrakesh) and a classical reconstruction. Protection should therefore be evaluated on the compiled circuit and again after the provider recompiles it.",
+    "authors": [
+      "Muyleang, Ing",
+      "Hour, Leanghok",
+      "Han, Youngsun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:15:47.974087Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227756",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227756",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227756"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

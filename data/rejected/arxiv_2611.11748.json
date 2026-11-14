@@ -7,13 +7,13 @@
     "inspire_id": "3226520",
     "doi": null,
     "title_en": "Model-family selection and recovery-gate design in generator-based noise tomography",
-    "abstract_en": "Family selection in generator-model noise tomography, usually quoted as a property of the hardware, is a hypothesis test whose shot floor is closed form, $N^{*}=λ_{\\mathrm{req}}/(r_{\\mathrm{b}} S)^{2}$, controlled by the absolute bias $r_{\\mathrm{b}} S$ rather than by the relative residual $r_{\\mathrm{b}}$, and therefore computable for any device before a single shot is taken. The same computation prices the recovery gates, because the fingerprint that fixes a family's residual and the Fisher information that ranks the designs are read off the same map: there is no design-independent verdict and no family-independent design optimum. Whether a design can move that price is structural, not numerical: a bias confined to the block every design measures identically is design-blind, while one that reaches the code blocks can be repriced by a factor of sixty-eight. The two platforms here are its extremes, at $98.1\\%$ and $48.0\\%$ in the design-blind block. At the reference point the floor is $1.1\\times10^{7}$ and $6.7\\times10^{6}$ shots per component for the two families, so at the $10^{5}$ shots a run spends the test has power $0.053$ at a level of $0.05$ and the residual it reports is shot noise. Rebuilding the fingerprint under each of the sixty-four designs moves the floor by $68$ on one platform and $1.7$ on the other, and the most precise design costs ten times more shots for the verdict than the cheapest to test. All sixty-four placements are full rank, so the design problem is one of conditioning: at three gates the rms varies by factors of $2.7$ and $3.9$ with placement alone, while the optimum over counts is flat. At five qubits the same rule moves the floor by $21$, while the verdict itself costs $10^{9}$ shots; checked against the calibration of a real three-qubit register, the floor is a requirement on systematic control before it is a shot count.",
+    "abstract_en": "Family selection in generator-model noise tomography, usually quoted as a hardware property, is a hypothesis test whose shot floor is closed form under a purely coherent noise model, $N^{*}=λ_{\\mathrm{req}}/(r_{\\mathrm{b}} S)^{2}$, controlled by the absolute bias $r_{\\mathrm{b}} S$ rather than by the relative residual $r_{\\mathrm{b}}$, hence computable for any device from a calibration, before a single shot. The same computation prices the recovery gates: the fingerprint that fixes a family's residual and the Fisher information that ranks designs come from the same map, so there is no design-independent verdict and no family-independent design optimum. Whether a design can move that price is structural: a bias confined to the block every design measures identically is design-blind, while one that reaches the code blocks can be repriced by a factor of sixty-eight; the two platforms are its extremes, at $98.1\\%$ and $48.0\\%$. At the reference point the floor is $1.1\\times10^{7}$ and $6.7\\times10^{6}$ shots per component, and that point is the easy corner: the median of its own direction over the sampled points is $8.9\\times10^{8}$, $83$ times dearer. At the $10^{5}$ shots a run spends the test has power $0.053$ at a level of $0.05$. Rebuilding the fingerprint under each of the sixty-four designs moves the floor by $68$ on one platform and $1.7$ on the other, and the most precise design costs ten times more shots for the verdict than the cheapest to test. All sixty-four placements are full rank: at three gates the rms varies by factors of $2.7$ and $3.9$ with placement alone, while the optimum over counts is flat. At five qubits the same rule moves the floor by $21$ while the verdict costs $10^{9}$ shots; against a real three-qubit calibration the floor is a requirement on systematic control before it is a shot count, and where that control is missing no budget supplies it.",
     "authors": [
       "Huang, Long"
     ],
     "categories": [],
     "submitted_at": "2026-11-09T00:00:00Z",
-    "updated_at": "2026-11-11T13:07:58.818298Z",
+    "updated_at": "2026-11-13T11:07:44.692150Z",
     "document_types": [
       "article"
     ],
@@ -29,7 +29,7 @@
       {
         "source": "inspire",
         "record_id": "3226520",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
         "url": "https://inspirehep.net/literature/3226520"
       }
     ],

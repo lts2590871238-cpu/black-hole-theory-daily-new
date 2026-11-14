@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16776",
+    "arxiv_id": "2611.16776",
+    "arxiv_version": null,
+    "inspire_id": "3227852",
+    "doi": null,
+    "title_en": "Key Relay and Secure Network Coding: One-Shot Equivalence and Separation on Undirected Networks",
+    "abstract_en": "Motivated by quantum key distribution networks, we compare key relay protocols with secure network coding on the same undirected graph. In this comparison, we fix the finite field, terminal set, and wiretap family. Each edge supplies one independent uniform symbol to its endpoints for key relay, or carries one symbol once for network coding. The network code may choose its source terminal, edge orientations, and causal transmission order before execution. In this setting, the standard one-time-pad simulation readily converts every secure network code to key relay. We investigate the reverse conversion to linear network coding. For two terminals and a one-symbol key, arbitrary key relay is equivalent to scalar linear acyclic network coding over the prescribed field. The proof uses connectivity and flow conservation, related to the binary $st$-flow protocol. However, this equivalence fails in general when several terminals seek one common key. A doubled triangle separates key relay from acyclic coding but admits causal coding on a cyclic orientation. On the four-terminal complete graph, a linear key relay protocol over the ternary field withstands the three perfect-matching wiretap sets, whereas no linear causal network code distributes a source symbol of the same size, even with private randomness at every vertex and its use in decoding. We also establish a linear key relay normal form that removes interaction and private randomness and bounds public communication. All results concern one-shot feasibility with exact agreement and perfect secrecy.",
+    "authors": [
+      "Ando, Yuji",
+      "Chen, Edmund",
+      "Kato, Go",
+      "Tsurumaru, Toyohiro",
+      "Zhang, Derek",
+      "Zvada, Donald"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:25:53.959783Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227852",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227852",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227852"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.14986",
+    "arxiv_id": "2611.14986",
+    "arxiv_version": null,
+    "inspire_id": "3227731",
+    "doi": null,
+    "title_en": "From optimization to construction: Expanding quantum measurement designs",
+    "abstract_en": "Estimating molecular energies on quantum computers requires repeated measurements of many Pauli terms, making sampling a major resource cost. Measurement design chooses which compatible terms are measured together and allocates a finite shot budget among bases to minimize the variance of an energy estimator. We introduce variance-guided measurement group construction (VGMC), which reduces variance beyond optimization on existing measurement bases by changing which Hamiltonian terms share measurement shots. After including every Hamiltonian term measurable in each existing basis, we jointly optimize estimator coefficients and shot allocations to separate inefficient use of these measurements from limitations of their measurement combinations. We compare a candidate's benefit with the cost of withdrawing shots from existing bases, and use the resulting scores to guide greedy construction of qubit-wise commuting groups followed by joint re-optimization. With exact covariances, VGMC outperformed the state-of-the-art measurement design methods across the molecular benchmarks where it introduced additional measurement bases, achieving variance reductions of 18.19%-23.38%. The gains persisted with approximate covariances, and simulations with finite shots indicated lower estimated shot requirements near chemical accuracy. These results show that optimizing how measurements are combined can also guide which terms are measured together, offering a route to reducing the sampling overhead of variational quantum simulation while retaining local measurements on current and near-term devices.",
+    "authors": [
+      "Zhao, Taotao",
+      "Yao, Qianjun",
+      "Sun, Mengdi",
+      "Li, He"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:22:48.675975Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227731",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227731",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227731"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

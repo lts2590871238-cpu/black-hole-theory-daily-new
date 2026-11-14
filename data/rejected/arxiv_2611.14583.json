@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.14583",
+    "arxiv_id": "2611.14583",
+    "arxiv_version": null,
+    "inspire_id": "3227648",
+    "doi": null,
+    "title_en": "Circuit-aware protection against burst errors in lattice surgery",
+    "abstract_en": "Large-scale quantum computing will require logical operations protected against high-energy impacts that disturb many superconducting qubits at once. Gap engineering suppresses relaxation induced by these impacts, but protecting only a subset of qubits requires choosing where that protection is placed. During lattice surgery, measurements change as patches merge and split, exposing different ancillas and temporal boundaries to burst errors. Here we compare three static protection layouts for a simulated lattice-surgery CNOT, matching the numbers of protected ancillas and the X:Z check-type splits. At distance 9, protecting the check type measured during each merge reduces burst-induced excess risk by $38^{+6}_{-5}\\%$ relative to a deep geometric band under correlated background matching, without giving the decoder the impact parameters. We attribute this difference to report errors at temporal boundaries and ancilla faults propagating to data, which interact to increase the excess risk of a shallow band. We also find that the typed layout reaches the shallow-band reference risk with an estimated $49^{+2}_{-14}$ fewer protected ancillas. At distance 13, the advantage is not resolved under oracle decoding, and a five-round burst cap reverses the shallow-band ordering. These results indicate how the measurements of a logical circuit can guide protection placement within the simulated decoder and burst-duration regimes tested here.",
+    "authors": [
+      "Kim, Jaebum"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:23:03.890185Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227648",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227648",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227648"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

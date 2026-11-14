@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.14731",
+    "arxiv_id": "2611.14731",
+    "arxiv_version": null,
+    "inspire_id": "3227598",
+    "doi": null,
+    "title_en": "A New Framework for Quantum Reinforcement Learning",
+    "abstract_en": "Quantum reinforcement learning (QRL) has emerged as a promising approach for controlling quantum systems and accelerating learning tasks with quantum resources. However, most existing QRL formulations still retain a classical reinforcement learning interface: states and actions are often encoded in computational bases and rewards are extracted through measurements. This interface is restrictive for genuinely quantum environments: choosing a measurement can discard entanglement information, while repeated intermediate measurements collapse the evolving state and require costly re-preparation. This motivates a fully QRL framework in which the agent, environment, rewards, and return accumulation are all quantum. In this paper, we take a step toward this goal and introduce a new QRL framework in which both the policy and the environment are modeled by conditional quantum channels. We then propose a quantum policy-gradient algorithm for parameterized conditional quantum channels with a trainable control basis. We also derive finite- and infinite-horizon gradient estimators using a new parameter-shift rule. This rule is needed because policy parameters are shared across repeated interaction blocks and the infinite-horizon objective is not a finite circuit; rather than shifting every occurrence and evaluating the whole trajectory, our estimator shifts only one sampled policy block. Sampling this block from a geometric distribution yields an unbiased gradient estimator under bounded rewards. Finally, we establish convergence of the resulting stochastic gradient-ascent procedure to stationary points under standard smoothness and step-size assumptions.",
+    "authors": [
+      "Tavakoli, Alireza",
+      "Heidari, Mohsen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-10T00:00:00Z",
+    "updated_at": "2026-11-13T13:23:44.820699Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227598",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227598",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227598"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

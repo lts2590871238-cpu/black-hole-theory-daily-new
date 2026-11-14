@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16751",
+    "arxiv_id": "2611.16751",
+    "arxiv_version": null,
+    "inspire_id": "3228174",
+    "doi": null,
+    "title_en": "Reduced filtering using classical control hierarchy with linear optimality for continuous quantum error correction",
+    "abstract_en": "Continuous quantum error correction promises reduced thresholds and hardware overhead compared to the digital paradigm, but its complex model estimation has greatly reduced its practicality. We recast this problem as a classical control-theoretic state hierarchy made of an exact bilinear reduced model, an exact conditional filter, and standard estimation and feedback design. For any $[[n,k,d]]$ stabilizer code whose generators are all continuously monitored and which is driven by a single Pauli recovery channel, we prove that the exact filter closes at dimension $3\\cdot2^{\\,n-k-1}$. This dimension is set by the syndrome space instead of the Hilbert space and is minimal within invariant-subspace filtering. The reduced model exposes and corrects two failure mechanisms of the feedback loop. Strong monitoring damps the rotational partner through which the controller steers the stabilizer and injects back-action diffusion along the recovery path; lowering the measurement strength during correction raises the entanglement fidelity of partner-steering LQR control by $0.096$ in the three-qubit code with three monitored parities. Linearizing at the codespace leaves the syndrome uncontrollable, so the controller can stall; a gain designed at a shifted operating point removes this degeneracy. In the limit of zero measurement during correction, we prove that a syndrome-only filter is exact at every recovery boundary. The resulting committed-recovery controller needs only $2^{\\,n-k}$ class probabilities and gives the highest entanglement fidelity compared among the methods tested in the literature, $0.947$ against $0.920$ for a measurement-based estimator protocol in the three-qubit bit-flip code, and $0.726$ vs at most $0.407$ for continuous controllers in the five-qubit perfect code.",
+    "authors": [
+      "Guatto, Manuel",
+      "Cárdenas-López, F.A.",
+      "Motzoi, Felix"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:10:15.103926Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228174",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228174",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228174"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16372",
+    "arxiv_id": "2611.16372",
+    "arxiv_version": null,
+    "inspire_id": "3228067",
+    "doi": null,
+    "title_en": "No Convergence in Learned Eavesdropping-Detection Dynamics for BB84 Quantum Key Distribution",
+    "abstract_en": "In prior work we showed that a reinforcement-learning eavesdropper can intercept BB84 quantum key distribution while holding the quantum bit error rate below the abort threshold and keeping a usable distillable key. In this paper we ask whether an equally adaptive learning detector can close this stealth window. We cast the interaction as an alternating best-response game between a tabular eavesdropper and a tabular threshold-adapting detector. We measure exploitability, which is the detection rate and distillable key fraction achieved by a fresh attacker best-responding to the final detector. Across three learning rules (Q-Learning, SARSA, Double Q-Learning), three channel-noise levels, and a uniform false-alarm discipline, the dynamics do not settle out to twenty rounds. The exploitability does not approach a fixed point, and its round-to-round swings do not decay. Two controls, one retraining the attacker against a frozen defender and one retraining the defender against a frozen attacker, show that the swings on each side match the variance of the best-response procedure itself. The dynamics fluctuate at the scale of best-response variance rather than converging, with neither player settling to a fixed response. The behavior is noise-dependent, and the stealth window stays open at the low noise where practical QKD operates. The defender contains the attacker on average at intermediate noise without the contest settling, and at high noise the channel rather than the learned policy suppresses the attack. As a candidate mechanism we examine a last-mover information asymmetry, supported by significant anti-persistence at intermediate noise and consistent with best-response noise at low noise. The results suggest that a learned detector cannot be certified from any single round, and that closing the window calls for breaking the information structure rather than out-adapting the attacker.",
+    "authors": [
+      "Bagunu, Ramon Jose C."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:17:38.000705Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228067",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228067",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228067"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

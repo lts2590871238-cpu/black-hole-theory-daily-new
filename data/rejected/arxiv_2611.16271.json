@@ -1,0 +1,71 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16271",
+    "arxiv_id": "2611.16271",
+    "arxiv_version": null,
+    "inspire_id": "3227850",
+    "doi": null,
+    "title_en": "Hierarchical Decoding for Quantum Error Correction",
+    "abstract_en": "Fault-tolerant quantum computing requires classical decoders that can keep up with syndrome data streams and supply correction information and logical measurement outcomes to the quantum control system. Meeting these requirements at scale requires high throughput while controlling the end-to-end latency from readout to usable correction. In this paper, we organize decoding algorithms, execution strategies, and code constructions using common classifications and examine their performance and trade-offs under the reported evaluation conditions. We distinguish decoder-level hierarchy, where multiple decoding stages or resources cooperate to decode a single code, from code-level hierarchy, where the code construction itself introduces multiple decoding levels. We first review single-code hierarchical decoders and their cascaded predecoding and windowed, streaming, and distributed implementations. We then study hierarchical and concatenated codes, focusing on how decoding is coordinated across code levels through hard decisions, soft reliability information, or syndrome information. We also examine how qubit modalities shape decoding workloads and timing requirements, and review how different decoding platforms meet these requirements, including central processing units (CPUs), graphics processing units (GPUs), field-programmable gate arrays (FPGAs), application-specific integrated circuits (ASICs), and cryogenic platforms. By assessing design trade-offs, this paper clarifies connections across the literature and provides a shared foundation for QEC design exploration. It also identifies gaps in performance reporting and system integration to guide future research toward practical quantum error correction.",
+    "authors": [
+      "Tang, Xulong",
+      "Alavisamani, Narges",
+      "Camps, Joan",
+      "Cha, Matthew",
+      "Jennings, Elise",
+      "O'Connor, Jack",
+      "Bauza, Humberto Munoz",
+      "Izaac, Josh",
+      "Anand, Namit",
+      "Bewtra, Ron",
+      "Coleman, Jeremiah",
+      "Heinsoo, Johannes",
+      "Ferguson, Michael",
+      "Lau, Ben",
+      "Lott, P. Aaron",
+      "Neuhaus, Leonhard",
+      "O'Riordan, Lee J.",
+      "Osama, Muhammad",
+      "Mohseni, Masoud",
+      "Johnson, Blake R.",
+      "Eckert, Yasuko"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:10:13.029802Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227850",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227850",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227850"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

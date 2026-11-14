@@ -1,0 +1,67 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16320",
+    "arxiv_id": "2611.16320",
+    "arxiv_version": 1,
+    "inspire_id": "3228076",
+    "doi": null,
+    "title_en": "3D radiative transfer of K-series lines of He-like ions with SKIRT",
+    "abstract_en": "High-resolution X-ray spectroscopy with XRISM has resolved line profiles of highly ionised ions, including P Cygni profiles, in many systems containing compact objects. To interpret these line profiles, forward modelling with three-dimensional radiative transfer (3D RT) calculations including the relevant ionic processes is required. Following our previous work on the Lyman-series lines of H-like ions, we present the implementation of the K-series lines of He-like ions with Z = 2-30 in the open-source Monte Carlo RT code SKIRT, providing a numerical tool for interpreting highresolution X-ray spectra of photoionised plasmas. Building upon the framework developed for H-like ions, we incorporate the resonance scattering (RS) and radiative recombination (RR) channels. We also implement the inner-shell ionisation (II) channel of Li-like ions for the production of He-like lines. We resolve fine-structure levels and account for level populations, frequency redistribution, phase function, and linear polarisation through transition-specific Mueller matrices. The implementation reproduces the expected RT effects in He-like lines. The Fe xxv w and y lines, dominated by the RS channel, develop optically thick line-profile distortions and P Cygni profiles in an outflowing plasma, whereas the x and z lines, dominated by the RR and II channels, do not exhibit such behaviour. The line intensities from the RS and RR channels agree well with Cloudy. The II channel further enhances the z line, which is not yet included in Cloudy. The linear polarisation calculations reproduce the analytical and experimental angular dependence of resonance scattering on a line-by-line basis. This extension to He-like lines, together with our previous implementation of H-like lines, enables 3D RT modelling of the major X-ray lines, providing a tool for constraining gas kinematics around compact objects observed with XRISM.",
+    "authors": [
+      "N. Sameshima",
+      "A. Lauwers",
+      "B. Vander Meulen",
+      "M. Tsujimoto",
+      "L. -Y. Gu",
+      "M. Baes",
+      "P. Camps",
+      "D. Miura"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.GA"
+    ],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-13T13:53:31.349622Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.16320v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.16320v1",
+    "inspire_url": "https://inspirehep.net/literature/3228076",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.16320",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2611.16320v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3228076",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3228076"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

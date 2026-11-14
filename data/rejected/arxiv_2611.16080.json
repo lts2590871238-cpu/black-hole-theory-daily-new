@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.16080",
+    "arxiv_id": "2611.16080",
+    "arxiv_version": null,
+    "inspire_id": "3227849",
+    "doi": null,
+    "title_en": "TGen-SQD: Physics-Informed Transferable Configuration Generator for Sample-Based Quantum Diagonalization",
+    "abstract_en": "Sample-based quantum diagonalization (SQD) avoids iterative variational circuit optimization, but its accuracy and cost depend on selecting a compact determinant subspace that captures the ground state. Existing machine-learning selectors use task-specific physical cues and typically retrain for each Hamiltonian. We introduce TGen-SQD, a physics-informed generator jointly trained across multiple Hamiltonians. It learns from configuration-interaction-weighted data and uses orbital- and system-level descriptors to guide generation. After training, its weights remain frozen for inference on seen and zero-shot geometries. On a 20-qubit H10 chain, TGen-SQD achieves mean energy errors of 40.18 +/- 1.52 and 43.97 +/- 1.20 mHa on seen and unseen geometries, respectively, 12.7% and 11.7% lower than the state-of-the-art PIGen-SQD baseline under matched shot and proposal budgets.",
+    "authors": [
+      "Mishu, Niloy Deb Roy",
+      "Jiang, Lei",
+      "Heidari, Mohsen",
+      "Zhang, Ruizhe",
+      "Chen, Fan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:17:53.322491Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227849",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227849",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227849"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

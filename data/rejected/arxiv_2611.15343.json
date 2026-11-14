@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15343",
+    "arxiv_id": "2611.15343",
+    "arxiv_version": null,
+    "inspire_id": "3227604",
+    "doi": null,
+    "title_en": "Hybrid Classical-Quantum Optimization for CVRPTW: A Systems Framework with Provable Feasibility and Empirical Hardware Limits",
+    "abstract_en": "Solving large-scale Capacitated Vehicle Routing Problems with Time Windows (CVRPTW) remains challenging because strict operational constraints and scale limit both exact and heuristic methods. We present a hybrid classical-quantum architecture combining Mixed Integer Linear Programming (MILP) with vehicle-level Quadratic Unconstrained Binary Optimization (QUBO), solved using Toshiba SQBM+ and QAOA on Rigetti Ankaa-3 and IQM Emerald quantum processors. The decomposition avoids the variable growth and constraint-enforcement difficulties of monolithic CVRPTW QUBO formulations. We evaluate the framework on five realistic benchmarks derived from London traffic and location data, spanning 10--70 customers, using a validation pipeline enforcing feasibility and monotone improvement over classical baselines. SQBM+ achieves verified fleet-distance reductions of 2.80% (7,927 m) for the 25-customer instance and 0.22% (1,186 m) for the 55-customer instance. QAOA experiments establish a current hardware boundary for reliable constraint satisfaction at subproblems of up to 4 customers (16 qubits). Diagnostic results identify assignment-level time-window tightness, rather than local route optimization, as the dominant scalability bottleneck. The results demonstrate a practical near-term role for hybrid classical-quantum optimization while establishing empirical limits for current quantum hardware.",
+    "authors": [
+      "Gopasana, Syamasundar",
+      "Singh, Swatantra",
+      "Joydhar, Rohan",
+      "Sengupta, Shubhashis"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:22:30.722418Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227604",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227604",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227604"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

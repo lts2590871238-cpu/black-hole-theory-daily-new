@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15229",
+    "arxiv_id": "2611.15229",
+    "arxiv_version": null,
+    "inspire_id": "3227746",
+    "doi": null,
+    "title_en": "Trading Memory for Depth: Tight Bounds for LCU Block-Encodings",
+    "abstract_en": "An LCU block-encoding of $A=\\sum_jα_j U_j$ runs the $U_j$ in series on one register, so its select depth is the total work $\\sum_j d_j$. Depth was the one block-encoding constraint with no knob: grouping the $T$ terms into $g$ registers that run in parallel gives it one, and the binning is the knob. For a $g$-branched realisation (up to $g$ oracles in parallel) the select depth is tight at $Θ(C+\\log(g\\,\\max\\{n,m\\}))$ for $g\\ge2$, with $C$ the binning makespan and $m$ the largest bin, in the $k$-local atomic-oracle model. The work floor is a two-way reduction to classical multiprocessor scheduling: every realisation \\emph{induces} a $g$-machine schedule, and the construction realises any binning, so an optimal binning attains it. The additive logarithmic routing term is a light-cone cost, independent of the selector encoding and robust to register reuse, measurement, reset, and teleportation; width is at least $gn$. The standard $1/α$ subnormalisation and success probability are unchanged; the endpoints are sequential LCU ($g{=}1$) and the fully parallel realisation ($g{=}T$). Allowing the oracles to be split (McNaughton's rule) reaches the work floor $\\sum_j d_j/g$. Two selector realisations trade space for depth: a dense (Möttönen) one is memory-tight at the standard LCU footprint but its multiplexed controls cost a $\\log\\log(m{+}1)$ factor on the makespan; a one-hot one is depth-tight at $T$ selector qubits. Neither reaches both at once.",
+    "authors": [
+      "Issel, Sebastian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:35:20.863895Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227746",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227746",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227746"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

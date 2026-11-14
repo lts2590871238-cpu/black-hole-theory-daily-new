@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15682",
+    "arxiv_id": "2611.15682",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Toward Self-Driving Multi-reference Calculations: Belief-Aware Orbital Selection",
+    "abstract_en": "We reformulate active-orbital selection as a partially observable Markov decision process (POMDP), analogous to decision-making in autonomous driving and robot control, and couple it with quadratic unconstrained binary optimization (QUBO) to emulate expert-like selection of active orbitals. The three popular types of orbital information, i.e. occupation numbers, orbital composition, and orbital entanglements, can be used separately or jointly. QUBO constructs complete candidate spaces under fixed electron and orbital counts, while the POMDP selects successive calculations, updates its belief from each completed result, and thereby corrects and refines the active orbitals. This belief-aware sequential procedure enables continuous active-space selection rather than one-shot threshold-based filtering, so the space can adapt as the calculation proceeds. We demonstrate the approach for valence-space construction in small molecules, spectral calculation of metal compound TiF$_3$, and active-space refinement of 1,2-dioxetanone around conical intersections. Because selection learns from calculations on the molecule of interest without requiring a pre-existing training set, it is suited to following the entire course of complex chemical reactions.",
+    "authors": [
+      "Chen Li",
+      "Kaifan Pan",
+      "Xinyu Sun",
+      "Yinxuan Song",
+      "Lianhua He",
+      "Teng Lu",
+      "Haibo Ma",
+      "Zhenggang Lan",
+      "Yingjin Ma"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-11-11T16:24:42Z",
+    "updated_at": "2026-11-11T16:24:42Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.15682v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.15682v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.15682",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://arxiv.org/abs/2611.15682v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

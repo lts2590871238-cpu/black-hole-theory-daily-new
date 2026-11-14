@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.15080",
+    "arxiv_id": "2611.15080",
+    "arxiv_version": null,
+    "inspire_id": "3227601",
+    "doi": null,
+    "title_en": "Structure-Aware Quantum Circuit Equivalence Checking via Sparse Pauli Propagation",
+    "abstract_en": "Quantum circuit equivalence checking is essential for validating compiler optimizations, but its computational cost can vary substantially with circuit structure. We present a structure-aware equivalence checker for unitary quantum circuits based on sparse Pauli propagation. It combines two complementary verification strategies: generator propagation compares the conjugation actions of the circuits on Pauli generators, while Cut-Miter exploits cancellation between circuit products at selected cut points. A structure-aware verification procedure uses circuit characteristics to select between these strategies while explicitly accounting for numerical and approximation errors. We evaluate our framework against three existing equivalence checkers on two benchmark suites containing circuit pairs with up to 512 qubits. Across 434 scored circuit pairs, our framework produces reference-consistent decisions for 96.3% of the pairs without any incorrect verdicts, while the evaluated baselines achieve at most 68.7% reference-consistent decisions. It also achieves the lowest aggregate runtime among the evaluated tools, reducing total runtime by 48.5%--76.0% relative to these baselines. Ablation studies confirm the benefits of cut-based verification, Pauli-term pruning, and bounded propagation attempts. These results indicate that structure-aware sparse Pauli propagation, combined with complementary verification strategies and explicit error accounting, can provide an effective approach to practical quantum circuit equivalence checking.",
+    "authors": [
+      "Xia, Shangzhou",
+      "Luo, Junjie",
+      "Wang, Qichen",
+      "Suzuki, Yasunari",
+      "Zhao, Jianjun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-13T13:14:58.752788Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3227601",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3227601",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
+        "url": "https://inspirehep.net/literature/3227601"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

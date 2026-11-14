@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.11935",
     "arxiv_id": "2611.11935",
     "arxiv_version": 1,
-    "inspire_id": "3226751",
+    "inspire_id": null,
     "doi": null,
     "title_en": "AI-Driven Discovery of Entanglement Witness in Spin Hamiltonians",
     "abstract_en": "Entanglement is a crucial resource in quantum science and engineering, but detecting it in many-body states from experimentally accessible observables remains challenging. Here we introduce EntNet, an AI-driven framework to discover compact combinations of spin observables that accurately distinguish entangled from fully separable many-body mixed states in one-dimensional spin-$1/2$ chains governed by short-range Hamiltonians. We construct local-unitary-invariant representations of measurable Pauli correlators up to four-body order, sparsely select 16 candidate invariant feature channels, and learn their spatial structure using a Transformer architecture with rotary positional embeddings. Using only expectation values of these low-order observables, EntNet achieves $>98\\%$ recall on certified entangled states with near-zero false-positive rates on separable states. Remarkably, it exhibits transferability across system sizes and distinct Hamiltonian families, including frustrated and disordered spin models, with minimal loss of accuracy. Beyond detection, EntNet provides physical insight into entanglement detection by revealing a selective spatial organization of pair correlations, while its finite-temperature decision boundary tracks the excitation gap of Jordan-Wigner quasiparticles. These results establish a transferable and physically interpretable framework for data-driven discovery of entanglement witnesses from local correlation functions.",
@@ -18,31 +18,23 @@
       "cond-mat.str-el",
       "cs.LG"
     ],
-    "submitted_at": "2026-11-09T00:00:00Z",
-    "updated_at": "2026-11-11T13:38:16.977786Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-09T06:06:19Z",
+    "updated_at": "2026-11-09T06:06:19Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.11935v1",
     "pdf_url": "https://arxiv.org/pdf/2611.11935v1",
-    "inspire_url": "https://inspirehep.net/literature/3226751",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.11935",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
+        "fetched_at": "2026-11-14T03:24:14.116144Z",
         "url": "https://arxiv.org/abs/2611.11935v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3226751",
-        "fetched_at": "2026-11-13T03:28:19.467476Z",
-        "url": "https://inspirehep.net/literature/3226751"
       }
     ],
     "is_demo": false
