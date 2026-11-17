@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19128",
+    "arxiv_id": "2611.19128",
+    "arxiv_version": null,
+    "inspire_id": "3229434",
+    "doi": null,
+    "title_en": "Efficient simulation of the generalized Langevin equation using a basis of dynamically relevant histories for memory and noise",
+    "abstract_en": "The Generalized Langevin Equation (GLE) is a cornerstone for modeling non-Markovian dynamics, but its numerical solution remains challenging due to the history-dependent convolution and the need to generate colored noise with a prescribed correlation function. We introduce a forward construction that addresses both challenges within a single framework. We represent an arbitrary trajectory as sum of relevant and irrelevant parts, where relevant part can be decomposed into a small number of characteristic history patterns that make the main contribution to future dynamics. It allows to reduce numerical cost to \\(O(d^2)\\) for $d$ chosen patterns instead of full history. The same construction applies to colored noise generation, where the causal filter plays the role of the memory kernel. We demonstrate the accuracy and efficiency of the method for several representative kernels, including long-range kernels with power-law tails.",
+    "authors": [
+      "Kondaurov, Dmitriy",
+      "Polyakov, Evgeny"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:26.082532Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229434",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229434",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229434"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

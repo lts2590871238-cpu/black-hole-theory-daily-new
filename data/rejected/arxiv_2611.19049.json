@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19049",
+    "arxiv_id": "2611.19049",
+    "arxiv_version": null,
+    "inspire_id": "3229477",
+    "doi": null,
+    "title_en": "Machine-learned active spaces enable quantum calculations of spin-state energetics of transition-metal complexes on quantum hardware",
+    "abstract_en": "Multireference calculations on transition-metal complexes, on classical or quantum hardware, depend on the choice of active space. The orbitals that belong in it are those that are strongly entangled in the correlated wavefunction, but measuring this entanglement requires the very correlated calculation that the active space is meant to make affordable. Here we present SpinAware, a machine-learning model that predicts density-matrix renormalization group (DMRG) single-orbital entropies and orbital-pair mutual information from the unrestricted Hartree-Fock (UHF) solution of each spin state, without any correlated calculation. Each of the 20 highest occupied and 20 lowest unoccupied orbitals is described by 60 descriptors computed from the UHF solution, among them the differences between its alpha and beta occupations and energies, its metal-d and ligand character, and its exchange coupling to the other orbitals, and a transformer predicts the entropy of each orbital in the context of all others. Trained on 3454 spin-pure DMRG calculations on mononuclear Cr-Ni complexes, the model transfers to experimentally characterized complexes with ligands, binding topologies, oxidation states and metals absent from training. Over 11 spin states it reproduces the DMRG entropy profiles with a mean absolute error of 0.027, and combining the predicted entropies with the predicted mutual information gives a candidate pool that contains 99% of the DMRG-active orbitals of the benchmark spin states while keeping, on average, only 15 of the 40 orbitals. Natural-orbital occupation scans then select compact active spaces from this pool for a nickel and a cobalt complex. Sample-based quantum diagonalization with samples from IBM quantum processors reproduces the exact CASCI energies of these spaces to within 0.3 kcal/mol and their spin-state gaps to within 0.10 kcal/mol for up to 32 qubits.",
+    "authors": [
+      "Akbar, Muhammad Arsalan Ali",
+      "Kühne, Thomas D.",
+      "Kais, Sabre",
+      "Dobrautz, Werner"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:53:05.531362Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229477",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229477",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229477"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

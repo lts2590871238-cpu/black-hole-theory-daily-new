@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19092",
+    "arxiv_id": "2611.19092",
+    "arxiv_version": null,
+    "inspire_id": "3229466",
+    "doi": null,
+    "title_en": "Constrained Adiabatic Quantum Programming",
+    "abstract_en": "To find a $k$-clique in a graph, adiabatic quantum computation (AQC) evolves a quantum system from the minimum of an initial cost function to the minimum of a problem cost function that penalizes non-cliques. Existing AQC languages fix the initial cost function, so the search ranges over all $2^n$ subsets of the $n$ vertices, although only the subsets of size $k$ can be answers. We present ENQ+, an AQC language in which the programmer writes both cost functions. Data constraints define the problem cost function. Relational constraints, a new construct, declare the moves the search may make between configurations and define the initial cost function. For the clique, a single relational constraint, which exchanges a chosen vertex with an unchosen one, confines the search to the subsets of size $k$. ENQ+ thereby turns constrained quantum annealing, which physicists set up by hand for individual problems, into a programming construct. We give ENQ+ a semantics in many-world configuration (MWC) graphs, whose nodes are configurations and whose edges are moves, and derive from it a step-wise semantics of adiabatic evolution. We prove that a run stays within the component of the MWC graph that contains its initial state, and that a run from an approximate initial state still reaches the answer, with probability equal to its squared overlap with the exact one. We compile ENQ+ to quantum circuits, prove the compilation correct with respect to the semantics, and use ENQ+ to program the Three-Dimensional Matching, Hamiltonian Cycle, and Traveling Salesperson problems.",
+    "authors": [
+      "Li, Liyi",
+      "Anand, Mahir",
+      "Graves, James Bryan",
+      "Sabry, Amr"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:41.753700Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229466",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229466",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229466"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

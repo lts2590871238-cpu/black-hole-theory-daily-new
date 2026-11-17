@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19355",
+    "arxiv_id": "2611.19355",
+    "arxiv_version": null,
+    "inspire_id": "3229475",
+    "doi": null,
+    "title_en": "Numerical Integration Instabilities in Likelihood Fits: Mechanisms and Remedies",
+    "abstract_en": "Numerical instabilities in the normalization of probability density functions can produce artificially lower negative log-likelihood (NLL) values than the true minimum of a likelihood fit, even when the resulting fit provides a poorer description of the data. Motivated by anomalously low NLL values found in non-converged fits associated with a recent CMS search for fully charmed tetraquark candidates, we use a pseudo-dataset generated from a likelihood model based on that analysis to investigate how numerical integration can yield unreliable normalization results, how these errors affect likelihood minimization, and how they can be addressed. We find that, even at fixed integration tolerance, the stopping decision of a numerical integrator can change with the fit parameters, introducing discontinuities in the normalization integrals that propagate to the likelihood surface. Such discontinuities can trap the minimizer at a numerical step and yield an artificially lower NLL. Tightening the integration tolerance mitigates these numerical discontinuities, while adaptive integration methods, such as Gauss--Kronrod quadrature, can also improve the numerical stability. A more severe failure occurs when the integration grid cannot adequately resolve a sharply localized contribution. In this case, the integrator may satisfy its estimated-error criterion despite substantially underestimating the normalization, allowing the minimizer to enter a region with an artificially low NLL. Tightening integration tolerances or using alternative adaptive integration methods does not necessarily resolve sharply localized contributions. We demonstrate that a suitable variable transformation can improve their numerical resolution, yielding more accurate normalization integrals and restoring fit convergence.",
+    "authors": [
+      "Zhu, Manqi",
+      "Bauer, Gerry",
+      "Yi, Kai",
+      "Wang, Xining"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:55.898269Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229475",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229475",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229475"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

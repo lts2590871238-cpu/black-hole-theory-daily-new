@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19130",
+    "arxiv_id": "2611.19130",
+    "arxiv_version": null,
+    "inspire_id": "3229463",
+    "doi": null,
+    "title_en": "Accurate qLDPC decoding under real-time constraints",
+    "abstract_en": "Fault-tolerant quantum computation requires reconciling the computational demands of accurate decoding with the stringent timing constraints of real-time error correction. We present Spatiotemporal Covariance-Optimized Parallel Ensemble (SCOPE), a physics-informed framework for real-time decoding of quantum low-density parity-check codes (qLDPC). By exploiting the spatial symmetries of bivariate-bicycle (BB) codes and the temporal regularity of repeated syndrome extraction, SCOPE uncovers a spatiotemporally covariant decoding structure and organizes the circuit-level problem into a layered decoding strategy. We further compress the high-dimensional evolution of belief propagation (BP) into a low-dimensional dynamical representation, revealing distinct signatures of successful and failed decoding and enabling early detection of unpromising trajectories. Guided by these dynamical signatures, SCOPE explores multiple perturbed decoding trajectories in parallel, enabling early termination and reseeding within a fixed serial iteration budget, with message-passing parameters optimized offline by simulated annealing. Circuit-level simulations of the $[[144,12,12]]$ BB code yield a logical error rate of $p_L=4.82\\times10^{-10}$ at a physical error rate of $p=10^{-3}$. We further realize a pipelined two-arm memory-augmented BP (Mem-BP) core at the register-transfer level. Functional simulations at a 250 MHz clock yield a 16 ns BP iteration interval per arm and a mean input-to-result latency of 173.8 ns at $p=5\\times10^{-3}$.",
+    "authors": [
+      "Qing, Chenzewei",
+      "Zhang, Tengyu",
+      "Luo, Xiaoqin",
+      "Su, Xiaolu",
+      "You, Li"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:41.537270Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229463",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229463",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229463"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

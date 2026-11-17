@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.18848",
     "arxiv_id": "2611.18848",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3229415",
     "doi": null,
     "title_en": "Flexible ground-state search algorithm on hybrid Clifford-tensor network manifolds",
     "abstract_en": "Tensor network algorithms face challenges in highly entangled regimes, such as systems with periodic boundary conditions (PBC), long-range interactions, or higher dimensions, where the required bond dimension quickly renders computations infeasible. To overcome this limitation, we introduce a novel approach that integrates the stabilizer formalism directly into the traditional density-matrix renormalization group (DMRG) algorithm. While previous methods have used Clifford unitaries to minimize ground-state entanglement, fundamentally limited to distilling that away utilizing local two-qubit operations, our framework optimizes Clifford transformations to minimize the state's energy. We benchmark our method against standard DMRG at fixed bond dimensions for the Ising model on a ring (including long-range interactions) and on a torus. We observe systematic gains in models with local interactions - as drastic as a factor of 40 decrease in bond dimension in two dimensions. Our algorithm is readily implementable in standard DMRG codes and provides a practical way to substantially reduce algorithm costs, paving the way for large-scale simulation at volumes beyond what is presently achievable.",
@@ -20,23 +20,31 @@
       "cond-mat.str-el",
       "quant-ph"
     ],
-    "submitted_at": "2026-11-13T19:05:04Z",
-    "updated_at": "2026-11-13T19:05:04Z",
-    "document_types": [],
+    "submitted_at": "2026-11-13T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:09.815468Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.18848v1",
     "pdf_url": "https://arxiv.org/pdf/2611.18848v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229415",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.18848",
-        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
         "url": "https://arxiv.org/abs/2611.18848v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3229415",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229415"
       }
     ],
     "is_demo": false

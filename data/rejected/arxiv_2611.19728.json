@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19728",
+    "arxiv_id": "2611.19728",
+    "arxiv_version": null,
+    "inspire_id": "3229513",
+    "doi": null,
+    "title_en": "Quantum Loading of Charge and Spin-Adapted MPS",
+    "abstract_en": "Matrix product states (MPS) are powerful classical representations of correlated quantum states, but loading a large bond dimension MPS can substantially increase the cost in fault-tolerant quantum algorithms. We develop a circuit for preparing a U(1)~$\\times$~SU(2)-symmetric MPS directly from spin-adapted reduced tensors. Using Householder--LKS synthesis, the circuit prepares each symmetry-allowed reduced block and applies Clebsch--Gordan coefficients to recover the magnetic degrees of freedom, avoiding explicit loading of the corresponding unfolded dense tensors. The reduced-tensor data loading is dominant in cost. We benchmark $4 \\times 4$ and $4 \\times 6$ Fermi--Hubbard states and active-space models of \\ce{[Fe2S2]^2-}, \\ce{[Fe4S4]^2-}, and low- and high-spin cytochrome P450. At 15-bit rotation precision, the molecular benchmarks show $\\sim 14\\times$ to $54\\times$ Toffoli reductions, $\\sim 20\\times$ to $87\\times$ active volume reduction, and $\\sim 33\\times$ to $140\\times$ volume (Toffoli $\\times$ qubits) reduction at the QROM-optimal point, relative to dense MPS loading. Fermi--Hubbard speedups increase with bond dimension and track the inverse tensor density, with modest qubit overhead. However, while we discuss generalization of our algorithm to reduce cost given further symmetry or using more performant unitary synthesis methods, extrapolation to larger lattices suggests that DMRG-state loading may exceed downstream phase-estimation costs, motivating co-design of state fidelity, compression, and the initial-state ansatz.",
+    "authors": [
+      "Hennefarth, Matthew R.",
+      "Gover, Lesley",
+      "Harvey, Carys",
+      "Jin, Zheting",
+      "Levy, Ryan",
+      "Sim, Sukin",
+      "Zini, Modjtaba Shokrian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-15T00:00:00Z",
+    "updated_at": "2026-11-17T04:53:20.216919Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229513",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229513",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229513"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

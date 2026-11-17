@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.19293",
     "arxiv_id": "2611.19293",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3229462",
     "doi": null,
     "title_en": "Bayesian Time-Varying Spectral Estimation for LISA with P-Splines",
     "abstract_en": "We model the evolutionary spectrum of a slowly time-varying process by a linear combination of products of time- and frequency-dependent B-splines, placing a Gaussian tensor-product penalty prior on the coefficients. The posterior distribution is obtained by updating the prior using a Whittle-type likelihood approximation of the Wilson-Daubechies-Meyer time-frequency coefficients. Separate regularisation in time and frequency allows non-stationary spectral structure to be inferred. An adaptive coarse-grained likelihood reduces the computational cost while preserving fine resolution around sharp spectral features. We first validate the method using repeated simulations of a locally stationary process with known spectrum, showing lower reconstruction errors and narrower posterior intervals as the sample size increases. We then apply it to a year-long simulated LISA data set with stationary instrumental single link spectra, an evolving time-delay interferometry (TDI) response, and a modulated Galactic foreground. We compare a flexible total power spectral density (PSD) model with models incorporating progressively stronger physical information and examine both continuous and gapped observations. Allowing time variation substantially improves reconstruction relative to a stationary model, while incorporating physical information about the TDI response further improves recovery, particularly near its moving spectral features. The results illustrate the trade-off between spectral flexibility, physical assumptions, and posterior uncertainty in non-stationary LISA noise estimation.",
@@ -21,23 +21,31 @@
       "astro-ph.IM",
       "gr-qc"
     ],
-    "submitted_at": "2026-11-14T09:42:55Z",
-    "updated_at": "2026-11-14T09:42:55Z",
-    "document_types": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:43.284060Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.19293v1",
     "pdf_url": "https://arxiv.org/pdf/2611.19293v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229462",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.19293",
-        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
         "url": "https://arxiv.org/abs/2611.19293v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3229462",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229462"
       }
     ],
     "is_demo": false

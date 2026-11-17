@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19334",
+    "arxiv_id": "2611.19334",
+    "arxiv_version": null,
+    "inspire_id": "3229445",
+    "doi": null,
+    "title_en": "Study of Randomness in Quantum Random Number Generator using Bayesian Neural Networks",
+    "abstract_en": "We propose a Bayesian neural network (BNN) framework to quantify the intrinsic (aleatoric) uncertainty in a continuous-variable quantum random number generator (CV-QRNG). This provides a direct data-driven measure of the QRNG's randomness generation. The BNN is trained on raw homodyne voltage time-series data from a fiber-coupled vacuum-fluctuation QRNG (VFQRNG). For each voltage data segment, the network predicts a Gaussian distribution (mean and variance) for the next sample, and the ensemble-averaged predicted variance is used as a diagnostic of entropy-related behavior under assumptions of our quantum source model. Thus, the predicted variance serves as a BNN model-based monitor of the randomness-generation process. We validate that the BNN metric increases with the local-oscillator (LO) power, consistent with theoretical min-entropy (extractable randomness). We also show the metric is sensitive to practical imperfections, coarse-graining (simulating limited analog-to-digital converter (ADC) sampling) or reducing ADC bit depth causes a clear drop in predicted aleatoric uncertainty, consistent with the source min-entropic model. These results establish the BNN-based metric as a complementary, physically motivated diagnostic tool for QRNG characterization. Unlike conventional tests (e.g. autocorrelation) that miss hardware issues like low ADC resolution, our method provides a direct real-time monitor of the VFRNG performance. Therefore, this metric is useful for real-time monitoring of CV-QRNG conditions, including drifts and other imperfections.",
+    "authors": [
+      "M, Shriram Pragash",
+      "Das, Aditi",
+      "Shrivastava, Megha",
+      "Mittal, Mohit",
+      "Srikanth, R.",
+      "Abhignan, Venkat"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:52:36.101306Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229445",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229445",
+        "fetched_at": "2026-11-17T05:24:16.225969Z",
+        "url": "https://inspirehep.net/literature/3229445"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
