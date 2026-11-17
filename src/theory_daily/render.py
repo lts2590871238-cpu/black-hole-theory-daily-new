@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import shutil
 from collections import defaultdict
-from datetime import UTC, datetime, timedelta, tzinfo
+from datetime import UTC, date, datetime, tzinfo
 from pathlib import Path
 from typing import cast
 from xml.etree import ElementTree as ET
@@ -15,7 +15,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from theory_daily.config import Settings, TopicsConfig
 from theory_daily.models import PaperCollection, PublishedPaper
-from theory_daily.retention import read_published
+from theory_daily.retention import archive_cutoff_date, read_published
 from theory_daily.storage import write_json
 
 
@@ -68,6 +68,20 @@ def _feed(settings: Settings, papers: list[PublishedPaper], generated: datetime)
     return ET.tostring(feed, encoding="unicode", xml_declaration=True)
 
 
+def partition_papers(
+    papers: list[PublishedPaper], now: datetime, timezone: str
+) -> tuple[list[PublishedPaper], list[PublishedPaper], date]:
+    """Split by the publication's local submission date, not the update hour."""
+    cutoff = archive_cutoff_date(now, timezone=timezone)
+    local_zone = _timezone(timezone)
+    recent: list[PublishedPaper] = []
+    archived: list[PublishedPaper] = []
+    for item in sorted(papers, key=lambda entry: entry.published_at, reverse=True):
+        submitted_date = item.paper.submitted_at.astimezone(local_zone).date()
+        (archived if submitted_date < cutoff else recent).append(item)
+    return recent, archived, cutoff
+
+
 def build_site(
     root: Path,
     papers: list[PublishedPaper],
@@ -86,25 +100,30 @@ def build_site(
     generated_utc = datetime.now(UTC)
     generated = generated_utc.astimezone(_timezone(settings.site.timezone))
     papers = sorted(papers, key=lambda item: item.published_at, reverse=True)
+    recent, archived, cutoff = partition_papers(papers, generated_utc, settings.site.timezone)
     common = {
         "settings": settings,
         "topics": topics,
         "generated": generated,
-        "papers": papers,
-        "archive_cutoff": generated_utc - timedelta(days=30),
+        "archive_cutoff": cutoff,
+        "archive_count": len(archived),
         "demo": demo,
     }
     _write(
         output / "index.html",
-        env.get_template("index.html").render(**common, asset_prefix="", page_prefix=""),
+        env.get_template("index.html").render(
+            **common, papers=recent, asset_prefix="", page_prefix=""
+        ),
     )
     grouped: dict[str, list[PublishedPaper]] = defaultdict(list)
-    for paper in papers:
-        grouped[paper.paper.submitted_at.date().isoformat()].append(paper)
+    for paper in archived:
+        day = paper.paper.submitted_at.astimezone(_timezone(settings.site.timezone)).date()
+        grouped[day.isoformat()].append(paper)
     _write(
         output / "archive" / "index.html",
         env.get_template("archive.html").render(
             **common,
+            papers=archived,
             grouped=dict(sorted(grouped.items(), reverse=True)),
             asset_prefix="../",
             page_prefix="../",
@@ -118,7 +137,7 @@ def build_site(
     )
     collection = PaperCollection(generated_at=generated_utc, papers=papers)
     write_json(output / "papers.json", collection)
-    _write(output / "feed.xml", _feed(settings, papers, generated_utc))
+    _write(output / "feed.xml", _feed(settings, recent, generated_utc))
     return output
 
 

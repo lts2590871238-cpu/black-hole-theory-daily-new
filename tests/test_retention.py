@@ -41,3 +41,42 @@ def test_old_raw_snapshots_are_pruned_newer_snapshots_compressed(tmp_path: Path)
     assert json.loads(gzip.decompress(
         (root / "20261116T000000Z.json.gz").read_bytes()
     )) == {"new": True}
+
+
+
+def test_rolling_cutoff_uses_beijing_calendar_days() -> None:
+    from datetime import date
+
+    from theory_daily.retention import archive_cutoff_date
+
+    # Beijing 2026-11-17 12:00 and the next local midnight.
+    assert archive_cutoff_date(datetime(2026, 11, 17, 4, tzinfo=UTC)) == date(
+        2026, 11, 3
+    )
+    assert archive_cutoff_date(datetime(2026, 11, 17, 16, tzinfo=UTC)) == date(
+        2026, 11, 4
+    )
+
+
+def test_archive_boundary_date_is_included_until_next_day(tmp_path: Path) -> None:
+    from datetime import timezone
+
+    local = timezone(timedelta(hours=8))
+    noon_17 = datetime(2026, 11, 17, 12, tzinfo=local)
+    boundary = demo_papers(noon_17)[0]
+    boundary.paper.submitted_at = datetime(2026, 11, 3, 0, tzinfo=local)
+    older = demo_papers(noon_17)[1]
+    older.paper.submitted_at = datetime(2026, 11, 2, 23, 59, tzinfo=local)
+
+    root = tmp_path / "data" / "papers"
+    write_json(root / "boundary.json", boundary)
+    write_json(root / "older.json", older)
+    maintain_retention(tmp_path, noon_17)
+    assert (root / "boundary.json").exists()
+    assert not (root / "older.json").exists()
+    assert (root / "older.json.gz").exists()
+
+    # On November 18, the November 3 article is also archived.
+    maintain_retention(tmp_path, noon_17 + timedelta(days=1))
+    assert not (root / "boundary.json").exists()
+    assert (root / "boundary.json.gz").exists()

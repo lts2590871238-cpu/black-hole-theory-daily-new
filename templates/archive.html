@@ -1,7 +1,20 @@
 {% extends "base.html" %}
 {% block title %}历史归档 · {{ settings.site.title_zh }}{% endblock %}
 {% block content %}
-<section class="page-head"><p class="eyebrow">ARCHIVE</p><h1>历史归档</h1><p>按首次提交日期浏览已入选论文；更新版本仍合并在同一张卡片。</p></section>
-{% if grouped %}{% for day, items in grouped.items() %}<section class="archive-day"><div class="section-heading"><h2>{{ day }}</h2><span>{{ items|length }} 篇</span></div>{% for item in items %}{% include "paper_card.html" %}{% endfor %}</section>{% endfor %}{% else %}<p class="empty">尚无正式历史。可先运行离线演示。</p>{% endif %}
+<section class="page-head">
+  <p class="eyebrow">ARCHIVE</p>
+  <h1>历史归档</h1>
+  <p>收录北京时间 {{ archive_cutoff.isoformat() }} 以前提交的 {{ archive_count }} 篇论文。每天自动滚动两周窗口。旧论文无损压缩保存，中文摘要、原文链接和评分均保留。</p>
+  <p><a href="../index.html">返回近两周论文</a></p>
+</section>
+{% if grouped %}
+{% for day, items in grouped.items() %}
+<section class="archive-day">
+  <div class="section-heading"><h2>{{ day }}</h2><span>{{ items|length }} 篇</span></div>
+  {% for item in items %}{% include "paper_card.html" %}{% endfor %}
+</section>
+{% endfor %}
+{% else %}
+<p class="empty">目前尚无两周前的精选论文。</p>
+{% endif %}
 {% endblock %}
-

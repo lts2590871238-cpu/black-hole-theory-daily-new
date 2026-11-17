@@ -75,7 +75,34 @@ def test_archived_paper_is_collapsible_and_still_searchable(
         output=tmp_path / "archived",
         demo=True,
     )
-    html = (output / "index.html").read_text(encoding="utf-8")
-    assert 'class="archived-paper-details"' in html
-    assert "展开完整摘要、链接与评分" in html
-    assert "data-search=" in html
+    homepage = (output / "index.html").read_text(encoding="utf-8")
+    archive = (output / "archive" / "index.html").read_text(encoding="utf-8")
+    assert "DEMO-01" not in homepage
+    assert "DEMO-01" in archive
+    assert 'class="archived-paper-details"' in archive
+    assert "展开完整摘要、链接与评分" in archive
+    assert "data-search=" in archive
+
+
+
+def test_home_archive_partition_rolls_with_beijing_day() -> None:
+    from datetime import UTC, date, datetime, timedelta, timezone
+
+    from theory_daily.render import partition_papers
+
+    china = timezone(timedelta(hours=8))
+    now = datetime(2026, 11, 17, 4, tzinfo=UTC)
+    papers = demo_papers(now)[:3]
+    papers[0].paper.submitted_at = datetime(2026, 11, 2, 23, 59, tzinfo=china)
+    papers[1].paper.submitted_at = datetime(2026, 11, 3, 0, tzinfo=china)
+    papers[2].paper.submitted_at = datetime(2026, 11, 4, 1, tzinfo=china)
+    recent, archived, cutoff = partition_papers(papers, now, "Asia/Shanghai")
+    assert cutoff == date(2026, 11, 3)
+    assert len(recent) == 2
+    assert len(archived) == 1
+
+    next_day = datetime(2026, 11, 17, 16, tzinfo=UTC)
+    recent, archived, cutoff = partition_papers(papers, next_day, "Asia/Shanghai")
+    assert cutoff == date(2026, 11, 4)
+    assert len(recent) == 1
+    assert len(archived) == 2

@@ -6,12 +6,28 @@ import gzip
 import os
 import re
 import shutil
-from datetime import UTC, datetime, timedelta
+from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
+
+from dateutil.tz import gettz
 
 from theory_daily.models import PublishedPaper
 
+ARCHIVE_AFTER_DAYS = 14
 _STAMP = re.compile(r"^(\d{8}T\d{6}Z)")
+
+
+def archive_cutoff_date(
+    now: datetime, *, days: int = ARCHIVE_AFTER_DAYS, timezone: str = "Asia/Shanghai"
+) -> date:
+    """Calendar-day boundary in the site's timezone; the boundary day stays current."""
+    if now.tzinfo is None:
+        raise ValueError("archive timestamp must be timezone-aware")
+    local_zone = gettz(timezone)
+    if local_zone is None:
+        raise ValueError(f"unknown archive timezone: {timezone}")
+    return now.astimezone(local_zone).date() - timedelta(days=days)
+
 
 
 def read_published(path: Path) -> PublishedPaper:
@@ -42,11 +58,18 @@ def _compress(path: Path) -> Path:
     return target
 
 
-def maintain_retention(root: Path, now: datetime, *, days: int = 30) -> None:
-    """Prune old fetch snapshots; never delete published papers or LLM cache."""
-    if now.tzinfo is None:
-        raise ValueError("retention timestamp must be timezone-aware")
-    cutoff = now.astimezone(UTC) - timedelta(days=days)
+def maintain_retention(
+    root: Path,
+    now: datetime,
+    *,
+    days: int = ARCHIVE_AFTER_DAYS,
+    timezone: str = "Asia/Shanghai",
+) -> None:
+    """Prune old fetch snapshots and compress old papers by local calendar date."""
+    cutoff = archive_cutoff_date(now, days=days, timezone=timezone)
+    local_zone = gettz(timezone)
+    if local_zone is None:
+        raise ValueError(f"unknown archive timezone: {timezone}")
     for folder in ("data/raw/arxiv", "data/raw/inspire", "data/normalized"):
         location = root / folder
         if not location.exists():
@@ -58,7 +81,7 @@ def maintain_retention(root: Path, now: datetime, *, days: int = 30) -> None:
             if match is None:
                 continue
             stamped = datetime.strptime(match.group(1), "%Y%m%dT%H%M%SZ").replace(tzinfo=UTC)
-            if stamped < cutoff:
+            if stamped.astimezone(local_zone).date() < cutoff:
                 path.unlink()
             elif path.suffix in {".xml", ".json"}:
                 _compress(path)
@@ -67,5 +90,5 @@ def maintain_retention(root: Path, now: datetime, *, days: int = 30) -> None:
     if published.exists():
         for path in published.glob("*.json"):
             paper = read_published(path)
-            if paper.paper.submitted_at < cutoff:
+            if paper.paper.submitted_at.astimezone(local_zone).date() < cutoff:
                 _compress(path)
