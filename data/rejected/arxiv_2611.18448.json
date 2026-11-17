@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.18448",
+    "arxiv_id": "2611.18448",
+    "arxiv_version": null,
+    "inspire_id": "3228622",
+    "doi": null,
+    "title_en": "Learning observable propagation with sparse local moments",
+    "abstract_en": "We propose a unified framework for predicting local moment dynamics in high-dimensional many-body systems from short-time trajectories. Thanks to the locality of the dynamics, we construct the transition moment matrices by projecting the Markov operator onto low-order connected-cluster basis functions supported near the target observable. Exploiting the spatial decay of time-lagged correlations, {these matrices} can be approximated in sparse-plus-low-rank form using trajectory samples, with computational cost scaling linearly in the system dimension and the number of trajectories. The learning error can be further reduced by correcting the memory effect induced by the Galerkin projection. We numerically demonstrate the effectiveness of the framework in extrapolating the dynamics of various many-body systems, including Langevin and Glauber dynamics for classical systems as well as Lindblad dynamics for open quantum systems. In addition, for a class of single-site Glauber dynamics, we establish error bounds for sparse-plus-low-rank compression and uniform-in-time bounds for connected-cluster approximation and observable propagation with compressed transition moment matrices.",
+    "authors": [
+      "Khoo, Yuehaw",
+      "Li, Bowen",
+      "Wang, Yuguan",
+      "Yang, Siyao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-13T00:00:00Z",
+    "updated_at": "2026-11-17T03:58:59.831252Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228622",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228622",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3228622"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

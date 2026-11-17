@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1007/s42979-026-05444-0",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3229091",
+    "doi": "10.1007/s42979-026-05444-0",
+    "title_en": "Hybrid Quantum-Classical Intrusion Detection under Severe Class Imbalance: A Controlled Comparison with a Classical Counterpart",
+    "abstract_en": "Intrusion Detection Systems (IDSs) must detect known threats and zero-day attacks in traffic with strong class imbalance. This study evaluates, under controlled conditions, whether a variational quantum circuit (VQC) contributes to classification in a hybrid IDS. Tabular traffic features from CICIoT2023 (five classes) and UNSW-NB15 (binary) are converted to grayscale images and processed by a ResNet18 backbone followed by a dressed head with an eight-dimensional bottleneck. The core of the head is either a VQC with 32 parameters (ResNet18-VQC), simulated without noise, or a classical block with 72 parameters (ResNet18-CDN); everything else is identical. The backbone is reused without external pre-trained weights, either frozen or with Layer 4 fine-tuned together with a genetic algorithm on the output layer, and XGBoost serves as a tabular reference. Across ten seeds, the circuit produced no change in macro F1-score detectable against training variability in either dataset or regime (Holm-adjusted paired t-test, $p\\ge 0.907$). A bootstrap on the test set found a small advantage of the VQC only in the frozen regime of CICIoT2023 (+0.007). XGBoost obtained the highest macro F1-score in both datasets (0.885 and 0.918). The results come from noiseless simulation and do not indicate quantum advantage.",
+    "authors": [
+      "da Silva, Ricardo Conde Camillo",
+      "Mahlow, Felipe Rodrigues Perche",
+      "Scherer, Rafał",
+      "Fanchini, Felipe Fernandes",
+      "Papa, João Paulo",
+      "da Costa, Kelton Augusto Pontara"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-11T00:00:00Z",
+    "updated_at": "2026-11-16T13:15:10.339413Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "7, 842, 2026, {'$ref': 'https://inspirehep.net/api/journals/2753360'}, 842, 8, SN Comput.Sci."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229091",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229091",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3229091"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19618",
+    "arxiv_id": "2611.19618",
+    "arxiv_version": null,
+    "inspire_id": "3229325",
+    "doi": null,
+    "title_en": "Latency-Preserving Rewrites and Translation Validation for Dynamic Quantum Circuits",
+    "abstract_en": "A dynamic quantum circuit measures qubits during a run and chooses later operations from the outcomes. These branches make the qubits wait: the outcome must reach the classical controller, and the controller must decide. We present qlin, a compiler that reduces this waiting time. qlin moves operations out of branches without delaying the program, a property proved in Lean 4. For error-correction decoders, which branch on syndromes that are almost always zero, qlin compiles the likely syndromes into one multiway branch and keeps the original program for the rest. A cost model decides when a classically controlled gate should become a quantum-controlled gate instead. On all benchmarks, qlin checks that the compiled program computes what its source computes, and the checker is proved sound in Lean 4. At the published per-decision cost of the QICK controller (42 ns), 10 of 65 programs run at least 10% faster than the best baseline in our cost model, up to 91.2%, mostly because one multiway branch replaces a long chain of if statements. On the register-transfer logic of the QubiC controller, a compiled distance-5 repetition decoder selects its correction in 21.3 instead of 151.1 expected cycles. Timing runs on an IBM device were too noisy to confirm or reject the model's ranking.",
+    "authors": [
+      "Malarchick, Rylan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-14T00:00:00Z",
+    "updated_at": "2026-11-17T04:23:50.484980Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229325",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229325",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3229325"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

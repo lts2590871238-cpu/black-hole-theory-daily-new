@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.18955",
+    "arxiv_id": "2611.18955",
+    "arxiv_version": null,
+    "inspire_id": "3229332",
+    "doi": null,
+    "title_en": "Certifying quantum generative models beyond the Fisher trace",
+    "abstract_en": "Whether a trained quantum generative model has learned its target is usually decided by a diagnostic validated on a labeled benchmark, and such a diagnostic can pass that validation by recovering how the benchmark was built. We analyze Fisher-trace and kernel-based certification of the real-amplitude quantum circuit Born machine in noiseless statevector simulation. For real-amplitude circuits built from half-angle rotations, the classical Fisher information equals the quantum Fisher information almost everywhere, so its trace equals the parameter count and carries no information about fit quality. The Fisher eigenvalue rank counts the live nodes of the amplitude tree: it coincides with the label on a sparse benchmark and is uninformative on a full-support one. The pooled Wasserstein and maximum-mean-discrepancy scores move with optimizer convergence and with the scoring convention. For two bitstring defect families on which both metrics have closed forms, we compute the tolerance-mismatch window in which the discrepancy rejects generators that the transport threshold admits; it opens only at certification-grade tolerances and closes as the qubit number grows. On the Hamming cost we prove a sharp tolerance ratio above which the discrepancy vote is redundant, and we obtain the exact worst-parity minimax value over all unit-diagonal positive-semidefinite kernels, which is exponentially small in the qubit number. In a numerical campaign at the tolerances a near-term experiment can resolve, the discrepancy vote changed no verdict at a thousand shots or more. The false-pass guarantee does not extend to device noise.",
+    "authors": [
+      "Leyton-Ortega, Vicente",
+      "Hamilton, Kathleen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-13T00:00:00Z",
+    "updated_at": "2026-11-17T04:42:06.846350Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229332",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229332",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3229332"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

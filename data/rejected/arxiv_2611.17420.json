@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.17420",
     "arxiv_id": "2611.17420",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3228758",
     "doi": null,
     "title_en": "Euclid Data Release 1 (DR1). Enhancing deep-learning models: the impact of image processing and training data selection for strong-lens detection",
     "abstract_en": "Euclid is expected to discover ~$10^5$ galaxy-galaxy strong gravitational lenses across ~14,000deg$^2$, requiring automated searches with high completeness and low false-positive rates. Despite advances in deep learning, the effects of training-set composition, image representation, and preprocessing on survey-scale detection remain poorly understood. We present an ablation study of the convolutional neural network used in the ECLIPSE strong-lens detection pipeline, evaluating different training configurations on a fixed test set. Using simulated and real Euclid data, we compare VIS-only and pseudo-RGB representations, FITS and JPEG formats, training-set composition, hard-negative selection, and multi-stage training. We also assess ensembling on ~67 million DR1 cutouts. Training-set composition and strategy strongly affect high-Recall performance. Omitting simulation based pre-training reduces high-Recall weighted average Precision by 83.7% for VIS-only and 74.5% for pseudo-RGB models. Negative-sample selection also substantially affects performance, while FITS yields modest gains over JPEG at high Recall (~2-5%). On DR1, the logit-mean ensemble improves average Precision by 28.0% and 39.9% over the individual VIS-only and pseudo-RGB models. Among ~70,000 candidates selected for visual inspection, it recovers 11,256 unique grade A (secure) and B (probable) lenses, compared with 9650 and 10,395 for the individual models. The branches show complementary ranking preferences, particularly for lenses benefiting from near-infrared information. Careful training-set design, realistic negatives, and multi-band ensembling improve survey-scale searches. Our final ensemble achieves ~80% Recall at the operational selection threshold, outperforming ablation models with higher global classification metrics and highlighting the need to optimise performance for realistic survey conditions.[Abridged]",
@@ -314,23 +314,31 @@
       "astro-ph.CO",
       "astro-ph.GA"
     ],
-    "submitted_at": "2026-11-12T19:00:07Z",
-    "updated_at": "2026-11-12T19:00:07Z",
-    "document_types": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-17T04:47:43.276258Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.17420v1",
     "pdf_url": "https://arxiv.org/pdf/2611.17420v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228758",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.17420",
-        "fetched_at": "2026-11-16T02:53:34.640288Z",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
         "url": "https://arxiv.org/abs/2611.17420v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3228758",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3228758"
       }
     ],
     "is_demo": false

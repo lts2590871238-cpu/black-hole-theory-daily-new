@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "general_relativity_foundations",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 6,
+    "methodological_rigor": 14,
+    "novelty": 6,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 3
+  },
+  "total_score": 42,
+  "reject_reason_zh": "该论文是数值相对论双黑洞波形的目录与收敛性研究，属于引力波源建模数据，而非所支持的三个引力理论主题（度规仿射引力、帕拉蒂尼引力、修改引力）；first_stage 仅以“null infinity”这一弱相关命中将其归入 general_relativity_foundations，但实际不涉及引力理论基础问题，因此不相关。",
+  "selection_reason_zh": "",
+  "title_zh": "RIT 双黑洞模拟第五版目录：偏心轨道的多分辨率研究",
+  "abstract_zh": "这是 RIT 数值相对论双黑洞波形公开目录（http://ccrg.rit.edu/~RITCatalog）的第五次发布，新增 248 个配置，其中优先包含 197 个新模拟的偏心轨道。此次更新使目录总数达到 2129 个案例。所有波形均已校正质心漂移，并外推到未来零无穷。为严格估计波形误差，我们对 10 个偏心模拟（最多至并合前 33 圈）开展了多分辨率收敛性研究，使用三个全局分辨率，每次提高 1.2 倍，并对单个 18 圈配置进行了全面的六分辨率研究。我们通过计算与理论无限分辨率外推结果的失配来评估波形精度。此外，我们分析了关键物理可观测量的收敛性质：并合时间、圈数、最终质量、最终自旋、反冲速度，以及引力辐射的峰值振幅、频率和光度。",
+  "keywords_en": [
+    "numerical relativity",
+    "binary black hole",
+    "waveform catalog",
+    "eccentric orbits",
+    "convergence study"
+  ],
+  "keywords_zh": [
+    "数值相对论",
+    "双黑洞",
+    "波形目录",
+    "偏心轨道",
+    "收敛性研究"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-17T04:52:52.044015Z"
+}

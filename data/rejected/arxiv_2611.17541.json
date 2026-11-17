@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.17541",
+    "arxiv_id": "2611.17541",
+    "arxiv_version": null,
+    "inspire_id": "3228880",
+    "doi": null,
+    "title_en": "Quantum Algorithm with Quadratic Speedup for 2D Pattern Matching",
+    "abstract_en": "We consider the problem of 2 dimensional pattern matching under Quantum Query model. Here, we are given a rectangular text $T[0..n_1-1][0..n_2-1]$ and a pattern $P[0..m_1 -1][0..m_2-1]$. We take $N = n_1n_2$ and $M = m_1m_2$ as the sizes of text and the pattern respectively (we assume $M < N$). Based upon the Quantum Advantage given by Grover's search (and subsequent Dürr-Høyer search), we create a solution which takes $\\tilde{O}(\\sqrt{N})$ query complexity to answer if the pattern $P$ exists in $T$. Our solution uses deterministic sampling as a primary component. As noted by earlier work in the literature, deterministic sampling is inadequate and witness tables are essential components for 2D matching. In our settings, we assume that the witness table of the pattern is precomputed classically and is available as an oracle to the quantum algorithm. Our main novel component is how to compute and employ a geometric structure called ``skyline\" without losing the quantum advantage.",
+    "authors": [
+      "Gala, Rishabh",
+      "Shah, Rahul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-17T03:42:13.639390Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228880",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228880",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3228880"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

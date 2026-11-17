@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19715",
+    "arxiv_id": "2611.19715",
+    "arxiv_version": null,
+    "inspire_id": "3229326",
+    "doi": null,
+    "title_en": "Proxima: Optimizing Syndrome Extraction Circuit Scheduling for Practical Quantum LDPC Codes",
+    "abstract_en": "The fault-tolerant performance of quantum error correction codes relies critically on the scheduling of parity checks in syndrome extraction circuits (SECs). For general CSS-type quantum low-density parity-check (qLDPC) codes, the vast scheduling space and intricate error-propagation patterns make it computationally prohibitive to directly optimize the logical error rate (LER) or the exact circuit-level distance ($d_{\\mathrm{circ}}$). To address this challenge, we introduce Proxima, a highly effective automated SEC scheduling framework guided by a distance-related metric termed proximity. Defined directly on the detector error model (DEM), proximity quantifies the minimum number of additional faults required to complete a seed fault to an undetectable logical failure, naturally capturing arbitrary circuit-level fault mechanisms and bounding $d_{\\mathrm{circ}}$ from above. Proxima synthesizes a pool of valid schedules at a target depth and ranks them by evaluating proximity within small, graph-local DEM fault subsets, progressively enlarging the subset only to break ties among top-ranked candidates. Across a broad spectrum of qLDPC code families, Proxima consistently attains low circuit depths and high circuit-level distance bounds, reducing LER by 1.4--2.6$\\times$ over the strongest automated baseline and up to $40\\times$ over others while generalizing robustly across noise models and decoders. Furthermore, by exploiting translational symmetry via a compact monomial representation, Proxima discovers depth-8 uniform schedules for bivariate bicycle codes that surpass even IBM's depth-7 reference schedule [Nature, 2024] by 2.1--5.1$\\times$, establishing the DEM-level proximity as a practical objective for fault-tolerant compilation.",
+    "authors": [
+      "Zhang, Ruiyun",
+      "Zhao, Guangqi",
+      "Yang, Zhaohui",
+      "Liu, Yingjian",
+      "Zhu, Chenghong",
+      "Wu, Anbang",
+      "Xia, Jun",
+      "Xie, Yuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-15T00:00:00Z",
+    "updated_at": "2026-11-17T04:28:08.148493Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229326",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229326",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3229326"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1038/s41598-026-75912-3",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3229027",
+    "doi": "10.1038/s41598-026-75912-3",
+    "title_en": "Resource-aware QAOA for autoclave batch scheduling in composite manufacturing using QUBO decomposition and parameter transfer",
+    "abstract_en": "Industrial quantum computing requires problem decompositions that respect near-term resource limits while preserving operational value. This study presents a hybrid classical-quantum workflow for autoclave batch scheduling in composite manufacturing, in which release-time and cure-family logic remain in a classical orchestration layer and each batch-selection decision is encoded as a quadratic unconstrained binary optimization (QUBO) problem. Candidate pools of 4-10 jobs produce 8-14 logical-qubit QAOA subproblems after capacity-slack encoding. Depth-1 and depth-2 QAOA were evaluated using noiseless statevector simulation, with depth-2 parameters trained on four instances per problem size and transferred without re-optimization to six held-out instances per size. For transferred depth-2 QAOA, decoded feasible probability mass decreased from 0.956 at 8 qubits to 0.427 at 14 qubits, while optimal-subset probability decreased from 0.05283 to 0.00150. Comparison with an exact uniform-sampling null showed no consistent optimal-subset concentration advantage for transferred $\\text{p}=2$ QAOA, despite exact best-of-4096 recovery across the held-out instances. The estimated sampling budget for a 95% probability of observing the optimum increased from approximately 55 to 2000 shots. In 15 end-to-end synthetic production scenarios containing 24-48 jobs, no statistically significant differences were detected between transferred QAOA and exact per-batch selection or simulated annealing for any reported schedule metric. Relative to greedy selection, transferred QAOA increased mean autoclave utilization by 2.70% points, corresponding to a 3.3% relative increase. This was the only nominally significant paired difference against greedy selection (unadjusted Wilcoxon $\\:p=0.029$); other schedule metrics improved directionally but were not statistically significant. All results were obtained using noiseless statevector simulation and establish neither quantum advantage nor hardware-level speedup, but rather a testable quantum-classical integration pathway defined by decomposition, parameter reuse, sampling burden, and classical fallback.",
+    "authors": [
+      "Otaru, Abdulrazak Jinadu",
+      "Barah, Obinna Onyebuchi",
+      "Bori, Ige",
+      "Zaid, Zaid Abdulhamid Alhulaybi Albin",
+      "AlMuhaysh, Khalad A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-16T13:13:30.922660Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "16, 37838, 2026, {'$ref': 'https://inspirehep.net/api/journals/1211634'}, 1, Sci.Rep."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229027",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229027",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3229027"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

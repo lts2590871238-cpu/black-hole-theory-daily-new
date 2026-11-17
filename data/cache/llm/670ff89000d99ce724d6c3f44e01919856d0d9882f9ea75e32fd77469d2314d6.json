@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "modified_gravity",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 8,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 74,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文针对Cubic Galileon（Horndeski）引力的非线性物质功率谱构建基于Hi-COLA模拟与高斯过程回归的仿真器，并不强制ΛCDM背景，并用于LSST Y1弱透镜与星系成团的3×2pt参数估计验证，属于modified_gravity主题下具有明确方法学与预言价值的工作；论文尚新，零引用不作扣分。",
+  "title_zh": "面向LSST第一年、基于\\texttt{Hi-COLA}的非线性尺度Cubic Galileon引力研究",
+  "abstract_zh": "Vera C. Rubin天文台的时空遗产巡天（LSST）处于利用弱透镜（WL）和大尺度结构（LSS）检验修改引力（MG）的有利位置。然而，文献中许多非线性MG仿真器在设计上强制采用$\\Lambda$CDM背景，因而错过了数据所提示的最有趣偏离可能出现之处。我们提出了Cubic Galileon引力中三维非线性物质功率谱的仿真器；Cubic Galileon是一种Horndeski理论，仅含一个额外的MG参数$f_\\phi$，它修改背景、增长和透镜效应。该仿真器在\\texttt{Hi-COLA}模拟上以高斯过程回归（GPR）训练，在基准宇宙学下相对于\\texttt{Hi-COLA}，在$k \\leq 1.2\\ h\\,\\text{Mpc}^{-1}$范围内达到$\\lesssim 2\\%$的精度；相对于完整的N体\\texttt{EFT-RAMSES}模拟达到$\\lesssim 5\\%$的精度。此外，保守的尺度截断（排除受重子物理影响的角度分箱）使得在LSST第一年弱透镜与星系成团（$3\\times2$pt）预测量中能够进行无偏参数估计，即使在与基于更高分辨率N体模拟的模拟数据进行验证时也是如此。这表明，在简化的LSST Y1设置和所采用的尺度截断下，基于\\texttt{Hi-COLA}的仿真足以针对此前未在非线性尺度上建模的Horndeski引力模型，发展具有Stage IV精度的推断基础设施。",
+  "keywords_en": [
+    "Cubic Galileon",
+    "Horndeski gravity",
+    "nonlinear matter power spectrum",
+    "emulator",
+    "Hi-COLA",
+    "Gaussian Process Regression",
+    "LSST",
+    "weak lensing",
+    "galaxy clustering",
+    "modified gravity"
+  ],
+  "keywords_zh": [
+    "Cubic Galileon",
+    "Horndeski引力",
+    "非线性物质功率谱",
+    "仿真器",
+    "Hi-COLA",
+    "高斯过程回归",
+    "LSST",
+    "弱透镜",
+    "星系成团",
+    "修改引力"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-17T04:51:59.752629Z"
+}

@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.18775",
+    "arxiv_id": "2611.18775",
+    "arxiv_version": null,
+    "inspire_id": "3229316",
+    "doi": null,
+    "title_en": "Quantum-inspired orthogonal adapters for certifiably robust medical image classification",
+    "abstract_en": "Medical image classifiers require not only high accuracy but also reliable predictions under small input perturbations. Certified robustness provides mathematical guarantees of prediction stability, but preserving these guarantees when adapting pretrained models to new tasks remains challenging. We propose a fine-tuning approach based on quantum-inspired orthogonal butterfly layers that preserves the Lipschitz bounds of pretrained certified networks. Inspired by quantum circuits of reconfigurable beam splitters, these layers preserve orthogonality by construction using only $\\mathcal{O}(n\\log n)$ trainable parameters. Their structured design enables efficient classical implementation and offers a path toward future quantum implementations with logarithmic circuit depth under suitable connectivity assumptions. Controlled experiments on MNIST and MedMNIST demonstrate improved certified robustness compared with conventional alternatives and, in the DermaMNIST transfer, greater resistance to the tested attacks than low-rank adaptation (LoRA). We then apply it to trichoscopic image classification for alopecia diagnosis and alopecia areata activity assessment. By adapting a certified ImageNet-pretrained network, butterfly fine-tuning achieves approximately twice the certified accuracy of conventional fine-tuning and LoRA, with comparable classification accuracy on the same backbone and data split and similar empirical resistance to the tested adversarial attacks. Larger robustness guarantees, including certificates covering certain image-processing transformations, can be obtained at the cost of reduced accuracy. These results highlight the potential of quantum-inspired butterfly layers for parameter-efficient adaptation of medical image classifiers while preserving the mathematical guarantees underlying certified robustness.",
+    "authors": [
+      "Tsurkan, Olga",
+      "Domingo, Laia",
+      "Orlova, Victoria",
+      "Sagingalieva, Asel",
+      "Zalaudek, Iris",
+      "Caro, Raffaele Dante Caposiena"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-12T00:00:00Z",
+    "updated_at": "2026-11-17T04:07:20.996072Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229316",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229316",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3229316"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

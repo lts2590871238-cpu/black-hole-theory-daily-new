@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.18325",
+    "arxiv_id": "2611.18325",
+    "arxiv_version": null,
+    "inspire_id": "3228621",
+    "doi": null,
+    "title_en": "Formulating Uncomputation Beyond Classical Ancilla Use",
+    "abstract_en": "Ancilla qubits are routinely used to simplify quantum circuit construction and reduce implementation costs, but their use introduces the burden of designing proper uncomputation afterward. To alleviate this, prior work has developed automated uncomputation synthesis based on a computational-basis formulation of ancilla use. However, this formulation is tailored to classically structured ancilla computations. For more general circuits, it may be undefined, yield unintended functionality, or fail to synthesize uncomputation. It therefore falls short of providing a precise and general formulation of uncomputation beyond classical ancilla use. To address these limitations, we propose a new formulation of ancilla use that specifies the operation of each gate through two complementary aspects: (1) the functionality it implements and (2) the transformation it induces on ancilla roles. Based on this specification, we define uncomputation as restoring the initial ancilla role while implementing the identity functionality. This perspective enables a simple Use-first strategy for automatically synthesizing uncomputation in cases both within and beyond the scope of prior approaches. We further develop a complete inference system for reasoning about specifications, together with a derivation-directed procedure for automatically synthesizing efficient uncomputation, enabling systematic uncomputation synthesis even in challenging cases beyond the scope of our automatic strategy.",
+    "authors": [
+      "Su, Bonan",
+      "Yang, Shengyuan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-13T00:00:00Z",
+    "updated_at": "2026-11-17T03:57:18.677345Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3228621",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3228621",
+        "fetched_at": "2026-11-17T04:50:07.360522Z",
+        "url": "https://inspirehep.net/literature/3228621"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
