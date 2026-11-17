@@ -58,3 +58,24 @@ def test_demo_contains_eleven_clearly_marked_examples() -> None:
 def test_demo_includes_the_three_new_gravity_topics() -> None:
     topics = {paper.decision.primary_topic for paper in demo_papers()}
     assert {"metric_affine_gravity", "palatini_gravity", "modified_gravity"} <= topics
+
+
+def test_archived_paper_is_collapsible_and_still_searchable(
+    tmp_path: Path, settings, topics
+) -> None:
+    from datetime import UTC, datetime, timedelta
+
+    paper = demo_papers(datetime.now(UTC))[0]
+    paper.paper.submitted_at = datetime.now(UTC) - timedelta(days=40)
+    output = build_site(
+        Path(__file__).parents[1],
+        [paper],
+        settings,
+        topics,
+        output=tmp_path / "archived",
+        demo=True,
+    )
+    html = (output / "index.html").read_text(encoding="utf-8")
+    assert 'class="archived-paper-details"' in html
+    assert "展开完整摘要、链接与评分" in html
+    assert "data-search=" in html

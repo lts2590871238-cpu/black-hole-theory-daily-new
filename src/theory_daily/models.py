@@ -178,6 +178,8 @@ class RunReport(StrictModel):
     deduplicated: int = 0
     candidates: int = 0
     selected: int = 0
+    new_selected: int = 0
+    pending_candidates: int = 0
     review_queue: int = 0
     rejected: int = 0
     llm_calls: int = 0

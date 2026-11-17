@@ -3,8 +3,9 @@ name: Update and deploy
 on:
   workflow_dispatch:
   schedule:
-    - cron: "20 7 * * *"
-      timezone: "Asia/Shanghai"
+    # Beijing 07:20 primary and 12:40 backup, expressed in UTC.
+    - cron: "20 23 * * *"
+    - cron: "40 4 * * *"
   push:
     branches: [main]
 
@@ -59,7 +60,6 @@ jobs:
         run: python -m theory_daily.cli build
 
       - name: Run official daily update
-        if: github.event_name != 'push'
         env:
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openai' }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -75,12 +75,11 @@ jobs:
         run: python -m theory_daily.cli validate
 
       - name: Persist official data history
-        if: github.event_name != 'push'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
+          git add -A data
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): daily update $(date -u +%F) [skip ci]"
             git push
@@ -103,11 +102,7 @@ jobs:
         shell: bash
         run: |
           echo "## Black Hole Theory Daily" >> "$GITHUB_STEP_SUMMARY"
-          if [ "${{ github.event_name }}" = "push" ]; then
-            echo "- 模式：离线 demo（内置虚构示例）" >> "$GITHUB_STEP_SUMMARY"
-          else
-            REPORT=$(find data/reports -name '*.json' -type f | sort | tail -1)
-            if [ -n "$REPORT" ]; then
-              python -c "import json,sys; d=json.load(open(sys.argv[1],encoding='utf-8')); print('\n'.join(f'- {k}: {d.get(k)}' for k in ('status','fetched_arxiv','fetched_inspire','deduplicated','candidates','selected','review_queue','rejected')))" "$REPORT" >> "$GITHUB_STEP_SUMMARY"
-            fi
+          REPORT=$(find data/reports -name '*.json' -type f | sort | tail -1)
+          if [ -n "$REPORT" ]; then
+            python -c "import json,sys; d=json.load(open(sys.argv[1],encoding='utf-8')); print('\\n'.join(f'- {k}: {d.get(k)}' for k in ('status','fetched_arxiv','fetched_inspire','deduplicated','candidates','pending_candidates','new_selected','selected','review_queue','rejected')))" "$REPORT" >> "$GITHUB_STEP_SUMMARY"
           fi

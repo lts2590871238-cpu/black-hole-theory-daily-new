@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import shutil
 from collections import defaultdict
-from datetime import UTC, datetime, tzinfo
+from datetime import UTC, datetime, timedelta, tzinfo
 from pathlib import Path
 from typing import cast
 from xml.etree import ElementTree as ET
@@ -15,6 +15,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from theory_daily.config import Settings, TopicsConfig
 from theory_daily.models import PaperCollection, PublishedPaper
+from theory_daily.retention import read_published
 from theory_daily.storage import write_json
 
 
@@ -84,12 +85,13 @@ def build_site(
     env = _environment(root, settings.site.timezone)
     generated_utc = datetime.now(UTC)
     generated = generated_utc.astimezone(_timezone(settings.site.timezone))
-    papers = sorted(papers, key=lambda item: item.paper.updated_at, reverse=True)
+    papers = sorted(papers, key=lambda item: item.published_at, reverse=True)
     common = {
         "settings": settings,
         "topics": topics,
         "generated": generated,
         "papers": papers,
+        "archive_cutoff": generated_utc - timedelta(days=30),
         "demo": demo,
     }
     _write(
@@ -122,6 +124,12 @@ def build_site(
 
 def load_published_papers(root: Path) -> list[PublishedPaper]:
     papers: list[PublishedPaper] = []
-    for path in sorted((root / "data" / "papers").glob("*.json")):
-        papers.append(PublishedPaper.model_validate_json(path.read_text(encoding="utf-8")))
+    folder = root / "data" / "papers"
+    records: dict[str, Path] = {}
+    for path in sorted(folder.glob("*.json.gz")):
+        records[path.name[:-3]] = path
+    for path in sorted(folder.glob("*.json")):
+        records[path.name] = path
+    for path in records.values():
+        papers.append(read_published(path))
     return papers

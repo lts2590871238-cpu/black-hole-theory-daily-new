@@ -1,12 +1,13 @@
-{% set paper = item.paper %}{% set decision = item.decision %}
-<article class="paper-card" data-paper data-topic="{{ decision.primary_topic }}" data-date="{{ paper.submitted_at|iso_date }}" data-score="{{ decision.total_score }}" data-sources="{% for source in paper.source_provenance %}{{ source.source }} {% endfor %}" data-search="{{ (decision.title_zh ~ ' ' ~ paper.title_en ~ ' ' ~ paper.abstract_en ~ ' ' ~ paper.authors|join(' ') ~ ' ' ~ decision.keywords_en|join(' ') ~ ' ' ~ decision.keywords_zh|join(' '))|lower }}">
+{% set paper = item.paper %}{% set decision = item.decision %}{% set archived = paper.submitted_at < archive_cutoff %}
+<article class="paper-card{% if archived %} paper-card--archived{% endif %}" data-paper data-topic="{{ decision.primary_topic }}" data-date="{{ paper.submitted_at|iso_date }}" data-score="{{ decision.total_score }}" data-sources="{% for source in paper.source_provenance %}{{ source.source }} {% endfor %}" data-search="{{ (decision.title_zh ~ ' ' ~ paper.title_en ~ ' ' ~ paper.abstract_en ~ ' ' ~ paper.authors|join(' ') ~ ' ' ~ decision.keywords_en|join(' ') ~ ' ' ~ decision.keywords_zh|join(' '))|lower }}">
   <div class="card-topline">
     <span class="topic-label">{{ topics.topics[decision.primary_topic].label_zh }}</span>
-    <span class="status-label">{% if paper.is_demo %}演示{% elif paper.is_update %}更新版本{% else %}新提交{% endif %}</span>
+    <span class="status-label">{% if paper.is_demo %}演示{% elif archived %}历史归档{% elif paper.is_update %}更新版本{% else %}新提交{% endif %}</span>
     <span class="score" title="自动筛选分数，非同行评议">{{ decision.total_score }}<small>/100</small></span>
   </div>
   <h3 class="mathjax_process">{{ decision.title_zh }}</h3>
   <p class="title-en mathjax_process" lang="en">{{ paper.title_en }}</p>
+  {% if archived %}<details class="archived-paper-details"><summary>展开完整摘要、链接与评分</summary>{% endif %}
   <p class="identifiers">
     {% if paper.arxiv_id %}<span>arXiv ID：<strong>{{ paper.arxiv_id }}{% if paper.arxiv_version and not paper.is_demo %}v{{ paper.arxiv_version }}{% endif %}</strong>{% if paper.is_demo %}（虚构示例）{% endif %}</span>{% endif %}
     {% if paper.inspire_id %}<span>INSPIRE ID：<strong>{{ paper.inspire_id }}</strong></span>{% endif %}
@@ -31,4 +32,5 @@
     {% if paper.citation_count is not none %}<span>INSPIRE 引用 {{ paper.citation_count }}</span>{% endif %}
   </div>
   <details class="score-details"><summary>查看分项分数与来源</summary><dl><div><dt>理论深度</dt><dd>{{ decision.scores.theory_depth }}/30</dd></div><div><dt>方法信号</dt><dd>{{ decision.scores.methodological_rigor }}/20</dd></div><div><dt>新颖性信号</dt><dd>{{ decision.scores.novelty }}/15</dd></div><div><dt>清晰度</dt><dd>{{ decision.scores.clarity }}/10</dd></div><div><dt>元数据质量</dt><dd>{{ decision.scores.metadata_quality }}/10</dd></div><div><dt>社区信号</dt><dd>{{ decision.scores.community_signal }}/5</dd></div><div><dt>其他</dt><dd>{{ decision.scores.other }}/10</dd></div></dl><p>来源：{% for source in paper.source_provenance %}{{ source.source|upper }}{% if not loop.last %} · {% endif %}{% endfor %}</p></details>
+  {% if archived %}</details>{% endif %}
 </article>

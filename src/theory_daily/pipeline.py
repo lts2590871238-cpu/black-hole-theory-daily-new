@@ -37,6 +37,7 @@ from theory_daily.models import (
 )
 from theory_daily.normalize import from_arxiv, from_inspire
 from theory_daily.render import build_site, load_published_papers
+from theory_daily.retention import maintain_retention, paper_path, read_published
 from theory_daily.storage import ensure_directories, load_state, write_json
 
 LOGGER = logging.getLogger(__name__)
@@ -88,6 +89,27 @@ def _prioritize_candidates(
     return prioritized + [
         candidate for candidate in ordered if candidate[0].canonical_key not in selected
     ]
+
+
+def _pending_candidate(root: Path, paper: NormalizedPaper) -> bool:
+    """Do not spend the daily model budget on unchanged old results."""
+    filename = _filename(paper.canonical_key)
+    existing = paper_path(root, filename)
+    if existing is None:
+        existing = root / "data" / "review_queue" / filename
+    if not existing.exists():
+        return True
+    try:
+        previous = read_published(existing)
+    except (ValidationError, OSError, ValueError):
+        # Unscored review-queue records are intentionally retried.
+        return True
+    if paper.arxiv_version is not None and (
+        previous.paper.arxiv_version is None
+        or paper.arxiv_version > previous.paper.arxiv_version
+    ):
+        return True
+    return paper.updated_at > previous.paper.updated_at
 
 
 def update(
@@ -169,6 +191,12 @@ def update(
             },
         )
 
+        # Diagnostics from the previous run are not a permanent archive.
+        rejected_dir = root / "data" / "rejected"
+        if rejected_dir.exists():
+            shutil.rmtree(rejected_dir)
+        rejected_dir.mkdir(parents=True, exist_ok=True)
+
         candidates = []
         for paper in merged:
             result = filter_paper(paper, topics, settings)
@@ -184,7 +212,10 @@ def update(
                 },
             )
         report.candidates = len(candidates)
-        candidates = _prioritize_candidates(candidates, topics)
+        candidates = _prioritize_candidates(
+            [pair for pair in candidates if _pending_candidate(root, pair[0])], topics
+        )
+        report.pending_candidates = len(candidates)
 
         client = curation_client
         fingerprint = configuration_fingerprint(settings, topics)
@@ -202,11 +233,22 @@ def update(
                 report.cached_decisions += 1
             else:
                 report.llm_calls += 1
-            published = PublishedPaper(paper=paper, filter_result=result, decision=decision)
             filename = _filename(paper.canonical_key)
+            current = paper_path(root, filename)
+            first_published = read_published(current).published_at if current else datetime.now(UTC)
+            published = PublishedPaper(
+                paper=paper,
+                filter_result=result,
+                decision=decision,
+                published_at=first_published,
+            )
             if decision.relevant and decision.total_score >= settings.pipeline.selection_threshold:
                 write_json(root / "data" / "papers" / filename, published)
+                if current is not None and current.suffix == ".gz":
+                    current.unlink()
                 report.selected += 1
+                if current is None:
+                    report.new_selected += 1
             elif decision.total_score >= settings.pipeline.review_min_score:
                 write_json(root / "data" / "review_queue" / filename, published)
                 report.review_queue += 1
@@ -233,6 +275,7 @@ def update(
         if validation_errors:
             raise RuntimeError("静态输出验证失败：" + "; ".join(validation_errors))
         _publish_staging(root, staging)
+        maintain_retention(root, started)
         completed = datetime.now(UTC)
         state.last_successful_run = completed
         state.latest_site_build = completed
