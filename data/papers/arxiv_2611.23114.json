@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.23114",
+    "arxiv_id": "2611.23114",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Combining Pulsar Timing data with $\\texttt{MetaPulsar}$. The linearized timing model",
+    "abstract_en": "Combining the data of multiple pulsar timing array (PTA) collaborations increases the sensitivity to nanohertz gravitational waves (GWs) and other signals correlated between pulsars. The International PTA (IPTA) has combined such data, but historically these projects have taken many years. We introduce $\\texttt{MetaPulsar}$, a software package that ingests the $\\texttt{.par}$ and $\\texttt{.tim}$ files of individual data releases, and turns them into single consistent deterministic models for the combined datasets, compatible with both timing packages $\\texttt{PINT}$ and $\\texttt{Tempo2}$. We validate the method in four ways. First, we show for two pulsars that the linearized timing solution of a combined dataset does not depend on the parameter values in the $\\texttt{.par}$. A mild exception is formed by the Shapiro-delay parameters. No combination considered requires a manual refit. Second, for PSR J0613$-$0200 we show that the residuals are explained by the timing model if we take intrinsic red-noise and dispersion-measure processes into account, and that the single-PTA timing posteriors agree with one another and with the combination, except for the parallax. Third, we quantify the consistency of the timing parameters measured by different PTAs with a two-sample tension statistic, for every pulsar that is observed by multiple PTAs. Finally, we carry out a gravitational-wave background search on the direct combination of the NANOGrav 9-yr, EPTA DR1 (v2.2), and PPTA DR2 data releases, the constituents of IPTA Data Release 2 (DR2). The combined dataset is assembled in under two hours, and the recovered amplitude and spectral index of the common process are consistent with the published IPTA DR2 result. With $\\texttt{MetaPulsar}$, a joint PTA analysis can be prototyped as soon as the individual collaborations publish their data, instead of after a years-long reprocessing effort.",
+    "authors": [
+      "Wang-Wei Yu",
+      "Rutger van Haasteren"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-11-17T17:34:34Z",
+    "updated_at": "2026-11-17T17:34:34Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.23114v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.23114v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.23114",
+        "fetched_at": "2026-11-18T04:30:24.735525Z",
+        "url": "https://arxiv.org/abs/2611.23114v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "nanohertz gravitational wave",
+      "nanohertz gravitational waves",
+      "pulsar timing array"
+    ],
+    "medium_weight_hits": [
+      "nanohertz",
+      "pulsar timing"
+    ],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 95
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 8,
+      "methodological_rigor": 16,
+      "novelty": 11,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 4
+    },
+    "total_score": 54,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文介绍MetaPulsar软件包，用于将多个脉冲星计时阵列合作的数据合并为一致的计时模型，并进行引力波背景搜索验证，属于脉冲星计时阵列（PTA）核心主题，方法验证充分（四种验证方式），对PTA联合分析有实用价值。虽然理论深度一般，但方法严谨、清晰度较高，值得点击阅读。",
+    "title_zh": "结合脉冲星计时数据与$\\texttt{MetaPulsar}$：线性化计时模型",
+    "abstract_zh": "结合多个脉冲星计时阵列（PTA）合作的数据可提高对纳赫兹引力波（GW）以及其他在脉冲星之间相关的信号的灵敏度。国际脉冲星计时阵列（IPTA）已经合并了此类数据，但从历史上看，这些项目耗时多年。我们介绍$\\texttt{MetaPulsar}$，这是一个软件包，它读取各个数据发布的$\\texttt{.par}$和$\\texttt{.tim}$文件，并将其转换为用于合并数据集的单一一致的确定性模型，同时兼容计时软件包$\\texttt{PINT}$和$\\texttt{Tempo2}$。我们通过四种方式验证该方法。第一，我们针对两颗脉冲星表明，合并数据集的线性化计时解不依赖于$\\texttt{.par}$中的参数值。一个轻微例外由Shapiro延迟参数构成。所考虑的任何组合都不需要手动重新拟合。第二，对于PSR J0613$-$0200，我们表明，如果考虑内禀红噪声和色散量过程，残差可由计时模型解释，并且单PTA计时后验彼此一致，也与合并结果一致，但视差除外。第三，我们使用双样本张力统计量，对每颗被多个PTA观测的脉冲星，量化不同PTA测量的计时参数的一致性。最后，我们对NANOGrav 9年、EPTA DR1（v2.2）和PPTA DR2数据发布的直接合并（即IPTA数据发布2（DR2）的组成部分）进行引力波背景搜索。合并数据集在不到两小时内组装完成，恢复出的公共过程的振幅和谱指数与已发表的IPTA DR2结果一致。借助$\\texttt{MetaPulsar}$，一旦各个合作发布其数据，就可以立即对联合PTA分析进行原型设计，而无需经过长达数年的重新处理工作。",
+    "keywords_en": [
+      "pulsar timing array",
+      "gravitational waves",
+      "nanohertz",
+      "data combination",
+      "timing model",
+      "MetaPulsar",
+      "IPTA"
+    ],
+    "keywords_zh": [
+      "脉冲星计时阵列",
+      "引力波",
+      "纳赫兹",
+      "数据合并",
+      "计时模型",
+      "MetaPulsar",
+      "IPTA"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-11-13.1",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-18T04:32:12.393635Z"
+  },
+  "published_at": "2026-11-18T04:32:12.394101Z"
+}

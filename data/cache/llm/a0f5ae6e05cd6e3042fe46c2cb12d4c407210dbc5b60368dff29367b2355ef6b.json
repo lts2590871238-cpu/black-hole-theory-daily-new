@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 14,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 62,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文针对脉冲星计时阵列（PTA）的随机引力波背景探测，提出在仅使用互相关的前提下最接近Neyman-Pearson最优的二次检测统计量（NPMV），并在模拟的NANOGrav 15年数据噪声与信号参数下量化了探测概率的提升。研究问题明确、推导与模拟设定清楚，属于PTA探测统计方法学上的实质改进，值得点开细读。",
+  "title_zh": "脉冲星计时阵列的最优稳健探测统计量",
+  "abstract_zh": "脉冲星计时阵列（PTA）通过寻找计时残差相关中特征性的Hellings和Downs角向图样，来探测纳赫兹随机引力波背景（GWB）。迄今为止，依据文献中标准的“最优互相关探测统计量”评估，证据仍低于常规的$5\\sigma$阈值。虽然这种互相关数据的二次组合最大化了偏转（信噪比），但在固定虚警概率（FAP）下它并不最大化探测概率，因此对于假定的噪声与信号模型而言并非Neyman-Pearson（NP）最优。NP最优的探测统计量是另一种二次型，但由于它还纳入了自相关，使其更易受脉冲星计时噪声建模不确定性的影响，因而未被使用。在这里，我们推导出最佳的折中方案：一个在只使用互相关这一约束下、尽可能接近NP最优探测统计量的二次探测统计量（即最小化其与NP统计量之差的方差），从而较少受脉冲星噪声建模误差的影响。我们针对一个噪声与（假定的）信号均与NANOGrav 15年数据发布相匹配的模拟PTA，研究了这一新的NPMV统计量的性能：GWB振幅$A_{\\rm gw} = 2.1 \\times 10^{-15}$，谱指数$γ= 13/3$。与文献中标准的“最优”互相关探测统计量相比，当在$5\\sigma$虚警概率$\\alpha= 2.9 \\times 10^{-7}$下工作时，NPMV统计量将探测概率提高了47%。",
+  "keywords_en": [
+    "pulsar timing array",
+    "stochastic gravitational-wave background",
+    "detection statistic",
+    "Neyman-Pearson optimality",
+    "Hellings-Downs correlation",
+    "timing noise"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "随机引力波背景",
+    "探测统计量",
+    "Neyman-Pearson最优性",
+    "Hellings-Downs相关",
+    "计时噪声"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-18T04:32:58.010905Z"
+}

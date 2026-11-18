@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 8,
+    "methodological_rigor": 16,
+    "novelty": 11,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 0,
+    "other": 4
+  },
+  "total_score": 54,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文介绍MetaPulsar软件包，用于将多个脉冲星计时阵列合作的数据合并为一致的计时模型，并进行引力波背景搜索验证，属于脉冲星计时阵列（PTA）核心主题，方法验证充分（四种验证方式），对PTA联合分析有实用价值。虽然理论深度一般，但方法严谨、清晰度较高，值得点击阅读。",
+  "title_zh": "结合脉冲星计时数据与$\\texttt{MetaPulsar}$：线性化计时模型",
+  "abstract_zh": "结合多个脉冲星计时阵列（PTA）合作的数据可提高对纳赫兹引力波（GW）以及其他在脉冲星之间相关的信号的灵敏度。国际脉冲星计时阵列（IPTA）已经合并了此类数据，但从历史上看，这些项目耗时多年。我们介绍$\\texttt{MetaPulsar}$，这是一个软件包，它读取各个数据发布的$\\texttt{.par}$和$\\texttt{.tim}$文件，并将其转换为用于合并数据集的单一一致的确定性模型，同时兼容计时软件包$\\texttt{PINT}$和$\\texttt{Tempo2}$。我们通过四种方式验证该方法。第一，我们针对两颗脉冲星表明，合并数据集的线性化计时解不依赖于$\\texttt{.par}$中的参数值。一个轻微例外由Shapiro延迟参数构成。所考虑的任何组合都不需要手动重新拟合。第二，对于PSR J0613$-$0200，我们表明，如果考虑内禀红噪声和色散量过程，残差可由计时模型解释，并且单PTA计时后验彼此一致，也与合并结果一致，但视差除外。第三，我们使用双样本张力统计量，对每颗被多个PTA观测的脉冲星，量化不同PTA测量的计时参数的一致性。最后，我们对NANOGrav 9年、EPTA DR1（v2.2）和PPTA DR2数据发布的直接合并（即IPTA数据发布2（DR2）的组成部分）进行引力波背景搜索。合并数据集在不到两小时内组装完成，恢复出的公共过程的振幅和谱指数与已发表的IPTA DR2结果一致。借助$\\texttt{MetaPulsar}$，一旦各个合作发布其数据，就可以立即对联合PTA分析进行原型设计，而无需经过长达数年的重新处理工作。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational waves",
+    "nanohertz",
+    "data combination",
+    "timing model",
+    "MetaPulsar",
+    "IPTA"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波",
+    "纳赫兹",
+    "数据合并",
+    "计时模型",
+    "MetaPulsar",
+    "IPTA"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-18T04:32:12.393635Z"
+}

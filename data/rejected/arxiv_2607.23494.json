@@ -1,0 +1,60 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.23494",
+    "arxiv_id": "2607.23494",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Hermes - Towards an Optimal High-Performance Algorithm for Cosmic Statistics of Large Data Sets",
+    "abstract_en": "We present Hermes, an in situ multiresolution framework for efficient and flexible measurements of cosmic large-scale-structure statistics from discrete catalogues. Hermes replaces conventional ex situ counting of particle tuples with algebraic operations among window-filtered continuous fields. A discrete point distribution is first reconstructed as a continuous density field in a compact scaling-function representation, in which two- and higher-point statistics are formulated as spatial products of locally filtered fields. This formulation expresses conventional binning for counts-in-cells and two- and higher-point correlation functions through window functions. Changing the window kernels defines generalised statistics without redesigning the estimator. We further introduce PyHermes, an open-source Python implementation of this framework, combining multiresolution field reconstruction with FFT-based window convolution, MPI/thread parallelism, and GPU acceleration for high-order field contractions. The framework supports a broad range of measurements, including isotropic and anisotropic two-point statistics, marked correlations, standard and multipole three-point functions, filtered statistics, and Fourier-space differential operators for constructing derived physical fields. Using halo catalogues from cosmological N-body simulations, we demonstrate PyHermes through a range of clustering statistics and use benchmarks to quantify its computational efficiency and scalability for large-scale data sets. By separating field representation from statistical windows, Hermes provides a unified computational framework in which a single reconstructed field can be reused for a wide range of standard and customised cosmic statistics. This field-window architecture enables scalable analysis of the large data sets expected from current and future galaxy surveys.",
+    "authors": [
+      "Long-long Feng",
+      "Tengpeng Xu",
+      "Tian-Cheng Luan",
+      "Jiawei Li",
+      "Xin Sun",
+      "Wenjie Ju",
+      "Zhuoyang Li",
+      "Shiyu Yue",
+      "Weishan Zhu",
+      "Yan-Chuan Cai"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-07-26T06:49:56Z",
+    "updated_at": "2026-11-17T17:50:19Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.23494v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.23494v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.23494",
+        "fetched_at": "2026-11-18T04:30:24.735525Z",
+        "url": "https://arxiv.org/abs/2607.23494v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
