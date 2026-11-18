@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.20053",
+    "arxiv_id": "2611.20053",
+    "arxiv_version": null,
+    "inspire_id": "3229985",
+    "doi": null,
+    "title_en": "Hardware-Aware Realization of Deterministic Quantum-Walk Search on Complete Bipartite Graphs",
+    "abstract_en": "Complete bipartite graphs offer a canonical platform for deterministic quantum search with quadratic speedup. We report the first experimental realization of deterministic discrete-time quantum-walk search over complete bipartite graphs, enabled by high-fidelity operations and a dynamical-phase compensation scheme, using a digital gate-based processor rather than an evolution-based platform. By compiling the search circuits to the native gate set and square-lattice topology, we implement full-space encoding to realize instances of graph sizes $N = 4$ and $8$, with success probabilities of 97.6% and 70.8% for finding the marked vertex, respectively. We also realize resource-efficient exact instances up to size $N = 16$, the largest achieving 66% success probability. Separately, a reduced invariant-subspace encoding preserves the dynamics of the deterministic search algorithm on two qubits for nominal problem sizes up to $N = 256$, with the success probability approaching 50%. Resource analyses of logical, hardware-compiled, and fault-tolerant-gate-set-synthesized circuits show that circuit depth and size scale as $\\sqrt{N}$, with hardware overheads entering only as constant prefactors. For application-scale graphs ($N \\sim 10^5$), an effective gate-fidelity model requires per-gate infidelity near $10^{-7}$. These results establish a concrete algorithm-to-hardware pathway for deterministic structured quantum search on gate-based quantum processors.",
+    "authors": [
+      "Rong, Tao",
+      "Li, Meng",
+      "Tong, Xin",
+      "Cai, Jianbin",
+      "Li, Yu",
+      "Zhou, Naibin",
+      "Li, Shaowei",
+      "Cao, Sirui",
+      "Li, Yuan",
+      "Xu, Yu",
+      "Chen, Fusheng",
+      "Gong, Ming",
+      "Sun, Xiaoming",
+      "Zha, Chen"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-15T00:00:00Z",
+    "updated_at": "2026-11-18T12:06:16.635451Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229985",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229985",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3229985"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

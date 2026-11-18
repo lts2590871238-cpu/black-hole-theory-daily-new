@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21748",
+    "arxiv_id": "2611.21748",
+    "arxiv_version": null,
+    "inspire_id": "3230216",
+    "doi": null,
+    "title_en": "Restoring quantum neural network trainability through reusable calibration",
+    "abstract_en": "Quantum neural networks (QNNs) rely on measured quantum observables to guide optimization, but hardware noise can suppress the parameter-dependent signals essential for learning. Here, we develop a structure-preserving error-mitigation framework that improves QNN trainability through reusable calibration of the quantum circuit's effective noise response. By calibrating a reference circuit with the same gate architecture as the trainable circuit, we construct regularized estimators of local quantum features that remain fixed throughout training. We quantify how calibration errors and response mismatches affect the recovery of both observables and their derivatives. Numerical simulations demonstrate enhanced loss-landscape contrast, faster convergence, and improved classification performance, and an IBM Quantum experiment confirms improved closed-loop variational optimization under hardware noise. We further demonstrate calibration reuse in a modular QNN comprising 25 independent four-qubit channels, corresponding to 100 qubits in aggregate. Our results establish reusable feature calibration as a practical approach to improving noise-limited quantum machine learning without repeated calibration at every training step.",
+    "authors": [
+      "Shen, Ruizhe",
+      "Yan, Xianquan",
+      "Kawaguchi, Kenji",
+      "Lee, Ching Hua"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T11:56:49.440981Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230216",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230216",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230216"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

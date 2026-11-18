@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21902",
+    "arxiv_id": "2611.21902",
+    "arxiv_version": null,
+    "inspire_id": "3230248",
+    "doi": null,
+    "title_en": "Conformal Uncertainty Quantification of a Normalizing Flow Surrogate for the FACET-II Two-Bunch Beam",
+    "abstract_en": "Fast surrogate models of the beam can be used for tuning, diagnostics, and control where end-to-end simulation is too slow. At FACET-II, a normalizing flow surrogate predicts the 6D high peak current two-bunch beam used for plasma wakefield acceleration (PWFA) in less than a second, from 37 injector and linac machine parameters (such as the RF phases controlling the bunch compression). However, a surrogate can predict an incorrect beam that seems plausible, so operators and controllers need to know when to trust its predictions. We use conformal prediction to generate a prediction-specific uncertainty with guaranteed coverage. That is, if we sample new machine parameters from the same distribution as our calibration data, the uncertainty will cover the simulation output at least 90% of the time. We provide two implementations: prediction intervals for beam parameters with fixed and adaptive widths, and a region in the full 6D phase space covering 95% of the electrons, 90% of the time. The median size of this region is 5 (drive) and 2 (witness) times smaller than a Gaussian ellipsoid with the same coverage. Across 1,000 independent test simulations, our prediction intervals identify failure cases for the surrogate, specifically the slice peak current of highly compressed bunches.",
+    "authors": [
+      "Wu, Ryan",
+      "Dong, Jessie",
+      "Edelen, Auralee",
+      "Kochenderfer, Mykel J."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:25:13.372485Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230248",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230248",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230248"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21904",
+    "arxiv_id": "2611.21904",
+    "arxiv_version": null,
+    "inspire_id": "3230383",
+    "doi": null,
+    "title_en": "Simulating Quantum Computation Using Probabilistic Programming",
+    "abstract_en": "Developing quantum programs requires not only running them on quantum hardware but also simulating them on classical hardware. Because the meaning of a quantum program can be defined in terms of state vectors, it can be viewed as a form of weighted nondeterminism and simulated using any implementation of probabilistic programming that supports complex or at least negative weights. In this study, we compile a high-level quantum programming language to one such implementation of probabilistic programming, a solver for factor graph grammars. We also extend the solver with an optimization that commutes the tensor operations $\\mathsf{einsum}$ and $\\mathsf{expand}$. We prove that the compiler and the optimization preserve the denotational semantics of the source language. We perform benchmarks that show our straightforward implementation, by repurposing existing infrastructure for probabilistic programming, attains simulation performance in the ballpark of several other quantum simulators.",
+    "authors": [
+      "Yang, Yafei",
+      "Shan, Chung-chieh"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T13:12:56.952875Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230383",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230383",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230383"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.22232",
+    "arxiv_id": "2611.22232",
+    "arxiv_version": null,
+    "inspire_id": "3229871",
+    "doi": null,
+    "title_en": "MASQ: Measurement-Adaptive Sampling for Near-Clifford Quantum Error Correction Circuits",
+    "abstract_en": "Classical sampling of quantum error correction (QEC) circuits supports fault-tolerant protocol evaluation, but estimating rare logical failures requires many independent shots. Frame-active-state simulators isolate non-stabilizer information in a dense active-state vector, yet dense-state processing remains exponential in the active width. This paper presents MASQ, an exact measurement-adaptive sampler for near-Clifford QEC circuits based on selective materialization of non-Clifford rotations. At each measurement boundary, MASQ materializes only rotations in a measurement-relevant closure capturing direct and indirect non-commuting dependencies, deferring the rest to limit active-state expansion. Stabilizer-assisted elimination further removes rotations certified to be invisible to all future measurements. A circuit-dependent schedule is computed once and shared across shots, while adaptive caching of conditional Born probabilities and batched execution reduce repeated sampling work while preserving the measurement-record distribution. Across 19 QEC benchmarks, MASQ reduces peak active width by up to 40 active virtual qubits and achieves up to 8,098-fold CPU throughput speedup over Clifft on multi-round circuits.",
+    "authors": [
+      "Jung, Chaebin",
+      "Jeon, Sangmin",
+      "Lee, Kyeongwon",
+      "Park, Sechan",
+      "Lee, Woojoo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-17T00:00:00Z",
+    "updated_at": "2026-11-18T11:56:50.492056Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229871",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229871",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3229871"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

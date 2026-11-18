@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.16480",
     "arxiv_id": "2611.16480",
     "arxiv_version": 1,
-    "inspire_id": "3228137",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Euclid Data Release 1 (DR1). An overview of the Science Ground Segment architecture and operations",
     "abstract_en": "The Euclid mission is designed to address fundamental questions on the nature of dark energy and dark matter by mapping the extragalactic sky with a wide-area survey complemented by targeted deep observations. The required scientific performance places stringent demands on the Euclid Science Ground Segment (SGS), which transforms raw telemetry into calibrated, validated, and scientifically exploitable products. The SGS is a distributed system comprising the Euclid Science Operations Centre, the Science Data Centres, Instrument Operation Teams, and supporting Organisation Units, within a common architectural and procedural framework. This paper presents the SGS as implemented for Data Release 1 (DR1), describing its organisation, architecture, processing functions, and operational model. We outline the main components of the SGS common infrastructure. A key element is the Euclid Archive System (EAS), the central metadata repository based on a common data model. It comprises a Distributed Storage System, providing scalable storage of data files across the Science Data Centres; a Data Processing System used by the pipelines to register and access files and their lineage; and a Science Archive, distributing validated data products. Processing is coordinated by a common orchestration framework based on the Infrastructure Abstraction Layer, providing workflow management and resource abstraction of distributed compute clusters. Software development, integration, and deployment are supported by the Common Development Environment. We describe daily operations, calibration, and quality control, followed by the DR1 production campaign, including processing flows, validation strategy, and computational and data volumes. This infrastructure enabled Euclid DR1, involving 35 million jobs across nine Science Data Centres and 6.7 million core-hours, demonstrating robustness and scalability of the SGS.",
@@ -391,31 +391,23 @@
       "astro-ph.IM",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-12T00:00:00Z",
-    "updated_at": "2026-11-16T09:50:32.625838Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-12T08:50:49Z",
+    "updated_at": "2026-11-12T08:50:49Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.16480v1",
     "pdf_url": "https://arxiv.org/pdf/2611.16480v1",
-    "inspire_url": "https://inspirehep.net/literature/3228137",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.16480",
-        "fetched_at": "2026-11-18T04:30:24.735525Z",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
         "url": "https://arxiv.org/abs/2611.16480v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3228137",
-        "fetched_at": "2026-11-18T04:30:24.735525Z",
-        "url": "https://inspirehep.net/literature/3228137"
       }
     ],
     "is_demo": false

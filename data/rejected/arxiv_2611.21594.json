@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21594",
+    "arxiv_id": "2611.21594",
+    "arxiv_version": null,
+    "inspire_id": "3229851",
+    "doi": null,
+    "title_en": "Surrogate-Assisted Compact-Model Extraction for SKY130 CMOS at 77 K",
+    "abstract_en": "Cryogenic circuit design requires compact transistor models that reproduce measured low-temperature behavior and run in standard circuit simulators. We fit BSIM4 parameters to measured I-V curves of SkyWater 130 nm (SKY130) transistors at 77 K using a neural surrogate of NGSpice. The surrogate maps compact-model parameters and device geometry to the complete set of output and transfer characteristics. Extraction is a bounded least-squares search: a bank of NGSpice simulations supplies initial candidates, finite differences of the surrogate supply the local Jacobian, and NGSpice re-simulates the resulting cards before selection. On 18 measured geometries, we compare a search over seven card parameters with a search over 43 parameters selected by NGSpice sensitivity. Relative to NGSpice re-simulations of the previously released cards, the two searches reduce the in-sample mean relative root-mean-square error (RRMS) by 17% and 26%, respectively. The 43-parameter search has the lower overall error, but the seven-parameter search has the lower mean on high-bias curves, and some individual curves have higher error than with the released cards under both searches.",
+    "authors": [
+      "Wang, Aaron",
+      "Gzamouranis, Olivia",
+      "Lohia, Vaibhav",
+      "Weiner, Hershel Fei Xun",
+      "Seidel, Olivia",
+      "Cavanaugh, Richard",
+      "Di Guglielmo, Giuseppe",
+      "Tran, Nhan",
+      "Braga, Davide"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T13:08:54.364331Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229851",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229851",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3229851"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

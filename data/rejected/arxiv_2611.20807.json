@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.20807",
+    "arxiv_id": "2611.20807",
+    "arxiv_version": null,
+    "inspire_id": "3230385",
+    "doi": null,
+    "title_en": "QuarkDB: A Hybrid Database System for Quantum Data Management",
+    "abstract_en": "Emerging quantum applications like quantum communication generate large volumes of high-dimensional quantum data, requiring efficient data analysis and storage. However, classical database systems often struggle to meet requirements such as quantum processing or version management. This paper presents QuarkDB designed for efficient quantum data management. QuarkDB establishes a unified object model for relational and quantum data and defines the syntax of Quantum Structured Query Language. To support efficient quantum data management, QuarkDB integrates three key components: (1) a Hybrid Query Engine with cost-based hybrid plan selection over classical and quantum operators, (2) an Execution Engine with a three-level instructions intermediate representation, QuarkDB-IR, to support quantum execution and reduce quantum processing costs, and (3) a Storage Engine supporting quantum data version management, state reconstruction and data reuse. Compared with classical databases such as SQLite and PostgreSQL or quantum databases like Qute, our QuarkDB achieves query-latency speedups ranging from 2.14x to 25.86x speedup under extensive real-world workloads.",
+    "authors": [
+      "Zhang, Wenrui",
+      "Wang, Yu",
+      "Zhang, Xiao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T13:13:37.671766Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230385",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230385",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230385"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

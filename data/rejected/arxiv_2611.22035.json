@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.22035",
+    "arxiv_id": "2611.22035",
+    "arxiv_version": null,
+    "inspire_id": "3230257",
+    "doi": null,
+    "title_en": "Magic state cultivation with lattice-surgery escape on superconducting hardware",
+    "abstract_en": "Magic state cultivation (MSC) is a low-overhead protocol for fault-tolerantly preparing logical magic states. In this work, we implement two MSC variants to prepare a magic state in a distance-5 code on a publicly available IBM Nighthawk processor. The first is a lattice-surgery escape, recently proposed by Hirano et al. and experimentally studied here for the first time. The second is a grafting escape, previously demonstrated by Rosenfeld et al., and extended here by incorporating a switch into a matchable code. Both protocols begin with fault-tolerant cultivation of a T state on a color code, followed by an escape into a larger code. We decode the results using minimum-weight perfect matching or Tesseract on circuit-level error models calibrated to the hardware noise. Compared with the previous experiment, our cultivated T state achieves a logical error probability of 2e-5 at the T-state injection angle, nearly 10x lower with about 3x the retainment. Moreover, our execution of the grafting escape has a 2x lower logical error rate per stabilizer round at a higher retainment. When comparing the two protocols under identical execution conditions and complementary gap postselection based on decoder confidence, lattice-surgery escape into the surface code preserves a T-state fidelity above 0.99 ten rounds after escape at about 5% retainment. By contrast, matchable-switched grafting drops below 0.95 fidelity at comparable retainment. Furthermore, the lattice-surgery escape reaches a logical error rate per stabilizer round of about 0.14% with around 11% average shot retainment. These results establish lattice-surgery escape as a practical MSC protocol that benefits from a direct transition into a surface code, and demonstrate the lowest MSC error and the highest surface-code magic-state fidelity reported to date, advancing the experimental realization of fault-tolerant non-Clifford gadgets.",
+    "authors": [
+      "Liao, Haoran",
+      "Schutzman, Michael",
+      "Munizzi, William",
+      "Mundada, Pranav",
+      "Hartnett, Gavin",
+      "Baum, Yuval"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-17T00:00:00Z",
+    "updated_at": "2026-11-18T12:05:15.346407Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230257",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230257",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230257"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

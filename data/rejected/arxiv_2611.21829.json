@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21829",
+    "arxiv_id": "2611.21829",
+    "arxiv_version": null,
+    "inspire_id": "3230209",
+    "doi": null,
+    "title_en": "Charge self-consistent DFT+QDMFT framework with a Krylov-based quantum impurity solver",
+    "abstract_en": "We integrate a quantum impurity solver into a charge self-consistent density functional theory (DFT) plus quantum dynamical mean-field theory framework. The solver optimizes adaptive circuits to approximate the ground state of the impurity model and its particle and hole excitations, and reconstructs the impurity Green's function from their Hamiltonian moments. Higher-order moments are predicted from low-order ones using a machine-learning model, while regularized optimization mitigates violations of causality in the resulting self-energy. The latter is used to update the charge density until self-consistency is achieved. We demonstrate the framework through body-centered cubic lithium calculations and compare the results with a reference one using a continuous-time quantum Monte Carlo solver. These calculations converge with root-mean-square charge-density residuals below $\\boldsymbol{2\\times10^{-3}}$ and yield a nearly vanishing impurity self-energy, consistent with the noninteracting limit used for weakly correlated lithium.",
+    "authors": [
+      "Karabin, M.",
+      "Sohail, T.",
+      "Coello Pérez, E.A.",
+      "Ghosh, S.",
+      "Sajjan, M.",
+      "Terletska, H.",
+      "Eisenbach, M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:41:06.427877Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230209",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230209",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230209"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

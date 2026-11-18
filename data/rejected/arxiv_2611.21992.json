@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21992",
+    "arxiv_id": "2611.21992",
+    "arxiv_version": null,
+    "inspire_id": "3230256",
+    "doi": null,
+    "title_en": "Accelerating auxiliary-field quantum Monte Carlo with mixed-precision random propagators",
+    "abstract_en": "We develop an algorithm to propagate auxiliary-field quantum Monte Carlo (AFQMC) wavefunctions in mixed precision. We target NVIDIA Tensor Cores using the TensorFloat-32 (TF32) format. We approximate each full-precision array by a TF32 leading term and a TF32 residual, and each full-precision matrix product by three TF32 products accumulated in full precision. Benchmarks on hydrogen chains show that mixed-precision propagation is consistently faster than double-precision GPU propagation, with an increasing advantage as the system size grows. The resulting local-energy deviations remain small over the propagation windows considered here. These results identify the stochastic two-body propagator as a particularly effective target for reduced precision, while our method allows higher precision to be retained for accuracy-sensitive operations. Hence, our algorithm provides a practical way to speed up AFQMC calculations and demonstrates where reduced precision can be applied without adverse effects on the method's accuracy.",
+    "authors": [
+      "Williams, Jacob Z.",
+      "Zhang, Yu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:23:21.237234Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230256",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230256",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230256"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

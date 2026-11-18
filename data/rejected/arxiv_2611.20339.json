@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.20339",
+    "arxiv_id": "2611.20339",
+    "arxiv_version": null,
+    "inspire_id": "3229834",
+    "doi": null,
+    "title_en": "Response-Threshold Framework for First-Peak Preservation in Noisy Grover Search",
+    "abstract_en": "Grover search is executed only after integer iterations, so noise can alter the stopping decision even when a continuous first peak remains visible. We develop a response-threshold framework separating continuous peak motion, stroboscopic geometry, and the discrete sampled-success argmax. For a Drude-Lorentz environment, linearized HEOM supplies an a priori timing coefficient and sampled-probability differentials. The first-order layer is used as a conservative screen: well-separated points retain the nominal step, whereas near-threshold points escalate to finite-$λ$ evaluation. Across 260 unique HEOM points drawn from five overlapping validation sets, it detects all 15 observed stopping changes with zero regret on the changed subset; its residual errors are 45 one-step-early calls on otherwise stable points; the 245-point stable subset has mean regret $4.42\\times10^{-3}$. An empirically validated two-stage workflow escalates every observed change while avoiding 160 of 260 unique full-HEOM propagations. Same-bath NZ2 reduces early calls. A heterogeneous three-qubit circuit exhibits three stopping-transition scales, each replicated across eight marked targets, and finite-shot recovery is 96.18% overall, with failures localized to a near-degenerate boundary at $s=1.5$. A depth-refined transfer test supports the predicted local quadratic timing-to-loss relation.",
+    "authors": [
+      "Zhong, Ge",
+      "Jayasekara, Charith",
+      "De Silva, Nisal",
+      "Arora, Chetan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:09:51.164882Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229834",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229834",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3229834"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

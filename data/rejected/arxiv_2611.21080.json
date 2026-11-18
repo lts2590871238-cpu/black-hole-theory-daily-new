@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21080",
+    "arxiv_id": "2611.21080",
+    "arxiv_version": null,
+    "inspire_id": "3230037",
+    "doi": null,
+    "title_en": "Success Probability of Block-Encoding Methods",
+    "abstract_en": "Block-encoding methods apply nonunitary functions $f(\\widetilde H)$ of a normalized Hermitian operator on a quantum computer, but only upon a successful postselection, which introduces a shot overhead rarely included in resource estimates. We analyze the success probability $p^{(f)}_{\\mathrm{success}}=\\sum_n w_n|f(\\tilde E_n)|^2$ of three constructions, namely linear combination of unitaries (LCU), qubitization and quantum singular value transformation (QSVT), where $w_n$ are the weights of the input state on the eigenstates of $\\widetilde H$. Using the one-dimensional Hubbard model with up to 14 sites (35 qubits), we show that for LCU, the success probability is bounded by the squared ratio between the spectral norm and the $1$-norm of the Pauli decomposition, and that for a Hartree--Fock input it plateaus with system size while the ground-state overlap keeps decreasing. For qubitization, it oscillates with the Chebyshev degree, and favorable degrees can be identified from a few dominant spectral components or predicted from shallow-degree data. For QSVT, the polynomial normalization constant directly sets the success probability, and a tight certified bound balances it against phase-finding robustness. An application to quantum Krylov methods shows a nonuniform shot overhead across Krylov moments. The success probability should therefore be part of the resource estimation of block-encoding-based algorithms.",
+    "authors": [
+      "Ladhari, Oumaya",
+      "Saubanère, Matthieu",
+      "Messud, Jérémie"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:05:52.394709Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230037",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230037",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230037"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

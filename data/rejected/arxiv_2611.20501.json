@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.20501",
+    "arxiv_id": "2611.20501",
+    "arxiv_version": null,
+    "inspire_id": "3230384",
+    "doi": null,
+    "title_en": "A Testing Method for Detector Error Models in Quantum Error Correction Compilers",
+    "abstract_en": "A quantum error correction (QEC) compiler produces, from a code and a noise model, both the physical circuit to execute and a detector error model (DEM). The DEM lists the probability of each error mechanism and the measurements it flips. Decoders consume the DEM without verification, so a defect that describes the noise incorrectly calibrates the decoder against wrong rates and silently degrades the logical error rate. Existing techniques for testing quantum software judge correctness by crashes or by statistics of sampled outputs. DEM defects that only distort rates lie below what sampling can resolve at the error rates where QEC operates. We present DEMVal, a testing method that validates each model the compiler emits against a reconstructed reference, with rates obtained from outside the compiler under test. It compares the two models exactly, so its sensitivity is independent of the physical error rate. The reference can be built in three ways that jointly cover the pipeline from source program to emitted model. Applied to NVIDIA's CUDA-Q QEC, Riverlane's Deltakit, and the deq component of Microsoft's QDK-EC, DEMVal found six defects, all confirmed by the developers and fixed. Sampling could have exposed only the four defects that drop, merge, or misplace mechanisms, and exposing all four requires millions of samples per experiment. Even analytically optimal moment tests miss the two rate-level defects, while exact model comparison detects all six with no samples. To our knowledge, DEMVal is the first systematic testing method for the error-model semantics of QEC compilers.",
+    "authors": [
+      "Luo, Junjie",
+      "Suzuki, Yasunari"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T13:13:05.125136Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230384",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230384",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230384"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

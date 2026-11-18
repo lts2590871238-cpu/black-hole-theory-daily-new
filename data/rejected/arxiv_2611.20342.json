@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.20342",
+    "arxiv_id": "2611.20342",
+    "arxiv_version": null,
+    "inspire_id": "3229969",
+    "doi": null,
+    "title_en": "Formally verified harness for Shor's order finding algorithm with $O(n^{2+ε})$ gate cost",
+    "abstract_en": "It is commonly understood that factoring a general $n$-bit biprime via Shor's order finding algorithm requires $\\widetilde{O}(n^3)$ gates by leveraging schoolbook integer arithmetics for addition and multiplication. Recent developments in quantum arithmetic circuits leveraging recursive Toom-Cook schemes have improved the cost scaling to $O(n^{2+ε})$. Here $ε>0$ depends on algorithm implementation details of the recursive multiplication steps, which allow for a vast number of design choices. The challenge in navigating such design space also presents an opportunity for demonstrating innovative practices in quantum software engineering in the era of open agentic science. We present a formally verified harness that ingests a design specification (namely a \"policy\" that describes a recursive circuit design scheme) from an external source, which may be an AI agent, and produces a set of formalized proofs covering mathematical correctness of the algorithm implementation, asymptotic scaling of the end-to-end gate cost, as well as the correctness of translating the verified algorithm to a detailed circuit implementation with an intermediate representation. The harness is published as an open challenge where human researchers and AI agents can search for more efficient factoring circuits while retaining machine-checked guarantees of correctness and end-to-end asymptotic complexity.",
+    "authors": [
+      "Suresh, Anirudh",
+      "Courtney, Joshua M.",
+      "Tao, Runzhou",
+      "Cao, Yudong"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:05:55.180028Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229969",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229969",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3229969"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

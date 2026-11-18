@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21500",
+    "arxiv_id": "2611.21500",
+    "arxiv_version": null,
+    "inspire_id": "3229846",
+    "doi": null,
+    "title_en": "Exponential Quantum Memory Advantage for Late-Graph Smoothness and Spectral Estimation",
+    "abstract_en": "Graph signal processing tests how smoothly the decisions of next-generation massive sensor networks with $N$ nodes vary over their neighbour graph. Memory becomes the bottleneck when the neighbour graph arrives only after data erasure, a late-graph setting motivated by dispersed sensor networks and telemetry. We analyse three collection scenarios, reliable rounds, continuous broadcast and ordered capture, and test the Dirichlet energy $\\mathcal E_G=\\mathbf z^{\\mathsf T}\\mathbf L\\mathbf z/N$ of the fused decision map $\\mathbf z\\in\\{\\pm1\\}^N$, with late-graph Laplacian $\\mathbf L$, against two thresholds. Hidden Matching uses $O(\\log N)$ qubits on fused bits, but in reliable rounds and continuous broadcast, where nodes report $b$ sub-bits separately, a classical record buffer before it uses $O(N b)$ bits; classical methods need $Ω(\\sqrt N)$ bits in the worst case. The recently introduced Quantum Oracle Sketching builds quantum oracles from random data streams without storing them. We combine coherent loading of separately reported sub-bits, exact in reliable rounds and by Quantum Oracle Sketching in continuous broadcast, with nonlinear fusion and Hidden Matching readout. The register count $R$ does not grow with $N$, and the memory is $O(\\log N)$ logical qubits and classical bits, at fixed $b$, graph bounds, thresholds and error targets: an exponential memory advantage over every classical receiver and over Hidden Matching with that buffer. We prove unbiasedness in reliable rounds, preparation bounds in continuous broadcast, classical lower bounds and, for a planner-supplied multi-hop coefficient stream, spectral error bounds. Broadcast simulations match analytic averages at $N=1024$, without resolved bias growth up to $N=2^{20}$. Fault-tolerant hardware, gate rates and, in continuous broadcast, report counts remain open.",
+    "authors": [
+      "Gülbahar, Burhan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T12:06:14.102680Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3229846",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3229846",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3229846"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

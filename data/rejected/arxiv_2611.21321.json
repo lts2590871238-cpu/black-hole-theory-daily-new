@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.21321",
+    "arxiv_id": "2611.21321",
+    "arxiv_version": null,
+    "inspire_id": "3230070",
+    "doi": null,
+    "title_en": "TCBP-JOBS: GPU-Accelerated Quantum Error Correction Decoding and Noise Learning with Near-Optimal Accuracy",
+    "abstract_en": "Achieving near-optimal quantum error correction (QEC) decoding accuracy often requires computationally expensive searches that limit both large-scale simulation and real-time operation. We introduce trajectory-calibrated belief propagation (TCBP), which learns calibrated fault probabilities from BP trajectories, and jittered OSD beam search (JOBS), which uses these probabilities to guide parallel GPU searches. Across surface, color and bivariate-bicycle code memory and surgery circuits, TCBP-JOBS achieves logical error rates comparable to those of the Tesseract most-likely-error decoder at physical error rates of 0.1% to 0.4%, and up to 4.5$\\times$ lower on the largest codes. Serial speedups over Tesseract's sparsified presets range from 10$\\times$ to 7,400$\\times$, and against unsparsified long-beam Tesseract they reach 13,000$\\times$ on the bivariate-bicycle codes, at logical error rate ratios of 0.97 to 1.57. At lower physical error rates ($10^{-4}$ to $5\\times10^{-4}$), rare-event splitting on the gross code shows that Tesseract is more accurate. Batched execution accelerates offline simulation for rapid, efficient exploration of large-scale QEC design spaces. For QPUs with longer logical clock cycles, our serial memory and logical-surgery experiments demonstrate accuracy comparable to Tesseract while meeting the millisecond-scale latency requirements of online feed-forward operation. Beyond memory and logic decoding, we demonstrate using TCBP-JOBS for confidence scores for postselection in memory and magic-state cultivation, enabling end-to-end color code cultivation. Together, these methods provide a GPU framework for accelerating QEC research via accurate decoding, noise estimation, and confidence assessment.",
+    "authors": [
+      "Howe, Ben",
+      "Maurya, Satvik",
+      "Olle, Jan",
+      "Basov, Ivan",
+      "Li, Muyuan",
+      "Lietz, Justin G.",
+      "Young, Kevin",
+      "Svore, Krysta M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-16T00:00:00Z",
+    "updated_at": "2026-11-18T11:57:30.799952Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230070",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230070",
+        "fetched_at": "2026-11-18T13:25:21.913693Z",
+        "url": "https://inspirehep.net/literature/3230070"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

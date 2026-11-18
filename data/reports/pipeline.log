@@ -2837,3 +2837,7 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='export.arxiv.org'
 2026-11-18 04:33:54,008 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-11-18 04:33:57,775 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
 2026-11-18 04:34:00,958 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2026-11-18 13:25:21,138 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: arXiv timed out
+2026-11-18 13:25:21,208 WARNING theory_daily.pipeline: arXiv data source temporarily unavailable: source timed out
+2026-11-18 13:25:21,208 WARNING theory_daily.pipeline: INSPIRE 数据源暂时不可用：source timed out
+2026-11-18 13:29:07,233 INFO httpx: HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
