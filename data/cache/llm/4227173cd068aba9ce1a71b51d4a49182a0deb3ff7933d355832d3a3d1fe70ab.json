@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "modified_gravity",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 18,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 1,
+    "other": 5
+  },
+  "total_score": 68,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文提出一种用于检验多种修改引力时空（含Horndeski带毛解）的可微分测地线轨道方法并给出S2观测约束，属于修改引力主题；理论深度与方法严谨性信号较好，具有点击阅读价值。",
+  "title_zh": "用于利用S2检验时空的测地线信息神经网络",
+  "abstract_zh": "围绕人马座A*的恒星轨道，特别是S2的轨道，检验了银河系中心处的时空。此类分析通常对每一次似然评估都积分运动方程并对后验进行采样。我们针对静态球对称时空发展了一个可微分的轨道模型，该模型通过优化而非采样来获得参数、其不确定度以及贝叶斯证据。在测地线信息神经网络（GINN）中，守恒量、轨道形状和红移均由度规精确计算，而一个受测地线方程约束的神经网络表示径向相位的含时演化。物理参数与网络权重通过Adam和Gauss-Newton步骤最小化单一损失函数，而最小值处的曲率给出不确定度与证据。我们将这一高斯近似与二阶展开以及精确测地线求解器进行了对比检验，并将GINN应用于Schwarzschild、Reissner-Nordström、带毛Horndeski、Bardeen、Janis-Newman-Winicour以及Yukawa时空中的S2数据。GINN重现了精确求解器的估计值与不确定度。对于Schwarzschild，我们得到$M=(4.32\\pm0.22)\\times10^6\\,M_\\odot$以及$D=8.33\\pm0.21$ kpc。没有任何时空显著偏离Schwarzschild；例如，Yukawa修正在大约180 AU的范围内被限制为$|δ|<0.011$（95%）。没有任何附加参数对拟合的改进足以补偿其Occam惩罚，因此贝叶斯因子从不确定到适度支持Schwarzschild。当“毛”线性进入度规时，高斯近似是准确的；而当其仅通过其平方进入时，该近似是保守的。当后验接近高斯时，GINN通过单次优化给出估计值、其不确定度以及证据，并且相同的导数可量化对其的偏离。",
+  "keywords_en": [
+    "S2 star",
+    "Galactic Center",
+    "geodesic-informed neural network",
+    "differentiable orbit model",
+    "Bayesian evidence",
+    "Horndeski",
+    "Yukawa correction",
+    "spacetime tests"
+  ],
+  "keywords_zh": [
+    "S2恒星",
+    "银河系中心",
+    "测地线信息神经网络",
+    "可微分轨道模型",
+    "贝叶斯证据",
+    "Horndeski",
+    "Yukawa修正",
+    "时空检验"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-19T04:17:08.625922Z"
+}

@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.24485",
+    "arxiv_id": "2611.24485",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Neural-Network Identification of LIGO Noise Transients Using Binary Auxiliary-Channel Activity",
+    "abstract_en": "Transient noise artifacts (\"glitches\") in the Laser Interferometer Gravitational-Wave Observatory (LIGO), Virgo and KAGRA (LVK) detectors can mimic astrophysical signals and reduce confidence in gravitational-wave detections. The LVK's iDQ pipeline identifies these glitches by analyzing correlations between auxiliary sensors and the strain channel using the Ordered Veto List (OVL) algorithm. We revisit neural-network approaches to this problem using modern training infrastructure and introduce two architectures: GIANTS, a single network trained on all auxiliary-channel features, and TITAN, a mixture-of-experts model composed of subsystem-specific networks and a learned combiner. Evaluated on ten independent test periods spanning LIGO's third observing run, both models outperform OVL on most test sets, with TITAN providing the most consistent performance over time. We further show that nearly all predictive information contained in Omicron trigger features is captured by a simple binary indicator of auxiliary-channel activity. Networks trained on these binary inputs achieve essentially the same performance as models using the full 8,440-dimensional feature set while reducing the input dimensionality by an order of magnitude. These results demonstrate that modern neural networks provide a robust alternative to OVL and suggest that substantially simpler data representations are sufficient for accurate glitch identification in future iDQ deployments.",
+    "authors": [
+      "D. Chintala",
+      "J. Temple",
+      "S. Shapiro",
+      "L. Wilson",
+      "K. Wayt",
+      "M. Van Keuren",
+      "P. Neubauer",
+      "K. Rose",
+      "D. Moffa",
+      "L. Wade",
+      "M. Wade"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-11-18T14:20:03Z",
+    "updated_at": "2026-11-18T14:20:03Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.24485v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.24485v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.24485",
+        "fetched_at": "2026-11-19T04:15:17.184393Z",
+        "url": "https://arxiv.org/abs/2611.24485v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
