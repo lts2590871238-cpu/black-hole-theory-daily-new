@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.23625",
+    "arxiv_id": "2611.23625",
+    "arxiv_version": null,
+    "inspire_id": "3230825",
+    "doi": null,
+    "title_en": "Time-Varying Bayesian Optimization and Extremum Seekingfor Drift-Tube Linac Tuning at LANSCE",
+    "abstract_en": "Bayesian optimization (BO) has emerged as a promising machine learning approach to accelerator tuning. It has the advantage of being able to incorporate prior information, including simulation and historical data, and explicitly model measurement noise. However, standard implementations can produce large, abrupt parameter updates that are undesirable and potentially unsafe in accelerator operation. They may also spend excessive time exploring less promising regions of the search space. We address these limitations by imposing soft and hard step size limits. We evaluate these methods by adjusting the radio frequency settings of the drift tube linac (DTL) at the Los Alamos Neutron Science Center (LANSCE) to maximize the particle count at the end of the linac. We first test the methods in simulation with constant exogenous parameters, then repeat the tests with drifting exogenous parameters. Under drifting conditions, progressively reducing the BO step size limit improved convergence. We also find that an initial BO segment followed by extremum seeking (ES), an approach we call BO-ES, combines BO's use of prior information and sample efficiency with ES's effectiveness in local optimization and drift tracking. Finally, tests on the LANSCE accelerator with BO-ES demonstrate an approximately $25\\%$ reduction in losses at the end of the linac across different configurations of historical and simulation data.",
+    "authors": [
+      "Leon, Christopher",
+      "Orona, Diego Andrés Rivera",
+      "Ratto, Brad",
+      "Huang, En-Chuan",
+      "Scheinker, Alexander"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-17T00:00:00Z",
+    "updated_at": "2026-11-19T11:36:47.645992Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230825",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230825",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "url": "https://inspirehep.net/literature/3230825"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

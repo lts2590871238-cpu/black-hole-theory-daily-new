@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.24174",
+    "arxiv_id": "2611.24174",
+    "arxiv_version": null,
+    "inspire_id": "3230879",
+    "doi": null,
+    "title_en": "Gradient Blindness in Adaptive Architecture Search for IQP Born Machines",
+    "abstract_en": "Instantaneous quantum polynomial (IQP) Born machines learn a probability distribution from data with a circuit of commuting gates that a classical computer trains at hundreds of qubits. Adaptive algorithms grow a sparse circuit from a small seed by adding in every round the candidate gates with the largest loss gradient. Such algorithms never add a candidate whose gradient vanishes, so the choice of seed decides which circuits they can reach. Here we show that a candidate gate has a nonzero gradient for some angles of the circuit exactly when its generator is the sum of an odd number of linearly independent generators already in the circuit. The common seed of one-qubit gates therefore never adds a gate on an even number of qubits, which exact gradients on 12 qubits confirm. A seed of one-qubit gates plus the edges of the Chow-Liu tree sees every candidate, and its circuits match the full circuits on 12 and 16 qubits with 10 to 13 percent of their parameters. At 484 qubits, a heredity pool keeps the search over higher-order gates feasible, and the circuits grown from this seed reach a lower test loss than the dense two-body circuit with 6 percent of its parameters, although the higher-order gates add no gain.",
+    "authors": [
+      "Wölckert, Sebastian",
+      "Stenzel, Gerhard",
+      "Poppel, Michael",
+      "Linnhoff-Popien, Claudia",
+      "Stein, Jonas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-19T10:33:14.306575Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230879",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230879",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "url": "https://inspirehep.net/literature/3230879"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

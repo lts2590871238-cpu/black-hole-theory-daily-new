@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.23827",
+    "arxiv_id": "2611.23827",
+    "arxiv_version": null,
+    "inspire_id": "3230607",
+    "doi": null,
+    "title_en": "Covering the Pauli Observables: Sampling Thresholds and the Design Effect of a Measurement Setting",
+    "abstract_en": "Quantum state tomography and shadow-based estimation rely on measuring Pauli observables. An experiment does not measure them one at a time: it chooses a measurement setting that assigns one of the bases X, Y or Z to each qubit, and a single run in that setting yields estimates of every Pauli observable compatible with it. We say that the setting covers those observables. We determine how many random settings cover a prescribed fraction of all Pauli observables. As the number of settings grows exponentially with the number of qubits, the covered fraction has a sharp threshold at a growth rate of $3^{3/4}$ per qubit, set by the rate-distortion function of covering at zero distortion. We give an explicit expression for the number of settings needed to reach a target fraction, accurate up to a remainder that reduces to a small oscillation for many qubits, and show that random sampling is asymptotically optimal up to a factor of less than 1.69. Coverage does not determine what a setting contributes to an estimator. Observables covered by one setting are estimated from the same outcomes, so their estimates are correlated. We quantify this correlation through the design effect of a setting, which equals the squared Pauli expectation that the setting captures and depends on the target state. We derive its mean over settings in closed form for every state and show that it can be estimated without bias from the measurement data. In simulations on six qubits, measuring settings needs 7.6 to 38 times fewer circuit runs than measuring the same number of observables independently. At high coverage, fitting the outcome histograms instead of averaged estimates roughly halves the reconstruction error, mainly because the fit counts how many settings cover each observable. The correlation itself costs such a fit about a factor of two, and a larger design effect signals more to gain from modeling it.",
+    "authors": [
+      "Chandramouli, Kausthubh",
+      "Siekierski, Noah",
+      "Bakalov, Bojko N.",
+      "Baron, Dror"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-19T10:33:14.275368Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230607",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230607",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "url": "https://inspirehep.net/literature/3230607"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.18281",
     "arxiv_id": "2611.18281",
     "arxiv_version": 1,
-    "inspire_id": "3228738",
+    "inspire_id": null,
     "doi": null,
     "title_en": "bihalofit-JAX: A Differentiable Code for the Nonlinear Matter Bispectrum and its Projected Statistics",
     "abstract_en": "Theoretical predictions for the nonlinear matter bispectrum and related projected statistics have been historically very expensive to evaluate, leading many analyses to rely on emulators to speed up slow numerical codes. We show in this paper that this need not be the case: improved numerical techniques can be leveraged to directly evaluate predictions for the nonlinear matter bispectrum and projected statistics at speeds preferable for inference. We present bihalofit-JAX, an open-source, fully differentiable code for the nonlinear matter bispectrum based on the BiHalofit fitting formula, which includes numerous related projected statistics such as angular bispectra, skew spectra and aperture statistics. It computes $10000$ triangles of the matter bispectrum in $\\sim1$--$2\\ \\rm{ms}$ per cosmology, one to three orders of magnitude faster than other implementations. It agrees numerically with the original BiHalofit code to better than $0.02\\%$ on average over the cosmologies the formula was calibrated on, where the formula itself is accurate to $\\sim20\\%$ against simulations. It is also efficiently vectorised such that one can compute e.g. $500$ cosmologies in $\\sim 2\\ \\rm{ms}$. This speed-up grows even more in the case of the third-order aperture statistics, which we compute in $\\sim 6\\ \\rm{ms}$ for one cosmology, between $3\\times10^3$ and $2.4\\times10^4$ times faster than other publicly available codes. The pipeline is fully differentiable, and we demonstrate its performance in a simple inference problem, comparing the No-U-Turn Sampler (NUTS) to gradient-free inference with the affine-invariant ensemble sampler (emcee).",
@@ -16,31 +16,23 @@
       "astro-ph.IM",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-13T00:00:00Z",
-    "updated_at": "2026-11-17T04:49:11.152585Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-13T15:12:50Z",
+    "updated_at": "2026-11-13T15:12:50Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.18281v1",
     "pdf_url": "https://arxiv.org/pdf/2611.18281v1",
-    "inspire_url": "https://inspirehep.net/literature/3228738",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.18281",
-        "fetched_at": "2026-11-19T04:15:17.184393Z",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
         "url": "https://arxiv.org/abs/2611.18281v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3228738",
-        "fetched_at": "2026-11-19T04:15:17.184393Z",
-        "url": "https://inspirehep.net/literature/3228738"
       }
     ],
     "is_demo": false

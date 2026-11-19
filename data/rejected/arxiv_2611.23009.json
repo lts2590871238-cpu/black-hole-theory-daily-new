@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.23009",
+    "arxiv_id": "2611.23009",
+    "arxiv_version": null,
+    "inspire_id": "3230680",
+    "doi": null,
+    "title_en": "PRISM: A Logical-Physical Boundary Compiler for Dual-Rail Qubits",
+    "abstract_en": "Quantum computers can encode each logical qubit across multiple physical degrees of freedom so that errors on the physical qubits can be detected or corrected. A compiler must then translate each logical gate into native instructions, and one gate can have several equivalent realizations that interact through different wires. Routing moves those wires, so a realization chosen before routing can force SWAPs that another would avoid, making code expansion and physical routing a phase-ordering problem. PRISM therefore keeps each gate's realizations open across the logical--physical boundary and commits to one only when routing reaches a layout that can execute it. We formalize which physical circuits implement a gate, which respect the fault model, and which the compiler keeps, and define when a gate can execute under a layout. For dual-rail cavity qubits, logical $\\mathrm{CR}_z$ has four loss-admissible realizations, one per rail pairing, and its logical availability graph is exactly the simple quotient of the occupied device graph by the rail pairs. Across 25 workloads with 7 to 25 logical qubits on three device graphs, PRISM reduces routing SWAPs by 20.4--30.8% and physical depth by 8.8--10.1% relative to a greedy search that fixes each realization before routing. On the grid and hexagonal lattice, the SWAP reductions hold through 32 logical qubits. By shortening routes, PRISM also reduces photon loss on device models and therefore needs 44.3% fewer attempts per retained shot at 16 logical qubits, as a geometric mean over workloads and device graphs, and it lowers decoded logical error in a three-round Steane memory under skip-gate leakage.",
+    "authors": [
+      "McKinney, Evan",
+      "Liu, Kun",
+      "Babla, Harshvardhan K.",
+      "Schoelkopf, Robert J.",
+      "Ding, Yongshan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-17T00:00:00Z",
+    "updated_at": "2026-11-19T10:32:17.225658Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230680",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230680",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "url": "https://inspirehep.net/literature/3230680"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.23469",
+    "arxiv_id": "2611.23469",
+    "arxiv_version": null,
+    "inspire_id": "3230794",
+    "doi": null,
+    "title_en": "QCCDCert: Formally Verified Compilation for QCCD Co-Design",
+    "abstract_en": "Quantum charge-coupled device (QCCD) architectures enable scalable trapped-ion quantum computing by dynamically shuttling ions between specialized processing and storage zones. A QCCD can be built with many trap sizes and layouts. Comparing them requires compiling every program under each design's transport, capacity and control constraints, and trusting the target code of each compilation. We present a co-design framework built on one Lean-verified compiler. The hardware description and its operating rules are compiler inputs, so a single theorem covers every candidate design: the target code of every compilation preserves its program's behavior and obeys the hardware rules. Across 75 benchmark programs of 11 to 130 qubits, the best design found takes 66% less modeled execution time on average than the worst design of equal capacity. An AI agent that proposes devices based on our compiler's checked results beats the fastest of these designs on 71 of 75 programs. Our verified compiler provably avoids the 11 defects that we report in three previous compilers. It scales to hundreds of qubits, compiling 512-qubit programs for a 38-trap device in 1 to 29 minutes.",
+    "authors": [
+      "Ye, John Zhuoyang",
+      "Palsberg, Jens",
+      "Sun, Ke",
+      "Haeffner, Hartmut"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-17T00:00:00Z",
+    "updated_at": "2026-11-19T10:33:52.092296Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230794",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230794",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "url": "https://inspirehep.net/literature/3230794"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.24061",
+    "arxiv_id": "2611.24061",
+    "arxiv_version": null,
+    "inspire_id": "3230856",
+    "doi": null,
+    "title_en": "The ALICE asynchronous software trigger processing for LHC Run 3",
+    "abstract_en": "The detector and computing upgrades for LHC Run 3 enable ALICE to continuously acquire proton--proton (pp) and lead--lead (Pb--Pb) collisions at interaction rates of up to 1.5 MHz and 50 kHz, respectively. The resulting pp dataset is more than three orders of magnitude larger than the combined Run 1 and Run 2 samples, and its long-term retention in full would be impractical given the available storage capacity. To address this challenge, ALICE has implemented a physics-driven asynchronous software trigger designed to retain only collisions containing signals of physics interest. Following full asynchronous reconstruction, the Central Event Filter Processor applies more than 100 analysis-based selection channels spanning the ALICE pp physics programme. The selected collisions are then used to skim the original Compressed Time Frames (CTFs), preserving the relevant detector information within detector-specific time windows. This procedure reduces the retained CTF volume to approximately 4.5% of its original size, while preserving the possibility of future reconstruction with improved calibrations and software. This contribution describes the implementation and operation of the asynchronous software trigger, from collision selection to CTF skimming, and highlights how this strategy provides access to rare signals and processes across the ALICE physics programme.",
+    "authors": [
+      "Pucillo, Sara"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-19T10:32:19.184947Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "{'$ref': 'https://inspirehep.net/api/conferences/2880224'}, C26-07-30"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3230856",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3230856",
+        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "url": "https://inspirehep.net/literature/3230856"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
