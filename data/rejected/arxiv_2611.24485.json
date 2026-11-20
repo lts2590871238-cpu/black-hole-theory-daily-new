@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.24485",
     "arxiv_id": "2611.24485",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3231085",
     "doi": null,
     "title_en": "Neural-Network Identification of LIGO Noise Transients Using Binary Auxiliary-Channel Activity",
     "abstract_en": "Transient noise artifacts (\"glitches\") in the Laser Interferometer Gravitational-Wave Observatory (LIGO), Virgo and KAGRA (LVK) detectors can mimic astrophysical signals and reduce confidence in gravitational-wave detections. The LVK's iDQ pipeline identifies these glitches by analyzing correlations between auxiliary sensors and the strain channel using the Ordered Veto List (OVL) algorithm. We revisit neural-network approaches to this problem using modern training infrastructure and introduce two architectures: GIANTS, a single network trained on all auxiliary-channel features, and TITAN, a mixture-of-experts model composed of subsystem-specific networks and a learned combiner. Evaluated on ten independent test periods spanning LIGO's third observing run, both models outperform OVL on most test sets, with TITAN providing the most consistent performance over time. We further show that nearly all predictive information contained in Omicron trigger features is captured by a simple binary indicator of auxiliary-channel activity. Networks trained on these binary inputs achieve essentially the same performance as models using the full 8,440-dimensional feature set while reducing the input dimensionality by an order of magnitude. These results demonstrate that modern neural networks provide a robust alternative to OVL and suggest that substantially simpler data representations are sufficient for accurate glitch identification in future iDQ deployments.",
@@ -24,23 +24,31 @@
     "categories": [
       "gr-qc"
     ],
-    "submitted_at": "2026-11-18T14:20:03Z",
-    "updated_at": "2026-11-18T14:20:03Z",
-    "document_types": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-20T11:32:21.816203Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.24485v1",
     "pdf_url": "https://arxiv.org/pdf/2611.24485v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231085",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.24485",
-        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
         "url": "https://arxiv.org/abs/2611.24485v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3231085",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231085"
       }
     ],
     "is_demo": false

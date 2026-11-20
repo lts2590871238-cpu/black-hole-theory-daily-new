@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.24444",
+    "arxiv_id": "2611.24444",
+    "arxiv_version": null,
+    "inspire_id": "3231023",
+    "doi": null,
+    "title_en": "Efficient simulation of variational quantum circuits: representation, accuracy and CPU/GPU allocation",
+    "abstract_en": "Classical circuit simulation supports quantum software development and verification and provides a baseline for assessing quantum advantage. We compare gate-based statevector simulation, direct Pauli evolution and matrix product states for molecular and spin Variational Hamiltonian Ansatze and hardware-efficient ansatze on CPU/GPU systems, varying width, depth, precision and resource allocation. In the tested implementations, direct Pauli evolution benefits complex molecular VHA, whereas GPUs accelerate wider spin and hardware efficient circuits. Matrix product state is useful when limited entanglement permits accurate compression; corrected CPU FP32 can meet the tested tolerance while costing more than FP64. Workload size, startup, worker memory and task-specific profiling can change the preferred allocation. Matched NumPy Pauli updates accelerate two-layer full LiH by 3.45-fold; the GPU gives approximately 30-fold acceleration over 18-thread Aer for 28-qubit, four-layer TFIM, both in FP64. We provide a procedure for choosing representation, precision and worker allocation jointly, comparing the cost of complete energy evaluations under accuracy, memory and core constraints.",
+    "authors": [
+      "Novák, Vojtěch",
+      "Rečka, Radovan",
+      "Knebl, Ondřej",
+      "Zelinka, Ivan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-20T10:27:40.391983Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231023",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231023",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231023"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

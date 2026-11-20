@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25147",
+    "arxiv_id": "2611.25147",
+    "arxiv_version": null,
+    "inspire_id": "3231030",
+    "doi": null,
+    "title_en": "Accelerating Diffusion Maps on a Quantum Computer: Spectral Filtering and Galerkin PDE Solvers",
+    "abstract_en": "Diffusion maps generalize principal component analysis (PCA) to nonlinear manifolds, enabling spectral dimensionality reduction, geometric data analysis, and elliptic PDE approximation on point clouds. For large datasets of size $N$, however, classical matrix operations incur prohibitive $\\operatorname{poly}(N)$ scaling, even when extracting low-dimensional spectral features or targeted scalar observables. We introduce a quantum algorithmic framework that bypasses explicit graph-Laplacian assembly by exploiting the symmetric factorization $G = A^T A$ directly at the block-encoding level. Combining Gaussian moment dilation, Laplace-weighted linear combinations of unitaries (LCU), and quantum singular value transformation (QSVT), we implement spectral filters of $A$ to estimate heat-semigroup overlaps, regularized inverse queries, and energy responses, as well as to prepare spectral Galerkin solution states. A common-state construction further allows the block-encoding queries to be used across multiple scalar observables. Under polylogarithmic-cost block-encoding access to $A$ and state-preparation oracles, our heat-overlap algorithm achieves $O(\\operatorname{polylog} N)$ gate complexity at fixed normalized precision, confidence, and spectral scale. Ideal statevector simulations validate our discrete circuit constructions, while a matched approximate-counting benchmark demonstrates the quadratic precision advantage of coherent amplitude estimation for energy readout.",
+    "authors": [
+      "Qian, Ruizhe",
+      "Li, Xiantao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-20T10:27:42.520146Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231030",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231030",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231030"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

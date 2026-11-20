@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.26605",
+    "arxiv_id": "2611.26605",
+    "arxiv_version": null,
+    "inspire_id": "3231414",
+    "doi": null,
+    "title_en": "Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion",
+    "abstract_en": "Arithmetic operations are a fundamental building block in the design of quantum algorithms, with their implementation cost expected to have a significant impact on the viability of a wide variety of quantum applications. In this work, we present novel algorithms for a number of in-place quantum arithmetic operations that are highly efficient in terms of their space and gate count overheads compared to the current state-of-the-art. We show that in-place modular multiplication of integers, modulo a power of two, can be performed with either a classical or quantum odd multiplier using $O(n^{1+ε})$ gates and no ancilla qubits, for any $ε>0$. We then show that standard in-place integer multiplication can be performed with a non-zero classical or quantum multiplier using $O(n^{1+ε})$ gates for any $ε>0$, with no ancilla qubits required for the classical multiplier and a logarithmic number of ancilla qubits for the quantum. Using our quantum modular multiplication algorithm, we also show that in-place modular inversion, modulo a power of two, can be performed using $O(n^{1+ε})$ gates and no ancilla qubits, for any $ε>0$. To our knowledge, these are the first quantum algorithms achieving both subquadratic gate counts and sublinear ancilla counts for each of the considered in-place operations. All but one of these fast operations are optimal in terms of memory, only requiring enough space to store the output of the operation, which overwrites the input directly. We present our multiplication algorithms as consequences of a single unified theorem, which may find further application within quantum arithmetic.",
+    "authors": [
+      "Halpenny, David",
+      "Sireesh, Adithya",
+      "Wallden, Petros"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:25:39.863988Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231414",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231414",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231414"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

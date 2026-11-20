@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25053",
+    "arxiv_id": "2611.25053",
+    "arxiv_version": null,
+    "inspire_id": "3231223",
+    "doi": null,
+    "title_en": "Modeling couplings and quench dynamics of hundred-qubit quantum processors",
+    "abstract_en": "Quantum processors now operate beyond the reach of exact classical simulation, yet their design and verification rest on precise models of the device. Understanding which properties of quantum processors can still be predicted on classical computers is central both to building these machines and to delimiting claims of quantum advantage. Here we address this question at the device level, using continuous unitary transformations to derive effective Hamiltonians non-perturbatively for two-dimensional superconducting processors at a cost polynomial in qubit number. For a 96-transmon array with tunable couplers, we extract the effective qubit couplings, state-dependent interactions (e.g., ZZ couplings), and eigenstate locality that guide processor design. This computation parallelizes over tensor contractions and thus takes an hour at most per design point on a single GPU, enabling rapid design iterations of the full array. Combining these effective models with semiclassical sampling, we then predict the quench dynamics of 100 qubits and 180 couplers at half filling, a sector of dimension $10^{29}$, and validate the approach against exact dynamics of smaller arrays. We show that our approach captures relaxation, thermalization, and transport, but not the bitstring statistics underlying cross-entropy benchmarks. The predicted transport carries a fingerprint of the device: under a staggered detuning, excitations cross over from ballistic to diffusive spreading, slow down at a doublon resonance, and diffuse at different rates on each sublattice. Our results chart which observables lie within classical reach and offer a practical tool for designing future devices.",
+    "authors": [
+      "Fors, Simon Pettersson",
+      "Djäknegren, Eric",
+      "Fernández-Pendás, Jorge",
+      "Kockum, Anton Frisk"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-20T10:25:46.132009Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231223",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231223",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231223"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

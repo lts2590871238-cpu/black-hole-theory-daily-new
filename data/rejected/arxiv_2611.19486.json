@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.19486",
+    "arxiv_id": "2611.19486",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Galerkin methods for unconventional superconductors with long-range interactions on 3D lattices",
+    "abstract_en": "We develop an analysis and a B-spline Galerkin method for the matrix-valued Bardeen-Cooper-Schrieffer (BCS) gap equation of unconventional superconductors with general long-range interaction kernels on arbitrary Bravais lattices. We define the BCS free energy functional on lattices, show that it is bounded from below, and characterise solutions of the gap equation as its stationary points. For non-repulsive kernels, we prove that fixed-point iteration never increases the free energy and drives the residual to zero. The algebraically decaying tails of the interaction are described by Epstein zeta functions, so the method applies to any power-law exponent $ν>0$, including exponents at or below the lattice dimension such as dipolar interactions in three-dimensional lattices. In the B-spline Galerkin basis, the singular convolutions correspond to block-circulant matrices whose eigenvalues are lattice sums, applied without quadrature at FFT cost. Each iteration takes log-linear work and linear memory, and Broyden updates accelerate convergence. By engineering a suitable dispersion for a prescribed gap, we obtain non-trivial analytic singlet and triplet solutions of the gap equation with power-law interactions on the integer lattice at zero temperature, to our knowledge the first ones. Benchmarks against these solutions and against highly resolved numerical data show convergence rates determined by the B-spline degree and the regularity of the solution. Finally, we compute a nodal superconductor with long-range interactions on the three-dimensional fcc lattice: a chiral state with a line node and two topologically non-trivial Weyl point nodes. On 16 cores, the method reaches a residual of $1.5\\times10^{-13}$ for 6.3 million complex unknowns in less than two minutes.",
+    "authors": [
+      "Andreas A. Buchheit",
+      "Torsten Keßler",
+      "Sergej Rjasanow"
+    ],
+    "categories": [
+      "math.NA",
+      "cond-mat.supr-con"
+    ],
+    "submitted_at": "2026-11-14T16:17:46Z",
+    "updated_at": "2026-11-14T16:17:46Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.19486v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.19486v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.19486",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://arxiv.org/abs/2611.19486v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

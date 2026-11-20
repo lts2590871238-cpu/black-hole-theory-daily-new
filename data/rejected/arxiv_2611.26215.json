@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.26215",
+    "arxiv_id": "2611.26215",
+    "arxiv_version": null,
+    "inspire_id": "3231383",
+    "doi": null,
+    "title_en": "To predict or to persist: how decoherence shapes learning in a spin-qubit quantum reservoir",
+    "abstract_en": "In this work we investigate how dephasing and the choice of measured observables affect learning in a simulated six-qubit spin chain with Markovian dissipation and exact expectation-value readout. For externally driven nonlinear autoregressive moving-average signals, combining single- and two-qubit observables gives better predictions than a population-only readout at comparable polynomial feature counts. Most of the configurations we tested become more accurate than a reference with relaxation and dephasing disabled, most strongly at $T_2=1\\,μ$s, where total memory capacity drops, and still at $T_2=5$-$10\\,μ$s, where memory is only redistributed across delays. For autonomous generation, we train the readout with scheduled sampling and iterative dataset aggregation to expose it to states reached under its own feedback. We do not find a clear systematic dependence of limit-cycle persistence on coherence across the reservoir ensemble. For chaotic forecasting, in contrast, prediction horizons at $T_2=1\\,μ$s shorten in all 10 reservoir realizations relative to that reference. For the noise-driven strange non-chaotic attractor, the model produces a smooth, approximately closed orbit, and neither captures the target's scatter nor follows its trajectory pointwise. We conclude that, within this simulated reservoir, the impact of coherence depends strongly on the task.",
+    "authors": [
+      "Petropoulos, Nikolaos",
+      "Blokhina, Elena"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:26:40.753852Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231383",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231383",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231383"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

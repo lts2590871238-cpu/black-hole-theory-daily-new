@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25825",
+    "arxiv_id": "2611.25825",
+    "arxiv_version": null,
+    "inspire_id": "3231309",
+    "doi": null,
+    "title_en": "Structure-Guided Synthesis of Low-Error Syndrome Extraction Circuits",
+    "abstract_en": "Gate orders can change fault propagation and logical error rates even when syndrome-extraction circuits implement the same ideal stabilizer measurements. Optimizing these orderings independently for every check, however, becomes computationally demanding as code size increases. We present a synthesis method for structured Calderbank-Shor-Steane codes that groups checks by recurring connectivity and shares one relative gate order per group, reducing independent ordering choices. A CP-SAT solver jointly determines the shared orders and the execution time of each physical gate, enforcing resource and measurement constraints across the circuit. Noisy circuit simulations with decoding then guide the selection of the final circuit. We compare with state-of-the-art approaches, including Auto-Stabilizer-Check (ASC), PropHunt, and AlphaSyndrome. Across 15 quantum low-density parity-check codes from ten code families, our method achieves the lowest logical error rate estimates. Relative to ASC, the strongest baseline in our evaluation, the median reduction is 11.4% and the largest is 38.6%. Our circuits improve circuit-level distance over ASC on ten instances and preserve the code distance in seven. Across five timed codes, our method reduces the mean time to the first feasible circuit by factors of 21.4-136.6 relative to ASC, at equal or lower depth.",
+    "authors": [
+      "Li, Shanchuan",
+      "Hong, Xin",
+      "Zhu, Pengcheng",
+      "Zhou, Xiangzhen",
+      "Meng, Fanxu",
+      "Ying, Shenggang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:26:34.979093Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231309",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231309",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231309"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

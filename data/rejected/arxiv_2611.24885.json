@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.24885",
+    "arxiv_id": "2611.24885",
+    "arxiv_version": null,
+    "inspire_id": "3231156",
+    "doi": null,
+    "title_en": "Quantum Simulation of First-Quantised Chemistry with a Sum-of-Squares Representation",
+    "abstract_en": "Calculating molecular energies is expected to be an important application of quantum computers, but the most efficient algorithms to achieve this typically have significant space requirements. Scaling quantum processors to thousands of logical qubits is a daunting engineering challenge, so developing algorithms that run with reduced qubit requirements is of particular importance. Moreover, most algorithms are benchmarked on active spaces with about as many orbitals as electrons, missing dynamical correlation which is necessary to describe real chemistry. Capturing this correlation requires several times more orbitals than electrons, even in compact atomic-orbital basis sets. This low-filling regime favours first quantisation, where each electron is represented by a number of qubits that grows only logarithmically with the number of orbitals. Whether this approach translates into a practical advantage in orbital basis sets of realistic size, however, has been unclear. Here, we develop a first-quantised phase estimation algorithm for generic orbital basis sets, based on a non-convex sum-of-squares representation of the Hamiltonian and spectral-gap amplification. We compare it with the state-of-the-art second-quantised algorithm, compiling both with the same techniques at the logical level. For six molecules with 4 to 24 electrons in 5 to 14 times as many orbitals, our first-quantised method needs up to 16 times fewer Toffoli gates than the second-quantised algorithm in the low-qubit regime, where only a few hundred logical qubits are available. It stays cheaper up to between several hundred and about 1 400 qubits, and its smallest qubit count is 1.4 to 2 times lower than in second quantisation. In the low-qubit and low-filling regime, our algorithm is therefore the method of choice for chemistry in orbital basis sets.",
+    "authors": [
+      "Ivanov, Aleksei V.",
+      "Sünderhauf, Christoph",
+      "Kunjummen, Jon",
+      "Blunt, Nick S.",
+      "Izsák, Róbert"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-20T10:26:33.069367Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231156",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231156",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231156"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

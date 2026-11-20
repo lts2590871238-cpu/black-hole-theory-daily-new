@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25752",
+    "arxiv_id": "2611.25752",
+    "arxiv_version": null,
+    "inspire_id": "3231052",
+    "doi": null,
+    "title_en": "Beyond Error Mitigation: Using Boosting for Noisy Quantum Machine Learning",
+    "abstract_en": "Quantum error mitigation (QEM) can recover information about ideal quantum computations from noisy circuit executions, but may require a large sampling overhead. Fundamental lower bounds show that recovering noiseless observables without problem-specific information can require superpolynomially many samples, with exponential overhead for broad classes of noisy circuits. However, problem-specific information can reduce the number of samples needed to obtain the required answer. We investigate this possibility in supervised quantum machine learning, where labeled examples provide information about the function to be learned. Binary classification provides such a setting, since correct prediction depends on the sign and margin of the classifier output rather than on accurate reconstruction of every noiseless expectation value. We develop a theoretical and empirical framework for comparing boosting of noisy parameterized quantum circuits with probabilistic error cancellation (PEC), requiring both methods to reach the same learning target. For the specified circuit architectures under Pauli noise, we establish a common hypothesis-class complexity bound: matching empirical margin loss gives the same upper bound on expected classification risk. We derive resource criteria and evaluate AdaBoostR and Real AdaBoost in finite-shot teacher-student simulations across circuit depth and physical noise strength. Under the same classification-accuracy target, boosting requires fewer circuit executions as depth and noise increase. Boosting also achieves higher test accuracy than the corresponding reference. For the supervised-learning problems studied, these results demonstrate a task-dependent resource advantage: exploiting information retained in noisy outputs can avoid the cost of ideal-output reconstruction without sacrificing observed classification performance.",
+    "authors": [
+      "Lukianenko, Anastasiia",
+      "Patel, Yash J.",
+      "Kenbayev, Nurbolat",
+      "Dunjko, Vedran"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:25:28.263100Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231052",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231052",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231052"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

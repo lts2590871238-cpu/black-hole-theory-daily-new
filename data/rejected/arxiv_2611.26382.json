@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.26382",
+    "arxiv_id": "2611.26382",
+    "arxiv_version": null,
+    "inspire_id": "3231048",
+    "doi": null,
+    "title_en": "Efficient Classical Algorithms for Ground Energy Estimation of Fermions with Conjugate-Pair Orbital Interactions",
+    "abstract_en": "Estimating the ground energy of interacting fermions is central to quantum many-body physics, and recent quantum algorithms provide polynomial-time guarantees for some structured families. Classical approaches commonly rely on quantum Monte Carlo, where the sign problem is a major obstacle. However, even when a nonnegative expansion without sign problem is available, rigorous guarantees for rapid mixing are still far from well understood. In this paper, we give an efficient classical randomized algorithm for approximating the ground energy of fermionic Hamiltonians with conjugate hopping matrices and conjugate-paired orbital interactions, which includes the attractive Hubbard models. This guarantee not only holds without a physical spectral gap or a weak-coupling assumption, but also covers interactions beyond onsite density attractions. Technically, we first reduce ground-energy estimation to partition-function estimation and then use a discretization with controlled energy error to obtain a nonnegative weighted sum of squared determinant moduli and then apply the Chen--Liu log-concave counting theorem. In addition, we obtain a sharper arithmetic bound by controlling how many independent sampling runs and matrix updates are needed, and using sparse matrices to reduce the cost of each update.",
+    "authors": [
+      "Yang, Ziyi",
+      "Zhang, Yexin",
+      "Su, Yuexin",
+      "Wang, Xinzhao",
+      "Wang, Xiaoyang",
+      "Li, Tongyang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T11:32:45.337521Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231048",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231048",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231048"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

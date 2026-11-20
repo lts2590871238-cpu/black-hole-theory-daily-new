@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.26329",
+    "arxiv_id": "2611.26329",
+    "arxiv_version": null,
+    "inspire_id": "3231426",
+    "doi": null,
+    "title_en": "Stitching Quantum Codes into Quilts: Universal Logic with no Ancillary Qubits",
+    "abstract_en": "Proposals abound for performing fault-tolerant logical Pauli-product measurements between quantum codes beyond the surface code. We introduce a new construction, the code quilt, whereby a target joint logical operator of two or more codeblocks is directly measured without the use of an ancillary system. We construct explicit circuits to perform a logical measurement using the quilt construction, which also require no physical qubits beyond the ancillas already in place to perform idle syndrome extraction on the codeblocks in question. We give a detailed structural analysis of the construction, which is based on a subsystem code, and provide several sets of sufficient conditions under which the relevant code-capacity distance is preserved. We give two variants of the protocol. The first, where the gauge generators of the subsystem code are measured directly, is provably not fault tolerant in the large-distance limit but admits a particularly practical circuit implementation in which the physical qubit degree increases by at most two. The second has more favourable asymptotic properties, although we do not prove its fault tolerance in the general case. We then perform an extensive empirical analysis of the technique, in particular of the first variant, as applied to bivariate bicycle and surface codes, finding code-capacity-distance preserving quilts for measuring 25,000 randomly selected logical operators. We optimise to find sparse and decongested detector bases for each and, for a randomly selected subset, find circuits that we estimate to be distance preserving. Finally, we perform decoding experiments on a subset of these circuits and find that their logical error probability is comparable to that of idle memory for operations involving the 144-qubit bivariate bicycle code and distance-12 rotated surface code at physical error rates between $1.5\\times 10^{-3}$ and $3\\times 10^{-3}$.",
+    "authors": [
+      "Wolanski, Stasiu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:26:06.400149Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231426",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231426",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231426"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

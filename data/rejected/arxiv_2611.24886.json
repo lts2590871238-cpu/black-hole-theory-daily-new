@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.24886",
+    "arxiv_id": "2611.24886",
+    "arxiv_version": null,
+    "inspire_id": "3231171",
+    "doi": null,
+    "title_en": "CREST: A Hardware-Aware GNN-Based Framework for High-Fidelity and Robust Superconducting Quantum Compilation",
+    "abstract_en": "Quantum compilation on superconducting processors requires selecting a connected execution region whose topology and calibrated properties suit the input circuit. This choice constrains subsequent routing and influences the noise encountered during execution, yet aggregate hardware-quality metrics alone may not reliably predict the execution fidelity of a given circuit. Calibration updates can also change region suitability and trigger the rebuilding of calibration-dependent resource structures. We present CREST, a graph neural network (GNN)-based framework that evaluates circuit-region compatibility before routing. It encodes gate dependencies and logical-qubit interactions alongside each candidate region's connectivity and current calibration attributes; bidirectional cross-graph attention relates the two representations, while real-device execution outcomes supervise candidate ranking. The trained scorer is reused with updated calibration attributes. Evaluations on 324 circuits from seven datasets on TianYan-176 show that CREST improves mean measurement-distribution fidelity by 19.03% over the strongest baseline and achieves the highest mean fidelity on every dataset. Furthermore, using updated calibration attributes, the same trained model maintains the highest overall mean fidelity across six measurement dates without retraining. With a unified model of circuit-region compatibility, CREST improves execution fidelity across diverse workloads and sustains that advantage as hardware calibration changes.",
+    "authors": [
+      "Sun, Wenjie",
+      "Li, Xiaoyu",
+      "Wang, Zhigang",
+      "He, Yuchen",
+      "Wang, Shengbin",
+      "Sun, Hantao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-18T00:00:00Z",
+    "updated_at": "2026-11-20T10:27:35.491296Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231171",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231171",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231171"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

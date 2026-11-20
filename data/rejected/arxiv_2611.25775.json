@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25775",
+    "arxiv_id": "2611.25775",
+    "arxiv_version": null,
+    "inspire_id": "3231322",
+    "doi": null,
+    "title_en": "Entanglement-Assisted Quantum Differential Privacy",
+    "abstract_en": "Differential privacy has been successfully extended to quantum computing and information processing, where sensitive data are encoded in quantum states and protected by quantum noise mechanisms that keep the outcomes of any measurement on neighboring states nearly indistinguishable. In the quantum setting, however, the state submitted to a quantum computer may be entangled with a hidden reference system secretly held by an adversary. Such entanglement cannot be detected from the submitted state alone, and it poses a challenge with no counterpart in the classical setting. Existing frameworks of quantum differential privacy consider only measurements on the released state, leaving this scenario largely unexplored. In this paper, we identify the entanglement attack: an adversary submits one half of an entangled state to a quantum computer that runs a privacy mechanism, keeps the other half, and finally measures both halves jointly. We show that this attack may completely break a mechanism that satisfies quantum differential privacy with a finite parameter, driving its privacy parameter to infinity. To counter it, we propose entanglement-assisted quantum differential privacy (EA-QDP), a privacy framework that is native to quantum entanglement and remains valid against such attacks. We characterize exactly when a mechanism has a finite EA-QDP parameter, and show that the optimal parameter $\\varepsilon^*_{\\mathrm{EA}}$ of any quantum mechanism can be computed by a semidefinite programming problem (SDP). Building on this, we quantify the extra privacy leakage caused by entanglement and show that it can be bounded by choosing appropriate mechanisms, with the depolarizing channel being our recommended choice. Finally, we demonstrate both the attack and its countermeasure on simulated and physical quantum hardware, and the experimental results agree with our theoretical predictions.",
+    "authors": [
+      "Li, Chenjian",
+      "Guan, Ji",
+      "Ying, Mingsheng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:28:18.982489Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231322",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231322",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231322"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.21798",
     "arxiv_id": "2611.21798",
     "arxiv_version": 1,
-    "inspire_id": "3230221",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Spectro-Spatial Survey Fusion",
     "abstract_en": "Imaging and spectroscopy constrain complementary information about the same sky but are usually processed separately. We introduce Spectro-Spatial Survey Fusion, a framework that unifies these measurements by fitting a continuous spectral surface-brightness field jointly through each instrument's response. Adapting from Gaussian splatting in computer vision, we represent the field as a sum of adaptive spatial Gaussians, each carrying a spectrum built from a shared, learned dictionary of templates. We demonstrate this on 400 Sloan Digital Sky Survey (SDSS) $ugriz$ exposures and 800 fiber spectra across an $84^{\\prime}\\times84^{\\prime}$ region of COSMOS. The joint fit closely reproduces the spatial structure and broad spectral diversity of galaxies, stars, and quasars. For fitted SDSS observations, the summed predicted flux in source-selected pixels agrees with the data to within 2 percent in every band, and 96 percent of fitted spectra agree to within 10 percent in integrated flux. Sparse fiber spectra constrain a dictionary shared by every Gaussian component, so a model spectrum can be queried anywhere in the imaged area, including where no spectrum was fitted. Without refitting, the field predicts withheld SDSS images and spectra, and selected Hyper Suprime-Cam (HSC) images and Dark Energy Spectroscopic Instrument (DESI) spectra, which never enter the fit. The field predicts broad spiral-arm patterns in HSC images of two selected galaxies and DESI continuum shapes for galaxies without a fitted fiber. This framework provides a route to combining surveys so that spatial and spectral information from different observations and instruments can constrain a common representation of the sky.",
@@ -17,31 +17,23 @@
       "astro-ph.CO",
       "astro-ph.IM"
     ],
-    "submitted_at": "2026-11-16T00:00:00Z",
-    "updated_at": "2026-11-19T05:25:23.055548Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-16T19:17:01Z",
+    "updated_at": "2026-11-16T19:17:01Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.21798v1",
     "pdf_url": "https://arxiv.org/pdf/2611.21798v1",
-    "inspire_url": "https://inspirehep.net/literature/3230221",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.21798",
-        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
         "url": "https://arxiv.org/abs/2611.21798v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3230221",
-        "fetched_at": "2026-11-20T04:02:00.917013Z",
-        "url": "https://inspirehep.net/literature/3230221"
       }
     ],
     "is_demo": false

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.26173",
+    "arxiv_id": "2611.26173",
+    "arxiv_version": null,
+    "inspire_id": "3231367",
+    "doi": null,
+    "title_en": "Ellis: Extremely Fast Quantum Circuit Simulation under Qubit Loss and Leakage",
+    "abstract_en": "Qubit loss and leakage are persistent errors: while a qubit remains lost or leaked, every operation acting on it is dropped. Consequently, the Clifford circuit executed differs from shot to shot. This variation breaks Pauli-frame simulation, which constructs each shot by XORing sampled Pauli flips onto a single \\emph{common reference} measurement record. By rethinking the roles of tableau simulation and Pauli-frame simulation, we show that many key fault-tolerant primitives nevertheless retain a common reference under loss. These include CSS code memory, lattice surgery, and transversal CNOT. Such circuits can therefore be simulated exactly under Pauli noise and loss by a Pauli frame with per-shot masks for the dropped operations. We define \\emph{frame-CSS} circuits as those that are CSS up to local single-qubit basis changes, given a loss model that specifies where qubits can be lost and reloaded. We prove that every frame-CSS circuit has a common reference, and we give a practically near-linear-time procedure that certifies whether a circuit is frame-CSS. We implement the certifier and a high-performance simulator in the open-source package \\href{https://github.com/isaachyw/ELLIS}{\\textsc{Ellis}} (Efficient Loss and Leakage Invariant-reference Simulation). On the gross code under qubit loss and Pauli errors, \\ellis samples 952,000 shots per second on a single CPU core, at least $1000\\times$ faster than Clifft~\\cite{chase2026} and PPVM~\\cite{luo2026ppvm}.",
+    "authors": [
+      "Hou, Yuewen",
+      "Ravi, Gokul Subramanian"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-20T10:25:26.990535Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231367",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231367",
+        "fetched_at": "2026-11-20T13:34:32.776277Z",
+        "url": "https://inspirehep.net/literature/3231367"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
