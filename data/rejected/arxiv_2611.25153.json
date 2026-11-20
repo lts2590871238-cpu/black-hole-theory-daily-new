@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25153",
+    "arxiv_id": "2611.25153",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "\\textsc{Max-Cut} on Token Graphs",
+    "abstract_en": "Let $G$ be a graph on $n$ vertices, with a positive weight assigned to each edge. A cut of $G$ is a partition of its vertices into two sets $X$ and $Y$; the weight of $(X,Y)$ is the sum of the weight of the edges of $G$ with one endpoint in $X$ and the other endpoint in $Y$. The Max-Cut problem asks for the maximum weight, $m(G)$, of a cut of $G$. The $k$-token graph of $G$, is the graph, $F_k(G)$, whose vertices are the $k$-subsets of vertices of $G$, two of them being adjacent when their symmetric difference is an edge of $G$. The phase-reconstruction problem for Heisenberg antiferromagnets in physics can be rephrased as a Max-Cut problem on token graphs. Motivated by this, we study the Max-Cut problem on token graphs, mainly when all edges are assigned the same weight. Our main focus is to bound $m(F_k(G))$ in terms of $m(G)$. We prove that $m(F_k(G))\\geq\\binom{n-2}{k-1}m(G)$, and that this bound is tight up to a multiplicative factor of $1+O(k/n)$; in the case when $k=c \\cdot n$ for some constant $0 < c < 1$, we provide an example where this bound is off by a multiplicative constant factor. We also show bounds for $m(F_k(G))$ for various classes of graphs $G$. Finally, we consider the algorithmic complexity of finding $m(F_k(G))$, showing it to be NP-complete for a constant $k$, and giving evidence that, when the weights take finitely many values, it is not NP-hard for $k\\geq n^δ$ for any constant $δ>0$.",
+    "authors": [
+      "José Angel Alejandro-Soto",
+      "Paulo T. Araujo",
+      "Ruy Fabila-Monroy",
+      "Sergio Gerardo Gómez-Galicia",
+      "Mohamed Hibat-Allah",
+      "Md Moshiur Rahman Raj",
+      "Mahmud Ashraf Shamim",
+      "Ana Laura Trujillo-Negrete"
+    ],
+    "categories": [
+      "math.CO",
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-11-18T20:31:03Z",
+    "updated_at": "2026-11-18T20:31:03Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.25153v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25153v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.25153",
+        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "url": "https://arxiv.org/abs/2611.25153v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

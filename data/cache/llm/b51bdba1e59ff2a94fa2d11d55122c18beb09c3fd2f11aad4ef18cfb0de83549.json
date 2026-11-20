@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 14,
+    "methodological_rigor": 15,
+    "novelty": 11,
+    "clarity": 9,
+    "metadata_quality": 6,
+    "community_signal": 1,
+    "other": 5
+  },
+  "total_score": 61,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文聚焦随机引力波背景（SGWB）的参数反演，属于PTA/引力波宇宙学主题；提出将无似然的模拟推断（SBI）用于从SGWB谱重建一阶电弱相变参数，并与基于似然的MCMC结果对比，方法层面具有参考价值。理论深度适中，属于方法学而非深层引力理论构造。",
+  "title_zh": "面向引力波宇宙学的模拟推断：一阶电弱相变参数的重建",
+  "abstract_zh": "探测来自宇宙学一阶相变的随机引力波背景（SGWB）将是超越标准模型物理的确凿证据，其中在LISA可观测的强电弱相变（EWPT）就是一个典型例子。从这种信号中重建其底层模型具有挑战性，因为从模型参数到谱的映射存在简并，而且强相变只占据参数空间中狭小且稀疏的区域。我们表明，模拟推断（SBI）——一种适用于一般SGWB源的无似然方法——尽管存在这些困难，仍能提供可靠的参数重建。我们首先将SBI应用于刻画该相变的热力学参数，即其强度、逆持续时间、温度和气泡壁速度。作为一个具体应用，我们随后考虑标准模型单态扩展中的一个强EWPT，并从由此产生的SGWB重建模型参数。我们发现，在网络训练完成后，SBI的后验与基于似然的马尔可夫链蒙特卡洛分析的后验一致，且每个数据集的成本可忽略不计。将网络后验作为使用精确似然的重要性抽样的提议分布，进一步修正了其残余偏差，抽样效率比从先验分布抽样高出若干数量级。因此，SBI为LISA的宇宙学科学目标提供了一个快速而灵活的框架。",
+  "keywords_en": [
+    "stochastic gravitational-wave background",
+    "first-order electroweak phase transition",
+    "simulation-based inference",
+    "LISA",
+    "parameter reconstruction",
+    "likelihood-free inference"
+  ],
+  "keywords_zh": [
+    "随机引力波背景",
+    "一阶电弱相变",
+    "模拟推断",
+    "LISA",
+    "参数重建",
+    "无似然推断"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-20T04:14:36.577842Z"
+}

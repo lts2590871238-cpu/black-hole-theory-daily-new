@@ -3,19 +3,16 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2611.20865",
     "arxiv_id": "2611.20865",
-    "arxiv_version": 1,
+    "arxiv_version": null,
     "inspire_id": "3229999",
     "doi": null,
     "title_en": "A 3+1 formalism for self-similar expanding grids in computational relativistic and Newtonian magnetohydrodynamics",
     "abstract_en": "Astrophysical systems frequently undergo spatial expansion during their evolution. Simulating these systems with standard conservative codes for hydrodynamics and magnetohydrodynamics using fixed grids is challenging, particularly when attempting to preserve high resolution across vast changes in physical scale. While moving or expanding meshes, or adapting mesh refinement, can address this issue, they introduce computational complexity and are notoriously difficult to implement robustly. We aim to overcome these barriers by providing an easily implementable strategy that empowers the community to achieve high-fidelity results and establishes expanding-grid approaches as a highly accessible standard practice. Leveraging the gauge freedom of the 3+1 formalism for MHD on curved manifolds, a foundation common to all general relativistic fluid dynamics codes, we demonstrate how an expanding coordinate system can be implemented purely through a simple modification of the underlying metric. This requires zero modifications to the numerical mesh or the core structure of the code, and the necessary addition or modification of metric terms can be easily accomplished even in Newtonian MHD. We apply this framework to standard test problems in both relativistic and Newtonian hydrodynamics and MHD, directly comparing the results of fixed and expanding coordinates. Our tests demonstrate the full consistency, accuracy, and robustness of this metric-based expansion approach, as the original conservative formulations is fully preserved. Through a simple coordinate transformation and a re-definition of the metric tensor, any general relativistic MHD code can be effortlessly transformed into an expanding-grid code. This approach elegantly guarantees both fundamental conservation properties and the solenoidal condition for the magnetic field, and can be readily extended to include non-ideal effects.",
     "authors": [
-      "N. Bucciantini",
-      "L. Del Zanna"
+      "Bucciantini, N.",
+      "Del Zanna, L."
     ],
-    "categories": [
-      "astro-ph.HE",
-      "gr-qc"
-    ],
+    "categories": [],
     "submitted_at": "2026-11-16T00:00:00Z",
     "updated_at": "2026-11-18T12:25:10.273596Z",
     "document_types": [
@@ -25,21 +22,15 @@
     "publication_info": [],
     "citation_count": 0,
     "citation_count_without_self_citations": 0,
-    "abs_url": "https://arxiv.org/abs/2611.20865v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.20865v1",
+    "abs_url": null,
+    "pdf_url": null,
     "inspire_url": "https://inspirehep.net/literature/3229999",
     "is_update": false,
     "source_provenance": [
       {
-        "source": "arxiv",
-        "record_id": "2611.20865",
-        "fetched_at": "2026-11-19T13:52:17.847869Z",
-        "url": "https://arxiv.org/abs/2611.20865v1"
-      },
-      {
         "source": "inspire",
         "record_id": "3229999",
-        "fetched_at": "2026-11-19T13:52:17.847869Z",
+        "fetched_at": "2026-11-20T04:02:00.917013Z",
         "url": "https://inspirehep.net/literature/3229999"
       }
     ],

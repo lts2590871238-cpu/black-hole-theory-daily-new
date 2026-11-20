@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.10354",
+    "arxiv_id": "2605.10354",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "STEPSIC: Initial condition generator for stereographic cosmological simulations",
+    "abstract_en": "We present STEPSIC, an open-source initial condition generator for cosmological N-body simulations in the periodic cuboid, spherical, and cylindrical geometries supported by StePS. It succeeds the earlier StePS initial condition code and extends it to periodic cuboids with arbitrary aspect ratios and cylindrical topologies. Gaussian density fields are generated on a periodic Fourier grid. First- and second-order Lagrangian perturbation theory (LPT) displacements and velocities are interpolated to lattices or relaxed glasses with radially varying particle masses. For spherical and cylindrical domains, an enclosing periodic box supplies the fields, and a multiresolution scheme matches resolved wavelengths to local particle mass. With identical white noise, the periodic calculation agrees with monofonIC to within $0.05\\%$ in power spectrum and $0.15\\%$ in median particle displacement. On relaxed spherical and cylindrical glasses, comparison with independent sums over retained Fourier modes gives errors consistent with linear interpolation. For an enclosing box of one domain diameter, the root-mean-square relative displacement of two points in the high-resolution region differs from the infinite-Universe value by at most $0.0014\\,h^{-1}\\mathrm{Mpc}$ out of $0.5\\,h^{-1}\\mathrm{Mpc}$ at $z=31$, while domain-scale mean-density variance is suppressed. In one cylindrical realization evolved to $z=0$, doubling the enclosing box shifts the high-resolution region by $0.39\\,h^{-1}\\mathrm{Mpc}$; after removing this bulk displacement, power spectra differ by at most $1.05\\%$. In a cylindrical StePS simulation evolved to $z=0$, first-order initial conditions leave up to $3.6\\%$ less nonlinear power than second-order ones, consistent with LPT transients.",
+    "authors": [
+      "Balázs Pál",
+      "Gábor Rácz",
+      "István Csabai",
+      "István Szapudi"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-05-11T10:56:41Z",
+    "updated_at": "2026-11-18T19:16:24Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.10354v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.10354v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.10354",
+        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "url": "https://arxiv.org/abs/2605.10354v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25031",
+    "arxiv_id": "2611.25031",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Numerical Implementation and Tests of the Quadratic Effective Action for Lorentzian Spinfoam Amplitudes",
+    "abstract_en": "In the pure integral representation of Lorentzian EPRL spinfoam amplitudes, the integration over non-geometric variables in the large-spin limit defines an effective action for Regge geometries. Expanding this effective action to quadratic order around a flat background recovers the classical Regge action $iS_{\\mathrm{Regge}}$ at leading order, supplemented by a curvature correction quadratic in the bulk deficit angles $\\varepsilon$. In this work, we numerically implement this effective-action framework and validate its analytic predictions using two Julia packages: LorentzianSimplexSolver, for the computation of real and complex critical-point data, and Effective-Spinfoam, for the evaluation of the effective action. We apply this workflow to the double-$Δ_3$ complex, the $1$-$5$ Pachner move, its refinement, and a $24$-simplex hypercube triangulation. Two complementary numerical tests are performed: first, starting from the real critical point of a flat background, we verify that the leading term reproduces the quadratic Regge action and evaluate the $\\varepsilon^2$ curvature correction across a range of the Barbero-Immirzi parameter $γ$. Power-law fits confirm that in the small-$γ$ regime, the $\\varepsilon^2$ correction is of higher order in $γ$ than the Regge action. Second, for a sample of curved geometries with finite length perturbations $δ\\ell$, we numerically solve the full nonlinear critical equations at fixed perturbed edge lengths for complex critical points. By comparing the direct action evaluation at complex critical points with the quadratic effective action, we demonstrate that the latter accurately reproduces the nonlinear complex critical-point action up to remainders of cubic order in $δ\\ell$.",
+    "authors": [
+      "Dongxue Qu",
+      "Sean Tobin",
+      "Hongguang Liu",
+      "Muxin Han"
+    ],
+    "categories": [
+      "gr-qc",
+      "hep-th"
+    ],
+    "submitted_at": "2026-11-18T19:00:03Z",
+    "updated_at": "2026-11-18T19:00:03Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.25031v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25031v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.25031",
+        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "url": "https://arxiv.org/abs/2611.25031v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

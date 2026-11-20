@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.11438",
+    "arxiv_id": "2607.11438",
+    "arxiv_version": 3,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Direct Primary Beam Correction: A Regularised Linear Operator for Untangling Mutual Coupling in SKA-Low 21-cm Cosmology",
+    "abstract_en": "Mutual coupling has emerged as the dominant direction-dependent corruption in dense aperture arrays, imprinting spatial and sub-MHz spectral structure that compromises time-gating and foreground-removal strategies. We introduce \\textit{direct primary beam correction}, a domain-agnostic, regularised, direction-weighted linear inversion of stacked Jones matrices that transforms an aperture array's far-field pattern towards an arbitrary target. Using full-wave electromagnetic simulations of SKA-Low and a 4-hour observation of the EoR0 field spanning 122--134~MHz, we show that the correction reproduces the target pattern exactly for as many directions as there are elements, with regularisation trading in-field accuracy for sidelobe conditioning. For 21-cm power-spectrum analysis, we introduce a cross-time estimator that correlates samples within each $uv$ cell only between different time blocks. As the field is tracked, sidelobe emission decorrelates between blocks, suppressing its coupling-induced leakage into the EoR window; however, the main beam's coupling-induced chromaticity remains coherent and biases the recovered power, a bias that longer integration does not remove. Combined with the correction, the estimator recovers the input power without bias and passes a foreground-only null test, trading the systematic bias for statistical scatter that averages down over independent correction cycles. Propagating Gaussian beam-model errors shows that detection requires embedded element patterns accurate to at least 3.25 significant figures for channel-independent errors. In contrast, common approximations, such as averaged or neighbouring-channel patterns, reach at most two. Mutual coupling is therefore correctable in principle, making beam characterisation, rather than the correction, the priority for 21-cm experiments with dense aperture arrays.",
+    "authors": [
+      "Oscar S. D. O'Hara",
+      "Quentin Gueuning",
+      "Eloy de Lera Acedo",
+      "John Cumner",
+      "Dominic Anstey",
+      "Anthony Brown",
+      "Fred Dulwich",
+      "Andrew Faulkner",
+      "Ashish Mhaske",
+      "Oskar Zetterstrom"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-07-13T11:47:51Z",
+    "updated_at": "2026-11-18T21:29:20Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.11438v3",
+    "pdf_url": "https://arxiv.org/pdf/2607.11438v3",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.11438",
+        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "url": "https://arxiv.org/abs/2607.11438v3"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

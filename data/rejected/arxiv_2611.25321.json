@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.25321",
+    "arxiv_id": "2611.25321",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Learning Spin Hamiltonians from Interacting Magnon Spectra",
+    "abstract_en": "A neural network that learns an inverse map inherits the approximations of the forward solver used to generate its training data. We demonstrate this in the inference of spin Hamiltonians from synthetic neutron-scattering spectra and show how a fast many-body solver can overcome the limitation of linear spin-wave theory (LSWT). We consider a family of anisotropic triangular-lattice spin Hamiltonians at fields just above saturation, where magnon interactions shift and broaden the spectrum in ways that LSWT cannot capture. Using the truncated Hilbert-space ladder (THL) method, we compute the dynamical spin structure factor (DSSF) nonperturbatively within the one- and two-magnon space. THL is fast enough to generate large training sets of DSSF spectra, enabling us to train neural networks that accurately predict Hamiltonian parameters. By empirically benchmarking several neural-network architectures, we find that a one-dimensional convolutional network performs best. A learned forward decoder then reconstructs the DSSF from the predicted parameters, providing a rapid self-consistency check and a visualization of the predicted response. When interactions are strong, networks trained on LSWT and THL spectra infer markedly different parameters. Analysis of the Fisher information matrix shows that the measurement protocol, including which spin-correlation components are resolved and the momentum cut, determines which couplings can be identified. Combining machine learning with fast many- body theory is therefore essential for quantitative Hamiltonian inference from scattering data.",
+    "authors": [
+      "Ang-Kun Wu",
+      "David A. Dahlbom",
+      "Kipton Barros",
+      "Cristian D. Batista",
+      "Hao Zhang"
+    ],
+    "categories": [
+      "cond-mat.str-el"
+    ],
+    "submitted_at": "2026-11-19T00:48:42Z",
+    "updated_at": "2026-11-19T00:48:42Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.25321v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.25321v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.25321",
+        "fetched_at": "2026-11-20T04:02:00.917013Z",
+        "url": "https://arxiv.org/abs/2611.25321v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
