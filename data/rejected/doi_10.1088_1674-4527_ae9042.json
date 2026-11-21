@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1088/1674-4527/ae9042",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3231542",
+    "doi": "10.1088/1674-4527/ae9042",
+    "title_en": "WaveDM.jl: An Adaptable Simulation Framework for Dynamics of Baryonic and Wave Dark Matter on Galaxy Scales",
+    "abstract_en": "We present WaveDM.jl , an open-source Julia package for high-performance simulations of wave dark matter dynamics on galaxy scales, with a design philosophy centered on extensibility and adaptability. The code solves the time-dependent Schrödinger-Poisson equation (SPE) using a pseudo-spectral Fourier method. The spectral solver is tightly integrated with N-body gravitational force solvers, enabling simultaneous evolution of wave dark matter and baryonic components in galaxy-scale simulations. WaveDM.jl unifies shared-memory, distributed-memory, and GPU execution within a multi-level parallelization framework, enabling the same computational workflow to scale from single-node to multi-node computing environments without requiring major code changes. To further facilitate user-friendly galaxy-scale simulations, the package provides a dedicated toolbox that integrates flexible initial condition generators, trajectory lookback, tidal force calculations, and real-time visualization. Beyond astrophysical applications, the code's modular architecture and general nonlinear Schrödinger framework enable cross-disciplinary studies such as nonlinear optics and cold-atom physics. The code is an open source and available on https://github.com/JuliaAstroSim/WaveDM.jl .",
+    "authors": [
+      "Meng, Run-Yu",
+      "Dong, Xiao-Bo"
+    ],
+    "categories": [],
+    "submitted_at": "2027-01-01T00:00:00Z",
+    "updated_at": "2026-11-20T17:30:57.583574Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "27, 025009, 2027, {'$ref': 'https://inspirehep.net/api/journals/1211841'}, 2, Res.Astron.Astrophys."
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231542",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231542",
+        "fetched_at": "2026-11-21T04:00:47.341550Z",
+        "url": "https://inspirehep.net/literature/3231542"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
