@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.27079",
+    "arxiv_id": "2611.27079",
+    "arxiv_version": null,
+    "inspire_id": "3231658",
+    "doi": null,
+    "title_en": "Weight-space programming and mechanistic interpretability for model editing in particle physics",
+    "abstract_en": "We demonstrate that weight-space programming and edits guided by sparse autoencoders can remove unwanted aspects of a particle-physics foundation model through direct edits to its weights. In a foundation model trained on jets, we observe that adding a single soft neutral particle causes large changes in jet classification, violating infrared safety. We locate the responsible attention heads with mechanistic analysis and trace the flaw's origin to pretraining on datasets with different reconstruction thresholds. We then propose two targeted approaches to repair the flaw: by removing three latent directions identified with sparse autoencoders, and by letting language-model agents edit the weights directly, without gradients and with only 50 queries to the model. Both their edits individually remove almost the entire flaw and leave the rest of the model's response nearly unchanged. Compared to fine-tuning, both methods change far fewer parameters. Although built only on $W$ and QCD jets, the edits carry over to all signal classes, the pretrained generator, and a newly trained regression head.",
+    "authors": [
+      "Bonnet-Guerrini, Raphaël",
+      "Ioannou-Nikolaides, Johann",
+      "Petersen, Troels"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-23T05:54:34.148975Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231658",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231658",
+        "fetched_at": "2026-11-23T15:19:42.386780Z",
+        "url": "https://inspirehep.net/literature/3231658"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

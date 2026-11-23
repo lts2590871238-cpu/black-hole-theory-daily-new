@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.27140",
+    "arxiv_id": "2611.27140",
+    "arxiv_version": null,
+    "inspire_id": "3231770",
+    "doi": null,
+    "title_en": "Physical Learning for Autonomous Tuning of Spin Qubits in Electrostatically Defined Quantum Dots",
+    "abstract_en": "Tuning electrostatically defined quantum dots remains a primary bottleneck in the scalability of semiconductor spin qubits. While existing solutions rely on machine learning algorithms, these approaches require global information, introduce latency bottlenecks, and tax the limited cooling power available at cryogenic stages. Here, we demonstrate an FPGA-in-the-loop learning paradigm that bypasses digital computing overhead by utilizing multiplexed gradient descent (MGD) for tuning. Implemented on an FPGA and an emulated quantum dot device, our system autonomously tracks environmental drift, dynamically recovers from discrete charge jumps, and maintains steady-state stabilization in low signal-to-noise ratio regimes, without prior knowledge of the device's cross-capacitance matrix. The system also navigates the charge-stability landscape to stabilize the quantum dot around optimal operating points. These results demonstrate a ``compute-in-place'' platform, with a logic and power footprint suited to future cryo-CMOS integration, that provides autonomous stabilization of quantum dots at desired operating points, creating an auto-tuning system for spin qubits that is resilient to electrostatic drifts, changing noise profiles, and two-level fluctuations.",
+    "authors": [
+      "Gaytan, Leonardo",
+      "Lloyd, Bradley",
+      "Kliewer, Paul",
+      "Wilburn, Chandler",
+      "Carr, Lincoln D.",
+      "McCaughan, Adam",
+      "Buckley, Sonia",
+      "Singh, Meenakshi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-23T10:02:21.728080Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231770",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231770",
+        "fetched_at": "2026-11-23T15:19:42.386780Z",
+        "url": "https://inspirehep.net/literature/3231770"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

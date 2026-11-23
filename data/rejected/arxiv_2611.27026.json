@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.27026",
+    "arxiv_id": "2611.27026",
+    "arxiv_version": null,
+    "inspire_id": "3231775",
+    "doi": null,
+    "title_en": "Computing the Wave: Bridging Gravitational Wave and High-Energy-Physics software (with modular ROOT extensions)",
+    "abstract_en": "High-Energy Physics (HEP) and Gravitational Wave (GW) astronomy pursue different scientific goals, yet they face strikingly similar computing challenges and can enrich one another through shared software. Building on the prototype presented at ACAT 2024, we report on the consolidation of that work into a single, modular extension of the CERN ROOT data-analysis framework, freely distributed under RIOPlus. The library is now organised as a set of optional, dynamically loadable extensions covering configuration and file-format parsing (including the Gravitational Wave Frame (GWF) format and HDF5), remote and federated data access (OSDF/Pelican, S3, Kafka) with token-based credentials, an enhanced dynamic-display manager, an advanced signal-processing layer built on the KFR library, and a complex-capable tensor layer backed by LibTorch with ONNX interoperability. We summarise the design of each extension, outline the intended application to transient-noise (glitch) detection and classification, and update the FFT performance benchmark comparing KFR with FFTW. We close with the end-to-end ROOT-centred workflow these extensions enable, its current status, and an outlook toward column-wise RNTuple storage.",
+    "authors": [
+      "Meyer-Conde, Marco",
+      "Takahashi, Hirotaka",
+      "Kanda, Nobuyuki",
+      "Oohara, Ken-ichi",
+      "Sakai, Kazuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-23T10:01:55.272803Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231775",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231775",
+        "fetched_at": "2026-11-23T15:19:42.386780Z",
+        "url": "https://inspirehep.net/literature/3231775"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

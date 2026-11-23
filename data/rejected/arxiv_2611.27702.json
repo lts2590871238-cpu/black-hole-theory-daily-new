@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.27702",
+    "arxiv_id": "2611.27702",
+    "arxiv_version": null,
+    "inspire_id": "3231708",
+    "doi": null,
+    "title_en": "Full-chip constrained quantum annealing via self-calibrating spin-susceptibility control",
+    "abstract_en": "Discrete optimization in finance, power grids, and logistics requires minimizing Ising Hamiltonians under coupled linear constraints. However, quadratic-penalty formulations generate dense cliques that exhaust the minor-embedding capacity of sparse superconducting processors at 128-176 spins, and first-order dual subgradient schemes diverge or stall under constraint coupling. Accordingly, this study proposes a closed-loop primal-dual scheme, designated as Self-Calibrating Quantum Susceptibility Quasi-Newton (SelfCal-QSQN), in which linear constraints are encoded in longitudinal fields and dual curvature is reconstructed from single-shot spin-fluctuation covariances. This scheme requires no penalty couplers, slack qubits, or perturbation queries. Evaluated over 891 runs on D-Wave Advantage (5,612 qubits) and Advantage2 (4,560 qubits), SelfCal-QSQN achieves 83.3% full-chip exact feasibility, reduces high-constraint error by 6.1-20.1-fold over $K$-scaled first-order updates (138.4-323.3-fold over fixed-gain curvature), outperforms time-matched mixed-integer programming at 256 spins, and attains 95.0%-96.7% feasibility on non-native and inequality benchmarks. Moreover, the scheme is robust toward shot noise and freeze-out drift.",
+    "authors": [
+      "Ou, Chia-Ho"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-23T10:02:52.201696Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231708",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3231708",
+        "fetched_at": "2026-11-23T15:19:42.386780Z",
+        "url": "https://inspirehep.net/literature/3231708"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

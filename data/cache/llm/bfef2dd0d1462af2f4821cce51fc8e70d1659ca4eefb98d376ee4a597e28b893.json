@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 8,
+    "methodological_rigor": 17,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 57,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文提出基于Simformer（transformer结合扩散/流匹配）的LISA随机分量分离模拟推断框架，处理非高斯瞬变、数据间隙与非等臂等现实特征，并用重要性重加权的局部化模拟校准检验后验覆盖率，方法学较为扎实且对PTA/随机引力波背景分析有直接参考价值；属于空间引力波随机背景数据处理，故归入pta主题。",
+  "title_zh": "扩散假设：面向真实LISA随机分量分离的物理感知模拟推断",
+  "abstract_zh": "对激光干涉空间天线（LISA）所观测的大量源进行同时全局拟合推断，依赖于对其随机成分的精确建模：仪器噪声、银河系前景，以及天体物理或随机引力波背景（SGWB）。非高斯瞬变和数据间隙等现实特征对传统基于似然的流程构成挑战，这为模拟推断（SBI）增强传统分析创造了机会。在此，我们提出一个用于LISA随机成分分离的SBI框架，它建立在Simformer之上——一个用扩散或流匹配训练、通过物理感知嵌入接收完整时延干涉测量互谱矩阵的transformer。我们在包含强前景和微弱幂律SGWB的11.6天模拟数据集上逐步放宽标准简化假设。在不等臂和逐链路噪声自由度下，网络在重要性重加权后与17维MCMC后验相匹配；完整互谱将每条链路的光学计量噪声幅度约束到$1\\%$。当对瞬变或大质量黑洞双星瞬变进行边缘化时，估计误差在瞬变信噪比高达数百时仍保持平坦，而忽略它们则会严重偏置似然拟合。在时变样条噪声水平、现实瞬变率和长达一天的间隙下，后验覆盖率在$\\sim 10^4$次模拟中保持标称或保守。我们通过引入一种新颖的重要性加权局部化模拟校准检验，在给定观测的局部邻域内检验覆盖率。我们发现，在较简单的情形下，流匹配的校准略优于扩散，并观察到物理感知模板输入带来适度增益。最后，我们概述了这些网络如何为LISA全局拟合的噪声块和随机块提供初始化。",
+  "keywords_en": [
+    "LISA",
+    "stochastic gravitational wave background",
+    "simulation-based inference",
+    "transformer",
+    "diffusion model",
+    "flow matching",
+    "component separation",
+    "simulation-based calibration"
+  ],
+  "keywords_zh": [
+    "LISA",
+    "随机引力波背景",
+    "模拟推断",
+    "transformer",
+    "扩散模型",
+    "流匹配",
+    "分量分离",
+    "模拟校准"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-23T15:20:44.120933Z"
+}

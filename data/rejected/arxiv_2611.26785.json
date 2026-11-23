@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.26785",
     "arxiv_id": "2611.26785",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3231724",
     "doi": null,
     "title_en": "SciPIC-lite: A flexible Halo Occupation Distribution pipeline aimed at clustering observables",
     "abstract_en": "The Halo Occupation Distribution (HOD) framework provides a flexible approach to modelling the galaxy--halo connection in cosmological simulations, encoding the statistical relationship between galaxies and their host dark matter haloes. We present SciPIC-lite, a new public Python library for fast, flexible, and user-friendly HOD modelling, designed to populate dark matter haloes extracted from cosmological simulations with galaxies and to provide a comprehensive suite of tools for their subsequent analysis. The library is built around a modular and extensible codebase that incorporates the full breadth of the HOD framework, from the core occupation functions to a wide range of physically motivated extensions, making it suitable for a broad spectrum of galaxy clustering applications. We validate and characterise the performance of SciPIC-lite by developing a pipeline to fit the two-point correlation functions of H$α$-selected galaxies from the Flagship~2 simulation across multiple redshift bins. To this end, we populate AbacusSummit dark matter haloes with galaxies according to a variety of HOD parametrisations. We assess the robustness of the fits with respect to the choice of HOD parametrisation and the inclusion of physically motivated extensions, including assembly bias, velocity bias, conformity, and halo profile rescaling. The best-fit models are found to be remarkably robust across different HOD parametrisations and fitting configurations, with reduced $χ^2$ values clustering tightly around a common value regardless of the model adopted. We exploit these results to generate new AbacusSummit-based galaxy mocks that accurately reproduce the clustering properties of the Flagship~2 H$α$ galaxy population.",
@@ -26,23 +26,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-19T20:23:55Z",
-    "updated_at": "2026-11-19T20:23:55Z",
-    "document_types": [],
+    "submitted_at": "2026-11-19T00:00:00Z",
+    "updated_at": "2026-11-23T12:25:08.536675Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.26785v1",
     "pdf_url": "https://arxiv.org/pdf/2611.26785v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3231724",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.26785",
-        "fetched_at": "2026-11-23T03:45:18.296249Z",
+        "fetched_at": "2026-11-23T15:19:42.386780Z",
         "url": "https://arxiv.org/abs/2611.26785v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3231724",
+        "fetched_at": "2026-11-23T15:19:42.386780Z",
+        "url": "https://inspirehep.net/literature/3231724"
       }
     ],
     "is_demo": false
