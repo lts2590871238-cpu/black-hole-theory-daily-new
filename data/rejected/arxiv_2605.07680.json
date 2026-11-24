@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.07680",
+    "arxiv_id": "2605.07680",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Advance warning of $γ$-ray blazar flares from Fermi-LAT light curves: a strictly causal machine-learning backtest",
+    "abstract_en": "Long-term Fermi-LAT monitoring makes it possible to ask whether a blazar light curve shows signs of an upcoming flare before it becomes obvious in the $γ$-ray emission. We present a strictly causal machine-learning framework for forecasting $γ$-ray blazar flares from 3-d binned LAT light curves. Flare intervals are identified with Bayesian Blocks, and 42 variability features are measured from 365-d trailing windows. We train separate WATCH and TRIGGER models: WATCH predicts whether flare activity will appear within the next 90 d, while TRIGGER predicts whether a new flare onset will occur within the next 45 d. To avoid temporal leakage, all scaling, calibration, threshold selection, and validation use only pre-cutoff data (before MJD 60000). We apply the method to the FSRQ 4FGL J1048.4+7143, using 13 bright blazars as auxiliary training sources. Among logistic regression, polynomial logistic regression, and random forest classifiers, polynomial logistic regression gives the strongest held-out WATCH performance, with ROC AUC = 0.884, average precision = 0.392, and a block-permutation probability $p_{\\rm perm}$ = 0.009. At the selected threshold it recovers 21 of the 21 positive WATCH windows. For TRIGGER, the same model gives AUC = 0.751, but with just nine positive test windows its AP = 0.121 is only about twice the random baseline (0.052), and no reliable pre-onset TRIGGER alert is obtained. The WATCH state appears before both held-out flares, with alerts 4.5 and 2.5 d before onset. These results suggest that the Fermi-LAT light curve of this source contains useful predictive information about its flare build-up during the period considered.",
+    "authors": [
+      "Zahir Shah",
+      "Sikandar Akbar"
+    ],
+    "categories": [
+      "astro-ph.HE"
+    ],
+    "submitted_at": "2026-05-08T12:50:04Z",
+    "updated_at": "2026-11-23T14:34:12Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.07680v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.07680v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.07680",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://arxiv.org/abs/2605.07680v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

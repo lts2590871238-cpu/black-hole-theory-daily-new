@@ -1,0 +1,62 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30187",
+    "arxiv_id": "2611.30187",
+    "arxiv_version": 1,
+    "inspire_id": "3232101",
+    "doi": null,
+    "title_en": "Quantum simulation of low-temperature impurity models",
+    "abstract_en": "Quantum impurity models, which describe a small but strongly-interacting subsystem coupled to a large noninteracting bath, are the computational core of dynamical mean field theory and play an important role in simulating strongly correlated materials. We develop quantum algorithms for efficiently simulating these models at low temperatures and with high precision. For any impurity model on $n$ fermionic modes with fixed impurity size: (1) We give a quantum algorithm that prepares the thermal state at inverse temperature $β$ to precision $δ$ in time $\\mathrm{poly}(n,β,\\log(1/δ))$. This algorithm is the first to achieve both polynomial scaling in the inverse temperature and polylogarithmic scaling in the precision. When the Hamiltonian has an inverse-polynomial spectral gap, our quantum algorithm prepares its ground state to precision $δ$ in time $\\mathrm{poly}(n,\\log(1/δ))$. (2) We further give a quantum algorithm that prepares a purification of the thermal state in time $\\mathrm{poly}(n,β,\\log(1/δ))$. Using this purification, we estimate static and dynamical properties with error $δ$ in time polynomial in $n$ and $β$ and linear in $1/δ$ up to polylogarithmic factors, achieving the Heisenberg scaling. Our algorithms build on quantum Gibbs samplers, which are quantum analogues of Markov chain Monte Carlo methods. By using global jump operators instead of local ones, we avoid the $\\exp(β)$ overhead commonly associated with quantum Gibbs samplers, making them efficient for impurity models even at low temperatures.",
+    "authors": [
+      "Jiaqing Jiang",
+      "Nathan Ju"
+    ],
+    "categories": [
+      "quant-ph",
+      "cond-mat.str-el",
+      "cs.DS"
+    ],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-24T06:48:10.382122Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.30187v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30187v1",
+    "inspire_url": "https://inspirehep.net/literature/3232101",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.30187",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://arxiv.org/abs/2611.30187v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3232101",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232101"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

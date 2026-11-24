@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29583",
+    "arxiv_id": "2611.29583",
+    "arxiv_version": null,
+    "inspire_id": "3232083",
+    "doi": null,
+    "title_en": "Feed-Forward Dimension Control for High-Dimensional Quantum Key Distribution over Time-Varying Airborne Free-Space Links",
+    "abstract_en": "High-dimensional quantum key distribution tolerates more noise than qubit-based protocols, but the dimension that maximizes the secret key depends on turbulence, background light, device imperfections, and block size, all of which change during an airborne or satellite pass. Finite-size security analyses of high-dimensional protocols fix the dimension in advance, and the dimension-adaptive schemes reported so far have been analyzed only asymptotically. Here, a controller sets the dimension, acceptance thresholds, and key length of each block using only public data from earlier blocks. Each block is therefore a standard fixed-length protocol, and composable finite-key security against coherent attacks follows from sequential composition; an inaccurate channel model reduces the key rate but does not weaken security. The controller estimates turbulence from observed error rates, maximizes the expected key under forecast uncertainty, and recalibrates its model online. We evaluate it on a simulated entanglement-based orbital-angular-momentum link between an aircraft and a ground station, using Kolmogorov phase screens and the Hufnagel--Valley turbulence profile. Accounting for forecast uncertainty increases the key by 31%--47% relative to a naive planner. Over night, dawn, daytime, and model-mismatch scenarios, the recalibrated controller retains at least 98.8% of the key obtained with the best fixed dimension for each scenario, while every fixed dimension drops to 73.5% or less in at least one scenario. Running the link's measurement statistics on a superconducting quantum processor shows device errors close to a constant offset; with these errors included, the best daytime dimension changes from eight to four, and the controller adjusts accordingly.",
+    "authors": [
+      "Lemonwala, Murtuza",
+      "Kandel, Laxima Niure"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T06:28:36.097627Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232083",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232083",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232083"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

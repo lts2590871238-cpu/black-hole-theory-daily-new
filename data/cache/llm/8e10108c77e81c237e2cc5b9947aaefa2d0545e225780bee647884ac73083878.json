@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 10,
+    "methodological_rigor": 14,
+    "novelty": 8,
+    "clarity": 8,
+    "metadata_quality": 8,
+    "community_signal": 2,
+    "other": 4
+  },
+  "total_score": 54,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "论文聚焦脉冲星计时阵列中引力波背景各向异性的重建方法，指出在相同信息含量（同一主子空间）下不同基底（像素基与球谐基）的重建结果等价，并讨论截断、正则化与计算代价，属于PTA方法论工作，具备一定的理论深度与方法严谨性信号，值得点击阅读。",
+  "title_zh": "在相同信息含量下跨基底映射引力波背景各向异性的等价性",
+  "abstract_zh": "映射引力波背景（GWB）中的各向异性需要选择一个基底来表示天空强度，例如像素基和球谐基。每种基底都会引入截断——例如像素数目或最大多极矩 l_max——这通常由一种朴素计数论证设定，即把可测量模式数与脉冲星计时阵列（PTA）中独立交叉相关数 N_pair 联系起来。然而，此类截断可能导致重建伪影，因为它们并不反映PTA响应的真实信息含量。增大截断参数取值能更好地覆盖可观测空间，但会暴露约束很差的模式，使反问题病态化并需要正则化。一种自然的方法是通过主映射（由探测器响应（或Fisher）矩阵的主导本征模定义）将重建限制到良测子空间。然而，这些映射并非天空的基本参数化，而是源自某个底层表示——例如像素化或球谐展开。尽管其显式形式依赖于基底选择，但当底层表示足够完备时，它们可以张成\\textit{同一子空间}。本文表明，通过不同基底重建的各向异性图是等价的，只要它们保留相同的信息含量，即张成相同的主子空间。作为示例情形，我们考虑一个PTA构型的玩具模型以及若干GWB各向异性形状：点源、具有确定性各向异性的延展源、统计各向同性背景，以及其汇总统计量——角功率谱。尽管重建是等价的，其计算代价可能不同。最后我们简要评论了地基干涉仪主映射的构造。",
+  "keywords_en": [
+    "pulsar timing array",
+    "gravitational-wave background anisotropy",
+    "spherical harmonic basis",
+    "pixel basis",
+    "principal maps",
+    "Fisher matrix",
+    "regularization",
+    "angular power spectrum"
+  ],
+  "keywords_zh": [
+    "脉冲星计时阵列",
+    "引力波背景各向异性",
+    "球谐基",
+    "像素基",
+    "主映射",
+    "Fisher矩阵",
+    "正则化",
+    "角功率谱"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-24T07:00:35.511034Z"
+}

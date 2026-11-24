@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.28373",
+    "arxiv_id": "2611.28373",
+    "arxiv_version": null,
+    "inspire_id": "3232076",
+    "doi": null,
+    "title_en": "Online Scheduling for Entanglement Distillation: Learning When to Wait",
+    "abstract_en": "Entanglement distillation probabilistically increases the fidelity of entangled pairs at the cost of reducing their number. The outcome of each distillation operation takes time to communicate, during which the entangled pairs decohere while idle in their memories. This raises a dilemma: wait for the outcome before proceeding, or continue optimistically at the risk of needlessly consuming further pairs. We study online distillation scheduling, in which distillation trees are constructed dynamically to maximize the throughput of pairs that meet a required fidelity. A policy decides which pairs to distill together and, for each operation, whether to wait for its outcome. We derive an upper bound on the throughput of every scheduling policy and, by formulating the problem as a Markov decision process, train, with reinforcement learning, a policy that applies to any number of memories. Compared with two baselines that always or never wait, the learned policy delivers as many pairs of the required fidelity as the better one when one of these two extremes is the best choice, and more otherwise.",
+    "authors": [
+      "Promponas, Panagiotis",
+      "Tserkis, Spyros",
+      "Tassiulas, Leandros"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-24T06:13:27.805846Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232076",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232076",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232076"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

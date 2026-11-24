@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 14,
+    "methodological_rigor": 18,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 7,
+    "community_signal": 0,
+    "other": 4
+  },
+  "total_score": 63,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文聚焦LISA随机成分（仪器噪声、银河前景与随机引力波背景）的分离，提出基于Simformer（扩散/流匹配训练）的物理感知仿真推断框架，并系统放松常规简化假设、用约10^4次仿真检验后验覆盖，还引入重要性加权局部化仿真校准检验。方法学信号强、清晰度好，与pta主题（随机引力波背景分离与推断）匹配，值得进一步阅读。",
+  "title_zh": "扩散其假设：面向真实LISA随机成分分离的物理感知仿真推断",
+  "abstract_zh": "对激光干涉空间天线（LISA）所观测的大量源进行同时全局拟合推断，依赖于对其随机成分的精确建模：仪器噪声、银河前景以及天体物理或随机引力波背景（SGWB）。非高斯暂现事件和数据缺口等真实特征对传统基于似然的流程构成挑战，从而为仿真推断（SBI）增强传统分析创造了机会。在此，我们提出一个用于LISA随机成分分离的SBI框架，它建立在Simformer之上——一个通过扩散或流匹配训练、经由物理感知嵌入接收完整时延干涉测量互谱矩阵的transformer。我们在包含强前景和微弱幂律SGWB的模拟11.6天数据集上逐步放松标准简化假设。在不等臂和每链路噪声自由的情况下，这些网络在重要性重加权后与17维MCMC后验相匹配；全互谱将每条链路的光学计量噪声幅度约束到$1\\%$。当对毛刺或大质量黑洞双星暂现事件进行边缘化时，估计误差在暂现事件信噪比达到数百时仍保持平坦，而忽略它们则会严重偏置似然拟合。在时变样条噪声水平、真实毛刺率和最长一天的数据缺口下，后验覆盖率在$\\sim 10^4$次仿真中保持名义或保守。我们通过引入一种新颖的重要性加权局部化仿真校准检验，在给定观测的局部邻域内检验覆盖率。我们发现，在较简单的情形下流匹配比扩散校准略好，并观察到物理感知模板输入带来适度增益。最后，我们概述了这些网络如何能够为LISA全局拟合的噪声块和随机块提供初始化。",
+  "keywords_en": [
+    "LISA",
+    "stochastic gravitational wave background",
+    "simulation-based inference",
+    "component separation",
+    "time-delay interferometry",
+    "diffusion model",
+    "flow matching",
+    "simulation-based calibration"
+  ],
+  "keywords_zh": [
+    "LISA",
+    "随机引力波背景",
+    "仿真推断",
+    "成分分离",
+    "时延干涉测量",
+    "扩散模型",
+    "流匹配",
+    "仿真校准"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-24T07:00:27.742878Z"
+}

@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2605.10928",
+    "arxiv_id": "2605.10928",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1088/1475-7516/2026/11/026",
+    "title_en": "Mitigating residual foregrounds and systematic errors in SKA1-Low AA* EoR observations via Bayesian Gaussian Process Regression",
+    "abstract_en": "The redshifted 21-cm line is an emerging tool in observational cosmology that can serve as a direct probe of the intergalactic medium throughout the cosmic timeline. However, the observation of the cosmological 21-cm signal is extremely challenging in practice, regardless of the scale of interest and redshift, due to the presence of astrophysical foregrounds and residual systematic errors. Machine-learning-based Gaussian process regression (ML-GPR) has proven to be the most effective strategy for signal separation in LOFAR and NenuFAR observations to measure the 21-cm signal power spectrum from the Cosmic Dawn (CD) and Epoch of Reionization (EoR). In this work, we extend this framework to synthetic CD/EoR SKA1-Low observations to assess its robustness in mitigating residual foregrounds against instrumental and environmental systematic effects. We use our developed end-to-end realistic simulation pipeline (21cmE2E) for SKA-Low observations. Our 4-hour tracking simulation includes extragalactic point sources, the AA* telescope configuration, primary beam response, and residual systematics. The modelled errors incorporate antenna-based gain calibration errors, ionospheric phase errors, partial de-mixing of the out-of-field sources, and instrumental noise for 1000 hours of deep integration time. This work is one of the first demonstrations of the efficacy of the ML-GPR method in a realistic observing scenario. We compare different Bayesian GPR frameworks to assess their ability to suppress residual foreground contamination while minimising signal loss and providing reliable uncertainty estimates. Our results demonstrate that even in a realistic scenario where observations have a combination of residual systematics, ML-GPR can recover the 21-cm signal robustly within the $2σ$ confidence interval across almost the entire range of k-modes sampled.",
+    "authors": [
+      "Samit Kumar Pal",
+      "Abhirup Datta",
+      "Aishrila Mazumder",
+      "Anshuman Tripathi"
+    ],
+    "categories": [
+      "astro-ph.CO"
+    ],
+    "submitted_at": "2026-05-11T17:57:39Z",
+    "updated_at": "2026-11-22T15:24:10Z",
+    "document_types": [],
+    "journal_ref": "JCAP11(2026)026",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2605.10928v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.10928v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2605.10928",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://arxiv.org/abs/2605.10928v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

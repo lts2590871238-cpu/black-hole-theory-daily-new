@@ -1,0 +1,68 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.28882",
+    "arxiv_id": "2611.28882",
+    "arxiv_version": 1,
+    "inspire_id": "3232080",
+    "doi": null,
+    "title_en": "Refined, Reliable and Reproducible: Algorithmic Analysis and Reimplementation of the Popcorn Void Finder",
+    "abstract_en": "Cosmic voids are vast underdense regions of the Universe that encode valuable information about its large-scale structure and evolution. By extending spherical voids into overlapping sphere structures, the Popcorn Void Finder demonstrated an improved statistical characterization of cosmic void populations. However, its origin as a research prototype progressively hindered its maintainability and extensibility. Moreover, post-publication algorithmic modifications have not been systematically evaluated, leaving their statistical and computational consequences insufficiently characterized. In this work, we present a comprehensive reimplementation of the Popcorn Void Finder, prioritizing algorithmic transparency, maintainability, and reproducibility. We document the complete identification procedure, revisit the original algorithmic choices, and evaluate their statistical and computational consequences. Comparisons between implementations revealed a significant change in the behavior of the Void Size Function, which is now characterized by a power-law regime transitioning to a Schechter-like distribution. These changes not only provide a better characterization of void sizes, but enable a new and more robust method to the determination of the shot-noise dominated regime, without implicit dependencies on internal finder parameters present in previous works. Performance benchmarks demonstrate a 1.62x speedup in spherical void identification and a substantial improvement in overlap-removal throughput. We determined the Popcorn algorithm to be negatively affected by load imbalance, and found a speedup of 63x in a tested configuration with a newly introduced early growth termination criterion. These results establish a more maintainable and reproducible foundation for popcorn void identification, while clarifying the statistical and computational trade-offs that govern its performance.",
+    "authors": [
+      "Alvaro Roy Schachner",
+      "Dante Javier Paz",
+      "Juan Antonio Rico Gallego",
+      "Carlos Mauricio Correa",
+      "Andrés Nicolás Ruiz",
+      "Sebastián Rogelio Gualpa",
+      "Juan Bautista Cabral"
+    ],
+    "categories": [
+      "astro-ph.IM",
+      "astro-ph.CO",
+      "cs.PF",
+      "cs.SE"
+    ],
+    "submitted_at": "2026-11-21T00:00:00Z",
+    "updated_at": "2026-11-24T06:27:39.039044Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.28882v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.28882v1",
+    "inspire_url": "https://inspirehep.net/literature/3232080",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.28882",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://arxiv.org/abs/2611.28882v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3232080",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232080"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29363",
+    "arxiv_id": "2611.29363",
+    "arxiv_version": 1,
+    "inspire_id": "3232095",
+    "doi": null,
+    "title_en": "Is the learner or the summary the limit? Auditing machine-learning energy reconstruction for air-shower arrays on KASCADE and GRAPES-3",
+    "abstract_en": "Machine-learning energy estimators for cosmic-ray arrays are usually trained on a few fitted shower parameters, not station signals. When their resolution stops improving, standard diagnostics cannot say whether a better model would help or the summary has run out of information. We use a five-step audit that compares trained models with a learner-independent estimate of the lowest error the summary allows (its squared-loss Bayes risk, or floor), tests which inputs add information and flags inputs merely computed from the fit. We apply it to public KASCADE simulations with three hadronic-interaction models (QGSJET-II-04, EPOS-LHC and SIBYLL-2.3d), to 13,848,509 measured KASCADE events and to simulated GRAPES-3 events. Within known energy decades below 10^16 eV, gradient boosting on nine reconstructed features is within 2.2% of the estimated floor under every estimator setting, so more capacity is not expected to gain more than about 2%. The floor is an estimate, accurate to about 1% in a semi-synthetic benchmark with intervals that under-cover, and not a bound on the true Bayes risk. Replacing reconstructed by true particle numbers removes 70 to 72% of the error variance below 10^15 eV and 24 to 26% between 10^16 and 10^17 eV on all three models, yet simulated station signals close about a tenth of that gap. On GRAPES-3, networks given images rendered from the fit do no better than the fit. In measured data, the mean muon size at fixed electron size lies within every model's proton-to-iron bracket and a label-free probe finds the muon channel used as in simulation; neither fixes the energy scale. Energy-labelled results are simulated.",
+    "authors": [
+      "Mugdha Raje Ashiya",
+      "Samarjeet Malik"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM",
+      "cs.LG",
+      "hep-ex",
+      "physics.data-an"
+    ],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T06:36:02.056756Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.29363v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.29363v1",
+    "inspire_url": "https://inspirehep.net/literature/3232095",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.29363",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://arxiv.org/abs/2611.29363v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3232095",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232095"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

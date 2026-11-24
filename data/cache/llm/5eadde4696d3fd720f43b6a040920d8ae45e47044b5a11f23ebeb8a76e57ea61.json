@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 2,
+    "methodological_rigor": 12,
+    "novelty": 8,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 1
+  },
+  "total_score": 36,
+  "reject_reason_zh": "本文讨论超高能伽马射线大气簇射的方向重建与到达时间似然建模，属于天体粒子物理/实验数据分析，与引力波脉冲星计时阵列、黑洞热力学、全息凝聚态、引力理论基础、度规仿射引力、帕拉蒂尼引力或修改引力等主题均无关。first_stage 因“timing residual”字样误判为 pta，但实际并非脉冲星计时。",
+  "selection_reason_zh": "",
+  "title_zh": "用于超高能伽马射线大气簇射方向重建的对数正态时间似然",
+  "abstract_zh": "超高能 $\\gamma$ 射线观测为银河系 PeVatron 提供了直接探测手段。将测量扩展到多 PeV 能量需要在大横向距离上刻画广延大气簇射，此时次级粒子的到达时间分布变得宽阔且强烈不对称。常规的方向重建方法将簇射锋面近似为确定性曲面，并最小化时间残差的 $\\chi^2$ 函数。由于这隐含假设了对称的高斯误差，远轴时间信息利用不足。\\textsc{CORSIKA} 模拟表明，在给定横向距离处，簇射平面内 $\\gamma$ 诱导次级粒子的到达时间分布呈正偏斜，并且紧密符合对数正态函数。利用这一性质，我们发展了一种基于似然的方向重建方法，直接对经验到达时间分布及其径向依赖建模，同时考虑多个粒子触发同一探测器单元的情况。应用于模拟的 $\\gamma$ 诱导大气簇射时，对数正态似然相较圆锥与抛物波前拟合一致地改善了角分辨率，且对于横跨大横向范围的高能事件相对增益最大。我们还表明，对各探测器单元进行独立读出比将其信号合并为单一站点级测量能获得更好的角分辨率。",
+  "keywords_en": [
+    "ultra-high-energy gamma rays",
+    "extensive air showers",
+    "direction reconstruction",
+    "log-normal likelihood",
+    "arrival-time distribution",
+    "CORSIKA simulation",
+    "angular resolution"
+  ],
+  "keywords_zh": [
+    "超高能伽马射线",
+    "广延大气簇射",
+    "方向重建",
+    "对数正态似然",
+    "到达时间分布",
+    "CORSIKA 模拟",
+    "角分辨率"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-24T07:00:31.716329Z"
+}

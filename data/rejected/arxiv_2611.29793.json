@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29793",
+    "arxiv_id": "2611.29793",
+    "arxiv_version": null,
+    "inspire_id": "3232097",
+    "doi": null,
+    "title_en": "When Does Fine-Tuning Beat Prompting for Qiskit-to-CUDA-Q Translation? An Execution-Verified Study",
+    "abstract_en": "Moving quantum code from Qiskit to NVIDIA CUDA-Q is a practical adoption cost that language models are starting to automate. We ask whether a small open model can learn this translation, and how to measure it so that the result can be trusted. Both programs can be executed and their state vectors compared, so a kernel counts as correct only if it prepares the same state as the Qiskit reference (fidelity >= 0.999), with no text matching and no LLM judge. We build a 640-task benchmark with three test sets (larger circuits, an unseen circuit family, an unseen Qiskit coding style) and a QuantumKatas regression probe, and we test the evaluator before training. Measurement counts miss every phase-only error; a surface rule-based translator solves two of three original splits (text substitution); a converter that executes the Qiskit input and maps the circuit solves all 640 tasks -- so the benchmark measures source-level translation, not whether a circuit can be ported after running it. No base model emits a valid CUDA-Q kernel zero-shot. On Nemotron 3 Nano 4B, LoRA reaches 83.9%, tying a 4-shot prompt (83.1%), but generalizes worse to unseen style (48.5% vs. 65.5%) and cuts QuantumKatas from 23.8% to 8.9%; on Qwen2.5-Coder 7B, LoRA beats the prompt overall (92.0% vs. 82.8%) and on unseen style (78.5% vs. 65.0%), and on the 1.5B model as well, so whether fine-tuning pays off depends on the base model, while the Qiskit regression appears in all three. Mixing two replay formats is the best mitigation trade-off (84.4% translation, Katas 21.5%). On 48 parametric functions that must become kernels with arguments -- where executing the input cannot yield a parametric kernel -- models reach up to 83%; on 27 real QED-C kernels, every model scores 0%. Language models can do source-level translation of simple parametric code, but not yet of real programs.",
+    "authors": [
+      "Appel, Ana Paula"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T06:40:40.733877Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232097",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232097",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232097"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

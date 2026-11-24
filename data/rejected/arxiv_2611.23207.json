@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.23207",
     "arxiv_id": "2611.23207",
     "arxiv_version": 1,
-    "inspire_id": "3230676",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Local interference algorithms for observables in large random circuits",
     "abstract_en": "In quantum dynamics, it is generally believed that interference effects lead to a sign problem for classical Monte Carlo sampling methods, rendering sampling ineffective. In this paper we show that this is generically not the case for the task of simulating the evolution of observables in random instances of circuit dynamics. Specifically, we consider two examples of observables which give large signals despite the randomness of the dynamics: first order out-of-time-ordered correlators (OTOCs) in unstructured random circuits without conservation laws and time-ordered charge-charge correlators (TOCs) in particle number-preserving random circuits. We show that these observables can be approximated by classical stochastic processes and that these approximations can be systematically improved with a series expansion that incorporates coherent corrections associated with clusters of gates. We design and implement algorithms that combine Monte Carlo sampling and tensor network methods to approximate the series. We observe numerically that the computational complexity of approximating TOCs and OTOCs scales polynomially in the circuit size and in the target precision. We study the accuracy of these algorithms by directly mapping their ensemble-averaged errors to partition functions of replica statistical models, allowing for perturbative analysis and numerics in $1$d brickwork geometries. Our theoretical analysis explains the empirical observation of polynomial complexity of these algorithms and is consistent with polynomial complexity extending to arbitrarily small precision and to the thermodynamic limit.",
@@ -19,31 +19,23 @@
       "quant-ph",
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-11-17T00:00:00Z",
-    "updated_at": "2026-11-19T10:34:05.224204Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-17T18:48:27Z",
+    "updated_at": "2026-11-17T18:48:27Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.23207v1",
     "pdf_url": "https://arxiv.org/pdf/2611.23207v1",
-    "inspire_url": "https://inspirehep.net/literature/3230676",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.23207",
-        "fetched_at": "2026-11-23T15:19:42.386780Z",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
         "url": "https://arxiv.org/abs/2611.23207v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3230676",
-        "fetched_at": "2026-11-23T15:19:42.386780Z",
-        "url": "https://inspirehep.net/literature/3230676"
       }
     ],
     "is_demo": false

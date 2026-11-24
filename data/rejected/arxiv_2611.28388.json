@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.28388",
+    "arxiv_id": "2611.28388",
+    "arxiv_version": null,
+    "inspire_id": "3232077",
+    "doi": null,
+    "title_en": "Verification and Evaluation of A Comprehensive Quantum Simulation Compiler",
+    "abstract_en": "Hamiltonian simulation is a central application of quantum computing, yet most existing compilers offer no machine-checked guarantee that the circuits they produce approximate the intended evolution. The previous QBlue compiler verifies a Hamiltonian simulation compiler containing only Trotter-based algorithms. It takes a Hamiltonian written over Pauli strings, a simulation time, and an error bound, and produces a circuit or analog schedule that is proven, in the Rocq proof assistant, to approximate the ideal time evolution within that bound and proves a single end-to-end error bound that composes the errors of the individual stages; the compiler uses it to select, by resource estimation, the cheapest algorithm that meets the user's bound. This paper advances the verification efforts with two further steps. First, we extend QBlue to $\\textsf{QBlue}_{\\texttt{BE}}$ by verifying another important compilation method for Hamiltonian simulation: block-encoding-based (BE-based) algorithms. Second, we empirically evaluate 279 Hamiltonian simulation programs against the state-of-the-art BE-based compiler, PennyLane. For many programs, our compiler shows a $94\\%$ gate reduction compared to PennyLane. Additionally, we also discover issues and bugs in PennyLane. We also compare Trotter- and BE-based algorithms, providing a practical comparison for the long-standing debate over which algorithms perform better. Our results surprisingly show that Trotter-based algorithms may gain a practical advantage, even though BE algorithms have a theoretical advantage.",
+    "authors": [
+      "Joshi, Bhuwan",
+      "Tagba, Zoukarneini Difaizi",
+      "Chong, Zhi Xiang",
+      "Li, Liyi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-24T06:14:03.118716Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232077",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232077",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://inspirehep.net/literature/3232077"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

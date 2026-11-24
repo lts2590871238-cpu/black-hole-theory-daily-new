@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2610.27069",
+    "arxiv_id": "2610.27069",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Deglobalising the fit: how to search for physics beyond vacuum General Relativity in LISA catalogues",
+    "abstract_en": "The Laser Interferometer Space Antenna will observe up to $\\sim 10^{7}$ overlapping signals, which have to be characterised simultaneously with a \\emph{global} fit. This is a challenge for model comparison since rerunning the global fit for every model of interest, including deviations from vacuum General Relativity, is computationally demanding. An alternative is a two-step post-processing strategy: a first global fit with vacuum models only, after which selected target sources are reanalysed under a different model with all other sources subtracted. We show that in this strategy a beyond-vacuum effect in a target source can be partly absorbed by the overlapping \\textit{nuisance} sources in the first fit, subtracted with them, and never reach the reanalysis. In the linear-signal approximation, the loss in reported detection significance is captured by a single number, the \\emph{masking ratio} $\\mathcal{R}\\in[0,1]$: a deviation the global fit would detect at $n_σ$ is reported by post-processing at $\\mathcal{R}\\,n_σ$, and, for a single beyond-vacuum parameter, bounds in null tests are reported too tight by the same factor. We show how to compute $\\mathcal{R}$ from the posterior samples of the vacuum global fit, and give an algorithm that ranks the nuisance sources by how much of the effect each can absorb, so that only the most correlated ones need to be refitted with the target. We validate our method with full Markov-chain Monte Carlo inference on a toy model of 21 overlapping chirping sinusoids, one of which carries a small non-linear chirp that represents the missed physics. Using our post-processing recipe, we are able to recover the global-fit result on the beyond-vacuum parameter to within $0.15σ$ by refitting only 4 of the 20 nuisance sources. This method can serve as a basis for tests of General Relativity in realistic LISA mock datasets.",
+    "authors": [
+      "Francisco Duque",
+      "Jonathan Gair"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM",
+      "physics.data-an"
+    ],
+    "submitted_at": "2026-10-19T18:00:02Z",
+    "updated_at": "2026-11-22T18:24:45Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2610.27069v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.27069v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2610.27069",
+        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "url": "https://arxiv.org/abs/2610.27069v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

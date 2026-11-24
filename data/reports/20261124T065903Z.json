@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-11-24T06:59:03.264496Z",
+  "completed_at": "2026-11-24T07:02:54.609483Z",
+  "status": "degraded",
+  "fetched_arxiv": 1005,
+  "fetched_inspire": 800,
+  "normalized": 1805,
+  "deduplicated": 1513,
+  "candidates": 104,
+  "selected": 36,
+  "new_selected": 25,
+  "pending_candidates": 45,
+  "review_queue": 2,
+  "rejected": 1414,
+  "llm_calls": 38,
+  "cached_decisions": 5,
+  "errors": [
+    "arxiv:2607.19755: 评分或翻译失败：中文摘要疑似被压缩或省略：至少需要 315 个非空白字符",
+    "arxiv:2608.17215: 评分或翻译失败：1 validation error for LLMDecisionPayload\n  Invalid JSON: invalid escape at line 1 column 467 [type=json_invalid, input_value='{\"relevant\": true, \"prim...anslation_warning\": \"\"}', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  ]
+}
