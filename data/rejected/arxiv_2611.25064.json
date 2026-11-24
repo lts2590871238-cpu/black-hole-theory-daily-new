@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.25064",
     "arxiv_id": "2611.25064",
     "arxiv_version": 1,
-    "inspire_id": "3231069",
+    "inspire_id": null,
     "doi": null,
     "title_en": "Certified Discovery of Quantum Phase Diagrams",
     "abstract_en": "Can a machine provably discover new quantum phases of matter? We show that the answer is yes under physically motivated assumptions. For any smooth family of geometrically local Hamiltonians, we construct an efficient quantum algorithm that outputs the phase diagram to prescribed accuracy and provides a verifiable certificate for every transition it reports. The algorithm takes as input only a classical description of the family together with unverified preparations of reference ground states; no order parameter, symmetry-breaking pattern, or training data are supplied. It succeeds provided that at least one preparation is correct in each gapped region of parameter space. The algorithm explores parameter space by quasi-adiabatically or adiabatically transporting each reference state, detecting the approach of a phase boundary by tapping the transported state with a frequency-filtered local probe: excitations created by the probe witness the closing of the energy gap. We prove that the gap closing for continuous phase transitions can always be detected using the frequency-filtered gradient of the Hamiltonian. The gap-detecting measurement is gentle, so when the ground state is unique a single reusable copy of each reference ground state supports the full exploration (for degenerate ground states, polynomially many copies suffice). The quantum algorithm runs in polynomial time at inverse-polynomial gap resolution. We also give a classical algorithm that runs in quasipolynomial time at constant gap resolution. Numerical experiments demonstrate how our algorithm accurately determines the phase structure of several model quantum systems.",
@@ -19,31 +19,23 @@
       "cond-mat.str-el",
       "math-ph"
     ],
-    "submitted_at": "2026-11-18T00:00:00Z",
-    "updated_at": "2026-11-21T05:55:54.638667Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-18T19:09:17Z",
+    "updated_at": "2026-11-18T19:09:17Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.25064v1",
     "pdf_url": "https://arxiv.org/pdf/2611.25064v1",
-    "inspire_url": "https://inspirehep.net/literature/3231069",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.25064",
-        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
         "url": "https://arxiv.org/abs/2611.25064v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3231069",
-        "fetched_at": "2026-11-24T06:59:03.264496Z",
-        "url": "https://inspirehep.net/literature/3231069"
       }
     ],
     "is_demo": false

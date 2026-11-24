@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.28181",
+    "arxiv_id": "2611.28181",
+    "arxiv_version": null,
+    "inspire_id": "3232196",
+    "doi": null,
+    "title_en": "Adaptive Multiset Tree Tensor Networks for Large-Scale Exciton Dynamics",
+    "abstract_en": "Electronic excitations coupled to vibrational environments play an important role in charge and energy transport in molecular materials. Multiset tree tensor networks provide an efficient ansatz for the dynamics of such systems by allowing different electronic configurations to develop independent environmental correlations. However, typical implementations use fixed bond dimensions, significantly limiting the accessible system size and hence their predictive capabilities for large scale systems. To overcome these limitations, we introduce the adaptive multiset tree tensor network (AMTTN) approach, in which the bond dimensions of each configuration are adapted independently using a local energy variance based expansion scheme. Additionally, configurations can be temporarily frozen whenever they are predicted to remain weakly populated throughout a timestep. For the one-dimensional Holstein model, AMTTN reproduces converged exciton dynamics one to two orders of magnitude faster than fixed bond dimension multiset methods, with the dominant cost determined by the dynamically active region with only weak residual dependence on the lattice size. For a P3HT:PCBM heterojunction, it enables simulations of a model containing 52 oligothiophene units avoiding finite size effects occurring on dynamically relevant time scales, which lead to the previously studied 13 unit model substantially overestimating long time populations of bound charge separated states. Our results show that AMTTN provides a practical method for obtaining converged quantum dynamics simulations of challenging excitonic and non-adiabatic systems for which conventional multiset approaches are prohibitively expensive.",
+    "authors": [
+      "Lindoy, Lachlan P.",
+      "Rungger, Ivan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-24T12:24:26.803505Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232196",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232196",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232196"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29689",
+    "arxiv_id": "2611.29689",
+    "arxiv_version": null,
+    "inspire_id": "3232135",
+    "doi": null,
+    "title_en": "Local redundancies are necessary for long-lived memories in finite spatial dimensions",
+    "abstract_en": "We prove a no-go theorem for exponentially long-lived thermal memories, based on the structure of redundancies among Hamiltonian terms. For local stabilizer Hamiltonians in finite spatial dimensions, the absence of local redundancies---relations in which the product of a small number of Hamiltonian terms equals the identity---is known to preclude bulk thermodynamic phase transitions. Yet glassy dynamics can still sustain long-lived memories even without a thermodynamic transition, as demonstrated by LDPC codes on non-Euclidean graphs. A longstanding question, exemplified by Haah's cubic code, is whether such a mechanism can also support passive (quantum) memory in finite-dimensional Euclidean systems. We show that this route fails for local stabilizer Hamiltonians without local redundancies: at any constant nonzero temperature, local heat-bath dynamics is fast mixing, with $O(N)$ mixing time, where $N$ is the number of qubits. We establish this by proving a strong decay of correlations property of the thermal Gibbs state. We further prove rapid mixing with $O(\\log N)$ mixing time under a stronger condition on induced redundancies in suitably chosen regions. This stronger result applies to several well-studied examples, including Haah's cubic code and its generalizations, as well as three-dimensional layer codes. Our work identifies redundancy structure as a key property for understanding thermal memories.",
+    "authors": [
+      "Yin, Chao",
+      "Li, Yaodong",
+      "Placke, Benedikt",
+      "Khemani, Vedika"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T11:36:59.369694Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232135",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232135",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232135"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "high_weight_hits": [
+      "thermodynamic phase transition"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": false,
+    "primary_topic": "holography_condensed_matter",
+    "secondary_topics": [
+      "general_relativity_foundations"
+    ],
+    "scores": {
+      "theory_depth": 8,
+      "methodological_rigor": 14,
+      "novelty": 11,
+      "clarity": 9,
+      "metadata_quality": 4,
+      "community_signal": 0,
+      "other": 2
+    },
+    "total_score": 48,
+    "reject_reason_zh": "该论文研究的是凝聚态量子信息背景下，有限维局域稳定子哈密顿量的热记忆与混合时间问题，不涉及引力、时空、联络、变分原理或修正引力理论。首阶段匹配仅为“热力学相变”的词语重叠，属于误匹配；与索引的引力/黑洞/PTA/全息主题相关性不足。",
+    "selection_reason_zh": "",
+    "title_zh": "有限空间维数下长寿记忆需要局域冗余",
+    "abstract_zh": "我们基于哈密顿量各项之间冗余结构，证明了一个关于指数级长寿热记忆的不可行定理。对于有限空间维数下的局域稳定子哈密顿量，已知局域冗余的缺失——即少数哈密顿量项的乘积等于恒等式的这种关系不存在——会排除体热力学相变。然而，即使在无热力学相变的情况下，玻璃态动力学仍可维持长寿记忆，这已由非欧几里得图上的LDPC码所证明。一个长期存在的问题，以Haah立方码为例，是这种机制是否也能在有限维欧几里得系统中支持被动（量子）记忆。我们证明，对于无局域冗余的局域稳定子哈密顿量，这条路径是行不通的：在任意恒定的非零温度下，局域热浴动力学都是快速混合的，混合时间为$O(N)$，其中$N$是量子比特数。我们通过证明热吉布斯态的相关性具有强衰减性质来确立这一点。我们进一步证明，在适当选择的区域中关于诱导冗余的更强条件下，可实现混合时间为$O(\\log N)$的快速混合。这一更强结果适用于若干被充分研究的例子，包括Haah立方码及其推广，以及三维层码。我们的工作将冗余结构确定为理解热记忆的关键性质。",
+    "keywords_en": [
+      "thermal memory",
+      "stabilizer Hamiltonians",
+      "local redundancies",
+      "mixing time",
+      "Haah's cubic code",
+      "LDPC codes",
+      "Gibbs state correlations"
+    ],
+    "keywords_zh": [
+      "热记忆",
+      "稳定子哈密顿量",
+      "局域冗余",
+      "混合时间",
+      "Haah立方码",
+      "LDPC码",
+      "吉布斯态相关性"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-11-13.1",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-24T15:16:13.867436Z"
+  },
+  "published_at": "2026-11-24T15:16:13.867883Z"
+}

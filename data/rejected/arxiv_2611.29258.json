@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29258",
+    "arxiv_id": "2611.29258",
+    "arxiv_version": null,
+    "inspire_id": "3232271",
+    "doi": null,
+    "title_en": "Where to Hide the Traps: Robust Placement in Verifiable Blind Quantum Computation",
+    "abstract_en": "Trap-based verification of blind quantum computation hides test qubits among the positions of a measurement pattern, and existing protocols choose the trap configuration without regard to the delegated computation. We model trap placement as a zero-sum game between a client, who chooses a trap distribution, and a server, who chooses where to apply a Pauli deviation, with a damage profile $w$ and a per-trap detection constant $c$. Since the client cannot know how damage from several positions combines, we solve the game for all monotone subadditive damage functions consistent with $w$ at once. In a single round, placing traps in proportion to $w$ guarantees soundness error $1-c/\\|w\\|_1$ and is optimal up to a factor $1+\\max_iw_i$, while the optimistic solution can fail completely. Over $T$ test rounds, the error decays exponentially against a server that repeats the same deviation, but a general server can keep it at $Θ(\\|w\\|_1/(cT))$, and against such servers the damage-weighted placement is exactly optimal. Damage profiles follow from the flow of the pattern: for brickwork patterns with $m=4h+1$ columns, only $(2h+1)^2$ positions can affect a decision qubit, whatever the width. With $k$ traps per round, placing them on this set reduces the number of test rounds by the same factor as for a single trap; with unrestricted trap sets and flat damage we recover the known optimality of fractional coloring. Finally, trap statistics certify the aggregate damage with a number of rounds independent of the number of positions $N$, whereas locating the damage requires $Ω(Nε^{-2}\\logδ^{-1})$ rounds.",
+    "authors": [
+      "Mohamed, Noureldin",
+      "Al-Kuwari, Saif"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T11:35:59.493269Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232271",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232271",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232271"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:1928a02dd0172cb1f2b1c49d",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3232490",
+    "doi": null,
+    "title_en": "Circuit cutting, teleportation, and entanglement distillation for modular quantum computing",
+    "abstract_en": "Near-term quantum processors are constrained by noise, finite coherence, and limited connectivity, so circuits of practical interest often cannot be executed monolithically. Two complementary scale-out routes are therefore required: \\textit{software} decomposition via circuit cutting, and \\textit{architectural} modularisation via entanglement and teleportation. This thesis develops a unified view in which non-locality is treated as an explicitly costed resource, enabling direct comparison of these routes through the overheads they induce.First, wire cutting is made cheaper by tailoring the cut model to cut-local structure. An eigenbasis-aligned dephasing-channel quasiprobability decomposition with tunable strength enables a controlled bias-variance trade-off, and a decision rule selects admissible parameters from minimal tomography in a rotated Pauli basis matched to the measured observable, reverting to an unbiased identity cut when required. State-agnostic heuristics then prioritise low-entanglement cut locations, with measurement-only estimators (tomography or classical shadows) used to predict shot savings from cut-local purity.Second, teleportation-assisted cutting is analysed under realistic interconnect noise. Modelling resource states as Bell-diagonal mixtures yields a sampling overhead that captures the quasiprobabilistic overhead induced by imperfect entanglement. A central outcome is that this sampling overhead depends not only on Bell-state fidelity but also on the \\textit{orientation} of Bell-diagonal noise, so identical fidelities can correspond to materially different execution costs under the same operational constraints.Third, the cost of improving noisy links is quantified by treating entanglement distillation as link manufacturing. Yield-aware manufacturing overheads are introduced and composed with the sampling overhead to obtain end-to-end overhead metrics across single- and multi-round strategies (including parallel recurrence trees and sequential pumping) for Werner and Bell-diagonal families. The resulting comparisons show that fidelity improvements can be outweighed by reduced yield, so distillation is operationally beneficial only in specific regimes that are identified by these composed costs.Finally, distillation primitives are optimised by relaxing the standard symmetry assumption. A no-advantage result is established within a stabiliser-closed regime, while beyond this deliberately asymmetric two-qubit gate choices under heterogeneous input noisy resources are shown to improve the quality-yield trade-off, shifting manufacturing overheads that feed into teleportation-assisted execution.Overall, the thesis develops complementary methods and overhead models spanning cut placement, noisy interconnect execution, and link manufacturing, showing that in the settings studied here, modular quantum computing strategies must be judged by their combined execution and link-preparation costs rather than by resource-state fidelity alone.Date of AwardDec 2026Original languageEnglishAwarding InstitutionQueen's University BelfastSponsorsNorthern Ireland Department for the EconomySupervisorJohn McAllister (Supervisor)",
+    "authors": [
+      "Hart, Michael"
+    ],
+    "categories": [],
+    "submitted_at": "2026-12-01T00:00:00Z",
+    "updated_at": "2026-11-24T13:44:53.879812Z",
+    "document_types": [
+      "thesis"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "2026"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232490",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232490",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232490"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

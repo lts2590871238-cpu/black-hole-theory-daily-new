@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29845",
+    "arxiv_id": "2611.29845",
+    "arxiv_version": null,
+    "inspire_id": "3232363",
+    "doi": null,
+    "title_en": "Quantum-Memory Forensics for Tampered Quantum Seals: Resource-Dependent Sample Gains",
+    "abstract_en": "Quantum seals reveal that an object was disturbed, but not where, with which tool, or when the tool changed. We study quantum-memory forensics for sealed items returning through an untrusted network where one tool opens many. Each seal cell is half of a Bell pair whose partner the verifier keeps in a protected quantum memory, a secret Pauli frame turns any attack into a Pauli channel, and a three-tier report localizes the tampering, learns a hidden-parity fingerprint of the tool and detects a tool switch in arrival order, not necessarily in attack order. Attribution concerns attackers who do not erase that fingerprint, which a random Pauli layer would do cheaply. Each result is stated within one of four verifier classes. For per-unit verifiers, which never couple two seal units and hold no untouched reference, the sample separation is asymptotically exponential, by reduction from a known lower bound for one parity of strength up to 1/3. On ten tampered cells it is proved to be at least \\qnProvedUniformMin-fold against non-adaptive stabilizer probes and observed in simulation at \\qnEoneRatioFine-fold. Against an implemented self-referencing strategy the simulated gain is about twice the inverse squared strength. The value also depends on the attack: destroying the untouched cells makes the reference necessary, whereas copying errors exposes the fingerprint to reference-free probes. We derive the vault's qubit inventory and simulate a seal requirement curve: ten times more seal noise lengthens the seal's lifetime \\qnSealLifeGainFive-fold at \\qnSealRhoFive times the attribution cost at $r=10$.",
+    "authors": [
+      "Jeong, Jaeyun",
+      "Wang, Zehua",
+      "Tightiz, Lilia",
+      "Park, Ki-Woong",
+      "Leung, Victor C.M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-24T11:37:34.122772Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232363",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232363",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232363"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

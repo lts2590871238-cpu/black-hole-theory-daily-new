@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29631",
+    "arxiv_id": "2611.29631",
+    "arxiv_version": null,
+    "inspire_id": "3232347",
+    "doi": null,
+    "title_en": "Direct quantum simulation of compressible Navier-Stokes flow via finite homotopy linearisation",
+    "abstract_en": "We develop a direct quantum simulation algorithm for finite homotopy approximations to the non-isothermal compressible Navier-Stokes equations. A primitive-variable formulation gives polynomial residuals in the fields and their spatial and time derivatives, including density-weighted time derivatives. On a periodic grid, applying each spatial stencil uniformly to every factor in a shifted product preserves the dynamics of the finite homotopy hierarchy in an affine linearisation. Because each deformation equation depends only on lower homotopy orders, the lifted generator matrix is strictly block lower-triangular and hence nilpotent. The resulting finite-polynomial solution evaluates the final state directly without time-stepping error, while explicit short-time convergence conditions bound the homotopy truncation error on a fixed grid. In two-dimensional Taylor-Green flow, initial pressure balance removes the leading longitudinal acceleration and delays the onset of dilatational kinetic energy from quadratic to quartic in time. At Mach numbers 0.2 and 0.4, the fifth-order hierarchy reproduces viscous dissipation over a longer interval than pressure-dilatation at the same relative tolerance. We identify auxiliary variables representing the same evolving product, compile the finite-polynomial evolution into logical quantum circuits, and recover a signed velocity Fourier mode via Hadamard interference. Together, the Taylor-Green energy budgets quantify the accuracy windows of each homotopy order, while coarse-grid circuits verify the signed readout and measure gate counts. For higher-order evolution on finer grids, merging coincident stencil terms and combining block-encoded products along strictly increasing homotopy-order paths substantially reduce the predicted normalisation cost.",
+    "authors": [
+      "Tan, Ming-Yang",
+      "Guo, Guo-Ping",
+      "Chen, Zhao-Yun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T11:36:48.510459Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232347",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232347",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232347"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

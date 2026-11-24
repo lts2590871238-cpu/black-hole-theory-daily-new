@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29648",
+    "arxiv_id": "2611.29648",
+    "arxiv_version": null,
+    "inspire_id": "3232325",
+    "doi": null,
+    "title_en": "Controlled Continuous-Time Quantum Walks for Power Grid Analysis under N-x Contingencies",
+    "abstract_en": "The combinatorial growth of network configurations under N-x contingencies presents significant computational challenges for power system analysis. In this work, we introduce a quantum algorithm based on Controlled Continuous-Time Quantum Walks (CCTQWs) that evolves a quantum walker conditioned on a contingency register held in a uniform superposition of all x-line outage configurations representing the contingency scenarios. The proposed framework encodes transmission line availability in a quantum register and employs controlled Hamiltonian evolution to account for topology changes induced by contingencies. We develop a gate-based implementation using Trotter-Suzuki product formulas and investigate the associated approximation errors and computational requirements. As a demonstration of the proposed methodology, we introduce a contingency-averaged occupation centrality measure derived from quantum-walk measurement statistics. Numerical experiments on an 8-bus power network under N-2 contingencies demonstrate the implementation of the algorithm and characterize the convergence of the resulting centrality estimates with respect to the observation window, sampling and Trotter steps. Comparison with established classical centrality measures shows a qualitatively consistent characterization of network structure, particularly in identifying the most central nodes. The proposed framework establishes a methodological foundation for quantum-walk-based analysis of power networks under contingencies, providing a starting point for future investigations of quantum algorithms for power system security assessment.",
+    "authors": [
+      "Jayakody, Mahesh N.",
+      "Kara, Ruben",
+      "Hartmann, Carsten",
+      "Benigni, Andrea"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T11:36:50.517315Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232325",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232325",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232325"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

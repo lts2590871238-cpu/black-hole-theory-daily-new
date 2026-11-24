@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29384",
+    "arxiv_id": "2611.29384",
+    "arxiv_version": null,
+    "inspire_id": "3232309",
+    "doi": null,
+    "title_en": "Optimizer or physics? Machine-learning surrogates for collision-based preparation of multipartite entangled quantum states",
+    "abstract_en": "Repeated partial-SWAP collisions can prepare symmetric Dicke states, including the $W$ state, without measurement or postselection. The collision sequence uses only two global collision angles, and its fidelity is evaluated after a final layer of local phase rotations is optimized numerically, so each candidate pair requires a many-qubit simulation and a phase fit. We study when learned surrogates reduce the number of such evaluations, and what limits the best-found fidelity, for 65 Dicke targets with 11--20 qubits in noiseless simulations. At 50 evaluations per target, Gaussian-process Bayesian optimization (GP-BO) exceeds fixed Sobol and grid designs by 0.088 and 0.063 in mean best-found fidelity. Bounded Nelder--Mead reaches 0.760 against 0.762 for GP-BO, and has the higher three-seed mean on 41 of the 61 targets with a reference value; in this two-parameter problem, adaptivity matters far more than the choice between the two methods. A neural-network ensemble pretrained on 750 observations from smaller systems needs 32% fewer new evaluations per target than GP-BO at comparable fidelity, but the full neural search takes 1.6 times the wall time of GP-BO in our implementation. In a separate source-only test, the best of five neural proposals per target exceeds the best of five population-model proposals by 0.070 in mean fidelity. Exact symmetries and state diagnostics help explain why the leading adaptive methods reach similar family-mean fidelities. The collisions conserve the magnitude of the bare Dicke overlap and the total-spin weights, and for the best controls on a 12-target diagnostic panel, 79% of the infidelity is an amplitude deficit that a final phase layer cannot remove, which motivates interleaved phase control.",
+    "authors": [
+      "Vu, Duc-Kha",
+      "Nguyen, Minh Tam",
+      "Müstacaplıoğlu, Özgür E.",
+      "Ozaydin, Fatih"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T11:37:17.785545Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232309",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232309",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232309"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

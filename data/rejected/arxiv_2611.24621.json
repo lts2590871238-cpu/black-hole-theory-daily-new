@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.24621",
     "arxiv_id": "2611.24621",
     "arxiv_version": 1,
-    "inspire_id": "3231166",
+    "inspire_id": null,
     "doi": null,
     "title_en": "A twist in the tail: GWLENS, a fast and accurate tool for wave-optics lensing of gravitational waves",
     "abstract_en": "Gravitational-wave lensing in the wave-optics regime requires evaluating the Fresnel--Kirchhoff diffraction integral, whose integrand is highly oscillatory and must be evaluated numerically, as closed-form solutions exist only for a few lens models. We present a novel, efficient algorithm that splits the integration domain at a point beyond the region containing the lensed images. The bounded head region is integrated along the real axis with Gauss--Legendre quadrature, while the semi-infinite tail is rotated into the complex plane, where the integrand decays exponentially, and is evaluated with Gauss--Laguerre quadrature. Since the image region is never deformed, the method avoids the treatment of poles and branch cuts required by existing contour-deformation approaches. Our results agree with the exact point-mass solution to $10^{-13}$ and show good agreement with other methods. We present several examples for non-trivial lens models, showing potential for parameter estimation of realistic lenses. The method is particularly efficient when the amplification factor is needed for many source positions. In addition to transient broadband compact binary coalescence GW signals, we apply it to long-duration (continuous), quasi-monochromatic GW signals, for which the relative motion of source and lens makes the amplification factor time-dependent over the observation. The implementation is publicly available in the Python package GWLENS.",
@@ -19,31 +19,23 @@
       "gr-qc",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-18T00:00:00Z",
-    "updated_at": "2026-11-20T11:32:58.568129Z",
-    "document_types": [
-      "article"
-    ],
+    "submitted_at": "2026-11-18T15:37:48Z",
+    "updated_at": "2026-11-18T15:37:48Z",
+    "document_types": [],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": 0,
-    "citation_count_without_self_citations": 0,
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
     "abs_url": "https://arxiv.org/abs/2611.24621v1",
     "pdf_url": "https://arxiv.org/pdf/2611.24621v1",
-    "inspire_url": "https://inspirehep.net/literature/3231166",
+    "inspire_url": null,
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.24621",
-        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
         "url": "https://arxiv.org/abs/2611.24621v1"
-      },
-      {
-        "source": "inspire",
-        "record_id": "3231166",
-        "fetched_at": "2026-11-24T06:59:03.264496Z",
-        "url": "https://inspirehep.net/literature/3231166"
       }
     ],
     "is_demo": false

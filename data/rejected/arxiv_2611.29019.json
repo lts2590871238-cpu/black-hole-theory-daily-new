@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29019",
+    "arxiv_id": "2611.29019",
+    "arxiv_version": null,
+    "inspire_id": "3232277",
+    "doi": null,
+    "title_en": "A Frequency-Learning Interpolation-Based Coordinate Descent Method to Optimize Parameterized Quantum Circuits on Quantum Hardware",
+    "abstract_en": "Structure-aware optimizers have been the focus of recent study for the optimization of parameters in variational quantum circuits. Many of these optimizers follow a coordinate-based paradigm, making single parameter updates by using classical approximations to the cost function generated from quantum sampling. However, the performance of structure-aware optimizers on real quantum hardware at large system size has yet to be demonstrated. Recently, Interpolation-based Coordinate Descent (ICD) has been proposed to unify many of these optimizers into one framework. ICD requires a preset frequency set for interpolation, which can be theoretically derived, but for which the cost function is generally sparse over and may require manual tuning. To address these issues, we propose Frequency-learning Interpolation-based Coordinate Descent (FLICD) to adaptively learn frequencies online, allowing easier scaling up to larger systems. We demonstrate that our algorithm is more accurate than an existing zeroth-order method COBYLA and requires fewer quantum resources than ICD on simulator. Using IBM quantum hardware, we execute FLICD on systems up to 100 qubits and observe robust performance with an increasing number of layers.",
+    "authors": [
+      "Mandell, Jack",
+      "Leicester, Adam",
+      "Wang, Zixu",
+      "Shi, Jian",
+      "Zhang, Haimeng",
+      "Xu, Yangyang"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-21T00:00:00Z",
+    "updated_at": "2026-11-24T11:29:31.069147Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232277",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232277",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232277"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

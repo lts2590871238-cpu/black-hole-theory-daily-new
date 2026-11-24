@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.29134",
+    "arxiv_id": "2611.29134",
+    "arxiv_version": null,
+    "inspire_id": "3232129",
+    "doi": null,
+    "title_en": "Undecidable quantum storage: no algorithm can tell from the noise rate whether a fixed circuit remembers",
+    "abstract_en": "Below a threshold noise rate, error correction lets larger quantum memories store a qubit for longer, without limit. Can the noise rate alone tell us whether a given noisy circuit does this? We construct fixed local circuits for which no algorithm can, already in one dimension under single-qubit noise. Each circuit is translation-invariant and time-periodic, with depolarizing noise on every wire after every layer, including all classical control. A computable list of disjoint rate intervals is indexed by the inputs $n$ of a universal Turing machine; local noise statistics select the input that the circuit simulates, and halting triggers erasure. If the machine runs forever on $n$, a qubit is stored throughout the $n$-th interval at entanglement fidelity at least $15/16$ for a time that grows without bound with size: linearly on rings, exponentially in six dimensions. The encoding and decoding maps are noiseless and global; they depend on $n$, the system size and, for decoding, the time, but not on the rate. If it halts, the fidelity of every encoding falls below $1/2+η$, for any fixed $η>0$, after a time independent of size and rate. The labels of the intervals with unbounded storage form a $Π^0_1$-complete set, and intervals of both kinds accumulate at zero, so these circuits have no noise threshold. Without rate selection, the ring construction is a translation-invariant, time-periodic memory: from an initialized classical hierarchy it stores a qubit for a time linear in the ring length at every sufficiently small rate, addressing the memory part of a one-dimensional question raised by Dünnweber, Styliaris and Trivedi. These are existence results: registers and interaction ranges are very large and the rates astronomically small.",
+    "authors": [
+      "Douglas, Seth",
+      "Mghirbi, Nidhal"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-22T00:00:00Z",
+    "updated_at": "2026-11-24T11:29:23.912562Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232129",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232129",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232129"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.28427",
+    "arxiv_id": "2611.28427",
+    "arxiv_version": null,
+    "inspire_id": "3232206",
+    "doi": null,
+    "title_en": "Froq: Safe Speculative Execution on Live Quantum States for FTQC",
+    "abstract_en": "Reducing execution time is critical to fault-tolerant quantum computing (FTQC) as longer executions expose logical qubits to more opportunities for failure. However, quantum processors could frequently stall due to slow classical error-correction decoders. Recent speculative decoding accelerates this process, but its speculation remains on the classical side, leaving quantum operations waiting for confirmed decoding results. Extending speculative execution to the quantum side is fundamentally challenging. Unlike classical processor states, quantum states cannot be arbitrarily copied or checkpointed for rollback, making recovery from mispredictions difficult. In this work, we propose Froq to enable safe speculative execution on live quantum states. Froq uses compiler-assisted recovery contracts to track how mispredictions propagate through quantum operations. It further employs a resource-aware runtime mechanism to reserve recovery workspace and dynamically balance the benefits of speculative execution against the expected costs of recovery. We evaluate Froq on eight FTQC programs across 88 configurations, building on an existing speculative window decoder. Froq reduces quantum-side time by 9.81% across all 88 configurations. The reduction reaches 18.34% across the 45 configurations allowing concurrent predictions, and peaks at 31.1% at code distance d=21, under limited resources.",
+    "authors": [
+      "Guang, Yicheng",
+      "Chen, Yueqi"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-24T11:28:49.824526Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232206",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232206",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232206"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

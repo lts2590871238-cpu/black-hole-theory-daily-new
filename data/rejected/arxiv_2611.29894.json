@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.29894",
     "arxiv_id": "2611.29894",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3232378",
     "doi": null,
     "title_en": "Binning is Sinning: Absolution for the Unbinned Supernova Hubble Diagram",
     "abstract_en": "Cosmological analyses of Type Ia supernovae use a covariance matrix to describe statistical noise and systematic uncertainties. To fit a Hubble diagram with an unbinned covariance matrix, the CPU cost scales as O(N^3) for N supernovae, which has motivated compression into bins that loses information and reduces self-calibration power. To remove the need for lossy compression, we present a method that greatly reduces CPU time for matrix inversion and cosmology fitting, as well as matrix storage. For systematic covariances constructed from K per-supernova distance-shift vectors, we retain the exact representation C = D + U U^T, with diagonal statistical covariance D, and use the Woodbury factorization identity to efficiently invert C, significantly reducing computing time and disk storage without losing information. We implement this method in SNANA and validate it on simulated samples for LSST (N ~ 5,300, K = 18), Roman+LSST (N ~ 15,000, K = 30), and 10-yr LSST (N ~ 134,400, K = 18). For 10-yr LSST, matrix inversion and cosmology fit time is ~10 weeks using a dense (unbinned) matrix with 18 billion elements, and is reduced to ~1.5 hr using the factorization method. It also reduces covariance matrix disk storage by a factor of 1,800 (36 GB to 20 MB). In all validation tests, the best-fit cosmological parameters are nearly identical to the unbinned fit, and the dark energy figure of merit (FoM) agrees to better than 0.1% accuracy; the small differences are likely due to numerical artifacts in the pipeline. For the LSST and Roman era, this factorization method enables large unbinned supernova analyses with significantly reduced computing resources compared to previous analyses using a dense matrix, while preserving all information in the covariance model.",
@@ -16,23 +16,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-23T01:49:32Z",
-    "updated_at": "2026-11-23T01:49:32Z",
-    "document_types": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-24T12:26:08.920405Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.29894v1",
     "pdf_url": "https://arxiv.org/pdf/2611.29894v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232378",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.29894",
-        "fetched_at": "2026-11-24T06:59:03.264496Z",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
         "url": "https://arxiv.org/abs/2611.29894v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3232378",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232378"
       }
     ],
     "is_demo": false

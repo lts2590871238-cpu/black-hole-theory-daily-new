@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.28414",
+    "arxiv_id": "2611.28414",
+    "arxiv_version": null,
+    "inspire_id": "3232248",
+    "doi": null,
+    "title_en": "Neural-network-powered new-physics searches by predictive goodness of fit",
+    "abstract_en": "Model-independent searches for new physics test whether data agree with a Reference model with unknown nuisance parameters. Because the shape and location of a signal are not specified, these tests call for flexible learners (fitting procedures such as neural networks), and a likelihood ratio maximized over a neural network falls outside the standard asymptotic theory, making the calibration a major challenge. We propose a predictive alternative: the departure from the Reference is fitted on part of the data and its likelihood gain over the fitted Reference is evaluated on the rest, cross-fitted over several folds to preserve sample efficiency. The nuisance estimation error is propagated into the variance of the test statistic to first order, in the spirit of Neyman's C(alpha) test, so that the test need not be recalibrated at each nuisance value. The randomness in the fitted departure is treated by a central limit theorem for cross-validated statistics under algorithmic stability, plus a variance correction when stability is not achieved. The calibration is analytic, and no pseudo-experiments are needed. On established one-dimensional and five-dimensional (dilepton) benchmarks, the false-positive rate always stays within Monte Carlo error of nominal across different nuisances and the learners' tuning. The test's power relative to existing learned tests is mixed: higher for some signals and lower for others, depending on how well the fitted departure captures the signal.",
+    "authors": [
+      "Lei, Jing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-20T00:00:00Z",
+    "updated_at": "2026-11-24T11:36:22.629858Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232248",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232248",
+        "fetched_at": "2026-11-24T15:15:10.344639Z",
+        "url": "https://inspirehep.net/literature/3232248"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
