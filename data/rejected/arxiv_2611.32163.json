@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32163",
+    "arxiv_id": "2611.32163",
+    "arxiv_version": null,
+    "inspire_id": "3233224",
+    "doi": null,
+    "title_en": "Low-Degree Torus Approximations of the AND Function and $\\mathsf{ACC}^0$ Circuits",
+    "abstract_en": "Torus polynomials, real polynomials evaluated modulo one, were proposed by Bhrushundi, Hosseini, Lovett, and Rao as a route to $\\mathsf{ACC}^0$ lower bounds. We prove degree upper bounds for torus polynomials approximating a function on every input. First, for every $ε\\in(0,1/4)$, $\\mathsf{AND}_n/2$ has an $ε$-approximating torus polynomial of degree $O(\\log(n/ε))$, improving the previous $O(\\log^2(n/ε))$. This is optimal up to constant factors for inverse-polynomial error, by a lower bound of Krishan and Vishwanathan, and refutes two superlogarithmic-degree conjectures of Krishan and Sarma. Second, for every Boolean function $g$ computed by a depth-$d$, size-$s$$\\mathsf{AC}^0[m]$ circuit, $g/2$ has an $ε$-approximating torus polynomial of degree at most $C_m^d(\\log s)^{\\max\\{1,μ-1\\}d}\\log(1/ε)$, where $μ$ is the number of distinct prime factors of $m$ and $C_m$ depends only on $m$. This improves the bound $(\\log s)^{O_m(d^2)}(\\log(1/ε))^{O_m(d)}$ of Bhrushundi, Hosseini, Lovett, and Rao, making the exponent of $\\log s$ linear in the depth and the dependence on $\\log(1/ε)$ linear. Both proofs sample terms of a Fourier expansion and approximate them by low-degree torus polynomials. A torus approximation of degree $D$ can be written as a linear combination of at most $(n+1)^D$ parities, called a periodic Fourier representation, which is known to give a non-adaptive measurement-based quantum computation with linear side-processing using one qubit per parity. Hence every $\\mathsf{ACC}^0$ function can be computed with quasipolynomially many qubits and inverse-polynomial error probability on every input. Conversely, we prove that a periodic Fourier representation with $r$ parities and error probability $ε$ gives a torus approximation of degree $O(\\log(r/ε))$, so the two notions are equivalent.",
+    "authors": [
+      "Osaki, Shuhei",
+      "Mori, Ryuhei"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T11:13:48.721244Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233224",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233224",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233224"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

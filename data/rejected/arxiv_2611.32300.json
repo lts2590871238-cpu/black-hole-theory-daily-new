@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32300",
+    "arxiv_id": "2611.32300",
+    "arxiv_version": null,
+    "inspire_id": "3233526",
+    "doi": null,
+    "title_en": "Slipstream: nonlinear beam dynamics in PyTorch",
+    "abstract_en": "Slipstream is a PyTorch package for nonlinear beam dynamics in storage rings, linacs and photoinjectors. It provides CPU and GPU particle tracking, field-map injector models with space charge, and automatic differentiation along supported tracking paths. Comparisons with elegant, ASTRA, GPT and other codes assess accuracy and computational cost for nonlinear ring tracking, optics matching and photoinjectors. Ring tunes agree with elegant to $10^{-9}$. For the tested ring workloads with tens of thousands of particles, GPU tracking in float32 is hundreds of times faster than the single-threaded CPU implementations compared here. Automatic differentiation reduces the time for 24-parameter optics matching by an order of magnitude compared to finite differences. Using a high-brightness photo-injector as an example, final horizontal emittances agree with ASTRA to about 1% at 20 and 100pC and differ by $\\approx$4% at 250pC. For $2^{18}$ macroparticles, Slipstream's faster default settings take 14s on an RTX 3050 GPU and give emittances within 2% of that of ASTRA. Additional tests examine coherent synchrotron radiation, dynamic aperture and resistive-wall impedance. The package was developed predominantly by AI coding assistants under human direction. These comparisons identify where its models, GPU execution and derivatives are useful for repeated simulations in scans, fits and optimisation.",
+    "authors": [
+      "Jones, J.K.",
+      "Brynes, A.D.",
+      "King, M.",
+      "Owen, H.L.",
+      "Pollard, A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T14:18:56.092749Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233526",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233526",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233526"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

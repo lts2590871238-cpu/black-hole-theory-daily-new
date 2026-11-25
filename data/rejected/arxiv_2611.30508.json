@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30508",
+    "arxiv_id": "2611.30508",
+    "arxiv_version": null,
+    "inspire_id": "3233305",
+    "doi": null,
+    "title_en": "Binary-Tree Quantum Approximate Optimization Algorithm for the Maximum $k$-Cut Problem",
+    "abstract_en": "The maximum $k$-cut (Max-$k$-Cut) problem, as a natural generalization of the maximum-cut (MaxCut) problem, has broader applications in practical engineering. To solve this problem on quantum devices, existing studies typically encode the $k$ possible subset assignments of each vertex within the quantum approximate optimization algorithm (QAOA), which directly causes the required quantum resources to grow substantially with $k$. Here we propose a binary-tree quantum approximate optimization algorithm (BT-QAOA), which solves the Max-$k$-Cut problem by applying standard MaxCut QAOA to at most $2k-3$ subproblems. Specifically, after solving MaxCut once on the full vertex set, each subsequent step splits only the subset that yields the largest cut-value gain. This process is equivalent to constructing a binary tree whose leaf nodes after $k-1$ steps form an approximate solution to the Max-$k$-Cut problem. Furthermore, we derive a theoretical lower bound on the approximation ratio in terms of the single-step splitting quality, showing that the overall approximation ratio does not decay exponentially across multiple splits. Numerical simulations show that BT-QAOA substantially reduces the single-circuit qubit and gate overhead while maintaining a high approximation ratio, improving the estimated success probability of a single compiled circuit by orders of magnitude. This work effectively expands the practical reach of QAOA on near-term quantum hardware, offering a new route for solving more complex real-world optimization problems with limited quantum resources.",
+    "authors": [
+      "Song, Zhaoyang",
+      "Zhang, Wei",
+      "Cao, Ji",
+      "Yi, Xuexi",
+      "Wang, Hong-Fu"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:06:57.344328Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233305",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233305",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233305"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

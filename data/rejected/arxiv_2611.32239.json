@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32239",
+    "arxiv_id": "2611.32239",
+    "arxiv_version": null,
+    "inspire_id": "3233560",
+    "doi": null,
+    "title_en": "Improving Quantum Oblivious Transfer using Zero-Knowledge Proofs",
+    "abstract_en": "While quantum protocols for oblivious transfer can be built from weaker assumptions than classical ones, the current protocols remain highly impractical due to stringent security bounds that demand a large amount of quantum communication. In this work, we propose an enhancement to quantum oblivious transfer protocols by leveraging zero-knowledge proofs (ZKPs). At a high level, we modify the protocol such that the receiver proves that they are following honestly some crucial steps of the protocols, without revealing extra information to the sender. This yields a tighter security bound against a malicious receiver. For practical scenarios with a fixed security target, this approach reduces the amount of required quantum communication by one to two orders of magnitude, depending on the specific parameters. Furthermore, the benefits of our approach become particularly pronounced at higher qubit error rates, and our proposal even extends the maximum tolerable error rate of the quantum channel from approximately 3.5% to about 9%. The ZKP, however, introduces a substantial computational overhead, estimated to significantly exceed the acquisition time of the protocol, which is usually the primary bottleneck. To address this limitation, we also introduce a variant that serves as a tunable trade-off between the protocol with and without our modification. This enables precise adjustment of the computational overhead while still retaining significant, albeit moderately reduced, efficiency gains.",
+    "authors": [
+      "Grilo, Alex Bredariol",
+      "Hanouz, Lucas",
+      "Marin, Anne"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T11:13:34.182405Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233560",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233560",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233560"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

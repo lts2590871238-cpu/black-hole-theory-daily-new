@@ -1,0 +1,61 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30676",
+    "arxiv_id": "2611.30676",
+    "arxiv_version": null,
+    "inspire_id": "3233209",
+    "doi": null,
+    "title_en": "THeatA: Transport- and Heating-aware QEC simulation with Cooling Strategies for QCCD Trapped-Ion Systems",
+    "abstract_en": "The quantum charge-coupled device (QCCD) architecture is a promising approach to scalable trapped-ion quantum computing, enabling flexible qubit interactions by transporting ions between dedicated trap zones. Programs for such systems require operations beyond conventional circuit primitives: ion shuttling, physical SWAPs, trap splitting and merging, and cooling. Motional excitation accumulated during transport increases the mean phonon number of ions and degrades the fidelity of the two-qubit Molmer-Sorensen gates. However, existing quantum error correction (QEC) simulation frameworks do not jointly track per-ion motional excitation and explicitly schedule cooling operations with their transport time and heating costs. We develop a full-stack software framework for QEC experiments and simulations on linear QCCD systems with a single ion species, comprising an intermediate representation (IR) supporting QCCD-native operations, a compiler that translates syndrome-extraction circuits into the IR, and a heating-aware noise-injection pipeline that generates noisy Stim circuits. The compiler updates the mean phonon number of each ion throughout the schedule, and the pipeline derives gate-dependent error rates from the tracked phonon states and per-ion timing, enabling the evaluation of finite-size logical-error scaling of the rotated surface code under transport- and heating-aware noise. We show that transport-induced heating prevents logical error rates from decreasing with increasing code distance under the evaluated conditions, and that indirectly cooling the ion pairs involved in two-qubit gates, by merging them with precooled coolant ions immediately before each gate, restores this decrease. By sweeping the duration and post-cooling mean phonon number of an abstract cooling instruction, we characterize their trade-off and identify the region in which logical-error scaling is maintained.",
+    "authors": [
+      "Ishikawa, Eitaro",
+      "Hirai, Noah",
+      "Miyanishi, Koichiro",
+      "Ebi, Hana",
+      "Tanji, Kazufumi",
+      "Kudo, Isamu",
+      "Toyoda, Kenji",
+      "Takeoka, Masahiro",
+      "Takahashi, Hiroki",
+      "Satoh, Takahiko",
+      "Nishio, Shin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:06:13.470995Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233209",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233209",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233209"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

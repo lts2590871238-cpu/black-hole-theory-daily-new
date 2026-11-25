@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.33092",
     "arxiv_id": "2611.33092",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3233660",
     "doi": null,
     "title_en": "Hesperos & Eosphoros: A Coupled Differentiable Forced-Photometry Operator and Forward Model for SPHEREx Spectrophotometry",
     "abstract_en": "We present Hesperos & Eosphoros, a forced-photometry operator and a forward model that, respectively, perform and model the spectrophotometric measurement of the Spectro-Photometer for the History of the Universe, Epoch of Reionization, and Ices Explorer (SPHEREx). Implemented as GPU-accelerated, differentiable JAX programs, the two may be directly composed to measure the response of a downstream product (e.g., the galaxy density field) with respect to a modeled systematic or perturbation through the full measurement pipeline. We describe their design and demonstrate the composition on the response of an astrometric perturbation, and demonstrate how these may be used to generate direct measurement/pipeline response templates $\\partial({\\rm reconstructed\\ density})/\\partial({\\rm systematic\\ amplitude})$ for known image-level effects. Hesperos achieves a factor of $\\sim700\\times$ increased throughput per node-hour at production scale compared to the prior CPU-based Tractor measurement, previously the limiting step in the experiment's data processing, and propagates automatic derivatives through the full production measurement operator. We validate the measurement operator Hesperos against the public SPHEREx fork of The Tractor, and the forward model Eosphoros against the SPHEREx Sky Simulator and the renders themselves independently against GalSim. Taken together, this represents a powerful increase in capability for scaling, iterating, and optimizing galaxy clustering measurement pipelines.",
@@ -28,23 +28,31 @@
       "astro-ph.IM",
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-24T18:28:19Z",
-    "updated_at": "2026-11-24T18:28:19Z",
-    "document_types": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T08:43:54.474561Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.33092v1",
     "pdf_url": "https://arxiv.org/pdf/2611.33092v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233660",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.33092",
-        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
         "url": "https://arxiv.org/abs/2611.33092v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3233660",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233660"
       }
     ],
     "is_demo": false

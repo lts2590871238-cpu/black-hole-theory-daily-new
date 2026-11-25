@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32261",
+    "arxiv_id": "2611.32261",
+    "arxiv_version": null,
+    "inspire_id": "3233537",
+    "doi": null,
+    "title_en": "A quantum-inspired spiking variational autoencoder for robust anomaly detection at the LHC",
+    "abstract_en": "Model-agnostic searches for new physics at the Large Hadron Collider utilise unsupervised anomaly detection, where quantum and neuromorphic detectors represent potential approaches. We develop the first fully spiking variational autoencoder, a quantum-inspired spiking variational autoencoder (QSVAE), built on the quantum-inspired leaky integrate-and-fire (QLIF) neuron. In this work we recast the neuron from a measurement-based circuit to a differentiable computational unit. This neuron is benchmarked against other classical, spiking, and quantum models on an LHC di-jet latent space. We show that under noise perturbations the QLIF network retains $0.95$ of its clean accuracy, while accuracy retention for twelve classical models falls to $0.74$-$0.85$. The QLIF anomaly scores respond $3.5$-fold less to the noise perturbation than any of the control model's scores. We compare against a periodic classical control that reproduces the QLIF effect, isolating it to the $\\sin^2$ membrane map. This membrane map is a native regulariser that decouples robustness from model capacity supplied by the qubit state space. We demonstrate this through several benchmarks and ablation studies to characterise the performance landscape of the quantum-neuromorphic model space.",
+    "authors": [
+      "Brand, Dean",
+      "Slabbert, Donovan",
+      "Manfouo, Chanelle Matadah",
+      "Petruccione, Francesco"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T11:06:48.042385Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233537",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233537",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233537"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

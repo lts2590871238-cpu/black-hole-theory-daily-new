@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30580",
+    "arxiv_id": "2611.30580",
+    "arxiv_version": null,
+    "inspire_id": "3233316",
+    "doi": null,
+    "title_en": "Geometry-conditioned differentiable surrogate with adjoint Monte Carlo sampling for scintillator detector co-design",
+    "abstract_en": "Optimizing light-guide geometries for scintillator-based imaging detectors requires repeated photon-transport evaluations, making direct Monte Carlo simulation computationally costly. Differentiable surrogates can accelerate these evaluations and support detector readout co-design aimed at improving information extraction from particle interactions. In this work we describe a surrogate model for photon transport. We develop it starting from a modular, event-driven Monte Carlo model for the generation and transport of scintillation photons, and a reciprocal Monte Carlo construction (an adjoint model) of a spatially and temporally resolved optical response field. The latter evaluates the collectible light output and its temporal structure from a scintillator volume by launching weighted photon trajectories from the light-guide readout face. We apply this approach to a scintillator cell with two mirrored, curved, single-clad light guides. We employ the adjoint model to train a geometry-conditioned neural surrogate that predicts collection probabilities and conditional transport-time distributions across a constrained guide-design family. The surrogate is natively differentiable, lending itself to be an element of a differentiable pipeline for gradient-based optimization. A forward-reciprocal benchmark and validation on held-out geometries establish the accuracy of the trained model and identify its limitations. The developed tools provide a foundation for rapid optical-response studies and detector readout co-design.",
+    "authors": [
+      "Pepa, Lorenzo",
+      "Marashli, Mohammad Ali",
+      "Elguero, Nicolas Babio",
+      "Dorigo, Tommaso",
+      "Fagnani, Irene",
+      "Gulizia, Carlo",
+      "del Arbol, Pablo Martinez Ruiz",
+      "Sandin, Fredrik",
+      "Vischia, Pietro"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:42:35.397553Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233316",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233316",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233316"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

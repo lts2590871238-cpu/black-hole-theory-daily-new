@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32560",
+    "arxiv_id": "2611.32560",
+    "arxiv_version": null,
+    "inspire_id": "3233555",
+    "doi": null,
+    "title_en": "Quantum optimization beyond qubit count by low-energy subspace sampling",
+    "abstract_en": "On current digital quantum devices, standard one-qubit-per-variable encodings restrict quantum optimization algorithms to problem sizes where classical solvers typically excel. To avoid this constraint, we introduce Quantum Subspace Sampling Descent (QSSD), an iterative heuristic that decouples the number of problem variables from qubit count, while preserving knowledge of the problem's global structure. QSSD drives the energy descent using a fixed-angle Quantum Approximate Optimization Algorithm as a low-energy sampler. As the angles are precomputed, each iteration requires just a single circuit execution. We test QSSD on IBM Heron and Nighthawk quantum devices with up to 152 qubits on instances of higher-order unconstrained binary optimization and Max-cut problems. On the largest instance with 10000 variables, QSSD reaches an approximation ratio above 0.95 with 100 circuit executions. We provide both exact and heuristic classical baselines, namely greedy, branch-and-bound solver, and simulated annealing. While our approach still does not match the performance of the best classical baseline, it shows promise in a slower runtime scaling with problem size given a fixed budget. This suggests a regime of large problems where subspace sampling on quantum devices could become competitive, as we also demonstrate how improvements in hardware will lead to better algorithm performance. QSSD is thus a practical heuristic for combinatorial optimization problems that helps bring quantum optimization a step closer to utility.",
+    "authors": [
+      "Alonso, Mateo",
+      "Blázquez-Gil, Gonzalo",
+      "Díez-Valle, Pablo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T11:05:47.913522Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233555",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233555",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233555"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

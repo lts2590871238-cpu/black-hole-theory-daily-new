@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30738",
+    "arxiv_id": "2611.30738",
+    "arxiv_version": null,
+    "inspire_id": "3233205",
+    "doi": null,
+    "title_en": "Optimizing Locally Equivalent Graph States in Quantum Computing Using Greedy Best-First Search",
+    "abstract_en": "In measurement-based quantum computation and quantum repeater networks, graph-structured quantum states called graph states play a central role as an essential resource. In a graph state, each vertex corresponds to a qubit, and each edge is prepared by applying one controlled-Z (CZ) gate. Local complementation, which toggles adjacencies among the neighbors of a selected vertex, produces operationally equivalent graph states up to an inexpensive operation called local Clifford gates. Therefore, finding equivalent graphs up to local complementation with fewer edges and lower maximum degree can reduce the preparation cost, such as the number of CZ gates and the circuit depth. In this paper, we formulate the problem of finding a desirable equivalent graph via local complementations as a state space search problem. We apply a heuristic search algorithm, greedy best-first search (GBFS), to the formulated problem. Our experimental evaluation shows that despite its simplicity, GBFS outperforms existing approaches based on integer linear programming or local search across multiple graph classes, including random graphs, bounded-degree graphs, and most of the graphs constructed from quantum LDPC codes. In addition, we empirically analyze GBFS's search behavior, confirming that we need search rather than stopping at the first local minimum to find the best solution.",
+    "authors": [
+      "Harada, Sora",
+      "Kuroiwa, Ryo",
+      "Nishio, Shin",
+      "Uno, Takeaki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:06:38.781642Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233205",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233205",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233205"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

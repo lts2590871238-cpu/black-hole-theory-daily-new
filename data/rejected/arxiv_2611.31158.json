@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.31158",
+    "arxiv_id": "2611.31158",
+    "arxiv_version": null,
+    "inspire_id": "3233378",
+    "doi": null,
+    "title_en": "Reducing RSA-2048 Factoring Resources Below One Billion Toffolis via LLM-Driven Verifiable Quantum Compilation",
+    "abstract_en": "Modular exponentiation dominates the logical cost of factoring 2048-bit RSA integers (RSA-2048) with Shor's algorithm. Recent approaches based on approximate residue number systems (RNS) sharply reduce the required logical qubits, yet still demand billions of Toffoli gates. Optimizing these circuits is difficult because shared ancilla qubits and measurement-based uncomputation tightly couple the arithmetic stages, while rare overflows in compressed registers occur too infrequently for random simulation to detect. Here we use large language model (LLM)-driven search to redesign the RNS pipeline across stages and build a deterministic compiler that produces a Pareto frontier of RSA-2048 circuits. We bound rare overflow probabilities analytically and verify the resulting elementary gate sequences across all constituent RNS primes on representative circuits. Relative to Gidney's 2025 baseline under matched adder accounting, our frontier cuts the minimum qubit-Toffoli product by 70.1% and lowers expected factoring Toffolis by up to 78.6% at matched accumulator precision, bringing RSA-2048 factoring below one billion Toffolis for the first time.",
+    "authors": [
+      "Li, Xiaodi",
+      "Wang, Yuqing",
+      "Chen, Xue",
+      "Tang, Yang-Yang",
+      "Chen, Linghui",
+      "Zhang, Tao"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:07:03.887828Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233378",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233378",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233378"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

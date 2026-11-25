@@ -1,0 +1,59 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30421",
+    "arxiv_id": "2611.30421",
+    "arxiv_version": null,
+    "inspire_id": "3233290",
+    "doi": null,
+    "title_en": "Confidence-Aware Discriminative Readout of Neutral-Atom Arrays",
+    "abstract_en": "Fast and reliable detection is a central requirement for neutral atom quantum computers, yet fluorescence imaging remains a limiting step for rapid experimental cycling, large-scale array operation, and quantum-error-correction protocols. In this work, we demonstrate confidence-aware readout of $^{171}\\mathrm{Yb}$ atoms in optical tweezers using a discriminative classifier. Rather than forcing each atom-site image directly into a hard binary outcome, the proposed readout produces a measurement reliability score. This score is produced by a logistic-regression classifier trained on features derived from both the total photon count and the spatial pattern of fluorescence at each site. The resulting classifier achieves the same readout fidelity with approximately half the imaging time. At an exposure of 10 ms, it achieves $99.83\\%$ readout fidelity, comparable to the $99.82\\%$ achieved by conventional photon-count thresholding at 20 ms. Importantly, the classifier score enables low-confidence outcomes to be converted into measurement-level erasures, leaving fewer residual unflagged errors at a fixed erasure budget. This improvement is further accompanied by strong false-positive suppression, which is important for downstream operations such as atom rearrangement where false positives can create target defects. Monte Carlo rearrangement simulations show that the reduced false-positive rate and confidence-based erasure conversion improve predicted defect-free assembly performance. This work establishes confidence-aware readout using a discriminative classifier as a practical paradigm for fast and scalable neutral-atom quantum computing.",
+    "authors": [
+      "Bae, Jaeick",
+      "Kim, Kangheun",
+      "Song, Yunheung",
+      "Ha, Junseo",
+      "Han, Jeong Ho",
+      "Ahn, Jaewook",
+      "Ha, Hyunsoo",
+      "Choi, Soonwon",
+      "Mun, Jongchul"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:13:49.351467Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233290",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233290",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233290"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

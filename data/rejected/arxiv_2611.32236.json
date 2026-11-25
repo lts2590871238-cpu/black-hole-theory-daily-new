@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32236",
+    "arxiv_id": "2611.32236",
+    "arxiv_version": null,
+    "inspire_id": "3233507",
+    "doi": null,
+    "title_en": "Augmented Imaginary-Time Evolution of Neural Quantum States with Implicit Time Steps",
+    "abstract_en": "Finding the ground states of quantum many-body systems remains a central challenge in physics and quantum chemistry. Imaginary-time evolution (ITE) offers a natural, widely used route, but its convergence is typically asymptotic. Variational approaches restrict this evolution to parameterized manifolds, with neural quantum states (NQS) providing flexible representations commonly optimized via stochastic reconfiguration (SR). Their performance depends on the geometry of the variational manifold, the convergence properties of ITE, and the stability of finite-step explicit (forward) integrators. By exploiting local geometric information of the energy landscape, the recently introduced augmented imaginary-time evolution (AITE) can, in principle, reach the ground state in finite imaginary time. To exploit the accelerated convergence of AITE in NQS optimization, we first combine an implicit Euler step with Galerkin projection to derive an implicit SR scheme that permits large, stable steps and substantially outperforms conventional methods. We use it to formulate an implicit version of AITE and show that its acceleration persists under variational projection and finite-step integration with asymptotically quadratic convergence of the energy error. With finite sampling, implicit schemes yield consistent gains, and implicit AITE becomes increasingly advantageous.",
+    "authors": [
+      "Kliczkowski, Maksymilian",
+      "Kühne, Thomas D.",
+      "Šimkovic, Fedor",
+      "Sharma, Prachi",
+      "Benavides-Riveros, Carlos L.",
+      "Dobrautz, Werner"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T14:19:09.030173Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233507",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233507",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233507"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

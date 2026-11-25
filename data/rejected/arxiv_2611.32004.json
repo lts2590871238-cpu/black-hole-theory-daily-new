@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32004",
+    "arxiv_id": "2611.32004",
+    "arxiv_version": null,
+    "inspire_id": "3233260",
+    "doi": null,
+    "title_en": "Beyond Classical Minimax Rates: Quantum Sampling in Gradient-Based Simulation Optimization",
+    "abstract_en": "We study gradient-based search for a class of convex simulation optimization problems with gradients estimated from noisy outputs. With independent outputs, the optimal classical convergence rate for the expected objective gap is of order $O(N^{-2/3})$, where $N$ is the query budget. We apply quantum mean estimation to paired finite differences and progressively increase their estimation accuracy as the perturbations shrink, improving the convergence rate to $O(N^{-4/3})$. Furthermore, we show that coupling nearby evaluations improves the classical and quantum convergence rates to $O(N^{-2/(3-κ)})$ and $O(N^{-4/(3-κ)})$, respectively, where $κ\\in[0,1]$ describes the variance reduction in paired outputs. Thus, quantum estimation halves the accuracy exponent in query complexity across coupling orders. Moreover, we establish matching lower bounds and show that these accuracy exponents are minimax optimal for fixed decision dimension, even when query locations and batch sizes are adaptive. Reconstruction from feasible differences retains the exponents when every simulation query must be feasible and accommodates boundary optima.",
+    "authors": [
+      "Cao, Hao",
+      "Hu, Jian-Qiang",
+      "Hu, Mingjie",
+      "Wang, Qixin"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T13:51:38.381241Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233260",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233260",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233260"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

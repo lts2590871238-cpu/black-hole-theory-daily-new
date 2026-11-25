@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.31585",
+    "arxiv_id": "2611.31585",
+    "arxiv_version": null,
+    "inspire_id": "3233218",
+    "doi": null,
+    "title_en": "How Small Can a Single Shor Run Be? Limits and Constructions for secp256k1",
+    "abstract_en": "Most resource estimates for breaking secp256k1 with Shor's algorithm describe one long run per attempt, and the spacetime volume of that run, its peak number of logical qubits times its Toffoli count, sets its logical-error budget. Ekerå's tradeoff shrinks each run by using more runs, but how far it can shrink the largest run, and at what circuit cost, has not been determined. We minimize the volume of the largest run while every key is recovered with probability at least 0.99, within ten times the total volume of three runs of Häner et al. and $2^{40}$ classical operations. We prove that a linear run fixed in advance, which starts its group register at a point and discards its label, reveals at most $\\log_2(1+(|S|-1)/r)$ bits about a uniform key, where $|S|$ counts its exponent values and $r$ is the group order. With generic post-processing and the baseline's window costs, splitting alone then shrinks the largest run at most 1.86 times within the budget. To gain more, we make each exponent bit cheaper with windows that share one table point among exponent values related by six symmetries of the curve, on a point-addition core borrowed from the ECDSA.Fail leaderboard. One random scalar and one random start per run give every approximate addition uniform operands, and a bound on each run's outcomes certifies, for every key, a decoder that discards flagged runs. We count every Toffoli gate and every qubit of every run, and each configuration solved all 563 of its pre-registered simulated trials on secp256k1. The best one shrinks the largest run 3.87 times at 8.79 times the baseline's total volume, against 2.81 times for Ekerå's tradeoff on the same core, and its run is at least 2.6 times smaller than every design of Initio Intelligence.",
+    "authors": [
+      "Guang, Yicheng",
+      "Xiong, Yuliang",
+      "Chen, Yueqi",
+      "Gao, Xun"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:14:12.292291Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233218",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233218",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233218"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

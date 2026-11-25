@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.31867",
+    "arxiv_id": "2611.31867",
+    "arxiv_version": null,
+    "inspire_id": "3233529",
+    "doi": null,
+    "title_en": "A machine learning architecture for scaling of holographic quantum circuits",
+    "abstract_en": "We describe an architecture and workflow for learning and generalizing the syntax and parameters of holographic quantum circuits (HQCs), which are natural quantum circuit analogs of classical tensor networks. An HQC uses mid-circuit measurements and resets on a small subset of \"physical\" qubits whose measurement outcomes become correlated through coupling with a register of persistent \"ancilla\" qubits, analogous to the physical and bond indices of a tensor network. Hence, an HQC with fixed qubit resources can efficiently generate samples from a large quantum state, and adding qubits to the HQC ansatz has the effect of exponentially increasing the effective bond dimension. Our machine learning approach provides mechanisms for harnessing both features of HQCs by extrapolating the syntax (e.g., a sequence of gates, measurements, and resets) and parameters (e.g., the angles appearing in single-qubit rotations) from a dataset of HQCs to longer or more expressive HQCs. We demonstrate the methodology and its performance on an analytically solvable dataset formed by a vector-valued generalization of the W-state. Finally, we provide an outlook for usage of the methodology for scaling the effective bond dimensions of HQCs in quantum simulation.",
+    "authors": [
+      "Sun, Cliff",
+      "Wall, Michael L."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T11:05:33.142491Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233529",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233529",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233529"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

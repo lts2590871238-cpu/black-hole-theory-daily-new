@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.31450",
     "arxiv_id": "2611.31450",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3233478",
     "doi": null,
     "title_en": "Symbolic Regression Diagnostics of 1D Lyman Alpha Forest Emulator",
     "abstract_en": "We use symbolic regression to diagnose the parameter dependence of a black-box multi-fidelity emulator of the Lyman-alpha forest 1D flux power spectrum. Symbolic regression is appealing in its ability to reduce complex parameter spaces, thereby reducing compute time and offering potential interpretability in parameter inter-dependencies. Starting from a pretrained Gaussian-process (GP) emulator that connects low- and high-resolution PRIYA simulations, we search for explicit equations describing the dependence of the power spectrum on resolution and each cosmological and astrophysical parameter. We find that symbolic regression can recover equations that reproduce the emulator values well, but accurate predictions do not guarantee accurate parameter derivatives, making such equations unreliable for downstream applications such as Fisher forecasts. We therefore introduce a derivative-faithfulness diagnostic that directly compares the parameter gradient of each symbolic equation to the GP, and explore a derivative-matching (Sobolev) loss to improve this agreement. At z = 3.6, the Sobolev objective yields derivative-faithful equations for 9 of the 11 PRIYA parameters constraining the Lyman-alpha forest, with the approach only ineffective on h and AGN, whose 1D power spectrum imprints are weak or degenerate. Redefining the training objective with the Sobolev loss is a more robust and computationally efficient approach to gradient-matching repair than increasing model complexity. Our methods present potential mitigation strategies for failure modes of PySR, enabling downstream Fisher forecasts in some of these cases. Further, we document limitations potentially relevant to future work bridging symbolic regression with emulators. Our results demonstrate symbolic regression as an emulator diagnostic tool, with particular utility for low-dimensional or weakly coupled parameter dependencies.",
@@ -18,23 +18,31 @@
     "categories": [
       "astro-ph.CO"
     ],
-    "submitted_at": "2026-11-23T19:25:06Z",
-    "updated_at": "2026-11-23T19:25:06Z",
-    "document_types": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T08:41:37.250954Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.31450v1",
     "pdf_url": "https://arxiv.org/pdf/2611.31450v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233478",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.31450",
-        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
         "url": "https://arxiv.org/abs/2611.31450v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3233478",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233478"
       }
     ],
     "is_demo": false

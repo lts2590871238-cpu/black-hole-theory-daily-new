@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30394",
+    "arxiv_id": "2611.30394",
+    "arxiv_version": null,
+    "inspire_id": "3233296",
+    "doi": null,
+    "title_en": "FGPA-based advanced muon trigger algorithms for long-lived particle detection at the High-Luminosity LHC",
+    "abstract_en": "The CMS Level-1 trigger must reconstruct muons in real time under stringent latency and hardware resource constraints. Conventional algorithms lose efficiency for high-energy muons undergoing radiative energy losses and can be suboptimal for displaced trajectories, limiting sensitivity to exotic signatures such as long-lived particles (LLPs). The Phase-2 upgrade introduces advanced FPGAs that enable more sophisticated reconstruction algorithms. This work presents two complementary developments addressing these challenges. In the barrel region, a dedicated algorithm detects showers from Drift Tube hit patterns at the first processing stage. At the subsequent filtering stage, shower primitives are correlated with conventional trigger primitives, currently targeting radiatively showering high-momentum muons, with LLP signatures as a broader objective. Simulation studies yield approximately $80\\%$ shower-classification accuracy and an estimated matching efficiency above $80\\%$ for radiating muons. Firmware prototypes demonstrate a shower-detection latency of approximately $20\\,\\mathrm{ns}$ and sub-bunch-crossing latency for preliminary matching logic. In parallel, a hardware-oriented optimization methodology is investigated for future graph neural network based displaced-muon reconstruction in the barrel--endcap overlap region. Using a GraphSAGE proxy on a benchmark dataset, a workflow combining integer quantization, power-of-two scaling, and data-driven bit-width optimization achieves $(75.0 \\pm 1.1)\\%$ accuracy and a deterministic latency of $19$ cycles ($52.8\\,\\mathrm{ns}$ at $360\\,\\mathrm{MHz}$), with only $20\\%$ digital signal processor utilization. These results establish a basis for implementation studies using CMS muon data.",
+    "authors": [
+      "Estrada, Daniel",
+      "Prado, Javier",
+      "Leguina, Pelayo",
+      "Cardini, Andrea",
+      "Aller, Elena",
+      "Folgueras, Santiago"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:05:32.199601Z",
+    "document_types": [
+      "conference paper"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233296",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233296",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233296"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

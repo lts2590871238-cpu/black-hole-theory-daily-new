@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.32395",
+    "arxiv_id": "2611.32395",
+    "arxiv_version": null,
+    "inspire_id": "3233559",
+    "doi": null,
+    "title_en": "Second-order asymptotics for the quantum and private capacities of the erasure channel",
+    "abstract_en": "An erasure channel either delivers a quantum system intact or tells the receiver that it was lost. How much quantum information, or secret classical information, can a finite block transmit without assistance? We determine the optimal second-order coding rates for input dimension $d\\ge2$, erasure probability $0<p<1/2$, and fixed infidelity (one minus fidelity) $0<\\varepsilon<1$. For $n$ channel uses, the optimal base-two logarithmic code size is \\begin{equation}\\tag{A}\\label{eq:abstract-rate} n(1-2p)\\log_2d +2\\sqrt{np(1-p)}\\log_2d\\,Φ^{-1}(\\varepsilon) +O((\\ln n)^2), \\end{equation} where $Φ$ is the standard normal cumulative distribution function and $Φ^{-1}$ is its quantile function. The square-root term is the second-order correction. This formula holds for entanglement transmission, entanglement generation, and private classical communication. Quantum error measures failure to preserve entanglement. Private error compares the actual output with a correctly decoded uniform message independent of an optimized environment state. The achievable Gaussian term and a matching quantum expansion below infidelity one half were established recently. We prove matching upper bounds for every fixed infidelity, including private communication, with the displayed remainder. The proof bounds one code's average performance across all loss patterns of a given size; binomial fluctuations then determine the Gaussian correction. It combines tests of correct and secret communication with tensor-product averaging and a classical polynomial identity. Arbitrary mixed encoders and collective decoders are allowed. Requiring the private error bound for every message preserves the Gaussian term. Fixing the ideal environment state to the actual marginal instead changes the quantile to $Φ^{-1}(1-\\sqrt{1-\\varepsilon})$. Thus the precise privacy criterion affects communication at second order.",
+    "authors": [
+      "Wilde, Mark M."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-25T11:14:08.725129Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233559",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233559",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233559"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

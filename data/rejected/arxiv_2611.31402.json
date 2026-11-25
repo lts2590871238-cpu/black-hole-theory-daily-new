@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.31402",
+    "arxiv_id": "2611.31402",
+    "arxiv_version": null,
+    "inspire_id": "3233417",
+    "doi": null,
+    "title_en": "A Constraint-Preserving Preconditioned Quantum Solver for Heterogeneous Brinkman Flo",
+    "abstract_en": "Quantum amplitude estimation can reduce the number of evaluations needed to estimate an average, but its advantage in PDE uncertainty quantification depends on the cost of each coherent solve. We study this problem for incompressible Brinkman flow through a porous material with spatially varying drag. We first express the velocity in divergence-free coordinates using a polar Riesz map, obtaining a positive-definite system that preserves incompressibility in the exact formulation. We then introduce a Sobolev--Riesz preconditioner and prove that the resulting condition number is bounded by $α_{\\max}/α_{\\min}$, independently of the grid resolution. We construct block encodings and reversible-arithmetic circuits for this formulation and show how to estimate the mean kinetic energy without reconstructing the full velocity field. By accounting for both sampling and solver costs, we establish conditions under which the method has a gate-complexity advantage over single-level classical grid-resolving solvers. Numerical experiments verify the conditioning bound and the accuracy of the circuit components at the tested sizes. The complexity advantage is conditional on the stated input and discretization assumptions; no quantum-hardware runtime advantage is demonstrated.",
+    "authors": [
+      "Savadatti, Shreya",
+      "Franchetti, Franz"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:13:46.214372Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233417",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233417",
+        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "url": "https://inspirehep.net/literature/3233417"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
