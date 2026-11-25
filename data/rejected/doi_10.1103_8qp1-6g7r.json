@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/8qp1-6g7r",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3232724",
+    "doi": "10.1103/8qp1-6g7r",
+    "title_en": "Development of a variational quantum algorithm for measurement reduction via the block-encoding method",
+    "abstract_en": "In this paper, we propose an approach that combines the variational quantum eigensolver (VQE) with the block-encoding (BE) method. We call this method VEBE, in which the estimated parameter is proportional to the square root of the success probability (<math><msub><mi>p</mi><mtext>succ</mtext></msub></math>) derived from the BE method. This formulation eliminates the need to distribute measurements among individual unitary terms in the Hamiltonian and thereby alleviates the dependence of the measurement variance on the number of molecular orbitals (<math><mi>N</mi></math>). Numerical simulations of full configuration interaction (full CI) ground-state energies of hydrogen chains show that, under the same total number of measurements, the VEBE method yields smaller unbiased standard deviations than the VQE method for the larger chains, and that the number of measurements required to achieve chemical precision grows more slowly with system size in the VEBE method. In complete active space configuration interaction calculations of the nitrogen molecule, the VEBE method likewise yields smaller unbiased standard deviations than the VQE method at longer bond lengths, whereas the VQE method remains more efficient for the smallest hydrogen chain and at shorter bond lengths.",
+    "authors": [
+      "Baba, Reo",
+      "Cainelli, Mauro",
+      "Kurashige, Yuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-24T15:51:40.759578Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 052614, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 5, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232724",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232724",
+        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "url": "https://inspirehep.net/literature/3232724"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

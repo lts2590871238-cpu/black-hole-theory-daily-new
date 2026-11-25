@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:4e6e6c0f70b6b5a1ac082468",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3232767",
+    "doi": null,
+    "title_en": "Numerical implementation of Hadamard renormalization in black hole spacetimes",
+    "abstract_en": "Quantum field theory in curved spacetimes provides the foundation of the semiclassical theory of gravity, which is governed by the semiclassical Einstein equations.\nUsually, one attempts to solve these equations perturbatively about a fixed background solution, whence the quantum correction to the geometry is sourced by the\nexpectation value of the stress-energy tensor for the quantum field on the classical\nbackground. This quantity is formally divergent, and this divergence can be removed\nwith the Hadamard renormalization procedure. While conceptually understood for\ndecades, its practical implementation in black hole spacetimes is notoriously difficult,\nwith efficient schemes developed only in recent years.\nOne of the most powerful of such schemes is the extended coordinate method,\nwhose applicability is however limited to quantum scalar fields in the Hartle-Hawking\nstate on the exterior of static, spherically symmetric black holes. In this thesis, we\nextend this method in several directions and compute renormalized expectation\nvalues in various scenarios of interest.\nFirst, we generalize the method to directly compute the renormalized stressenergy tensor (RSET) for massive scalar fields in the Boulware state, thereby enabling the study of semiclassical effects in spacetimes where the Hartle-Hawking\nstate does not exist, for example, in extremal black holes. We demonstrate the\naccuracy of this method by calculating the RSET in sub-extremal and extremal\nReissner-Nordstr ̈om spacetimes.\nBeyond black holes, we apply the method to compute the renormalized vacuum\npolarization (RVP) and RSET outside and inside a thin shell joining a Schwarzschild\nexterior to a Minkowski interior. We also derive analytical expressions for their\nleading-order divergences at the shell.\nAdditionally, we extend the method to the interior of spherically symmetric black\nholes that possess a Cauchy horizon. We obtain the RVP and RSET in the HartleHawking and Unruh states inside a Reissner-Nordstr ̈om black hole and derive their\nbehavior on the inner horizon analytically.\nFinally, we show how these very accurate RSET prescriptions can be used to\ncompute the semiclassical backreaction in these contexts.",
+    "authors": [
+      "Pisani, Lorenzo"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-24T15:52:42.870723Z",
+    "document_types": [
+      "thesis"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232767",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232767",
+        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "url": "https://inspirehep.net/literature/3232767"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "general_relativity_foundations"
+    ],
+    "high_weight_hits": [
+      "cauchy horizon"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 25
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "general_relativity_foundations",
+    "secondary_topics": [
+      "black_hole_thermodynamics"
+    ],
+    "scores": {
+      "theory_depth": 22,
+      "methodological_rigor": 16,
+      "novelty": 12,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 70,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该论文提出将扩展坐标法推广至Boulware态、薄壳、带电黑洞内部及Cauchy视界等情境，给出重整化应力能量张量的数值实现并讨论半经典反作用，对弯曲时空量子场论与半经典引力的实际计算具有方法学价值；虽为学位论文且尚无引用（新发表，零引用中性），主题与基础引力方向高度相关。",
+    "title_zh": "黑洞时空中Hadamard重整化的数值实现",
+    "abstract_zh": "弯曲时空中的量子场论构成了半经典引力理论的基础，而半经典引力由半经典爱因斯坦方程支配。通常，人们试图在固定背景解附近微扰地求解这些方程，此时对几何的量子修正由经典背景上量子场的应力能量张量期望值所源。该量在形式上发散，而这种发散可以通过Hadamard重整化程序去除。尽管其概念上已被理解数十年，但在黑洞时空中的实际实现却出名的困难，高效方案仅在近年来才被发展出来。此类方案中最强大的之一便是扩展坐标法，然而其适用范围局限于静态、球对称黑洞外部Hartle-Hawking态中的量子标量场。在本论文中，我们在若干方向上推广该方法，并在各种感兴趣的情境中计算重整化期望值。首先，我们将该方法推广到直接计算Boulware态中无质量标量场的重整化应力能量张量（RSET），从而使得研究Hartle-Hawking态不存在的时空（例如极端黑洞）中的半经典效应成为可能。我们通过在亚极端与极端Reissner-Nordström时空中计算RSET来证明该方法的精度。在黑洞之外，我们将该方法应用于计算连接Schwarzschild外部与Minkowski内部的薄壳外部的重整化真空极化（RVP）与RSET。我们还推导了它们在壳层处领头阶发散的解析表达式。此外，我们将该方法推广到具有Cauchy视界的球对称黑洞内部。我们获得了Reissner-Nordström黑洞内部Hartle-Hawking态与Unruh态中的RVP与RSET，并解析推导了它们在内视界上的行为。最后，我们展示了如何利用这些非常精确的RSET规定来计算这些情境中的半经典反作用。",
+    "keywords_en": [
+      "Hadamard renormalization",
+      "renormalized stress-energy tensor",
+      "semiclassical gravity",
+      "black hole spacetimes",
+      "Boulware state",
+      "Cauchy horizon",
+      "Reissner-Nordström",
+      "vacuum polarization"
+    ],
+    "keywords_zh": [
+      "Hadamard重整化",
+      "重整化应力能量张量",
+      "半经典引力",
+      "黑洞时空",
+      "Boulware态",
+      "Cauchy视界",
+      "Reissner-Nordström",
+      "真空极化"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-11-13.1",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-25T05:30:32.406825Z"
+  },
+  "published_at": "2026-11-25T05:30:32.407324Z"
+}

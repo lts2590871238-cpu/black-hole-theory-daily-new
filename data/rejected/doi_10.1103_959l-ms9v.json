@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/959l-ms9v",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3232745",
+    "doi": "10.1103/959l-ms9v",
+    "title_en": "Efficient robust control design for high-dimensional quantum systems against multiple uncertainties using Suzuki-Trotter decomposition",
+    "abstract_en": "Quantum systems are inevitably subject to multiple uncertainties, complicating the design of experimentally viable control protocols for scalable quantum computing. An effective approach to robust control design is to formulate augmented deterministic dynamics that jointly describe the nominal evolution and the perturbative response to uncertainties. However, the increased dimension of the resulting augmented systems makes repeated propagation during control optimization computationally demanding, particularly for high-dimensional quantum systems. In this paper, we propose Suzuki-Trotter gradient ascent pulse engineering (ST-GRAPE) to address this bottleneck. The method uses a Suzuki-Trotter decomposition tailored to the sparse, nilpotent coupling structure of the augmented dynamics. After the time-independent factors are precomputed, the dominant online operations consist of structured matrix products and diagonal phase evaluations, substantially reducing the computational cost of propagation. The resulting Trotterized objective also admits an exact gradient, providing reliable derivative information for quasi-Newton optimization. Numerical benchmarks on robust Greenberger-Horne-Zeilinger state preparation and quantum Fourier transform gate synthesis demonstrate that ST-GRAPE produces more robust controls than conventional GRAPE at a substantially lower average computational cost per iteration, enabling controls with higher-order robustness to be designed more efficiently.",
+    "authors": [
+      "Fan, Yidian",
+      "Wu, Re-Bing"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-24T15:52:20.812055Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 052616, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 5, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232745",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232745",
+        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "url": "https://inspirehep.net/literature/3232745"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

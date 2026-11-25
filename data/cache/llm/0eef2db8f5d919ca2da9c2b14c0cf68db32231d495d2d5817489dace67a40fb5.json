@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "pta",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 6,
+    "methodological_rigor": 13,
+    "novelty": 11,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 0,
+    "other": 6
+  },
+  "total_score": 49,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文研究空间引力波探测中银河系双星前景的分离与计数问题，提出以信噪比阈值定义可分辨源、用神经流与嵌套采样进行计数与分辨，并指出由数据本身决定的贝叶斯混淆极限；结果与自适应采样方法及前景计数相关，且明确提及脉冲星计时阵列等类似的弱源叠加问题。理论深度有限，但方法学与概念清晰度较好，值得进一步阅读。",
+  "title_zh": "用机器学习解决引力波天文学中的银河系前景问题",
+  "abstract_zh": "空间引力波探测器将观测到数千万个银河系双星。若被分辨，它们将构成不受尘埃阻碍的银河系超致密双星普查；若未被分辨，在几毫赫兹以下它们是大质量黑洞双星、极端质量比旋进以及早期宇宙背景的主要噪声来源。分离这两类信号需要双星的数量，而该数量定义不清，因为双星存在于每一个振幅上。我们通过将源定义为信噪比高于阈值的双星，使这一数量成为可观测量。神经流在0.5-10 mHz范围内以1微赫兹为间隔的区间中，99%的区间内将双星数量计数到误差不超过一；嵌套采样能够分辨它们，即使频率间隔小于一个频率bin的成对双星也能分辨。数据本身设定了一个限制：只有当源的信号足以支付对其自身的描述（约20 nats）时，该源才是可分辨的，这甚至会使理想的跨维采样器产生偏置。如同成像中的衍射极限，这一贝叶斯混淆极限由数据而非方法设定，并且它支配任何弱源的叠加，从射电巡天和脉冲星计时阵列到超分辨率显微术。对于未来的空间引力波探测器，该方法将银河系前景转化为一个确定的、经过校准的双星计数，并带有解析的选择函数，这是全局拟合和检验族群模型的基础。",
+  "keywords_en": [
+    "gravitational-wave astronomy",
+    "Galactic binaries",
+    "machine learning",
+    "neural flows",
+    "nested sampling",
+    "Bayesian confusion limit",
+    "pulsar timing arrays",
+    "space-borne detectors"
+  ],
+  "keywords_zh": [
+    "引力波天文学",
+    "银河系双星",
+    "机器学习",
+    "神经流",
+    "嵌套采样",
+    "贝叶斯混淆极限",
+    "脉冲星计时阵列",
+    "空间探测器"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-25T05:30:03.044157Z"
+}

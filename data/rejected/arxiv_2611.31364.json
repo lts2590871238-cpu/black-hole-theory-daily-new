@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.31364",
+    "arxiv_id": "2611.31364",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Enhanced spatial resolution and performance for N-body simulation of self-interacting dark matter",
+    "abstract_en": "Studying the implications of self-interacting dark matter (SIDM) on astrophysical objects often requires simulations. N-body simulations are a standard tool but face a few challenges. One is resolving the mean free path in gravothermally collapsing halos. This is necessary to obtain accurate results and is achieved in state-of-the-art simulations by increasing the number of resolution elements. I aim to formulate a numerical scheme that gives an enhanced spatial resolution compared to those methods and allows increasing the resolution without changing the number of resolution elements. The novel scheme that I present is formulated by discarding the classic approach of using kernel functions and computing interaction probabilities. Instead, pairs of particles always interact if their distance is below a specific threshold. Importantly, this distance threshold depends on their relative velocity and the size of the time step. This new formulation no longer requires some of the computations in state-of-the-art schemes and thus helps to increase the performance. Through a variety of test problems with known solutions, I study the accuracy of the new scheme and demonstrate its advantages over state-of-the-art SIDM formulations. Notably, the scheme reduced the computational costs, making the SIDM computations typically much cheaper than gravity. As a consequence, a typical SIDM simulation of isotropic scattering requires only a few percent of its total computational cost for the self-interactions. In conclusion, the new scheme presents an improvement over previous schemes and helps to address current challenges. Besides the enhanced performance, it allows us to achieve a higher accuracy when simulating gravothermally collapsing SIDM halos.",
+    "authors": [
+      "Moritz S. Fischer"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "astro-ph.GA",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-11-23T19:00:01Z",
+    "updated_at": "2026-11-23T19:00:01Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.31364v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.31364v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.31364",
+        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "url": "https://arxiv.org/abs/2611.31364v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

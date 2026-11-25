@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "title:c73f6df3f49ce96ee19af6c9",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3232810",
+    "doi": null,
+    "title_en": "Insights into physical states of loop quantum gravity using techniques from machine learning",
+    "abstract_en": "Loop quantum gravity offers a rich non-perturbative framework for quantum gravity, yet its dynamics remain extremely difficult to implement in practice. In the canonical formulation, physical states are defined by quantum constraints acting on spin-network states, whose graph, representation, and intertwiner data lead to a highly complex kinematical state space. In the covariant formulation, transition amplitudes are built from spin foam vertex amplitudes whose exact evaluation is computationally demanding.\n\n\nThis dissertation develops a computational programme for the dynamics of loop quantum gravity in both its canonical and covariant formulations. The programme combines structure-preserving numerical methods with machine learning techniques, with the aim of preserving the native graph, gauge, and operator structure of the theory while making its dynamical problems accessible to controlled computation at large scale. In the canonical theory, this means using variational Monte Carlo methods and neural quantum states to approximate solutions of quantum constraints. In the covariant theory, it means using neural network surrogates to approximate spin foam vertex amplitudes. In this way, part of the dynamical problem of loop quantum gravity is brought from the purely formal domain into a regime of explicit and controlled numerical study.\n\n\nOn the canonical side, a fixed-graph framework is developed in which graph non-enlarging Hamiltonian constraints are recast as variational problems for positive quadratic forms whose minima encode weak constraint equations. This reformulation turns the search for physical states into a ground state problem on truncated Hilbert spaces. To realise this programme in practice, neuraLQX, an open-source high-performance toolkit for variational canonical loop quantum gravity built around graph-aware Hilbert spaces, observables, and constraint operators, was developed as part of this dissertation. It uses Markov chain Monte Carlo methods, and in particular gauge-invariant sampling, stochastic reconfiguration, and quantum states parametrized by neural networks adapted to the locality of the dynamics. To demonstrate the viability of this framework, high-fidelity near-physical states are obtained for Abelian BF theory and for a weak coupling limit of LQG with structure group (\\mathrm{U}(1)^3) in three and four dimensions. In the four-dimensional model on the complete graph (K_5), the analysis shows that the ordering of the vertex Hamiltonian constraint has a strong influence on which solution sectors are found variationally. The relevant operator is the vertex Hamiltonian (\\hat{H}_v), quantized in the spirit of Thiemann's construction and with the corresponding ordering. Numerically, the weak equations associated with (\\hat{H}_v) and (\\hat{H}_v^\\dagger) are probed through positive quadratic objectives built from (\\hat{H}_v^\\dagger \\hat{H}_v) and (\\hat{H}_v \\hat{H}_v^\\dagger). The analysis shows that these two searches do not merely produce different approximations to the same variational state. Instead, they select distinct solution sectors. One sector is peaked on flat connections and appears to describe a non-degenerate spatial quantum geometry. Numerical analysis shows this sector to be consistent with a discrete approximation to a Dittrich-Geiller-type vacuum. The other sector consists of states in the kernel of the volume operator. These states are non-flat and exhibit correlations across the graph, consistent with volume-zero excitations over an Ashtekar-Lewandowski-type vacuum. The relation between the two sectors is asymmetric in the sense that while the Ashtekar-Lewandowski-like states are often solutions for both orderings of the quadratic constraints, the Dittrich-Geiller-like states are not. Thus, one can conclude that the ordering of the Hamiltonian constraint affects which sectors are accessible or selected in the variational search, and it suggests that different orderings may exclude some classes of solutions.\n\n\nOn the covariant side, this dissertation develops neural network surrogates for spin foam vertex amplitudes, with the aim of approximating the local building blocks of the path-integral dynamics. Starting with the Euclidean Barrett-Crane amplitude, the numerical problem is shown to separate naturally into two physically distinct tasks. The first is to determine which boundary spin configurations are admissible and therefore lie in the support of the amplitude. The second is to approximate the numerical value assigned to each admissible configuration by the vertex amplitude itself. The support is learned with near-perfect accuracy and generalises across cutoffs, showing that the network can infer and extrapolate the known, algorithmically verifiable (\\mathrm{SU}(2)) recoupling conditions that determine admissibility in the Barrett-Crane case. By contrast, the amplitude values can be reproduced with high precision at fixed cutoff, but do not extrapolate reliably to larger cutoffs. This shows that the dependence of the vertex amplitude on the boundary quantum geometry is considerably more intricate than the structure of its support. The analysis also demonstrates that the representation of discrete spin data is not a merely technical modelling choice but directly affects how well the relevant quantum-geometric information is exposed to the surrogate model. This observation motivates graph-based surrogate architectures in which the spin foam boundary data and their adjacency structure are built into the model more explicitly. These architectures are then applied to the Lorentzian EPRL amplitude whereby in this case, the thesis first addresses the computational bottleneck of exact evaluation by reducing the runtime of the sl2cfoam-next exact evaluator sufficiently to generate large training datasets. Preliminary surrogate results show that the support, as well as the sign, of the EPRL amplitude can also be learned effectively, giving first evidence that graph-based learning can capture part of the admissibility structure of the Lorentzian theory.",
+    "authors": [
+      "Sherif, Waleed"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-24T22:55:49.774071Z",
+    "document_types": [
+      "thesis"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3232810",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3232810",
+        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "url": "https://inspirehep.net/literature/3232810"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -3,11 +3,11 @@
     "schema_version": "1.0",
     "canonical_key": "arxiv:2611.24592",
     "arxiv_id": "2611.24592",
-    "arxiv_version": 1,
+    "arxiv_version": 2,
     "inspire_id": null,
     "doi": null,
     "title_en": "Gutzwiller Quantum-Classical Embedding for Dynamics Simulations of Correlated Electron Systems",
-    "abstract_en": "Simulating the real-time dynamics of correlated electron systems requires a nonperturbative treatment of local correlations over long times, a challenge for classical methods. We present the time-dependent Gutzwiller quantum-classical embedding framework, t-GQCE, for generic multi-orbital lattice models with time-dependent Hamiltonians. Within the time-dependent ghost Gutzwiller approximation, the lattice dynamics is mapped onto a noninteracting quasiparticle lattice, propagated classically, coupled to finite interacting embedding models propagated on quantum processors. The two parts exchange only embedding Hamiltonian parameters and single-particle density matrices, and the framework is agnostic to the quantum dynamics solver. We demonstrate it with adaptive variational quantum dynamics simulations of interaction quenches in the Hubbard model on the Bethe lattice. Without ghost orbitals, the embedding problem reduces to a single qubit, simulated on IBM quantum hardware with two qubits, including an ancilla. With more ghost orbitals, t-GQCE suppresses the artificial undamped oscillations of the conventional Gutzwiller approximation and approaches nonequilibrium dynamical mean-field theory results for weak and strong quenches. Statevector simulations with 2, 4 and 6 ghost orbitals per spin, or 8, 12 and 16 qubits, give adaptive circuits that follow the embedding states with infidelities below $5\\times10^{-4}$. Under trapped-ion noise models, circuit compression, measurements in rotated orbital bases with post-selection, and noise mitigation reduce the measurement errors severalfold. At one third of the error rates of a hardware-benchmarked noise model, they reach an accuracy of $0.01$ for the single-particle density matrix and the double occupancy with $10^5$ shots per time step, and the Quantinuum H2-Emulator gives similar accuracy.",
+    "abstract_en": "Simulating the real-time dynamics of correlated electron systems requires a nonperturbative treatment of local correlations over long times, a challenge for classical methods. We present the time-dependent Gutzwiller quantum-classical embedding framework, t-GQCE, for generic multi-orbital lattice models with time-dependent Hamiltonians. Within the time-dependent ghost Gutzwiller approximation, a noninteracting quasiparticle lattice propagated classically is coupled to finite interacting embedding models propagated on quantum processors. The two parts exchange only embedding Hamiltonian parameters and single-particle density matrices, and the framework is agnostic to the quantum solver. We demonstrate it with adaptive variational quantum dynamics simulations of interaction quenches in the Hubbard model on the Bethe lattice. Without ghost orbitals, the embedding problem reduces to a single qubit, simulated on IBM quantum hardware with an ancilla qubit. With ghost orbitals, t-GQCE suppresses the artificial undamped oscillations of the conventional Gutzwiller approximation and approaches nonequilibrium dynamical mean-field theory results for weak and strong quenches. Statevector simulations with 2 to 6 ghost orbitals per spin, or 8 to 16 qubits, give adaptive circuits that follow the embedding states with infidelities below $5\\times10^{-4}$. Under trapped-ion noise models, circuit compression, measurements in rotated orbital bases with post-selection, and noise mitigation reduce the errors two- to threefold. At one third of the error rates of a hardware-benchmarked noise model, they reach an absolute accuracy of $0.01$ for all single-particle density matrix elements and the double occupancy with $10^5$ shots per time step, and the Quantinuum H2-Emulator gives similar accuracy, suggesting that t-GQCE is a viable approach for early fault-tolerant quantum processors.",
     "authors": [
       "Joshua Aftergood",
       "Daniele Guerci",
@@ -25,22 +25,22 @@
       "physics.comp-ph"
     ],
     "submitted_at": "2026-11-18T15:18:58Z",
-    "updated_at": "2026-11-18T15:18:58Z",
+    "updated_at": "2026-11-24T02:51:29Z",
     "document_types": [],
     "journal_ref": null,
     "publication_info": [],
     "citation_count": null,
     "citation_count_without_self_citations": null,
-    "abs_url": "https://arxiv.org/abs/2611.24592v1",
-    "pdf_url": "https://arxiv.org/pdf/2611.24592v1",
+    "abs_url": "https://arxiv.org/abs/2611.24592v2",
+    "pdf_url": "https://arxiv.org/pdf/2611.24592v2",
     "inspire_url": null,
-    "is_update": false,
+    "is_update": true,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.24592",
-        "fetched_at": "2026-11-24T15:15:10.344639Z",
-        "url": "https://arxiv.org/abs/2611.24592v1"
+        "fetched_at": "2026-11-25T05:28:48.235799Z",
+        "url": "https://arxiv.org/abs/2611.24592v2"
       }
     ],
     "is_demo": false
