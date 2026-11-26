@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34481",
+    "arxiv_id": "2611.34481",
+    "arxiv_version": null,
+    "inspire_id": "3233743",
+    "doi": null,
+    "title_en": "High-Throughput GPU Decoding of Quantum Bivariate Bicycle Codes under Circuit-Level Noise",
+    "abstract_en": "Bivariate bicycle (BB) codes reduce the physical-qubit overhead of quantum error correction compared to other codes such as Surface codes, but circuit-level faults create dependencies across measurement rounds that limit decoding throughput. We present a parallel-window GPU decoder that combines reusable fault patterns, compact shared-memory state, and persistent GPU workers using min-sum with Relay-BP recovery. On an RTX 5090, the proposed decoder keeps pace with one syndrome round every 1 $μ$s across all four evaluated codes, up to [[144,12,12]] with 63-144 $μ$s median commit delays. This rate has not been demonstrated in prior circuit-level GPU decoding studies and it provides $120\\times$ higher decoding throughput than sequential sliding-window decoding. Checking neighboring detector rounds before accepting a decoding result reduces failure rates by up to 65%. For [[144,12,12]] at $p=0.002$, our proposed decoder achieves $7.58\\times 10^{-6}$ failures per round, 36% lower than the published belief propagation (BP) with syndrome flipping (BP-SF) result.",
+    "authors": [
+      "Sodhani, Aditya",
+      "Parhi, Keshab K."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:30.340257Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233743",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233743",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233743"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

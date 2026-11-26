@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34266",
+    "arxiv_id": "2611.34266",
+    "arxiv_version": null,
+    "inspire_id": "3233926",
+    "doi": null,
+    "title_en": "Quantum Algorithm for Direct Estimation of Energy-Level Differences via Quantum Dynamics Simulation",
+    "abstract_en": "We present a quantum algorithm for the early fault-tolerant quantum computing (early-FTQC) era that estimates minute energy-level differences, such as energy gradients and molecular forces, at a lower sampling cost than existing phase-estimation methods. Such energy derivatives, accessed as the small energy difference induced by an infinitesimal parameter shift, are central to quantum simulation in chemistry and materials science. Although Statistical Phase Estimation (SPE) is well-suited to energy estimation in this era, applying it to an energy difference demands a sampling complexity that scales with the operator norm of the full Hamiltonian, which grows with system size. Our algorithm overcomes this by incorporating two time-evolution operators, corresponding to the Hamiltonians before and after the parameter shift, into a single quantum circuit, which is combined with a non-adaptive, statistically sampled reconstruction in the energy-difference domain. This reduces the relevant scale from the operator norm of the full Hamiltonian to that of the operator norm of the Hamiltonian derivative and the parameter shift, thereby lowering the sampling complexity. We further propose the joint estimation of energy eigenvalues and their differences, giving a holistic view of the energy landscape. Numerical simulations and resource estimations on prototypical systems, such as the Fermi-Hubbard model, demonstrate the resulting reductions in required resources without compromising precision. This positions energy-difference estimation as a practical task for early-FTQC devices, opening a route to molecular forces, response properties, and excited-state energy differences.",
+    "authors": [
+      "Matsumoto, Norifumi",
+      "Nakagawa, Yuya O.",
+      "Kanasugi, Shota",
+      "Hidaka, Yuichiro",
+      "Maruyama, Kazunori",
+      "Oshima, Hirotaka"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:13.693633Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233926",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233926",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233926"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

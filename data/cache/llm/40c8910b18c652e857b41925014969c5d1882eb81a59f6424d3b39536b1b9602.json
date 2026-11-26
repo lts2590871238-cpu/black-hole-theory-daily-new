@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": false,
+  "primary_topic": "black_hole_thermodynamics",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 12,
+    "methodological_rigor": 11,
+    "novelty": 11,
+    "clarity": 7,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 2
+  },
+  "total_score": 47,
+  "reject_reason_zh": "该文讨论量子达尔文主义/客观性的热力学代价（记录、冗余、擦除、Landauer界），属于量子信息与统计物理交叉研究，并非黑洞热力学；与候选主题black_hole_thermodynamics缺乏实质关联，也未涉及度规仿射引力、Palatini或修改引力。",
+  "selection_reason_zh": "",
+  "title_zh": "客观性的热力学预算",
+  "abstract_zh": "当一个事件存在足够多的独立记录，以致无法进行任何操作再让所有观察者对其一无所知时，这个事件就成为事实。记录是物理的，创建、保存与销毁记录都具有热力学代价。我们在一个最小广播模型中精确计算这些代价：一个被驱动的中心量子比特把记录写入 $N$ 个初始处于热态的寄存器，并配备功源与温度为 $T$ 的热浴。这里概述各操作的基本论证，完整处理见正文。在冗余度 $R$ 与信息亏损 $δ$ 下创建一个事件记录所需功为 $W \\ge R\\, k_\\mathrm{B}T \\ln 2\\, (1-δ) H(\\varepsilon)$，在冗余度上线性，系数为 Landauer 系数。若在相对本征选择相互作用偏角 $θ$ 的基上记录，则存在临界角 $θ_c = 2\\arcsin\\sqrt{H_2^{-1}(δ)}$，超过该角则无论多少功都无法达成客观性；低于 $θ_c$ 时，最优功是指针基下的闭式表达，使客观性所需功最小。若可获取的记录少于 $R - R_{\\min} + 1$，则无论多少功都不可能降低客观性；而一旦获得访问权，功也保护不了任何东西。记录间的冗余是可提取的自由能，擦除被访问的记录可获得超出第一份拷贝的净功增益。第二定律约束关联的销毁：从对手控制的扇区擦除一个事实至少耗散所擦除的互信息，而合并则不耗散任何东西。处于再热化介质中的记录是非平衡稳态，在 $(R,δ)$ 下维持一条记录所需的最小功率，是已知的两态驱动界限在记录质量边界处的取值。",
+  "keywords_en": [
+    "quantum Darwinism",
+    "objectivity",
+    "thermodynamics of information",
+    "Landauer principle",
+    "redundancy",
+    "records",
+    "mutual information",
+    "nonequilibrium steady states"
+  ],
+  "keywords_zh": [
+    "量子达尔文主义",
+    "客观性",
+    "信息热力学",
+    "Landauer 原理",
+    "冗余度",
+    "记录",
+    "互信息",
+    "非平衡稳态"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-26T14:26:02.304353Z"
+}

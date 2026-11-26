@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34102",
+    "arxiv_id": "2611.34102",
+    "arxiv_version": null,
+    "inspire_id": "3233932",
+    "doi": null,
+    "title_en": "Proceedings of \"Accelerating ALICE background simulations: A WGAN Approach to slow-neutron induced TPC loopers\" CHEP 2026, 26/05/2026",
+    "abstract_en": "The simulation of background processes in high-energy physics can be computationally expensive and time-consuming. To provide the most realistic data description at the ALICE experiment using Monte Carlo simulations, we investigated alternative solutions to generate the products of electromagnetic interactions initiated by slow neutrons in the Time Projection Chamber (TPC). Specifically, electrons and positrons from these processes can spiral repeatedly within the magnetic field in the detector (so-called \"loopers\") and tracking them via full transport frameworks, such as GEANT4, requires extensive computing resources. A fast simulation framework based on a Wasserstein Generative Adversarial Network (WGAN) was developed to speed up the simulation process. Our solution is designed to bypass the significant computational cost associated with transporting neutrons to low energies by directly generating the kinematic properties (e.g., momentum, production vertex) of the resulting electron-positron pairs (from neutron capture) and electrons from Compton scattering. The generative model successfully reproduces the complex multidimensional distributions of the background tracks with high fidelity, maintaining agreement with the full GEANT4 simulation. By replacing the full transport of these specific background components with the WGAN inference, a tenfold speedup is achieved, making the simulation of loopers a negligible component of the total processing time. Moreover, the fast simulation framework is modular, allowing for the future inclusion of other background sources, such as nuclear spallation products.",
+    "authors": [
+      "Giacalone, Marco",
+      "Wenzel, Sandro Christian",
+      "Arslandok, Mesut",
+      "Morsch, Andreas"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T07:44:06.413380Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233932",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233932",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233932"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

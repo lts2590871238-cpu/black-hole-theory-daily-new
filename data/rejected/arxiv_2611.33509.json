@@ -1,0 +1,56 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.33509",
+    "arxiv_id": "2611.33509",
+    "arxiv_version": null,
+    "inspire_id": "3233881",
+    "doi": null,
+    "title_en": "Reducing T gates in product formulas with agent loops",
+    "abstract_en": "Quantum chemistry calculations on a fault-tolerant quantum computer usually require many $\\text{T}$ gates. This cost depends on the simulation method and how precisely its rotations are implemented. In this paper, we used Nemotron 3.5 Lightning, a large language model (LLM), in a coding-agent loop to optimize the structure and rotation-synthesis precision of product formulas (PFs) for quantum phase estimation (QPE). Each of five independent searches optimized a shared protocol across 115 HamLib molecular Hamiltonians spanning 4--16 qubits over 100 code mutations. The searches started from a calibrated, nested second-order PF with uniform synthesis precision. We minimized $T_{95}$, the estimated total $\\text{T}$-gate cost including QPE queries and repeated attempts for $95\\%$ success probability, while requiring chemical accuracy for every training Hamiltonian. We name the best protocol found error-limited optimized Trotter evolution (ELOTE). It achieves chemical accuracy for its training data and achieved median and geometric-mean $T_{95}$ reductions of $85.35\\%$ and $84.82\\%$, respectively. ELOTE combines contributions to the same Pauli string, uses a first-order PF, and varies synthesis precision with coefficient magnitude, Pauli support, and diagonal character. We also tested ELOTE on 76 larger Hamiltonians with 18--22 qubits, which met chemical accuracy in every case. For ten reaction energies, we further optimized a shared $δ$-ELOTE protocol. It reduced geometric-mean $T_{95}$ by $58.90\\%$ relative to ELOTE while preserving chemical accuracy for every signed reaction difference. These classically verified results show cost savings from shared protocols across molecules and reactions, and motivate similar searches in which energy measurements from quantum computers guide explorations in a coding-agent loop.",
+    "authors": [
+      "Calderón, Luis Mantilla",
+      "Gonthier, Jérôme F.",
+      "Zook, Alex",
+      "Nakaji, Kohei",
+      "Patti, Taylor L.",
+      "Aspuru-Guzik, Alán"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:23.374099Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233881",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233881",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233881"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

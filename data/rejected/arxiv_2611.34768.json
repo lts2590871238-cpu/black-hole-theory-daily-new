@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34768",
+    "arxiv_id": "2611.34768",
+    "arxiv_version": null,
+    "inspire_id": "3233783",
+    "doi": null,
+    "title_en": "The integrable Lie-Trotter-Suzuki decomposition for nonlinear dynamics: Efficient Hamiltonian simulation of the Stepanoff flow",
+    "abstract_en": "We propose an efficient unitary numerical time integration strategy for nonlinear dynamical systems: the integrable Lie-Trotter-Suzuki decomposition (I-LTS). First, express the generator as a sum of integrable parts. Second, approximate the full evolution operator using a Lie-Trotter-Suzuki (LTS) decomposition of the desired approximation order in time step. The I-LTS construction ensures that the full evolution operator can be represented as a product of terms that each have an efficient explicit tensor product factorization that can be handled efficiently with tensor network and/or quantum block-encoding methods. Next, we apply this method to an important non-integrable point example of a dynamical system: the Stepanoff flow on the torus. First, we derive an efficient unitary quantum algorithm for simulating the Stepanoff flow that can be thought of as a unitary classical version of a quantum map. Then, we provide a detailed description of the encoding of the two-dimensional system into an efficient quantum circuit, including an efficient block-encoding for all required operators. An efficient Hamiltonian simulation algorithm is constructed using a sequence of alternating quantum Fourier transforms (QFT) and Quantum Signal Processing (QSP) circuits. Finally, the circuit is simulated using a numerical emulator of fault-tolerant quantum computers, and the results are found to be consistent with several alternative classical computational methods. While efficient, the need for Trotterization introduces fundamental complexity in requiring small enough time step for an accurate approximation and solving for the transfer operator requires one to confront the linear scaling of the advection operator with grid size.",
+    "authors": [
+      "Joseph, Ilon",
+      "Novikau, Ivan",
+      "Montgomery, Michael R.",
+      "Slawinska, Joanna",
+      "Giannakis, Dimitrios"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:37.039459Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233783",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233783",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233783"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,51 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.33730",
+    "arxiv_id": "2611.33730",
+    "arxiv_version": null,
+    "inspire_id": "3233738",
+    "doi": null,
+    "title_en": "Improved Quantum Algorithms for TSP and More",
+    "abstract_en": "The traveling salesman problem (TSP) is a canonical NP-hard optimization problem. For general edge weights, the classical dynamic programs of Bellman and of Held and Karp solve TSP on $n$ cities in $O^*(2^n)$ time. To date, no $\\Oh(c^n)$-time classical algorithm is known for any $c<2$. Combining Grover search with the dynamic programming technique, Ambainis et al. (SODA 2019) introduced a quantum algorithm with running time $O^*(1.7274^n)$, which is still the best known quantum time bound. In this work, we improve the running time to $O^*(1.70961^n)$. The core idea of our algorithm is to combine the framework of Ambainis et al. with the extremal set-system framework, which was recently used for classical space-time tradeoffs of TSP by Jabal Ameli, Nederlof and Wang (FOCS 2026) and Dallant and Kozma (FOCS 2026). To obtain our upper bound, we decompose the optimal tour into four consecutive subpaths of different sizes, for which, based on the idea of set-systems, the optimal values are computed using dynamic programming with small success probability and use amplitude amplification. Using the same idea, we also give a new quantum space-time tradeoff for TSP, improving the previous results of Caroppo et al. (ESA 2026) and Dallant (arXiv:2607.12374). Finally, we obtain the same quantum upper bounds for several other related problems.",
+    "authors": [
+      "Miyamoto, Masayuki"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:25.043876Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233738",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233738",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233738"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

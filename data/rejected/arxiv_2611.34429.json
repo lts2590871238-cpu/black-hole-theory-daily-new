@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34429",
+    "arxiv_id": "2611.34429",
+    "arxiv_version": null,
+    "inspire_id": "3233965",
+    "doi": null,
+    "title_en": "Native higher-order optimization with entropy quantum computing",
+    "abstract_en": "Higher-order interactions are common in applied optimization: parity checks, radar-code sidelobes, portfolio skewness and kurtosis, and marketing-channel synergies all yield cubic or quartic objectives. Quantum annealers and most Ising machines accept only quadratic objectives, and gate-based quantum processors build every higher-order term from two-qubit gates. Entropy quantum computing, realized in the hybrid photonic-electronic Dirac-3S system, accepts polynomials of degree up to five with all-to-all coupling over binary, integer or simplex-constrained continuous variables. No user-supplied quadratization or circuit compilation is needed. We formulate four industrial use cases as six cubic and quartic instances, run them on Dirac-3S with 30 samples each, and score every sample against a certified optimum or a classical best-known value. We also estimate their cost on quantum annealers, superconducting grids and trapped-ion registers under standard mappings. For the two densest instances, a portfolio with about 80,000 terms and a budget allocation with 360,000 terms, the quadratized problems need embeddings far beyond current annealers, over $10^5$ physical qubits for the portfolio alone, and one phase-separation layer costs over $10^6$ two-qubit gates before optimization. Dirac-3S ran all six natively and returned feasible, distinct solutions. All samples of the binary instances are single-flip local minima. The best portfolio sample lies within 0.32% of the best-known value and the best budget sample 15% above it, but no sample reached its reference. Classical solvers reach the references within minutes at these sizes, and random starts followed by a local polish reach comparable or better values, so the advantage established here is one of expressibility and mapping cost, not of solution quality. Whether it extends to time to solution at larger sizes remains open.",
+    "authors": [
+      "Hegade, Narendra N.",
+      "Chandarana, Pranav",
+      "Wagner, Sebastian",
+      "Qawami, Bahman",
+      "Dyk, Wesley"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:16.692401Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233965",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233965",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233965"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

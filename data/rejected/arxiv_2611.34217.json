@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34217",
+    "arxiv_id": "2611.34217",
+    "arxiv_version": null,
+    "inspire_id": "3233742",
+    "doi": null,
+    "title_en": "Geometry, masking and selection in Differential Evolution and SOMA on quantum state manifolds",
+    "abstract_en": "Differential Evolution (DE) and the Self-Organizing Migrating Algorithm (SOMA) generate new candidates through vector arithmetic: they subtract population members, scale the difference, and mask coordinates. Many practical search spaces are not vector spaces, however. Rotation angles are periodic, normalized states lie on spheres and projective spaces, and circuit parameters are coupled through the quantum states they produce. We present a systematic study of how such geometry affects the core operations of DE and SOMA. Keeping the operators and selection rules fixed, we replace only their geometric primitives and separate the effects of difference construction, masking, and selection in a large paired numerical study covering textbook manifolds and variational quantum problems. Geometry-consistent differences make full-crossover (CR = 1) DE significantly better on 16 of 31 non-Euclidean configurations, with no significant deterioration, and the advantage persists when the measured computational cost of each variant is taken into account. The effect is largest where ordinary subtraction misrepresents distances between candidates: success on periodic synchronization rises from 44% to 100%, and on a positive-definite matrix problem from 1% to 99%. On six- qubit variational eigensolvers, shortest-path angular differences reduce the mean final loss by 90% for about 3% extra runtime. The improvements come with two contrasting diversity patterns, more effective population contraction or preserved population diversity, so higher acceptance rates do not necessarily indicate better search. Crossover masks interact with geometry: they can favor cheaper retractions and can increase the distance moved in quantum-state space when circuit parameters are coupled. These results give practical rules for designing population-based optimizers on non-Euclidean and quantum search spaces.",
+    "authors": [
+      "Novák, Vojtěch",
+      "Zelinka, Ivan"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:15:49.332483Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233742",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233742",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233742"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

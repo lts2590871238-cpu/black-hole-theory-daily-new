@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.33953",
     "arxiv_id": "2611.33953",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3233739",
     "doi": null,
     "title_en": "PINN-Slicer: Exploiting Rotational Symmetry to Solve the Photon Orbit Equation Around a Black Hole",
     "abstract_en": "Physics-Informed Neural Networks (PINNs) typically struggle with long-horizon domains, often requiring the network to be retrained as the domain grows. We present PINN-Slicer, a method for second-order autonomous ordinary differential equations, $\\ddot{u} = G(u, \\dot{u})$, which exploits the invariance of this class of equations under translations of the independent variable. A single PINN, embedded within a solution ansatz that enforces the initial conditions explicitly, is trained on a thin slice of the independent variable using Sobol-sampled initial conditions. The PINN is then deployed recursively, slice-by-slice, across the full domain. We demonstrate PINN-Slicer on the nonlinear equation that describes photon orbits around a black hole, and reach a point-by-point root-mean-square error (RMSE) below $10^{-3}$ in $u = r_s/r$ (the inverse radial coordinate in units of the Schwarzschild radius) relative to a finite-difference reference solution. A key advantage of PINN-Slicer is that a single trained network generalizes to any orbital initial condition within the training range, without retraining. In addition, PINN-Slicer can cope with solution domains that may not be known a priori.",
@@ -19,23 +19,31 @@
       "gr-qc",
       "physics.comp-ph"
     ],
-    "submitted_at": "2026-11-25T08:13:49Z",
-    "updated_at": "2026-11-25T08:13:49Z",
-    "document_types": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T06:16:27.907052Z",
+    "document_types": [
+      "conference paper"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.33953v1",
     "pdf_url": "https://arxiv.org/pdf/2611.33953v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233739",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.33953",
-        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
         "url": "https://arxiv.org/abs/2611.33953v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3233739",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233739"
       }
     ],
     "is_demo": false

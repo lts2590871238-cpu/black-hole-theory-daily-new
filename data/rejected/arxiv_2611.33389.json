@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.33389",
+    "arxiv_id": "2611.33389",
+    "arxiv_version": null,
+    "inspire_id": "3233835",
+    "doi": null,
+    "title_en": "Constructively Embedding Quantum Error-Correcting Codes",
+    "abstract_en": "Implementing quantum error-correcting codes (QECCs) requires more than favorable algebraic parameters: the interactions among data qubits and ancillas must also fit physical hardware. Surface codes map naturally onto two-dimensional arrays, but many quantum LDPC codes have Tanner graphs with nonlocal connections. We develop a constructive pipeline that maps a QECC's Tanner graph to the targeted hardware lattice in three stages (continuous embedding, grid assignment, and path routing). Continuous embeddings reveal the geometric structure of the code, including differences between stabilizer generator sets of the same code. The discrete stages produce explicit routed layouts that we can characterize and compare using proxy metrics for footprint, communication overhead, and congestion for syndrome extraction. We examine three continuous embedding methods: multidimensional scaling (distance-based), spectral embedding (Laplacian-based), and spring layout (force-based) for the first stage. Experiments across tested codes show how routing geometry, dimension, and scale selection affect the resulting costs. In ablation studies on the radius-2 (R2) HaPPY code, graph-aware methods for continuous embedding and the choice of path-routing algorithm matter more than the grid assignment under our chosen weights in the cost function. Changing the continuous embedding reveals a trade-off: MDS incurs greater communication overhead than spectral embedding over most tested scales, while spring layout can reduce communication overhead at intermediate scales but increases congestion and is less stable across scales.",
+    "authors": [
+      "He, Yucheng",
+      "Brun, Todd A."
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-26T13:13:00.375298Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233835",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233835",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233835"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

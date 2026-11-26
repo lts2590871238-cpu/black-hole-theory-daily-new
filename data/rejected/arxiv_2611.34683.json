@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34683",
+    "arxiv_id": "2611.34683",
+    "arxiv_version": null,
+    "inspire_id": "3234008",
+    "doi": null,
+    "title_en": "Experimental Quantum Hardware Benchmarks of Flat Non-Clifford Hypergraph States, Antipodal Obstructions, and Nonlocal Games on IBM Heron r2",
+    "abstract_en": "Real-hardware demonstrations of quantum contextuality have reached high precision on superconducting processors, exemplified by Google Quantum AI's Mermin-Peres magic square and stabilizer games on Willow (Science, 2026). Extending such benchmarks beyond the Clifford regime requires non-Clifford hypergraph states |ψ_f> = 2^{-n/2}∑_x (-1)^{f(x)} |x> governed by discrete algebraic invariants. Building on our Lean 4-verified framework of Modular Walsh Rigidity and Antipodal Obstructions, we present an experimental study on two 156-qubit IBM Heron r2 processors (ibm_fez, ibm_kingston) across 3 to 50 qubits and 11 auditable jobs (2.13 RUs total). First, we verify antipodal obstructions and mod-17 Walsh rigidity for degree-3/4 states (n=6,8,10), observing 5.4x-11.6x X-basis flatness separation between bent states, obstructed controls, and a degree-4 mod-3 fooler (W = +-1 mod 3), plus n=7 nonlinearity extraction (54.83 vs. 56.00). Second, barrier-protected Loschmidt echoes confirm non-Clifford coherence up to genuinely entangled 16-qubit degree-4 states (1,488x above random on ibm_fez; 17,296x on ibm_kingston for 2x8q, a 2.87x cross-chip gain) and locate a Heavy-Hex depth-513 coherence cliff. Third, calibration-aware layout raises the raw Mermin-Peres win rate on ibm_fez to 96.85 +- 0.09% raw (+87.4 sigma above 88.89% classical; 1.45 pp below Willow's 98.30% raw), while a tensored SPAM diagnostic reaches 98.35%. Uniformly random even-weight GHZ parity games beat the classical bound up to n=30 (89.44% [+79.4 sigma] at 6q to 59.46 +- 0.54% [+17.4 sigma] at 30q). Finally, 3-qubit CCZ rotated Mermin-3 (83.95 +- 0.29%, +31.2 sigma) and Hardy/Guhne-Cabello (77.15 +- 0.33%, +6.5 sigma) games strictly violate the exhaustive 75.00% LHV ceiling, and degree-3/4 antipodal parity witnesses achieve up to +45.87 pp (n=12) and +35.79 pp joint advantage on connected 16-qubit degree-4 states.",
+    "authors": [
+      "Vono, Filipe Martins",
+      "Santos, Valéria Gonzaga",
+      "de Toledo, André Oliveira Naufel"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T13:12:55.575401Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3234008",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3234008",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3234008"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

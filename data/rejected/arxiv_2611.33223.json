@@ -1,0 +1,58 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.33223",
+    "arxiv_id": "2611.33223",
+    "arxiv_version": null,
+    "inspire_id": "3233795",
+    "doi": null,
+    "title_en": "CLEAR: A Contrastive-Masked Foundation Model for BESIII Event Understanding",
+    "abstract_en": "The increasing diversity and complexity of decay channels at high energy physics experiments pose a challenge to analysis workflows, which require time-consuming, labor-intensive channel-specific selections and optimization. This motivates the development of foundation models capable of learning a unified representation transferable across different channels. In this paper, we introduce CLEAR (Contrastive Learning for Event Attention-based Representation), a foundation model designed for physics analysis at BESIII that combines masked modeling and contrastive learning to support decay channel classification and anomaly detection. Masked modeling trains the encoder to predict masked particle features by learning inter-particle correlations, while contrastive learning improves the local clusterability and linear separability of the representation space for discrimination. By further examining the balance between alignment and uniformity, we investigate how contrastive learning shapes the local neighborhood geometry of the representation space and how this geometry relates to classification and anomaly detection performance. Decay channel classification favors a balance between alignment and uniformity, whereas anomaly detection benefits from a greater relative weight on uniformity. For exclusive final-state identification, CLEAR achieves higher signal efficiency than conventional cut-based methods at matched purity and provides a framework that can potentially be extended to other high-energy physics experiments.",
+    "authors": [
+      "Chen, Jingde",
+      "Shang, Zijie",
+      "Liu, Tong",
+      "Zhang, Yao",
+      "Liu, Beijiang",
+      "Yuan, Changzheng",
+      "Wang, Xiongfei",
+      "Li, Ke"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-24T00:00:00Z",
+    "updated_at": "2026-11-26T13:12:56.816884Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233795",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3233795",
+        "fetched_at": "2026-11-26T14:25:03.132138Z",
+        "url": "https://inspirehep.net/literature/3233795"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
