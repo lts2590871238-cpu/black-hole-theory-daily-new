@@ -19,11 +19,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update-and-deploy:
+  update-and-build:
+    name: Fetch, verify and build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -93,9 +91,6 @@ jobs:
         with:
           path: dist
 
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
 
       - name: Write run summary
         if: always()
@@ -106,3 +101,50 @@ jobs:
           if [ -n "$REPORT" ]; then
             python -c "import json,sys; d=json.load(open(sys.argv[1],encoding='utf-8')); print('\\n'.join(f'- {k}: {d.get(k)}' for k in ('status','fetched_arxiv','fetched_inspire','deduplicated','candidates','pending_candidates','new_selected','selected','review_queue','rejected')))" "$REPORT" >> "$GITHUB_STEP_SUMMARY"
           fi
+
+  # Isolate deployments from the uploader. Re-running only a failed deploy
+  # must not create a second artifact with the same github-pages name.
+  deploy:
+    name: Publish GitHub Pages
+    needs: update-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry_1.outputs.page_url || steps.deployment_retry_2.outputs.page_url || steps.deployment_retry_3.outputs.page_url }}
+    steps:
+      # GitHub Pages artifact lookups can temporarily return no matches
+      # even after upload-pages-artifact reports success. Retry only deploy.
+      - name: Deploy GitHub Pages (attempt 1)
+        id: deployment
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - name: Pause before deploy retry 1
+        if: ${{ steps.deployment.outcome == 'failure' }}
+        run: sleep 5
+
+      - name: Deploy GitHub Pages (attempt 2)
+        id: deployment_retry_1
+        if: ${{ steps.deployment.outcome == 'failure' }}
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - name: Pause before deploy retry 2
+        if: ${{ steps.deployment_retry_1.outcome == 'failure' }}
+        run: sleep 20
+
+      - name: Deploy GitHub Pages (attempt 3)
+        id: deployment_retry_2
+        if: ${{ steps.deployment_retry_1.outcome == 'failure' }}
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      - name: Pause before deploy retry 3
+        if: ${{ steps.deployment_retry_2.outcome == 'failure' }}
+        run: sleep 60
+
+      # Final attempt is NOT masked: persistent failures remain visible in CI.
+      - name: Deploy GitHub Pages (final attempt)
+        id: deployment_retry_3
+        if: ${{ steps.deployment_retry_2.outcome == 'failure' }}
+        uses: actions/deploy-pages@v5
