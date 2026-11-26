@@ -1,0 +1,53 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34332",
+    "arxiv_id": "2611.34332",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Scaling and Cross-Simulation Generalization of Graph Neural Networks for Cosmic-Web Classification in CAMELS",
+    "abstract_en": "Graph-based methods can classify galaxies by their dark-matter cosmic-web environments, but reliability beyond development simulations remains uncertain. Galaxy-formation models alter tracer populations and spatial distributions, potentially shifting graph features. We test how graph neural networks scale with independent training realizations and transfer across hydrodynamical simulations. Using the $z=0$ CAMELS IllustrisTNG, SIMBA and Astrid suites, we label galaxies with $M_\\star>10^9\\,M_\\odot$ as void, sheet, filament or knot from the smoothed cold-dark-matter density field. We represent their spatial distributions as periodic Delaunay graphs with ten geometric descriptors. We compare a multilayer perceptron (MLP) and five graph neural networks (GNNs), including a local graph Transformer, under realization-grouped evaluation. Learning curves increase training data from 10 to 100 realizations, with validation and test boxes fixed. We test every source-to-target suite pairing on 100 unseen realizations per target suite. On this external holdout, the Transformer, GAT+ and EdgeConv reach mean per-realization macro-averaged F1 scores of $0.652$, $0.651$ and $0.642$, against $0.481$ for the MLP. The Transformer outperforms the MLP by 0.171, while the difference between the Transformer and GAT+ is not statistically significant. Voids remain the hardest class. Performance is higher in boxes with more selected galaxies and shorter Delaunay edges. Associations with cosmological and feedback parameters weaken after accounting for galaxy richness and void fraction. Our results benchmark the scaling and cross-simulation transfer of galaxy-graph classifiers, demonstrating the value of neighbourhood information and identifying tracer sampling as an important limitation for dark-matter web inference.",
+    "authors": [
+      "Kalash Thakkar",
+      "Unnati Shah"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "cs.LG"
+    ],
+    "submitted_at": "2026-11-25T13:10:54Z",
+    "updated_at": "2026-11-25T13:10:54Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.34332v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34332v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.34332",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "url": "https://arxiv.org/abs/2611.34332v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

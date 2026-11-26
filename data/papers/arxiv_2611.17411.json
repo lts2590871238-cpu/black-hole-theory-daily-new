@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.17411",
+    "arxiv_id": "2611.17411",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "HydróDex: gotta match 'em all!",
+    "abstract_en": "First-order phase transitions can source a stochastic gravitational-wave background within reach of LISA and other future detectors, with sound waves in the plasma typically providing the dominant contribution. Predicting the resulting gravitational-wave signal requires determining the stationary fluid profiles around expanding bubbles. We present a complete hydrodynamic classification of these profiles in the constant-sound-speed model, which generalizes the bag model by allowing the sound speeds in front of and behind the wall, $c_+$ and $c_-$, to differ. Solving the matching conditions at the wall and evolving the surrounding plasma, we recover the known direct and inverse detonations, deflagrations, and hybrids, and uncover mixed hybrids, a new class with rarefaction waves on both sides of the wall and oppositely directed fluid flows. For a sufficiently pronounced hierarchy $c_+>c_-$, multiple stationary profiles can correspond to the same wall velocity $ξ_w$ and asymptotic transition strength $α_N$. This non-uniqueness arises because this parametrization discards thermodynamic information and is resolved once the underlying microphysics is specified. We compute the kinetic-energy budget and acoustic gravitational-wave spectra within the sound-shell model, finding that mixed hybrids introduce no additional spectral feature and can be mimicked by ordinary direct or inverse hybrids with substantially different fluid profiles. Finally, we release HydróDex, a public code implementing the complete classification, profile construction, energy-budget calculation, and gravitational-wave prediction.",
+    "authors": [
+      "Giulio Barni",
+      "Eric Madge"
+    ],
+    "categories": [
+      "physics.flu-dyn",
+      "astro-ph.CO",
+      "hep-ph"
+    ],
+    "submitted_at": "2026-11-12T19:00:03Z",
+    "updated_at": "2026-11-25T17:44:49Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.17411v2",
+    "pdf_url": "https://arxiv.org/pdf/2611.17411v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.17411",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "url": "https://arxiv.org/abs/2611.17411v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "stochastic gravitational wave background",
+      "stochastic gravitational-wave background"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": true,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 12,
+      "methodological_rigor": 13,
+      "novelty": 9,
+      "clarity": 9,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 55,
+    "reject_reason_zh": "",
+    "selection_reason_zh": "该文给出恒声速模型中气泡周围流体剖面的完整流体力学分类，涵盖已知的爆燃、爆轰、混合型并发现新的混合型，还讨论了参数化非唯一性与微观物理分辨，并公开代码HydróDex，涉及一级相变产生的随机引力波背景，属于引力波源建模，虽与PTA主线（脉冲星计时）只间接相关但可作为随机背景源模型参考。",
+    "title_zh": "HydróDex：一个都不能少！",
+    "abstract_zh": "一阶相变可以在 LISA 及其他未来探测器的可及范围内产生随机引力波背景，其中等离子体中的声波通常提供主要贡献。预测所得到的引力波信号需要确定膨胀气泡周围的稳态流体剖面。我们在恒声速模型中给出这些剖面的完整流体力学分类，该模型推广了袋模型，允许壁前和壁后的声速 $c_+$ 与 $c_-$ 不同。通过求解壁处的匹配条件并演化周围等离子体，我们重现了已知的正向和逆向爆轰、爆燃与混合型，并发现了混合型混合体——一类在壁两侧均有稀疏波、且流体流动方向相反的新类别。对于足够显著的层级 $c_+>c_-$，多个稳态剖面可以对应同一壁速度 $ξ_w$ 和渐近转变强度 $α_N$。这种非唯一性源于该参数化丢弃了热力学信息，一旦指定了底层微观物理即可消除。我们在声壳模型中计算了动能预算和声学引力波谱，发现混合型混合体不引入额外的谱特征，且可被流体剖面显著不同的普通正向或逆向混合型所模仿。最后，我们发布 HydróDex，一个实现完整分类、剖面构建、能量预算计算和引力波预测的公开代码。",
+    "keywords_en": [
+      "first-order phase transitions",
+      "stochastic gravitational-wave background",
+      "hydrodynamic classification",
+      "bubble wall",
+      "detonation",
+      "deflagration",
+      "hybrid profiles",
+      "sound-shell model",
+      "LISA",
+      "public code"
+    ],
+    "keywords_zh": [
+      "一阶相变",
+      "随机引力波背景",
+      "流体力学分类",
+      "气泡壁",
+      "爆轰",
+      "爆燃",
+      "混合型剖面",
+      "声壳模型",
+      "LISA",
+      "公开代码"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-11-13.1",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-26T05:11:57.280922Z"
+  },
+  "published_at": "2026-11-26T05:11:57.281377Z"
+}

@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2606.04998",
+    "arxiv_id": "2606.04998",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": "10.1103/lbyk-26gh",
+    "title_en": "Self-force calculations with numerical relativity methods",
+    "abstract_en": "To model gravitational waveforms from extreme mass-ratio inspirals (EMRIs) for the upcoming LISA space mission, gravitational self-force calculations are needed to second order in perturbation theory. However, to date these calculations have only been attempted for the simplest case of circular orbits in Schwarzschild spacetime. In this work, we present a new computational method aimed at performing generic second-order self-force calculations in Kerr spacetime using methods from the adjacent field of numerical relativity. We perform an $m$-mode separation of variables, add null (``$vtu$'') slicing in horizon-penetrating coordinates, and solve the resulting elliptic partial differential equations using high-order discontinuous Galerkin discretization, adaptive mesh refinement, and an iterative Krylov-type linear solver with parallelizable multigrid-Schwarz preconditioning. We find that our method achieves exponential convergence for the self-force on a scalar point charge in Kerr spacetime up to spins of $|a|/M=0.998$ (Thorne limit) on circular equatorial orbits as close as the innermost stable circular orbit (prograde and retrograde), despite the nonsmooth solution on the grid. We solve for 20 $m$-modes in parallel in a few seconds and retain the flexibility to extend the method to gravitational self-force and more generic orbits in the future. The code to perform these calculations is publicly available in the open-source numerical relativity code SpECTRE.",
+    "authors": [
+      "Nils L. Vu",
+      "Nami Nishimura",
+      "Thomas Osburn",
+      "Jonathan E. Thompson",
+      "Lawrence E. Kidder",
+      "Samuel D. Upton",
+      "Barry Wardell"
+    ],
+    "categories": [
+      "gr-qc"
+    ],
+    "submitted_at": "2026-06-03T15:16:34Z",
+    "updated_at": "2026-11-25T12:51:08Z",
+    "document_types": [],
+    "journal_ref": "Phys. Rev. D 114, 064077 (2026)",
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2606.04998v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.04998v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2606.04998",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "url": "https://arxiv.org/abs/2606.04998v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

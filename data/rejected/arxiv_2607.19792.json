@@ -1,0 +1,55 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2607.19792",
+    "arxiv_id": "2607.19792",
+    "arxiv_version": 2,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "Accurate parameter inference for the Light-cone Epoch of Reionization 21-cm signal",
+    "abstract_en": "The light-cone (LC) effect breaks the statistical homogeneity along the line-of-sight (LoS) direction of the 21-cm signal. Consequently, the traditional power spectrum (PS) fundamentally fails to capture the full two-point statistical information. The evolving power spectrum (ePS) offers an alternative, explicitly accounting for the LoS evolution due to the LC effect while maintaining physical interpretability. We compare the statistical constraining power of three different summary statistics: the standard cylindrical PS $P(k_\\perp,k_\\parallel)$, slice-wise PS $P_s(k, z)$ (1D-PS computed over small bandwidth LC slices), and ePS $P_e(k, z)$. We first demonstrate that $P_e(k,z)$ successfully recovers the benchmark 1D-PS of coeval simulations across all scales and redshifts, whereas the slice-wise PS only recovers the 1D-PS at small scales. To efficiently perform parameter inference, we train artificial neural network (ANN) emulators on $500$ simulated LC 21-cm signals. Our forecasts incorporate cosmic variance, estimated using $50$ statistically independent realizations of the signal, alongside SKA-Low system noise for integration times of $1000$ and $104$ hours. We demonstrate that the ePS outperforms its peers, yielding credible intervals that are $\\sim 3$ and $\\sim 1.4$ times tighter than those obtained using $P(k_\\perp,k_\\parallel)$ and $P_s(k,z)$, respectively. These results establish the ePS as an optimal summary statistic for interpreting forthcoming large-bandwidth LC 21-cm observations.",
+    "authors": [
+      "Suman Pramanick",
+      "Anoop Krishna",
+      "Rajesh Mondal",
+      "Somnath Bharadwaj"
+    ],
+    "categories": [
+      "astro-ph.CO",
+      "gr-qc"
+    ],
+    "submitted_at": "2026-07-22T06:18:15Z",
+    "updated_at": "2026-11-25T14:55:22Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2607.19792v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.19792v2",
+    "inspire_url": null,
+    "is_update": true,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2607.19792",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "url": "https://arxiv.org/abs/2607.19792v2"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "modified_gravity",
+  "secondary_topics": [],
+  "scores": {
+    "theory_depth": 22,
+    "methodological_rigor": 16,
+    "novelty": 13,
+    "clarity": 8,
+    "metadata_quality": 4,
+    "community_signal": 0,
+    "other": 5
+  },
+  "total_score": 68,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该论文用遗传算法从观测数据重建标量-张量拉格朗日量，直接面向修改引力理论（标量-张量、非最小耦合）的符号回归重建，属于修改引力家族；理论构造与数据拟合结合，方法清晰且新颖，值得点击阅读。",
+  "title_zh": "一种重建标量-张量拉格朗日量的遗传算法方法",
+  "abstract_zh": "最近的DESI重子声学振荡（BAO）数据，结合宇宙微波背景（CMB）和Ia型超新星观测，已被解释为动力学暗能量的证据，其状态方程穿越幻影分界$w=-1$。这样的穿越无法由最小耦合标量场$\\varphi$平滑实现，但在标量-张量理论中可以自然出现。我们提出一个数据驱动的框架，直接从观测重建标量-张量拉格朗日量，使用遗传算法演化非最小耦合$F(\\varphi)$和标量势$U(\\varphi)$的符号表达式。每个候选者通过一个前向模型进行评估，该模型自洽地确定膨胀历史、有效引力耦合和结构增长。候选者按DESI DR2 BAO、经SH0ES造父变星校准的Pantheon+超新星、压缩CMB距离先验以及对$f\\sigma_8$的红移空间畸变测量的联合似然进行排序。我们限制在理论的未屏蔽分支，并对后牛顿参数$\\gamma$和引力耦合的时间变化施加太阳系约束，同时对其演化施加太初核合成约束。在64次独立运行中，最佳重建相对于$\\Lambda$CDM将拟合改善了$\\Delta\\chi^2=-16.6$，而CPL暗能量参数化为$\\Delta\\chi^2=-10.6$。偏好的耦合可很好地由$F(\\varphi)=c_1\\varphi^2+e^{\\varphi}(1-c_2\\varphi)$描述。重建的理论在$z\\gtrsim0.5$时表现出幻影行为，但在低红移处仍接近$w=-1$。",
+  "keywords_en": [
+    "scalar-tensor theory",
+    "genetic algorithm",
+    "symbolic regression",
+    "dark energy",
+    "modified gravity",
+    "cosmological constraints"
+  ],
+  "keywords_zh": [
+    "标量-张量理论",
+    "遗传算法",
+    "符号回归",
+    "暗能量",
+    "修改引力",
+    "宇宙学约束"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-26T05:12:27.930820Z"
+}

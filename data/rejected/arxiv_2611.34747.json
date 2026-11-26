@@ -1,0 +1,52 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.34747",
+    "arxiv_id": "2611.34747",
+    "arxiv_version": 1,
+    "inspire_id": null,
+    "doi": null,
+    "title_en": "phenjax: the IMRPhenomT waveform family in JAX for accelerated analyses on CPUs and GPUs",
+    "abstract_en": "We present phenjax, a JAX implementation of the precessing time-domain IMRPhenomT family of models for the gravitational wave signal emitted in compact binary coalescence. The code keeps the structure of its reference Python implementation, phenomxpy, and reproduces, on average, its polarizations to a few $\\times 10^{-12}$ of the peak strain for all the models, aligned-spin and precessing. The waveform models now take advantage of the JAX construction: compiled once per array shape, vectorized over events (batching), differentiable and executed on CPUs or GPUs with the same source code. Different additional features address the cost of long signals and of heterogeneous populations in a batch. On one NVIDIA H100, for the precessing TPHM model on LISA-mass populations, phenjax is 3 to 6 times faster than phenomxpy when both codes evaluate one event at a time and 20 to 30 times faster when phenjax evaluates the events in batches of 8. We estimate that, for waveform generation, one GPU does the work of 1300 to 2700 cores of a current CPU node at 25 to 45 times less energy per waveform. As a backend of a global-fit LISA massive black hole pipeline, performed on the Sangria dataset, phenjax recovers the same posteriors as the other waveform backends at a lower computational cost. In a comparison with phentax, the wall time was 13 minutes instead of 21.",
+    "authors": [
+      "Andrea Begnoni"
+    ],
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-11-25T17:23:45Z",
+    "updated_at": "2026-11-25T17:23:45Z",
+    "document_types": [],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": null,
+    "citation_count_without_self_citations": null,
+    "abs_url": "https://arxiv.org/abs/2611.34747v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34747v1",
+    "inspire_url": null,
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.34747",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "url": "https://arxiv.org/abs/2611.34747v1"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}

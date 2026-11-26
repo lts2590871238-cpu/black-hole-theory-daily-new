@@ -4,7 +4,7 @@
     "canonical_key": "arxiv:2611.31458",
     "arxiv_id": "2611.31458",
     "arxiv_version": 1,
-    "inspire_id": null,
+    "inspire_id": "3233715",
     "doi": null,
     "title_en": "A fermionic framework for quantum machine learning benchmarks",
     "abstract_en": "We present a framework for building and benchmarking scalable machine learning (ML) models based on simulating free-fermion systems. Our fermionic ML (FermiML) framework is (i) versatile enough to encompass kernel methods and neural networks, (ii) applicable to classification and regression, and (iii) scalable to real-world datasets. FermiML models are quantum circuits sharing the building blocks of most quantum ML (QML) models: (parameterized) qubit rotations and entangling gates. This allows us to build fermionic surrogates that mimic the architecture, and hence the quantum resources and inductive bias, of any QML model while remaining efficiently classically simulable. We thus benchmark QML models against close fermionic counterparts on equal footing and ascertain whether a purported QML gain truly stems from classically inaccessible resources or is an accidental side-effect. Across 31 configurations from five classification datasets, we benchmark quantum kitchen sinks (QKS), instantaneous quantum polynomial (IQP) and generic parameterized quantum circuit (PQC) models against fermionic surrogates. fQKS significantly outperforms QKS and is statistically indistinguishable from IQP and PQC; fPQC outperforms IQP and QKS and ties PQC in 28 configurations. We also introduce fermionic fidelity and Pfaffian covariance kernels for regression and establish QML baselines for this harder task. Finally, we introduce a fermionic energy-based classifier scalable to large text and image datasets, which outperforms prominent QML models on images, beats or closely trails them on text, and stays close to classical baselines throughout. Our results show that while performance depends sensitively on architecture, FermiML yields fermionic surrogates that challenge or outperform their unrestricted counterparts and fermionic QML models that match the scale of classical baselines on real-world datasets.",
@@ -16,23 +16,31 @@
     "categories": [
       "cond-mat.str-el"
     ],
-    "submitted_at": "2026-11-23T19:30:36Z",
-    "updated_at": "2026-11-23T19:30:36Z",
-    "document_types": [],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T15:21:41.815201Z",
+    "document_types": [
+      "article"
+    ],
     "journal_ref": null,
     "publication_info": [],
-    "citation_count": null,
-    "citation_count_without_self_citations": null,
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
     "abs_url": "https://arxiv.org/abs/2611.31458v1",
     "pdf_url": "https://arxiv.org/pdf/2611.31458v1",
-    "inspire_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3233715",
     "is_update": false,
     "source_provenance": [
       {
         "source": "arxiv",
         "record_id": "2611.31458",
-        "fetched_at": "2026-11-25T14:54:49.441701Z",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
         "url": "https://arxiv.org/abs/2611.31458v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3233715",
+        "fetched_at": "2026-11-26T05:10:50.331309Z",
+        "url": "https://inspirehep.net/literature/3233715"
       }
     ],
     "is_demo": false

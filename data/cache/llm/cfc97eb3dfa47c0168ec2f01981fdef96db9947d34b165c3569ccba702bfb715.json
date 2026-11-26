@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "relevant": true,
+  "primary_topic": "black_hole_thermodynamics",
+  "secondary_topics": [
+    "general_relativity_foundations"
+  ],
+  "scores": {
+    "theory_depth": 24,
+    "methodological_rigor": 16,
+    "novelty": 12,
+    "clarity": 8,
+    "metadata_quality": 5,
+    "community_signal": 1,
+    "other": 6
+  },
+  "total_score": 72,
+  "reject_reason_zh": "",
+  "selection_reason_zh": "该文以守恒荷的构造厘清 Kerr-AdS 黑洞第一定律与 Smarr 关系中能量与体积的区分，属于黑洞热力学核心议题，理论深度与方法论清晰度均较强，值得点击阅读。",
+  "title_zh": "体积在黑洞热力学中的作用",
+  "abstract_zh": "Gibbons 等人 [arXiv:hep-th/0408217] 通过积分黑洞热力学第一定律得到了 Kerr--反 de Sitter 黑洞的能量 $E$。他们发现 $E$ 对应于与渐近非旋转标架相联系的 Ashtekar--Magnon--Das (AMD) 能量，而与渐近旋转标架相联系的 AMD“能量”（我将其称为 $F$）不满足第一定律。在 Cvetič 等人 [arXiv:1012.2888] 中，第一定律被扩展，将 $E$ 解释为焓，将 $\\Lambda$ 解释为与压强成正比。随后与压强共轭的项被解释为“热力学体积”$V_{th}$。与（压强可变的）第一定律相联系的是 $E$ 的 Smarr 关系。$F$ 的 Smarr 关系也存在，而该 Smarr 关系中与压强共轭的项是“几何体积”$V_{geo}$，[arXiv:1310.1935] 表明它等于黑洞的矢量体积 $V_C$。为了解释为何必须使用 $E$ 而非 $F$ 才能得到可行的第一定律，但在与 $F$（而非 $E$）相联系的 Smarr 关系中却自然地出现 $V_C$，我改进了 Barnich 和 Compère [arXiv:gr-qc/0412029] 的工作，方法与 Killing 矢量 $\\chi$ 相联系的守恒量 $H^I_\\chi$。$E$ 和 $F$ 分别由 $H^I_\\xi$ 和 $H^I_\\beta$ 给出，其中 $\\xi$ 是渐近超曲面正交的，$\\beta$ 与主共形 Killing--Yano 张量 $\\boldsymbol{h}$ 的散度成正比。我证明，若 $\\chi^a$ 和背景反 de Sitter 度规的分量均不变，则 $H^I_\\chi$ 将满足第一定律；这对 $\\xi^a$ 成立，但对 $\\beta^a$ 不成立，从而解释了为何第一定律对 $E$ 成立而对 $F$ 不成立。我证明，$V_C$ 出现在与 $\\beta$ 相联系的 Smarr 关系中，是由于与 $\\boldsymbol{h}$ 相关的简化。",
+  "keywords_en": [
+    "black hole thermodynamics",
+    "first law",
+    "Smarr relation",
+    "thermodynamic volume",
+    "Kerr-AdS black holes",
+    "AMD energy",
+    "conserved charges"
+  ],
+  "keywords_zh": [
+    "黑洞热力学",
+    "第一定律",
+    "Smarr 关系",
+    "热力学体积",
+    "Kerr-AdS 黑洞",
+    "AMD 能量",
+    "守恒荷"
+  ],
+  "translation_warning": "",
+  "model": "deepseek:deepseek-v4-flash",
+  "prompt_version": "curation-2026-11-13.1",
+  "schema_version_used": "curation-schema-1.0",
+  "created_at": "2026-11-26T05:13:04.110337Z"
+}
