@@ -1,0 +1,54 @@
+{
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "doi:10.1103/dgzp-j833",
+    "arxiv_id": null,
+    "arxiv_version": null,
+    "inspire_id": "3234082",
+    "doi": "10.1103/dgzp-j833",
+    "title_en": "Learning adaptive unravelings for efficient quantum-trajectory simulations",
+    "abstract_en": "Different unravelings of the same Lindblad dynamics can generate markedly different levels of trajectory entanglement, with direct consequences for the efficiency of quantum-trajectory simulations of open many-body systems. This makes adaptive, state-dependent unraveling appealing, but in practice it requires online evaluation of short-time entanglement growth for candidate unravelings along every sampled trajectory. Here we amortize this overhead by learning adaptive unraveling from a small set of optimized trajectories, typically one to two orders of magnitude fewer than the trajectories used for Monte Carlo averaging, while retaining comparable entanglement suppression. Using local observables and tensor-network-aware features of the conditional state, the policy sets parameters in physically motivated unraveling manifolds that extend photon counting and field-quadrature measurements. We benchmark the approach on locally dephased Brownian circuits, Dicke superradiant decay, and dissipative preparation of correlated spin states, which probe local, collective, and quasilocal forms of dissipation, respectively. Our results identify adaptive unraveling as a learnable, reusable component for more efficient quantum-trajectory simulations.",
+    "authors": [
+      "Dong, Xing-Liang",
+      "Xiao, Yun-Feng"
+    ],
+    "categories": [],
+    "submitted_at": "2026-11-25T00:00:00Z",
+    "updated_at": "2026-11-26T16:42:07.800587Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [
+      "114, 052451, publication, 2026, {'$ref': 'https://inspirehep.net/api/journals/1613967'}, 5, Phys.Rev.A"
+    ],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": null,
+    "pdf_url": null,
+    "inspire_url": "https://inspirehep.net/literature/3234082",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "inspire",
+        "record_id": "3234082",
+        "fetched_at": "2026-11-27T05:06:40.859931Z",
+        "url": "https://inspirehep.net/literature/3234082"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": false,
+    "candidate_topics": [],
+    "high_weight_hits": [],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [
+      "未达到主题关键词门槛"
+    ],
+    "deterministic_score": 0
+  },
+  "schema_version": "1.0"
+}
