@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "paper": {
+    "schema_version": "1.0",
+    "canonical_key": "arxiv:2611.30504",
+    "arxiv_id": "2611.30504",
+    "arxiv_version": 1,
+    "inspire_id": "3233308",
+    "doi": null,
+    "title_en": "A Log-Normal Timing Likelihood for Direction Reconstruction of Ultra-High-Energy Gamma-Ray Air Showers",
+    "abstract_en": "Ultra-high-energy $γ$-ray observations provide a direct probe of Galactic PeVatrons. Extending measurements to multi-PeV energies requires characterizing extensive air showers over large lateral distances, where the arrival-time distribution of secondary particles becomes broad and strongly asymmetric. Conventional direction reconstruction methods approximate the shower front as a deterministic surface and minimize a $χ^2$ function of timing residuals. Because this implicitly assumes symmetric Gaussian errors, far-axis timing information is poorly utilized. \\textsc{CORSIKA} simulations show that the arrival-time distribution of $γ$-induced secondary particles in the shower plane at a given lateral distance is positively skewed and closely follows a log-normal function. Using this property, we develop a likelihood-based direction reconstruction method that directly models the empirical arrival-time distribution and its radial dependence while accounting for multiple particles triggering the same detector unit. Applied to simulated $γ$-induced air showers, the log-normal likelihood consistently improves angular resolution compared with conical and parabolic wavefront fits, with the largest relative gains for high-energy events spanning wide lateral extents. We also show that independent readout of individual detector units yields better angular resolution than merging their signals into a single station-level measurement.",
+    "authors": [
+      "Jun-Yu Shen",
+      "Yi Zhang",
+      "Jia-Yin He",
+      "Xing-Yu Li",
+      "Shi-Ping Zhao",
+      "Qiang Yuan"
+    ],
+    "categories": [
+      "astro-ph.HE",
+      "astro-ph.IM"
+    ],
+    "submitted_at": "2026-11-23T00:00:00Z",
+    "updated_at": "2026-11-25T11:05:50.539961Z",
+    "document_types": [
+      "article"
+    ],
+    "journal_ref": null,
+    "publication_info": [],
+    "citation_count": 0,
+    "citation_count_without_self_citations": 0,
+    "abs_url": "https://arxiv.org/abs/2611.30504v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.30504v1",
+    "inspire_url": "https://inspirehep.net/literature/3233308",
+    "is_update": false,
+    "source_provenance": [
+      {
+        "source": "arxiv",
+        "record_id": "2611.30504",
+        "fetched_at": "2026-11-28T04:34:59.905307Z",
+        "url": "https://arxiv.org/abs/2611.30504v1"
+      },
+      {
+        "source": "inspire",
+        "record_id": "3233308",
+        "fetched_at": "2026-11-28T04:34:59.905307Z",
+        "url": "https://inspirehep.net/literature/3233308"
+      }
+    ],
+    "is_demo": false
+  },
+  "filter_result": {
+    "schema_version": "1.0",
+    "passed": true,
+    "candidate_topics": [
+      "pta"
+    ],
+    "high_weight_hits": [
+      "timing residual",
+      "timing residuals"
+    ],
+    "medium_weight_hits": [],
+    "negative_hits": [],
+    "reasons": [],
+    "deterministic_score": 50
+  },
+  "decision": {
+    "schema_version": "1.0",
+    "relevant": false,
+    "primary_topic": "pta",
+    "secondary_topics": [],
+    "scores": {
+      "theory_depth": 6,
+      "methodological_rigor": 13,
+      "novelty": 9,
+      "clarity": 8,
+      "metadata_quality": 6,
+      "community_signal": 0,
+      "other": 6
+    },
+    "total_score": 48,
+    "reject_reason_zh": "该文是用对数正态到达时间似然对超高能伽马射线大气簇射进行方向重建的宇宙线/伽马天文方法研究，属于观测分析技术，与引力和宇宙学理论无关；其'timing residual'命中仅为大气簇射时间残差，与脉冲星计时阵列无关，主题标签ptA为误匹配。",
+    "selection_reason_zh": "",
+    "title_zh": "用于超高能伽马射线大气簇射方向重建的对数正态时间似然",
+    "abstract_zh": "超高能 $\\gamma$ 射线观测为银河系 PeVatron 提供了直接探测手段。将测量扩展到多 PeV 能量需要在大横向距离上刻画广延大气簇射，此时次级粒子的到达时间分布变得宽广且强烈非对称。常规的方向重建方法将簇射前锋近似为确定性曲面，并最小化时间残差的 $\\chi^2$ 函数。由于这隐含地假设了对称的高斯误差，远离轴线的计时信息利用不足。\\textsc{CORSIKA} 模拟表明，在给定横向距离处，簇射平面内 $\\gamma$ 诱导次级粒子的到达时间分布是正偏的，并紧密遵循对数正态函数。利用这一性质，我们发展了一种基于似然的方向重建方法，该方法直接对经验到达时间分布及其径向依赖建模，同时考虑多个粒子触发同一探测器单元。应用于模拟的 $\\gamma$ 诱导大气簇射时，对数正态似然相比圆锥和抛物波前拟合持续改进了角分辨率，对于跨越宽广横向范围的高能事件相对增益最大。我们还表明，对单个探测器单元进行独立读出比将其信号合并为单一站级测量能获得更好的角分辨率。",
+    "keywords_en": [
+      "ultra-high-energy gamma rays",
+      "extensive air showers",
+      "direction reconstruction",
+      "log-normal timing likelihood",
+      "angular resolution",
+      "CORSIKA simulations"
+    ],
+    "keywords_zh": [
+      "超高能伽马射线",
+      "广延大气簇射",
+      "方向重建",
+      "对数正态时间似然",
+      "角分辨率",
+      "CORSIKA 模拟"
+    ],
+    "translation_warning": "",
+    "model": "deepseek:deepseek-v4-flash",
+    "prompt_version": "curation-2026-11-13.1",
+    "schema_version_used": "curation-schema-1.0",
+    "created_at": "2026-11-28T04:36:00.090805Z"
+  },
+  "published_at": "2026-11-28T04:36:00.091632Z"
+}
