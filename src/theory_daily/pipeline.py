@@ -271,7 +271,7 @@ def update(
 
         staging = root / "work" / "dist-staging"
         build_site(root, load_published_papers(root), settings, topics, output=staging)
-        validation_errors = validate_dist(staging)
+        validation_errors = validate_dist(staging, expected_base_url=settings.site.base_url)
         if validation_errors:
             raise RuntimeError("静态输出验证失败：" + "; ".join(validation_errors))
         _publish_staging(root, staging)

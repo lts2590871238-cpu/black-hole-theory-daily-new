@@ -3,9 +3,12 @@ name: Update and deploy
 on:
   workflow_dispatch:
   schedule:
-    # Beijing 07:20 primary and 12:40 backup, expressed in UTC.
+    # Beijing 07:20 primary, plus staggered 09:50, 12:40 and 17:20 backups.
+    # GitHub may delay or skip scheduled runs; no cron time is guaranteed.
     - cron: "20 23 * * *"
+    - cron: "50 1 * * *"
     - cron: "40 4 * * *"
+    - cron: "20 9 * * *"
   push:
     branches: [main]
 
@@ -16,7 +19,7 @@ permissions:
 
 concurrency:
   group: pages-update-and-deploy
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update-and-build:
@@ -77,7 +80,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data
+          # Preserve curated papers, reusable LLM decisions and audit reports.
+          # Large raw fetch snapshots and rejected intermediate results are
+          # ephemeral, not new Git history on every scheduled run.
+          git add -A -- data/papers data/cache/llm data/review_queue data/state.json data/reports/*.json
+          git add -u -- data/raw data/normalized data/rejected
           if ! git diff --cached --quiet; then
             git commit -m "chore(data): daily update $(date -u +%F) [skip ci]"
             git push
@@ -148,3 +155,49 @@ jobs:
         id: deployment_retry_3
         if: ${{ steps.deployment_retry_2.outcome == 'failure' }}
         uses: actions/deploy-pages@v5
+      - name: Verify live site, feed and fresh data
+        env:
+          SITE_URL: https://lts2590871238-cpu.github.io/black-hole-theory-daily-new/
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import time
+          import urllib.request
+          from datetime import datetime, timezone
+
+          site = os.environ['SITE_URL']
+          for attempt in range(1, 9):
+              try:
+                  def get(path):
+                      request = urllib.request.Request(
+                          site + path, headers={'User-Agent': 'TheoryDaily-CI-Health/1.0'}
+                      )
+                      with urllib.request.urlopen(request, timeout=20) as response:
+                          if response.status != 200:
+                              raise RuntimeError(f'{path}: HTTP {response.status}')
+                          return response.read()
+
+                  homepage = get('index.html').decode('utf-8')
+                  if '黑洞与引力理论每日精选' not in homepage:
+                      raise RuntimeError('homepage title missing')
+                  papers = json.loads(get('papers.json'))
+                  if not papers.get('papers') or not papers.get('schema_version'):
+                      raise RuntimeError('published papers missing or invalid')
+                  timestamp = datetime.fromisoformat(
+                      papers['generated_at'].replace('Z', '+00:00')
+                  )
+                  age = (datetime.now(timezone.utc) - timestamp).total_seconds()
+                  if not -300 <= age <= 10800:
+                      raise RuntimeError(f'published data is stale: age={age:.0f}s')
+                  feed = get('feed.xml').decode('utf-8')
+                  if site.rstrip('/') + '/feed.xml' not in feed:
+                      raise RuntimeError('Atom feed link points at the wrong site')
+                  print(f'Live Pages health check passed on attempt {attempt}')
+                  break
+              except (OSError, KeyError, ValueError, RuntimeError) as exc:
+                  if attempt == 8:
+                      raise RuntimeError(f'Published website validation failed: {exc}') from exc
+                  print(f'Site not ready (attempt {attempt}/8): {exc}')
+                  time.sleep(10)
+          PY

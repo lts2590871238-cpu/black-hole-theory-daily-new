@@ -62,13 +62,13 @@ def main(argv: list[str] | None = None) -> int:
             collection = PaperCollection(generated_at=papers[0].published_at, papers=papers)
             write_json(root / "data" / "demo" / "papers.json", collection)
             output = build_site(root, papers, settings, topics, demo=True)
-            errors = validate_dist(output)
+            errors = validate_dist(output, expected_base_url=settings.site.base_url)
             if errors:
                 raise RuntimeError("演示站验证失败：" + "; ".join(errors))
             print(f"离线演示已生成：{output}（{len(papers)} 篇明确标记的虚构示例）")
             return 0
         if args.command == "validate":
-            errors = validate_dist(root / "dist")
+            errors = validate_dist(root / "dist", expected_base_url=settings.site.base_url)
             if errors:
                 print("静态输出验证失败：", file=sys.stderr)
                 for error in errors:

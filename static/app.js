@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const show = (!query || card.dataset.search.includes(query)) &&
         matchesDate(card.dataset.date) &&
         (!source.value || card.dataset.sources.includes(source.value)) &&
-        (!activeTopic || card.dataset.topic === activeTopic) &&
+        (!activeTopic || (card.dataset.topics || card.dataset.topic || "").split(/\s+/).includes(activeTopic)) &&
         Number(card.dataset.score) >= minimum;
       card.hidden = !show;
       if (show) visible += 1;

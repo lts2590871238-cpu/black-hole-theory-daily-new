@@ -44,6 +44,17 @@ def test_static_build_outputs_and_html_escaping(tmp_path: Path, settings, topics
     app_js = (output / "static" / "app.js").read_text(encoding="utf-8")
     assert "citation-token" in app_js
     assert "innerHTML" not in app_js
+    assert "card.dataset.topics" in app_js
+    assert "data-topics=" in html
+    from xml.etree import ElementTree as ET
+
+    atom = ET.parse(output / "feed.xml").getroot()
+    namespace = "{http://www.w3.org/2005/Atom}"
+    assert atom.findtext(f"{namespace}id") == settings.site.base_url
+    link = atom.find(f"{namespace}link[@rel='self']")
+    assert link is not None
+    assert link.get("href") == f"{settings.site.base_url}/feed.xml"
+    assert validate_dist(output, expected_base_url=settings.site.base_url) == []
     for relative in ("archive/index.html", "methodology/index.html", "feed.xml", "papers.json"):
         assert (output / relative).exists()
 
@@ -106,3 +117,25 @@ def test_home_archive_partition_rolls_with_beijing_day() -> None:
     assert cutoff == date(2026, 11, 4)
     assert len(recent) == 1
     assert len(archived) == 2
+
+
+def test_secondary_topic_is_searchable(tmp_path: Path, settings, topics) -> None:
+    paper = demo_papers()[0]
+    paper.decision.secondary_topics = ["palatini_gravity"]
+    output = build_site(
+        Path(__file__).parents[1],
+        [paper], settings, topics, output=tmp_path / "site", demo=True,
+    )
+    html = (output / "index.html").read_text(encoding="utf-8")
+    assert f'data-topics="{paper.decision.primary_topic} palatini_gravity"' in html
+
+
+def test_invalid_feed_url_is_rejected(tmp_path: Path, settings, topics) -> None:
+    output = build_site(
+        Path(__file__).parents[1],
+        demo_papers(), settings, topics, output=tmp_path / "site", demo=True,
+    )
+    errors = validate_dist(
+        output, expected_base_url="https://example.github.io/black-hole-theory-daily"
+    )
+    assert any("incorrect" in error or "example" in error for error in errors)
